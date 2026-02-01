@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <body>
+        <p id="nom">Chargement...</p>
+        <img id="img1" alt="Image 1"/>
+        <img id="img2" alt="Image 2"/>
+        <br>
+        <button onclick="Après(-1)">←</button>
+        <button onclick="Après(1)">→</button>
+        <br>
+        <button onclick="Après(-10)">-10</button>
+        <button onclick="Après(10)">+10</button>
+        <br>
+        <button onclick="Après(-100)">-100</button>
+        <button onclick="Après(100)">+100</button>
+    </body>
+
+    <script>
+        let page = 1;
+
+        function Après(taux) {
+            if (page+taux > 1) {
+                page+=taux;
+                ChangerPage();
+            }
+        }
+
+        async function ChangerPage() {
+            document.getElementById("img1").src = "data/picture/" + page + ".png";
+            document.getElementById("img2").src = "data/face/" + page + ".png";
+
+            try {
+                const response = await fetch("data/yokai_data/" + page + ".json");
+                const data = await response.json();
+                document.getElementById("nom").textContent = data.Nom + " • " + data.ID;
+            } catch (error) {
+                document.getElementById("nom").textContent = "Erreur de chargement";
+                console.error("Impossible de charger le JSON", error);
+            }
+        }
+
+        ChangerPage();
+    </script>
+    <style>
+        img{
+            height: 100px;
+        }
+    </style>
+</html>
