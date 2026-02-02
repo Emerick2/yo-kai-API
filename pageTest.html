@@ -1,57 +1,46 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <body>
-        <p id="nom">Chargement...</p>
+<head>
+    <meta charset="UTF-8">
+    <title>Yokai 3D Viewer</title>
+    <style>
+        body { font-family: sans-serif; background: #f0f0f0; margin: 20px; }
+        * { user-select: none; }
+        #nom { font-size: 1.5em; font-weight: bold; margin-bottom: 10px; user-select: text;}
+        img { border: 2px solid #ffffff00; height: 100px; margin-right: 10px; }
+        #container3D { width: 100%; height: 500px; background: #ff8b8b00; border-radius: 10px; margin-top: 15px; }
+        .btns { margin-top: 15px; }
+        button { padding: 10px 15px; cursor: pointer; font-size: 16px; }
+    </style>
+</head>
+<body>
+
+    <div id="nom">Chargement...</div>
+    <div id="display">
         <img id="img1" alt="Image 1"/>
         <img id="img2" alt="Image 2"/>
-        <br>
+    </div>
+
+    <div class="btns">
         <button onclick="Après(-1)">←</button>
-        <button onclick="Après(1)">→</button>
-        <br>
+        <button onclick="Après(1)">→</button><br>
         <button onclick="Après(-10)">-10</button>
-        <button onclick="Après(10)">+10</button>
-        <br>
+        <button onclick="Après(+10)">+10</button><br>
         <button onclick="Après(-100)">-100</button>
         <button onclick="Après(100)">+100</button>
-    </body>
+    </div>
+    
+    <div id="container3D"></div>
 
-    <script>
-        let page = 1;
-
-        function Après(taux) {
-            if (page+taux > 1) {
-                page+=taux;
-                ChangerPage();
-            }
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.150.1/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.150.1/examples/jsm/"
         }
-
-        async function ChangerPage() {
-            document.getElementById("img1").src = "data/picture/" + page + ".png";
-            document.getElementById("img2").src = "data/face/" + page + ".png";
-
-            try {
-                const response = await fetch("data/yokai_data/" + page + ".json");
-                const data = await response.json();
-                document.getElementById("nom").textContent = data.Nom + " • " + data.ID;
-            } catch (error) {
-                document.getElementById("nom").textContent = "Erreur de chargement";
-                console.error("Impossible de charger le JSON", error);
-            }
-        }
-
-        ChangerPage();
+    }
     </script>
-    <style>
-        * {
-            user-select: none;
-        }
-        #nom{
-            user-select:text;
-        }
-        img{
-            border: solid 1px;
-            height: 100px;
-            min-height: 100px;
-        }
-    </style>
+
+    <script src="ChangerPage.js" type="module"> </script>
+</body>
 </html>
