@@ -6,6 +6,7 @@ const listeModele = ["","y001000","y001800_p00","y101000","y102000","y102010","y
 
 
 let page = 1;
+let lastAudio = null;
 const chaineSave = localStorage.getItem(saveKey);    
 if (chaineSave) {
     page = JSON.parse(chaineSave);
@@ -48,6 +49,17 @@ function init3D() {
 }
 
 async function ChangerPage() {
+    const audio = new Audio('data/song/'+page+'.wav');
+    if (lastAudio) {
+        lastAudio.pause();
+        lastAudio.currentTime = 0;
+    }
+
+    if (audio) {
+        lastAudio = audio; 
+        audio.play();
+    }
+
     const i1 = document.getElementById("img1");
     const i2 = document.getElementById("img2");
     const n = document.getElementById("nom");
