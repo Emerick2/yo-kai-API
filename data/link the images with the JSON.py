@@ -19,18 +19,18 @@ if os.path.exists(output_dir):
             yokai_id = data.get('ID')
             data['image_url'] = f"{lien}picture/{yokai_id}.png"
             
-            if 'Rang_E' in data:
-                data['E'] = data.pop('Rang_E')
-            if 'Rang_D' in data:
-                data['D'] = data.pop('Rang_D')
-            if 'Rang_C' in data:
-                data['C'] = data.pop('Rang_C')
-            if 'Rang_B' in data:
-                data['B'] = data.pop('Rang_B')
-            if 'Rang_A' in data:
-                data['A'] = data.pop('Rang_A')
-            if 'Rang_S' in data:
-                data['S'] = data.pop('Rang_S')
+            if 'E' in data:
+                data['E'] = data.pop('E')
+            if 'D' in data:
+                data['D'] = data.pop('D')
+            if 'C' in data:
+                data['C'] = data.pop('C')
+            if 'B' in data:
+                data['B'] = data.pop('B')
+            if 'A' in data:
+                data['A'] = data.pop('A')
+            if 'S' in data:
+                data['S'] = data.pop('S')
 
             with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=4, ensure_ascii=False)
