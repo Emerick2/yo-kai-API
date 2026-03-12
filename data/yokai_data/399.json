@@ -22,5 +22,187 @@
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/data/picture/399.png"
+    "image_url": "https://emerick2.github.io/yo-kai-API/data/picture/399.png",
+    "numero": "386",
+    "nourriture_favorite": "Sucrerie",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Sirop",
+            "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Plaquage absolu",
+            "effet": "15 | 67"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Guérison",
+            "effet": "20 | 90"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Bel cannto",
+            "effet": "Remonte le moral des troupes et restaure les PV. 120 | 120"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Petite douceur",
+            "effet": "Le Yo-kai récupère lentement ses PV grâce à la canne à sucre."
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "J'en ai le sourire !",
+        "A mangé quelque chose de fade": "C'est pas mal.",
+        "A mangé quelque chose de mauvais": "Inacceptable.",
+        "A la flemme": "Je renonce...",
+        "Est échangé": "Bonjour, toi ! Content de te voir ! Je suis vraiment content.",
+        "Se lie d'amitié": "Vraiment marrant ! Soyons amis !"
+    },
+    "evolutions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Lacanne",
+            "parent2": "Hibiscus rouge",
+            "resultat": "Canastelle",
+            "critere": "➨"
+        }
+    ],
+    "image_locale": "",
+    "nom_original": "ウキウキビ",
+    "nom_anglais": "Happycane",
+    "premiere_apparition": "Yo-kai Watch 2",
+    "voix": {
+        "japonaise": "Etsuko Kozakura",
+        "francaise": "Inconnue"
+    },
+    "localisations": {
+        "Yo-kai Watch 2 :[]": [
+            "Bingo-kai-Pièce des îles"
+        ],
+        "Yo-kai Watch Blasters :[]": [
+            "Bingo-kai - Pièce des îles"
+        ],
+        "Yo-kai Watch 3 :[]": [
+            "Gare de Verteplaines- buissons"
+        ]
+    },
+    "rarite": "Rare",
+    "tribu_yw4": "N/A",
+    "attaques_par_jeu": {
+        "Yo-kai Watch 2": [
+            {
+                "type": "Attaque",
+                "nom": "Plaquage absolu",
+                "puissance": "15|67",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Guérison",
+                "puissance": "20|90",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Bel cannto",
+                "puissance": "120|120",
+                "description": "Remonte le moral des troupes et restaure les PV."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Petite douceur",
+                "puissance": "N/A",
+                "description": "Le Yo-kai récupère lentement ses PV grâce à la canne à sucre."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Sirop",
+                "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+            }
+        ],
+        "Yo-kai Watch Blasters": [
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Bel cannto",
+                "puissance": "400",
+                "description": "Alliés retrouvent beaucoup de PV."
+            },
+            {
+                "type": "Technique 1",
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
+            },
+            {
+                "type": "Technique 2",
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique à acquérir 1",
+                "nom": "Boost de défense",
+                "puissance": "___",
+                "description": "Hausse DÉF. des alliés. Charger élargit l'effet."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Envoût guérisseur",
+                "puissance": "___",
+                "description": "Hausse lente des PV alliés. Charger élargit l'effet."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Bonne mine",
+                "description": "Tes PV sont restaurés graduellement."
+            }
+        ],
+        "Yo-kai Watch 3": [
+            {
+                "type": "Attaque",
+                "nom": "Plaquage absolu",
+                "puissance": "20|70",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Restauration",
+                "puissance": "30|105",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Bel cannto",
+                "puissance": "60|180",
+                "description": "Remonte le moral des troupes et restaure les PV."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Petite douceur",
+                "puissance": "N/A",
+                "description": "Le Yo-kai récupère des PV grâce à la saveur de la canne à sucre."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Sirop",
+                "description": "Rend peu à peu des PV à tous les alliés reliés."
+            }
+        ]
+    },
+    "soul_effects": null,
+    "drops": {},
+    "special_talent": {
+        "nom": "Sirop",
+        "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+    }
 }
