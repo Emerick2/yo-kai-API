@@ -1,12 +1,23 @@
 import json
 import os
 import sys
+import re
+import unicodedata
 
 # --- CONFIGURATION LA REQUÊTE ---
-DOSSIER_DATA = "../yokai_data"
-NOM_FICHIER_CIBLE = "yo-kai-tribue-Sinistre.json"
-CRITERE = "Tribue"
-VALEUR = "Sinistre"
+listeNouritureFavorite = ["Riz", "Pizza", "Tempura", "Pain", "Ramen", "Chocolat", "Hot dog", "Sukiyaki", "Légumes", "Viande", "Bonbons", "Cuisine chinoise", "Douceurs", "Hamburger", "Jus", "Soba", "Oden", "Curry", "Donut", "Fruits de Mer", "Encas", "Super méga barre", "Lait", "Pasta", "Sushi", "Crème Glacée"]
+listeNomTribue = ["Mignon", "Mystérieux", "Bienveillant", "Costaud", "Vaillant", "Insaisissable", "Sombre", "Sinistre"]
+listeRang = ["S", "A", "B", "C", "D", "E"]
+
+def make_an_url(valeur):
+    valeur = unicodedata.normalize('NFD', str(valeur))
+    valeur = re.sub(r'[\u0300-\u036f]', '', valeur)
+    valeur = valeur.lower().strip()
+    valeur = re.sub(r'\s+', '-', valeur)
+    valeur = re.sub(r'[^\w\-]+', '', valeur)
+    valeur = re.sub(r'--+', '-', valeur)
+    return valeur
+
 
 def Ecrire(message):
     """Affiche un message sur une seule ligne en effaçant la précédente."""
@@ -42,4 +53,21 @@ def filtrer_yokai(dossier_source, fichier_destination, cle_critere, valeur_atten
     print(f"Total : {len(resultats)} IDs de Yo-kai (Rang {valeur_attendue}) enregistrés dans {fichier_destination}.")
 
 if __name__ == "__main__":
-    filtrer_yokai(DOSSIER_DATA, NOM_FICHIER_CIBLE, CRITERE, VALEUR)
+    DOSSIER_DATA = "../yokai_data"
+    for i in range(0,len(listeNomTribue)):
+        NOM_FICHIER_CIBLE = "yo-kai-tribue-"+listeNomTribue[i]+".json"
+        CRITERE = "Tribue"
+        VALEUR = listeNomTribue[i]
+        filtrer_yokai(DOSSIER_DATA, NOM_FICHIER_CIBLE, CRITERE, VALEUR)
+
+    for i in range(0,len(listeRang)):
+        NOM_FICHIER_CIBLE = "yo-kai-rang-"+listeRang[i]+".json"
+        CRITERE = "Rang"
+        VALEUR = listeRang[i]
+        filtrer_yokai(DOSSIER_DATA, NOM_FICHIER_CIBLE, CRITERE, VALEUR)
+
+    for i in range(0,len(listeNouritureFavorite)):
+        NOM_FICHIER_CIBLE = "yo-kai-food-"+listeNouritureFavorite[i]+".json"
+        CRITERE = "nourriture"
+        VALEUR = listeNouritureFavorite[i]
+        filtrer_yokai(DOSSIER_DATA, NOM_FICHIER_CIBLE, CRITERE, VALEUR)
