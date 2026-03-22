@@ -5,7 +5,7 @@ import re
 import unicodedata
 
 # --- CONFIGURATION LA REQUÊTE ---
-listeNouritureFavorite = ["Riz", "Pizza", "Tempura", "Pain", "Ramen", "Chocolat", "Hot dog", "Sukiyaki", "Légumes", "Viande", "Bonbons", "Cuisine chinoise", "Douceurs", "Hamburger", "Jus", "Soba", "Oden", "Curry", "Donut", "Fruits de Mer", "Encas", "Super méga barre", "Lait", "Pasta", "Sushi", "Crème Glacée"]
+listeNouritureFavorite = ["Riz", "Pizza", "Tempura", "Pain", "Ramen", "Chocolat", "Hot dog", "Sukiyaki", "Légumes", "Viande", "Bonbons", "Cuisine chinoise", "Douceurs", "Hamburger", "Jus", "Soba", "Oden", "Curry", "Donut", "Fruits de Mer", "Encas", "Super méga barre", "Lait", "Pâtes", "Sushi", "Crème Glacée"]
 listeNomTribue = ["Mignon", "Mystérieux", "Bienveillant", "Costaud", "Vaillant", "Insaisissable", "Sombre", "Sinistre"]
 listeRang = ["S", "A", "B", "C", "D", "E"]
 
@@ -67,7 +67,7 @@ if __name__ == "__main__":
         filtrer_yokai(DOSSIER_DATA, NOM_FICHIER_CIBLE, CRITERE, VALEUR)
 
     for i in range(0,len(listeNouritureFavorite)):
-        NOM_FICHIER_CIBLE = "yo-kai-food-"+listeNouritureFavorite[i]+".json"
+        NOM_FICHIER_CIBLE = "yo-kai-food-"+make_an_url(listeNouritureFavorite[i])+".json"
         CRITERE = "nourriture"
         VALEUR = listeNouritureFavorite[i]
         filtrer_yokai(DOSSIER_DATA, NOM_FICHIER_CIBLE, CRITERE, VALEUR)
