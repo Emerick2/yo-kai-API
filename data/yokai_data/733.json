@@ -1,17 +1,17 @@
 {
     "ID": "733",
     "Nom": "Caricatcheur",
-    "Tribue": "",
-    "Rang": "",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
+    "Tribue": "Vaillant",
+    "Rang": "B",
+    "PV": "388",
+    "Force": "225",
+    "Esprit": "43",
+    "Défense": "157",
+    "Vitesse": "138",
     "Description": "",
     "description SITE": "",
     "élément": "Terre",
-    "Rôle": "",
+    "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -43,9 +43,80 @@
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
-    "drops": {},
-    "special_talent": null,
+    "drops": {
+        "YW1": [
+            {
+                "taux": "?%",
+                "objet": "Grand EXPorbe"
+            },
+            {
+                "taux": "?%",
+                "objet": "Mélasse"
+            }
+        ],
+        "YW2": [
+            {
+                "taux": "?%",
+                "objet": "Grand EXPorbe"
+            },
+            {
+                "taux": "?%",
+                "objet": "Mélasse"
+            }
+        ],
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "Staminum alpha"
+            },
+            {
+                "taux": "?%",
+                "objet": "Pousse de bambou"
+            }
+        ]
+    },
+    "special_talent": {
+        "nom": "Grand sérieux",
+        "description": "Ne flânera jamais."
+    },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/733.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/733.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/733.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/733.wav",
+    "nourriture": "Légumes",
+    "nourriture_favorite": "Légume",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Grand sérieux",
+            "effet": "Ne flânera jamais."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Poing un-deux",
+            "effet": "15x2 | 33x2"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Galet",
+            "effet": "20 | 90"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Pince néfaste",
+            "effet": "Pince ses ennemis avec euh... ses pinces quoi. 110 | 242"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Scaraforce",
+            "effet": "Augmente la FOR. d'un allié grâce au pouvoir du scarabée."
+        }
+    ],
+    "phrases_nourriture": {
+        "Mange de la bonne nourriture": "Ça, c'est manger !",
+        "Mange de la nourriture insipide": "Assez banal.",
+        "Mange de la mauvaise nourriture": "Je déteste ça !",
+        "A la flemme": "Hmm...",
+        "Est échangé": "Tu n'as pas l'air d'avoir peur de combattre. Ravi de te rencontrer !",
+        "Devient ton ami": "Quel combat endiablé ! Je serais ravi de devenir ton allié !"
+    }
 }

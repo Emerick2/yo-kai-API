@@ -1,17 +1,17 @@
 {
     "ID": "759",
     "Nom": "Wakopira",
-    "Tribue": "",
-    "Rang": "",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
+    "Tribue": "Bienveillant",
+    "Rang": "E",
+    "PV": "363",
+    "Force": "50",
+    "Esprit": "178",
+    "Défense": "100",
+    "Vitesse": "140",
     "Description": "",
     "description SITE": "",
     "élément": "Restauration",
-    "Rôle": "",
+    "Rôle": "Guérisseur",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -41,11 +41,188 @@
     "fusions": [],
     "rarite": "Commun",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
+    "attaques_par_jeu": {
+        "Yo-kai Watch": [
+            {
+                "type": "Attaque",
+                "nom": "Gifle",
+                "puissance": "10|45",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Guérison",
+                "puissance": "20|90",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Sublime samba",
+                "puissance": "___",
+                "description": "Danse un mambo pour rendre ses alliés plus rapides."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Élixir de kombu",
+                "puissance": "N/A",
+                "description": "Renforce la DÉF. d'un allié grâce au pouvoir des algues."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Corps vif",
+                "description": "Esquive les attaques avec brio !"
+            }
+        ],
+        "Yo-kai Watch 2": [
+            {
+                "type": "Attaque",
+                "nom": "Gifle",
+                "puissance": "10|45",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Guérison",
+                "puissance": "20|90",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Sublime samba",
+                "puissance": "___",
+                "description": "Danse la samba pour rendre ses alliés plus rapides."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Élixir de kombu",
+                "puissance": "N/A",
+                "description": "Renforce la DÉF. d'un allié grâce au pouvoir des algues."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Corps vif",
+                "description": "Esquive les attaques avec brio !"
+            }
+        ],
+        "Yo-kai Watch Blasters": [
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Sublime Samba",
+                "puissance": "___",
+                "description": "Augmentation temporaire de la vitesse des alliés à proximité."
+            },
+            {
+                "type": "Technique 1",
+                "nom": "Torrent",
+                "puissance": "40",
+                "description": "Utilise un sort d'eau. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique 2",
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique à acquérir 1",
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Boost de défense +",
+                "puissance": "___",
+                "description": "Hausse DÉF. des alliés. Charger élargit l'effet."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Turbo",
+                "description": "Hausse de la FOR. pour tous les alliés."
+            }
+        ],
+        "Yo-kai Watch 3": [
+            {
+                "type": "Attaque",
+                "nom": "Gifle",
+                "puissance": "30|105",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Restauration",
+                "puissance": "30|105",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Sublime samba",
+                "puissance": "___",
+                "description": "Danse la samba pour rendre ses alliés beaucoup plus rapides."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Élixir de kombu",
+                "puissance": "N/A",
+                "description": "Utilise des algues pour augmenter fortement la DÉF. d'un allié."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Corps vif",
+                "description": "Esquive les attaques avec brio !"
+            }
+        ]
+    },
     "soul_effects": null,
     "drops": {},
-    "special_talent": null,
+    "special_talent": {
+        "nom": "Corps vif",
+        "description": "Esquive les attaques avec brio !"
+    },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/759.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/759.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/759.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/759.wav",
+    "nourriture": "Ramen",
+    "nourriture_favorite": "Ramen",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Corps vif",
+            "effet": "Esquive les attaques avec brio !"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Gifle",
+            "effet": "10 | 45"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Guérison",
+            "effet": "20 | 90"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Sublime samba",
+            "effet": "Danse la samba pour rendre ses alliés plus rapides."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Élixir de kombu",
+            "effet": "Renforce la DÉF. d'un allié grâce au pouvoir des algues."
+        }
+    ],
+    "phrases_nourriture": {
+        "Mange de la bonne nourriture": "Je danse de joie !",
+        "Mange de la nourriture insipide": "Hmm. Pas mal.",
+        "Mange de la mauvaise nourriture": "C'est HORRIBLE !",
+        "A la flemme": "Plus ici...",
+        "Est échangé": "J'espère quand même que tu danseras mieux que ne le fait ... !",
+        "Devient ton ami": "Devenons amis ! J'ai l'impression que tu as le sens du rythme."
+    }
 }

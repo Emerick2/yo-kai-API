@@ -1,17 +1,17 @@
 {
     "ID": "728",
     "Nom": "Suimoche",
-    "Tribue": "",
-    "Rang": "",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
+    "Tribue": "Vaillant",
+    "Rang": "D",
+    "PV": "382",
+    "Force": "210",
+    "Esprit": "75",
+    "Défense": "142",
+    "Vitesse": "40",
     "Description": "",
     "description SITE": "",
     "élément": "Terre",
-    "Rôle": "",
+    "Rôle": "Tank",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -45,9 +45,80 @@
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
-    "drops": {},
-    "special_talent": null,
+    "drops": {
+        "YW1": [
+            {
+                "taux": "5%",
+                "objet": "Vivez Karaté"
+            },
+            {
+                "taux": "35%",
+                "objet": "Staminum"
+            }
+        ],
+        "YW2": [
+            {
+                "taux": "6%",
+                "objet": "Vivez Karaté"
+            },
+            {
+                "taux": "40%",
+                "objet": "Staminum"
+            }
+        ],
+        "YW3": [
+            {
+                "taux": "4%",
+                "objet": "Vivez Karaté"
+            },
+            {
+                "taux": "14%",
+                "objet": "Riz à la prune"
+            }
+        ]
+    },
+    "special_talent": {
+        "nom": "Peau rebondie",
+        "description": "Augmente sa défense si gros dégâts reçus."
+    },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/728.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/728.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/728.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/728.wav",
+    "nourriture": "Riz",
+    "nourriture_favorite": "Riz",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Peau rebondie",
+            "effet": "Augmente sa défense si gros dégâts reçus."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Poing puissant",
+            "effet": "50 | 110"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Feu",
+            "effet": "20 | 90"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Poing minochi",
+            "effet": "Gonfle et donne un vilain coup de poing à un adversaire. 120 | 180"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Jalousie",
+            "effet": "L'ennemi devient si jaloux de ses alliés qu'il a envie de les attaquer."
+        }
+    ],
+    "phrases_nourriture": {
+        "Mange de la bonne nourriture": "Je suis plus fort !",
+        "Mange de la nourriture insipide": "Ça devrait aller.",
+        "Mange de la mauvaise nourriture": "Enlevez-moi ça !",
+        "A la flemme": "Je suis fatigué.",
+        "Est échangé": "Amis ? Sans problème ! Maintenant, ce ne sera que toi et moi.",
+        "Devient ton ami": "Tu es tellement incroyable, c'est pas juste ! On ferait mieux de devenir amis !"
+    }
 }

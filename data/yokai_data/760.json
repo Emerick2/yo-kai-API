@@ -1,17 +1,17 @@
 {
     "ID": "760",
     "Nom": "Piflou",
-    "Tribue": "",
-    "Rang": "",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
+    "Tribue": "Mignon",
+    "Rang": "C",
+    "PV": "370",
+    "Force": "83",
+    "Esprit": "191",
+    "Défense": "114",
+    "Vitesse": "134",
     "Description": "",
     "description SITE": "",
     "élément": "Restauration",
-    "Rôle": "",
+    "Rôle": "Guérisseur",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -43,11 +43,187 @@
     "fusions": [],
     "rarite": "Commun",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
+    "attaques_par_jeu": {
+        "Yo-kai Watch 2": [
+            {
+                "type": "Attaque",
+                "nom": "Morsure",
+                "puissance": "15|67",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Restauration",
+                "puissance": "50|110",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Corde sensible",
+                "puissance": "90|90",
+                "description": "Fait battre les cœurs de ses alliés et restaure leurs PV. Trop mignon !"
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Cœur chaviré",
+                "puissance": "N/A",
+                "description": "Fait chavirer le cœur d'un allié et restaure graduellement ses PV."
+            },
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "N/A",
+                "description": "Déclenche une attaque à courte portée."
+            },
+            {
+                "type": "Attaque X",
+                "nom": "Restauration",
+                "puissance": "N/A",
+                "description": "Rend des PV à un Yo-kai. Charge automatiquement."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Sympathie",
+                "description": "Incite plus d'ennemis à devenir tes amis."
+            }
+        ],
+        "Yo-kai Watch Blasters": [
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Corde sensible",
+                "puissance": "___",
+                "description": "Restauration lente des PV des alliés proches."
+            },
+            {
+                "type": "Technique 1",
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique 2",
+                "nom": "Envoût guérisseur",
+                "puissance": "___",
+                "description": "Hausse lente des PV alliés. Charger élargit l'effet."
+            },
+            {
+                "type": "Technique à acquérir 1",
+                "nom": "Cercle guérisseur",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger élargit l'effet."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Sympathie",
+                "description": "Amitié plus probable avec les ennemis."
+            }
+        ],
+        "Yo-kai Watch 3": [
+            {
+                "type": "Attaque",
+                "nom": "Morsure",
+                "puissance": "30|105",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Restauration",
+                "puissance": "50|110",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Corde sensible",
+                "puissance": "90|180",
+                "description": "Fait battre les cœurs de ses alliés et restaure leurs PV. Trop mignon !"
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Cœur chaviré",
+                "puissance": "N/A",
+                "description": "Fait chavirer le cœur d'un allié et restaure peu à peu ses PV."
+            },
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque un ennemi proche."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Corde sensible",
+                "puissance": "___",
+                "description": "Rend rapidement des PV aux alliés proches."
+            },
+            {
+                "type": "Attaque X",
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. PV rendus + si chargé."
+            },
+            {
+                "type": "Attaque Y",
+                "nom": "Envoût guérisseur",
+                "puissance": "___",
+                "description": "Rend des PV à un allié. PV rendus + si chargé."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Sympathie",
+                "description": "Améliore les chances de devenir ami avec un ennemi."
+            }
+        ]
+    },
     "soul_effects": null,
     "drops": {},
-    "special_talent": null,
+    "special_talent": {
+        "nom": "Sympathie",
+        "description": "Incite plus d'ennemis à devenir tes amis."
+    },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/760.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/760.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/760.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/760.wav",
+    "nourriture": "Hamburger",
+    "nourriture_favorite": "Hamburger",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Sympathie",
+            "effet": "Incite plus d'ennemis à devenir tes amis."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Morsure",
+            "effet": "15 | 67"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Restauration",
+            "effet": "50 | 110"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Corde sensible",
+            "effet": "Fait battre les cœurs de ses alliés et restaure leurs PV. Trop mignon ! 90 | 90"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Cœur chaviré",
+            "effet": "Fait chavirer le cœur d'un allié et restaure graduellement ses PV."
+        }
+    ],
+    "phrases_nourriture": {
+        "Mange de la bonne nourriture": "C'est crop bon !",
+        "Mange de la nourriture insipide": "Merki !",
+        "Mange de la mauvaise nourriture": "Tu plaisantes ?!",
+        "A la flemme": "Euh...",
+        "Est échangé": "C'est la première fois que je te vois, mais tu as déjà gagné mon cœur.",
+        "Devient ton ami": "Devenons amis."
+    }
 }

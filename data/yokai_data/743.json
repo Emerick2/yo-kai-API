@@ -1,17 +1,17 @@
 {
     "ID": "743",
     "Nom": "Clonéroptère",
-    "Tribue": "",
-    "Rang": "",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
+    "Tribue": "Costaud",
+    "Rang": "B",
+    "PV": "452",
+    "Force": "124",
+    "Esprit": "66",
+    "Défense": "228",
+    "Vitesse": "86",
     "Description": "",
     "description SITE": "",
     "élément": "Terre",
-    "Rôle": "",
+    "Rôle": "Tank",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -43,9 +43,80 @@
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
-    "drops": {},
-    "special_talent": null,
+    "drops": {
+        "YW1": [
+            {
+                "taux": "?%",
+                "objet": "Amulette armure"
+            },
+            {
+                "taux": "?%",
+                "objet": "Mélasse"
+            }
+        ],
+        "YW2": [
+            {
+                "taux": "?%",
+                "objet": "Amulette armure"
+            },
+            {
+                "taux": "?%",
+                "objet": "Mélasse"
+            }
+        ],
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "Tout sur la défense"
+            },
+            {
+                "taux": "?%",
+                "objet": "Concombre"
+            }
+        ]
+    },
+    "special_talent": {
+        "nom": "Brise-garde",
+        "description": "N'est pas affecté par la défense adverse."
+    },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/743.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/743.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/743.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/743.wav",
+    "nourriture": "Légumes",
+    "nourriture_favorite": "Légume",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Brise-garde",
+            "effet": "N'est pas affecté par la défense adverse."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Tour complet",
+            "effet": "80 | 120"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Éboulement",
+            "effet": "50 | 110"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Corne rageuse",
+            "effet": "Cogne un ennemi avec sa précieuse corne et inflige des dégâts importants. 160 | 240"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Rhinocéforce",
+            "effet": "Donne à un allié toute la FOR. d'un scarabée rhinocéros."
+        }
+    ],
+    "phrases_nourriture": {
+        "Mange de la bonne nourriture": "Y en a encore ?",
+        "Mange de la nourriture insipide": "*mastique*",
+        "Mange de la mauvaise nourriture": "Peuh...",
+        "A la flemme": "Je suis fatigué.",
+        "Est échangé": "Je n'ai pas de plainte à formuler quant à notre amitié. Enchanté !",
+        "Devient ton ami": "Ça c'est de l'adversaire ! Je te suivrai dans tous tes combats avec plaisir !"
+    }
 }
