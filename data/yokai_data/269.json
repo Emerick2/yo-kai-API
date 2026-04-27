@@ -1,91 +1,91 @@
 {
     "ID": "269",
-    "Nom": "Charivari",
-    "Tribue": "Costaud",
+    "Nom": "Carnanova",
+    "Tribue": "Sombre",
     "Rang": "B",
-    "PV": "400",
-    "Force": "204",
-    "Esprit": "53",
-    "Défense": "198",
-    "Vitesse": "111",
-    "Description": "Ce char se dirigeait vers l'ennemi, mais il s'est perdu. Au moins, on sait qu'il a un bon fond.",
-    "nourriture": "Riz",
-    "élément": "Terre",
-    "Rôle": "Tank",
+    "PV": "407",
+    "Force": "210",
+    "Esprit": "45",
+    "Défense": "149",
+    "Vitesse": "158",
+    "Description": "Ce Yo-kai sanguin utilise son bronzage, ses boucles dorées et ses bons mots pour séduire les dames.",
+    "description SITE": "Ce Yo-kai sanguin utilise son bronzage, ses boucles dorés et ses bons mots pour séduire les dames.",
+    "nourriture": "Viande",
+    "élément": "Feu",
+    "Rôle": "Ranger",
     "Biographie": "",
-    "étimologie": "",
+    "étimologie": "Carnanova vient de Casanova (homme qui enchaîne les conquêtes amoureuses) et de Carnivore (qui se nourrit principalement de viande).",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Charivari peut donner à n’importe quel ennemi l’impression d’être perdu et confus. Dans l’anime, il peut faire en sorte que n’importe qui se distrait vers autre chose que ce qu’il essaie de faire.",
-    "personnalité": "Dans le dessin animé, il pense que c’est son « devoir » de distraire les autres.",
+    "pouvoir": "",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/269.png",
-    "numero": "091",
-    "nourriture_favorite": "Riz",
+    "numero": "210",
+    "nourriture_favorite": "Viande",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Coup de canon",
-            "effet": "Change l'attaque normale en attaque de terre."
+            "nom": "Carnivaura",
+            "effet": "Tous les Yo-kai trouvent plus facile d'attaquer."
         },
         {
             "type": "Attaque",
-            "nom": "Feu à volonté",
+            "nom": "Coup retourné",
+            "effet": "60 | 90"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Incendie",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Éboulement",
-            "effet": "50 | 110"
+            "nom": "Fringance",
+            "effet": "Une aura d'entrain et de vitalité fait augmenter l'attaque des alliés."
         },
         {
             "type": "Attaque",
-            "nom": "Charpie",
-            "effet": "Tire un grand coup de canon qui frappe un seul ennemi. 170 | 255"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tireur fou",
-            "effet": "Le Yo-kai est hors de contrôle et attaque ses alliés."
+            "nom": "Coup de sang",
+            "effet": "Le Yo-kai mange trop de viande, ce qui augmente énormément sa FOR."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "C'est super bon !",
-        "A mangé quelque chose de fade": "Ça passe.",
-        "A mangé quelque chose de mauvais": "Grrr !!!",
-        "A la flemme": "Je reviens vite...",
-        "Est échangé": "J'ai dû me tromper de route... Les canons font de mauvaises boussoles.",
-        "Se lie d'amitié": "Quelque chose me dit que si je te suis, je resterai sur le droit chemin."
+        "A mangé quelque chose de bon": "C'est le top !",
+        "A mangé quelque chose de fade": "Pas mal...",
+        "A mangé quelque chose de mauvais": "Je n'aime pas.",
+        "A la flemme": "Je n'en peux plus.",
+        "Est échangé": "On se rencontre enfin... J'ai entendu tellement de choses à ton sujet.",
+        "Se lie d'amitié": "Soyons amis, et on pourra se créer de délicieux souvenirs ensemble !"
     },
     "evolutions": [],
     "fusions": [
         {
             "type": "Fusion",
             "contexte": "Général",
-            "parent1": "Égare-dare",
-            "parent2": "Bouldacier",
-            "resultat": "Charivari",
+            "parent1": "Herbert",
+            "parent2": "Feulion",
+            "resultat": "Carnanova",
             "critere": "➨"
         }
     ],
     "image_locale": "",
-    "nom_original": "迷い車",
-    "nom_anglais": "Mistank",
+    "nom_original": "肉くいおとこ",
+    "nom_anglais": "Carniboy",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Frédéric Souterelle"
+        "francaise": "Inconnue"
     },
     "localisations": {
         "ykw2": [
-            "Exclusif à Esprits Farceurs",
             "Fusion"
         ],
         "ykw-Blasters": [
-            "Exclusif au Peloton du chat rouge",
-            "Fusion"
+            "Fusion",
+            "Patrouille -Coteau fleuri"
         ],
         "ykw3": [
             "Fusion"
@@ -97,44 +97,32 @@
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Feu à volonté",
-                "puissance": "50|110",
+                "nom": "Coup retourné",
+                "puissance": "60|90",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Éboulement",
+                "nom": "Incendie",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Charpie",
-                "puissance": "170|255",
-                "description": "Tire un grand coup de canon et frappe un seul ennemi."
+                "nom": "Fringance",
+                "puissance": "___",
+                "description": "Une aura d'entrain et de vitalité fait augmenter l'attaque des alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Tireur fou",
+                "nom": "Coup de sang",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est hors de contrôle et attaque ses alliés."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
+                "description": "Le Yo-kai mange trop de viande, ce qui augmente énormément sa FOR."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Coup de canon",
-                "description": "Change l'attaque normale en attaque de terre."
+                "nom": "Talent : Carnivaura",
+                "description": "Tous les Yo-kai trouvent plus facile d'attaquer."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -146,124 +134,80 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Charpie",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
+                "nom": "Fringance",
+                "puissance": "___",
+                "description": "Augm. temporaire de l'att. des alliés à proximité."
             },
             {
                 "type": "Technique 1",
-                "nom": "Déblindage",
-                "puissance": "80",
-                "description": "Baisse temporaire DÉF. des ennemis touchés."
+                "nom": "Attaque puissante",
+                "puissance": "400",
+                "description": "Rassemble ta force en une seule attaque."
             },
             {
                 "type": "Technique 2",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
+                "nom": "Démolibombe",
+                "puissance": "500",
+                "description": "Une bombe explose sur les ennemis et les alliés."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Armure",
+                "nom": "Âmunisé",
                 "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
+                "description": "Esquive rapidement l'attaque ennemie."
             },
             {
                 "type": "Technique à acquérir 2",
-                "nom": "Champ de force",
-                "puissance": "___",
-                "description": "Hausse temporaire de la protection des alliés."
+                "nom": "Feu",
+                "puissance": "40",
+                "description": "Utilise un sort de feu. Charger renforce l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Délit de fuite",
-                "description": "Hausse VIT. si attaqué (cumulable), jusqu'à la fin des attaques."
+                "nom": "Talent : Adrénaline",
+                "description": "Hausse ATT. temporaire après défaite ennemie."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Feu à volonté",
-                "puissance": "60|132",
+                "nom": "Coup retourné",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Éboulement",
+                "nom": "Incendie",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Charpie",
-                "puissance": "140|280",
-                "description": "Se sert d'un canon pour attaquer pour attaquer les ennemis à portée, tout en flânant."
+                "nom": "Fringance",
+                "puissance": "___",
+                "description": "Une aura d'entrain et de vitalité augmente fortement l'attaque des alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Tireur fou",
+                "nom": "Coup de sang",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est hors de contrôle et attaque parfois ses alliés."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Charpie",
-                "puissance": "400",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Déblindage",
-                "puissance": "80",
-                "description": "Fait chuter la DÉF. d’un ennemi pendant un instant."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi, attirant ainsi son attention."
+                "description": "Le Yo-kai mange de la viande, ce qui augmente sa FOR."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Coup de canon",
-                "description": "Change l'attaque normale en attaque de terre."
+                "nom": "Talent : Carnivaura",
+                "description": "Tous les Yo-kai ont plus de difficultés pour attaquer."
             }
         ]
     },
     "soul_effects": null,
-    "drops": {
-        "YW2": [
-            {
-                "taux": "?%",
-                "objet": "Amulette armure"
-            },
-            {
-                "taux": "?%",
-                "objet": "Poupée de fer"
-            }
-        ],
-        "YW3": [
-            {
-                "taux": "?%",
-                "objet": "Secrets de l'âme"
-            },
-            {
-                "taux": "?%",
-                "objet": "Riz œufs saumon"
-            }
-        ]
-    },
+    "drops": {},
     "special_talent": {
-        "nom": "Coup de canon",
-        "description": "Change l'attaque normale en attaque de terre."
+        "nom": "Carnivaura",
+        "description": "Tous les Yo-kai trouvent plus facile d'attaquer."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/269.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/269.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/269.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/269.wav",
+    "oldID": "273"
 }

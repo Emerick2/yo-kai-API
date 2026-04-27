@@ -1,16 +1,16 @@
 {
     "ID": "756",
-    "Nom": "Écorniot",
-    "Tribue": "Sinistre",
-    "Rang": "E",
-    "PV": "298",
-    "Force": "178",
-    "Esprit": "40",
-    "Défense": "102",
-    "Vitesse": "142",
+    "Nom": "Ratétam",
+    "Tribue": "Bienveillant",
+    "Rang": "C",
+    "PV": "326",
+    "Force": "56",
+    "Esprit": "182",
+    "Défense": "131",
+    "Vitesse": "159",
     "Description": "",
-    "élément": "Terre",
-    "Rôle": "Ranger",
+    "élément": "Restauration",
+    "Rôle": "Guérisseur",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,8 +21,8 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/756.png",
-    "nom_original": "悪メン犬",
-    "nom_anglais": "Manjimitate",
+    "nom_original": "あきす老師",
+    "nom_anglais": "Ol' Slap Stick",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -30,13 +30,13 @@
     },
     "localisations": {
         "ykw1": [
-            "Avoir dessiné sur le front des gens quand ils dorment."
+            "Avoir volé des cadeaux de Noël."
         ],
         "ykw2": [
-            "A dispersé des excréments de lapin au terrain de foot."
+            "S'est fait une chaussette avec la barbe du Père Noël."
         ],
         "ykw3": [
-            "A lu des livres d'horreur sans avoir l'âge requis."
+            "S'est faufilé dans un jardin pour y planter des bonzaïs."
         ]
     },
     "fusions": [],
@@ -46,63 +46,63 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "45|99",
+                "nom": "Tour complet",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Feu",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Grand caninvore",
-                "puissance": "18×5|18×5",
-                "description": "Mord tous ses ennemis avec frénésie. C'est assez effrayant..."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Confusion",
-                "puissance": "N/A",
-                "description": "Incite l'ennemi à attaquer ses alliés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Paradis cynophile",
-                "description": "Augmente les stats d'un voisin avec le même talent."
-            }
-        ],
-        "Yo-kai Watch 2": [
-            {
-                "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "45|99",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
+                "nom": "Restauration",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Grand caninvore",
-                "puissance": "19×5|19×5",
-                "description": "Mord tous ses ennemis avec frénésie. C'est assez effrayant..."
+                "nom": "Amstramgram",
+                "puissance": "___",
+                "description": "Quelque chose sort d'un sac… à la chance de décider !"
             },
             {
                 "type": "Envoûtement",
-                "nom": "Confusion",
+                "nom": "Générosité",
                 "puissance": "N/A",
-                "description": "Incite l'ennemi à attaquer ses alliés."
+                "description": "Incite un Yo-kai à jeter de l'argent par les fenêtres."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Paradis cynophile",
-                "description": "Augmente les stats d'un voisin avec le même talent."
+                "nom": "Talent : Traitement",
+                "description": "Redonne des PV au Yo-kai voisin."
+            }
+        ],
+        "Yo-kai Watch 2": [
+            {
+                "type": "Attaque",
+                "nom": "Tour complet",
+                "puissance": "80|120",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Restauration",
+                "puissance": "50|110",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Amstramgram",
+                "puissance": "___",
+                "description": "Sort quelque chose d'un sac… à la chance de décider !"
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Générosité",
+                "puissance": "N/A",
+                "description": "Fait qu'un Yo-kai jette son argent par les fenêtres."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Traitement",
+                "description": "Redonne peu à peu des PV aux Yo-kai voisins."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -114,110 +114,117 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Grand caninvore",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+                "nom": "Amstramgram",
+                "puissance": "50",
+                "description": "Chacun choisit un cadeau, attribué selon ta chance."
             },
             {
                 "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
+                "nom": "Galet",
+                "puissance": "40",
+                "description": "Utilise un sort de terre. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Baisse offensive",
-                "puissance": "___",
-                "description": "Baisse ATT. ennemie. Charger élargit l'effet."
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Démolibombe",
-                "puissance": "500",
-                "description": "Une bombe explose sur les ennemis et les alliés."
+                "nom": "Sac grappin",
+                "puissance": "___",
+                "description": "Reçois un objet aléatoire, selon la chance que tu as."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Boost d'attaque",
+                "puissance": "___",
+                "description": "Hausse ATT. des alliés. Charger élargit l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Donnant donnant",
-                "description": "Tes PV sont restaurés après réanimation."
+                "nom": "Talent : Partage",
+                "description": "Effets d'objets partagés avec alliés à proximité."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "50|110",
+                "nom": "Tour complet",
+                "puissance": "60|132",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Incendie",
+                "nom": "Restauration",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Grand caninvore",
-                "puissance": "15×5|45×5",
-                "description": "Mord les ennemis à portée avec frénésie. C'est assez effrayant."
+                "nom": "Amstramgram",
+                "puissance": "___",
+                "description": "Sort quelque chose d'un sac… mais c'est la chance qui détermine quoi !"
             },
             {
                 "type": "Envoûtement",
-                "nom": "Confusion",
+                "nom": "Générosité",
                 "puissance": "N/A",
-                "description": "L'ennemi est confus et attaque parfois ses alliés."
+                "description": "Rend un Yo-kai tellement généreux qu'il donne parfois de l'argent."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Paradis cynophile",
-                "description": "↑ stats si relié à un Yo-kai avec le même talent."
+                "nom": "Talent : Traitement",
+                "description": "Rend peu à peu des PV à tous les alliés reliés."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Paradis cynophile",
-        "description": "Augmente les stats d'un voisin avec le même talent."
+        "nom": "Traitement",
+        "description": "Redonne des PV au Yo-kai voisin."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/756.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/756.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/756.wav",
-    "nourriture": "Cuisine chinoise",
-    "nourriture_favorite": "Plats chinois",
+    "nourriture": "Lait",
+    "nourriture_favorite": "Lait (YW1)Curry (YW2)",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Paradis cynophile",
-            "effet": "Augm. stats d'un voisin avec le même talent."
+            "nom": "Traitement",
+            "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
         },
         {
             "type": "Attaque",
-            "nom": "Mâchouille",
-            "effet": "45 | 99"
+            "nom": "Tour complet",
+            "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Incendie",
+            "nom": "Restauration",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Grand caninvore",
-            "effet": "Mord tous ses ennemis avec frénésie. C'est assez effrayant... 19x5 | 19x5"
+            "nom": "Amstramgram",
+            "effet": "Sort quelque chose d'un sac... à la chance de décider !"
         },
         {
             "type": "Attaque",
-            "nom": "Confusion",
-            "effet": "Incite l'ennemi à attaquer ses alliés."
+            "nom": "Générosité",
+            "effet": "Fait qu'un Yo-kai jette son argent par les fenêtres."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "C'est bon !",
-        "A mangé quelque chose de fade": "J'ai connu mieux...",
-        "A mangé quelque chose de mauvais": "Euh...",
-        "A la flemme": "C'est pas vrai !",
-        "Est échangé": "Je ne comprends pas... Pourquoi",
-        "Se lie d'amitié": "NON ! C'est affreux ! Je veux de nouveaux amis !"
-    }
+        "Mange de la bonne nourriture": "Ah ah ! Superbe !",
+        "Mange de la nourriture insipide": "Hmm. Pas mal.",
+        "Mange de la mauvaise nourriture": "C'est très vilain...",
+        "A la flemme": "Que faire... ?",
+        "Est échangé": "Oh oh oh ! C'est une bonne ville. Quel cadeau préfères-tu ?",
+        "Devient ton ami": "Est-ce que tu as été sage avec tes amis ?"
+    },
+    "oldID": "761"
 }

@@ -1,29 +1,80 @@
 {
     "ID": "451",
-    "Nom": "Dagamberge",
-    "Tribue": "Bienveillant",
-    "Rang": "C",
-    "PV": "380",
-    "Force": "78",
-    "Esprit": "180",
-    "Défense": "155",
-    "Vitesse": "122",
-    "Description": "Un Yo-kai kangourou toujours perdu dans ses pensées, pour une raison ou pour une autre.",
-    "nourriture": "Crème Glacée",
-    "élément": "Eau",
+    "Nom": "XXL de bain",
+    "Tribue": "Vaillant",
+    "Rang": "A",
+    "PV": "421",
+    "Force": "248",
+    "Esprit": "45",
+    "Défense": "147",
+    "Vitesse": "153",
+    "Description": "Peu satisfait de nettoyer les salles de bain, Sale de bain a décidé de se faire un nom aux USA. Depuis, il rafle les récompenses !",
+    "description SITE": "Peu satisfait de nettoyer les salles de bain, Sale de bain a décidé de se faire un nom aux USA. Depuis il rafle les récompenses !",
+    "nourriture": "Oden",
+    "élément": "Absorption",
     "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Dagamberge vient de Dagobert, une personne oisive et insouciante, et de Gamberger, le fait de réfléchir longuement.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Les personnes qu'il envoûte se mettront à réfléchir beaucoup trop longtemps pour des choix pourtant simples.",
-    "personnalité": "Il passe son temps à gamberger et réfléchir à différentes possibilités même quand la solution est simple.",
+    "pouvoir": "Lorsque XXL de bain envoûte quelqu'un la personne remporte de nombreux prix et trophées.",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/451.png",
-    "nom_original": "カンガエルー",
-    "nom_anglais": "Ponderoo",
+    "numero": "032",
+    "nourriture_favorite": "Oden",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Douche froide",
+            "effet": "Vole les grâces de tous les autres Yo-kai."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Slurp",
+            "effet": "50 | 110"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Vortex",
+            "effet": "50 | 110"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Langue acérée",
+            "effet": "Déguste la célébrité à coups de langue, blessant les ennemis à portée. 200 | 300"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Tacle-langue",
+            "effet": "L'allié rafle toutes les récompenses et ses stats augmentent."
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "Sluuuuurp !",
+        "A mangé quelque chose de fade": "Sluuurp !",
+        "A mangé quelque chose de mauvais": "Slurp !",
+        "A la flemme": "Tellement fatigué...",
+        "Se lie d'amitié": "Je veux être ton ami, sans langue de bois ! Slurp !",
+        "Est échangé": "Ouah, un tout nouveau monde encore vierge de ma salive ! *léchouille*",
+        "info_6": "Bingo-kaiEnfin libre, et tant de choses à lécher !"
+    },
+    "evolutions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Sale de Bain",
+            "parent2": "Prix meilleur joueur",
+            "resultat": "XXL de bain",
+            "critere": "➨"
+        }
+    ],
+    "image_locale": "",
+    "nom_original": "総ナメ",
+    "nom_anglais": "Lappinitup",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
@@ -31,23 +82,31 @@
     },
     "localisations": {
         "ykw3": [
-            "Il est possible de le trouver dans l'herbe, à laFerme des blés."
-        ],
-        "Yo-kai Watch : Puni Puni :[]": [
-            "Dagamberge apparaît pour la première fois dans l'ÉvénementDeuxième Collaboration avec Shonen Sunday, où il est possible de l'obtenir dans le Stage Caché 1, en faisant un globule de taille 15 ou plus dans le Stage 9. Il est également possible de l'obtenir avec laPièce Porte-Bonheur."
+            "Fusion entreSale de Bainet lePrix meilleur joueurqui se trouve la nuit au bric-et-broc du quartier des boutiques pour 300 euros."
         ]
     },
-    "fusions": [],
     "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
-    "drops": {},
+    "drops": {
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "Brochettes de bœuf"
+            },
+            {
+                "taux": "?%",
+                "objet": "Œuf à la coque"
+            }
+        ]
+    },
     "special_talent": {
-        "nom": "Contemplation",
-        "description": "Booste un peu les stats en attendant de bouger."
+        "nom": "Douche froide",
+        "description": "Vole les grâces de tous les autres Yo-kai."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/451.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/451.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/451.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/451.wav",
+    "oldID": "456"
 }

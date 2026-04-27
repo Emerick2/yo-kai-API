@@ -1,91 +1,95 @@
 {
     "ID": "37",
-    "Nom": "Gagalurin",
+    "Nom": "Marra",
     "Tribue": "Mystérieux",
-    "Rang": "E",
-    "PV": "171",
-    "Force": "57",
-    "Esprit": "126",
-    "Défense": "63",
-    "Vitesse": "189",
-    "Description": "Peu importe l'intelligence de la personne le portant, elle arrêtera de penser et se perdra dans ses rêves. C'est peut-être plus drôle.",
-    "nourriture": "Bonbons",
-    "élément": "Foudre",
-    "Rôle": "Ranger",
+    "Rang": "D",
+    "PV": "300",
+    "Force": "211",
+    "Esprit": "52",
+    "Défense": "120",
+    "Vitesse": "139",
+    "Description": "Elle absorbe tout le plaisir et les rires d'une situation et garde tout ça pour elle. Ce qui est drôle devient banal à son passage.",
+    "nourriture": "Hamburger",
+    "élément": "Absorption",
+    "Rôle": "Guérisseur",
     "Biographie": "",
-    "étimologie": "Gagalurin vient de gaga (dont les facultés intellectuelles sont presque éteintes) et degalurin (chapeau).",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Gagalurin peut amener ses cibles envoûtées à agir de manière très stupide, ce qui amène les gens à mépriser la victime. Il déclenche cet effet en mordant le haut de leur tête.",
+    "pouvoir": "Marra absorbe les rires provoqués par une blague, les faisant paraître mauvaises.",
     "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/37.png",
-    "numero": "031",
-    "nourriture_favorite": "Sucrerie",
+    "numero": "035",
+    "nourriture_favorite": "Hamburger",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Prédiction",
-            "effet": "Réduit la précision de l'ennemi."
+            "nom": "Ténacité",
+            "effet": "Bloque envoûtements négatifs des ennemis."
         },
         {
             "type": "Attaque",
-            "nom": "Morsure",
+            "nom": "Coup de boule",
             "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Décharge",
+            "nom": "Absorption",
             "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Vide-vite",
-            "effet": "Déchaîne le cœur d'un allié et augmente énormément sa VIT."
+            "nom": "Aaabsorption",
+            "effet": "Absorbe les PV de tous les ennemis et les partage avec ses alliés. 50 | 131"
         },
         {
             "type": "Attaque",
-            "nom": "Exaltation",
-            "effet": "Le Yo-kai envoûté a le sens du rythme, ce qui augmente énormément son ESP.Médaillon de Gagalurin"
+            "nom": "Plié en quatre",
+            "effet": "L'ennemi a tellement envie de rire qu'il ne peut plus rien faire."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Scrunch...",
-        "Mange de la nourriture insipide": "*mâche*... *avale*",
-        "Mange de la mauvaise nourriture": "Beeeurk !",
-        "A la flemme": "Ouf...",
-        "Est échangé": "Ravi de te connaître ! Si seulement Gagalurin pouvait se souvenir de toi...",
-        "Devient ton ami": "Hi hi hi ! Amis avec Gagalurin ?"
+        "Mange de la bonne nourriture": "MOUAH HA HA !",
+        "Mange de la nourriture insipide": "Rien de spécial.",
+        "Mange de la mauvaise nourriture": "Arf ! Ptou !",
+        "A la flemme": "Faut se relaxer...",
+        "Est échangé": "Mouahaha ! Tu as l'air surpris ! Mouahaha !",
+        "Devient ton ami": "Mouahaha ! Ta force est incomparable ! Je dois être ton amie ! Mouahaha !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Yo-kai Watch",
+            "parent1": "Marra",
+            "parent2": "Toutouïe",
+            "resultat": "Babalance",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "ばか頭巾",
-    "nom_anglais": "Dummkap",
+    "nom_original": "わらえ姉",
+    "nom_anglais": "Lafalotta",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Adrien Solis (Saison 1,Saison 2)"
+        "francaise": "Nathalie Bienaimé"
     },
     "localisations": {
         "ykw1": [
-            "Centre-ville- arbres (nuit)"
+            "Coteau fleuri- Colline de la Couronne - arbres (jour)"
         ],
         "ykw2": [
-            "Hauts de Granval- arbres",
-            "Salle des portails - Zone de quiz - 2e(arbre  au milieu à gauche)",
-            "Voie du mystère - route 2"
+            "Vieux manoir - demeure"
         ],
         "ykw-Blasters": [
-            "Patrouille - Hauts de Granval"
+            "Patrouille -Coteau fleuri"
         ],
         "ykw3": [
-            "Cawet- poteaux éléctriques",
-            "Portail Mystère :",
-            "Salle de Combat :Aux Steaks de Cawet",
-            "Aux Steaks de Cawet"
+            "Tour Excellence- jardins"
         ]
     },
     "rarite": "Commun",
@@ -94,58 +98,58 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Morsure",
+                "nom": "Coup de boule",
                 "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Décharge",
+                "nom": "Absorption",
                 "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Vide-vite",
-                "puissance": "",
-                "description": "Déchaîne le cœur d'un allié et augmente sa VIT. considérablement."
+                "nom": "Aaabsorption",
+                "puissance": "50|131",
+                "description": "Absorbe les PV de tous les ennemis et les partage avec ses alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Exaltation",
+                "nom": "Plié en quatre",
                 "puissance": "N/A",
-                "description": "Augmente l'ESP. d'un allié et le motive énormément."
+                "description": "L'ennemi a tellement envie de rire qu'il ne peut plus rien faire."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Clairveauyance",
-                "description": "Réduit la précision de l'ennemi."
+                "nom": "Talent : Ténacité",
+                "description": "Bloque envoûtements négatifs des ennemis."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Morsure",
+                "nom": "Coup de boule",
                 "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Décharge",
+                "nom": "Absorption",
                 "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Vide-vite",
-                "puissance": "",
-                "description": "Déchaîne le cœur d'un allié et augmente énormément sa VIT."
+                "nom": "Aaabsorption",
+                "puissance": "50|131",
+                "description": "Absorbe les PV de tous les ennemis et les partage avec ses alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Exaltation",
+                "nom": "Plié en quatre",
                 "puissance": "N/A",
-                "description": "Le Yo-kai envoûté a le sens du rythme, ce qui augmente son ESP."
+                "description": "L'ennemi a tellement envie de rire qu'il ne peut plus rien faire."
             },
             {
                 "type": "Attaque A",
@@ -155,14 +159,14 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Foudre",
+                "nom": "Vortex",
                 "puissance": "N/A",
-                "description": "Foudroie les ennemis éloignés."
+                "description": "Te fait absorber les PV de l'ennemi."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Clairveauyance",
-                "description": "Réduit la précision de l'ennemi."
+                "nom": "Talent : Ténacité",
+                "description": "Bloque envoûtements négatifs des ennemis."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -174,58 +178,64 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Vide-vite",
-                "puissance": "___",
-                "description": "Grande augmentation de la vitesse temporaire."
+                "nom": "Aaabsorption",
+                "puissance": "200×2",
+                "description": "Absorption des PV de l'ennemi."
             },
             {
                 "type": "Technique 1",
-                "nom": "Décharge",
-                "puissance": "40",
-                "description": "Utilise un sort de foudre. Charger renforce l'effet."
+                "nom": "Vortex",
+                "puissance": "30",
+                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Baisse offensive",
-                "puissance": "___",
-                "description": "Baisse ATT. ennemie. Charger élargit l'effet."
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Baisse de vitesse",
+                "nom": "Boost d'attaque",
                 "puissance": "___",
-                "description": "Baisse VIT. ennemie. Charger élargit l'effet."
+                "description": "Hausse ATT. des alliés. Charger élargit l'effet."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Discernement",
-                "description": "Hausse de l'ESP. pour tous les alliés."
+                "nom": "Talent : Charognard",
+                "description": "PV restaurés lors de la collecte d'objets/orbes oni."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Morsure",
+                "nom": "Coup de boule",
                 "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "30|105",
+                "nom": "Absorption",
+                "puissance": "25|87",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Vide-vite",
-                "puissance": "",
-                "description": "Déchaîne le cœur d'un allié, augmentant sa VIT."
+                "nom": "Aaabsorption",
+                "puissance": "67|201",
+                "description": "Absorbe les PV des ennemis à portée, et les partage avec ses alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Humeur joueuse",
+                "nom": "Plié en quatre",
                 "puissance": "N/A",
-                "description": "Le Yo-kai envoûté a le sens du rythme, ce qui augmente son ESP."
+                "description": "L'ennemi a une crise de fou rire. Cela l'empêche d'agir."
             },
             {
                 "type": "Attaque A",
@@ -235,26 +245,26 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Vide-vite",
-                "puissance": "___",
-                "description": "Booste énormément la VIT."
+                "nom": "Aaabsorption",
+                "puissance": "200×2",
+                "description": "Draine furieusement les PV ennemis."
             },
             {
                 "type": "Attaque X",
-                "nom": "Décharge",
-                "puissance": "40",
-                "description": "Technique de foudre+. Plus de dégâts si chargée."
+                "nom": "Vortex",
+                "puissance": "30",
+                "description": "Draine + les PV ennemis. Plus de PV volés si chargé."
             },
             {
                 "type": "Attaque Y",
-                "nom": "Baisse offensive",
-                "puissance": "___",
-                "description": "Réduit + attaque ennemie. Plus de portée si chargé."
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. PV rendus + si chargé."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Clairveauyance",
-                "description": "Améliore l'aptitude à esquiver les attaques."
+                "nom": "Talent : Ténacité",
+                "description": "Bloque envoûtements négatifs des ennemis."
             }
         ]
     },
@@ -263,39 +273,40 @@
         "YW1": [
             {
                 "taux": "?%",
-                "objet": "Poupée de bronze"
+                "objet": "La teigne parfaite"
             },
             {
                 "taux": "?%",
-                "objet": "Talisman de vitesse"
+                "objet": "Sandwich"
             }
         ],
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "Secours mag 7"
+                "objet": "Dico-tech"
             },
             {
                 "taux": "?%",
-                "objet": "Brochettes de bœuf"
+                "objet": "Cheesecake"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Anneau rouillé"
+                "objet": "Hamburger"
             },
             {
                 "taux": "?%",
-                "objet": "Dragées arc-en-ciel"
+                "objet": "Carte cadeau musique"
             }
         ]
     },
     "special_talent": {
-        "nom": "Clairveauyance",
-        "description": "Réduit la précision de l'ennemi."
+        "nom": "Ténacité",
+        "description": "Bloque envoûtements négatifs des ennemis."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/37.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/37.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/37.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/37.wav",
+    "oldID": "38"
 }

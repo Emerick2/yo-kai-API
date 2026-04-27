@@ -1,17 +1,17 @@
 {
     "ID": "301",
-    "Nom": "Algacarena",
-    "Tribue": "Bienveillant",
-    "Rang": "C",
-    "PV": "384",
-    "Force": "160",
-    "Esprit": "177",
-    "Défense": "67",
-    "Vitesse": "130",
-    "Description": "Cette véritable star du monde des algues danse devant des fans en délire partout où il va.",
-    "nourriture": "Ramen",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
+    "Nom": "Couchtar",
+    "Tribue": "Sombre",
+    "Rang": "E",
+    "PV": "307",
+    "Force": "51",
+    "Esprit": "164",
+    "Défense": "95",
+    "Vitesse": "156",
+    "Description": "Cet oiseau de nuit adore se coucher tard. Si un ami refuse d'aller au lit, tu peux parier que c'est la faute de ce Yo-kai.",
+    "nourriture": "Hamburger",
+    "élément": "Foudre",
+    "Rôle": "Ranger",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -22,113 +22,124 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/301.png",
-    "numero": "164",
-    "nourriture_favorite": "Ramen",
+    "numero": "207",
+    "nourriture_favorite": "Hamburger",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Salsa vivifiante",
-            "effet": "Augmente la FOR. de tous les Yo-kai voisins."
+            "nom": "Noctambule",
+            "effet": "Toutes les statistiques sont augmentées la nuit."
         },
         {
             "type": "Attaque",
-            "nom": "Volée",
-            "effet": "20x2 | 44x2"
+            "nom": "Coup de poing",
+            "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Paradis",
-            "effet": "80 | 120"
+            "nom": "Décharge",
+            "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Carnavalgue",
-            "effet": "Cette danse sophistiquée restaure graduellement les PV des alliés."
+            "nom": "Grosse fatigue",
+            "effet": "Le manque de sommeil affaiblit fortement la DÉF. de l'ennemi."
         },
         {
             "type": "Attaque",
-            "nom": "Sambada",
-            "effet": "Les stats du Yo-kai sont augmentées grâce au rythme de la samba."
+            "nom": "Nuit agitée",
+            "effet": "Le Yo-kai se couche tard tous les soirs, ce qui baisse sa DÉF."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Youhou !",
-        "A mangé quelque chose de fade": "Merci !",
-        "A mangé quelque chose de mauvais": "C'est insultant.",
-        "A la flemme": "Je me détends !",
-        "Est échangé": "Dis, tu vas faire de moi une star selon",
-        "Se lie d'amitié": "Hé ! Tu as vraiment brillé ! Formons un groupe et visons les étoiles !"
+        "A mangé quelque chose de bon": "Miam, miam, miam.",
+        "A mangé quelque chose de fade": "*mâche*",
+        "A mangé quelque chose de mauvais": "*mâche* Ptou !",
+        "A la flemme": "Je vais dormir...",
+        "Est échangé": "Je sais comment célébrer notre amitié ! Restons debout toute la nuit !",
+        "Se lie d'amitié": "J'ai perdu car je manque de sommeil ! Hé, ça te dit de jouer toute la nuit ?"
     },
     "evolutions": [],
     "fusions": [
         {
-            "type": "Évolution",
+            "type": "Fusion",
             "contexte": "Yo-kai Watch 2",
-            "de": "Noripop",
-            "vers": "Algacarena",
-            "critere": "Niveau 17"
+            "parent1": "Couchtar",
+            "parent2": "Chauvekipeut",
+            "resultat": "Noctambill",
+            "critere": "➨"
         },
         {
-            "type": "Évolution",
+            "type": "Fusion",
+            "contexte": "Yo-kai Watch Blasters & 3",
+            "parent1": "Couchtar",
+            "parent2": "Tengubre",
+            "resultat": "Noctambill",
+            "critere": "➨"
+        },
+        {
+            "type": "Fusion",
             "contexte": "Yo-kai Watch 3",
-            "de": "Noripop",
-            "vers": "Algacarena",
-            "critere": "Niveau 15"
+            "parent1": "Indexter",
+            "parent2": "Couchtar",
+            "resultat": "Hacksel",
+            "critere": "➨"
         }
     ],
     "image_locale": "",
-    "nom_original": "ワカメ☆スター",
-    "nom_anglais": "Kelpacabana",
+    "nom_original": "ＴＥＴＳＵＹＡ",
+    "nom_anglais": "Wydeawake",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "francaise": "Nathalie Bienaimé"
     },
     "localisations": {
         "ykw2": [
-            "Évolution",
-            "Bingo-kai-Pièce verte(Passé)"
+            "Exclusif à Fantômes Bouffis",
+            "Centre-ville- Arrière-cour du Vent d'hiver"
         ],
         "ykw-Blasters": [
-            "Évolution",
-            "Patrouille -Centre-ville"
+            "Exclusif à l'Escadron du chien blanc",
+            "Patrouille - Centre-ville"
         ],
         "ykw3": [
-            "Évolution"
+            "Électropolis- allée de la brocante",
+            "Électropolis - Parking louche"
         ]
     },
-    "rarite": "Commun",
+    "rarite": "FB icone",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Volée",
-                "puissance": "20×2|44×5",
+                "nom": "Coup de poing",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "80|120",
+                "nom": "Décharge",
+                "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Carnavalgue",
+                "nom": "Grosse fatigue",
                 "puissance": "___",
-                "description": "Cette danse sohistiquée restaure graduellement les PV des alliés."
+                "description": "Le manque de sommeil affaiblit fortement la DÉF. de l'ennemi."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Sambada",
+                "nom": "Nuit agitée",
                 "puissance": "N/A",
-                "description": "Les stats du Yo-kai sont augmentées grâce au rythme de la samba."
+                "description": "Le Yo-kai se couche tard tous les soirs, ce qui baisse sa DÉF."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Salsa vivifiante",
-                "description": "Augmente la FOR. de tous les Yo-kai voisins."
+                "nom": "Talent : Noctambule",
+                "description": "Toutes les statistiques sont augmentées la nuit."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -140,73 +151,74 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Carnavalgue",
-                "puissance": "___",
-                "description": "Restauration lente des PV des alliés proches."
+                "nom": "Grosse fatigue",
+                "puissance": "____",
+                "description": "Forte baisse temporaire de la défense ennemie."
             },
             {
                 "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
+                "nom": "Décharge",
+                "puissance": "40",
+                "description": "Utilise un sort de foudre. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
+                "nom": "Piège",
+                "puissance": "___",
+                "description": "Peut engourdir un ennemi s'il marche dessus."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Cercle parfait",
+                "nom": "Baisse défensive",
                 "puissance": "___",
-                "description": "Crée un champ où les stats des alliés augmenteront."
+                "description": "Baisse DÉF. ennemie. Charger élargit l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : En avant la danse",
-                "description": "Hausse de la VIT. pour tous les alliés."
+                "nom": "Talent : Noctambule",
+                "description": "Hausse de l'attaque lors dès missions nocturnes."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Volée",
-                "puissance": "25×2|55×5",
+                "nom": "Coup de poing",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "70|112",
+                "nom": "Décharge",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Carnavalgue",
+                "nom": "Grosse fatigue",
                 "puissance": "___",
-                "description": "Motive les alliés avec sa danse et restaure peu à peu leurs PV."
+                "description": "Tous les ennemis se sentent épuisés d'un coup. Baisse fortement leur DÉF."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Sambada",
+                "nom": "Nuit agitée",
                 "puissance": "N/A",
-                "description": "Les stats du Yo-kai augmentent au rythme de la samba."
+                "description": "Le Yo-kai se couche tard tous les soirs, ce qui baisse sa DÉF."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Salsa vivifiante",
-                "description": "Booste un peu la FOR. des Yo-kai reliés."
+                "nom": "Talent : Noctambule",
+                "description": "Augmente sensiblement toutes les stats la nuit."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Salsa vivifiante",
-        "description": "Augmente la FOR. de tous les Yo-kai voisins."
+        "nom": "Noctambule",
+        "description": "Toutes les statistiques sont augmentées la nuit."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/301.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/301.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/301.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/301.wav",
+    "oldID": "312"
 }

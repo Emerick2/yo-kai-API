@@ -1,78 +1,90 @@
 {
     "ID": "468",
-    "Nom": "Wattson",
+    "Nom": "Feuildechou",
     "Tribue": "Mystérieux",
-    "Rang": "B",
-    "PV": "389",
-    "Force": "42",
-    "Esprit": "210",
-    "Défense": "122",
-    "Vitesse": "172",
-    "Description": "Tu t'es déjà pris le jus en touchant quelqu'un ? C'est pas l'amour, c'est l'électricité statique !",
-    "nourriture": "Encas",
-    "élément": "Foudre",
+    "Rang": "A",
+    "PV": "463",
+    "Force": "73",
+    "Esprit": "251",
+    "Défense": "170",
+    "Vitesse": "86",
+    "Description": "Il entend tout à des kilomètres à la ronde, il est donc obligé d'entendre toutes les rumeurs qui circulent sur lui...",
+    "nourriture": "Pâtes",
+    "élément": "Vent",
     "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Wattson a le pouvoir de créer de l'électricité statique. Il aime faire des farces aux personnes imprudentes lorsqu'elles touchent les poignées de porte.",
-    "personnalité": "",
+    "pouvoir": "Il peut tout entendre à des kilomètres à la ronde et peut créer des ultrasons pour étourdir l'ennemi",
+    "personnalité": "Avant, il avait peur de ne pas entendre ce qu'on lui disait mais maintenant qu'il a amélioré son ouïe, il entend tout ce qu'on dit sur lui.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/468.png",
-    "numero": "122",
-    "nourriture_favorite": "Encas",
+    "numero": "081",
+    "nourriture_favorite": "Pâte",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Dynamo",
-            "effet": "↑ jauge d'âme du Yo-kai selon les cases parcourues."
+            "nom": "Feuille de déroute",
+            "effet": "Aucun Yo-kai actif ne pourra esquiver."
         },
         {
             "type": "Attaque",
-            "nom": "Gifle",
-            "effet": "10 | 45"
+            "nom": "Volée",
+            "effet": "20x2 | 44x2"
         },
         {
             "type": "Attaque",
-            "nom": "Haute tension",
+            "nom": "Ouragan",
             "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Électricité statique",
-            "effet": "Charge les cases d'électricité, blessant les cibles et baissant leur VIT."
+            "nom": "Concert strident",
+            "effet": "Trouble les ennemis en leur donnant horriblement mal aux oreilles."
         },
         {
             "type": "Attaque",
-            "nom": "Paralysie",
-            "effet": "Immobilise un ennemi grâce à un choc électrique !"
+            "nom": "Plein les oreilles",
+            "effet": "L'ennemi entend tout ce qu'on dit sur lui et il est confus.Médaillon de Feuildechou"
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Ooh, ça picote !",
-        "A mangé quelque chose de fade": "Merci beaucoup !",
-        "A mangé quelque chose de mauvais": "Ça a l'air trop risqué !",
-        "A la flemme": "Au dodo !",
-        "Se lie d'amitié": "C'était électrique ! Je veux rejoindre ton équipe ! Je suis survolté !",
-        "Est échangé": "Je te serrerais bien la main... Mais tu risques de te prendre le jus !",
-        "info_6": "Bingo-kaiTu m'as libéré, je suis épaté ! J'en ai des picotements !"
+        "A mangé quelque chose de bon": "Soif d'aventure !",
+        "A mangé quelque chose de fade": "Rien de spécial.",
+        "A mangé quelque chose de mauvais": "Eh bien...",
+        "A la flemme": "Je suis épuisé !",
+        "Se lie d'amitié": "Hou-hou ! Si on devient amis, tu seras au courant de toutes les rumeurs !",
+        "Est échangé": "Hou-hou ! Je t'ai entendu murmurer, mon ouïe est sans égale !",
+        "info_6": "Bingo-kaiJ'ai beaucoup entendu parler de toi, c'est fou de te voir en personne..."
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Évolution",
+            "contexte": "Général",
+            "de": "Duc Delafeuille",
+            "vers": "Feuildechou",
+            "critere": "Niveau 28"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "せいでん鬼",
-    "nom_anglais": "Statikid",
+    "nom_original": "じごくミミズク",
+    "nom_anglais": "Too-Much-To-Take",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Caroline Combes"
+        "francaise": "Inconnue"
     },
     "localisations": {
         "ykw3": [
-            "Tour Morleone"
+            "Évolution"
+        ],
+        "Yo-kai Watch : Wibble Wobble :[]": [
+            "Mélée Popcorn -Bingo-kai oni",
+            "Roue rêve"
         ]
     },
     "rarite": "Commun",
@@ -83,19 +95,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Poupée de bronze"
+                "objet": "Secrets de l'âme"
             },
             {
                 "taux": "?%",
-                "objet": "Chouchous"
+                "objet": "Pâtes aux palourdes"
             }
         ]
     },
     "special_talent": {
-        "nom": "Dynamo",
-        "description": "↑ jauge d'âme du Yo-kai selon les cases parcourues."
+        "nom": "Feuille de déroute",
+        "description": "Aucun Yo-kai actif ne pourra esquiver."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/468.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/468.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/468.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/468.wav",
+    "oldID": "473"
 }

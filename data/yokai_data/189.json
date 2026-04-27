@@ -1,89 +1,127 @@
 {
     "ID": "189",
-    "Nom": "Amoiz",
+    "Nom": "Jojojoyeux",
     "Tribue": "Bienveillant",
-    "Rang": "E",
-    "PV": "279",
-    "Force": "127",
-    "Esprit": "121",
-    "Défense": "69",
-    "Vitesse": "163",
-    "Description": "Il aimerait avoir ce que les autres ont, mais comme il n'essaie pas de mettre la main dessus, il n'y a pas de souci à se faire.",
-    "description SITE": "Il aimerait avoir ce que les autres ont, mais comme il n'essaie pas de mettre la main dessus, il n'y a pas de soucis à se faire.",
-    "nourriture": "Ramen",
+    "Rang": "C",
+    "PV": "394",
+    "Force": "210",
+    "Esprit": "46",
+    "Défense": "125",
+    "Vitesse": "130",
+    "Description": "La tendresse de Jojojoyeux crée une aura qui apaise même les atmosphères les plus tendues. Il peut redonner le sourire à n'importe qui.",
+    "nourriture": "Pain",
     "élément": "Foudre",
-    "Rôle": "Ranger",
+    "Rôle": "Guérisseur",
     "Biographie": "",
-    "étimologie": "Amoiz vient de À moi, mots auxquels ont été ajoutés un zozotement à la fin comme il s'agit d'un enfant. Son apparence, elle, est inspirée de Urashima Taro.",
+    "étimologie": "Jojojoyeux est un mot-valise entre le prénom Jojo et joyeux.",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Les personnes qu'il envoûte se mettront à envier constamment les autres. Dans l'anime, il est également capable d'encaisser de nombreuses attaques.",
-    "personnalité": "Amoiz est très envieux des autres et passe son temps à jalouser ceux qui l'entourent, mais malgré ça, il ne fait rien pour y changer quoi que ce soit, causant donc le fait qu'il n'y ait pas de solution à sa jalousie. En revanche, il a horreur des compliments, ça le met mal à l'aise.",
+    "pouvoir": "",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/189.png",
-    "numero": "114",
-    "nourriture_favorite": "Ramen",
+    "numero": "125",
+    "nourriture_favorite": "Pain",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Avidité",
-            "effet": "L'ennemi perdra plus facilement des objets."
+            "nom": "Traitement",
+            "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
         },
         {
             "type": "Attaque",
-            "nom": "Gifle",
-            "effet": "10 | 45"
+            "nom": "Plaquage absolu",
+            "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Décharge",
-            "effet": "20 | 90"
+            "nom": "Restauration",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Main envieuse",
-            "effet": "La main sortant de sa bouche donne les PV ennemis à ses alliés. 45 | 117"
+            "nom": "Ondes jojoviales",
+            "effet": "Restaure peu à peu les PV des alliés avec sa formidable aura."
         },
         {
             "type": "Attaque",
-            "nom": "Convoitise",
-            "effet": "Le Yo-kai est jaloux de ses alliés et les attaque."
+            "nom": "Gaîté",
+            "effet": "Remplit de courage le cœur d'un allié et restaure graduellement ses PV."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "J'adore !",
-        "Mange de la nourriture insipide": "Pfiou ! Mici !",
-        "Mange de la mauvaise nourriture": "Essaie encore...",
-        "A la flemme": "Mais...",
-        "Est échangé": "Je voulais déjà être ici, même quand ... et moi étions amis !",
-        "Devient ton ami": "Je suis envieux de tes amis. Moi aussi je veux être ton ami !"
+        "Mange de la bonne nourriture": "C'est bon !",
+        "Mange de la nourriture insipide": "C'était sympa !",
+        "Mange de la mauvaise nourriture": "Oh là là... Affreux.",
+        "A la flemme": "Mais non...",
+        "Est échangé": "On est amis ? Suis trop content !",
+        "Devient ton ami": "Tu as gagné la bataille, et mon cœur... Merci, nous sommes maintenant amis."
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Jojojoyeux",
+            "parent2": "Lulugubre",
+            "resultat": "Paradoxa",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "うらやましろう",
-    "nom_anglais": "Wantston",
+    "nom_original": "ホノボーノ",
+    "nom_anglais": "Happierre",
     "premiere_apparition": "Yo-kai Watch (jeu)",
     "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Jessie Lambotte"
+        "japonaise": "Masahito Yabe",
+        "francaise": "Nathalie Bienaimé"
     },
     "localisations": {
         "ykw1": [
-            "Il est possible de trouver Amoiz dans leTerrain vague, auCoteau fleuri."
+            "Centre–ville de Granval– arbres",
+            "Bingo-kai–pièce verte"
         ],
         "ykw2": [
-            "Centre-ville de Granval - aire de livraison",
-            "Voie du mystère - Grand-route dorée - ouest",
-            "Portails Mystère"
+            "Coteau fleuri - Arbres",
+            "Tour Excellence- arbres et point d'observation",
+            "Vieux Granval- arbres et poteaux téléphoniques",
+            "Sanctuaire divin-rdc et 1er",
+            "Bingo-kai - pièce verte (présent)",
+            "Tunnel sans fin"
         ],
         "ykw-Blasters": [
-            "Trouvable en Patrouille dans le Centre-Ville de Granval."
+            "Patrouille -Coteau fleuri"
         ],
         "ykw3": [
-            "Amoiz peut être trouvé à laGare de Verteplaines."
+            "Les Hauts de Granval- arbres"
+        ],
+        "Yo-kai Watch : Wibble Wobble :[]": [
+            "Stage 38, 53 (Le Coteau fleuri)",
+            "Stage 98 (Quartier des boutiques)",
+            "Stage 125, 130 (La Corniche)",
+            "Stag 136, 148 (La Tour Excellence)",
+            "Stage 235 (Les plaines Plinplot)",
+            "Stage 261 (Granval-sur-Mer)",
+            "Stage secret 5-2 (Égout E)",
+            "Stage secret 6-5 (Égout F)",
+            "Stage secret 8-6 (Route des vandales)",
+            "Stage secret 13-61 (Limbes éternelles - 5e Cercle)",
+            "Stage secret 16-103 (Limbes éternelles - 8e Cercle)",
+            "Stage secret 18-9 (Paradis divin - 1er), Niveau secret 23-64 (Paradis divin - 6e)",
+            "Niveau d'épreuve 19 (Voie du mystère)",
+            "Niveau d'épreuve 39 (Épreuve d'Orqanos)",
+            "Niveau d'épreuve 18, 31 (Événement des Spectres psychiques)",
+            "Niveau d'épreuve 7, 49 (Festa Automnal Inferno)",
+            "Bingo-kai - Pièce joyeuse",
+            "Bingo-kai - Pièce mystère",
+            "Bingo-kai - Pièce verte",
+            "Bingo-kai - Pièce verte G",
+            "Bingo-kai - Pièce de fête (Domniscian)"
+        ],
+        "Yo-kai Watch 4 :[]": [
+            "L'âme de Jojojoyeux peut être récupérée dans leTournoi de Sumo Yo-kaiet également dans les récompenses.\nIl est trouvable aussi dans le combat deGrolosdans leTournoi Enma - Arène Oni."
         ]
     },
     "rarite": "Commun",
@@ -92,63 +130,63 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
+                "nom": "Plaquage absolu",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "20|90",
+                "nom": "Restauration",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Main envieuse",
-                "puissance": "50|131",
-                "description": "La main sortant de sa bouche donne les PV ennemis à ses alliés."
+                "nom": "Ondes jojoviales",
+                "puissance": "___",
+                "description": "Restaure petit à petit les PV des alliés avec sa formidable aura."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Convoitise",
+                "nom": "Gaîté",
                 "puissance": "N/A",
-                "description": "L'ennemi devient si envieux de ses alliés qu'il les attaque."
+                "description": "Remplit de courage le cœur d'un allié et restaure ses PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Avidité",
-                "description": "L'ennemi perdra plus facilement des objets."
+                "nom": "Talent : Traitement",
+                "description": "Redonne des PV au Yo-kai voisin."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
+                "nom": "Plaquage absolu",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "20|90",
+                "nom": "Restauration",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Main envieuse",
-                "puissance": "45|117",
-                "description": "La main sortant de sa bouche donne les PV ennemis à ses alliés."
+                "nom": "Ondes jojoviales",
+                "puissance": "___",
+                "description": "Restaure peu à peu les PV des alliés avec sa formidable aura."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Convoitise",
+                "nom": "Gaîté",
                 "puissance": "N/A",
-                "description": "L'ennemi devient si envieux de ses alliés qu'il les attaque."
+                "description": "Remplit de courage le cœur d'un allié et restaure graduellement ses PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Avidité",
-                "description": "L'ennemi perdra plus facilement des objets."
+                "nom": "Talent : Traitement",
+                "description": "Redonne peu à peu des PV aux Yo-kai voisins."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -160,73 +198,74 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Main envieuse",
-                "puissance": "200×2",
-                "description": "Absorption des PV de l'ennemi."
+                "nom": "Ondes jojoviales",
+                "puissance": "___",
+                "description": "Restauration lente des PV des alliés proches."
             },
             {
                 "type": "Technique 1",
-                "nom": "Baisse de vitesse",
-                "puissance": "___",
-                "description": "Baisse VIT. ennemie. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Piège",
-                "puissance": "___",
-                "description": "Peut engourdir un ennemi s'il marche dessus."
-            },
-            {
-                "type": "Technique à acquérir 1",
                 "nom": "Coup puissant",
                 "puissance": "100",
                 "description": "Attaque avec un super esprit du combattant."
             },
             {
+                "type": "Technique 2",
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique à acquérir 1",
+                "nom": "Cercle de guérison",
+                "puissance": "___",
+                "description": "Crée un champ où les alliés peuvent se restaurer."
+            },
+            {
                 "type": "Talent",
-                "nom": "Talent : Avidité",
-                "description": "Les ennemis feront tomber des objets plus souvent."
+                "nom": "Talent : Traitement",
+                "description": "Les PV des alliés sont restaurés graduellement."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
+                "nom": "Plaquage absolu",
+                "puissance": "20|70",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "30|105",
+                "nom": "Restauration",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Main envieuse",
-                "puissance": "67|201",
-                "description": "Sa bouche abrite une main qui vole les PV des cibles, et les donne aux alliés."
+                "nom": "Ondes jojoviales",
+                "puissance": "___",
+                "description": "Restaure peu à peu les PV des alliés, grâce à son aura réconfortante."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Convoitise",
+                "nom": "Gaîté",
                 "puissance": "N/A",
-                "description": "L'ennemi devient si envieux de ses alliés qu'il les attaque."
+                "description": "Remplit de courage le cœur d'un allié et restaure lentement ses PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Avidité",
-                "description": "L'ennemi perdra plus facilement des objets."
+                "nom": "Talent : Traitement",
+                "description": "Rend peu à peu des PV à tous les alliés reliés."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Avidité",
-        "description": "L'ennemi perdra plus facilement des objets."
+        "nom": "Traitement",
+        "description": "Redonne des PV au Yo-kai voisin."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/189.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/189.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/189.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/189.wav",
+    "oldID": "16"
 }

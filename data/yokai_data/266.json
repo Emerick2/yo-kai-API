@@ -1,14 +1,14 @@
 {
     "ID": "266",
-    "Nom": "Égare-dare",
+    "Nom": "Charivari",
     "Tribue": "Costaud",
-    "Rang": "E",
-    "PV": "390",
-    "Force": "97",
-    "Esprit": "48",
-    "Défense": "194",
-    "Vitesse": "101",
-    "Description": "Ses passagers incrédules ne manquent jamais de se perdre à cause de son terrible sens de l'orientation.",
+    "Rang": "B",
+    "PV": "400",
+    "Force": "204",
+    "Esprit": "53",
+    "Défense": "198",
+    "Vitesse": "111",
+    "Description": "Ce char se dirigeait vers l'ennemi, mais il s'est perdu. Au moins, on sait qu'il a un bon fond.",
     "nourriture": "Riz",
     "élément": "Terre",
     "Rôle": "Tank",
@@ -16,48 +16,48 @@
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Toute personne envoûtée par Égare-dare devient incertaine d’elle-même et de ses décisions. Chez les conducteurs, cela les fait se perdre désespérément car ils ne savent plus où aller. Dans l’anime, Égare-dare envoûte ses victimes en leur tapotant sur l’épaule à l’aide de sa main, ce qui fait que la victime est entourée d’une aura bleu foncé.",
-    "personnalité": "",
+    "pouvoir": "Charivari peut donner à n’importe quel ennemi l’impression d’être perdu et confus. Dans l’anime, il peut faire en sorte que n’importe qui se distrait vers autre chose que ce qu’il essaie de faire.",
+    "personnalité": "Dans le dessin animé, il pense que c’est son « devoir » de distraire les autres.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/266.png",
-    "numero": "090",
+    "numero": "091",
     "nourriture_favorite": "Riz",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Obstination",
-            "effet": "Réduit les dégâts d'attaques de terre subis."
+            "nom": "Coup de canon",
+            "effet": "Change l'attaque normale en attaque de terre."
         },
         {
             "type": "Attaque",
-            "nom": "Plaquage absolu",
-            "effet": "15 | 67"
+            "nom": "Feu à volonté",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Galet",
-            "effet": "20 | 90"
+            "nom": "Éboulement",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "À l'ouest",
-            "effet": "L'ennemi est troublé par son piètre sens de l'orientation."
+            "nom": "Charpie",
+            "effet": "Tire un grand coup de canon qui frappe un seul ennemi. 170 | 255"
         },
         {
             "type": "Attaque",
-            "nom": "Désorientation",
-            "effet": "Le Yo-kai est tellement perdu qu'il ne bouge plus."
+            "nom": "Tireur fou",
+            "effet": "Le Yo-kai est hors de contrôle et attaque ses alliés."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Je trouve ça bon.",
-        "A mangé quelque chose de fade": "Ça peut aller.",
-        "A mangé quelque chose de mauvais": "Aïe ! C'est trop dur !",
-        "A la flemme": "Je suis perdu ?",
-        "Est échangé": "Je me suis perdu tant de fois que je ne sais même plus où je suis...",
-        "Se lie d'amitié": "Si on devient amis, je pourrai te conduire où tu veux !"
+        "A mangé quelque chose de bon": "C'est super bon !",
+        "A mangé quelque chose de fade": "Ça passe.",
+        "A mangé quelque chose de mauvais": "Grrr !!!",
+        "A la flemme": "Je reviens vite...",
+        "Est échangé": "J'ai dû me tromper de route... Les canons font de mauvaises boussoles.",
+        "Se lie d'amitié": "Quelque chose me dit que si je te suis, je resterai sur le droit chemin."
     },
     "evolutions": [],
     "fusions": [
@@ -72,40 +72,52 @@
     ],
     "image_locale": "",
     "nom_original": "迷い車",
-    "nom_anglais": "No-Go Kart",
+    "nom_anglais": "Mistank",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "francaise": "Frédéric Souterelle"
     },
-    "localisations": {},
+    "localisations": {
+        "ykw2": [
+            "Exclusif à Esprits Farceurs",
+            "Fusion"
+        ],
+        "ykw-Blasters": [
+            "Exclusif au Peloton du chat rouge",
+            "Fusion"
+        ],
+        "ykw3": [
+            "Fusion"
+        ]
+    },
     "rarite": "EF icone",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "15|67",
+                "nom": "Feu à volonté",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Galet",
-                "puissance": "20|90",
+                "nom": "Éboulement",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "À l'ouest",
-                "puissance": "___",
-                "description": "L'ennemi est troublé par son piètre sens de l'orientation."
+                "nom": "Charpie",
+                "puissance": "170|255",
+                "description": "Tire un grand coup de canon et frappe un seul ennemi."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Désorientation",
+                "nom": "Tireur fou",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est tellement perdu qu'il ne bouge plus."
+                "description": "Le Yo-kai est hors de contrôle et attaque ses alliés."
             },
             {
                 "type": "Attaque A",
@@ -115,14 +127,14 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Galet",
+                "nom": "Garder",
                 "puissance": "N/A",
-                "description": "Un éboulement enterre les ennemis éloignés."
+                "description": "Tu peux te défendre avec le bouton x."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Obstination",
-                "description": "Réduit les dégâts d'attaques de terre subis."
+                "nom": "Talent : Coup de canon",
+                "description": "Change l'attaque normale en attaque de terre."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -134,21 +146,21 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "À l'ouest",
-                "puissance": "___",
-                "description": "Baisse temporaire de l'attaque ennemie."
+                "nom": "Charpie",
+                "puissance": "400",
+                "description": "Inflige de gros dégâts à courte portée."
             },
             {
                 "type": "Technique 1",
-                "nom": "Encore !",
+                "nom": "Déblindage",
                 "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
+                "description": "Baisse temporaire DÉF. des ennemis touchés."
             },
             {
                 "type": "Technique 2",
-                "nom": "Champ de force",
-                "puissance": "___",
-                "description": "Hausse temporaire de la protection des alliés."
+                "nom": "Encore !",
+                "puissance": "80",
+                "description": "Attaque un ennemi pour attirer son attention."
             },
             {
                 "type": "Technique à acquérir 1",
@@ -158,9 +170,9 @@
             },
             {
                 "type": "Technique à acquérir 2",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
+                "nom": "Champ de force",
+                "puissance": "___",
+                "description": "Hausse temporaire de la protection des alliés."
             },
             {
                 "type": "Talent",
@@ -171,27 +183,27 @@
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "20|70",
+                "nom": "Feu à volonté",
+                "puissance": "60|132",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Galet",
-                "puissance": "30|105",
+                "nom": "Éboulement",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "À l'ouest",
-                "puissance": "___",
-                "description": "Sème la confusion dans la colonne devant lui."
+                "nom": "Charpie",
+                "puissance": "140|280",
+                "description": "Se sert d'un canon pour attaquer pour attaquer les ennemis à portée, tout en flânant."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Désorientation",
+                "nom": "Tireur fou",
                 "puissance": "N/A",
-                "description": "Le Yo-kai envoûté se perd et agit moins."
+                "description": "Le Yo-kai est hors de contrôle et attaque parfois ses alliés."
             },
             {
                 "type": "Attaque A",
@@ -201,26 +213,26 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "À l'ouest",
-                "puissance": "___",
-                "description": "Réduction ++ temporaire de l'attaque de l'ennemi."
+                "nom": "Charpie",
+                "puissance": "400",
+                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
             },
             {
                 "type": "Attaque X",
+                "nom": "Déblindage",
+                "puissance": "80",
+                "description": "Fait chuter la DÉF. d’un ennemi pendant un instant."
+            },
+            {
+                "type": "Attaque Y",
                 "nom": "Encore !",
                 "puissance": "80",
                 "description": "Attaque un ennemi, attirant ainsi son attention."
             },
             {
-                "type": "Attaque Y",
-                "nom": "Champ de force",
-                "puissance": "___",
-                "description": "Booste +++ la DÉF. alliée à proximité lors d’un instant."
-            },
-            {
                 "type": "Talent",
-                "nom": "Talent : Obstination",
-                "description": "Réduit les de terre subis par tous les alliés."
+                "nom": "Talent : Coup de canon",
+                "description": "Change l'attaque normale en attaque de terre."
             }
         ]
     },
@@ -229,29 +241,30 @@
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "Amulette antique"
+                "objet": "Amulette armure"
             },
             {
                 "taux": "?%",
-                "objet": "Mini EXPorbe"
+                "objet": "Poupée de fer"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Riz dans une feuille"
+                "objet": "Secrets de l'âme"
             },
             {
                 "taux": "?%",
-                "objet": "Billet de loterie"
+                "objet": "Riz œufs saumon"
             }
         ]
     },
     "special_talent": {
-        "nom": "Obstination",
-        "description": "Réduit les dégâts d'attaques de terre subis."
+        "nom": "Coup de canon",
+        "description": "Change l'attaque normale en attaque de terre."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/266.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/266.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/266.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/266.wav",
+    "oldID": "269"
 }

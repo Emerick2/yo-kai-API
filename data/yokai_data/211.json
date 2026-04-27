@@ -1,28 +1,28 @@
 {
     "ID": "211",
-    "Nom": "Dragô",
+    "Nom": "Sire Dragon",
     "Tribue": "Insaisissable",
     "Rang": "S",
-    "PV": "463",
-    "Force": "186",
-    "Esprit": "186",
-    "Défense": "87",
-    "Vitesse": "165",
-    "Description": "C'est une créature divine légendaire plus puissante que Sire Dragon et qui utilise la force de l'eau.",
+    "PV": "436",
+    "Force": "194",
+    "Esprit": "194",
+    "Défense": "108",
+    "Vitesse": "138",
+    "Description": "Dracounet a acquis assez de dignité et peut donc prétendre au statut de « dragon ».",
     "nourriture": "Cuisine chinoise",
-    "élément": "Eau",
+    "élément": "Terre",
     "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Il contrôle parfaitement l'eau, dont il tire l'énergie de sa boule dorée de pouvoir. Il crache de la fumée mauve pour brouiller les pistes quand il est chassé.",
-    "personnalité": "Il est très puissant et aime enseigner son pouvoir aux débutants.",
+    "pouvoir": "Ses pouvoirs étant doublé Dracounet peut faire des tremblements de terre, faire tomber des météores et briser le sol en deux.",
+    "personnalité": "Dracounet est devenu très digne et peut enfin être appelé \"dragon\"",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/211.png",
-    "numero": "200",
+    "numero": "199",
     "nourriture_favorite": "Plats chinois",
     "attaques": [
         {
@@ -37,33 +37,42 @@
         },
         {
             "type": "Attaque",
-            "nom": "Cascade",
+            "nom": "Météore",
             "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Averse du dragon",
-            "effet": "Produit une cascade géante qui engloutit l'ennemi. 200 | 200"
+            "nom": "Rocher dragon",
+            "effet": "Largue des blocs de roche sur l'ennemi à l'aide de son cristal. 190 | 190"
         },
         {
             "type": "Attaque",
-            "nom": "Énergie cobalt",
-            "effet": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente son ESP."
+            "nom": "Énergie dragon",
+            "effet": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "C'est revigorant.",
-        "A mangé quelque chose de fade": "Pas mal.",
-        "A mangé quelque chose de mauvais": "Qu'est-ce que... ?!",
+        "A mangé quelque chose de bon": "Fantastique !",
+        "A mangé quelque chose de fade": "Hmm...",
+        "A mangé quelque chose de mauvais": "Fais un effort !",
         "A la flemme": "Je me repose...",
-        "Est échangé": "Je décèle un cœur fort en toi. Je veux qu'on devienne amis !",
-        "Se lie d'amitié": "Ouah. Et si on partageait la même destinée ?"
+        "Est échangé": "Je veux voir ta force en combat... Nous allons nous entraider !",
+        "Se lie d'amitié": "Tu as une force inouïe en toi ! J'accepte ton amitié !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Dracounet",
+            "parent2": "Orbe de dragon",
+            "resultat": "Sire Dragon",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "青龍",
-    "nom_anglais": "Azure Dragon",
+    "nom_original": "龍神",
+    "nom_anglais": "Dragon Lord",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -71,24 +80,23 @@
     },
     "localisations": {
         "ykw1": [
-            "Limbes éternelles- Dragô apparaît très rarement dans le 4ème Cercle des Limbes éternelles."
+            "Fusion",
+            "Coteau fleuri - sentier bambouseraie- bambous (Jour)"
         ],
         "ykw2": [
-            "Tour Excellence– Dragô apparaît très rarement dans le Point d'Observation de la Tour Excellence."
+            "Fusion"
         ],
         "ykw-Blasters": [
-            "Il peut être trouvé rarement en patrouille àla Corniche, ou peut être obtenu en combattantDomniscian 2.0."
+            "Fusion"
         ],
         "ykw3": [
-            "Il peut être trouvé rarement sur le parcours de la vallée du rodéo enRadeau.",
-            "Yo-kai Watch Busters 2 :\nIl peut être trouvé très rarement dans les donjons de la Terre Sainte de Bambaraya ou dans le Donjon deVampéric."
+            "Fusion"
         ],
         "Yo-kai Watch : Wibble Wobble :[]": [
-            "Festa Automnal Inferno- Bingo-kai Chanceux",
-            "Roue Yo-kai pendant certains événements"
+            "Bingo-kai"
         ]
     },
-    "rarite": "Rare",
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch": [
@@ -100,21 +108,21 @@
             },
             {
                 "type": "Technique",
-                "nom": "Cascade",
+                "nom": "Météore",
                 "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Averse du dragon",
-                "puissance": "200|200",
-                "description": "Produit une cascade géante qui engloutit l'ennemi."
+                "nom": "Rocher dragon",
+                "puissance": "180|180",
+                "description": "Largue des blocs de roche sur l'ennemi à l'aide de son cristal."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Énergie cobalt",
+                "nom": "Énergie dragon",
                 "puissance": "N/A",
-                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente son ESP."
+                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
             },
             {
                 "type": "Talent",
@@ -131,21 +139,21 @@
             },
             {
                 "type": "Technique",
-                "nom": "Cascade",
+                "nom": "Météore",
                 "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Averse du dragon",
-                "puissance": "200|200",
-                "description": "Produit une cascade géante qui engloutit l'ennemi."
+                "nom": "Rocher dragon",
+                "puissance": "190|190",
+                "description": "Largue des blocs de roche sur l'ennemi à l'aide de son cristal."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Énergie cobalt",
+                "nom": "Énergie dragon",
                 "puissance": "N/A",
-                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente son ESP."
+                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
             },
             {
                 "type": "Talent",
@@ -162,15 +170,15 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Averse du dragon",
-                "puissance": "50×8",
-                "description": "Une cascade inflige de gros dégâts aux ennemis."
+                "nom": "Rocher dragon",
+                "puissance": "80×5",
+                "description": "Des rochers infligent de gros dégâts aux ennemis."
             },
             {
                 "type": "Technique 1",
-                "nom": "Torrent",
+                "nom": "Galet",
                 "puissance": "40",
-                "description": "Utilise un sort d'eau. Charger renforce l'effet."
+                "description": "Utilise un sort de terre. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
@@ -180,9 +188,9 @@
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Rapides",
+                "nom": "Trembler",
                 "puissance": "50",
-                "description": "Un sort d'eau puissant. Charger renforce l'effet."
+                "description": "Un sort de terre puissant. Charger renforce l'effet."
             },
             {
                 "type": "Talent",
@@ -199,21 +207,21 @@
             },
             {
                 "type": "Technique",
-                "nom": "Cascade",
+                "nom": "Météore",
                 "puissance": "70|112",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Averse du dragon",
-                "puissance": "148|222",
-                "description": "Produit une cascade géante qui engloutit les ennemis à portée."
+                "nom": "Rocher dragon",
+                "puissance": "___",
+                "description": "Des rochers s'abattent sur le plateau ennemi, bloquant certaines cases !"
             },
             {
                 "type": "Envoûtement",
-                "nom": "Énergie cobalt",
+                "nom": "Énergie dragon",
                 "puissance": "N/A",
-                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente son ESP."
+                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
             },
             {
                 "type": "Talent",
@@ -231,5 +239,5 @@
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/211.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/211.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/211.wav",
-    "name_romaji_jp": "Seiryū"
+    "oldID": "210"
 }

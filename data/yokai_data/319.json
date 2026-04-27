@@ -1,19 +1,19 @@
 {
     "ID": "319",
-    "Nom": "Snobéa",
-    "Tribue": "Sombre",
+    "Nom": "Babarouf",
+    "Tribue": "Sinistre",
     "Rang": "B",
-    "PV": "410",
-    "Force": "125",
-    "Esprit": "162",
-    "Défense": "199",
-    "Vitesse": "73",
-    "Description": "Cette dame arrogante est devenue riche en se mariant et aime donner des ordres à ceux qu'elle estime inférieurs à elle.",
-    "nourriture": "Sushi",
+    "PV": "344",
+    "Force": "148",
+    "Esprit": "68",
+    "Défense": "63",
+    "Vitesse": "225",
+    "Description": "Il aime par-dessus tout faire vrombir le moteur de sa moto volée et déranger tout le monde.",
+    "nourriture": "Curry",
     "élément": "Glace",
-    "Rôle": "Tank",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Snobéa vient de Snob (Personne qui fréquente des milieux distingués) et Béa, l'abréviation du prénom Béatrice.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
     "pouvoir": "",
@@ -22,75 +22,72 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/319.png",
-    "numero": "231",
-    "nourriture_favorite": "Sushi",
+    "numero": "255",
+    "nourriture_favorite": "Curry",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Caste-pied",
-            "effet": "Passe la défaite à un allié et rend des PV."
+            "nom": "Décibel",
+            "effet": "Les envoûtements infligent plus de dégâts aux Yo-kai."
         },
         {
             "type": "Attaque",
-            "nom": "Volée",
-            "effet": "20x2 | 44x2"
+            "nom": "Plaquage",
+            "effet": "60 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Blizzard",
-            "effet": "80 | 120"
+            "nom": "Gel",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Soufflet",
-            "effet": "Gifle un ennemi sans raison et l'arrête net. 20x5 | 20x5"
+            "nom": "Bombe de basses",
+            "effet": "Un bruit retentissant réduit graduellement les PV de l'ennemi."
         },
         {
             "type": "Attaque",
-            "nom": "Prima donna",
-            "effet": "Le Yo-kai devient incohérent et attaque ses alliés."
+            "nom": "Vroum vroum",
+            "effet": "Le Yo-kai a les oreilles qui sifflent à cause d'une explosion et perd des PV."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Compliments !",
-        "A mangé quelque chose de fade": "J'en veux plus !",
-        "A mangé quelque chose de mauvais": "Essaie encore !",
-        "A la flemme": "Du repos !",
-        "Est échangé": "Pourquoi tu me fixes ? J'exige de visiter cet endroit moi-même.",
-        "Se lie d'amitié": "Tu es extraordinaire ! Je te suis ! Génial, non ?"
+        "A mangé quelque chose de bon": "C'est vivifiant !",
+        "A mangé quelque chose de fade": "C'est moyen !",
+        "A mangé quelque chose de mauvais": "Pfff ! Non merci.",
+        "A la flemme": "Je dois... dormir...",
+        "Est échangé": "*klaxonne* Allez, grimpe !",
+        "Se lie d'amitié": "Quel joli son tu fais... j'en suis tout retourné. Je veux être ton pote !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Zikafon",
+            "parent2": "Assourdisseur",
+            "resultat": "Babarouf",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "リー夫人",
-    "nom_anglais": "Snobetty",
+    "nom_original": "爆音ならし",
+    "nom_anglais": "Rawry",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "francaise": "Caroline Combes"
     },
     "localisations": {
         "ykw2": [
-            "Coteau fleuri-Clinique du Crépuscule",
-            "La Corniche- herbe & fleurs",
-            "Bingo-kai-Pièce bleue(présent)"
+            "Fusion"
         ],
         "ykw-Blasters": [
-            "Patrouille - La Corniche",
-            "Bingo-kai - Pièce bleue"
+            "Fusion",
+            "Patrouille -Centre-ville"
         ],
         "ykw3": [
-            "La Corniche - Ruisseaux",
-            "Bingo-kai - Pièce bleue - 2e prix (Granval)"
-        ],
-        "Yo-kai Watch : Puni Puni[]": [
-            "Elle est apparue dans l'événementMêlée des Lettres d'Amour, où elle était disponible dans le stage caché N°1. Voilà les conditions pour le débloquer selon le round de la Mêlée :",
-            "Round 1 : Terminer le stage 19 en 65 secondes ou moins.",
-            "Round 2 : Rentrer en ébullition 3 fois ou plus dans le stage 19.",
-            "Round 3 : Éclater 350 globules ou plus dans le stage 19.",
-            "Round 4 : Faire un combo de 40 ou plus dans le stage 19.",
-            "Round 5 : Créer un globule de taille 21 ou plus dans le stage 19.",
-            "Maintenant, elle est parfois disponible au Bingo-kai Oni ou dans laPièce de Roko."
+            "Fusion"
         ]
     },
     "rarite": "Commun",
@@ -99,32 +96,32 @@
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Volée",
-                "puissance": "20×2|44×2",
+                "nom": "Plaquage",
+                "puissance": "60|90",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Blizzard",
-                "puissance": "80|120",
+                "nom": "Gel",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Soufflet",
-                "puissance": "20×5|20×5",
-                "description": "Gifle un ennemi sans raison et l'arrête net."
+                "nom": "Bombe de basses",
+                "puissance": "___",
+                "description": "Un bruit retentissant réduit graduellement les PV de l'ennemi."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Prima donna",
+                "nom": "Vroum vroum",
                 "puissance": "N/A",
-                "description": "Le Yo-kai devient incohérent et attaque ses alliés."
+                "description": "Le Yo-kai a les oreilles qui sifflent à cause d'une explosion et perd des PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Caste-pied",
-                "description": "Passe la défaite à un allié et rend des PV."
+                "nom": "Talent : Décibel",
+                "description": "Les envoûtements infligent plus de dégâts aux Yo-kai."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -136,79 +133,74 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Soufflet",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+                "nom": "Bombe de basses",
+                "puissance": "___",
+                "description": "PV des ennemis baissent rapidement."
             },
             {
                 "type": "Technique 1",
-                "nom": "Découragement",
+                "nom": "Attaque précipitée",
                 "puissance": "80",
-                "description": "Baisse temporaire ATT. des ennemis touchés."
+                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
             },
             {
                 "type": "Technique 2",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
+                "nom": "Envoût. poison",
+                "puissance": "___",
+                "description": "Baisse lente PV ennemis. Charger élargit l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Déblindage",
-                "puissance": "80",
-                "description": "Baisse temporaire DÉF. des ennemis touchés."
+                "nom": "Grêle",
+                "puissance": "40",
+                "description": "Utilise un sort de glace. Charger renforce l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Tintouin",
-                "description": "Effet envoûtement négatif plus durable sur soi."
+                "nom": "Talent : À la charge",
+                "description": "Accélère le temps de chargement de l'attaque."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Volée",
-                "puissance": "25×2|55×2",
+                "nom": "Plaquage",
+                "puissance": "35|77",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Blizzard",
-                "puissance": "70|112",
+                "nom": "Gel",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Soufflet",
-                "puissance": "10×5|10×5",
-                "description": "Gifle un ennemi de toutes ses forces. Celui touché agira moins souvent."
+                "nom": "Bombe de basses",
+                "puissance": "___",
+                "description": "Tous les ennemis perdent peu à peu leurs PV à cause de ses enceintes !"
             },
             {
                 "type": "Envoûtement",
-                "nom": "Prima donna",
+                "nom": "Vroum vroum",
                 "puissance": "N/A",
-                "description": "Le Yo-kai devient incohérent et attaque ses alliés."
+                "description": "Le Yo-kai a les oreilles qui sifflent à cause d'une explosion et perd des PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Chacun pour moi",
-                "description": "Met K.O. un allié et récupère des PV, quand il est battu."
+                "nom": "Talent : Décibel",
+                "description": "Tous les Yo-kai subissent plus de dégâts si envoûtés."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Caste-pied",
-        "description": "Passe la défaite à un allié et rend des PV."
+        "nom": "Décibel",
+        "description": "Les envoûtements infligent plus de dégâts aux Yo-kai."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/319.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/319.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/319.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/319.wav",
+    "oldID": "332"
 }

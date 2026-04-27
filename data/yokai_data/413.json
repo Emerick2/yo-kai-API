@@ -1,55 +1,45 @@
 {
     "ID": "413",
-    "Nom": "Momonyan",
+    "Nom": "Sire Nyancelot",
     "Tribue": "Vaillant",
     "Rang": "A",
-    "PV": "425",
-    "Force": "140",
-    "Esprit": "49",
-    "Défense": "205",
-    "Vitesse": "181",
-    "Description": "Un chat Yo-kai né d'une pêche. Élevé par ses grands-parents, il a pour mission de vaincre les onis, partout où il passe.",
-    "description SITE": "Ce chat Yo-kai mignon a pour mère une pêche et a été élevé par un couple de petits vieux avant de partir en croisade contre les démons.",
-    "nourriture": "Sushi",
-    "élément": "Feu",
+    "PV": "464",
+    "Force": "162",
+    "Esprit": "59",
+    "Défense": "250",
+    "Vitesse": "109",
+    "Description": "Un chat Yo-kai en armure blindée qui a autrefois vaincu un roi, et qui risquerait sa vie pour son maître.",
+    "description SITE": "Un chat Yo-kai en armure qui a jadis protégé un roi, et il mettra sa vie en jeu pour son maître.",
+    "nourriture": "Encas",
+    "élément": "Glace",
     "Rôle": "Tank",
     "Biographie": "",
-    "étimologie": "Taronyan/Momonyan vient de Momotaro, une légende d'un enfant parti combattre des démons",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Il paraît tout mignon comme ça mais il peut combattre des démons énormes comme les Onis.",
-    "personnalité": "Il ne recule devant rien, est très courageux et sait surtout se faire des amis.",
+    "pouvoir": "",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/413.png",
-    "numero": "410",
-    "nourriture_favorite": "Sushi",
+    "numero": "408",
+    "nourriture_favorite": "Viande",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Boulette",
-            "effet": "Tous les PV restaurés en cas de défaite."
+            "nom": "Très armoureux",
+            "effet": "Pas de réaction face aux coups ennemis."
         },
         {
             "type": "Attaque",
-            "nom": "Découragement",
-            "effet": "Baisse temporaire ATT. des ennemis touchés. 80"
+            "nom": "Déblindage",
+            "effet": "Baisse temporaire DEF. des ennemis touchés. 80"
         },
         {
             "type": "Attaque",
-            "nom": "Boulette hachée",
+            "nom": "Excalimiaou",
             "effet": "Ruée de coups, inflige de gros dégâts à l'ennemi. 40/10"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Armure",
-            "effet": "Réduit les dégâts infligés. Attire l'attention."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Attaque",
-            "effet": "Attaque courte portée. 50"
         },
         {
             "type": "Attaque",
@@ -58,7 +48,17 @@
         },
         {
             "type": "Attaque",
-            "nom": "Champs de force +",
+            "nom": "Attaque",
+            "effet": "Attaque courte portée. 50"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Armure",
+            "effet": "Réduit les dégâts infligés. Attire l'attention."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Champ de force +",
             "effet": "Invincibilité temporaire des alliés à proximité."
         }
     ],
@@ -66,24 +66,21 @@
     "evolutions": [],
     "fusions": [],
     "image_locale": "",
-    "nom_original": "モモタロニャン",
-    "nom_anglais": "Momonyan",
+    "nom_original": "ニャン騎士",
+    "nom_anglais": "Sir Nyansalot",
     "premiere_apparition": "Yo-kai Watch Blasters",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Nathalie Bienaimé"
+        "francaise": "Inconnue"
     },
     "localisations": {
         "ykw-Blasters": [
-            "Scannez le QR code pour obtenir leDrapeau 1re place, qui rendra possible de se lier d'amitié avec Momonyan dans les missions suivantes :",
-            "Mission - Le chasseur Momotaro",
-            "Mission - Le chasseur Momotaro 2 (Brigade du Lapin Lunaire)"
+            "Achetez le jeu Yo-kai Watch Blasters : Escadron du chien blanc sur le Nintendo E-shop. Sire Nyancelot pourra être combattu une fois par jour au colisée des voyageurs jusqu'à devenir votre ami."
         ],
         "ykw3": [
-            "Bingo-kai-Pièce errante- 1er prix"
-        ],
-        "Yo-kai Watch : Wibble Wobble :[]": [
-            "Bingo-kai - 3000y\nIl est apparu lors de l'ÉvénementAnimaux-Nyan"
+            "Complétez lecercle Yo-kai\"Nyalliage\" :",
+            "Bingo-kai-Pièce Excellence",
+            "Blasters T-Musphinx poing levé ④"
         ]
     },
     "rarite": "Rare",
@@ -98,27 +95,27 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Boulette hachée",
+                "nom": "Excalimiaou",
                 "puissance": "40×10",
                 "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
             },
             {
                 "type": "Technique 1",
-                "nom": "Découragement",
+                "nom": "Déblindage",
                 "puissance": "80",
-                "description": "Baisse temporaire ATT. des ennemis touchés."
+                "description": "Baisse temporaire DÉF. des ennemis touchés."
             },
             {
                 "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
                 "nom": "Encore !",
                 "puissance": "80",
                 "description": "Attaque un ennemi pour attirer son attention."
+            },
+            {
+                "type": "Technique à acquérir 1",
+                "nom": "Armure",
+                "puissance": "___",
+                "description": "Réduit les dégâts infligés. Attire l'attention."
             },
             {
                 "type": "Technique à acquérir 2",
@@ -128,8 +125,8 @@
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Boulette",
-                "description": "Tous les PV restaurés en cas de défaite."
+                "nom": "Talent : Très armoureux",
+                "description": "Pas de réaction face aux coups ennemis."
             }
         ],
         "Yo-kai Watch 3": [
@@ -141,21 +138,21 @@
             },
             {
                 "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "30|105",
+                "nom": "Gel",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Boulette hachée",
-                "puissance": "16×10|24×10",
-                "description": "Frappe les ennemis à portée avec le pouvoir des délicieux raviolis de millet."
+                "nom": "Excalimiaou",
+                "puissance": "32×5|48×5",
+                "description": "Avec sa lame de chevalier, il attaque courageusement les ennemis à portée."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Délicieux raviolis",
+                "nom": "Serment de fidélité",
                 "puissance": "N/A",
-                "description": "La FOR. du Yo-kai augmente grâce aux raviolis de millet."
+                "description": "La DÉF. du Yo-kai devient digne de celle d'un chevalier !"
             },
             {
                 "type": "Attaque A",
@@ -165,15 +162,15 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Boulette hachée",
+                "nom": "Excalimiaou",
                 "puissance": "40×10",
                 "description": "Enchaîne les coups, inflige des dégâts élevés."
             },
             {
                 "type": "Attaque X",
-                "nom": "Découragement",
+                "nom": "Déblindage",
                 "puissance": "80",
-                "description": "Fait chuter l’attaque d’un ennemi pendant un instant."
+                "description": "Fait chuter la DÉF. d’un ennemi pendant un instant."
             },
             {
                 "type": "Attaque Y",
@@ -183,8 +180,8 @@
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Boulette",
-                "description": "Récupère des PV après évanouissement. (une fois)"
+                "nom": "Talent : En garde",
+                "description": "Réduit les dégâts des techniques subis en garde."
             }
         ]
     },
@@ -193,19 +190,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Sushi thon rouge"
+                "objet": "Petits pois neige"
             },
             {
                 "taux": "?%",
-                "objet": "Sushi à l'omelette"
+                "objet": "Grignotes"
             }
         ]
     },
     "special_talent": {
-        "nom": "Boulette",
-        "description": "Tous les PV restaurés en cas de défaite."
+        "nom": "Très armoureux",
+        "description": "Pas de réaction face aux coups ennemis."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/413.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/413.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/413.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/413.wav",
+    "oldID": "419"
 }

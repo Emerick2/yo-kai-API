@@ -1,18 +1,18 @@
 {
     "ID": "400",
-    "Nom": "Canastelle",
-    "Tribue": "Bienveillant",
+    "Nom": "Robodracou",
+    "Tribue": "Insaisissable",
     "Rang": "B",
-    "PV": "373",
-    "Force": "54",
-    "Esprit": "205",
-    "Défense": "126",
-    "Vitesse": "166",
-    "Description": "La gaîté de ce Yo-kai est un vrai rayon de soleil. Elle illumine la journée de tous ceux qu'elle croise.",
-    "description SITE": "La gaîté de ce Yo-kai est un vrai rayon de soleil. Elle illumine les journées de tous ceux qu'elle croise.",
-    "nourriture": "Bonbons",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
+    "PV": "420",
+    "Force": "40",
+    "Esprit": "215",
+    "Défense": "134",
+    "Vitesse": "164",
+    "Description": "Ce robot Dracounet a un corps d'acier. Il ne peut plus devenir Sire Dragon, mais il est sacrément fort.",
+    "description SITE": "Ce robotDracouneta un corps d'acier. Il ne peut plus devenirSire Dragon, mais il est sacrément fort.",
+    "nourriture": "Cuisine chinoise",
+    "élément": "Feu",
+    "Rôle": "Tank",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -23,57 +23,48 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/400.png",
-    "numero": "387",
-    "nourriture_favorite": "Sucrerie",
+    "numero": "346",
+    "nourriture_favorite": "Plats chinois",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Sirop",
-            "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
+            "nom": "Polarité",
+            "effet": "Augm. la FOR. pendant que la jauge d'âme se remplit."
         },
         {
             "type": "Attaque",
-            "nom": "Plaquage",
-            "effet": "60 | 90"
+            "nom": "Coup de boule",
+            "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Restauration",
+            "nom": "Incendie",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "French canne-canne",
-            "effet": "Remonte le moral des troupes et restaure les PV. 120 | 120"
+            "nom": "Infracou",
+            "effet": "Ses rayons futuristes s'abattent sur un seul ennemi. 230 | 230"
         },
         {
             "type": "Attaque",
-            "nom": "Petite douceur",
-            "effet": "Le Yo-kai récupère des PV grâce à la saveur de la canne à sucre."
+            "nom": "Force acier",
+            "effet": "Le Yo-kai voit sa DÉF. fortement augmenter grâce à la force de l'acier."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Miam !",
-        "A mangé quelque chose de fade": "C'est pas mal.",
-        "A mangé quelque chose de mauvais": "Ça ne brille pas...",
-        "A la flemme": "Je reviens vite.",
-        "Est échangé": "Tu veux que je vienne avec toi ? Quelle émotion COUIIIIII !",
-        "Se lie d'amitié": "Je suis excitée comme une puce ! Devenons amis !"
+        "A mangé quelque chose de bon": "Que c'est bon !",
+        "A mangé quelque chose de fade": "Ça passe.",
+        "A mangé quelque chose de mauvais": "Beurk ! Jette ça !",
+        "A la flemme": "*bâille*",
+        "Est échangé": "Mais je suis où ? Ça ne ressemble pas au futur que je connais !",
+        "Se lie d'amitié": "Je suis un robot ! Soyons amis."
     },
     "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Lacanne",
-            "parent2": "Hibiscus rouge",
-            "resultat": "Canastelle",
-            "critere": "➨"
-        }
-    ],
+    "fusions": [],
     "image_locale": "",
-    "nom_original": "ウキウキビ",
-    "nom_anglais": "Starrycane",
+    "nom_original": "ロボりゅーくん",
+    "nom_anglais": "Robodraggie",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
@@ -81,13 +72,14 @@
     },
     "localisations": {
         "ykw2": [
-            "Fusion"
+            "QR code - Gare de Poincrête"
         ],
         "ykw-Blasters": [
-            "Fusion"
+            "Bingo-kai oni"
         ],
         "ykw3": [
-            "Fusion"
+            "Bingo-kai-Pièce oxydée",
+            "Blasters T- Labyrinthe démoniaque"
         ]
     },
     "rarite": "Rare",
@@ -96,32 +88,32 @@
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage",
-                "puissance": "60|90",
+                "nom": "Coup de boule",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
+                "nom": "Incendie",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "French canne-canne",
-                "puissance": "120|120",
-                "description": "Remonte le moral des troupes et restaure les PV."
+                "nom": "Infracou",
+                "puissance": "230|230",
+                "description": "Ses rayons futuristes s'abattent sur un seul ennemi."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Petite douceur",
+                "nom": "Force acier",
                 "puissance": "N/A",
-                "description": "Le Yo-kai récupère des PV grâce à la saveur de la canne à sucre."
+                "description": "Le Yo-kai voit sa DÉF. fortement augmenter grâce à la force de l'acier."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Sirop",
-                "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+                "nom": "Talent : Polarité",
+                "description": "Augmente la FOR. pendant que la jauge d'âme se remplit."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -133,73 +125,80 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "French canne-canne",
-                "puissance": "400",
-                "description": "Alliés retrouvent beaucoup de PV."
+                "nom": "Infracou",
+                "puissance": "56×9",
+                "description": "Un rayon inflige de gros dégâts aux ennemis."
             },
             {
                 "type": "Technique 1",
-                "nom": "Envoût guérisseur",
-                "puissance": "___",
-                "description": "Hausse lente des PV alliés. Charger élargit l'effet."
+                "nom": "Déblindage",
+                "puissance": "80",
+                "description": "Baisse temporaire DÉF. des ennemis touchés."
             },
             {
                 "type": "Technique 2",
-                "nom": "Paradis",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
+                "nom": "Armure",
+                "puissance": "___",
+                "description": "Réduit les dégâts infligés. Attire l'attention."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Envoût guérisseur +",
+                "nom": "Encore !",
+                "puissance": "80",
+                "description": "Attaque un ennemi pour attirer son attention."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Champ de force +",
                 "puissance": "___",
-                "description": "Hausse rapide des PV alliés. Charger élargit l'effet."
+                "description": "Invincibilité temporaire des alliés à proximité."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Bonne mine",
-                "description": "Tes PV sont restaurés graduellement."
+                "nom": "Talent : Polarité",
+                "description": "Toutes stats renforcées quand jauge d'âme pleine."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage",
-                "puissance": "35|77",
+                "nom": "Coup de boule",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
+                "nom": "Incendie",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "French canne-canne",
-                "puissance": "90|180",
-                "description": "Remonte le moral des troupes et restaure les PV."
+                "nom": "Infracou",
+                "puissance": "140|280",
+                "description": "Attaque la colonne devant lui avec des lasers d'énergie dragon."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Petite douceur",
+                "nom": "Force acier",
                 "puissance": "N/A",
-                "description": "Le Yo-kai récupère des PV grâce à la saveur de la canne à sucre."
+                "description": "Le Yo-kai voit sa DÉF. augmenter grâce à la force de l'acier."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Sirop",
-                "description": "Rend peu à peu des PV à tous les alliés reliés."
+                "nom": "Talent : Polarité",
+                "description": "Augmente la FOR. tandis que la jauge d'âme se remplit."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Sirop",
-        "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+        "nom": "Polarité",
+        "description": "Augmente la FOR. pendant que la jauge d'âme se remplit."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/400.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/400.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/400.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/400.wav",
+    "oldID": "406"
 }

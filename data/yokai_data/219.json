@@ -1,39 +1,40 @@
 {
     "ID": "219",
-    "Nom": "Jacquasseur",
+    "Nom": "Cocpille",
     "Tribue": "Insaisissable",
-    "Rang": "C",
-    "PV": "374",
-    "Force": "217",
-    "Esprit": "41",
-    "Défense": "118",
-    "Vitesse": "150",
-    "Description": "Il ne vaut mieux pas lui prêter l'oreille, sinon il ne s'arrêtera jamais de parler. Il n'est vraiment pas à l'écoute.",
-    "nourriture": "Bonbons",
+    "Rang": "B",
+    "PV": "433",
+    "Force": "164",
+    "Esprit": "64",
+    "Défense": "211",
+    "Vitesse": "110",
+    "Description": "Cocpille rend les gens très généreux, au point que leur portefeuille se vide trop vite.",
+    "description SITE": "Il peut rendre les gens très généreux, au point que leur portefeuille se vide trop vite.",
+    "nourriture": "Pain",
     "élément": "Eau",
-    "Rôle": "Ranger",
+    "Rôle": "Tank",
     "Biographie": "",
-    "étimologie": "Jacquasseur vient de Jacasseur et de Jacques.",
+    "étimologie": "Cocpille vient de Coque et de Pille (piller, voler)",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Sous son envoûtement, les gens deviennent très bavards et racontent des anecdotes soporifiques.",
-    "personnalité": "Jacquasseur est quelqu'un de très bavard mais il n'est jamais à l'écoute des autres.",
+    "pouvoir": "Cocpille amène les gens à donner de l'argent aux autres tout le temps jusqu'à ce qu'ils obtiennent un portefeuille vide.",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/219.png",
-    "numero": "207",
-    "nourriture_favorite": "Sucrerie",
+    "numero": "206",
+    "nourriture_favorite": "Pain",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Flâneur pro",
-            "effet": "Récupère quelques PV quand il flâne."
+            "nom": "Coqu'invincible",
+            "effet": "Immunisé contre les envoûtements ennemis."
         },
         {
             "type": "Attaque",
-            "nom": "Tour complet",
-            "effet": "80 | 120"
+            "nom": "Mâchouille",
+            "effet": "45 | 99"
         },
         {
             "type": "Attaque",
@@ -42,67 +43,63 @@
         },
         {
             "type": "Attaque",
-            "nom": "Pif Paf",
-            "effet": "Baffe un adversaire avec son nez. Peut annuler les Âmultimes. 160 | 160"
+            "nom": "Dette éternelle",
+            "effet": "Entraîne ses ennemis dans des dettes en dispersant leur argent. 160 | 160"
         },
         {
             "type": "Attaque",
-            "nom": "Moulin à parole",
-            "effet": "Rend un ennemi si bavard qu'il en est ralenti."
+            "nom": "Générosité",
+            "effet": "Incite un Yo-kai à jeter de l'argent par les fenêtres."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Ouah ! Trop bon !",
-        "A mangé quelque chose de fade": "J'en reprendrai !",
-        "A mangé quelque chose de mauvais": "Que dire...",
-        "A la flemme": "C'est fatigant !",
-        "Est échangé": "On est amis ? J'ai tellement de choses à te raconter sur",
-        "Se lie d'amitié": "Tu as du talent ! J'aime ta façon de penser."
+        "A mangé quelque chose de bon": "Miam miam !",
+        "A mangé quelque chose de fade": "*mâche*",
+        "A mangé quelque chose de mauvais": "C'était quoi, ça ?!",
+        "A la flemme": "Qui ça intéresse ?",
+        "Est échangé": "Hé hé ! Si tu sais vraiment faire preuve de générosité, on sera amis !",
+        "Se lie d'amitié": "Ne te renferme pas ! Devenons amis !"
     },
     "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Jacquasseur",
-            "parent2": "Outransss",
-            "resultat": "Médisansss",
-            "critere": "➨"
-        }
-    ],
+    "fusions": [],
     "image_locale": "",
-    "nom_original": "ナガバナ",
-    "nom_anglais": "Babblong",
-    "premiere_apparition": "Yo-kai Watch (jeu)",
+    "nom_original": "はらわシェル",
+    "nom_anglais": "Almi",
+    "premiere_apparition": "Yo-kai Watch",
     "voix": {
-        "japonaise": "Naoki Bando",
-        "francaise": "Yann Pichon"
+        "japonaise": "Inconnue",
+        "francaise": "Inconnue"
     },
     "localisations": {
         "ykw1": [
-            "Quartier des boutiques-Résidences Sérénité- pièce vide",
-            "Quête - Moulin à paroles"
+            "Donner 20 jours de suite une offrande de 1 euro auMont Sylvestredans la boîte à côté de Monsieur Talisman. Pour pouvoir faire des offrandes au Sanctuaire, vous devez trouver un livre qui se trouve en bas à gauche de lalibrairie Plumedans laRue des fleursauQuartier des boutiques.",
+            "Après avoir combattu Cocpille une première fois avec la méthode précédente, il apparaîtra rarement dans le fleuve dela Corniche"
         ],
         "ykw2": [
-            "Mont Sylvestre– Bosquet aux Bambous",
-            "Quête - La faim justifie le moyen",
-            "Tunnel sans fin- 2 000m"
-        ],
-        "ykw-Blasters": [
-            "Patrouille : Quartier des boutiques"
+            "Quartier des boutiques",
+            "Donner une offrande 20 jours de suite une offrande de 1 euro au Mont Sylvestre.",
+            "Pièce mystère-Bingo-kaiVoie du mystère"
         ],
         "ykw3": [
-            "Tour Excellence– buissons"
+            "Betel- sous les voitures",
+            "San Fantastico- eau",
+            "San Fantastico -Grotte du littoral",
+            "San Fantastico - L'Atelier dérobé",
+            "Portails Mystère- Salle de combat",
+            "Coffre d'Égaroni"
+        ],
+        "Yo-kai Watch : Wibble Wobble :[]": [
+            "Stage caché nº10"
         ]
     },
-    "rarite": "Commun",
+    "rarite": "Rare",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Tour complet",
-                "puissance": "80|120",
+                "nom": "Mâchouille",
+                "puissance": "45|99",
                 "description": ""
             },
             {
@@ -113,27 +110,27 @@
             },
             {
                 "type": "Amultime",
-                "nom": "Pif Paf",
-                "puissance": "120|180",
-                "description": "Baffe un adversaire avec son nez. Peut annuler les Âmultimes."
+                "nom": "Dette éternelle",
+                "puissance": "160|160",
+                "description": "Entraîne ses ennemis dans des dettes en dispersant leur argent."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Moulin à parole",
+                "nom": "Générosité",
                 "puissance": "N/A",
-                "description": "Rend un ennemi si bavard qu'il en est ralenti."
+                "description": "Fait qu'un Yo-kai jette son argent par les fenêtres."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Flâneur pro",
-                "description": "Récupère quelques PV quand il flâne."
+                "nom": "Talent : Coqu'invincible",
+                "description": "Immunisé contre les envoûtements ennemis."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Tour complet",
-                "puissance": "80|120",
+                "nom": "Mâchouille",
+                "puissance": "45|99",
                 "description": ""
             },
             {
@@ -144,20 +141,20 @@
             },
             {
                 "type": "Amultime",
-                "nom": "Pif Paf",
+                "nom": "Dette éternelle",
                 "puissance": "160|160",
-                "description": "Baffe un adversaire avec son nez. Âmultimes annulables."
+                "description": "Entraîne ses ennemis dans des dettes en dispersant leur argent."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Moulin à parole",
+                "nom": "Générosité",
                 "puissance": "N/A",
-                "description": "Rend un ennemi si bavard qu'il en est ralenti."
+                "description": "Incite un Yo-kai à jeter de l'argent par les fenêtres."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Flâneur pro",
-                "description": "Récupère quelques PV quand il flâne."
+                "nom": "Talent : Coqu'invincible",
+                "description": "Immunisé contre les envoûtements ennemis."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -169,39 +166,45 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Pif Paf",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
+                "nom": "Dette éternelle",
+                "puissance": "250",
+                "description": "Baisse temporaire DÉF. des ennemis."
             },
             {
                 "type": "Technique 1",
-                "nom": "Attaque chargée",
+                "nom": "Encore !",
                 "puissance": "80",
-                "description": "Attaque courte portée. Charger renforce l'effet."
+                "description": "Attaque un ennemi pour attirer son attention."
             },
             {
                 "type": "Technique 2",
-                "nom": "Piège",
+                "nom": "Champ de force +",
                 "puissance": "___",
-                "description": "Peut engourdir un ennemi s'il marche dessus."
+                "description": "Invincibilité temporaire des alliés à proximité."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Baisse de vitesse",
+                "nom": "Armure",
                 "puissance": "___",
-                "description": "Baisse VIT. ennemie. Charger élargit l'effet."
+                "description": "Réduit les dégâts infligés. Attire l'attention."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Riz",
+                "puissance": "70",
+                "description": "Restaure tes PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Mal au pouce",
-                "description": "Attire l'attention des ennemis."
+                "nom": "Talent : Coqu'invincible",
+                "description": "Immunité contre les effets d'envoûtement négatifs."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Tour complet",
-                "puissance": "60|132",
+                "nom": "Mâchouille",
+                "puissance": "50|110",
                 "description": ""
             },
             {
@@ -212,30 +215,31 @@
             },
             {
                 "type": "Amultime",
-                "nom": "Pif Paf",
-                "puissance": "100|200",
-                "description": "Baffe un adversaire avec sa péninsule... avec son long nez, quoi."
+                "nom": "Dette éternelle",
+                "puissance": "___",
+                "description": "Couvre ses ennemis de dettes en dispersant leur argent."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Moulin à parole",
+                "nom": "Générosité",
                 "puissance": "N/A",
-                "description": "L'ennemi papote sans arrêt, sa VIT. baisse."
+                "description": "Incite un Yo-kai à jeter de l'argent par les fenêtres."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Flâneur pro",
-                "description": "Le lanceur récupère des PV en flânant."
+                "nom": "Talent : Coqu'invincible",
+                "description": "Immunisé contre les envoûtements ennemis."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Flâneur pro",
-        "description": "Récupère quelques PV quand il flâne."
+        "nom": "Coqu'invincible",
+        "description": "Immunisé contre les envoûtements ennemis."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/219.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/219.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/219.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/219.wav",
+    "oldID": "218"
 }

@@ -1,17 +1,17 @@
 {
     "ID": "461",
-    "Nom": "Toutournemal",
+    "Nom": "Steuf",
     "Tribue": "Mystérieux",
-    "Rang": "E",
-    "PV": "292",
-    "Force": "39",
-    "Esprit": "142",
-    "Défense": "82",
-    "Vitesse": "182",
-    "Description": "Déjà dit quelque chose qu'il ne fallait pas au pire moment ? C'est probablement la faute de ce Yo-kai.",
-    "nourriture": "Hot dog",
-    "élément": "Glace",
-    "Rôle": "Combattant",
+    "Rang": "C",
+    "PV": "386",
+    "Force": "41",
+    "Esprit": "202",
+    "Défense": "163",
+    "Vitesse": "123",
+    "Description": "Un joyeux Yo-kai toujours prêt à faire la fête. Où qu'il aille, il attire les fêtards.",
+    "nourriture": "Pizza",
+    "élément": "Feu",
+    "Rôle": "Tank",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -22,60 +22,68 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/461.png",
-    "numero": "071",
-    "nourriture_favorite": "Hot-Dog",
+    "numero": "110",
+    "nourriture_favorite": "Pizza",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Chamboule-tout",
-            "effet": "Réduit le décompte de mouvement des alliés."
+            "nom": "Mégateuf",
+            "effet": "Booste les stats de tous les Yo-kai Merican."
         },
         {
             "type": "Attaque",
-            "nom": "Morsure",
+            "nom": "Plaquage absolu",
             "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Grêle",
-            "effet": "20 | 90"
+            "nom": "Incendie",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Tour de patinoire",
-            "effet": "Recouvre les cases de glace, ce qui blesse les ennemis et réduit leur FOR."
+            "nom": "Grosse teuf",
+            "effet": "Monte le son (et booste les stats de tous les alliés) lors d'une teuf !"
         },
         {
             "type": "Attaque",
-            "nom": "Peau de banane",
-            "effet": "L'allié glisse si vite que sa VIT. augmente !Médaillon de Toutournemal"
+            "nom": "C'est la teuf !",
+            "effet": "Donne à un allié l'envie de faire la teuf, toutes ses stats augmentent !Médaillon de Steuf"
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "C'est le top... Ah !",
-        "A mangé quelque chose de fade": "Aucune saveur... Ah !",
-        "A mangé quelque chose de mauvais": "Merci, mais non. Ah !",
-        "A la flemme": "J'ai si sommeil... Ah !",
-        "Se lie d'amitié": "J'ose pas avouer que je voudrais être ton ami... Oups !",
-        "Est échangé": "Je ne devrais pas te dire que ton équipe a l'air faible... Oups..."
+        "A mangé quelque chose de bon": "Délicieux !",
+        "A mangé quelque chose de fade": "Merci !",
+        "A mangé quelque chose de mauvais": "Quoiii ?",
+        "A la flemme": "C'est quand, la fête ?",
+        "Se lie d'amitié": "Le combat est fini, alors c'est la teuf ! On fait péter les confettis !",
+        "Est échangé": "Je ne t'ai pas envoyé d'invitation, mais c'est pas grave, faisons la fête !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Dans le dessin animé",
+            "parent1": "Nanpart",
+            "parent2": "Steuf",
+            "resultat": "Nansteuf",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "口すべらし",
-    "nom_anglais": "Slippup",
+    "nom_original": "家ーイ",
+    "nom_anglais": "House Partay",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Grégory Laisné"
+        "francaise": "Nathalie Bienaimé"
     },
     "localisations": {
         "ykw3": [
-            "Électropolis- poubelles",
-            "Électropolis - Parking louche"
+            "Cajoun- bouches d'incendie"
         ]
     },
-    "rarite": "Commun",
+    "rarite": "Yo-kai Mericain",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
@@ -83,19 +91,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Anneau rouillé"
+                "objet": "Carte cadeau musique"
             },
             {
                 "taux": "?%",
-                "objet": "Hot-dog"
+                "objet": "Pizza au fromage"
             }
         ]
     },
     "special_talent": {
-        "nom": "Chamboule-tout",
-        "description": "Réduit le décompte de mouvements des alliés."
+        "nom": "Mégateuf",
+        "description": "Booste les stats de tous les Yo-kai Merican."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/461.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/461.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/461.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/461.wav",
+    "oldID": "466"
 }

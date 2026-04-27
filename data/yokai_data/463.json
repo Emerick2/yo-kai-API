@@ -1,94 +1,78 @@
 {
     "ID": "463",
-    "Nom": "Curryeux",
+    "Nom": "Wattson",
     "Tribue": "Mystérieux",
-    "Rang": "E",
-    "PV": "383",
-    "Force": "33",
-    "Esprit": "218",
-    "Défense": "93",
-    "Vitesse": "110",
-    "Description": "Hein ? Quoi ? Comment ? Attends, on doit donner une explication pour lui ? Vraiment ? Pour de vrai ? Mais pourquoi ?",
-    "nourriture": "Curry",
+    "Rang": "B",
+    "PV": "389",
+    "Force": "42",
+    "Esprit": "210",
+    "Défense": "122",
+    "Vitesse": "172",
+    "Description": "Tu t'es déjà pris le jus en touchant quelqu'un ? C'est pas l'amour, c'est l'électricité statique !",
+    "nourriture": "Encas",
     "élément": "Foudre",
-    "Rôle": "Ranger",
+    "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Sous son envoûtement, les gens deviennent aussi curieux et prennent la même posture.",
-    "personnalité": "Comme son nom l'indique il est très curieux et passe son temps à demander \"pourquoi\".",
+    "pouvoir": "Wattson a le pouvoir de créer de l'électricité statique. Il aime faire des farces aux personnes imprudentes lorsqu'elles touchent les poignées de porte.",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/463.png",
-    "numero": "082",
-    "nourriture_favorite": "Curry",
+    "numero": "122",
+    "nourriture_favorite": "Encas",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Auto-persuasion",
-            "effet": "Booste les effets des grâces du lanceur."
+            "nom": "Dynamo",
+            "effet": "↑ jauge d'âme du Yo-kai selon les cases parcourues."
         },
         {
             "type": "Attaque",
-            "nom": "Plaquage absolu",
-            "effet": "15 | 67"
+            "nom": "Gifle",
+            "effet": "10 | 45"
         },
         {
             "type": "Attaque",
-            "nom": "Décharge",
-            "effet": "20 | 90"
+            "nom": "Haute tension",
+            "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Pataquès futile",
-            "effet": "Embrouille l'ennemi avec une aura mystérieuse. Mais pourquoi ?!"
+            "nom": "Électricité statique",
+            "effet": "Charge les cases d'électricité, blessant les cibles et baissant leur VIT."
         },
         {
             "type": "Attaque",
-            "nom": "Pourquoiii ?",
-            "effet": "L'ennemi se demande pourquoi il se bat. Il peut refuser d'agir.Médaillon de Curryeux"
+            "nom": "Paralysie",
+            "effet": "Immobilise un ennemi grâce à un choc électrique !"
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Pourquoi c'est bon ?",
-        "A mangé quelque chose de fade": "Quoi ? Qui ? Où ?",
-        "A mangé quelque chose de mauvais": "Pourquoi si infect ?!",
-        "A la flemme": "Pourquoi se battre ?",
-        "Se lie d'amitié": "Pourquoi avoir attaqué au lieu de me demander d'être ton ami ? Pourquoi ?",
-        "Est échangé": "Je viens d'arriver, mais ça a pas l'air de te faire plaisir ! Pourquoi ?",
-        "info_6": "Bingo-kaiPourquoi tu m'as libéré ? Pourquoi toi ? Pourquoi maintenant ?"
+        "A mangé quelque chose de bon": "Ooh, ça picote !",
+        "A mangé quelque chose de fade": "Merci beaucoup !",
+        "A mangé quelque chose de mauvais": "Ça a l'air trop risqué !",
+        "A la flemme": "Au dodo !",
+        "Se lie d'amitié": "C'était électrique ! Je veux rejoindre ton équipe ! Je suis survolté !",
+        "Est échangé": "Je te serrerais bien la main... Mais tu risques de te prendre le jus !",
+        "info_6": "Bingo-kaiTu m'as libéré, je suis épaté ! J'en ai des picotements !"
     },
     "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Curryeux",
-            "parent2": "M. Felipaix",
-            "resultat": "Curryogi",
-            "critere": "➨"
-        }
-    ],
+    "fusions": [],
     "image_locale": "",
-    "nom_original": "ナンデナン",
-    "nom_anglais": "Why Naant",
+    "nom_original": "せいでん鬼",
+    "nom_anglais": "Statikid",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
-        "japonaise": "Ryoko Nagata",
-        "francaise": "Nathalie Bienaimé"
+        "japonaise": "Inconnue",
+        "francaise": "Caroline Combes"
     },
     "localisations": {
         "ykw3": [
-            "Centre-ville de Granval- Parking souterrain, Arrière-cour du Vent d'hiver",
-            "Bingo-kai-Pièce jaune- 3e prix"
-        ],
-        "Yo-kai Watch : Puni Puni :[]": [
-            "Il est apparu dans l'Événement - Bataille de Lance-Pierre des Noko:",
-            "Village Noko- Stage 1",
-            "Super Village Noko- Stage 18",
-            "Ultra Village Noko- Stage 38"
+            "Tour Morleone"
         ]
     },
     "rarite": "Commun",
@@ -99,19 +83,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Curry du chef"
+                "objet": "Poupée de bronze"
             },
             {
                 "taux": "?%",
-                "objet": "Curry de poulet"
+                "objet": "Chouchous"
             }
         ]
     },
     "special_talent": {
-        "nom": "Auto-persuasion",
-        "description": "Booste les effets des grâces du lanceur."
+        "nom": "Dynamo",
+        "description": "↑ jauge d'âme du Yo-kai selon les cases parcourues."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/463.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/463.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/463.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/463.wav",
+    "oldID": "468"
 }

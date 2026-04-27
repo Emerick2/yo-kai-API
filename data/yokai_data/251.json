@@ -1,125 +1,113 @@
 {
     "ID": "251",
-    "Nom": "Trodésolé",
+    "Nom": "Mythovni",
     "Tribue": "Mystérieux",
-    "Rang": "D",
-    "PV": "330",
-    "Force": "40",
-    "Esprit": "202",
-    "Défense": "122",
-    "Vitesse": "141",
-    "Description": "Il a beau s'excuser pour tout, il n'en pense pas un mot et décline gaiement toute responsabilité.",
-    "nourriture": "Curry",
-    "élément": "Foudre",
-    "Rôle": "Ranger",
+    "Rang": "C",
+    "PV": "344",
+    "Force": "38",
+    "Esprit": "227",
+    "Défense": "158",
+    "Vitesse": "124",
+    "Description": "Cette fausse soucoupe volante transforme ceux qu'elle envoûte en gros menteurs.",
+    "nourriture": "Sushi",
+    "élément": "Glace",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "",
+    "étimologie": "Mythovni vient de Mythomane (personne qui raconte des mensonges) et d'Ovni (Objet volant non identifié).",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Tous ceux qu’il envoûte s’excusent à demi-mot en disant : « Désolé, désolé, trop désolé ! ».",
-    "personnalité": "Trodésolé est un Yo-kai très énervant, car il cause beaucoup d’ennuis à ceux qu’il envoûte. Il a l'habitude de s'excuser sans en penser un mot. Cependant, il peut devenir agité et offensé lorsque d’autres s’excusent de manière moqueuse avec les mêmes motifs, ce qui agace ou met en colère quelqu’un.",
+    "pouvoir": "Ceux qui sont envoûtés par Mythovni raconteront des mensonges qui mettront leur interlocuteur en panique avant de révéler qu'il s'agissait d'un mensonge.",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/251.png",
-    "numero": "059",
-    "nourriture_favorite": "Curry",
+    "numero": "067",
+    "nourriture_favorite": "Sushi",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Plates excuses",
-            "effet": "Rend des PV aux alliés quand le Yo-kai flâne."
+            "nom": "Champ hertzien",
+            "effet": "Les dégâts de foudre augmentent la DÉF."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Plaquage absolu",
+            "effet": "15 | 67"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Blizzard",
+            "effet": "80 | 120"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Bobardement",
+            "effet": "Frappe un ennemi d'un rayon de glace censé venir de l'espace. 95 | 209"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Ovnystification",
+            "effet": "Le Yo-kai ment et prétend être du côté des ennemis. Ils ne l'attaquent plus."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "C'est super bon !",
-        "A mangé quelque chose de fade": "Merci, je suppose.",
-        "A mangé quelque chose de mauvais": "Euuh... BEURK !",
-        "A la flemme": "Une petite sieste.",
-        "Est échangé": "Vraiment désolé de m'imposer de la sorte. Désolé, mais je dois rester. OK ?",
-        "Se lie d'amitié": "Désolé, désolé ! Vraiment désolé ! Je m'excuse. Désolé !"
+        "A mangé quelque chose de bon": "Beurk...",
+        "A mangé quelque chose de fade": "Euh...",
+        "A mangé quelque chose de mauvais": "Plutôt moyen...",
+        "A la flemme": "C'est parti ? Nan.",
+        "Est échangé": "Ça fait quoi de voir un Yo-kai rare ? Ah ! T'y as cru ! Je ne le suis pas.",
+        "Se lie d'amitié": "Notre amitié est impossible... Je plaisante !"
     },
     "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "Yo-kai Watch 2",
-            "de": "Trodésolé",
-            "vers": "Pardomino",
-            "critere": "Niveau 30"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "Yo-kai Watch Blasters",
-            "de": "Trodésolé",
-            "vers": "Pardomino",
-            "critere": "Niveau 27"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "Yo-kai Watch 3",
-            "de": "Trodésolé",
-            "vers": "Pardomino",
-            "critere": "Niveau 33"
-        }
-    ],
+    "fusions": [],
     "image_locale": "",
-    "nom_original": "一旦ゴメン",
-    "nom_anglais": "So-Sorree",
+    "nom_original": "Ｕ.Ｓ.Ｏ.",
+    "nom_anglais": "Failian",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Grégory Laisné"
+        "francaise": "Nayéli Forest"
     },
     "localisations": {
         "ykw2": [
-            "Bingo-kai-Pièce frisson (oiseau)",
-            "Bingo-kai-Pièce frisson (lune)",
-            "Bingo-kai-Pièce frisson (vent)",
-            "Bingo-kai-Pièce frisson (fleur)"
+            "Exclusif à Yo-kai Watch 2 : Esprits farceursHauts de Granval- arbres"
         ],
         "ykw-Blasters": [
-            "Bingo-kai- Pièce fleur - 2e prix"
+            "Exclusif à l'Escadron du chien blancPatrouille - Hauts de Granval"
         ],
         "ykw3": [
-            "Centre-ville de Granval- arbres",
-            "Tour Excellence- arbres",
-            "Électropolis- arbres",
-            "Bingo-kai-Pièce jaune- 3e prix (Granval)"
-        ],
-        "Yo-kai Watch : Puni Puni :[]": [
-            "Événements :",
-            "Événement - Yo-kai Watch vs. GeGeGe no Kitaro- première apparition",
-            "Événement - Sixième Collaboration avec Hololive- Stand d'échange"
+            "Dukeville- arbres",
+            "Bingo-kai-Pièce jaune- 2e prix (Pistachburg)"
         ]
     },
-    "rarite": "Rare",
+    "rarite": "EF icone",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
+                "nom": "Plaquage absolu",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "20|90",
+                "nom": "Blizzard",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Mea culpa",
-                "puissance": "40|40",
-                "description": "S'excuse platement tout en purifiant les alliés et en leur redonnant des PV."
+                "nom": "Bobardement",
+                "puissance": "95|209",
+                "description": "Frappe un ennemi d'un rayon censé venir de l'espace."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Souffre-douleur",
+                "nom": "Ovnystification",
                 "puissance": "N/A",
-                "description": "Le Yo-kai devient prétentieux et est la cible de tous les ennemis."
+                "description": "Le Yo-kai ment et prétend être du côté des ennemis. Ils ne l'attaquent plus."
             },
             {
                 "type": "Attaque A",
@@ -129,14 +117,14 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Décharge",
+                "nom": "Gel",
                 "puissance": "N/A",
-                "description": "Électrocute les ennemis éloignés."
+                "description": "Un sort de glace gèle les ennemis éloignés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Plates excuses",
-                "description": "Rend des PV aux alliés quand le Yo-kai flâne."
+                "nom": "Talent : Champ hertzien",
+                "description": "Les dégâts de foudre augmentent la DÉF."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -148,58 +136,58 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Mea culpa",
-                "puissance": "400",
-                "description": "Alliés retrouvent beaucoup de PV. Envoûtements annulés."
+                "nom": "Bobardement",
+                "puissance": "200×2",
+                "description": "Un pilier de glace inflige de gros dégâts aux ennemis."
             },
             {
                 "type": "Technique 1",
-                "nom": "Décharge",
+                "nom": "Grêle",
                 "puissance": "40",
-                "description": "Utilise un sort de foudre. Charger renforce l'effet."
+                "description": "Utilise un sort de glace. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Piège",
-                "puissance": "___",
-                "description": "Peut engourdir un ennemi s'il marche dessus."
+                "nom": "Attaque de repli",
+                "puissance": "70",
+                "description": "Pendant l'attaque, recule et évite les coups ennemis."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Provoquer",
+                "nom": "Acte de disparition",
                 "puissance": "___",
-                "description": "Attire l'attention des ennemis proches."
+                "description": "Invisibilité temporaire."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Tirer sa révérence",
-                "description": "Invisibilité temporaire en cas de danger."
+                "nom": "Talent : Mal au pouce",
+                "description": "Attire l'attention des ennemis."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
+                "nom": "Plaquage absolu",
+                "puissance": "20|70",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "30|105",
+                "nom": "Blizzard",
+                "puissance": "70|112",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Mea culpa",
-                "puissance": "30|30",
-                "description": "Soigne tous les alliés et les purifie pour s'excuser."
+                "nom": "Bobardement",
+                "puissance": "150|300",
+                "description": "Attaque les ennemis à portée avec un rayon prétendu suprême."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Souffre-douleur",
+                "nom": "Ovnystification",
                 "puissance": "N/A",
-                "description": "Le Yo-kai envoûté devient hautain et se tourne les pouces."
+                "description": "On ne peut plus compter sur le Yo-kai envoûté, il agit moins."
             },
             {
                 "type": "Attaque A",
@@ -209,26 +197,26 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Mea culpa",
-                "puissance": "400",
-                "description": "Rend PV ++ aux alliés, annule les malédictions."
+                "nom": "Bobardement",
+                "puissance": "200×2",
+                "description": "Pilier de glace infligeant dégâts ++ sur les ennemis."
             },
             {
                 "type": "Attaque X",
-                "nom": "Décharge",
+                "nom": "Grêle",
                 "puissance": "40",
-                "description": "Technique de foudre+. Plus de dégâts si chargée."
+                "description": "Technique de glace+. Plus de dégâts si chargée."
             },
             {
                 "type": "Attaque Y",
-                "nom": "Piège",
-                "puissance": "___",
-                "description": "Pose un piège qui paralyse l’ennemi qui le déclenche."
+                "nom": "Attaque de repli",
+                "puissance": "70",
+                "description": "Se replie en attaquant pour éviter les coups ennemis."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Plates excuses",
-                "description": "Restaure des PV à un allié, quand le Yo-kai flâne."
+                "nom": "Talent : Champ hertzien",
+                "description": "Les dégâts de foudre augmentent la DÉF."
             }
         ]
     },
@@ -237,29 +225,30 @@
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "Billet de loterie"
+                "objet": "Badge de l'aurore"
             },
             {
                 "taux": "?%",
-                "objet": "Poupée de fuite"
+                "objet": "Nachos au fromage"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Dico-tech"
+                "objet": "Anneau d'illusion"
             },
             {
                 "taux": "?%",
-                "objet": "Curry de poulet"
+                "objet": "California rolls"
             }
         ]
     },
     "special_talent": {
-        "nom": "Plates excuses",
-        "description": "Rend des PV aux alliés quand le Yo-kai flâne."
+        "nom": "Champ hertzien",
+        "description": "Les dégâts de foudre augmentent la DÉF."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/251.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/251.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/251.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/251.wav",
+    "oldID": "253"
 }

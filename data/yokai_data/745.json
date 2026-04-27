@@ -1,16 +1,16 @@
 {
     "ID": "745",
-    "Nom": "Cigaclopin",
+    "Nom": "Komansa",
     "Tribue": "Mignon",
-    "Rang": "E",
-    "PV": "242",
-    "Force": "143",
-    "Esprit": "35",
-    "Défense": "100",
-    "Vitesse": "178",
+    "Rang": "D",
+    "PV": "343",
+    "Force": "40",
+    "Esprit": "190",
+    "Défense": "102",
+    "Vitesse": "160",
     "Description": "",
-    "élément": "Vent",
-    "Rôle": "Ranger",
+    "élément": "Feu",
+    "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,8 +21,8 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/745.png",
-    "nom_original": "デマまる",
-    "nom_anglais": "Cadout",
+    "nom_original": "ダマさん",
+    "nom_anglais": "Komasham",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -30,13 +30,13 @@
     },
     "localisations": {
         "ykw1": [
-            "Avoir donné un faux témoignage dans une interview au journal."
+            "Avoir menti et blessé un ami."
         ],
         "ykw2": [
-            "A lancé une rumeur sur des squelettes qui dansent."
+            "A cassé une console en voulant la réparer."
         ],
         "ykw3": [
-            "A menti sur le fait qu'il y ait du steak comme plat du jour."
+            "A mangé tout le glaçage sur le gâteau d'un ami."
         ]
     },
     "fusions": [],
@@ -46,58 +46,58 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Coupe-part",
+                "nom": "Coup de poing",
                 "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "20|90",
+                "nom": "Incendie",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Coupe de cigale",
-                "puissance": "17×5|17×5",
-                "description": "Coupe nerveusement tous ses ennemis."
+                "nom": "Valse des esprits",
+                "puissance": "90|90",
+                "description": "Invoque des feux follets pour attaquer l'ennemi."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Ninjutsu cigale",
+                "nom": "Brûlure",
                 "puissance": "N/A",
-                "description": "Augmente la VIT. d'un Yo-kai grâce au ninjutsu cigale."
+                "description": "Brûle un ennemi d'un feu déchaîné qui réduit régulièrement ses PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Modestie",
-                "description": "Faibles chances d'être attaqué."
+                "nom": "Talent : Alpha",
+                "description": "L'ESP. augmente à côté d'un Yo-kai oméga."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Coupe-part",
+                "nom": "Coup de poing",
                 "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "20|90",
+                "nom": "Incendie",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Coupe de cigale",
-                "puissance": "18×5|18×5",
-                "description": "Entaille nerveusement tous ses ennemis."
+                "nom": "Valse des esprits",
+                "puissance": "100|100",
+                "description": "Invoque des feux follets pour attaquer l'ennemi."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Ninjutsu cigale",
+                "nom": "Brûlure",
                 "puissance": "N/A",
-                "description": "Augmente la VIT. d'un Yo-kai grâce au ninjutsu cigale."
+                "description": "Brûle un ennemi d'un feu déchaîné qui réduit graduellement ses PV."
             },
             {
                 "type": "Attaque A",
@@ -107,188 +107,195 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Attaque ardente",
+                "nom": "Incendie",
                 "puissance": "N/A",
-                "description": "Esquive toutes les attaques physiques."
+                "description": "Un sort de feu brûle les ennemis éloignés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Modestie",
-                "description": "Faibles chances d'être attaqué."
+                "nom": "Talent : Alpha",
+                "description": "L'ESP. augmente à côté d'un Yo-kai oméga."
             }
         ],
         "Yo-kai Watch Blasters": [
             {
                 "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
             },
             {
                 "type": "Âmultime",
-                "nom": "Coupe de cigale",
-                "puissance": "480",
-                "description": "Inflige de gros dégâts à courte portée."
+                "nom": "Valse des esprits",
+                "puissance": "67×6",
+                "description": "Une flamme bleue qui inflige de gros dégâts."
             },
             {
                 "type": "Technique 1",
+                "nom": "Feu",
+                "puissance": "40",
+                "description": "Utilise un sort de feu. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique 2",
                 "nom": "Coup puissant",
                 "puissance": "100",
                 "description": "Attaque avec un super esprit du combattant."
             },
             {
-                "type": "Technique 2",
-                "nom": "Mine",
-                "puissance": "600",
-                "description": "Explose si un ennemi ou un allié s'en approche."
+                "type": "Technique à acquérir 1",
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
             },
             {
-                "type": "Technique à acquérir 1",
-                "nom": "Envoûtement poison",
-                "puissance": "___",
-                "description": "Baisse lente PV ennemis. Charger élargit l'effet."
+                "type": "Technique à acquérir 2",
+                "nom": "Incendie",
+                "puissance": "50",
+                "description": "Un sort de feu puissant. Charger renforce l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Délit de fuite",
-                "description": "Hausse VIT. si attaqué (cumulable), jusqu'à la fin des attaques."
+                "nom": "Talent : Tourneboulant!",
+                "description": "Toutes les stats renforcées en cas de danger."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Coupe-part",
+                "nom": "Coup de poing",
                 "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "30|105",
+                "nom": "Incendie",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Coupe de cigale",
+                "nom": "Valse des esprits",
                 "puissance": "100|300",
-                "description": "Entaille nerveusement les ennemis à portée."
+                "description": "Invoque des feux follets pour attaquer les ennemis à portée."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Ninjutsu cigale",
+                "nom": "Brûlure",
                 "puissance": "N/A",
-                "description": "Augmente la VIT. d'un Yo-kai grâce au ninjutsu cigale."
+                "description": "Attaque l'ennemi à coup de flammes pour diminuer ses PV."
             },
             {
                 "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Attaque trois fois. Le coup ultime est plus puissant."
             },
             {
                 "type": "Âmultime",
-                "nom": "Coupe de cigale",
-                "puissance": "480",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+                "nom": "Valse des esprits",
+                "puissance": "66×6",
+                "description": "Flammes bleues brûlant les ennemis. Dégâts élevés."
             },
             {
                 "type": "Attaque X",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque l’ennemi avec une attaque féroce."
+                "nom": "Feu",
+                "puissance": "40",
+                "description": "Technique de feu+. Plus de dégâts si chargée."
             },
             {
                 "type": "Attaque Y",
-                "nom": "Détection de trésor",
-                "puissance": "___",
-                "description": "Génère une zone qui détecte les trésors."
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. PV rendus + si chargé."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Coupe-vent",
-                "description": "Réduit les dégâts de vent subis par tous les alliés."
+                "nom": "Talent : Alpha",
+                "description": "Augmente l'ESP. quand relié au talent «Oméga»."
             }
         ]
     },
     "soul_effects": {
-        "Yo-kai Watch 2": "Augmente légèrement les chances d’esquiver les attaques.",
-        "Yo-kai Watch Blasters": "Faible hausse de la VIT.",
-        "Yo-kai Watch 3": "Réduit un peu les dégâts de vent sur tous les alliés."
+        "Yo-kai Watch 2": "VIT+ 20",
+        "Yo-kai Watch Blasters": "Faible hausse de toutes les stats en cas de danger.",
+        "Yo-kai Watch 3": "La jauge d'âme du lanceur se charge plus vite."
     },
     "drops": {
         "YW1": [
             {
                 "taux": "?%",
-                "objet": "Mélasse"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman de vitesse"
-            }
-        ],
-        "YW2": [
-            {
-                "taux": "?%",
-                "objet": "Petit EXPorbe"
-            },
-            {
-                "taux": "?%",
-                "objet": "Mélasse"
-            }
-        ],
-        "YW3": [
-            {
-                "taux": "?%",
-                "objet": "Cigatana"
+                "objet": "Amulette antifeu"
             },
             {
                 "taux": "?%",
                 "objet": "Thé de l'âme"
             }
+        ],
+        "YW2": [
+            {
+                "taux": "?%",
+                "objet": "Badge mignon"
+            },
+            {
+                "taux": "?%",
+                "objet": "Thé de l'âme"
+            }
+        ],
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "Glace (nourriture)"
+            },
+            {
+                "taux": "?%",
+                "objet": "Lait"
+            }
         ]
     },
     "special_talent": {
-        "nom": "Modestie",
-        "description": "Faibles chances d'être attaqué."
+        "nom": "Alpha",
+        "description": "L'ESP. augmente à côté d'un Yo-kai oméga."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/745.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/745.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/745.wav",
-    "nourriture": "Jus",
-    "nourriture_favorite": "Boisson",
+    "nourriture": "Lait",
+    "nourriture_favorite": "Glace",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Modestie",
-            "effet": "Faibles chances d'être attaqué."
+            "nom": "Alpha",
+            "effet": "L'ESP. augmente à côté d'un Yo-kai oméga."
         },
         {
             "type": "Attaque",
-            "nom": "Coupe-part",
+            "nom": "Coup de poing",
             "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Tourbillon",
-            "effet": "20 | 90"
+            "nom": "Incendie",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Coupe de cigale",
-            "effet": "Coupe nerveusement tous ses ennemis. 18x5 | 18x5"
+            "nom": "Valse des esprits",
+            "effet": "Invoque des feux follets pour attaquer l'ennemi. 100 | 100"
         },
         {
             "type": "Attaque",
-            "nom": "Ninjutsu cigale",
-            "effet": "Augmente la VIT. d'un Yo-kai grâce au ninjutsu cigale."
+            "nom": "Brûlure",
+            "effet": "Harasse l'ennemi à coup de flammes et aspire graduellement ses PV."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Je suis revigoré !",
-        "Mange de la nourriture insipide": "Euh... OK.",
-        "Mange de la mauvaise nourriture": "C'est d'un infâme !",
-        "A la flemme": "Besoin de repos...",
-        "Est échangé": "Bonjour, toi ! Il semble que j'aie émergé de la terre juste pour finir échangé.",
-        "Devient ton ami": "Parbleu, quelle escarmouche de talent ! Nous devrions nous lier d'amitié, non ?"
-    }
+        "Mange de la bonne nourriture": "C'est tourneboulant !",
+        "Mange de la nourriture insipide": "J'ai connu mieux.",
+        "Mange de la mauvaise nourriture": "Dégoûtant !",
+        "A la flemme": "J'ai peur...",
+        "Est échangé": "Dis, tu m'hébergerais quelques temps ? J'habitais chez",
+        "Devient ton ami": "Quelle force... Je veux faire partie de ton équipe !"
+    },
+    "oldID": "750"
 }

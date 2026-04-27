@@ -1,16 +1,16 @@
 {
     "ID": "759",
-    "Nom": "Wakopira",
-    "Tribue": "Bienveillant",
+    "Nom": "Loubarbant",
+    "Tribue": "Costaud",
     "Rang": "E",
-    "PV": "363",
-    "Force": "50",
-    "Esprit": "178",
-    "Défense": "100",
-    "Vitesse": "140",
+    "PV": "388",
+    "Force": "121",
+    "Esprit": "46",
+    "Défense": "189",
+    "Vitesse": "86",
     "Description": "",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
+    "élément": "Terre",
+    "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,20 +21,22 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/759.png",
-    "nom_original": "どろこんぶ",
-    "nom_anglais": "Trippa",
+    "nom_original": "ブレルりん",
+    "nom_anglais": "Roughraffony",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw1": [],
+        "ykw1": [
+            "Être incapable de savoir quoi manger pour le petit déjeuner."
+        ],
         "ykw2": [
-            "A souillé de boue le nouvel équipement de sport."
+            "A pris toute la journée pour commander au restaurant."
         ],
         "ykw3": [
-            "A transformé la piscine en soupe à l'oignon."
+            "A joué à la balle au prisonnier en plein match de basket."
         ]
     },
     "fusions": [],
@@ -44,145 +46,212 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
+                "nom": "Coup de tête",
+                "puissance": "55|121",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Guérison",
+                "nom": "Galet",
                 "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Sublime samba",
-                "puissance": "___",
-                "description": "Danse un mambo pour rendre ses alliés plus rapides."
+                "nom": "Gros dur",
+                "puissance": "30|30",
+                "description": "Regarde ses ennemis et réduit leur VIT."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Élixir de kombu",
+                "nom": "Âme de rebelle",
                 "puissance": "N/A",
-                "description": "Renforce la DÉF. d'un allié grâce au pouvoir des algues."
+                "description": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Corps vif",
-                "description": "Esquive les attaques avec brio !"
+                "nom": "Talent : Revanche",
+                "description": "Renvoie à l'ennemi une partie de ses dégâts."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
+                "nom": "Coup de tête",
+                "puissance": "55|121",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Guérison",
+                "nom": "Galet",
                 "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Sublime samba",
-                "puissance": "___",
-                "description": "Danse la samba pour rendre ses alliés plus rapides."
+                "nom": "Gros dur",
+                "puissance": "30|30",
+                "description": "Regarde ses ennemis et réduit leur VIT."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Élixir de kombu",
+                "nom": "Âme de rebelle",
                 "puissance": "N/A",
-                "description": "Renforce la DÉF. d'un allié grâce au pouvoir des algues."
+                "description": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
+            },
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "N/A",
+                "description": "Déclenche une attaque à courte portée."
+            },
+            {
+                "type": "Attaque X",
+                "nom": "Attaque à bloc",
+                "puissance": "N/A",
+                "description": "Déclenche une forte attaque à courte portée."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Corps vif",
-                "description": "Esquive les attaques avec brio !"
+                "nom": "Talent : Revanche",
+                "description": "Renvoie à l'ennemi une partie de ses dégâts."
             }
         ],
         "Yo-kai Watch Blasters": [
             {
                 "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
             },
             {
                 "type": "Âmultime",
-                "nom": "Sublime Samba",
-                "puissance": "___",
-                "description": "Augmentation temporaire de la vitesse des alliés à proximité."
+                "nom": "Gros dur",
+                "puissance": "250",
+                "description": "Baisse temporaire de la VIT. des ennemis."
             },
             {
                 "type": "Technique 1",
-                "nom": "Torrent",
-                "puissance": "40",
-                "description": "Utilise un sort d'eau. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
                 "nom": "Coup puissant",
                 "puissance": "100",
                 "description": "Attaque avec un super esprit du combattant."
             },
             {
-                "type": "Technique à acquérir 2",
-                "nom": "Boost de défense +",
+                "type": "Technique 2",
+                "nom": "Galet",
+                "puissance": "40",
+                "description": "Utilise un sort de terre. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique à acquérir 1",
+                "nom": "Âmunisé",
                 "puissance": "___",
-                "description": "Hausse DÉF. des alliés. Charger élargit l'effet."
+                "description": "Esquive rapidement l'attaque ennemie."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Position offensive",
+                "puissance": "___",
+                "description": "Hausse de l'attaque temporaire."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Turbo",
-                "description": "Hausse de la FOR. pour tous les alliés."
+                "nom": "Talent : Finisseur",
+                "description": "Augmente dégâts sur tous les ennemis en danger."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
+                "nom": "Coup de tête",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
+                "nom": "Galet",
                 "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Sublime samba",
-                "puissance": "___",
-                "description": "Danse la samba pour rendre ses alliés beaucoup plus rapides."
+                "nom": "Gros dur",
+                "puissance": "46|46",
+                "description": "Lance un regard terrible sur la colonne devant lui. Baisse fortement la VIT."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Élixir de kombu",
+                "nom": "Âme de rebelle",
                 "puissance": "N/A",
-                "description": "Utilise des algues pour augmenter fortement la DÉF. d'un allié."
+                "description": "L'ennemi se rebelle et sa DÉF. diminue."
+            },
+            {
+                "type": "Attaque A",
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Attaque trois fois. Le coup ultime est plus puissant."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Gros dur",
+                "puissance": "250",
+                "description": "Attaque et réduit un instant la VIT. de l'ennemi."
+            },
+            {
+                "type": "Attaque X",
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque l’ennemi avec une attaque féroce."
+            },
+            {
+                "type": "Attaque Y",
+                "nom": "Position offensive",
+                "puissance": "___",
+                "description": "Booste temporairement l’attaque."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Corps vif",
-                "description": "Esquive les attaques avec brio !"
+                "nom": "Talent : Banane",
+                "description": "Esquivera les coups de tête ennemis."
             }
         ]
     },
     "soul_effects": null,
-    "drops": {},
+    "drops": {
+        "YW1": [
+            {
+                "taux": "?%",
+                "objet": "Pensez Karaté"
+            },
+            {
+                "taux": "?%",
+                "objet": "Petit EXPorbe"
+            }
+        ],
+        "YW2": [
+            {
+                "taux": "?%",
+                "objet": "Amulette protectrice"
+            },
+            {
+                "taux": "?%",
+                "objet": "Hamburger"
+            }
+        ],
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "La défense de A à Z"
+            },
+            {
+                "taux": "?%",
+                "objet": "Ramen minute"
+            }
+        ]
+    },
     "special_talent": {
-        "nom": "Corps vif",
-        "description": "Esquive les attaques avec brio !"
+        "nom": "Revanche",
+        "description": "Renvoie à l'ennemi une partie de ses dégâts."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/759.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/759.png",
@@ -192,36 +261,37 @@
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Corps vif",
-            "effet": "Esquive les attaques avec brio !"
+            "nom": "Revanche",
+            "effet": "Renvoie à l'ennemi une partie de ses dégâts."
         },
         {
             "type": "Attaque",
-            "nom": "Gifle",
-            "effet": "10 | 45"
+            "nom": "Coup de tête",
+            "effet": "55 | 121"
         },
         {
             "type": "Attaque",
-            "nom": "Guérison",
+            "nom": "Galet",
             "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Sublime samba",
-            "effet": "Danse la samba pour rendre ses alliés plus rapides."
+            "nom": "Gros dur",
+            "effet": "Regarde ses ennemis et réduit leur VIT. 30 | 30"
         },
         {
             "type": "Attaque",
-            "nom": "Élixir de kombu",
-            "effet": "Renforce la DÉF. d'un allié grâce au pouvoir des algues."
+            "nom": "Âme de rebelle",
+            "effet": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Je danse de joie !",
-        "Mange de la nourriture insipide": "Hmm. Pas mal.",
-        "Mange de la mauvaise nourriture": "C'est HORRIBLE !",
-        "A la flemme": "Plus ici...",
-        "Est échangé": "J'espère quand même que tu danseras mieux que ne le fait ... !",
-        "Devient ton ami": "Devenons amis ! J'ai l'impression que tu as le sens du rythme."
-    }
+        "Mange de la bonne nourriture": "Mouais, pas mal.",
+        "Mange de la nourriture insipide": "Tout pour tous ?",
+        "Mange de la mauvaise nourriture": "Arrête le carnage.",
+        "A la flemme": "J'ai mal...",
+        "Est échangé": "C'est donc ici ma nouvelle maison ? Ah. On va bien s'amuser, toi et moi.",
+        "Devient ton ami": "Tu aimes jouer au voyou hein ? Moi aussi, ça tombe bien ! Devenons amis !"
+    },
+    "oldID": "764"
 }

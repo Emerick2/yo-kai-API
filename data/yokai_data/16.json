@@ -1,270 +1,321 @@
 {
     "ID": "16",
-    "Nom": "Jojojoyeux",
-    "Tribue": "Bienveillant",
-    "Rang": "C",
-    "PV": "394",
-    "Force": "210",
-    "Esprit": "46",
-    "Défense": "125",
-    "Vitesse": "130",
-    "Description": "La tendresse de Jojojoyeux crée une aura qui apaise même les atmosphères les plus tendues. Il peut redonner le sourire à n'importe qui.",
-    "nourriture": "Pain",
+    "Nom": "Orox",
+    "Tribue": "Vaillant",
+    "Rang": "S",
+    "PV": "445",
+    "Force": "250",
+    "Esprit": "61",
+    "Défense": "146",
+    "Vitesse": "159",
+    "Description": "Un guerrier armé d'un sabre divin fait pour vaincre le mal. Son but est de ramener la paix sur le monde.",
+    "nourriture": "Fruits de Mer",
     "élément": "Foudre",
-    "Rôle": "Guérisseur",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Jojojoyeux est un mot-valise entre le prénom Jojo et joyeux.",
-    "origine": "",
+    "étimologie": "Orox vient d'Or.",
+    "origine": "Comme l'épée sacrée, Orox est inspiré de l'épéeKusanagi-no-tsurugi, une épée légendaire très célèbre au Japon.",
     "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
+    "pouvoir": "Son sabre sacré permet de trancher le mal.",
+    "personnalité": "Il est très combatif et déterminé. Son objectif est de ramener la paix sur terre.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/16.png",
-    "numero": "125",
-    "nourriture_favorite": "Pain",
+    "numero": "018",
+    "nourriture_favorite": "Fruit de mer",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Traitement",
-            "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
+            "nom": "Célérité",
+            "effet": "Susceptible d'infliger des coups critiques."
         },
         {
             "type": "Attaque",
-            "nom": "Plaquage absolu",
-            "effet": "15 | 67"
+            "nom": "Taillade éclair",
+            "effet": "20x3 | 44x3"
         },
         {
             "type": "Attaque",
-            "nom": "Restauration",
-            "effet": "50 | 110"
+            "nom": "Décharge",
+            "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Ondes jojoviales",
-            "effet": "Restaure peu à peu les PV des alliés avec sa formidable aura."
+            "nom": "Entaille sacrée",
+            "effet": "Taille un seul ennemi avec son épée sacrée. Grande chance de coup critique. 165 | 247"
         },
         {
             "type": "Attaque",
-            "nom": "Gaîté",
-            "effet": "Remplit de courage le cœur d'un allié et restaure graduellement ses PV."
+            "nom": "Épée sacrée",
+            "effet": "L'épée sacrée Kusanagi augmente la FOR. d'un allié."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est bon !",
-        "Mange de la nourriture insipide": "C'était sympa !",
-        "Mange de la mauvaise nourriture": "Oh là là... Affreux.",
-        "A la flemme": "Mais non...",
-        "Est échangé": "On est amis ? Suis trop content !",
-        "Devient ton ami": "Tu as gagné la bataille, et mon cœur... Merci, nous sommes maintenant amis."
+        "Mange de la bonne nourriture": "Délicieux !",
+        "Mange de la nourriture insipide": "Assez banal.",
+        "Mange de la mauvaise nourriture": "Stop !",
+        "A la flemme": "Pas maintenant...",
+        "Est échangé": "Bien le bonjour, nouvelle connaissance. Soyons bons compagnons.",
+        "Devient ton ami": "À compter de ce jour nous sommes les meilleurs amis du monde. Je t'en prie."
     },
     "evolutions": [],
     "fusions": [
         {
             "type": "Fusion",
             "contexte": "Général",
-            "parent1": "Jojojoyeux",
-            "parent2": "Lulugubre",
-            "resultat": "Paradoxa",
+            "parent1": "Bonneto",
+            "parent2": "Épée Sacrée",
+            "resultat": "Orox",
             "critere": "➨"
         }
     ],
     "image_locale": "",
-    "nom_original": "ホノボーノ",
-    "nom_anglais": "Happierre",
-    "premiere_apparition": "Yo-kai Watch (jeu)",
+    "nom_original": "くさなぎ",
+    "nom_anglais": "Gleam",
+    "premiere_apparition": "Yo-kai Watch",
     "voix": {
-        "japonaise": "Masahito Yabe",
-        "francaise": "Nathalie Bienaimé"
+        "japonaise": "Inconnue",
+        "francaise": "Inconnue"
     },
     "localisations": {
         "ykw1": [
-            "Centre–ville de Granval– arbres",
-            "Bingo-kai–pièce verte"
+            "Orox peut être obtenu en fusionnantBonnetoet l'Épée Sacrée, qui est le drop rare d'Orqanos, ce qui veut dire qu'elle peut être obtenue à la fin du combat ou en épinglant unelueur doréependant le combat."
         ],
         "ykw2": [
-            "Coteau fleuri - Arbres",
-            "Tour Excellence- arbres et point d'observation",
-            "Vieux Granval- arbres et poteaux téléphoniques",
-            "Sanctuaire divin-rdc et 1er",
-            "Bingo-kai - pièce verte (présent)",
-            "Tunnel sans fin"
+            "Fusion",
+            "Bingo-kai-Pièce joyeuse",
+            "Bingo-kai oni - Mission Argent",
+            "Bingo-kai oni - Mission Or"
         ],
-        "ykw-Blasters": [
-            "Patrouille -Coteau fleuri"
-        ],
-        "ykw3": [
-            "Les Hauts de Granval- arbres"
+        "Yo-Kai Watch 3[]": [
+            "Fusion"
         ],
         "Yo-kai Watch : Wibble Wobble :[]": [
-            "Stage 38, 53 (Le Coteau fleuri)",
-            "Stage 98 (Quartier des boutiques)",
-            "Stage 125, 130 (La Corniche)",
-            "Stag 136, 148 (La Tour Excellence)",
-            "Stage 235 (Les plaines Plinplot)",
-            "Stage 261 (Granval-sur-Mer)",
-            "Stage secret 5-2 (Égout E)",
-            "Stage secret 6-5 (Égout F)",
-            "Stage secret 8-6 (Route des vandales)",
-            "Stage secret 13-61 (Limbes éternelles - 5e Cercle)",
-            "Stage secret 16-103 (Limbes éternelles - 8e Cercle)",
-            "Stage secret 18-9 (Paradis divin - 1er), Niveau secret 23-64 (Paradis divin - 6e)",
-            "Niveau d'épreuve 19 (Voie du mystère)",
-            "Niveau d'épreuve 39 (Épreuve d'Orqanos)",
-            "Niveau d'épreuve 18, 31 (Événement des Spectres psychiques)",
-            "Niveau d'épreuve 7, 49 (Festa Automnal Inferno)",
-            "Bingo-kai - Pièce joyeuse",
-            "Bingo-kai - Pièce mystère",
-            "Bingo-kai - Pièce verte",
-            "Bingo-kai - Pièce verte G",
-            "Bingo-kai - Pièce de fête (Domniscian)"
-        ],
-        "Yo-kai Watch 4 :[]": [
-            "L'âme de Jojojoyeux peut être récupérée dans leTournoi de Sumo Yo-kaiet également dans les récompenses.\nIl est trouvable aussi dans le combat deGrolosdans leTournoi Enma - Arène Oni."
+            "Bingo-kai Chanceux:",
+            "Événement - Festa Automnal Inferno(Première apparition)",
+            "Roue Rêve:",
+            "Événement - Mêlée de la Saint-Valentin(Première apparition)",
+            "Bingo-kai:",
+            "Pièce G4",
+            "Pièce Goku",
+            "Pièce Puni Puni",
+            "Pièce 10 Tirages Idol",
+            "Stand d'échange:",
+            "Événement - Tournoi de Enma, Édition Flamme",
+            "Événement - Collaboration avec CoroCoro Comic",
+            "Événement - Collaboration avec Kamen Rider"
         ]
     },
-    "rarite": "Commun",
+    "rarite": "Rare",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "15|67",
+                "nom": "Taillade éclair",
+                "puissance": "20×3|44×3",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
+                "nom": "Décharge",
+                "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Ondes jojoviales",
-                "puissance": "___",
-                "description": "Restaure petit à petit les PV des alliés avec sa formidable aura."
+                "nom": "Entaille sacrée",
+                "puissance": "190|285",
+                "description": "Taille un seul ennemi avec son épée sacrée. Grande chance de coup critique."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Gaîté",
+                "nom": "Épée sacrée",
                 "puissance": "N/A",
-                "description": "Remplit de courage le cœur d'un allié et restaure ses PV."
+                "description": "L'épée sacrée Kusanagi augmente la FOR. d'un allié."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Redonne des PV au Yo-kai voisin."
+                "nom": "Talent : Célérité",
+                "description": "Susceptible d'infliger des coups critiques."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "15|67",
+                "nom": "Taillade éclair",
+                "puissance": "20×3|44×3",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
+                "nom": "Décharge",
+                "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Ondes jojoviales",
-                "puissance": "___",
-                "description": "Restaure peu à peu les PV des alliés avec sa formidable aura."
+                "nom": "Entaille sacrée",
+                "puissance": "165|247",
+                "description": "Taille un seul ennemi avec son épée sacrée. Grande chance de coup critique."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Gaîté",
+                "nom": "Épée sacrée",
                 "puissance": "N/A",
-                "description": "Remplit de courage le cœur d'un allié et restaure graduellement ses PV."
+                "description": "L'épée sacrée Kusanagi augmente la FOR. d'un allié."
+            },
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "N/A",
+                "description": "Déclenche une attaque à courte portée."
+            },
+            {
+                "type": "Attaque X",
+                "nom": "Attaque à bloc",
+                "puissance": "N/A",
+                "description": "Déclenche une forte attaque à courte portée."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+                "nom": "Talent : Célérité",
+                "description": "Susceptible d'infliger des coups critiques."
             }
         ],
         "Yo-kai Watch Blasters": [
             {
                 "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte ."
             },
             {
                 "type": "Âmultime",
-                "nom": "Ondes jojoviales",
-                "puissance": "___",
-                "description": "Restauration lente des PV des alliés proches."
+                "nom": "Entaille sacrée",
+                "puissance": "400",
+                "description": "Inflige de gros dégâts à courte portée."
             },
             {
                 "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
+                "nom": "Attaque précipitée",
+                "puissance": "80",
+                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
             },
             {
                 "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
+                "nom": "Attaque de repli",
+                "puissance": "70",
+                "description": "Pendant l'attaque, recule et évite les coups ennemis."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Cercle de guérison",
+                "nom": "Contre",
                 "puissance": "___",
-                "description": "Crée un champ où les alliés peuvent se restaurer."
+                "description": "Repousse les attaques et contre-attaque."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Les PV des alliés sont restaurés graduellement."
+                "nom": "Talent : Instant critique",
+                "description": "Hausse de puissance des coups critiques."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "20|70",
+                "nom": "Taillade éclair",
+                "puissance": "24×3|38×3",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
+                "nom": "Décharge",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Ondes jojoviales",
-                "puissance": "___",
-                "description": "Restaure peu à peu les PV des alliés, grâce à son aura réconfortante."
+                "nom": "Entaille sacrée",
+                "puissance": "190|285",
+                "description": "Entaille la colonne devant lui avec son épée sacrée."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Gaîté",
+                "nom": "Épée sacrée",
                 "puissance": "N/A",
-                "description": "Remplit de courage le cœur d'un allié et restaure lentement ses PV."
+                "description": "L'épée sacrée Kusanagi augmente la FOR. d'un allié."
+            },
+            {
+                "type": "Attaque A",
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Attaque trois fois. Le coup ultime est plus puissant."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Entaille sacrée",
+                "puissance": "400",
+                "description": "Attaque puissante sur un ennemi proche."
+            },
+            {
+                "type": "Attaque X",
+                "nom": "Attaque précipitée",
+                "puissance": "80",
+                "description": "Fonce sur un ennemi en frappant à la chaîne."
+            },
+            {
+                "type": "Attaque Y",
+                "nom": "Contre",
+                "puissance": "___",
+                "description": "Dévie une attaque ennemie et contre-attaque vite."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Rend peu à peu des PV à tous les alliés reliés."
+                "nom": "Talent : Célérité",
+                "description": "Susceptible d'infliger des coups critiques."
             }
         ]
     },
     "soul_effects": null,
-    "drops": {},
+    "drops": {
+        "YW1": [
+            {
+                "taux": "?%",
+                "objet": "Émeraude"
+            },
+            {
+                "taux": "?%",
+                "objet": "Talisman de vitesse"
+            }
+        ],
+        "YW2": [
+            {
+                "taux": "?%",
+                "objet": "Secrets de l'âme"
+            },
+            {
+                "taux": "?%",
+                "objet": "Talisman de vitesse"
+            }
+        ],
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "Secrets de l'âme"
+            },
+            {
+                "taux": "?%",
+                "objet": "Oursin cru"
+            }
+        ]
+    },
     "special_talent": {
-        "nom": "Traitement",
-        "description": "Redonne des PV au Yo-kai voisin."
+        "nom": "Célérité",
+        "description": "Susceptible d'infliger des coups critiques."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/16.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/16.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/16.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/16.wav",
+    "oldID": "17"
 }

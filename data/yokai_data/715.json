@@ -1,20 +1,20 @@
 {
     "ID": "715",
-    "Nom": "Affolanterne",
+    "Nom": "Zombigoût",
     "Tribue": "Sinistre",
-    "Rang": "B",
+    "Rang": "A",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": "Ce Yo-kai est tellement cliché qu'il n'effraie plus vraiment personne...",
-    "nourriture": "Sukiyaki",
+    "Description": "Un humain normal à moitié transformé en zombie. Les zombies, c'est populaire, alors ça le dérange pas trop.",
+    "nourriture": "Viande",
     "élément": "Feu",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "Affolanternevient d'Affoleret deLanterne.",
-    "origine": "Affolanterne est basé sur le ch?chin-obake (?????, « fantôme de lanterne en papier »), un tsukumogami (youkai d’objet commun) né d’une lanterne en papier huilé. Lorsqu’ils se transforment en youkai, le papier se fendille le long des côtes de bambou, formant un ou deux yeux et une bouche souriante avec une langue qui se prélesse. Généralement assez inoffensif comme la plupart des tsukumogami, il existe cependant des histoires de fantômes vengeurs possédant des lanternes en papier, notamment le fantôme d’Oiwa de la pièce de kabuki très influente Yotsuya Kaidan.",
+    "Rôle": "Combattant",
+    "Biographie": "Après être devenu un zombie/Yo-kai, il a perdu ses souvenirs, mais en a retrouvé une partie : autrefois, il était humain et au service d'un prince.",
+    "étimologie": "",
+    "origine": "",
     "histoire": "",
     "pouvoir": "",
     "personnalité": "",
@@ -22,8 +22,8 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/715.png",
-    "nom_original": "ちょうちんお化け",
-    "nom_anglais": "Wack o' Lantern",
+    "nom_original": "ゾン・ビー・Ｃ",
+    "nom_anglais": "Zomboy",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
@@ -31,21 +31,131 @@
     },
     "localisations": {
         "ykw3": [
-            "Blasters T-Palais Enma",
-            "Bingo-kai-Pièce des abysses"
+            "Après avoir terminé la quête \"Des zombies et des hommes\", vous pourrez le combattre une fois par jour pour essayer de devenir son ami."
         ]
     },
     "fusions": [],
-    "rarite": "Classic icon",
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
+    "attaques_par_jeu": {
+        "Yo-kai Watch 3": [
+            {
+                "type": "Attaque",
+                "nom": "Taillade éclair",
+                "puissance": "24×3|38×3",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Feu",
+                "puissance": "30|105",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Broyeur frayeur",
+                "puissance": "16×10|24×10",
+                "description": "Découpe violemment les ennemis à portée avec son épée géante."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Zombification",
+                "puissance": "N/A",
+                "description": "Le Yo-kai devient un zombie et sa DÉF. baisse."
+            },
+            {
+                "type": "Attaque A",
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Attaque trois fois. Le coup ultime est plus puissant."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Broyeur frayeur",
+                "puissance": "40×10",
+                "description": "Enchaîne les coups, inflige des dégâts élevés."
+            },
+            {
+                "type": "Attaque X",
+                "nom": "Attaque blitz",
+                "puissance": "25",
+                "description": "Assaut continu. Le coup ultime est plus puissant."
+            },
+            {
+                "type": "Attaque Y",
+                "nom": "Attaque de repli",
+                "puissance": "70",
+                "description": "Se replie en attaquant pour éviter les coups ennemis."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Coup au but",
+                "description": "Garantit la précision sans possibilité de flâner."
+            }
+        ],
+        "Yo-kai Watch Busters 2": [
+            {
+                "type": "Attaque A",
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Broyeur frayeur",
+                "puissance": "40×10",
+                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+            },
+            {
+                "type": "Technique 1",
+                "nom": "Attaque blitz",
+                "puissance": "25",
+                "description": "Touche plusieurs fois pour des attaques en continu."
+            },
+            {
+                "type": "Technique 2",
+                "nom": "Démolibombe",
+                "puissance": "500",
+                "description": "Une bombe explose sur les ennemis et les alliés."
+            },
+            {
+                "type": "Technique à acquérir 1",
+                "nom": "Attaque de repli",
+                "puissance": "70",
+                "description": "Pendant l'attaque, recule et évite les coups ennemis."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Baisse de vitesse",
+                "puissance": "___",
+                "description": "Baisse VIT. ennemie. Charger élargit l'effet."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Au taquet",
+                "description": "Rend les pièges visibles."
+            }
+        ]
+    },
     "soul_effects": null,
-    "drops": {},
+    "drops": {
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "Remède puissant"
+            },
+            {
+                "taux": "?%",
+                "objet": "Bœuf persillé"
+            }
+        ]
+    },
     "special_talent": {
-        "nom": "Excès de zèle",
-        "description": "Augmente les dégâts des techniques, si PV réduits."
+        "nom": "Coup au but",
+        "description": "Garantit la précision sans possibilité de flâner."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/715.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/715.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/715.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/715.wav",
+    "oldID": "720"
 }

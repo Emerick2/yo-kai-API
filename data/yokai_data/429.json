@@ -1,50 +1,50 @@
 {
     "ID": "429",
-    "Nom": "Popcorne",
-    "Tribue": "Mystérieux",
-    "Rang": "S",
-    "PV": "427",
-    "Force": "45",
-    "Esprit": "268",
-    "Défense": "144",
-    "Vitesse": "174",
-    "Description": "Un Yo-kai qui a des ancêtres onis, mais dont la corne unique lui permet de vaincre les onis.",
-    "description SITE": "Ses ancêtres appartiennent à un clan d'oni légendaire. Sa large corne est la preuve de son héritage oni.",
-    "nourriture": "Sushi",
-    "élément": "Vent",
-    "Rôle": "Combattant",
+    "Nom": "Trempetta",
+    "Tribue": "Sinistre",
+    "Rang": "C",
+    "PV": "442",
+    "Force": "66",
+    "Esprit": "207",
+    "Défense": "169",
+    "Vitesse": "65",
+    "Description": "Trempetta casse toujours l'ambiance. Quand elle est avec sa sœur, on dirait que c'est la fin des temps.",
+    "description SITE": "Juste le fait d'être près de Trempetta vous rend humide. C'est la sœur de Lulugubre, priez pour ne jamais les voir ensemble !",
+    "nourriture": "Douceurs",
+    "élément": "Absorption",
+    "Rôle": "Guérisseur",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Popcorne peut vaincre beaucoup d'adversaires avec sa corne.",
-    "personnalité": "C'est une vraie crapule ! Il profite de ses pouvoirs pour embêter les autres.",
+    "pouvoir": "",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/429.png",
-    "numero": "446",
-    "nourriture_favorite": "Sushi",
+    "numero": "456",
+    "nourriture_favorite": "Déssert",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Sang démoniaque",
-            "effet": "Hausse massive de l'ATT. quand tes PV sont à 1."
+            "nom": "Hydratation",
+            "effet": "Réduit les dégâts du feu sur tous les alliés."
         },
         {
             "type": "Attaque",
-            "nom": "Rapides",
-            "effet": "Un sort d'eau puissant. Charger renforce l'effet. 50"
+            "nom": "Restauration",
+            "effet": "Rend des PV à un allié. Charger renforce l'effet. 80"
         },
         {
             "type": "Attaque",
-            "nom": "Cascade du crapaud",
-            "effet": "Une cascade inflige de gros dégâts aux ennemis. 50|8"
+            "nom": "Intrigue sinistre",
+            "effet": "PV des ennemis réduits rapidement. 250"
         },
         {
             "type": "Attaque",
-            "nom": "Incendie",
-            "effet": "Un sort de feu puissant. Charger renforce l'effet. 50"
+            "nom": "Cercle vicieux",
+            "effet": "Crée un champ où les stats des ennemis baissent."
         },
         {
             "type": "Attaque",
@@ -53,21 +53,21 @@
         },
         {
             "type": "Attaque",
-            "nom": "Frappe monstre",
-            "effet": "Hausse massive de l'ATT. à 1 PV."
+            "nom": "Envoût guérisseur",
+            "effet": "Hausse lente des PV alliés. Charger élargit l'effet."
         },
         {
             "type": "Attaque",
-            "nom": "Siphon",
-            "effet": "Absorbe beaucoup de PV. Charger renforce l'effet."
+            "nom": "Envoût. poison +",
+            "effet": "Baisse rapide PV ennemis. Charger élargit l'effet."
         }
     ],
     "phrases_nourriture": {},
     "evolutions": [],
     "fusions": [],
     "image_locale": "",
-    "nom_original": "鬼ガマ",
-    "nom_anglais": "Toadal Demon",
+    "nom_original": "シメッポイーナ",
+    "nom_anglais": "Drenchetta",
     "premiere_apparition": "Yo-kai Watch Blasters",
     "voix": {
         "japonaise": "Inconnue",
@@ -75,14 +75,16 @@
     },
     "localisations": {
         "ykw-Blasters": [
-            "Salle VIP- Bingo-kai VIP"
+            "Brigade du Lapin Lunaire",
+            "Bingo-kai-Pièce pleine lune",
+            "Mission - Yo-kai Watch Blasters ! alternatif - 1er prix"
         ],
         "ykw3": [
-            "Bingo-kai oni",
-            "Bingo-kai-Pièce démoniaque"
+            "Radeau- parcours grotte du grincheux",
+            "Grotte du grincheux"
         ],
         "Yo-kai Watch : Wibble Wobble :[]": [
-            "Bingo-kai oni"
+            "Festival des poupées Yo-kai- Stage Caché 1 [Créer 5 Boules Bonus]"
         ]
     },
     "rarite": "Rare",
@@ -93,118 +95,84 @@
                 "type": "Attaque A",
                 "nom": "Attaque",
                 "puissance": "50",
-                "description": "Attaque courte portée"
+                "description": "Attaque courte portée."
             },
             {
                 "type": "Âmultime",
-                "nom": "Cascade du crapaud",
-                "puissance": "50×8",
-                "description": "Une cascade inflige de gros dégâts aux ennemis."
+                "nom": "Intrigue sinistre",
+                "puissance": "250",
+                "description": "PV des ennemis réduits rapidement."
             },
             {
                 "type": "Technique 1",
-                "nom": "Rapides",
-                "puissance": "50",
-                "description": "Un sort d'eau puissant. Charger renforce l'effet."
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Incendie",
-                "puissance": "50",
-                "description": "Un sort de feu puissant. Charger renforce l'effet."
+                "nom": "Cercle vicieux",
+                "puissance": "___",
+                "description": "Crée un champ où les stats des ennemis baissent."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Frappe monstre",
+                "nom": "Envoût guérisseur",
                 "puissance": "___",
-                "description": "Hausse massive de l'attaque à 1 PV."
+                "description": "Hausse lente des PV alliés. Charger élargit l'effet."
             },
             {
                 "type": "Technique à acquérir 2",
-                "nom": "Siphon",
-                "puissance": "40",
-                "description": "Absorbe beaucoup de PV. Charger renforce l'effet."
+                "nom": "Envoût. poison +",
+                "puissance": "___",
+                "description": "Baisse rapide PV ennemis. Charger élargit l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Sang démoniaque",
-                "description": "Hausse massive de l'ATT. quand tes PV sont à 1."
+                "nom": "Talent : Hydratation",
+                "description": "Réduit les dégâts du feu sur tous les alliés."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Méga frappe",
-                "puissance": "35|77",
+                "nom": "Laminage",
+                "puissance": "40|88",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Tornade",
-                "puissance": "50|110",
+                "nom": "Vortex",
+                "puissance": "40|88",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Cascade du crapaud",
-                "puissance": "148|222",
-                "description": "Une cascade créée par un démon légendaire s'abat sur les ennemis à portée."
+                "nom": "Intrigue sinistre",
+                "puissance": "___",
+                "description": "Plonge les ennemis dans une ambiance lugubre. Baisse peu à peu leurs PV."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Malédictioni",
+                "nom": "Dégâts des eaux",
                 "puissance": "N/A",
-                "description": "Malédiction ancestrale qui réduit lentement les PV."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Cascade du crapaud",
-                "puissance": "50×8",
-                "description": "Dégâts ++ sur les ennemis écrasés par la cascade."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Tornade",
-                "puissance": "50",
-                "description": "Technique de vent++. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Coup démoniaque",
-                "puissance": "___",
-                "description": "Booste de l’attaque +++ en baissant les PV à un."
+                "description": "Inonde un ennemi, sa FOR. diminue."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Sang démoniaque",
-                "description": "↑ attaque ++, si peu de PV. (une fois)"
+                "nom": "Talent : Temps nuageux",
+                "description": "Ne subit pas de dégâts critiques."
             }
         ]
     },
     "soul_effects": null,
-    "drops": {
-        "YW3": [
-            {
-                "taux": "?%",
-                "objet": "Anneau lunaire"
-            },
-            {
-                "taux": "?%",
-                "objet": "Sushi thon rouge"
-            }
-        ]
-    },
+    "drops": {},
     "special_talent": {
-        "nom": "Sang démoniaque",
-        "description": "Hausse massive de l'ATT. quand tes PV sont à 1."
+        "nom": "Hydratation",
+        "description": "Réduit les dégâts du feu sur tous les alliés."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/429.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/429.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/429.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/429.wav",
+    "oldID": "434"
 }

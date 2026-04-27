@@ -1,151 +1,198 @@
 {
     "ID": "21",
-    "Nom": "Âmiral",
+    "Nom": "Feulion",
     "Tribue": "Vaillant",
-    "Rang": "A",
-    "PV": "499",
-    "Force": "347",
-    "Esprit": "64",
-    "Défense": "196",
-    "Vitesse": "105",
-    "Description": "Un meneur populaire de son vivant, Âmiral mène une armée d'esprits même après la mort. Mais quel charisme !",
-    "nourriture": "Légumes",
-    "élément": "Absorption",
-    "Rôle": "Tank",
+    "Rang": "C",
+    "PV": "412",
+    "Force": "183",
+    "Esprit": "165",
+    "Défense": "90",
+    "Vitesse": "79",
+    "Description": "Le roi des bêtes à la crinière de feu ! Ce Yo-kai au sang chaud aide ses amis avec un dévouement sans pareil.",
+    "nourriture": "Viande",
+    "élément": "Feu",
+    "Rôle": "Ranger",
     "Biographie": "",
-    "étimologie": "Âmiral vient d'Âme et d'Amiral",
+    "étimologie": "Feulion vient de Feu et de Lion.",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Il peut utiliser un pouvoir venu des enfers. Il est aussi capable de maîtriser la lance.",
-    "personnalité": "Âmiral a les qualités et le charisme d'un leader né.",
-    "talent": "Esprit gardien",
-    "Technique": "Absorption",
+    "pouvoir": "Il peut brûler des objets, voire même, ses adversaires. Les personnes qu'il envoûte bouillonnent de motivation !",
+    "personnalité": "Il est très gentil et n'hésiterait pas une seconde pour aider un ami mais quand il s'agit de se battre, il a un esprit très combatif.",
+    "talent": "",
+    "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/21.png",
-    "numero": "011",
-    "nourriture_favorite": "Legume",
+    "numero": "012",
+    "nourriture_favorite": "Viande",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Esprit gardien",
-            "effet": "En défense, pas de dégâts élémentaires."
+            "nom": "Esprit solidaire",
+            "effet": "La puissance augmente quand un allié est battu."
         },
         {
             "type": "Attaque",
-            "nom": "Rafale de coups",
-            "effet": "10x5 | 22x5"
+            "nom": "Poing précis",
+            "effet": "90 | 135"
         },
         {
             "type": "Attaque",
-            "nom": "Vortex",
+            "nom": "Incendie",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Droit en enfer",
-            "effet": "Coupe ses ennemis. Chance d'infliger un coup critique ou d'échouer. 135 | 202"
+            "nom": "Poing de feu",
+            "effet": "Brûle ses ennemis grâce à l'ardeur de sa combativité. 60 | 132"
         },
         {
             "type": "Attaque",
-            "nom": "Sort du Styx",
-            "effet": "Affaiblit l'ESP. ennemi avec un pouvoir étrange des ténèbres."
+            "nom": "Enflammer",
+            "effet": "Enflamme le cœur d'un allié et augmente sa FOR."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Remarquable !",
-        "Mange de la nourriture insipide": "C'était mangeable.",
-        "Mange de la mauvaise nourriture": "C'est écœurant !",
-        "A la flemme": "P'tite pause !",
-        "Est échangé": "Tu sembles être d'une lignée noble et puissante. Oui, je t'accompagnerai.",
-        "Devient ton ami": "Tu es véritablement le soldat qui m'a fait revenir dans le monde des vivants."
+        "Mange de la bonne nourriture": "Roaaar !",
+        "Mange de la nourriture insipide": "Roar...",
+        "Mange de la mauvaise nourriture": "Roaaar...",
+        "A la flemme": "Mouaf... Zzz...",
+        "Est échangé": "Roaaar, ROAAAR ! (Cette amitié me rend tout feu tout flamme !)",
+        "Devient ton ami": "Flamboyant ! Devenons amis !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Feulion",
+            "parent2": "Herbert",
+            "resultat": "Carnanova",
+            "critere": "➨"
+        },
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Feulion",
+            "parent2": "Vermicelles colorés",
+            "resultat": "Lionguiste",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "黄泉ゲンスイ",
-    "nom_anglais": "Corptain",
-    "premiere_apparition": "Yo-kai Watch (jeu)",
+    "nom_original": "メラメライオン",
+    "nom_anglais": "Blazion",
+    "premiere_apparition": "Yo-kai Watch",
     "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "japonaise": "Yûko Sasamoto",
+        "francaise": "Adrien Solis"
     },
     "localisations": {
         "ykw1": [
-            "Parlez à un homme au 1er étage dumusée lac des Coloquintesqui vous parlera d'une rumeur sur un trésor caché au vieux manoir. Âmiral sera ensuite trouvable dans ladépendance du vieux manoir, derrière un verrou deRang Set un passage secret."
+            "Centre–ville de Granval-Chantier",
+            "Limbes éternelles- 3ème Cercle",
+            "Limbes éternelles - 4ème Cercle"
         ],
         "ykw2": [
-            "Quête – Vision du cauchemar",
-            "Faisable après la fin du jeu et avoir obtenu lerang S. Après l'avoir finie, il peut être battu auYo-kai Worlddevant la Grande Porte.."
+            "Tour Excellence– Poubelles",
+            "Tour Excellence – Appartements vides",
+            "Tour Excellence – Sous les voitures et sous les distributeurs",
+            "Note: Il se trouvera là-bas seulement partemps ensoleillé."
         ],
         "ykw-Blasters": [
-            "Patrouille -Plaines Plinpot"
+            "Patrouille -Ourcival",
+            "Bingo-kai -Pièce rouge"
         ],
         "ykw3": [
-            "Âmiral peut apparaître à laTour Morleone."
+            "Au cours de l'histoire d'Ariane(Chapitre 2)",
+            "École élémentaire de Granval",
+            "Bingo-kai:Pièce Rouge (USA)",
+            "Pièce Rouge (USA)"
+        ],
+        "Yo-kai Watch : Puni Puni :[]": [
+            "Stage 171 (Yo-kai World)",
+            "Stage 136 (Tour Excellence)",
+            "Stage 205 (San Fantastico)",
+            "Stage 217 (Ourcival)",
+            "Stage 275 (Vieux Granval)",
+            "Stage Secret 8-9 (Route des Vandales)",
+            "Stage Secret 10-22 (Limbes Eternelles - 2ème Cercle)",
+            "Stage Secret 15-85 (Limbes Eternelles - 7ème Cercle)",
+            "Stage Secret 17-13 (Sanctuaire divin - 1er Cercle)",
+            "Stage Secret 19-4 (Sanctuaire divin - 3ème Cercle)",
+            "Stage Secret 21-24 (Sanctuaire divin - 5ème Cercle)",
+            "Stage 32 (Ultra Voie du Mystère)",
+            "Stage 28 (Super Terr'heure)",
+            "Bingo-kai - Pièce Joyeuse",
+            "Bingo-kai - Pièce Rouge"
         ],
         "Yo-kai Watch 4 :[]": [
-            "Yo-kai World (Passé)",
-            "Il est également trouvable dans le combat deBogosdans leTournoi Enma - Arène Oniainsi que dans les missions deKenshin AmaterasuetPorcinatoret la seconde chasse à l'orbe Oni dans le mode Blasters."
+            "Soukenzan",
+            "Les Hauts de Granval",
+            "Coteau fleuri",
+            "Hell's Kitchen",
+            "Bingo-kai(futur) :Pièce Gasha,Pièce 5 étoiles,Pièce 1 étoileen tant que troisième prix.",
+            "Bingo-kai(Yo-kai World) :Pièce 5 étoiles,Pièce 1 étoileen tant que troisième prix.",
+            "Feulion est également trouvable dans le combat deBlingosdans leTournoi Enma - Arène Oniainsi que dans les missions deCrocho,Ogralos,Bushinyan (Shadowside)dans le mode Blasters."
         ]
     },
-    "rarite": "Rare",
-    "tribu_yw4": "Âmiral",
+    "rarite": "Commun",
+    "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "10×5|22×5",
+                "nom": "Poing précis",
+                "puissance": "90|135",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Absorption",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Droit en enfer",
-                "puissance": "160|240",
-                "description": "Coupe ses ennemis. Chance d'infliger un coup critique ou d'échouer."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Sort du Styx",
-                "puissance": "N/A",
-                "description": "Affaiblit l'ESP. ennemi avec un pouvoir étrange des ténèbres."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "En défense, pas de dégâts élémentaires."
-            }
-        ],
-        "Yo-kai Watch 2": [
-            {
-                "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "10×5|22×5",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Vortex",
+                "nom": "Incendie",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Droit en enfer",
-                "puissance": "135|202",
-                "description": "Coupe ses ennemis. Chance d'infliger un coup critique ou d'échouer."
+                "nom": "Poing de feu",
+                "puissance": "80|176",
+                "description": "Brûle ses ennemis grâce à l'ardeur de sa combativité."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Sort du Styx",
+                "nom": "Enflammer",
                 "puissance": "N/A",
-                "description": "Affaiblit l'ESP. ennemi avec un pouvoir étrange des ténèbres."
+                "description": "Enflamme le cœur d'un allié et augmente sa FOR."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Esprit solidaire",
+                "description": "La puissance augmente quand un allié est battu."
+            }
+        ],
+        "Yo-kai Watch 2": [
+            {
+                "type": "Attaque",
+                "nom": "Poing précis",
+                "puissance": "90|135",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Incendie",
+                "puissance": "50|110",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Poing de feu",
+                "puissance": "60|132",
+                "description": "Brûle ses ennemis grâce à l'ardeur de sa combativité."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Enflammer",
+                "puissance": "N/A",
+                "description": "Enflamme le cœur d'un allié et augmente sa FOR."
             },
             {
                 "type": "Attaque A",
@@ -155,14 +202,14 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Attaque à bloc",
+                "nom": "Explosion",
                 "puissance": "N/A",
-                "description": "Déclenche une forte attaque à courte portée."
+                "description": "Une bombe explose sur les ennemis et les alliés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "En défense, pas de dégâts élémentaires."
+                "nom": "Talent : Esprit solidaire",
+                "description": "La puissance augmente quand un allié est battu."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -174,58 +221,64 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Droit en enfer",
-                "puissance": "480",
-                "description": "Inflige de gros dégâts à courte portée."
+                "nom": "Poing de feu",
+                "puissance": "100×4",
+                "description": "Brûle les ennemis, gros dégâts infligés."
             },
             {
                 "type": "Technique 1",
-                "nom": "Découragement +",
-                "puissance": "80",
-                "description": "Baisse temporaire ATT. des ennemis touchés."
+                "nom": "Feu",
+                "puissance": "40",
+                "description": "Utilise un sort de feu. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
+                "nom": "Démolibombe",
+                "puissance": "500",
+                "description": "Une bombe explose sur les ennemis et les alliés."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Armure",
+                "nom": "Âmunisé",
                 "puissance": "___",
-                "description": "Rėduit les dégâts infligés. Attire l'attention."
+                "description": "Esquive rapidement l'attaque ennemie."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Attaque blitz",
+                "puissance": "25",
+                "description": "Touche plusieurs fois pour des attaques en continu."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Esprit du gardien",
-                "description": "Ta jauge d'âme augmente si attaque ennemie gardée."
+                "nom": "Talent : Attise les flammes",
+                "description": "Ajoute du feu aux attaques."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "8×5|17×5",
+                "nom": "Poing précis",
+                "puissance": "70|112",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "40|88",
+                "nom": "Incendie",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Droit en enfer",
-                "puissance": "200|300",
-                "description": "Sort son épée de son fourreau et atteint les ennemis à portée."
+                "nom": "Poing de feu",
+                "puissance": "110|220",
+                "description": "Brûle ses ennemis grâce à l'ardeur de sa combativité."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Sort du Styx",
+                "nom": "Enflammer",
                 "puissance": "N/A",
-                "description": "Affaiblit l'ESP. ennemi avec un pouvoir étrange des ténèbres."
+                "description": "Enflamme le cœur d'un allié et augmente sa FOR."
             },
             {
                 "type": "Attaque A",
@@ -235,26 +288,26 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Droit en enfer",
-                "puissance": "480",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+                "nom": "Poing de feu",
+                "puissance": "100×4",
+                "description": "Feu intense infligeant des dégâts ++ aux ennemis."
             },
             {
                 "type": "Attaque X",
-                "nom": "Découragement +",
-                "puissance": "80",
-                "description": "Réduit ++ l’attaque ennemie un court instant."
+                "nom": "Feu",
+                "puissance": "40",
+                "description": "Technique de feu+. Plus de dégâts si chargée."
             },
             {
                 "type": "Attaque Y",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
+                "nom": "Démolibombe",
+                "puissance": "500",
+                "description": "Bombe à retardement + pouvant blesser les alliés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "La garde permet d'éviter les dégâts liés à l'élément faible."
+                "nom": "Talent : Esprit solidaire",
+                "description": "↑ puissance, si un allié est battu."
             }
         ]
     },
@@ -263,39 +316,41 @@
         "YW1": [
             {
                 "taux": "?%",
-                "objet": "Secrets de l'âme"
+                "objet": "Rubis"
             },
             {
                 "taux": "?%",
-                "objet": "Poupée de fuite"
+                "objet": "Raviolis chinois"
             }
         ],
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "Secrets de l'âme"
+                "objet": "EXPorbe moyen"
             },
             {
                 "taux": "?%",
-                "objet": "Poupée de fuite"
+                "objet": "Raviolis chinois"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Méga EXPorbe"
+                "objet": "Bracelet de force"
             },
             {
                 "taux": "?%",
-                "objet": "Matsutake"
+                "objet": "Morceau de lard"
             }
         ]
     },
     "special_talent": {
-        "nom": "Esprit gardien",
-        "description": "En défense, pas de dégâts élémentaires."
+        "nom": "Esprit solidaire",
+        "description": "La puissance augmente quand un allié est battu."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/21.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/21.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/21.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/21.wav",
+    "name_romaji_jp": "Merameraion",
+    "oldID": "22"
 }

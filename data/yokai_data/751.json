@@ -1,16 +1,16 @@
 {
     "ID": "751",
-    "Nom": "Komaouste",
-    "Tribue": "Mignon",
-    "Rang": "A",
-    "PV": "426",
-    "Force": "55",
-    "Esprit": "227",
-    "Défense": "156",
-    "Vitesse": "152",
+    "Nom": "Écorniot",
+    "Tribue": "Sinistre",
+    "Rang": "E",
+    "PV": "298",
+    "Force": "178",
+    "Esprit": "40",
+    "Défense": "102",
+    "Vitesse": "142",
     "Description": "",
-    "élément": "Feu",
-    "Rôle": "Combattant",
+    "élément": "Terre",
+    "Rôle": "Ranger",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,65 +21,204 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/751.png",
-    "nom_original": "だまししコマ",
-    "nom_anglais": "Koshame",
+    "nom_original": "悪メン犬",
+    "nom_anglais": "Manjimitate",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw1": [],
+        "ykw1": [
+            "Avoir dessiné sur le front des gens quand ils dorment."
+        ],
         "ykw2": [
-            "A fait semblant d'être le prince d'un pays lointain."
+            "A dispersé des excréments de lapin au terrain de foot."
         ],
         "ykw3": [
-            "A fait croire que c'était presque le week-end... un jeudi."
+            "A lu des livres d'horreur sans avoir l'âge requis."
         ]
     },
     "fusions": [],
     "rarite": "Commun",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
+    "attaques_par_jeu": {
+        "Yo-kai Watch": [
+            {
+                "type": "Attaque",
+                "nom": "Mâchouille",
+                "puissance": "45|99",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Feu",
+                "puissance": "20|90",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Grand caninvore",
+                "puissance": "18×5|18×5",
+                "description": "Mord tous ses ennemis avec frénésie. C'est assez effrayant..."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Confusion",
+                "puissance": "N/A",
+                "description": "Incite l'ennemi à attaquer ses alliés."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Paradis cynophile",
+                "description": "Augmente les stats d'un voisin avec le même talent."
+            }
+        ],
+        "Yo-kai Watch 2": [
+            {
+                "type": "Attaque",
+                "nom": "Mâchouille",
+                "puissance": "45|99",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Incendie",
+                "puissance": "50|110",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Grand caninvore",
+                "puissance": "19×5|19×5",
+                "description": "Mord tous ses ennemis avec frénésie. C'est assez effrayant..."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Confusion",
+                "puissance": "N/A",
+                "description": "Incite l'ennemi à attaquer ses alliés."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Paradis cynophile",
+                "description": "Augmente les stats d'un voisin avec le même talent."
+            }
+        ],
+        "Yo-kai Watch Blasters": [
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Grand caninvore",
+                "puissance": "40×10",
+                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+            },
+            {
+                "type": "Technique 1",
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
+            },
+            {
+                "type": "Technique 2",
+                "nom": "Baisse offensive",
+                "puissance": "___",
+                "description": "Baisse ATT. ennemie. Charger élargit l'effet."
+            },
+            {
+                "type": "Technique à acquérir 1",
+                "nom": "Démolibombe",
+                "puissance": "500",
+                "description": "Une bombe explose sur les ennemis et les alliés."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Donnant donnant",
+                "description": "Tes PV sont restaurés après réanimation."
+            }
+        ],
+        "Yo-kai Watch 3": [
+            {
+                "type": "Attaque",
+                "nom": "Mâchouille",
+                "puissance": "50|110",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Incendie",
+                "puissance": "50|110",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Grand caninvore",
+                "puissance": "15×5|45×5",
+                "description": "Mord les ennemis à portée avec frénésie. C'est assez effrayant."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Confusion",
+                "puissance": "N/A",
+                "description": "L'ennemi est confus et attaque parfois ses alliés."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Paradis cynophile",
+                "description": "↑ stats si relié à un Yo-kai avec le même talent."
+            }
+        ]
+    },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Oméga",
-        "description": "La FOR. augmente à côté d'un Yo-kai alpha."
+        "nom": "Paradis cynophile",
+        "description": "Augmente les stats d'un voisin avec le même talent."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/751.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/751.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/751.wav",
-    "nourriture": "Lait",
-    "nourriture_favorite": "Lait",
+    "nourriture": "Cuisine chinoise",
+    "nourriture_favorite": "Plats chinois",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Oméga",
-            "effet": "La FOR. augmente à côté d'un Yo-kai alpha."
+            "nom": "Paradis cynophile",
+            "effet": "Augm. stats d'un voisin avec le même talent."
         },
         {
             "type": "Attaque",
-            "nom": "Poing précis",
-            "effet": "90 | 135"
+            "nom": "Mâchouille",
+            "effet": "45 | 99"
         },
         {
             "type": "Attaque",
-            "nom": "Haute tension",
-            "effet": "80 | 120"
+            "nom": "Incendie",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Force du tigre",
-            "effet": "Un allié gagne énormément de VIT. Autant qu'un tigre."
+            "nom": "Grand caninvore",
+            "effet": "Mord tous ses ennemis avec frénésie. C'est assez effrayant... 19x5 | 19x5"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Confusion",
+            "effet": "Incite l'ennemi à attaquer ses alliés."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Ouah ! Génial !",
-        "Mange de la nourriture insipide": "*mâche*",
-        "Mange de la mauvaise nourriture": "*chouine*",
-        "A la flemme": "Une seconde !",
-        "Est échangé": "Quelle jolie petite ville ! Oh, je suis tellement content d'être avec toi.",
-        "Devient ton ami": "Pfiou. Je déteste perdre. Mais j'adore l'amitié !"
-    }
+        "A mangé quelque chose de bon": "C'est bon !",
+        "A mangé quelque chose de fade": "J'ai connu mieux...",
+        "A mangé quelque chose de mauvais": "Euh...",
+        "A la flemme": "C'est pas vrai !",
+        "Est échangé": "Je ne comprends pas... Pourquoi",
+        "Se lie d'amitié": "NON ! C'est affreux ! Je veux de nouveaux amis !"
+    },
+    "oldID": "756"
 }

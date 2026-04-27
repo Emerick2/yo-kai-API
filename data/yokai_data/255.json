@@ -1,153 +1,151 @@
 {
     "ID": "255",
-    "Nom": "Brumella",
+    "Nom": "Pardomino",
     "Tribue": "Mystérieux",
     "Rang": "A",
-    "PV": "291",
-    "Force": "41",
-    "Esprit": "193",
-    "Défense": "127",
-    "Vitesse": "228",
-    "Description": "Sa nature vaporeuse lui permet de prendre n'importe quelle forme, mais celle-ci est sa préférée.",
-    "nourriture": "Douceurs",
-    "élément": "Vent",
-    "Rôle": "Combattant",
+    "PV": "392",
+    "Force": "74",
+    "Esprit": "226",
+    "Défense": "153",
+    "Vitesse": "146",
+    "Description": "Ce Yo-kai en forme de domino géant se couche pour s'excuser de tout et n'importe quoi.",
+    "nourriture": "Curry",
+    "élément": "Terre",
+    "Rôle": "Ranger",
     "Biographie": "",
-    "étimologie": "Brumella vient de brume (fine pellicule de brouillard)",
-    "origine": "Comme c'est un Yo-kai classique, ce Yo-kai est tiré du folklore japonais: c'est un déviant du YôkaiEn'enra.",
+    "étimologie": "",
+    "origine": "",
     "histoire": "",
     "pouvoir": "",
-    "personnalité": "",
+    "personnalité": "Contrairement àTrodésolé, Pardomino a l'air plus sincère dans ses excuses.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/255.png",
-    "numero": "062",
-    "nourriture_favorite": "Sucrerie",
+    "numero": "060",
+    "nourriture_favorite": "Curry",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Brume magique",
-            "effet": "Aide la jauge d'âme des Yo-kai voisins à se remplir."
+            "nom": "Plates excuses",
+            "effet": "Rend des PV aux alliés quand le Yo-kai flâne."
         },
         {
             "type": "Attaque",
-            "nom": "Volée",
-            "effet": "20x2 | 44x2"
+            "nom": "Laminage",
+            "effet": "30 | 66"
         },
         {
             "type": "Attaque",
-            "nom": "Ouragan",
+            "nom": "Météore",
             "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Tornadine",
-            "effet": "Déclenche une forte rafale, ce qui froisse les vêtements de l'ennemi. 220 | 220"
+            "nom": "Excuse interminable",
+            "effet": "Écrase un ennemi avec la force du pardon. Entrave les ennemis. 150 | 150"
         },
         {
             "type": "Attaque",
-            "nom": "Brumisation",
-            "effet": "Une fumée encercle le Yo-kai. Son ESP. augmente énormément."
+            "nom": "Souffre-douleur",
+            "effet": "Le Yo-kai devient prétentieux et est la cible des ennemis."
         }
     ],
     "phrases_nourriture": {
-        "info_0": "Ate good stuffQue c'est bon !",
-        "info_1": "Ate average foodMouaf...",
-        "info_2": "Ate awful foodSors d'ici !",
-        "info_3": "LoafedPuis-je m'arrêter ?",
-        "info_4": "TradedL'ambiance dans cette ville est superbe ! Hi hi !",
-        "info_5": "BefriendedOuah, tu ne rigoles pas, dis donc... Ça te dirait qu'on devienne amis ?"
+        "A mangé quelque chose de bon": "C'est bon !",
+        "A mangé quelque chose de fade": "Euh, merci...",
+        "A mangé quelque chose de mauvais": "Tu vas le payer...",
+        "A la flemme": "Pardon, je traîne.",
+        "Est échangé": "Désolé de n'arriver que maintenant. Je vais te décevoir... Désolé en avance.",
+        "Se lie d'amitié": "Pardon ! Je suis vraiment désolé ! Je suis désolé de vouloir être ton ami !"
     },
     "evolutions": [],
     "fusions": [
         {
             "type": "Évolution",
             "contexte": "Yo-kai Watch 2",
-            "de": "Brumette",
-            "vers": "Brumella",
+            "de": "Trodésolé",
+            "vers": "Pardomino",
+            "critere": "Niveau 30"
+        },
+        {
+            "type": "Évolution",
+            "contexte": "Yo-kai Watch Blasters",
+            "de": "Trodésolé",
+            "vers": "Pardomino",
             "critere": "Niveau 27"
         },
         {
             "type": "Évolution",
             "contexte": "Yo-kai Watch 3",
-            "de": "Brumette",
-            "vers": "Brumella",
-            "critere": "Niveau 47"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "Yo-kai Watch Wibble Wobble",
-            "de": "Brumette",
-            "vers": "Brumella",
-            "critere": "Niveau 38"
+            "de": "Trodésolé",
+            "vers": "Pardomino",
+            "critere": "Niveau 33"
         }
     ],
     "image_locale": "",
-    "nom_original": "えんらえんら",
-    "nom_anglais": "Smogmella",
+    "nom_original": "あやまり倒し",
+    "nom_anglais": "Bowminos",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
-        "japonaise": "Kiyono Yasuno",
-        "francaise": "Inconnue"
+        "japonaise": "Inconnue",
+        "francaise": "Bruno Méyère"
     },
     "localisations": {
         "ykw2": [
-            "Brumella peut être obtenue en faisantévoluerBrumette.",
-            "Elle peut également être obtenue auBingo-kaidu passé avec unePièce jaune."
+            "Évolution"
         ],
         "ykw-Blasters": [
-            "Brumella peut être obtenue en faisant évoluer Brumette."
+            "Évolution"
         ],
         "ykw3": [
-            "Brumella peut être obtenue en faisant évoluer Brumette.",
-            "Elle peut également être obtenue au Bingo-kai avec unePièce légendaire."
+            "Évolution"
         ]
     },
-    "rarite": "Classic icon",
-    "tribu_yw4": "Brumella",
+    "rarite": "Rare",
+    "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Volée",
-                "puissance": "20×2|44×2",
+                "nom": "Laminage",
+                "puissance": "30|66",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Ouragan",
+                "nom": "Météore",
                 "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Tornadine",
-                "puissance": "220|220",
-                "description": "Déclenche une forte rafale, ce qui froisse les vêtements de l'ennemi."
+                "nom": "Excuse interminable",
+                "puissance": "150|150",
+                "description": "Écrase un ennemi avec la force du pardon. Entrave les ennemis."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Brumisation",
+                "nom": "Souffre-douleur",
                 "puissance": "N/A",
-                "description": "Une fumée encercle le Yo-kai. Son ESP. augmente énormément."
+                "description": "Le Yo-kai devient prétentieux et est la cible des ennemis."
             },
             {
                 "type": "Attaque A",
-                "nom": "Tourbillon",
+                "nom": "Attaque",
                 "puissance": "N/A",
-                "description": "Un tourbillon s'abat sur les ennemis éloignés."
+                "description": "Déclenche une attaque à courte portée."
             },
             {
                 "type": "Attaque X",
-                "nom": "Tornade",
+                "nom": "Éboulement",
                 "puissance": "N/A",
-                "description": "Un sort de vent balaie les ennemis éloignés."
+                "description": "Un sort de terre frappe les ennemis éloignés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Brume magique",
-                "description": "Aide la jauge d'âme des Yo-kai voisins à se remplir."
+                "nom": "Talent : Plates excuses",
+                "description": "Rend des PV aux alliés quand le Yo-kai flâne."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -159,64 +157,58 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Tornadine",
-                "puissance": "50×8",
-                "description": "Une tornade inflige de gros dégâts aux ennemis."
+                "nom": "Excuse interminable",
+                "puissance": "250",
+                "description": "Dégâts à courte portée. Baisse temporaire VIT."
             },
             {
                 "type": "Technique 1",
-                "nom": "Tourbillon",
+                "nom": "Galet",
                 "puissance": "40",
-                "description": "Utilise un sort de vent. Charger renforce l'effet."
+                "description": "Utilise un sort de terre. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Âmunisé",
+                "nom": "Piège zappeur",
                 "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
+                "description": "Peut paralyser un ennemi s'il marche dessus."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Attaque de repli",
-                "puissance": "70",
-                "description": "Pendant l'attaque, recule et évite les coups ennemis."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Tornade",
-                "puissance": "50",
-                "description": "Un sort de vent puissant. Charger renforce l'effet."
+                "nom": "Provoquer",
+                "puissance": "___",
+                "description": "Attire l'attention des ennemis proches."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Brume magique",
-                "description": "Chargement rapide de la jauge d'âme pour les alliés."
+                "nom": "Talent : Tirer sa révérence",
+                "description": "Invisibilité temporaire en cas de danger."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Volée",
-                "puissance": "25×2|55×2",
+                "nom": "Laminage",
+                "puissance": "40|88",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Ouragan",
+                "nom": "Météore",
                 "puissance": "70|112",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Tornadine",
-                "puissance": "175|262",
-                "description": "Une tornade capable de soulever des jupes s'abat sur les ennemis à portée."
+                "nom": "Excuse interminable",
+                "puissance": "190|190",
+                "description": "Fait des courbettes face à la colonne devant lui. Ceux flattés ne veulent plus agir."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Brumisation",
+                "nom": "Souffre-douleur",
                 "puissance": "N/A",
-                "description": "Une fumée mystérieuse enveloppe le Yo-kai. Son ESP. augmente."
+                "description": "Le Yo-kai  devient prétentieux. Il agit moins."
             },
             {
                 "type": "Attaque A",
@@ -226,40 +218,37 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Tornadine",
-                "puissance": "50×8",
-                "description": "Dégâts ++ sur les ennemis fauchés par la tornade."
+                "nom": "Excuse interminable",
+                "puissance": "250",
+                "description": "Frappe un ennemi proche. VIT. - temporairement."
             },
             {
                 "type": "Attaque X",
-                "nom": "Tornade",
-                "puissance": "50",
-                "description": "Technique de vent++. Plus de dégâts si chargée."
+                "nom": "Galet",
+                "puissance": "40",
+                "description": "Technique de terre+. Plus de dégâts si chargée."
             },
             {
                 "type": "Attaque Y",
-                "nom": "Âmunisé",
+                "nom": "Piège zappeur",
                 "puissance": "___",
-                "description": "Esquive des attaques par des déplacements rapides."
+                "description": "Pose un piège qui paralyse complètement l’ennemi."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Brume magique",
-                "description": "Remplit lentement la jauge d'âme des Yo-kai reliés."
+                "nom": "Talent : Plates excuses",
+                "description": "Restaure des PV à un allié, quand le Yo-kai flâne."
             }
         ]
     },
-    "soul_effects": {
-        "Yo-kai Watch 2": "Redonne de l’âme aux alliés voisins.",
-        "Yo-kai Watch Blasters": "Chargement de la jauge d’âme un peu plus rapide.",
-        "Yo-kai Watch 3": "↑ peu à peu sa jauge d’âme et celle des Yo-kai reliés."
-    },
+    "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Brume magique",
-        "description": "Aide la jauge d'âme des Yo-kai voisins à se remplir."
+        "nom": "Plates excuses",
+        "description": "Rend des PV aux alliés quand le Yo-kai flâne."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/255.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/255.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/255.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/255.wav",
+    "oldID": "258"
 }

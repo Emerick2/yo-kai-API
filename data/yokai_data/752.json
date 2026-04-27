@@ -1,16 +1,16 @@
 {
     "ID": "752",
-    "Nom": "Blablabou",
+    "Nom": "Méroubalour",
     "Tribue": "Insaisissable",
-    "Rang": "B",
-    "PV": "371",
-    "Force": "79",
-    "Esprit": "180",
-    "Défense": "43",
-    "Vitesse": "223",
+    "Rang": "C",
+    "PV": "386",
+    "Force": "193",
+    "Esprit": "78",
+    "Défense": "128",
+    "Vitesse": "135",
     "Description": "",
     "élément": "Absorption",
-    "Rôle": "Combattant",
+    "Rôle": "Guérisseur",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,8 +21,8 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/752.png",
-    "nom_original": "ボーどろ",
-    "nom_anglais": "Daizn't",
+    "nom_original": "ねつぞウナギ",
+    "nom_anglais": "Conger",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -30,13 +30,13 @@
     },
     "localisations": {
         "ykw1": [
-            "Avoir refusé de sauter à la corde."
+            "Avoir mis des mauvaises réponses dans des manuels."
         ],
         "ykw2": [
-            "A chanté faux exprès lors d'une compétition de chant."
+            "N'a pas réussi à se retenir et a uriné dans la piscine."
         ],
         "ykw3": [
-            "A fait passer un cochon d'Inde pour un lapin."
+            "A fait passer une simple pierre pour une météorite."
         ]
     },
     "fusions": [],
@@ -46,39 +46,39 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "15|67",
+                "nom": "Mâchouille",
+                "puissance": "45|99",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "50|110",
+                "nom": "Absorption",
+                "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Tourneboulement",
-                "puissance": "100|100",
-                "description": "Envoie une sombre aura à ses ennemis pour les étoudir."
+                "nom": "Changuille",
+                "puissance": "22×5|33×5",
+                "description": "Mord ses ennemis en chantant."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Cœur incertain",
+                "nom": "Énergie du chant",
                 "puissance": "N/A",
-                "description": "Affaiblit un ennemi et réduit ses stats."
+                "description": "Remonte le moral des alliés et augmente leur ESP."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Âmunisé",
-                "description": "Ne sera pas affecté par les Âmultimes."
+                "nom": "Talent : Ramphor",
+                "description": "Double les effets de la garde."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "15|67",
+                "nom": "Mâchouille",
+                "puissance": "45|99",
                 "description": ""
             },
             {
@@ -89,20 +89,20 @@
             },
             {
                 "type": "Amultime",
-                "nom": "Tourneboulement",
-                "puissance": "100|100",
-                "description": "Envoie une sombre aura à ses ennemis pour les étoudir."
+                "nom": "Changuille",
+                "puissance": "21×5|31×5",
+                "description": "Mord ses ennemis en chantant."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Cœur incertain",
+                "nom": "Énergie du chant",
                 "puissance": "N/A",
-                "description": "Affaiblit un ennemi et réduit ses stats."
+                "description": "Remonte le moral des alliés et augmente leur ESP."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Âmunisé",
-                "description": "Les Âmultimes seront esquivées."
+                "nom": "Talent : Ramphor",
+                "description": "Double les effets de la garde."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -114,9 +114,9 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Tourneboulement",
-                "puissance": "250",
-                "description": "Baisse temporaire de la VIT. des ennemis."
+                "nom": "Changuille",
+                "puissance": "40×10",
+                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
             },
             {
                 "type": "Technique 1",
@@ -126,27 +126,33 @@
             },
             {
                 "type": "Technique 2",
-                "nom": "Contre",
-                "puissance": "___",
-                "description": "Repousse les attaques et contre-attaque."
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Riz",
-                "puissance": "70",
-                "description": "Restaure tes PV."
+                "nom": "Boost d'attaque",
+                "puissance": "___",
+                "description": "Hausse ATT. des alliés. Charger élargit l'effet."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Pas touche",
-                "description": "Hausse de la VIT. quand les PV sont au max."
+                "nom": "Talent : Client glissant",
+                "description": "Pas de réaction face aux coups ennemis."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "20|70",
+                "nom": "Mâchouille",
+                "puissance": "50|110",
                 "description": ""
             },
             {
@@ -157,44 +163,44 @@
             },
             {
                 "type": "Amultime",
-                "nom": "Tourneboulement",
-                "puissance": "___",
-                "description": "Assaille les ennemis d'une aura de confusion. Ceux touchés agissent moins."
+                "nom": "Changuille",
+                "puissance": "22×5|44×5",
+                "description": "Mord les ennemis à portée, en chantant."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Cœur incertain",
+                "nom": "Énergie du chant",
                 "puissance": "N/A",
-                "description": "Affaiblit un ennemi et réduit ses stats."
+                "description": "Remonte le moral des alliés et augmente leur ESP."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Âmunisé",
-                "description": "Les Âmultimes seront esquivées."
+                "nom": "Talent : Ramphor",
+                "description": "Double les effets de la garde."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Âmunisé",
-        "description": "Ne sera pas affecté par les Âmultimes."
+        "nom": "Ramphor",
+        "description": "Double les effets de la garde."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/752.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/752.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/752.wav",
-    "nourriture": "Bonbons",
-    "nourriture_favorite": "Sucrerie",
+    "nourriture": "Viande",
+    "nourriture_favorite": "Viande",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Âmunisé",
-            "effet": "Les Âmultimes seront esquivées."
+            "nom": "Ramphor",
+            "effet": "Chances de défendre extrêmement élevées."
         },
         {
             "type": "Attaque",
-            "nom": "Plaquage absolu",
-            "effet": "15 | 67"
+            "nom": "Mâchouille",
+            "effet": "45 | 99"
         },
         {
             "type": "Attaque",
@@ -203,21 +209,22 @@
         },
         {
             "type": "Attaque",
-            "nom": "Tourneboulement",
-            "effet": "Envoie une sombre aura à ses ennemis pour les étourdir. 100 | 100"
+            "nom": "Changuille",
+            "effet": "Mord ses ennemis en chantant. 21x5 | 31x5"
         },
         {
             "type": "Attaque",
-            "nom": "Cœur incertain",
-            "effet": "Affaiblit un ennemi et réduit ses stats."
+            "nom": "Énergie du chant",
+            "effet": "Remonte le moral des alliés et augmente leur ESP."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Délicieux...",
-        "A mangé quelque chose de fade": "O-k...",
-        "A mangé quelque chose de mauvais": "Argh.",
-        "A la flemme": "Euh... Hmm...",
-        "Est échangé": "Je... suis, euh... ravi de... je sais plus. On disait quoi ?",
-        "Se lie d'amitié": "Est-ce qu'on peut être... amis ? C'est comme ça qu'on dit, non ?"
-    }
+        "A mangé quelque chose de bon": "♪C'est exquis !",
+        "A mangé quelque chose de fade": "♪Ça peut aller...",
+        "A mangé quelque chose de mauvais": "Pas terrible...",
+        "A la flemme": "♪La la la...",
+        "Est échangé": "♪Ooh, tu veux que je sois ton ami ? Faisons un duo !",
+        "Se lie d'amitié": "♪Hum... H-h-hum... ♪Faisons un duo !"
+    },
+    "oldID": "757"
 }

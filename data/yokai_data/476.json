@@ -1,70 +1,77 @@
 {
     "ID": "476",
-    "Nom": "Sodartha",
-    "Tribue": "Mystérieux",
-    "Rang": "S",
-    "PV": "414",
-    "Force": "71",
-    "Esprit": "178",
-    "Défense": "102",
-    "Vitesse": "236",
-    "Description": "Un roi-démon autrefois vaincu par des humains. Son régime strict se compose uniquement de nourriture saine.",
-    "nourriture": "Tempura",
-    "élément": "Feu",
-    "Rôle": "Combattant",
+    "Nom": "Piètros",
+    "Tribue": "Costaud",
+    "Rang": "E",
+    "PV": "338",
+    "Force": "122",
+    "Esprit": "66",
+    "Défense": "186",
+    "Vitesse": "89",
+    "Description": "Tous ceux que Piètros envoûte ont les idées noires et tout ce qu'ils entreprennent est voué à l'échec.",
+    "nourriture": "Lait",
+    "élément": "Terre",
+    "Rôle": "Tank",
     "Biographie": "",
-    "étimologie": "Sodarthavient deSodaet deSidarthaqui est le nom que portaitBouddhade son vivant.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "L'envoûtement de Sodartha est une malédiction d'Oni qui réduit la vitalité des personnes. Sodartha est capable de cracher du feu avec le saké présent dans son assiette. Il peut s'en servir pour créer des brasiers ou découper ses ennemis avec une lame de flamme. Sodartha est un Yo-kai très puissant capable de léviter.",
+    "pouvoir": "Ce Yo-kai est responsable de faire tomber les choses en panne et ceux qu'il envoûte échouent à tout ce qu'ils entreprennent.",
     "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/476.png",
-    "numero": "136",
-    "nourriture_favorite": "Tempura",
+    "numero": "158",
+    "nourriture_favorite": "Lait",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Entrée fracassante",
-            "effet": "La première attaque sera un coup critique."
+            "nom": "Sans garde",
+            "effet": "Aucun Yo-kai ne se mettra en garde."
         },
         {
             "type": "Attaque",
-            "nom": "Griffes acérées",
-            "effet": "10x2 | 45x2"
+            "nom": "Coup de boule",
+            "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Brasier",
-            "effet": "80 | 120"
+            "nom": "Galet",
+            "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Cracheur de feu",
-            "effet": "Découpe les ennemis à portée avec une lame enflammée, brûlant le sol. 100 | 100"
+            "nom": "Esquille",
+            "effet": "S'autodétruit en blessant tous les ennemis à portée. 130 | 390"
         },
         {
             "type": "Attaque",
-            "nom": "Malédictioni",
-            "effet": "Malédiction ancestrale qui réduit lentement les PV."
+            "nom": "Crâne vide",
+            "effet": "L'ennemi devient tellement bête qu'il attaque parfois ses alliés !"
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Ça, c'est de l'encas !",
-        "A mangé quelque chose de fade": "C'est très moyen...",
-        "A mangé quelque chose de mauvais": "Pas bien cuit !",
-        "A la flemme": "Je n'ai pas envie...",
-        "Se lie d'amitié": "Je lève mon verre à ta victoire ! Félicitations !",
-        "Est échangé": "Ouais, ravi de te rencontrer... Tu me sers une boisson énergisante ?",
-        "info_6": "Bingo-kaiJe suis libre, buvons une boisson énergisante pour fêter ça !"
+        "A mangé quelque chose de bon": "Bah.",
+        "A mangé quelque chose de fade": "Bah.",
+        "A mangé quelque chose de mauvais": "Bah...",
+        "A la flemme": "Euh...",
+        "Se lie d'amitié": "*cliquette* (Tu veux qu'on soit amis ?)",
+        "Est échangé": "*cliquette* (On est amis désormais ? Ravi de te rencontrer !)"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Évolution",
+            "contexte": "Général",
+            "de": "Piètros",
+            "vers": "Bricolos",
+            "critere": "Niveau 28"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "酒呑童子",
-    "nom_anglais": "Thurston",
+    "nom_original": "ポン骨",
+    "nom_anglais": "Nummskull",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
@@ -72,14 +79,11 @@
     },
     "localisations": {
         "ykw3": [
-            "Roue rêve-Pièce à sushi",
-            "Roue rêve-Pièce des abysses",
-            "Tour du Karmagister- 5èmeétage",
-            "Pavillon de l'ambroisie",
-            "Chemin brumeux"
+            "Base secrète de la forêt- dans l'herbe",
+            "Grotte du grincheux"
         ]
     },
-    "rarite": "Classic icon",
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
@@ -87,20 +91,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Techniques tip-top"
+                "objet": "Lait"
             },
             {
                 "taux": "?%",
-                "objet": "Tempura d'anguille"
+                "objet": "Carte cadeau musique"
             }
         ]
     },
     "special_talent": {
-        "nom": "Entrée fracassante",
-        "description": "La première attaque sera un coup critique."
+        "nom": "Sans garde",
+        "description": "Aucun Yo-kai ne se mettra en garde."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/476.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/476.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/476.wav",
-    "name_romaji_jp": "Shutendōji"
+    "oldID": "480"
 }

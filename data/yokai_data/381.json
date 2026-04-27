@@ -1,64 +1,96 @@
 {
     "ID": "381",
-    "Nom": "Ultramax K",
-    "Tribue": "Vaillant",
-    "Rang": "B",
-    "PV": "333",
-    "Force": "51",
-    "Esprit": "220",
-    "Défense": "139",
-    "Vitesse": "158",
-    "Description": "C'était un garçon qui aimait tellement les Yo-kai qu'il en est devenu un. Il partage son amour avec ses centaines d'amis Yo-kai.",
-    "nourriture": "Encas",
-    "élément": "Eau",
+    "Nom": "Petit panja",
+    "Tribue": "Mignon",
+    "Rang": "D",
+    "PV": "",
+    "Force": "",
+    "Esprit": "",
+    "Défense": "",
+    "Vitesse": "",
+    "Description": "Ce Panja évolué sait échapper à tous les regards ! Mais il ne sait pas se taire et se fait vite repérer.",
+    "description SITE": "Ce jeune citadin donne à ceux qu'il envoûte un zeste de charme et tout le chic de la ville.",
+    "nourriture": "Sushi",
+    "élément": "Glace",
     "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Ultramax K vient d'Ultramax (Le héros qu'il adorait de son vivant) et de K en référence au prénom de sa petite-fille, Katie.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
-    "personnalité": "Il est resté énergique, volontaire et aime se battre. Il garde également une personnalité héroïque malgré tout.",
+    "pouvoir": "Les personnes envoûtés par ce Yo-kai deviennent des citadins et ont beaucoup de connaissances sur la grande ville.",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/381.png",
-    "numero": "432",
-    "nourriture_favorite": "Encas",
+    "numero": "374",
+    "nourriture_favorite": "Sushi",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Bonne étoile",
-            "effet": "Esquive et renvoie chaque attaque ennemie."
+            "nom": "Invisibilité",
+            "effet": "Ne sera pas la cible des attaques."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Frappe",
+            "effet": "10 | 45"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Grêle",
+            "effet": "20 | 90"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Panjaï !",
+            "effet": "Attaque un ennemi avec toute la force du panja. 90 | 198"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Force panja",
+            "effet": "Le Yo-kai fait appel à la Force panja pour augmenter sa VIT."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Miam ! Maxidélicieux !",
-        "A mangé quelque chose de fade": "Ouais ! Maxi pas mal !",
-        "A mangé quelque chose de mauvais": "Maxi dégoûtant !",
-        "A la flemme": "Pfiou...",
-        "Est échangé": "As-tu déjà entendu parler d'Ultramax ? Nous devrions nous entraîner à poser.",
-        "Se lie d'amitié": "Tu es incroyablement au max ! À partir d'aujourd'hui, nous serons amis. Pigé ?"
+        "A mangé quelque chose de bon": "C'est super !",
+        "A mangé quelque chose de fade": "Rien de spécial.",
+        "A mangé quelque chose de mauvais": "Vraiment pas bon.",
+        "A la flemme": "Ça m'amuse pas...",
+        "Est échangé": "Ça va être super ! Une toute nouvelle ville à explorer !",
+        "Se lie d'amitié": "T'as de l'énergie à revendre, toi ! J'aime ça !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Petit panja",
+            "parent2": "Lanterne du maître",
+            "resultat": "Panja-san",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "妖怪ガッツF",
-    "nom_anglais": "Moximous K",
+    "nom_original": "江戸っ子パンダ",
+    "nom_anglais": "Panja Pupil",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
-        "japonaise": "Inconnue",
+        "japonaise": "Kiyono Yasuno",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "Yo-kai Watch 2 - Spectres Psychiques :[]": [
-            "Vous pourrez rencontrer Ultramax K seulement si vous jouez avecKatie. Il faut lier les 3 versions du jeu et obtenir laMarque d'Ultramaxqui est cachée quelque part dans un coffre de laVoie du mystère.",
-            "Après avoir obtenu la marque d'Ultramax, vous aurez une chance d'affronter Ultramax K une fois par jour dans le cimetière près de la maison de grand-mère, àOurcival, avec une chance de devenir son ami."
+        "ykw2": [
+            "Petit Panja est disponible auBingo-kai, en utilisant laPièce levant."
         ],
         "ykw-Blasters": [
-            "Compléter leCercle Yo-kai\"Top Peloton\""
+            "Petit Panja est disponible au Bingo-kai, en utilisant laPièce est."
         ],
         "ykw3": [
-            "Compléter leCercle Yo-kain°28"
+            "Il est possible de trouver Petit Panja dans leCentre-ville de Granval, à l'Aire de livraison."
+        ],
+        "Yo-kai Watch : Puni Puni :[]": [
+            "Petit Panja est apparu pour la première fois dans l'événementNuit de Bon Odori de KJoù il était disponible dans le Stage Caché 1, déblocable en reliant 15 globules ou plus dans le Stage 10. Il revient dans l'événementBataille de Lance-Pierre au Clair de Lune, où il est de nouveau disponible dans le Stage Caché 1, déblocable en rentrant 2 fois en Ébullition ou plus dans le Stage 12. Il revient une nouvelle fois dans l'événementPortails de Komasan et Komajiro, où il est une fois de plus disponible dans le Stage Caché 1, déblocable en éclatant 200 globules ou plus dans le Stage 12."
         ]
     },
     "rarite": "Rare",
@@ -67,27 +99,27 @@
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Poing précis",
-                "puissance": "90|135",
+                "nom": "Frappe",
+                "puissance": "10|45",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Cascade",
-                "puissance": "80|120",
+                "nom": "Grêle",
+                "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Mégamax",
-                "puissance": "___",
-                "description": "Atteint la force maximale tout en régénérant des PV en Maxi-pose."
+                "nom": "Panjaï !",
+                "puissance": "90|198",
+                "description": "Attaque un ennemi avec toute la force du panja."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Ultramax",
+                "nom": "Force panja",
                 "puissance": "N/A",
-                "description": "Le Yo-kai envoûté devient audacieux et sa FOR. est augmentée."
+                "description": "Le Yo-kai fait appel à la Force panja pour augmenter sa VIT."
             },
             {
                 "type": "Attaque A",
@@ -97,14 +129,14 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Rapides",
+                "nom": "Tourbillon",
                 "puissance": "N/A",
-                "description": "Un torrent déferle sur les ennemis éloignés."
+                "description": "Un tourbillon s'abat sur les ennemis éloignés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Bonne étoile",
-                "description": "Esquive et renvoie chaque attaque ennemie."
+                "nom": "Talent : Invisibilité",
+                "description": "Ne sera pas la cible des attaques."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -116,64 +148,64 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Mégamax",
-                "puissance": "100",
-                "description": "Tous les PV restaurés et stats augmentées."
+                "nom": "Panjaï !",
+                "puissance": "400",
+                "description": "Inflige de gros dégâts à courte portée."
             },
             {
                 "type": "Technique 1",
-                "nom": "Torrent",
-                "puissance": "40",
-                "description": "Utilise un sort d'eau. Charger renforce l'effet."
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
             },
             {
                 "type": "Technique 2",
+                "nom": "",
+                "puissance": "40",
+                "description": "Utilise un sort de glace. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique à acquérir 1",
                 "nom": "Âmunisé",
                 "puissance": "___",
                 "description": "Esquive rapidement l'attaque ennemie."
             },
             {
-                "type": "Technique à acquérir 1",
-                "nom": "Attaque précipitée",
-                "puissance": "80",
-                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
-            },
-            {
                 "type": "Technique à acquérir 2",
-                "nom": "Contre",
-                "puissance": "___",
-                "description": "Repousse les attaques et contre-attaque."
+                "nom": "Onde de choc",
+                "puissance": "120",
+                "description": "Saute et crée une onde de choc en retombant."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Réflexes rapides",
-                "description": "Échapper aux attaques ennemies plus facile avec Évasion."
+                "nom": "Talent : Cache-guérison",
+                "description": "PV restaurés peu à peu si invisible pour les ennemis."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Poing précis",
-                "puissance": "70|112",
+                "nom": "Frappe",
+                "puissance": "20|70",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Cascade",
-                "puissance": "70|112",
+                "nom": "Grêle",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Mégamax",
-                "puissance": "___",
-                "description": "Pose au max ! Récupère des PV pour plus de puissance !"
+                "nom": "Panjaï !",
+                "puissance": "93|279",
+                "description": "Attaque la colonne devant lui avec toute la force du panja."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Ultramax",
+                "nom": "Force panja",
                 "puissance": "N/A",
-                "description": "Le Yo-kai envoûté devient audacieux et sa FOR. augmente."
+                "description": "Le Yo-kai fait appel à la force panja pour augmenter sa VIT."
             },
             {
                 "type": "Attaque A",
@@ -183,15 +215,15 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Mégamax",
-                "puissance": "100",
-                "description": "Rend tous les PV et booste +++ toutes les stats."
+                "nom": "Panjaï !",
+                "puissance": "400",
+                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
             },
             {
                 "type": "Attaque X",
-                "nom": "Torrent",
-                "puissance": "40",
-                "description": "Technique d'eau+. Plus de dégâts si chargée."
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque l’ennemi avec une attaque féroce."
             },
             {
                 "type": "Attaque Y",
@@ -201,39 +233,44 @@
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Bonne étoile",
-                "description": "Évite souvent les attaques de l'ennemi."
+                "nom": "Talent : Invisibilité",
+                "description": "Ne sera pas la cible des attaques."
             }
         ]
     },
-    "soul_effects": null,
+    "soul_effects": {
+        "Yo-kai Watch 2": "VIT+ 20",
+        "Yo-kai Watch Blasters": "Augmente légèrement les dégâts sur les non-boss.",
+        "Yo-kai Watch 3": "Renvoie quelques dégâts à l’ennemi."
+    },
     "drops": {
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "Techniques tip-top"
+                "objet": "Badge brillant"
             },
             {
                 "taux": "?%",
-                "objet": "Méga EXPorbe"
+                "objet": "Herbe médicinale"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Techniques tip-top"
+                "objet": "Remède infect"
             },
             {
                 "taux": "?%",
-                "objet": "Grignotes"
+                "objet": "Sushi à l'omelette"
             }
         ]
     },
     "special_talent": {
-        "nom": "Bonne étoile",
-        "description": "Esquive et renvoie chaque attaque ennemie."
+        "nom": "Invisibilité",
+        "description": "Ne sera pas la cible des attaques."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/381.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/381.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/381.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/381.wav",
+    "oldID": "387"
 }

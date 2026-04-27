@@ -1,16 +1,16 @@
 {
     "ID": "758",
-    "Nom": "Papilmitation",
-    "Tribue": "Bienveillant",
-    "Rang": "D",
-    "PV": "291",
-    "Force": "58",
-    "Esprit": "186",
-    "Défense": "117",
-    "Vitesse": "139",
+    "Nom": "Similistik",
+    "Tribue": "Sombre",
+    "Rang": "E",
+    "PV": "288",
+    "Force": "68",
+    "Esprit": "169",
+    "Défense": "84",
+    "Vitesse": "147",
     "Description": "",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
+    "élément": "Absorption",
+    "Rôle": "Ranger",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,8 +21,8 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/758.png",
-    "nom_original": "絶不蝶",
-    "nom_anglais": "Enofly",
+    "nom_original": "てぐせブーン",
+    "nom_anglais": "Negatibuzz-kill",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -30,13 +30,13 @@
     },
     "localisations": {
         "ykw1": [
-            "Avoir donné des rhumes à tout le monde."
+            "Avoir mangé de la viande lors d'un barbecue."
         ],
         "ykw2": [
-            "A donné un mal de ventre à quelqu'un avec sa cuisine."
+            "A soufflé ses pelures de gomme sur le bureau voisin."
         ],
         "ykw3": [
-            "A séché les cours pour jouer à son nouveau jeu vidéo."
+            "N'arrête pas de taper sur la table avec son stylo durant les cours."
         ]
     },
     "fusions": [],
@@ -46,63 +46,63 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
+                "nom": "Pointe perçante",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Guérison",
+                "nom": "Absorption",
                 "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Brise revigorante",
-                "puissance": "60|157",
-                "description": "Produit un vent énergisant qui restaure les PV des alliés."
+                "nom": "Pessimicrobes",
+                "puissance": "20|20",
+                "description": "Répand des germes de négativité qui réduisent la DÉF. des ennemis."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Stimulation",
+                "nom": "Négativité",
                 "puissance": "N/A",
-                "description": "Revigore un allié et augmente toutes ses stats."
+                "description": "L'ennemi devient très pessimiste et sa VIT. diminue."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Écailles miracles",
-                "description": "Immunisé contre les envoûtements ennemis."
+                "nom": "Talent : Vampirisation",
+                "description": "Absorbe les PV avec des attaques normales."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
+                "nom": "Pointe perçante",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Guérison",
+                "nom": "Absorption",
                 "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Brise revigorante",
-                "puissance": "60|157",
-                "description": "Produit un vent énergisant qui restaure les PV des alliés."
+                "nom": "Pessimicrobes",
+                "puissance": "20|20",
+                "description": "Répand des germes de négativité qui réduisent la DÉF. des ennemis."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Stimulation",
+                "nom": "Négativité",
                 "puissance": "N/A",
-                "description": "Revigore un allié et augmente ses stats."
+                "description": "L'ennemi devient très pessimiste et sa VIT. diminue."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Écailles miracles",
-                "description": "Immunisé contre les envoûtements ennemis."
+                "nom": "Talent : Vampirisation",
+                "description": "Absorbe les PV avec des attaques normales."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -114,116 +114,111 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Brise revigorante",
-                "puissance": "400",
-                "description": "Alliés retrouvent beaucoup de PV."
+                "nom": "Pessimicrobes",
+                "puissance": "250",
+                "description": "Baisse temporaire DÉF. des ennemis."
             },
             {
                 "type": "Technique 1",
+                "nom": "Baisse de vitesse",
+                "puissance": "___",
+                "description": "Baisse VIT. ennemie. Charger élargit l'effet."
+            },
+            {
+                "type": "Technique 2",
+                "nom": "Mine",
+                "puissance": "600",
+                "description": "Explose si un ennemi ou un allié s'en approche."
+            },
+            {
+                "type": "Technique à acquérir 1",
                 "nom": "Coup puissant",
                 "puissance": "100",
                 "description": "Attaque avec un super esprit du combattant."
             },
             {
-                "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Cercle guérisseur",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Envoût. multi-boost",
-                "puissance": "___",
-                "description": "Hausse des stats alliées. Charger élargit l'effet."
-            },
-            {
                 "type": "Talent",
-                "nom": "Talent : Écailles miracle",
-                "description": "Immunité contre les effets d'envoûtements négatifs."
+                "nom": "Talent : Vampirisation",
+                "description": "Absorbe une partie des PV lors d'attaques."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
+                "nom": "Pointe perçante",
                 "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "30|105",
+                "nom": "Absorption",
+                "puissance": "25|87",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Brise revigorante",
-                "puissance": "60|157",
-                "description": "Produit un vent énergisant qui restaure les PV des alliés."
+                "nom": "Pessimicrobes",
+                "puissance": "___",
+                "description": "Les germes de négativité réduisent fortement la DÉF. des ennemis."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Stimulation",
+                "nom": "Négativité",
                 "puissance": "N/A",
-                "description": "Revigore un allié et augmente ses stats."
+                "description": "L'ennemi devient pessimiste et sa VIT. diminue fortement."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Écailles miracles",
-                "description": "Immunisé contre les envoûtements ennemis."
+                "nom": "Talent : Vampirisation",
+                "description": "Absorbe les PV de l'ennemi à chaque attaque réussie."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Écailles miracles",
-        "description": "Immunisé contre les envoûtements ennemis."
+        "nom": "Vampirisation",
+        "description": "Absorbe les PV avec des attaques normales."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/758.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/758.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/758.wav",
     "nourriture": "Jus",
-    "nourriture_favorite": "Boisson",
+    "nourriture_favorite": "Jus",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Écailles miracle",
-            "effet": "Immunisé contre les envoûtements ennemis."
+            "nom": "Vampirisation",
+            "effet": "Absorbe les PV avec des attaques normales."
         },
         {
             "type": "Attaque",
-            "nom": "Gifle",
-            "effet": "10 | 45"
+            "nom": "Pointe perçante",
+            "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Guérison",
+            "nom": "Absorption",
             "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Brise revigorante",
-            "effet": "Produit un vent énergisant qui restaure les PV des alliés. 60 | 157"
+            "nom": "Pessimicrobes",
+            "effet": "Répand des germes de négativité qui réduisent la DÉF. des ennemis. 20 | 20"
         },
         {
             "type": "Attaque",
-            "nom": "Stimulation",
-            "effet": "Revigore un allié et augmente ses stats."
+            "nom": "Négativité",
+            "effet": "L'ennemi devient très pessimiste et sa VIT. diminue."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Je pète la forme !",
-        "Mange de la nourriture insipide": "Un peu d'énergie.",
-        "Mange de la mauvaise nourriture": "C'est fade...",
-        "A la flemme": "Plus d'énergie.",
-        "Est échangé": "Maintenant qu'on est amis, tous tes problèmes vont s'envoler.",
-        "Devient ton ami": "Tu as de l'énergie à revendre ! J'en ai plus si tu veux."
-    }
+        "A mangé quelque chose de bon": "Zzz'adore...",
+        "A mangé quelque chose de fade": "Zzz'est bof bof...",
+        "A mangé quelque chose de mauvais": "Bzz ! Écœurant !",
+        "A la flemme": "Bzzz...",
+        "Est échangé": "J'imagine qu'on n'avait plus besoin de moi... On peut être amizz quand même.",
+        "Se lie d'amitié": "Si je ne peux pas te battre, je peux te demander d'être mon amizzz ?"
+    },
+    "oldID": "763"
 }

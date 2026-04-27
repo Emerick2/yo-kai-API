@@ -1,130 +1,139 @@
 {
     "ID": "260",
-    "Nom": "Chymère",
-    "Tribue": "Mystérieux",
-    "Rang": "S",
-    "PV": "444",
-    "Force": "70",
-    "Esprit": "260",
-    "Défense": "150",
-    "Vitesse": "143",
-    "Description": "Ce Yo-kai a une tête de singe, un corps de tigre, une queue de serpent et un cri qui effraie à en faire pleurer, et cela le vexe.",
+    "Nom": "Jalouseriz",
+    "Tribue": "Costaud",
+    "Rang": "E",
+    "PV": "408",
+    "Force": "78",
+    "Esprit": "78",
+    "Défense": "194",
+    "Vitesse": "96",
+    "Description": "Ce simple bol de riz ne peut s'empêcher de regarder avec envie les assiettes des autres et de devenir vert de jalousie.",
     "nourriture": "Cuisine chinoise",
-    "élément": "Foudre",
-    "Rôle": "Combattant",
+    "élément": "Glace",
+    "Rôle": "Tank",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
     "pouvoir": "",
-    "personnalité": "",
+    "personnalité": "Il envie toujours la nourriture des autres sans essayer de l'obtenir. Il a toujours un air malheureux. Jalouseriz a cependant plusieurs amis fait eux aussi de riz commeFanfanfaron,Agonigiri,Sumodon, etc...",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/260.png",
-    "numero": "082",
-    "nourriture_favorite": "Plat chinois",
+    "numero": "088",
+    "nourriture_favorite": "Plats chinois",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "En un éclair",
-            "effet": "Obtient une attaque préventive."
+            "nom": "Triztesse",
+            "effet": "Peut attaquer un allié."
         },
         {
             "type": "Attaque",
-            "nom": "Mâchouille",
-            "effet": "45 | 99"
+            "nom": "Plaquage absolu",
+            "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Haute tension",
-            "effet": "80 | 120"
+            "nom": "Grêle",
+            "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Électrochoc",
-            "effet": "Invoque la foudre pour infliger de gros dégâts à un ennemi. 185 | 277"
+            "nom": "Manque de bol",
+            "effet": "La jalousie le pousse à attaquer, mais il finit par se blesser. 60 | 157"
         },
         {
             "type": "Attaque",
-            "nom": "Cri bestial",
-            "effet": "Le Yo-kai ressent l'appel de la Chymère, ce qui augmente sa VIT."
+            "nom": "Convoitise",
+            "effet": "L'ennemi devient si envieux de ses alliés qu'il les attaque."
         }
     ],
     "phrases_nourriture": {
-        "info_0": "Ate good stuffGénial !",
-        "info_1": "Ate average food*mâche*",
-        "info_2": "Ate awful foodBeurk !",
-        "info_3": "LoafedJe traîne un peu.",
-        "info_4": "TradedSi ... te fait confiance, je te suivrai partout.",
-        "info_5": "BefriendedTu remplis tous les critères pour qu'on devienne amis !"
+        "A mangé quelque chose de bon": "Un casse-croûte !",
+        "A mangé quelque chose de fade": "*soupire*",
+        "A mangé quelque chose de mauvais": "Assez de riz.",
+        "A la flemme": "Je vais te hanter !",
+        "Est échangé": "C'est ici que tu vis ? Ouah... J'aurais dû venir plus tôt.",
+        "Se lie d'amitié": "Je suis trop, mais trop jaloux ! J'ai envie de devenir ton ami !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Jalouseriz",
+            "parent2": "Pépésbrouf",
+            "resultat": "Fanfanfaron",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "ぬえ",
-    "nom_anglais": "Chymera",
+    "nom_original": "うらや飯",
+    "nom_anglais": "Wotchagot",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "japonaise": "Kiyono Yasuno",
+        "francaise": "Caroline Combes"
     },
     "localisations": {
         "ykw2": [
-            "Limbes éternelles- 6e cercle",
-            "Limbes éternelles - 7e cercle"
+            "Quartier des boutiques- Contre-allées rue commerçante"
         ],
         "ykw-Blasters": [
-            "Bingo-kai-Pièce jaune- 1er prix"
+            "Exclusif à l'Escadron du chien blanc",
+            "Patrouille -La Corniche"
         ],
         "ykw3": [
-            "Mythopolis"
+            "Gare de Verteplaines- Buissons"
         ]
     },
-    "rarite": "Classic icon",
+    "rarite": "FB icone",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "45|99",
+                "nom": "Plaquage absolu",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "80|120",
+                "nom": "Grêle",
+                "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Électrochoc",
-                "puissance": "185|277",
-                "description": "Invoque la foudre pour infliger de gros dégâts à un ennemi."
+                "nom": "Manque de bol",
+                "puissance": "60|157",
+                "description": "La jalousie le pousse à attaquer, mais il finit par se blesser."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Cri bestial",
+                "nom": "Convoitise",
                 "puissance": "N/A",
-                "description": "Le Yo-kai ressent l'appel de la Chymère, ce qui augmente sa VIT."
+                "description": "Le Yo-kai envoûté est jaloux de ses alliés et les attaque."
             },
             {
                 "type": "Attaque A",
-                "nom": "Décharge",
+                "nom": "Attaque",
                 "puissance": "N/A",
-                "description": "Électrocute les ennemis éloignés."
+                "description": "Déclenche une attaque à courte portée."
             },
             {
                 "type": "Attaque X",
-                "nom": "Foudre",
+                "nom": "Garder",
                 "puissance": "N/A",
-                "description": "Foudroie les ennemis éloignés."
+                "description": "Tu peux te défendre avec le bouton x."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : En un éclair",
-                "description": "Obtient une attaque préventive."
+                "nom": "Talent : Triztesse",
+                "description": "Peut attaquer un allié."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -136,64 +145,64 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Électrochoc",
-                "puissance": "80×5",
-                "description": "La foudre inflige de gros dégâts aux ennemis."
+                "nom": "Manque de bol",
+                "puissance": "550",
+                "description": "Inflige de gros dégâts aux ennemis et à soi-même."
             },
             {
                 "type": "Technique 1",
-                "nom": "Onde de choc",
-                "puissance": "120",
-                "description": "Saute et crée une onde de choc en retombant."
+                "nom": "Encore !",
+                "puissance": "80",
+                "description": "Attaque un ennemi pour attirer son attention."
             },
             {
                 "type": "Technique 2",
-                "nom": "Foudre",
-                "puissance": "50",
-                "description": "Un sort de foudre puissant. Charger renforce l'effet."
+                "nom": "Champ de force",
+                "puissance": "___",
+                "description": "Hausse temporaire de la protection des alliés."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
+                "nom": "Armure",
                 "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
+                "description": "Réduit les dégâts infligés. Attire l'attention."
             },
             {
                 "type": "Technique à acquérir 2",
-                "nom": "Attaque de repli",
-                "puissance": "70",
-                "description": "Pendant l'attaque, recule et évite les coups ennemis."
+                "nom": "Grêle",
+                "puissance": "40",
+                "description": "Utilise un sort de glace. Charger renforce l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : À la charge",
-                "description": "Accélère le temps de chargement de l'attaque."
+                "nom": "Talent : Riz-suscitation",
+                "description": "Restaure l'allié plus vite."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "50|110",
+                "nom": "Plaquage absolu",
+                "puissance": "20|70",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "70|112",
+                "nom": "Grêle",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Électrochoc",
-                "puissance": "148|222",
-                "description": "Invoque la foudre pour infliger de gros dégâts aux ennemis à portée."
+                "nom": "Manque de bol",
+                "puissance": "93|279",
+                "description": "Attaque la colonne devant lui en laissant libre cours à sa jalousie."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Paralysie",
+                "nom": "Convoitise",
                 "puissance": "N/A",
-                "description": "Le Yo-kai envoûté est paralysé par le choc de la Chymère."
+                "description": "Le Yo-kai envoûté devient jaloux et attaque parfois ses alliés."
             },
             {
                 "type": "Attaque A",
@@ -203,26 +212,26 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Électrochoc",
-                "puissance": "80×5",
-                "description": "Déluge de foudre qui inflige des dégâts élevés."
+                "nom": "Manque de bol",
+                "puissance": "550",
+                "description": "Charge causant des dégâts élevés. Blesse l'utilisateur."
             },
             {
                 "type": "Attaque X",
-                "nom": "Foudre",
-                "puissance": "50",
-                "description": "Technique de foudre++. Plus de dégâts si chargée."
+                "nom": "Encore !",
+                "puissance": "80",
+                "description": "Attaque un ennemi, attirant ainsi son attention."
             },
             {
                 "type": "Attaque Y",
-                "nom": "Onde de choc",
-                "puissance": "120",
-                "description": "Saute en hauteur et frappe le sol d’une onde de choc."
+                "nom": "Champ de force",
+                "puissance": "___",
+                "description": "Booste +++ la DÉF. alliée à proximité lors d’un instant."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : En un éclair",
-                "description": "Obtient une attaque préventive."
+                "nom": "Talent : Triztesse",
+                "description": "Peut attaquer un allié."
             }
         ]
     },
@@ -231,29 +240,30 @@
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "Gâteau de l'unité"
+                "objet": "Amulette vieillote"
             },
             {
                 "taux": "?%",
-                "objet": "Techni-clopédie"
+                "objet": "Mini EXPorbe"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Grand EXPorbe"
+                "objet": "Billet de loterie"
             },
             {
                 "taux": "?%",
-                "objet": "Crevettes au piment"
+                "objet": "Raviolis chinois"
             }
         ]
     },
     "special_talent": {
-        "nom": "En un éclair",
-        "description": "Obtient une attaque préventive."
+        "nom": "Triztesse",
+        "description": "Peut attaquer un allié."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/260.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/260.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/260.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/260.wav",
+    "oldID": "263"
 }

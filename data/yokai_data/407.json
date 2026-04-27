@@ -1,91 +1,212 @@
 {
     "ID": "407",
-    "Nom": "Melonyan",
-    "Tribue": "Mignon",
+    "Nom": "Momonyan",
+    "Tribue": "Vaillant",
     "Rang": "A",
-    "PV": "367",
-    "Force": "170",
-    "Esprit": "142",
-    "Défense": "156",
-    "Vitesse": "140",
-    "Description": "Ce Yo-kai juteux atteint des prix élevés et, de ce fait, il snobe les autres fruits.",
-    "nourriture": "Chocolat",
-    "élément": "Glace",
-    "Rôle": "Guérisseur",
+    "PV": "425",
+    "Force": "140",
+    "Esprit": "49",
+    "Défense": "205",
+    "Vitesse": "181",
+    "Description": "Un chat Yo-kai né d'une pêche. Élevé par ses grands-parents, il a pour mission de vaincre les onis, partout où il passe.",
+    "description SITE": "Ce chat Yo-kai mignon a pour mère une pêche et a été élevé par un couple de petits vieux avant de partir en croisade contre les démons.",
+    "nourriture": "Sushi",
+    "élément": "Feu",
+    "Rôle": "Tank",
     "Biographie": "",
-    "étimologie": "Melonyan vient du Melon et de nyan, l'onomatopée japonaise pour le 'miaou' d'un chat.",
+    "étimologie": "Taronyan/Momonyan vient de Momotaro, une légende d'un enfant parti combattre des démons",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Melonyan peut donner le goût du melon à n'importe quoi, par exemple le lait d'une vache.",
-    "personnalité": "Il snobe les autres fruits à cause des prix élevés du melon.",
+    "pouvoir": "Il paraît tout mignon comme ça mais il peut combattre des démons énormes comme les Onis.",
+    "personnalité": "Il ne recule devant rien, est très courageux et sait surtout se faire des amis.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/407.png",
-    "numero": "335",
-    "nourriture_favorite": "Barre chocolatée",
+    "numero": "410",
+    "nourriture_favorite": "Sushi",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Pur jus",
-            "effet": "Redonne de l'âme aux alliés s'ils sont battus."
+            "nom": "Boulette",
+            "effet": "Tous les PV restaurés en cas de défaite."
         },
         {
             "type": "Attaque",
-            "nom": "Griffes acérées",
-            "effet": "10x2 | 45x2"
+            "nom": "Découragement",
+            "effet": "Baisse temporaire ATT. des ennemis touchés. 80"
         },
         {
             "type": "Attaque",
-            "nom": "Mélondrame",
-            "effet": "Donne des coups de pattes boostés au jus de melon à tous les ennemis. 22x10 | 22x10"
+            "nom": "Boulette hachée",
+            "effet": "Ruée de coups, inflige de gros dégâts à l'ennemi. 40/10"
         },
         {
             "type": "Attaque",
-            "nom": "Jus de melon",
-            "effet": "Restaure peu à peu les PV d'un allié avec du jus de melon."
+            "nom": "Armure",
+            "effet": "Réduit les dégâts infligés. Attire l'attention."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Attaque",
+            "effet": "Attaque courte portée. 50"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Encore !",
+            "effet": "Attaque un ennemi pour attirer son attention. 80"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Champs de force +",
+            "effet": "Invincibilité temporaire des alliés à proximité."
         }
     ],
-    "phrases_nourriture": {
-        "A mangé quelque chose de bon": "C'est ça ! Ouais !",
-        "A mangé quelque chose de fade": "*mâche*",
-        "A mangé quelque chose de mauvais": "Pas bon...",
-        "A la flemme": "Non... c'est... fade.",
-        "Est échangé": "Je n'avais que la ferme, avant. Je t'ai toi, maintenant !",
-        "Se lie d'amitié": "Tu as le coup d'œil ! Et si on devenait amis ?"
-    },
+    "phrases_nourriture": {},
     "evolutions": [],
     "fusions": [],
     "image_locale": "",
-    "nom_original": "メロンニャン",
-    "nom_anglais": "Melonyan",
-    "premiere_apparition": "Yo-kai Watch 2",
+    "nom_original": "モモタロニャン",
+    "nom_anglais": "Momonyan",
+    "premiere_apparition": "Yo-kai Watch Blasters",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "francaise": "Nathalie Bienaimé"
     },
     "localisations": {
-        "ykw2": [
-            "École d'Ourcival(QR code)"
-        ],
         "ykw-Blasters": [
-            "Mission - Ultra Filomène (4 membres Escadron du chien blanc)",
-            "Patrouille VIP"
+            "Scannez le QR code pour obtenir leDrapeau 1re place, qui rendra possible de se lier d'amitié avec Momonyan dans les missions suivantes :",
+            "Mission - Le chasseur Momotaro",
+            "Mission - Le chasseur Momotaro 2 (Brigade du Lapin Lunaire)"
         ],
         "ykw3": [
-            "Pavillon de l'ambroisie"
+            "Bingo-kai-Pièce errante- 1er prix"
+        ],
+        "Yo-kai Watch : Wibble Wobble :[]": [
+            "Bingo-kai - 3000y\nIl est apparu lors de l'ÉvénementAnimaux-Nyan"
         ]
     },
     "rarite": "Rare",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
+    "attaques_par_jeu": {
+        "Yo-kai Watch Blasters": [
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Boulette hachée",
+                "puissance": "40×10",
+                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+            },
+            {
+                "type": "Technique 1",
+                "nom": "Découragement",
+                "puissance": "80",
+                "description": "Baisse temporaire ATT. des ennemis touchés."
+            },
+            {
+                "type": "Technique 2",
+                "nom": "Armure",
+                "puissance": "___",
+                "description": "Réduit les dégâts infligés. Attire l'attention."
+            },
+            {
+                "type": "Technique à acquérir 1",
+                "nom": "Encore !",
+                "puissance": "80",
+                "description": "Attaque un ennemi pour attirer son attention."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Champ de force +",
+                "puissance": "___",
+                "description": "Invincibilité temporaire des alliés à proximité."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Boulette",
+                "description": "Tous les PV restaurés en cas de défaite."
+            }
+        ],
+        "Yo-kai Watch 3": [
+            {
+                "type": "Attaque",
+                "nom": "Taillade éclair",
+                "puissance": "24×3|38×3",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Incendie",
+                "puissance": "30|105",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Boulette hachée",
+                "puissance": "16×10|24×10",
+                "description": "Frappe les ennemis à portée avec le pouvoir des délicieux raviolis de millet."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Délicieux raviolis",
+                "puissance": "N/A",
+                "description": "La FOR. du Yo-kai augmente grâce aux raviolis de millet."
+            },
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque un ennemi proche."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Boulette hachée",
+                "puissance": "40×10",
+                "description": "Enchaîne les coups, inflige des dégâts élevés."
+            },
+            {
+                "type": "Attaque X",
+                "nom": "Découragement",
+                "puissance": "80",
+                "description": "Fait chuter l’attaque d’un ennemi pendant un instant."
+            },
+            {
+                "type": "Attaque Y",
+                "nom": "Champ de force +",
+                "puissance": "___",
+                "description": "Alliés proches invincibles pendant un court instant."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Boulette",
+                "description": "Récupère des PV après évanouissement. (une fois)"
+            }
+        ]
+    },
     "soul_effects": null,
-    "drops": {},
+    "drops": {
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "Sushi thon rouge"
+            },
+            {
+                "taux": "?%",
+                "objet": "Sushi à l'omelette"
+            }
+        ]
+    },
     "special_talent": {
-        "nom": "Pur jus",
-        "description": "Redonne de l'âme aux alliés s'ils sont battus."
+        "nom": "Boulette",
+        "description": "Tous les PV restaurés en cas de défaite."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/407.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/407.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/407.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/407.wav",
+    "oldID": "413"
 }

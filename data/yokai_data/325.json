@@ -1,84 +1,90 @@
 {
     "ID": "325",
-    "Nom": "Non-non",
-    "Tribue": "Sinistre",
-    "Rang": "D",
-    "PV": "357",
-    "Force": "59",
-    "Esprit": "186",
-    "Défense": "97",
-    "Vitesse": "147",
-    "Description": "Trio aux gros nez qui clame toujours son innocence et nie savoir ce qui a bien pu se passer.",
-    "nourriture": "Hamburger",
-    "élément": "Restauration",
-    "Rôle": "Ranger",
+    "Nom": "Crampaud",
+    "Tribue": "Insaisissable",
+    "Rang": "E",
+    "PV": "309",
+    "Force": "39",
+    "Esprit": "188",
+    "Défense": "100",
+    "Vitesse": "137",
+    "Description": "Le pauvre Crampaud est sûr d'avoir mal au cou au réveil, peu importe la qualité de ses oreillers.",
+    "nourriture": "Sushi",
+    "élément": "Eau",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "",
+    "étimologie": "Crampaud vient de Crampe et Crapaud.",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Les personnes qu'ils envoûtent nient tout en bloc.",
-    "personnalité": "Les Non-non nient toujours tout en bloc et adorent corriger les gens. Ils détestent être complimentés.",
+    "pouvoir": "Crampaud fait dormir les personnes dans une position bizarre, ce qui fait que leur tête est dans un alignement étrange similaire à la façon dont sa tête est placée. Cela fait que la victime souffre d’horribles torticolis à son réveil.",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/325.png",
-    "numero": "264",
-    "nourriture_favorite": "Hamburger",
+    "numero": "284",
+    "nourriture_favorite": "Sushi",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Mauvais tour",
-            "effet": "Les ennemis ne peuvent plus bouger s'il est devant."
+            "nom": "Couche-tard",
+            "effet": "Tous les Yo-kai qui flânent subiront des dégâts."
         },
         {
             "type": "Attaque",
-            "nom": "Gifle",
-            "effet": "10 | 45"
+            "nom": "Coup de boule",
+            "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Restauration",
+            "nom": "Rapides",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Ha ha ha",
-            "effet": "La mauvaise foi de ce trio parvient à embrouiller l'ennemi."
+            "nom": "Bonne douche",
+            "effet": "Une bonne douche fait des dégâts chez tous les ennemis. 60 | 157"
         },
         {
             "type": "Attaque",
-            "nom": "Tête de mule",
-            "effet": "Le Yo-kai doute de tout et refuse même de bouger."
+            "nom": "Raideur",
+            "effet": "Le Yo-kai a mal au cou et perd lentement des PV."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Arrête pas ! Plus !",
-        "A mangé quelque chose de fade": "Pas mal.",
-        "A mangé quelque chose de mauvais": "Pas bon ! Nan !",
-        "A la flemme": "Peux plus bouger.",
-        "Est échangé": "C'est pas si mal de se faire des amis, si on quitte",
-        "Se lie d'amitié": "On ne veut plus se battre ! On veut juste rester avec toi !"
+        "A mangé quelque chose de bon": "Fantastique, croa !",
+        "A mangé quelque chose de fade": "Ça peut aller.",
+        "A mangé quelque chose de mauvais": "Argh... Oh oh...",
+        "A la flemme": "Oh, mon cou...",
+        "Est échangé": "J'ai réussi ! Maintenant, j'ai besoin de savoir s'il y a de bons oreillers, ici.",
+        "Se lie d'amitié": "J'ai mal au cou... Tu as un bon oreiller à me recommander ?"
     },
     "evolutions": [],
     "fusions": [],
     "image_locale": "",
-    "nom_original": "認MEN",
-    "nom_anglais": "Nosirs",
+    "nom_original": "ねちがえる",
+    "nom_anglais": "Cricky",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
-        "japonaise": "Kazuhiro Fusegawa",
-        "francaise": "Yann Pichon"
+        "japonaise": "Inconnue",
+        "francaise": "Adrien Solis"
     },
     "localisations": {
         "ykw2": [
-            "La Corniche-Musée lac des Coloquintes(Nuit)",
-            "Salle des portails- Zone de quiz"
+            "Hauts de Granval- rivières",
+            "Centre-ville de Granval- ordures",
+            "Salle des portails- Zone de quiz - rdc",
+            "Bingo-kai-Pièce bleu ciel(Passé)",
+            "Tunnel sans fin"
         ],
         "ykw-Blasters": [
-            "Patrouille - La Corniche"
+            "Exclusif à l'Escadron du chien blanc",
+            "Patrouille - Hauts de Granval"
         ],
         "ykw3": [
-            "Cawet- sous les voitures"
+            "Hauts de Granval - ruisseaux (Jour)",
+            "Portails Mystère: Salle de combat :Bureau de poste d'Agnel",
+            "Bureau de poste d'Agnel"
         ]
     },
     "rarite": "Commun",
@@ -87,32 +93,32 @@
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
+                "nom": "Coup de boule",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
+                "nom": "Rapides",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Ha ha ha",
-                "puissance": "___",
-                "description": "La mauvaise foi de ce trio parvient à embrouiller l'ennemi."
+                "nom": "Bonne douche",
+                "puissance": "60|157",
+                "description": "Une bonne douche fait des dégâts chez tous les ennemis."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Tête de mule",
+                "nom": "Raideur",
                 "puissance": "N/A",
-                "description": "Le Yo-kai doute de tout et refuse même de bouger."
+                "description": "Le Yo-kai a mal au cou et perd lentement des PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Mauvais tour",
-                "description": "Les ennemis ne peuvent plus bouger s'il est devant."
+                "nom": "Talent : Couche-tard",
+                "description": "Tous les Yo-kai qui flânent subiront des dégâts."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -124,73 +130,74 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Ha ha ha",
-                "puissance": "___",
-                "description": "Forte baisse temporaire de l'attaque ennemie."
+                "nom": "Bonne douche",
+                "puissance": "50×8",
+                "description": "Une ascade inflige de gros dégâts aux ennemis."
             },
             {
                 "type": "Technique 1",
-                "nom": "Baisse défensive",
-                "puissance": "___",
-                "description": "Baisse DÉF. ennemie. Charger élargit l'effet."
+                "nom": "Torrent",
+                "puissance": "40",
+                "description": "Utilise un sort d'eau. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Démolibombe",
-                "puissance": "500",
-                "description": "Une bombe explose sur les ennemis et les alliés."
+                "nom": "Envoût. poison",
+                "puissance": "___",
+                "description": "Baisse lente PV ennemis. Charger élargit l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Décharge",
-                "puissance": "40",
-                "description": "Utilise un sort de foudre. Charger renforce l'effet."
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Non, merci !",
-                "description": "Ne peut plus être étourdi par les attaques ennemies."
+                "nom": "Talent : Tintouin",
+                "description": "Effet envoûtement négatif plus durable sur soi."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
+                "nom": "Coup de boule",
                 "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
+                "nom": "Rapides",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Ha ha ha",
-                "puissance": "___",
-                "description": "La mauvaise foi de ce trio parvient à embrouiller l'ennemi."
+                "nom": "Bonne douche",
+                "puissance": "73|219",
+                "description": "Une bonne douche matinale blesse les ennemis à portée."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Tête de mule",
+                "nom": "Raideur",
                 "puissance": "N/A",
-                "description": "Le Yo-kai doute de tout et refuse même souvent d'agir."
+                "description": "Le Yo-kai a mal au cou et perd lentement des PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Antigarde",
-                "description": "Aucun Yo-kai ne se mettra en garde."
+                "nom": "Talent : Couche-tard",
+                "description": "Tous les Yo-kai qui flânent subiront des dégâts."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Mauvais tour",
-        "description": "Les ennemis ne peuvent plus bouger s'il est devant."
+        "nom": "Couche-tard",
+        "description": "Tous les Yo-kai qui flânent subiront des dégâts."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/325.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/325.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/325.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/325.wav",
+    "oldID": "339"
 }

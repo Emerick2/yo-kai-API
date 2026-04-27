@@ -1,19 +1,19 @@
 {
     "ID": "499",
-    "Nom": "Flèche d'azur",
-    "Tribue": "Costaud",
-    "Rang": "S",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "Un leader à la musculature impressionnante, avec un sens de la justice inébranlable. Protège les gens (et les sushis) du ciel.",
-    "nourriture": "Sushi",
-    "élément": "Eau",
-    "Rôle": "Tank",
+    "Nom": "Vertipiou",
+    "Tribue": "Mignon",
+    "Rang": "E",
+    "PV": "279",
+    "Force": "135",
+    "Esprit": "42",
+    "Défense": "99",
+    "Vitesse": "172",
+    "Description": "Quand tu te cognes la tête, ce Yo-kai est toujours dans le coin. Il titubera avec toi. Sympa, non ?",
+    "nourriture": "Jus",
+    "élément": "Foudre",
+    "Rôle": "Ranger",
     "Biographie": "",
-    "étimologie": "",
+    "étimologie": "Vertipiouvient deVertigeet de \"Piou\" (onomatopée pour le cri d'un poussin).",
     "origine": "",
     "histoire": "",
     "pouvoir": "",
@@ -22,44 +22,104 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/499.png",
-    "nom_original": "スカイシャリマン",
-    "nom_anglais": "Silver Lining",
+    "nom_original": "ピヨピヨコ",
+    "nom_anglais": "Twirly Pie",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
-        "japonaise": "Toru Nara",
+        "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw3": [
-            "Quête - Le héros des cieux ! Flèche d'azur !(exclusif à sushi/avoir choisi Flèche d'azur àDukeville)",
-            "Roue rêve-Pièce légendaire"
+        "Yo-kai Watch 3[]": [
+            "Cajoun- dans l'herbe",
+            "Dimension mystère- magasin mystère",
+            "Roue rêve:Pièce rose- 3e prix",
+            "Pièce rose- 3e prix"
         ],
-        "Yo-kai Watch 4 :[]": [
-            "Flèche d'azur est disponible auBingo-kaiduYo-kai World (YW4)dans lesPièce Gasha,Pièce 5 étoilesetPièce 1 étoileen tant que 1er prix."
+        "Yo-kai Watch : Wibble Wobble[]": [
+            "Événements",
+            "Événement - Puni Puni 100 histoires, Passionnant festival de Hula- Stand d'échange"
         ]
     },
     "fusions": [],
-    "rarite": "Yo-kai Mericain",
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
+    "attaques_par_jeu": {
+        "Yo-kai Watch 3": [
+            {
+                "type": "Attaque",
+                "nom": "Gifle",
+                "puissance": "30|105",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Décharge",
+                "puissance": "30|105",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Culbute cui-cui",
+                "puissance": "___",
+                "description": "Ses yeux donnent le tournis aux ennemis et sèment la confusion."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Désorientation",
+                "puissance": "N/A",
+                "description": "L'ennemi a la tête qui tourne et attaque ses alliés par mégarde."
+            },
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque un ennemi proche."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Culbute cui-cui",
+                "puissance": "___",
+                "description": "Réduction ++ temporaire de l'attaque de l'ennemi."
+            },
+            {
+                "type": "Attaque X",
+                "nom": "Baisse de vitesse",
+                "puissance": "___",
+                "description": "Réduit + VIT. ennemie. Plus de portée si chargé."
+            },
+            {
+                "type": "Attaque Y",
+                "nom": "Âmunisé",
+                "puissance": "___",
+                "description": "Esquive des attaques par des déplacements rapides."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Cha-cha-cha",
+                "description": "Esquive toutes les attaques si envoûté par un ennemi."
+            }
+        ]
+    },
     "soul_effects": null,
     "drops": {
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Éclat de pièce 1 étoile"
+                "objet": "Y-Cola"
             },
             {
                 "taux": "?%",
-                "objet": "California rolls"
+                "objet": "Étoile dansante"
             }
         ]
     },
     "special_talent": {
-        "nom": "De pied en cape",
-        "description": "Résiste aux combos."
+        "nom": "Cha-cha-cha",
+        "description": "Esquive toutes les attaques si envoûté par un ennemi."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/499.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/499.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/499.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/499.wav",
+    "oldID": "503"
 }

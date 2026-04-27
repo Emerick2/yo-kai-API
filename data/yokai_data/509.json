@@ -1,44 +1,50 @@
 {
     "ID": "509",
-    "Nom": "Erzestine",
+    "Nom": "Kay Mandeuse",
     "Tribue": "Mignon",
-    "Rang": "D",
-    "PV": "312",
-    "Force": "39",
-    "Esprit": "164",
-    "Défense": "128",
-    "Vitesse": "171",
-    "Description": "Sa nature indécise semble correspondre à l'amertume de l'adolescence, mais son attitude laisse un goût doux-amer.",
-    "nourriture": "Douceurs",
-    "élément": "Eau",
+    "Rang": "B",
+    "PV": "402",
+    "Force": "58",
+    "Esprit": "203",
+    "Défense": "107",
+    "Vitesse": "179",
+    "Description": "Tellement mignonne, qu'elle se permet de demander l'impossible. Elle adore regarder les gens paniquer à chacune de ses requêtes.",
+    "nourriture": "Pâtes",
+    "élément": "Restauration",
     "Rôle": "Guérisseur",
     "Biographie": "",
-    "étimologie": "Erzestinevient deErnestineet deZeste(petit morceau de citron).",
+    "étimologie": "\"Muchaburikko\" est la combinaison demuchaburi(un challenge ridicule, souvent présenté dans des émissions télé japonaise) etburikko(une femme ressemblant à une petite fille).",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Les personnes qu'elle envoûte se mettront à parler comme elle, avec des \"mais genre\" à tout bout de champ, et rechigneront sur tout ce qu'on leur dit en inventant des excuses.",
-    "personnalité": "Elle est assez insolente et enfantine, mais déteste qu'on la qualifie ainsi.",
+    "pouvoir": "Kay Mandeuse oblige ceux qu'elle envoûte à se lancer dans des gages irraisonnables, gages dont elle est assez douée. Elle peut aussi léviter.",
+    "personnalité": "Elle aime s'amuser et tester les autres Yo-kai avec ses jeux.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/509.png",
-    "nom_original": "デモネード",
-    "nom_anglais": "Zest-a-Minute",
+    "nom_original": "無茶ぶりっ子",
+    "nom_anglais": "Demandi",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Caroline Combes"
+        "francaise": "Inconnue"
     },
     "localisations": {
         "ykw3": [
-            "Cawet- Hôtel - porte arrière"
-        ],
-        "Yo-kai Watch : Puni Puni :[]": [
-            "Erzestine apparaît pour la première fois lors de l'ÉvénementPortails de Crystal Shurakoma, où elle est disponible dans les Stages 1, 20 et 39 de la carte d'événement. Elle reviendra ensuite dans d'autres événements Portails Mystère."
+            "Fusion"
         ]
     },
-    "fusions": [],
-    "rarite": "Yo-kai Mericain",
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Yo-kai Watch 3",
+            "parent1": "Ficheline",
+            "parent2": "Maudieuse",
+            "resultat": "Kay Mandeuse",
+            "critere": "➨"
+        }
+    ],
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
@@ -46,19 +52,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Cupcake"
+                "objet": "Badge mignon"
             },
             {
                 "taux": "?%",
-                "objet": "Carte cadeau musique"
+                "objet": "Pâtes carbonara"
             }
         ]
     },
     "special_talent": {
-        "nom": "Pur jus",
-        "description": "Remplit la jauge d'âme des alliés, si ce Yo-kai est battu."
+        "nom": "Donnant-donnant",
+        "description": "Booste la FOR. des Yo-kai reliés, mais réduit la DÉF."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/509.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/509.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/509.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/509.wav",
+    "oldID": "513"
 }

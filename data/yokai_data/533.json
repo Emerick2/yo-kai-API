@@ -1,30 +1,29 @@
 {
     "ID": "533",
-    "Nom": "Benjirouette",
+    "Nom": "Antoilette",
     "Tribue": "Bienveillant",
-    "Rang": "D",
-    "PV": "350",
-    "Force": "96",
-    "Esprit": "158",
-    "Défense": "64",
-    "Vitesse": "177",
-    "Description": "Change d'avis comme de chemise, mais il met pas des chemises... Ceux qu'il envoûte sont indécis.",
-    "description SITE": "Il change d'avis comme de chemise, mais il met pas des chemises... Ceux qu'il envoûte sont indécis.",
-    "nourriture": "Légumes",
-    "élément": "Terre",
+    "Rang": "A",
+    "PV": "331",
+    "Force": "39",
+    "Esprit": "224",
+    "Défense": "154",
+    "Vitesse": "183",
+    "Description": "Passer sa vie dans un bain, ça a un prix, celui de toujours sentir merveilleusement bon.",
+    "nourriture": "Crème Glacée",
+    "élément": "Eau",
     "Rôle": "Guérisseur",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Malgré tous les courants d'airs et son équilibre médiocre, Benjirouette n'arrive pourtant jamais à tomber.",
-    "personnalité": "Malgré son envie de bien faire, Le fait qu'il change d'avis au moindre courant d'air ne l'aide pas à se faire des amis.",
+    "pouvoir": "Antoilette est capable d'émettre une magnifique odeur qui peut toucher toutes les personnes qui s'en approchent.",
+    "personnalité": "Antoilette est beaucoup plus ouverte que sa sous-évolutionBleunet de bainet aime maintenant mouiller ses cheveux.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/533.png",
-    "nom_original": "どっちつかず",
-    "nom_anglais": "Swaycorn",
+    "nom_original": "ふろーラル",
+    "nom_anglais": "Bubble Beth",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
@@ -32,21 +31,62 @@
     },
     "localisations": {
         "ykw3": [
-            "Mont Sylvestre- Buissons",
-            "Mont Sylvestre - Méga-toboggan"
+            "Fusion"
         ]
     },
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Bleunet de bain",
+            "parent2": "Huile bain parfumée",
+            "resultat": "Antoilette",
+            "critere": "➨"
+        }
+    ],
     "rarite": "Commun",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
+    "attaques_par_jeu": {
+        "Yo-kai Watch 3": [
+            {
+                "type": "Attaque",
+                "nom": "Plaquage",
+                "puissance": "35|77",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Cascade",
+                "puissance": "70|112",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Rose de marée",
+                "puissance": "148|222",
+                "description": "Jette les ennemis à portée avec l'eau du bain."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Bain de bulles",
+                "puissance": "N/A",
+                "description": "Un bain de bulles qui rend des PV."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Cure de repos",
+                "description": "Rend peu à peu des PV en attendant le décompte."
+            }
+        ]
+    },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Corps vif",
-        "description": "Esquive les attaques avec brio !"
+        "nom": "Cure de repos",
+        "description": "Rend peu à peu des PV en attendant le décompte."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/533.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/533.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/533.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/533.wav",
+    "oldID": "535"
 }

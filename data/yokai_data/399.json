@@ -1,93 +1,87 @@
 {
     "ID": "399",
-    "Nom": "Lacanne",
-    "Tribue": "Bienveillant",
-    "Rang": "D",
-    "PV": "298",
-    "Force": "46",
-    "Esprit": "188",
-    "Défense": "113",
-    "Vitesse": "149",
-    "Description": "Ce Yo-kai est à croquer. Il a toujours les mots qu'il faut pour réconforter les gens.",
-    "description SITE": "Ce Yo-kai est gentil à tous points de vue et aime aider les gens à surmonter leurs problèmes avec un ou deux mots gentils.",
-    "nourriture": "Bonbons",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
+    "Nom": "Robonoko",
+    "Tribue": "Insaisissable",
+    "Rang": "B",
+    "PV": "437",
+    "Force": "41",
+    "Esprit": "143",
+    "Défense": "231",
+    "Vitesse": "133",
+    "Description": "Ce Noko mécanique du futur a le pouvoir de se fondre dans le décor, évitant de se faire repérer...",
+    "nourriture": "Hamburger",
+    "élément": "Terre",
+    "Rôle": "Tank",
     "Biographie": "",
-    "étimologie": "",
+    "étimologie": "Robonoko vient de Robot et de Noko.",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Lacanne arrive, avec de simples mots, à redonner le sourire aux personnes qu'elle aide et à résoudre leurs problèmes.",
-    "personnalité": "Lacanne ne pense qu'au bonheur des autres. Elle tente toujours d'aider les gens qui ont des soucis avec ses paroles douces.",
+    "pouvoir": "Il peut se fondre dans le décor quand il est pourchassé. On ne sait pas si il porte autant de chance que les Nokos.",
+    "personnalité": "Il est plus puissant qu'avant mais n'en a rien à faire.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/399.png",
-    "numero": "386",
-    "nourriture_favorite": "Sucrerie",
+    "numero": "345",
+    "nourriture_favorite": "Hamburger",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Sirop",
-            "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
+            "nom": "Polarité",
+            "effet": "Augm. la FOR. pendant que la jauge d'âme se remplit."
         },
         {
             "type": "Attaque",
-            "nom": "Plaquage absolu",
+            "nom": "Morsure",
             "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Guérison",
-            "effet": "20 | 90"
+            "nom": "Éboulement",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Bel cannto",
-            "effet": "Remonte le moral des troupes et restaure les PV. 120 | 120"
+            "nom": "Sourire béat",
+            "effet": "Son sourire étrange restaure les PV de tous les alliés.150 | 150"
         },
         {
             "type": "Attaque",
-            "nom": "Petite douceur",
-            "effet": "Le Yo-kai récupère lentement ses PV grâce à la canne à sucre."
+            "nom": "Force acier",
+            "effet": "Le Yo-kai voit sa DÉF. fortement augmenter grâce à la force de l'acier."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "J'en ai le sourire !",
-        "A mangé quelque chose de fade": "C'est pas mal.",
-        "A mangé quelque chose de mauvais": "Inacceptable.",
-        "A la flemme": "Je renonce...",
-        "Est échangé": "Bonjour, toi ! Content de te voir ! Je suis vraiment content.",
-        "Se lie d'amitié": "Vraiment marrant ! Soyons amis !"
+        "A mangé quelque chose de bon": "Mmh, c'est super !",
+        "A mangé quelque chose de fade": "Merci, je suppose.",
+        "A mangé quelque chose de mauvais": "Plus jamais !",
+        "A la flemme": "Robo... humpf...",
+        "Est échangé": "Tu me vois ? Mmh, seuls mes amis les plus proches peuvent me trouver...",
+        "Se lie d'amitié": "Oh, non ! Tu m'as trouvé."
     },
     "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Lacanne",
-            "parent2": "Hibiscus rouge",
-            "resultat": "Canastelle",
-            "critere": "➨"
-        }
-    ],
+    "fusions": [],
     "image_locale": "",
-    "nom_original": "ウキウキビ",
-    "nom_anglais": "Happycane",
+    "nom_original": "ロボノコ",
+    "nom_anglais": "Robonoko",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
-        "japonaise": "Etsuko Kozakura",
+        "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
         "ykw2": [
-            "Bingo-kai-Pièce des îles"
+            "Scanner le QR Code. Vous pourrez combattre Robonoko une fois par jour à la Gare Chutes Indigos de la ligne Ours. La technique du reset est conseillée."
         ],
         "ykw-Blasters": [
-            "Bingo-kai - Pièce des îles"
+            "Bingo-kai gagnant"
         ],
         "ykw3": [
-            "Gare de Verteplaines- buissons"
+            "Bingo-kai-Pièce oxydée",
+            "Blasters T-Labyrinthe du dragon"
+        ],
+        "Yo-kai Watch : Wibble Wobble :[]": [
+            "Festa Automnal inferno- Lucky Bingo-kai"
         ]
     },
     "rarite": "Rare",
@@ -96,32 +90,32 @@
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
+                "nom": "Morsure",
                 "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Guérison",
-                "puissance": "20|90",
+                "nom": "Éboulement",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Bel cannto",
-                "puissance": "120|120",
-                "description": "Remonte le moral des troupes et restaure les PV."
+                "nom": "Sourire béat",
+                "puissance": "150|150",
+                "description": "Son sourire étrange restaure les PV de tous les alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Petite douceur",
+                "nom": "Force acier",
                 "puissance": "N/A",
-                "description": "Le Yo-kai récupère lentement ses PV grâce à la canne à sucre."
+                "description": "Le Yo-kai voit sa DÉF. fortement augmenter grâce à la force de l'acier."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Sirop",
-                "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+                "nom": "Talent : Polarité",
+                "description": "Augmente la FOR. pendant que la jauge d'âme se remplit."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -133,79 +127,80 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Bel cannto",
+                "nom": "Sourire béat",
                 "puissance": "400",
                 "description": "Alliés retrouvent beaucoup de PV."
             },
             {
                 "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
+                "nom": "Découragement",
+                "puissance": "80",
+                "description": "Baisse temporaire ATT. des ennemis touchés."
             },
             {
                 "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
+                "nom": "Armure",
+                "puissance": "___",
+                "description": "Réduit les dégâts infligés. Attire l'attention."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Boost de défense",
-                "puissance": "___",
-                "description": "Hausse DÉF. des alliés. Charger élargit l'effet."
+                "nom": "Encore !",
+                "puissance": "80",
+                "description": "Attaque un ennemi pour attirer son attention."
             },
             {
                 "type": "Technique à acquérir 2",
-                "nom": "Envoût guérisseur",
+                "nom": "Champ de force +",
                 "puissance": "___",
-                "description": "Hausse lente des PV alliés. Charger élargit l'effet."
+                "description": "Invincibilité temporaire des alliés à proximité."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Bonne mine",
-                "description": "Tes PV sont restaurés graduellement."
+                "nom": "Talent : Polarité",
+                "description": "Toutes stats renforcées quand jauge d'âme pleine."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "20|70",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
+                "nom": "Morsure",
                 "puissance": "30|105",
                 "description": ""
             },
             {
+                "type": "Technique",
+                "nom": "Éboulement",
+                "puissance": "50|110",
+                "description": ""
+            },
+            {
                 "type": "Amultime",
-                "nom": "Bel cannto",
-                "puissance": "60|180",
-                "description": "Remonte le moral des troupes et restaure les PV."
+                "nom": "Sourire béat",
+                "puissance": "90|180",
+                "description": "Un sourire robotique gênant restaure les PV de tous les alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Petite douceur",
+                "nom": "Force acier",
                 "puissance": "N/A",
-                "description": "Le Yo-kai récupère des PV grâce à la saveur de la canne à sucre."
+                "description": "Le Yo-kai voit sa DÉF. augmenter grâce à la force de l'acier."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Sirop",
-                "description": "Rend peu à peu des PV à tous les alliés reliés."
+                "nom": "Talent : Polarité",
+                "description": "Augmente la FOR. tandis que la jauge d'âme se remplit."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Sirop",
-        "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+        "nom": "Polarité",
+        "description": "Augmente la FOR. pendant que la jauge d'âme se remplit."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/399.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/399.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/399.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/399.wav",
+    "oldID": "405"
 }

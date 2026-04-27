@@ -1,34 +1,34 @@
 {
     "ID": "17",
-    "Nom": "Orox",
+    "Nom": "Padelou",
     "Tribue": "Vaillant",
-    "Rang": "S",
-    "PV": "445",
-    "Force": "250",
-    "Esprit": "61",
-    "Défense": "146",
-    "Vitesse": "159",
-    "Description": "Un guerrier armé d'un sabre divin fait pour vaincre le mal. Son but est de ramener la paix sur le monde.",
+    "Rang": "A",
+    "PV": "400",
+    "Force": "230",
+    "Esprit": "64",
+    "Défense": "150",
+    "Vitesse": "145",
+    "Description": "Il veut répandre le sang à cause de sa lame maudite. Il peut très facilement approcher ses ennemis sans se faire repérer.",
     "nourriture": "Fruits de Mer",
-    "élément": "Foudre",
+    "élément": "Absorption",
     "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Orox vient d'Or.",
-    "origine": "Comme l'épée sacrée, Orox est inspiré de l'épéeKusanagi-no-tsurugi, une épée légendaire très célèbre au Japon.",
+    "étimologie": "Padelou vient de 'pas de loup' (avancer discrètement) ce qui fait écho à sa discrétion.",
+    "origine": "Comme l'épée maudite, Padelou est inspiré deMuramasa, un ancien forgeron de sabres japonais. Selon la légende, il était connu pour sa violence de caractère et transmettait cette violence à l'âme de ses sabres. Ce qui signifie que ses sabres étaient assoiffés du sang et poussaient leurs propriétaires à commettre des crimes, car les esprits de ces lames maudites refusaient de retourner au fourreau tant qu'elles n'avaient pas fait couler le sang.",
     "histoire": "",
-    "pouvoir": "Son sabre sacré permet de trancher le mal.",
-    "personnalité": "Il est très combatif et déterminé. Son objectif est de ramener la paix sur terre.",
+    "pouvoir": "L'épée qu'il porte lui donne une attirance particulière pour le sang. Il se faufile vers les gens pour en obtenir. Il serait également réputé pour porter malheur.",
+    "personnalité": "Il est très dangereux ! Sa lame maudite le pousse à faire couler le sang.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/17.png",
-    "numero": "018",
+    "numero": "17",
     "nourriture_favorite": "Fruit de mer",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Célérité",
-            "effet": "Susceptible d'infliger des coups critiques."
+            "nom": "Peau maudite",
+            "effet": "Les stats augmentent quand envoûté par ennemi."
         },
         {
             "type": "Attaque",
@@ -37,27 +37,27 @@
         },
         {
             "type": "Attaque",
-            "nom": "Décharge",
+            "nom": "Absorption",
             "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Entaille sacrée",
-            "effet": "Taille un seul ennemi avec son épée sacrée. Grande chance de coup critique. 165 | 247"
+            "nom": "Entaille du démon",
+            "effet": "Taille tous ses ennemis avec son épée maudite. 20x7 | 30x7"
         },
         {
             "type": "Attaque",
-            "nom": "Épée sacrée",
-            "effet": "L'épée sacrée Kusanagi augmente la FOR. d'un allié."
+            "nom": "Épée maudite",
+            "effet": "Maudit un ennemi avec l'épée Muramasa, et réduit sa VIT."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Délicieux !",
-        "Mange de la nourriture insipide": "Assez banal.",
-        "Mange de la mauvaise nourriture": "Stop !",
-        "A la flemme": "Pas maintenant...",
-        "Est échangé": "Bien le bonjour, nouvelle connaissance. Soyons bons compagnons.",
-        "Devient ton ami": "À compter de ce jour nous sommes les meilleurs amis du monde. Je t'en prie."
+        "Mange de la bonne nourriture": "Mmh...",
+        "Mange de la nourriture insipide": "C'est pas mauvais.",
+        "Mange de la mauvaise nourriture": "Gulp...",
+        "A la flemme": "Je fais une sieste.",
+        "Est échangé": "Ho ho ho... Je suis intrigué. Amis, nous le deviendrons.",
+        "Devient ton ami": "Alors comme ça tu veux devenir mon ami ? Surveille tes arrières..."
     },
     "evolutions": [],
     "fusions": [
@@ -65,49 +65,35 @@
             "type": "Fusion",
             "contexte": "Général",
             "parent1": "Bonneto",
-            "parent2": "Épée Sacrée",
-            "resultat": "Orox",
+            "parent2": "Épée maudite",
+            "resultat": "Padelou",
             "critere": "➨"
         }
     ],
     "image_locale": "",
-    "nom_original": "くさなぎ",
-    "nom_anglais": "Gleam",
-    "premiere_apparition": "Yo-kai Watch",
+    "nom_original": "むらまさ",
+    "nom_anglais": "Snee",
+    "premiere_apparition": "Yo-kai Watch (jeu)",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
         "ykw1": [
-            "Orox peut être obtenu en fusionnantBonnetoet l'Épée Sacrée, qui est le drop rare d'Orqanos, ce qui veut dire qu'elle peut être obtenue à la fin du combat ou en épinglant unelueur doréependant le combat."
+            "Fusion"
         ],
         "ykw2": [
             "Fusion",
-            "Bingo-kai-Pièce joyeuse",
-            "Bingo-kai oni - Mission Argent",
-            "Bingo-kai oni - Mission Or"
+            "Gera Gera Land(au cours d'unequête, amitié impossible)"
         ],
-        "Yo-Kai Watch 3[]": [
+        "ykw-Blasters": [
             "Fusion"
         ],
-        "Yo-kai Watch : Wibble Wobble :[]": [
-            "Bingo-kai Chanceux:",
-            "Événement - Festa Automnal Inferno(Première apparition)",
-            "Roue Rêve:",
-            "Événement - Mêlée de la Saint-Valentin(Première apparition)",
-            "Bingo-kai:",
-            "Pièce G4",
-            "Pièce Goku",
-            "Pièce Puni Puni",
-            "Pièce 10 Tirages Idol",
-            "Stand d'échange:",
-            "Événement - Tournoi de Enma, Édition Flamme",
-            "Événement - Collaboration avec CoroCoro Comic",
-            "Événement - Collaboration avec Kamen Rider"
+        "ykw3": [
+            "Fusion"
         ]
     },
-    "rarite": "Rare",
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch": [
@@ -119,26 +105,26 @@
             },
             {
                 "type": "Technique",
-                "nom": "Décharge",
+                "nom": "Absorption",
                 "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Entaille sacrée",
-                "puissance": "190|285",
-                "description": "Taille un seul ennemi avec son épée sacrée. Grande chance de coup critique."
+                "nom": "Entaille du démon",
+                "puissance": "20×7|30×7",
+                "description": "Taille tous ses ennemis avec son épée maudite."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Épée sacrée",
+                "nom": "Épée maudite",
                 "puissance": "N/A",
-                "description": "L'épée sacrée Kusanagi augmente la FOR. d'un allié."
+                "description": "Maudit un ennemi avec l'épée Muramasa, et réduit sa VIT."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Célérité",
-                "description": "Susceptible d'infliger des coups critiques."
+                "nom": "Talent : Peau maudite",
+                "description": "Les stats augmentent quand envoûté par un ennemi."
             }
         ],
         "Yo-kai Watch 2": [
@@ -150,21 +136,21 @@
             },
             {
                 "type": "Technique",
-                "nom": "Décharge",
+                "nom": "Absorption",
                 "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Entaille sacrée",
-                "puissance": "165|247",
-                "description": "Taille un seul ennemi avec son épée sacrée. Grande chance de coup critique."
+                "nom": "Entaille du démon",
+                "puissance": "20×7|30×7",
+                "description": "Taille tous ses ennemis avec son épée maudite."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Épée sacrée",
+                "nom": "Épée maudite",
                 "puissance": "N/A",
-                "description": "L'épée sacrée Kusanagi augmente la FOR. d'un allié."
+                "description": "Maudit un ennemi avec l'épée Muramasa, et réduit sa VIT."
             },
             {
                 "type": "Attaque A",
@@ -174,14 +160,14 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Attaque à bloc",
+                "nom": "Vortex",
                 "puissance": "N/A",
-                "description": "Déclenche une forte attaque à courte portée."
+                "description": "Te fait absorber les PV de l'ennemi."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Célérité",
-                "description": "Susceptible d'infliger des coups critiques."
+                "nom": "Talent : Peau maudite",
+                "description": "Les stats augmentent quand envoûté par un ennemi."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -189,36 +175,36 @@
                 "type": "Attaque A",
                 "nom": "Triple attaque",
                 "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte ."
+                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
             },
             {
                 "type": "Âmultime",
-                "nom": "Entaille sacrée",
-                "puissance": "400",
+                "nom": "Entaille du démon",
+                "puissance": "480",
                 "description": "Inflige de gros dégâts à courte portée."
             },
             {
                 "type": "Technique 1",
-                "nom": "Attaque précipitée",
-                "puissance": "80",
-                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
-            },
-            {
-                "type": "Technique 2",
                 "nom": "Attaque de repli",
                 "puissance": "70",
                 "description": "Pendant l'attaque, recule et évite les coups ennemis."
             },
             {
-                "type": "Technique à acquérir 1",
+                "type": "Technique 2",
                 "nom": "Contre",
                 "puissance": "___",
                 "description": "Repousse les attaques et contre-attaque."
             },
             {
+                "type": "Technique à acquérir 1",
+                "nom": "Siphon",
+                "puissance": "40",
+                "description": "Absorbe beaucoup de PV. Charger renforce l'effet."
+            },
+            {
                 "type": "Talent",
-                "nom": "Talent : Instant critique",
-                "description": "Hausse de puissance des coups critiques."
+                "nom": "Talent : Vampirisation",
+                "description": "Absorbe une partie des PV lors d'attaques."
             }
         ],
         "Yo-kai Watch 3": [
@@ -230,21 +216,21 @@
             },
             {
                 "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "30|105",
+                "nom": "Absorption",
+                "puissance": "25|87",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Entaille sacrée",
-                "puissance": "190|285",
-                "description": "Entaille la colonne devant lui avec son épée sacrée."
+                "nom": "Entaille du démon",
+                "puissance": "203|304",
+                "description": "Entaille les ennemis à portée avec sa fine épée maudite."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Épée sacrée",
+                "nom": "Épée maudite",
                 "puissance": "N/A",
-                "description": "L'épée sacrée Kusanagi augmente la FOR. d'un allié."
+                "description": "Maudit un ennemi avec l'épée Muramasa, et réduit sa VIT."
             },
             {
                 "type": "Attaque A",
@@ -254,15 +240,15 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Entaille sacrée",
-                "puissance": "400",
-                "description": "Attaque puissante sur un ennemi proche."
+                "nom": "Entaille du démon",
+                "puissance": "480",
+                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
             },
             {
                 "type": "Attaque X",
-                "nom": "Attaque précipitée",
-                "puissance": "80",
-                "description": "Fonce sur un ennemi en frappant à la chaîne."
+                "nom": "Attaque de repli",
+                "puissance": "70",
+                "description": "Se replie en attaquant pour éviter les coups ennemis."
             },
             {
                 "type": "Attaque Y",
@@ -272,8 +258,8 @@
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Célérité",
-                "description": "Susceptible d'infliger des coups critiques."
+                "nom": "Talent : Peau maudite",
+                "description": "↑ tous les stats + si envoûté par un ennemi."
             }
         ]
     },
@@ -282,27 +268,27 @@
         "YW1": [
             {
                 "taux": "?%",
-                "objet": "Émeraude"
+                "objet": "Opale"
             },
             {
                 "taux": "?%",
-                "objet": "Talisman de vitesse"
+                "objet": "Talisman d'esprit"
             }
         ],
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "Secrets de l'âme"
+                "objet": "Techniques tip-top"
             },
             {
                 "taux": "?%",
-                "objet": "Talisman de vitesse"
+                "objet": "Talisman d'esprit"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Secrets de l'âme"
+                "objet": "Techniques tip-top"
             },
             {
                 "taux": "?%",
@@ -311,10 +297,11 @@
         ]
     },
     "special_talent": {
-        "nom": "Célérité",
-        "description": "Susceptible d'infliger des coups critiques."
+        "nom": "Peau maudite",
+        "description": "Les stats augmentent quand envoûté par un ennemi."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/17.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/17.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/17.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/17.wav",
+    "oldID": "18"
 }

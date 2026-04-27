@@ -1,34 +1,34 @@
 {
     "ID": "330",
-    "Nom": "Rapiaf",
-    "Tribue": "Sinistre",
-    "Rang": "B",
-    "PV": "409",
-    "Force": "48",
-    "Esprit": "212",
-    "Défense": "146",
-    "Vitesse": "155",
-    "Description": "Cet oiseau utilise son lasso pour voler ce qu'il veut. Il a même volé son ex le jour de son mariage.",
+    "Nom": "Scoltine",
+    "Tribue": "Insaisissable",
+    "Rang": "D",
+    "PV": "372",
+    "Force": "182",
+    "Esprit": "52",
+    "Défense": "116",
+    "Vitesse": "146",
+    "Description": "Cet insecte met tout le monde sur les nerfs et demander ce qui ne va pas n'arrange rien !",
     "nourriture": "Hamburger",
-    "élément": "Absorption",
-    "Rôle": "Ranger",
+    "élément": "Feu",
+    "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Lorsque Rapiaf envoûte une personne, cette dernière prend les affaires des autres sans leur rendre. Contrairement àChiperpiou, les personnes qu'envoûte Rapiaf ne cherchent pas à cacher leurs envies.",
-    "personnalité": "Rapiaf, comme sa sous-évolutionChiperpiou, aime voler les affaires des autres sans leur rendre.",
+    "pouvoir": "Ceux qui sont envoûtés par Scoltine adopteront le même comportement que lui : ils seront contamment en colère.",
+    "personnalité": "Scoltine est contamment sur les nerfs, et s'énerve de la moindre petite chose.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/330.png",
-    "numero": "252",
+    "numero": "298",
     "nourriture_favorite": "Hamburger",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Peau brillante",
-            "effet": "Ne subit pas de dégâts critiques."
+            "nom": "Revanche",
+            "effet": "Renvoie à l'ennemi une partie de ses dégâts."
         },
         {
             "type": "Attaque",
@@ -37,58 +37,75 @@
         },
         {
             "type": "Attaque",
-            "nom": "Vortex",
-            "effet": "50 | 110"
+            "nom": "Feu",
+            "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Lassocisse",
-            "effet": "Un seul ennemi se fait ligoter et ne peut plus bouger. 110 | 110"
+            "nom": "Pince-mi",
+            "effet": "Une balayette enragée qui rate souvent mais peut infliger un coup critique. 75 | 165"
         },
         {
             "type": "Attaque",
-            "nom": "Ficelage",
-            "effet": "Le Yo-kai est emmêlé dans une corde et ne peut plus bouger."
+            "nom": "Nerfs à vif",
+            "effet": "Le Yo-kai est enragé et attaque ses alliés.Médaillon de Scoltine"
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "J'en veux encore !",
-        "A mangé quelque chose de fade": "Bof.",
-        "A mangé quelque chose de mauvais": "Encore ça ? Non.",
-        "A la flemme": "Hummm...",
-        "Est échangé": "Si tu me parles, c'est que tu as besoin d'un truc... Tu as appelé le bon Yo-kai.",
-        "Se lie d'amitié": "Tu brilles de mille feux ! Si on devient amis, je t'aurai rien que pour moi !"
+        "A mangé quelque chose de bon": "Grrr ! Trop bon !",
+        "A mangé quelque chose de fade": "Trop peu de goût !",
+        "A mangé quelque chose de mauvais": "Argh... pourquoi ?",
+        "A la flemme": "On a fini ?",
+        "Est échangé": "Arg. Qu'est-ce que je fiche ici, moi ?!",
+        "Se lie d'amitié": "Nooon, j'ai perdu... Tu peux te faire pardonner en me laissant te suivre !"
     },
     "evolutions": [],
     "fusions": [
         {
             "type": "Évolution",
-            "contexte": "Yo-kai Watch 2, Blasters et 3",
-            "de": "Chiperpiou",
-            "vers": "Rapiaf",
-            "critere": "Niveau 23"
+            "contexte": "Yo-kai Watch 2",
+            "de": "Scoltine",
+            "vers": "Scolérique",
+            "critere": "Niveau 26"
+        },
+        {
+            "type": "Évolution",
+            "contexte": "Yo-kai Watch Blasters",
+            "de": "Scoltine",
+            "vers": "Scolérique",
+            "critere": "Niveau 29"
+        },
+        {
+            "type": "Évolution",
+            "contexte": "Yo-kai Watch 3 & Busters 2",
+            "de": "Scoltine",
+            "vers": "Scolérique",
+            "critere": "Niveau 34"
         }
     ],
     "image_locale": "",
-    "nom_original": "ぶんぶん鳥",
-    "nom_anglais": "Robbinyu",
+    "nom_original": "ムカムカデ",
+    "nom_anglais": "Irewig",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "francaise": "Yann Pichon"
     },
     "localisations": {
         "ykw2": [
-            "Évolution"
+            "Exclusif à Esprits Farceurs",
+            "Mont de l'Ours"
         ],
         "ykw-Blasters": [
-            "Évolution"
+            "Exclusif au Peloton du chat rouge",
+            "Patrouille -Ourcival"
         ],
         "ykw3": [
-            "Évolution"
+            "Tunnel abandonné- ouest",
+            "Tunnel abandonné - est"
         ]
     },
-    "rarite": "Commun",
+    "rarite": "EF icone",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
@@ -100,26 +117,26 @@
             },
             {
                 "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "50|110",
+                "nom": "Feu",
+                "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Lassocisse",
-                "puissance": "110|110",
-                "description": "Un seul ennemi se fait ligoter et ne peut plus bouger."
+                "nom": "Pince-mi",
+                "puissance": "75|165",
+                "description": "Une balayette enragée qui rate souvent mais peut infliger un coup critique."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Ficelage",
+                "nom": "Nerfs à vif",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est emmêlé dans une corde et ne peut plus bouger."
+                "description": "Le Yo-kai est enragé et attaque ses alliés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Peau brillante",
-                "description": "Ne subit pas de dégâts critiques."
+                "nom": "Talent : Revanche",
+                "description": "Renvoie à l'ennemi une partie de ses dégâts."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -131,32 +148,32 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Lassocisse",
-                "puissance": "40",
+                "nom": "Pince-mi",
+                "puissance": "400",
                 "description": "Inflige de gros dégâts à courte portée."
             },
             {
                 "type": "Technique 1",
-                "nom": "Attaque puissante",
-                "puissance": "400",
-                "description": "Rassemble ta force en une seule attaque."
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
             },
             {
                 "type": "Technique 2",
-                "nom": "Baisse de vitesse +",
+                "nom": "Position offensive",
                 "puissance": "___",
-                "description": "Forte baisse VIT. ennemie. Charger élargit l'effet."
+                "description": "Hausse de l'attaque temporaire."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Sac grappin",
-                "puissance": "___",
-                "description": "Reçois un objet aléatoire, selon la chance que tu as."
+                "nom": "Feu",
+                "puissance": "40",
+                "description": "Utilise un sort de feu. Charger renforce l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Remontant",
-                "description": "Hausse ATT. temp. lors de collecte d'objets/orbes oni."
+                "nom": "Talent : C'est tout ?",
+                "description": "Hausse ATT. si attaqué (cumulable), jusqu'à la fin des attaques."
             }
         ],
         "Yo-kai Watch 3": [
@@ -168,36 +185,37 @@
             },
             {
                 "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "40|88",
+                "nom": "Feu",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Lassocisse",
-                "puissance": "50|50",
-                "description": "Attaque un ennemi avec son lasso. L'ennemi touché agira moins."
+                "nom": "Pince-mi",
+                "puissance": "67|201",
+                "description": "Furieux, donne un coup de queue qui blesse un ennemi."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Ficelage",
+                "nom": "Nerfs à vif",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est emmêlé dans une corde et ne peut plus bouger."
+                "description": "Le Yo-kai est enragé et attaque ses alliés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Peau brillante",
-                "description": "Ne subit pas de dégâts critiques."
+                "nom": "Talent : Revanche",
+                "description": "Renvoie quelques dégâts à l'ennemi."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Peau brillante",
-        "description": "Ne subit pas de dégâts critiques."
+        "nom": "Revanche",
+        "description": "Renvoie à l'ennemi une partie de ses dégâts."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/330.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/330.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/330.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/330.wav",
+    "oldID": "344"
 }

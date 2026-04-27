@@ -1,78 +1,70 @@
 {
     "ID": "397",
-    "Nom": "Pfffuji",
-    "Tribue": "Costaud",
-    "Rang": "D",
-    "PV": "461",
-    "Force": "48",
-    "Esprit": "134",
-    "Défense": "219",
-    "Vitesse": "60",
-    "Description": "Un Yo-kai qui ne manifeste aucun intérêt pour quoi que ce soit... du moins, en surface.",
-    "nourriture": "Viande",
-    "élément": "Feu",
-    "Rôle": "Tank",
+    "Nom": "Robopapéti",
+    "Tribue": "Bienveillant",
+    "Rang": "B",
+    "PV": "394",
+    "Force": "68",
+    "Esprit": "196",
+    "Défense": "156",
+    "Vitesse": "150",
+    "Description": "Ce robot Granpapéti vient du futur. Même sous cette forme, il a toujours un très grand appétit.",
+    "description SITE": "Ce robotGranpapétivient du futur. Même sous cette forme, il a toujours un très grand appétit.",
+    "nourriture": "Riz",
+    "élément": "Restauration",
+    "Rôle": "Guérisseur",
     "Biographie": "",
-    "étimologie": "Pfffuji vient de Pfff, l'onomatopée de l'ennui, et du Mont Fuji, une célèbre montagne japonaise.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Les personnes qu'il envoûte adopteront la même personnalité que lui et seront blasées quoi qu'on leur montre ou qu'on fasse avec elles.",
-    "personnalité": "Il est désintéressé par tout ce qu'on lui montre et soupire en permanence.",
+    "pouvoir": "",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/397.png",
-    "numero": "384",
-    "nourriture_favorite": "Viande",
+    "numero": "343",
+    "nourriture_favorite": "Riz",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Éruption",
-            "effet": "Change l'attaque normale en attaque de feu."
+            "nom": "Polarité",
+            "effet": "Augm. la FOR. pendant que la jauge d'âme se remplit."
         },
         {
             "type": "Attaque",
-            "nom": "Plaquage absolu",
+            "nom": "Coup de boule",
             "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Feu",
-            "effet": "20 | 90"
+            "nom": "Restauration",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Attactonique",
-            "effet": "Rassemble la force des montagnes pour attaquer tous les ennemis. 120 | 120"
+            "nom": "Mange !",
+            "effet": "Attaque un ennemi avec un rayon de voracité. 230 | 230"
         },
         {
             "type": "Attaque",
-            "nom": "Détachement",
-            "effet": "Le Yo-kai se désintéresse de tout et ses stats baissent."
+            "nom": "Force acier",
+            "effet": "Le Yo-kai voit sa DÉF. fortement augmenter grâce à la force de l'acier."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Super !",
-        "A mangé quelque chose de fade": "Bof.",
-        "A mangé quelque chose de mauvais": "Argh !",
-        "A la flemme": "Euuuh...",
-        "Est échangé": "J'ai été échangé, donc... Je suis censé être content ? Pourquoi ?",
-        "Se lie d'amitié": "Hum... Tu as de la force... Ça ne me dérangerait pas d'être ton ami !"
+        "A mangé quelque chose de bon": "Le riz c'est la vie !",
+        "A mangé quelque chose de fade": "C'est pas mal.",
+        "A mangé quelque chose de mauvais": "Je ne crois pas.",
+        "A la flemme": "Qui a du riz ?",
+        "Est échangé": "Tu savais qu'on se nourrit avec des pilules dans le futur ? J'ai FAIM !",
+        "Se lie d'amitié": "Si je reste avec toi, tu pourras me donner à manger ?"
     },
     "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Pfffuji",
-            "parent2": "Statue terre cuite",
-            "resultat": "Krakatouaaah",
-            "critere": "➨"
-        }
-    ],
+    "fusions": [],
     "image_locale": "",
-    "nom_original": "あっそう山",
-    "nom_anglais": "Whateverest",
+    "nom_original": "ロボＧ",
+    "nom_anglais": "Robogramps",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
@@ -80,13 +72,10 @@
     },
     "localisations": {
         "ykw2": [
-            "Il est possible de l'obtenir auBingo-kaien utilisant unePièce du centre-ouest."
-        ],
-        "ykw-Blasters": [
-            "Il est à nouveau possible d'obtenir Pfffuji en utilisant unePièce du centre-ouestdans le Bingo-kai."
+            "QR code - Parc du temple (Gare)"
         ],
         "ykw3": [
-            "Pfffuji peut être trouvé auMont Sylvestre, auSentier de Randonnée, ou auMéga toboggan."
+            "Bingo-kai"
         ]
     },
     "rarite": "Rare",
@@ -95,44 +84,32 @@
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
+                "nom": "Coup de boule",
                 "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Feu",
-                "puissance": "20|90",
+                "nom": "Restauration",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Attactonique",
-                "puissance": "120|120",
-                "description": "Rassemble la force des montagnes pour attaquer tous les ennemis."
+                "nom": "Mange !",
+                "puissance": "230|230",
+                "description": "Attaque un ennemi avec un rayon de voracité."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Détachement",
+                "nom": "Force acier",
                 "puissance": "N/A",
-                "description": "Le Yo-kai se désintéresse de tout et ses stats baissent."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Incendie",
-                "puissance": "N/A",
-                "description": "Un sort de feu brûle les ennemis éloignés."
+                "description": "Le Yo-kai voit sa DÉF. fortement augmenter grâce à la force de l'acier."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Éruption",
-                "description": "Change l'attaque normale en attaque de feu."
+                "nom": "Talent : Polarité",
+                "description": "Augm. la FOR. pendant que la jauge d'âme se remplit."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -144,124 +121,74 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Oh !",
-                "puissance": "80×5",
-                "description": "Des rochers infligent de gros dégâts aux ennemis."
+                "nom": "Mange !",
+                "puissance": "56×9",
+                "description": "Un rayon inflige de gros dégâts aux ennemis."
             },
             {
                 "type": "Technique 1",
-                "nom": "Feu",
-                "puissance": "40",
-                "description": "Utilise un sort de feu. Charger renforce l'effet."
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Armure",
+                "nom": "Boost de défense +",
                 "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
+                "description": "Forte hausse DÉF. alliés. Charger élargit l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Encore !",
+                "nom": "Cercle guérisseur",
                 "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Armure de fer",
-                "puissance": "___",
-                "description": "Forte réduction des dégâts infligés. Attire l'attention."
+                "description": "Rend des PV à un allié. Charger élargit l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Pare-feu",
-                "description": "Réduit les dégâts du feu."
+                "nom": "Talent : Polarité",
+                "description": "Toutes stats renforcées quand jauge d'âme pleine."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "20|70",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Feu",
+                "nom": "Coup de boule",
                 "puissance": "30|105",
                 "description": ""
             },
             {
+                "type": "Technique",
+                "nom": "Restauration",
+                "puissance": "50|110",
+                "description": ""
+            },
+            {
                 "type": "Amultime",
-                "nom": "Attactonique",
-                "puissance": "100|300",
-                "description": "Blesse les cibles à portée, avec le pouvoir terrestre d'une montagne stoïque."
+                "nom": "Mange !",
+                "puissance": "140|280",
+                "description": "Attaque la colonne devant lui avec un rayon de voracité."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Détachement",
+                "nom": "Force acier",
                 "puissance": "N/A",
-                "description": "Le Yo-kai se désintéresse de tout et ses stats baissent."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Attactonique",
-                "puissance": "80×5",
-                "description": "Pluie de rochers qui inflige des dégâts élevés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Feu",
-                "puissance": "40",
-                "description": "Technique de feu+. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
+                "description": "Le Yo-kai voit sa DÉF. augmenter grâce à la force de l'acier."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Éruption",
-                "description": "Change l'attaque normale en attaque de feu."
+                "nom": "Talent : Polarité",
+                "description": "Augmente la FOR. tandis que la jauge d'âme se remplit."
             }
         ]
     },
     "soul_effects": null,
-    "drops": {
-        "YW2": [
-            {
-                "taux": "?%",
-                "objet": "Amulette protectrice"
-            },
-            {
-                "taux": "?%",
-                "objet": "Café au lait"
-            }
-        ],
-        "YW3": [
-            {
-                "taux": "?%",
-                "objet": "Amulette vieillotte"
-            },
-            {
-                "taux": "?%",
-                "objet": "Cuisse de poulet"
-            }
-        ]
-    },
+    "drops": {},
     "special_talent": {
-        "nom": "Éruption",
-        "description": "Change l'attaque normale en attaque de feu."
+        "nom": "Polarité",
+        "description": "Augm. la FOR. pendant que la jauge d'âme se remplit."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/397.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/397.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/397.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/397.wav",
+    "oldID": "403"
 }

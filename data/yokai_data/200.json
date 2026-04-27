@@ -1,28 +1,28 @@
 {
     "ID": "200",
-    "Nom": "Contrarioni",
+    "Nom": "Ragioni",
     "Tribue": "Sombre",
-    "Rang": "B",
-    "PV": "442",
-    "Force": "84",
-    "Esprit": "49",
-    "Défense": "233",
-    "Vitesse": "171",
-    "Description": "Les personnes envoûtées refusent tout en bloc et sont toujours en désaccord avec les autres.",
+    "Rang": "D",
+    "PV": "346",
+    "Force": "170",
+    "Esprit": "110",
+    "Défense": "95",
+    "Vitesse": "101",
+    "Description": "Ce Yo-kai se mettra en colère à chaque fois que les choses n'iront pas dans son sens. Il vaut mieux ne pas insister.",
     "nourriture": "Cuisine chinoise",
-    "élément": "Foudre",
-    "Rôle": "Tank",
+    "élément": "Feu",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Contrarioni vient de Contrarié et de Oni.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Les personnes qu'il envoûte se disputent quel que soit le sujet.",
-    "personnalité": "",
+    "pouvoir": "Ceux qui sont envoûtés par Ragioni piquent des crises de colère.",
+    "personnalité": "Ragioni se met en colère chaque fois que les choses ne vont pas dans son sens.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/200.png",
-    "numero": "152",
+    "numero": "151",
     "nourriture_favorite": "Plats chinois",
     "attaques": [
         {
@@ -37,33 +37,33 @@
         },
         {
             "type": "Attaque",
-            "nom": "Foudre",
-            "effet": "50 | 110"
+            "nom": "Feu",
+            "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Vent contraire",
-            "effet": "Répand un gaz qui contrarie les ennemis, ce qui sème le chaos."
+            "nom": "Crise de nerfs",
+            "effet": "Jette un regard sombre à ses ennemis et entrave leurs actions."
         },
         {
             "type": "Attaque",
-            "nom": "Opposition",
-            "effet": "Force l'ennemi à attaquer ses alliés... Sans raison."
+            "nom": "Gaminerie",
+            "effet": "Le Yo-kai fait une crise de nerfs et attaque ses alliés."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "C'est très bon !",
-        "A mangé quelque chose de fade": "Aha...",
-        "A mangé quelque chose de mauvais": "Arrête !",
-        "A la flemme": "Pas moyen...",
-        "Est échangé": "On est amis, tu dis ? Je ne crois pas...",
-        "Se lie d'amitié": "Je ne serai jamais ton ami !"
+        "A mangé quelque chose de bon": "Encore, encore !",
+        "A mangé quelque chose de fade": "Tellement banal...",
+        "A mangé quelque chose de mauvais": "Non, non et non !",
+        "A la flemme": "Vite, une pause !",
+        "Est échangé": "Tous ces échanges m'ont épuisé ! J'en ai assez ! Plus jamais !",
+        "Se lie d'amitié": "J'ai juste perdu car je ne me suis pas donné à fond ! Mais on peut être amis ?"
     },
     "evolutions": [],
     "fusions": [],
     "image_locale": "",
-    "nom_original": "あまのじゃく",
-    "nom_anglais": "Contrarioni",
+    "nom_original": "ガ鬼",
+    "nom_anglais": "Tantroni",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -71,24 +71,22 @@
     },
     "localisations": {
         "ykw1": [
-            "Musée lac des Coloquintes(Nuit)",
-            "Bingo-kai-Pièce bleue"
+            "Centre-ville de Granval - raccourci vers l'Académie",
+            "Limbes éternelles - 1er cercle",
+            "Limbes éternelles - 2e cercle"
         ],
         "ykw2": [
-            "Tour Excellence- jardins",
-            "Tour Excellence - sous les distributeurs",
-            "Yo-kai World- Route des vandales",
-            "Bingo-kai - Pièce bleue (passé)"
+            "Mont de l'Ours- Canyon de la Cigale",
+            "Tunnel sans fin",
+            "Bingo-kai-Pièce bleue(passé)",
+            "Limbes éternelles - 6e cercle",
+            "Voie du mystère - Grand-route dorée - voie intérieure"
         ],
         "ykw-Blasters": [
-            "Patrouille -Vieux Granval"
+            "Bingo-kai - Pièce bleue"
         ],
         "ykw3": [
-            "Il est possible de trouver Contrarioni sur des bouches à incendie àCawet."
-        ],
-        "Yo-kai Watch : Wibble Wobble/Puni Puni :[]": [
-            "Contrarioni apparaît sur les cartes principales.",
-            "Il est également possible de l'obtenir avec laPièce bleue, laPièce joyeuse, laPièce mystère, laPièce 1 étoile, laPièce 5 étoileset laPièce bleue G."
+            "Quartier des boutiques-Clinique du Crépuscule"
         ]
     },
     "rarite": "Commun",
@@ -103,21 +101,21 @@
             },
             {
                 "type": "Technique",
-                "nom": "Foudre",
-                "puissance": "50|110",
+                "nom": "Feu",
+                "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Vent contraire",
+                "nom": "Crise de nerfs",
                 "puissance": "___",
-                "description": "Émet un gaz maléfique qui contre ses ennemis et les trouble."
+                "description": "Jette un regard sombre à ses ennemis et gêne leurs actions.L'ennemi attaquera moins"
             },
             {
                 "type": "Envoûtement",
-                "nom": "Opposition",
+                "nom": "Gaminerie",
                 "puissance": "N/A",
-                "description": "Force l'ennemi à attaquer ses alliés... Sans raison."
+                "description": "Le Yo-kai fait une crise de nerfs et attaque ses alliés."
             },
             {
                 "type": "Talent",
@@ -134,21 +132,21 @@
             },
             {
                 "type": "Technique",
-                "nom": "Foudre",
-                "puissance": "50|110",
+                "nom": "Feu",
+                "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Vent contraire",
+                "nom": "Crise de nerfs",
                 "puissance": "___",
-                "description": "Répand un gaz qui contrarie ses ennemis, ce qui sème le chaos."
+                "description": "Jette un regard sombre à ses ennemis et entrave leurs actions."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Opposition",
+                "nom": "Gaminerie",
                 "puissance": "N/A",
-                "description": "Force l'ennemi à attaquer ses alliés... Sans raison."
+                "description": "Le Yo-kai fait une crise de nerfs et attaque ses alliés."
             },
             {
                 "type": "Talent",
@@ -165,38 +163,38 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Vent contraire",
+                "nom": "Crise de nerfs",
                 "puissance": "___",
-                "description": "Forte baisse temporaire de l'attaque ennemie."
+                "description": "Forte baisse temporaire de la vitesse ennemie."
             },
             {
                 "type": "Technique 1",
-                "nom": "Riz",
+                "nom": "Attaque de repli",
                 "puissance": "70",
-                "description": "Restaure tes PV."
+                "description": "Pendant l'attaque, recule et évite les coups ennemis."
             },
             {
                 "type": "Technique 2",
-                "nom": "Armure",
+                "nom": "Âmunisé",
                 "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
+                "description": "Esquive rapidement l'attaque ennemie."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
+                "nom": "Feu",
+                "puissance": "40",
+                "description": "Utilise un sort de feu. Charger renforce l'effet."
             },
             {
                 "type": "Technique à acquérir 2",
-                "nom": "Armure miroir",
+                "nom": "Position de rapidité",
                 "puissance": "___",
-                "description": "Réduit et renvoie dégâts infligés. Attire l'attention."
+                "description": "Hausse de la vitesse temporaire."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Anticonformiste",
-                "description": "Toutes stats renforcées si envoûté par l'ennemi."
+                "nom": "Talent : C'est tout ?",
+                "description": "Hausse ATT. si attaqué (cumulable), jusqu'à fin des attaques."
             }
         ],
         "Yo-kai Watch 3": [
@@ -208,21 +206,21 @@
             },
             {
                 "type": "Technique",
-                "nom": "Foudre",
-                "puissance": "50|110",
+                "nom": "Feu",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Vent contraire",
+                "nom": "Crise de nerfs",
                 "puissance": "___",
-                "description": "Émet un gaz maléfique qui contre ses ennemis et les trouble."
+                "description": "Lance un regard accusateur sur les cibles. Ils n'ont plus envie d'agir."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Opposition",
+                "nom": "Gaminerie",
                 "puissance": "N/A",
-                "description": "L'ennemi attaque parfois ses alliés. Pourquoi pas, après tout ?"
+                "description": "Le Yo-kai fait une crise de nerfs et attaque ses alliés."
             },
             {
                 "type": "Talent",
@@ -239,5 +237,6 @@
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/200.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/200.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/200.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/200.wav",
+    "oldID": "199"
 }

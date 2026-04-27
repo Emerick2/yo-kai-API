@@ -1,45 +1,91 @@
 {
     "ID": "475",
-    "Nom": "T. Energison",
-    "Tribue": "Mystérieux",
-    "Rang": "S",
-    "PV": "459",
-    "Force": "66",
-    "Esprit": "270",
-    "Défense": "167",
-    "Vitesse": "138",
-    "Description": "Un inventeur de légende qui s'est dévoué corps et âme au surnaturel. Il est désormais un Yo-kai légendaire.",
-    "description SITE": "Cet inventeur de légende qui s'est dévoué corps et âme au surnaturel. Il est désormais un Yo-kai Légendaire.",
-    "nourriture": "Hamburger",
-    "élément": "Foudre",
-    "Rôle": "Combattant",
+    "Nom": "Chameuhllow",
+    "Tribue": "Costaud",
+    "Rang": "E",
+    "PV": "362",
+    "Force": "137",
+    "Esprit": "42",
+    "Défense": "201",
+    "Vitesse": "76",
+    "Description": "Pour aimer les desserts, il ne faut faire qu'un avec les desserts. Et ça n'a pas l'air de déranger ce Yo-kai.",
+    "description SITE": "Pour aimer les desserts, il ne faut faire qu'un avec les desserts. Et ça n'a pas l'air de déranger ce Yo-kai",
+    "nourriture": "Bonbons",
+    "élément": "Terre",
+    "Rôle": "Guérisseur",
     "Biographie": "",
-    "étimologie": "Edisonvient du célèbre Thomas Edison qui est un inventeur célèbre ayant inventé l'ampoule et le phonographe.T. Energisonest un mot-valise composé deThomas Edisonet d'Énergie.",
+    "étimologie": "Chameuhllowvient deChamallowet de \"Meuh\" (onomatopée pour désigner le cri d'une vache).",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Les personnes qu'il envoûte deviennent extrêmement intelligentes.",
-    "personnalité": "Il est gentil mais dès qu'on lui pose une question, il plonge dans ses pensées pour la résoudre scientifiquement.",
+    "pouvoir": "",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/475.png",
-    "nom_original": "エジソン",
-    "nom_anglais": "T. Energison",
+    "numero": "156",
+    "nourriture_favorite": "Sucrerie",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Mieuh-être",
+            "effet": "Rend peu à peu des PV à tous les alliés reliés."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Plaquage absolu",
+            "effet": "15 | 67"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Galet",
+            "effet": "20 | 90"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Crèmeuhllow",
+            "effet": "Le cacao restaure les PV de tous les alliés et continue de les restaurer. 30 | 30"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Noyade délicieuse",
+            "effet": "Asperge l'ennemi de chocolat chaud pas chaud et baisse ses stats."
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "Tellement sucré...",
+        "A mangé quelque chose de fade": "Tellement moyen...",
+        "A mangé quelque chose de mauvais": "Tellement beurk...",
+        "A la flemme": "Tellement fort...",
+        "Se lie d'amitié": "J'ai perdu... Tu veux qu'on soit amis ?",
+        "Est échangé": "Si tu avais une petite faim, n'y pense même pas...",
+        "info_6": "Bingo-kaiJe suis libre ! Il me faut un truc sucré, j'adore les trucs sucrés !"
+    },
+    "evolutions": [],
+    "fusions": [
+        {
+            "type": "Évolution",
+            "contexte": "Général",
+            "de": "Chameuhllow",
+            "vers": "Pot-au-meuh",
+            "critere": "Niveau 29"
+        }
+    ],
+    "image_locale": "",
+    "nom_original": "あまん汁",
+    "nom_anglais": "Chilled Cowcao",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
-        "japonaise": "Inconnue",
+        "japonaise": "Aya Endo",
         "francaise": "Inconnue"
     },
     "localisations": {
         "ykw3": [
-            "Rendez-vous dans la bibliothèque qui est à l'est de l'école primairedeCajoun. Lisez la biographie de T. Énergison cinq fois. Vous ne pouvez lire qu'un chapitre par jour (temps réel). Ce dernier apparaîtra au laboratoire de rechercheYoppleet peut être combattu une fois par jour. (Utiliser unFruit défenduest conseillé)"
-        ],
-        "Yo-kai Watch : Wibble Wobble :[]": [
-            "T. Energison peut être combattu en utilisant laBiographie de T. Energisontrouvable dans le Bingo-kai oni ou dans la Roulette Yo-kai."
+            "Betel- bouches d'incendie",
+            "Roue rêve-Pièce orange- 3e prix"
         ]
     },
-    "fusions": [],
-    "rarite": "Yo-kai Pionniers",
+    "rarite": "Yo-kai Mericain",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
@@ -47,19 +93,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Poupée d'argent"
+                "objet": "Crêpes nappées"
             },
             {
                 "taux": "?%",
-                "objet": "Star burger suprême"
+                "objet": "Dragées arc-en-ciel"
             }
         ]
     },
     "special_talent": {
-        "nom": "Inspiration soudaine",
-        "description": "↑ des chances de coups critiques de foudre des alliés.*"
+        "nom": "Mieuh-être",
+        "description": "Rend peu à peu des PV à tous les alliés reliés."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/475.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/475.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/475.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/475.wav",
+    "oldID": "479"
 }

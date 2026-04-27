@@ -1,85 +1,84 @@
 {
     "ID": "217",
-    "Nom": "Claquille",
+    "Nom": "Inisquale",
     "Tribue": "Insaisissable",
-    "Rang": "C",
-    "PV": "386",
-    "Force": "146",
-    "Esprit": "70",
-    "Défense": "183",
-    "Vitesse": "125",
-    "Description": "S'il t'envoûte, il te fera dépenser tout ton argent pour acheter des choses dont tu n'as même pas envie.",
-    "nourriture": "Pain",
-    "élément": "Vent",
+    "Rang": "B",
+    "PV": "507",
+    "Force": "54",
+    "Esprit": "195",
+    "Défense": "162",
+    "Vitesse": "117",
+    "Description": "Inisquale rend mauvais dans tous les sujets, même si on les maîtrise. Il peut même forcer un maître à redevenir novice.",
+    "nourriture": "Légumes",
+    "élément": "Eau",
     "Rôle": "Tank",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Ceux qui sont envoûtés par Claquille dépensent leur argent dans plein de choses inutiles sans compter. Cela peut ruiner leurs économies.",
+    "pouvoir": "Il a le pouvoir de rendre les personnes novice dans un domaine où il sont fort.",
     "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/217.png",
-    "numero": "205",
-    "nourriture_favorite": "Pain",
+    "numero": "204",
+    "nourriture_favorite": "Légume",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Coqu'invincible",
-            "effet": "Immunisé contre les envoûtements ennemis."
+            "nom": "Peau de squale",
+            "effet": "Sa peau inflige des dégâts aux ennemis qui attaquent"
         },
         {
             "type": "Attaque",
-            "nom": "Mâchouille",
-            "effet": "45 | 99"
+            "nom": "Vilaine morsure",
+            "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Tornade",
+            "nom": "Rapides",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Casse du siècle",
-            "effet": "Ses ennemis oublient la valeur de l'argent et le dilapident. 130 | 130"
+            "nom": "Voracité forcenée",
+            "effet": "Dévore les PV ennemis et les partage avec ses alliés. 120 | 180"
         },
         {
             "type": "Attaque",
-            "nom": "Gaspillage",
-            "effet": "L'ennemi gâche son argent en le jetant partout."
+            "nom": "Amateur",
+            "effet": "L'ennemi redevient un amateur et perd énormément de FOR."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "C'est juste... !",
-        "A mangé quelque chose de fade": "Ça allait...",
-        "A mangé quelque chose de mauvais": "Beurk, dégoûtant !",
-        "A la flemme": "Je suis... fatigué...",
-        "Est échangé": "Ouah ! C'est l'heure de faire la fête ! Inutile de se priver !",
-        "Se lie d'amitié": "On dirait que tu adores dépenser de l'argent. J'aime ça !"
+        "A mangé quelque chose de bon": "Ça, c'est bon !",
+        "A mangé quelque chose de fade": "Ça va.",
+        "A mangé quelque chose de mauvais": "Raté...",
+        "A la flemme": "Je m'ennuie...",
+        "Est échangé": "Je ne sais rien sur cette ville... Raconte-moi tout !",
+        "Se lie d'amitié": "Je t'aime bien, toi. Je sais pas pourquoi, mais je t'aime bien."
     },
     "evolutions": [],
     "fusions": [],
     "image_locale": "",
-    "nom_original": "ムダヅカイ",
-    "nom_anglais": "Spenp",
-    "premiere_apparition": "Yo-kai Watch (jeu)",
+    "nom_original": "トーシロザメ",
+    "nom_anglais": "Shrook",
+    "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Martial Le Minoux"
+        "francaise": "Inconnue"
     },
     "localisations": {
         "ykw1": [
-            "La Corniche- fleuve ouest"
+            "La Corniche - Chemin de traverse"
         ],
         "ykw2": [
-            "Quartier des boutiques",
-            "Voie du mystère - Grand-route dorée - entrée",
-            "Bingo-kai-Pièce bleu ciel"
+            "San Fantastico-Grotte du littoral"
         ],
         "ykw3": [
-            "Électropolis - Parking louche"
+            "Grotte du grincheux",
+            "San Fantastico - L'Atelier dérobé"
         ]
     },
     "rarite": "Commun",
@@ -88,63 +87,63 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "45|99",
+                "nom": "Vilaine morsure",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Tornade",
-                "puissance": "50|110",
+                "nom": "Cascade",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Casse du siècle",
-                "puissance": "130|130",
-                "description": "Ses ennemis oublient la valeur de l'argent et le dilapident."
+                "nom": "Voracité forcenée",
+                "puissance": "130|195",
+                "description": "Dévore les PV ennemis et les partage avec ses alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Gaspillage",
+                "nom": "Amateur",
                 "puissance": "N/A",
-                "description": "L'ennemi gâche son argent en le jetant partout."
+                "description": "L'ennemi redevient un amateur et perd  de la FOR."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Coqu'invincible",
-                "description": "Immunisé contre les envoûtements ennemis."
+                "nom": "Talent : Peau de squale",
+                "description": "Inflige des dégâts à ceux qui attaquent."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "45|99",
+                "nom": "Vilaine morsure",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Tornade",
+                "nom": "Rapides",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Casse du siècle",
-                "puissance": "130|130",
-                "description": "Ses ennemis oublient la valeur de l'argent et le dilapident."
+                "nom": "Voracité forcenée",
+                "puissance": "120|180",
+                "description": "Dévore les PV ennemis et les partage avec ses alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Gaspillage",
+                "nom": "Amateur",
                 "puissance": "N/A",
-                "description": "L'ennemi gâche son argent en le jetant partout."
+                "description": "L'ennemi redevient un amateur et perd énormément de FOR."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Coqu'invincible",
-                "description": "Immunisé contre les envoûtements ennemis."
+                "nom": "Talent : Peau de squale",
+                "description": "Sa peau inflige des dégâts aux ennemis qui attaquent."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -156,79 +155,80 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Casse du siècle",
-                "puissance": "250",
-                "description": "Baisse temporaire DÉF. des ennemis."
+                "nom": "Voracité forcenée",
+                "puissance": "200×2",
+                "description": "Absorption des PV de l'ennemi."
             },
             {
                 "type": "Technique 1",
-                "nom": "Encore !",
+                "nom": "Découragement",
                 "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
+                "description": "Baisse temporaire ATT. des ennemis touchés."
             },
             {
                 "type": "Technique 2",
-                "nom": "Champ de force",
-                "puissance": "___",
-                "description": "Hausse temporaire de la protection des alliés."
-            },
-            {
-                "type": "Technique à acquérir 1",
                 "nom": "Armure",
                 "puissance": "___",
                 "description": "Réduit les dégâts infligés. Attire l'attention."
             },
             {
+                "type": "Technique à acquérir 1",
+                "nom": "Encore !",
+                "puissance": "80",
+                "description": "Attaque un ennemi pour attirer son attention."
+            },
+            {
                 "type": "Technique à acquérir 2",
-                "nom": "Riz",
-                "puissance": "70",
-                "description": "Restaure tes PV."
+                "nom": "Armure de fer",
+                "puissance": "___",
+                "description": "Forte réduction des dégâts infligés. Attire l'attention."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Coqu'invincible",
-                "description": "Immunité contre les effets d'envoûtement négatifs."
+                "nom": "Talent : Canaille",
+                "description": "En cas de danger, PV restaurés graduellement."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "50|110",
+                "nom": "Vilaine morsure",
+                "puissance": "70|112",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Tornade",
+                "nom": "Rapides",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Casse du siècle",
-                "puissance": "___",
-                "description": "Ses ennemis oublient la valeur de l'argent et le dilapident !"
+                "nom": "Voracité forcenée",
+                "puissance": "100|200",
+                "description": "Dévore goulûment les PV des ennemis à portée et les partage avec les alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Gaspillage",
+                "nom": "Amateur",
                 "puissance": "N/A",
-                "description": "L'ennemi gâche son argent en le jetant partout."
+                "description": "L'ennemi redevient un amateur et perd de la FOR."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Coqu'invincible",
-                "description": "Immunisé contre les envoûtements ennemis."
+                "nom": "Talent : Peau de squale",
+                "description": "Sa peau inflige des dégâts aux ennemis qui attaquent."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Coqu'invincible",
-        "description": "Immunisé contre les envoûtements ennemis."
+        "nom": "Peau de squale",
+        "description": "Inflige des dégâts à ceux qui attaquent."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/217.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/217.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/217.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/217.wav",
+    "oldID": "216"
 }

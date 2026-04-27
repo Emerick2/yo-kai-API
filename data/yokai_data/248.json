@@ -1,34 +1,34 @@
 {
     "ID": "248",
-    "Nom": "Pleurapluie",
+    "Nom": "Brumette",
     "Tribue": "Mystérieux",
-    "Rang": "E",
-    "PV": "279",
-    "Force": "35",
-    "Esprit": "189",
-    "Défense": "114",
-    "Vitesse": "142",
-    "Description": "Ce Yo-kai est né de la souffrance d'un parapluie en plastique qui rêvait d'être plus robuste.",
-    "nourriture": "Encas",
+    "Rang": "D",
+    "PV": "211",
+    "Force": "34",
+    "Esprit": "171",
+    "Défense": "109",
+    "Vitesse": "184",
+    "Description": "Ce Yo-kai très léger apparaît là où il y a de la fumée, mais disparaît avant de devenir trop épais.",
+    "nourriture": "Douceurs",
     "élément": "Vent",
     "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Pleurapluie vient de Pleure et de Parapluie.",
-    "origine": "Pleurapluie pourrait s'inspirer duhone karakasa(??, \"parapluie squelettique\"), untsukumogaminé d'un parapluie en papier délabré, ses dents en bois exposées ressemblant à des os de poisson. Il bat sa canopée déchiquetée comme des ailes horribles alors qu'il survole les villes, et son arrivée est de présage de mauvais temps.",
+    "étimologie": "Brumette vient de brume (fine pellicule de brouillard) et de -ette (suffixe souvent utilisé pour former des noms féminins en rapport avec une forme plus petite d’un objet).",
+    "origine": "Comme c'est un Yo-kai classique, ce Yo-kai est tiré du folklore japonais: c'est un déviant du YôkaiEn'enra.",
     "histoire": "",
-    "pouvoir": "Pleurapluie fait en sorte que les parapluies des gens se retournes lorsqu'il pleut ou qu'il y a du vent.",
-    "personnalité": "Pleurapluie a une personnalité plutôt vengeresse, en raison de son passé, ayant été rejeté par son ancien propriétaire. Il a une dent contre les humains et aime retourner leurs parapluies à l'envers pendant les pluies et les faire mouiller. Dans l'anime, Pleurapluie ne fait pas beaucoup attention à Parasolal au début puisqueParasolalest basé sur un parapluie japonais traditionnel, mais gagne le respect pour lui après qu’il ait entraîné Pleurapluie pour mieux résister aux vents orageux.",
+    "pouvoir": "",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/248.png",
-    "numero": "040",
-    "nourriture_favorite": "Encas",
+    "numero": "061",
+    "nourriture_favorite": "Sucrerie",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Bourrasque",
-            "effet": "Augm. la VIT. des alliés s'il est à l'arrière."
+            "nom": "Brume magique",
+            "effet": "Aide la jauge d'âme des Yo-kai voisins à se remplir."
         },
         {
             "type": "Attaque",
@@ -42,50 +42,69 @@
         },
         {
             "type": "Attaque",
-            "nom": "Vent du Nord",
-            "effet": "Lève un vent qui le retourne et frappe tous les ennemis. 80 | 80"
+            "nom": "Héca-trombe",
+            "effet": "Invoque une petite tempête qui blesse tous les ennemis. 60 | 157"
         },
         {
             "type": "Attaque",
-            "nom": "Vent arrière",
-            "effet": "Le Yo-kai est porté par le vent. La VIT. augmente."
+            "nom": "Brumisation",
+            "effet": "Une fumée mystérieuse enveloppe le Yo-kai. Son ESP. augmente."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Miam !",
-        "A mangé quelque chose de fade": "C'est fade !",
-        "A mangé quelque chose de mauvais": "Beurk, beurk !",
-        "A la flemme": "Trop fatigué !",
-        "Est échangé": "Ouah ! Tu sens ce vent ?! Ça va mal finir. Vouh ! Et voilà.",
-        "Se lie d'amitié": "Aaaah ! Je vais me retourner ! Arg ! Soyons amis !"
+        "info_0": "Ate good stuffTrop bon !",
+        "info_1": "Ate average foodEuh...",
+        "info_2": "Ate awful foodÇa passe mal.",
+        "info_3": "LoafedZzz...",
+        "info_4": "Traded*tousse* Quel vent m'a poussée jusqu'ici ? Je peux rester un peu ?",
+        "info_5": "Befriended*tousse* Tu as de la force. *tousse* Je veux qu'on devienne amis !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Évolution",
+            "contexte": "Yo-kai Watch 2",
+            "de": "Brumette",
+            "vers": "Brumella",
+            "critere": "Niveau 27"
+        },
+        {
+            "type": "Évolution",
+            "contexte": "Yo-kai Watch 3",
+            "de": "Brumette",
+            "vers": "Brumella",
+            "critere": "Niveau 32"
+        },
+        {
+            "type": "Évolution",
+            "contexte": "Yo-kai Watch Wibble Wobble",
+            "de": "Brumette",
+            "vers": "Brumella",
+            "critere": "Niveau 38"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "さかさっ傘",
-    "nom_anglais": "Brokenbrella",
+    "nom_original": "こえんら",
+    "nom_anglais": "Smogling",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
-        "japonaise": "Inconnue",
+        "japonaise": "Kiyono Yasuno",
         "francaise": "Inconnue"
     },
     "localisations": {
         "ykw2": [
-            "Pleurapluie peut être automatiquement lié d'amitié après le combat contreTourbœillon.",
-            "On peut également le trouver dans les 1er, 2e et 3e cercles desLimbes éternelles."
+            "Vieil Ourcival- rizières",
+            "Bingo-kai-Pièce jaune(passé)"
         ],
         "ykw-Blasters": [
-            "Patrouille -Hauts de Granval"
+            "Patrouille -Vieux Granval"
         ],
         "ykw3": [
-            "Hauts de Granval- jardins (pluie)",
-            "USA -Tornades",
-            "Portails Mystère: Salle de Combat :Bureau de poste d'Agnel",
-            "Bureau de poste d'Agnel",
-            "Aspirateur Yo-kai"
+            "Coteau fleuri- arbres",
+            "USA -Tornade"
         ]
     },
-    "rarite": "Commun",
+    "rarite": "Classic icon",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
@@ -103,15 +122,15 @@
             },
             {
                 "type": "Amultime",
-                "nom": "Vent du Nord",
-                "puissance": "80|80",
-                "description": "Lève un vent qui le retourne et frappe tous les ennemis."
+                "nom": "Héca-trombe",
+                "puissance": "60|157",
+                "description": "Invoque une petite tempête qui blesse tous les ennemis."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Vent arrière",
+                "nom": "Brumisation",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est porté par le vent. La VIT. augmente."
+                "description": "Une fumée mystérieuse enveloppe le Yo-kai. Son ESP. augmente."
             },
             {
                 "type": "Attaque A",
@@ -127,8 +146,8 @@
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Bourrasque",
-                "description": "Augm. la VIT des alliés s'il est à l'arrière."
+                "nom": "Talent : Brume magique",
+                "description": "Aide la jauge d'âme des Yo-kai voisins à se remplir."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -140,7 +159,7 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Vent du Nord",
+                "nom": "Héca-trombe",
                 "puissance": "50×8",
                 "description": "Une tornade inflige de gros dégâts aux ennemis."
             },
@@ -164,14 +183,14 @@
             },
             {
                 "type": "Technique à acquérir 2",
-                "nom": "Position de rapidité",
-                "puissance": "___",
-                "description": "Hausse de la vitesse temporaire."
+                "nom": "Tornade",
+                "puissance": "50",
+                "description": "Un sort de vent puissant. Charger renforce l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Bourrasque",
-                "description": "Hausse de la VIT. pour tous les alliés."
+                "nom": "Talent : Brume magique",
+                "description": "Chargement rapide de la jauge d'âme pour les alliés."
             }
         ],
         "Yo-kai Watch 3": [
@@ -189,15 +208,15 @@
             },
             {
                 "type": "Amultime",
-                "nom": "Vent du Nord",
+                "nom": "Héca-trombe",
                 "puissance": "86|258",
-                "description": "Une violente tornade le retourne et frappe les ennemis à portée."
+                "description": "Attaque les ennemis à portée, avec une petite tornade."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Vent arrière",
+                "nom": "Brumisation",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est porté par le vent et sa VIT. augmente."
+                "description": "Une fumée mystérieuse enveloppe le Yo-kai. Son ESP. augmente."
             },
             {
                 "type": "Attaque A",
@@ -207,7 +226,7 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Vent du Nord",
+                "nom": "Héca-trombe",
                 "puissance": "50×8",
                 "description": "Dégâts ++ sur les ennemis fauchés par la tornade."
             },
@@ -225,8 +244,8 @@
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Bourrasque",
-                "description": "Booste un peu la VIT des alliés, quand inactifs."
+                "nom": "Talent : Brume magique",
+                "description": "Remplit lentement la jauge d'âme des Yo-kai reliés."
             }
         ]
     },
@@ -235,29 +254,30 @@
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "Secours hors-série"
+                "objet": "Anneau arc-en-ciel"
             },
             {
                 "taux": "?%",
-                "objet": "Poupée de fuite"
+                "objet": "Pomme d'amour"
             }
         ],
         "YW3": [
             {
-                "taux": "?%",
-                "objet": "Anneau rouillé"
+                "taux": "4%",
+                "objet": "Bague mimi"
             },
             {
-                "taux": "?%",
-                "objet": "Chips"
+                "taux": "14%",
+                "objet": "Cheesecake"
             }
         ]
     },
     "special_talent": {
-        "nom": "Bourrasque",
-        "description": "Augm. la VIT des alliés s'il est à l'arrière."
+        "nom": "Brume magique",
+        "description": "Aide la jauge d'âme des Yo-kai voisins à se remplir."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/248.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/248.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/248.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/248.wav",
+    "oldID": "249"
 }

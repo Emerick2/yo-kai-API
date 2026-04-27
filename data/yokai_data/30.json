@@ -1,34 +1,34 @@
 {
     "ID": "30",
-    "Nom": "Zerberker",
+    "Nom": "Fouétar",
     "Tribue": "Vaillant",
-    "Rang": "A",
-    "PV": "402",
-    "Force": "310",
-    "Esprit": "50",
-    "Défense": "135",
-    "Vitesse": "140",
-    "Description": "Une légende dit qu'il aurait détruit un village dans un accès de colère. Tu exploseras de rage s'il est dans les parages.",
+    "Rang": "S",
+    "PV": "457",
+    "Force": "243",
+    "Esprit": "54",
+    "Défense": "158",
+    "Vitesse": "163",
+    "Description": "Ce Yo-kai va dans chaque maison faire peur aux vilains enfants et les rendre sages. Un peu l'opposé du Père Noël.",
     "nourriture": "Viande",
-    "élément": "Feu",
+    "élément": "Glace",
     "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "",
+    "étimologie": "Fouétar vient de Père fouettard, personnage folklorique qui punit les enfants turbulents.",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
+    "pouvoir": "Armé de ses deux épées, il peut anéantir ses ennemis très rapidement",
+    "personnalité": "Il est très strict et veut enseigner aux enfants comment se comporter, ses méthodes sont assez brusques mais il ne veut que leur bien. Il déteste quand on ne respecte pas les feux tricolores.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/30.png",
-    "numero": "026",
+    "numero": "027",
     "nourriture_favorite": "Viande",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Casse-pieds",
-            "effet": "Peut attaquer un allié."
+            "nom": "Chasse-lame",
+            "effet": "La puissance augmente à chaque ennemi battu."
         },
         {
             "type": "Attaque",
@@ -37,67 +37,79 @@
         },
         {
             "type": "Attaque",
-            "nom": "Feu",
-            "effet": "20 | 90"
+            "nom": "Gel",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Lame Zerberker",
-            "effet": "Devient fou avec ses sabres et taille tous ses adversaires. 20x10 | 20x10"
+            "nom": "Sales gamins",
+            "effet": "Devient fou avec ses sabres et taille tous ses adversaires. 22x10 | 22x10"
         },
         {
             "type": "Attaque",
-            "nom": "Furie",
-            "effet": "Agace un ennemi et le fait attaquer ses alliés."
+            "nom": "Frayeur",
+            "effet": "L'ennemi a tellement peur de Fouétar qu'il ne peut plus bouger.妖怪ウォッチ3 必殺技 なまはげ 悪い子イネガー スシ／テンプラMédaillon de Fouétar"
         }
     ],
     "phrases_nourriture": {
         "Mange de la bonne nourriture": "Oui !",
-        "Mange de la nourriture insipide": "Hmmmm...",
-        "Mange de la mauvaise nourriture": "Bah !",
-        "A la flemme": "Une petite sieste.",
-        "Est échangé": "Jamais, oh, jamais je ne pardonnerai à",
-        "Devient ton ami": "C'est nul ! Comment j'ai fait pour perdre ? Je dois te rejoindre ! Il le faut !"
+        "Mange de la nourriture insipide": "C'était mangeable.",
+        "Mange de la mauvaise nourriture": "Pouah ! Horrible !",
+        "A la flemme": "*soupire*",
+        "Est échangé": "Je serai ton ami, mon enfant. Mais gare à ne pas me contrarier !",
+        "Devient ton ami": "Tu t'débrouilles pas mal ! On d'vrait être amis !"
     },
     "evolutions": [],
     "fusions": [
         {
             "type": "Fusion",
             "contexte": "Général",
-            "parent1": "Trépigno",
-            "parent2": "Sabre déchaîné",
-            "resultat": "Zerberker",
+            "parent1": "Fouétar",
+            "parent2": "Perle Périlleuse",
+            "resultat": "Superfouétar",
             "critere": "➨"
         }
     ],
     "image_locale": "",
-    "nom_original": "くしゃ武者",
-    "nom_anglais": "Zerberker",
+    "nom_original": "なまはげ",
+    "nom_anglais": "Snartle",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "francaise": "Yann Pichon"
     },
     "localisations": {
         "ykw1": [
-            "Quête - Une épée en offrande.",
-            "Limbes Éternelles– 7e et 8e cercles"
+            "Quartier des boutiques- Résidence Sérénité - pièce vide (nuit)",
+            "Ne pas respecter lesfeux sur les passages piétons."
         ],
         "ykw2": [
-            "Fusion",
-            "Bingo-kai–Pièce rouge(Passé)",
-            "Blasters - Bingo-kai - Mission Bronze - Orbe en Pierre",
-            "Blasters - Bingo-kai - Mission Argent - Orbe en Or"
+            "Ne pas respecter les feux sur les passages piétons."
+        ],
+        "ykw-Blasters": [
+            "Fouétar peut rarement devenir votre ami comme récompense en terminant la mission du chapitre 10 :Les Blasters au feu rouge",
+            "Il peut également être libéré duBingo-kaiavec sa pièce Boost (qui fait en sorte que chaque fois que le joueur ne l'obtient pas, sa chance de l'avoir augmente)"
         ],
         "ykw3": [
-            "Fusion",
-            "Mode Blasters T - Palais Enma"
+            "Ne pas respecter les feux sur les passages piétons. (Granval)"
+        ],
+        "Yo-kai Sangokushi :[]": [
+            "Fouétar peut être libéré du Bingo-kai avec une pièce de monnaie Sawtoakushi (Wei). Cette pièce fait en sorte que chaque fois que le joueur ne l'attrape pas, sa chance de l'obtenir augmente."
         ],
         "Yo-kai Watch : Wibble Wobble :[]": [
-            "Égouts F - Stage Secret 6-10"
+            "Stage Secret 6-10 (Egoûts F)",
+            "Bingo-kai (3000y)",
+            "Bingo-kai (Pièce frisson)",
+            "Bingo-kai (Pièce rouge et Pièce rouge G)",
+            "Bingo-kai (Pièce spéciale)"
+        ],
+        "Yo-kai Watch 4 :[]": [
+            "Contrairement au jeux précédents il faut traverser le passage piéton correctement 10 fois puis en appuyant sur un bouton a un carrefour de rue spécifique comme au Parc du Triangle auHauts de Granvalet à l'école deNolan AdamsàTatsumi-kawabata-Nord.",
+            "Faire l'inverse fait apparaître soitGargarosouOgralos.",
+            "Il peut également être dans le combat deBogosdans leTournoi Enma - Arène Oni."
         ]
     },
-    "rarite": "Commun",
+    "rarite": "Rare",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch": [
@@ -109,26 +121,26 @@
             },
             {
                 "type": "Technique",
-                "nom": "Feu",
+                "nom": "Grêle",
                 "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Lame Zerberker",
-                "puissance": "20×10|20×10",
-                "description": "Devient fou avec ses sabres et taille tous ses adversaires."
+                "nom": "Sales gamins",
+                "puissance": "22×10|22×10",
+                "description": "Devient fou avec ses sabres et entaille les ennemis à portée."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Furie",
+                "nom": "Frayeur",
                 "puissance": "N/A",
-                "description": "Agace un ennemi et le fait attaquer ses alliés."
+                "description": "L'ennemi a tellement peur de Fouétar qu'il ne peut plus bouger."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Casse-pieds",
-                "description": "Peut attaquer un allié."
+                "nom": "Talent : Chasse-lame",
+                "description": "La puissance augmente à chaque ennemi battu."
             }
         ],
         "Yo-kai Watch 2": [
@@ -140,21 +152,21 @@
             },
             {
                 "type": "Technique",
-                "nom": "Feu",
-                "puissance": "20|90",
+                "nom": "Gel",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Lame Zerberker",
-                "puissance": "20×10|20×10",
-                "description": "Devient fou avec ses sabres et taille tous ses adversaires."
+                "nom": "Sales gamins",
+                "puissance": "22×10|22×10",
+                "description": "Devient fou avec ses sabres et entaille les ennemis à portée."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Furie",
+                "nom": "Frayeur",
                 "puissance": "N/A",
-                "description": "Agace un ennemi et le fait attaquer ses alliés."
+                "description": "L'ennemi a tellement peur de Fouétar qu'il ne peut plus bouger."
             },
             {
                 "type": "Attaque A",
@@ -164,14 +176,14 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Incendie",
+                "nom": "Attaque à bloc",
                 "puissance": "N/A",
-                "description": "Un sort de feu brûle les ennemis éloignés."
+                "description": "Déclenche une forte attaque à courte portée."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Casse-pieds",
-                "description": "Peut attaquer un allié."
+                "nom": "Talent : Chasse-lame",
+                "description": "La puissance augmente à chaque ennemi battu."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -183,7 +195,7 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Lame Zerberker",
+                "nom": "Sales gamins",
                 "puissance": "40×10",
                 "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
             },
@@ -207,8 +219,8 @@
             },
             {
                 "type": "Talent",
-                "nom": "Talent : C'est tout ?",
-                "description": "Hausse ATT. si attaqué (cumulable), jusqu'à la fin des attaques."
+                "nom": "Talent : Voir rouge",
+                "description": "Hausse ATT. en attaquant (cumulable)."
             }
         ],
         "Yo-kai Watch 3": [
@@ -220,21 +232,21 @@
             },
             {
                 "type": "Technique",
-                "nom": "Feu",
-                "puissance": "30|105",
+                "nom": "Gel",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Lame Zerberker",
+                "nom": "Sales gamins",
                 "puissance": "16×10|24×10",
                 "description": "Devient fou avec ses sabres et entaille les ennemis à portée."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Furie",
+                "nom": "Frayeur",
                 "puissance": "N/A",
-                "description": "Agace un ennemi et le fait parfois attaquer ses alliés."
+                "description": "L'ennemi a peur de Fouétar et agit moins."
             },
             {
                 "type": "Attaque A",
@@ -244,26 +256,26 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Lame Zerberker",
+                "nom": "Sales gamins",
                 "puissance": "40×10",
                 "description": "Enchaîne les coups, inflige des dégâts élevés."
             },
             {
                 "type": "Attaque X",
-                "nom": "Attaque puissante",
-                "puissance": "400",
-                "description": "Attaque l’ennemi avec un déluge de coups."
-            },
-            {
-                "type": "Attaque Y",
                 "nom": "Attaque blitz",
                 "puissance": "25",
                 "description": "Assaut continu. Le coup ultime est plus puissant."
             },
             {
+                "type": "Attaque Y",
+                "nom": "Position invincible",
+                "puissance": "___",
+                "description": "Devient temporairement invulnérable."
+            },
+            {
                 "type": "Talent",
-                "nom": "Talent : Casse-pieds",
-                "description": "Peut attaquer un allié."
+                "nom": "Talent : Chasse-lame",
+                "description": "↑ puissance, à chaque ennemi battu."
             }
         ]
     },
@@ -272,39 +284,30 @@
         "YW1": [
             {
                 "taux": "?%",
-                "objet": "Bracelet obscur"
+                "objet": "VoltXtrême"
             },
             {
                 "taux": "?%",
-                "objet": "Spiritizer Y"
-            }
-        ],
-        "YW2": [
-            {
-                "taux": "?%",
-                "objet": "Bracelet de comète"
-            },
-            {
-                "taux": "?%",
-                "objet": "Spiritizer Y"
+                "objet": "Lait aux fruits"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Langue de bœuf"
+                "objet": "Éclat de pièce 1 étoile"
             },
             {
                 "taux": "?%",
-                "objet": "Éclat de pièce 1 étoile"
+                "objet": "Langue de bœuf"
             }
         ]
     },
     "special_talent": {
-        "nom": "Casse-pieds",
-        "description": "Peut attaquer un allié."
+        "nom": "Chasse-lame",
+        "description": "La puissance augmente à chaque ennemi battu."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/30.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/30.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/30.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/30.wav",
+    "oldID": "31"
 }

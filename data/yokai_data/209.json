@@ -1,78 +1,91 @@
 {
     "ID": "209",
-    "Nom": "Dracounet",
+    "Nom": "Nénunoko",
     "Tribue": "Insaisissable",
-    "Rang": "D",
-    "PV": "321",
-    "Force": "155",
-    "Esprit": "155",
-    "Défense": "85",
-    "Vitesse": "112",
-    "Description": "C'est un bébé dragon capable de voir les forces cachées d'autres Yo-kai grâce à la boule qu'il a sur la tête.",
-    "nourriture": "Cuisine chinoise",
+    "Rang": "A",
+    "PV": "354",
+    "Force": "39",
+    "Esprit": "182",
+    "Défense": "83",
+    "Vitesse": "234",
+    "Description": "La fleur qu'il a sur la tête apporte chance et bonheur aux gens. Il est même idolâtré par certains.",
+    "nourriture": "Hamburger",
     "élément": "Terre",
-    "Rôle": "Combattant",
+    "Rôle": "Guérisseur",
     "Biographie": "",
-    "étimologie": "Dracounet vient de Dragonet une terminaison mignonne que l'on donnerait à un animal.",
+    "étimologie": "Nénunoko est un mot-valise composé de nénuphar et de Noko.",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
+    "pouvoir": "Nénunoko à le pouvoir d'apporter chance et bonheur aux gens.",
     "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/209.png",
-    "numero": "198",
-    "nourriture_favorite": "Plats chinois",
+    "numero": "190",
+    "nourriture_favorite": "Hamburger",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Dévouement",
-            "effet": "Reçoit plus de points d'expérience."
+            "nom": "Gros lot",
+            "effet": "Reçoit plus d'argent à la fin d'un combat."
         },
         {
             "type": "Attaque",
-            "nom": "Coup de boule",
-            "effet": "15 | 67"
+            "nom": "Vilaine morsure",
+            "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Éboulement",
-            "effet": "50 | 110"
+            "nom": "Météore",
+            "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Cristal sismique",
-            "effet": "Fait trembler le sol sous les pieds de l'ennemi grâce à un cristal sacré. 100 | 100"
+            "nom": "Sourire fétiche",
+            "effet": "Restaure les PV de ses alliés avec un sourire porte-bonheur. 150 | 150"
         },
         {
             "type": "Attaque",
-            "nom": "Énergie dragon",
-            "effet": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
+            "nom": "Bonne fortune",
+            "effet": "La chance de Nénunoko augmente un peu les stats d'un allié."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Crop bon !",
+        "A mangé quelque chose de bon": "*soupire* Génial !",
         "A mangé quelque chose de fade": "Merci, je suppose.",
-        "A mangé quelque chose de mauvais": "C'est pas bon !",
-        "A la flemme": "Enfin une sieste !",
-        "Est échangé": "Me voilà fraîchement arrivé de chez",
-        "Se lie d'amitié": "Toi ! Je t'aime bien ! Devenons amis !"
+        "A mangé quelque chose de mauvais": "Ouf... Ça suffit !",
+        "A la flemme": "Besoin de repos !",
+        "Est échangé": "Oh, tu as de la chance de m'avoir reçu. Et ce n'est que le début !",
+        "Se lie d'amitié": "Je veux être ton ami ! Je peux t'apporter la fortune dont tu rêves !"
     },
     "evolutions": [],
     "fusions": [
         {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Dracounet",
-            "parent2": "Orbe de dragon",
-            "resultat": "Sire Dragon",
-            "critere": "➨"
+            "type": "Évolution",
+            "contexte": "Yo-kai Watch 2",
+            "de": "Noko",
+            "vers": "Nénunoko",
+            "critere": "Niveau 25"
+        },
+        {
+            "type": "Évolution",
+            "contexte": "Yo-kai Watch Blasters",
+            "de": "Noko",
+            "vers": "Nénunoko",
+            "critere": "Niveau 31"
+        },
+        {
+            "type": "Évolution",
+            "contexte": "Yo-kai Watch 3",
+            "de": "Noko",
+            "vers": "Nénunoko",
+            "critere": "Niveau 28"
         }
     ],
     "image_locale": "",
-    "nom_original": "りゅーくん",
-    "nom_anglais": "Draggie",
+    "nom_original": "フクリュウ",
+    "nom_anglais": "Bloominoko",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -80,94 +93,82 @@
     },
     "localisations": {
         "ykw1": [
-            "Au cours de l'histoire.",
-            "Dracounet peut aussi être trouvé aux 3e et 4e cercles desLimbes éternelles."
+            "Fusion",
+            "Limbes éternelles - 7ème cercle"
         ],
         "ykw2": [
-            "Vous pourrez le trouver à l'est du Tunnel abandonné. Pour y accéder, il faudra vous lier d'amitié avecDraconfus."
+            "Évolution"
         ],
         "ykw-Blasters": [
-            "Patrouille :La Corniche"
+            "Évolution"
         ],
         "ykw3": [
-            "La Corniche - Matériaux de Construction & Fleurs",
-            "Mode Blasters T- Pièce suspecte"
-        ],
-        "Yo-kai Watch : Wibble Wobble :[]": [
-            "Mont Sylvestre - Stage 23",
-            "Limbes éternelles - 2èmeCercle - Stage 10-23",
-            "Paradis divin - 3èmeÉtage - Stage 20-13",
-            "Paradis divin - 4èmeÉtage - Stage 21-24",
-            "Paradis divin - 5èmeÉtage - Stage 22-44",
-            "Épreuve de Gargaros - Stage 13, 26, 32",
-            "Épreuve d'Ogralos - Stage 13",
-            "Épreuve d'Orqanos - Stage 13, 26, 32",
-            "Événement des Spectres Psychiques - Stage 29"
+            "Évolution"
         ]
     },
-    "rarite": "Commun",
+    "rarite": "Rare",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Coup de boule",
-                "puissance": "15|67",
+                "nom": "Vilaine morsure",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
+                "nom": "Météore",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Cristal sismique",
-                "puissance": "90|90",
-                "description": "Fait trembler le sol sous les pieds de l'ennemi grâce à un cristal sacré."
+                "nom": "Sourire fétiche",
+                "puissance": "150|150",
+                "description": "Restaure les PV de ses alliés avec un sourire porte-bonheur."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Énergie dragon",
+                "nom": "Bonne fortune",
                 "puissance": "N/A",
-                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
+                "description": "La chance de Nénunoko augmente un peu les stats d'un allié."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Dévouement",
-                "description": "Reçoit plus de points d'expérience."
+                "nom": "Talent : Gros lot",
+                "description": "Reçoit plus d'argent à la fin d'un combat."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Coup de boule",
-                "puissance": "15|67",
+                "nom": "Vilaine morsure",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
+                "nom": "Météore",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Cristal sismique",
-                "puissance": "100|100",
-                "description": "Fait trembler le sol sous les pieds de l'ennemi grâce au cristal sacré."
+                "nom": "Sourire fétiche",
+                "puissance": "150|150",
+                "description": "Restaure les PV de ses alliés avec un sourire porte-bonheur."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Énergie dragon",
+                "nom": "Bonne fortune",
                 "puissance": "N/A",
-                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
+                "description": "La chance de Nénunoko augmente un peu les stats d'un allié."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Dévouement",
-                "description": "Reçoit plus de points d'expérience."
+                "nom": "Talent : Gros lot",
+                "description": "Reçoit plus d'argent à la fin d'un combat."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -179,79 +180,74 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Cristal sismique",
-                "puissance": "80×5",
-                "description": "Des rochers infligent de gros dégâts aux ennemis."
+                "nom": "Sourire fétiche",
+                "puissance": "400",
+                "description": "Alliés retrouvent beaucoup de PV."
             },
             {
                 "type": "Technique 1",
-                "nom": "Galet",
-                "puissance": "40",
-                "description": "Utilise un sort de terre. Charger renforce l'effet."
+                "nom": "Paradis",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Âmunisé",
+                "nom": "Envoût. multi-boost",
                 "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
+                "description": "Hausse des stats alliées. Charger élargit l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Trembler",
-                "puissance": "50",
-                "description": "Un sort de terre puissant. Charger renforce l'effet."
+                "nom": "Boost de défense +",
+                "puissance": "___",
+                "description": "Forte hausse DÉF. alliés. Charger élargit l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Dragon tenace",
-                "description": "Hausse de l'attaque en cas de danger."
+                "nom": "Talent : Combat ou fuite",
+                "description": "Hausse de la VIT. en cas de danger."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Coup de boule",
-                "puissance": "30|105",
+                "nom": "Vilaine morsure",
+                "puissance": "70|112",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
+                "nom": "Météore",
+                "puissance": "70|112",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Cristal sismique",
-                "puissance": "100|300",
-                "description": "Fait trembler le sol sous les ennemis à portée, grâce à un cristal sacré."
+                "nom": "Sourire fétiche",
+                "puissance": "120|180",
+                "description": "Restaure les PV de ses alliés avec un sourire porte-bonheur."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Énergie dragon",
+                "nom": "Bonne fortune",
                 "puissance": "N/A",
-                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
+                "description": "La chance de Nénunoko augmente un peu les stats d'un allié."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Dévouement",
-                "description": "Reçoit plus de points d'expérience."
+                "nom": "Talent : Gros lot",
+                "description": "Reçoit plus d'argent à la fin d'un combat."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Dévouement",
-        "description": "Reçoit plus de points d'expérience."
+        "nom": "Gros lot",
+        "description": "Reçoit plus d'argent à la fin d'un combat."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/209.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/209.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/209.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/209.wav",
+    "oldID": "208"
 }

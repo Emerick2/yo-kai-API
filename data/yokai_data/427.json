@@ -1,21 +1,21 @@
 {
     "ID": "427",
-    "Nom": "Kintaronyan",
-    "Tribue": "Costaud",
-    "Rang": "A",
-    "PV": "458",
-    "Force": "222",
-    "Esprit": "44",
-    "Défense": "186",
-    "Vitesse": "130",
-    "Description": "Un Yo-kai aventurier qui aime bien se battre avec des ours. Il préfère les habits qui le laisse libre de ses mouvements.",
-    "description SITE": "Un Yo-kai aventurier qui aime bien se battre avec des ours. Il préfère les habits qui le laissent libre de ses mouvements.",
-    "nourriture": "Viande",
-    "élément": "Terre",
-    "Rôle": "Combattant",
+    "Nom": "Alga Sensei",
+    "Tribue": "Bienveillant",
+    "Rang": "C",
+    "PV": "144",
+    "Force": "106",
+    "Esprit": "154",
+    "Défense": "33",
+    "Vitesse": "159",
+    "Description": "Alga Sensei a enseigné la danse à Noripop et compagnie, et il est lui-même toujours un danseur de talent.",
+    "description SITE": "Alga Sensei a enseigné la danse àNoripopet compagnie, et il est lui-même toujours un danseur de talent.",
+    "nourriture": "Soba",
+    "élément": "Absorption",
+    "Rôle": "Guérisseur",
     "Biographie": "",
     "étimologie": "",
-    "origine": "Kintaronyanest inspiré du personnage de conteKintar?.",
+    "origine": "",
     "histoire": "",
     "pouvoir": "",
     "personnalité": "",
@@ -23,63 +23,62 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/427.png",
-    "numero": "448",
-    "nourriture_favorite": "Viande",
+    "numero": "452",
+    "nourriture_favorite": "Soba",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Pleine conversation",
-            "effet": "N'attaque pas pendant 15 s. Prochain coup sera critique."
+            "nom": "Persévère",
+            "effet": "Garde 1 PV quand plus de PV. (trois fois)"
         },
         {
             "type": "Attaque",
-            "nom": "Coup puissant",
-            "effet": "Attaque avec un super esprit du combattant. 100"
+            "nom": "Gifle",
+            "effet": "10 | 45"
         },
         {
             "type": "Attaque",
-            "nom": "Coup de hache",
-            "effet": "Inflige de gros dégâts à courte portée. 400"
+            "nom": "Vortex",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Riz",
-            "effet": "Restaure tes PV. 70"
+            "nom": "Brasse de l'air",
+            "effet": "Absorbe l'énergie et les PV des ennemis à portée, et les partage avec les alliés. 100 | 200"
         },
         {
             "type": "Attaque",
-            "nom": "Triple attaque",
-            "effet": "Jusqu'à 3 attaques conséc. Dernière attaque plus forte. 30"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Attaque puissante",
-            "effet": "Rassemble ta force en une seule attaque. 400"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Onde de choc",
-            "effet": "Saute et crée une onde de choc en retombant. 120"
+            "nom": "Bouclier d'algue",
+            "effet": "Le pouvoir gluant des algues augmente la DÉF. d'un allié."
         }
     ],
-    "phrases_nourriture": {},
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "Hohoho !",
+        "A mangé quelque chose de fade": "Merci !",
+        "A mangé quelque chose de mauvais": "C'est déplaisant !",
+        "A la flemme": "Trop de danse...",
+        "Se lie d'amitié": "Hoho ! Bien, très bien. Maintenant, je vais t'apprendre la javalgue !",
+        "Est échangé": "Tu veux maîtriser la javalgue ? Regarde-moi bien !"
+    },
     "evolutions": [],
     "fusions": [],
     "image_locale": "",
-    "nom_original": "キンタロニャン",
-    "nom_anglais": "Kintaronyan",
+    "nom_original": "モズク先生",
+    "nom_anglais": "Seaweed Sensei",
     "premiere_apparition": "Yo-kai Watch Blasters",
     "voix": {
-        "japonaise": "Inconnue",
+        "japonaise": "Masahito Yabe",
         "francaise": "Inconnue"
     },
     "localisations": {
         "ykw-Blasters": [
-            "Brigade du lapin lunaireScannez le QR code pour obtenir leBonbon de Kintaronyan, qui rendra possible de se lier d'amitié avec Kintaronyan dans la mission suivante :",
-            "Mission - Le chasseur Momotaro 2"
+            "Brigade du lapin lunaire",
+            "Mission - Nathan le Yo-kai - 1er prix",
+            "Bingo-kai-Pièce pleine lune- 3e prix"
         ],
         "ykw3": [
-            "Train - Ligne ours"
+            "Radeau- Parcours grotte du grincheux - Caverne secrète",
+            "Verrou Permu ③- récompense de mumulette"
         ]
     },
     "rarite": "Rare",
@@ -88,120 +87,80 @@
         "Yo-kai Watch Blasters": [
             {
                 "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
             },
             {
                 "type": "Âmultime",
-                "nom": "Coup de hache",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
+                "nom": "Brasse de l'air",
+                "puissance": "200×2",
+                "description": "Absorption des PV de l'ennemi."
             },
             {
                 "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
+                "nom": "Contre",
+                "puissance": "___",
+                "description": "Repousse les attaques et contre-attaque."
             },
             {
                 "type": "Technique 2",
-                "nom": "Riz",
-                "puissance": "70",
-                "description": "Restaure tes PV."
+                "nom": "Cercle guérisseur",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger élargit l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Attaque puissante",
-                "puissance": "400",
-                "description": "Rassemble ta force en une seule attaque."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Onde de choc",
-                "puissance": "120",
-                "description": "Saute et crée une onde de choc en retombant."
+                "nom": "Paradis",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Pleine concentration",
-                "description": "N'attaque pas pendant 15s. Prochain coup sera critique."
+                "nom": "Talent : Persévère",
+                "description": "Si PV à 0, réanimation avec 1 PV possible 3 fois max."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Cogneur",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Galet",
+                "nom": "Gifle",
                 "puissance": "30|105",
                 "description": ""
             },
             {
+                "type": "Technique",
+                "nom": "Vortex",
+                "puissance": "40|88",
+                "description": ""
+            },
+            {
                 "type": "Amultime",
-                "nom": "Coup de hache",
-                "puissance": "190|285",
-                "description": "Fait violemment tourner sa hache et se rue sur la colonne devant lui."
+                "nom": "Brasse de l'air",
+                "puissance": "100|200",
+                "description": "Absorbe l'énergie et les PV des ennemis à portée, et les partage avec les alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Vigueur",
+                "nom": "Bouclier d'algue",
                 "puissance": "N/A",
-                "description": "Fait ressortir le félin qui sommeille en un Yo-kai et augmente sa FOR."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Attaque trois fois. Le coup ultime est plus puissant."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Coup de hache",
-                "puissance": "400",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque puissante",
-                "puissance": "400",
-                "description": "Attaque l’ennemi avec un déluge de coups."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Onde de choc",
-                "puissance": "120",
-                "description": "Saute en hauteur et frappe le sol d’une onde de choc."
+                "description": "Le pouvoir gluant des algues augmente la DÉF. d'un allié."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Instant critique",
-                "description": "Booste les dégâts critiques."
+                "nom": "Talent : Persévère",
+                "description": "Garde 1 PV quand plus de PV. (trois fois)"
             }
         ]
     },
     "soul_effects": null,
-    "drops": {
-        "YW3": [
-            {
-                "taux": "?%",
-                "objet": "Grand EXPorbe"
-            },
-            {
-                "taux": "?%",
-                "objet": "Morceau de lard"
-            }
-        ]
-    },
+    "drops": {},
     "special_talent": {
-        "nom": "Pleine concentration",
-        "description": "N'attaque pas pendant 15s. Prochain coup sera critique."
+        "nom": "Persévère",
+        "description": "Si PV à 0, réanimation avec 1 PV possible 3 fois max."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/427.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/427.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/427.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/427.wav",
+    "oldID": "432"
 }

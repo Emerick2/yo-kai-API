@@ -1,94 +1,91 @@
 {
     "ID": "328",
-    "Nom": "Ornella",
-    "Tribue": "Sinistre",
-    "Rang": "C",
-    "PV": "372",
-    "Force": "64",
-    "Esprit": "186",
-    "Défense": "83",
-    "Vitesse": "172",
-    "Description": "Ce Yo-kai est passé maître dans l'art d'effrayer les enfants à l'école. C'est son seul but dans la vie.",
-    "nourriture": "Encas",
-    "élément": "Absorption",
-    "Rôle": "Combattant",
+    "Nom": "Yvantouse",
+    "Tribue": "Insaisissable",
+    "Rang": "D",
+    "PV": "402",
+    "Force": "41",
+    "Esprit": "210",
+    "Défense": "173",
+    "Vitesse": "60",
+    "Description": "Sa ventouse lui permet de débloquer les souvenirs et de faire la lumière dans les esprits.",
+    "nourriture": "Soba",
+    "élément": "Restauration",
+    "Rôle": "Guérisseur",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
+    "pouvoir": "Yvantouse a le pouvoir de raviver certains souvenirs de ceux qu'il envoûte.",
     "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/328.png",
-    "numero": "272",
-    "nourriture_favorite": "Encas",
+    "numero": "296",
+    "nourriture_favorite": "Soba",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Réassort",
-            "effet": "Les envoûtements négatifs sur alliés sont intensifiés."
+            "nom": "Para-vent",
+            "effet": "Bloque les dégâts des attaques de vent."
         },
         {
             "type": "Attaque",
-            "nom": "Gifle",
-            "effet": "10 | 45"
+            "nom": "Plaquage absolu",
+            "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Vortex",
-            "effet": "50 | 110"
+            "nom": "Guérison",
+            "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Sort d'ici",
-            "effet": "Un sort puissant réduit graduellement les PV de l'ennemi."
+            "nom": "Débouche trouble",
+            "effet": "Purifie tous les alliés en aspirant les mauvais esprits qui les hantent."
         },
         {
             "type": "Attaque",
-            "nom": "Vieille école",
-            "effet": "Le Yo-kai est maudit par une écoliere, ce qui baisse son ESP."
+            "nom": "Euphorie",
+            "effet": "Le Yo-kai se rappelle un bon souvenir, ce qui augmente sa VIT."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Hé hé !",
-        "A mangé quelque chose de fade": "Pas mal du tout !",
-        "A mangé quelque chose de mauvais": "C'est perturbant...",
-        "A la flemme": "Hé hé...",
-        "Est échangé": "Tu connais bien",
-        "Se lie d'amitié": "Tu m'as appelée ? Non ? OK... Je peux quand même venir avec toi ?"
+        "A mangé quelque chose de bon": "Quelle nostalgie...",
+        "A mangé quelque chose de fade": "Rien de spécial.",
+        "A mangé quelque chose de mauvais": "Je te le rends...",
+        "A la flemme": "On arrête ?",
+        "Est échangé": "Oh ! Je me souviens de toi ! Mais oui ! On vient juste de se rencontrer !",
+        "Se lie d'amitié": "Je me souviens, maintenant ! Je voulais être ton ami !"
     },
     "evolutions": [],
     "fusions": [
         {
             "type": "Fusion",
             "contexte": "Général",
-            "parent1": "Ornella",
-            "parent2": "Revue maudite",
-            "resultat": "Sornella",
+            "parent1": "Yvantouse",
+            "parent2": "Amnéspirateur",
+            "resultat": "Ed Mémoire",
             "critere": "➨"
         }
     ],
     "image_locale": "",
-    "nom_original": "花子さん",
-    "nom_anglais": "Toiletta",
+    "nom_original": "おもいだスッポン",
+    "nom_anglais": "Flushback",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
-        "japonaise": "Ryoko Nagata",
-        "francaise": "Nathalie Bienaimé"
+        "japonaise": "Inconnue",
+        "francaise": "Yann Pichon"
     },
     "localisations": {
         "ykw2": [
-            "École élémentaire- toilettes du 2e étage (ouvrir la porte du fond et s'approcher des toilettes)",
-            "Bingo-kai-Pièce mauve(Passé)"
-        ],
-        "ykw-Blasters": [
-            "Patrouille -Hauts de Granval",
-            "Patrouille -Quartier des boutiques"
+            "San Fantastico-Grotte du littoral",
+            "San Fantastico- L'Atelier dérobé",
+            "Bingo-kai-Pièce bleu ciel"
         ],
         "ykw3": [
-            "École élémentaire - toilettes du 2e étage (ouvrir la porte du fond et s'approcher des toilettes) -Ariane"
+            "Mont Sylvestre- étang"
         ]
     },
     "rarite": "Commun",
@@ -97,32 +94,32 @@
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
+                "nom": "Plaquage absolu",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "50|110",
+                "nom": "Guérison",
+                "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Sort d'ici",
+                "nom": "Débouche trouble",
                 "puissance": "___",
-                "description": "Un sort puissant réduit graduellement les PV de l'ennemi."
+                "description": "Purifie tous les alliés en aspirant les mauvais esprits qui les hantent."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Vieille école",
+                "nom": "Euphorie",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est maudit par une écolière, ce qui baisse son ESP."
+                "description": "Le Yo-kai se rappelle un bon souvenir, ce qui augmente sa VIT."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Réassort",
-                "description": "Les envoûtements négatifs des alliés sont intensifiés."
+                "nom": "Talent : Para-vent",
+                "description": "Bloque les dégâts des techniques de vent."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -134,79 +131,80 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Sort d'ici",
-                "puissance": "___",
-                "description": "PV des ennemis baissent rapidement."
+                "nom": "Débouche trouble",
+                "puissance": "400",
+                "description": "Alliés retrouvent beaucoup de PV. Envoûtements annulés."
             },
             {
                 "type": "Technique 1",
-                "nom": "Vortex",
-                "puissance": "30",
-                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
                 "nom": "Coup puissant",
                 "puissance": "100",
                 "description": "Attaque avec un super esprit du combattant."
             },
             {
+                "type": "Technique 2",
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
+            },
+            {
                 "type": "Technique à acquérir 1",
-                "nom": "Position défensive",
+                "nom": "Boost de vitesse",
                 "puissance": "___",
-                "description": "Hausse de la défense temporaire."
+                "description": "Hausse VIT. des alliés. Charger élargit l'effet."
             },
             {
                 "type": "Technique à acquérir 2",
-                "nom": "Siphon",
-                "puissance": "40",
-                "description": "Absorbe beaucoup de PV. Charger renforce l'effet."
+                "nom": "Purification !",
+                "puissance": "50",
+                "description": "Annule Envoûtement et guérit. Charger élargit l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Emprise",
-                "description": "Augmente le nombre de PV absorbés."
+                "nom": "Talent : Super ventouse",
+                "description": "Chargement rapide de la jauge d'âme."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
+                "nom": "Plaquage absolu",
+                "puissance": "20|70",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "40|88",
+                "nom": "Restauration",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Sort d'ici",
-                "puissance": "70|70",
-                "description": "Maudit la colonne devant elle, baissant peu à peu leurs PV."
+                "nom": "Débouche trouble",
+                "puissance": "___",
+                "description": "Se sert de sa carapace pour chasser les mauvais esprits et purifier ses alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Vieille école",
+                "nom": "Euphorie",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est maudit par une écolière, ce qui baisse son ESP."
+                "description": "Le Yo-kai se rappelle un bon souvenir, ce qui augmente sa VIT."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Réassort",
-                "description": "Intensifie les malédictions sur les ennemis."
+                "nom": "Talent : Para-vent",
+                "description": "Bloque les dégâts des techniques de vent."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Réassort",
-        "description": "Les envoûtements négatifs des alliés sont intensifiés."
+        "nom": "Para-vent",
+        "description": "Bloque les dégâts des techniques de vent."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/328.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/328.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/328.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/328.wav",
+    "oldID": "342"
 }

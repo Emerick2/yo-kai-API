@@ -1,87 +1,90 @@
 {
     "ID": "252",
-    "Nom": "Humainequin",
-    "Tribue": "Costaud",
-    "Rang": "D",
-    "PV": "450",
-    "Force": "90",
-    "Esprit": "90",
-    "Défense": "220",
-    "Vitesse": "80",
-    "Description": "Ce mannequin est un mime si doué que ses victimes finissent par imiter tous ceux qui les entourent.",
+    "Nom": "Mémogre",
+    "Tribue": "Mystérieux",
+    "Rang": "B",
+    "PV": "203",
+    "Force": "63",
+    "Esprit": "181",
+    "Défense": "80",
+    "Vitesse": "234",
+    "Description": "Un Chaipô aussi gros qu'une maison, qui peut avaler toute la mémoire de quelqu'un en une seule bouchée.",
+    "description SITE": "UnChaipôaussi gros qu'une maison, qui peut avaler toute la mémoire de quelqu'un en une seule bouchée.",
     "nourriture": "Bonbons",
-    "élément": "Glace",
-    "Rôle": "Tank",
+    "élément": "Vent",
+    "Rôle": "Ranger",
     "Biographie": "",
-    "étimologie": "Humaine qui vient de Humain et de Mannequin.",
+    "étimologie": "Mémogre est un mot-valise entre Mémoire et Ogre.",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Les personnes qu'il envoûte se mettent à imiter très mal d'autres gens, rendant le tout assez gênant. Cela peut parfois même ruiner la réputation des personnes envoûtées. Il semble également pouvoir permettre aux gens de voir les Yo-kai, faisant imiter Whisper à Katie dans l'anime. Quand il désenvoûte les gens, ils n'ont plus aucun souvenir de ce qu'ils étaient en train de faire.",
-    "personnalité": "Humainequin peut sembler très agaçant, mais il est en fait assez gentil et aime qu'on le félicite.",
+    "pouvoir": "Il a le pouvoir de \"manger\" la mémoire entière de n'importe qui.",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/252.png",
-    "numero": "099",
-    "nourriture_favorite": "Glace",
+    "numero": "048",
+    "nourriture_favorite": "Sucrerie",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Tout pareil",
-            "effet": "Le Yo-kai imite un allié qui se trouve devant."
+            "nom": "Sans garde",
+            "effet": "Aucun Yo-kai ne se mettra en garde."
         },
         {
             "type": "Attaque",
-            "nom": "Coup de poing",
-            "effet": "15 | 67"
+            "nom": "Mâchouille",
+            "effet": "45 | 99"
         },
         {
             "type": "Attaque",
-            "nom": "Gel",
+            "nom": "Tornade",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Mimartyr",
-            "effet": "Augmente sa DÉF. en imitant une divinité, attirant les attaques ennemies."
+            "nom": "Miamnésie",
+            "effet": "Aspire les ennemis dans sa grande bouche et les déstabilise."
         },
         {
             "type": "Attaque",
-            "nom": "Mimétisme",
-            "effet": "Le Yo-kai imite ses ennemis et attaque ses alliés."
+            "nom": "Méli-mémo",
+            "effet": "Rend un ennemi assez étourdi pour attaquer ses alliés !"
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Miam...",
-        "A mangé quelque chose de fade": "Euh, ça peut aller.",
-        "A mangé quelque chose de mauvais": "C'est horrible...",
-        "A la flemme": "Fatigué d'imiter.",
-        "Est échangé": "Je ressemblais énormément à",
-        "Se lie d'amitié": "Tu envoies du lourd ! On devrait vraiment être amis !"
+        "A mangé quelque chose de bon": "Mémogre aime !",
+        "A mangé quelque chose de fade": "C'était quoi, ça ?",
+        "A mangé quelque chose de mauvais": "Argh ! ERREUR !",
+        "A la flemme": "Mémogre faisait quoi ?",
+        "Est échangé": "Où était Mémogre ? Où est Mémogre ? Tu aides Mémogre ?",
+        "Se lie d'amitié": "Tu es qui, déjà ? Ah, peu importe, j'aimerais qu'on soit amis !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Évolution",
+            "contexte": "Yo-kai Watch 2",
+            "de": "Chaipô",
+            "vers": "Mémogre",
+            "critere": "Niveau 20"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "モノマネキン",
-    "nom_anglais": "Mimikin",
-    "premiere_apparition": "Yo-kai Watch 2",
+    "nom_original": "メゾン・ドワスレ",
+    "nom_anglais": "Houzzat",
+    "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Grégory Laisné"
+        "francaise": "Inconnue"
     },
     "localisations": {
         "ykw2": [
-            "École élémentaire de Granval(nuit)",
-            "Tunnel sans fin",
-            "Bingo-kai-Pièce orange(Présent)"
-        ],
-        "ykw-Blasters": [
-            "Patrouille -La Corniche",
-            "Bingo-kai - Pièce orange - 3e prix"
+            "Évolution",
+            "Bingo-kai-Pièce jaune(présent)"
         ],
         "ykw3": [
-            "La Corniche- sous les voitures",
-            "Bingo-kai - Pièce orange - 3e prix (Granval)"
+            "Évolution"
         ]
     },
     "rarite": "Commun",
@@ -90,27 +93,27 @@
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Coup de poing",
-                "puissance": "15|67",
+                "nom": "Mâchouille",
+                "puissance": "45|99",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Gel",
+                "nom": "Tornade",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Mimartyr",
+                "nom": "Miamnésie",
                 "puissance": "",
-                "description": "Augmente sa DÉF. en imitant une divinité, attirant les attaques ennemies."
+                "description": "Aspire les ennemis dans sa grande bouche et les déstabilise.(Le Yo-kai ennemi attaque ses alliés)"
             },
             {
                 "type": "Envoûtement",
-                "nom": "Mimétisme",
+                "nom": "Méli-mémo",
                 "puissance": "N/A",
-                "description": "Le Yo-kai imite ses ennemis et attaque ses alliés."
+                "description": "Rend un ennemi assez étourdi pour attaquer ses alliés !"
             },
             {
                 "type": "Attaque A",
@@ -120,14 +123,14 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Gel",
+                "nom": "Tornade",
                 "puissance": "N/A",
-                "description": "Un sort de glace gèle les ennemis éloignés."
+                "description": "Un sort de vent balaie les ennemis éloignés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Tout pareil",
-                "description": "Le Yo-kai imite un allié qui se trouve devant."
+                "nom": "Talent : Sans garde",
+                "description": "Aucun Yo-kai ne se mettra en garde."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -139,64 +142,58 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Mimartyr",
+                "nom": "Miamnésie",
                 "puissance": "___",
-                "description": "Forte augm. vitesse, attire l'attention de l'ennemi."
+                "description": "Forte baisse temporaire de l'attaque ennemie."
             },
             {
                 "type": "Technique 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
+                "nom": "Tourbillon",
+                "puissance": "40",
+                "description": "Utilise un sort de vent. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Champ de force",
+                "nom": "Position offensive",
                 "puissance": "___",
-                "description": "Hausse temporaire de la protection des alliés."
+                "description": "Hausse de l'attaque temporaire."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
+                "nom": "Tornade",
+                "puissance": "50",
+                "description": "Un sort de vent puissant. Charger renforce l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Tout pareil",
-                "description": "Copier les compétences d'un allié."
+                "nom": "Talent : Mal au pouce",
+                "description": "Attire l'attention des ennemis."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Coup de poing",
-                "puissance": "30|105",
+                "nom": "Mâchouille",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Gel",
+                "nom": "Tornade",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Mimartyr",
+                "nom": "Miamnésie",
                 "puissance": "",
-                "description": "Prend l'air supérieur d'un gardien sans faille. Sa DÉF. augmente."
+                "description": "Ses ennemis sont attirés dans sa bouche... Ils en ressortent bouche-bée.(Le Yo-kai ennemi attaque ses alliés)"
             },
             {
                 "type": "Envoûtement",
-                "nom": "Mimétisme",
+                "nom": "Méli-mémo",
                 "puissance": "N/A",
-                "description": "L'ennem imite ses adversaires et attaque parfois ses alliés."
+                "description": "L'ennemi ne se souvient plus qui sont ses alliés, et les attaque !"
             },
             {
                 "type": "Attaque A",
@@ -206,26 +203,26 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Mimartyr",
+                "nom": "Miamnésie",
                 "puissance": "___",
-                "description": "Booste +++ la DÉF. Attire l'attention de l'ennemi."
+                "description": "Réduction ++ temporaire de l'attaque de l'ennemi."
             },
             {
                 "type": "Attaque X",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi, attirant ainsi son attention."
+                "nom": "Tornade",
+                "puissance": "50",
+                "description": "Technique de vent++. Plus de dégâts si chargée."
             },
             {
                 "type": "Attaque Y",
-                "nom": "Champ de force",
+                "nom": "Position offensive",
                 "puissance": "___",
-                "description": "Booste +++ la DÉF. alliée à proximité lors d’un instant."
+                "description": "Booste temporairement l’attaque."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Tout pareil",
-                "description": "Le Yo-kai imite un allié qui se trouve devant."
+                "nom": "Talent : Sans garde",
+                "description": "Aucun Yo-kai ne se mettra en garde."
             }
         ]
     },
@@ -234,29 +231,30 @@
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "Amulette runique"
-            },
-            {
-                "taux": "?%",
-                "objet": "La défense de A à Z"
-            }
-        ],
-        "YW3": [
-            {
-                "taux": "?%",
-                "objet": "Bonbon poisseux"
+                "objet": "Grand EXPorbe"
             },
             {
                 "taux": "?%",
                 "objet": "Poupée de bronze"
             }
+        ],
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "Techniques tip-top"
+            },
+            {
+                "taux": "?%",
+                "objet": "Bonbons aux fruits"
+            }
         ]
     },
     "special_talent": {
-        "nom": "Tout pareil",
-        "description": "Le Yo-kai imite un allié qui se trouve devant."
+        "nom": "Sans garde",
+        "description": "Aucun Yo-kai ne se mettra en garde."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/252.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/252.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/252.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/252.wav",
+    "oldID": "254"
 }

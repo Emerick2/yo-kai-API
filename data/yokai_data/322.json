@@ -1,63 +1,211 @@
 {
     "ID": "322",
-    "Nom": "Potofeu",
-    "Tribue": "Sombre",
+    "Nom": "Arachnus",
+    "Tribue": "Sinistre",
     "Rang": "S",
-    "PV": "462",
-    "Force": "145",
-    "Esprit": "145",
-    "Défense": "282",
-    "Vitesse": "143",
-    "Description": "Ce Yo-kai est né des esprits de guerriers tombés au combat. Son couvercle tremble sous tant de force.",
-    "description SITE": "De nombreux Yo-kai se sont battus et sacrifiés pour garder cette horrible bête scellée dans un gros chaudron dans les ténèbres. Certains n'osent pas prononcer son nom à voix haute.",
+    "PV": "452",
+    "Force": "56",
+    "Esprit": "259",
+    "Défense": "130",
+    "Vitesse": "183",
+    "Description": "Ce Yo-kai du Japon d'antan déstabilise parfois sa proie en lui révélant sa vraie forme d'araignée.",
     "nourriture": "Soba",
     "élément": "Terre",
-    "Rôle": "Tank",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Potofeu vient du célèbre plat Français le pot-au-feu.",
+    "étimologie": "Arachnus vient d'Arachnide une classe d'arthropodes chélicérés, terrestres ou aquatiques, souvent insectivores. C'est le groupe qui comprend, entre autres, les araignées, les scorpions et les acariens.",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
+    "pouvoir": "Il maîtrise les pouvoirs terrestres à la perfection et peut faire pleuvoir une pluie de météore sans problème. Il peut également devenir une véritable araignée.",
+    "personnalité": "Arachnus est très sérieux et terre-à-terre mais il est quand même prêt à faire la guerre contre quiconque préfère les beignets bouffis.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/322.png",
-    "numero": "242",
-    "nourriture_favorite": "Inconnue",
-    "attaques": [],
-    "phrases_nourriture": {},
+    "numero": "282",
+    "nourriture_favorite": "Soba",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Trarachnard",
+            "effet": "Attaque renforcée après avoir battu des ennemis."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Poing un-deux",
+            "effet": "15x2 | 33x2"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Météore",
+            "effet": "80 | 120"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Arachaille",
+            "effet": "La force arachnéenne inflige des dégâts de terre sur un ennemi. 300 | 300"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Dans la toile",
+            "effet": "Le Yo-kai est pris dans une toile et sa VIT. baisse énormément."
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "Fantastique !",
+        "A mangé quelque chose de fade": "Ça peut aller.",
+        "A mangé quelque chose de mauvais": "Je n'en veux pas...",
+        "A la flemme": "Une pause.",
+        "Est échangé": "Tu as besoin d'aide ? Je vais te donner un coup de main. Ou huit.",
+        "Se lie d'amitié": "Splendide. On devrait être amis."
+    },
     "evolutions": [],
     "fusions": [],
     "image_locale": "",
-    "nom_original": "どんどろ",
-    "nom_anglais": "Wobblewok",
-    "premiere_apparition": "Yo-kai Watch (jeu)",
+    "nom_original": "土蜘蛛",
+    "nom_anglais": "Arachnus",
+    "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw1": [
-            "Il peut être combattu en tant que boss dans le dernier cercle desLimbes éternelles. C'est le boss le plus fort et compliqué du jeu avantOrqanos. Il faut au moins une équipe de niveau 70 pour pouvoir vaincre Potofeu. Après l'avoir vaincu, le joueur se réveillera dans son lit et les Limbes éternelles seront réinitialisées, c'est à dire que tous les raccourcis seront défait et que tous les boss réapparaîtront. Il est impossible de se lier d'amitié avec lui dans ce jeu."
-        ],
         "ykw2": [
-            "Potofeu est toujours le Boss du 8e cercle des Limbes. Le joueur peut devenir ami avec Potofeu. Pour cela, il faudra réussir la quête \"Vision du cauchemar\", il vous faudra combattre Potofeu jusqu'à obtenir uneGlu spectrale, puis vous devrez vous rendre auprès du miroir protecteur desPlaines Plinpot. Là, un mini Potofeu sera créé et deviendra automatiquement votre ami."
+            "Exclusif à Esprits FarceursQuête - Le général des farceurs"
+        ],
+        "ykw-Blasters": [
+            "Histoire - Vise le général des farceurs ! (Rare)",
+            "Bingo-kai- Pièce Arachnus"
         ],
         "ykw3": [
-            "Les Limbes éternelles n'étant pas accessibles dans ce jeu, vous ne pourrez pas combattre Potofeu dans sa forme Boss, mais vous pourrez obtenir sa forme amicale au Bingo-kai."
+            "Quête - Humeurs changeantes",
+            "Bingo-kai -Pièce légendaire"
+        ],
+        "Yo-kai Watch 4 :[]": [
+            "Bingo-kai-Pièce Gasha(Passé, Post-game)",
+            "Bingo-kai -Pièce 5 étoiles(Passé, Post-game)",
+            "Bingo-kai -Piece 1 étoile(Passé, Post-game)",
+            "Il se trouve aussi dans le combat deBogosduTournoi Enma - Arène Onimais il n'est pas possible de devenir son ami pour autant."
         ]
     },
-    "rarite": "Boss",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
+    "rarite": "Classic icon",
+    "tribu_yw4": "Goriki",
+    "attaques_par_jeu": {
+        "Yo-kai Watch 2": [
+            {
+                "type": "Attaque",
+                "nom": "Poing un-deux",
+                "puissance": "15×2|33×2",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Météore",
+                "puissance": "80|120",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Arachaille",
+                "puissance": "300|300",
+                "description": "La force arachnéenne inflige des dégâts de terre sur un ennemi."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Dans la toile",
+                "puissance": "N/A",
+                "description": "Le Yo-kai est pris dans une toile et sa VIT. baisse énormément."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Trarachnard",
+                "description": "Attaque renforcée après avoir battu des ennemis."
+            }
+        ],
+        "Yo-kai Watch Blasters": [
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Arachaille",
+                "puissance": "80×5",
+                "description": "Des rochers infligent de gros dégâts aux ennemis."
+            },
+            {
+                "type": "Technique 1",
+                "nom": "Onde de choc",
+                "puissance": "120",
+                "description": "Saute et crée une onde de choc en retombant."
+            },
+            {
+                "type": "Technique 2",
+                "nom": "Âmunisé",
+                "puissance": "___",
+                "description": "Esquive rapidement l'attaque ennemie."
+            },
+            {
+                "type": "Technique à acquérir 1",
+                "nom": "Trembler",
+                "puissance": "50",
+                "description": "Un sort de terre puissant. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Attaque précipitée",
+                "puissance": "80",
+                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Maître Web",
+                "description": "La jauge d'attaque se charge quand attaqué."
+            }
+        ],
+        "Yo-kai Watch 3": [
+            {
+                "type": "Attaque",
+                "nom": "Poing un-deux",
+                "puissance": "25×2|55×2",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Météore",
+                "puissance": "70|112",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Arachaille",
+                "puissance": "155|232",
+                "description": "Invoque un rocher qui peut s'abattre n'importe où sur le plateau."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Dans la toile",
+                "puissance": "N/A",
+                "description": "Le Yo-kai est pris dans une toile et sa VIT. baisse fortement."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Trarachnard",
+                "description": "Attaque renforcée après avoir battu des ennemis."
+            }
+        ]
+    },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Noirceur totale",
-        "description": "Un envoûtement sera toujours réussi."
+        "nom": "Trarachnard",
+        "description": "Attaque renforcée après avoir battu des ennemis."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/322.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/322.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/322.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/322.wav",
+    "name_romaji_jp": "Tsuchigumo",
+    "oldID": "336"
 }

@@ -1,49 +1,49 @@
 {
     "ID": "210",
-    "Nom": "Sire Dragon",
+    "Nom": "Dracounet",
     "Tribue": "Insaisissable",
-    "Rang": "S",
-    "PV": "436",
-    "Force": "194",
-    "Esprit": "194",
-    "Défense": "108",
-    "Vitesse": "138",
-    "Description": "Dracounet a acquis assez de dignité et peut donc prétendre au statut de « dragon ».",
+    "Rang": "D",
+    "PV": "321",
+    "Force": "155",
+    "Esprit": "155",
+    "Défense": "85",
+    "Vitesse": "112",
+    "Description": "C'est un bébé dragon capable de voir les forces cachées d'autres Yo-kai grâce à la boule qu'il a sur la tête.",
     "nourriture": "Cuisine chinoise",
     "élément": "Terre",
     "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "",
+    "étimologie": "Dracounet vient de Dragonet une terminaison mignonne que l'on donnerait à un animal.",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Ses pouvoirs étant doublé Dracounet peut faire des tremblements de terre, faire tomber des météores et briser le sol en deux.",
-    "personnalité": "Dracounet est devenu très digne et peut enfin être appelé \"dragon\"",
+    "pouvoir": "",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/210.png",
-    "numero": "199",
+    "numero": "198",
     "nourriture_favorite": "Plats chinois",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Dragon tenace",
-            "effet": "Sa puissance augmente quand il est en danger."
+            "nom": "Dévouement",
+            "effet": "Reçoit plus de points d'expérience."
         },
         {
             "type": "Attaque",
-            "nom": "Vilaine morsure",
-            "effet": "80 | 120"
+            "nom": "Coup de boule",
+            "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Météore",
-            "effet": "80 | 120"
+            "nom": "Éboulement",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Rocher dragon",
-            "effet": "Largue des blocs de roche sur l'ennemi à l'aide de son cristal. 190 | 190"
+            "nom": "Cristal sismique",
+            "effet": "Fait trembler le sol sous les pieds de l'ennemi grâce à un cristal sacré. 100 | 100"
         },
         {
             "type": "Attaque",
@@ -52,12 +52,12 @@
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Fantastique !",
-        "A mangé quelque chose de fade": "Hmm...",
-        "A mangé quelque chose de mauvais": "Fais un effort !",
-        "A la flemme": "Je me repose...",
-        "Est échangé": "Je veux voir ta force en combat... Nous allons nous entraider !",
-        "Se lie d'amitié": "Tu as une force inouïe en toi ! J'accepte ton amitié !"
+        "A mangé quelque chose de bon": "Crop bon !",
+        "A mangé quelque chose de fade": "Merci, je suppose.",
+        "A mangé quelque chose de mauvais": "C'est pas bon !",
+        "A la flemme": "Enfin une sieste !",
+        "Est échangé": "Me voilà fraîchement arrivé de chez",
+        "Se lie d'amitié": "Toi ! Je t'aime bien ! Devenons amis !"
     },
     "evolutions": [],
     "fusions": [
@@ -71,8 +71,8 @@
         }
     ],
     "image_locale": "",
-    "nom_original": "龍神",
-    "nom_anglais": "Dragon Lord",
+    "nom_original": "りゅーくん",
+    "nom_anglais": "Draggie",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -80,20 +80,29 @@
     },
     "localisations": {
         "ykw1": [
-            "Fusion",
-            "Coteau fleuri - sentier bambouseraie- bambous (Jour)"
+            "Au cours de l'histoire.",
+            "Dracounet peut aussi être trouvé aux 3e et 4e cercles desLimbes éternelles."
         ],
         "ykw2": [
-            "Fusion"
+            "Vous pourrez le trouver à l'est du Tunnel abandonné. Pour y accéder, il faudra vous lier d'amitié avecDraconfus."
         ],
         "ykw-Blasters": [
-            "Fusion"
+            "Patrouille :La Corniche"
         ],
         "ykw3": [
-            "Fusion"
+            "La Corniche - Matériaux de Construction & Fleurs",
+            "Mode Blasters T- Pièce suspecte"
         ],
         "Yo-kai Watch : Wibble Wobble :[]": [
-            "Bingo-kai"
+            "Mont Sylvestre - Stage 23",
+            "Limbes éternelles - 2èmeCercle - Stage 10-23",
+            "Paradis divin - 3èmeÉtage - Stage 20-13",
+            "Paradis divin - 4èmeÉtage - Stage 21-24",
+            "Paradis divin - 5èmeÉtage - Stage 22-44",
+            "Épreuve de Gargaros - Stage 13, 26, 32",
+            "Épreuve d'Ogralos - Stage 13",
+            "Épreuve d'Orqanos - Stage 13, 26, 32",
+            "Événement des Spectres Psychiques - Stage 29"
         ]
     },
     "rarite": "Commun",
@@ -102,21 +111,21 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Vilaine morsure",
-                "puissance": "80|120",
+                "nom": "Coup de boule",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Météore",
-                "puissance": "80|120",
+                "nom": "Éboulement",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Rocher dragon",
-                "puissance": "180|180",
-                "description": "Largue des blocs de roche sur l'ennemi à l'aide de son cristal."
+                "nom": "Cristal sismique",
+                "puissance": "90|90",
+                "description": "Fait trembler le sol sous les pieds de l'ennemi grâce à un cristal sacré."
             },
             {
                 "type": "Envoûtement",
@@ -126,28 +135,28 @@
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Dragon tenace",
-                "description": "Sa puissance augmente quand il est en danger."
+                "nom": "Talent : Dévouement",
+                "description": "Reçoit plus de points d'expérience."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Vilaine morsure",
-                "puissance": "80|120",
+                "nom": "Coup de boule",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Météore",
-                "puissance": "80|120",
+                "nom": "Éboulement",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Rocher dragon",
-                "puissance": "190|190",
-                "description": "Largue des blocs de roche sur l'ennemi à l'aide de son cristal."
+                "nom": "Cristal sismique",
+                "puissance": "100|100",
+                "description": "Fait trembler le sol sous les pieds de l'ennemi grâce au cristal sacré."
             },
             {
                 "type": "Envoûtement",
@@ -157,8 +166,8 @@
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Dragon tenace",
-                "description": "Sa puissance augmente quand il est en danger."
+                "nom": "Talent : Dévouement",
+                "description": "Reçoit plus de points d'expérience."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -170,7 +179,7 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Rocher dragon",
+                "nom": "Cristal sismique",
                 "puissance": "80×5",
                 "description": "Des rochers infligent de gros dégâts aux ennemis."
             },
@@ -182,12 +191,18 @@
             },
             {
                 "type": "Technique 2",
-                "nom": "Position offensive",
+                "nom": "Âmunisé",
                 "puissance": "___",
-                "description": "Hausse de l'attaque temporaire."
+                "description": "Esquive rapidement l'attaque ennemie."
             },
             {
                 "type": "Technique à acquérir 1",
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
+            },
+            {
+                "type": "Technique à acquérir 2",
                 "nom": "Trembler",
                 "puissance": "50",
                 "description": "Un sort de terre puissant. Charger renforce l'effet."
@@ -201,21 +216,21 @@
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Vilaine morsure",
-                "puissance": "70|112",
+                "nom": "Coup de boule",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Météore",
-                "puissance": "70|112",
+                "nom": "Éboulement",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Rocher dragon",
-                "puissance": "___",
-                "description": "Des rochers s'abattent sur le plateau ennemi, bloquant certaines cases !"
+                "nom": "Cristal sismique",
+                "puissance": "100|300",
+                "description": "Fait trembler le sol sous les ennemis à portée, grâce à un cristal sacré."
             },
             {
                 "type": "Envoûtement",
@@ -225,18 +240,19 @@
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Dragon tenace",
-                "description": "↑ puissance ++ en situation de danger."
+                "nom": "Talent : Dévouement",
+                "description": "Reçoit plus de points d'expérience."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Dragon tenace",
-        "description": "Sa puissance augmente quand il est en danger."
+        "nom": "Dévouement",
+        "description": "Reçoit plus de points d'expérience."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/210.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/210.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/210.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/210.wav",
+    "oldID": "209"
 }

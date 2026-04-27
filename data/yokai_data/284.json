@@ -1,135 +1,129 @@
 {
     "ID": "284",
-    "Nom": "Sabruine",
-    "Tribue": "Mignon",
-    "Rang": "C",
-    "PV": "334",
-    "Force": "47",
-    "Esprit": "204",
-    "Défense": "120",
-    "Vitesse": "158",
-    "Description": "Elle sape le moral de tout le monde. Il ne faut pas l'inviter à une fête en extérieur, il pleuvra à coup sûr...",
-    "nourriture": "Jus",
-    "élément": "Eau",
+    "Nom": "Papilla",
+    "Tribue": "Bienveillant",
+    "Rang": "E",
+    "PV": "291",
+    "Force": "45",
+    "Esprit": "171",
+    "Défense": "83",
+    "Vitesse": "176",
+    "Description": "Elle guérit d'un coup de langue toutes les blessures. Elle peut même rapprocher les gens !",
+    "nourriture": "Légumes",
+    "élément": "Restauration",
     "Rôle": "Guérisseur",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Il pleut toujours où que se trouve Sabruine, quelles que soient les prévisions. Tous ceux qui sont envoûtés par Sabruine partagent sa personnalité, devenant tout aussi déprimés et autocritiques.",
-    "personnalité": "Sabruine a une faible estime d'elle-même, peut-être en raison de ses pouvoirs de faire pleuvoir. Elle a toujours l'air déprimée, sauf lorsqu'elle est avecSabrille.",
+    "pouvoir": "Papilla a le pouvoir de soigner les gens avec sa langue.",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/284.png",
-    "numero": "149",
-    "nourriture_favorite": "Boisson",
+    "numero": "170",
+    "nourriture_favorite": "Légume",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Drache",
-            "effet": "Tous les Yo-kai subissent plus de dégâts d'eau."
+            "nom": "Pure lèche",
+            "effet": "Le Yo-kai sera purifié s'il soigne des alliés."
         },
         {
             "type": "Attaque",
-            "nom": "Gifle",
-            "effet": "10 | 45"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Rapides",
+            "nom": "Slurp",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Inondation",
-            "effet": "Une pluie déprimante s'abat sur tous les ennemis. 80 | 176"
+            "nom": "Guérison",
+            "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Trombes d'eau",
-            "effet": "Le Yo-kai est trempé, ce qui diminue énormément sa DÉF."
+            "nom": "Langue d'amour",
+            "effet": "Lèche ses alliés de haut en bas pour leur rendre leurs PV. 50 | 131"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Langue vivante",
+            "effet": "Les blessures du Yo-kai sont léchées, ses PV sont lentement régénérés."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Hi hi, j'aime bien.",
-        "A mangé quelque chose de fade": "Euh...",
-        "A mangé quelque chose de mauvais": "Rejeté.",
-        "A la flemme": "*bave*",
-        "Est échangé": "La pluie ? Oui... c'était moi. Je fais la pluie et le mauvais temps.",
-        "Se lie d'amitié": "J'espère que la pluie ne te gêne pas, car j'aimerais être ton amie..."
+        "A mangé quelque chose de bon": "Miam !",
+        "A mangé quelque chose de fade": "Merci, je suppose.",
+        "A mangé quelque chose de mauvais": "Y en a trop !",
+        "A la flemme": "*BÂILLE !*",
+        "Est échangé": "Je suis ton amie ! Que notre lien soit fort et thérapeutique !",
+        "Se lie d'amitié": "Oh, tu as une blessure. Laisse-moi t'aider ! Il le faut, entre amis !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Papilla",
+            "parent2": "Pitou",
+            "resultat": "Mme Papilla",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "雨女",
-    "nom_anglais": "Drizzelda",
+    "nom_original": "キズナメコ",
+    "nom_anglais": "Tongus",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Nayéli Forest"
+        "francaise": "Inconnue"
     },
     "localisations": {
         "ykw2": [
-            "Mont Sylvestre- dans l'herbe (pluie)",
-            "Bingo-kai-Pièce rose(passé)"
+            "Au cours de l'histoire",
+            "Yo-kai World- Montagne du menteur"
         ],
         "ykw-Blasters": [
-            "Exclusif à l'Escadron du chien blanc",
             "Patrouille -Ourcival"
         ],
         "ykw3": [
-            "Mont Sylvestre - buissons (pluie)",
-            "Bingo-kai - Pièce rose (Granval)"
-        ],
-        "Yo-kai Watch 4 :[]": [
-            "Sabruine est exclusivement présente dans les missions deDameboyetKenshin Amaterasudu modePura Pura Busters. Elle etSabrilleont une fille,Hare-onna."
+            "Mont Sylvestre- dans l'herbe",
+            "Mont Sylvestre - Sentier de randonnée",
+            "Tunnel abandonné- est"
         ]
     },
-    "rarite": "L'Escadron du chien blanc",
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Rapides",
+                "nom": "Slurp",
                 "puissance": "50|110",
                 "description": ""
             },
             {
+                "type": "Technique",
+                "nom": "Guérison",
+                "puissance": "20|90",
+                "description": ""
+            },
+            {
                 "type": "Amultime",
-                "nom": "Inondation",
-                "puissance": "80|176",
-                "description": "Une pluie déprimante s'abat sur tous les ennemis."
+                "nom": "Langue d'amour",
+                "puissance": "50|131",
+                "description": "Lèche ses alliés de haut en bas pour leur rendre leurs PV."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Trombes d'eau",
+                "nom": "Langue vivante",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est trempé, ce qui diminue énormément sa DÉF."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Torrent",
-                "puissance": "N/A",
-                "description": "Un jet d'eau attaque les ennemis éloignés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Rapides",
-                "puissance": "N/A",
-                "description": "Un torrent déferle sur les ennemis éloignés."
+                "description": "Les blessures du Yo-kai sont léchées, ses PV sont lentement régénérées."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Drache",
-                "description": "Tous les Yo-kai subissent plus de dégâts d'eau.*"
+                "nom": "Talent : Pure lèche",
+                "description": "Le Yo-kai sera purifié s'il soigne des alliés."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -141,73 +135,80 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Inondation",
-                "puissance": "50×8",
-                "description": "Une cascade inflige de gros dégâts aux ennemis."
+                "nom": "Langue d'amour",
+                "puissance": "400",
+                "description": "Alliés retrouvent beaucoup de PV."
             },
             {
                 "type": "Technique 1",
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
+            },
+            {
+                "type": "Technique 2",
                 "nom": "Restauration",
                 "puissance": "80",
                 "description": "Rend des PV à un allié. Charger renforce l'effet."
             },
             {
-                "type": "Technique 2",
-                "nom": "Envoût guérisseur",
+                "type": "Technique à acquérir 1",
+                "nom": "Boost de défense",
                 "puissance": "___",
-                "description": "Hausse lente des PV alliés. Charger élargit l'effet."
+                "description": "Hausse DÉF. des alliés. Charger élargit l'effet."
             },
             {
-                "type": "Technique à acquérir 1",
-                "nom": "Cercle guérisseur",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger élargit l'effet."
+                "type": "Technique à acquérir 2",
+                "nom": "Purification !",
+                "puissance": "50",
+                "description": "Annule Envoûtement et guérit. Charger élargit l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Temps nuageux",
-                "description": "Tous les alliés immunisés contre les coups critiques."
+                "nom": "Talent : Récupération rapide",
+                "description": "Restaure l'allié plus vite."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Rapides",
+                "nom": "Slurp",
                 "puissance": "50|110",
                 "description": ""
             },
             {
+                "type": "Technique",
+                "nom": "Restauration",
+                "puissance": "30|105",
+                "description": ""
+            },
+            {
                 "type": "Amultime",
-                "nom": "Inondation",
-                "puissance": "110|220",
-                "description": "Invoque une averse de pluie mélancolique qui blesse les cibles à portée."
+                "nom": "Langue d'amour",
+                "puissance": "60|180",
+                "description": "Lèche ses alliés avec sa petite langue mignonne, restaurant leurs PV."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Trombes d'eau",
+                "nom": "Langue vivante",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est trempé jusqu'aux os et sa DÉF. baisse."
+                "description": "Les blessures du Yo-kai sont léchées, ses PV se restaurent lentement."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Jeu d'eau",
-                "description": "Booste les dégâts d'eau de tous les Yo-kai."
+                "nom": "Talent : Pure lèche",
+                "description": "Le Yo-kai sera purifié s'il soigne des alliés."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Drache",
-        "description": "Tous les Yo-kai subissent plus de dégâts d'eau.*"
+        "nom": "Pure lèche",
+        "description": "Le Yo-kai sera purifié s'il soigne des alliés."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/284.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/284.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/284.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/284.wav",
+    "oldID": "291"
 }

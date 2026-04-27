@@ -1,69 +1,77 @@
 {
     "ID": "280",
-    "Nom": "Yokœil",
+    "Nom": "Bakuku",
     "Tribue": "Mignon",
-    "Rang": "D",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "Ce n'est pas le Yo-kai le plus effrayant, mais il fait tellement d'économies sur les lentilles de contact qu'il le vit bien.",
-    "nourriture": "Oden",
-    "élément": "Glace",
+    "Rang": "B",
+    "PV": "371",
+    "Force": "52",
+    "Esprit": "208",
+    "Défense": "130",
+    "Vitesse": "167",
+    "Description": "Elle est capable de s'immiscer dans les rêves des gens pour connaître leurs pensées et même les montrer aux autres.",
+    "nourriture": "Jus",
+    "élément": "Absorption",
     "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Yokœil vient de Yo-kai et d'œil.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Yokœil a le pouvoir de créer des illusions.",
-    "personnalité": "Yokœil adore faire peur aux gens, comme d'autres Yo-kai classiques.",
+    "pouvoir": "",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/280.png",
-    "numero": "134",
-    "nourriture_favorite": "Oden",
+    "numero": "147",
+    "nourriture_favorite": "Boisson",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Bouffade",
-            "effet": "Augmente la VIT. de tous les Fantômes bouffis."
+            "nom": "Emprise",
+            "effet": "Augmente le nombre de PV absorbés."
         },
         {
             "type": "Attaque",
-            "nom": "Coup de boule",
-            "effet": "15 | 67"
+            "nom": "Volée",
+            "effet": "20x2 | 44x2"
         },
         {
             "type": "Attaque",
-            "nom": "Gel",
-            "effet": "50 | 110"
+            "nom": "Récolte",
+            "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Plein la vue",
-            "effet": "Déconcerte l'ennemi en le fixant du regard."
+            "nom": "Somnifère",
+            "effet": "Ses narines émettent un gaz soporifique qui terrasse les ennemis."
         },
         {
             "type": "Attaque",
-            "nom": "Trompe-l'œil",
-            "effet": "La vue du Yo-kai s'améliore ainsi que sa FOR."
+            "nom": "Bonne nuit",
+            "effet": "L'ennemi fatigue tellement qu'il s'endort en combat !"
         }
     ],
     "phrases_nourriture": {
-        "info_0": "Ate good stuffQuel plaisir !",
-        "info_1": "Ate average foodEuh, ouah...",
-        "info_2": "Ate awful foodDégoûtant...",
-        "info_3": "LoafedJe m'endors...",
-        "info_4": "TradedJe ne sais pas pour toi, mais je trouve notre amitié merv-œil-leuse !",
-        "info_5": "BefriendedTon regard éloquent m'a charmé ! Devenons amis !"
+        "A mangé quelque chose de bon": "Délicieux !",
+        "A mangé quelque chose de fade": "Ha ! Ha.",
+        "A mangé quelque chose de mauvais": "Quel cauchemar...",
+        "A la flemme": "Juste une pause !",
+        "Est échangé": "J'ai rêvé de toi une nuit, et depuis, je n'attendais que de te rencontrer...",
+        "Se lie d'amitié": "C'était un beau combat... Veux-tu que je t'envoie de beaux rêves ce soir ?"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Évolution",
+            "contexte": "Général",
+            "de": "Baku",
+            "vers": "Bakuku",
+            "critere": "Niveau 29"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "一つ目小僧",
-    "nom_anglais": "Boyclops",
+    "nom_original": "おバク様",
+    "nom_anglais": "Bakulia",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
@@ -71,43 +79,44 @@
     },
     "localisations": {
         "ykw2": [
-            "Exclusif à Fantômes Bouffis",
-            "Vieux Granval- chemin du puits"
+            "Évolution",
+            "Bingo-kai-Pièce rose(Passé)"
         ],
         "ykw-Blasters": [
-            "Patrouille - Vieux Granval"
+            "Évolution",
+            "Patrouille -Hauts de Granval"
         ],
         "ykw3": [
-            "Parvis de la gare d'Ourcival"
+            "Évolution"
         ]
     },
-    "rarite": "Classic icon",
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Coup de boule",
-                "puissance": "15|67",
+                "nom": "Volée",
+                "puissance": "20×2|44×2",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Gel",
-                "puissance": "50|110",
+                "nom": "Récolte",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Plein la vue",
+                "nom": "Somnifère",
                 "puissance": "___",
-                "description": "Déconcerte l'ennemi en le fixant du regard."
+                "description": "Ses narines émettent un gaz soporifique qui terrasse les ennemis."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Trompe-l'œil",
+                "nom": "Bonne nuit",
                 "puissance": "N/A",
-                "description": "La vue du Yo-kai s'améliore ainsi que sa FOR."
+                "description": "Lee Yo-kai s'endort et ne peut plus agir."
             },
             {
                 "type": "Attaque A",
@@ -117,147 +126,142 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Torrent",
+                "nom": "Vortex",
                 "puissance": "N/A",
-                "description": "Un jet d'eau attaque les ennemis éloignés."
+                "description": "Te fait absorber les PV de l'ennemi."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Bouffade",
-                "description": "Augmente la VIT. de tous les Fantômes bouffis."
+                "nom": "Talent : Emprise",
+                "description": "Augmente le nombre de PV absorbés."
             }
         ],
         "Yo-kai Watch Blasters": [
             {
                 "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
             },
             {
                 "type": "Âmultime",
-                "nom": "Plein la vue",
+                "nom": "Somnifère",
                 "puissance": "___",
-                "description": "Forte baisse temporaire de l'attaque ennemie."
+                "description": "Forte baisse temporaire de la défense ennemie."
             },
             {
                 "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
+                "nom": "Vortex",
+                "puissance": "30",
+                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "",
-                "puissance": "40",
-                "description": "Utilise un sort de glace. Charger renforce l'effet."
+                "nom": "Riz",
+                "puissance": "70",
+                "description": "Restaure tes PV."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Position de rapidité",
-                "puissance": "___",
-                "description": "Hausse de la vitesse temporaire."
+                "nom": "Attaque chargée",
+                "puissance": "80",
+                "description": "Attaque courte portée. Charger renforce l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Célérité",
-                "description": "Plus de chance d'infliger des coups critiques."
+                "nom": "Talent : Emprise",
+                "description": "Augmente le nombre de PV absorbés."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Coup de boule",
-                "puissance": "30|105",
+                "nom": "Volée",
+                "puissance": "25×2|55×2",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Gel",
-                "puissance": "50|110",
+                "nom": "Récolte",
+                "puissance": "55|88",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Plein la vue",
+                "nom": "Somnifère",
                 "puissance": "___",
-                "description": "Sème la confusion auprès de tous les ennemis, avec son œil globuleux."
+                "description": "Son nez libère de la fumée soporifique. Ceux touchés agissent moins."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Trompe-l'œil",
+                "nom": "Bonne nuit",
                 "puissance": "N/A",
-                "description": "La vue du Yo-kai s'améliore ainsi que sa FOR."
+                "description": "Le Yo-kai envoûté est invité au royaume des songes. Il n'agit plus."
             },
             {
                 "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Attaque trois fois. Le coup ultime est plus puissant."
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque un ennemi proche."
             },
             {
                 "type": "Âmultime",
-                "nom": "Plein la vue",
+                "nom": "Somnifère",
                 "puissance": "___",
-                "description": "Réduction ++ temporaire de l'attaque de l'ennemi."
+                "description": "Réduction ++ temporaire de la DÉF. de l'ennemi."
             },
             {
                 "type": "Attaque X",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque l’ennemi avec une attaque féroce."
+                "nom": "Vortex",
+                "puissance": "30",
+                "description": "Draine + les PV ennemis. Plus de PV volés si chargé."
             },
             {
                 "type": "Attaque Y",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive des attaques par des déplacements rapides."
+                "nom": "Attaque chargée",
+                "puissance": "80",
+                "description": "Attaque un ennemi proche. Plus de dégâts si chargé."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Œil de lynx",
-                "description": "Réussit toutes ses attaques."
+                "nom": "Talent : Emprise",
+                "description": "Augmente le nombre de PV absorbés."
             }
         ]
     },
     "soul_effects": {
-        "Yo-kai Watch 2": "Augmente légèrement les chances de réussir les attaques.",
-        "Yo-kai Watch Blasters": "Un peu plus de chance de lancer des coups critiques.",
-        "Yo-kai Watch 3": "Réussit des attaques un peu plus facilement."
+        "Yo-kai Watch 2": "Augmente la quantité de ses PV absorbés.",
+        "Yo-kai Watch Blasters": "Augmente légèrement le nombre de PV absorbés.",
+        "Yo-kai Watch 3": "Augmente le nombre de PV absorbés."
     },
     "drops": {
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "Bracelet de bouffi"
+                "objet": "Remède amer"
             },
             {
                 "taux": "?%",
-                "objet": "Concombre"
+                "objet": "Curry de poulet"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "EXPorbe moyen"
+                "objet": "Techniques tip-top"
             },
             {
                 "taux": "?%",
-                "objet": "Œuf à la coque"
+                "objet": "Y-Cola"
             }
         ]
     },
     "special_talent": {
-        "nom": "Bouffade",
-        "description": "Augmente la VIT. de tous les Fantômes bouffis."
+        "nom": "Emprise",
+        "description": "Augmente le nombre de PV absorbés."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/280.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/280.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/280.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/280.wav",
+    "oldID": "286"
 }

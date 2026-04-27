@@ -1,50 +1,102 @@
 {
     "ID": "642",
-    "Nom": "Wibblekoma",
-    "Tribue": "Mignon",
-    "Rang": "A",
-    "PV": "373",
-    "Force": "63",
-    "Esprit": "206",
-    "Défense": "117",
-    "Vitesse": "200",
-    "Description": "Envoûte les smartphones des adultes occupés. Une fois leur téléphone en main, ils prendront de très longues pauses.",
-    "nourriture": "Crème Glacée",
-    "élément": "Vent",
-    "Rôle": "Combattant",
+    "Nom": "Aramis Taire",
+    "Tribue": "Mystérieux",
+    "Rang": "B",
+    "PV": "400",
+    "Force": "45",
+    "Esprit": "203",
+    "Défense": "127",
+    "Vitesse": "169",
+    "Description": "",
+    "description SITE": "Fan de romans policiers, il envoûte les gens, leur faisant croire qu'ils sont au cœur d'une enquête palpitante.",
+    "nourriture": "Pâtes",
+    "élément": "Glace",
+    "Rôle": "Ranger",
     "Biographie": "",
-    "étimologie": "Wibblekomavient deKomasanet deYo-kai Watch : Wibble Wobble.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Il envoûte les smartphones des adultes occupés. Une fois leur téléphone en main, ils prennent de très longues pauses.",
-    "personnalité": "Il est très décontracté et aime prendre de longues pauses.",
+    "pouvoir": "",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/642.png",
-    "nom_original": "ぷにコマ",
-    "nom_anglais": "Wibblekoma",
-    "premiere_apparition": "Yo-kai Watch : Wibble Wobble",
+    "numero": "126",
+    "nourriture_favorite": "Pâte",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Mystérieuse femme",
+            "effet": "Rendra peu à peu des PV à tous les Yo-kai Mystérieux."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Gifle",
+            "effet": "10 | 45"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Gel",
+            "effet": "50 | 110"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Boule de gomme",
+            "effet": "Trouble les ennemis avec son aura mistaire..."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Mystère",
+            "effet": "L'ennemi veut résoudre tous les mystères et agit moins."
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "Trop bon !",
+        "A mangé quelque chose de fade": "Je prends...",
+        "A mangé quelque chose de mauvais": "Qu'est-ce que... ?",
+        "A la flemme": "Je suis épuisé !",
+        "Se lie d'amitié": "Ma défaite est un mystère... Heureusement, j'adore les mystères !",
+        "Est échangé": "Hihi ! Aramis Taire, prête à remplir votre vie de mystères en tout genre !"
+    },
+    "evolutions": [],
+    "fusions": [],
+    "image_locale": "",
+    "nom_original": "ミス・テリー",
+    "nom_anglais": "Miss Teri",
+    "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
-        "japonaise": "Aya Endo",
+        "japonaise": "Masahito Yabe",
         "francaise": "Inconnue"
     },
     "localisations": {
         "ykw3": [
-            "Siège de Yopple- cafétéria (Grâce à un QR Code permettant d'obtenir leWib wob)"
+            "Ferme des blés- champ (minuit)"
         ]
     },
-    "fusions": [],
-    "rarite": "Rare",
+    "rarite": "Yo-kai Mericain",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
-    "drops": {},
+    "drops": {
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "La vie en tête"
+            },
+            {
+                "taux": "?%",
+                "objet": "Pâtes aux palourdes"
+            }
+        ]
+    },
     "special_talent": {
-        "nom": "Peau rebondie",
-        "description": "↑ DÉF. du lanceur +, s'il a infligé des dégâts critiques."
+        "nom": "Mystérieuse femme",
+        "description": "Rendra peu à peu des PV à tous les Yo-kai Mystérieux."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/642.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/642.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/642.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/642.wav",
+    "oldID": "646"
 }

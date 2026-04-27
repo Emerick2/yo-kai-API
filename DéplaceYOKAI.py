@@ -175,4 +175,12 @@ def ajouterYokai(ID_arrive):
     print(f"✅ Ajout du nouveau Yo-kai à l'ID {ID_arrive} terminé.")
 
 #ID_depart, ID_arrive, justeIntervertire
-deplaceYokai(906,39,False)
+# attention il faut viser l'ID-1 parce qu'il seront décaler vers le bas donc la destination est décaler vers le bas.
+
+#356 : perfide
+#355 : yo-criminel
+
+#510 : chine
+
+# n=3
+# deplaceYokai(986+n,356+n,False)

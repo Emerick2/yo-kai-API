@@ -1,53 +1,112 @@
 {
     "ID": "440",
-    "Nom": "Chamériste",
+    "Nom": "Caliméballe",
     "Tribue": "Vaillant",
-    "Rang": "S",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "",
-    "description SITE": "Un Yo-kai qui protège Zazel. Très loyal, il donnerait sa vie pour protéger son maître. Il n'est pas très vif d'esprit mais il se souvient toujours de la nuit qu'il a passé à réviser pour un contrôle avec Majordog.",
-    "nourriture": "Bonbons",
-    "élément": "",
-    "Rôle": "",
+    "Rang": "D",
+    "PV": "336",
+    "Force": "180",
+    "Esprit": "53",
+    "Défense": "126",
+    "Vitesse": "138",
+    "Description": "Ce Yo-kai a réussi à intégrer une équipe pro de baseball, bien qu'il n'ait jamais réussi à attraper une seule balle.",
+    "nourriture": "Hot dog",
+    "élément": "Glace",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Chamériste vient de Chat et de Camériste (les anciennes servantes des princesses). Ducfélin vient de Ducet de Félin.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
     "pouvoir": "",
-    "personnalité": "Lui etMajordoguesont les valets deZazel. Majordog est son ami d'enfance.",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/440.png",
-    "nom_original": "猫きよ猫きよペロン",
-    "nom_anglais": "AristokatAlicktokat",
-    "premiere_apparition": "Yo-kai Watch Blasters",
+    "numero": "024",
+    "nourriture_favorite": "Hot-Dog",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Maladresse",
+            "effet": "Devient moins précis en attaquant."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Frappe",
+            "effet": "10 | 45"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Grêle",
+            "effet": "20 | 90"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Tour de batte",
+            "effet": "Attaque les ennemis à portée avec sa batte et se lamente sur ses erreurs. 100 | 300"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Va chercher",
+            "effet": "À force de ne jamais attraper les balles, la FOR. diminue."
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "Et... home run !",
+        "A mangé quelque chose de fade": "Et... amorti !",
+        "A mangé quelque chose de mauvais": "Quoi... ?",
+        "A la flemme": "Balle perdue...",
+        "Se lie d'amitié": "Tout seul, je suis nul... Laisse-moi rejoindre ton équipe !",
+        "Est échangé": "Tu ferais mieux de me rééchanger... Je suis... trop nul...",
+        "info_6": "Bingo-kaiTu veux bien que je fasse partie de ton équipe ? Oui ? C'est vrai ?!"
+    },
+    "evolutions": [],
+    "fusions": [
+        {
+            "type": "Évolution",
+            "contexte": "Général",
+            "de": "Caliméballe",
+            "vers": "Battant",
+            "critere": "Niveau 30"
+        }
+    ],
+    "image_locale": "",
+    "nom_original": "ダメジャー",
+    "nom_anglais": "Goofball",
+    "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Yann Pichon"
+        "francaise": "Inconnue"
     },
     "localisations": {
-        "Yo-kai Watch Blasters : Brigade du Lapin Lunaire[]": [
-            "Mission - Ceux qui contrôlent les Yo-kai"
-        ],
-        "Yo-kai Watch : Wibble Wobble :[]": [],
-        "Yo-kai Watch World :[]": [
-            "Chamériste est apparu dans le mini événementSuper Tirage, aux côtés deExtrabuki. Il est possible de le faire évoluer au Rang SS en la fusionnant avec uneAmulette d'Évolution Costaud.",
-            "Ducfélin est apparu lors de la40èmeGuerre Yo-kai."
+        "ykw3": [
+            "Ferme des blés",
+            "Roue rêve-Pièce rouge- 3e prix",
+            "Méga quiz USA du piéton- mauvaise réponse(Amitié impossible)"
         ]
     },
-    "fusions": [],
-    "rarite": "Boss",
+    "rarite": "Yo-kai Mericain",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
-    "drops": {},
-    "special_talent": null,
+    "drops": {
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "Bracelet de rocker"
+            },
+            {
+                "taux": "?%",
+                "objet": "Hot-dog"
+            }
+        ]
+    },
+    "special_talent": {
+        "nom": "Maladresse",
+        "description": "Devient moins précis en attaquant."
+    },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/440.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/440.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/440.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/440.wav",
+    "oldID": "445"
 }

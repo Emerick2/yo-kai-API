@@ -1,14 +1,15 @@
 {
     "ID": "585",
-    "Nom": "Escarcool",
+    "Nom": "Céfasslopode",
     "Tribue": "Insaisissable",
-    "Rang": "E",
-    "PV": "357",
-    "Force": "42",
-    "Esprit": "197",
-    "Défense": "164",
-    "Vitesse": "64",
-    "Description": "Ce Yo-kai veut juste croquer la vie à pleine dents. Et forcément, ça prend du temps quand on a pas de dents...",
+    "Rang": "D",
+    "PV": "422",
+    "Force": "125",
+    "Esprit": "56",
+    "Défense": "211",
+    "Vitesse": "86",
+    "Description": "Un Yo-kai ancien qui n'a plus rien à perdre... à part sa coquille...",
+    "description SITE": "Un Yo-kai ancien qui n'a plus rien à perdre… à part sa coquille…",
     "nourriture": "Fruits de Mer",
     "élément": "Eau",
     "Rôle": "Tank",
@@ -16,36 +17,68 @@
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Ceux qu'il envoûte font les choses à un rythme plus lent.",
-    "personnalité": "",
+    "pouvoir": "Lorsqu'une personne est envoûtée par Céfasslopode, elle se dit qu'elle n'a plus rien à perdre et fait ce qui lui donne envie.",
+    "personnalité": "Pour Céfasslopode, il n'a plus rien a perdre et fait ce qu'il veut. C'est sa devise et sa manière de vivre.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/585.png",
-    "nom_original": "マイマイペース",
-    "nom_anglais": "Snailspace",
+    "nom_original": "ナンモナイト",
+    "nom_anglais": "Nautaloss",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "francaise": "Bruno Méyère"
     },
     "localisations": {
         "ykw3": [
-            "Cajoun- dans l'herbe",
-            "Ferme des blés- dans l'herbe"
+            "Betel- Allée du hip-hop"
         ]
     },
     "fusions": [],
-    "rarite": "Méricain",
+    "rarite": "Yo-kai Mericain",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
+    "attaques_par_jeu": {
+        "Yo-kai Watch 3": [
+            {
+                "type": "Attaque",
+                "nom": "Plaquage absolu",
+                "puissance": "20|70",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Torrent",
+                "puissance": "30|105",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Coquille vide",
+                "puissance": "",
+                "description": "C'est pas perdu, si c'est l'ennemi qui perd ses effets positifs !"
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Danger public",
+                "puissance": "N/A",
+                "description": "L'ennemi ne se soucie plus de rien, sa DÉF. baisse."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Mauvais esprit",
+                "description": "Réduit les effets des envoûtements pour tous."
+            }
+        ]
+    },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Ténacité",
-        "description": "Bloque envoûtements négatifs des ennemis."
+        "nom": "Mauvais esprit",
+        "description": "Réduit les effets des envoûtements pour tous."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/585.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/585.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/585.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/585.wav",
+    "oldID": "588"
 }

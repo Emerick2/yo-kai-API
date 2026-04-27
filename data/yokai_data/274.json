@@ -1,19 +1,19 @@
 {
     "ID": "274",
-    "Nom": "Parantonn",
-    "Tribue": "Costaud",
-    "Rang": "A",
-    "PV": "504",
-    "Force": "206",
-    "Esprit": "195",
-    "Défense": "128",
-    "Vitesse": "140",
-    "Description": "Il s'attire les foudres des autres et le danger le suit partout où il va. Sa vie est loin d'être relaxante.",
-    "nourriture": "Cuisine chinoise",
-    "élément": "Foudre",
+    "Nom": "Ovide",
+    "Tribue": "Mystérieux",
+    "Rang": "D",
+    "PV": "330",
+    "Force": "57",
+    "Esprit": "185",
+    "Défense": "119",
+    "Vitesse": "122",
+    "Description": "Ce Yo-kai Classique donne à ceux qu'il envoûte une expression absente.",
+    "nourriture": "Oden",
+    "élément": "Eau",
     "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "",
+    "étimologie": "Ovide vient du prénom Ovide et de Vide faisant référence à son visage inexistant.",
     "origine": "",
     "histoire": "",
     "pouvoir": "",
@@ -22,107 +22,89 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/274.png",
-    "numero": "106",
-    "nourriture_favorite": "Plats chinois",
+    "numero": "050",
+    "nourriture_favorite": "Oden",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Superconducteur",
-            "effet": "Bloque les dégâts des attaques de foudre."
+            "nom": "Farçade",
+            "effet": "Augmente la DÉF. de tous les Esprits farceurs."
         },
         {
             "type": "Attaque",
-            "nom": "Percée critique",
-            "effet": "30 | 66"
+            "nom": "Coup de boule",
+            "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Haute tension",
-            "effet": "80 | 120"
+            "nom": "Torrent",
+            "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Foudre divine",
-            "effet": "Libère la puissance électrique qu'il a en lui sur ses ennemis. 180 | 180"
+            "nom": "Charge neutre",
+            "effet": "Aucune affiliation élémentaire et efficace contre tout type d'ennemi. 65 | 170"
         },
         {
             "type": "Attaque",
-            "nom": "Vitesse lumière",
-            "effet": "Le Yo-kai est frappé par la foudre, ce qui augmente sa VIT."
+            "nom": "Pâle figure",
+            "effet": "Le visage du Yo-kai devient vide, ce qui baisse sa DÉF."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Quel bon goût !",
-        "A mangé quelque chose de fade": "Rien de spécial.",
-        "A mangé quelque chose de mauvais": "Je passe !",
-        "A la flemme": "Je me recharge !",
-        "Est échangé": "Il y a une tension entre nous ! Je la sens déjà !",
-        "Se lie d'amitié": "Je veux être ton ami. Quoiqu'il arrive, je serai toujours là pour toi !"
+        "info_0": "Ate good stuffC'est trop bon !",
+        "info_1": "Ate average foodÇa allait.",
+        "info_2": "Ate awful foodCe sera non.",
+        "info_3": "LoafedHuh.",
+        "info_4": "TradedOn ne se serait pas déjà vus ? J'ai comme un vide...",
+        "info_5": "BefriendedTon visage est très expressif... J'aimerais bien qu'on soit amis !"
     },
     "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "Yo-kai Watch 2 & Blasters",
-            "de": "Antonnerre",
-            "vers": "Parantonn",
-            "critere": "Niveau 29"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "Yo-kai Watch 3",
-            "de": "Antonnerre",
-            "vers": "Parantonn",
-            "critere": "Niveau 34"
-        }
-    ],
+    "fusions": [],
     "image_locale": "",
-    "nom_original": "ヒライ神",
-    "nom_anglais": "Frazzel",
+    "nom_original": "のっぺら坊",
+    "nom_anglais": "Faysoff",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
-        "japonaise": "Inconnue",
+        "japonaise": "Kiyono Yasuno",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw2": [
-            "Évolution"
-        ],
-        "ykw-Blasters": [
-            "Évolution",
-            "Patrouille -Coteau fleuri"
+        "Yo-kai Watch 2 : Esprits Farceurs :[]": [
+            "Trouvé auVieux Granval."
         ],
         "ykw3": [
-            "Évolution"
+            "Hauts de Granval- sous les voitures",
+            "Bingo-kai-Pièce jaune- 3e prix (Granval)"
         ]
     },
-    "rarite": "FB icone",
+    "rarite": "Classic icon",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Percée critique",
-                "puissance": "30|66",
+                "nom": "Coup de boule",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "80|120",
+                "nom": "Torrent",
+                "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Foudre divine",
-                "puissance": "180|180",
-                "description": "Libère la puissance électrique qu'il a en lui sur ses ennemis."
+                "nom": "Charge neutre",
+                "puissance": "65|170",
+                "description": "Aucune affiliation élémentaire et efficace contre tout type d'ennemi."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Vitesse lumière",
+                "nom": "Pâle figure",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est frappé par la foudre, ce qui augmente sa VIT."
+                "description": "Le visage du Yo-kai devient vide, ce qui baisse sa DÉF."
             },
             {
                 "type": "Attaque A",
@@ -132,40 +114,40 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Foudre",
+                "nom": "Torrent",
                 "puissance": "N/A",
-                "description": "Foudroie les ennemis éloignés."
+                "description": "Un jet d'eau attaque les ennemis éloignés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Superconducteur",
-                "description": "Bloque les dégâts des attaques de foudre."
+                "nom": "Talent : Farçade",
+                "description": "Augmente la DÉF. de tous les Esprits farceurs."
             }
         ],
         "Yo-kai Watch Blasters": [
             {
                 "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
             },
             {
                 "type": "Âmultime",
-                "nom": "Foudre divine",
-                "puissance": "80×5",
-                "description": "La foudre inflige de gros dégâts aux ennemis."
+                "nom": "Charge neutre",
+                "puissance": "67×6",
+                "description": "Une flamme bleue qui inflige de gros dégâts."
             },
             {
                 "type": "Technique 1",
-                "nom": "Décharge",
+                "nom": "Torrent",
                 "puissance": "40",
-                "description": "Utilise un sort de foudre. Charger renforce l'effet."
+                "description": "Utilise un sort d'eau. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Onde de choc",
-                "puissance": "120",
-                "description": "Saute et crée une onde de choc en retombant."
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
             },
             {
                 "type": "Technique à acquérir 1",
@@ -175,69 +157,69 @@
             },
             {
                 "type": "Technique à acquérir 2",
-                "nom": "Foudre",
-                "puissance": "50",
-                "description": "Un sort de foudre puissant. Charger renforce l'effet."
+                "nom": "Position offensive",
+                "puissance": "___",
+                "description": "Hausse de l'attaque temporaire."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Antisurtension",
-                "description": "Hausse de la DÉF. lors d'un chargement d'attaque."
+                "nom": "Talent : Peau brillante",
+                "description": "Immunité contre les coups critiques."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Percée critique",
-                "puissance": "10|35",
+                "nom": "Coup de boule",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "70|112",
+                "nom": "Torrent",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Foudre divine",
-                "puissance": "148|222",
-                "description": "Frappe les cibles à portée avec toute l'électricité accumulée jusque-là."
+                "nom": "Charge neutre",
+                "puissance": "100|300",
+                "description": "Invoque des esprits sans élément pour attaquer les ennemis à portée."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Vitesse lumière",
+                "nom": "Pâle figure",
                 "puissance": "N/A",
-                "description": "Le Yo-kai envoûté est enveloppé d'électricité. Sa VIT. augmente."
+                "description": "Le visage du Yo-kai devient vide, ce qui baisse sa DÉF."
             },
             {
                 "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Attaque trois fois. Le coup ultime est plus puissant."
             },
             {
                 "type": "Âmultime",
-                "nom": "Foudre divine",
-                "puissance": "80×5",
-                "description": "Déluge de foudre qui inflige des dégâts élevés."
+                "nom": "Charge neutre",
+                "puissance": "66×6",
+                "description": "Flammes bleues brûlant les ennemis. Dégâts élevés."
             },
             {
                 "type": "Attaque X",
-                "nom": "Décharge",
+                "nom": "Torrent",
                 "puissance": "40",
-                "description": "Technique de foudre+. Plus de dégâts si chargée."
+                "description": "Technique d'eau+. Plus de dégâts si chargée."
             },
             {
                 "type": "Attaque Y",
-                "nom": "Onde de choc",
-                "puissance": "120",
-                "description": "Saute en hauteur et frappe le sol d’une onde de choc."
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque l’ennemi avec une attaque féroce."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Superconducteur",
-                "description": "Bloque les dégâts des techniques de foudre."
+                "nom": "Talent : Peau brillante",
+                "description": "Ne subit pas de dégâts critiques."
             }
         ]
     },
@@ -246,29 +228,30 @@
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "Badge de foudre"
+                "objet": "Bracelet de farceur"
             },
             {
                 "taux": "?%",
-                "objet": "Sushi au saumon"
+                "objet": "Maki concombre"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Secrets de l'âme"
+                "objet": "Billet de loterie"
             },
             {
                 "taux": "?%",
-                "objet": "Omelette au crabe"
+                "objet": "Œuf à la coque"
             }
         ]
     },
     "special_talent": {
-        "nom": "Superconducteur",
-        "description": "Bloque les dégâts des attaques de foudre."
+        "nom": "Farçade",
+        "description": "Augmente la DÉF. de tous les Esprits farceurs."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/274.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/274.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/274.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/274.wav",
+    "oldID": "278"
 }

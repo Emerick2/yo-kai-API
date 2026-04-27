@@ -1,125 +1,124 @@
 {
     "ID": "309",
-    "Nom": "Kyrycorne",
-    "Tribue": "Bienveillant",
-    "Rang": "S",
-    "PV": "461",
-    "Force": "101",
-    "Esprit": "249",
-    "Défense": "138",
-    "Vitesse": "130",
-    "Description": "Créature légendaire dotée d'une corne que d'innombrables aventuriers ont convoitée.",
-    "nourriture": "Soba",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
+    "Nom": "Dracunyan",
+    "Tribue": "Sombre",
+    "Rang": "B",
+    "PV": "369",
+    "Force": "60",
+    "Esprit": "178",
+    "Défense": "106",
+    "Vitesse": "209",
+    "Description": "Un Yo-kai chat devenu un vampire, mais ses victimes n'ont rien à craindre. Au pire, la tête leur tournera.",
+    "description SITE": "Jibanyan est devenu un vampire, mais ses victimes n'ont rien à craindre. Au pire, la tête leur tournera.",
+    "nourriture": "Chocolat",
+    "élément": "Absorption",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Kyrycorne vient de Kyryn (Yo-kai) et Corne.",
+    "étimologie": "Dracunyan vient de Dracula et de Nyan. En japonais, Gabu(? ?) veut dire Mordre et Nyan (???) veut dire Miaou.",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
+    "pouvoir": "Dracunyan a le pouvoir de transformer les gens en chat-vampire.",
     "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/309.png",
-    "numero": "201",
-    "nourriture_favorite": "Soba",
+    "numero": "233",
+    "nourriture_favorite": "Barre chocolatée",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Second souffle",
-            "effet": "Restaure une partie des PV des alliés dans le besoin."
+            "nom": "Transfusion",
+            "effet": "Vole les PV des Yo-kai voisins lors d'une attaque."
         },
         {
             "type": "Attaque",
-            "nom": "Mâchouille",
-            "effet": "45 | 99"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paradis",
+            "nom": "Vilaine morsure",
             "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Dop-corne",
-            "effet": "Le son de la corne sacrée restaure les PV des alliés."
+            "nom": "Récolte",
+            "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Corne de soin",
-            "effet": "Le Yo-kai récupère des PV grâce à la corne de soin."
+            "nom": "Sangsue",
+            "effet": "Aspire les PV d'un ennemi et les partage avec ses alliés. 150 | 150"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Caninade",
+            "effet": "Le Yo-kai se fait mâchouiller, ce qui lui fait perdre des PV."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Trop bon !",
-        "A mangé quelque chose de fade": "Merci, je suppose.",
-        "A mangé quelque chose de mauvais": "Pauvres papilles.",
-        "A la flemme": "Je fais une pause.",
-        "Est échangé": "Ravi de te rencontrer ! Nous encornerons nos ennemis ensemble !",
-        "Se lie d'amitié": "Touché ! Bien visé ! Compte-moi parmi tes amis !"
+        "A mangé quelque chose de bon": "C'est trop miaou !",
+        "A mangé quelque chose de fade": "Pas mauvais...",
+        "A mangé quelque chose de mauvais": "Très mauvais !",
+        "A la flemme": "Nyaaa, du sang...",
+        "Est échangé": "Che veux être ton ami ! Miaoutenant !",
+        "Se lie d'amitié": "Oh, tu fais de l'anémiaou... Je vais te trouver du sang frais, nya !"
     },
     "evolutions": [],
     "fusions": [],
     "image_locale": "",
-    "nom_original": "イッカク",
-    "nom_anglais": "Unikirin",
+    "nom_original": "ガブニャン",
+    "nom_anglais": "Dracunyan",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "japonaise": "Etsuko Kozakura",
+        "francaise": "Caroline Combes"
     },
     "localisations": {
         "ykw2": [
-            "Bingo-kai -Pièce verte(passé)",
-            "Bingo-kai -Pièce 5 étoiles(passé)",
-            "Bingo-kai -Pièce spéciale(passé)",
-            "Bingo-kai -Pièce joyeuse(passé)"
+            "Bingo-kai-Pièce frisson (fleur)",
+            "Bingo-kai -Pièce frisson (lune)",
+            "Bingo-kai -Pièce frisson (vent)"
         ],
         "ykw-Blasters": [
-            "Bingo-kai -Pièce verte- 1er prix"
+            "Bingo-kai - Pièce fleur",
+            "Bingo-kai - Pièce lune",
+            "Bingo-kai -Pièce oiseau",
+            "Bingo-kai - Pièce vent"
         ],
         "ykw3": [
-            "Tour du Karmagister- 4e épreuve",
-            "Blasters T- Labyrinthe de Rang S",
-            "Blasters T- Mont Mulympe - Domniscian 2.0"
-        ],
-        "Yo-kai Watch : Wibble Wobble :[]": [
-            "Finir dans le Top 5 en Mélée."
+            "Roue rêve-Pièce 5 étoiles",
+            "Roue rêve - Pièce frisson (ciel)"
         ]
     },
-    "rarite": "Classic icon",
+    "rarite": "Rare",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "45|99",
+                "nom": "Vilaine morsure",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Paradis",
+                "nom": "Récolte",
                 "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Dop-corne",
-                "puissance": "___",
-                "description": "Le son de la corne sacrée restaure les PV des alliés."
+                "nom": "Sangsue",
+                "puissance": "150|150",
+                "description": "Aspire les PV d'un ennemi et les partage avec ses alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Corne de soin",
+                "nom": "Caninade",
                 "puissance": "N/A",
-                "description": "Le Yo-kai récupère des PV grâce à la corne de soin."
+                "description": "Le Yo-kai se fait mâchouiller, ce qui lui fait perdre des PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Second souffle",
-                "description": "Restaure une partie des PV des alliés dans le besoin."
+                "nom": "Talent : Transfusion",
+                "description": "Vole les PV des Yo-kai voisins lors d'une attaque."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -127,77 +126,84 @@
                 "type": "Attaque A",
                 "nom": "Attaque",
                 "puissance": "50",
-                "description": "Attaque courte portée"
+                "description": "Attaque courte portée."
             },
             {
                 "type": "Âmultime",
-                "nom": "Dop-corne",
-                "puissance": "400",
-                "description": "Alliés retrouvent beaucoup de PV."
+                "nom": "Sangsue",
+                "puissance": "200×2",
+                "description": "Absorption des PV de l'ennemi."
             },
             {
                 "type": "Technique 1",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
+                "nom": "Attaque blitz",
+                "puissance": "25",
+                "description": "Touche plusieurs fois pour des attaques en continu."
             },
             {
                 "type": "Technique 2",
-                "nom": "Envoûtement guérisseur",
-                "puissance": "___",
-                "description": "Hausse lente des PV alliés. Charger élargit l'effet."
+                "nom": "Vortex",
+                "puissance": "30",
+                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Cercle parfait",
+                "nom": "Âmunisé",
                 "puissance": "___",
-                "description": "Crée un champ où les stats des alliés augmenteront."
+                "description": "Esquive rapidement l'attaque ennemie."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Attaque précipitée",
+                "puissance": "80",
+                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Second souffle",
-                "description": "Guérit des PV suppl. sur un Yo-kai en danger."
+                "nom": "Talent : Vampirisation",
+                "description": "Absorbe une partie des PV lors d'attaques."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
+                "nom": "Vilaine morsure",
                 "puissance": "70|112",
                 "description": ""
             },
             {
+                "type": "Technique",
+                "nom": "Récolte",
+                "puissance": "55|88",
+                "description": ""
+            },
+            {
                 "type": "Amultime",
-                "nom": "Dop-corne",
-                "puissance": "___",
-                "description": "Le son de la corne sacrée restaure les PV des alliés."
+                "nom": "Sangsue",
+                "puissance": "100|200",
+                "description": "Aspire les PV des ennemis à portée et les partage avec ses alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Corne de soin",
+                "nom": "Caninade",
                 "puissance": "N/A",
-                "description": "Le Yo-kai récupère des PV grâce à la corne de soin."
+                "description": "Le Yo-kai se fait mâchouiller, ce qui lui fait perdre des PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Second souffle",
-                "description": "Restaure une partie des PV des alliés dans le besoin."
+                "nom": "Talent : Transfusion",
+                "description": "Absorbe les PV des Yo-kai reliés, en attaquant."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Second souffle",
-        "description": "Restaure une partie des PV des alliés dans le besoin."
+        "nom": "Transfusion",
+        "description": "Vole les PV des Yo-kai voisins lors d'une attaque."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/309.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/309.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/309.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/309.wav",
+    "oldID": "320"
 }

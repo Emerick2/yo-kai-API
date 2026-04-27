@@ -1,70 +1,29 @@
 {
     "ID": "574",
-    "Nom": "Kœud",
-    "Tribue": "Mystérieux",
-    "Rang": "D",
-    "PV": "400",
-    "Force": "42",
-    "Esprit": "153",
-    "Défense": "220",
-    "Vitesse": "74",
-    "Description": "Il aide les gens à sortir de leur coquille en les envoûtant... Mais sa coquille à lui est complètement vide !",
-    "nourriture": "Pain",
-    "élément": "Glace",
-    "Rôle": "Ranger",
+    "Nom": "Hadespote",
+    "Tribue": "Sinistre",
+    "Rang": "A",
+    "PV": "450",
+    "Force": "240",
+    "Esprit": "44",
+    "Défense": "126",
+    "Vitesse": "170",
+    "Description": "Ce despote prend des décisions sans faire aucun cas des autres ! Fonctionne bien avec les gens indécis.",
+    "nourriture": "Sushi",
+    "élément": "Foudre",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "",
+    "étimologie": "Hadespotevient deHadès(dieu des Enfers dans la mythologie grecque) et deDespote(personne qui exerce une domination sur son entourage).",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Lorsque Kœud envoûte une personne, cette dernière ne se cache plus et décide de s'ouvrir aux autres.",
+    "pouvoir": "Toute personne envoûtée par Hadespote effectuera des actions sans hésitation.",
     "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/574.png",
-    "numero": "089",
-    "nourriture_favorite": "Pain",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Dur à cuire",
-            "effet": "Récupère des PV après évanouissement. (une fois)"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Plaquage absolu",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Grêle",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Lait de poule",
-            "effet": "Sa coquille laisse entrevoir de la couleur, le renforçant et restaurant ses PV."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Décoquilleur",
-            "effet": "L'allié sort de sa coquille. Toutes ses stats augmentent.Médaillon de Kœud"
-        }
-    ],
-    "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Je suis œuforique !",
-        "A mangé quelque chose de fade": "Merci.",
-        "A mangé quelque chose de mauvais": "Je ne crois pas, non.",
-        "A la flemme": "Pause rapide.",
-        "Se lie d'amitié": "On fait pas d'omelette sans casser des œufs ! J'ai perdu, mais on est amis !",
-        "Est échangé": "L'échange est un très bon moyen de sortir de sa coquille !",
-        "info_6": "Bingo-kaiEnfin sorti ! Maintenant, il me faut une coquille vide..."
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "カラヤブリ",
-    "nom_anglais": "Unshelltered",
+    "nom_original": "決めて魔王",
+    "nom_anglais": "Decidevible",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
@@ -72,31 +31,53 @@
     },
     "localisations": {
         "ykw3": [
-            "Cajoun- Bouches d'incendies",
-            "Portails mystère- Aux steaks de Cawet"
+            "Tour Morleone- 51e étage"
         ]
     },
-    "rarite": "Yo-kai Mericain",
+    "fusions": [],
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {
-        "YW3": [
+    "attaques_par_jeu": {
+        "Yo-kai Watch 3": [
             {
-                "taux": "?%",
-                "objet": "Bagel aux myrtilles"
+                "type": "Attaque",
+                "nom": "Poing précis",
+                "puissance": "70|112",
+                "description": ""
             },
             {
-                "taux": "?%",
-                "objet": "Œuf à la coque"
+                "type": "Technique",
+                "nom": "Haute tension",
+                "puissance": "70|112",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Décret diabolique",
+                "puissance": "___",
+                "description": "Son esprit de décision augmente fortement la FOR. des alliés."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Témérité",
+                "puissance": "N/A",
+                "description": "L'allié devient téméraire et sa FOR. augmente !"
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Coup décisif",
+                "description": "Met K.O. un ennemi très affaibli."
             }
         ]
     },
+    "soul_effects": null,
+    "drops": {},
     "special_talent": {
-        "nom": "Dur à cuire",
-        "description": "Récupère des PV après évanouissement. (une fois)"
+        "nom": "Coup décisif",
+        "description": "Met K.O. un ennemi très affaibli."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/574.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/574.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/574.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/574.wav",
+    "oldID": "577"
 }

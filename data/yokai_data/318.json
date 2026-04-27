@@ -1,72 +1,75 @@
 {
     "ID": "318",
-    "Nom": "Triptyk",
-    "Tribue": "Sombre",
-    "Rang": "B",
-    "PV": "391",
-    "Force": "172",
-    "Esprit": "190",
-    "Défense": "150",
-    "Vitesse": "106",
-    "Description": "Cette créature redoutable cache son œil vulnérable dans l'une de ses trois bouches pour tromper l'ennemi.",
-    "description SITE": "C'est un énorme Yo-kai serpent à trois grosses têtes et la peau aussi dure que celle d'un éléphant. Il faut viser la bouche où se trouve l'œil.",
-    "nourriture": "Oden",
+    "Nom": "Crocho",
+    "Tribue": "Sinistre",
+    "Rang": "A",
+    "PV": "526",
+    "Force": "55",
+    "Esprit": "228",
+    "Défense": "134",
+    "Vitesse": "145",
+    "Description": "Il adore se baigner dans des eaux très très chaudes. Il vaut mieux tester la température avant de plonger !",
+    "description SITE": "Ce Yo-kai aime se baigner aux sources chaudes après la fermeture. Il devient tout rouge s'il reste trop longtemps et du feu finit par sortir de son nez.",
+    "nourriture": "Curry",
     "élément": "Feu",
-    "Rôle": "Combattant",
+    "Rôle": "Tank",
     "Biographie": "",
-    "étimologie": "Triptyk vient de Triptyque, sculpture composée d'un panneau central et de deux volets mobiles pouvant se rabattre.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Triptyk peut faire disparaître ses yeux pour les remplacer par des langues et il possède des paupières résistantes aux attaques adverses, cachant son œil le plus longtemps possible. Il peut aussi cracher du feu.",
-    "personnalité": "Il adore la destruction et aime \"se lâcher\", il peut aussi se montrer manipulateur et grossier. Chaque tête semble avoir une personnalité différente, il s'exprime même à la première personne du pluriel (nous) dans la quête du Carnet Enma II.",
+    "pouvoir": "Il peut lancer du savon sur les Yo-kai pour les rendre impuissants (donne un envoûtement dans les jeux de la saga et fait glisser le Yo-kai dans Yo-kai Watch Blasters) et il peut également frapper avec les pots pour infliger des dégâts. Il est également capable cracher du feu par son nez pour augmenter la température de l'eau.",
+    "personnalité": "Il est très égoïste et adore se baigner dans des eaux très très chaudes au détriment des autres. Pourtant, dans la requête \"Les sources de l'amitié\" de Yo-kai Watch 2, nous comprenons que Crocho peut être aussi tendre et gentil.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/318.png",
-    "numero": "224",
+    "numero": "225",
     "nourriture_favorite": "Inconnue",
     "attaques": [],
     "phrases_nourriture": {},
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Yo-kai Watch Wibble Wobble",
+            "parent1": "Crocho",
+            "parent2": "Morceaux de Crocho S",
+            "resultat": "Crocho S",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "ミツマタノヅチ",
-    "nom_anglais": "Slimamander",
-    "premiere_apparition": "Yo-kai Watch",
+    "nom_original": "のぼせトンマン",
+    "nom_anglais": "Sproink",
+    "premiere_apparition": "Yo-kai Watch (jeu)",
     "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "japonaise": "Yuya Murakami",
+        "francaise": "Emmanuel Gradi"
     },
     "localisations": {
-        "Yo-kai Watch 2 Esprits Farceurs :[]": [
-            "Activez la quêteLe sceau du malà côté du Tout pour tous duCoteau fleuri. Rendez-vous à l'écolela nuit, sauvegardez et combattez Triptyk. La technique du reset est conseillée. Vous pouvez revenir le voir chaque jour pour avoir une nouvelle chance de devenir son ami."
+        "ykw2": [
+            "Quête - Les sources de l'amitié"
         ],
         "ykw-Blasters": [
-            "Bingo-kai- Pièce de force",
-            "Mission - Ultra Triptyk (+ de chance version chat)",
-            "Mission - UltraHydreux(+ de chance version chien)"
+            "Chasse Crocho - prix spécial (4 membres Peloton du chat rouge)",
+            "ChassePorcinator- prix spécial (4 membres Escadron du chien blanc)"
         ],
         "ykw3": [
-            "Chemin brumeux- Ne pas bouger lorsqu'un dialogue nous le demande",
-            "Bingo-kai -Pièce des abysses",
-            "Triptyk est également en récompense de Mumulette dans le 4e donjon du Temple de Musiris dans le modeBlasters T."
-        ],
-        "Yo-kai Watch : Wibble Wobble :[]": [
-            "Événement Boss Yo-kai- Combattre Triptyk",
-            "Bingo-kai oni"
+            "Chemin brumeux"
         ]
     },
     "rarite": "Boss",
-    "tribu_yw4": "N/A",
+    "tribu_yw4": "Forme Boss",
     "attaques_par_jeu": {},
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Triple impact",
-        "description": "Les techniques du Yo-kai ciblent tous les ennemis."
+        "nom": "Fritons",
+        "description": "Ne subit que la moitié des dégâts."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/318.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/318.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/318.wav",
-    "name_romaji_jp": "Mitsumatanotsuchi"
+    "name_romaji_jp": "Nobosetonman",
+    "oldID": "331"
 }

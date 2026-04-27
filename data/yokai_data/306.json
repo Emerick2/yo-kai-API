@@ -1,19 +1,20 @@
 {
     "ID": "306",
-    "Nom": "Ivanupieds",
-    "Tribue": "Bienveillant",
-    "Rang": "A",
-    "PV": "393",
-    "Force": "146",
-    "Esprit": "180",
-    "Défense": "113",
-    "Vitesse": "233",
-    "Description": "Il se bat pour les plus pauvres. Cependant, il a rarement les moyens de payer le bus, ce qui limite beaucoup ses efforts.",
-    "nourriture": "Lait",
-    "élément": "Vent",
-    "Rôle": "Ranger",
+    "Nom": "Comte Zapzap",
+    "Tribue": "Sombre",
+    "Rang": "C",
+    "PV": "345",
+    "Force": "130",
+    "Esprit": "61",
+    "Défense": "97",
+    "Vitesse": "215",
+    "Description": "Un Yo-kai qui prend un plaisir fou à cacher les les télécommandes dans les endroits les plus saugrenus.",
+    "description SITE": "Un Yo-kai qui prend un plaisir fou à cacher les télécommandes dans les endroits les plus saugrenus.",
+    "nourriture": "Hamburger",
+    "élément": "Glace",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Ivanupieds vient du prénom Ivanet de va-nu-pieds, une expression utilisée pour désigner une personne qui vit misérablement.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
     "pouvoir": "",
@@ -22,106 +23,99 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/306.png",
-    "numero": "177",
-    "nourriture_favorite": "Lait",
+    "numero": "227",
+    "nourriture_favorite": "Hamburger",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Acrobate",
-            "effet": "Attaque juste après avoir esquivé un ennemi."
+            "nom": "Zapping",
+            "effet": "Vole un objet lorsqu'il attaque un ennemi."
         },
         {
             "type": "Attaque",
-            "nom": "Coup retourné",
+            "nom": "Plaquage",
             "effet": "60 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Ouragan",
-            "effet": "80 | 120"
+            "nom": "Gel",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Mitraille",
-            "effet": "Jette ses pièces sur l'ennemi avec une force surprenante. 36x5 | 36x5"
+            "nom": "Télécommando",
+            "effet": "Un signal infrarouge provoque des dégâts sur l'ennemi et l'embrouille.  80 | 80"
         },
         {
             "type": "Attaque",
-            "nom": "Panier percé",
-            "effet": "Le Yo-kai dépense son argent sans compter."
+            "nom": "Zapette",
+            "effet": "Le Yo-kai perd de l'ESP. dans une vague étrange."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Merci.",
-        "A mangé quelque chose de fade": "Je mange de tout !",
-        "A mangé quelque chose de mauvais": "Pas pour moi !",
-        "A la flemme": "Pfiou...",
-        "Est échangé": "N'aie crainte, je suis là ! Mais, euh, tu peux me rembourser le ticket de bus ?",
-        "Se lie d'amitié": "L'amitié ne peut être achetée ! C'est pourquoi je dois te la demander !"
+        "A mangé quelque chose de bon": "Délicieux !",
+        "A mangé quelque chose de fade": "Euh...",
+        "A mangé quelque chose de mauvais": "Immangeable.",
+        "A la flemme": "Plus d'énergie...",
+        "Est échangé": "C'est moi que tu cherches ? Ha ha ! Tu es pile là où je voulais que tu sois !",
+        "Se lie d'amitié": "Tu n'aurais pas oublié quelque chose ? M'emmener avec toi, par exemple..."
     },
     "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "Général",
-            "de": "Nomoné",
-            "vers": "Ivanupieds",
-            "critere": "Niveau 28"
-        }
-    ],
+    "fusions": [],
     "image_locale": "",
-    "nom_original": "お金ナイダー",
-    "nom_anglais": "Supoor Hero",
+    "nom_original": "りもこんかくし",
+    "nom_anglais": "Count Zapaway",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "francaise": "Bruno Méyère"
     },
     "localisations": {
         "ykw2": [
-            "Évolution",
-            "Voie du Mystère- Grand-route dorée"
+            "Exclusif à Fantômes BouffisHauts de Granval- sous les voitures"
         ],
         "ykw-Blasters": [
-            "Évolution",
-            "Patrouille -Ourcival"
+            "Bingo-kai-Pièce bleue- 2e prix",
+            "Patrouille - Hauts de Granval"
         ],
         "ykw3": [
-            "Évolution"
+            "Cajoun- garage de Chuck",
+            "Cajoun -Casse",
+            "Bingo-kai - Pièce bleue - 2e prix (Granval)"
         ]
     },
-    "rarite": "Commun",
+    "rarite": "FB icone",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Coup retourné",
+                "nom": "Plaquage",
                 "puissance": "60|90",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Ouragan",
-                "puissance": "80|120",
+                "nom": "Gel",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Mitraille",
-                "puissance": "36×5|36×5",
-                "description": "Jette ses pièces sur l'ennemi avec une force surprenante."
+                "nom": "Télécommando",
+                "puissance": "80|80",
+                "description": "Un signal infrarouge provoque des dégâts à l'ennemi et l'embrouille."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Panier perçé",
+                "nom": "Zapette",
                 "puissance": "N/A",
-                "description": "Le Yo-kai dépense son argent sans compter."
+                "description": "Le Yo-kai perd de l'ESP. dans une vague étrange."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Acrobate",
-                "description": "Attaque juste après avoir esquivé un ennemi."
+                "nom": "Talent : Zapping",
+                "description": "Vole un objet lorsqu'il attaque un ennemi."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -133,79 +127,74 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Mitraille",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+                "nom": "Télécommando",
+                "puissance": "250",
+                "description": "Baisse temporaire de l'ATT. des ennemis."
             },
             {
                 "type": "Technique 1",
-                "nom": "Sac grappin",
-                "puissance": "___",
-                "description": "Reçois un objet aléatoire, selon la chance que tu as."
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
             },
             {
                 "type": "Technique 2",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
+                "nom": "Grêle",
+                "puissance": "40",
+                "description": "Utilise un sort de glace. Charger renforce l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Tourbillon",
-                "puissance": "40",
-                "description": "Utilise un sort de vent. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Piège zappeur",
+                "nom": "Acte de disparition",
                 "puissance": "___",
-                "description": "Peut paralyser un ennemi s'il marche dessus."
+                "description": "Invisibilité temporaire."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Charognard",
-                "description": "PV restaurés lors de la collecte d'objets/orbes oni."
+                "nom": "Talent : Cache-guérison",
+                "description": "PV restaurés peu à peu si invisible pour les ennemis."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Coup retourné",
-                "puissance": "50|110",
+                "nom": "Plaquage",
+                "puissance": "35|77",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Ouragan",
-                "puissance": "70|112",
+                "nom": "Gel",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Mitraille",
-                "puissance": "30×5|45×5",
-                "description": "Jette ses pièces sur les ennemis à portée avec une force surprenante."
+                "nom": "Télécommando",
+                "puissance": "140|140",
+                "description": "Sème la confusion au sein de la colonne devant lui en clignotant méchamment."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Dilapidateur",
+                "nom": "Zapette",
                 "puissance": "N/A",
-                "description": "Le Yo-kai essaie d'être généreux en distribuant son argent."
+                "description": "Le Yo-kai est frappé par d'étranges ondes. Son ESP. baisse."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Acrobate",
-                "description": "Attaque juste après avoir esquivé un ennemi."
+                "nom": "Talent : Zapping",
+                "description": "Vole un objet lorsqu'il attaque un ennemi."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Acrobate",
-        "description": "Attaque juste après avoir esquivé un ennemi."
+        "nom": "Zapping",
+        "description": "Vole un objet lorsqu'il attaque un ennemi."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/306.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/306.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/306.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/306.wav",
+    "oldID": "317"
 }

@@ -1,69 +1,77 @@
 {
     "ID": "336",
-    "Nom": "Arachnus",
-    "Tribue": "Sinistre",
-    "Rang": "S",
-    "PV": "452",
-    "Force": "56",
-    "Esprit": "259",
-    "Défense": "130",
-    "Vitesse": "183",
-    "Description": "Ce Yo-kai du Japon d'antan déstabilise parfois sa proie en lui révélant sa vraie forme d'araignée.",
-    "nourriture": "Soba",
-    "élément": "Terre",
+    "Nom": "Jérémya",
+    "Tribue": "Insaisissable",
+    "Rang": "A",
+    "PV": "428",
+    "Force": "224",
+    "Esprit": "136",
+    "Défense": "73",
+    "Vitesse": "152",
+    "Description": "Elle n'est jamais contente, mais alors JAMAIS, et ses jérémiades ont déjà brisé de nombreuses amitiés.",
+    "nourriture": "Douceurs",
+    "élément": "Foudre",
     "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Arachnus vient d'Arachnide une classe d'arthropodes chélicérés, terrestres ou aquatiques, souvent insectivores. C'est le groupe qui comprend, entre autres, les araignées, les scorpions et les acariens.",
+    "étimologie": "Jérémya vient de jérémiade (une plainte incessante qui agace).",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Il maîtrise les pouvoirs terrestres à la perfection et peut faire pleuvoir une pluie de météore sans problème. Il peut également devenir une véritable araignée.",
-    "personnalité": "Arachnus est très sérieux et terre-à-terre mais il est quand même prêt à faire la guerre contre quiconque préfère les beignets bouffis.",
+    "pouvoir": "",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/336.png",
-    "numero": "282",
-    "nourriture_favorite": "Soba",
+    "numero": "289",
+    "nourriture_favorite": "Déssert",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Trarachnard",
-            "effet": "Attaque renforcée après avoir battu des ennemis."
+            "nom": "Tintouin",
+            "effet": "Rend la purification plus difficile pour les ennemis."
         },
         {
             "type": "Attaque",
-            "nom": "Poing un-deux",
-            "effet": "15x2 | 33x2"
+            "nom": "Plaquage",
+            "effet": "60 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Météore",
-            "effet": "80 | 120"
+            "nom": "Foudre",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Arachaille",
-            "effet": "La force arachnéenne inflige des dégâts de terre sur un ennemi. 300 | 300"
+            "nom": "Lamentourloupe",
+            "effet": "Embrouille l'ennemi à cause de ses plaintes incessantes."
         },
         {
             "type": "Attaque",
-            "nom": "Dans la toile",
-            "effet": "Le Yo-kai est pris dans une toile et sa VIT. baisse énormément."
+            "nom": "Boulet",
+            "effet": "Le Yo-kai s'emmêle les pinceaux, ce qui fait baisser sa VIT."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Fantastique !",
-        "A mangé quelque chose de fade": "Ça peut aller.",
-        "A mangé quelque chose de mauvais": "Je n'en veux pas...",
-        "A la flemme": "Une pause.",
-        "Est échangé": "Tu as besoin d'aide ? Je vais te donner un coup de main. Ou huit.",
-        "Se lie d'amitié": "Splendide. On devrait être amis."
+        "A mangé quelque chose de bon": "C'est super bon !",
+        "A mangé quelque chose de fade": "Très ennuyeux.",
+        "A mangé quelque chose de mauvais": "Horrible décision.",
+        "A la flemme": "Que c'est rasoir...",
+        "Est échangé": "Argh,",
+        "Se lie d'amitié": "Oh non ! C'est comme ça, donc... OK ! Je peux être ton amie !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Évolution",
+            "contexte": "Général",
+            "de": "Maudieuse",
+            "vers": "Jérémya",
+            "critere": "Niveau 29"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "土蜘蛛",
-    "nom_anglais": "Arachnus",
+    "nom_original": "こんがらギャル",
+    "nom_anglais": "Whinona",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
@@ -71,55 +79,49 @@
     },
     "localisations": {
         "ykw2": [
-            "Exclusif à Esprits FarceursQuête - Le général des farceurs"
+            "Évolution",
+            "Voie du mystère- Grand-route dorée - échangeur"
         ],
         "ykw-Blasters": [
-            "Histoire - Vise le général des farceurs ! (Rare)",
-            "Bingo-kai- Pièce Arachnus"
+            "Évolution",
+            "Patrouille -Quartier des boutiques"
         ],
         "ykw3": [
-            "Quête - Humeurs changeantes",
-            "Bingo-kai -Pièce légendaire"
-        ],
-        "Yo-kai Watch 4 :[]": [
-            "Bingo-kai-Pièce Gasha(Passé, Post-game)",
-            "Bingo-kai -Pièce 5 étoiles(Passé, Post-game)",
-            "Bingo-kai -Piece 1 étoile(Passé, Post-game)",
-            "Il se trouve aussi dans le combat deBogosduTournoi Enma - Arène Onimais il n'est pas possible de devenir son ami pour autant."
+            "Évolution"
         ]
     },
-    "rarite": "Classic icon",
-    "tribu_yw4": "Goriki",
+    "rarite": "Commun",
+    "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "15×2|33×2",
+                "nom": "Plaquage",
+                "puissance": "60|90",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Météore",
-                "puissance": "80|120",
+                "nom": "Foudre",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Arachaille",
-                "puissance": "300|300",
-                "description": "La force arachnéenne inflige des dégâts de terre sur un ennemi."
+                "nom": "Lamentourloupe",
+                "puissance": "___",
+                "description": "Embrouille l'ennemi à cause de ses plaintes incessantes."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Dans la toile",
+                "nom": "Boulet",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est pris dans une toile et sa VIT. baisse énormément."
+                "description": "Le Yo-kai s'emmêle les pinceaux, ce qui fait baisser sa VIT."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Trarachnard",
-                "description": "Attaque renforcée après avoir battu des ennemis."
+                "nom": "Talent : Tintouin",
+                "description": "Rend la purification plus difficile pour les ennemis."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -131,80 +133,74 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Arachaille",
-                "puissance": "80×5",
-                "description": "Des rochers infligent de gros dégâts aux ennemis."
+                "nom": "Lamentourloupe",
+                "puissance": "___",
+                "description": "Forte baisse temporaire de l'attaque ennemie."
             },
             {
                 "type": "Technique 1",
+                "nom": "Attaque chargée",
+                "puissance": "80",
+                "description": "Attaque courte portée. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique 2",
+                "nom": "Position défensive",
+                "puissance": "___",
+                "description": "Hausse de la défense temporaire."
+            },
+            {
+                "type": "Technique à acquérir 1",
                 "nom": "Onde de choc",
                 "puissance": "120",
                 "description": "Saute et crée une onde de choc en retombant."
             },
             {
-                "type": "Technique 2",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Trembler",
-                "puissance": "50",
-                "description": "Un sort de terre puissant. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Attaque précipitée",
-                "puissance": "80",
-                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
-            },
-            {
                 "type": "Talent",
-                "nom": "Talent : Maître Web",
-                "description": "La jauge d'attaque se charge quand attaqué."
+                "nom": "Talent : Avidité",
+                "description": "Les ennemis feront tomber des objets plus souvent."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "25×2|55×2",
+                "nom": "Plaquage",
+                "puissance": "35|77",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Météore",
-                "puissance": "70|112",
+                "nom": "Foudre",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Arachaille",
-                "puissance": "155|232",
-                "description": "Invoque un rocher qui peut s'abattre n'importe où sur le plateau."
+                "nom": "Lamentourloupe",
+                "puissance": "___",
+                "description": "Embrouille tous les ennemis avec ses plaintes incessantes."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Dans la toile",
+                "nom": "Boulet",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est pris dans une toile et sa VIT. baisse fortement."
+                "description": "Le Yo-kai s'emmêle les pinceaux et ne peut plus bouger."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Trarachnard",
-                "description": "Attaque renforcée après avoir battu des ennemis."
+                "nom": "Talent : Tintouin",
+                "description": "Les ennemis ont plus de mal à se purifier."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Trarachnard",
-        "description": "Attaque renforcée après avoir battu des ennemis."
+        "nom": "Tintouin",
+        "description": "Rend la purification plus difficile pour les ennemis."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/336.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/336.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/336.wav",
-    "name_romaji_jp": "Tsuchigumo"
+    "oldID": "352"
 }

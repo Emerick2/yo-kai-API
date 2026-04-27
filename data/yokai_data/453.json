@@ -1,20 +1,20 @@
 {
     "ID": "453",
-    "Nom": "Nunchucky",
+    "Nom": "Superfouétar",
     "Tribue": "Vaillant",
     "Rang": "S",
-    "PV": "401",
-    "Force": "218",
-    "Esprit": "39",
-    "Défense": "135",
-    "Vitesse": "230",
-    "Description": "Passé maître dans un ancien style de ninjutsu. Il fauche ses ennemis avec une grâce meurtrière.",
-    "nourriture": "Sushi",
-    "élément": "Vent",
+    "PV": "443",
+    "Force": "401",
+    "Esprit": "143",
+    "Défense": "108",
+    "Vitesse": "100",
+    "Description": "Le masque de Fouétar est tombé. Il attaque désormais tous les enfants, sages ou pas sages.",
+    "nourriture": "Viande",
+    "élément": "Glace",
     "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Nunchucky vient de Nunchaku (Arme d'origine japonaise utilisée dans plusieurs écoles d'arts martiaux) et du prénom Chucky. Nom Japonais : Kotarô vient de Fûma Kotarô/?? ??? (Un des chef du clan Fûma, un clan de ninja de l'époque Sengoku). Nom Italien : Venchaku vient de Vento ('Vent' en italien) et de Nunchaku. Les noms anglais, espagnol et allemand sont les mêmes que le français.",
-    "origine": "Nunchucky est principalement inspiré deF?ma Kotar?, un ninja légendaire et chef du clan F?ma, un des plus ancien clan de shinobi du japon. Il fut traqué par Hattori Hanz?, un autre ninja légendaire qui a inspiréShurikenny. Là où Hanz? est décrit comme un ninja et un samouraï brillant par sa loyauté au service de Tokugawa Ieyasu, son seigneur, Kotar? est dépeint comme un ninja fourbe et comme un pilleur de villages. Kotar? sera responsable de la mort de Hanzô en incendiant un navire piégé par la marée où se trouvait son homologue. Kotar? sera capturé puis exécuté sous le règne Shogunat Tokugawa, un empereur qui, souhaitant se débarrasser du clan F?ma, les condamna pour piraterie. Le nom F?ma signifie \"Vent du Démon\" en japonais ce qui peut faire référence à l'attribut de Vent de Nunchucky.",
+    "étimologie": "Superfouétar vient de Super et de Fouétar.",
+    "origine": "",
     "histoire": "",
     "pouvoir": "",
     "personnalité": "",
@@ -22,13 +22,13 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/453.png",
-    "numero": "066",
-    "nourriture_favorite": "Sushi",
+    "numero": "016",
+    "nourriture_favorite": "Viande",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Neutralisation",
-            "effet": "Le décompte de mouvement des cibles est réinitialisé."
+            "nom": "Œillères",
+            "effet": "Attaque seulement les Yo-kai en face de lui."
         },
         {
             "type": "Attaque",
@@ -37,29 +37,42 @@
         },
         {
             "type": "Attaque",
-            "nom": "Tornade",
+            "nom": "Gel",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Tempête éternelle",
-            "effet": "Caché dans l'ombre, il lance un kunaï au hasard sur le plateau ennemi. 155 | 232"
+            "nom": "Fête peur",
+            "effet": "S'acharne sur la colonne devant lui et couvre les cases de lave ! 95 | 95"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Détecte-faiblesse",
+            "effet": "Expose aux yeux de tous la faiblesse d'un ennemi. Sa DÉF. baisse."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Je te remercie...",
-        "A mangé quelque chose de fade": "J'vais en reprendre...",
-        "A mangé quelque chose de mauvais": "Non, merci !",
-        "A la flemme": "P'tite pause éclair.",
-        "Se lie d'amitié": "Eh, pas mal ! On peut être amis si tu veux !",
-        "Est échangé": "J'ai été envoyé pour mettre mes talents de ninja à ton service !",
-        "info_6": "Bingo-kaiT'as une sacrée chance de m'avoir trouvé, je suis un ninja d'élite !"
+        "A mangé quelque chose de bon": "Affirmatif.",
+        "A mangé quelque chose de fade": "Oooh...",
+        "A mangé quelque chose de mauvais": "J'aurai ma revanche !",
+        "A la flemme": "Dodo...",
+        "Se lie d'amitié": "MOUAHAHA ! QUELLE FORCE ! C'EST BIEN ! AMIS ?",
+        "Est échangé": "MOUAHAHAHA ! NOUS AMIS ? MOI TOUT DÉCOUPER !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Fouétar",
+            "parent2": "Perle Périlleuse",
+            "resultat": "Superfouétar",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "コタロウ",
-    "nom_anglais": "Nunchucky",
+    "nom_original": "なまなまはげ",
+    "nom_anglais": "Brutle",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
@@ -67,15 +80,10 @@
     },
     "localisations": {
         "ykw3": [
-            "Roue rêve:",
-            "Pièce rouge- 1er prix"
-        ],
-        "Yo-kai Watch : Puni Puni :[]": [
-            "Stand d'échange :",
-            "Événement - Visite du nouvel an 2025 au sanctuaire d'Enma"
+            "Il est possible de l'obtenir enfusionnantFouétaravec laPerle Périlleuse."
         ]
     },
-    "rarite": "Yo-kai Mericain",
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
@@ -83,19 +91,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Les coups secrets"
+                "objet": "Éclat de pièce 1 étoile"
             },
             {
                 "taux": "?%",
-                "objet": "Sushi d'oursin"
+                "objet": "Bœuf persillé"
             }
         ]
     },
     "special_talent": {
-        "nom": "Neutralisation",
-        "description": "Le décompte de mouvement des cibles est réinitialisé."
+        "nom": "Œillères",
+        "description": "Attaque seulement les Yo-kai en face de lui."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/453.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/453.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/453.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/453.wav",
+    "oldID": "458"
 }

@@ -1,34 +1,34 @@
 {
     "ID": "263",
-    "Nom": "Jalouseriz",
+    "Nom": "Égare-dare",
     "Tribue": "Costaud",
     "Rang": "E",
-    "PV": "408",
-    "Force": "78",
-    "Esprit": "78",
+    "PV": "390",
+    "Force": "97",
+    "Esprit": "48",
     "Défense": "194",
-    "Vitesse": "96",
-    "Description": "Ce simple bol de riz ne peut s'empêcher de regarder avec envie les assiettes des autres et de devenir vert de jalousie.",
-    "nourriture": "Cuisine chinoise",
-    "élément": "Glace",
+    "Vitesse": "101",
+    "Description": "Ses passagers incrédules ne manquent jamais de se perdre à cause de son terrible sens de l'orientation.",
+    "nourriture": "Riz",
+    "élément": "Terre",
     "Rôle": "Tank",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
-    "personnalité": "Il envie toujours la nourriture des autres sans essayer de l'obtenir. Il a toujours un air malheureux. Jalouseriz a cependant plusieurs amis fait eux aussi de riz commeFanfanfaron,Agonigiri,Sumodon, etc...",
+    "pouvoir": "Toute personne envoûtée par Égare-dare devient incertaine d’elle-même et de ses décisions. Chez les conducteurs, cela les fait se perdre désespérément car ils ne savent plus où aller. Dans l’anime, Égare-dare envoûte ses victimes en leur tapotant sur l’épaule à l’aide de sa main, ce qui fait que la victime est entourée d’une aura bleu foncé.",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/263.png",
-    "numero": "088",
-    "nourriture_favorite": "Plats chinois",
+    "numero": "090",
+    "nourriture_favorite": "Riz",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Triztesse",
-            "effet": "Peut attaquer un allié."
+            "nom": "Obstination",
+            "effet": "Réduit les dégâts d'attaques de terre subis."
         },
         {
             "type": "Attaque",
@@ -37,60 +37,49 @@
         },
         {
             "type": "Attaque",
-            "nom": "Grêle",
+            "nom": "Galet",
             "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Manque de bol",
-            "effet": "La jalousie le pousse à attaquer, mais il finit par se blesser. 60 | 157"
+            "nom": "À l'ouest",
+            "effet": "L'ennemi est troublé par son piètre sens de l'orientation."
         },
         {
             "type": "Attaque",
-            "nom": "Convoitise",
-            "effet": "L'ennemi devient si envieux de ses alliés qu'il les attaque."
+            "nom": "Désorientation",
+            "effet": "Le Yo-kai est tellement perdu qu'il ne bouge plus."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Un casse-croûte !",
-        "A mangé quelque chose de fade": "*soupire*",
-        "A mangé quelque chose de mauvais": "Assez de riz.",
-        "A la flemme": "Je vais te hanter !",
-        "Est échangé": "C'est ici que tu vis ? Ouah... J'aurais dû venir plus tôt.",
-        "Se lie d'amitié": "Je suis trop, mais trop jaloux ! J'ai envie de devenir ton ami !"
+        "A mangé quelque chose de bon": "Je trouve ça bon.",
+        "A mangé quelque chose de fade": "Ça peut aller.",
+        "A mangé quelque chose de mauvais": "Aïe ! C'est trop dur !",
+        "A la flemme": "Je suis perdu ?",
+        "Est échangé": "Je me suis perdu tant de fois que je ne sais même plus où je suis...",
+        "Se lie d'amitié": "Si on devient amis, je pourrai te conduire où tu veux !"
     },
     "evolutions": [],
     "fusions": [
         {
             "type": "Fusion",
             "contexte": "Général",
-            "parent1": "Jalouseriz",
-            "parent2": "Pépésbrouf",
-            "resultat": "Fanfanfaron",
+            "parent1": "Égare-dare",
+            "parent2": "Bouldacier",
+            "resultat": "Charivari",
             "critere": "➨"
         }
     ],
     "image_locale": "",
-    "nom_original": "うらや飯",
-    "nom_anglais": "Wotchagot",
+    "nom_original": "迷い車",
+    "nom_anglais": "No-Go Kart",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
-        "japonaise": "Kiyono Yasuno",
-        "francaise": "Caroline Combes"
+        "japonaise": "Inconnue",
+        "francaise": "Inconnue"
     },
-    "localisations": {
-        "ykw2": [
-            "Quartier des boutiques- Contre-allées rue commerçante"
-        ],
-        "ykw-Blasters": [
-            "Exclusif à l'Escadron du chien blanc",
-            "Patrouille -La Corniche"
-        ],
-        "ykw3": [
-            "Gare de Verteplaines- Buissons"
-        ]
-    },
-    "rarite": "FB icone",
+    "localisations": {},
+    "rarite": "EF icone",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
@@ -102,21 +91,21 @@
             },
             {
                 "type": "Technique",
-                "nom": "Grêle",
+                "nom": "Galet",
                 "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Manque de bol",
-                "puissance": "60|157",
-                "description": "La jalousie le pousse à attaquer, mais il finit par se blesser."
+                "nom": "À l'ouest",
+                "puissance": "___",
+                "description": "L'ennemi est troublé par son piètre sens de l'orientation."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Convoitise",
+                "nom": "Désorientation",
                 "puissance": "N/A",
-                "description": "Le Yo-kai envoûté est jaloux de ses alliés et les attaque."
+                "description": "Le Yo-kai est tellement perdu qu'il ne bouge plus."
             },
             {
                 "type": "Attaque A",
@@ -126,14 +115,14 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Garder",
+                "nom": "Galet",
                 "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
+                "description": "Un éboulement enterre les ennemis éloignés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Triztesse",
-                "description": "Peut attaquer un allié."
+                "nom": "Talent : Obstination",
+                "description": "Réduit les dégâts d'attaques de terre subis."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -145,9 +134,9 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Manque de bol",
-                "puissance": "550",
-                "description": "Inflige de gros dégâts aux ennemis et à soi-même."
+                "nom": "À l'ouest",
+                "puissance": "___",
+                "description": "Baisse temporaire de l'attaque ennemie."
             },
             {
                 "type": "Technique 1",
@@ -169,14 +158,14 @@
             },
             {
                 "type": "Technique à acquérir 2",
-                "nom": "Grêle",
-                "puissance": "40",
-                "description": "Utilise un sort de glace. Charger renforce l'effet."
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Riz-suscitation",
-                "description": "Restaure l'allié plus vite."
+                "nom": "Talent : Délit de fuite",
+                "description": "Hausse VIT. si attaqué (cumulable), jusqu'à la fin des attaques."
             }
         ],
         "Yo-kai Watch 3": [
@@ -188,21 +177,21 @@
             },
             {
                 "type": "Technique",
-                "nom": "Grêle",
+                "nom": "Galet",
                 "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Manque de bol",
-                "puissance": "93|279",
-                "description": "Attaque la colonne devant lui en laissant libre cours à sa jalousie."
+                "nom": "À l'ouest",
+                "puissance": "___",
+                "description": "Sème la confusion dans la colonne devant lui."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Convoitise",
+                "nom": "Désorientation",
                 "puissance": "N/A",
-                "description": "Le Yo-kai envoûté devient jaloux et attaque parfois ses alliés."
+                "description": "Le Yo-kai envoûté se perd et agit moins."
             },
             {
                 "type": "Attaque A",
@@ -212,9 +201,9 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Manque de bol",
-                "puissance": "550",
-                "description": "Charge causant des dégâts élevés. Blesse l'utilisateur."
+                "nom": "À l'ouest",
+                "puissance": "___",
+                "description": "Réduction ++ temporaire de l'attaque de l'ennemi."
             },
             {
                 "type": "Attaque X",
@@ -230,8 +219,8 @@
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Triztesse",
-                "description": "Peut attaquer un allié."
+                "nom": "Talent : Obstination",
+                "description": "Réduit les de terre subis par tous les alliés."
             }
         ]
     },
@@ -240,7 +229,7 @@
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "Amulette vieillote"
+                "objet": "Amulette antique"
             },
             {
                 "taux": "?%",
@@ -250,19 +239,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Billet de loterie"
+                "objet": "Riz dans une feuille"
             },
             {
                 "taux": "?%",
-                "objet": "Raviolis chinois"
+                "objet": "Billet de loterie"
             }
         ]
     },
     "special_talent": {
-        "nom": "Triztesse",
-        "description": "Peut attaquer un allié."
+        "nom": "Obstination",
+        "description": "Réduit les dégâts d'attaques de terre subis."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/263.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/263.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/263.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/263.wav",
+    "oldID": "266"
 }

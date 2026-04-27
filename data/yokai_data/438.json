@@ -1,58 +1,105 @@
 {
     "ID": "438",
-    "Nom": "Zazel",
-    "Tribue": "sombre",
-    "Rang": "S",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "Zazel est un fin politicien Yo-kai. L'ancien Seigneur Enma l'a fait se retourner contre les humains.",
-    "description SITE": "Le bras droit du Seigneur Enma et le Chef du Conseil des Yo-kai. Même s'il est naturellement beau, noble et calme, une fois énervé il prend une forme primitive couverte de tentacules.",
-    "nourriture": "Cuisine chinoise",
-    "élément": "Absorption",
+    "Nom": "Antitaie",
+    "Tribue": "Vaillant",
+    "Rang": "E",
+    "PV": "374",
+    "Force": "178",
+    "Esprit": "43",
+    "Défense": "145",
+    "Vitesse": "96",
+    "Description": "Apparaît auprès des gens profondément endormis, et retourne leurs coussins. Si tu as mal dormi, c'est qu'il est sûrement venu te vor.",
+    "description SITE": "Apparaît auprès des gens profondément endormis, et retourne leurs coussins. Si tu as mal dormi, c'est qu'il est sûrement venu te voir.",
+    "nourriture": "Riz",
+    "élément": "Terre",
     "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Zazel vient d'Azazel, un antique démon que les anciens Cananéens croyaient habiter le désert.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Zazel peut tirer un rayon rouge avec l’œil sur son sceptre. Il peut prendre deux formes beaucoup plus puissantes : une forme primitive de lui même couverte de tentacules et Zazelmar, sa fusion avecDucaninetDucfélin. Il peut également soigner ses alliés, comme démontré dansForever Friends, ou encore donner son énergie à un guerrier, comme le montreShadowside.",
-    "personnalité": "En général, Zazel est noble calme, calme et est décrit comme un politicien très habile. Il a été convaincu parl'ancien Seigneur Enmaque les humains sont un danger pour les Yo-kai, depuis Zazel est devenu misanthrope. Il est très intelligent et calculateur comme le démontre son plan dans le second film.",
+    "pouvoir": "C'est à cause de lui que les gens dorment mal.",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/438.png",
-    "nom_original": "ぬらりひょん",
-    "nom_anglais": "Zazel",
-    "premiere_apparition": "Yo-kai Watch Blasters",
+    "numero": "002",
+    "nourriture_favorite": "Riz",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Antigel",
+            "effet": "Réduit les dégâts de glace subis par tous les alliés."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Coup de tête",
+            "effet": "55 | 121"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Galet",
+            "effet": "20 | 90"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Coup d'coussin",
+            "effet": "Se jette sur la colonne devant lui, la tête la première ! 113 | 279"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Fais pas dodo",
+            "effet": "L'ennemi se retourne dans son lit et peut pas dormir. Sa FOR. baisse."
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "Ça envoie du lourd !",
+        "A mangé quelque chose de fade": "Merci !",
+        "A mangé quelque chose de mauvais": "C'est quoi, ça... ?!",
+        "A la flemme": "J'ai sommeil...",
+        "Se lie d'amitié": "T'as tiré toute la couverture à toi ! On la partage ?",
+        "Est échangé": "Eh oh ! Toi, là-bas ! Conduis-moi jusqu'aux coussins !",
+        "info_6": "Bingo-kaiC'est moi, le cauchemar des taies d'oreiller !"
+    },
+    "evolutions": [],
+    "fusions": [],
+    "image_locale": "",
+    "nom_original": "枕返し",
+    "nom_anglais": "Flippit",
+    "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
-        "japonaise": "Takehito Koyasu",
+        "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw-Blasters": [
-            "Brigade du Lapin Lunaire",
-            "Mission - Ceux qui contrôlent les Yo-kai"
-        ],
         "ykw3": [
-            "Quête - L'ordre secret du conseil Yo-kai"
-        ],
-        "Yo-kai Watch : Puni Puni :[]": [
-            "Zazel est apparu pour la première fois lors de l'Événement du Film 2"
+            "Coteau fleuri- buissons",
+            "Coteau fleuri - ruelles",
+            "Bingo-kai-Pièce rouge- 3e prix"
         ]
     },
-    "fusions": [],
-    "rarite": "Boss",
+    "rarite": "Classic icon",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
-    "drops": {},
+    "drops": {
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "Billet de loterie"
+            },
+            {
+                "taux": "?%",
+                "objet": "Riz dans une feuille"
+            }
+        ]
+    },
     "special_talent": {
-        "nom": "Rhétorique",
-        "description": "Absorbe l'ESP. des Yo-kai reliés."
+        "nom": "Antigel",
+        "description": "Réduit les dégâts de glace subis par tous les alliés."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/438.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/438.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/438.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/438.wav",
+    "oldID": "443"
 }

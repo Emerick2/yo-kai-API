@@ -1,19 +1,19 @@
 {
     "ID": "262",
-    "Nom": "Potache",
+    "Nom": "Antonnerre",
     "Tribue": "Costaud",
-    "Rang": "E",
-    "PV": "428",
-    "Force": "96",
-    "Esprit": "52",
-    "Défense": "198",
-    "Vitesse": "66",
-    "Description": "Il adore effrayer les gens en leur faisant croire qu'il est sur le point de tomber et de se briser en mille morceaux.",
-    "nourriture": "Encas",
-    "élément": "Terre",
-    "Rôle": "Ranger",
+    "Rang": "D",
+    "PV": "313",
+    "Force": "143",
+    "Esprit": "134",
+    "Défense": "104",
+    "Vitesse": "131",
+    "Description": "Sa mère lui a cousu un joli sac dans lequel il range le pouvoir de la foudre et du tonnerre.",
+    "nourriture": "Cuisine chinoise",
+    "élément": "Foudre",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "",
+    "étimologie": "Antonnerre vient du prénom Anton et de tonnerre.",
     "origine": "",
     "histoire": "",
     "pouvoir": "",
@@ -22,57 +22,63 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/262.png",
-    "numero": "084",
-    "nourriture_favorite": "Encas",
+    "numero": "105",
+    "nourriture_favorite": "Plats chinois",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Repot éternel",
-            "effet": "Empêche tous les Yo-kai d'être ressuscités."
+            "nom": "En un éclair",
+            "effet": "Obtient une attaque préventive."
         },
         {
             "type": "Attaque",
-            "nom": "Plaquage absolu",
+            "nom": "Pointe perçante",
             "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Galet",
-            "effet": "20 | 90"
+            "nom": "Foudre",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Un pot fêlé",
-            "effet": "Sème la confusion en faisant croire qu'il va tomber."
+            "nom": "Détonnerre",
+            "effet": "Transperce un seul ennemi d'un éclair impressionnant. 65 | 170"
         },
         {
             "type": "Attaque",
-            "nom": "Fêlure",
-            "effet": "Le corps du Yo-kai est fragile. Sa DÉF. baisse."
+            "nom": "Vitesse lumière",
+            "effet": "Le Yo-kai est frappé par la foudre, ce qui augmente sa VIT."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Ouah, c'est bon !",
-        "A mangé quelque chose de fade": "Pas mon favori.",
-        "A mangé quelque chose de mauvais": "Je suis ballonné.",
-        "A la flemme": "Brrr...",
-        "Est échangé": "Youhou ! On est amis ! Oh oh... Toute cette excitation me fait chavirer...",
-        "Se lie d'amitié": "Je peux devenir ton ami ? Pfiou... Je suis vraiment nerveux..."
+        "A mangé quelque chose de bon": "Ouah, c'est épicé !",
+        "A mangé quelque chose de fade": "Merci, je suppose.",
+        "A mangé quelque chose de mauvais": "Je n'en veux pas !",
+        "A la flemme": "Une pause rapide.",
+        "Est échangé": "J'ai traversé les éclairs et la foudre pour venir ici. Alors soyons amis !",
+        "Se lie d'amitié": "Ouah ! C'était électrique ! Je peux être ton ami ?"
     },
     "evolutions": [],
     "fusions": [
         {
-            "type": "Fusion",
+            "type": "Évolution",
+            "contexte": "Yo-kai Watch 2 & Blasters",
+            "de": "Antonnerre",
+            "vers": "Parantonn",
+            "critere": "Niveau 29"
+        },
+        {
+            "type": "Évolution",
             "contexte": "Yo-kai Watch 3",
-            "parent1": "Potache",
-            "parent2": "Céramique ancienne",
-            "resultat": "Dépotache",
-            "critere": "➨"
+            "de": "Antonnerre",
+            "vers": "Parantonn",
+            "critere": "Niveau 34"
         }
     ],
     "image_locale": "",
-    "nom_original": "ドキ土器",
-    "nom_anglais": "Terrorpotta",
+    "nom_original": "雷蔵",
+    "nom_anglais": "Zappary",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
@@ -80,49 +86,43 @@
     },
     "localisations": {
         "ykw2": [
-            "Mont Sylvestre- Sentier de randonnée",
-            "Mont Sylvestre - Méga-toboggan",
-            "Tunnel sans fin",
-            "Voie du mystère- Route des farceurs - sortie",
-            "Bingo-kai-Pièce orange(présent)"
+            "Exclusif à Fantômes BouffisTunnel abandonné - ouest"
         ],
         "ykw-Blasters": [
-            "Patrouille -La Corniche",
-            "Bingo-kai - Pièce orange"
+            "Patrouille -Coteau fleuri"
         ],
         "ykw3": [
-            "Mont Sylvestre - bambous",
-            "Mont Sylvestre - Méga-toboggan",
-            "Bingo-kai - Pièce orange - 3e prix"
+            "Quartier des boutiques - poteaux électriques",
+            "Gare de Verteplaines- poteaux électriques"
         ]
     },
-    "rarite": "Commun",
+    "rarite": "FB icone",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
+                "nom": "Pointe perçante",
                 "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Galet",
-                "puissance": "20|90",
+                "nom": "Foudre",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Un pot fêlé",
-                "puissance": "___",
-                "description": "Sème la confusion en faisant croire qu'il va tomber."
+                "nom": "Détonnerre",
+                "puissance": "65|170",
+                "description": "Transperce un seul ennemi d'un éclair impressionnant."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Fêlure",
+                "nom": "Vitesse lumière",
                 "puissance": "N/A",
-                "description": "Le corps du Yo-kai est fragile. Sa DÉF. baisse."
+                "description": "Le Yo-kai est frappé par la foudre, ce qui augmente sa VIT."
             },
             {
                 "type": "Attaque A",
@@ -132,14 +132,14 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Galet",
+                "nom": "Décharge",
                 "puissance": "N/A",
-                "description": "Un éboulement enterre les ennemis éloignés."
+                "description": "Électrocute les ennemis éloignés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Repot éternel",
-                "description": "Empêche tous les Yo-kai d'être ressucités."
+                "nom": "Talent : En un éclair",
+                "description": "Obtient une attaque préventive."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -151,58 +151,64 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Un pot fêlé",
-                "puissance": "___",
-                "description": "Forte baisse temporaire de l'attaque ennemie."
+                "nom": "Détonnerre",
+                "puissance": "450",
+                "description": "Attaque de face, gros dégâts à courte portée."
             },
             {
                 "type": "Technique 1",
+                "nom": "Décharge",
+                "puissance": "40",
+                "description": "Utilise un sort de foudre. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique 2",
                 "nom": "Coup puissant",
                 "puissance": "100",
                 "description": "Attaque avec un super esprit du combattant."
             },
             {
-                "type": "Technique 2",
-                "nom": "Mine",
-                "puissance": "600",
-                "description": "Explose si un ennemi ou un allié s'en approche."
+                "type": "Technique à acquérir 1",
+                "nom": "Âmunisé",
+                "puissance": "___",
+                "description": "Esquive rapidement l'attaque ennemie."
             },
             {
-                "type": "Technique à acquérir 1",
-                "nom": "Baisse défensive",
-                "puissance": "___",
-                "description": "Baisse DÉF. ennemie. Charger élargit l'effet."
+                "type": "Technique à acquérir 2",
+                "nom": "Foudre",
+                "puissance": "50",
+                "description": "Un sort de foudre puissant. Charger renforce l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Trappeur vif",
-                "description": "Hausse de la vitesse d'installation des pièges."
+                "nom": "Talent : Antisurtension",
+                "description": "Hausse de la DÉF. lors d'un chargement d'attaque."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "20|70",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Galet",
+                "nom": "Pointe perçante",
                 "puissance": "30|105",
                 "description": ""
             },
             {
+                "type": "Technique",
+                "nom": "Foudre",
+                "puissance": "50|110",
+                "description": ""
+            },
+            {
                 "type": "Amultime",
-                "nom": "Un pot fêlé",
-                "puissance": "___",
-                "description": "Sème la confusion en faisant croire qu'il va tomber."
+                "nom": "Détonnerre",
+                "puissance": "93|279",
+                "description": "Transperce la colonne devant lui avec un éclair."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Fêlure",
+                "nom": "Vitesse lumière",
                 "puissance": "N/A",
-                "description": "Le corps du Yo-kai devient fragile. Sa DÉF. baisse."
+                "description": "Le Yo-kai envoûté est enveloppé d'électricité. Sa VIT. augmente."
             },
             {
                 "type": "Attaque A",
@@ -212,26 +218,26 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Un pot fêlé",
-                "puissance": "___",
-                "description": "Réduction ++ temporaire de l'attaque de l'ennemi."
+                "nom": "Détonnerre",
+                "puissance": "450",
+                "description": "Charge sur un ennemi. Inflige des dégâts élevés."
             },
             {
                 "type": "Attaque X",
-                "nom": "Démolibombe",
-                "puissance": "500",
-                "description": "Bombe à retardement + pouvant blesser les alliés."
+                "nom": "Décharge",
+                "puissance": "40",
+                "description": "Technique de foudre+. Plus de dégâts si chargée."
             },
             {
                 "type": "Attaque Y",
-                "nom": "Détection de pièges",
-                "puissance": "___",
-                "description": "Génère une zone qui détecte les pièges cachés."
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque l’ennemi avec une attaque féroce."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Repot éternel",
-                "description": "Empêche tous les Yo-kai d'être ressucités."
+                "nom": "Talent : En un éclair",
+                "description": "Obtient une attaque préventive."
             }
         ]
     },
@@ -240,29 +246,30 @@
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "La défense de A à Z"
+                "objet": "Anneau arc-en-ciel"
             },
             {
                 "taux": "?%",
-                "objet": "Daikon à la vapeur"
+                "objet": "Sushi crevette"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "La défense de A à Z"
+                "objet": "EXPorbe moyen"
             },
             {
                 "taux": "?%",
-                "objet": "Chips"
+                "objet": "Raviolis chinois"
             }
         ]
     },
     "special_talent": {
-        "nom": "Repot éternel",
-        "description": "Empêche tous les Yo-kai d'être ressucités."
+        "nom": "En un éclair",
+        "description": "Obtient une attaque préventive."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/262.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/262.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/262.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/262.wav",
+    "oldID": "265"
 }

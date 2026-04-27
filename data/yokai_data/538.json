@@ -1,48 +1,106 @@
 {
     "ID": "538",
-    "Nom": "Survolt",
-    "Tribue": "Bienveillant",
+    "Nom": "Camélia",
+    "Tribue": "Vaillant",
     "Rang": "S",
-    "PV": "402",
-    "Force": "144",
-    "Esprit": "163",
-    "Défense": "43",
-    "Vitesse": "291",
-    "Description": "Ce Yo-kai va deux fois plus vite. Plus vite que quoi ? Deux fois plus vite que tout. Il ralentit juste pour lire des BD.",
-    "nourriture": "Pizza",
+    "PV": "417",
+    "Force": "207",
+    "Esprit": "151",
+    "Défense": "78",
+    "Vitesse": "180",
+    "Description": "Née d'une fleur, la beauté de ce Yo-kai a gagné le cœur des gens, qui ont fait d'elle leur princesse.",
+    "nourriture": "Soba",
     "élément": "Restauration",
     "Rôle": "Guérisseur",
     "Biographie": "",
-    "étimologie": "",
+    "étimologie": "Camélia vient d'une fleur du même nom (celle où elle est née). Étymologie du nom japonais: ? (tsubaki) veut dire fleur de camellia et ? (hime) veut dire princesse.",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
+    "pouvoir": "Elle peut soigner les gens et les Yo-kai et peut créer des fleurs.",
+    "personnalité": "Elle est très gentille et soigne les gens dans le besoin. Tout le monde l'aime et personne ne peut résister à sa beauté.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/538.png",
-    "nom_original": "スピーディーＷ",
-    "nom_anglais": "Double Time",
+    "numero": "067",
+    "nourriture_favorite": "Soba",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Éclat princier",
+            "effet": "Le lanceur soignera aussi les Yo-kai placés devant."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Volée",
+            "effet": "20x2 | 44x2"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Paradis",
+            "effet": "80 | 120"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Fascinante Camélia",
+            "effet": "Son rayon camélia attaque la colonne devant elle et restaure les PV des alliés.60 | 60"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Bourgeonnement",
+            "effet": "Le bourgeonnement du camélia rend des PV à un allié.Médaillon de Camélia"
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "Hmm, j'aime ça...",
+        "A mangé quelque chose de fade": "C'est un plaisir !",
+        "A mangé quelque chose de mauvais": "C'est affreux !",
+        "A la flemme": "Juste une pause.",
+        "Se lie d'amitié": "Oh, je ne t'ai pas fait mal ? Je suis désolée, j'ai agi par réflexe...",
+        "Est échangé": "Un plaisir de te rencontrer. Laisse mon doux parfum apaiser ton âme.",
+        "info_6": "Bingo-kaiTu m'as sauvée ! Laisse-moi te redonner des forces."
+    },
+    "evolutions": [],
+    "fusions": [],
+    "image_locale": "",
+    "nom_original": "椿姫",
+    "nom_anglais": "Camellia",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
-        "japonaise": "Inconnue",
+        "japonaise": "Aya Endo",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw3": []
+        "ykw3": [
+            "Bingo-kai-Pièce 5 étoiles",
+            "Blasters T-Palais Enma ⑦- Sentinelle Yo-kai"
+        ],
+        "Yo-kai Watch : Wibble Wobble :[]": [
+            "Camélia est disponible en permanence au Bingo-kai en faisant un tirage à 3000y ou 30000y."
+        ]
     },
-    "fusions": [],
-    "rarite": "Yo-kai Mericain",
+    "rarite": "Rare",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
-    "drops": {},
+    "drops": {
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "Éclat de pièce 1 étoile"
+            },
+            {
+                "taux": "?%",
+                "objet": "Nouilles au poisson"
+            }
+        ]
+    },
     "special_talent": {
-        "nom": "Duo de soins",
-        "description": "Les soins du lanceur aident deux Yo-kai à la fois."
+        "nom": "Éclat princier",
+        "description": "Le lanceur soignera aussi les Yo-kai placés devant."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/538.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/538.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/538.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/538.wav",
+    "oldID": "540"
 }

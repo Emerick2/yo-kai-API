@@ -1,16 +1,16 @@
 {
     "ID": "743",
-    "Nom": "Clonéroptère",
-    "Tribue": "Costaud",
-    "Rang": "B",
-    "PV": "452",
-    "Force": "124",
-    "Esprit": "66",
-    "Défense": "228",
-    "Vitesse": "86",
+    "Nom": "Kappacalc",
+    "Tribue": "Mignon",
+    "Rang": "D",
+    "PV": "343",
+    "Force": "43",
+    "Esprit": "184",
+    "Défense": "108",
+    "Vitesse": "147",
     "Description": "",
-    "élément": "Terre",
-    "Rôle": "Tank",
+    "élément": "Eau",
+    "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,101 +21,108 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/743.png",
-    "nom_original": "クロカブト",
-    "nom_anglais": "Rhinopposite",
+    "nom_original": "えせガッパ",
+    "nom_anglais": "Watkappa",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw1": [],
+        "ykw1": [
+            "Avoir imité l'accent du sud, peuchère."
+        ],
         "ykw2": [
-            "A libéré toutes les tortues pendant la récréation."
+            "Rabaisse les campagnards en prétendant être citadin."
         ],
         "ykw3": [
-            "A dupé les gens en déguisant un cafard en scarabée."
+            "A mis du ketchup sur une glace à la fraise."
         ]
     },
     "fusions": [],
     "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
-    "soul_effects": null,
+    "soul_effects": {
+        "Yo-kai Watch 2": "Récupère quelques PV quand il flâne.",
+        "Yo-kai Watch Blasters": "Réduit légèrement les dégâts de l'eau.",
+        "Yo-kai Watch 3": "Récupère quelques PV quand il flâne."
+    },
     "drops": {
         "YW1": [
             {
                 "taux": "?%",
-                "objet": "Amulette armure"
-            },
-            {
-                "taux": "?%",
-                "objet": "Mélasse"
-            }
-        ],
-        "YW2": [
-            {
-                "taux": "?%",
-                "objet": "Amulette armure"
-            },
-            {
-                "taux": "?%",
-                "objet": "Mélasse"
-            }
-        ],
-        "YW3": [
-            {
-                "taux": "?%",
-                "objet": "Tout sur la défense"
+                "objet": "Techniques tip-top"
             },
             {
                 "taux": "?%",
                 "objet": "Concombre"
             }
+        ],
+        "YW2": [
+            {
+                "taux": "?%",
+                "objet": "Gourde sans fond"
+            },
+            {
+                "taux": "?%",
+                "objet": "Concombre"
+            }
+        ],
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "Gourde sans fond"
+            },
+            {
+                "taux": "?%",
+                "objet": "Maki concombre"
+            }
         ]
     },
     "special_talent": {
-        "nom": "Brise-garde",
-        "description": "N'est pas affecté par la défense adverse."
+        "nom": "Flâneur pro",
+        "description": "Récupère quelques PV quand il flâne."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/743.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/743.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/743.wav",
     "nourriture": "Légumes",
-    "nourriture_favorite": "Légume",
+    "nourriture_favorite": "Sushi",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Brise-garde",
-            "effet": "N'est pas affecté par la défense adverse."
+            "nom": "Flâneur pro",
+            "effet": "Récupère quelques PV quand il flâne."
         },
         {
             "type": "Attaque",
-            "nom": "Tour complet",
-            "effet": "80 | 120"
+            "nom": "Coup de poing",
+            "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Éboulement",
+            "nom": "Rapides",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Corne rageuse",
-            "effet": "Cogne un ennemi avec sa précieuse corne et inflige des dégâts importants. 160 | 240"
+            "nom": "Méga cascade",
+            "effet": "Produit une énorme cascade pour noyer ses ennemis. 80 | 80"
         },
         {
             "type": "Attaque",
-            "nom": "Rhinocéforce",
-            "effet": "Donne à un allié toute la FOR. d'un scarabée rhinocéros."
+            "nom": "Petit somme",
+            "effet": "Kappacap endort vite les ennemis... tout comme lui !"
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Y en a encore ?",
-        "Mange de la nourriture insipide": "*mastique*",
-        "Mange de la mauvaise nourriture": "Peuh...",
-        "A la flemme": "Je suis fatigué.",
-        "Est échangé": "Je n'ai pas de plainte à formuler quant à notre amitié. Enchanté !",
-        "Devient ton ami": "Ça c'est de l'adversaire ! Je te suivrai dans tous tes combats avec plaisir !"
-    }
+        "Mange de la bonne nourriture": "Génial !",
+        "Mange de la nourriture insipide": "C'est pas super.",
+        "Mange de la mauvaise nourriture": "Bizarre, ton truc...",
+        "A la flemme": "Je veux manger...",
+        "Est échangé": "Je suis content d'être arrivé ! C'est ... qui m'envoie !",
+        "Devient ton ami": "Plutôt cool. On fait ami-ami ?"
+    },
+    "oldID": "748"
 }

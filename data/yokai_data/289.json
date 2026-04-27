@@ -1,90 +1,106 @@
 {
     "ID": "289",
-    "Nom": "Kappadissi",
-    "Tribue": "Mignon",
-    "Rang": "S",
-    "PV": "407",
-    "Force": "54",
-    "Esprit": "181",
-    "Défense": "156",
-    "Vitesse": "225",
-    "Description": "Faux Kappa version Perfide ! Il tente sans arrêt de tirer les gens au fond de la rivière.",
-    "description SITE": "Bien qu'il soit très respecté à Granval, ce kappa exotique ne peut s'empêcher d'avoir le mal du pays parfois.",
-    "nourriture": "Cuisine chinoise",
-    "élément": "Eau",
-    "Rôle": "Combattant",
+    "Nom": "Lulutin",
+    "Tribue": "Bienveillant",
+    "Rang": "D",
+    "PV": "311",
+    "Force": "46",
+    "Esprit": "184",
+    "Défense": "112",
+    "Vitesse": "152",
+    "Description": "Ce Yo-kai espiègle se plaît dans les vieilles demeures, qu'il rend plus accueillantes.",
+    "description SITE": "Un Yo-kai enjoué qui s'installe dans de vieilles maisons et leur confère une atmosphère agréable et chaleureuse.",
+    "nourriture": "Encas",
+    "élément": "Restauration",
+    "Rôle": "Guérisseur",
     "Biographie": "",
-    "étimologie": "Kappadissi vient de Kappa et de pas d'ici.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Il a les mêmes pouvoirs que Faux Kappa.",
-    "personnalité": "Ce Kappa vient de loin et a parfois envie de retourner dans son pays d'origine.",
+    "pouvoir": "Malgré sa petite taille, Lulutin est un Yo-kai extrêmement agile et robuste. Il est également assez intelligent et trouve souvent des idées assez ingénieuses.",
+    "personnalité": "Lulutin est un Yo-kai enjoué qui essaye d'aider à faciliter la vie des humains de la maison dans laquelle il vit. Cependant dans une mini-série dédiée à Lulutin lors de la saison 2, nous apprenons que des Lulutins peuvent des caractères totalement différents, sans perdre les u bienveillance.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/289.png",
-    "numero": "159",
-    "nourriture_favorite": "Plats chinois",
+    "numero": "179",
+    "nourriture_favorite": "Encas",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Intimidation",
-            "effet": "Aucun Yo-kai ne flânera."
+            "nom": "Gros lot",
+            "effet": "Reçoit plus d'argent à la fin d'un combat."
         },
         {
             "type": "Attaque",
-            "nom": "Poing un-deux",
-            "effet": "15x2 | 33x2"
+            "nom": "Frappe",
+            "effet": "10 | 45"
         },
         {
             "type": "Attaque",
-            "nom": "Cascade",
-            "effet": "80 | 120"
+            "nom": "Guérison",
+            "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Furivière",
-            "effet": "Exploite la puissance d'une rivière pour attaquer un ennemi. 200 | 300"
+            "nom": "Tranche de rire",
+            "effet": "Le pouvoir de la rigolade restaure graduellement les PV des alliés."
         },
         {
             "type": "Attaque",
-            "nom": "Kapparition",
-            "effet": "La VIT. du Yo-kai augmente grâce à Kappadissi."
+            "nom": "Stimululus",
+            "effet": "Le Yo-kai est de bonne humeur et regagne lentement des PV."
         }
     ],
     "phrases_nourriture": {
-        "info_0": "Ate good stuffJ'adore !",
-        "info_1": "Ate average foodOuais, pas mal.",
-        "info_2": "Ate awful foodTu veux te battre ?",
-        "info_3": "LoafedUne petite sieste !",
-        "info_4": "TradedRavi de te rencontrer ! Je suis ce qu'on pourrait appeler un « Kappadissi ».",
-        "info_5": "BefriendedJe suis Kappadissi ! Quelle force tu as ! Je serai ton ami !"
+        "info_0": "Ate good stuffJ'en veux encore !",
+        "info_1": "Ate average food*mâche*",
+        "info_2": "Ate awful foodPas encore...",
+        "info_3": "LoafedJ'ai la flemme !",
+        "info_4": "TradedTu as vu tout cet espace qu'on a pour jouer ?! Je me sens déjà chez moi !",
+        "info_5": "BefriendedHé, devenons amis et allons jouer ! OK ? T'es OK, hein ?"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Évolution",
+            "contexte": "Yo-kai Watch 2",
+            "de": "Lulutin",
+            "vers": "Grégrigry",
+            "critere": "Niveau 28"
+        },
+        {
+            "type": "Évolution",
+            "contexte": "Yo-kai Watch 3",
+            "de": "Lulutin",
+            "vers": "Grégrigry",
+            "critere": "Niveau 32"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "水虎",
-    "nom_anglais": "Tigappa",
+    "nom_original": "ざしきわらし",
+    "nom_anglais": "Gnomey",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "japonaise": "Kiyono Yasuno",
+        "francaise": "Nayéli Forest"
     },
     "localisations": {
         "ykw2": [
-            "Bingo-kai-Pièce rose(passé)",
-            "Bingo-kai -Pièce 5 étoiles(passé)",
-            "Bingo-kai -Pièce spéciale(passé)",
-            "Tunnel sans fin- 40000m"
+            "Au cours de l'histoire",
+            "Vieil Ourcival- sous les maisons",
+            "Vieil Ourcival - tombes",
+            "Gare du vieil Ourcival - sous les maisons",
+            "Mont de l'Ours(Passé)",
+            "Bingo-kai-Pièce verte(passé)"
+        ],
+        "ykw-Blasters": [
+            "Patrouille -Vieux Granval"
         ],
         "ykw3": [
-            "Radeau",
-            "Pavillon de l'ambroisie",
-            "Bingo-kai -Pièce Légendaire"
-        ],
-        "Yo-kai Watch : Wibble Wobble/Puni Puni :[]": [
-            "Dans les versions japonaises et européennes, Kappadissi est apparu pour la première fois dans l'événementLa chasse aux cadeaux de Komasan de Noël, où il était disponible dans la Roue rêve.",
-            "Il apparaît parfois au Bingo-kai durant les événements, ou dans les Stands d'Échange. Il est également disponible dans laPièce Saison des Pluieset laPièce Goku."
+            "Mont Sylvestre- Bosquets de bambous",
+            "Tunnel abandonné- ouest",
+            "Tunnel abandonné - est"
         ]
     },
     "rarite": "Classic icon",
@@ -93,128 +109,118 @@
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "15×2|33×2",
+                "nom": "Frappe",
+                "puissance": "10|45",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Cascade",
-                "puissance": "80|120",
+                "nom": "Guérison",
+                "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Furivière",
-                "puissance": "200|300",
-                "description": "Exploite la puissance d'une rivière pour attaquer un ennemi."
+                "nom": "Tranche de rire",
+                "puissance": "",
+                "description": "Le pouvoir de la rigolade restaure graduellement les PV des alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Kapparition",
+                "nom": "Stimulus",
                 "puissance": "N/A",
-                "description": "La VIT. du Yo-kai augmente grâce à Kappadissi."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Rapides",
-                "puissance": "N/A",
-                "description": "Un torrent déferle sur les ennemis éloignés."
+                "description": "Le Yo-kai est de bonne humeur et regagne lentement des PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Intimidation",
-                "description": "Aucun Yo-kai ne flânera."
+                "nom": "Talent : Gros lot",
+                "description": "Reçoit plus d'argent à la fin d'un combat.*"
             }
         ],
         "Yo-kai Watch Blasters": [
             {
                 "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
             },
             {
                 "type": "Âmultime",
-                "nom": "Furivière",
-                "puissance": "50×8",
-                "description": "Une cascade inflige de gros dégâts aux ennemis."
+                "nom": "Tranche de rire",
+                "puissance": "___",
+                "description": "Restauration lente des PV des alliés proches."
             },
             {
                 "type": "Technique 1",
-                "nom": "Torrent",
-                "puissance": "40",
-                "description": "Utilise un sort d'eau. Charger renforce l'effet."
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
             },
             {
                 "type": "Technique 2",
-                "nom": "Attaque blitz",
-                "puissance": "25",
-                "description": "Touche plusieurs fois pour des attaques en continu."
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
+                "nom": "Boost de défense",
                 "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
+                "description": "Hausse DÉF. des alliés. Charger élargit l'effet."
             },
             {
                 "type": "Technique à acquérir 2",
-                "nom": "Rapides",
-                "puissance": "50",
-                "description": "Un sort d'eau puissant. Charger renforce l'effet."
+                "nom": "Envoût guérisseur",
+                "puissance": "___",
+                "description": "Hausse lente des PV alliés. Charger élargit l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Kappa euphorique",
-                "description": "PV restaurés peu à peu lors d'un chargement d'attaque."
+                "nom": "Talent : Bienfaiteur",
+                "description": "Tes PV sont restaurés graduellement."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "25×2|55×2",
+                "nom": "Frappe",
+                "puissance": "20|70",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Cascade",
-                "puissance": "70|112",
+                "nom": "Restauration",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Furivière",
-                "puissance": "155|232",
-                "description": "Invoque un véritable déluge aquatique qui peut toucher tout le plateau !"
+                "nom": "Tranche de rire",
+                "puissance": "",
+                "description": "Provoque l'hilarité avec ses pitreries et restaure peu à peu les PV des alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Kapparition",
+                "nom": "Stimulus",
                 "puissance": "N/A",
-                "description": "La VIT. du Yo-kai augmente grâce à Kappadissi."
+                "description": "Le Yo-kai est de bonne humeur et récupère progressivement des PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Intimidation",
-                "description": "Aucun Yo-kai ne flânera."
+                "nom": "Talent : Gros lot",
+                "description": "Reçoit plus d'argent à la fin d'un combat."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Intimidation",
-        "description": "Aucun Yo-kai ne flânera."
+        "nom": "Gros lot",
+        "description": "Reçoit plus d'argent à la fin d'un combat.*"
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/289.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/289.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/289.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/289.wav",
+    "name_romaji_jp": "Zashiki-warashi",
+    "oldID": "298"
 }

@@ -1,16 +1,16 @@
 {
     "ID": "315",
-    "Nom": "Hâtila",
-    "Tribue": "Sombre",
+    "Nom": "Ornella",
+    "Tribue": "Sinistre",
     "Rang": "C",
-    "PV": "366",
-    "Force": "207",
-    "Esprit": "56",
-    "Défense": "114",
-    "Vitesse": "147",
-    "Description": "Impatient, ce Yo-kai ne peut pas attendre. Il est le premier à faire la queue quand une nouveauté sort.",
-    "nourriture": "Curry",
-    "élément": "Vent",
+    "PV": "372",
+    "Force": "64",
+    "Esprit": "186",
+    "Défense": "83",
+    "Vitesse": "172",
+    "Description": "Ce Yo-kai est passé maître dans l'art d'effrayer les enfants à l'école. C'est son seul but dans la vie.",
+    "nourriture": "Encas",
+    "élément": "Absorption",
     "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
@@ -22,75 +22,73 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/315.png",
-    "numero": "225",
-    "nourriture_favorite": "Curry",
+    "numero": "272",
+    "nourriture_favorite": "Encas",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Moi d'abord",
-            "effet": "Obtient une attaque préventive."
+            "nom": "Réassort",
+            "effet": "Les envoûtements négatifs sur alliés sont intensifiés."
         },
         {
             "type": "Attaque",
-            "nom": "Poing un-deux",
-            "effet": "15x2 | 33x2"
+            "nom": "Gifle",
+            "effet": "10 | 45"
         },
         {
             "type": "Attaque",
-            "nom": "Tornade",
+            "nom": "Vortex",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Poing final",
-            "effet": "Un ennemi est troublé par une explosion de frustration contenue. 80 | 80"
+            "nom": "Sort d'ici",
+            "effet": "Un sort puissant réduit graduellement les PV de l'ennemi."
         },
         {
             "type": "Attaque",
-            "nom": "Impétuosité",
-            "effet": "Le Yo-kai ne veut pas attendre son tour et attaque ses alliés."
+            "nom": "Vieille école",
+            "effet": "Le Yo-kai est maudit par une écoliere, ce qui baisse son ESP."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "C'est trop parfait !",
-        "A mangé quelque chose de fade": "Que dire...",
-        "A mangé quelque chose de mauvais": "Impardonnable !",
-        "A la flemme": "Je me repose !",
-        "Est échangé": "Hé ! Je te signale que j'ai été ami avec",
-        "Se lie d'amitié": "Je ne peux plus attendre ! Vite, vite ! Devenons amis !"
+        "A mangé quelque chose de bon": "Hé hé !",
+        "A mangé quelque chose de fade": "Pas mal du tout !",
+        "A mangé quelque chose de mauvais": "C'est perturbant...",
+        "A la flemme": "Hé hé...",
+        "Est échangé": "Tu connais bien",
+        "Se lie d'amitié": "Tu m'as appelée ? Non ? OK... Je peux quand même venir avec toi ?"
     },
     "evolutions": [],
     "fusions": [
         {
             "type": "Fusion",
-            "contexte": "Yo-kai Watch 3",
-            "parent1": "Hâtila",
-            "parent2": "Mauvaise nouvelle",
-            "resultat": "Entout' Hâtila",
+            "contexte": "Général",
+            "parent1": "Ornella",
+            "parent2": "Revue maudite",
+            "resultat": "Sornella",
             "critere": "➨"
         }
     ],
     "image_locale": "",
-    "nom_original": "まてんし",
-    "nom_anglais": "K'mon-K'mon",
+    "nom_original": "花子さん",
+    "nom_anglais": "Toiletta",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
-        "japonaise": "Kiyono Yasuno",
-        "francaise": "Grégory Laisné"
+        "japonaise": "Ryoko Nagata",
+        "francaise": "Nathalie Bienaimé"
     },
     "localisations": {
         "ykw2": [
-            "Coteau fleuri- tombes",
-            "Clinique du Crépuscule",
-            "Tunnel sans fin",
-            "Bingo-kai-Pièce bleue",
-            "Train"
+            "École élémentaire- toilettes du 2e étage (ouvrir la porte du fond et s'approcher des toilettes)",
+            "Bingo-kai-Pièce mauve(Passé)"
         ],
         "ykw-Blasters": [
-            "Patrouille -Centre-ville"
+            "Patrouille -Hauts de Granval",
+            "Patrouille -Quartier des boutiques"
         ],
         "ykw3": [
-            "Tour Excellence- poubelles"
+            "École élémentaire - toilettes du 2e étage (ouvrir la porte du fond et s'approcher des toilettes) -Ariane"
         ]
     },
     "rarite": "Commun",
@@ -99,32 +97,32 @@
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "15×2|33×2",
+                "nom": "Gifle",
+                "puissance": "10|45",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Tornade",
+                "nom": "Vortex",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Poing final",
-                "puissance": "80|80",
-                "description": "Un ennemi est troublé par une explosion de frustration contenue."
+                "nom": "Sort d'ici",
+                "puissance": "___",
+                "description": "Un sort puissant réduit graduellement les PV de l'ennemi."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Impétuosité",
+                "nom": "Vieille école",
                 "puissance": "N/A",
-                "description": "Le Yo-kai ne veut pas attendre son tour et attaque ses alliés."
+                "description": "Le Yo-kai est maudit par une écolière, ce qui baisse son ESP."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Moi d'abord",
-                "description": "Obtient une attaque préventive."
+                "nom": "Talent : Réassort",
+                "description": "Les envoûtements négatifs des alliés sont intensifiés."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -136,79 +134,80 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Poing final",
-                "puissance": "250",
-                "description": "Dégâts à courte portée. Baisse temporaire ATT."
+                "nom": "Sort d'ici",
+                "puissance": "___",
+                "description": "PV des ennemis baissent rapidement."
             },
             {
                 "type": "Technique 1",
-                "nom": "Attaque précipitée",
-                "puissance": "80",
-                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
+                "nom": "Vortex",
+                "puissance": "30",
+                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Position de rapidité",
-                "puissance": "___",
-                "description": "Hausse de la vitesse temporaire."
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
+                "nom": "Position défensive",
                 "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
+                "description": "Hausse de la défense temporaire."
             },
             {
                 "type": "Technique à acquérir 2",
-                "nom": "Tourbillon",
+                "nom": "Siphon",
                 "puissance": "40",
-                "description": "Utilise un sort de vent. Charger renforce l'effet."
+                "description": "Absorbe beaucoup de PV. Charger renforce l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Moi d'abord !",
-                "description": "Stats diminuées 3 minutes après le début de mission."
+                "nom": "Talent : Emprise",
+                "description": "Augmente le nombre de PV absorbés."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "25×2|55×2",
+                "nom": "Gifle",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Tornade",
-                "puissance": "50|110",
+                "nom": "Vortex",
+                "puissance": "40|88",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Poing final",
-                "puissance": "140|280",
-                "description": "Frappe la colonne devant lui et y sème la confusion."
+                "nom": "Sort d'ici",
+                "puissance": "70|70",
+                "description": "Maudit la colonne devant elle, baissant peu à peu leurs PV."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Impétuosité",
+                "nom": "Vieille école",
                 "puissance": "N/A",
-                "description": "Le Yo-kai ne veut pas attendre son tour et attaque ses alliés."
+                "description": "Le Yo-kai est maudit par une écolière, ce qui baisse son ESP."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Moi d'abord",
-                "description": "Obtient une attaque préventive."
+                "nom": "Talent : Réassort",
+                "description": "Intensifie les malédictions sur les ennemis."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Moi d'abord",
-        "description": "Obtient une attaque préventive."
+        "nom": "Réassort",
+        "description": "Les envoûtements négatifs des alliés sont intensifiés."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/315.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/315.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/315.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/315.wav",
+    "oldID": "328"
 }

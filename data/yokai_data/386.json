@@ -1,18 +1,17 @@
 {
     "ID": "386",
-    "Nom": "Verrascible",
-    "Tribue": "Vaillant",
+    "Nom": "Poulpater",
+    "Tribue": "Insaisissable",
     "Rang": "B",
-    "PV": "479",
-    "Force": "289",
-    "Esprit": "51",
-    "Défense": "146",
-    "Vitesse": "49",
-    "Description": "Ce jeune citadin donne à ceux qu'il envoûte un zeste de charme et tout le chic de la ville.",
-    "description SITE": "Quelqu'un a osé le réveiller et cette tête de lard n'est pas près de lui pardonner son erreur.",
-    "nourriture": "Cuisine chinoise",
+    "PV": "452",
+    "Force": "163",
+    "Esprit": "46",
+    "Défense": "225",
+    "Vitesse": "110",
+    "Description": "Ce cracheur d'encre est le roi de la cuisine, et un ferme défenseur de la culture takoyaki.",
+    "nourriture": "Oden",
     "élément": "Feu",
-    "Rôle": "Ranger",
+    "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -23,18 +22,18 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/386.png",
-    "numero": "373",
-    "nourriture_favorite": "Plats chinois",
+    "numero": "379",
+    "nourriture_favorite": "Oden",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Instant critique",
-            "effet": "Puissance des coups critiques élevée."
+            "nom": "Contre-attaque",
+            "effet": "Peut contre-attaquer immédiatement."
         },
         {
             "type": "Attaque",
-            "nom": "Double coupure",
-            "effet": "18x2 | 39x2"
+            "nom": "Rafale de coups",
+            "effet": "10x5 | 22x5"
         },
         {
             "type": "Attaque",
@@ -43,41 +42,41 @@
         },
         {
             "type": "Attaque",
-            "nom": "Lard d'assaut",
-            "effet": "Une déferlante de coups frappe tous les ennemis. 30x5 | 30x5"
+            "nom": "Poulperce",
+            "effet": "Pique tous les ennemis à plusieurs reprises avec sa lance. 23x7 | 23x7"
         },
         {
             "type": "Attaque",
-            "nom": "Bringue",
-            "effet": "La FOR. du Yo-kai augmente grâce à l'euphorie du festival."
+            "nom": "Boule de nerfs",
+            "effet": "Le Yo-kai récupère des PV grâce au pouvoir du takoyaki."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "C'est super !",
-        "A mangé quelque chose de fade": "Pas mal.",
-        "A mangé quelque chose de mauvais": "Ptou ! Pourquoi ?",
-        "A la flemme": "Ne pas déranger...",
-        "Est échangé": "C'est pour ça qu'on m'a réveillé ? Ah, maintenant que je suis là... amis ?",
-        "Se lie d'amitié": "Tu oses me réveiller ?! Maintenant que je suis debout, autant rester ensemble."
+        "A mangé quelque chose de bon": "Ça vaut du poulpe.",
+        "A mangé quelque chose de fade": "C'est bof bof.",
+        "A mangé quelque chose de mauvais": "Arrête ça !",
+        "A la flemme": "Je suis à bout...",
+        "Est échangé": "C'est mon devoir royal de répandre la joie du takoyaki. C'est important.",
+        "Se lie d'amitié": "C'était plutôt drôle ! J'espère que ça ne te dérange pas qu'on soit amis !"
     },
     "evolutions": [],
     "fusions": [
         {
             "type": "Fusion",
             "contexte": "Général",
-            "parent1": "Bon-huiii",
-            "parent2": "Lanterne carassin",
-            "resultat": "Verrascible",
+            "parent1": "Poulpatouch",
+            "parent2": "Moule à takoyaki",
+            "resultat": "Poulpater",
             "critere": "➨"
         }
     ],
     "image_locale": "",
-    "nom_original": "ねぶた",
-    "nom_anglais": "Snortlehog",
+    "nom_original": "たこや鬼神",
+    "nom_anglais": "Takoyaking",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Frédéric Souterelle"
+        "francaise": "Inconnue"
     },
     "localisations": {
         "ykw2": [
@@ -96,8 +95,8 @@
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Double coupure",
-                "puissance": "18×2|39×2",
+                "nom": "Rafale de coups",
+                "puissance": "10×5|45×5",
                 "description": ""
             },
             {
@@ -108,32 +107,20 @@
             },
             {
                 "type": "Amultime",
-                "nom": "Lard d'assaut",
-                "puissance": "30×5|30×5",
-                "description": "Une déferlante de coups frappe tous les ennemis."
+                "nom": "Poulperce",
+                "puissance": "23×7|23×7",
+                "description": "Pique tous les ennemis à plusieurs reprises avec sa lance."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Bringue",
+                "nom": "Boule de nerfs",
                 "puissance": "N/A",
-                "description": "La FOR. du Yo-kai augmente grâce à l'euphorie du festival."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Explosion",
-                "puissance": "N/A",
-                "description": "Une bombe explose sur les ennemis et les alliés."
+                "description": "Le Yo-kai récupère des PV grâce au pouvoir du takoyaki."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Instant critique",
-                "description": "Booste les dégâts critiques."
+                "nom": "Talent : Contre-attaque",
+                "description": "Peut contre-attaquer immédiatement."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -145,39 +132,39 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Lard d'assaut",
+                "nom": "Poulperce",
                 "puissance": "40×10",
                 "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
             },
             {
                 "type": "Technique 1",
+                "nom": "Attaque chargée",
+                "puissance": "80",
+                "description": "Attaque courte portée. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique 2",
                 "nom": "Feu",
                 "puissance": "40",
                 "description": "Utilise un sort de feu. Charger renforce l'effet."
             },
             {
-                "type": "Technique 2",
-                "nom": "Démolibombe",
-                "puissance": "500",
-                "description": "Une bombe explose sur les ennemis et les alliés."
-            },
-            {
                 "type": "Technique à acquérir 1",
-                "nom": "Envoût. poison",
-                "puissance": "___",
-                "description": "Baisse lente PV ennemis. Charger élargit l'effet."
+                "nom": "Riz",
+                "puissance": "70",
+                "description": "Restaure tes PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Super guérison",
-                "description": "Guérit plus de ses propres PV."
+                "nom": "Talent : Contre-attaque",
+                "description": "Dégâts des attaques ennemies partiellement renvoyées."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Double coupure",
-                "puissance": "25×2|55×2",
+                "nom": "Rafale de coups",
+                "puissance": "8×5|17×5",
                 "description": ""
             },
             {
@@ -188,75 +175,31 @@
             },
             {
                 "type": "Amultime",
-                "nom": "Lard d'assaut",
-                "puissance": "24×5|48×5",
-                "description": "La furieuse déferlante de coups frappe tous les ennemis à portée."
+                "nom": "Poulperce",
+                "puissance": "16×7|32×7",
+                "description": "Pique les ennemis à portée, à plusieurs reprises, avec sa lance."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Bringue",
+                "nom": "Boule de nerfs",
                 "puissance": "N/A",
-                "description": "La FOR. du Yo-kai augmente grâce à l'euphorie du festival."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Lard d'assaut",
-                "puissance": "40×10",
-                "description": "Enchaîne les coups, inflige des dégâts élevés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Envoût. poison",
-                "puissance": "___",
-                "description": "PV ennemis réduits peu à peu. Portée + si chargé."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Démolibombe",
-                "puissance": "500",
-                "description": "Bombe à retardement + pouvant blesser les alliés."
+                "description": "Le Yo-kai récupère lentement des PV grâce au pouvoir du takoyaki."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Instant critique",
-                "description": "Booste les dégâts critiques."
+                "nom": "Talent : Contre-attaque",
+                "description": "Peut contre-attaquer immédiatement."
             }
         ]
     },
     "soul_effects": null,
-    "drops": {
-        "YW2": [
-            {
-                "taux": "?%",
-                "objet": "Bracelet majestueux"
-            },
-            {
-                "taux": "?%",
-                "objet": "Morceau de lard"
-            }
-        ],
-        "YW3": [
-            {
-                "taux": "?%",
-                "objet": "Grand EXPorbe"
-            },
-            {
-                "taux": "?%",
-                "objet": "Morceau de lard"
-            }
-        ]
-    },
+    "drops": {},
     "special_talent": {
-        "nom": "Instant critique",
-        "description": "Booste les dégâts critiques."
+        "nom": "Contre-attaque",
+        "description": "Peut contre-attaquer immédiatement."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/386.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/386.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/386.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/386.wav",
+    "oldID": "392"
 }

@@ -1,34 +1,35 @@
 {
     "ID": "244",
-    "Nom": "Rugis",
+    "Nom": "Onigirix",
     "Tribue": "Vaillant",
     "Rang": "A",
-    "PV": "419",
-    "Force": "361",
-    "Esprit": "43",
-    "Défense": "148",
-    "Vitesse": "250",
-    "Description": "Ce lion a compris son véritable potentiel. Il attend toujours le moment idéal pour frapper.",
-    "nourriture": "Cuisine chinoise",
-    "élément": "Glace",
+    "PV": "402",
+    "Force": "253",
+    "Esprit": "64",
+    "Défense": "136",
+    "Vitesse": "149",
+    "Description": "Ce puissant guerrier est tout feu tout flamme. Sa peau épaisse n'est pas du goût de Granpapéti.",
+    "description SITE": "Ce puissant guerrier tout feu tout flamme. Sa peau épaisse n'est pas dugoût deGranpapéti.",
+    "nourriture": "Riz",
+    "élément": "Feu",
     "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Rugis vient du cri du lion : rugissement.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Quiconque sera envoûté par ce Yo-kai reportera ce qu'il devait faire \"au moment venu\", qui est souvent le moment où il est trop tard pour le faire.",
-    "personnalité": "Il attend toujours le moment idéal pour frapper.",
+    "pouvoir": "",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/244.png",
-    "numero": "010",
-    "nourriture_favorite": "Plats chinois",
+    "numero": "018",
+    "nourriture_favorite": "Riz",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Patience",
-            "effet": "Ne fait rien pendant un ou deux tours."
+            "nom": "Risottoni",
+            "effet": "Augm. les dégâts sur les ennemis onis."
         },
         {
             "type": "Attaque",
@@ -37,247 +38,91 @@
         },
         {
             "type": "Attaque",
-            "nom": "Gel",
+            "nom": "Incendie",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Lame du fauve",
-            "effet": "Attend le bon moment pour fendre ses ennemis de sa lame. 28x8 | 28x8"
+            "nom": "Furiz",
+            "effet": "Bondit dans les airs et inflige un coup d'épée à l'ennemi. 180 | 270"
         },
         {
             "type": "Attaque",
-            "nom": "Lionisation",
-            "effet": "La force du lion s'éveille chez le Yo-kai, ce qui augmente sa FOR."
+            "nom": "Encas d'urgence",
+            "effet": "Les vertus du bon riz augmentent la FOR. du Yo-kai"
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Que c'est bon !",
-        "A mangé quelque chose de fade": "Bof bof.",
-        "A mangé quelque chose de mauvais": "Dégoûtant...",
-        "A la flemme": "Pas question...",
-        "Est échangé": "Je vais me donner à fond ! Et tu verras,",
-        "Se lie d'amitié": "Tu m'as bien eu... Le moment semble opportun pour devenir amis."
+        "A mangé quelque chose de bon": "Miam !",
+        "A mangé quelque chose de fade": "Ni bon ni mauvais.",
+        "A mangé quelque chose de mauvais": "Hors de ma vue !",
+        "A la flemme": "Je suis fatigué.",
+        "Est échangé": "Je sens une telle force en toi ! Ensemble nous vaincrons !",
+        "Se lie d'amitié": "Quelle force flamboyante... Laisse-moi t'accompagner !"
     },
     "evolutions": [],
     "fusions": [
         {
             "type": "Évolution",
-            "contexte": "Yo-kai Watch 2",
-            "de": "Roupilion",
-            "vers": "Rugis",
-            "critere": "Niveau 28"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "Yo-kai Watch Blasters",
-            "de": "Roupilion",
-            "vers": "Rugis",
-            "critere": "Niveau 30"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "Yo-kai Watch 3",
-            "de": "Roupilion",
-            "vers": "Rugis",
-            "critere": "Niveau 35"
+            "contexte": "Général",
+            "de": "Agonigiri",
+            "vers": "Onigirix",
+            "critere": "Niveau 31"
         }
     ],
     "image_locale": "",
-    "nom_original": "万尾獅子",
-    "nom_anglais": "Lie-in Heart",
+    "nom_original": "焼きおに斬り",
+    "nom_anglais": "Flamurice",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Emmanuel Gradi"
+        "francaise": "Yann Pichon"
     },
     "localisations": {
         "ykw2": [
-            "Évolution",
-            "Bingo-kai -Pièce rouge(Présent)",
-            "Bingo-kai -Pièce spéciale(Présent)",
-            "Bingo-kai -Pièce mystère (Invo)",
-            "Bingo-kai -Pièce clinquante",
-            "Bingo-kai oni- Mission Bronze - Orbe de Pierre"
+            "Évolution"
         ],
         "ykw-Blasters": [
+            "Exclusif à l'Escadron du chien blanc",
             "Évolution",
             "Patrouille -Coteau fleuri"
         ],
         "ykw3": [
             "Évolution"
-        ],
-        "Yo-kai Watch : Wibble Wobble :[]": [
-            "Faire évoluer Roupilion au niveau 36."
         ]
     },
     "rarite": "Commun",
-    "tribu_yw4": "Mononoke",
-    "attaques_par_jeu": {
-        "Yo-kai Watch 2": [
-            {
-                "type": "Attaque",
-                "nom": "Lame du fauve",
-                "puissance": "20×3|44×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Gel",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Lame du fauve",
-                "puissance": "28×8|28×8",
-                "description": "Attend le bon moment pour fendre ses ennemis de sa lame."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Lionisation",
-                "puissance": "N/A",
-                "description": "La force du lion s'éveille chez le Yo-kai, ce qui augmente sa FOR."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Tornade",
-                "puissance": "N/A",
-                "description": "Un sort de vent balaie les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Demi-sommeil",
-                "description": "Ne fait rien pendant un ou deux tours."
-            }
-        ],
-        "Yo-kai Watch Blasters": [
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Lame du fauve",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Attaque chargée",
-                "puissance": "80",
-                "description": "Attaque courte portée. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Position offensive",
-                "puissance": "___",
-                "description": "Hausse de l'attaque temporaire."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Attaque puissante",
-                "puissance": "400",
-                "description": "Rassemble ta force en une seule attaque."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Patience",
-                "description": "Stats renforcées 3 minutes après le début de la mission."
-            }
-        ],
-        "Yo-kai Watch 3": [
-            {
-                "type": "Attaque",
-                "nom": "Taillade éclair",
-                "puissance": "24×3|38×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Gel",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Lame du fauve",
-                "puissance": "20×8|30×8",
-                "description": "Attend le bon moment pour fendre ses ennemis de sa lame."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Lionisation",
-                "puissance": "N/A",
-                "description": "La force du lion s'éveille chez le Yo-kai, ce qui augmente sa FOR."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Attaque trois fois. Le coup ultime est plus puissant."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Lame du fauve",
-                "puissance": "40×10",
-                "description": "Enchaîne les coups, inflige des dégâts élevés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque puissante",
-                "puissance": "400",
-                "description": "Attaque l’ennemi avec un déluge de coups."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Position offensive",
-                "puissance": "___",
-                "description": "Booste temporairement l’attaque."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Patience",
-                "description": "Ne fait rien pendant un ou deux tours."
-            }
-        ]
-    },
+    "tribu_yw4": "N/A",
+    "attaques_par_jeu": {},
     "soul_effects": null,
     "drops": {
         "YW2": [
+            {
+                "taux": "?%",
+                "objet": "Méga EXPorbe"
+            },
+            {
+                "taux": "?%",
+                "objet": "Riz œufs saumon"
+            }
+        ],
+        "YW3": [
             {
                 "taux": "?%",
                 "objet": "Grand EXPorbe"
             },
             {
                 "taux": "?%",
-                "objet": "Lait aux fruits"
-            }
-        ],
-        "YW3": [
-            {
-                "taux": "?%",
-                "objet": "Bracelet de brute"
-            },
-            {
-                "taux": "?%",
-                "objet": "Crevette piment"
+                "objet": "Riz œufs saumon"
             }
         ]
     },
     "special_talent": {
-        "nom": "Demi-sommeil",
-        "description": "Ne fait rien pendant un ou deux tours."
+        "nom": "Risottoni",
+        "description": "Attire les attaques de feu"
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/244.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/244.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/244.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/244.wav",
+    "oldID": "245"
 }

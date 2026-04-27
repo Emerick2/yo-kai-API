@@ -1,16 +1,16 @@
 {
     "ID": "764",
-    "Nom": "Loubarbant",
-    "Tribue": "Costaud",
-    "Rang": "E",
-    "PV": "388",
-    "Force": "121",
-    "Esprit": "46",
-    "Défense": "189",
-    "Vitesse": "86",
+    "Nom": "Insomnulle",
+    "Tribue": "Sinistre",
+    "Rang": "S",
+    "PV": "408",
+    "Force": "71",
+    "Esprit": "194",
+    "Défense": "87",
+    "Vitesse": "239",
     "Description": "",
-    "élément": "Terre",
-    "Rôle": "Combattant",
+    "élément": "Glace",
+    "Rôle": "Ranger",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,22 +21,18 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/764.png",
-    "nom_original": "ブレルりん",
-    "nom_anglais": "Roughraffony",
+    "nom_original": "フゥビン",
+    "nom_anglais": "Apni",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw1": [
-            "Être incapable de savoir quoi manger pour le petit déjeuner."
-        ],
-        "ykw2": [
-            "A pris toute la journée pour commander au restaurant."
-        ],
+        "ykw1": [],
+        "ykw2": [],
         "ykw3": [
-            "A joué à la balle au prisonnier en plein match de basket."
+            "A ri du malheur d'un pauvre voyageur."
         ]
     },
     "fusions": [],
@@ -46,251 +42,185 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Coup de tête",
-                "puissance": "55|121",
+                "nom": "Volée",
+                "puissance": "20×2|44×2",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Galet",
-                "puissance": "20|90",
+                "nom": "Récolte",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Gros dur",
-                "puissance": "30|30",
-                "description": "Regarde ses ennemis et réduit leur VIT."
+                "nom": "Ondes cauchemar",
+                "puissance": "140|140",
+                "description": "Émet une onde maléfique et réduit les stats des ennemis."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Âme de rebelle",
+                "nom": "Bonne nuit",
                 "puissance": "N/A",
-                "description": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
+                "description": "L'ennemi fatigue tellement qu'il s'endort en plein combat !"
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Revanche",
-                "description": "Renvoie à l'ennemi une partie de ses dégâts."
+                "nom": "Talent : Emprise",
+                "description": "Augmente le nombre de PV absorbés."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Coup de tête",
-                "puissance": "55|121",
+                "nom": "Gifle",
+                "puissance": "10|45",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Galet",
-                "puissance": "20|90",
+                "nom": "Récolte",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Gros dur",
-                "puissance": "30|30",
-                "description": "Regarde ses ennemis et réduit leur VIT."
+                "nom": "Ondes cauchemar",
+                "puissance": "140|140",
+                "description": "Émet une onde maléfique et réduit les statistiques des ennemis."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Âme de rebelle",
+                "nom": "Bonne nuit",
                 "puissance": "N/A",
-                "description": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque à bloc",
-                "puissance": "N/A",
-                "description": "Déclenche une forte attaque à courte portée."
+                "description": "L'ennemi fatigue tellement qu'il s'endort en plein combat !"
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Revanche",
-                "description": "Renvoie à l'ennemi une partie de ses dégâts."
+                "nom": "Talent : Emprise",
+                "description": "Augmente le nombre de PV absorbés."
             }
         ],
         "Yo-kai Watch Blasters": [
             {
                 "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
             },
             {
                 "type": "Âmultime",
-                "nom": "Gros dur",
+                "nom": "Ondes cauchemar",
                 "puissance": "250",
-                "description": "Baisse temporaire de la VIT. des ennemis."
+                "description": "Baisse temporaire des stats des ennemis."
             },
             {
                 "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
+                "nom": "Vortex",
+                "puissance": "30",
+                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Galet",
-                "puissance": "40",
-                "description": "Utilise un sort de terre. Charger renforce l'effet."
+                "nom": "Baisse de défensive +",
+                "puissance": "___",
+                "description": "Forte baisse DÉF. ennemie. Charger élargit l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
+                "nom": "Envoût. multi-baisse",
+                "puissance": "___",
+                "description": "Baisse des stats ennemies. Charger élargit l'effet."
+            },
+            {
+                "type": "Technique à acquérir 2",
                 "nom": "Âmunisé",
                 "puissance": "___",
                 "description": "Esquive rapidement l'attaque ennemie."
             },
             {
-                "type": "Technique à acquérir 2",
-                "nom": "Position offensive",
-                "puissance": "___",
-                "description": "Hausse de l'attaque temporaire."
-            },
-            {
                 "type": "Talent",
-                "nom": "Talent : Finisseur",
-                "description": "Augmente dégâts sur tous les ennemis en danger."
+                "nom": "Talent : Bain de boue",
+                "description": "Hausse temporaire des stats après réanimation."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Coup de tête",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Galet",
+                "nom": "Gifle",
                 "puissance": "30|105",
                 "description": ""
             },
             {
+                "type": "Technique",
+                "nom": "Récolte",
+                "puissance": "55|88",
+                "description": ""
+            },
+            {
                 "type": "Amultime",
-                "nom": "Gros dur",
-                "puissance": "46|46",
-                "description": "Lance un regard terrible sur la colonne devant lui. Baisse fortement la VIT."
+                "nom": "Ondes cauchemar",
+                "puissance": "___",
+                "description": "Émet une onde maléfique et baisse toutes les stats de ses ennemis."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Âme de rebelle",
+                "nom": "Bonne nuit",
                 "puissance": "N/A",
-                "description": "L'ennemi se rebelle et sa DÉF. diminue."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Attaque trois fois. Le coup ultime est plus puissant."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Gros dur",
-                "puissance": "250",
-                "description": "Attaque et réduit un instant la VIT. de l'ennemi."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque l’ennemi avec une attaque féroce."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Position offensive",
-                "puissance": "___",
-                "description": "Booste temporairement l’attaque."
+                "description": "L'ennemi n'a qu'une envie : dormir. Il n'agit plus."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Banane",
-                "description": "Esquivera les coups de tête ennemis."
+                "nom": "Talent : Emprise",
+                "description": "Augmente le nombre de PV absorbés."
             }
         ]
     },
     "soul_effects": null,
-    "drops": {
-        "YW1": [
-            {
-                "taux": "?%",
-                "objet": "Pensez Karaté"
-            },
-            {
-                "taux": "?%",
-                "objet": "Petit EXPorbe"
-            }
-        ],
-        "YW2": [
-            {
-                "taux": "?%",
-                "objet": "Amulette protectrice"
-            },
-            {
-                "taux": "?%",
-                "objet": "Hamburger"
-            }
-        ],
-        "YW3": [
-            {
-                "taux": "?%",
-                "objet": "La défense de A à Z"
-            },
-            {
-                "taux": "?%",
-                "objet": "Ramen minute"
-            }
-        ]
-    },
+    "drops": {},
     "special_talent": {
-        "nom": "Revanche",
-        "description": "Renvoie à l'ennemi une partie de ses dégâts."
+        "nom": "Emprise",
+        "description": "Augmente le nombre de PV absorbés."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/764.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/764.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/764.wav",
-    "nourriture": "Ramen",
-    "nourriture_favorite": "Ramen",
+    "nourriture": "Bonbons",
+    "nourriture_favorite": "Sucrerie",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Revanche",
-            "effet": "Renvoie à l'ennemi une partie de ses dégâts."
+            "nom": "Emprise",
+            "effet": "Augmente le nombre de PV absorbés."
         },
         {
             "type": "Attaque",
-            "nom": "Coup de tête",
-            "effet": "55 | 121"
+            "nom": "Gifle",
+            "effet": "10 | 45"
         },
         {
             "type": "Attaque",
-            "nom": "Galet",
-            "effet": "20 | 90"
+            "nom": "Récolte",
+            "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Gros dur",
-            "effet": "Regarde ses ennemis et réduit leur VIT. 30 | 30"
+            "nom": "Ondes cauchemar",
+            "effet": "Émet une onde maléfique et réduit toutes les statistiques des ennemis. 140 | 140"
         },
         {
             "type": "Attaque",
-            "nom": "Âme de rebelle",
-            "effet": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
+            "nom": "Bonne nuit",
+            "effet": "Le Yo-kai s'endort et ne peut plus agir."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Mouais, pas mal.",
-        "Mange de la nourriture insipide": "Tout pour tous ?",
-        "Mange de la mauvaise nourriture": "Arrête le carnage.",
-        "A la flemme": "J'ai mal...",
-        "Est échangé": "C'est donc ici ma nouvelle maison ? Ah. On va bien s'amuser, toi et moi.",
-        "Devient ton ami": "Tu aimes jouer au voyou hein ? Moi aussi, ça tombe bien ! Devenons amis !"
-    }
+        "A mangé quelque chose de bon": "Que c'est bon !",
+        "A mangé quelque chose de fade": "C'est d'un banal.",
+        "A mangé quelque chose de mauvais": "Quel cauchemar...",
+        "A la flemme": "Fatiguée...",
+        "Est échangé": "J'ai partagé des rêves fantastiques avec",
+        "Se lie d'amitié": "Tu veux que je sois ton amie ? J'ai de beaux rêves à revendre..."
+    },
+    "oldID": "769"
 }

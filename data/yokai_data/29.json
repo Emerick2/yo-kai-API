@@ -1,20 +1,20 @@
 {
     "ID": "29",
-    "Nom": "B3-NK1",
+    "Nom": "Zerberker",
     "Tribue": "Vaillant",
-    "Rang": "B",
-    "PV": "453",
-    "Force": "231",
-    "Esprit": "71",
-    "Défense": "160",
-    "Vitesse": "79",
-    "Description": "Mi-machine, mi-Yo-kai, il se pourrait même que ce soit le premier Yo-kai cyborg du monde.",
-    "nourriture": "Cuisine chinoise",
-    "élément": "Foudre",
-    "Rôle": "Tank",
+    "Rang": "A",
+    "PV": "402",
+    "Force": "310",
+    "Esprit": "50",
+    "Défense": "135",
+    "Vitesse": "140",
+    "Description": "Une légende dit qu'il aurait détruit un village dans un accès de colère. Tu exploseras de rage s'il est dans les parages.",
+    "nourriture": "Viande",
+    "élément": "Feu",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Karakuri Benkei se traduit par Benkei mécanique B3-NK1 est le nom Benkei partiellement chiffré pour ressembler au numéro de série d'une machine.",
-    "origine": "B3-NK1, comme Benkei, B3-NK1 est basé sur le moine guerrier devenu lieutenant qui a servi Minamoto no Yoshitsune Son nom japonais, Karakuri Benkei, fait référence auxKarakuri ningyo, marionnettes mécanisées construites du 17e au 19e siècle à des fins de divertissement, de festivals et de tours de scène.",
+    "étimologie": "",
+    "origine": "",
     "histoire": "",
     "pouvoir": "",
     "personnalité": "",
@@ -22,13 +22,13 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/29.png",
-    "numero": "020",
-    "nourriture_favorite": "Plats chinois",
+    "numero": "026",
+    "nourriture_favorite": "Viande",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Chasse-lame",
-            "effet": "La puissance augmente à chaque ennemi battu."
+            "nom": "Casse-pieds",
+            "effet": "Peut attaquer un allié."
         },
         {
             "type": "Attaque",
@@ -37,50 +37,64 @@
         },
         {
             "type": "Attaque",
-            "nom": "Décharge",
+            "nom": "Feu",
             "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Fusil B3-NK1",
-            "effet": "Tire des lames telle une arme. Chance d'infliger un coup critique ou d'échouer. 20x9 | 20x9"
+            "nom": "Lame Zerberker",
+            "effet": "Devient fou avec ses sabres et taille tous ses adversaires. 20x10 | 20x10"
         },
         {
             "type": "Attaque",
-            "nom": "Force de cyborg",
-            "effet": "Renforce la DÉF. d'un allié en robotisant une partie de son corps !"
+            "nom": "Furie",
+            "effet": "Agace un ennemi et le fait attaquer ses alliés."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est délicieux !",
-        "Mange de la nourriture insipide": "Ça peut aller...",
-        "Mange de la mauvaise nourriture": "HORRIBLE.",
-        "A la flemme": "Juste une pause...",
-        "Est échangé": "Calibrage des paramètres système de reconnaissance d'amitié. Initialisation...",
-        "Devient ton ami": "C'était très intéressant. Bon, d'accord. Je viens avec toi."
+        "Mange de la bonne nourriture": "Oui !",
+        "Mange de la nourriture insipide": "Hmmmm...",
+        "Mange de la mauvaise nourriture": "Bah !",
+        "A la flemme": "Une petite sieste.",
+        "Est échangé": "Jamais, oh, jamais je ne pardonnerai à",
+        "Devient ton ami": "C'est nul ! Comment j'ai fait pour perdre ? Je dois te rejoindre ! Il le faut !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Trépigno",
+            "parent2": "Sabre déchaîné",
+            "resultat": "Zerberker",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "からくりベンケイ",
-    "nom_anglais": "B3-NK1",
-    "premiere_apparition": "Yo-kai Watch (jeu)",
+    "nom_original": "くしゃ武者",
+    "nom_anglais": "Zerberker",
+    "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
         "ykw1": [
-            "La Corniche-Musée lac des Coloquintes (nuit)"
+            "Quête - Une épée en offrande.",
+            "Limbes Éternelles– 7e et 8e cercles"
         ],
         "ykw2": [
-            "Salle des portails - Zone de passage piéton - 2e"
-        ],
-        "ykw-Blasters": [
-            "Patrouille - La Corniche"
+            "Fusion",
+            "Bingo-kai–Pièce rouge(Passé)",
+            "Blasters - Bingo-kai - Mission Bronze - Orbe en Pierre",
+            "Blasters - Bingo-kai - Mission Argent - Orbe en Or"
         ],
         "ykw3": [
-            "La Corniche - sous les voitures"
+            "Fusion",
+            "Mode Blasters T - Palais Enma"
+        ],
+        "Yo-kai Watch : Wibble Wobble :[]": [
+            "Égouts F - Stage Secret 6-10"
         ]
     },
     "rarite": "Commun",
@@ -95,26 +109,26 @@
             },
             {
                 "type": "Technique",
-                "nom": "Décharge",
+                "nom": "Feu",
                 "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Fusil B3-NK1",
-                "puissance": "19×9|19×9",
-                "description": "Tire des lames telle une arme. Chance d'infliger un coup critique ou d'échouer."
+                "nom": "Lame Zerberker",
+                "puissance": "20×10|20×10",
+                "description": "Devient fou avec ses sabres et taille tous ses adversaires."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Force de cyborg",
+                "nom": "Furie",
                 "puissance": "N/A",
-                "description": "Renforce la DÉF. d'un allié en robotisant une partie de son corps !"
+                "description": "Agace un ennemi et le fait attaquer ses alliés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Chasse-lame",
-                "description": "La puissance augmente à chaque ennemi battu."
+                "nom": "Talent : Casse-pieds",
+                "description": "Peut attaquer un allié."
             }
         ],
         "Yo-kai Watch 2": [
@@ -126,21 +140,21 @@
             },
             {
                 "type": "Technique",
-                "nom": "Décharge",
+                "nom": "Feu",
                 "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Fusil B3-NK1",
-                "puissance": "20×9|20×9",
-                "description": "Tire des lames telle une arme. Chance d'infliger un coup critique ou d'échouer."
+                "nom": "Lame Zerberker",
+                "puissance": "20×10|20×10",
+                "description": "Devient fou avec ses sabres et taille tous ses adversaires."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Force de cyborg",
+                "nom": "Furie",
                 "puissance": "N/A",
-                "description": "Renforce la DÉF. d'un allié en robotisant une partie de son corps !"
+                "description": "Agace un ennemi et le fait attaquer ses alliés."
             },
             {
                 "type": "Attaque A",
@@ -150,57 +164,51 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Explosion",
+                "nom": "Incendie",
                 "puissance": "N/A",
-                "description": "Une bombe explose sur les ennemis et les alliés."
+                "description": "Un sort de feu brûle les ennemis éloignés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Chasse-lame",
-                "description": "La puissance augmente à chaque ennemi battu."
+                "nom": "Talent : Casse-pieds",
+                "description": "Peut attaquer un allié."
             }
         ],
         "Yo-kai Watch Blasters": [
             {
                 "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
             },
             {
                 "type": "Âmultime",
-                "nom": "FUSIL B3-NK1",
+                "nom": "Lame Zerberker",
                 "puissance": "40×10",
                 "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
             },
             {
                 "type": "Technique 1",
-                "nom": "Découragement",
-                "puissance": "80",
-                "description": "Baisse temporaire ATT. des ennemis touchés."
+                "nom": "Attaque puissante",
+                "puissance": "400",
+                "description": "Rassemble ta force en une seule attaque."
             },
             {
                 "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
+                "nom": "Attaque blitz",
+                "puissance": "25",
+                "description": "Touche plusieurs fois pour des attaques en continu."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Armure de fer",
+                "nom": "Position invincible",
                 "puissance": "___",
-                "description": "Forte réduction des dégâts infligés. Attire l'attention."
+                "description": "Invincibilité temporaire."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Chasse-lame",
-                "description": "Hausse ATT.temporaire après défaite ennemie."
+                "nom": "Talent : C'est tout ?",
+                "description": "Hausse ATT. si attaqué (cumulable), jusqu'à la fin des attaques."
             }
         ],
         "Yo-kai Watch 3": [
@@ -212,50 +220,50 @@
             },
             {
                 "type": "Technique",
-                "nom": "Décharge",
+                "nom": "Feu",
                 "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Fusil B3-NK1",
-                "puissance": "14×9|28×9",
-                "description": "Tire des lames telle une arme. Chance d'infliger un coup critique ou d'échouer."
+                "nom": "Lame Zerberker",
+                "puissance": "16×10|24×10",
+                "description": "Devient fou avec ses sabres et entaille les ennemis à portée."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Force de cyborg",
+                "nom": "Furie",
                 "puissance": "N/A",
-                "description": "Renforce la DÉF. d'un allié en robotisant une partie de son corps !"
+                "description": "Agace un ennemi et le fait parfois attaquer ses alliés."
             },
             {
                 "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Attaque trois fois. Le coup ultime est plus puissant."
             },
             {
                 "type": "Âmultime",
-                "nom": "FUSIL B3-NK1",
+                "nom": "Lame Zerberker",
                 "puissance": "40×10",
                 "description": "Enchaîne les coups, inflige des dégâts élevés."
             },
             {
                 "type": "Attaque X",
-                "nom": "Découragement",
-                "puissance": "80",
-                "description": "Fait chuter l’attaque d’un ennemi pendant un instant."
+                "nom": "Attaque puissante",
+                "puissance": "400",
+                "description": "Attaque l’ennemi avec un déluge de coups."
             },
             {
                 "type": "Attaque Y",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi, attirant ainsi son attention."
+                "nom": "Attaque blitz",
+                "puissance": "25",
+                "description": "Assaut continu. Le coup ultime est plus puissant."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Chasse-lame",
-                "description": "↑ puissance, à chaque ennemi battu."
+                "nom": "Talent : Casse-pieds",
+                "description": "Peut attaquer un allié."
             }
         ]
     },
@@ -264,39 +272,40 @@
         "YW1": [
             {
                 "taux": "?%",
-                "objet": "Ceinture de retenue"
+                "objet": "Bracelet obscur"
             },
             {
                 "taux": "?%",
-                "objet": "Cheeseburger"
+                "objet": "Spiritizer Y"
             }
         ],
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "Bracelet de rocker"
+                "objet": "Bracelet de comète"
             },
             {
                 "taux": "?%",
-                "objet": "Cheeseburger"
+                "objet": "Spiritizer Y"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Bracelet de force"
+                "objet": "Langue de bœuf"
             },
             {
                 "taux": "?%",
-                "objet": "Omelette au crabe"
+                "objet": "Éclat de pièce 1 étoile"
             }
         ]
     },
     "special_talent": {
-        "nom": "Chasse-lame",
-        "description": "La puissance augmente à chaque ennemi battu."
+        "nom": "Casse-pieds",
+        "description": "Peut attaquer un allié."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/29.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/29.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/29.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/29.wav",
+    "oldID": "30"
 }

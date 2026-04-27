@@ -1,17 +1,17 @@
 {
     "ID": "270",
-    "Nom": "Millyeux",
-    "Tribue": "Sombre",
+    "Nom": "Parantonn",
+    "Tribue": "Costaud",
     "Rang": "A",
-    "PV": "367",
-    "Force": "176",
-    "Esprit": "176",
-    "Défense": "220",
-    "Vitesse": "130",
-    "Description": "L'un de ses nombreux yeux est relié à son cœur. Tu dois trouver lequel si tu veux le vaincre.",
-    "nourriture": "Viande",
-    "élément": "Terre",
-    "Rôle": "Tank",
+    "PV": "504",
+    "Force": "206",
+    "Esprit": "195",
+    "Défense": "128",
+    "Vitesse": "140",
+    "Description": "Il s'attire les foudres des autres et le danger le suit partout où il va. Sa vie est loin d'être relaxante.",
+    "nourriture": "Cuisine chinoise",
+    "élément": "Foudre",
+    "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -22,48 +22,63 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/270.png",
-    "numero": "239",
-    "nourriture_favorite": "Viande",
+    "numero": "106",
+    "nourriture_favorite": "Plats chinois",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Œil pour œil",
-            "effet": "Réussit toutes ses attaques."
+            "nom": "Superconducteur",
+            "effet": "Bloque les dégâts des attaques de foudre."
         },
         {
             "type": "Attaque",
-            "nom": "Poing météore",
-            "effet": "20x3 | 30x3"
+            "nom": "Percée critique",
+            "effet": "30 | 66"
         },
         {
             "type": "Attaque",
-            "nom": "Météore",
+            "nom": "Haute tension",
             "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Rayeunnement",
-            "effet": "Ses yeux décochent des rayons lumineux contre l'ennemi. 37x5 | 37x5"
+            "nom": "Foudre divine",
+            "effet": "Libère la puissance électrique qu'il a en lui sur ses ennemis. 180 | 180"
         },
         {
             "type": "Attaque",
-            "nom": "Mauvais œil",
-            "effet": "Le Yo-kai est scruté par 100 yeux et perd de la FOR."
+            "nom": "Vitesse lumière",
+            "effet": "Le Yo-kai est frappé par la foudre, ce qui augmente sa VIT."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Miam miam...",
-        "A mangé quelque chose de fade": "C'était... pas mal.",
-        "A mangé quelque chose de mauvais": "Pas croyable...",
-        "A la flemme": "Hmm... zzz...",
-        "Est échangé": "Ah, c'était notre destinée. Impossible d'oublier tes yeux si perçants.",
-        "Se lie d'amitié": "Mes yeux sont tout à fait normaux ! Je resterai avec toi pour toujours..."
+        "A mangé quelque chose de bon": "Quel bon goût !",
+        "A mangé quelque chose de fade": "Rien de spécial.",
+        "A mangé quelque chose de mauvais": "Je passe !",
+        "A la flemme": "Je me recharge !",
+        "Est échangé": "Il y a une tension entre nous ! Je la sens déjà !",
+        "Se lie d'amitié": "Je veux être ton ami. Quoiqu'il arrive, je serai toujours là pour toi !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Évolution",
+            "contexte": "Yo-kai Watch 2 & Blasters",
+            "de": "Antonnerre",
+            "vers": "Parantonn",
+            "critere": "Niveau 29"
+        },
+        {
+            "type": "Évolution",
+            "contexte": "Yo-kai Watch 3",
+            "de": "Antonnerre",
+            "vers": "Parantonn",
+            "critere": "Niveau 34"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "百々目鬼",
-    "nom_anglais": "Eyesoar",
+    "nom_original": "ヒライ神",
+    "nom_anglais": "Frazzel",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
@@ -71,49 +86,60 @@
     },
     "localisations": {
         "ykw2": [
-            "Quête - Épreuves de Nyada I"
+            "Évolution"
         ],
         "ykw-Blasters": [
-            "Patrouille -Plaines Plinpot"
+            "Évolution",
+            "Patrouille -Coteau fleuri"
         ],
         "ykw3": [
-            "Gare de Verteplaines- rizières",
-            "Bingo-kai oni",
-            "Bingo-kai/Roue Rêve:Pièce noir de jais2ieme Prix"
+            "Évolution"
         ]
     },
-    "rarite": "Classic icon",
+    "rarite": "FB icone",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Poing météore",
-                "puissance": "20×3|30×3",
+                "nom": "Percée critique",
+                "puissance": "30|66",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Météore",
+                "nom": "Haute tension",
                 "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Rayeunnement",
-                "puissance": "37×5|37×5",
-                "description": "Ses yeux décochent des rayons lumineux contre l'ennemi."
+                "nom": "Foudre divine",
+                "puissance": "180|180",
+                "description": "Libère la puissance électrique qu'il a en lui sur ses ennemis."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Mauvais œil",
+                "nom": "Vitesse lumière",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est scruté par 100 yeux et perd de la FOR."
+                "description": "Le Yo-kai est frappé par la foudre, ce qui augmente sa VIT."
+            },
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "N/A",
+                "description": "Déclenche une attaque à courte portée."
+            },
+            {
+                "type": "Attaque X",
+                "nom": "Foudre",
+                "puissance": "N/A",
+                "description": "Foudroie les ennemis éloignés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Œil pour œil",
-                "description": "Réussit toutes ses attaques."
+                "nom": "Talent : Superconducteur",
+                "description": "Bloque les dégâts des attaques de foudre."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -125,79 +151,125 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Rayeunnement",
-                "puissance": "56×9",
-                "description": "Un rayon inflige de gros dégâts aux ennemis."
+                "nom": "Foudre divine",
+                "puissance": "80×5",
+                "description": "La foudre inflige de gros dégâts aux ennemis."
             },
             {
                 "type": "Technique 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
+                "nom": "Décharge",
+                "puissance": "40",
+                "description": "Utilise un sort de foudre. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
+                "nom": "Onde de choc",
+                "puissance": "120",
+                "description": "Saute et crée une onde de choc en retombant."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Armure de fer",
+                "nom": "Âmunisé",
                 "puissance": "___",
-                "description": "Forte réduction des dégâts infligés. Attire l'attention."
+                "description": "Esquive rapidement l'attaque ennemie."
             },
             {
                 "type": "Technique à acquérir 2",
-                "nom": "Déblindage +",
-                "puissance": "80",
-                "description": "Baisse temporaire DÉF. des ennemis touchés."
+                "nom": "Foudre",
+                "puissance": "50",
+                "description": "Un sort de foudre puissant. Charger renforce l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Bain de boue",
-                "description": "Hausse temporaire des stats après réanimation."
+                "nom": "Talent : Antisurtension",
+                "description": "Hausse de la DÉF. lors d'un chargement d'attaque."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Poing météore",
-                "puissance": "24×3|38×3",
+                "nom": "Percée critique",
+                "puissance": "10|35",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Météore",
+                "nom": "Haute tension",
                 "puissance": "70|112",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Rayeunnement",
-                "puissance": "32×5|48×5",
-                "description": "Ses yeux tirent des rayons lumineux en direction des ennemis à portée."
+                "nom": "Foudre divine",
+                "puissance": "148|222",
+                "description": "Frappe les cibles à portée avec toute l'électricité accumulée jusque-là."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Mauvais œil",
+                "nom": "Vitesse lumière",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est scruté par 100 yeux et n'ose plus bouger."
+                "description": "Le Yo-kai envoûté est enveloppé d'électricité. Sa VIT. augmente."
+            },
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque un ennemi proche."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Foudre divine",
+                "puissance": "80×5",
+                "description": "Déluge de foudre qui inflige des dégâts élevés."
+            },
+            {
+                "type": "Attaque X",
+                "nom": "Décharge",
+                "puissance": "40",
+                "description": "Technique de foudre+. Plus de dégâts si chargée."
+            },
+            {
+                "type": "Attaque Y",
+                "nom": "Onde de choc",
+                "puissance": "120",
+                "description": "Saute en hauteur et frappe le sol d’une onde de choc."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Bain de boue",
-                "description": "Se venge sur les ennemis quand il est battu."
+                "nom": "Talent : Superconducteur",
+                "description": "Bloque les dégâts des techniques de foudre."
             }
         ]
     },
     "soul_effects": null,
-    "drops": {},
+    "drops": {
+        "YW2": [
+            {
+                "taux": "?%",
+                "objet": "Badge de foudre"
+            },
+            {
+                "taux": "?%",
+                "objet": "Sushi au saumon"
+            }
+        ],
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "Secrets de l'âme"
+            },
+            {
+                "taux": "?%",
+                "objet": "Omelette au crabe"
+            }
+        ]
+    },
     "special_talent": {
-        "nom": "Œil pour œil",
-        "description": "Réussit toutes ses attaques."
+        "nom": "Superconducteur",
+        "description": "Bloque les dégâts des attaques de foudre."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/270.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/270.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/270.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/270.wav",
+    "oldID": "274"
 }

@@ -1,69 +1,80 @@
 {
     "ID": "469",
-    "Nom": "Pr Plumage",
+    "Nom": "Curryogi",
     "Tribue": "Mystérieux",
-    "Rang": "B",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "Toujours dans les parages s'il y a un mystère à élucider. Il est hanté par le souvenir du mystère de la chaussette perdue.",
-    "nourriture": "Fruits de Mer",
-    "élément": "Vent",
-    "Rôle": "Combattant",
+    "Rang": "A",
+    "PV": "428",
+    "Force": "39",
+    "Esprit": "218",
+    "Défense": "144",
+    "Vitesse": "174",
+    "Description": "Curryogi a quitté sa phase où il interrogeait tout, il est désormais dans une phase d'acceptation éclairée.",
+    "description SITE": "Curryogi a quitté sa phase où il interrogeait tout, il est désormais dans une phase d'acceptation éclairée",
+    "nourriture": "Curry",
+    "élément": "Foudre",
+    "Rôle": "Ranger",
     "Biographie": "",
-    "étimologie": "Professeur Plumagevient deProfesseur(instituteur) et dePlumage(ensemble des plumes recouvrant le corps d'un oiseau). Il est également inspiré duProfessor Plum, du jeu Cluedo.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Les personnes qu'il envoûte vont devenir de vrais détectives prêts à tout pour élucider un mystère.",
+    "pouvoir": "",
     "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/469.png",
-    "numero": "124",
-    "nourriture_favorite": "Fruit de mer",
+    "numero": "083",
+    "nourriture_favorite": "Curry",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Bon pied, bon œil",
-            "effet": "Booste la DÉF. quand les PV sont au maximum."
+            "nom": "Auto-persuasion",
+            "effet": "Booste les effets des grâces du lanceur."
         },
         {
             "type": "Attaque",
-            "nom": "Pointe perçante",
-            "effet": "15 | 67"
+            "nom": "Volée",
+            "effet": "20x2 | 44x2"
         },
         {
             "type": "Attaque",
-            "nom": "Ouragan",
-            "effet": "80 | 120"
+            "nom": "Foudre",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Fil de la plume",
-            "effet": "Escroque l'ennemi avec brio, remplaçant les Yo-kai inactifs par des actifs."
+            "nom": "Flux de pétales",
+            "effet": "Ouvre son grand cœur à tous les alliés et restaure leurs PV. 120 | 180"
         },
         {
             "type": "Attaque",
-            "nom": "Perplexité",
-            "effet": "Je devrais attaquer mais je n'attaque pas. Qui suis-je ?"
+            "nom": "Paixsible",
+            "effet": "Le Yo-kai envoûté devient sérieux. Toutes ses stats augmentent.Médaillon de Curryogi"
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Eurêka !",
-        "A mangé quelque chose de fade": "Passable.",
-        "A mangé quelque chose de mauvais": "Déroutant...",
-        "A la flemme": "Voyons voir...",
-        "Se lie d'amitié": "Hmm... c'est étrange ! Après cette bataille, nous pourrions être amis !",
-        "Est échangé": "Si on analyse les preuves, on dirait bien que j'ai été échangé... Enchanté !"
+        "A mangé quelque chose de bon": "Délicieux !",
+        "A mangé quelque chose de fade": "Je vois... Ça passe.",
+        "A mangé quelque chose de mauvais": "Je vois... Horrible !",
+        "A la flemme": "Vraiment ? Je vois...",
+        "Se lie d'amitié": "Je vois. Ta puissance est réelle. Notre amitié aussi.",
+        "Est échangé": "Je vois. Échangé. Il y aura beaucoup à apprendre à tes côtés.",
+        "info_6": "Bingo-kaiTu m'as libéré ? Tu veux qu'on devienne amis ? Je vois..."
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Curryeux",
+            "parent2": "M. Felipaix",
+            "resultat": "Curryogi",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "なぞトキ",
-    "nom_anglais": "Professor Plumage",
+    "nom_original": "そーナンだー",
+    "nom_anglais": "Naandhi",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
@@ -71,11 +82,7 @@
     },
     "localisations": {
         "ykw3": [
-            "Électropolis- matériaux de construction",
-            "Électropolis - Allée de la brocante"
-        ],
-        "Yo-kai Watch : Puni Puni :[]": [
-            "Il est possible d'obtenir Professeur Plumage dans le Labo Yopple en tombant sur un de ses quizz dans un stage. En ne faisant aucune faute sur les 10 questions, il y a une chance qu'il devienne votre ami à la fin du combat."
+            "Fusion"
         ]
     },
     "rarite": "Commun",
@@ -86,19 +93,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Bague mimi"
+                "objet": "Curry du chef"
             },
             {
                 "taux": "?%",
-                "objet": "Maquereau séché"
+                "objet": "Curry de la mer"
             }
         ]
     },
     "special_talent": {
-        "nom": "Bon pied, bon œil",
-        "description": "Booste la DÉF. quand les PV sont au maximum."
+        "nom": "Auto-persuasion",
+        "description": "Booste les effets des grâces du lanceur."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/469.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/469.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/469.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/469.wav",
+    "oldID": "474"
 }

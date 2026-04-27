@@ -1,20 +1,21 @@
 {
     "ID": "373",
-    "Nom": "Maskonyan",
-    "Tribue": "Vaillant",
-    "Rang": "A",
-    "PV": "393",
-    "Force": "253",
-    "Esprit": "49",
-    "Défense": "157",
-    "Vitesse": "133",
-    "Description": "Sous son masque de lutteur, Maskonyan cache les cicatrices des blessures reçues à ses débuts.",
-    "nourriture": "Chocolat",
-    "élément": "Foudre",
-    "Rôle": "Combattant",
+    "Nom": "Narinos",
+    "Tribue": "Mystérieux",
+    "Rang": "D",
+    "PV": "202",
+    "Force": "67",
+    "Esprit": "107",
+    "Défense": "74",
+    "Vitesse": "243",
+    "Description": "Narinos n'a pas besoin de raison particulière pour se curer le nez. Il a deux narines, et veut savoir ce qui s'y trouve.",
+    "description SITE": "Narinos n'a pas besoin de raison particulière pour se curer le nez. Il a deux narines et veut savoir ce qui s'y trouve.",
+    "nourriture": "Encas",
+    "élément": "Absorption",
+    "Rôle": "Ranger",
     "Biographie": "",
-    "étimologie": "Maskonyan vient de Masque et de Nyan.",
-    "origine": "Son apparence, ainsi que sa biographie, pourraient être inspirées de la série mangaTiger Mask.",
+    "étimologie": "Narinos vient du mot narine car il se cure en permanence le nez.",
+    "origine": "",
     "histoire": "",
     "pouvoir": "",
     "personnalité": "",
@@ -22,65 +23,69 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/373.png",
-    "numero": "350",
-    "nourriture_favorite": "Barre chocolatée",
+    "numero": "430",
+    "nourriture_favorite": "Encas",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Miaoins une",
-            "effet": "Gardera 1 PV après deux coups fatals."
+            "nom": "Nez creux",
+            "effet": "Un envoûtement sera toujours réussi."
         },
         {
             "type": "Attaque",
-            "nom": "Griffes acérées",
-            "effet": "10x2 | 45x2"
+            "nom": "Percée critique",
+            "effet": "30 | 66"
         },
         {
             "type": "Attaque",
-            "nom": "Décharge",
-            "effet": "20 | 90"
+            "nom": "Vortex",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Miaous costaud",
-            "effet": "Se lance pour placer une attaque puissante et se blesse. 210 | 210"
+            "nom": "Dégoûte au nez",
+            "effet": "Perturbe tous les ennemis avec une étrange position de doigts dans le nez."
         },
         {
             "type": "Attaque",
-            "nom": "Force du tigre",
-            "effet": "Augmente la FOR. du Yo-kai grâce au pouvoir du tigre."
+            "nom": "Curage",
+            "effet": "Le Yo-kai envoûté est incapable de se sortir les doigts du nez."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Miaoumiam !",
-        "A mangé quelque chose de fade": "Grrr...",
-        "A mangé quelque chose de mauvais": "*rote* Hummm...",
-        "A la flemme": "Je reviens vite...",
-        "Est échangé": "Attention ! Maskonyan entre maintenant sur le ring !",
-        "Se lie d'amitié": "C'était un combat chargé en émotions ! Nous serons dorénavant amis !"
+        "A mangé quelque chose de bon": "Miam ! *cure le nez*",
+        "A mangé quelque chose de fade": "*se cure le nez*",
+        "A mangé quelque chose de mauvais": "Beurk !",
+        "A la flemme": "Narinos...",
+        "Est échangé": "Narinnnnos ! Enchanté ! *renifle*",
+        "Se lie d'amitié": "Narinooooos ! Soyons amis ! *renifle*"
     },
     "evolutions": [],
     "fusions": [],
     "image_locale": "",
-    "nom_original": "マスクドニャーン",
-    "nom_anglais": "Machonyan",
+    "nom_original": "ハナホ人",
+    "nom_anglais": "Snottle",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "japonaise": "Tōru Nara",
+        "francaise": "Yann Pichon"
     },
     "localisations": {
         "ykw2": [
-            "Comme pourRobonyan FetSailornyan, Maskonyan ne peut être trouvé que par les joueurs qui ont les copies numériques deSpectres Psychiqueset en utilisent le code de téléchargement spécial trouvé dans le reçu pour obtenir la cloche du tigre nécessaire pour le révéler.",
-            "Après avoir obtenu la cloche, Maskonyan se trouve dans laSalle de Gym de l'école élémentaire de Granval."
-        ],
-        "ykw-Blasters": [
-            "Cercles Yo-kai- Panier fruité",
-            "Bingo-kai - Pièce Maskonyan"
+            "(Version 2.0.)Apparaît aléatoirement dans des endroits tels que :",
+            "Le gymnase de l'école élémentaire",
+            "San Fantastico",
+            "L'Académie du Saint-Bernard (Centre-ville)",
+            "Le tunnel de la butte aux prières",
+            "etc.",
+            "Sa position change chaque jour."
         ],
         "ykw3": [
-            "Bingo-kai-Pièce 5 étoiles",
-            "Bingo-kai - Pièce souvenir"
+            "Ferme des blés- dans l'herbe"
+        ],
+        "Yo-kai Watch : Puni Puni :[]": [
+            "Événement - Mêlée de la Floraison- Faire un stage appartenant à l'équipe jaune.",
+            "Événement - Tournoi de Enma, Édition Espace-Temps- Stand d'échange"
         ]
     },
     "rarite": "Rare",
@@ -89,27 +94,27 @@
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "10×2|45×2",
+                "nom": "Percée critique",
+                "puissance": "30|66",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "20|90",
+                "nom": "Vortex",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Miaous costaud",
-                "puissance": "210|???",
-                "description": "Quitte le ring pour attaquer l'ennemi mais se blesse aussi."
+                "nom": "Dégoûte au nez",
+                "puissance": "___",
+                "description": "Perturbe tous les ennemis avec une étrange position de doigts dans le nez."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Force du tigre",
+                "nom": "Curage",
                 "puissance": "N/A",
-                "description": "La FOR. du Yo-kai augmente grâce à la puissance de tigre."
+                "description": "Le Yo-kai envoûté est incapable de se sortir les doigts du nez."
             },
             {
                 "type": "Attaque A",
@@ -119,143 +124,128 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Attaque à bloc",
+                "nom": "Explosion",
                 "puissance": "N/A",
-                "description": "Déclenche une forte attaque à courte portée."
+                "description": "Une bombe explose sur les ennemis et les alliés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Miaoins une",
-                "description": "Gardera 1 PV après deux coups fatals."
+                "nom": "Talent : Nez creux",
+                "description": "Un envoûtement sera toujours réussi."
             }
         ],
         "Yo-kai Watch Blasters": [
             {
                 "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
             },
             {
                 "type": "Âmultime",
-                "nom": "Miaou costaud",
-                "puissance": "550",
-                "description": "Descente en piqué, dégâts sur l'ennemi et soi-même."
+                "nom": "Dégoûte au nez",
+                "puissance": "___",
+                "description": "Forte baisse temporaire de l'attaque ennemie."
             },
             {
                 "type": "Technique 1",
-                "nom": "Onde de choc",
-                "puissance": "120",
-                "description": "Saute et crée une onde de choc en retombant."
+                "nom": "Vortex",
+                "puissance": "30",
+                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Position offensive",
+                "nom": "Baisse de vitesse",
                 "puissance": "___",
-                "description": "Hausse de l'attaque temporaire."
+                "description": "Baisse VIT. ennemie. Charger élargit l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
+                "nom": "Baisse défensive",
                 "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Position invincible",
-                "puissance": "___",
-                "description": "Invincibilité temporaire."
+                "description": "Baisse DÉF. ennemie. Charger élargit l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Miaoins une",
-                "description": "Quand PV à 0, 1 PV sera restauré 2 fois maximum."
+                "nom": "Talent : Ce nez pas juste !",
+                "description": "Augmente les effets des envoûtements négatifs."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "15×2|52×2",
+                "nom": "Percée critique",
+                "puissance": "10|45",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "30|105",
+                "nom": "Vortex",
+                "puissance": "40|88",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Miaous costaud",
-                "puissance": "190|285",
-                "description": "Quitte le ring pour attaquer la colonne devant lui."
+                "nom": "Dégoûte au nez",
+                "puissance": "___",
+                "description": "Trouble les ennemis avec sa pose bizarre."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Force du tigre",
+                "nom": "Curage",
                 "puissance": "N/A",
-                "description": "La FOR. du Yo-kai augmente grâce à la puissance de tigre."
+                "description": "Le Yo-kai se cure le nez sans arrêt et agit beaucoup moins."
             },
             {
                 "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Attaque trois fois. Le coup ultime est plus puissant."
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque un ennemi proche."
             },
             {
                 "type": "Âmultime",
-                "nom": "Miaous costaud",
-                "puissance": "550",
-                "description": "Saut causant des dégâts élevés. Blesse l'utilisateur."
+                "nom": "Dégoûte au nez",
+                "puissance": "___",
+                "description": "Réduction ++ temporaire de l'attaque de l'ennemi."
             },
             {
                 "type": "Attaque X",
-                "nom": "Onde de choc",
-                "puissance": "120",
-                "description": "Saute en hauteur et frappe le sol d’une onde de choc."
+                "nom": "Baisse défensive",
+                "puissance": "___",
+                "description": "Réduit + DÉF. ennemie. Plus de portée si chargé."
             },
             {
                 "type": "Attaque Y",
-                "nom": "Âmunisé",
+                "nom": "Détection de trésor",
                 "puissance": "___",
-                "description": "Esquive des attaques par des déplacements rapides."
+                "description": "Génère une zone qui détecte les trésors."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Miaoins une",
-                "description": "Gardera 1 PV après un coup fatal (deux fois)."
+                "nom": "Talent : Nez creux",
+                "description": "L'envoûtement du lanceur sera toujours réussi."
             }
         ]
     },
     "soul_effects": null,
     "drops": {
-        "YW2": [
-            {
-                "taux": "?%",
-                "objet": "Ramen complet"
-            },
-            {
-                "taux": "?%",
-                "objet": "Foie à l'oignon"
-            }
-        ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Barre choco-maxi"
+                "objet": "EXPorbe moyen"
             },
             {
                 "taux": "?%",
-                "objet": "Barre de chocolat"
+                "objet": "Chips"
             }
         ]
     },
     "special_talent": {
-        "nom": "Miaoins une",
-        "description": "Gardera 1 PV après deux coups fatals."
+        "nom": "Nez creux",
+        "description": "Un envoûtement sera toujours réussi."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/373.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/373.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/373.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/373.wav",
+    "oldID": "379"
 }

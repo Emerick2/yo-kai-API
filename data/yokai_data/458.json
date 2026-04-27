@@ -1,86 +1,94 @@
 {
     "ID": "458",
-    "Nom": "Superfouétar",
-    "Tribue": "Vaillant",
-    "Rang": "S",
-    "PV": "443",
-    "Force": "401",
-    "Esprit": "143",
-    "Défense": "108",
-    "Vitesse": "100",
-    "Description": "Le masque de Fouétar est tombé. Il attaque désormais tous les enfants, sages ou pas sages.",
-    "nourriture": "Viande",
-    "élément": "Glace",
-    "Rôle": "Combattant",
+    "Nom": "Curryeux",
+    "Tribue": "Mystérieux",
+    "Rang": "E",
+    "PV": "383",
+    "Force": "33",
+    "Esprit": "218",
+    "Défense": "93",
+    "Vitesse": "110",
+    "Description": "Hein ? Quoi ? Comment ? Attends, on doit donner une explication pour lui ? Vraiment ? Pour de vrai ? Mais pourquoi ?",
+    "nourriture": "Curry",
+    "élément": "Foudre",
+    "Rôle": "Ranger",
     "Biographie": "",
-    "étimologie": "Superfouétar vient de Super et de Fouétar.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
+    "pouvoir": "Sous son envoûtement, les gens deviennent aussi curieux et prennent la même posture.",
+    "personnalité": "Comme son nom l'indique il est très curieux et passe son temps à demander \"pourquoi\".",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/458.png",
-    "numero": "016",
-    "nourriture_favorite": "Viande",
+    "numero": "082",
+    "nourriture_favorite": "Curry",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Œillères",
-            "effet": "Attaque seulement les Yo-kai en face de lui."
+            "nom": "Auto-persuasion",
+            "effet": "Booste les effets des grâces du lanceur."
         },
         {
             "type": "Attaque",
-            "nom": "Taillade éclair",
-            "effet": "20x3 | 44x3"
+            "nom": "Plaquage absolu",
+            "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Gel",
-            "effet": "50 | 110"
+            "nom": "Décharge",
+            "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Fête peur",
-            "effet": "S'acharne sur la colonne devant lui et couvre les cases de lave ! 95 | 95"
+            "nom": "Pataquès futile",
+            "effet": "Embrouille l'ennemi avec une aura mystérieuse. Mais pourquoi ?!"
         },
         {
             "type": "Attaque",
-            "nom": "Détecte-faiblesse",
-            "effet": "Expose aux yeux de tous la faiblesse d'un ennemi. Sa DÉF. baisse."
+            "nom": "Pourquoiii ?",
+            "effet": "L'ennemi se demande pourquoi il se bat. Il peut refuser d'agir.Médaillon de Curryeux"
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Affirmatif.",
-        "A mangé quelque chose de fade": "Oooh...",
-        "A mangé quelque chose de mauvais": "J'aurai ma revanche !",
-        "A la flemme": "Dodo...",
-        "Se lie d'amitié": "MOUAHAHA ! QUELLE FORCE ! C'EST BIEN ! AMIS ?",
-        "Est échangé": "MOUAHAHAHA ! NOUS AMIS ? MOI TOUT DÉCOUPER !"
+        "A mangé quelque chose de bon": "Pourquoi c'est bon ?",
+        "A mangé quelque chose de fade": "Quoi ? Qui ? Où ?",
+        "A mangé quelque chose de mauvais": "Pourquoi si infect ?!",
+        "A la flemme": "Pourquoi se battre ?",
+        "Se lie d'amitié": "Pourquoi avoir attaqué au lieu de me demander d'être ton ami ? Pourquoi ?",
+        "Est échangé": "Je viens d'arriver, mais ça a pas l'air de te faire plaisir ! Pourquoi ?",
+        "info_6": "Bingo-kaiPourquoi tu m'as libéré ? Pourquoi toi ? Pourquoi maintenant ?"
     },
     "evolutions": [],
     "fusions": [
         {
             "type": "Fusion",
             "contexte": "Général",
-            "parent1": "Fouétar",
-            "parent2": "Perle Périlleuse",
-            "resultat": "Superfouétar",
+            "parent1": "Curryeux",
+            "parent2": "M. Felipaix",
+            "resultat": "Curryogi",
             "critere": "➨"
         }
     ],
     "image_locale": "",
-    "nom_original": "なまなまはげ",
-    "nom_anglais": "Brutle",
+    "nom_original": "ナンデナン",
+    "nom_anglais": "Why Naant",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "japonaise": "Ryoko Nagata",
+        "francaise": "Nathalie Bienaimé"
     },
     "localisations": {
         "ykw3": [
-            "Il est possible de l'obtenir enfusionnantFouétaravec laPerle Périlleuse."
+            "Centre-ville de Granval- Parking souterrain, Arrière-cour du Vent d'hiver",
+            "Bingo-kai-Pièce jaune- 3e prix"
+        ],
+        "Yo-kai Watch : Puni Puni :[]": [
+            "Il est apparu dans l'Événement - Bataille de Lance-Pierre des Noko:",
+            "Village Noko- Stage 1",
+            "Super Village Noko- Stage 18",
+            "Ultra Village Noko- Stage 38"
         ]
     },
     "rarite": "Commun",
@@ -91,19 +99,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Éclat de pièce 1 étoile"
+                "objet": "Curry du chef"
             },
             {
                 "taux": "?%",
-                "objet": "Bœuf persillé"
+                "objet": "Curry de poulet"
             }
         ]
     },
     "special_talent": {
-        "nom": "Œillères",
-        "description": "Attaque seulement les Yo-kai en face de lui."
+        "nom": "Auto-persuasion",
+        "description": "Booste les effets des grâces du lanceur."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/458.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/458.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/458.wav"
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/458.wav",
+    "oldID": "463"
 }
