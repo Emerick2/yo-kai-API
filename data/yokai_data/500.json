@@ -1,40 +1,50 @@
 {
     "ID": "500",
-    "Nom": "Tatinmarre",
+    "Nom": "Éclopain",
     "Tribue": "Mignon",
     "Rang": "E",
-    "PV": "311",
-    "Force": "54",
-    "Esprit": "183",
-    "Défense": "86",
-    "Vitesse": "138",
-    "Description": "Elle veut vraiment qu'on la laisse tranquille. Vraiment ? Elle dit toujours ça, mais on dirait que...",
-    "nourriture": "Douceurs",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
+    "PV": "363",
+    "Force": "192",
+    "Esprit": "40",
+    "Défense": "108",
+    "Vitesse": "118",
+    "Description": "Un boxeur qui finit toujours éclopé, après un combat. Il est croustillant, mais bon, ça va pas l'aider sur le ring.",
+    "description SITE": "Un boxeur qui finit toujours éclopé, après un combat. Il est croustillant, mais bon, ça va pas l'aider sur le ring",
+    "nourriture": "Lait",
+    "élément": "Terre",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Tatinmarrevient deTintamarreet deTatin(sorte de tarte).",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
+    "pouvoir": "Éclopain à la capacité d'encaisser énormément de coups sans s'effondrer.",
+    "personnalité": "Éclopain est un Yo-kai gentil et moelleux, même sur le ring. Malgré les coups qu'il se prend durant les combats, il se défend rarement et préfère encaisser les coups.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/500.png",
-    "nom_original": "ほっとけーキ",
-    "nom_anglais": "Petty-Cake",
+    "nom_original": "こてんパン",
+    "nom_anglais": "Buttered Blue",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "francaise": "Caroline Combes"
     },
     "localisations": {
-        "ykw3": [
-            "Cajoun- Aire de barbecue"
+        "Yo-kai Watch 3[]": [
+            "Betel- bouches d'incendie",
+            "Roue rêve-Pièce rose- 3e prix"
         ]
     },
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Évolution",
+            "contexte": "Général",
+            "de": "Éclopain",
+            "vers": "Pain Surprise",
+            "critere": "Niveau 30"
+        }
+    ],
     "rarite": "Yo-kai Mericain",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
@@ -43,20 +53,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Grande coupe glacée"
+                "objet": "Badge noir"
             },
             {
                 "taux": "?%",
-                "objet": "Crêpes nappées"
+                "objet": "Lait"
             }
         ]
     },
     "special_talent": {
-        "nom": "Cure de repos",
-        "description": "Rend peu à peu les PV en attendant le décompte."
+        "nom": "Dévouement",
+        "description": "Reçoit plus de points d'expérience."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/500.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/500.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/500.wav",
-    "oldID": "504"
+    "oldID": "505"
 }

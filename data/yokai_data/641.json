@@ -1,54 +1,102 @@
 {
     "ID": "641",
-    "Nom": "Komasan T",
-    "Tribue": "Mignon",
-    "Rang": "A",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "Après être tombé, par hasard, sur des artéfacts fabuleux, Komasan est considéré comme un dénicheur de trésors.",
-    "nourriture": "Crème Glacée",
-    "élément": "Terre",
-    "Rôle": "Combattant",
+    "Nom": "Aramis Taire",
+    "Tribue": "Mystérieux",
+    "Rang": "B",
+    "PV": "400",
+    "Force": "45",
+    "Esprit": "203",
+    "Défense": "127",
+    "Vitesse": "169",
+    "Description": "",
+    "description SITE": "Fan de romans policiers, il envoûte les gens, leur faisant croire qu'ils sont au cœur d'une enquête palpitante.",
+    "nourriture": "Pâtes",
+    "élément": "Glace",
+    "Rôle": "Ranger",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
     "pouvoir": "",
-    "personnalité": "C'est la même queKomasan.",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/641.png",
-    "nom_original": "Ｔトレジャーコマさん",
-    "nom_anglais": "Treasure Komasan",
+    "numero": "126",
+    "nourriture_favorite": "Pâte",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Mystérieuse femme",
+            "effet": "Rendra peu à peu des PV à tous les Yo-kai Mystérieux."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Gifle",
+            "effet": "10 | 45"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Gel",
+            "effet": "50 | 110"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Boule de gomme",
+            "effet": "Trouble les ennemis avec son aura mistaire..."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Mystère",
+            "effet": "L'ennemi veut résoudre tous les mystères et agit moins."
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "Trop bon !",
+        "A mangé quelque chose de fade": "Je prends...",
+        "A mangé quelque chose de mauvais": "Qu'est-ce que... ?",
+        "A la flemme": "Je suis épuisé !",
+        "Se lie d'amitié": "Ma défaite est un mystère... Heureusement, j'adore les mystères !",
+        "Est échangé": "Hihi ! Aramis Taire, prête à remplir votre vie de mystères en tout genre !"
+    },
+    "evolutions": [],
+    "fusions": [],
+    "image_locale": "",
+    "nom_original": "ミス・テリー",
+    "nom_anglais": "Miss Teri",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
-        "japonaise": "Inconnue",
+        "japonaise": "Masahito Yabe",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw3": [],
-        "Yo-kai Watch : Puni Puni :[]": [
-            "Pyramide Nu- Faire un stage appartenant à l'équipe bleue.",
-            "Scramble Battle T- Bingo-kai oni",
-            "Pièce de la Réincarnation de Rinne"
+        "ykw3": [
+            "Ferme des blés- champ (minuit)"
         ]
     },
-    "fusions": [],
-    "rarite": "Rare",
+    "rarite": "Yo-kai Mericain",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
-    "drops": {},
+    "drops": {
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "La vie en tête"
+            },
+            {
+                "taux": "?%",
+                "objet": "Pâtes aux palourdes"
+            }
+        ]
+    },
     "special_talent": {
-        "nom": "Désactivation",
-        "description": "Supprime les effets négatifs de case en étant dessus."
+        "nom": "Mystérieuse femme",
+        "description": "Rendra peu à peu des PV à tous les Yo-kai Mystérieux."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/641.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/641.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/641.wav",
-    "oldID": "645"
+    "oldID": "646"
 }

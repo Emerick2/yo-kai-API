@@ -1,16 +1,16 @@
 {
     "ID": "768",
-    "Nom": "Vénaldos",
-    "Tribue": "Sombre",
-    "Rang": "S",
-    "PV": "431",
-    "Force": "113",
-    "Esprit": "215",
-    "Défense": "107",
-    "Vitesse": "180",
+    "Nom": "Moko",
+    "Tribue": "Insaisissable",
+    "Rang": "A",
+    "PV": "392",
+    "Force": "131",
+    "Esprit": "112",
+    "Défense": "78",
+    "Vitesse": "216",
     "Description": "",
-    "élément": "Feu",
-    "Rôle": "Ranger",
+    "élément": "Terre",
+    "Rôle": "Guérisseur",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,84 +21,127 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/768.png",
-    "nom_original": "のぞキング",
-    "nom_anglais": "Geezel",
+    "numero": "Inconnu",
+    "nourriture_favorite": "Inconnue",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Aurascope",
+            "effet": "Fait apparaître les lueurs plus souvent."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Vilaine morsure",
+            "effet": "80 | 120"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Blizzard",
+            "effet": "80 | 120"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Sourire de panda",
+            "effet": "Restaure les PV de ses alliés avec un rare sourire noir et blanc. 170 | 170"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Pandadorable",
+            "effet": "Guérit petit à petit un allié grâce au charme d'un panda mignon."
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "Superbe...",
+        "A mangé quelque chose de fade": "Eh bien...",
+        "A mangé quelque chose de mauvais": "Je ne crois pas.",
+        "A la flemme": "Enfin du repos.",
+        "Est échangé": "Ah, si tu m'as trouvé, c'est que le destin l'aura permis. Soyons amis !",
+        "Se lie d'amitié": "Tu es trop cool ! Devenons amis !"
+    },
+    "evolutions": [],
+    "fusions": [],
+    "image_locale": "",
+    "nom_original": "ニセノコ",
+    "nom_anglais": "Mogo",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw1": [],
-        "ykw2": [],
+        "ykw1": [
+            "Avoir remplacé toutes les gommes par des fausses."
+        ],
+        "ykw2": [
+            "A raconté des blagues au micro chez le principal."
+        ],
         "ykw3": [
-            "Se mêle des affaires des autres."
+            "A fait un canular téléphonique à sa grand-mère."
         ]
     },
-    "fusions": [],
     "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Cogneur",
-                "puissance": "75|112",
+                "nom": "Vilaine morsure",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Rapides",
+                "nom": "Gel",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Noirsort",
-                "puissance": "___",
-                "description": "Entraîne ses ennemis dans les ténèbres et limite leurs actions."
+                "nom": "Sourire de panda",
+                "puissance": "160|160",
+                "description": "Restaure les PV de ses alliés avec un rare sourire noir et blanc."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Énergie sombre",
+                "nom": "Pandadorable",
                 "puissance": "N/A",
-                "description": "Des pouvoirs sombres blessent un ennemi petit à petit."
+                "description": "Guérit petit à petit un allié grâce au charme d'un panda mignon."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Noirceur totale",
-                "description": "Un envoûtement sera toujours réussi."
+                "nom": "Talent : Aurascope",
+                "description": "Fait apparaître les lueurs plus souvent."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Cogneur",
-                "puissance": "75|112",
+                "nom": "Vilaine morsure",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Rapides",
-                "puissance": "50|110",
+                "nom": "Blizzard",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Noirsort",
-                "puissance": "140|140",
-                "description": "Un pouvoir sombre de l'éternité entrave les actions des ennemis."
+                "nom": "Sourire de panda",
+                "puissance": "170|170",
+                "description": "Restaure les PV de ses alliés avec un rare sourire noir et blanc."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Énergie sombre",
+                "nom": "Pandadorable",
                 "puissance": "N/A",
-                "description": "Des pouvoirs sombres blessent graduellement un ennemi."
+                "description": "Guérit petit à petit un allié grâce au charme d'un panda mignon."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Noirceur totale",
-                "description": "Un envoûtement sera toujours réussi."
+                "nom": "Talent : Aurascope",
+                "description": "Fait apparaître les lueurs plus souvent."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -110,111 +153,75 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Noirsort",
-                "puissance": "250",
-                "description": "Baisse temporaire de la vitesse des ennemis."
+                "nom": "Sourire de panda",
+                "puissance": "400",
+                "description": "Alliés retrouvent beaucoup de PV."
             },
             {
                 "type": "Technique 1",
-                "nom": "Torrent",
-                "puissance": "40",
-                "description": "Utilise un sort d'eau. Charger renforce l'effet."
+                "nom": "Paradis",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Cercle de maladie",
-                "puissance": "___",
-                "description": "Crée un champ où PV ennemis baissent rapidement."
+                "nom": "Cercle guérisseur",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger élargit l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Cercle vicieux",
+                "nom": "Envoût guérisseur +",
                 "puissance": "___",
-                "description": "Crée un champ où les stats des ennemis baissent."
+                "description": "Hausse rapide des PV alliés. Charger élargit l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Pleine forme",
-                "description": "Hausse de l'attaque quand les PV sont au max."
+                "nom": "Talent : Aurascope",
+                "description": "Les orbes G apparaissent plus souvent."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Cogneur",
-                "puissance": "50|110",
+                "nom": "Vilaine morsure",
+                "puissance": "70|112",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Rapides",
-                "puissance": "50|110",
+                "nom": "Blizzard",
+                "puissance": "70|112",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Noirsort",
-                "puissance": "100|100",
-                "description": "Entraîne ses ennemis dans les ténèbres et limite leurs actions."
+                "nom": "Sourire de panda",
+                "puissance": "120|180",
+                "description": "Restaure les PV de ses alliés avec un rare sourire noir et blanc."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Énergie sombre",
+                "nom": "Pandadorable",
                 "puissance": "N/A",
-                "description": "Un pouvoir sombre blesse progressivement un ennemi."
+                "description": "Guérit petit à petit un allié grâce au charme d'un panda mignon."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Noirceur totale",
-                "description": "L'envoûtement du lanceur sera toujours réussi."
+                "nom": "Talent : Aurascope",
+                "description": "Fait apparaître les lueurs plus souvent."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Noirceur totale",
-        "description": "Un envoûtement sera toujours réussi."
+        "nom": "Aurascope",
+        "description": "Fait apparaître les lueurs plus souvent."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/768.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/768.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/768.wav",
-    "nourriture": "Viande",
-    "nourriture_favorite": "Viande",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Noirceur totale",
-            "effet": "Un envoûtement sera toujours réussi."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Cogneur",
-            "effet": "75 | 112"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Rapides",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Noirsort",
-            "effet": "Le pouvoir sombre de l'éternité entrave les actions des ennemis. 140 | 140"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Énergie sombre",
-            "effet": "Des pouvoirs sombres blessent graduellement un ennemi."
-        }
-    ],
-    "phrases_nourriture": {
-        "A mangé quelque chose de bon": "*murmure* Ouiii...",
-        "A mangé quelque chose de fade": "Pas mal.",
-        "A mangé quelque chose de mauvais": "C'est du poison ?!",
-        "A la flemme": "On s'ennuie !",
-        "Est échangé": "Oooh, la force des ténèbres m'a porté jusqu'à toi. As-tu assez de mal en toi ?",
-        "Se lie d'amitié": "J'ai le sentiment qu'un pouvoir sombre émane de toi. J'aime ça."
-    },
-    "oldID": "773"
+    "nourriture": "Hamburger",
+    "oldID": "774"
 }

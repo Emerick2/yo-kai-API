@@ -183,4 +183,4 @@ def ajouterYokai(ID_arrive):
 #510 : chine
 
 # n=3
-# deplaceYokai(986+n,356+n,False)
+deplaceYokai(471,999,False)

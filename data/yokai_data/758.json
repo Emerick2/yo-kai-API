@@ -1,16 +1,16 @@
 {
     "ID": "758",
-    "Nom": "Similistik",
-    "Tribue": "Sombre",
+    "Nom": "Loubarbant",
+    "Tribue": "Costaud",
     "Rang": "E",
-    "PV": "288",
-    "Force": "68",
-    "Esprit": "169",
-    "Défense": "84",
-    "Vitesse": "147",
+    "PV": "388",
+    "Force": "121",
+    "Esprit": "46",
+    "Défense": "189",
+    "Vitesse": "86",
     "Description": "",
-    "élément": "Absorption",
-    "Rôle": "Ranger",
+    "élément": "Terre",
+    "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,8 +21,8 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/758.png",
-    "nom_original": "てぐせブーン",
-    "nom_anglais": "Negatibuzz-kill",
+    "nom_original": "ブレルりん",
+    "nom_anglais": "Roughraffony",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -30,13 +30,13 @@
     },
     "localisations": {
         "ykw1": [
-            "Avoir mangé de la viande lors d'un barbecue."
+            "Être incapable de savoir quoi manger pour le petit déjeuner."
         ],
         "ykw2": [
-            "A soufflé ses pelures de gomme sur le bureau voisin."
+            "A pris toute la journée pour commander au restaurant."
         ],
         "ykw3": [
-            "N'arrête pas de taper sur la table avec son stylo durant les cours."
+            "A joué à la balle au prisonnier en plein match de basket."
         ]
     },
     "fusions": [],
@@ -46,179 +46,252 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Pointe perçante",
-                "puissance": "15|67",
+                "nom": "Coup de tête",
+                "puissance": "55|121",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Absorption",
+                "nom": "Galet",
                 "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Pessimicrobes",
-                "puissance": "20|20",
-                "description": "Répand des germes de négativité qui réduisent la DÉF. des ennemis."
+                "nom": "Gros dur",
+                "puissance": "30|30",
+                "description": "Regarde ses ennemis et réduit leur VIT."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Négativité",
+                "nom": "Âme de rebelle",
                 "puissance": "N/A",
-                "description": "L'ennemi devient très pessimiste et sa VIT. diminue."
+                "description": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Vampirisation",
-                "description": "Absorbe les PV avec des attaques normales."
+                "nom": "Talent : Revanche",
+                "description": "Renvoie à l'ennemi une partie de ses dégâts."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Pointe perçante",
-                "puissance": "15|67",
+                "nom": "Coup de tête",
+                "puissance": "55|121",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Absorption",
+                "nom": "Galet",
                 "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Pessimicrobes",
-                "puissance": "20|20",
-                "description": "Répand des germes de négativité qui réduisent la DÉF. des ennemis."
+                "nom": "Gros dur",
+                "puissance": "30|30",
+                "description": "Regarde ses ennemis et réduit leur VIT."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Négativité",
+                "nom": "Âme de rebelle",
                 "puissance": "N/A",
-                "description": "L'ennemi devient très pessimiste et sa VIT. diminue."
+                "description": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
+            },
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "N/A",
+                "description": "Déclenche une attaque à courte portée."
+            },
+            {
+                "type": "Attaque X",
+                "nom": "Attaque à bloc",
+                "puissance": "N/A",
+                "description": "Déclenche une forte attaque à courte portée."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Vampirisation",
-                "description": "Absorbe les PV avec des attaques normales."
+                "nom": "Talent : Revanche",
+                "description": "Renvoie à l'ennemi une partie de ses dégâts."
             }
         ],
         "Yo-kai Watch Blasters": [
             {
                 "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
             },
             {
                 "type": "Âmultime",
-                "nom": "Pessimicrobes",
+                "nom": "Gros dur",
                 "puissance": "250",
-                "description": "Baisse temporaire DÉF. des ennemis."
+                "description": "Baisse temporaire de la VIT. des ennemis."
             },
             {
                 "type": "Technique 1",
-                "nom": "Baisse de vitesse",
-                "puissance": "___",
-                "description": "Baisse VIT. ennemie. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Mine",
-                "puissance": "600",
-                "description": "Explose si un ennemi ou un allié s'en approche."
-            },
-            {
-                "type": "Technique à acquérir 1",
                 "nom": "Coup puissant",
                 "puissance": "100",
                 "description": "Attaque avec un super esprit du combattant."
             },
             {
+                "type": "Technique 2",
+                "nom": "Galet",
+                "puissance": "40",
+                "description": "Utilise un sort de terre. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique à acquérir 1",
+                "nom": "Âmunisé",
+                "puissance": "___",
+                "description": "Esquive rapidement l'attaque ennemie."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Position offensive",
+                "puissance": "___",
+                "description": "Hausse de l'attaque temporaire."
+            },
+            {
                 "type": "Talent",
-                "nom": "Talent : Vampirisation",
-                "description": "Absorbe une partie des PV lors d'attaques."
+                "nom": "Talent : Finisseur",
+                "description": "Augmente dégâts sur tous les ennemis en danger."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Pointe perçante",
-                "puissance": "30|105",
+                "nom": "Coup de tête",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Absorption",
-                "puissance": "25|87",
+                "nom": "Galet",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Pessimicrobes",
-                "puissance": "___",
-                "description": "Les germes de négativité réduisent fortement la DÉF. des ennemis."
+                "nom": "Gros dur",
+                "puissance": "46|46",
+                "description": "Lance un regard terrible sur la colonne devant lui. Baisse fortement la VIT."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Négativité",
+                "nom": "Âme de rebelle",
                 "puissance": "N/A",
-                "description": "L'ennemi devient pessimiste et sa VIT. diminue fortement."
+                "description": "L'ennemi se rebelle et sa DÉF. diminue."
+            },
+            {
+                "type": "Attaque A",
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Attaque trois fois. Le coup ultime est plus puissant."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Gros dur",
+                "puissance": "250",
+                "description": "Attaque et réduit un instant la VIT. de l'ennemi."
+            },
+            {
+                "type": "Attaque X",
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque l’ennemi avec une attaque féroce."
+            },
+            {
+                "type": "Attaque Y",
+                "nom": "Position offensive",
+                "puissance": "___",
+                "description": "Booste temporairement l’attaque."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Vampirisation",
-                "description": "Absorbe les PV de l'ennemi à chaque attaque réussie."
+                "nom": "Talent : Banane",
+                "description": "Esquivera les coups de tête ennemis."
             }
         ]
     },
     "soul_effects": null,
-    "drops": {},
+    "drops": {
+        "YW1": [
+            {
+                "taux": "?%",
+                "objet": "Pensez Karaté"
+            },
+            {
+                "taux": "?%",
+                "objet": "Petit EXPorbe"
+            }
+        ],
+        "YW2": [
+            {
+                "taux": "?%",
+                "objet": "Amulette protectrice"
+            },
+            {
+                "taux": "?%",
+                "objet": "Hamburger"
+            }
+        ],
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "La défense de A à Z"
+            },
+            {
+                "taux": "?%",
+                "objet": "Ramen minute"
+            }
+        ]
+    },
     "special_talent": {
-        "nom": "Vampirisation",
-        "description": "Absorbe les PV avec des attaques normales."
+        "nom": "Revanche",
+        "description": "Renvoie à l'ennemi une partie de ses dégâts."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/758.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/758.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/758.wav",
-    "nourriture": "Jus",
-    "nourriture_favorite": "Jus",
+    "nourriture": "Ramen",
+    "nourriture_favorite": "Ramen",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Vampirisation",
-            "effet": "Absorbe les PV avec des attaques normales."
+            "nom": "Revanche",
+            "effet": "Renvoie à l'ennemi une partie de ses dégâts."
         },
         {
             "type": "Attaque",
-            "nom": "Pointe perçante",
-            "effet": "15 | 67"
+            "nom": "Coup de tête",
+            "effet": "55 | 121"
         },
         {
             "type": "Attaque",
-            "nom": "Absorption",
+            "nom": "Galet",
             "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Pessimicrobes",
-            "effet": "Répand des germes de négativité qui réduisent la DÉF. des ennemis. 20 | 20"
+            "nom": "Gros dur",
+            "effet": "Regarde ses ennemis et réduit leur VIT. 30 | 30"
         },
         {
             "type": "Attaque",
-            "nom": "Négativité",
-            "effet": "L'ennemi devient très pessimiste et sa VIT. diminue."
+            "nom": "Âme de rebelle",
+            "effet": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Zzz'adore...",
-        "A mangé quelque chose de fade": "Zzz'est bof bof...",
-        "A mangé quelque chose de mauvais": "Bzz ! Écœurant !",
-        "A la flemme": "Bzzz...",
-        "Est échangé": "J'imagine qu'on n'avait plus besoin de moi... On peut être amizz quand même.",
-        "Se lie d'amitié": "Si je ne peux pas te battre, je peux te demander d'être mon amizzz ?"
+        "Mange de la bonne nourriture": "Mouais, pas mal.",
+        "Mange de la nourriture insipide": "Tout pour tous ?",
+        "Mange de la mauvaise nourriture": "Arrête le carnage.",
+        "A la flemme": "J'ai mal...",
+        "Est échangé": "C'est donc ici ma nouvelle maison ? Ah. On va bien s'amuser, toi et moi.",
+        "Devient ton ami": "Tu aimes jouer au voyou hein ? Moi aussi, ça tombe bien ! Devenons amis !"
     },
-    "oldID": "763"
+    "oldID": "764"
 }

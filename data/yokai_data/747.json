@@ -1,15 +1,15 @@
 {
     "ID": "747",
-    "Nom": "Blablabou",
-    "Tribue": "Insaisissable",
-    "Rang": "B",
-    "PV": "371",
-    "Force": "79",
-    "Esprit": "180",
-    "Défense": "43",
-    "Vitesse": "223",
+    "Nom": "Fauhuahua",
+    "Tribue": "Mignon",
+    "Rang": "S",
+    "PV": "366",
+    "Force": "51",
+    "Esprit": "197",
+    "Défense": "122",
+    "Vitesse": "226",
     "Description": "",
-    "élément": "Absorption",
+    "élément": "Glace",
     "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
@@ -21,22 +21,20 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/747.png",
-    "nom_original": "ボーどろ",
-    "nom_anglais": "Daizn't",
+    "nom_original": "サギ王子",
+    "nom_anglais": "Fussky",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw1": [
-            "Avoir refusé de sauter à la corde."
-        ],
+        "ykw1": [],
         "ykw2": [
-            "A chanté faux exprès lors d'une compétition de chant."
+            "A dit avoir créé le pop-corn pour épater une fille."
         ],
         "ykw3": [
-            "A fait passer un cochon d'Inde pour un lapin."
+            "A changé la date sur un bon d'achat pour le réutiliser."
         ]
     },
     "fusions": [],
@@ -46,179 +44,256 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Vortex",
+                "nom": "Ventilateur",
                 "puissance": "50|110",
                 "description": ""
             },
             {
+                "type": "Technique",
+                "nom": "Brasier",
+                "puissance": "80|120",
+                "description": ""
+            },
+            {
                 "type": "Amultime",
-                "nom": "Tourneboulement",
-                "puissance": "100|100",
-                "description": "Envoie une sombre aura à ses ennemis pour les étoudir."
+                "nom": "Canicule",
+                "puissance": "140|210",
+                "description": "Étouffe l'ennemi avec une vague de chaleur."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Cœur incertain",
+                "nom": "Cœur brûlant",
                 "puissance": "N/A",
-                "description": "Affaiblit un ennemi et réduit ses stats."
+                "description": "Réchauffe le cœur d'un allié et augmente sa FOR."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Âmunisé",
-                "description": "Ne sera pas affecté par les Âmultimes."
+                "nom": "Talent : Pare-feu",
+                "description": "Réduit les dégâts des attaques de feu."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Vortex",
+                "nom": "Ventilateur",
                 "puissance": "50|110",
                 "description": ""
             },
             {
+                "type": "Technique",
+                "nom": "Brasier",
+                "puissance": "80|120",
+                "description": ""
+            },
+            {
                 "type": "Amultime",
-                "nom": "Tourneboulement",
-                "puissance": "100|100",
-                "description": "Envoie une sombre aura à ses ennemis pour les étoudir."
+                "nom": "Canicule",
+                "puissance": "140|210",
+                "description": "Étouffe l'ennemi avec une vague de chaleur."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Cœur incertain",
+                "nom": "Cœur brûlant",
                 "puissance": "N/A",
-                "description": "Affaiblit un ennemi et réduit ses stats."
+                "description": "Réchauffe le cœur d'un allié et augmente sa FOR."
+            },
+            {
+                "type": "Attaque A",
+                "nom": "Feu",
+                "puissance": "N/A",
+                "description": "Un jet de flamme brûle les ennemis éloignés."
+            },
+            {
+                "type": "Attaque X",
+                "nom": "Attaque ardente",
+                "puissance": "N/A",
+                "description": "Esquive toutes les attaques physiques."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Âmunisé",
-                "description": "Les Âmultimes seront esquivées."
+                "nom": "Talent : Pare-feu",
+                "description": "Réduit les dégâts de feu subis."
             }
         ],
         "Yo-kai Watch Blasters": [
             {
                 "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
             },
             {
                 "type": "Âmultime",
-                "nom": "Tourneboulement",
-                "puissance": "250",
-                "description": "Baisse temporaire de la VIT. des ennemis."
+                "nom": "Canicule",
+                "puissance": "100×4",
+                "description": "Brûle les ennemis, gros dégâts infligés."
             },
             {
                 "type": "Technique 1",
-                "nom": "Vortex",
-                "puissance": "30",
-                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
+                "nom": "Incendie",
+                "puissance": "50",
+                "description": "Un sort de feu puissant. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Contre",
-                "puissance": "___",
-                "description": "Repousse les attaques et contre-attaque."
+                "nom": "Attaque précipitée",
+                "puissance": "80",
+                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Riz",
-                "puissance": "70",
-                "description": "Restaure tes PV."
+                "nom": "Âmunisé",
+                "puissance": "___",
+                "description": "Esquive rapidement l'attaque ennemie."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Position offensive",
+                "puissance": "___",
+                "description": "Hausse de l'attaque temporaire."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Pas touche",
-                "description": "Hausse de la VIT. quand les PV sont au max."
+                "nom": "Talent : Voir rouge",
+                "description": "Hausse ATT. en attaquant (cumulable)."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
+                "nom": "Ventilateur",
                 "puissance": "20|70",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "40|88",
+                "nom": "Brasier",
+                "puissance": "70|112",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Tourneboulement",
-                "puissance": "___",
-                "description": "Assaille les ennemis d'une aura de confusion. Ceux touchés agissent moins."
+                "nom": "Canicule",
+                "puissance": "148|222",
+                "description": "Oppresse les ennemis à portée, avec une vague de chaleur insupportable."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Cœur incertain",
+                "nom": "Cœur brûlant",
                 "puissance": "N/A",
-                "description": "Affaiblit un ennemi et réduit ses stats."
+                "description": "Enflamme le cœur d'un allié et augmente sa FOR."
+            },
+            {
+                "type": "Attaque A",
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Attaque trois fois. Le coup ultime est plus puissant."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Canicule",
+                "puissance": "100×4",
+                "description": "Feu intense infligeant des dégâts ++ aux ennemis."
+            },
+            {
+                "type": "Attaque X",
+                "nom": "Incendie",
+                "puissance": "50",
+                "description": "Technique de feu++. Plus de dégâts si chargée."
+            },
+            {
+                "type": "Attaque Y",
+                "nom": "Attaque précipitée",
+                "puissance": "80",
+                "description": "Fonce sur un ennemi en frappant à la chaîne."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Âmunisé",
-                "description": "Les Âmultimes seront esquivées."
+                "nom": "Talent : Pare-feu",
+                "description": "Réduit les dégâts de feu subis par tous les alliés."
             }
         ]
     },
-    "soul_effects": null,
-    "drops": {},
+    "soul_effects": {
+        "Yo-kai Watch 2": "Réduit beaucoup les dégâts d’attaques de feu subis.",
+        "Yo-kai Watch Blasters": "Hausse de puissance des coups critiques.",
+        "Yo-kai Watch 3": "Réduit les dégâts de feu sur tous les alliés."
+    },
+    "drops": {
+        "YW1": [
+            {
+                "taux": "?%",
+                "objet": "Anneau du feu"
+            },
+            {
+                "taux": "?%",
+                "objet": "Crevette piment"
+            }
+        ],
+        "YW2": [
+            {
+                "taux": "?%",
+                "objet": "Bracelet solaire"
+            },
+            {
+                "taux": "?%",
+                "objet": "Crevette piment"
+            }
+        ],
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "Méga EXPorbe"
+            },
+            {
+                "taux": "?%",
+                "objet": "Ramen complet"
+            }
+        ]
+    },
     "special_talent": {
-        "nom": "Âmunisé",
-        "description": "Ne sera pas affecté par les Âmultimes."
+        "nom": "Pare-feu",
+        "description": "Réduit les dégâts des attaques de feu."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/747.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/747.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/747.wav",
-    "nourriture": "Bonbons",
-    "nourriture_favorite": "Sucrerie",
+    "nourriture": "Ramen",
+    "nourriture_favorite": "Ramen",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Âmunisé",
-            "effet": "Les Âmultimes seront esquivées."
+            "nom": "Pare-feu",
+            "effet": "Réduit les dégâts d'attaques de feu subis."
         },
         {
             "type": "Attaque",
-            "nom": "Plaquage absolu",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Vortex",
+            "nom": "Ventilateur",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Tourneboulement",
-            "effet": "Envoie une sombre aura à ses ennemis pour les étourdir. 100 | 100"
+            "nom": "Brasier",
+            "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Cœur incertain",
-            "effet": "Affaiblit un ennemi et réduit ses stats."
+            "nom": "Canicule",
+            "effet": "Étouffe l'ennemi avec une vague de chaleur. 140 | 210"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Cœur brûlant",
+            "effet": "Réchauffe le cœur d'un allié et augmente sa FOR.Médaillon de Cho-cho"
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Délicieux...",
-        "A mangé quelque chose de fade": "O-k...",
-        "A mangé quelque chose de mauvais": "Argh.",
-        "A la flemme": "Euh... Hmm...",
-        "Est échangé": "Je... suis, euh... ravi de... je sais plus. On disait quoi ?",
-        "Se lie d'amitié": "Est-ce qu'on peut être... amis ? C'est comme ça qu'on dit, non ?"
+        "Mange de la bonne nourriture": "C'est bien chaud !",
+        "Mange de la nourriture insipide": "Ça peut aller.",
+        "Mange de la mauvaise nourriture": "C'est gelé...",
+        "A la flemme": "Trop chaud...",
+        "Est échangé": "Regarde un peu cette nouvelle ville ! Je vais faire monter la température, ici.",
+        "Devient ton ami": "Ce combat était génial ! Ça serait super trop cool d'être ton ami !"
     },
-    "oldID": "752"
+    "oldID": "753"
 }

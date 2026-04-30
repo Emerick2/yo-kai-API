@@ -1,16 +1,16 @@
 {
     "ID": "749",
-    "Nom": "Tengugus",
-    "Tribue": "Mystérieux",
-    "Rang": "S",
-    "PV": "476",
-    "Force": "99",
-    "Esprit": "182",
-    "Défense": "141",
-    "Vitesse": "126",
+    "Nom": "Granpapetit",
+    "Tribue": "Bienveillant",
+    "Rang": "B",
+    "PV": "301",
+    "Force": "49",
+    "Esprit": "241",
+    "Défense": "117",
+    "Vitesse": "174",
     "Description": "",
-    "élément": "Vent",
-    "Rôle": "Combattant",
+    "élément": "Restauration",
+    "Rôle": "Guérisseur",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,8 +21,48 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/749.png",
-    "nom_original": "キザ天狗",
-    "nom_anglais": "Zerogu",
+    "numero": "Inconnu",
+    "nourriture_favorite": "Inconnue",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Dernière prière",
+            "effet": "Rend des PV aux Yo-kai de devant s'il est battu."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Coup de boule",
+            "effet": "15 | 67"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Restauration",
+            "effet": "50 | 110"
+        },
+        {
+            "type": "Attaque",
+            "nom": "En-cas de besoin",
+            "effet": "Restaure les PV de ses alliés avec un florilège de riz. 150 | 150"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Riz gentil",
+            "effet": "Restaure peu à peu les PV d'un allié avec du bon riz !"
+        }
+    ],
+    "phrases_nourriture": {
+        "Mange de la bonne nourriture": "Le riz, c'est la vie.",
+        "Mange de la nourriture insipide": "Oh... merci.",
+        "Mange de la mauvaise nourriture": "Ça suffira.",
+        "A la flemme": "Trop fatigué...",
+        "Est échangé": "Hum... Tu as faim ? Veux-tu un peu de riz ?",
+        "Devient ton ami": "Sais-tu que je facilite aisément la digestion de mes amis ?"
+    },
+    "evolutions": [],
+    "fusions": [],
+    "image_locale": "",
+    "nom_original": "ニセノコ",
+    "nom_anglais": "Fullgramps",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -30,91 +70,78 @@
     },
     "localisations": {
         "ykw1": [
-            "Avoir apporté une guitare au cours de yoga."
+            "Avoir dessiné des moustaches sur toutes les images de tout les manuels."
         ],
         "ykw2": [
-            "A secrètement triché dans une compétition de bowling."
+            "A frimé en faisant des abdos et s'est fait mal."
         ],
         "ykw3": [
-            "N'a pas laissé de pourboire au livreur de pizza."
+            "A trempé sa main dans le WC et s'est essuyé sur quelqu'un."
         ]
     },
-    "fusions": [],
     "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Vilain coup",
-                "puissance": "100|150",
+                "nom": "Coup de boule",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Brasier",
-                "puissance": "80|120",
+                "nom": "Guérison",
+                "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Typhon embrasé",
-                "puissance": "200|200",
-                "description": "Produit un typhon à l'aide de son éventail pour écraser l'ennemi."
+                "nom": "En-cas de besoin",
+                "puissance": "150|150",
+                "description": "Restaure les PV de ses alliés avec un florilège de riz."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Brûlure",
+                "nom": "Riz gentil",
                 "puissance": "N/A",
-                "description": "Harasse l'ennemi à coup de flammes pour diminuer ses PV."
+                "description": "Restaure les PV d'un allié avec du bon riz !"
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Jeu de feu",
-                "description": "Augmente les dégâts des attaques de feu."
+                "nom": "Talent : Dernière prière",
+                "description": "Rend des PV aux Yo-kai de devant s'il est battu."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Vilain coup",
-                "puissance": "100|150",
+                "nom": "Coup de boule",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Brasier",
-                "puissance": "80|120",
+                "nom": "Restauration",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Typhon embrasé",
-                "puissance": "200|200",
-                "description": "Produit un typhon à l'aide de son éventail pour frapper les cibles à portée."
+                "nom": "En-cas de besoin",
+                "puissance": "150|150",
+                "description": "Restaure les PV de ses alliés avec un florilège de riz."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Brûlure",
+                "nom": "Riz gentil",
                 "puissance": "N/A",
-                "description": "Harasse l'ennemi à coup de flammes pour diminuer graduellement ses PV."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Feu",
-                "puissance": "N/A",
-                "description": "Un jet de flamme brûle les ennemis éloignés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Incendie",
-                "puissance": "N/A",
-                "description": "Un sort de feu brûle les ennemis éloignés."
+                "description": "Restaure peu à peu les PV d'un allié avec du bon riz."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Jeu de feu",
-                "description": "Augmente les dégâts de ses attaques de feu."
+                "nom": "Talent : Dernière prière",
+                "description": "Rend des PV aux Yo-kai de devant s'il est battu."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -126,172 +153,75 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Typhon embrasé",
-                "puissance": "100×4",
-                "description": "Brûle les ennemis, gros dégâts infligés."
+                "nom": "En-cas de besoin",
+                "puissance": "400",
+                "description": "Alliés retrouvent beaucoup de PV."
             },
             {
                 "type": "Technique 1",
-                "nom": "Feu",
-                "puissance": "40",
-                "description": "Utilise un sort de feu. Charger renforce l'effet."
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
             },
             {
                 "type": "Technique 2",
-                "nom": "Onde de choc",
-                "puissance": "120",
-                "description": "Saute et crée une onde de choc en retombant."
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
+                "nom": "Cercle de guérison",
                 "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Incendie",
-                "puissance": "50",
-                "description": "Un sort de feu puissant. Charger renforce l'effet."
+                "description": "Crée un champ où les PV alliés peuvent se restaurer."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Valse du vent",
-                "description": "Hausse de la VIT. lors d'un chargement d'attaque."
+                "nom": "Talent : Riz-suscitation",
+                "description": "Restaure l'allié plus vite."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Vilain coup",
-                "puissance": "70|112",
+                "nom": "Coup de boule",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Brasier",
-                "puissance": "70|112",
+                "nom": "Restauration",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Typhon embrasé",
-                "puissance": "148|222",
-                "description": "Produit une tornade avec son éventail favori, pour frapper les cibles à portée."
+                "nom": "En-cas de besoin",
+                "puissance": "90|180",
+                "description": "Restaure les PV de ses alliés, avec un festin de boulettes de riz savoureuses."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Brûlure",
+                "nom": "Riz gentil",
                 "puissance": "N/A",
-                "description": "Attaque l'ennemi à coup de flammes pour diminuer ses PV."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Typhon embrasé",
-                "puissance": "100×4",
-                "description": "Feu intense infligeant des dégâts ++ aux ennemis."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Incendie",
-                "puissance": "50",
-                "description": "Technique de feu++. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Onde de choc",
-                "puissance": "120",
-                "description": "Saute en hauteur et frappe le sol d’une onde de choc."
+                "description": "Restaure peu à peu les PV d'un allié avec du bon riz !"
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Jeu de feu",
-                "description": "Booste les dégâts de feu de tous les Yo-kai."
+                "nom": "Talent : Dernière prière",
+                "description": "Restaure les PV de tous les alliés, quand il est battu."
             }
         ]
     },
     "soul_effects": null,
-    "drops": {
-        "YW1": [
-            {
-                "taux": "?%",
-                "objet": "Éventail de tengu"
-            },
-            {
-                "taux": "?%",
-                "objet": "Thé de l'âme"
-            }
-        ],
-        "YW2": [
-            {
-                "taux": "?%",
-                "objet": "Techniques tip-top"
-            },
-            {
-                "taux": "?%",
-                "objet": "Riz à la crevette"
-            }
-        ],
-        "YW3": [
-            {
-                "taux": "?%",
-                "objet": "Techniques tip-top"
-            },
-            {
-                "taux": "?%",
-                "objet": "Pomme d'amour"
-            }
-        ]
-    },
+    "drops": {},
     "special_talent": {
-        "nom": "Jeu de feu",
-        "description": "Augmente les dégâts des attaques de feu."
+        "nom": "Dernière prière",
+        "description": "Rend des PV aux Yo-kai de devant s'il est battu."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/749.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/749.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/749.wav",
-    "nourriture": "Bonbons",
-    "nourriture_favorite": "Sucrerie",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Jeu de feu",
-            "effet": "Augmente les dégâts de ses attaques de feu."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Vilain coup",
-            "effet": "100 | 150"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Brasier",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Typhon embrasé",
-            "effet": "Produit un typhon à l'aide de son éventail pour écraser tous les ennemis. 200 | 200"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Brûlure",
-            "effet": "Brûle un ennemi d'un feu déchaîné qui réduit graduellement ses PV."
-        }
-    ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Super bon !",
-        "Mange de la nourriture insipide": "Je prends !",
-        "Mange de la mauvaise nourriture": "C'est... infect.",
-        "A la flemme": "Ennuyeux...",
-        "Est échangé": "Cette flamme dans tes yeux m'a captivé !",
-        "Devient ton ami": "Je ne m'attendais pas à une telle force. J'imagine qu'une amitié est possible."
-    },
-    "oldID": "754"
+    "nourriture": "Riz",
+    "oldID": "755"
 }

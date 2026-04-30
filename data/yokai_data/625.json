@@ -1,17 +1,17 @@
 {
     "ID": "625",
-    "Nom": "Kyubot",
-    "Tribue": "Costaud",
-    "Rang": "S",
-    "PV": "551",
-    "Force": "33",
-    "Esprit": "172",
-    "Défense": "301",
-    "Vitesse": "104",
-    "Description": "Une source d'énergie très instable a dû être utilisée, pour reproduire la puissance de Kyubi sous une forme robotique.",
-    "nourriture": "Oden",
-    "élément": "Foudre",
-    "Rôle": "Tank",
+    "Nom": "PapiXXL",
+    "Tribue": "Bienveillant",
+    "Rang": "B",
+    "PV": "",
+    "Force": "",
+    "Esprit": "",
+    "Défense": "",
+    "Vitesse": "",
+    "Description": "Ce Yo-kai glouton a deux fois plus d'appétit que Granpapéti ! Il a mis plusieurs restaurants en faillite.",
+    "nourriture": "Viande",
+    "élément": "Restauration",
+    "Rôle": "Guérisseur",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -22,30 +22,39 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/625.png",
-    "nom_original": "メカキュウビ",
-    "nom_anglais": "Kyubot",
+    "nom_original": "ハングリーＧ",
+    "nom_anglais": "Supersize Gramps",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
-        "japonaise": "Aya Endo",
+        "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
         "ykw3": [
-            "Premier prix duLabyrinthe du renard. Il vous faut unePierre du renard ∞pour y accéder."
+            "Fusion"
         ]
     },
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Granpapéti",
+            "parent2": "Vermicelles colorés",
+            "resultat": "PapiXXL",
+            "critere": "➨"
+        }
+    ],
     "rarite": "Yo-kai Mericain",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Antisurtension",
-        "description": "Booste la DÉF. quand les compétences se rechargent."
+        "nom": "Double ration",
+        "description": "Récupère des PV si sur le point d'être battu."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/625.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/625.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/625.wav",
-    "oldID": "629"
+    "oldID": "630"
 }

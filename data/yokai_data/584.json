@@ -1,62 +1,84 @@
 {
     "ID": "584",
-    "Nom": "Tyragédie",
+    "Nom": "Céfasslopode",
     "Tribue": "Insaisissable",
     "Rang": "D",
-    "PV": "389",
-    "Force": "226",
-    "Esprit": "37",
-    "Défense": "124",
-    "Vitesse": "101",
-    "Description": "Un bébé dinosaure tout mignon et curieux qui ne se rend pas compte de sa force, mais alors, pas du tout...",
-    "nourriture": "Hot dog",
-    "élément": "Terre",
+    "PV": "422",
+    "Force": "125",
+    "Esprit": "56",
+    "Défense": "211",
+    "Vitesse": "86",
+    "Description": "Un Yo-kai ancien qui n'a plus rien à perdre... à part sa coquille...",
+    "description SITE": "Un Yo-kai ancien qui n'a plus rien à perdre… à part sa coquille…",
+    "nourriture": "Fruits de Mer",
+    "élément": "Eau",
     "Rôle": "Tank",
     "Biographie": "",
-    "étimologie": "Tyragédievient deTyrannosaureet detragédie.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
-    "personnalité": "Il est très curieux et ne se rend pas compte de sa force.",
+    "pouvoir": "Lorsqu'une personne est envoûtée par Céfasslopode, elle se dit qu'elle n'a plus rien à perdre et fait ce qui lui donne envie.",
+    "personnalité": "Pour Céfasslopode, il n'a plus rien a perdre et fait ce qu'il veut. C'est sa devise et sa manière de vivre.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/584.png",
-    "nom_original": "ダイナシー",
-    "nom_anglais": "T-Wrecks",
+    "nom_original": "ナンモナイト",
+    "nom_anglais": "Nautaloss",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "francaise": "Bruno Méyère"
     },
     "localisations": {
         "ykw3": [
-            "Électropolis- Parking louche",
-            "Électropolis - Allée de la brocante",
-            "Mythopolis"
+            "Betel- Allée du hip-hop"
         ]
     },
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Tyragédie",
-            "parent2": "ADN de Dinosaure",
-            "resultat": "Catastrosaure",
-            "critere": "➨"
-        }
-    ],
+    "fusions": [],
     "rarite": "Yo-kai Mericain",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
+    "attaques_par_jeu": {
+        "Yo-kai Watch 3": [
+            {
+                "type": "Attaque",
+                "nom": "Plaquage absolu",
+                "puissance": "20|70",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Torrent",
+                "puissance": "30|105",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Coquille vide",
+                "puissance": "",
+                "description": "C'est pas perdu, si c'est l'ennemi qui perd ses effets positifs !"
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Danger public",
+                "puissance": "N/A",
+                "description": "L'ennemi ne se soucie plus de rien, sa DÉF. baisse."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Mauvais esprit",
+                "description": "Réduit les effets des envoûtements pour tous."
+            }
+        ]
+    },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Vocifération",
-        "description": "Fait reculer un ennemi d'une case, en attaquant."
+        "nom": "Mauvais esprit",
+        "description": "Réduit les effets des envoûtements pour tous."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/584.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/584.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/584.wav",
-    "oldID": "587"
+    "oldID": "588"
 }

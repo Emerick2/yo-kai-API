@@ -1,16 +1,16 @@
 {
     "ID": "772",
-    "Nom": "Calquille",
+    "Nom": "Vipèrasec",
     "Tribue": "Insaisissable",
-    "Rang": "B",
-    "PV": "433",
-    "Force": "164",
-    "Esprit": "64",
-    "Défense": "211",
-    "Vitesse": "110",
+    "Rang": "A",
+    "PV": "441",
+    "Force": "238",
+    "Esprit": "76",
+    "Défense": "130",
+    "Vitesse": "142",
     "Description": "",
-    "élément": "Vent",
-    "Rôle": "Tank",
+    "élément": "Feu",
+    "Rôle": "Ranger",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,20 +21,22 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/772.png",
-    "nom_original": "まきあげ貝",
-    "nom_anglais": "Sdend",
+    "nom_original": "荒らすん蛇",
+    "nom_anglais": "Copyled",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw1": [],
+        "ykw1": [
+            "Avoir bougé des livres que quelqu'un avait rangé."
+        ],
         "ykw2": [
-            "A critiqué les repas faits par la dame de la cantine."
+            "A couru en rond alors qu'il fallait rester immobile.v"
         ],
         "ykw3": [
-            "A demandé juste une part, mais en a pris deux."
+            "A dessiné une moustache à un camarade endormi."
         ]
     },
     "fusions": [],
@@ -44,63 +46,63 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "45|99",
+                "nom": "Coups successifs",
+                "puissance": "15×3|33×3",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Rapides",
-                "puissance": "50|110",
+                "nom": "Haute tension",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Dette éternelle",
-                "puissance": "160|160",
-                "description": "Entraîne ses ennemis dans des dettes en dispersant leur argent."
+                "nom": "Vague de venin",
+                "puissance": "___",
+                "description": "Répand une vague venimeuse qui réduit la FOR. ennemie."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Générosité",
+                "nom": "Venin de vipère",
                 "puissance": "N/A",
-                "description": "Fait qu'un Yo-kai jette son argent par les fenêtres."
+                "description": "Ralentit un ennemi avec du venin de serpent."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Coqu'invincible",
-                "description": "Immunisé contre les envoûtements ennemis."
+                "nom": "Talent : Équipement banni",
+                "description": "Annule les effets des équipements."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "45|99",
+                "nom": "Coups successifs",
+                "puissance": "15×3|33×3",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Rapides",
-                "puissance": "50|110",
+                "nom": "Haute tension",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Dette éternelle",
-                "puissance": "160|160",
-                "description": "Entraîne ses ennemis dans des dettes en dispersant leur argent."
+                "nom": "Vague de venin",
+                "puissance": "___",
+                "description": "Répand une vague venimeuse qui réduit la FOR. ennemie."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Générosité",
+                "nom": "Venin de vipère",
                 "puissance": "N/A",
-                "description": "Incite un Yo-kai à jeter de l'argent par les fenêtres."
+                "description": "Le venin de vipère envoûte le Yo-kai, ce qui baisse énormément sa VIT."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Coqu'invincible",
-                "description": "Immunisé contre les envoûtements ennemis."
+                "nom": "Talent : Grand sérieux",
+                "description": "Ne flânera jamais."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -112,117 +114,111 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Dette éternelle",
-                "puissance": "250",
-                "description": "Baisse temporaire DÉF. des ennemis."
+                "nom": "Vague de venin",
+                "puissance": "___",
+                "description": "Forte baisse temporaire de l'attaque ennemie."
             },
             {
                 "type": "Technique 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
+                "nom": "Décharge",
+                "puissance": "40",
+                "description": "Utilise un sort de foudre. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Champ de force +",
+                "nom": "Envoût. poison +",
                 "puissance": "___",
-                "description": "Invincibilité temporaire des alliés à proximité."
+                "description": "Baisse rapide PV ennemis. Charger élargit l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Armure",
+                "nom": "Cercle vicieux",
                 "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Riz",
-                "puissance": "70",
-                "description": "Restaure tes PV."
+                "description": "Crée un champ où les stats des ennemis baissent."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Coqu'invincible",
-                "description": "Immunité contre les effets d'envoûtement négatifs."
+                "nom": "Talent : Persistance",
+                "description": "Ralentit la perte de la jauge d'attaque."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "50|110",
+                "nom": "Coups successifs",
+                "puissance": "24×3|38×3",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Rapides",
-                "puissance": "50|110",
+                "nom": "Haute tension",
+                "puissance": "70|112",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Dette éternelle",
+                "nom": "Vague de venin",
                 "puissance": "___",
-                "description": "Couvre ses ennemis de dettes en dispersant leur argent."
+                "description": "Répand une vague venimeuse qui baisse fortement la FOR. ennemie."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Générosité",
+                "nom": "Venin de vipère",
                 "puissance": "N/A",
-                "description": "Incite un Yo-kai à jeter de l'argent par les fenêtres."
+                "description": "L'effet paralysant du venin de vipère réduit la VIT. de l'ennemi."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Coqu'invincible",
-                "description": "Immunisé contre les envoûtements ennemis."
+                "nom": "Talent : Grand sérieux",
+                "description": "Ne flânera jamais."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Coqu'invincible",
-        "description": "Immunisé contre les envoûtements ennemis."
+        "nom": "Équipement banni",
+        "description": "Annule les effets des équipements."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/772.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/772.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/772.wav",
-    "nourriture": "Pain",
-    "nourriture_favorite": "Pain",
+    "nourriture": "Fruits de Mer",
+    "nourriture_favorite": "Fruit de mer",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Coqu'invincible",
-            "effet": "Immunisé contre les envoûtements ennemis."
+            "nom": "Grand sérieux",
+            "effet": "Ne flânera jamais."
         },
         {
             "type": "Attaque",
-            "nom": "Mâchouille",
-            "effet": "45 | 99"
+            "nom": "Coups successifs",
+            "effet": "15x3 | 33x3"
         },
         {
             "type": "Attaque",
-            "nom": "Rapides",
-            "effet": "50 | 110"
+            "nom": "Haute tension",
+            "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Dette éternelle",
-            "effet": "Entraîne ses ennemis dans des dettes en dispersant leur argent. 160 | 160"
+            "nom": "Vague de venin",
+            "effet": "Répand une vague venimeuse qui réduit la FOR. ennemie."
         },
         {
             "type": "Attaque",
-            "nom": "Générosité",
-            "effet": "Incite un Yo-kai à jeter de l'argent par les fenêtres."
+            "nom": "Venin de vipère",
+            "effet": "Le venin de vipère envoûte le Yo-kai, ce qui baisse énormément sa VIT."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Miam miam !",
-        "A mangé quelque chose de fade": "*mâche*",
-        "A mangé quelque chose de mauvais": "C'était quoi, ça ?!",
-        "A la flemme": "Qui ça intéresse ?",
-        "Est échangé": "Hé hé ! Si tu sais vraiment faire preuve de générosité, on sera amis !",
-        "Se lie d'amitié": "Ne te renferme pas ! Devenons amis !"
+        "A mangé quelque chose de bon": "Bravo !",
+        "A mangé quelque chose de fade": "Tellement banal.",
+        "A mangé quelque chose de mauvais": "Mon palais...",
+        "A la flemme": "J'ai essayé...",
+        "Est échangé": "Cet échange a été réalisé dans les règles et avec respect. Bien joué !",
+        "Se lie d'amitié": "Quel combat ! La plus glorieuse des gloires ! Il faut qu'on devienne amis !"
     },
-    "oldID": "777"
+    "oldID": "778"
 }

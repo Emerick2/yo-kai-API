@@ -1,16 +1,16 @@
 {
     "ID": "740",
-    "Nom": "Cigaclopin",
-    "Tribue": "Mignon",
+    "Nom": "Flamenteur",
+    "Tribue": "Sinistre",
     "Rang": "E",
-    "PV": "242",
-    "Force": "143",
-    "Esprit": "35",
-    "Défense": "100",
-    "Vitesse": "178",
+    "PV": "451",
+    "Force": "73",
+    "Esprit": "150",
+    "Défense": "80",
+    "Vitesse": "133",
     "Description": "",
     "élément": "Vent",
-    "Rôle": "Ranger",
+    "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,8 +21,8 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/740.png",
-    "nom_original": "デマまる",
-    "nom_anglais": "Cadout",
+    "nom_original": "ワルスギス",
+    "nom_anglais": "Buher",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -30,13 +30,13 @@
     },
     "localisations": {
         "ykw1": [
-            "Avoir donné un faux témoignage dans une interview au journal."
+            "Avoir soufflé sur la perruque d'un vieillard et la faire envoler."
         ],
         "ykw2": [
-            "A lancé une rumeur sur des squelettes qui dansent."
+            "A griffé le tableau noir avec ses longs ongles."
         ],
         "ykw3": [
-            "A menti sur le fait qu'il y ait du steak comme plat du jour."
+            "A rempli un punching-ball avec des cailloux."
         ]
     },
     "fusions": [],
@@ -46,7 +46,7 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Coupe-part",
+                "nom": "Pointe perçante",
                 "puissance": "15|67",
                 "description": ""
             },
@@ -58,26 +58,26 @@
             },
             {
                 "type": "Amultime",
-                "nom": "Coupe de cigale",
-                "puissance": "17×5|17×5",
-                "description": "Coupe nerveusement tous ses ennemis."
+                "nom": "Flamentation",
+                "puissance": "30|30",
+                "description": "Envoie une mauvaise énergie à ses ennemis pour les ralentir."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Ninjutsu cigale",
+                "nom": "Déprime",
                 "puissance": "N/A",
-                "description": "Augmente la VIT. d'un Yo-kai grâce au ninjutsu cigale."
+                "description": "Déprime les ennemis et leur enlève l'envie d'agir."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Modestie",
-                "description": "Faibles chances d'être attaqué."
+                "nom": "Talent : Jeu de vent",
+                "description": "Augmente les dégâts des attaques de vent."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Coupe-part",
+                "nom": "Pointe perçante",
                 "puissance": "15|67",
                 "description": ""
             },
@@ -89,32 +89,20 @@
             },
             {
                 "type": "Amultime",
-                "nom": "Coupe de cigale",
-                "puissance": "18×5|18×5",
-                "description": "Entaille nerveusement tous ses ennemis."
+                "nom": "Flamentation",
+                "puissance": "30|30",
+                "description": "Envoie une mauvaise énergie à ses ennemis pour les ralentir."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Ninjutsu cigale",
+                "nom": "Déprime",
                 "puissance": "N/A",
-                "description": "Augmente la VIT. d'un Yo-kai grâce au ninjutsu cigale."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque ardente",
-                "puissance": "N/A",
-                "description": "Esquive toutes les attaques physiques."
+                "description": "Déprime les ennemis et leur enlève l'envie d'agir."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Modestie",
-                "description": "Faibles chances d'être attaqué."
+                "nom": "Talent : Jeu de vent",
+                "description": "Augmente les dégâts de ses attaques de vent."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -126,38 +114,38 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Coupe de cigale",
-                "puissance": "480",
-                "description": "Inflige de gros dégâts à courte portée."
+                "nom": "Flamentation",
+                "puissance": "250",
+                "description": "Baisse temporaire de la vit. des ennemis."
             },
             {
                 "type": "Technique 1",
+                "nom": "Tourbillon",
+                "puissance": "40",
+                "description": "Utilise un sort de vent. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique 2",
                 "nom": "Coup puissant",
                 "puissance": "100",
                 "description": "Attaque avec un super esprit du combattant."
             },
             {
-                "type": "Technique 2",
-                "nom": "Mine",
-                "puissance": "600",
-                "description": "Explose si un ennemi ou un allié s'en approche."
-            },
-            {
                 "type": "Technique à acquérir 1",
-                "nom": "Envoûtement poison",
+                "nom": "Position de rapidité",
                 "puissance": "___",
-                "description": "Baisse lente PV ennemis. Charger élargit l'effet."
+                "description": "Hausse de la vitesse temporaire."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Délit de fuite",
-                "description": "Hausse VIT. si attaqué (cumulable), jusqu'à la fin des attaques."
+                "nom": "Talent : Vent arrière",
+                "description": "Ajoute du vent aux attaques."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Coupe-part",
+                "nom": "Pointe perçante",
                 "puissance": "30|105",
                 "description": ""
             },
@@ -169,102 +157,43 @@
             },
             {
                 "type": "Amultime",
-                "nom": "Coupe de cigale",
-                "puissance": "100|300",
-                "description": "Entaille nerveusement les ennemis à portée."
+                "nom": "Flamentation",
+                "puissance": "46|46",
+                "description": "Blesse les cibles à portée, via une énergie maléfique. Baisse fortement la VIT."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Ninjutsu cigale",
+                "nom": "Déprime",
                 "puissance": "N/A",
-                "description": "Augmente la VIT. d'un Yo-kai grâce au ninjutsu cigale."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Coupe de cigale",
-                "puissance": "480",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque l’ennemi avec une attaque féroce."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Détection de trésor",
-                "puissance": "___",
-                "description": "Génère une zone qui détecte les trésors."
+                "description": "Déprime un ennemi et lui ôte toute envie d'agir."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Coupe-vent",
-                "description": "Réduit les dégâts de vent subis par tous les alliés."
+                "nom": "Talent : Jeu de vent",
+                "description": "Booste les dégâts de vent de tous les Yo-kai."
             }
         ]
     },
-    "soul_effects": {
-        "Yo-kai Watch 2": "Augmente légèrement les chances d’esquiver les attaques.",
-        "Yo-kai Watch Blasters": "Faible hausse de la VIT.",
-        "Yo-kai Watch 3": "Réduit un peu les dégâts de vent sur tous les alliés."
-    },
-    "drops": {
-        "YW1": [
-            {
-                "taux": "?%",
-                "objet": "Mélasse"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman de vitesse"
-            }
-        ],
-        "YW2": [
-            {
-                "taux": "?%",
-                "objet": "Petit EXPorbe"
-            },
-            {
-                "taux": "?%",
-                "objet": "Mélasse"
-            }
-        ],
-        "YW3": [
-            {
-                "taux": "?%",
-                "objet": "Cigatana"
-            },
-            {
-                "taux": "?%",
-                "objet": "Thé de l'âme"
-            }
-        ]
-    },
+    "soul_effects": null,
+    "drops": {},
     "special_talent": {
-        "nom": "Modestie",
-        "description": "Faibles chances d'être attaqué."
+        "nom": "Jeu de vent",
+        "description": "Augmente les dégâts des attaques de vent."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/740.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/740.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/740.wav",
-    "nourriture": "Jus",
-    "nourriture_favorite": "Boisson",
+    "nourriture": "Pain",
+    "nourriture_favorite": "Pain",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Modestie",
-            "effet": "Faibles chances d'être attaqué."
+            "nom": "Jeu de vent",
+            "effet": "Augmente les dégâts de ses attaques de vent."
         },
         {
             "type": "Attaque",
-            "nom": "Coupe-part",
+            "nom": "Pointe perçante",
             "effet": "15 | 67"
         },
         {
@@ -274,22 +203,22 @@
         },
         {
             "type": "Attaque",
-            "nom": "Coupe de cigale",
-            "effet": "Coupe nerveusement tous ses ennemis. 18x5 | 18x5"
+            "nom": "Flamentation",
+            "effet": "Envoie une mauvaise énergie à ses ennemis pour les ralentir. 30 | 30"
         },
         {
             "type": "Attaque",
-            "nom": "Ninjutsu cigale",
-            "effet": "Augmente la VIT. d'un Yo-kai grâce au ninjutsu cigale."
+            "nom": "Déprime",
+            "effet": "Déprime les ennemis et leur enlève l'envie d'agir."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Je suis revigoré !",
-        "Mange de la nourriture insipide": "Euh... OK.",
-        "Mange de la mauvaise nourriture": "C'est d'un infâme !",
-        "A la flemme": "Besoin de repos...",
-        "Est échangé": "Bonjour, toi ! Il semble que j'aie émergé de la terre juste pour finir échangé.",
-        "Devient ton ami": "Parbleu, quelle escarmouche de talent ! Nous devrions nous lier d'amitié, non ?"
+        "A mangé quelque chose de bon": "Bouhou... Miam !",
+        "A mangé quelque chose de fade": "Ça peut aller.",
+        "A mangé quelque chose de mauvais": "Bouhou...",
+        "A la flemme": "Bouhou...",
+        "Est échangé": "Échangée ? Bouhou... sois sympa avec moi.",
+        "Se lie d'amitié": "Bouhouhouhou... Je ne suis pas assez forte. On... peut... devenir... amis ?"
     },
-    "oldID": "745"
+    "oldID": "746"
 }

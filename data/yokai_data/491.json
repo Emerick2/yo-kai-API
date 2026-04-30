@@ -1,19 +1,19 @@
 {
     "ID": "491",
-    "Nom": "Aloyau Ier",
+    "Nom": "Pot-au-meuh",
     "Tribue": "Costaud",
     "Rang": "A",
-    "PV": "459",
-    "Force": "169",
-    "Esprit": "43",
-    "Défense": "230",
-    "Vitesse": "136",
-    "Description": "Le roi du royaume des steaks exige un nouveau corps bien saignant tous les jours.",
-    "nourriture": "Viande",
-    "élément": "Feu",
+    "PV": "487",
+    "Force": "180",
+    "Esprit": "46",
+    "Défense": "226",
+    "Vitesse": "118",
+    "Description": "Ce Yo-kai veut absolument faire sensation dans le monde culinaire. Cuit à la perfection, c'est un repas de roi !",
+    "nourriture": "Bonbons",
+    "élément": "Terre",
     "Rôle": "Tank",
     "Biographie": "",
-    "étimologie": "Aloyau Iervient d'Aloyau(morceau de bœuf) et deIer, en référence à sa nature de roi.",
+    "étimologie": "Pot-au-meuhvient dePot-au-feuet de \"Meuh\" (onomatopée pour le cri de la vache).",
     "origine": "",
     "histoire": "",
     "pouvoir": "",
@@ -22,8 +22,56 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/491.png",
-    "nom_original": "ステーキング",
-    "nom_anglais": "Steaking",
+    "numero": "157",
+    "nourriture_favorite": "Sucrerie",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Mieuh-être",
+            "effet": "Rend peu à peu des PV à tous les alliés reliés."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Méga frappe",
+            "effet": "40 | 88"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Éboulement",
+            "effet": "50 | 110"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Soupe Pot-au-meuh",
+            "effet": "Blesse les ennemis à portée avec sa recette maison. 160 | 240"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Mégalomanie",
+            "effet": "L'ennemi est plongé dans un pot-au-fou, il attaque ses alliés !Médaillon de Pot-au-meuh"
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "Remeuhrquable !",
+        "A mangé quelque chose de fade": "Ça m'ameuhse pas...",
+        "A mangé quelque chose de mauvais": "C'est meuhrrible !",
+        "A la flemme": "Au fond du four...",
+        "Se lie d'amitié": "J'ai bien mijoté ! On fait équipe pour rôtir tes adversaires ?",
+        "Est échangé": "C'est le fumet de mon pot-au-feu qui t'amène ici ?"
+    },
+    "evolutions": [],
+    "fusions": [
+        {
+            "type": "Évolution",
+            "contexte": "Général",
+            "de": "Chameuhllow",
+            "vers": "Pot-au-meuh",
+            "critere": "Niveau 29"
+        }
+    ],
+    "image_locale": "",
+    "nom_original": "ギュウ汁",
+    "nom_anglais": "Stircrazy Stu",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
@@ -31,14 +79,9 @@
     },
     "localisations": {
         "ykw3": [
-            "Cawet- Hôtel - porte arrière",
-            "Roue rêve-Pièce orange- 2e prix"
-        ],
-        "Yo-kai Watch Busters 2 :[]": [
-            "Bingo-kai - Pièce orange - 2e prix"
+            "Évolution"
         ]
     },
-    "fusions": [],
     "rarite": "Yo-kai Mericain",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
@@ -47,20 +90,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Tournedos"
+                "objet": "Steak"
             },
             {
                 "taux": "?%",
-                "objet": "Steak"
+                "objet": "Bœuf persillé"
             }
         ]
     },
     "special_talent": {
-        "nom": "Double ration",
-        "description": "Récupère des PV si sur le point d'être battu. (une fois)"
+        "nom": "Mieuh-être",
+        "description": "Rend peu à peu des PV à tous les alliés reliés."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/491.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/491.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/491.wav",
-    "oldID": "495"
+    "oldID": "496"
 }

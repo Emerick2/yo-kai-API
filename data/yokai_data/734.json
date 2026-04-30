@@ -1,16 +1,16 @@
 {
     "ID": "734",
-    "Nom": "Toutouhic",
+    "Nom": "Hillusion",
     "Tribue": "Mystérieux",
     "Rang": "C",
-    "PV": "173",
-    "Force": "165",
-    "Esprit": "187",
-    "Défense": "88",
-    "Vitesse": "131",
+    "PV": "267",
+    "Force": "35",
+    "Esprit": "178",
+    "Défense": "107",
+    "Vitesse": "203",
     "Description": "",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
+    "élément": "Eau",
+    "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,8 +21,8 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/734.png",
-    "nom_original": "パクロ婆",
-    "nom_anglais": "Tattletwin",
+    "nom_original": "ペテン老師",
+    "nom_anglais": "Illow",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -30,13 +30,13 @@
     },
     "localisations": {
         "ykw1": [
-            "Avoir volé la boîte de dons."
+            "Avoir parlé en verlant."
         ],
         "ykw2": [
-            "A plagié l'idée de quelqu'un pour un concours littéraire."
+            "A prétendu porter des chaussettes propres."
         ],
         "ykw3": [
-            "A volé le chien d'un passant lors d'une promenade."
+            "A fait croire que les petits pois étaient des bonbons."
         ]
     },
     "fusions": [],
@@ -46,58 +46,58 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
+                "nom": "Frappe",
                 "puissance": "10|45",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Guérison",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Squelébaffe",
-                "puissance": "80|176",
-                "description": "Une gifle qui peut annuler les Âmultimes adverses."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Visage peint",
-                "puissance": "N/A",
-                "description": "Réduit la DÉF. d'un ennemi à l'aide d'un sort squelettique."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Redonne peu à peu des PV au Yo-kai voisin."
-            }
-        ],
-        "Yo-kai Watch 2": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
+                "nom": "Gel",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Squelébaffe",
-                "puissance": "130|130",
-                "description": "Une gifle qui peut annuler les Âmultimes adverses."
+                "nom": "Esprit confus",
+                "puissance": "110|110",
+                "description": "Invoque des feux follets pour attaquer l'ennemi."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Visage peint",
+                "nom": "Énergie mirage",
                 "puissance": "N/A",
-                "description": "Réduit la DÉF. d'un ennemi à l'aide d'un sort squelettique."
+                "description": "Rend un allié assez rapide pour avoir l'air d'une fine fumée."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Fraternité",
+                "description": "Augm. stats d'un voisin avec le même talent."
+            }
+        ],
+        "Yo-kai Watch 2": [
+            {
+                "type": "Attaque",
+                "nom": "Frappe",
+                "puissance": "10|45",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Gel",
+                "puissance": "50|110",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Esprit confus",
+                "puissance": "120|120",
+                "description": "Invoque des feux follets pour attaquer l'ennemi."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Énergie mirage",
+                "puissance": "N/A",
+                "description": "Rend un allié assez rapide pour avoir l'air d'une fine fumée."
             },
             {
                 "type": "Attaque A",
@@ -107,14 +107,14 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Cercle guérisseur",
+                "nom": "Gel",
                 "puissance": "N/A",
-                "description": "Chargée, rend des PV à plusieurs Yo-kai."
+                "description": "Un sort de glace gèle les ennemis éloignés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+                "nom": "Talent : Fraternité",
+                "description": "Augm. stats d'un voisin avec le même talent."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -126,58 +126,64 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Squelébaffe",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
+                "nom": "Esprit confus",
+                "puissance": "67×6",
+                "description": "Une flamme bleue qui inflige de gros dégâts."
             },
             {
                 "type": "Technique 1",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
+                "nom": "Gel",
+                "puissance": "50",
+                "description": "Un sort de glace puissant. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Cercle guérisseur",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger élargit l'effet."
+                "nom": "Âmunisé",
+                "puissance": "___",
+                "description": "Esquive rapidement l'attaque ennemie."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Boost de vitesse +",
+                "nom": "Position de rapidité",
                 "puissance": "___",
-                "description": "Forte hausse VIT. alliés. Charger élargit l'effet."
+                "description": "Hausse de la vitesse temporaire."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Attaque de repli",
+                "puissance": "70",
+                "description": "Pendant l'attaque, recule et évite les coups ennemis."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Les PV des alliés sont restaurés graduellement."
+                "nom": "Talent : Réincarner",
+                "description": "Tous les PV restaurés en cas de défaite."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
+                "nom": "Frappe",
+                "puissance": "20|70",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
+                "nom": "Gel",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Squelébaffe",
-                "puissance": "100|200",
-                "description": "L'ennemi tombe sur un os... oups, une gifle."
+                "nom": "Esprit confus",
+                "puissance": "150|300",
+                "description": "Invoque des feux follets pour attaquer les ennemis à portée."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Visage peint",
+                "nom": "Énergie mirage",
                 "puissance": "N/A",
-                "description": "Réduit la DÉF. d'un ennemi à l'aide d'un sort squelettique."
+                "description": "Rend un allié assez rapide pour avoir l'air d'une fine fumée."
             },
             {
                 "type": "Attaque A",
@@ -187,26 +193,26 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Squelébaffe",
-                "puissance": "400",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+                "nom": "Esprit confus",
+                "puissance": "66×6",
+                "description": "Flammes bleues brûlant les ennemis. Dégâts élevés."
             },
             {
                 "type": "Attaque X",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. PV rendus + si chargé."
+                "nom": "Gel",
+                "puissance": "50",
+                "description": "Technique de glace++. Plus de dégâts si chargée."
             },
             {
                 "type": "Attaque Y",
-                "nom": "Cercle guérisseur",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Plus de portée si chargé."
+                "nom": "Âmunisé",
+                "puissance": "___",
+                "description": "Esquive des attaques par des déplacements rapides."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Rend peu à peu des PV à tous les alliés reliés."
+                "nom": "Talent : Fraternité",
+                "description": "↑ stats si relié à un Yo-kai avec le même talent."
             }
         ]
     },
@@ -215,77 +221,77 @@
         "YW1": [
             {
                 "taux": "?%",
-                "objet": "Remède infect"
+                "objet": "Anneau d'illusion"
             },
             {
                 "taux": "?%",
-                "objet": "Riz à la crevette"
+                "objet": "Pousse de bambou"
             }
         ],
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "La teigne parfaite"
+                "objet": "Anneau arc-en-ciel"
             },
             {
                 "taux": "?%",
-                "objet": "Fraisier"
+                "objet": "Dico-tech"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Techniques tip-top"
+                "objet": "Billet de loterie"
             },
             {
                 "taux": "?%",
-                "objet": "Ramen au poulet"
+                "objet": "Patte d'ours"
             }
         ]
     },
     "special_talent": {
-        "nom": "Traitement",
-        "description": "Redonne peu à peu des PV au Yo-kai voisin."
+        "nom": "Fraternité",
+        "description": "Augm. stats d'un voisin avec le même talent."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/734.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/734.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/734.wav",
-    "nourriture": "Ramen",
-    "nourriture_favorite": "Ramen",
+    "nourriture": "Cuisine chinoise",
+    "nourriture_favorite": "Pain",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Traitement",
-            "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
+            "nom": "Fraternité",
+            "effet": "Augm. stats d'un voisin avec le même talent."
         },
         {
             "type": "Attaque",
-            "nom": "Gifle",
+            "nom": "Frappe",
             "effet": "10 | 45"
         },
         {
             "type": "Attaque",
-            "nom": "Restauration",
+            "nom": "Gel",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Squelébaffe",
-            "effet": "Une gifle qui peut annuler les Âmultimes adverses. 130 | 130"
+            "nom": "Esprit confus",
+            "effet": "Invoque des feux follets pour attaquer l'ennemi. 120 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Visage peint",
-            "effet": "Réduit la DÉF. d'un ennemi à l'aide d'un sort squelettique."
+            "nom": "Énergie mirage",
+            "effet": "Rend un allié assez rapide pour avoir l'air d'une fine fumée."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "DIS TOUT !",
-        "Mange de la nourriture insipide": "Dis tout.",
-        "Mange de la mauvaise nourriture": "Dis tout...",
-        "A la flemme": "Dis tout...",
-        "Est échangé": "Dis tout ! (Enchantée !)",
-        "Devient ton ami": "Dis tout ? (Je peux être ton amie ?)"
+        "Mange de la bonne nourriture": "J'aime beaucoup !",
+        "Mange de la nourriture insipide": "Bof bof.",
+        "Mange de la mauvaise nourriture": "Je finirai pas...",
+        "A la flemme": "C'est déprimant...",
+        "Est échangé": "Combien d'amis j'ai ? Si seulement je pouvais me souvenir...",
+        "Devient ton ami": "Tu as de la force d'esprit ! Ça te dirait de tenir compagnie à un vieil homme ?"
     },
-    "oldID": "739"
+    "oldID": "740"
 }

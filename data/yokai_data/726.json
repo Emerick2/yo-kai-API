@@ -1,16 +1,16 @@
 {
     "ID": "726",
-    "Nom": "Bushidouble",
+    "Nom": "Faulion",
     "Tribue": "Vaillant",
-    "Rang": "A",
-    "PV": "488",
-    "Force": "317",
-    "Esprit": "54",
-    "Défense": "183",
-    "Vitesse": "100",
+    "Rang": "B",
+    "PV": "392",
+    "Force": "180",
+    "Esprit": "152",
+    "Défense": "104",
+    "Vitesse": "127",
     "Description": "",
-    "élément": "Foudre",
-    "Rôle": "Tank",
+    "élément": "Feu",
+    "Rôle": "Ranger",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,8 +21,8 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/726.png",
-    "nom_original": "とんま将軍",
-    "nom_anglais": "Fi-knight",
+    "nom_original": "うすっぺライオン",
+    "nom_anglais": "Blazioff",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -30,13 +30,13 @@
     },
     "localisations": {
         "ykw1": [
-            "Avoir monté un cheval d'arçons."
+            "Avoir répondu au hasard aux questions pour finir rapidement les devoirs."
         ],
         "ykw2": [
-            "A attaqué un troupeau d'oies ayant le dos tourné."
+            "A écrit un compte-rendu littéraire sur un film."
         ],
         "ykw3": [
-            "A fait semblant d'être malade pour ne pas faire ses devoirs."
+            "A fait tous ses devoirs à la dernière minute."
         ]
     },
     "fusions": [],
@@ -46,58 +46,58 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "10×5|22×5",
+                "nom": "Poing précis",
+                "puissance": "90|135",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Entaille du Bushi",
-                "puissance": "150|225",
-                "description": "Sort son épée de son fourreau et atteint tous ses ennemis d'un coup."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Sort du chevalier",
-                "puissance": "N/A",
-                "description": "Affaiblit l'ESP. ennemi avec le pouvoir d'un guerrier ressuscité."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "En défense, pas de dégâts élémentaires."
-            }
-        ],
-        "Yo-kai Watch 2": [
-            {
-                "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "10×5|22×5",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Foudre",
+                "nom": "Éboulement",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Entaille du Bushi",
-                "puissance": "130|195",
-                "description": "Sort son épée de son fourreau et atteint tous ses ennemis d'un coup."
+                "nom": "Attaque sismique",
+                "puissance": "90|198",
+                "description": "Fait trembler la terre et assomme l'adversaire à coup de rochers."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Sort du chevalier",
+                "nom": "Fierté du lion",
                 "puissance": "N/A",
-                "description": "Affaiblit l'ESP. ennemi avec le pouvoir d'un guerrier ressuscité."
+                "description": "Remonte le moral du Yo-kai envoûté, ce qui augmente sa DÉF."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Esprit courageux",
+                "description": "La puissance augmente quand un allié est battu."
+            }
+        ],
+        "Yo-kai Watch 2": [
+            {
+                "type": "Attaque",
+                "nom": "Poing précis",
+                "puissance": "90|135",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Éboulement",
+                "puissance": "50|110",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Attaque sismique",
+                "puissance": "75|165",
+                "description": "Fait trembler la terre et assomme l'adversaire à coup de rochers."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Fierté du lion",
+                "puissance": "N/A",
+                "description": "Remonte le moral du Yo-kai envoûté, ce qui augmente sa DÉF."
             },
             {
                 "type": "Attaque A",
@@ -107,14 +107,14 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Garder",
+                "nom": "Éboulement",
                 "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
+                "description": "Un sort de terre frappe les ennemis éloignés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "En défense, pas de dégâts élémentaires."
+                "nom": "Talent : Esprit courageux",
+                "description": "La puissance augmente quand un allié est battu."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -126,64 +126,64 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Entaille du Bushi",
-                "puissance": "480",
-                "description": "Inflige de gros dégâts à courte portée."
+                "nom": "Attaque sismique",
+                "puissance": "80×5",
+                "description": "Des rochers infligent de gros dégâts aux ennemis."
             },
             {
                 "type": "Technique 1",
-                "nom": "Déblindage +",
-                "puissance": "80",
-                "description": "Baisse temporaire DÉF. des ennemis touchés."
+                "nom": "Galet",
+                "puissance": "40",
+                "description": "Utilise un sort de terre. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
+                "nom": "Mine",
+                "puissance": "600",
+                "description": "Explose si un ennemi ou un allié s'en approche."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Encore !",
+                "nom": "Âmunisé",
                 "puissance": "___",
-                "description": "Attaque un ennemi pour attirer son attention."
+                "description": "Esquive rapidement l'attaque ennemie."
             },
             {
                 "type": "Technique à acquérir 2",
-                "nom": "Armure de fer",
-                "puissance": "",
-                "description": "Forte  réduction des dégâts infligés. Attire l'attention."
+                "nom": "Attaque blitz",
+                "puissance": "25",
+                "description": "Touche plusieurs fois pour des attaques en continu."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Esprit du gardien",
-                "description": "Ta jauge d'âme augmente si attaque ennemie gardée."
+                "nom": "Talent : Terre-à-terre",
+                "description": "Ajoute de la terre aux attaques."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "8×5|17×5",
+                "nom": "Poing précis",
+                "puissance": "70|112",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Foudre",
+                "nom": "Éboulement",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Entaille du Bushi",
-                "puissance": "200|300",
-                "description": "Sort son épée de son fourreau et atteint les ennemis à portée."
+                "nom": "Attaque sismique",
+                "puissance": "150|300",
+                "description": "Fait trembler la terre et assomme les ennemis à portée, à coup de rochers."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Sort du chevalier",
+                "nom": "Fierté du lion",
                 "puissance": "N/A",
-                "description": "Affaiblit l'ESP. ennemi avec le pouvoir d'un guerrier ressuscité."
+                "description": "Le Yo-kai envoûté est si ému que sa DÉF. augmente !"
             },
             {
                 "type": "Attaque A",
@@ -193,26 +193,26 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Entaille du Bushi",
-                "puissance": "480",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+                "nom": "Attaque sismique",
+                "puissance": "80×5",
+                "description": "Pluie de rochers qui inflige des dégâts élevés."
             },
             {
                 "type": "Attaque X",
-                "nom": "Déblindage +",
-                "puissance": "80",
-                "description": "Réduit ++ la DÉF. ennemie un court instant."
+                "nom": "Galet",
+                "puissance": "40",
+                "description": "Technique de terre+. Plus de dégâts si chargée."
             },
             {
                 "type": "Attaque Y",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
+                "nom": "Mine",
+                "puissance": "600",
+                "description": "Mine + explosant si un Yo-kai approche."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "La garde permet d'éviter les dégâts liés à l'élément faible."
+                "nom": "Talent : Esprit courageux",
+                "description": "↑ puissance, si un allié est battu."
             }
         ]
     },
@@ -221,77 +221,77 @@
         "YW1": [
             {
                 "taux": "?%",
-                "objet": "Les coups secrets"
+                "objet": "Anneau de la terre"
             },
             {
                 "taux": "?%",
-                "objet": "Talisman de force"
+                "objet": "Foie à l'oignon"
             }
         ],
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "Les coups secrets"
+                "objet": "Vivez Karaté"
             },
             {
                 "taux": "?%",
-                "objet": "Talisman de force"
+                "objet": "Foie à l'oignon"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Grand EXPorbe"
+                "objet": "Remède amer"
             },
             {
                 "taux": "?%",
-                "objet": "Pousse de bambou"
+                "objet": "Langue de bœuf"
             }
         ]
     },
     "special_talent": {
-        "nom": "Esprit gardien",
-        "description": "En défense, pas de dégâts élémentaires."
+        "nom": "Esprit courageux",
+        "description": "La puissance augmente quand un allié est battu."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/726.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/726.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/726.wav",
-    "nourriture": "Légumes",
-    "nourriture_favorite": "Légume",
+    "nourriture": "Viande",
+    "nourriture_favorite": "Viande",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Esprit gardien",
-            "effet": "En défense, pas de dégâts élémentaires."
+            "nom": "Esprit courageux",
+            "effet": "La puissance augmente quand un allié est battu."
         },
         {
             "type": "Attaque",
-            "nom": "Rafale de coups",
-            "effet": "10x5 | 22x5"
+            "nom": "Poing précis",
+            "effet": "90 | 135"
         },
         {
             "type": "Attaque",
-            "nom": "Foudre",
+            "nom": "Éboulement",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Entaille du Bushi",
-            "effet": "Sort son épée de son fourreau et atteint tous ses ennemis d'un coup. 130 | 195"
+            "nom": "Attaque sismique",
+            "effet": "Fait trembler la terre et assomme l'adversaire à coup de rochers. 75 | 165"
         },
         {
             "type": "Attaque",
-            "nom": "Sort du chevalier",
-            "effet": "Affaiblit l'ESP. ennemi avec le pouvoir d'un guerrier ressuscité."
+            "nom": "Fierté du lion",
+            "effet": "Remonte le moral du Yo-kai envoûté, ce qui augmente sa DÉF."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Tout ce que j'aime.",
-        "Mange de la nourriture insipide": "*mâche*",
-        "Mange de la mauvaise nourriture": "Non ! Pas ça !",
-        "A la flemme": "Une pause vitale !",
-        "Est échangé": "Ah, tu es donc la personne qui est en charge, maintenant. Très bien !",
-        "Devient ton ami": "Quelle fougue ! Allez, deviens mon laquais... D'accord... devenons amis."
+        "Mange de la bonne nourriture": "De la viaaande !",
+        "Mange de la nourriture insipide": "C'est pas mauvais.",
+        "Mange de la mauvaise nourriture": "Pitié ! Arrête !",
+        "A la flemme": "Besoin d'air !",
+        "Est échangé": "Avant mon cœur ne brûlait que pour",
+        "Devient ton ami": "Mon cœur brûle ! À partir d'aujourd'hui, nous sommes amis !"
     },
-    "oldID": "731"
+    "oldID": "732"
 }

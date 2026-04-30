@@ -1,15 +1,15 @@
 {
     "ID": "733",
-    "Nom": "Duplistol",
+    "Nom": "Toutouhic",
     "Tribue": "Mystérieux",
-    "Rang": "D",
-    "PV": "296",
-    "Force": "69",
-    "Esprit": "183",
-    "Défense": "113",
-    "Vitesse": "138",
+    "Rang": "C",
+    "PV": "173",
+    "Force": "165",
+    "Esprit": "187",
+    "Défense": "88",
+    "Vitesse": "131",
     "Description": "",
-    "élément": "Vent",
+    "élément": "Restauration",
     "Rôle": "Guérisseur",
     "Biographie": "",
     "étimologie": "",
@@ -21,20 +21,22 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/733.png",
-    "nom_original": "パチモ天",
-    "nom_anglais": "Impistol",
+    "nom_original": "パクロ婆",
+    "nom_anglais": "Tattletwin",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw1": [],
+        "ykw1": [
+            "Avoir volé la boîte de dons."
+        ],
         "ykw2": [
-            "A prétendu avoir reçu des chocolats par des fans."
+            "A plagié l'idée de quelqu'un pour un concours littéraire."
         ],
         "ykw3": [
-            "A servi de l'écrevisse en disant que c'était du homard."
+            "A volé le chien d'un passant lors d'une promenade."
         ]
     },
     "fusions": [],
@@ -44,58 +46,58 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Tir",
+                "nom": "Gifle",
                 "puissance": "10|45",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Tourbillon",
+                "nom": "Guérison",
                 "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Baiser de la vie",
-                "puissance": "60|157",
-                "description": "Restaure les PV de ses alliés en leur envoyant un joli bisou !"
+                "nom": "Squelébaffe",
+                "puissance": "80|176",
+                "description": "Une gifle qui peut annuler les Âmultimes adverses."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Popularité",
+                "nom": "Visage peint",
                 "puissance": "N/A",
-                "description": "Rend un allié tellement populaire que tous les ennemis le ciblent."
+                "description": "Réduit la DÉF. d'un ennemi à l'aide d'un sort squelettique."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Sympathie",
-                "description": "Incite plus d'ennemis à devenir tes amis."
+                "nom": "Talent : Traitement",
+                "description": "Redonne peu à peu des PV au Yo-kai voisin."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Tir",
+                "nom": "Gifle",
                 "puissance": "10|45",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "20|90",
+                "nom": "Restauration",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Baiser de la vie",
-                "puissance": "50|131",
-                "description": "Restaure les PV de ses alliés en leur envoyant un joli bisou !"
+                "nom": "Squelébaffe",
+                "puissance": "130|130",
+                "description": "Une gifle qui peut annuler les Âmultimes adverses."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Popularité",
+                "nom": "Visage peint",
                 "puissance": "N/A",
-                "description": "Rend un allié tellement populaire que tous les ennemis le ciblent."
+                "description": "Réduit la DÉF. d'un ennemi à l'aide d'un sort squelettique."
             },
             {
                 "type": "Attaque A",
@@ -105,112 +107,106 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Incendie",
+                "nom": "Cercle guérisseur",
                 "puissance": "N/A",
-                "description": "Un sort de feu brûle les ennemis éloignés."
+                "description": "Chargée, rend des PV à plusieurs Yo-kai."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Sympathie",
-                "description": "Incite plus d'ennemis à devenir tes amis."
+                "nom": "Talent : Traitement",
+                "description": "Redonne peu à peu des PV aux Yo-kai voisins."
             }
         ],
         "Yo-kai Watch Blasters": [
             {
                 "type": "Attaque A",
-                "nom": "Flèche de Cupidon",
-                "puissance": "25",
-                "description": "Attaque longue portée."
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
             },
             {
                 "type": "Âmultime",
-                "nom": "Baiser de la vie",
+                "nom": "Squelébaffe",
                 "puissance": "400",
-                "description": "Alliés retrouvent beaucoup de PV."
+                "description": "Inflige de gros dégâts à courte portée."
             },
             {
                 "type": "Technique 1",
-                "nom": "Tourbillon",
-                "puissance": "40",
-                "description": "Utilise un sort de vent. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
                 "nom": "Restauration",
                 "puissance": "80",
                 "description": "Rend des PV à un allié. Charger renforce l'effet."
             },
             {
-                "type": "Technique à acquérir 1",
-                "nom": "Boost de vitesse",
-                "puissance": "___",
-                "description": "Hausse VIT. des alliés. Charger élargit l'effet."
+                "type": "Technique 2",
+                "nom": "Cercle guérisseur",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger élargit l'effet."
             },
             {
-                "type": "Technique à acquérir 2",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
+                "type": "Technique à acquérir 1",
+                "nom": "Boost de vitesse +",
+                "puissance": "___",
+                "description": "Forte hausse VIT. alliés. Charger élargit l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Sympathie",
-                "description": "Amitié plus probable avec les ennemis."
+                "nom": "Talent : Traitement",
+                "description": "Les PV des alliés sont restaurés graduellement."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Tir",
+                "nom": "Gifle",
                 "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "30|105",
+                "nom": "Restauration",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Baiser de la vie",
-                "puissance": "60|180",
-                "description": "Restaure les PV de ses alliés en leur envoyant un joli bisou !"
+                "nom": "Squelébaffe",
+                "puissance": "100|200",
+                "description": "L'ennemi tombe sur un os... oups, une gifle."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Popularité",
+                "nom": "Visage peint",
                 "puissance": "N/A",
-                "description": "Le Yo-kai envoûté devient populaire. Sa joie augmente son ESP."
+                "description": "Réduit la DÉF. d'un ennemi à l'aide d'un sort squelettique."
             },
             {
                 "type": "Attaque A",
-                "nom": "Flèche de Cupidon",
-                "puissance": "25",
-                "description": "Attaque un ennemi éloigné."
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque un ennemi proche."
             },
             {
                 "type": "Âmultime",
-                "nom": "Baiser de la vie",
+                "nom": "Squelébaffe",
                 "puissance": "400",
-                "description": "Rend PV ++ aux alliés."
+                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
             },
             {
                 "type": "Attaque X",
-                "nom": "Tourbillon",
-                "puissance": "40",
-                "description": "Technique de vent+. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Attaque Y",
                 "nom": "Restauration",
                 "puissance": "80",
                 "description": "Rend des PV à un allié. PV rendus + si chargé."
             },
             {
+                "type": "Attaque Y",
+                "nom": "Cercle guérisseur",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Plus de portée si chargé."
+            },
+            {
                 "type": "Talent",
-                "nom": "Talent : Sympathie",
-                "description": "Améliore les chances de devenir ami avec un ennemi."
+                "nom": "Talent : Traitement",
+                "description": "Rend peu à peu des PV à tous les alliés reliés."
             }
         ]
     },
@@ -219,77 +215,77 @@
         "YW1": [
             {
                 "taux": "?%",
-                "objet": "Badge brillant"
+                "objet": "Remède infect"
             },
             {
                 "taux": "?%",
-                "objet": "Poupée de fuite"
+                "objet": "Riz à la crevette"
             }
         ],
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "Six-coups foudre"
+                "objet": "La teigne parfaite"
             },
             {
                 "taux": "?%",
-                "objet": "Cheesecake"
+                "objet": "Fraisier"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Bague mimi"
+                "objet": "Techniques tip-top"
             },
             {
                 "taux": "?%",
-                "objet": "Cupcake"
+                "objet": "Ramen au poulet"
             }
         ]
     },
     "special_talent": {
-        "nom": "Sympathie",
-        "description": "Incite plus d'ennemis à devenir tes amis."
+        "nom": "Traitement",
+        "description": "Redonne peu à peu des PV au Yo-kai voisin."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/733.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/733.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/733.wav",
-    "nourriture": "Pain",
-    "nourriture_favorite": "Pain",
+    "nourriture": "Ramen",
+    "nourriture_favorite": "Ramen",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Sympathie",
-            "effet": "Incite plus d'ennemis à devenir tes amis."
+            "nom": "Traitement",
+            "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
         },
         {
             "type": "Attaque",
-            "nom": "Tir",
+            "nom": "Gifle",
             "effet": "10 | 45"
         },
         {
             "type": "Attaque",
-            "nom": "Tourbillon",
-            "effet": "20 | 90"
+            "nom": "Restauration",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Baiser de la vie",
-            "effet": "Restaure les PV de ses alliés en leur envoyant un joli bisou ! 50 | 131"
+            "nom": "Squelébaffe",
+            "effet": "Une gifle qui peut annuler les Âmultimes adverses. 130 | 130"
         },
         {
             "type": "Attaque",
-            "nom": "Popularité",
-            "effet": "Rend un allié tellement populaire que tous les ennemis le ciblent."
+            "nom": "Visage peint",
+            "effet": "Réduit la DÉF. d'un ennemi à l'aide d'un sort squelettique."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Magnifique !",
-        "Mange de la nourriture insipide": "Rien de spécial.",
-        "Mange de la mauvaise nourriture": "C'est dégoûtant !",
-        "A la flemme": "Ahhh...",
-        "Est échangé": "Hé hé ! J'en ai fini avec",
-        "Devient ton ami": "Ho ho ! Quel charisme ! On devrait aller boire un chocolat chaud un jour !"
+        "Mange de la bonne nourriture": "DIS TOUT !",
+        "Mange de la nourriture insipide": "Dis tout.",
+        "Mange de la mauvaise nourriture": "Dis tout...",
+        "A la flemme": "Dis tout...",
+        "Est échangé": "Dis tout ! (Enchantée !)",
+        "Devient ton ami": "Dis tout ? (Je peux être ton amie ?)"
     },
-    "oldID": "738"
+    "oldID": "739"
 }

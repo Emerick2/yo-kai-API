@@ -1,42 +1,53 @@
 {
     "ID": "502",
-    "Nom": "Quésacourt",
+    "Nom": "Ficheline",
     "Tribue": "Mignon",
     "Rang": "D",
-    "PV": "329",
-    "Force": "179",
-    "Esprit": "39",
-    "Défense": "107",
-    "Vitesse": "172",
-    "Description": "Un Yo-kai qui pige rien à rien, et qui est toujours en train de courir. Il a oublié pourquoi il courait. Mais c'est pas ça qui va l'arrêter.",
-    "nourriture": "Hot dog",
-    "élément": "Vent",
-    "Rôle": "Ranger",
+    "PV": "352",
+    "Force": "54",
+    "Esprit": "182",
+    "Défense": "97",
+    "Vitesse": "156",
+    "Description": "Tu dois faire tout ce qu'il y a d'écrit sur les fiches de Ficheline. Elle a l'air timide, mais ses ordres sont pleins d'assurance !",
+    "description SITE": "Tu dois faire tout ce qu'il y a d'écrit sur les fiches de Ficheline. Elle a l'air timide, mais ses ordres sont plein d'assurance !",
+    "nourriture": "Pâtes",
+    "élément": "Restauration",
+    "Rôle": "Guérisseur",
     "Biographie": "",
-    "étimologie": "Quésacourtest un mot-valise entre \"quésaco\" (mot interrogatif signifiant \"qu'est-ce ?) et decourt.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Lorsque Quésacourt envoûte une personne, cette dernière devient incertaine de ce qu'elle fait.",
-    "personnalité": "Quésacourt est un Yo-kai désemparé qui fuit. Cependant, il ne sait plus pourquoi il fuit. Il est pourtant souvent de bonne humeur.",
+    "pouvoir": "...(à compléter)",
+    "personnalité": "Même si elle a l'air d'être timide, lorsqu'elle donne des ordres elle a beaucoup d'assurance.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/502.png",
-    "nom_original": "わかランナー",
-    "nom_anglais": "Runsure",
+    "nom_original": "カンペちゃん",
+    "nom_anglais": "Cue-Tee",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
-        "japonaise": "Kensuke Sato",
+        "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
         "ykw3": [
-            "Betel- Hangar n°2",
-            "Roue rêve-Pièce rose- 3e prix"
+            "Quête : L'heure de la fusion",
+            "Cajoun- bouches d'incendie",
+            "Mont Sylvestre- dans l'herbe"
         ]
     },
-    "fusions": [],
-    "rarite": "Yo-kai Mericain",
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Yo-kai Watch 3",
+            "parent1": "Ficheline",
+            "parent2": "Maudieuse",
+            "resultat": "Kay Mandeuse",
+            "critere": "➨"
+        }
+    ],
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
@@ -44,20 +55,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Badge mignon"
+                "objet": "Pâtes bolognaise"
             },
             {
                 "taux": "?%",
-                "objet": "Hot-dog"
+                "objet": "Étoile dansante"
             }
         ]
     },
     "special_talent": {
-        "nom": "En un éclair",
-        "description": "Obtient une attaque préventive."
+        "nom": "Bénédiction",
+        "description": "Rend peu à peu des PV à tous les alliés reliés."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/502.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/502.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/502.wav",
-    "oldID": "506"
+    "oldID": "507"
 }

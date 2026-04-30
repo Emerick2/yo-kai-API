@@ -1,19 +1,20 @@
 {
     "ID": "484",
-    "Nom": "Zozoparleur",
+    "Nom": "Bricolos",
     "Tribue": "Costaud",
-    "Rang": "C",
-    "PV": "406",
-    "Force": "130",
-    "Esprit": "38",
-    "Défense": "224",
-    "Vitesse": "130",
-    "Description": "Ce Yo-kai lance des rumeurs et dévoile des secrets avec son mégaphone. Fais attention à ce que tu dis quand il est là !",
-    "nourriture": "Sushi",
-    "élément": "Feu",
-    "Rôle": "Ranger",
+    "Rang": "A",
+    "PV": "438",
+    "Force": "181",
+    "Esprit": "67",
+    "Défense": "247",
+    "Vitesse": "90",
+    "Description": "Ayant appris de tous ses échecs, Piètros excelle désormais dans la réparation. Il orne de rubans ses projets achevés.",
+    "description SITE": "Ayant appris de tous ses échecs,Piètrosexcelle désormais dans la réparation. Il orne de rubans ses projets achevés.",
+    "nourriture": "Lait",
+    "élément": "Terre",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Zozoparleurvient deZozo(mot familier utilisé pour qualifier quelqu'un de niais, d'idiot) et deHaut-parleur.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
     "pouvoir": "",
@@ -22,8 +23,56 @@
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/484.png",
-    "nom_original": "カクさん",
-    "nom_anglais": "Mr. Blockhead",
+    "numero": "159",
+    "nourriture_favorite": "Lait",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "En maintenance",
+            "effet": "Rend peu à peu des PV aux Yo-kai placés devant lui."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Cogneur",
+            "effet": "75 | 112"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Éboulement",
+            "effet": "50 | 110"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Badaboum !",
+            "effet": "Bondit et frappe les cibles à portée avec ses deux marteaux. 148 | 222"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Totalement marteau",
+            "effet": "Un coup de marteau par-ci par-là et l'allié récupère des PV."
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "C'est trop bon !",
+        "A mangé quelque chose de fade": "C'est banal.",
+        "A mangé quelque chose de mauvais": "C'est dégoûtant !",
+        "A la flemme": "Je ne peux pas...",
+        "Se lie d'amitié": "Eh, tu dois faire du bricolage ? Je suis là pour ça !",
+        "Est échangé": "Je vais réparer ton équipement et il sera comme neuf, même mieux que neuf !"
+    },
+    "evolutions": [],
+    "fusions": [
+        {
+            "type": "Évolution",
+            "contexte": "Général",
+            "de": "Piètros",
+            "vers": "Bricolos",
+            "critere": "Niveau 28"
+        }
+    ],
+    "image_locale": "",
+    "nom_original": "リボーン",
+    "nom_anglais": "Skillskull",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
@@ -31,12 +80,9 @@
     },
     "localisations": {
         "ykw3": [
-            "Centre-ville de Granval- Arrière-cour Vent d'hiver",
-            "Tour de commerce Granval- 13e étage",
-            "Bingo-kai-Pièce orange- 2e prix"
+            "Évolution"
         ]
     },
-    "fusions": [],
     "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
@@ -45,20 +91,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Sushi d'aileron"
+                "objet": "Secrets de l'âme"
             },
             {
                 "taux": "?%",
-                "objet": "Carte cadeau musique"
+                "objet": "Lait aux fruits"
             }
         ]
     },
     "special_talent": {
-        "nom": "Bouche à oreille",
-        "description": "Étend les effets des grâces du lanceur aux alliés."
+        "nom": "En maintenance",
+        "description": "Rend peu à peu des PV aux Yo-kai placés devant lui."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/484.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/484.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/484.wav",
-    "oldID": "488"
+    "oldID": "489"
 }

@@ -1,30 +1,29 @@
 {
     "ID": "532",
-    "Nom": "Fluorence",
+    "Nom": "Antoilette",
     "Tribue": "Bienveillant",
-    "Rang": "B",
-    "PV": "449",
-    "Force": "46",
-    "Esprit": "231",
-    "Défense": "161",
-    "Vitesse": "106",
-    "Description": "Cette noble dame protège les sourires radieux des maux de Dente. Il n'y a pas de quoi !",
-    "description SITE": "Cette noble dame protège les sourires radieux des maux deDente. Il n'y a pas de quoi !",
-    "nourriture": "Tempura",
-    "élément": "Restauration",
+    "Rang": "A",
+    "PV": "331",
+    "Force": "39",
+    "Esprit": "224",
+    "Défense": "154",
+    "Vitesse": "183",
+    "Description": "Passer sa vie dans un bain, ça a un prix, celui de toujours sentir merveilleusement bon.",
+    "nourriture": "Crème Glacée",
+    "élément": "Eau",
     "Rôle": "Guérisseur",
     "Biographie": "",
-    "étimologie": "Fluorencevient du prénomFlorenceet duFluor, un élément chimique que l'on peut trouver dans le dentifrice.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
+    "pouvoir": "Antoilette est capable d'émettre une magnifique odeur qui peut toucher toutes les personnes qui s'en approchent.",
+    "personnalité": "Antoilette est beaucoup plus ouverte que sa sous-évolutionBleunet de bainet aime maintenant mouiller ses cheveux.",
     "talent": "",
     "Technique": "",
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/532.png",
-    "nom_original": "歯磨貴婦人",
-    "nom_anglais": "Pearly White",
+    "nom_original": "ふろーラル",
+    "nom_anglais": "Bubble Beth",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
@@ -32,23 +31,62 @@
     },
     "localisations": {
         "ykw3": [
-            "Manoir des Cardamom- bibliothèque",
-            "Manoir des Cardamom - herbe",
-            "Roue rêve-Pièce verte- 2e prix"
+            "Fusion"
         ]
     },
-    "fusions": [],
-    "rarite": "Yo-kai Mericain",
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Bleunet de bain",
+            "parent2": "Huile bain parfumée",
+            "resultat": "Antoilette",
+            "critere": "➨"
+        }
+    ],
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
+    "attaques_par_jeu": {
+        "Yo-kai Watch 3": [
+            {
+                "type": "Attaque",
+                "nom": "Plaquage",
+                "puissance": "35|77",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Cascade",
+                "puissance": "70|112",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Rose de marée",
+                "puissance": "148|222",
+                "description": "Jette les ennemis à portée avec l'eau du bain."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Bain de bulles",
+                "puissance": "N/A",
+                "description": "Un bain de bulles qui rend des PV."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Cure de repos",
+                "description": "Rend peu à peu des PV en attendant le décompte."
+            }
+        ]
+    },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Grand ménage",
-        "description": "Purifie parfois les alliés voisins."
+        "nom": "Cure de repos",
+        "description": "Rend peu à peu des PV en attendant le décompte."
     },
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/532.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/532.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/532.wav",
-    "oldID": "534"
+    "oldID": "535"
 }
