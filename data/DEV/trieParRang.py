@@ -45,29 +45,42 @@ def filtrer_yokai(dossier_source, fichier_destination, cle_critere, valeur_atten
         except Exception:
             pass
 
-    print("\nExtraction terminée !")
 
     with open(fichier_destination, 'w', encoding='utf-8') as f_dest:
         json.dump(resultats, f_dest, indent=4, ensure_ascii=False)
     
     print(f"Total : {len(resultats)} IDs de Yo-kai (Rang {valeur_attendue}) enregistrés dans {fichier_destination}.")
 
-if __name__ == "__main__":
-    DOSSIER_DATA = "../yokai_data"
+
+#C:/Users/pacau/Desktop/MES PROJET/PROJET/API/yo-kai-API/data/DED/
+
+def La_MainTrieCategorie():
+    DOSSIER_DATA = "C:/Users/pacau/Desktop/MES PROJET/PROJET/API/yo-kai-API/data/yokai_data"
+    DOSSIER_CIBLE = "C:/Users/pacau/Desktop/MES PROJET/PROJET/API/yo-kai-API/data/DED/"
+    if not os.path.exists(DOSSIER_CIBLE):
+        os.makedirs(DOSSIER_CIBLE)
+
     for i in range(0,len(listeNomTribue)):
         NOM_FICHIER_CIBLE = "yo-kai-tribue-"+listeNomTribue[i]+".json"
+        FICHIER_DESTINATION = os.path.join(DOSSIER_CIBLE, NOM_FICHIER_CIBLE)
         CRITERE = "Tribue"
         VALEUR = listeNomTribue[i]
-        filtrer_yokai(DOSSIER_DATA, NOM_FICHIER_CIBLE, CRITERE, VALEUR)
+        filtrer_yokai(DOSSIER_DATA, FICHIER_DESTINATION, CRITERE, VALEUR)
 
     for i in range(0,len(listeRang)):
         NOM_FICHIER_CIBLE = "yo-kai-rang-"+listeRang[i]+".json"
+        FICHIER_DESTINATION = os.path.join(DOSSIER_CIBLE, NOM_FICHIER_CIBLE)
         CRITERE = "Rang"
         VALEUR = listeRang[i]
         filtrer_yokai(DOSSIER_DATA, NOM_FICHIER_CIBLE, CRITERE, VALEUR)
 
     for i in range(0,len(listeNouritureFavorite)):
         NOM_FICHIER_CIBLE = "yo-kai-food-"+make_an_url(listeNouritureFavorite[i])+".json"
+        FICHIER_DESTINATION = os.path.join(DOSSIER_CIBLE, NOM_FICHIER_CIBLE)
         CRITERE = "nourriture"
         VALEUR = listeNouritureFavorite[i]
         filtrer_yokai(DOSSIER_DATA, NOM_FICHIER_CIBLE, CRITERE, VALEUR)
+
+
+if __name__ == "__main__":
+    La_MainTrieCategorie()

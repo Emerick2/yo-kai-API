@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yo-kai API - Préproduction</title>
+    <style>
+        :root {
+            /* Valeurs par défaut modifiées par les sliders */
+            --img-size: 150px;
+            --name-size: 1.1rem;
+            --id-size: 0.9rem;
+            --bg-color: #f0f2f5;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* --- Barre de contrôle (Sliders) --- */
+        #controls {
+            position: sticky;
+            top: 10px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            padding: 15px 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+            border: 1px solid #ddd;
+        }
+
+        .slider-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        label {
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: #555;
+        }
+
+        input[type="range"] {
+            cursor: pointer;
+            width: 150px;
+        }
+
+        /* --- Grille des Yo-kai --- */
+        #yokai-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(var(--img-size), 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+            border: 1px solid #eee;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            width: var(--img-size);
+            height: var(--img-size);
+            object-fit: contain;
+            image-rendering: auto; /* ou pixelated si tu veux un look rétro */
+            background: #f9f9f9;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .card .yokai-id {
+            font-size: var(--id-size);
+            color: #888;
+            font-weight: bold;
+        }
+
+        .card .yokai-name {
+            font-size: var(--name-size);
+            margin: 5px 0;
+            color: #333;
+            font-weight: 600;
+            word-break: break-word;
+        }
+
+        /* Message d'erreur si image manquante */
+        .img-error {
+            border: 2px dashed #ff4757 !important;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="controls">
+        <div class="slider-group">
+            <label>Taille Image</label>
+            <input type="range" id="slider-img" min="50" max="400" value="150">
+        </div>
+        <div class="slider-group">
+            <label>Taille Nom</label>
+            <input type="range" id="slider-name" min="0.5" max="3" step="0.1" value="1.1">
+        </div>
+        <div class="slider-group">
+            <label>Taille ID</label>
+            <input type="range" id="slider-id" min="0.5" max="2" step="0.1" value="0.9">
+        </div>
+        <div style="margin-left: auto;">
+            <strong id="counter">0</strong> Yo-kai affichés
+        </div>
+    </div>
+
+    <div id="yokai-container">
+        <!-- Les cartes seront injectées ici -->
+    </div>
+
+    <script>
+        // Fonction pour slugifier le nom (copie de ton make_an_url en JS)
+        function makeAnUrl(valeur) {
+            return valeur
+                .toString()
+                .normalize('NFD')
+                .replace(/[\u0300-\u036f]/g, '')
+                .toLowerCase()
+                .trim()
+                .replace(/\s+/g, '-')
+                .replace(/[^\w\-]+/g, '')
+                .replace(/--+/g, '-');
+        }
+
+        // Éléments DOM
+        const container = document.getElementById('yokai-container');
+        const counter = document.getElementById('counter');
+
+        // Gestion des Sliders
+        document.getElementById('slider-img').addEventListener('input', (e) => {
+            document.documentElement.style.setProperty('--img-size', e.target.value + 'px');
+        });
+        document.getElementById('slider-name').addEventListener('input', (e) => {
+            document.documentElement.style.setProperty('--name-size', e.target.value + 'rem');
+        });
+        document.getElementById('slider-id').addEventListener('input', (e) => {
+            document.documentElement.style.setProperty('--id-size', e.target.value + 'rem');
+        });
+
+        // Chargement des données
+        async function loadYokai() {
+            try {
+                const response = await fetch('data/annuaire_yo-kai.json');
+                const data = await response.json();
+
+                // 1. Extraire les IDs et les trier numériquement
+                const sortedIds = Object.keys(data).sort((a, b) => parseInt(a) - parseInt(b));
+                
+                counter.innerText = sortedIds.length;
+
+                // 2. Générer le HTML
+                let htmlContent = '';
+                sortedIds.forEach(id => {
+                    const nom = data[id];
+                    const slug = makeAnUrl(nom);
+                    // Chemin vers l'image basé sur ton script de renommage
+                    const imgPath = `img/yo-kai_img/picture/${slug}.png`;
+
+                    htmlContent += `
+                        <div class="card">
+                            <span class="yokai-id">#${id}</span>
+                            <img src="${imgPath}" alt="${nom}" onerror="this.classList.add('img-error');">
+                            <div class="yokai-name">${nom}</div>
+                        </div>
+                    `;
+                });
+
+                container.innerHTML = htmlContent;
+
+            } catch (error) {
+                container.innerHTML = `<p style="color:red">Erreur lors du chargement du JSON : ${error.message}<br>Note : Ouvrez cette page via un serveur local (Live Server) pour éviter les erreurs CORS.</p>`;
+            }
+        }
+
+        loadYokai();
+    </script>
+    <script>
+        // 1. Enregistrer la position du scroll avant que la page ne se décharge (refresh)
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+
+        window.addEventListener('beforeunload', () => {
+            sessionStorage.setItem('scrollPosition', window.scrollY);
+        });
+
+        // 2. Restaurer la position au chargement de la page
+        window.addEventListener('load', () => {
+            const scrollPos = sessionStorage.getItem('scrollPosition');
+            if (scrollPos) {
+                window.scrollTo(0, parseInt(scrollPos));
+                sessionStorage.removeItem('scrollPosition'); // Optionnel : nettoie après usage
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,9 +1,10 @@
 import os
 import json
+from data.DEV.trieParRang import La_MainTrieCategorie
 
 def creer_annuaire():
-    dossier_source = 'yokai_data'
-    fichier_sortie = 'annuaire_yo-kai.json'
+    dossier_source = 'C:/Users/pacau/Desktop/MES PROJET/PROJET/API/yo-kai-API/data/yokai_data'
+    fichier_sortie = 'C:/Users/pacau/Desktop/MES PROJET/PROJET/API/yo-kai-API/data/annuaire_yo-kai.json'
     annuaire = {}
 
     if not os.path.exists(dossier_source):
@@ -30,5 +31,10 @@ def creer_annuaire():
 
     print(f"Succès ! L'annuaire a été créé : {fichier_sortie}")
 
-if __name__ == "__main__":
+
+def LaMainCompleteAnuaire() :
     creer_annuaire()
+    La_MainTrieCategorie()
+
+if __name__ == "__main__":
+    LaMainCompleteAnuaire()
