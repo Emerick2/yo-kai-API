@@ -1,50 +1,105 @@
 {
     "ID": "434",
-    "Nom": "Majordogue",
+    "Nom": "Antitaie",
     "Tribue": "Vaillant",
-    "Rang": "S",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "",
-    "description SITE": "Un Yo-kai qui protège Zazel. Très loyal, il donnerait sa vie pour protéger son maître. Il a grandi avec Chamériste et il garde un précieux souvenir de tous ces jours d'été passés ensemble.",
-    "nourriture": "Lait",
-    "élément": "Eau",
-    "Rôle": "",
+    "Rang": "E",
+    "PV": "374",
+    "Force": "178",
+    "Esprit": "43",
+    "Défense": "145",
+    "Vitesse": "96",
+    "Description": "Apparaît auprès des gens profondément endormis, et retourne leurs coussins. Si tu as mal dormi, c'est qu'il est sûrement venu te vor.",
+    "description SITE": "Apparaît auprès des gens profondément endormis, et retourne leurs coussins. Si tu as mal dormi, c'est qu'il est sûrement venu te voir.",
+    "nourriture": "Riz",
+    "élément": "Terre",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Majordogue vient de Majordome et de Dog (Chien en anglais). Ducanin vient de Ducet de Canin.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Il ne se bat jamais, sauf sous sa forme boss. Quand Zazel se fait battre, il se sacrifie pour le ranimer et maîtrise bien les coups de griffe.",
-    "personnalité": "Lui etChaméristesont les valets deZazel. Chamériste est son ami d'enfance.",
+    "pouvoir": "C'est à cause de lui que les gens dorment mal.",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/434.png",
-    "nom_original": "犬まろ犬まろデロン",
-    "nom_anglais": "Duke DoggyDuke Drooly",
-    "premiere_apparition": "Yo-kai Watch Blasters",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/antitaie.png",
+    "numero": "002",
+    "nourriture_favorite": "Riz",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Antigel",
+            "effet": "Réduit les dégâts de glace subis par tous les alliés."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Coup de tête",
+            "effet": "55 | 121"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Galet",
+            "effet": "20 | 90"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Coup d'coussin",
+            "effet": "Se jette sur la colonne devant lui, la tête la première ! 113 | 279"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Fais pas dodo",
+            "effet": "L'ennemi se retourne dans son lit et peut pas dormir. Sa FOR. baisse."
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "Ça envoie du lourd !",
+        "A mangé quelque chose de fade": "Merci !",
+        "A mangé quelque chose de mauvais": "C'est quoi, ça... ?!",
+        "A la flemme": "J'ai sommeil...",
+        "Se lie d'amitié": "T'as tiré toute la couverture à toi ! On la partage ?",
+        "Est échangé": "Eh oh ! Toi, là-bas ! Conduis-moi jusqu'aux coussins !",
+        "info_6": "Bingo-kaiC'est moi, le cauchemar des taies d'oreiller !"
+    },
+    "evolutions": [],
+    "fusions": [],
+    "image_locale": "",
+    "nom_original": "枕返し",
+    "nom_anglais": "Flippit",
+    "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Emmanuel Gradi"
+        "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw-Blasters": [
-            "Brigade du Lapin LunaireMission - Ceux qui contrôlent les Yo-kai (Boss)"
-        ],
-        "Yo-kai Watch Wibble : Wobble[]": []
+        "ykw3": [
+            "Coteau fleuri- buissons",
+            "Coteau fleuri - ruelles",
+            "Bingo-kai-Pièce rouge- 3e prix"
+        ]
     },
-    "fusions": [],
-    "rarite": "Boss",
+    "rarite": "Classic icon",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
-    "drops": {},
-    "special_talent": null,
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/434.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/434.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/434.wav",
-    "oldID": "439"
+    "drops": {
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "Billet de loterie"
+            },
+            {
+                "taux": "?%",
+                "objet": "Riz dans une feuille"
+            }
+        ]
+    },
+    "special_talent": {
+        "nom": "Antigel",
+        "description": "Réduit les dégâts de glace subis par tous les alliés."
+    },
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/antitaie.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/antitaie.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/antitaie.wav",
+    "oldID": "443"
 }

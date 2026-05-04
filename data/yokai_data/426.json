@@ -1,53 +1,178 @@
 {
     "ID": "426",
-    "Nom": "Jiganyan",
-    "Tribue": "Mignon",
-    "Rang": "A",
-    "PV": "424",
-    "Force": "202",
-    "Esprit": "39",
-    "Défense": "106",
-    "Vitesse": "228",
-    "Description": "Sème la terreur dans le Yo-kai World, où il a perpétré d'innombrables atrocités. Il dévore les âmes des autres Yo-kai.",
-    "nourriture": "Chocolat",
-    "élément": "Feu",
-    "Rôle": "Combattant",
+    "Nom": "Trempetta",
+    "Tribue": "Sinistre",
+    "Rang": "C",
+    "PV": "442",
+    "Force": "66",
+    "Esprit": "207",
+    "Défense": "169",
+    "Vitesse": "65",
+    "Description": "Trempetta casse toujours l'ambiance. Quand elle est avec sa sœur, on dirait que c'est la fin des temps.",
+    "description SITE": "Juste le fait d'être près de Trempetta vous rend humide. C'est la sœur de Lulugubre, priez pour ne jamais les voir ensemble !",
+    "nourriture": "Douceurs",
+    "élément": "Absorption",
+    "Rôle": "Guérisseur",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Quiconque qui est envoûté par Jiganyan a une soif de sang et détruit tout sur son passage.",
-    "personnalité": "Jiganyan est horrible et impitoyable. Il possède un royaume constitué de chevaliers du mal et d'une guerrière redoutable. Il détesteOctorgonequi le hait en retour.",
+    "pouvoir": "",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/426.png",
-    "numero": "441",
-    "nourriture_favorite": "Inconnue",
-    "attaques": [],
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/trempetta.png",
+    "numero": "456",
+    "nourriture_favorite": "Déssert",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Hydratation",
+            "effet": "Réduit les dégâts du feu sur tous les alliés."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Restauration",
+            "effet": "Rend des PV à un allié. Charger renforce l'effet. 80"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Intrigue sinistre",
+            "effet": "PV des ennemis réduits rapidement. 250"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Cercle vicieux",
+            "effet": "Crée un champ où les stats des ennemis baissent."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Attaque",
+            "effet": "Attaque courte portée. 50"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Envoût guérisseur",
+            "effet": "Hausse lente des PV alliés. Charger élargit l'effet."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Envoût. poison +",
+            "effet": "Baisse rapide PV ennemis. Charger élargit l'effet."
+        }
+    ],
     "phrases_nourriture": {},
     "evolutions": [],
     "fusions": [],
     "image_locale": "",
-    "nom_original": "レッドＪ",
-    "nom_anglais": "Rubeus J",
-    "premiere_apparition": "Yo-kai Watch 2",
+    "nom_original": "シメッポイーナ",
+    "nom_anglais": "Drenchetta",
+    "premiere_apparition": "Yo-kai Watch Blasters",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Frédéric Souterelle"
+        "francaise": "Inconnue"
     },
-    "localisations": {},
-    "rarite": "Boss",
+    "localisations": {
+        "ykw-Blasters": [
+            "Brigade du Lapin Lunaire",
+            "Bingo-kai-Pièce pleine lune",
+            "Mission - Yo-kai Watch Blasters ! alternatif - 1er prix"
+        ],
+        "ykw3": [
+            "Radeau- parcours grotte du grincheux",
+            "Grotte du grincheux"
+        ],
+        "Yo-kai Watch : Wibble Wobble :[]": [
+            "Festival des poupées Yo-kai- Stage Caché 1 [Créer 5 Boules Bonus]"
+        ]
+    },
+    "rarite": "Rare",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
+    "attaques_par_jeu": {
+        "Yo-kai Watch Blasters": [
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Intrigue sinistre",
+                "puissance": "250",
+                "description": "PV des ennemis réduits rapidement."
+            },
+            {
+                "type": "Technique 1",
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique 2",
+                "nom": "Cercle vicieux",
+                "puissance": "___",
+                "description": "Crée un champ où les stats des ennemis baissent."
+            },
+            {
+                "type": "Technique à acquérir 1",
+                "nom": "Envoût guérisseur",
+                "puissance": "___",
+                "description": "Hausse lente des PV alliés. Charger élargit l'effet."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Envoût. poison +",
+                "puissance": "___",
+                "description": "Baisse rapide PV ennemis. Charger élargit l'effet."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Hydratation",
+                "description": "Réduit les dégâts du feu sur tous les alliés."
+            }
+        ],
+        "Yo-kai Watch 3": [
+            {
+                "type": "Attaque",
+                "nom": "Laminage",
+                "puissance": "40|88",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Vortex",
+                "puissance": "40|88",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Intrigue sinistre",
+                "puissance": "___",
+                "description": "Plonge les ennemis dans une ambiance lugubre. Baisse peu à peu leurs PV."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Dégâts des eaux",
+                "puissance": "N/A",
+                "description": "Inonde un ennemi, sa FOR. diminue."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Temps nuageux",
+                "description": "Ne subit pas de dégâts critiques."
+            }
+        ]
+    },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Ruée rouge",
-        "description": "Utilisation illimitée des attaques avec le bouton A."
+        "nom": "Hydratation",
+        "description": "Réduit les dégâts du feu sur tous les alliés."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/426.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/426.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/426.wav",
-    "oldID": "431"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/trempetta.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/trempetta.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/trempetta.wav",
+    "oldID": "434"
 }

@@ -1,29 +1,69 @@
 {
     "ID": "481",
-    "Nom": "Mulangeur",
-    "Tribue": "Costaud",
-    "Rang": "C",
-    "PV": "404",
-    "Force": "68",
-    "Esprit": "39",
-    "Défense": "211",
-    "Vitesse": "190",
-    "Description": "Ce Yo-kai adore mélanger les chaussures, mais il ne touche pas aux chaussures des gens qui s'en occupent bien.",
-    "nourriture": "Légumes",
-    "élément": "Eau",
-    "Rôle": "Tank",
+    "Nom": "Scientifiborg Y",
+    "Tribue": "Wandroïd",
+    "Rang": "B",
+    "PV": "393",
+    "Force": "56",
+    "Esprit": "143",
+    "Défense": "232",
+    "Vitesse": "130",
+    "Description": "Une expérience qui a mal tourné a transformé ce scientifique en un androïde !",
+    "nourriture": "Curry",
+    "élément": "Foudre",
+    "Rôle": "Ranger",
     "Biographie": "",
-    "étimologie": "Mulangeur vient de Mule (chaussure sans talon) et de Mélangeur.",
+    "étimologie": "Androïd Yamada vient de Androïde et de Yamada, un prénom japonais. Scientifiborg Y vient de Scientifique spécialiste d'une science et de Cyborg (cybernetic organism = organisme cybenétique)",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Les chaussures envoûtées par Mulangeur se voient complètement dépareillées. Aux yeux des humains, Mulangeur est vu comme un chausson normal, et il peut même être porté.",
-    "personnalité": "Les Mulangeur sont des Yo-kai joyeux. Ils sont l'incarnation des chaussures qui n'étaient jamais portées par les humains qui les possédaient.",
+    "pouvoir": "Il peut transformer n'importe quel objet ou animal en robot.",
+    "personnalité": "Scientifiborg Y à un cœur pur mais il se croît tout le temps délaissé par tout le monde, alors que c'est juste car personne ne le voit.",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/481.png",
-    "nom_original": "カメッパ",
-    "nom_anglais": "Slippy",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/scientifiborg-y.png",
+    "numero": "574",
+    "nourriture_favorite": "Curry",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Robotisation",
+            "effet": "Change en Kaiborgs les cibles de l'Âmultime."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Coup de tête",
+            "effet": "55 | 121"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Foudre",
+            "effet": "50 | 110"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Nombril du monde",
+            "effet": "Tire un rayon imbu d'individualité sur la colonne devant lui. 140 | 140"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Cyborg",
+            "effet": "Robotise un ennemi pour lui baisser sa VIT."
+        }
+    ],
+    "phrases_nourriture": {
+        "Mange de la bonne nourriture": "Joie...",
+        "Mange de la nourriture insipide": "Indifférence...",
+        "Mange de la mauvaise nourriture": "Répulsion...",
+        "A la flemme": "Désactivation...",
+        "Est échangé": "Il semblerait que Scientifiborg Y soit content de te rencontrer.",
+        "Devient ton ami": "Scientifiborg Y semble avoir perdu. Peut-il être ton ami ?"
+    },
+    "evolutions": [],
+    "fusions": [],
+    "image_locale": "",
+    "nom_original": "アンドロイド山田",
+    "nom_anglais": "Sighborg Y",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
@@ -31,22 +71,14 @@
     },
     "localisations": {
         "ykw3": [
-            "Cajoun- Aire de barbecue",
-            "Cajoun -Aspirateur Yo-kai",
-            "Portails Mystère",
-            "Roue rêve-Pièce orange- 2e prix",
-            "Roue rêve -Pièce super orange",
-            "Roue rêve -Pièce ultra orange."
+            "Apparaît aléatoirement à certains endroits à la manière deNarinos, à la fin du combat il devient automatiquement votre ami si il est le véritable Scientifiborg Y. Pour le distinguer des autres Yo-kai indiqués sur la carte, vous pourrez utiliser leCapteur Scientifiborg Y.",
+            "Si le Scientifiborg affronté n'est pas le véritable Scientifiborg Y, il donnera un objet au joueur avant de disparaître. Cet objet peut être :"
         ],
-        "Yo-kai Watch Busters 2 :[]": [
-            "Donjon Méga Couleur 2",
-            "Donjon Méga Couleur 4",
-            "Labyrinthe Costaud",
-            "Labyrinthe deZazel le bon",
-            "Bingo-kai - Pièce orange - 2e prix"
+        "Yo-kai Watch : Wibble Wobble :[]": [
+            "Bataille de Lance-Pierre de Scientifiborg Y - Stand d'échange",
+            "Roulette Bingo-kai"
         ]
     },
-    "fusions": [],
     "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
@@ -55,20 +87,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Avocat"
+                "objet": "EXPorbe moyen"
             },
             {
                 "taux": "?%",
-                "objet": "Étoile dansante"
+                "objet": "Curry d'agneau"
             }
         ]
     },
     "special_talent": {
-        "nom": "Pied dominant",
-        "description": "Booste un peu la VIT. des Yo-kai reliés."
+        "nom": "Robotisation",
+        "description": "Change en Kaiborgs les cibles de l'Âmultime."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/481.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/481.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/481.wav",
-    "oldID": "486"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/scientifiborg-y.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/scientifiborg-y.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/scientifiborg-y.wav",
+    "oldID": "490"
 }

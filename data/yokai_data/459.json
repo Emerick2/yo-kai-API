@@ -1,159 +1,102 @@
 {
     "ID": "459",
-    "Nom": "Boulet frit",
+    "Nom": "Wattson",
     "Tribue": "Mystérieux",
-    "Rang": "D",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "Ceux que Boulet frit envoûte deviennent passifs, laissant les autres prendre toutes les décisions.",
-    "nourriture": "Crème Glacée",
-    "élément": "Terre",
+    "Rang": "B",
+    "PV": "389",
+    "Force": "42",
+    "Esprit": "210",
+    "Défense": "122",
+    "Vitesse": "172",
+    "Description": "Tu t'es déjà pris le jus en touchant quelqu'un ? C'est pas l'amour, c'est l'électricité statique !",
+    "nourriture": "Encas",
+    "élément": "Foudre",
     "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Lorsqu'une personne se fait envoûter par Boulet frit, cette dernière devient passive et laisse toujours les autres prendre les grandes décisions.",
-    "personnalité": "Boulet frit est un Yo-kai très jovial qui accompagne souventCaliméballe. Il jouent ensemble au base-ball.",
+    "pouvoir": "Wattson a le pouvoir de créer de l'électricité statique. Il aime faire des farces aux personnes imprudentes lorsqu'elles touchent les poignées de porte.",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/459.png",
-    "numero": "087",
-    "nourriture_favorite": "Glace",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/wattson.png",
+    "numero": "122",
+    "nourriture_favorite": "Encas",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Poule mouillée",
-            "effet": "Met K.O. un allié et récupère des PV, quand il est battu."
+            "nom": "Dynamo",
+            "effet": "↑ jauge d'âme du Yo-kai selon les cases parcourues."
         },
         {
             "type": "Attaque",
-            "nom": "Projection",
-            "effet": "Attaque moins précise. 60"
+            "nom": "Gifle",
+            "effet": "10 | 45"
         },
         {
             "type": "Attaque",
-            "nom": "Galet",
-            "effet": "20 | 90"
+            "nom": "Haute tension",
+            "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Passe explosive",
-            "effet": "Lance une balle sur les ennemis à portée. Hein ?! C'était une bombe en fait !"
+            "nom": "Électricité statique",
+            "effet": "Charge les cases d'électricité, blessant les cibles et baissant leur VIT."
         },
         {
             "type": "Attaque",
-            "nom": "Passe le sel",
-            "effet": "L'ennemi ne fait rien de lui-même et agit moins.Médaillon de Boulet frit"
+            "nom": "Paralysie",
+            "effet": "Immobilise un ennemi grâce à un choc électrique !"
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Délicieux !",
-        "A mangé quelque chose de fade": "Tellement normal !",
-        "A mangé quelque chose de mauvais": "C'est dégoûtant !",
-        "A la flemme": "Ahem, après vous...",
-        "Se lie d'amitié": "Être amis ? Comme tu veux, c'est toi qui choisis !",
-        "Est échangé": "Hmm... Où suis-je ? Oh, je me suis fait échanger ? D'accord.",
-        "info_6": "Bingo-kaiJe suis libre ! Alors, qu'est-ce qu'on fait maintenant ? Une idée ?"
+        "A mangé quelque chose de bon": "Ooh, ça picote !",
+        "A mangé quelque chose de fade": "Merci beaucoup !",
+        "A mangé quelque chose de mauvais": "Ça a l'air trop risqué !",
+        "A la flemme": "Au dodo !",
+        "Se lie d'amitié": "C'était électrique ! Je veux rejoindre ton équipe ! Je suis survolté !",
+        "Est échangé": "Je te serrerais bien la main... Mais tu risques de te prendre le jus !",
+        "info_6": "Bingo-kaiTu m'as libéré, je suis épaté ! J'en ai des picotements !"
     },
     "evolutions": [],
     "fusions": [],
     "image_locale": "",
-    "nom_original": "まるナゲット",
-    "nom_anglais": "Chicken Chukket",
+    "nom_original": "せいでん鬼",
+    "nom_anglais": "Statikid",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Bruno Méyère"
+        "francaise": "Caroline Combes"
     },
     "localisations": {
         "ykw3": [
-            "Cawet- Hôtel - porte arrière",
-            "Roue rêve-Pièce jaune- 3e prix"
+            "Tour Morleone"
         ]
     },
-    "rarite": "Yo-kai Mericain",
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "Yo-kai Watch 3": [
-            {
-                "type": "Attaque",
-                "nom": "Projection",
-                "puissance": "60|132",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Galet",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Passe explosive",
-                "puissance": "",
-                "description": "Lance une balle sur les ennemis à portée. Hein ?! C'était une bombe en fait !"
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Passe le sel",
-                "puissance": "N/A",
-                "description": "L'ennemi ne fait rien de lui-même et agis moins."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Coup quarterback",
-                "puissance": "70",
-                "description": "Attaque un ennemi éloigné."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Passe explosive",
-                "puissance": "800",
-                "description": "Dégâts ++ aux Yo-kai proches. Blesse le lanceur."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque blitz",
-                "puissance": "25",
-                "description": "Assaut continu. Le coup ultime est plus puissant."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Riz",
-                "puissance": "70",
-                "description": "Rend des PV au lanceur."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Poule mouillée",
-                "description": "Met K.O. un allié et récupère des PV, quand il est battu."
-            }
-        ]
-    },
+    "attaques_par_jeu": {},
     "soul_effects": null,
     "drops": {
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Cuisse de poulet"
+                "objet": "Poupée de bronze"
             },
             {
                 "taux": "?%",
-                "objet": "Glace (nourriture)"
+                "objet": "Chouchous"
             }
         ]
     },
     "special_talent": {
-        "nom": "Poule mouillée",
-        "description": "Met K.O. un allié et récupère des PV, quand il est battu."
+        "nom": "Dynamo",
+        "description": "↑ jauge d'âme du Yo-kai selon les cases parcourues."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/459.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/459.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/459.wav",
-    "oldID": "464"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/wattson.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/wattson.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/wattson.wav",
+    "oldID": "468"
 }

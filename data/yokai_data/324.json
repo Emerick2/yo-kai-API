@@ -1,69 +1,78 @@
 {
     "ID": "324",
-    "Nom": "Timours",
-    "Tribue": "Mignon",
-    "Rang": "B",
-    "PV": "364",
-    "Force": "176",
-    "Esprit": "190",
-    "Défense": "105",
-    "Vitesse": "109",
-    "Description": "Cet ours travaille nuit et jour à trouver des idées pour rendre son village plus populaire.",
-    "nourriture": "Viande",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
+    "Nom": "Zikafon",
+    "Tribue": "Sinistre",
+    "Rang": "E",
+    "PV": "275",
+    "Force": "145",
+    "Esprit": "66",
+    "Défense": "52",
+    "Vitesse": "188",
+    "Description": "Si quelqu'un écoute de la musique fort dans son casque, c'est sûrement l'œuvre de ce Yo-kai.",
+    "nourriture": "Curry",
+    "élément": "Glace",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Timours vient du prénom Tim et d'ours, en référence à sa nature d'ours mais peut aussi être lié à la ville d'Ourcival, dont Timours est la mascotte.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
+    "pouvoir": "Ceux qui sont envoûtés par Zikafon écoutent de la musique trop fort.",
     "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/324.png",
-    "numero": "154",
-    "nourriture_favorite": "Viande",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/zikafon.png",
+    "numero": "254",
+    "nourriture_favorite": "Curry",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Boule de riz",
-            "effet": "Remplit les PV une fois quand ceux-ci sont bas."
+            "nom": "Décibel",
+            "effet": "Les envoûtements infligent plus de dégâts aux Yo-kai."
         },
         {
             "type": "Attaque",
-            "nom": "Poing puissant",
-            "effet": "50 | 110"
+            "nom": "Frappe",
+            "effet": "10 | 45"
         },
         {
             "type": "Attaque",
-            "nom": "Restauration",
-            "effet": "50 | 110"
+            "nom": "Grêle",
+            "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Grosse légume",
-            "effet": "Grâce à l'énergie conférée par les légumes d'Ourcival, il attaque un seul ennemi. 170 | 255"
+            "nom": "Maracasserole",
+            "effet": "Le son infernal des maracas réduit peu à peu les PV des ennemis."
         },
         {
             "type": "Attaque",
-            "nom": "Charme rustique",
-            "effet": "Le Yo-kai est charmé par la vie à la campagne, toutes ses stats augmentent."
+            "nom": "Acouphène",
+            "effet": "La pollution sonore fait lentement perdre des PV au Yo-kai."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "*sifflote* Youhou !",
-        "A mangé quelque chose de fade": "...",
-        "A mangé quelque chose de mauvais": "... !",
-        "A la flemme": "...",
-        "Est échangé": "Bonjour, toi ! Ça alors ! Cet endroit aurait bien besoin de plus d'ambiance !",
-        "Se lie d'amitié": "... (Amis, maintenant.)"
+        "A mangé quelque chose de bon": "Super !",
+        "A mangé quelque chose de fade": "J'en veux encore.",
+        "A mangé quelque chose de mauvais": "C'est... répugnant.",
+        "A la flemme": "Oooh, ha ha !",
+        "Est échangé": "Boum, shack, boum ! C'est toujours aussi calme ici ? Plus maintenant !",
+        "Se lie d'amitié": "Bouge ton corps ! Et soyons amis ! Ouais !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Zikafon",
+            "parent2": "Assourdisseur",
+            "resultat": "Babarouf",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "ケマモン",
-    "nom_anglais": "Harry Barry",
+    "nom_original": "おともらし",
+    "nom_anglais": "Squeeky",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
@@ -71,14 +80,21 @@
     },
     "localisations": {
         "ykw2": [
-            "Quête - Votre mascotte locale"
+            "Hauts de Granval- sous les distributeurs",
+            "Centre-ville- sous les voitures",
+            "Centre-ville - Aire de livraison",
+            "Centre-ville - Arrière-cour du Vent d'hiver",
+            "Centre-ville - Raccourci derrière l'Académie",
+            "Tour de commerce de Granval- 13e étage",
+            "Salle des portails- Zone de tir au but",
+            "Voie du mystère- Grand-route dorée - ouest",
+            "Bingo-kai-Pièce mauve"
         ],
         "ykw-Blasters": [
-            "Patrouille -Ourcival",
-            "Bingo-kai-Pièce spéciale"
+            "Patrouille - Centre-ville"
         ],
         "ykw3": [
-            "Roue rêve-Pièce 5 étoiles"
+            "Betel- allée du hip-hop"
         ]
     },
     "rarite": "Commun",
@@ -87,44 +103,32 @@
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Poing puissant",
-                "puissance": "50|110",
+                "nom": "Frappe",
+                "puissance": "10|45",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
+                "nom": "Grêle",
+                "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Grosse légume",
-                "puissance": "170|225",
-                "description": "Grâce à l'énergie conférée par les légumes d'Ourcival, il attaque un seul ennemi."
+                "nom": "Maracasserole",
+                "puissance": "___",
+                "description": "Le son infernal des maracas réduit peu à peu les PV des ennemis."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Charme rustique",
+                "nom": "Acouphène",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est charmé par la vie à la campagne, toutes ses stats augmentent."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Renforcer",
-                "puissance": "N/A",
-                "description": "Temporaire. Augmente l'attaque d'un Yo-kai."
+                "description": "La pollution sonore fait lentement perdre des PV au Yo-kai."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Boule de riz",
-                "description": "Remplit les PV une fois quand ceux-ci sont bas."
+                "nom": "Talent : Décibel",
+                "description": "Les envoûtements infligent plus de dégâts aux Yo-kai."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -136,9 +140,9 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Grosse légume",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts  courte portée."
+                "nom": "Maracasserole",
+                "puissance": "___",
+                "description": "PV des ennemis baissent rapidement."
             },
             {
                 "type": "Technique 1",
@@ -148,62 +152,68 @@
             },
             {
                 "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
+                "nom": "Âmunisé",
+                "puissance": "___",
+                "description": "Esquive rapidement l'attaque ennemie."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Cercle parfait",
+                "nom": "Grêle",
+                "puissance": "40",
+                "description": "Utilise un sort de glace. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Envoût. poison",
                 "puissance": "___",
-                "description": "Crée un champ où les stats des alliés augmenteront."
+                "description": "Baisse lente PV ennemis. Charger élargit l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Riz-suscitation",
-                "description": "Restaure l'allié plus vite."
+                "nom": "Talent : À la charge",
+                "description": "Accélère le temps de chargement de l'attaque."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Poing puissant",
-                "puissance": "50|110",
+                "nom": "Frappe",
+                "puissance": "20|70",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
+                "nom": "Grêle",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Grosse légume",
-                "puissance": "140|280",
-                "description": "Frappe la colonne devant lui avec l'énergie conférée par les légumes d'Ourcival."
+                "nom": "Maracasserole",
+                "puissance": "___",
+                "description": "Ses maracas font mal aux oreilles, baissant peu à peu les PV de tous les ennemis."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Charme rustique",
+                "nom": "Acouphène",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est charmé par la vie à la campagne, toutes ses stats augmentent."
+                "description": "La pollution sonore réduit lentement les PV du Yo-kai."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Boule de riz",
-                "description": "Récupère des PV si sur le point d'être battu. (une fois)"
+                "nom": "Talent : Décibel",
+                "description": "Tous les Yo-kai subissent plus de dégâts si envoûtés."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Boule de riz",
-        "description": "Remplit les PV une fois quand ceux-ci sont bas."
+        "nom": "Décibel",
+        "description": "Les envoûtements infligent plus de dégâts aux Yo-kai."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/324.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/324.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/324.wav",
-    "oldID": "338"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/zikafon.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/zikafon.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/zikafon.wav",
+    "oldID": "341"
 }

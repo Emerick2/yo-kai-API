@@ -1,39 +1,39 @@
 {
     "ID": "464",
-    "Nom": "Pr Plumage",
+    "Nom": "Feuildechou",
     "Tribue": "Mystérieux",
-    "Rang": "B",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "Toujours dans les parages s'il y a un mystère à élucider. Il est hanté par le souvenir du mystère de la chaussette perdue.",
-    "nourriture": "Fruits de Mer",
+    "Rang": "A",
+    "PV": "463",
+    "Force": "73",
+    "Esprit": "251",
+    "Défense": "170",
+    "Vitesse": "86",
+    "Description": "Il entend tout à des kilomètres à la ronde, il est donc obligé d'entendre toutes les rumeurs qui circulent sur lui...",
+    "nourriture": "Pâtes",
     "élément": "Vent",
     "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Professeur Plumage vient de Professeur (instituteur) et de Plumage (ensemble des plumes recouvrant le corps d'un oiseau). Il est également inspiré du Professor Plum, du jeu Cluedo.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Les personnes qu'il envoûte vont devenir de vrais détectives prêts à tout pour élucider un mystère.",
-    "personnalité": "",
+    "pouvoir": "Il peut tout entendre à des kilomètres à la ronde et peut créer des ultrasons pour étourdir l'ennemi",
+    "personnalité": "Avant, il avait peur de ne pas entendre ce qu'on lui disait mais maintenant qu'il a amélioré son ouïe, il entend tout ce qu'on dit sur lui.",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/464.png",
-    "numero": "124",
-    "nourriture_favorite": "Fruit de mer",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/feuildechou.png",
+    "numero": "081",
+    "nourriture_favorite": "Pâte",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Bon pied, bon œil",
-            "effet": "Booste la DÉF. quand les PV sont au maximum."
+            "nom": "Feuille de déroute",
+            "effet": "Aucun Yo-kai actif ne pourra esquiver."
         },
         {
             "type": "Attaque",
-            "nom": "Pointe perçante",
-            "effet": "15 | 67"
+            "nom": "Volée",
+            "effet": "20x2 | 44x2"
         },
         {
             "type": "Attaque",
@@ -42,28 +42,37 @@
         },
         {
             "type": "Attaque",
-            "nom": "Fil de la plume",
-            "effet": "Escroque l'ennemi avec brio, remplaçant les Yo-kai inactifs par des actifs."
+            "nom": "Concert strident",
+            "effet": "Trouble les ennemis en leur donnant horriblement mal aux oreilles."
         },
         {
             "type": "Attaque",
-            "nom": "Perplexité",
-            "effet": "Je devrais attaquer mais je n'attaque pas. Qui suis-je ?"
+            "nom": "Plein les oreilles",
+            "effet": "L'ennemi entend tout ce qu'on dit sur lui et il est confus.Médaillon de Feuildechou"
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Eurêka !",
-        "A mangé quelque chose de fade": "Passable.",
-        "A mangé quelque chose de mauvais": "Déroutant...",
-        "A la flemme": "Voyons voir...",
-        "Se lie d'amitié": "Hmm... c'est étrange ! Après cette bataille, nous pourrions être amis !",
-        "Est échangé": "Si on analyse les preuves, on dirait bien que j'ai été échangé... Enchanté !"
+        "A mangé quelque chose de bon": "Soif d'aventure !",
+        "A mangé quelque chose de fade": "Rien de spécial.",
+        "A mangé quelque chose de mauvais": "Eh bien...",
+        "A la flemme": "Je suis épuisé !",
+        "Se lie d'amitié": "Hou-hou ! Si on devient amis, tu seras au courant de toutes les rumeurs !",
+        "Est échangé": "Hou-hou ! Je t'ai entendu murmurer, mon ouïe est sans égale !",
+        "info_6": "Bingo-kaiJ'ai beaucoup entendu parler de toi, c'est fou de te voir en personne..."
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Évolution",
+            "contexte": "Général",
+            "de": "Duc Delafeuille",
+            "vers": "Feuildechou",
+            "critere": "Niveau 28"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "なぞトキ",
-    "nom_anglais": "Professor Plumage",
+    "nom_original": "じごくミミズク",
+    "nom_anglais": "Too-Much-To-Take",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
@@ -71,11 +80,11 @@
     },
     "localisations": {
         "ykw3": [
-            "Électropolis- matériaux de construction",
-            "Électropolis - Allée de la brocante"
+            "Évolution"
         ],
-        "Yo-kai Watch : Puni Puni :[]": [
-            "Il est possible d'obtenir Professeur Plumage dans le Labo Yopple en tombant sur un de ses quizz dans un stage. En ne faisant aucune faute sur les 10 questions, il y a une chance qu'il devienne votre ami à la fin du combat."
+        "Yo-kai Watch : Wibble Wobble :[]": [
+            "Mélée Popcorn -Bingo-kai oni",
+            "Roue rêve"
         ]
     },
     "rarite": "Commun",
@@ -86,20 +95,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Bague mimi"
+                "objet": "Secrets de l'âme"
             },
             {
                 "taux": "?%",
-                "objet": "Maquereau séché"
+                "objet": "Pâtes aux palourdes"
             }
         ]
     },
     "special_talent": {
-        "nom": "Bon pied, bon œil",
-        "description": "Booste la DÉF. quand les PV sont au maximum."
+        "nom": "Feuille de déroute",
+        "description": "Aucun Yo-kai actif ne pourra esquiver."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/464.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/464.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/464.wav",
-    "oldID": "469"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/feuildechou.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/feuildechou.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/feuildechou.wav",
+    "oldID": "473"
 }

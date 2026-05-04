@@ -1,16 +1,16 @@
 {
     "ID": "765",
-    "Nom": "Biblisotengu",
-    "Tribue": "Sombre",
+    "Nom": "Calquille",
+    "Tribue": "Insaisissable",
     "Rang": "B",
-    "PV": "381",
-    "Force": "104",
-    "Esprit": "180",
-    "Défense": "147",
-    "Vitesse": "139",
+    "PV": "433",
+    "Force": "164",
+    "Esprit": "64",
+    "Défense": "211",
+    "Vitesse": "110",
     "Description": "",
     "élément": "Vent",
-    "Rôle": "Ranger",
+    "Rôle": "Tank",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -20,23 +20,21 @@
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/765.png",
-    "nom_original": "立ちヨミテング",
-    "nom_anglais": "Fouwl",
-    "premiere_apparition": "Yo-kai Watch (jeu)",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/calquille.png",
+    "nom_original": "まきあげ貝",
+    "nom_anglais": "Sdend",
+    "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw1": [
-            "A lu tous les livres de la librairie sans rien payer."
-        ],
+        "ykw1": [],
         "ykw2": [
-            "A lu des BD caché dans le fond d'un magasin la nuit."
+            "A critiqué les repas faits par la dame de la cantine."
         ],
         "ykw3": [
-            "A volé le poster d'un magazine sans même l'acheter."
+            "A demandé juste une part, mais en a pris deux."
         ]
     },
     "fusions": [],
@@ -46,63 +44,63 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Coup retourné",
-                "puissance": "60|90",
+                "nom": "Mâchouille",
+                "puissance": "45|99",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Ouragan",
-                "puissance": "80|120",
+                "nom": "Rapides",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Tornade infernale",
-                "puissance": "100|150",
-                "description": "Frappe l'ennemi avec des rafales de vent venues des Enfers."
+                "nom": "Dette éternelle",
+                "puissance": "160|160",
+                "description": "Entraîne ses ennemis dans des dettes en dispersant leur argent."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Sort du Styx",
+                "nom": "Générosité",
                 "puissance": "N/A",
-                "description": "Un pouvoir sombre diminue l'ESP. d'un ennemi."
+                "description": "Fait qu'un Yo-kai jette son argent par les fenêtres."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Sphère finale",
-                "description": "Affaiblit les techniques de guérison."
+                "nom": "Talent : Coqu'invincible",
+                "description": "Immunisé contre les envoûtements ennemis."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Coup retourné",
-                "puissance": "60|90",
+                "nom": "Mâchouille",
+                "puissance": "45|99",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Ouragan",
-                "puissance": "80|120",
+                "nom": "Rapides",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Tornade infernale",
-                "puissance": "100|150",
-                "description": "Frappe l'ennemi avec des rafales de vent venues des Enfers."
+                "nom": "Dette éternelle",
+                "puissance": "160|160",
+                "description": "Entraîne ses ennemis dans des dettes en dispersant leur argent."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Sort du Styx",
+                "nom": "Générosité",
                 "puissance": "N/A",
-                "description": "Un pouvoir sombre diminue énormément l'ESP. d'un ennemi."
+                "description": "Incite un Yo-kai à jeter de l'argent par les fenêtres."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Sphère finale",
-                "description": "Affaiblit les techniques de guérison."
+                "nom": "Talent : Coqu'invincible",
+                "description": "Immunisé contre les envoûtements ennemis."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -114,111 +112,117 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Tornade infernale",
-                "puissance": "50×8",
-                "description": "Une tornade inflige de gros dégâts aux ennemis."
+                "nom": "Dette éternelle",
+                "puissance": "250",
+                "description": "Baisse temporaire DÉF. des ennemis."
             },
             {
                 "type": "Technique 1",
-                "nom": "Tourbillon",
-                "puissance": "40",
-                "description": "Utilise un sort de vent. Charger renforce l'effet."
+                "nom": "Encore !",
+                "puissance": "80",
+                "description": "Attaque un ennemi pour attirer son attention."
             },
             {
                 "type": "Technique 2",
-                "nom": "Baisse offensive",
+                "nom": "Champ de force +",
                 "puissance": "___",
-                "description": "Baisse ATT. ennemie. Charger élargit l'effet."
+                "description": "Invincibilité temporaire des alliés à proximité."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Baisse de vitesse",
+                "nom": "Armure",
                 "puissance": "___",
-                "description": "Baisse VIT. ennemie. Charger élargit l'effet."
+                "description": "Réduit les dégâts infligés. Attire l'attention."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Riz",
+                "puissance": "70",
+                "description": "Restaure tes PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Tintouin",
-                "description": "Effet envoûtement négatif plus durable sur soi."
+                "nom": "Talent : Coqu'invincible",
+                "description": "Immunité contre les effets d'envoûtement négatifs."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Coup retourné",
+                "nom": "Mâchouille",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Ouragan",
-                "puissance": "70|112",
+                "nom": "Rapides",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Tornade infernale",
-                "puissance": "130|260",
-                "description": "Une rafale visqueuse des Enfers s'abat sur les ennemis à portée."
+                "nom": "Dette éternelle",
+                "puissance": "___",
+                "description": "Couvre ses ennemis de dettes en dispersant leur argent."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Sort du Styx",
+                "nom": "Générosité",
                 "puissance": "N/A",
-                "description": "Un pouvoir sombre diminue l'ESP. d'un ennemi."
+                "description": "Incite un Yo-kai à jeter de l'argent par les fenêtres."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Sphère finale",
-                "description": "Affaiblit les techniques de guérison."
+                "nom": "Talent : Coqu'invincible",
+                "description": "Immunisé contre les envoûtements ennemis."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Sphère finale",
-        "description": "Affaiblit les techniques de guérison."
+        "nom": "Coqu'invincible",
+        "description": "Immunisé contre les envoûtements ennemis."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/765.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/765.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/765.wav",
-    "nourriture": "Légumes",
-    "nourriture_favorite": "Légume",
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/calquille.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/calquille.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/calquille.wav",
+    "nourriture": "Pain",
+    "nourriture_favorite": "Pain",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Sphère finale",
-            "effet": "Affaiblit les techniques de guérison."
+            "nom": "Coqu'invincible",
+            "effet": "Immunisé contre les envoûtements ennemis."
         },
         {
             "type": "Attaque",
-            "nom": "Coup retourné",
-            "effet": "60 | 90"
+            "nom": "Mâchouille",
+            "effet": "45 | 99"
         },
         {
             "type": "Attaque",
-            "nom": "Ouragan",
-            "effet": "80 | 120"
+            "nom": "Rapides",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Tornade infernale",
-            "effet": "Frappe l'ennemi avec des rafales de vent venues des Enfers. 100 | 150"
+            "nom": "Dette éternelle",
+            "effet": "Entraîne ses ennemis dans des dettes en dispersant leur argent. 160 | 160"
         },
         {
             "type": "Attaque",
-            "nom": "Sort du Styx",
-            "effet": "Un pouvoir sombre diminue énormément l'ESP. d'un ennemi."
+            "nom": "Générosité",
+            "effet": "Incite un Yo-kai à jeter de l'argent par les fenêtres."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "... Succulent.",
-        "A mangé quelque chose de fade": "Ça passe...",
-        "A mangé quelque chose de mauvais": "... Adieu !",
-        "A la flemme": "Je veux partir.",
-        "Est échangé": "Je te suis dans une seconde... Je dois finir ce livre avant...",
-        "Se lie d'amitié": "Et si on devenait amis ? On pourrait lire plein de livres ensemble !"
+        "A mangé quelque chose de bon": "Miam miam !",
+        "A mangé quelque chose de fade": "*mâche*",
+        "A mangé quelque chose de mauvais": "C'était quoi, ça ?!",
+        "A la flemme": "Qui ça intéresse ?",
+        "Est échangé": "Hé hé ! Si tu sais vraiment faire preuve de générosité, on sera amis !",
+        "Se lie d'amitié": "Ne te renferme pas ! Devenons amis !"
     },
-    "oldID": "771"
+    "oldID": "777"
 }

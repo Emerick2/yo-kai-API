@@ -1,29 +1,70 @@
 {
     "ID": "566",
-    "Nom": "Seulimane",
-    "Tribue": "Sinistre",
-    "Rang": "C",
-    "PV": "397",
-    "Force": "46",
-    "Esprit": "213",
-    "Défense": "124",
-    "Vitesse": "142",
-    "Description": "Ce Yo-kai solitaire est très fier de se débrouiller tout seul. Parfois c'est bien d'être seul, non ?",
-    "nourriture": "Oden",
-    "élément": "Foudre",
-    "Rôle": "Combattant",
+    "Nom": "Kœud",
+    "Tribue": "Mystérieux",
+    "Rang": "D",
+    "PV": "400",
+    "Force": "42",
+    "Esprit": "153",
+    "Défense": "220",
+    "Vitesse": "74",
+    "Description": "Il aide les gens à sortir de leur coquille en les envoûtant... Mais sa coquille à lui est complètement vide !",
+    "nourriture": "Pain",
+    "élément": "Glace",
+    "Rôle": "Ranger",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
+    "pouvoir": "Lorsque Kœud envoûte une personne, cette dernière ne se cache plus et décide de s'ouvrir aux autres.",
     "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/566.png",
-    "nom_original": "おひとり様",
-    "nom_anglais": "Soloman",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/kœud.png",
+    "numero": "089",
+    "nourriture_favorite": "Pain",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Dur à cuire",
+            "effet": "Récupère des PV après évanouissement. (une fois)"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Plaquage absolu",
+            "effet": "15 | 67"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Grêle",
+            "effet": "20 | 90"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Lait de poule",
+            "effet": "Sa coquille laisse entrevoir de la couleur, le renforçant et restaurant ses PV."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Décoquilleur",
+            "effet": "L'allié sort de sa coquille. Toutes ses stats augmentent.Médaillon de Kœud"
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "Je suis œuforique !",
+        "A mangé quelque chose de fade": "Merci.",
+        "A mangé quelque chose de mauvais": "Je ne crois pas, non.",
+        "A la flemme": "Pause rapide.",
+        "Se lie d'amitié": "On fait pas d'omelette sans casser des œufs ! J'ai perdu, mais on est amis !",
+        "Est échangé": "L'échange est un très bon moyen de sortir de sa coquille !",
+        "info_6": "Bingo-kaiEnfin sorti ! Maintenant, il me faut une coquille vide..."
+    },
+    "evolutions": [],
+    "fusions": [],
+    "image_locale": "",
+    "nom_original": "カラヤブリ",
+    "nom_anglais": "Unshelltered",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
@@ -31,23 +72,32 @@
     },
     "localisations": {
         "ykw3": [
-            "Électropolis- Allée de la brocante",
-            "Électropolis - sous les voitures",
-            "Électropolis - Combat contre Vampiloc"
+            "Cajoun- Bouches d'incendies",
+            "Portails mystère- Aux steaks de Cawet"
         ]
     },
-    "fusions": [],
-    "rarite": "Commun",
+    "rarite": "Yo-kai Mericain",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "One-man show",
-        "description": "Booste les stats, si le Yo-kai n'est relié à aucun autre."
+    "drops": {
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "Bagel aux myrtilles"
+            },
+            {
+                "taux": "?%",
+                "objet": "Œuf à la coque"
+            }
+        ]
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/566.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/566.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/566.wav",
-    "oldID": "570"
+    "special_talent": {
+        "nom": "Dur à cuire",
+        "description": "Récupère des PV après évanouissement. (une fois)"
+    },
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/kœud.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/kœud.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/kœud.wav",
+    "oldID": "574"
 }

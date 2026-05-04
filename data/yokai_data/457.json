@@ -1,19 +1,19 @@
 {
     "ID": "457",
-    "Nom": "Duc Delafeuille",
+    "Nom": "Steuf",
     "Tribue": "Mystérieux",
-    "Rang": "E",
-    "PV": "357",
-    "Force": "46",
-    "Esprit": "235",
-    "Défense": "85",
-    "Vitesse": "96",
-    "Description": "Tu t'es déjà demandé qui t'appelait, alors qu'il y avait personne ? Eh ben, c'était sûrement ce Yo-kai.",
-    "nourriture": "Pâtes",
-    "élément": "Vent",
-    "Rôle": "Combattant",
+    "Rang": "C",
+    "PV": "386",
+    "Force": "41",
+    "Esprit": "202",
+    "Défense": "163",
+    "Vitesse": "123",
+    "Description": "Un joyeux Yo-kai toujours prêt à faire la fête. Où qu'il aille, il attire les fêtards.",
+    "nourriture": "Pizza",
+    "élément": "Feu",
+    "Rôle": "Tank",
     "Biographie": "",
-    "étimologie": "Duc Delafeuille vient de l'expression 'être dur de la feuille' et du hibou grand duc.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
     "pouvoir": "",
@@ -21,74 +21,69 @@
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/457.png",
-    "numero": "080",
-    "nourriture_favorite": "Pâte",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/steuf.png",
+    "numero": "110",
+    "nourriture_favorite": "Pizza",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Feuille de déroute",
-            "effet": "Aucun Yo-kai actif ne pourra esquiver."
+            "nom": "Mégateuf",
+            "effet": "Booste les stats de tous les Yo-kai Merican."
         },
         {
             "type": "Attaque",
-            "nom": "Gifle",
-            "effet": "10 | 45"
+            "nom": "Plaquage absolu",
+            "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Tourbillon",
-            "effet": "20 | 90"
+            "nom": "Incendie",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Vent sifflant",
-            "effet": "Crée une tornade à force de battre des ailes, ce qui blesse les cibles à portée. 86 | 258"
+            "nom": "Grosse teuf",
+            "effet": "Monte le son (et booste les stats de tous les alliés) lors d'une teuf !"
         },
         {
             "type": "Attaque",
-            "nom": "Hein ?",
-            "effet": "Une voix lointaine ordonne à l'ennemi d'attaquer ses alliés.Médaillon de Duc Delafeuille"
+            "nom": "C'est la teuf !",
+            "effet": "Donne à un allié l'envie de faire la teuf, toutes ses stats augmentent !Médaillon de Steuf"
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Pas mal du touuut !",
-        "A mangé quelque chose de fade": "Hou-hou...",
-        "A mangé quelque chose de mauvais": "C'est horriblouuu !",
-        "A la flemme": "Hou-hou...",
-        "Se lie d'amitié": "Hou-hou ! Que dis-tu ? Devenir amis ? Si tu insistes...",
-        "Est échangé": "Hou-hou ! Quelqu'un t'appelle, non ? Peut-être que j'entends des voix...",
-        "info_6": "Bingo-kaiDit quoi ? J'ai rien dit, moi ! Tu dois entendre des voix..."
+        "A mangé quelque chose de bon": "Délicieux !",
+        "A mangé quelque chose de fade": "Merci !",
+        "A mangé quelque chose de mauvais": "Quoiii ?",
+        "A la flemme": "C'est quand, la fête ?",
+        "Se lie d'amitié": "Le combat est fini, alors c'est la teuf ! On fait péter les confettis !",
+        "Est échangé": "Je ne t'ai pas envoyé d'invitation, mais c'est pas grave, faisons la fête !"
     },
     "evolutions": [],
     "fusions": [
         {
-            "type": "Évolution",
-            "contexte": "Général",
-            "de": "Duc Delafeuille",
-            "vers": "Feuildechou",
-            "critere": "Niveau 28"
+            "type": "Fusion",
+            "contexte": "Dans le dessin animé",
+            "parent1": "Nanpart",
+            "parent2": "Steuf",
+            "resultat": "Nansteuf",
+            "critere": "➨"
         }
     ],
     "image_locale": "",
-    "nom_original": "そらミミズク",
-    "nom_anglais": "Who-Me",
+    "nom_original": "家ーイ",
+    "nom_anglais": "House Partay",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "francaise": "Nathalie Bienaimé"
     },
     "localisations": {
         "ykw3": [
-            "Cajoun- casse",
-            "Betel- arbres",
-            "Betel - Marché du hangar n°2",
-            "Cawet- arbres",
-            "Base secrète de la forêt- arbres",
-            "Canyon du Condor"
+            "Cajoun- bouches d'incendie"
         ]
     },
-    "rarite": "Commun",
+    "rarite": "Yo-kai Mericain",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
@@ -96,20 +91,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Pâtes bolognaise"
+                "objet": "Carte cadeau musique"
             },
             {
                 "taux": "?%",
-                "objet": "Carte cadeau musique"
+                "objet": "Pizza au fromage"
             }
         ]
     },
     "special_talent": {
-        "nom": "Feuille de déroute",
-        "description": "Aucun Yo-kai actif ne pourra esquiver."
+        "nom": "Mégateuf",
+        "description": "Booste les stats de tous les Yo-kai Merican."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/457.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/457.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/457.wav",
-    "oldID": "462"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/steuf.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/steuf.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/steuf.wav",
+    "oldID": "466"
 }

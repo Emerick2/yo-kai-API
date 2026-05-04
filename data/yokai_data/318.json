@@ -1,75 +1,212 @@
 {
     "ID": "318",
-    "Nom": "Crocho",
+    "Nom": "Sornella",
     "Tribue": "Sinistre",
     "Rang": "A",
-    "PV": "526",
-    "Force": "55",
-    "Esprit": "228",
-    "Défense": "134",
-    "Vitesse": "145",
-    "Description": "Il adore se baigner dans des eaux très très chaudes. Il vaut mieux tester la température avant de plonger !",
-    "description SITE": "Ce Yo-kai aime se baigner aux sources chaudes après la fermeture. Il devient tout rouge s'il reste trop longtemps et du feu finit par sortir de son nez.",
-    "nourriture": "Curry",
-    "élément": "Feu",
-    "Rôle": "Tank",
+    "PV": "417",
+    "Force": "66",
+    "Esprit": "199",
+    "Défense": "87",
+    "Vitesse": "225",
+    "Description": "Désormais au lycée, Ornella passe ses journées à jeter des sorts et à perturber les cours, d'où son nouveau surnom.",
+    "description SITE": "Désormais au lycée,Ornellapasse ses journées à jeter des sorts et à perturber les cours, d'où le nouveau surnom.",
+    "nourriture": "Encas",
+    "élément": "Absorption",
+    "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Il peut lancer du savon sur les Yo-kai pour les rendre impuissants (donne un envoûtement dans les jeux de la saga et fait glisser le Yo-kai dans Yo-kai Watch Blasters) et il peut également frapper avec les pots pour infliger des dégâts. Il est également capable cracher du feu par son nez pour augmenter la température de l'eau.",
-    "personnalité": "Il est très égoïste et adore se baigner dans des eaux très très chaudes au détriment des autres. Pourtant, dans la requête \"Les sources de l'amitié\" de Yo-kai Watch 2, nous comprenons que Crocho peut être aussi tendre et gentil.",
+    "pouvoir": "",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/318.png",
-    "numero": "225",
-    "nourriture_favorite": "Inconnue",
-    "attaques": [],
-    "phrases_nourriture": {},
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/sornella.png",
+    "numero": "273",
+    "nourriture_favorite": "Encas",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Réassort",
+            "effet": "Les envoûtements négatifs sur alliés sont intensifiés."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Volée",
+            "effet": "20x2 | 44x2"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Récolte",
+            "effet": "80 | 120"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Amour maudit",
+            "effet": "Un sort provenant d'un livre réduit rapidement les PV de l'ennemi."
+        },
+        {
+            "type": "Attaque",
+            "nom": "À l'ancienne",
+            "effet": "Le Yo-kai est maudit par une élève, ce qui baisse son ESP."
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "Oui... j'aime bien.",
+        "A mangé quelque chose de fade": "C'est un peu fade.",
+        "A mangé quelque chose de mauvais": "Tu vas le payer !",
+        "A la flemme": "Je traîne un peu !",
+        "Est échangé": "Pour me venger, j'ai jeté un sort sur",
+        "Se lie d'amitié": "Je resterai à tes côtés et te lancerai un sort par jour ? Ça te dit ?"
+    },
     "evolutions": [],
     "fusions": [
         {
             "type": "Fusion",
-            "contexte": "Yo-kai Watch Wibble Wobble",
-            "parent1": "Crocho",
-            "parent2": "Morceaux de Crocho S",
-            "resultat": "Crocho S",
+            "contexte": "Général",
+            "parent1": "Ornella",
+            "parent2": "Revue maudite",
+            "resultat": "Sornella",
             "critere": "➨"
         }
     ],
     "image_locale": "",
-    "nom_original": "のぼせトンマン",
-    "nom_anglais": "Sproink",
-    "premiere_apparition": "Yo-kai Watch (jeu)",
+    "nom_original": "呪野花子",
+    "nom_anglais": "Foiletta",
+    "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
-        "japonaise": "Yuya Murakami",
-        "francaise": "Emmanuel Gradi"
+        "japonaise": "Inconnue",
+        "francaise": "Inconnue"
     },
     "localisations": {
         "ykw2": [
-            "Quête - Les sources de l'amitié"
+            "Fusion"
         ],
         "ykw-Blasters": [
-            "Chasse Crocho - prix spécial (4 membres Peloton du chat rouge)",
-            "ChassePorcinator- prix spécial (4 membres Escadron du chien blanc)"
+            "Fusion"
         ],
         "ykw3": [
-            "Chemin brumeux"
+            "Fusion"
         ]
     },
-    "rarite": "Boss",
-    "tribu_yw4": "Forme Boss",
-    "attaques_par_jeu": {},
+    "rarite": "Commun",
+    "tribu_yw4": "N/A",
+    "attaques_par_jeu": {
+        "Yo-kai Watch 2": [
+            {
+                "type": "Attaque",
+                "nom": "Volée",
+                "puissance": "20×2|44×2",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Récolte",
+                "puissance": "80|120",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Amour maudit",
+                "puissance": "",
+                "description": "Un sort provenant d'un livre réduit rapidement les PV de l'ennemi."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "À l'ancienne",
+                "puissance": "N/A",
+                "description": "Le Yo-kai est maudit par une élève, ce qui baisse son ESP."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Réassort",
+                "description": "Les envoûtements négatifs des alliés sont intensifiés."
+            }
+        ],
+        "Yo-kai Watch Blasters": [
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Sort d'ici",
+                "puissance": "___",
+                "description": "PV des ennemis baissent rapidement."
+            },
+            {
+                "type": "Technique 1",
+                "nom": "Vortex",
+                "puissance": "30",
+                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique 2",
+                "nom": "Âmunisé",
+                "puissance": "___",
+                "description": "Esquive rapidement l'attaque ennemie."
+            },
+            {
+                "type": "Technique à acquérir 1",
+                "nom": "Attaque de repli",
+                "puissance": "70",
+                "description": "Pendant l'attaque, recule et évite les coups ennemis."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Siphon",
+                "puissance": "40",
+                "description": "Absorbe beaucoup de PV. Charger renforce l'effet."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Emprise",
+                "description": "Augmente le nombre de PV absorbés."
+            }
+        ],
+        "Yo-kai Watch 3": [
+            {
+                "type": "Attaque",
+                "nom": "Volée",
+                "puissance": "25×2|55×2",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Récolte",
+                "puissance": "55|88",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Amour maudit",
+                "puissance": "74|74",
+                "description": "Maudit les ennemis à portée et baisse peu à peu leurs PV."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "À l'ancienne",
+                "puissance": "N/A",
+                "description": "Le Yo-kai est maudit par une lycéenne, ce qui baisse son ESP."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Réassort",
+                "description": "Intensifie les malédictions sur les ennemis."
+            }
+        ]
+    },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Fritons",
-        "description": "Ne subit que la moitié des dégâts."
+        "nom": "Réassort",
+        "description": "Les envoûtements négatifs des alliés sont intensifiés."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/318.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/318.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/318.wav",
-    "name_romaji_jp": "Nobosetonman",
-    "oldID": "331"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/sornella.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/sornella.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/sornella.wav",
+    "oldID": "335"
 }

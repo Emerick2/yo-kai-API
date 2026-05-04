@@ -1,16 +1,16 @@
 {
     "ID": "755",
-    "Nom": "Ratétam",
-    "Tribue": "Bienveillant",
-    "Rang": "C",
-    "PV": "326",
-    "Force": "56",
-    "Esprit": "182",
-    "Défense": "131",
-    "Vitesse": "159",
+    "Nom": "Joutrancia",
+    "Tribue": "Sinistre",
+    "Rang": "S",
+    "PV": "417",
+    "Force": "81",
+    "Esprit": "203",
+    "Défense": "103",
+    "Vitesse": "231",
     "Description": "",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
+    "élément": "Absorption",
+    "Rôle": "Ranger",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -20,9 +20,9 @@
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/755.png",
-    "nom_original": "あきす老師",
-    "nom_anglais": "Ol' Slap Stick",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/joutrancia.png",
+    "nom_original": "青いらん",
+    "nom_anglais": "Neverfore",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -30,13 +30,13 @@
     },
     "localisations": {
         "ykw1": [
-            "Avoir volé des cadeaux de Noël."
+            "Avoir teinté les vêtements de tout le monde en bleu."
         ],
         "ykw2": [
-            "S'est fait une chaussette avec la barbe du Père Noël."
+            "S'est peint des chaussures et a fait des traces partout."
         ],
         "ykw3": [
-            "S'est faufilé dans un jardin pour y planter des bonzaïs."
+            "A trop roulé des mécaniques en partant à l'aventure."
         ]
     },
     "fusions": [],
@@ -46,63 +46,63 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Tour complet",
-                "puissance": "80|120",
+                "nom": "Méga frappe",
+                "puissance": "40|88",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
+                "nom": "Récolte",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Amstramgram",
-                "puissance": "___",
-                "description": "Quelque chose sort d'un sac… à la chance de décider !"
+                "nom": "Rayon de beauté",
+                "puissance": "130|195",
+                "description": "Vole les PV de l'ennemi avec son sceptre et les donne à ses alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Générosité",
+                "nom": "Aspire-jeunesse",
                 "puissance": "N/A",
-                "description": "Incite un Yo-kai à jeter de l'argent par les fenêtres."
+                "description": "Draine la jeunesse de l'ennemi et diminue ses statistiques."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Redonne des PV au Yo-kai voisin."
+                "nom": "Talent : Vieux os",
+                "description": "Aucun Yo-kai ne pourra esquiver."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Tour complet",
-                "puissance": "80|120",
+                "nom": "Méga frappe",
+                "puissance": "40|88",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
+                "nom": "Récolte",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Amstramgram",
-                "puissance": "___",
-                "description": "Sort quelque chose d'un sac… à la chance de décider !"
+                "nom": "Rayon de beauté",
+                "puissance": "130|195",
+                "description": "Vole les PV de l'ennemi avec son sceptre et les donne à ses alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Générosité",
+                "nom": "Aspire-jeunesse",
                 "puissance": "N/A",
-                "description": "Fait qu'un Yo-kai jette son argent par les fenêtres."
+                "description": "Draine la jeunesse de l'ennemi et diminue toutes les statistiques."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+                "nom": "Talent : Vieux os",
+                "description": "Aucun Yo-kai ne pourra esquiver."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -114,117 +114,111 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Amstramgram",
-                "puissance": "50",
-                "description": "Chacun choisit un cadeau, attribué selon ta chance."
+                "nom": "Rayon de beauté",
+                "puissance": "200×2",
+                "description": "Absorption des PV de l'ennemi."
             },
             {
                 "type": "Technique 1",
-                "nom": "Galet",
-                "puissance": "40",
-                "description": "Utilise un sort de terre. Charger renforce l'effet."
+                "nom": "Vortex",
+                "puissance": "30",
+                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
+                "nom": "Baisse de vitesse +",
+                "puissance": "___",
+                "description": "Forte baisse VIT. ennemie. Charger élargit l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Sac grappin",
+                "nom": "Envoût. multi-baisse",
                 "puissance": "___",
-                "description": "Reçois un objet aléatoire, selon la chance que tu as."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Boost d'attaque",
-                "puissance": "___",
-                "description": "Hausse ATT. des alliés. Charger élargit l'effet."
+                "description": "Baisse des stats ennemies. Charger élargit l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Partage",
-                "description": "Effets d'objets partagés avec alliés à proximité."
+                "nom": "Talent : Tintouin",
+                "description": "Effet envoûtement négatif plus durable sur soi."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Tour complet",
-                "puissance": "60|132",
+                "nom": "Méga frappe",
+                "puissance": "35|77",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
+                "nom": "Récolte",
+                "puissance": "55|88",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Amstramgram",
-                "puissance": "___",
-                "description": "Sort quelque chose d'un sac… mais c'est la chance qui détermine quoi !"
+                "nom": "Rayon de beauté",
+                "puissance": "175|262",
+                "description": "Vole les PV des ennemis de la colonne devant elle, et les donne à ses alliés."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Générosité",
+                "nom": "Aspire-jeunesse",
                 "puissance": "N/A",
-                "description": "Rend un Yo-kai tellement généreux qu'il donne parfois de l'argent."
+                "description": "Draine la jeunesse de l'ennemi et diminue toutes les stats."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Rend peu à peu des PV à tous les alliés reliés."
+                "nom": "Talent : Vieux os",
+                "description": "Aucun Yo-kai actif ne pourra esquiver."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Traitement",
-        "description": "Redonne des PV au Yo-kai voisin."
+        "nom": "Vieux os",
+        "description": "Aucun Yo-kai ne pourra esquiver."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/755.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/755.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/755.wav",
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/joutrancia.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/joutrancia.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/joutrancia.wav",
     "nourriture": "Lait",
-    "nourriture_favorite": "Lait (YW1)Curry (YW2)",
+    "nourriture_favorite": "Lait",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Traitement",
-            "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
+            "nom": "Vieux os",
+            "effet": "Aucun Yo-kai ne pourra esquiver."
         },
         {
             "type": "Attaque",
-            "nom": "Tour complet",
+            "nom": "Méga frappe",
+            "effet": "40 | 88"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Récolte",
             "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Restauration",
-            "effet": "50 | 110"
+            "nom": "Rayon de beauté",
+            "effet": "Vole les PV de l'ennemi avec son sceptre et les donne à ses alliés. 130 | 195"
         },
         {
             "type": "Attaque",
-            "nom": "Amstramgram",
-            "effet": "Sort quelque chose d'un sac... à la chance de décider !"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Générosité",
-            "effet": "Fait qu'un Yo-kai jette son argent par les fenêtres."
+            "nom": "Aspire-jeunesse",
+            "effet": "Draine la jeunesse de l'ennemi et diminue toutes les statistiques."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Ah ah ! Superbe !",
-        "Mange de la nourriture insipide": "Hmm. Pas mal.",
-        "Mange de la mauvaise nourriture": "C'est très vilain...",
-        "A la flemme": "Que faire... ?",
-        "Est échangé": "Oh oh oh ! C'est une bonne ville. Quel cadeau préfères-tu ?",
-        "Devient ton ami": "Est-ce que tu as été sage avec tes amis ?"
+        "A mangé quelque chose de bon": "Ma peau adore !",
+        "A mangé quelque chose de fade": "Ça me va.",
+        "A mangé quelque chose de mauvais": "Ma pauvre peau...",
+        "A la flemme": "Je pars !",
+        "Est échangé": "Quelle aura de jeunesse émane de toi ! Hum... c'est une source de jouvence...",
+        "Se lie d'amitié": "Tu es vraiment super ! Tu veux bien me donner un peu de ta jeunesse ?"
     },
-    "oldID": "761"
+    "oldID": "767"
 }

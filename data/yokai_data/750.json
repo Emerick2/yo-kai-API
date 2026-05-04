@@ -1,16 +1,16 @@
 {
     "ID": "750",
-    "Nom": "Écorniot",
-    "Tribue": "Sinistre",
-    "Rang": "E",
-    "PV": "298",
-    "Force": "178",
-    "Esprit": "40",
+    "Nom": "Tontonerroné",
+    "Tribue": "Bienveillant",
+    "Rang": "S",
+    "PV": "446",
+    "Force": "230",
+    "Esprit": "230",
     "Défense": "102",
-    "Vitesse": "142",
+    "Vitesse": "52",
     "Description": "",
-    "élément": "Terre",
-    "Rôle": "Ranger",
+    "élément": "Foudre",
+    "Rôle": "Tank",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -20,9 +20,9 @@
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/750.png",
-    "nom_original": "悪メン犬",
-    "nom_anglais": "Manjimitate",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/tontonerrone.png",
+    "nom_original": "悪オトン",
+    "nom_anglais": "Papa Dolt",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -30,13 +30,13 @@
     },
     "localisations": {
         "ykw1": [
-            "Avoir dessiné sur le front des gens quand ils dorment."
+            "Avoir pété durant le dîner."
         ],
         "ykw2": [
-            "A dispersé des excréments de lapin au terrain de foot."
+            "A cassé la balançoire en s'asseyant dessus."
         ],
         "ykw3": [
-            "A lu des livres d'horreur sans avoir l'âge requis."
+            "A hurlé sur le serveur à cause d'une soupe trop chaude."
         ]
     },
     "fusions": [],
@@ -46,63 +46,63 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "45|99",
+                "nom": "Poing précis",
+                "puissance": "90|135",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Feu",
-                "puissance": "20|90",
+                "nom": "Haute tension",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Grand caninvore",
-                "puissance": "18×5|18×5",
-                "description": "Mord tous ses ennemis avec frénésie. C'est assez effrayant..."
+                "nom": "Retourne-table",
+                "puissance": "180|270",
+                "description": "Jette une table sur les ennemis. Annulation Âmultimes possible."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Confusion",
+                "nom": "Cri de l'oncle",
                 "puissance": "N/A",
-                "description": "Incite l'ennemi à attaquer ses alliés."
+                "description": "Omnitonton augmente la FOR. d'un allié grâce à ses compliments."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Paradis cynophile",
-                "description": "Augmente les stats d'un voisin avec le même talent."
+                "nom": "Talent : Intimidation",
+                "description": "Aucun Yo-kai ne flânera."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "45|99",
+                "nom": "Poing précis",
+                "puissance": "90|135",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
+                "nom": "Haute tension",
+                "puissance": "80|120",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Grand caninvore",
-                "puissance": "19×5|19×5",
-                "description": "Mord tous ses ennemis avec frénésie. C'est assez effrayant..."
+                "nom": "Retourne-table",
+                "puissance": "250|250",
+                "description": "Jette une table sur les ennemis. Annuler souvent les Âmultimes."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Confusion",
+                "nom": "Cri de l'oncle",
                 "puissance": "N/A",
-                "description": "Incite l'ennemi à attaquer ses alliés."
+                "description": "Omnitonton augmente la FOR. d'un allié grâce à des compliments."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Paradis cynophile",
-                "description": "Augmente les stats d'un voisin avec le même talent."
+                "nom": "Talent : Intimidation",
+                "description": "Aucun Yo-kai ne flânera."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -114,111 +114,117 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Grand caninvore",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+                "nom": "Retourne-table",
+                "puissance": "400",
+                "description": "Inflige de gros dégâts à courte portée."
             },
             {
                 "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
+                "nom": "Champ de force",
+                "puissance": "___",
+                "description": "Hausse temporaire de la protection des alliés."
             },
             {
                 "type": "Technique 2",
-                "nom": "Baisse offensive",
-                "puissance": "___",
-                "description": "Baisse ATT. ennemie. Charger élargit l'effet."
+                "nom": "Encore !",
+                "puissance": "80",
+                "description": "Attaque un ennemi pour attirer son attention."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Démolibombe",
-                "puissance": "500",
-                "description": "Une bombe explose sur les ennemis et les alliés."
+                "nom": "Armure",
+                "puissance": "___",
+                "description": "Réduit les dégâts infligés. Attire l'attention."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Champ de force +",
+                "puissance": "___",
+                "description": "Invincibilité temporaire des alliés à proximité."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Donnant donnant",
-                "description": "Tes PV sont restaurés après réanimation."
+                "nom": "Talent : C'est tout ?",
+                "description": "Hausse ATT. si attaqué (cumulable), jusqu'à la fin des attaques."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "50|110",
+                "nom": "Poing précis",
+                "puissance": "70|112",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
+                "nom": "Haute tension",
+                "puissance": "70|112",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Grand caninvore",
-                "puissance": "15×5|45×5",
-                "description": "Mord les ennemis à portée avec frénésie. C'est assez effrayant."
+                "nom": "Retourne-table",
+                "puissance": "140|280",
+                "description": "Jette une table sur un ennemi, durant un accès de colère."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Confusion",
+                "nom": "Cri de l'oncle",
                 "puissance": "N/A",
-                "description": "L'ennemi est confus et attaque parfois ses alliés."
+                "description": "Impressionne un allié pour augmenter sa FOR."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Paradis cynophile",
-                "description": "↑ stats si relié à un Yo-kai avec le même talent."
+                "nom": "Talent : Intimidation",
+                "description": "Aucun Yo-kai ne flânera."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Paradis cynophile",
-        "description": "Augmente les stats d'un voisin avec le même talent."
+        "nom": "Intimidation",
+        "description": "Aucun Yo-kai ne flânera."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/750.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/750.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/750.wav",
-    "nourriture": "Cuisine chinoise",
-    "nourriture_favorite": "Plats chinois",
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/tontonerrone.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/tontonerrone.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/tontonerrone.wav",
+    "nourriture": "Viande",
+    "nourriture_favorite": "Viande (Yo-kai Watch 1)Sushi (Yo-kai Watch 2)",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Paradis cynophile",
-            "effet": "Augm. stats d'un voisin avec le même talent."
+            "nom": "Intimidation",
+            "effet": "Aucun Yo-kai ne flânera."
         },
         {
             "type": "Attaque",
-            "nom": "Mâchouille",
-            "effet": "45 | 99"
+            "nom": "Poing précis",
+            "effet": "90 | 135"
         },
         {
             "type": "Attaque",
-            "nom": "Incendie",
-            "effet": "50 | 110"
+            "nom": "Haute tension",
+            "effet": "80 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Grand caninvore",
-            "effet": "Mord tous ses ennemis avec frénésie. C'est assez effrayant... 19x5 | 19x5"
+            "nom": "Retourne-table",
+            "effet": "Jette une table sur les ennemis. Annuler souvent les Âmultimes. 250 | 250"
         },
         {
             "type": "Attaque",
-            "nom": "Confusion",
-            "effet": "Incite l'ennemi à attaquer ses alliés."
+            "nom": "Cri de l'oncle",
+            "effet": "Augmente énormément la FOR. d'un allié grâce à des compliments."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "C'est bon !",
-        "A mangé quelque chose de fade": "J'ai connu mieux...",
-        "A mangé quelque chose de mauvais": "Euh...",
-        "A la flemme": "C'est pas vrai !",
-        "Est échangé": "Je ne comprends pas... Pourquoi",
-        "Se lie d'amitié": "NON ! C'est affreux ! Je veux de nouveaux amis !"
+        "Mange de la bonne nourriture": "C'est très bon !",
+        "Mange de la nourriture insipide": "C'est pas si mal !",
+        "Mange de la mauvaise nourriture": "T'as pas honte ?!",
+        "A la flemme": "Je me fais vieux...",
+        "Est échangé": "J'ai hâte de lire l'admiration sans fin sur ton visage !",
+        "Devient ton ami": "Si jeune et pourtant plein de courage. Je suis impressionné. Devenons amis"
     },
-    "oldID": "756"
+    "oldID": "762"
 }

@@ -1,112 +1,61 @@
 {
     "ID": "498",
-    "Nom": "Vertipiou",
+    "Nom": "Ficheline",
     "Tribue": "Mignon",
-    "Rang": "E",
-    "PV": "279",
-    "Force": "135",
-    "Esprit": "42",
-    "Défense": "99",
-    "Vitesse": "172",
-    "Description": "Quand tu te cognes la tête, ce Yo-kai est toujours dans le coin. Il titubera avec toi. Sympa, non ?",
-    "nourriture": "Jus",
-    "élément": "Foudre",
-    "Rôle": "Ranger",
+    "Rang": "D",
+    "PV": "352",
+    "Force": "54",
+    "Esprit": "182",
+    "Défense": "97",
+    "Vitesse": "156",
+    "Description": "Tu dois faire tout ce qu'il y a d'écrit sur les fiches de Ficheline. Elle a l'air timide, mais ses ordres sont pleins d'assurance !",
+    "description SITE": "Tu dois faire tout ce qu'il y a d'écrit sur les fiches de Ficheline. Elle a l'air timide, mais ses ordres sont plein d'assurance !",
+    "nourriture": "Pâtes",
+    "élément": "Restauration",
+    "Rôle": "Guérisseur",
     "Biographie": "",
-    "étimologie": "Vertipiou vient de Vertige et de \"Piou\" (onomatopée pour le cri d'un poussin).",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
+    "pouvoir": "...(à compléter)",
+    "personnalité": "Même si elle a l'air d'être timide, lorsqu'elle donne des ordres elle a beaucoup d'assurance.",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/498.png",
-    "nom_original": "ピヨピヨコ",
-    "nom_anglais": "Twirly Pie",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/ficheline.png",
+    "nom_original": "カンペちゃん",
+    "nom_anglais": "Cue-Tee",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "Yo-kai Watch 3[]": [
-            "Cajoun- dans l'herbe",
-            "Dimension mystère- magasin mystère",
-            "Roue rêve:Pièce rose- 3e prix",
-            "Pièce rose- 3e prix"
-        ],
-        "Yo-kai Watch : Wibble Wobble[]": [
-            "Événements",
-            "Événement - Puni Puni 100 histoires, Passionnant festival de Hula- Stand d'échange"
+        "ykw3": [
+            "Quête : L'heure de la fusion",
+            "Cajoun- bouches d'incendie",
+            "Mont Sylvestre- dans l'herbe"
         ]
     },
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Yo-kai Watch 3",
+            "parent1": "Ficheline",
+            "parent2": "Maudieuse",
+            "resultat": "Kay Mandeuse",
+            "critere": "➨"
+        }
+    ],
     "rarite": "Commun",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "Yo-kai Watch 3": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Culbute cui-cui",
-                "puissance": "___",
-                "description": "Ses yeux donnent le tournis aux ennemis et sèment la confusion."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Désorientation",
-                "puissance": "N/A",
-                "description": "L'ennemi a la tête qui tourne et attaque ses alliés par mégarde."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Culbute cui-cui",
-                "puissance": "___",
-                "description": "Réduction ++ temporaire de l'attaque de l'ennemi."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Baisse de vitesse",
-                "puissance": "___",
-                "description": "Réduit + VIT. ennemie. Plus de portée si chargé."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive des attaques par des déplacements rapides."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Cha-cha-cha",
-                "description": "Esquive toutes les attaques si envoûté par un ennemi."
-            }
-        ]
-    },
+    "attaques_par_jeu": {},
     "soul_effects": null,
     "drops": {
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Y-Cola"
+                "objet": "Pâtes bolognaise"
             },
             {
                 "taux": "?%",
@@ -115,11 +64,11 @@
         ]
     },
     "special_talent": {
-        "nom": "Cha-cha-cha",
-        "description": "Esquive toutes les attaques si envoûté par un ennemi."
+        "nom": "Bénédiction",
+        "description": "Rend peu à peu des PV à tous les alliés reliés."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/498.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/498.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/498.wav",
-    "oldID": "503"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/ficheline.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/ficheline.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/ficheline.wav",
+    "oldID": "507"
 }

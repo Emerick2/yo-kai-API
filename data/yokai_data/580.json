@@ -1,64 +1,84 @@
 {
     "ID": "580",
-    "Nom": "Marceauterelle",
-    "Tribue": "Mignon",
-    "Rang": "E",
-    "PV": "328",
-    "Force": "156",
-    "Esprit": "37",
-    "Défense": "95",
-    "Vitesse": "168",
-    "Description": "Il erre au hasard, vivant de ses talents de mime. Criquetif n'arrête pas de lui dire de se trouver un vrai job.",
-    "description SITE": "Il erre au hasard, vivant de ses talents de mime.Criquetifn'arrête pas de lui dire de se trouver un vrai job.",
-    "nourriture": "Légumes",
-    "élément": "Vent",
-    "Rôle": "Ranger",
+    "Nom": "Céfasslopode",
+    "Tribue": "Insaisissable",
+    "Rang": "D",
+    "PV": "422",
+    "Force": "125",
+    "Esprit": "56",
+    "Défense": "211",
+    "Vitesse": "86",
+    "Description": "Un Yo-kai ancien qui n'a plus rien à perdre... à part sa coquille...",
+    "description SITE": "Un Yo-kai ancien qui n'a plus rien à perdre… à part sa coquille…",
+    "nourriture": "Fruits de Mer",
+    "élément": "Eau",
+    "Rôle": "Tank",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
+    "pouvoir": "Lorsqu'une personne est envoûtée par Céfasslopode, elle se dit qu'elle n'a plus rien à perdre et fait ce qui lui donne envie.",
+    "personnalité": "Pour Céfasslopode, il n'a plus rien a perdre et fait ce qu'il veut. C'est sa devise et sa manière de vivre.",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/580.png",
-    "nom_original": "いきあたりバッタ",
-    "nom_anglais": "Hoppy-go-Lucky",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/cefasslopode.png",
+    "nom_original": "ナンモナイト",
+    "nom_anglais": "Nautaloss",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "francaise": "Bruno Méyère"
     },
     "localisations": {
         "ykw3": [
-            "Ferme des blés- dans l'herbe",
-            "Ferme des blés - Champ"
+            "Betel- Allée du hip-hop"
         ]
     },
     "fusions": [],
     "rarite": "Yo-kai Mericain",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {
-        "YW3": [
+    "attaques_par_jeu": {
+        "Yo-kai Watch 3": [
             {
-                "taux": "?%",
-                "objet": "Épi de maïs"
+                "type": "Attaque",
+                "nom": "Plaquage absolu",
+                "puissance": "20|70",
+                "description": ""
             },
             {
-                "taux": "?%",
-                "objet": "Carte cadeau musique"
+                "type": "Technique",
+                "nom": "Torrent",
+                "puissance": "30|105",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Coquille vide",
+                "puissance": "",
+                "description": "C'est pas perdu, si c'est l'ennemi qui perd ses effets positifs !"
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Danger public",
+                "puissance": "N/A",
+                "description": "L'ennemi ne se soucie plus de rien, sa DÉF. baisse."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Mauvais esprit",
+                "description": "Réduit les effets des envoûtements pour tous."
             }
         ]
     },
+    "soul_effects": null,
+    "drops": {},
     "special_talent": {
-        "nom": "Corps vif",
-        "description": "Esquive les attaques avec brio !"
+        "nom": "Mauvais esprit",
+        "description": "Réduit les effets des envoûtements pour tous."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/580.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/580.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/580.wav",
-    "oldID": "584"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/cefasslopode.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/cefasslopode.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/cefasslopode.wav",
+    "oldID": "588"
 }

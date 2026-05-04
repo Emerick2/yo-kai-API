@@ -1,70 +1,78 @@
 {
     "ID": "323",
-    "Nom": "Arachnia",
-    "Tribue": "Sinistre",
-    "Rang": "S",
-    "PV": "440",
-    "Force": "212",
-    "Esprit": "149",
-    "Défense": "98",
-    "Vitesse": "170",
-    "Description": "Expert en poisons, ce Yo-kai est souvent qualifié de femme fatale alors que c'est bien un homme.",
-    "description SITE": "Expert en poison, ce Yo-kai est souvent qualifié de femme fatale alors que c'est bien un homme.",
-    "nourriture": "Soba",
-    "élément": "Terre",
-    "Rôle": "Ranger",
+    "Nom": "Maudieuse",
+    "Tribue": "Insaisissable",
+    "Rang": "E",
+    "PV": "316",
+    "Force": "183",
+    "Esprit": "113",
+    "Défense": "66",
+    "Vitesse": "115",
+    "Description": "Ce Yo-kai adore quand tout échange avec autrui devient pénible. Si ça tourne mal, elle doit être tout près !",
+    "description SITE": "Ce Yo-kai adore quand tout échange avec autrui devient pénible. Si ça tourne mal, il doit être tout près !",
+    "nourriture": "Douceurs",
+    "élément": "Foudre",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "",
+    "étimologie": "Maudieuse vient du prénom Maude et de Odieuse.",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Il a les mêmes pouvoirs qu'Arachnusmais il peut créer du poison.",
-    "personnalité": "C'est un très bon commandant et un expert en poison. DansYo-kai Watch 3, on peut le rencontrer sur leChemin brumeuxoù il prend l'apparence d'une dame âgée avec une faucille. Il donnera des friandises à plusieurs reprise àNathanouArianeen répétant et dira qu'il les trouve mignons.",
+    "pouvoir": "Maudieuse peut faire en sorte que tout échange avec autrui devienne pénible et tourne mal.",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/323.png",
-    "numero": "283",
-    "nourriture_favorite": "Soba",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/maudieuse.png",
+    "numero": "288",
+    "nourriture_favorite": "Déssert",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Trarachnard",
-            "effet": "Attaque renforcée après avoir battu des ennemis."
+            "nom": "Tintouin",
+            "effet": "Rend la purification plus difficile pour les ennemis."
         },
         {
             "type": "Attaque",
-            "nom": "Poing un-deux",
-            "effet": "15x2 | 33x2"
+            "nom": "Frappe",
+            "effet": "10 | 45"
         },
         {
             "type": "Attaque",
-            "nom": "Météore",
-            "effet": "80 | 120"
+            "nom": "Décharge",
+            "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Omnipattence",
-            "effet": "La force arachnéenne inflige des dégâts de terre sur un ennemi. 290 | 290"
+            "nom": "Chicane",
+            "effet": "Embrouille l'ennemi en tournant toujours et encore."
         },
         {
             "type": "Attaque",
-            "nom": "Dans la toile",
-            "effet": "Le Yo-kai est pris dans une toile et sa VIT. baisse énormément."
+            "nom": "Croc-en-jambe",
+            "effet": "Le Yo-kai s'emmêle les pieds. Sa VIT. baisse énormément."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Ouah, délicieux !",
-        "A mangé quelque chose de fade": "Bof bof.",
-        "A mangé quelque chose de mauvais": "Nauséabond.",
-        "A la flemme": "J'ai très peur.",
-        "Est échangé": "J'ai envie de rejoindre ton groupe. Tu t'occupes de la sauce, moi du poison !",
-        "Se lie d'amitié": "Si on est amis, je préparerai du délicieux poison rien que pour toi !"
+        "A mangé quelque chose de bon": "C'est trop bon !",
+        "A mangé quelque chose de fade": "Euh, bof bof.",
+        "A mangé quelque chose de mauvais": "Je n'y crois pas !",
+        "A la flemme": "C'est tout emmelé.",
+        "Est échangé": "Bien sûr qu'on peut être amis... Enfin... Je ne sais pas... Peut-être... Bon, OK !",
+        "Se lie d'amitié": "Je t'aime vraiment bien ! Travaillons en équipe !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Évolution",
+            "contexte": "Général",
+            "de": "Maudieuse",
+            "vers": "Jérémya",
+            "critere": "Niveau 29"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "女郎蜘蛛",
-    "nom_anglais": "Arachnia",
+    "nom_original": "からみぞん",
+    "nom_anglais": "Snaggly",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
@@ -72,49 +80,50 @@
     },
     "localisations": {
         "ykw2": [
-            "Bingo-kai-Pièce mauve(Passé)",
-            "Bingo-kai -Pièce 5 étoiles(Passé)",
-            "Bingo-kai -Pièce spéciale(Passé)",
-            "Bingo-kai gagnant"
+            "La Corniche- arbres",
+            "Quartier des boutiques- arbres",
+            "Portail mystère - salle de combat",
+            "Tunnel sans fin"
+        ],
+        "ykw-Blasters": [
+            "Patrouille - Quartier des boutiques"
         ],
         "ykw3": [
-            "Chemin brumeux- parler 5 fois à la vielle dame tenant une faucille.",
-            "Pavillon de l'ambroisie",
-            "Bingo-kai -Pièce légendaire"
+            "Cajoun- aire de barbecue"
         ]
     },
-    "rarite": "Classic icon",
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "15×2|33×2",
+                "nom": "Frappe",
+                "puissance": "10|45",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Météore",
-                "puissance": "80|120",
+                "nom": "Décharge",
+                "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Omnipattence",
-                "puissance": "290|290",
-                "description": "La force arachnéenne inflige des dégâts de terre sur un ennemi."
+                "nom": "Chicane",
+                "puissance": "___",
+                "description": "Embrouille l'ennemi en tournant toujours et encore."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Dans la toile",
+                "nom": "Croc-en-jambe",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est pris dans une toile et sa VIT. baisse énormément."
+                "description": "Le Yo-kai s'emmêle les pieds. Sa VIT. baisse énormément."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Trarachnard",
-                "description": "Attaque renforcée après avoir battu des ennemis."
+                "nom": "Talent : Tintouin",
+                "description": "Rend la purification plus difficile pour les ennemis."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -126,81 +135,74 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Omnipattence",
-                "puissance": "80×5",
-                "description": "Des rochers infligent de gros dégâts aux ennemis."
+                "nom": "Chicane",
+                "puissance": "___",
+                "description": "Forte baisse temporaire de l'attaque ennemie."
             },
             {
                 "type": "Technique 1",
-                "nom": "Attaque précipitée",
-                "puissance": "80",
-                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
             },
             {
                 "type": "Technique 2",
-                "nom": "Piège zappeur",
+                "nom": "Position défensive",
                 "puissance": "___",
-                "description": "Peut paralyser un ennemi s'il marche dessus."
+                "description": "Hausse de la défense temporaire."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Galet",
+                "nom": "Décharge",
                 "puissance": "40",
-                "description": "Utilise un sort de terre. Charger renforce l'effet."
+                "description": "Utilise un sort de foudre. Charger renforce l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Maître Web",
-                "description": "La jauge d'attaque se charge quand attaqué."
+                "nom": "Talent : Avidité",
+                "description": "Les ennemis feront tomber des objets plus souvent."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "25×2|55×2",
+                "nom": "Frappe",
+                "puissance": "20|70",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Météore",
-                "puissance": "70|112",
+                "nom": "Décharge",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Omnipattence",
-                "puissance": "155|232",
-                "description": "Fait s'écraser un rocher sur une case aléatoire par la force de l'araignée."
+                "nom": "Chicane",
+                "puissance": "___",
+                "description": "Monte ses ennemis les uns contre les autres."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Dans la toile",
+                "nom": "Croc-en-jambe",
                 "puissance": "N/A",
-                "description": "Le Yo-kai est pris dans une toile et sa VIT. baisse fortement."
+                "description": "Le Yo-kai trébuche tellement qu'il ne peut aller nulle part."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Trarachnard",
-                "description": "Attaque renforcée après avoir battu des ennemis."
+                "nom": "Talent : Tintouin",
+                "description": "Les ennemis ont plus de mal à se purifier."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Trarachnard",
-        "description": "Attaque renforcée après avoir battu des ennemis."
+        "nom": "Tintouin",
+        "description": "Rend la purification plus difficile pour les ennemis."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/323.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/323.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/323.wav",
-    "name_romaji_jp": "Jorōgumo",
-    "oldID": "337"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/maudieuse.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/maudieuse.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/maudieuse.wav",
+    "oldID": "340"
 }

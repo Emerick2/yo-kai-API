@@ -1,16 +1,16 @@
 {
     "ID": "736",
-    "Nom": "Starlett",
+    "Nom": "Kappacalc",
     "Tribue": "Mignon",
-    "Rang": "E",
-    "PV": "282",
-    "Force": "127",
-    "Esprit": "110",
-    "Défense": "102",
-    "Vitesse": "135",
+    "Rang": "D",
+    "PV": "343",
+    "Force": "43",
+    "Esprit": "184",
+    "Défense": "108",
+    "Vitesse": "147",
     "Description": "",
-    "élément": "Feu",
-    "Rôle": "Guérisseur",
+    "élément": "Eau",
+    "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -20,272 +20,109 @@
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/736.png",
-    "nom_original": "どろこ婦人",
-    "nom_anglais": "Dullabel",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/kappacalc.png",
+    "nom_original": "えせガッパ",
+    "nom_anglais": "Watkappa",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
-    "localisations": {},
+    "localisations": {
+        "ykw1": [
+            "Avoir imité l'accent du sud, peuchère."
+        ],
+        "ykw2": [
+            "Rabaisse les campagnards en prétendant être citadin."
+        ],
+        "ykw3": [
+            "A mis du ketchup sur une glace à la fraise."
+        ]
+    },
     "fusions": [],
     "rarite": "Commun",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "Yo-kai Watch": [
-            {
-                "type": "Attaque",
-                "nom": "Pointe perçante",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Feu",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "☆Surin pimpant",
-                "puissance": "17×5|17×5",
-                "description": "Elle entaille plusieurs fois ses adversaires avec son parapluie."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Relooking",
-                "puissance": "N/A",
-                "description": "Change un Yo-kai en victime de la mode qui agace tout le monde."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Ténacité",
-                "description": "Bloque envoûtements négatifs des ennemis."
-            }
-        ],
-        "Yo-kai Watch 2": [
-            {
-                "type": "Attaque",
-                "nom": "Pointe perçante",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Feu",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "☆Surin pimpant",
-                "puissance": "17×5|17×5",
-                "description": "Elle entaille plusieurs fois ses adversaires avec son parapluie."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Relooking",
-                "puissance": "N/A",
-                "description": "Change un Yo-kai en victime de la mode qui agace tout le monde."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Incendie",
-                "puissance": "N/A",
-                "description": "Un sort de feu brûle les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Ténacité",
-                "description": "Bloque envoûtements négatifs des ennemis."
-            }
-        ],
-        "Yo-kai Watch Blasters": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "☆Surin pimpant",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Boost de défense",
-                "puissance": "___",
-                "description": "Hausse DÉF. des alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Feu",
-                "puissance": "40",
-                "description": "Utilise un sort de feu. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Lessivage",
-                "description": "Chargement rapide de la jauge d'attaque si PV au max."
-            }
-        ],
-        "Yo-kai Watch 3": [
-            {
-                "type": "Attaque",
-                "nom": "Pointe perçante",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Feu",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "☆Surin pimpant",
-                "puissance": "15×5|45×5",
-                "description": "Entaille plusieurs fois les ennemis à portée, avec son parapluie."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Relooking extrême",
-                "puissance": "N/A",
-                "description": "L'ennemi subit un relooking et sa DÉF. diminue."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "☆Surin pimpant",
-                "puissance": "40×10",
-                "description": "Enchaîne les coups, inflige des dégâts élevés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque l’ennemi avec une attaque féroce."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. PV rendus + si chargé."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Ténacité",
-                "description": "Bloque envoûtements négatifs des ennemis."
-            }
-        ]
-    },
+    "attaques_par_jeu": {},
     "soul_effects": {
-        "Yo-kai Watch 2": "Réduit légèrement les dégâts d’attaques de feu subis.",
-        "Yo-kai Watch Blasters": "Chargement de la jauge d’attaque un peu plus rapide.",
-        "Yo-kai Watch 3": "Booste un peu la DÉF. des Yo-kai reliés."
+        "Yo-kai Watch 2": "Récupère quelques PV quand il flâne.",
+        "Yo-kai Watch Blasters": "Réduit légèrement les dégâts de l'eau.",
+        "Yo-kai Watch 3": "Récupère quelques PV quand il flâne."
     },
     "drops": {
         "YW1": [
             {
                 "taux": "?%",
-                "objet": "Dico-tech"
+                "objet": "Techniques tip-top"
             },
             {
                 "taux": "?%",
-                "objet": "Maquereau séché"
+                "objet": "Concombre"
             }
         ],
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "Poupée de fer"
+                "objet": "Gourde sans fond"
             },
             {
                 "taux": "?%",
-                "objet": "Grignotes"
+                "objet": "Concombre"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Poupée de fuite"
+                "objet": "Gourde sans fond"
             },
             {
                 "taux": "?%",
-                "objet": "Cheesecake"
+                "objet": "Maki concombre"
             }
         ]
     },
     "special_talent": {
-        "nom": "Ténacité",
-        "description": "Bloque envoûtements négatifs des ennemis."
+        "nom": "Flâneur pro",
+        "description": "Récupère quelques PV quand il flâne."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/736.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/736.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/736.wav",
-    "nourriture": "Hamburger",
-    "nourriture_favorite": "Dessert",
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/kappacalc.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/kappacalc.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/kappacalc.wav",
+    "nourriture": "Légumes",
+    "nourriture_favorite": "Sushi",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Ténacité",
-            "effet": "Bloque envoûtements négatifs des ennemis."
+            "nom": "Flâneur pro",
+            "effet": "Récupère quelques PV quand il flâne."
         },
         {
             "type": "Attaque",
-            "nom": "Pointe perçante",
+            "nom": "Coup de poing",
             "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Feu",
-            "effet": "20 | 90"
+            "nom": "Rapides",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "☆Surin pimpant",
-            "effet": "Elle entaille plusieurs fois ses adversaires avec son parapluie. 17x5 | 17x5"
+            "nom": "Méga cascade",
+            "effet": "Produit une énorme cascade pour noyer ses ennemis. 80 | 80"
         },
         {
             "type": "Attaque",
-            "nom": "Relooking",
-            "effet": "Change un Yo-kai en victime de la mode qui agace tout le monde."
+            "nom": "Petit somme",
+            "effet": "Kappacap endort vite les ennemis... tout comme lui !"
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Ça va cartonner !",
-        "Mange de la nourriture insipide": "Pas mal, mais...",
-        "Mange de la mauvaise nourriture": "DÉ-GOÛ-TANT.",
-        "A la flemme": "Pfiou...",
-        "Est échangé": "Tu appelles ça avoir du style ? En bonne amie, j'accepte de te relooker.",
-        "Devient ton ami": "Oh là là ! C'était fabuleux ! Je peux être ton amie ?"
+        "Mange de la bonne nourriture": "Génial !",
+        "Mange de la nourriture insipide": "C'est pas super.",
+        "Mange de la mauvaise nourriture": "Bizarre, ton truc...",
+        "A la flemme": "Je veux manger...",
+        "Est échangé": "Je suis content d'être arrivé ! C'est ... qui m'envoie !",
+        "Devient ton ami": "Plutôt cool. On fait ami-ami ?"
     },
-    "oldID": "742"
+    "oldID": "748"
 }

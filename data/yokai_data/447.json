@@ -1,69 +1,80 @@
 {
     "ID": "447",
-    "Nom": "Shurikenny",
+    "Nom": "XXL de bain",
     "Tribue": "Vaillant",
-    "Rang": "S",
-    "PV": "403",
-    "Force": "191",
-    "Esprit": "52",
-    "Défense": "112",
-    "Vitesse": "235",
-    "Description": "Un Yo-kai héroïque qui cherche la gloire. Sa nature de ninja le force, cependant, à rester dans l'ombre.",
-    "nourriture": "Sushi",
-    "élément": "Vent",
+    "Rang": "A",
+    "PV": "421",
+    "Force": "248",
+    "Esprit": "45",
+    "Défense": "147",
+    "Vitesse": "153",
+    "Description": "Peu satisfait de nettoyer les salles de bain, Sale de bain a décidé de se faire un nom aux USA. Depuis, il rafle les récompenses !",
+    "description SITE": "Peu satisfait de nettoyer les salles de bain, Sale de bain a décidé de se faire un nom aux USA. Depuis il rafle les récompenses !",
+    "nourriture": "Oden",
+    "élément": "Absorption",
     "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
+    "pouvoir": "Lorsque XXL de bain envoûte quelqu'un la personne remporte de nombreux prix et trophées.",
     "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/447.png",
-    "numero": "065",
-    "nourriture_favorite": "Sushi",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/xxl-de-bain.png",
+    "numero": "032",
+    "nourriture_favorite": "Oden",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Passe de deux",
-            "effet": "Inflige aussi des dégâts à l'ennemi derrière la cible."
+            "nom": "Douche froide",
+            "effet": "Vole les grâces de tous les autres Yo-kai."
         },
         {
             "type": "Attaque",
-            "nom": "Taillade éclair",
-            "effet": "20x3 | 44x3"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tornade",
+            "nom": "Slurp",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Fourberie du ninja",
-            "effet": "Caché dans l'ombre, il lance un kunaï au hasard sur le plateau ennemi. 155 | 232"
+            "nom": "Vortex",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Provocation",
-            "effet": "Utilise le ninjutsu pour faire baisser la VIT. de l'ennemi.Médaillon de Shurikenny"
+            "nom": "Langue acérée",
+            "effet": "Déguste la célébrité à coups de langue, blessant les ennemis à portée. 200 | 300"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Tacle-langue",
+            "effet": "L'allié rafle toutes les récompenses et ses stats augmentent."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "C'est bon !",
-        "A mangé quelque chose de fade": "Hmph !",
-        "A mangé quelque chose de mauvais": "Mince !",
-        "A la flemme": "Je flâne en secret...",
-        "Se lie d'amitié": "J'ai perdu ? Je vais te suivre comme ton ombre pour percer ton secret...",
-        "Est échangé": "Très bien. Je serai ta lame cachée dans les ténèbres."
+        "A mangé quelque chose de bon": "Sluuuuurp !",
+        "A mangé quelque chose de fade": "Sluuurp !",
+        "A mangé quelque chose de mauvais": "Slurp !",
+        "A la flemme": "Tellement fatigué...",
+        "Se lie d'amitié": "Je veux être ton ami, sans langue de bois ! Slurp !",
+        "Est échangé": "Ouah, un tout nouveau monde encore vierge de ma salive ! *léchouille*",
+        "info_6": "Bingo-kaiEnfin libre, et tant de choses à lécher !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Sale de Bain",
+            "parent2": "Prix meilleur joueur",
+            "resultat": "XXL de bain",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "ハンゾウ",
-    "nom_anglais": "Shurikenny",
+    "nom_original": "総ナメ",
+    "nom_anglais": "Lappinitup",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
@@ -71,10 +82,10 @@
     },
     "localisations": {
         "ykw3": [
-            "Quête -Le héros de l'ombre ! Shurikenny !(sous-sol dumanoir des Cardamom, avoir choisiFlèche d'azurà Dukeville)"
+            "Fusion entreSale de Bainet lePrix meilleur joueurqui se trouve la nuit au bric-et-broc du quartier des boutiques pour 300 euros."
         ]
     },
-    "rarite": "Yo-kai Mericain",
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
@@ -82,20 +93,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Les coups secrets"
+                "objet": "Brochettes de bœuf"
             },
             {
                 "taux": "?%",
-                "objet": "Sushi d'aileron"
+                "objet": "Œuf à la coque"
             }
         ]
     },
     "special_talent": {
-        "nom": "Passe de deux",
-        "description": "Inflige aussi des dégâts à l'ennemi derrière la cible."
+        "nom": "Douche froide",
+        "description": "Vole les grâces de tous les autres Yo-kai."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/447.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/447.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/447.wav",
-    "oldID": "452"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/xxl-de-bain.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/xxl-de-bain.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/xxl-de-bain.wav",
+    "oldID": "456"
 }

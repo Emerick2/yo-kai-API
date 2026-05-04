@@ -1,124 +1,137 @@
 {
     "ID": "309",
-    "Nom": "Dracunyan",
+    "Nom": "Noctambill",
     "Tribue": "Sombre",
     "Rang": "B",
-    "PV": "369",
-    "Force": "60",
-    "Esprit": "178",
-    "Défense": "106",
-    "Vitesse": "209",
-    "Description": "Un Yo-kai chat devenu un vampire, mais ses victimes n'ont rien à craindre. Au pire, la tête leur tournera.",
-    "description SITE": "Jibanyan est devenu un vampire, mais ses victimes n'ont rien à craindre. Au pire, la tête leur tournera.",
-    "nourriture": "Chocolat",
-    "élément": "Absorption",
-    "Rôle": "Combattant",
+    "PV": "392",
+    "Force": "67",
+    "Esprit": "183",
+    "Défense": "102",
+    "Vitesse": "199",
+    "Description": "À force de jouer aux jeux vidéo toute la nuit, ses yeux sont cernés de fatigue. Les gens commencent à se faire du souci à son sujet...",
+    "description SITE": "Les cernes sous ses yeux à force de jouer aux jeux vidéos toute la nuit suffisent à s'inquiéter pour sa santé.",
+    "nourriture": "Hamburger",
+    "élément": "Foudre",
+    "Rôle": "Ranger",
     "Biographie": "",
-    "étimologie": "Dracunyan vient de Dracula et de Nyan. En japonais, Gabu(? ?) veut dire Mordre et Nyan (???) veut dire Miaou.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Dracunyan a le pouvoir de transformer les gens en chat-vampire.",
+    "pouvoir": "",
     "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/309.png",
-    "numero": "233",
-    "nourriture_favorite": "Barre chocolatée",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/noctambill.png",
+    "numero": "208",
+    "nourriture_favorite": "Hamburger",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Transfusion",
-            "effet": "Vole les PV des Yo-kai voisins lors d'une attaque."
+            "nom": "Noctambule",
+            "effet": "Toutes les statistiques sont augmentées la nuit."
         },
         {
             "type": "Attaque",
-            "nom": "Vilaine morsure",
-            "effet": "80 | 120"
+            "nom": "Coup de poing",
+            "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Récolte",
-            "effet": "80 | 120"
+            "nom": "Foudre",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Sangsue",
-            "effet": "Aspire les PV d'un ennemi et les partage avec ses alliés. 150 | 150"
+            "nom": "Surmenage",
+            "effet": "Le manque de sommeil affaiblit énormément la DÉF. de l'ennemi."
         },
         {
             "type": "Attaque",
-            "nom": "Caninade",
-            "effet": "Le Yo-kai se fait mâchouiller, ce qui lui fait perdre des PV."
+            "nom": "Nuit blanche",
+            "effet": "Le Yo-kai fait une nuit blanche, ce qui baisse sa DÉF. énormément."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "C'est trop miaou !",
-        "A mangé quelque chose de fade": "Pas mauvais...",
-        "A mangé quelque chose de mauvais": "Très mauvais !",
-        "A la flemme": "Nyaaa, du sang...",
-        "Est échangé": "Che veux être ton ami ! Miaoutenant !",
-        "Se lie d'amitié": "Oh, tu fais de l'anémiaou... Je vais te trouver du sang frais, nya !"
+        "A mangé quelque chose de bon": "Je suis rassasié !",
+        "A mangé quelque chose de fade": "Ça peut aller...",
+        "A mangé quelque chose de mauvais": "Ça fatigue...",
+        "A la flemme": "Je veux du café !",
+        "Est échangé": "Dormir ? DORMIR ? Pas besoin ! HA HA ! Ha... je vais bien.",
+        "Se lie d'amitié": "Merci de m'avoir gardé éveillé. Tu as besoin d'un ami insomniaque ?"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Yo-kai Watch 2",
+            "parent1": "Couchtar",
+            "parent2": "Chauvekipeut",
+            "resultat": "Noctambill",
+            "critere": "➨"
+        },
+        {
+            "type": "Fusion",
+            "contexte": "Yo-kai Watch Blasters & 3",
+            "parent1": "Couchtar",
+            "parent2": "Tengubre",
+            "resultat": "Noctambill",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "ガブニャン",
-    "nom_anglais": "Dracunyan",
+    "nom_original": "ＫＡＮＴＥＴＳＵ",
+    "nom_anglais": "Allnyta",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
-        "japonaise": "Etsuko Kozakura",
-        "francaise": "Caroline Combes"
+        "japonaise": "Inconnue",
+        "francaise": "Inconnue"
     },
     "localisations": {
         "ykw2": [
-            "Bingo-kai-Pièce frisson (fleur)",
-            "Bingo-kai -Pièce frisson (lune)",
-            "Bingo-kai -Pièce frisson (vent)"
+            "Fusion"
         ],
         "ykw-Blasters": [
-            "Bingo-kai - Pièce fleur",
-            "Bingo-kai - Pièce lune",
-            "Bingo-kai -Pièce oiseau",
-            "Bingo-kai - Pièce vent"
+            "Exclusif à l'Escadron du chien blanc",
+            "Fusion",
+            "Patrouille -Centre-ville"
         ],
         "ykw3": [
-            "Roue rêve-Pièce 5 étoiles",
-            "Roue rêve - Pièce frisson (ciel)"
+            "Fusion"
         ]
     },
-    "rarite": "Rare",
+    "rarite": "FB icone",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Vilaine morsure",
-                "puissance": "80|120",
+                "nom": "Coup de poing",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Récolte",
-                "puissance": "80|120",
+                "nom": "Foudre",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Sangsue",
-                "puissance": "150|150",
-                "description": "Aspire les PV d'un ennemi et les partage avec ses alliés."
+                "nom": "Surmenage",
+                "puissance": "___",
+                "description": "Le manque de sommeil affaiblit énormément la DÉF. de l'ennemi."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Caninade",
+                "nom": "Nuit blanche",
                 "puissance": "N/A",
-                "description": "Le Yo-kai se fait mâchouiller, ce qui lui fait perdre des PV."
+                "description": "Le Yo-kai fait une nuit blanche, ce qui baisse sa DÉF. énormément."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Transfusion",
-                "description": "Vole les PV des Yo-kai voisins lors d'une attaque."
+                "nom": "Talent : Noctambule",
+                "description": "Toutes les statistiques sont augmentées la nuit."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -130,80 +143,74 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Sangsue",
-                "puissance": "200×2",
-                "description": "Absorption des PV de l'ennemi."
+                "nom": "Surmenage",
+                "puissance": "____",
+                "description": "Forte baisse temporaire de la défense ennemie."
             },
             {
                 "type": "Technique 1",
-                "nom": "Attaque blitz",
-                "puissance": "25",
-                "description": "Touche plusieurs fois pour des attaques en continu."
+                "nom": "Décharge",
+                "puissance": "40",
+                "description": "Utilise un sort de foudre. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Vortex",
-                "puissance": "30",
-                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
+                "nom": "Piège",
+                "puissance": "___",
+                "description": "Peut engourdir un ennemi s'il marche dessus."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
+                "nom": "Baisse de défensive +",
                 "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Attaque précipitée",
-                "puissance": "80",
-                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
+                "description": "Forte baisse DÉF. ennemie. Charger élargit l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Vampirisation",
-                "description": "Absorbe une partie des PV lors d'attaques."
+                "nom": "Talent : Noctambule",
+                "description": "Hausse de l'attaque lors dès missions nocturnes."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Vilaine morsure",
-                "puissance": "70|112",
+                "nom": "Coup de poing",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Récolte",
-                "puissance": "55|88",
+                "nom": "Foudre",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Sangsue",
-                "puissance": "100|200",
-                "description": "Aspire les PV des ennemis à portée et les partage avec ses alliés."
+                "nom": "Surmenage",
+                "puissance": "___",
+                "description": "La DÉF. de tous les ennemis baisse fortement dû à trop de nuits blanches."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Caninade",
+                "nom": "Nuit agitée",
                 "puissance": "N/A",
-                "description": "Le Yo-kai se fait mâchouiller, ce qui lui fait perdre des PV."
+                "description": "Le Yo-kai fait une nuit blanche, ce qui baisse sa DÉF."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Transfusion",
-                "description": "Absorbe les PV des Yo-kai reliés, en attaquant."
+                "nom": "Talent : Noctambule",
+                "description": "Augmente sensiblement toutes les stats la nuit."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Transfusion",
-        "description": "Vole les PV des Yo-kai voisins lors d'une attaque."
+        "nom": "Noctambule",
+        "description": "Toutes les statistiques sont augmentées la nuit."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/309.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/309.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/309.wav",
-    "oldID": "320"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/noctambill.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/noctambill.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/noctambill.wav",
+    "oldID": "321"
 }

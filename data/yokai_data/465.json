@@ -1,17 +1,18 @@
 {
     "ID": "465",
-    "Nom": "Volroulo",
+    "Nom": "Curryogi",
     "Tribue": "Mystérieux",
-    "Rang": "B",
-    "PV": "374",
-    "Force": "45",
-    "Esprit": "200",
-    "Défense": "126",
-    "Vitesse": "180",
-    "Description": "Plus de papier toilette quand tu en as le plus besoin ? Pas besoin de chercher plus loin, c'est ce Yo-kai !",
-    "nourriture": "Tempura",
-    "élément": "Absorption",
-    "Rôle": "Combattant",
+    "Rang": "A",
+    "PV": "428",
+    "Force": "39",
+    "Esprit": "218",
+    "Défense": "144",
+    "Vitesse": "174",
+    "Description": "Curryogi a quitté sa phase où il interrogeait tout, il est désormais dans une phase d'acceptation éclairée.",
+    "description SITE": "Curryogi a quitté sa phase où il interrogeait tout, il est désormais dans une phase d'acceptation éclairée",
+    "nourriture": "Curry",
+    "élément": "Foudre",
+    "Rôle": "Ranger",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,50 +22,59 @@
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/465.png",
-    "numero": "124",
-    "nourriture_favorite": "Tempura",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/curryogi.png",
+    "numero": "083",
+    "nourriture_favorite": "Curry",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Point mort",
-            "effet": "Allonge le temps laissé au remplacement de Yo-kai."
+            "nom": "Auto-persuasion",
+            "effet": "Booste les effets des grâces du lanceur."
         },
         {
             "type": "Attaque",
-            "nom": "Frappe",
-            "effet": "10 | 45"
+            "nom": "Volée",
+            "effet": "20x2 | 44x2"
         },
         {
             "type": "Attaque",
-            "nom": "Vortex",
-            "effet": "50 | 11"
+            "nom": "Foudre",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Essuie bien",
-            "effet": "Enroule tous les ennemis dans du papier toilette, et les empêche de bouger."
+            "nom": "Flux de pétales",
+            "effet": "Ouvre son grand cœur à tous les alliés et restaure leurs PV. 120 | 180"
         },
         {
             "type": "Attaque",
-            "nom": "Au bout du rouleau",
-            "effet": "L'ennemi est enroulé dans du papier toilette et ne peut plus bouger !"
+            "nom": "Paixsible",
+            "effet": "Le Yo-kai envoûté devient sérieux. Toutes ses stats augmentent.Médaillon de Curryogi"
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "J'adore !",
-        "A mangé quelque chose de fade": "Un peu fade...",
-        "A mangé quelque chose de mauvais": "Révoltant !",
-        "A la flemme": "Il me faut du papier...",
-        "Se lie d'amitié": "Tu veux du papier toilette ?! Ça nous fait une chose en commun...",
-        "Est échangé": "Quel est cet étrange papier toilette ? Bah, je prends quand même.",
-        "info_6": "Bingo-kaiTu m'as sorti de là, je veux te montrer ma collection de papier toilette !"
+        "A mangé quelque chose de bon": "Délicieux !",
+        "A mangé quelque chose de fade": "Je vois... Ça passe.",
+        "A mangé quelque chose de mauvais": "Je vois... Horrible !",
+        "A la flemme": "Vraiment ? Je vois...",
+        "Se lie d'amitié": "Je vois. Ta puissance est réelle. Notre amitié aussi.",
+        "Est échangé": "Je vois. Échangé. Il y aura beaucoup à apprendre à tes côtés.",
+        "info_6": "Bingo-kaiTu m'as libéré ? Tu veux qu'on devienne amis ? Je vois..."
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Curryeux",
+            "parent2": "M. Felipaix",
+            "resultat": "Curryogi",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "紙かくし",
-    "nom_anglais": "Throne Wiper",
+    "nom_original": "そーナンだー",
+    "nom_anglais": "Naandhi",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
@@ -72,11 +82,7 @@
     },
     "localisations": {
         "ykw3": [
-            "Centre-ville de Granval- arbres",
-            "Tour de commerce Granval- 3e étage",
-            "Tour de commerce Granval - 13e étage",
-            "Portail Mystère- Salle de combat - Café du dauphin",
-            "Bingo-kai-Pièce jaune- 2e prix"
+            "Fusion"
         ]
     },
     "rarite": "Commun",
@@ -87,20 +93,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Techni-clopédie"
+                "objet": "Curry du chef"
             },
             {
                 "taux": "?%",
-                "objet": "Tempura poisson"
+                "objet": "Curry de la mer"
             }
         ]
     },
     "special_talent": {
-        "nom": "Point mort",
-        "description": "Allonge le temps laissé au remplacement de Yo-kai."
+        "nom": "Auto-persuasion",
+        "description": "Booste les effets des grâces du lanceur."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/465.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/465.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/465.wav",
-    "oldID": "470"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/curryogi.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/curryogi.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/curryogi.wav",
+    "oldID": "474"
 }

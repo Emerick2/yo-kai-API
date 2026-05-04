@@ -1,34 +1,34 @@
 {
     "ID": "313",
-    "Nom": "Non-non",
+    "Nom": "Ornella",
     "Tribue": "Sinistre",
-    "Rang": "D",
-    "PV": "357",
-    "Force": "59",
+    "Rang": "C",
+    "PV": "372",
+    "Force": "64",
     "Esprit": "186",
-    "Défense": "97",
-    "Vitesse": "147",
-    "Description": "Trio aux gros nez qui clame toujours son innocence et nie savoir ce qui a bien pu se passer.",
-    "nourriture": "Hamburger",
-    "élément": "Restauration",
-    "Rôle": "Ranger",
+    "Défense": "83",
+    "Vitesse": "172",
+    "Description": "Ce Yo-kai est passé maître dans l'art d'effrayer les enfants à l'école. C'est son seul but dans la vie.",
+    "nourriture": "Encas",
+    "élément": "Absorption",
+    "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Les personnes qu'ils envoûtent nient tout en bloc.",
-    "personnalité": "Les Non-non nient toujours tout en bloc et adorent corriger les gens. Ils détestent être complimentés.",
+    "pouvoir": "",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/313.png",
-    "numero": "264",
-    "nourriture_favorite": "Hamburger",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/ornella.png",
+    "numero": "272",
+    "nourriture_favorite": "Encas",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Mauvais tour",
-            "effet": "Les ennemis ne peuvent plus bouger s'il est devant."
+            "nom": "Réassort",
+            "effet": "Les envoûtements négatifs sur alliés sont intensifiés."
         },
         {
             "type": "Attaque",
@@ -37,48 +37,58 @@
         },
         {
             "type": "Attaque",
-            "nom": "Restauration",
+            "nom": "Vortex",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Ha ha ha",
-            "effet": "La mauvaise foi de ce trio parvient à embrouiller l'ennemi."
+            "nom": "Sort d'ici",
+            "effet": "Un sort puissant réduit graduellement les PV de l'ennemi."
         },
         {
             "type": "Attaque",
-            "nom": "Tête de mule",
-            "effet": "Le Yo-kai doute de tout et refuse même de bouger."
+            "nom": "Vieille école",
+            "effet": "Le Yo-kai est maudit par une écoliere, ce qui baisse son ESP."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Arrête pas ! Plus !",
-        "A mangé quelque chose de fade": "Pas mal.",
-        "A mangé quelque chose de mauvais": "Pas bon ! Nan !",
-        "A la flemme": "Peux plus bouger.",
-        "Est échangé": "C'est pas si mal de se faire des amis, si on quitte",
-        "Se lie d'amitié": "On ne veut plus se battre ! On veut juste rester avec toi !"
+        "A mangé quelque chose de bon": "Hé hé !",
+        "A mangé quelque chose de fade": "Pas mal du tout !",
+        "A mangé quelque chose de mauvais": "C'est perturbant...",
+        "A la flemme": "Hé hé...",
+        "Est échangé": "Tu connais bien",
+        "Se lie d'amitié": "Tu m'as appelée ? Non ? OK... Je peux quand même venir avec toi ?"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Ornella",
+            "parent2": "Revue maudite",
+            "resultat": "Sornella",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "認MEN",
-    "nom_anglais": "Nosirs",
+    "nom_original": "花子さん",
+    "nom_anglais": "Toiletta",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
-        "japonaise": "Kazuhiro Fusegawa",
-        "francaise": "Yann Pichon"
+        "japonaise": "Ryoko Nagata",
+        "francaise": "Nathalie Bienaimé"
     },
     "localisations": {
         "ykw2": [
-            "La Corniche-Musée lac des Coloquintes(Nuit)",
-            "Salle des portails- Zone de quiz"
+            "École élémentaire- toilettes du 2e étage (ouvrir la porte du fond et s'approcher des toilettes)",
+            "Bingo-kai-Pièce mauve(Passé)"
         ],
         "ykw-Blasters": [
-            "Patrouille - La Corniche"
+            "Patrouille -Hauts de Granval",
+            "Patrouille -Quartier des boutiques"
         ],
         "ykw3": [
-            "Cawet- sous les voitures"
+            "École élémentaire - toilettes du 2e étage (ouvrir la porte du fond et s'approcher des toilettes) -Ariane"
         ]
     },
     "rarite": "Commun",
@@ -93,26 +103,26 @@
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
+                "nom": "Vortex",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Ha ha ha",
+                "nom": "Sort d'ici",
                 "puissance": "___",
-                "description": "La mauvaise foi de ce trio parvient à embrouiller l'ennemi."
+                "description": "Un sort puissant réduit graduellement les PV de l'ennemi."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Tête de mule",
+                "nom": "Vieille école",
                 "puissance": "N/A",
-                "description": "Le Yo-kai doute de tout et refuse même de bouger."
+                "description": "Le Yo-kai est maudit par une écolière, ce qui baisse son ESP."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Mauvais tour",
-                "description": "Les ennemis ne peuvent plus bouger s'il est devant."
+                "nom": "Talent : Réassort",
+                "description": "Les envoûtements négatifs des alliés sont intensifiés."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -124,32 +134,38 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Ha ha ha",
+                "nom": "Sort d'ici",
                 "puissance": "___",
-                "description": "Forte baisse temporaire de l'attaque ennemie."
+                "description": "PV des ennemis baissent rapidement."
             },
             {
                 "type": "Technique 1",
-                "nom": "Baisse défensive",
-                "puissance": "___",
-                "description": "Baisse DÉF. ennemie. Charger élargit l'effet."
+                "nom": "Vortex",
+                "puissance": "30",
+                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Démolibombe",
-                "puissance": "500",
-                "description": "Une bombe explose sur les ennemis et les alliés."
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Décharge",
+                "nom": "Position défensive",
+                "puissance": "___",
+                "description": "Hausse de la défense temporaire."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Siphon",
                 "puissance": "40",
-                "description": "Utilise un sort de foudre. Charger renforce l'effet."
+                "description": "Absorbe beaucoup de PV. Charger renforce l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Non, merci !",
-                "description": "Ne peut plus être étourdi par les attaques ennemies."
+                "nom": "Talent : Emprise",
+                "description": "Augmente le nombre de PV absorbés."
             }
         ],
         "Yo-kai Watch 3": [
@@ -161,37 +177,37 @@
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
+                "nom": "Vortex",
+                "puissance": "40|88",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Ha ha ha",
-                "puissance": "___",
-                "description": "La mauvaise foi de ce trio parvient à embrouiller l'ennemi."
+                "nom": "Sort d'ici",
+                "puissance": "70|70",
+                "description": "Maudit la colonne devant elle, baissant peu à peu leurs PV."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Tête de mule",
+                "nom": "Vieille école",
                 "puissance": "N/A",
-                "description": "Le Yo-kai doute de tout et refuse même souvent d'agir."
+                "description": "Le Yo-kai est maudit par une écolière, ce qui baisse son ESP."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Antigarde",
-                "description": "Aucun Yo-kai ne se mettra en garde."
+                "nom": "Talent : Réassort",
+                "description": "Intensifie les malédictions sur les ennemis."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Mauvais tour",
-        "description": "Les ennemis ne peuvent plus bouger s'il est devant."
+        "nom": "Réassort",
+        "description": "Les envoûtements négatifs des alliés sont intensifiés."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/313.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/313.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/313.wav",
-    "oldID": "325"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/ornella.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/ornella.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/ornella.wav",
+    "oldID": "328"
 }

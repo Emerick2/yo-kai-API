@@ -1,16 +1,16 @@
 {
     "ID": "738",
-    "Nom": "Castillusio III",
-    "Tribue": "Costaud",
-    "Rang": "C",
-    "PV": "445",
-    "Force": "118",
-    "Esprit": "80",
-    "Défense": "239",
-    "Vitesse": "64",
+    "Nom": "Komansa",
+    "Tribue": "Mignon",
+    "Rang": "D",
+    "PV": "343",
+    "Force": "40",
+    "Esprit": "190",
+    "Défense": "102",
+    "Vitesse": "160",
     "Description": "",
-    "élément": "Terre",
-    "Rôle": "Ranger",
+    "élément": "Feu",
+    "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -20,9 +20,9 @@
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/738.png",
-    "nom_original": "シッカク",
-    "nom_anglais": "Castelilose",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/komansa.png",
+    "nom_original": "ダマさん",
+    "nom_anglais": "Komasham",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -30,13 +30,13 @@
     },
     "localisations": {
         "ykw1": [
-            "Avoir volé une ligne d'arrivée de marathon."
+            "Avoir menti et blessé un ami."
         ],
         "ykw2": [
-            "A toujours reculé quand on lui demandait d'avancer."
+            "A cassé une console en voulant la réparer."
         ],
         "ykw3": [
-            "A fait du stop pour gagner un marathon."
+            "A mangé tout le glaçage sur le gâteau d'un ami."
         ]
     },
     "fusions": [],
@@ -46,58 +46,58 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
+                "nom": "Coup de poing",
                 "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Galet",
-                "puissance": "20|90",
+                "nom": "Incendie",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Autodestruction",
-                "puissance": "180|180",
-                "description": "Une explosion qui va blesser les ennemis comme les alliés."
+                "nom": "Valse des esprits",
+                "puissance": "90|90",
+                "description": "Invoque des feux follets pour attaquer l'ennemi."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Énergie bronze",
+                "nom": "Brûlure",
                 "puissance": "N/A",
-                "description": "Recouvre un allié de bronze et augmente sa DÉF."
+                "description": "Brûle un ennemi d'un feu déchaîné qui réduit régulièrement ses PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Armure de bronze",
-                "description": "Réduit les dégâts de terre et de vent."
+                "nom": "Talent : Alpha",
+                "description": "L'ESP. augmente à côté d'un Yo-kai oméga."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
+                "nom": "Coup de poing",
                 "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Galet",
-                "puissance": "20|90",
+                "nom": "Incendie",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Autodestruction",
-                "puissance": "220|220",
-                "description": "Une explosion qui va blesser les ennemis comme les alliés."
+                "nom": "Valse des esprits",
+                "puissance": "100|100",
+                "description": "Invoque des feux follets pour attaquer l'ennemi."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Énergie bronze",
+                "nom": "Brûlure",
                 "puissance": "N/A",
-                "description": "Recouvre un allié de bronze et augmente sa DÉF."
+                "description": "Brûle un ennemi d'un feu déchaîné qui réduit graduellement ses PV."
             },
             {
                 "type": "Attaque A",
@@ -107,135 +107,145 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Explosion",
+                "nom": "Incendie",
                 "puissance": "N/A",
-                "description": "Une bombe explose sur les ennemis et les alliés."
+                "description": "Un sort de feu brûle les ennemis éloignés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Armure de bronze",
-                "description": "Réduit les dégâts de terre et de vent subis."
+                "nom": "Talent : Alpha",
+                "description": "L'ESP. augmente à côté d'un Yo-kai oméga."
             }
         ],
         "Yo-kai Watch Blasters": [
             {
                 "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
             },
             {
                 "type": "Âmultime",
-                "nom": "Autodestruction",
-                "puissance": "800",
-                "description": "Attaque courte portée, gros dégâts sur tout le monde."
+                "nom": "Valse des esprits",
+                "puissance": "67×6",
+                "description": "Une flamme bleue qui inflige de gros dégâts."
             },
             {
                 "type": "Technique 1",
-                "nom": "Onde de choc",
-                "puissance": "120",
-                "description": "Saute et crée une onde de choc en retombant."
+                "nom": "Feu",
+                "puissance": "40",
+                "description": "Utilise un sort de feu. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Baisse défensive",
-                "puissance": "___",
-                "description": "Baisse DÉF. ennemie. Charger élargit l'effet."
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Sac grappin",
-                "puissance": "___",
-                "description": "Reçois un objet aléatoire, selon la chance que tu as."
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Incendie",
+                "puissance": "50",
+                "description": "Un sort de feu puissant. Charger renforce l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Armure de bronze",
-                "description": "Réduit les dégâts de la terre et du vent."
+                "nom": "Talent : Tourneboulant!",
+                "description": "Toutes les stats renforcées en cas de danger."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "20|70",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Galet",
+                "nom": "Coup de poing",
                 "puissance": "30|105",
                 "description": ""
             },
             {
+                "type": "Technique",
+                "nom": "Incendie",
+                "puissance": "50|110",
+                "description": ""
+            },
+            {
                 "type": "Amultime",
-                "nom": "Autodestruction",
-                "puissance": "180|400",
-                "description": "Une explosion qui va blesser les ennemis comme les alliés."
+                "nom": "Valse des esprits",
+                "puissance": "100|300",
+                "description": "Invoque des feux follets pour attaquer les ennemis à portée."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Énergie bronze",
+                "nom": "Brûlure",
                 "puissance": "N/A",
-                "description": "Recouvre un allié de bronze et augmente sa DÉF."
+                "description": "Attaque l'ennemi à coup de flammes pour diminuer ses PV."
             },
             {
                 "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Attaque trois fois. Le coup ultime est plus puissant."
             },
             {
                 "type": "Âmultime",
-                "nom": "Autodestruction",
-                "puissance": "800",
-                "description": "Dégâts +++ aux Yo-kai proches. Blesse le lanceur."
+                "nom": "Valse des esprits",
+                "puissance": "66×6",
+                "description": "Flammes bleues brûlant les ennemis. Dégâts élevés."
             },
             {
                 "type": "Attaque X",
-                "nom": "Onde de choc",
-                "puissance": "120",
-                "description": "Saute en hauteur et frappe le sol d’une onde de choc."
+                "nom": "Feu",
+                "puissance": "40",
+                "description": "Technique de feu+. Plus de dégâts si chargée."
             },
             {
                 "type": "Attaque Y",
-                "nom": "Baisse défensive",
-                "puissance": "___",
-                "description": "Réduit + DÉF. ennemie. Plus de portée si chargé."
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. PV rendus + si chargé."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Armure de bronze",
-                "description": "Réduit les dégâts de terre et de vent subis."
+                "nom": "Talent : Alpha",
+                "description": "Augmente l'ESP. quand relié au talent «Oméga»."
             }
         ]
     },
-    "soul_effects": null,
+    "soul_effects": {
+        "Yo-kai Watch 2": "VIT+ 20",
+        "Yo-kai Watch Blasters": "Faible hausse de toutes les stats en cas de danger.",
+        "Yo-kai Watch 3": "La jauge d'âme du lanceur se charge plus vite."
+    },
     "drops": {
         "YW1": [
             {
                 "taux": "?%",
-                "objet": "La défense de A à Z"
+                "objet": "Amulette antifeu"
             },
             {
                 "taux": "?%",
-                "objet": "Poupée de bronze"
+                "objet": "Thé de l'âme"
             }
         ],
         "YW2": [
             {
                 "taux": "?%",
-                "objet": "Amulette protectrice"
+                "objet": "Badge mignon"
             },
             {
                 "taux": "?%",
-                "objet": "Poupée de bronze"
+                "objet": "Thé de l'âme"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Poupée de bronze"
+                "objet": "Glace (nourriture)"
             },
             {
                 "taux": "?%",
@@ -244,48 +254,48 @@
         ]
     },
     "special_talent": {
-        "nom": "Armure de bronze",
-        "description": "Réduit les dégâts de terre et de vent."
+        "nom": "Alpha",
+        "description": "L'ESP. augmente à côté d'un Yo-kai oméga."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/738.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/738.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/738.wav",
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/komansa.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/komansa.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/komansa.wav",
     "nourriture": "Lait",
-    "nourriture_favorite": "Lait",
+    "nourriture_favorite": "Glace",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Armure bronze",
-            "effet": "Réduit les dégâts de terre et de vent subis."
+            "nom": "Alpha",
+            "effet": "L'ESP. augmente à côté d'un Yo-kai oméga."
         },
         {
             "type": "Attaque",
-            "nom": "Plaquage absolu",
+            "nom": "Coup de poing",
             "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Galet",
-            "effet": "20 | 90"
+            "nom": "Incendie",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Autodestruction",
-            "effet": "Une explosion qui va blesser les ennemis comme les alliés. 220 | 220"
+            "nom": "Valse des esprits",
+            "effet": "Invoque des feux follets pour attaquer l'ennemi. 100 | 100"
         },
         {
             "type": "Attaque",
-            "nom": "Énergie bronze",
-            "effet": "Recouvre un allié de bronze et augmente sa DÉF."
+            "nom": "Brûlure",
+            "effet": "Harasse l'ennemi à coup de flammes et aspire graduellement ses PV."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Mmh, c'est bon...",
-        "Mange de la nourriture insipide": "Ça va.",
-        "Mange de la mauvaise nourriture": "Pitoyable...",
-        "A la flemme": "Euh...",
-        "Est échangé": "J'ai un talent pour propulser mes amis à la troisième place ! Hourra !",
-        "Devient ton ami": "Un Yo-kai de troisième rang tel que moi n'a aucune chance face à ton talent !"
+        "Mange de la bonne nourriture": "C'est tourneboulant !",
+        "Mange de la nourriture insipide": "J'ai connu mieux.",
+        "Mange de la mauvaise nourriture": "Dégoûtant !",
+        "A la flemme": "J'ai peur...",
+        "Est échangé": "Dis, tu m'hébergerais quelques temps ? J'habitais chez",
+        "Devient ton ami": "Quelle force... Je veux faire partie de ton équipe !"
     },
-    "oldID": "744"
+    "oldID": "750"
 }

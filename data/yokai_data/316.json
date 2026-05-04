@@ -1,17 +1,17 @@
 {
     "ID": "316",
-    "Nom": "Adolfo Jeton",
+    "Nom": "Babarouf",
     "Tribue": "Sinistre",
-    "Rang": "C",
-    "PV": "352",
-    "Force": "189",
-    "Esprit": "117",
-    "Défense": "65",
-    "Vitesse": "157",
-    "Description": "Ce personnage fuyant a toujours de bonnes excuses pour s'éviter les reproches qu'on pourrait lui faire.",
-    "nourriture": "Fruits de Mer",
-    "élément": "Vent",
-    "Rôle": "Ranger",
+    "Rang": "B",
+    "PV": "344",
+    "Force": "148",
+    "Esprit": "68",
+    "Défense": "63",
+    "Vitesse": "225",
+    "Description": "Il aime par-dessus tout faire vrombir le moteur de sa moto volée et déranger tout le monde.",
+    "nourriture": "Curry",
+    "élément": "Glace",
+    "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,67 +21,73 @@
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/316.png",
-    "numero": "269",
-    "nourriture_favorite": "Fruit de mer",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/babarouf.png",
+    "numero": "255",
+    "nourriture_favorite": "Curry",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Âmunisé",
-            "effet": "Les Âmultimes seront esquivées."
+            "nom": "Décibel",
+            "effet": "Les envoûtements infligent plus de dégâts aux Yo-kai."
         },
         {
             "type": "Attaque",
-            "nom": "Plaquage absolu",
-            "effet": "15 | 67"
+            "nom": "Plaquage",
+            "effet": "60 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Tornade",
+            "nom": "Gel",
             "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Tortillon",
-            "effet": "Remue bizarrement pour réduire toutes les stats ennemies."
+            "nom": "Bombe de basses",
+            "effet": "Un bruit retentissant réduit graduellement les PV de l'ennemi."
         },
         {
             "type": "Attaque",
-            "nom": "Dérobade",
-            "effet": "Le Yo-kai devient fainéant et ne veut plus rien faire."
+            "nom": "Vroum vroum",
+            "effet": "Le Yo-kai a les oreilles qui sifflent à cause d'une explosion et perd des PV."
         }
     ],
     "phrases_nourriture": {
-        "A mangé quelque chose de bon": "Délicieux.",
-        "A mangé quelque chose de fade": "Ennuyeux...",
-        "A mangé quelque chose de mauvais": "C'est... Beurk !",
-        "A la flemme": "Hmm...",
-        "Est échangé": "Eh bien, je suis ici mais... pas pour longtemps. J'ai des choses à faire...",
-        "Se lie d'amitié": "Oooh, que faire... J'imagine qu'on peut devenir amis !"
+        "A mangé quelque chose de bon": "C'est vivifiant !",
+        "A mangé quelque chose de fade": "C'est moyen !",
+        "A mangé quelque chose de mauvais": "Pfff ! Non merci.",
+        "A la flemme": "Je dois... dormir...",
+        "Est échangé": "*klaxonne* Allez, grimpe !",
+        "Se lie d'amitié": "Quel joli son tu fais... j'en suis tout retourné. Je veux être ton pote !"
     },
     "evolutions": [],
-    "fusions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Zikafon",
+            "parent2": "Assourdisseur",
+            "resultat": "Babarouf",
+            "critere": "➨"
+        }
+    ],
     "image_locale": "",
-    "nom_original": "のらりくらり",
-    "nom_anglais": "Ben Tover",
+    "nom_original": "爆音ならし",
+    "nom_anglais": "Rawry",
     "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "francaise": "Caroline Combes"
     },
     "localisations": {
         "ykw2": [
-            "San Fantastico-Grotte du littoral",
-            "Tunnel sans fin",
-            "Limbes éternelles- 4e cercle",
-            "Limbes éternelles - 5e cercle",
-            "Mont de l'Ours(Passé)"
+            "Fusion"
         ],
         "ykw-Blasters": [
-            "Patrouilles - San Fantastico"
+            "Fusion",
+            "Patrouille -Centre-ville"
         ],
         "ykw3": [
-            "Quartier des boutiques- sous les voitures"
+            "Fusion"
         ]
     },
     "rarite": "Commun",
@@ -90,32 +96,32 @@
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "15|67",
+                "nom": "Plaquage",
+                "puissance": "60|90",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Tornade",
+                "nom": "Gel",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Tortillon",
+                "nom": "Bombe de basses",
                 "puissance": "___",
-                "description": "Remue bizarrement pour réduire toutes les stats ennemies."
+                "description": "Un bruit retentissant réduit graduellement les PV de l'ennemi."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Dérobade",
+                "nom": "Vroum vroum",
                 "puissance": "N/A",
-                "description": "Le Yo-kai devient fainéant et ne veut plus rien faire."
+                "description": "Le Yo-kai a les oreilles qui sifflent à cause d'une explosion et perd des PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Âmunisé",
-                "description": "Les Âmultimes seront esquivées."
+                "nom": "Talent : Décibel",
+                "description": "Les envoûtements infligent plus de dégâts aux Yo-kai."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -127,74 +133,74 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Tortillon",
+                "nom": "Bombe de basses",
                 "puissance": "___",
-                "description": "Forte baisse temporaire des stats ennemies."
+                "description": "PV des ennemis baissent rapidement."
             },
             {
                 "type": "Technique 1",
-                "nom": "Baisse de vitesse +",
-                "puissance": "___",
-                "description": "Forte baisse VIT. ennemie. Charger élargit l'effet."
+                "nom": "Attaque précipitée",
+                "puissance": "80",
+                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
             },
             {
                 "type": "Technique 2",
-                "nom": "Piège",
+                "nom": "Envoût. poison",
                 "puissance": "___",
-                "description": "Peut engourdir un ennemi s'il marche dessus."
+                "description": "Baisse lente PV ennemis. Charger élargit l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Tourbillon",
+                "nom": "Grêle",
                 "puissance": "40",
-                "description": "Utilise un sort de vent. Charger renforce l'effet."
+                "description": "Utilise un sort de glace. Charger renforce l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Vermisseau",
-                "description": "Esquive parfois les attaques ennemies."
+                "nom": "Talent : À la charge",
+                "description": "Accélère le temps de chargement de l'attaque."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "20|70",
+                "nom": "Plaquage",
+                "puissance": "35|77",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Tornade",
+                "nom": "Gel",
                 "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Tortillon",
+                "nom": "Bombe de basses",
                 "puissance": "___",
-                "description": "Donne la nausée aux cibles en se contorsionnant, baissant leurs stats."
+                "description": "Tous les ennemis perdent peu à peu leurs PV à cause de ses enceintes !"
             },
             {
                 "type": "Envoûtement",
-                "nom": "Dérobade",
+                "nom": "Vroum vroum",
                 "puissance": "N/A",
-                "description": "Le Yo-kai devient fainéant et ne veut plus rien faire."
+                "description": "Le Yo-kai a les oreilles qui sifflent à cause d'une explosion et perd des PV."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Âmunisé",
-                "description": "Les Âmultimes seront esquivées."
+                "nom": "Talent : Décibel",
+                "description": "Tous les Yo-kai subissent plus de dégâts si envoûtés."
             }
         ]
     },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Âmunisé",
-        "description": "Les Âmultimes seront esquivées."
+        "nom": "Décibel",
+        "description": "Les envoûtements infligent plus de dégâts aux Yo-kai."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/316.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/316.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/316.wav",
-    "oldID": "329"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/babarouf.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/babarouf.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/babarouf.wav",
+    "oldID": "332"
 }

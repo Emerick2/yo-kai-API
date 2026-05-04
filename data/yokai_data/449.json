@@ -1,29 +1,78 @@
 {
     "ID": "449",
-    "Nom": "Chagellan",
+    "Nom": "Superfouétar",
     "Tribue": "Vaillant",
     "Rang": "S",
-    "PV": "447",
-    "Force": "216",
-    "Esprit": "77",
-    "Défense": "151",
-    "Vitesse": "183",
-    "Description": "Un Yo-kai légendaire venu de la période des grandes découvertes. Toujours à la recherche de terres à explorer.",
-    "nourriture": "Pâtes",
-    "élément": "Eau",
+    "PV": "443",
+    "Force": "401",
+    "Esprit": "143",
+    "Défense": "108",
+    "Vitesse": "100",
+    "Description": "Le masque de Fouétar est tombé. Il attaque désormais tous les enfants, sages ou pas sages.",
+    "nourriture": "Viande",
+    "élément": "Glace",
     "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Chagellan vient de chat, petit félin souvent domestique et de Magellan, Fernand de Magellan, explorateur portuguais de l'époque des Grandes découvertes.",
+    "étimologie": "Superfouétar vient de Super et de Fouétar.",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Il peut créer des vagues pour envoyer valser les ennemis.",
-    "personnalité": "Il est passionné par les découvertes, mais est plutôt arrogant par moments.",
+    "pouvoir": "",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/449.png",
-    "nom_original": "コロンブス",
-    "nom_anglais": "Columbakat",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/superfouetar.png",
+    "numero": "016",
+    "nourriture_favorite": "Viande",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Œillères",
+            "effet": "Attaque seulement les Yo-kai en face de lui."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Taillade éclair",
+            "effet": "20x3 | 44x3"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Gel",
+            "effet": "50 | 110"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Fête peur",
+            "effet": "S'acharne sur la colonne devant lui et couvre les cases de lave ! 95 | 95"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Détecte-faiblesse",
+            "effet": "Expose aux yeux de tous la faiblesse d'un ennemi. Sa DÉF. baisse."
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "Affirmatif.",
+        "A mangé quelque chose de fade": "Oooh...",
+        "A mangé quelque chose de mauvais": "J'aurai ma revanche !",
+        "A la flemme": "Dodo...",
+        "Se lie d'amitié": "MOUAHAHA ! QUELLE FORCE ! C'EST BIEN ! AMIS ?",
+        "Est échangé": "MOUAHAHAHA ! NOUS AMIS ? MOI TOUT DÉCOUPER !"
+    },
+    "evolutions": [],
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Fouétar",
+            "parent2": "Perle Périlleuse",
+            "resultat": "Superfouétar",
+            "critere": "➨"
+        }
+    ],
+    "image_locale": "",
+    "nom_original": "なまなまはげ",
+    "nom_anglais": "Brutle",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
@@ -31,16 +80,10 @@
     },
     "localisations": {
         "ykw3": [
-            "1. Rendez-vous à l'école primaire deCajounet allez lire la biographie de Chagellan à la bibliothèque de l'aile est.",
-            "2. Lisez le livre cinq fois. Vous ne pouvez lire qu'un chapitre par jour (temps réel)",
-            "3. Chagellan apparaîtra auport de Pacaneet peut être combattu une fois par jour."
-        ],
-        "Yo-kai Watch : Wibble Wobble :[]": [
-            "Bingo-kai oni- Obtenir laBiographie de Chagellanau Bingo-kai pour pouvoir l'affronter."
+            "Il est possible de l'obtenir enfusionnantFouétaravec laPerle Périlleuse."
         ]
     },
-    "fusions": [],
-    "rarite": "Yo-kai Pionniers",
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
     "soul_effects": null,
@@ -48,20 +91,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Poupée d'argent"
+                "objet": "Éclat de pièce 1 étoile"
             },
             {
                 "taux": "?%",
-                "objet": "Pâtes fruits de mer"
+                "objet": "Bœuf persillé"
             }
         ]
     },
     "special_talent": {
-        "nom": "Vent dans les voiles",
-        "description": "Booste un peu la VIT. des Yo-kai reliés."
+        "nom": "Œillères",
+        "description": "Attaque seulement les Yo-kai en face de lui."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/449.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/449.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/449.wav",
-    "oldID": "454"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/superfouetar.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/superfouetar.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/superfouetar.wav",
+    "oldID": "458"
 }

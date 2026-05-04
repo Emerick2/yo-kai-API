@@ -1,16 +1,16 @@
 {
     "ID": "752",
-    "Nom": "Papilmitation",
-    "Tribue": "Bienveillant",
-    "Rang": "D",
-    "PV": "291",
-    "Force": "58",
-    "Esprit": "186",
-    "Défense": "117",
-    "Vitesse": "139",
+    "Nom": "Loubarbant",
+    "Tribue": "Costaud",
+    "Rang": "E",
+    "PV": "388",
+    "Force": "121",
+    "Esprit": "46",
+    "Défense": "189",
+    "Vitesse": "86",
     "Description": "",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
+    "élément": "Terre",
+    "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -20,9 +20,9 @@
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/752.png",
-    "nom_original": "絶不蝶",
-    "nom_anglais": "Enofly",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/loubarbant.png",
+    "nom_original": "ブレルりん",
+    "nom_anglais": "Roughraffony",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -30,13 +30,13 @@
     },
     "localisations": {
         "ykw1": [
-            "Avoir donné des rhumes à tout le monde."
+            "Être incapable de savoir quoi manger pour le petit déjeuner."
         ],
         "ykw2": [
-            "A donné un mal de ventre à quelqu'un avec sa cuisine."
+            "A pris toute la journée pour commander au restaurant."
         ],
         "ykw3": [
-            "A séché les cours pour jouer à son nouveau jeu vidéo."
+            "A joué à la balle au prisonnier en plein match de basket."
         ]
     },
     "fusions": [],
@@ -46,77 +46,89 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
+                "nom": "Coup de tête",
+                "puissance": "55|121",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Guérison",
+                "nom": "Galet",
                 "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Brise revigorante",
-                "puissance": "60|157",
-                "description": "Produit un vent énergisant qui restaure les PV des alliés."
+                "nom": "Gros dur",
+                "puissance": "30|30",
+                "description": "Regarde ses ennemis et réduit leur VIT."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Stimulation",
+                "nom": "Âme de rebelle",
                 "puissance": "N/A",
-                "description": "Revigore un allié et augmente toutes ses stats."
+                "description": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Écailles miracles",
-                "description": "Immunisé contre les envoûtements ennemis."
+                "nom": "Talent : Revanche",
+                "description": "Renvoie à l'ennemi une partie de ses dégâts."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
+                "nom": "Coup de tête",
+                "puissance": "55|121",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Guérison",
+                "nom": "Galet",
                 "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Brise revigorante",
-                "puissance": "60|157",
-                "description": "Produit un vent énergisant qui restaure les PV des alliés."
+                "nom": "Gros dur",
+                "puissance": "30|30",
+                "description": "Regarde ses ennemis et réduit leur VIT."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Stimulation",
+                "nom": "Âme de rebelle",
                 "puissance": "N/A",
-                "description": "Revigore un allié et augmente ses stats."
+                "description": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
+            },
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "N/A",
+                "description": "Déclenche une attaque à courte portée."
+            },
+            {
+                "type": "Attaque X",
+                "nom": "Attaque à bloc",
+                "puissance": "N/A",
+                "description": "Déclenche une forte attaque à courte portée."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Écailles miracles",
-                "description": "Immunisé contre les envoûtements ennemis."
+                "nom": "Talent : Revanche",
+                "description": "Renvoie à l'ennemi une partie de ses dégâts."
             }
         ],
         "Yo-kai Watch Blasters": [
             {
                 "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
             },
             {
                 "type": "Âmultime",
-                "nom": "Brise revigorante",
-                "puissance": "400",
-                "description": "Alliés retrouvent beaucoup de PV."
+                "nom": "Gros dur",
+                "puissance": "250",
+                "description": "Baisse temporaire de la VIT. des ennemis."
             },
             {
                 "type": "Technique 1",
@@ -126,105 +138,160 @@
             },
             {
                 "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
+                "nom": "Galet",
+                "puissance": "40",
+                "description": "Utilise un sort de terre. Charger renforce l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Cercle guérisseur",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
+                "nom": "Âmunisé",
+                "puissance": "___",
+                "description": "Esquive rapidement l'attaque ennemie."
             },
             {
                 "type": "Technique à acquérir 2",
-                "nom": "Envoût. multi-boost",
+                "nom": "Position offensive",
                 "puissance": "___",
-                "description": "Hausse des stats alliées. Charger élargit l'effet."
+                "description": "Hausse de l'attaque temporaire."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Écailles miracle",
-                "description": "Immunité contre les effets d'envoûtements négatifs."
+                "nom": "Talent : Finisseur",
+                "description": "Augmente dégâts sur tous les ennemis en danger."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
+                "nom": "Coup de tête",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Restauration",
+                "nom": "Galet",
                 "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Brise revigorante",
-                "puissance": "60|157",
-                "description": "Produit un vent énergisant qui restaure les PV des alliés."
+                "nom": "Gros dur",
+                "puissance": "46|46",
+                "description": "Lance un regard terrible sur la colonne devant lui. Baisse fortement la VIT."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Stimulation",
+                "nom": "Âme de rebelle",
                 "puissance": "N/A",
-                "description": "Revigore un allié et augmente ses stats."
+                "description": "L'ennemi se rebelle et sa DÉF. diminue."
+            },
+            {
+                "type": "Attaque A",
+                "nom": "Triple attaque",
+                "puissance": "30",
+                "description": "Attaque trois fois. Le coup ultime est plus puissant."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Gros dur",
+                "puissance": "250",
+                "description": "Attaque et réduit un instant la VIT. de l'ennemi."
+            },
+            {
+                "type": "Attaque X",
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque l’ennemi avec une attaque féroce."
+            },
+            {
+                "type": "Attaque Y",
+                "nom": "Position offensive",
+                "puissance": "___",
+                "description": "Booste temporairement l’attaque."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Écailles miracles",
-                "description": "Immunisé contre les envoûtements ennemis."
+                "nom": "Talent : Banane",
+                "description": "Esquivera les coups de tête ennemis."
             }
         ]
     },
     "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Écailles miracles",
-        "description": "Immunisé contre les envoûtements ennemis."
+    "drops": {
+        "YW1": [
+            {
+                "taux": "?%",
+                "objet": "Pensez Karaté"
+            },
+            {
+                "taux": "?%",
+                "objet": "Petit EXPorbe"
+            }
+        ],
+        "YW2": [
+            {
+                "taux": "?%",
+                "objet": "Amulette protectrice"
+            },
+            {
+                "taux": "?%",
+                "objet": "Hamburger"
+            }
+        ],
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "La défense de A à Z"
+            },
+            {
+                "taux": "?%",
+                "objet": "Ramen minute"
+            }
+        ]
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/752.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/752.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/752.wav",
-    "nourriture": "Jus",
-    "nourriture_favorite": "Boisson",
+    "special_talent": {
+        "nom": "Revanche",
+        "description": "Renvoie à l'ennemi une partie de ses dégâts."
+    },
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/loubarbant.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/loubarbant.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/loubarbant.wav",
+    "nourriture": "Ramen",
+    "nourriture_favorite": "Ramen",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Écailles miracle",
-            "effet": "Immunisé contre les envoûtements ennemis."
+            "nom": "Revanche",
+            "effet": "Renvoie à l'ennemi une partie de ses dégâts."
         },
         {
             "type": "Attaque",
-            "nom": "Gifle",
-            "effet": "10 | 45"
+            "nom": "Coup de tête",
+            "effet": "55 | 121"
         },
         {
             "type": "Attaque",
-            "nom": "Guérison",
+            "nom": "Galet",
             "effet": "20 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Brise revigorante",
-            "effet": "Produit un vent énergisant qui restaure les PV des alliés. 60 | 157"
+            "nom": "Gros dur",
+            "effet": "Regarde ses ennemis et réduit leur VIT. 30 | 30"
         },
         {
             "type": "Attaque",
-            "nom": "Stimulation",
-            "effet": "Revigore un allié et augmente ses stats."
+            "nom": "Âme de rebelle",
+            "effet": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Je pète la forme !",
-        "Mange de la nourriture insipide": "Un peu d'énergie.",
-        "Mange de la mauvaise nourriture": "C'est fade...",
-        "A la flemme": "Plus d'énergie.",
-        "Est échangé": "Maintenant qu'on est amis, tous tes problèmes vont s'envoler.",
-        "Devient ton ami": "Tu as de l'énergie à revendre ! J'en ai plus si tu veux."
+        "Mange de la bonne nourriture": "Mouais, pas mal.",
+        "Mange de la nourriture insipide": "Tout pour tous ?",
+        "Mange de la mauvaise nourriture": "Arrête le carnage.",
+        "A la flemme": "J'ai mal...",
+        "Est échangé": "C'est donc ici ma nouvelle maison ? Ah. On va bien s'amuser, toi et moi.",
+        "Devient ton ami": "Tu aimes jouer au voyou hein ? Moi aussi, ça tombe bien ! Devenons amis !"
     },
-    "oldID": "758"
+    "oldID": "764"
 }

@@ -1,17 +1,16 @@
 {
     "ID": "716",
-    "Nom": "Néfertyrannie",
-    "Tribue": "Mignon",
-    "Rang": "S",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "Ceux qui tombent sous le charme de ce Yo-kai sont prêts à tout pour elle.",
-    "nourriture": "Légumes",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
+    "Nom": "Suimoche",
+    "Tribue": "Vaillant",
+    "Rang": "D",
+    "PV": "382",
+    "Force": "210",
+    "Esprit": "75",
+    "Défense": "142",
+    "Vitesse": "40",
+    "Description": "",
+    "élément": "Terre",
+    "Rôle": "Tank",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -21,68 +20,105 @@
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/716.png",
-    "nom_original": "クレクレパトラ",
-    "nom_anglais": "Meopatra",
-    "premiere_apparition": "",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/suimoche.png",
+    "nom_original": "くされモチ",
+    "nom_anglais": "Mochisless",
+    "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw3": [
-            "Blasters T- Jardin Suspendu - Néfertyrannie",
-            "Bingo-kai/Roue Rêve-Pièce de trésor- 1er Prix"
+        "ykw1": [
+            "Avoir caché un piège dans la cantine scolaire."
         ],
-        "Yo-kai Watch : Wibble Wobble[]": [
-            "Stage Secret :Événement - Idol Royal , En direct du feu de camp de la mort",
-            "Événement - Idol Royal , En direct du feu de camp de la mort"
+        "ykw2": [
+            "A laissé le lait sorti pour en faire du yaourt et l'a oublié."
+        ],
+        "ykw3": [
+            "S'est servi d'un gâteau comme haltère au lieu de le manger."
         ]
     },
     "fusions": [],
-    "rarite": "Trésor Icône",
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "Yo-kai Watch 3": [
+    "attaques_par_jeu": {},
+    "soul_effects": null,
+    "drops": {
+        "YW1": [
             {
-                "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "15×2|52×2",
-                "description": ""
+                "taux": "5%",
+                "objet": "Vivez Karaté"
             },
             {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "70|112",
-                "description": ""
+                "taux": "35%",
+                "objet": "Staminum"
+            }
+        ],
+        "YW2": [
+            {
+                "taux": "6%",
+                "objet": "Vivez Karaté"
             },
             {
-                "type": "Amultime",
-                "nom": "Attention touchante",
-                "puissance": "100|200",
-                "description": "Contraint les ennemis à portée à donner leurs PV et partager avec les alliés."
+                "taux": "40%",
+                "objet": "Staminum"
+            }
+        ],
+        "YW3": [
+            {
+                "taux": "4%",
+                "objet": "Vivez Karaté"
             },
             {
-                "type": "Envoûtement",
-                "nom": "Traîtrise du sphinx",
-                "puissance": "N/A",
-                "description": "L'ennemi veut ce que ses alliés ont. Il se met à les attaquer."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Extorsion",
-                "description": "Vole un objet à chaque attaque."
+                "taux": "14%",
+                "objet": "Riz à la prune"
             }
         ]
     },
-    "soul_effects": null,
-    "drops": {},
     "special_talent": {
-        "nom": "Extorsion",
-        "description": "Vole un objet à chaque attaque."
+        "nom": "Peau rebondie",
+        "description": "Augmente sa défense si gros dégâts reçus."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/716.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/716.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/716.wav",
-    "oldID": "722"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/suimoche.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/suimoche.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/suimoche.wav",
+    "nourriture": "Riz",
+    "nourriture_favorite": "Riz",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Peau rebondie",
+            "effet": "Augmente sa défense si gros dégâts reçus."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Poing puissant",
+            "effet": "50 | 110"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Feu",
+            "effet": "20 | 90"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Poing minochi",
+            "effet": "Gonfle et donne un vilain coup de poing à un adversaire. 120 | 180"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Jalousie",
+            "effet": "L'ennemi devient si jaloux de ses alliés qu'il a envie de les attaquer."
+        }
+    ],
+    "phrases_nourriture": {
+        "Mange de la bonne nourriture": "Je suis plus fort !",
+        "Mange de la nourriture insipide": "Ça devrait aller.",
+        "Mange de la mauvaise nourriture": "Enlevez-moi ça !",
+        "A la flemme": "Je suis fatigué.",
+        "Est échangé": "Amis ? Sans problème ! Maintenant, ce ne sera que toi et moi.",
+        "Devient ton ami": "Tu es tellement incroyable, c'est pas juste ! On ferait mieux de devenir amis !"
+    },
+    "oldID": "728"
 }

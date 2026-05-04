@@ -1,16 +1,16 @@
 {
     "ID": "743",
-    "Nom": "Appakotille",
-    "Tribue": "Mignon",
-    "Rang": "A",
-    "PV": "392",
-    "Force": "60",
-    "Esprit": "213",
-    "Défense": "130",
-    "Vitesse": "182",
+    "Nom": "Granpapetit",
+    "Tribue": "Bienveillant",
+    "Rang": "B",
+    "PV": "301",
+    "Force": "49",
+    "Esprit": "241",
+    "Défense": "117",
+    "Vitesse": "174",
     "Description": "",
-    "élément": "Eau",
-    "Rôle": "Combattant",
+    "élément": "Restauration",
+    "Rôle": "Guérisseur",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -20,280 +20,208 @@
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/743.png",
-    "nom_original": "じゃまガッパ",
-    "nom_anglais": "Pakka",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/granpapetit.png",
+    "numero": "Inconnu",
+    "nourriture_favorite": "Inconnue",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Dernière prière",
+            "effet": "Rend des PV aux Yo-kai de devant s'il est battu."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Coup de boule",
+            "effet": "15 | 67"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Restauration",
+            "effet": "50 | 110"
+        },
+        {
+            "type": "Attaque",
+            "nom": "En-cas de besoin",
+            "effet": "Restaure les PV de ses alliés avec un florilège de riz. 150 | 150"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Riz gentil",
+            "effet": "Restaure peu à peu les PV d'un allié avec du bon riz !"
+        }
+    ],
+    "phrases_nourriture": {
+        "Mange de la bonne nourriture": "Le riz, c'est la vie.",
+        "Mange de la nourriture insipide": "Oh... merci.",
+        "Mange de la mauvaise nourriture": "Ça suffira.",
+        "A la flemme": "Trop fatigué...",
+        "Est échangé": "Hum... Tu as faim ? Veux-tu un peu de riz ?",
+        "Devient ton ami": "Sais-tu que je facilite aisément la digestion de mes amis ?"
+    },
+    "evolutions": [],
+    "fusions": [],
+    "image_locale": "",
+    "nom_original": "ニセノコ",
+    "nom_anglais": "Fullgramps",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw1": [],
+        "ykw1": [
+            "Avoir dessiné des moustaches sur toutes les images de tout les manuels."
+        ],
         "ykw2": [
-            "A visé des passants en tirant avec un élastique."
+            "A frimé en faisant des abdos et s'est fait mal."
         ],
         "ykw3": [
-            "A appuyé sur les 555 boutons d'un ascenseur plein à craquer."
+            "A trempé sa main dans le WC et s'est essuyé sur quelqu'un."
         ]
     },
-    "fusions": [],
     "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Double coupure",
-                "puissance": "18×2|39×2",
+                "nom": "Coup de boule",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Cascade",
-                "puissance": "80|120",
+                "nom": "Guérison",
+                "puissance": "20|90",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Lame de fond",
-                "puissance": "130|195",
-                "description": "Concentre son esprit dans son épée d'eau pour tailler l'ennemi."
+                "nom": "En-cas de besoin",
+                "puissance": "150|150",
+                "description": "Restaure les PV de ses alliés avec un florilège de riz."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Force du surf",
+                "nom": "Riz gentil",
                 "puissance": "N/A",
-                "description": "Rend un allié si rapide qu'il a l'air de surfer."
+                "description": "Restaure les PV d'un allié avec du bon riz !"
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Intrusion",
-                "description": "Inflige toujours des dégâts élémentaires."
+                "nom": "Talent : Dernière prière",
+                "description": "Rend des PV aux Yo-kai de devant s'il est battu."
             }
         ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Double coupure",
-                "puissance": "18×2|39×2",
+                "nom": "Coup de boule",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Cascade",
-                "puissance": "80|120",
+                "nom": "Restauration",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Lame de fond",
-                "puissance": "135|202",
-                "description": "Concentre son esprit dans son épée d'eau pour tailler l'ennemi."
+                "nom": "En-cas de besoin",
+                "puissance": "150|150",
+                "description": "Restaure les PV de ses alliés avec un florilège de riz."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Force du surf",
+                "nom": "Riz gentil",
                 "puissance": "N/A",
-                "description": "Rend un allié si rapide qu'il a l'air de surfer."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Rapides",
-                "puissance": "N/A",
-                "description": "Un torrent déferle sur les ennemis éloignés."
+                "description": "Restaure peu à peu les PV d'un allié avec du bon riz."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Intrusion",
-                "description": "Inflige toujours des dégâts élémentaires."
+                "nom": "Talent : Dernière prière",
+                "description": "Rend des PV aux Yo-kai de devant s'il est battu."
             }
         ],
         "Yo-kai Watch Blasters": [
             {
                 "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
             },
             {
                 "type": "Âmultime",
-                "nom": "Lame de fond",
-                "puissance": "50×8",
-                "description": "Une cascade inflige de gros dégâts aux ennemis."
+                "nom": "En-cas de besoin",
+                "puissance": "400",
+                "description": "Alliés retrouvent beaucoup de PV."
             },
             {
                 "type": "Technique 1",
-                "nom": "Torrent",
-                "puissance": "40",
-                "description": "Utilise un sort d'eau. Charger renforce l'effet."
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
             },
             {
                 "type": "Technique 2",
-                "nom": "Position de rapidité",
-                "puissance": "___",
-                "description": "Hausse de la vitesse temporaire."
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
+                "nom": "Cercle de guérison",
                 "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Rapides",
-                "puissance": "50",
-                "description": "Un sort d'eau puissant. Charger renforce l'effet."
+                "description": "Crée un champ où les PV alliés peuvent se restaurer."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Intrusion",
-                "description": "Inflige dégâts peu importe les éléments forts des ennemis."
+                "nom": "Talent : Riz-suscitation",
+                "description": "Restaure l'allié plus vite."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Double coupure",
-                "puissance": "25×2|55×2",
+                "nom": "Coup de boule",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Cascade",
-                "puissance": "70|112",
+                "nom": "Restauration",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Lame de fond",
-                "puissance": "200|300",
-                "description": "Se concentre sur son épée d'eau pour attaquer les ennemis à portée."
+                "nom": "En-cas de besoin",
+                "puissance": "90|180",
+                "description": "Restaure les PV de ses alliés, avec un festin de boulettes de riz savoureuses."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Force du surf",
+                "nom": "Riz gentil",
                 "puissance": "N/A",
-                "description": "Rend un allié si rapide qu'il a l'air de surfer."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Attaque trois fois. Le coup ultime est plus puissant."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Lame de fond",
-                "puissance": "50×8",
-                "description": "Dégâts ++ sur les ennemis écrasés par la cascade."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Rapides",
-                "puissance": "50",
-                "description": "Technique d'eau++. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Position de rapidité",
-                "puissance": "___",
-                "description": "Booste temporairement la VIT."
+                "description": "Restaure peu à peu les PV d'un allié avec du bon riz !"
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Célérité",
-                "description": "Susceptible d'infliger des coups critiques."
+                "nom": "Talent : Dernière prière",
+                "description": "Restaure les PV de tous les alliés, quand il est battu."
             }
         ]
     },
-    "soul_effects": {
-        "Yo-kai Watch 2": "Réduit beaucoup les dégâts d’attaques d’eau subis.",
-        "Yo-kai Watch Blasters": "Réduit les dégâts de l’eau.",
-        "Yo-kai Watch 3": "↑ les chances d’infliger des coups critiques."
-    },
-    "drops": {
-        "YW1": [
-            {
-                "taux": "?%",
-                "objet": "Anneau de l'eau"
-            },
-            {
-                "taux": "?%",
-                "objet": "Concombre"
-            }
-        ],
-        "YW2": [
-            {
-                "taux": "?%",
-                "objet": "Gourde sans fond"
-            },
-            {
-                "taux": "?%",
-                "objet": "Maki concombre"
-            }
-        ],
-        "YW3": [
-            {
-                "taux": "?%",
-                "objet": "Gourde sans fond"
-            },
-            {
-                "taux": "?%",
-                "objet": "Maki concombre"
-            }
-        ]
-    },
+    "soul_effects": null,
+    "drops": {},
     "special_talent": {
-        "nom": "Intrusion",
-        "description": "Inflige toujours des dégâts élémentaires."
+        "nom": "Dernière prière",
+        "description": "Rend des PV aux Yo-kai de devant s'il est battu."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/743.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/743.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/743.wav",
-    "nourriture": "Légumes",
-    "nourriture_favorite": "Sushi",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Intrusion",
-            "effet": "Inflige toujours des dégâts élémentaires."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Double coupure",
-            "effet": "18x2 | 39x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Cascade",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Lame de fond",
-            "effet": "Concentre son esprit dans son épée d'eau pour tailler l'ennemi. 135 | 202"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Force du surf",
-            "effet": "Rend un allié si rapide qu'il a l'air de surfer."
-        }
-    ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Bonne pioche !",
-        "Mange de la nourriture insipide": "Ça peut aller.",
-        "Mange de la mauvaise nourriture": "Envie de... vomir...",
-        "A la flemme": "Zzz...",
-        "Est échangé": "On dirait qu'il y a de bonnes vagues dans cette ville. Je suis partant !",
-        "Devient ton ami": "Pour moi tu es la vague la plus cool du monde."
-    },
-    "oldID": "749"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/granpapetit.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/granpapetit.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/granpapetit.wav",
+    "nourriture": "Riz",
+    "oldID": "755"
 }

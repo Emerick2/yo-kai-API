@@ -1,69 +1,29 @@
 {
     "ID": "485",
-    "Nom": "Scientifiborg Y",
-    "Tribue": "Wandroïd",
+    "Nom": "Dépotache",
+    "Tribue": "Costaud",
     "Rang": "B",
-    "PV": "393",
-    "Force": "56",
-    "Esprit": "143",
-    "Défense": "232",
-    "Vitesse": "130",
-    "Description": "Une expérience qui a mal tourné a transformé ce scientifique en un androïde !",
-    "nourriture": "Curry",
-    "élément": "Foudre",
+    "PV": "461",
+    "Force": "149",
+    "Esprit": "56",
+    "Défense": "255",
+    "Vitesse": "86",
+    "Description": "Potache est complètement fêlé ! Sa colère l'aveugle tellement que tout ce qu'il risque, c'est de se faire mal tout seul...",
+    "nourriture": "Encas",
+    "élément": "Terre",
     "Rôle": "Ranger",
     "Biographie": "",
-    "étimologie": "Androïd Yamada vient de Androïde et de Yamada, un prénom japonais. Scientifiborg Y vient de Scientifique spécialiste d'une science et de Cyborg (cybernetic organism = organisme cybenétique)",
+    "étimologie": "Dépotache vient de dépôt et de Potache.",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Il peut transformer n'importe quel objet ou animal en robot.",
-    "personnalité": "Scientifiborg Y à un cœur pur mais il se croît tout le temps délaissé par tout le monde, alors que c'est juste car personne ne le voit.",
+    "pouvoir": "",
+    "personnalité": "Sans que l'on sache vraiment pourquoi, Dépotache est aveuglé par la colère.",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/485.png",
-    "numero": "574",
-    "nourriture_favorite": "Curry",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Robotisation",
-            "effet": "Change en Kaiborgs les cibles de l'Âmultime."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coup de tête",
-            "effet": "55 | 121"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Foudre",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Nombril du monde",
-            "effet": "Tire un rayon imbu d'individualité sur la colonne devant lui. 140 | 140"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Cyborg",
-            "effet": "Robotise un ennemi pour lui baisser sa VIT."
-        }
-    ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Joie...",
-        "Mange de la nourriture insipide": "Indifférence...",
-        "Mange de la mauvaise nourriture": "Répulsion...",
-        "A la flemme": "Désactivation...",
-        "Est échangé": "Il semblerait que Scientifiborg Y soit content de te rencontrer.",
-        "Devient ton ami": "Scientifiborg Y semble avoir perdu. Peut-il être ton ami ?"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "アンドロイド山田",
-    "nom_anglais": "Sighborg Y",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/depotache.png",
+    "nom_original": "怒気ドキ土器",
+    "nom_anglais": "Blownhistoppa",
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
@@ -71,14 +31,19 @@
     },
     "localisations": {
         "ykw3": [
-            "Apparaît aléatoirement à certains endroits à la manière deNarinos, à la fin du combat il devient automatiquement votre ami si il est le véritable Scientifiborg Y. Pour le distinguer des autres Yo-kai indiqués sur la carte, vous pourrez utiliser leCapteur Scientifiborg Y.",
-            "Si le Scientifiborg affronté n'est pas le véritable Scientifiborg Y, il donnera un objet au joueur avant de disparaître. Cet objet peut être :"
-        ],
-        "Yo-kai Watch : Wibble Wobble :[]": [
-            "Bataille de Lance-Pierre de Scientifiborg Y - Stand d'échange",
-            "Roulette Bingo-kai"
+            "Fusion"
         ]
     },
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Potache",
+            "parent2": "Céramique ancienne",
+            "resultat": "Dépotache",
+            "critere": "➨"
+        }
+    ],
     "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {},
@@ -87,20 +52,20 @@
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "EXPorbe moyen"
+                "objet": "Remède puissant"
             },
             {
                 "taux": "?%",
-                "objet": "Curry d'agneau"
+                "objet": "Nachos au Fromage"
             }
         ]
     },
     "special_talent": {
-        "nom": "Robotisation",
-        "description": "Change en Kaiborgs les cibles de l'Âmultime."
+        "nom": "Repot éternel",
+        "description": "Empêche tous les Yo-kai d'être ressucités."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/485.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/485.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/485.wav",
-    "oldID": "490"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/depotache.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/depotache.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/depotache.wav",
+    "oldID": "494"
 }

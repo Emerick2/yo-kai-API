@@ -1,16 +1,16 @@
 {
     "ID": "745",
-    "Nom": "Komaouste",
-    "Tribue": "Mignon",
-    "Rang": "A",
-    "PV": "426",
-    "Force": "55",
-    "Esprit": "227",
-    "Défense": "156",
-    "Vitesse": "152",
+    "Nom": "Méroubalour",
+    "Tribue": "Insaisissable",
+    "Rang": "C",
+    "PV": "386",
+    "Force": "193",
+    "Esprit": "78",
+    "Défense": "128",
+    "Vitesse": "135",
     "Description": "",
-    "élément": "Feu",
-    "Rôle": "Combattant",
+    "élément": "Absorption",
+    "Rôle": "Guérisseur",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -20,67 +20,211 @@
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/745.png",
-    "nom_original": "だまししコマ",
-    "nom_anglais": "Koshame",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/meroubalour.png",
+    "nom_original": "ねつぞウナギ",
+    "nom_anglais": "Conger",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "ykw1": [],
+        "ykw1": [
+            "Avoir mis des mauvaises réponses dans des manuels."
+        ],
         "ykw2": [
-            "A fait semblant d'être le prince d'un pays lointain."
+            "N'a pas réussi à se retenir et a uriné dans la piscine."
         ],
         "ykw3": [
-            "A fait croire que c'était presque le week-end... un jeudi."
+            "A fait passer une simple pierre pour une météorite."
         ]
     },
     "fusions": [],
     "rarite": "Commun",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
+    "attaques_par_jeu": {
+        "Yo-kai Watch": [
+            {
+                "type": "Attaque",
+                "nom": "Mâchouille",
+                "puissance": "45|99",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Absorption",
+                "puissance": "20|90",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Changuille",
+                "puissance": "22×5|33×5",
+                "description": "Mord ses ennemis en chantant."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Énergie du chant",
+                "puissance": "N/A",
+                "description": "Remonte le moral des alliés et augmente leur ESP."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Ramphor",
+                "description": "Double les effets de la garde."
+            }
+        ],
+        "Yo-kai Watch 2": [
+            {
+                "type": "Attaque",
+                "nom": "Mâchouille",
+                "puissance": "45|99",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Vortex",
+                "puissance": "50|110",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Changuille",
+                "puissance": "21×5|31×5",
+                "description": "Mord ses ennemis en chantant."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Énergie du chant",
+                "puissance": "N/A",
+                "description": "Remonte le moral des alliés et augmente leur ESP."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Ramphor",
+                "description": "Double les effets de la garde."
+            }
+        ],
+        "Yo-kai Watch Blasters": [
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Changuille",
+                "puissance": "40×10",
+                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+            },
+            {
+                "type": "Technique 1",
+                "nom": "Vortex",
+                "puissance": "30",
+                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique 2",
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
+            },
+            {
+                "type": "Technique à acquérir 1",
+                "nom": "Boost d'attaque",
+                "puissance": "___",
+                "description": "Hausse ATT. des alliés. Charger élargit l'effet."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Coup puissant",
+                "puissance": "100",
+                "description": "Attaque avec un super esprit du combattant."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Client glissant",
+                "description": "Pas de réaction face aux coups ennemis."
+            }
+        ],
+        "Yo-kai Watch 3": [
+            {
+                "type": "Attaque",
+                "nom": "Mâchouille",
+                "puissance": "50|110",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Vortex",
+                "puissance": "40|88",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Changuille",
+                "puissance": "22×5|44×5",
+                "description": "Mord les ennemis à portée, en chantant."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Énergie du chant",
+                "puissance": "N/A",
+                "description": "Remonte le moral des alliés et augmente leur ESP."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Ramphor",
+                "description": "Double les effets de la garde."
+            }
+        ]
+    },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Oméga",
-        "description": "La FOR. augmente à côté d'un Yo-kai alpha."
+        "nom": "Ramphor",
+        "description": "Double les effets de la garde."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/745.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/745.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/745.wav",
-    "nourriture": "Lait",
-    "nourriture_favorite": "Lait",
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/meroubalour.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/meroubalour.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/meroubalour.wav",
+    "nourriture": "Viande",
+    "nourriture_favorite": "Viande",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Oméga",
-            "effet": "La FOR. augmente à côté d'un Yo-kai alpha."
+            "nom": "Ramphor",
+            "effet": "Chances de défendre extrêmement élevées."
         },
         {
             "type": "Attaque",
-            "nom": "Poing précis",
-            "effet": "90 | 135"
+            "nom": "Mâchouille",
+            "effet": "45 | 99"
         },
         {
             "type": "Attaque",
-            "nom": "Haute tension",
-            "effet": "80 | 120"
+            "nom": "Vortex",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Force du tigre",
-            "effet": "Un allié gagne énormément de VIT. Autant qu'un tigre."
+            "nom": "Changuille",
+            "effet": "Mord ses ennemis en chantant. 21x5 | 31x5"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Énergie du chant",
+            "effet": "Remonte le moral des alliés et augmente leur ESP."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Ouah ! Génial !",
-        "Mange de la nourriture insipide": "*mâche*",
-        "Mange de la mauvaise nourriture": "*chouine*",
-        "A la flemme": "Une seconde !",
-        "Est échangé": "Quelle jolie petite ville ! Oh, je suis tellement content d'être avec toi.",
-        "Devient ton ami": "Pfiou. Je déteste perdre. Mais j'adore l'amitié !"
+        "A mangé quelque chose de bon": "♪C'est exquis !",
+        "A mangé quelque chose de fade": "♪Ça peut aller...",
+        "A mangé quelque chose de mauvais": "Pas terrible...",
+        "A la flemme": "♪La la la...",
+        "Est échangé": "♪Ooh, tu veux que je sois ton ami ? Faisons un duo !",
+        "Se lie d'amitié": "♪Hum... H-h-hum... ♪Faisons un duo !"
     },
-    "oldID": "751"
+    "oldID": "757"
 }

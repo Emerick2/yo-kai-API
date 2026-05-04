@@ -1,15 +1,15 @@
 {
     "ID": "728",
-    "Nom": "Zéroberker",
-    "Tribue": "Vaillant",
-    "Rang": "S",
-    "PV": "457",
-    "Force": "243",
-    "Esprit": "54",
-    "Défense": "158",
-    "Vitesse": "163",
+    "Nom": "Hillusion",
+    "Tribue": "Mystérieux",
+    "Rang": "C",
+    "PV": "267",
+    "Force": "35",
+    "Esprit": "178",
+    "Défense": "107",
+    "Vitesse": "203",
     "Description": "",
-    "élément": "Feu",
+    "élément": "Eau",
     "Rôle": "Combattant",
     "Biographie": "",
     "étimologie": "",
@@ -20,9 +20,9 @@
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/728.png",
-    "nom_original": "無茶むしゃ",
-    "nom_anglais": "Zeroberker",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/hillusion.png",
+    "nom_original": "ペテン老師",
+    "nom_anglais": "Illow",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -30,13 +30,13 @@
     },
     "localisations": {
         "ykw1": [
-            "Avoir soufflé sur un feu de camp."
+            "Avoir parlé en verlant."
         ],
         "ykw2": [
-            "A agrippé un crâne chauve au lieu de la rampe du train."
+            "A prétendu porter des chaussettes propres."
         ],
         "ykw3": [
-            "A commandé un hamburger sans pain."
+            "A fait croire que les petits pois étaient des bonbons."
         ]
     },
     "fusions": [],
@@ -46,39 +46,8 @@
         "Yo-kai Watch": [
             {
                 "type": "Attaque",
-                "nom": "Taillade éclair",
-                "puissance": "20×3|44×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Grêle",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Sales gamins",
-                "puissance": "22×10|22×10",
-                "description": "Devient fou avec ses sabres et entaille les ennemis à portée."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Frayeur",
-                "puissance": "N/A",
-                "description": "L'ennemi a tellement peur de Fouétar qu'il ne peut plus bouger."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Chasse-lame",
-                "description": "La puissance augmente à chaque ennemi battu."
-            }
-        ],
-        "Yo-kai Watch 2": [
-            {
-                "type": "Attaque",
-                "nom": "Taillade éclair",
-                "puissance": "20×3|44×3",
+                "nom": "Frappe",
+                "puissance": "10|45",
                 "description": ""
             },
             {
@@ -89,15 +58,46 @@
             },
             {
                 "type": "Amultime",
-                "nom": "Sales gamins",
-                "puissance": "22×10|22×10",
-                "description": "Devient fou avec ses sabres et entaille les ennemis à portée."
+                "nom": "Esprit confus",
+                "puissance": "110|110",
+                "description": "Invoque des feux follets pour attaquer l'ennemi."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Frayeur",
+                "nom": "Énergie mirage",
                 "puissance": "N/A",
-                "description": "L'ennemi a tellement peur de Fouétar qu'il ne peut plus bouger."
+                "description": "Rend un allié assez rapide pour avoir l'air d'une fine fumée."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Fraternité",
+                "description": "Augm. stats d'un voisin avec le même talent."
+            }
+        ],
+        "Yo-kai Watch 2": [
+            {
+                "type": "Attaque",
+                "nom": "Frappe",
+                "puissance": "10|45",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Gel",
+                "puissance": "50|110",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Esprit confus",
+                "puissance": "120|120",
+                "description": "Invoque des feux follets pour attaquer l'ennemi."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Énergie mirage",
+                "puissance": "N/A",
+                "description": "Rend un allié assez rapide pour avoir l'air d'une fine fumée."
             },
             {
                 "type": "Attaque A",
@@ -107,58 +107,64 @@
             },
             {
                 "type": "Attaque X",
-                "nom": "Attaque à bloc",
+                "nom": "Gel",
                 "puissance": "N/A",
-                "description": "Déclenche une forte attaque à courte portée."
+                "description": "Un sort de glace gèle les ennemis éloignés."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Chasse-lame",
-                "description": "La puissance augmente à chaque ennemi battu."
+                "nom": "Talent : Fraternité",
+                "description": "Augm. stats d'un voisin avec le même talent."
             }
         ],
         "Yo-kai Watch Blasters": [
             {
                 "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
             },
             {
                 "type": "Âmultime",
-                "nom": "Sales gamins",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+                "nom": "Esprit confus",
+                "puissance": "67×6",
+                "description": "Une flamme bleue qui inflige de gros dégâts."
             },
             {
                 "type": "Technique 1",
-                "nom": "Attaque puissante",
-                "puissance": "400",
-                "description": "Rassemble ta force en une seule attaque."
+                "nom": "Gel",
+                "puissance": "50",
+                "description": "Un sort de glace puissant. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Attaque blitz",
-                "puissance": "25",
-                "description": "Touche plusieurs fois pour des attaques en continu."
+                "nom": "Âmunisé",
+                "puissance": "___",
+                "description": "Esquive rapidement l'attaque ennemie."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Position invincible",
+                "nom": "Position de rapidité",
                 "puissance": "___",
-                "description": "Invincibilité temporaire."
+                "description": "Hausse de la vitesse temporaire."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Attaque de repli",
+                "puissance": "70",
+                "description": "Pendant l'attaque, recule et évite les coups ennemis."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Voir rouge",
-                "description": "Hausse ATT. en attaquant (cumulable)."
+                "nom": "Talent : Réincarner",
+                "description": "Tous les PV restaurés en cas de défaite."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Taillade éclair",
-                "puissance": "24×3|38×3",
+                "nom": "Frappe",
+                "puissance": "20|70",
                 "description": ""
             },
             {
@@ -169,44 +175,44 @@
             },
             {
                 "type": "Amultime",
-                "nom": "Sales gamins",
-                "puissance": "16×10|24×10",
-                "description": "Devient fou avec ses sabres et entaille les ennemis à portée."
+                "nom": "Esprit confus",
+                "puissance": "150|300",
+                "description": "Invoque des feux follets pour attaquer les ennemis à portée."
             },
             {
                 "type": "Envoûtement",
-                "nom": "Frayeur",
+                "nom": "Énergie mirage",
                 "puissance": "N/A",
-                "description": "L'ennemi a peur de Fouétar et agit moins."
+                "description": "Rend un allié assez rapide pour avoir l'air d'une fine fumée."
             },
             {
                 "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Attaque trois fois. Le coup ultime est plus puissant."
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque un ennemi proche."
             },
             {
                 "type": "Âmultime",
-                "nom": "Sales gamins",
-                "puissance": "40×10",
-                "description": "Enchaîne les coups, inflige des dégâts élevés."
+                "nom": "Esprit confus",
+                "puissance": "66×6",
+                "description": "Flammes bleues brûlant les ennemis. Dégâts élevés."
             },
             {
                 "type": "Attaque X",
-                "nom": "Attaque blitz",
-                "puissance": "25",
-                "description": "Assaut continu. Le coup ultime est plus puissant."
+                "nom": "Gel",
+                "puissance": "50",
+                "description": "Technique de glace++. Plus de dégâts si chargée."
             },
             {
                 "type": "Attaque Y",
-                "nom": "Position invincible",
+                "nom": "Âmunisé",
                 "puissance": "___",
-                "description": "Devient temporairement invulnérable."
+                "description": "Esquive des attaques par des déplacements rapides."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Chasse-lame",
-                "description": "↑ puissance, à chaque ennemi battu."
+                "nom": "Talent : Fraternité",
+                "description": "↑ stats si relié à un Yo-kai avec le même talent."
             }
         ]
     },
@@ -215,43 +221,53 @@
         "YW1": [
             {
                 "taux": "?%",
-                "objet": "VoltXtrême"
+                "objet": "Anneau d'illusion"
             },
             {
                 "taux": "?%",
-                "objet": "Lait aux fruits"
+                "objet": "Pousse de bambou"
+            }
+        ],
+        "YW2": [
+            {
+                "taux": "?%",
+                "objet": "Anneau arc-en-ciel"
+            },
+            {
+                "taux": "?%",
+                "objet": "Dico-tech"
             }
         ],
         "YW3": [
             {
                 "taux": "?%",
-                "objet": "Éclat de pièce 1 étoile"
+                "objet": "Billet de loterie"
             },
             {
                 "taux": "?%",
-                "objet": "Langue de bœuf"
+                "objet": "Patte d'ours"
             }
         ]
     },
     "special_talent": {
-        "nom": "Chasse-lame",
-        "description": "La puissance augmente à chaque ennemi battu."
+        "nom": "Fraternité",
+        "description": "Augm. stats d'un voisin avec le même talent."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/728.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/728.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/728.wav",
-    "nourriture": "Viande",
-    "nourriture_favorite": "Viande",
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/hillusion.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/hillusion.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/hillusion.wav",
+    "nourriture": "Cuisine chinoise",
+    "nourriture_favorite": "Pain",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Chasse-lame",
-            "effet": "La puissance augmente à chaque ennemi battu."
+            "nom": "Fraternité",
+            "effet": "Augm. stats d'un voisin avec le même talent."
         },
         {
             "type": "Attaque",
-            "nom": "Taillade éclair",
-            "effet": "20x3 | 44x3"
+            "nom": "Frappe",
+            "effet": "10 | 45"
         },
         {
             "type": "Attaque",
@@ -260,22 +276,22 @@
         },
         {
             "type": "Attaque",
-            "nom": "Sales gamins",
-            "effet": "Devient fou avec ses sabres et taille tous ses adversaires. 22x10 | 22x10"
+            "nom": "Esprit confus",
+            "effet": "Invoque des feux follets pour attaquer l'ennemi. 120 | 120"
         },
         {
             "type": "Attaque",
-            "nom": "Frayeur",
-            "effet": "L'ennemi a tellement peur de Fouétar qu'il ne peut plus bouger.妖怪ウォッチ3 必殺技 なまはげ 悪い子イネガー スシ／テンプラMédaillon de Fouétar"
+            "nom": "Énergie mirage",
+            "effet": "Rend un allié assez rapide pour avoir l'air d'une fine fumée."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Oui !",
-        "Mange de la nourriture insipide": "C'était mangeable.",
-        "Mange de la mauvaise nourriture": "Pouah ! Horrible !",
-        "A la flemme": "*soupire*",
-        "Est échangé": "Je serai ton ami, mon enfant. Mais gare à ne pas me contrarier !",
-        "Devient ton ami": "Tu t'débrouilles pas mal ! On d'vrait être amis !"
+        "Mange de la bonne nourriture": "J'aime beaucoup !",
+        "Mange de la nourriture insipide": "Bof bof.",
+        "Mange de la mauvaise nourriture": "Je finirai pas...",
+        "A la flemme": "C'est déprimant...",
+        "Est échangé": "Combien d'amis j'ai ? Si seulement je pouvais me souvenir...",
+        "Devient ton ami": "Tu as de la force d'esprit ! Ça te dirait de tenir compagnie à un vieil homme ?"
     },
-    "oldID": "734"
+    "oldID": "740"
 }

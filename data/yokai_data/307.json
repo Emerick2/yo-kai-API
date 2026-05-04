@@ -1,73 +1,215 @@
 {
     "ID": "307",
-    "Nom": "Triptyk",
+    "Nom": "Snobéa",
     "Tribue": "Sombre",
     "Rang": "B",
-    "PV": "391",
-    "Force": "172",
-    "Esprit": "190",
-    "Défense": "150",
-    "Vitesse": "106",
-    "Description": "Cette créature redoutable cache son œil vulnérable dans l'une de ses trois bouches pour tromper l'ennemi.",
-    "description SITE": "C'est un énorme Yo-kai serpent à trois grosses têtes et la peau aussi dure que celle d'un éléphant. Il faut viser la bouche où se trouve l'œil.",
-    "nourriture": "Oden",
-    "élément": "Feu",
-    "Rôle": "Combattant",
+    "PV": "410",
+    "Force": "125",
+    "Esprit": "162",
+    "Défense": "199",
+    "Vitesse": "73",
+    "Description": "Cette dame arrogante est devenue riche en se mariant et aime donner des ordres à ceux qu'elle estime inférieurs à elle.",
+    "nourriture": "Sushi",
+    "élément": "Glace",
+    "Rôle": "Tank",
     "Biographie": "",
-    "étimologie": "Triptyk vient de Triptyque, sculpture composée d'un panneau central et de deux volets mobiles pouvant se rabattre.",
+    "étimologie": "Snobéa vient de Snob (Personne qui fréquente des milieux distingués) et Béa, l'abréviation du prénom Béatrice.",
     "origine": "",
     "histoire": "",
-    "pouvoir": "Triptyk peut faire disparaître ses yeux pour les remplacer par des langues et il possède des paupières résistantes aux attaques adverses, cachant son œil le plus longtemps possible. Il peut aussi cracher du feu.",
-    "personnalité": "Il adore la destruction et aime \"se lâcher\", il peut aussi se montrer manipulateur et grossier. Chaque tête semble avoir une personnalité différente, il s'exprime même à la première personne du pluriel (nous) dans la quête du Carnet Enma II.",
+    "pouvoir": "",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/307.png",
-    "numero": "224",
-    "nourriture_favorite": "Inconnue",
-    "attaques": [],
-    "phrases_nourriture": {},
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/snobea.png",
+    "numero": "231",
+    "nourriture_favorite": "Sushi",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Caste-pied",
+            "effet": "Passe la défaite à un allié et rend des PV."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Volée",
+            "effet": "20x2 | 44x2"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Blizzard",
+            "effet": "80 | 120"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Soufflet",
+            "effet": "Gifle un ennemi sans raison et l'arrête net. 20x5 | 20x5"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Prima donna",
+            "effet": "Le Yo-kai devient incohérent et attaque ses alliés."
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "Compliments !",
+        "A mangé quelque chose de fade": "J'en veux plus !",
+        "A mangé quelque chose de mauvais": "Essaie encore !",
+        "A la flemme": "Du repos !",
+        "Est échangé": "Pourquoi tu me fixes ? J'exige de visiter cet endroit moi-même.",
+        "Se lie d'amitié": "Tu es extraordinaire ! Je te suis ! Génial, non ?"
+    },
     "evolutions": [],
     "fusions": [],
     "image_locale": "",
-    "nom_original": "ミツマタノヅチ",
-    "nom_anglais": "Slimamander",
-    "premiere_apparition": "Yo-kai Watch",
+    "nom_original": "リー夫人",
+    "nom_anglais": "Snobetty",
+    "premiere_apparition": "Yo-kai Watch 2",
     "voix": {
         "japonaise": "Inconnue",
         "francaise": "Inconnue"
     },
     "localisations": {
-        "Yo-kai Watch 2 Esprits Farceurs :[]": [
-            "Activez la quêteLe sceau du malà côté du Tout pour tous duCoteau fleuri. Rendez-vous à l'écolela nuit, sauvegardez et combattez Triptyk. La technique du reset est conseillée. Vous pouvez revenir le voir chaque jour pour avoir une nouvelle chance de devenir son ami."
+        "ykw2": [
+            "Coteau fleuri-Clinique du Crépuscule",
+            "La Corniche- herbe & fleurs",
+            "Bingo-kai-Pièce bleue(présent)"
         ],
         "ykw-Blasters": [
-            "Bingo-kai- Pièce de force",
-            "Mission - Ultra Triptyk (+ de chance version chat)",
-            "Mission - UltraHydreux(+ de chance version chien)"
+            "Patrouille - La Corniche",
+            "Bingo-kai - Pièce bleue"
         ],
         "ykw3": [
-            "Chemin brumeux- Ne pas bouger lorsqu'un dialogue nous le demande",
-            "Bingo-kai -Pièce des abysses",
-            "Triptyk est également en récompense de Mumulette dans le 4e donjon du Temple de Musiris dans le modeBlasters T."
+            "La Corniche - Ruisseaux",
+            "Bingo-kai - Pièce bleue - 2e prix (Granval)"
         ],
-        "Yo-kai Watch : Wibble Wobble :[]": [
-            "Événement Boss Yo-kai- Combattre Triptyk",
-            "Bingo-kai oni"
+        "Yo-kai Watch : Puni Puni[]": [
+            "Elle est apparue dans l'événementMêlée des Lettres d'Amour, où elle était disponible dans le stage caché N°1. Voilà les conditions pour le débloquer selon le round de la Mêlée :",
+            "Round 1 : Terminer le stage 19 en 65 secondes ou moins.",
+            "Round 2 : Rentrer en ébullition 3 fois ou plus dans le stage 19.",
+            "Round 3 : Éclater 350 globules ou plus dans le stage 19.",
+            "Round 4 : Faire un combo de 40 ou plus dans le stage 19.",
+            "Round 5 : Créer un globule de taille 21 ou plus dans le stage 19.",
+            "Maintenant, elle est parfois disponible au Bingo-kai Oni ou dans laPièce de Roko."
         ]
     },
-    "rarite": "Boss",
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
+    "attaques_par_jeu": {
+        "Yo-kai Watch 2": [
+            {
+                "type": "Attaque",
+                "nom": "Volée",
+                "puissance": "20×2|44×2",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Blizzard",
+                "puissance": "80|120",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Soufflet",
+                "puissance": "20×5|20×5",
+                "description": "Gifle un ennemi sans raison et l'arrête net."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Prima donna",
+                "puissance": "N/A",
+                "description": "Le Yo-kai devient incohérent et attaque ses alliés."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Caste-pied",
+                "description": "Passe la défaite à un allié et rend des PV."
+            }
+        ],
+        "Yo-kai Watch Blasters": [
+            {
+                "type": "Attaque A",
+                "nom": "Attaque",
+                "puissance": "50",
+                "description": "Attaque courte portée."
+            },
+            {
+                "type": "Âmultime",
+                "nom": "Soufflet",
+                "puissance": "40×10",
+                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+            },
+            {
+                "type": "Technique 1",
+                "nom": "Découragement",
+                "puissance": "80",
+                "description": "Baisse temporaire ATT. des ennemis touchés."
+            },
+            {
+                "type": "Technique 2",
+                "nom": "Encore !",
+                "puissance": "80",
+                "description": "Attaque un ennemi pour attirer son attention."
+            },
+            {
+                "type": "Technique à acquérir 1",
+                "nom": "Armure",
+                "puissance": "___",
+                "description": "Réduit les dégâts infligés. Attire l'attention."
+            },
+            {
+                "type": "Technique à acquérir 2",
+                "nom": "Déblindage",
+                "puissance": "80",
+                "description": "Baisse temporaire DÉF. des ennemis touchés."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Tintouin",
+                "description": "Effet envoûtement négatif plus durable sur soi."
+            }
+        ],
+        "Yo-kai Watch 3": [
+            {
+                "type": "Attaque",
+                "nom": "Volée",
+                "puissance": "25×2|55×2",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Blizzard",
+                "puissance": "70|112",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Soufflet",
+                "puissance": "10×5|10×5",
+                "description": "Gifle un ennemi de toutes ses forces. Celui touché agira moins souvent."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Prima donna",
+                "puissance": "N/A",
+                "description": "Le Yo-kai devient incohérent et attaque ses alliés."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Chacun pour moi",
+                "description": "Met K.O. un allié et récupère des PV, quand il est battu."
+            }
+        ]
+    },
     "soul_effects": null,
     "drops": {},
     "special_talent": {
-        "nom": "Triple impact",
-        "description": "Les techniques du Yo-kai ciblent tous les ennemis."
+        "nom": "Caste-pied",
+        "description": "Passe la défaite à un allié et rend des PV."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/307.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/307.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/307.wav",
-    "name_romaji_jp": "Mitsumatanotsuchi",
-    "oldID": "318"
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/snobea.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/snobea.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/snobea.wav",
+    "oldID": "319"
 }

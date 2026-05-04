@@ -1,54 +1,147 @@
 {
     "ID": "435",
-    "Nom": "Chamériste",
+    "Nom": "El Gallardo",
     "Tribue": "Vaillant",
-    "Rang": "S",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "",
-    "description SITE": "Un Yo-kai qui protège Zazel. Très loyal, il donnerait sa vie pour protéger son maître. Il n'est pas très vif d'esprit mais il se souvient toujours de la nuit qu'il a passé à réviser pour un contrôle avec Majordog.",
-    "nourriture": "Bonbons",
-    "élément": "",
-    "Rôle": "",
+    "Rang": "D",
+    "PV": "394",
+    "Force": "216",
+    "Esprit": "40",
+    "Défense": "103",
+    "Vitesse": "122",
+    "Description": "Sans cesse à la recherche d'un vrai combat. À mains nues et sans limite de temps. Un vrai combat, quoi.",
+    "description SITE": "Sans cesse à la recherche d'un vrai combat. À mains nues et sans limites de temps. Un vrai combat, quoi.",
+    "nourriture": "Viande",
+    "élément": "Feu",
+    "Rôle": "Combattant",
     "Biographie": "",
-    "étimologie": "Chamériste vient de Chat et de Camériste (les anciennes servantes des princesses). Ducfélin vient de Ducet de Félin.",
+    "étimologie": "",
     "origine": "",
     "histoire": "",
-    "pouvoir": "",
-    "personnalité": "Lui etMajordoguesont les valets deZazel. Majordog est son ami d'enfance.",
+    "pouvoir": "Quiconque El Gallardo envoûte devient impatient de défier quelqu'un à une compétition. Il peut également faire en sorte que l'envoûté dise aux autres qu'il doivent être sérieux. Il a également le pouvoir de faire bouillir de l'eau/transformer l'eau en lave.",
+    "personnalité": "",
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/435.png",
-    "nom_original": "猫きよ猫きよペロン",
-    "nom_anglais": "AristokatAlicktokat",
-    "premiere_apparition": "Yo-kai Watch Blasters",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/el-gallardo.png",
+    "numero": "033",
+    "nourriture_favorite": "Viande",
+    "attaques": [
+        {
+            "type": "Attaque",
+            "nom": "Uppercut",
+            "effet": "Booste les dégâts quand l'ennemi visé est de rang S."
+        },
+        {
+            "type": "Attaque",
+            "nom": "Coup retourné",
+            "effet": "60 | 90"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Feu",
+            "effet": "20 | 90"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Coup fatal",
+            "effet": "Attaque la colonne devant lui avec un coup de pied sauté. 93 | 279"
+        },
+        {
+            "type": "Attaque",
+            "nom": "Joueur invétéré",
+            "effet": "L'allié est prêt pour un vrai combat ! Sa FOR. augmente."
+        }
+    ],
+    "phrases_nourriture": {
+        "A mangé quelque chose de bon": "Soif d'aventure !",
+        "A mangé quelque chose de fade": "Bien !",
+        "A mangé quelque chose de mauvais": "Pas bon du tout !",
+        "A la flemme": "C'est pas mon truc !",
+        "Se lie d'amitié": "Jé perdou, mais au moins, jé peux dévénir ton amigo !",
+        "Est échangé": "Excellente postoure, bonne attitoude... Olé ! Tou es formidable !",
+        "info_6": "Bingo-kaiCé n'est plous lé temps d'hésiter, caramba !"
+    },
+    "evolutions": [],
+    "fusions": [
+        {
+            "type": "Évolution",
+            "contexte": "Général",
+            "de": "El Gallardo",
+            "vers": "Grande Gallardo",
+            "critere": "Niveau 35"
+        }
+    ],
+    "image_locale": "",
+    "nom_original": "ガチン小僧",
+    "nom_anglais": "El Gusto",
+    "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Yann Pichon"
+        "francaise": "Inconnue"
     },
     "localisations": {
-        "Yo-kai Watch Blasters : Brigade du Lapin Lunaire[]": [
-            "Mission - Ceux qui contrôlent les Yo-kai"
-        ],
-        "Yo-kai Watch : Wibble Wobble :[]": [],
-        "Yo-kai Watch World :[]": [
-            "Chamériste est apparu dans le mini événementSuper Tirage, aux côtés deExtrabuki. Il est possible de le faire évoluer au Rang SS en la fusionnant avec uneAmulette d'Évolution Costaud.",
-            "Ducfélin est apparu lors de la40èmeGuerre Yo-kai."
+        "ykw3": [
+            "Forêt de Mortebranche",
+            "Grotte du grincheux",
+            "Manoir des Cardamom - sous-sol",
+            "Tour Morleone",
+            "Roue rêve-Pièce rouge- 3e prix"
         ]
     },
-    "fusions": [],
-    "rarite": "Boss",
+    "rarite": "Commun",
     "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
+    "attaques_par_jeu": {
+        "Yo-kai Watch 3": [
+            {
+                "type": "Attaque",
+                "nom": "Coup retourné",
+                "puissance": "50|110",
+                "description": ""
+            },
+            {
+                "type": "Technique",
+                "nom": "Feu",
+                "puissance": "30|105",
+                "description": ""
+            },
+            {
+                "type": "Amultime",
+                "nom": "Coup fatal",
+                "puissance": "93|279",
+                "description": "Attaque la colonne devant lui avec un coup de pied sauté."
+            },
+            {
+                "type": "Envoûtement",
+                "nom": "Joueur invétéré",
+                "puissance": "N/A",
+                "description": "L'allié est prêt pour un vrai combat ! Sa FOR. augmente."
+            },
+            {
+                "type": "Talent",
+                "nom": "Talent : Uppercut",
+                "description": "Booste les dégâts quand l'ennemi visé est de rang S."
+            }
+        ]
+    },
     "soul_effects": null,
-    "drops": {},
-    "special_talent": null,
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/435.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/435.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/435.wav",
-    "oldID": "440"
+    "drops": {
+        "YW3": [
+            {
+                "taux": "?%",
+                "objet": "Cuisse de poulet"
+            },
+            {
+                "taux": "?%",
+                "objet": "Étoile dansante"
+            }
+        ]
+    },
+    "special_talent": {
+        "nom": "Uppercut",
+        "description": "Booste les dégâts quand l'ennemi visé est de rang S."
+    },
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/el-gallardo.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/el-gallardo.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/el-gallardo.wav",
+    "oldID": "444"
 }

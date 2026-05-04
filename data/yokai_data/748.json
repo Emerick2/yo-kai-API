@@ -1,16 +1,16 @@
 {
     "ID": "748",
-    "Nom": "Tengugus",
-    "Tribue": "Mystérieux",
-    "Rang": "S",
-    "PV": "476",
-    "Force": "99",
-    "Esprit": "182",
-    "Défense": "141",
-    "Vitesse": "126",
+    "Nom": "Piflou",
+    "Tribue": "Mignon",
+    "Rang": "C",
+    "PV": "370",
+    "Force": "83",
+    "Esprit": "191",
+    "Défense": "114",
+    "Vitesse": "134",
     "Description": "",
-    "élément": "Vent",
-    "Rôle": "Combattant",
+    "élément": "Restauration",
+    "Rôle": "Guérisseur",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -20,9 +20,9 @@
     "talent": "",
     "Technique": "",
     "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/748.png",
-    "nom_original": "キザ天狗",
-    "nom_anglais": "Zerogu",
+    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/piflou.png",
+    "nom_original": "腹黒郎",
+    "nom_anglais": "Whoopie",
     "premiere_apparition": "Yo-kai Watch",
     "voix": {
         "japonaise": "Inconnue",
@@ -30,91 +30,60 @@
     },
     "localisations": {
         "ykw1": [
-            "Avoir apporté une guitare au cours de yoga."
+            "Piflou est recherché pour avoir monopolisé le micro au karaoké."
         ],
         "ykw2": [
-            "A secrètement triché dans une compétition de bowling."
+            "Piflou est recherché pour avoir prétendu être maladroit pour éviter les corvées."
         ],
         "ykw3": [
-            "N'a pas laissé de pourboire au livreur de pizza."
+            "Piflou est recherché pour s'être plaint pour qu'on lui porte ses affaires."
         ]
     },
     "fusions": [],
     "rarite": "Commun",
     "tribu_yw4": "N/A",
     "attaques_par_jeu": {
-        "Yo-kai Watch": [
-            {
-                "type": "Attaque",
-                "nom": "Vilain coup",
-                "puissance": "100|150",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Brasier",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Typhon embrasé",
-                "puissance": "200|200",
-                "description": "Produit un typhon à l'aide de son éventail pour écraser l'ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Brûlure",
-                "puissance": "N/A",
-                "description": "Harasse l'ennemi à coup de flammes pour diminuer ses PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Jeu de feu",
-                "description": "Augmente les dégâts des attaques de feu."
-            }
-        ],
         "Yo-kai Watch 2": [
             {
                 "type": "Attaque",
-                "nom": "Vilain coup",
-                "puissance": "100|150",
+                "nom": "Morsure",
+                "puissance": "15|67",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Brasier",
-                "puissance": "80|120",
+                "nom": "Restauration",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Typhon embrasé",
-                "puissance": "200|200",
-                "description": "Produit un typhon à l'aide de son éventail pour frapper les cibles à portée."
+                "nom": "Corde sensible",
+                "puissance": "90|90",
+                "description": "Fait battre les cœurs de ses alliés et restaure leurs PV. Trop mignon !"
             },
             {
                 "type": "Envoûtement",
-                "nom": "Brûlure",
+                "nom": "Cœur chaviré",
                 "puissance": "N/A",
-                "description": "Harasse l'ennemi à coup de flammes pour diminuer graduellement ses PV."
+                "description": "Fait chavirer le cœur d'un allié et restaure graduellement ses PV."
             },
             {
                 "type": "Attaque A",
-                "nom": "Feu",
+                "nom": "Attaque",
                 "puissance": "N/A",
-                "description": "Un jet de flamme brûle les ennemis éloignés."
+                "description": "Déclenche une attaque à courte portée."
             },
             {
                 "type": "Attaque X",
-                "nom": "Incendie",
+                "nom": "Restauration",
                 "puissance": "N/A",
-                "description": "Un sort de feu brûle les ennemis éloignés."
+                "description": "Rend des PV à un Yo-kai. Charge automatiquement."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Jeu de feu",
-                "description": "Augmente les dégâts de ses attaques de feu."
+                "nom": "Talent : Sympathie",
+                "description": "Incite plus d'ennemis à devenir tes amis."
             }
         ],
         "Yo-kai Watch Blasters": [
@@ -126,64 +95,58 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Typhon embrasé",
-                "puissance": "100×4",
-                "description": "Brûle les ennemis, gros dégâts infligés."
+                "nom": "Corde sensible",
+                "puissance": "___",
+                "description": "Restauration lente des PV des alliés proches."
             },
             {
                 "type": "Technique 1",
-                "nom": "Feu",
-                "puissance": "40",
-                "description": "Utilise un sort de feu. Charger renforce l'effet."
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger renforce l'effet."
             },
             {
                 "type": "Technique 2",
-                "nom": "Onde de choc",
-                "puissance": "120",
-                "description": "Saute et crée une onde de choc en retombant."
+                "nom": "Envoût guérisseur",
+                "puissance": "___",
+                "description": "Hausse lente des PV alliés. Charger élargit l'effet."
             },
             {
                 "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Incendie",
-                "puissance": "50",
-                "description": "Un sort de feu puissant. Charger renforce l'effet."
+                "nom": "Cercle guérisseur",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. Charger élargit l'effet."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Valse du vent",
-                "description": "Hausse de la VIT. lors d'un chargement d'attaque."
+                "nom": "Talent : Sympathie",
+                "description": "Amitié plus probable avec les ennemis."
             }
         ],
         "Yo-kai Watch 3": [
             {
                 "type": "Attaque",
-                "nom": "Vilain coup",
-                "puissance": "70|112",
+                "nom": "Morsure",
+                "puissance": "30|105",
                 "description": ""
             },
             {
                 "type": "Technique",
-                "nom": "Brasier",
-                "puissance": "70|112",
+                "nom": "Restauration",
+                "puissance": "50|110",
                 "description": ""
             },
             {
                 "type": "Amultime",
-                "nom": "Typhon embrasé",
-                "puissance": "148|222",
-                "description": "Produit une tornade avec son éventail favori, pour frapper les cibles à portée."
+                "nom": "Corde sensible",
+                "puissance": "90|180",
+                "description": "Fait battre les cœurs de ses alliés et restaure leurs PV. Trop mignon !"
             },
             {
                 "type": "Envoûtement",
-                "nom": "Brûlure",
+                "nom": "Cœur chaviré",
                 "puissance": "N/A",
-                "description": "Attaque l'ennemi à coup de flammes pour diminuer ses PV."
+                "description": "Fait chavirer le cœur d'un allié et restaure peu à peu ses PV."
             },
             {
                 "type": "Attaque A",
@@ -193,105 +156,74 @@
             },
             {
                 "type": "Âmultime",
-                "nom": "Typhon embrasé",
-                "puissance": "100×4",
-                "description": "Feu intense infligeant des dégâts ++ aux ennemis."
+                "nom": "Corde sensible",
+                "puissance": "___",
+                "description": "Rend rapidement des PV aux alliés proches."
             },
             {
                 "type": "Attaque X",
-                "nom": "Incendie",
-                "puissance": "50",
-                "description": "Technique de feu++. Plus de dégâts si chargée."
+                "nom": "Restauration",
+                "puissance": "80",
+                "description": "Rend des PV à un allié. PV rendus + si chargé."
             },
             {
                 "type": "Attaque Y",
-                "nom": "Onde de choc",
-                "puissance": "120",
-                "description": "Saute en hauteur et frappe le sol d’une onde de choc."
+                "nom": "Envoût guérisseur",
+                "puissance": "___",
+                "description": "Rend des PV à un allié. PV rendus + si chargé."
             },
             {
                 "type": "Talent",
-                "nom": "Talent : Jeu de feu",
-                "description": "Booste les dégâts de feu de tous les Yo-kai."
+                "nom": "Talent : Sympathie",
+                "description": "Améliore les chances de devenir ami avec un ennemi."
             }
         ]
     },
     "soul_effects": null,
-    "drops": {
-        "YW1": [
-            {
-                "taux": "?%",
-                "objet": "Éventail de tengu"
-            },
-            {
-                "taux": "?%",
-                "objet": "Thé de l'âme"
-            }
-        ],
-        "YW2": [
-            {
-                "taux": "?%",
-                "objet": "Techniques tip-top"
-            },
-            {
-                "taux": "?%",
-                "objet": "Riz à la crevette"
-            }
-        ],
-        "YW3": [
-            {
-                "taux": "?%",
-                "objet": "Techniques tip-top"
-            },
-            {
-                "taux": "?%",
-                "objet": "Pomme d'amour"
-            }
-        ]
-    },
+    "drops": {},
     "special_talent": {
-        "nom": "Jeu de feu",
-        "description": "Augmente les dégâts des attaques de feu."
+        "nom": "Sympathie",
+        "description": "Incite plus d'ennemis à devenir tes amis."
     },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/748.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/748.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/748.wav",
-    "nourriture": "Bonbons",
-    "nourriture_favorite": "Sucrerie",
+    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/piflou.png",
+    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/piflou.png",
+    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/piflou.wav",
+    "nourriture": "Hamburger",
+    "nourriture_favorite": "Hamburger",
     "attaques": [
         {
             "type": "Attaque",
-            "nom": "Jeu de feu",
-            "effet": "Augmente les dégâts de ses attaques de feu."
+            "nom": "Sympathie",
+            "effet": "Incite plus d'ennemis à devenir tes amis."
         },
         {
             "type": "Attaque",
-            "nom": "Vilain coup",
-            "effet": "100 | 150"
+            "nom": "Morsure",
+            "effet": "15 | 67"
         },
         {
             "type": "Attaque",
-            "nom": "Brasier",
-            "effet": "80 | 120"
+            "nom": "Restauration",
+            "effet": "50 | 110"
         },
         {
             "type": "Attaque",
-            "nom": "Typhon embrasé",
-            "effet": "Produit un typhon à l'aide de son éventail pour écraser tous les ennemis. 200 | 200"
+            "nom": "Corde sensible",
+            "effet": "Fait battre les cœurs de ses alliés et restaure leurs PV. Trop mignon ! 90 | 90"
         },
         {
             "type": "Attaque",
-            "nom": "Brûlure",
-            "effet": "Brûle un ennemi d'un feu déchaîné qui réduit graduellement ses PV."
+            "nom": "Cœur chaviré",
+            "effet": "Fait chavirer le cœur d'un allié et restaure graduellement ses PV."
         }
     ],
     "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Super bon !",
-        "Mange de la nourriture insipide": "Je prends !",
-        "Mange de la mauvaise nourriture": "C'est... infect.",
-        "A la flemme": "Ennuyeux...",
-        "Est échangé": "Cette flamme dans tes yeux m'a captivé !",
-        "Devient ton ami": "Je ne m'attendais pas à une telle force. J'imagine qu'une amitié est possible."
+        "Mange de la bonne nourriture": "C'est crop bon !",
+        "Mange de la nourriture insipide": "Merki !",
+        "Mange de la mauvaise nourriture": "Tu plaisantes ?!",
+        "A la flemme": "Euh...",
+        "Est échangé": "C'est la première fois que je te vois, mais tu as déjà gagné mon cœur.",
+        "Devient ton ami": "Devenons amis."
     },
-    "oldID": "754"
+    "oldID": "760"
 }
