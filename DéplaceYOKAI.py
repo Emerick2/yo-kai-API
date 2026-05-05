@@ -85,6 +85,8 @@ def _move_yokai_assets(old_id, new_id, mapping):
             asset_data["textureFiles"] = new_textures
 
 def deplaceYokai(ID_depart, ID_arrive, justeIntervertire):
+    print("IL FAUT AVANT QUE LES TEXTURES SOIT CORRECTEMENT RENOMER")
+    return
     mapping = _load_mapping()
     
     if justeIntervertire:
