@@ -86,7 +86,7 @@ def _move_yokai_assets(old_id, new_id, mapping):
 
 def deplaceYokai(ID_depart, ID_arrive, justeIntervertire):
     print("IL FAUT AVANT QUE LES TEXTURES SOIT CORRECTEMENT RENOMER")
-    return
+    # return
     mapping = _load_mapping()
     
     if justeIntervertire:
@@ -172,7 +172,7 @@ def ajouterYokai(ID_arrive):
 #510 : chine
 
 # n=3
-# deplaceYokai(885,1007,False)
+deplaceYokai(826,999,False)
 
 
 LaMainCompleteAnuaire()
