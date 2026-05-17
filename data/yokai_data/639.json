@@ -27,7 +27,8 @@
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "francaise": "Inconnue",
+        "anglaise": ""
     },
     "localisations": {
         "ykw3": [
@@ -47,5 +48,149 @@
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/roi-jibanyan.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/roi-jibanyan.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/roi-jibanyan.wav",
-    "oldID": "648"
+    "oldID": "648",
+    "medallium_ids": {
+        "YW3": "590"
+    },
+    "spinoff_ids": {
+        "Busters 2": "609",
+        "WibWob": "4119",
+        "World": "0515"
+    },
+    "battle_type": "'Merican",
+    "skill_name": "Hale and Hardy",
+    "skill_effect": "King of Nyans",
+    "disliked_food": "Vegetables",
+    "global_stats": {
+        "Yo-kai Watch 3": {
+            "stats": {
+                "HP": "436",
+                "STR": "245",
+                "SPR": "92",
+                "DEF": "158",
+                "SPD": "233"
+            },
+            "elements": {
+                "attribute": "Fire",
+                "weakness": "Water"
+            },
+            "attacks": []
+        },
+        "Yo-kai Watch Busters 2": {
+            "stats": {
+                "HP": "197-343",
+                "STR": "245",
+                "SPR": "92",
+                "DEF": "158"
+            },
+            "elements": {
+                "attribute": "Fire",
+                "weakness": "Water"
+            },
+            "attacks": []
+        },
+        "Moveset": {
+            "stats": {
+                "HP": "197-343"
+            },
+            "elements": {},
+            "attacks": [
+                {
+                    "type": "Attack",
+                    "name": "Triple Attack",
+                    "power": "30+30+60",
+                    "attribute": "Triple attack",
+                    "range": "Single enemy"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Blitz Attack",
+                    "power": "25x8+45",
+                    "attribute": "Blitz attack",
+                    "range": "Single enemy"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Dodge",
+                    "power": "-",
+                    "attribute": "Dodge",
+                    "range": "Self"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Bomb Blast",
+                    "power": "500",
+                    "attribute": "Bomb blast",
+                    "range": "Area"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Attack Boost",
+                    "power": "-",
+                    "attribute": "Attack boost",
+                    "range": "Single ally, Area (Charged)"
+                },
+                {
+                    "type": "Soultimate Move",
+                    "name": "Sovereign Slash",
+                    "power": "40 x 10",
+                    "attribute": "Attack",
+                    "range": "Area"
+                },
+                {
+                    "type": "Skill",
+                    "name": "Hale and Hardy",
+                    "power": "N/A",
+                    "attribute": "None",
+                    "range": "Self"
+                }
+            ]
+        },
+        "Yo-kai Watch: Wibble Wobble": {
+            "stats": {
+                "HP": "197-343"
+            },
+            "elements": {},
+            "attacks": []
+        }
+    },
+    "random_names": {
+        "error": "Section 'Random nicknames' non trouvée"
+    },
+    "localized_names": {
+        "Japanese": [
+            "ジバニャン",
+            "Ｋ",
+            "Jibanyan"
+        ],
+        "Spanish": [
+            "Rey"
+        ],
+        "French": [
+            "Roi"
+        ],
+        "Italian": [
+            "Re"
+        ],
+        "German": [
+            "König"
+        ]
+    },
+    "localized_soultimates": {
+        "Japanese": [
+            "ジバニャンＫ"
+        ],
+        "Spanish": [
+            "Rey Jibanyan"
+        ],
+        "French": [
+            "Roi Jibanyan"
+        ],
+        "Italian": [
+            "Re Jibanyan"
+        ],
+        "German": [
+            "König Jibanyan"
+        ]
+    }
 }

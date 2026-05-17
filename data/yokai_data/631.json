@@ -27,7 +27,8 @@
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Etsuko Kozakura",
-        "francaise": "Inconnue"
+        "francaise": "Inconnue",
+        "anglaise": "English VA Alicyn Packard"
     },
     "localisations": {},
     "fusions": [],
@@ -43,5 +44,139 @@
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/mog-nyan.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/mog-nyan.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/mog-nyan.wav",
-    "oldID": "640"
+    "oldID": "640",
+    "medallium_ids": {
+        "YW3": "296"
+    },
+    "spinoff_ids": {
+        "Wib Wob": ""
+    },
+    "battle_type": "Rare",
+    "skill_name": "Kupower",
+    "skill_effect": "Kupower Nyan!",
+    "disliked_food": "Chinese Food",
+    "global_stats": {
+        "Yo-kai Watch 3": {
+            "stats": {
+                "HP": "404",
+                "STR": "83",
+                "SPR": "260",
+                "DEF": "108",
+                "SPD": "201"
+            },
+            "elements": {
+                "attribute": "Wind",
+                "weakness": "Ice"
+            },
+            "attacks": []
+        },
+        "Yo-kai Watch Busters 2": {
+            "stats": {
+                "HP": "222-408",
+                "STR": "83",
+                "SPR": "260",
+                "DEF": "108"
+            },
+            "elements": {
+                "attribute": "Wind",
+                "weakness": "Ice"
+            },
+            "attacks": []
+        },
+        "Moveset": {
+            "stats": {
+                "HP": "222-408"
+            },
+            "elements": {},
+            "attacks": [
+                {
+                    "type": "Attack",
+                    "name": "Attack",
+                    "power": "50",
+                    "attribute": "Attack",
+                    "range": "Single enemy"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Restore",
+                    "power": "80, 130 (Charged)",
+                    "attribute": "Restoration",
+                    "range": "Single ally"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Treasure Sensor",
+                    "power": "N/A",
+                    "attribute": "Treasure Sensor",
+                    "range": "Area around you"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Tornado",
+                    "power": "50, 160 (Charged)",
+                    "attribute": "Tornado",
+                    "range": "Single Enemy, Area (Charged)"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Paradise",
+                    "power": "80, 200 (Charged)",
+                    "attribute": "Paradise Icon",
+                    "range": "Single ally"
+                },
+                {
+                    "type": "Soultimate Move",
+                    "name": "Finally Fantasmagic",
+                    "power": "66x6",
+                    "attribute": "None",
+                    "range": "Area"
+                },
+                {
+                    "type": "Skill",
+                    "name": "Kupower",
+                    "power": "N/A",
+                    "attribute": "Spirit boost",
+                    "range": "All allies"
+                }
+            ]
+        },
+        "Yo-kai Watch: Wibble Wobble": {
+            "stats": {
+                "HP": "222-408"
+            },
+            "elements": {},
+            "attacks": []
+        }
+    },
+    "random_names": {
+        "error": "Section 'Random nicknames' non trouvée"
+    },
+    "localized_names": {
+        "Spanish": [
+            "Mogurinyan"
+        ],
+        "French": [
+            "Mog-nyan"
+        ],
+        "Italian": [
+            "Mogurinyan"
+        ],
+        "German": [
+            "Mogry-Nyan"
+        ]
+    },
+    "localized_soultimates": {
+        "Spanish": [
+            "Mogurinyan"
+        ],
+        "French": [
+            "Mog-nyan"
+        ],
+        "Italian": [
+            "Mogurinyan"
+        ],
+        "German": [
+            "Mogry-Nyan"
+        ]
+    }
 }

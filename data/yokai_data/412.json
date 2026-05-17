@@ -71,7 +71,8 @@
     "premiere_apparition": "Yo-kai Watch Blasters",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "francaise": "Inconnue",
+        "anglaise": ""
     },
     "localisations": {
         "Général": [
@@ -96,5 +97,150 @@
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/komasan-b.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/komasan-b.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/komasan-b.wav",
-    "oldID": "418"
+    "oldID": "418",
+    "medallium_ids": {
+        "YW3": "253",
+        "YW4": "45 - Yo-kai"
+    },
+    "spinoff_ids": {
+        "Wib Wob": "",
+        "Kunitori": ""
+    },
+    "battle_type": "",
+    "skill_name": "Return Fire",
+    "skill_effect": "State-of-the-art Technology",
+    "disliked_food": "Juice",
+    "global_stats": {
+        "Yo-kai Watch 3": {
+            "stats": {
+                "HP": "1",
+                "STR": "246",
+                "SPR": "517",
+                "DEF": "97",
+                "SPD": "224"
+            },
+            "elements": {
+                "attribute": "Fire",
+                "weakness": "Water"
+            },
+            "attacks": []
+        },
+        "Yo-kai Watch 4": {
+            "stats": {
+                "HP": "380",
+                "STR": "228",
+                "SPR": "114",
+                "DEF": "178"
+            },
+            "elements": {},
+            "attacks": []
+        },
+        "Yo-kai Watch Blasters": {
+            "stats": {
+                "HP": "372",
+                "STR": "225",
+                "SPR": "114",
+                "DEF": "178"
+            },
+            "elements": {
+                "attribute": "Fire",
+                "weakness": "Water"
+            },
+            "attacks": []
+        },
+        "Moveset": {
+            "stats": {
+                "HP": "160-286"
+            },
+            "elements": {},
+            "attacks": [
+                {
+                    "type": "Attack",
+                    "name": "Laser Beam",
+                    "power": "35",
+                    "attribute": "Ranged attack",
+                    "range": "Single enemy"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Fall Back Attack",
+                    "power": "70",
+                    "attribute": "Fall back attack",
+                    "range": "Single enemy"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Dodge",
+                    "power": "-",
+                    "attribute": "Dodge",
+                    "range": "Self"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Charge Shot",
+                    "power": "50, 120 (Charged)",
+                    "attribute": "Charge Shot Icon",
+                    "range": "Area"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Rice Ball",
+                    "power": "70",
+                    "attribute": "Rice ball move",
+                    "range": "Self"
+                },
+                {
+                    "type": "Soultimate Move",
+                    "name": "Bow Wow Blaster",
+                    "power": "63×8",
+                    "attribute": "Ranged attack",
+                    "range": "Area"
+                },
+                {
+                    "type": "Skill",
+                    "name": "The X-Factor",
+                    "power": "N/A",
+                    "attribute": "None",
+                    "range": "Self"
+                }
+            ]
+        },
+        "Soul": {
+            "stats": {
+                "HP": "160-286",
+                "STR": "225",
+                "SPR": "114",
+                "DEF": "178"
+            },
+            "elements": {},
+            "attacks": []
+        },
+        "Yo-kai Watch Busters 2": {
+            "stats": {
+                "HP": "160-286",
+                "STR": "225",
+                "SPR": "114",
+                "DEF": "178"
+            },
+            "elements": {
+                "attribute": "Fire",
+                "weakness": "Water"
+            },
+            "attacks": []
+        },
+        "Yo-kai Watch: Wibble Wobble": {
+            "stats": {
+                "HP": "160-286"
+            },
+            "elements": {},
+            "attacks": []
+        }
+    },
+    "random_names": {
+        "error": "Section 'Random nicknames' non trouvée"
+    },
+    "localized_names": {},
+    "localized_soultimates": {
+        "error": "Aucun tableau de langue trouvé"
+    }
 }

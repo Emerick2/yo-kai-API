@@ -27,7 +27,8 @@
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "francaise": "Inconnue",
+        "anglaise": ""
     },
     "localisations": {
         "ykw3": [
@@ -47,5 +48,143 @@
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/valet-komasan.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/valet-komasan.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/valet-komasan.wav",
-    "oldID": "650"
+    "oldID": "650",
+    "medallium_ids": {
+        "YW3": "592"
+    },
+    "spinoff_ids": {
+        "Busters 2": "611",
+        "WibWob": "4100",
+        "World": "0516"
+    },
+    "battle_type": "",
+    "skill_name": "Wipe the Floor",
+    "skill_effect": "Jack of all Swirls",
+    "disliked_food": "Juice",
+    "global_stats": {
+        "Yo-kai Watch 3": {
+            "stats": {
+                "HP": "446",
+                "STR": "76",
+                "SPR": "235",
+                "DEF": "118",
+                "SPD": "183"
+            },
+            "elements": {
+                "attribute": "Fire",
+                "weakness": "Water"
+            },
+            "attacks": []
+        },
+        "Yo-kai Watch Busters 2": {
+            "stats": {
+                "HP": "199-347",
+                "STR": "76",
+                "SPR": "235",
+                "DEF": "118"
+            },
+            "elements": {
+                "attribute": "Fire",
+                "weakness": "Water"
+            },
+            "attacks": []
+        },
+        "Moveset": {
+            "stats": {
+                "HP": "199-347"
+            },
+            "elements": {},
+            "attacks": [
+                {
+                    "type": "Attack",
+                    "name": "Attack",
+                    "power": "50",
+                    "attribute": "Attack",
+                    "range": "Single enemy"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Blaze",
+                    "power": "50, 160 (Charged)",
+                    "attribute": "Fire",
+                    "range": "Single Enemy, Area (Charged)"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Dodge",
+                    "power": "-",
+                    "attribute": "Dodge",
+                    "range": "Self"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Poison Inspirit",
+                    "power": "N/A",
+                    "attribute": "Poison inspirit",
+                    "range": "Single Enemy, Area (Charged)"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Big Defense Drop",
+                    "power": "-",
+                    "attribute": "Big Defense drop",
+                    "range": "Single Enemy, Area (Charged)"
+                },
+                {
+                    "type": "Soultimate Move",
+                    "name": "Jack of All Dances",
+                    "power": "66x6",
+                    "attribute": "None",
+                    "range": "Area"
+                },
+                {
+                    "type": "Skill",
+                    "name": "Wipe the Floor",
+                    "power": "N/A",
+                    "attribute": "None",
+                    "range": "Self"
+                }
+            ]
+        },
+        "Yo-kai Watch: Wibble Wobble": {
+            "stats": {
+                "HP": "199-347"
+            },
+            "elements": {},
+            "attacks": []
+        }
+    },
+    "random_names": {
+        "error": "Section 'Random nicknames' non trouvée"
+    },
+    "localized_names": {
+        "Japanese": [
+            "コマさん",
+            "J",
+            "Komasan"
+        ],
+        "Spanish": [
+            "Jotamasan"
+        ],
+        "Italian": [
+            "Fante"
+        ],
+        "German": [
+            "Bube"
+        ]
+    },
+    "localized_soultimates": {
+        "Japanese": [
+            "コマさんJ"
+        ],
+        "Spanish": [
+            "Jotamasan"
+        ],
+        "Italian": [
+            "Fante Koma"
+        ],
+        "German": [
+            "Bube Komasan"
+        ]
+    }
 }

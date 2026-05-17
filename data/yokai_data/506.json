@@ -28,7 +28,8 @@
     "premiere_apparition": "Yo-kai Watch 3",
     "voix": {
         "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+        "francaise": "Inconnue",
+        "anglaise": ""
     },
     "localisations": {
         "ykw3": [
@@ -50,5 +51,138 @@
     "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/fortune.png",
     "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/fortune.png",
     "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/fortune.wav",
-    "oldID": "515"
+    "oldID": "515",
+    "medallium_ids": {
+        "YW3": "265"
+    },
+    "spinoff_ids": {
+        "Busters 2": "270",
+        "World": "0334"
+    },
+    "battle_type": "",
+    "skill_name": "High Roller",
+    "skill_effect": "Fortune's Fool",
+    "disliked_food": "Snacks",
+    "global_stats": {
+        "Yo-kai Watch 3": {
+            "stats": {
+                "HP": "368",
+                "STR": "69",
+                "SPR": "216",
+                "DEF": "142",
+                "SPD": "104"
+            },
+            "elements": {
+                "attribute": "Wind",
+                "weakness": "Ice"
+            },
+            "attacks": []
+        },
+        "Yo-kai Watch Busters 2": {
+            "stats": {
+                "HP": "368",
+                "STR": "69",
+                "SPR": "216",
+                "DEF": "142"
+            },
+            "elements": {
+                "attribute": "Wind",
+                "weakness": "Ice"
+            },
+            "attacks": []
+        },
+        "Moveset": {
+            "stats": {},
+            "elements": {},
+            "attacks": [
+                {
+                    "type": "Attack",
+                    "name": "Attack",
+                    "power": "50",
+                    "attribute": "Attack",
+                    "range": "Single enemy"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Restore",
+                    "power": "80, 130 (Charged)",
+                    "attribute": "Restoration",
+                    "range": "Single ally"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Healing Inspirit",
+                    "power": "-",
+                    "attribute": "Healing inspirit",
+                    "range": "Single ally, Area (Charged)"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Whirlwind",
+                    "power": "40, 100 (Charged)",
+                    "attribute": "Wind",
+                    "range": "Single enemy"
+                },
+                {
+                    "type": "Technique",
+                    "name": "Circle Restore",
+                    "power": "80, 70 (Charged)",
+                    "attribute": "Circle restore",
+                    "range": "Single ally, Area (Charged)"
+                },
+                {
+                    "type": "Soultimate Move",
+                    "name": "Get Onboard",
+                    "power": "400",
+                    "attribute": "Restoration",
+                    "range": "Area"
+                },
+                {
+                    "type": "Skill",
+                    "name": "Can't Touch This",
+                    "power": "N/A",
+                    "attribute": "Speed boost",
+                    "range": "Self"
+                }
+            ]
+        }
+    },
+    "random_names": {
+        "error": "Section 'Random nicknames' non trouvée"
+    },
+    "localized_names": {
+        "Japanese": [
+            "たまのこし",
+            "Tamanokoshi"
+        ],
+        "Spanish": [
+            "Partidacio"
+        ],
+        "French": [
+            "Fortuné"
+        ],
+        "Italian": [
+            "Sfericca"
+        ],
+        "German": [
+            "Rosirunde"
+        ]
+    },
+    "localized_soultimates": {
+        "Japanese": [
+            "たまのこし"
+        ],
+        "Spanish": [
+            "Partidacio"
+        ],
+        "French": [
+            "Fortuné"
+        ],
+        "Italian": [
+            "Sfericca"
+        ],
+        "German": [
+            "Rosirunde"
+        ]
+    }
 }
