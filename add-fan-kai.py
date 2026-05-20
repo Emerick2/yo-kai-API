@@ -8,6 +8,15 @@ import shutil
 import re
 import unicodedata
 
+def make_an_url(valeur):
+    valeur = unicodedata.normalize('NFD', str(valeur))
+    valeur = re.sub(r'[\u0300-\u036f]', '', valeur)
+    valeur = valeur.lower().strip()
+    valeur = re.sub(r'\s+', '-', valeur)
+    valeur = re.sub(r'[^\w\-]+', '', valeur)
+    valeur = re.sub(r'--+', '-', valeur)
+    return valeur
+
 def clean_key(text):
     text = text.replace("(nombre)", "").strip()
     text = "".join(c for c in unicodedata.normalize('NFD', text) if unicodedata.category(c) != 'Mn')
@@ -92,7 +101,7 @@ def addFanKai():
         json.dump(annuaire, f, indent=4, ensure_ascii=False)
 
     if os.path.exists(TEMP_IMG):
-        img_name = f"{yokai_id}.png"
+        img_name = f"{make_an_url(nom_yokai)}.png"
         
         shutil.copy(TEMP_IMG, os.path.join(DIR_IMG_LOCAL, img_name))
         
