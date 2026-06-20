@@ -2,9 +2,11 @@ import os
 import json
 from data.DEV.trieParRang import La_MainTrieCategorie
 
-def creer_annuaire():
+def creer_annuaire(versionAnglais : bool):
     dossier_source = 'C:/Users/pacau/Desktop/MES PROJET/PROJET/API/yo-kai-API/data/yokai_data'
     fichier_sortie = 'C:/Users/pacau/Desktop/MES PROJET/PROJET/API/yo-kai-API/data/annuaire_yo-kai.json'
+    if versionAnglais == True :
+        fichier_sortie = 'C:/Users/pacau/Desktop/MES PROJET/PROJET/API/yo-kai-API/data/annuaire_yo-kai_anglais.json'
     annuaire = {}
 
     if not os.path.exists(dossier_source):
@@ -21,6 +23,8 @@ def creer_annuaire():
                 with open(chemin_complet, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                     nom_yokai = data.get("Nom", "Nom inconnu")
+                    if versionAnglais == True :
+                        nom_yokai = data.get("nom_anglais", "Nom inconnu")
                     
                     annuaire[yokai_id] = nom_yokai
             except Exception as e:
@@ -33,7 +37,8 @@ def creer_annuaire():
 
 
 def LaMainCompleteAnuaire() :
-    creer_annuaire()
+    creer_annuaire(False)
+    creer_annuaire(True)
     La_MainTrieCategorie()
 
 if __name__ == "__main__":
