@@ -1,6 +1,6 @@
 import os
 import json
-from data.DEV.trieParRang import La_MainTrieCategorie
+from DEV.trieParRang import La_MainTrieCategorie
 
 def creer_annuaire(versionAnglais : bool):
     dossier_source = 'C:/Users/pacau/Desktop/MES PROJET/PROJET/API/yo-kai-API/data/yokai_data'
