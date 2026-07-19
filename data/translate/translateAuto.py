@@ -2,7 +2,7 @@ import os
 import json
 
 def translate(output_filename, input_key, output_key):
-    source_dir = r"C:\Users\pacau\Desktop\MES PROJET\PROJET\API\yo-kai-API\data\yokai_data"
+    source_dir = r"D:/MES PROJET/PROJET/API\yo-kai-API\data\yokai_data"
     translation_map = {}
 
     if not os.path.exists(source_dir):

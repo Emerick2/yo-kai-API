@@ -42,7 +42,7 @@ def addFanKai():
     PATH_ANNUAIRE = "data/annuaire_fan-kai.json"
     DIR_DATA = "data/fankai_data/"
     DIR_IMG_LOCAL = "fan-kai_img"
-    DIR_IMG_ABSOLUTE = r"C:\Users\pacau\Desktop\MES PROJET\PROJET\WEB\wikinyan\wikinyan\img\fan-kai_img"
+    DIR_IMG_ABSOLUTE = r"D:/MES PROJET/PROJET/WEB\wikinyan\wikinyan\img\fan-kai_img"
     CSV_FILE = "main.csv"
     TEMP_IMG = "main.png"
 
