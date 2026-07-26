@@ -5,5 +5,38 @@
     "purchasePrice": 0.0,
     "sellingPrice": 0.0,
     "description": "Une épée maudite qui attire son maître vers un destin funeste.",
-    "objectCategory": "fusion"
+    "objectCategory": "fusion",
+    "nom_original": "妖刀ムラマサ",
+    "nom_anglais": "Cursed Blade",
+    "type":"Objet de fusion",
+    "localisation" : {
+        "yw1" : [
+            "Quête : 'Une précieuse illusion'",
+            "Troc safari"
+        ],
+        "yw2" : [
+            "Fusion"
+        ],
+        "yw3" : [
+            "Loterie triangle"
+        ]
+    },
+    "fusions": [
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Couteau ébréché",
+            "parent2": "Aiguisoir sinistre",
+            "resultat": "Épée maudite",
+            "critere": ""
+        },
+        {
+            "type": "Fusion",
+            "contexte": "Général",
+            "parent1": "Épée maudite",
+            "parent2": "Bonneto",
+            "resultat": "Padelou",
+            "critere": ""
+        }
+    ]
 }
