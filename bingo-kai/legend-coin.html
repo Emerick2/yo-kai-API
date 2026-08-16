@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Chargement... | Wikinyan</title>
+    <meta name="description" id="meta-desc" content="Découvrez tout sur ce Yo-kai dans le Wikinyan.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/icone-wikinyan.webp">
+    
+    <link rel="stylesheet" href="/css/PageObjet.css">
+    <link rel="stylesheet" href="/css/le-header.css">
+    <link rel="stylesheet" href="/css/bingo-kai.css">
+    <script defer src="/js/search.js"></script>
+    <script defer src="/js/lazyload.js"></script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P06355MH6S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P06355MH6S');
+</script>
+<body>
+    <header>
+        <div id="menu-du-haut">
+            <img id="logo-site" src="/img/logo-wikinyan.png">
+            <table id="table-bar">
+                <tr>
+                    <td tabindex="0"><a class="sansEffet" href="/">Accueil</a></td>
+                    <td tabindex="0"><a class="sansEffet" href="/medalium.html">Médallium</a></td>
+<td tabindex="0"><a class="sansEffet" href="/fandallium.html">Fandallium</a></td>
+                    <td tabindex="0"><a class="sansEffet" href="/inventaire.html">Inventaire</a></td>
+                </tr>
+            </table>
+        </div>
+        <template id="template-div-recommendation-space">
+            <a class="blockProposition">
+                <img class="imgElement">
+                <p class="nomElement">proposition</p>
+            </a>
+        </template>
+        <br>
+        <div id="searchBar">
+            <img id="icone-search" src="/img/search-icon.webp">
+            <input id="input-search" type="text" placeholder="Rechercher..." maxlength="40" autocomplete="one-time-code">
+            <div id="recommendation-space">
+            </div>
+        </div>
+    </header>
+    <h1 id="nom-item">Riz dans une feuille</h1>
+    <img id="icone-item" src="">
+    <div class="div-categorie" id="bloc-categorie-item">
+        <img id="image-categorie-item">
+        <p class="yokai-desc">Catégorie : <a id="categorie-item">Riz</a></p>
+    </div>
+    <div id="partie-description">
+        <h2 class="section-title">Description</h2>
+        <p class="yokai-desc" id="yokai-desc">La description de ce super produit est ici !</p>
+    </div>
+    <br>
+    <div id="effet-item">
+        <h2 class="section-title">Effet de l'objet</h2>
+        <div class="div-categorie" id="block-allyEffect">
+            <img src="/img/ami-icone.png" alt="icone d'ami">
+            <h4>Sur un ami :</h4>
+            <p class="yokai-desc" id="allyEffect-desc">Il est content</p>
+        </div>
+        <div class="div-categorie" id="block-enemyEffect">
+            <img src="/img/ennemie-icone.png" alt="icone d'ennemie">
+            <h4>sur un ennemi :</h4>
+            <p class="yokai-desc" id="enemyEffect-desc">Il est content</p>
+        </div>
+    </div>
+    <br>
+    <div id="prix-item">
+        <h2 class="section-title">Prix</h2>
+        <div class="prix-details">
+            <div class="prix-col" id="block-purchasePrice">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="prix-label">Prix d'achat</span>
+                <span class="prix-valeur" id="purchasePrice-desc">1.30 €</span>
+            </div>
+            <div class="prix-col" id="block-sellingPrice">
+                <i class="fa-solid fa-coins"></i>
+                <span class="prix-label">Prix de vente</span>
+                <span class="prix-valeur" id="sellingPrice-desc">0.65 €</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="partie-bingo-kai">
+        
+    </div>
+
+    <footer>
+    <hr> <div class="footer-social">
+        <h6>Rejoignez <strong>Wikinyan</strong> sur les <strong>réseaux sociaux</strong> !</h6>
+        <div class="liste-element">
+            <a href="https://www.instagram.com/wikinyan/" target="_blank" rel="noopener noreferrer"><img class="icone-resaux-sociaux" src="/img/instagram.webp" alt="Instagram Wikinyan"/></a>
+            <a href="https://discord.gg/A4fxxn9Wdv" target="_blank" rel="noopener noreferrer"><img class="icone-resaux-sociaux" src="/img/discord.jpg" alt="Discord Wikinyan"/></a>
+                <a href="https://www.youtube.com/@Wikinyan" target="_blank" rel="noopener noreferrer"><img class="icone-resaux-sociaux" src="/img/youtube.png" alt="youtube Wikinyan"/></a>
+                <a href="https://www.tiktok.com/@yokaiwatch5.0" target="_blank" rel="noopener noreferrer"><img class="icone-resaux-sociaux" src="/img/tiktok.png" alt="TikTok Wikinyan"/></a>
+        </div>
+    </div>
+
+    <div class="footer-links">
+        <a href="/mentions-legales.html">Mentions Légales</a> | 
+        <a href="/confidentialite.html">Politique de Confidentialité</a> | 
+        <a href="/cookies.html">Gestion des Cookies</a>
+    </div>
+
+    <div class="footer-legal">
+        <p>Contact : <a href="mailto:wikinyan1@gmail.com">wikinyan1@gmail.com</a></p>
+        <p class="disclaimer">
+            Wikinyan est un site de fan non-officiel. Les images et marques Yo-kai Watch appartiennent à <strong>©LEVEL-5 Inc. / Nintendo</strong>. 
+            Ce site n'est ni affilié ni soutenu par ces entités et ne distribue aucun contenu protégé.
+        </p>
+    </div>
+</footer>
+</body>
+</html>
+        <div class="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl">
+            <header class="flex items-center gap-4 border-b border-slate-800 pb-6 mb-6">
+                <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-red-500 to-rose-700 flex items-center justify-center text-3xl shadow-lg shadow-red-500/20">
+                    🔴
+                </div>
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-widest text-red-400">Bingo-kai / Crank-a-kai</span>
+                    <h1 class="text-3xl font-extrabold text-white">Legend Coin</h1>
+                </div>
+            </header>
+
+            <nav class="flex flex-wrap gap-2 mb-8 bg-slate-950/60 p-1.5 rounded-2xl border border-slate-800/80">
+        
+                <button onclick="switchGame('legend-coin', 'yokaiWatch3_bingoKai')" id="btn-legend-coin-yokaiWatch3_bingoKai" class="tab-btn-legend-coin px-5 py-2.5 rounded-xl font-semibold text-sm transition-all bg-red-600 text-white shadow-md">
+                    Yo-kai Watch 3
+                </button>
+            
+            </nav>
+            <div class="space-y-6">
+        <div id="content-legend-coin-yokaiWatch3_bingoKai" class="game-content-legend-coin  space-y-6">
+                    <div class="bg-slate-950/40 rounded-2xl p-5 border border-slate-800 space-y-6">
+                        <div class="border-b border-slate-800/80 pb-3">
+                            <span class="text-xs font-bold uppercase tracking-wider text-red-400">Lieu</span>
+                            <h3 class="text-xl font-extrabold text-white">Granval</h3>
+                        </div>
+                    
+                        <div class="rounded-xl p-4 border text-amber-400 border-amber-500/30 bg-amber-500/5">
+                            <h4 class="text-sm font-bold uppercase tracking-wider mb-3">First prize</h4>
+                            <div class="mb-3"><h5 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Yo-kai</h5><div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+        <a href="/yokais/cruncha" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Cruncha</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/damona" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Damona</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/kyubi" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Kyubi</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/frostail" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Frostail</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/goldenyan" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Goldenyan</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/swelterrier" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Swelterrier</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/auntie-heart" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Auntie Heart</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/eterna" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Eterna</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/count-cavity" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Count Cavity</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/dragon-lord" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Dragon Lord</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/shadow-venoct" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Shadow Venoct</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/devourer" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Devourer</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/kingmera" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Kingmera</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/eyellure" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Eyellure</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/toadal-dude" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Toadal Dude</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/uber-geeko" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Uber Geeko</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/tigappa" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Tigappa</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/unikirin" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Unikirin</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/arachnus" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Arachnus</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/arachnia" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Arachnia</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/mermother" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Mermother</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/nunchucky" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Nunchucky</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/thurston" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Thurston</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/snow-spect-hare" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Snow Spect-hare</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/silver-lining" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Silver Lining</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/el-sharkador" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">El Sharkador</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/tenguriginal" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Tenguriginal</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/inflammaboy" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Inflammaboy!</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/sonic-bam" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Sonic Bam</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/dr-nocturne" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Dr. Nocturne</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/horridjinn" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Horridjinn</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/clodzilla" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Clodzilla</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/frogetmenot" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Frogetmenot</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/little-charrmer" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Little Charrmer</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a></div></div>
+                        </div>
+                        <div class="rounded-xl p-4 border text-slate-300 border-slate-400/30 bg-slate-400/5">
+                            <h4 class="text-sm font-bold uppercase tracking-wider mb-3">Second prize</h4>
+                            <div class="mb-3"><h5 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Yo-kai</h5><div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+        <a href="/yokais/casanuva" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Casanuva</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/komane" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Komane</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/sir-berus" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Sir Berus</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/cuttincheez" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Cuttincheez</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/sgt-burly" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Sgt. Burly</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/lie-in-heart" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Lie-in Heart</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/smogmella" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Smogmella</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/miradox" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Miradox</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/faux-kappa" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Faux Kappa</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/vacuumory" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Vacuumory</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/lappinitup" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Lappinitup</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/naandhi" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Naandhi</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/whirlweasel" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Whirlweasel</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/grainpa" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Grainpa</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/pinkipoo" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Pinkipoo</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/hovernyan" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Hovernyan</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/carniboy" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Carniboy</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/puppynyan" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Puppynyan</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/shedwin" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Shedwin</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/spewart" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Spewart</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a></div></div>
+                        </div>
+                        <div class="rounded-xl p-4 border text-amber-600 border-amber-700/30 bg-amber-700/5">
+                            <h4 class="text-sm font-bold uppercase tracking-wider mb-3">Third prize</h4>
+                            <div class="mb-3"><h5 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Yo-kai</h5><div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+        <a href="/yokais/whispocrates" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Whispocrates</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/qwit" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Q'wit</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/blazion" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Blazion</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/whapir" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Whapir</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/ol-fortune" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Ol' Fortune</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/moskevil" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Moskevil</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/ray-olight" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Ray O'Light</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/puppiccino" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Puppiccino</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/tongue-twister" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Tongue-Twister</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/greengramps" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Greengramps</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/baku" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Baku</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/jibanyan" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Jibanyan</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/komasan" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Komasan</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/komajiro" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Komajiro</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/dismarelda" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Dismarelda</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/snottle" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Snottle</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/push-pup" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Push Pup</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/treetter" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Treetter</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a>
+        <a href="/yokais/messyrai" class="flex items-center gap-3 p-3 bg-slate-800/60 hover:bg-slate-700/80 rounded-xl border border-slate-700/50 transition-all group">
+            <div class="w-10 h-10 rounded-lg bg-slate-900/80 flex items-center justify-center text-lg border border-slate-700/30 group-hover:scale-105 transition-transform">
+                👻
+            </div>
+            <div>
+                <p class="font-medium text-slate-100 group-hover:text-red-400 transition-colors">Messyrai</p>
+                <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">yokai</p>
+            </div>
+        </a></div></div>
+                        </div></div></div>
+            </div>
+        </div>
+
+        <script>
+        function switchGame(coinSlug, gameKey) {
+            document.querySelectorAll('.game-content-' + coinSlug).forEach(el => el.classList.add('hidden'));
+            document.querySelectorAll('.tab-btn-' + coinSlug).forEach(el => {
+                el.classList.remove('bg-red-600', 'text-white', 'shadow-md');
+                el.classList.add('text-slate-400', 'hover:text-white', 'hover:bg-slate-800/50');
+            });
+
+            const selectedContent = document.getElementById('content-' + coinSlug + '-' + gameKey);
+            if(selectedContent) selectedContent.classList.remove('hidden');
+
+            const selectedBtn = document.getElementById('btn-' + coinSlug + '-' + gameKey);
+            if(selectedBtn) {
+                selectedBtn.classList.remove('text-slate-400', 'hover:text-white', 'hover:bg-slate-800/50');
+                selectedBtn.classList.add('bg-red-600', 'text-white', 'shadow-md');
+            }
+        }
+        </script>
+        
