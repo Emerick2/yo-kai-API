@@ -350,5 +350,111 @@
         ]
     },
     "description_en": "An impatient Yo-kai who's always antsy. You'll find him first in line whenever anything new is released.",
-    "nom_en": "Wydeawake"
+    "nom_en": "Wydeawake",
+    "rang_yww": "C",
+    "tribue_yww": "Usurakage",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "curry",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "avantage_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "stats_initiale_yww": {
+        "hp": 45,
+        "str": 28,
+        "spr": 7,
+        "def": 15,
+        "spd": 22
+    },
+    "stats_max_yww": {
+        "hp": 366,
+        "str": 207,
+        "spr": 56,
+        "def": 114,
+        "spd": 147
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "ワンツーパンチ",
+                "_en": "one two punch",
+                "_fr": "un deux coups de poing"
+            },
+            "explication": {
+                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+                "_en": "[Power: 25×2/Blow] Attack twice",
+                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "竜巻の術",
+                "_en": "Tornado no Jutsu",
+                "_fr": "Tornade sans Jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 風属性】 強力な風の妖術を使う。",
+                "_en": "[Power: 50 / Wind attribute] Uses powerful wind magic.",
+                "_fr": "[Puissance : 50 / Attribut vent] Utilise une puissante magie du vent."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "せっかちパンチ",
+                "_en": "Impatient punch",
+                "_fr": "Coup de poing impatient"
+            },
+            "pouvoir": "140",
+            "explication": {
+                "_jp": "敵単体をパンチする。当たった妖怪は味方をすぐにこうげきする。",
+                "_en": "Punch a single enemy. The monster that is hit will immediately destroy its allies.",
+                "_fr": "Frappez un seul ennemi. Le monstre touché détruira immédiatement ses alliés."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "せっかちにする",
+                "_en": "be impatient",
+                "_fr": "être impatient"
+            },
+            "explication": {
+                "_jp": "【混乱】 とりつかれた妖怪は自分の番が待ちきれなくなり味方をすぐにこうげきする。",
+                "_en": "[Confusion] A possessed monster can't wait for its turn and immediately attacks its allies.",
+                "_fr": "[Confusion] Un monstre possédé ne peut pas attendre son tour et attaque immédiatement ses alliés."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "「もう待てんし！」が口ぐせの せっかちな天使妖怪。 それなのに 気になる新製品の発売日には 行列に並びたがる。",
+            "_en": "An impatient angel monster whose habit is \"I can't wait any longer!\" Yet, people still want to wait in line on the release date of a new product they're interested in.",
+            "_fr": "Un monstre ange impatient dont l'habitude est \"Je ne peux plus attendre !\" Pourtant, les gens veulent toujours faire la queue pour la date de sortie d'un nouveau produit qui les intéresse."
+        }
+    ]
 }

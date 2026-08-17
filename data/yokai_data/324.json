@@ -302,5 +302,117 @@
         ]
     },
     "description_en": "If you hear annoying tunes leaking from someone's headphones, you can bet this busy little Yo-kai's behind it.",
-    "nom_en": "Harry Barry"
+    "nom_en": "Harry Barry",
+    "rang_yww": "E",
+    "tribue_yww": "Bukimi",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "curry",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
+    },
+    "avantage_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "stats_initiale_yww": {
+        "hp": 33,
+        "str": 15,
+        "spr": 6,
+        "def": 5,
+        "spd": 24
+    },
+    "stats_max_yww": {
+        "hp": 275,
+        "str": 145,
+        "spr": 66,
+        "def": 52,
+        "spd": 188
+    },
+    "moyens_obtention_yww": [
+        {
+            "_jp": "1つ星コイン",
+            "_en": "1 star coin",
+            "_fr": "Pièce d'une étoile"
+        }
+    ],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "たたく",
+                "_en": "knock",
+                "_fr": "frappe"
+            },
+            "explication": {
+                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "あられの術",
+                "_en": "Hail no jutsu",
+                "_fr": "Salut, pas de jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 氷属性】 氷の妖術を使う。",
+                "_en": "[Power: 30 / Ice attribute] Uses ice magic.",
+                "_fr": "[Puissance : 30 / Attribut Glace] Utilise la magie de la glace."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "音漏れロックフェス",
+                "_en": "sound leak rock festival",
+                "_fr": "festival de rock avec fuite sonore"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "マラカスからもれる騒音で敵全員のHPがだんだん減っていく。",
+                "_en": "All enemies' HP gradually decreases due to the noise leaking from the maracas.",
+                "_fr": "Les PV de tous les ennemis diminuent progressivement en raison du bruit qui s'échappe des maracas."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "騒音をひびかせる",
+                "_en": "make a noise",
+                "_fr": "faire du bruit"
+            },
+            "explication": {
+                "_jp": "【HP減少】 とりつかれた妖怪は音もれする騒音が気になりHPがだんだん減ってしまう。",
+                "_en": "[HP Decrease] A possessed youkai becomes bothered by the noise that leaks out, and its HP gradually decreases.",
+                "_fr": "[Diminution des PV] Un youkai possédé est gêné par le bruit qui s'échappe et ses PV diminuent progressivement."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "イヤホンで 音楽を きいている人にとりつき 音楽を外にダダ漏れにする。 電車の中では とくに とりつかれている人が多い。",
+            "_en": "It attaches itself to people who are listening to music through earphones and makes the music leak out. Many people are especially obsessed with it on the train.",
+            "_fr": "Il s’attache aux personnes qui écoutent de la musique avec des écouteurs et fait s’échapper la musique. Beaucoup de gens en sont particulièrement obsédés dans le train."
+        }
+    ]
 }

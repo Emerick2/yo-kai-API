@@ -112,5 +112,112 @@
         ]
     },
     "description_en": "The proprietress of a famous Yo-kai inn. She provides such a good service, she has trouble getting customers to leave!",
-    "nom_en": "Swaycorn"
+    "nom_en": "Swaycorn",
+    "rang_yww": "A",
+    "tribue_yww": "Pokapoka",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "Tempura",
+    "nourriture_favorite": "Tempura",
+    "attitude_spécifique_yww": {
+        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "avantage_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "stats_initiale_yww": {
+        "hp": 59,
+        "str": 9,
+        "spr": 41,
+        "def": 17,
+        "spd": 19
+    },
+    "stats_max_yww": {
+        "hp": 357,
+        "str": 57,
+        "spr": 254,
+        "def": 133,
+        "spd": 164
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "ワンツーパンチ",
+                "_en": "one two punch",
+                "_fr": "un deux coups de poing"
+            },
+            "explication": {
+                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+                "_en": "[Power: 25×2/Blow] Attack twice",
+                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "極楽の術",
+                "_en": "The art of paradise",
+                "_fr": "L'art du paradis"
+            },
+            "explication": {
+                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "心づくしのおもてなし",
+                "_en": "Heartfelt hospitality",
+                "_fr": "Hospitalité sincère"
+            },
+            "pouvoir": "120",
+            "explication": {
+                "_jp": "味方全員のHPを回復する",
+                "_en": "Recovers HP of all allies",
+                "_fr": "Récupère les HP de tous les alliés"
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "最高のサービス",
+                "_en": "best service",
+                "_fr": "meilleur service"
+            },
+            "explication": {
+                "_jp": "【全ステアップ】 最高のサービスで 全ステータスがアップ",
+                "_en": "[All status up] Improve all status with the best service",
+                "_fr": "[Tous les statuts en place] Améliorez tous les statuts avec le meilleur service"
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "老舗旅館を取り仕切る妖怪女将。 究極のおもてなしコースで 泊まった妖怪客は あまりの 大満足で昇天してしまうので リピーターが少ないのが悩み。",
+            "_en": "A monster landlady who runs a long-established inn. The problem is that there are not many repeat guests, as the monster guests who stay on the ultimate hospitality course are so satisfied that they ascend to heaven.",
+            "_fr": "Une propriétaire monstre qui dirige une auberge établie de longue date. Le problème est qu'il n'y a pas beaucoup de clients réguliers, car les invités monstres qui restent dans le cours d'hospitalité ultime sont si satisfaits qu'ils montent au paradis."
+        }
+    ]
 }

@@ -417,5 +417,111 @@
         ]
     },
     "description_en": "Daiz just stares off into space, sometimes not moving for three whole days. What's he thinking about all that time...?",
-    "nom_en": "Komane"
+    "nom_en": "Komane",
+    "rang_yww": "C",
+    "tribue_yww": "Nyororon",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "Dashi",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zuno, (Attaque sur les alliés) Coopératif, type Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
+    },
+    "avantage_yww": {
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
+    },
+    "stats_initiale_yww": {
+        "hp": 45,
+        "str": 4,
+        "spr": 12,
+        "def": 3,
+        "spd": 44
+    },
+    "stats_max_yww": {
+        "hp": 378,
+        "str": 44,
+        "spr": 146,
+        "def": 36,
+        "spd": 234
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "あてみ",
+                "_en": "Atemi",
+                "_fr": "Atémi"
+            },
+            "explication": {
+                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "吸収の術",
+                "_en": "absorption technique",
+                "_fr": "technique d'absorption"
+            },
+            "explication": {
+                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "ボーっとしてました。",
+                "_en": "I was in a daze.",
+                "_fr": "J'étais dans un état second."
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "敵全員にボーっとするオーラをあびせる。当たった妖怪はなかなか行動しなくなる。",
+                "_en": "Casts a dazed aura on all enemies. The monster that is hit will not take any action.",
+                "_fr": "Projette une aura étourdie sur tous les ennemis. Le monstre touché n’effectuera aucune action."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "おおらかにする",
+                "_en": "be generous",
+                "_fr": "être généreux"
+            },
+            "explication": {
+                "_jp": "【全ステアップ】 とりつかれた妖怪はいい意味でおおらかな心になり全ステータスがアップする。",
+                "_en": "[All stats up] A possessed monster becomes more generous in a good way, and all stats increase.",
+                "_fr": "[Toutes les statistiques en hausse] Un monstre possédé devient plus généreux dans le bon sens, et toutes les statistiques augmentent."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "ふだんは ボ～っとしているクセに 人に見つかると おそろしい速さで逃げていく。 １００メートル走は８秒台。",
+            "_en": "It usually has a dazed habit, but if someone spots it, it runs away at frightening speed. The 100 meter dash is in the 8 second range.",
+            "_fr": "Il a généralement une habitude étourdie, mais si quelqu’un le repère, il s’enfuit à une vitesse effrayante. Le tiret de 100 mètres se situe dans la plage de 8 secondes."
+        }
+    ]
 }

@@ -100,5 +100,112 @@
         ]
     },
     "description_en": "Breaks out in song and dance whenever he gets overwhelmed. This appears to happen very frequently.",
-    "nom_en": "Nervous Rex"
+    "nom_en": "Nervous Rex",
+    "rang_yww": "C",
+    "tribue_yww": "Bukimi",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "fruit de mer",
+    "nourriture_favorite": "fruit de mer",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
+    },
+    "avantage_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "stats_initiale_yww": {
+        "hp": 40,
+        "str": 13,
+        "spr": 23,
+        "def": 5,
+        "spd": 27
+    },
+    "stats_max_yww": {
+        "hp": 342,
+        "str": 93,
+        "spr": 163,
+        "def": 40,
+        "spd": 205
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "ぶったたく",
+                "_en": "hit",
+                "_fr": "frapper"
+            },
+            "explication": {
+                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
+                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "吸収の術",
+                "_en": "absorption technique",
+                "_fr": "technique d'absorption"
+            },
+            "explication": {
+                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "テンパルンバサンバ",
+                "_en": "Tempa Rumba Samba",
+                "_fr": "Tempa Rumba Samba"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "敵全員をテンパらせる。テンパった敵は味方をすぐにこうげきする。",
+                "_en": "Temper all enemies. Tempered enemies will quickly attack their allies.",
+                "_fr": "Tempérez tous les ennemis. Les ennemis tempérés attaqueront rapidement leurs alliés."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "テンパらせる",
+                "_en": "temper",
+                "_fr": "caractère"
+            },
+            "explication": {
+                "_jp": "【混乱】 とりつかれた妖怪はテンパってしまい味方をすぐにこうげきする。",
+                "_en": "[Confusion] A possessed monster becomes angry and immediately attacks its allies.",
+                "_fr": "[Confusion] Un monstre possédé se met en colère et attaque immédiatement ses alliés."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "やることが多すぎて 焦りが 頂点に達してしまった妖怪。 突然マラカスを持ち出して ルンバを踊りだしたので 相当 いっぱいいっぱいなのだろう。",
+            "_en": "A monster whose impatience has reached its peak due to having too much to do. He suddenly brought out his maracas and started dancing the rumba, so it must have been quite full.",
+            "_fr": "Un monstre dont l'impatience a atteint son paroxysme car il y a trop de choses à faire. Il a soudainement sorti ses maracas et s'est mis à danser la rumba, donc ça devait être assez plein."
+        }
+    ]
 }

@@ -23,7 +23,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/barrakeda.png",
     "numero": "377",
-    
     "attaques": [
         {
             "type": "Attaque",
@@ -397,5 +396,112 @@
             "Пронзачас"
         ]
     },
-    "nom_en": "Panja Pupil"
+    "nom_en": "Panja Pupil",
+    "rang_yww": "B",
+    "tribue_yww": "Isamashi",
+    "rôle_yww": "réservoir",
+    "plat_préféré_yww": "fruit de mer",
+    "nourriture_favorite": "fruit de mer",
+    "attitude_spécifique_yww": {
+        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
+    },
+    "avantage_yww": {
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
+    },
+    "stats_initiale_yww": {
+        "hp": 66,
+        "str": 43,
+        "spr": 6,
+        "def": 17,
+        "spd": 6
+    },
+    "stats_max_yww": {
+        "hp": 456,
+        "str": 268,
+        "spr": 48,
+        "def": 171,
+        "spd": 55
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "閃光ぎり",
+                "_en": "Just a flash of light",
+                "_fr": "Juste un éclair de lumière"
+            },
+            "explication": {
+                "_jp": "【威力:24×3 / 打撃】 3回攻撃を行う",
+                "_en": "[Power: 24×3/Blow] Attacks 3 times",
+                "_fr": "[Puissance : 24×3/Coup] Attaque 3 fois"
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "水流の術",
+                "_en": "Water flow technique",
+                "_fr": "Technique d'écoulement de l'eau"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 水属性】 強力な水の妖術を使う。",
+                "_en": "[Power: 50 / Water attribute] Uses powerful water magic.",
+                "_fr": "[Puissance : 50 / Attribut Eau] Utilise une puissante magie de l'eau."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "ひまつぶし斬り",
+                "_en": "Time-killing slash",
+                "_fr": "Slash qui tue le temps"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "調査中。",
+                "_en": "Under investigation.",
+                "_fr": "Sous enquête."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "うなぎのスタミナ",
+                "_en": "Eel stamina",
+                "_fr": "Endurance de l'anguille"
+            },
+            "explication": {
+                "_jp": "【全ステアップ】 とりつかれた妖怪はうなぎ特有のスタミナ成分で全ステータスがアップする。",
+                "_en": "[All stats up] A possessed monster will have all stats up due to the eel's unique stamina component.",
+                "_fr": "[Toutes les statistiques augmentées] Un monstre possédé aura toutes ses statistiques augmentées en raison de la composante d'endurance unique de l'anguille."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "すさまじく 強くなりすぎた ひつま武士。 相手をしてくれる人がおらず ひまつぶしに 勝負を挑んでくる。",
+            "_en": "Hitsuma Samurai has become extremely strong. Since there is no one to play with, he challenges himself to a fight to kill time.",
+            "_fr": "Hitsuma Samurai est devenu extrêmement fort. Puisqu’il n’y a personne avec qui jouer, il se lance un défi pour tuer le temps."
+        }
+    ]
 }

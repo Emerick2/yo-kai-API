@@ -139,5 +139,112 @@
         ]
     },
     "description_en": "An intrepid reporter who rushes to the scene when someone's in pain, and is quick to pen a lurid story.",
-    "nom_en": "DisliKing"
+    "nom_en": "DisliKing",
+    "rang_yww": "C",
+    "tribue_yww": "Usurakage",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "ソフトクリーム",
+    "nourriture_favorite": "ソフトクリーム",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "avantage_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "stats_initiale_yww": {
+        "hp": 55,
+        "str": 18,
+        "spr": 19,
+        "def": 15,
+        "spd": 16
+    },
+    "stats_max_yww": {
+        "hp": 426,
+        "str": 124,
+        "spr": 164,
+        "def": 95,
+        "spd": 133
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "こづく",
+                "_en": "poked you",
+                "_fr": "vous a Poké"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "吸収の術",
+                "_en": "absorption technique",
+                "_fr": "technique d'absorption"
+            },
+            "explication": {
+                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "ねつぞうニュース速報",
+                "_en": "Netsuzo News Breaking News",
+                "_fr": "Netsuzo Nouvelles Dernières nouvelles"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "黒歴史を大発表し敵全員の心の古傷が痛みすばやさが大ダウンする",
+                "_en": "The dark history will be announced, and the old wounds in the hearts of all enemies will be hurt, and their speed will be greatly reduced.",
+                "_fr": "La sombre histoire sera annoncée, les vieilles blessures dans le cœur de tous les ennemis seront blessées et leur vitesse sera considérablement réduite."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "イタい思い出をエグる",
+                "_en": "Bring back bad memories",
+                "_fr": "Ramenez des souvenirs douloureux"
+            },
+            "explication": {
+                "_jp": "【HP減少】 とりつかれた妖怪はイタい過去をえぐられてHPがどんどん減ってしまう。",
+                "_en": "[HP Decrease] A possessed monster has a painful past and its HP gradually decreases.",
+                "_fr": "[Diminution des PV] Un monstre possédé a un passé douloureux et ses PV diminuent progressivement."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "どこかで誰かがアイタタタ～な イタい発言をすると すぐさま 現場に駆けつけ 新聞の記事に してしまう。悪意たっぷりの 見出しに食いつく読者も多い。",
+            "_en": "When someone somewhere makes an outrageous remark, they immediately rush to the scene and turn it into a newspaper article. Many readers are drawn to malicious headlines.",
+            "_fr": "Quand quelqu’un quelque part fait une remarque scandaleuse, il se précipite immédiatement sur les lieux et en fait un article de journal. De nombreux lecteurs sont attirés par les titres malveillants."
+        }
+    ]
 }

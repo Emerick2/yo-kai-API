@@ -10,7 +10,7 @@
     "Vitesse": "181",
     "Description": "Esprit d'un tambour japonais qui rêve de faire résonner son rythme unique dans le monde entier.",
     "élément": "Restoration",
-    "Rôle": "",
+    "Rôle": "guérisseur",
     "Biographie": "",
     "étimologie": "",
     "origine": "",
@@ -198,5 +198,112 @@
         ]
     },
     "description_en": "The spirit of a well-used Japanese drum. His big ambition is to bring his unique rhythms to the world.",
-    "nom_en": "Pallysol"
+    "nom_en": "Pallysol",
+    "rang_yww": "C",
+    "tribue_yww": "Pokapoka",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "collation",
+    "nourriture_favorite": "collation",
+    "attitude_spécifique_yww": {
+        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "avantage_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "stats_initiale_yww": {
+        "hp": 43,
+        "str": 11,
+        "spr": 25,
+        "def": 13,
+        "spd": 22
+    },
+    "stats_max_yww": {
+        "hp": 343,
+        "str": 68,
+        "spr": 182,
+        "def": 103,
+        "spd": 181
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "あてみ",
+                "_en": "Atemi",
+                "_fr": "Atémi"
+            },
+            "explication": {
+                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "回復の術",
+                "_en": "art of recovery",
+                "_fr": "l'art de la récupération"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
+                "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
+                "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "どんちゃんさわぎ！",
+                "_en": "Donchan Sawagi!",
+                "_fr": "Donchan Sawagi!"
+            },
+            "pouvoir": "110",
+            "explication": {
+                "_jp": "太鼓を叩いてド派手な花火を呼び出し範囲内にダメージを与える。",
+                "_en": "Beats the drum and summons flashy fireworks, dealing damage within range.",
+                "_fr": "Battre le tambour et invoquer des feux d'artifice flashy, infligeant des dégâts à portée."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "太鼓の達人パワー",
+                "_en": "Taiko no Tatsujin Power",
+                "_fr": "Pouvoir Taiko no Tatsujin"
+            },
+            "explication": {
+                "_jp": "【ちからアップ】 とりつかれた妖怪は太鼓の達人パワーで ちからが超アップする。",
+                "_en": "[Power Up] The power of the possessed monster is greatly increased by the Taiko Master's power.",
+                "_fr": "[Power Up] La puissance du monstre possédé est considérablement augmentée par la puissance du Maître Taiko."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "丹精こめて作られた和太鼓に 魂が宿り 妖怪になった姿。 和太鼓の魅力を広めるために いろいろなお祭りに参加して 太鼓の音色をひびかせている。",
+            "_en": "A Japanese drum made with great care has a soul and becomes a monster. In order to spread the appeal of Japanese drums, they participate in various festivals and make the sound of the drums resonate.",
+            "_fr": "Un tambour japonais fabriqué avec beaucoup de soin a une âme et devient un monstre. Afin de répandre l'attrait des tambours japonais, ils participent à divers festivals et font résonner le son des tambours."
+        }
+    ]
 }

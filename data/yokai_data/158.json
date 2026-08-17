@@ -23,7 +23,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/emousstik.png",
     "numero": "142",
-
     "attaques": [
         {
             "type": "Attaque",
@@ -389,5 +388,112 @@
         ]
     },
     "description_en": "This nasty Yo-kai can drop you into the depths of despair. You cannot cheer up if he's nearby.",
-    "nom_en": "Payn"
+    "nom_en": "Payn",
+    "rang_yww": "C",
+    "tribue_yww": "Usurakage",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "jus",
+    "nourriture_favorite": "jus",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "氷属性",
+        "_en": "氷属性",
+        "_fr": "氷属性"
+    },
+    "avantage_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "stats_initiale_yww": {
+        "hp": 44,
+        "str": 6,
+        "spr": 23,
+        "def": 12,
+        "spd": 27
+    },
+    "stats_max_yww": {
+        "hp": 354,
+        "str": 74,
+        "spr": 176,
+        "def": 88,
+        "spd": 195
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "こうげき",
+                "_fr": "こうげき"
+            },
+            "nom": {
+                "_jp": "きゅうしょづき",
+                "_en": "きゅうしょづき",
+                "_fr": "きゅうしょづき"
+            },
+            "explication": {
+                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "吸収の術",
+                "_en": "absorption technique",
+                "_fr": "technique d'absorption"
+            },
+            "explication": {
+                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "ジャネガウェーブ",
+                "_en": "Janega Wave",
+                "_fr": "Janega Vague"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "邪悪な怪音波を敵全員におみまいし まもりを大ダウンさせる。",
+                "_en": "邪悪な怪音波を敵全員におみまいし まもりを大ダウンさせる。",
+                "_fr": "邪悪な怪音波を敵全員におみまいし まもりを大ダウンさせる。"
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "ネガティブにする",
+                "_en": "make it negative",
+                "_fr": "rends-le négatif"
+            },
+            "explication": {
+                "_jp": "【すばやさダウン】 とりつかれた妖怪はネガティブになり すばやさが大ダウンする。",
+                "_en": "[Speed ​​reduction] A possessed monster becomes negative and its speed is greatly reduced.",
+                "_fr": "[Réduction de vitesse] Un monstre possédé devient négatif et sa vitesse est fortement réduite."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "とりついた人の心を どん底に落とす邪悪な妖怪。 いなくならないかぎり 自力で立ち直ることは不可能。 それほど危険な妖怪。",
+            "_en": "とりついた人の心を どん底に落とす邪悪な妖怪。 いなくならないかぎり 自力で立ち直ることは不可能。 それほど危険な妖怪。",
+            "_fr": "とりついた人の心を どん底に落とす邪悪な妖怪。 いなくならないかぎり 自力で立ち直ることは不可能。 それほど危険な妖怪。"
+        }
+    ]
 }

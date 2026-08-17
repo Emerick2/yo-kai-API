@@ -218,5 +218,111 @@
         ]
     },
     "description_en": "A Yo-kai formed from spirits who've fallen in battle. He struggles to keep a lid on all of his incredible power.",
-    "nom_en": "Snobetty"
+    "nom_en": "Snobetty",
+    "rang_yww": "S",
+    "tribue_yww": "Usurakage",
+    "rôle_yww": "réservoir",
+    "plat_préféré_yww": "sarrasin",
+    "attitude_spécifique_yww": {
+        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "avantage_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "stats_initiale_yww": {
+        "hp": 55,
+        "str": 27,
+        "spr": 27,
+        "def": 23,
+        "spd": 21
+    },
+    "stats_max_yww": {
+        "hp": 462,
+        "str": 145,
+        "spr": 145,
+        "def": 282,
+        "spd": 143
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "骨くだき",
+                "_en": "broken bones",
+                "_fr": "os cassés"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 50/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 50/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "いん石の術",
+                "_en": "Meteor no jutsu",
+                "_fr": "Météore pas de jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:70 / 土属性】 強力な土の妖術を使う。",
+                "_en": "[Power: 70 / Earth attribute] Uses powerful earth magic.",
+                "_fr": "[Puissance : 70 / Attribut Terre] Utilise une puissante magie terrestre."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "まっくろどんどろん",
+                "_en": "Black and white",
+                "_fr": "Noir et blanc"
+            },
+            "pouvoir": "270",
+            "explication": {
+                "_jp": "巨大な暗黒の玉を作り出し 敵全体にダメージを与える。",
+                "_en": "Creates a huge dark ball that damages all enemies.",
+                "_fr": "Crée une énorme boule sombre qui endommage tous les ennemis."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "どんどろの呪い",
+                "_en": "curse of mud",
+                "_fr": "malédiction de la boue"
+            },
+            "explication": {
+                "_jp": "【全ステダウン】 とりつかれた妖怪は怖ろしいどんどろの呪いで全ステータスが大ダウンする。",
+                "_en": "[All status down] A possessed monster will have all its stats significantly reduced by a terrifying mud curse.",
+                "_fr": "[Tous les statuts baissés] Un monstre possédé verra toutes ses statistiques considérablement réduites par une terrifiante malédiction de boue."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "大きな戦争があったときに 戦場で散った妖怪たちの魂が 集まって生まれた妖怪。 強大な力が 制御できず 大きな釜に封印されていた。",
+            "_en": "A yokai that was born from the souls of the yokai that were scattered on the battlefield during a major war. The immense power could not be controlled and was sealed in a large cauldron.",
+            "_fr": "Un yokai né des âmes des yokai dispersées sur le champ de bataille lors d'une guerre majeure. L’immense pouvoir ne pouvait pas être contrôlé et était enfermé dans un grand chaudron."
+        }
+    ]
 }

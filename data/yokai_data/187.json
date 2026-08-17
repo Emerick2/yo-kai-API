@@ -23,7 +23,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/kongel.png",
     "numero": "175",
-
     "attaques": [
         {
             "type": "Attaque",
@@ -356,5 +355,112 @@
         ]
     },
     "description_en": "This Yo-kai has strong ice power by himself. Ice will gradually encase whatever he touches.",
-    "nom_en": "Slush"
+    "nom_en": "Slush",
+    "rang_yww": "B",
+    "tribue_yww": "Bukimi",
+    "rôle_yww": "réservoir",
+    "plat_préféré_yww": "jus",
+    "nourriture_favorite": "jus",
+    "attitude_spécifique_yww": {
+        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
+    },
+    "avantage_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "stats_initiale_yww": {
+        "hp": 52,
+        "str": 7,
+        "spr": 31,
+        "def": 17,
+        "spd": 24
+    },
+    "stats_max_yww": {
+        "hp": 430,
+        "str": 62,
+        "spr": 204,
+        "def": 144,
+        "spd": 145
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "あてみ",
+                "_en": "Atemi",
+                "_fr": "Atémi"
+            },
+            "explication": {
+                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "吹雪の術",
+                "_en": "Fubuki no Jutsu",
+                "_fr": "Fubuki no Jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:70 / 氷属性】 強力な氷の妖術を使う。",
+                "_en": "[Power: 70 / Ice attribute] Uses powerful ice magic.",
+                "_fr": "[Puissance : 70 / Attribut Glace] Utilise une puissante magie de glace."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "あられ流星弾",
+                "_en": "hail meteor bullet",
+                "_fr": "grêle balle de météore"
+            },
+            "pouvoir": "150",
+            "explication": {
+                "_jp": "流星のようにあられをふらせ範囲内にダメージを与える。",
+                "_en": "Spreads hail like a meteor, dealing damage within range.",
+                "_fr": "Se propage comme un météore, infligeant des dégâts à portée."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "カチコチにする",
+                "_en": "make it sticky",
+                "_fr": "rends-le collant"
+            },
+            "explication": {
+                "_jp": "【ちからダウン】 とりつかれた妖怪はさむさで体がかじかんで ちからが大ダウンする。",
+                "_en": "[Power down] The possessed monster becomes cold and stiff, and its power drops significantly.",
+                "_fr": "[Mise hors tension] Le monstre possédé devient froid et raide, et sa puissance diminue considérablement."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "一匹でも 強力な氷の力を持った妖怪。 冷気と氷のつぶにあたると その部分から 凍ってしまうぞ。",
+            "_en": "Even just one monster has the power of ice. If you hit the cold air and ice cubes, that part will freeze.",
+            "_fr": "Même un seul monstre possède le pouvoir de la glace. Si vous frappez l’air froid et les glaçons, cette partie gèlera."
+        }
+    ]
 }

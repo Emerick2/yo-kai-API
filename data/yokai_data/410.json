@@ -280,5 +280,111 @@
         ]
     },
     "description_en": "One of Momonyan's servants. He's the healer on the team, but he often forgets to perform this duty.",
-    "nom_en": "Momonyan"
+    "nom_en": "Momonyan",
+    "rang_yww": "B",
+    "tribue_yww": "Pokapoka",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "Chocobo",
+    "attitude_spécifique_yww": {
+        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "avantage_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "stats_initiale_yww": {
+        "hp": 40,
+        "str": 9,
+        "spr": 34,
+        "def": 16,
+        "spd": 22
+    },
+    "stats_max_yww": {
+        "hp": 333,
+        "str": 49,
+        "spr": 233,
+        "def": 126,
+        "spd": 156
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "こづく",
+                "_en": "poked you",
+                "_fr": "vous a Poké"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "極楽の術",
+                "_en": "The art of paradise",
+                "_fr": "L'art du paradis"
+            },
+            "explication": {
+                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "鳴かズバ撃タレ舞",
+                "_en": "Naruka Zuba Shooting Sauce Dance",
+                "_fr": "Danse de la sauce de tir Naruka Zuba"
+            },
+            "pouvoir": "22×5",
+            "explication": {
+                "_jp": "きびだんごパワーで敵全体をけりまくりダメージを与える。",
+                "_en": "Kick all enemies with Kibidango power and deal damage.",
+                "_fr": "Frappez tous les ennemis avec le pouvoir Kibidango et infligez des dégâts."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "キジっぽくする",
+                "_en": "Make it look like a pheasant",
+                "_fr": "Faites-le ressembler à un faisan"
+            },
+            "explication": {
+                "_jp": "【回復】 とりつかれた妖怪はキジっぽい華やかさを得てHPが少しずつ回復する。",
+                "_en": "[Recovery] The possessed monster gains a pheasant-like appearance and its HP gradually recovers.",
+                "_fr": "[Récupération] Le monstre possédé acquiert une apparence semblable à celle d'un faisan et ses PV récupèrent progressivement."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "モモタロニャンの家来の一羽。 マイペースないやし系妖怪で チームの回復担当でもある。 マイペースゆえに 回復を忘れ みんなをハラハラさせる。",
+            "_en": "One of Momotaronyan's servants. A self-paced healing monster who is also in charge of the team's recovery. Because of his own pace, he forgets to recover and makes everyone nervous.",
+            "_fr": "L'un des serviteurs de Momotaronyan. Un monstre guérisseur à son rythme qui est également en charge de la récupération de l'équipe. A cause de son propre rythme, il oublie de récupérer et rend tout le monde nerveux."
+        }
+    ]
 }

@@ -369,5 +369,111 @@
         ]
     },
     "description_en": "If you catch a glimpse of Skreek, just run. He can throw you into the deepest pits of despair.",
-    "nom_en": "Buhu"
+    "nom_en": "Buhu",
+    "rang_yww": "A",
+    "tribue_yww": "Bukimi",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "pain",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "avantage_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "stats_initiale_yww": {
+        "hp": 50,
+        "str": 6,
+        "spr": 36,
+        "def": 20,
+        "spd": 28
+    },
+    "stats_max_yww": {
+        "hp": 436,
+        "str": 51,
+        "spr": 237,
+        "def": 130,
+        "spd": 169
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "こづく",
+                "_en": "poked you",
+                "_fr": "vous a Poké"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "嵐の術",
+                "_en": "Arashi no Jutsu",
+                "_fr": "Arashi no Jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:70 / 風属性】 強力な風の妖術を使う。",
+                "_en": "[Power: 70 / Wind attribute] Uses powerful wind magic.",
+                "_fr": "[Puissance : 70 / Attribut Vent] Utilise une puissante magie du vent."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "奈落へＧＯ！",
+                "_en": "Go to the abyss!",
+                "_fr": "Allez à l'abîme !"
+            },
+            "pouvoir": "95",
+            "explication": {
+                "_jp": "絶望的な呪いを正面の敵に発射する。全ステータスをダウンさせる効果もある。",
+                "_en": "Fires a desperate curse at the enemy in front of you. It also has the effect of lowering all stats.",
+                "_fr": "Lance une malédiction désespérée sur l'ennemi devant vous. Cela a également pour effet de baisser toutes les statistiques."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "絶望させる",
+                "_en": "make you despair",
+                "_fr": "te désespérer"
+            },
+            "explication": {
+                "_jp": "【おさぼり】 とりつかれた妖怪は人生に絶望しなかなか行動しなくなる。",
+                "_en": "[Osabori] A possessed monster despairs of life and becomes slow to act.",
+                "_fr": "[Osabori] Un monstre possédé désespère de la vie et devient lent à agir."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "死神鳥の姿を見かけたら すぐに逃げたほうがいい。 とりついた人を 絶望のどん底につき落とし 戻って来られないからだ。",
+            "_en": "If you see a Grim Reaper bird, you should run away immediately. This is because the person who is possessed by it falls into the depths of despair and cannot come back.",
+            "_fr": "Si vous voyez un oiseau Faucheuse, vous devez vous enfuir immédiatement. C’est parce que la personne qui en est possédée tombe dans les profondeurs du désespoir et ne peut pas revenir."
+        }
+    ]
 }

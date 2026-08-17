@@ -23,7 +23,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/ralbouc.png",
     "numero": "033",
-    
     "attaques": [
         {
             "type": "Attaque",
@@ -432,5 +431,112 @@
         ]
     },
     "description_en": "N'more gets bored of things quickly. Some say his cool brows and beard grew from his boredom with shaving.",
-    "nom_en": "D'wanna"
+    "nom_en": "D'wanna",
+    "rang_yww": "C",
+    "tribue_yww": "Fushigi",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "hamburger",
+    "nourriture_favorite": "hamburger",
+    "attitude_spécifique_yww": {
+        "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
+        "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "avantage_yww": {
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
+    },
+    "stats_initiale_yww": {
+        "hp": 39,
+        "str": 8,
+        "spr": 21,
+        "def": 9,
+        "spd": 33
+    },
+    "stats_max_yww": {
+        "hp": 307,
+        "str": 100,
+        "spr": 182,
+        "def": 84,
+        "spd": 179
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "ぶったたく",
+                "_en": "hit",
+                "_fr": "frapper"
+            },
+            "explication": {
+                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
+                "_fr": "[Puissance : 35/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "回復の術",
+                "_en": "art of recovery",
+                "_fr": "l'art de la récupération"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
+                "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
+                "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "やめはめ波",
+                "_en": "Yamehameha",
+                "_fr": "Yamehameha"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "調査中。",
+                "_en": "Under investigation.",
+                "_fr": "Sous enquête."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "ため息をつかせる",
+                "_en": "sigh",
+                "_fr": "soupir"
+            },
+            "explication": {
+                "_jp": "【ちからダウン】 とりつかれた妖怪はため息ばかりついて ちからが大ダウンする。",
+                "_en": "[Power down] The possessed youkai just sighs and its power goes down.",
+                "_fr": "[Power Down] Le yôkai possédé soupire et sa puissance diminue."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "なんでもすぐに あきてしまう和尚。 立派なマユゲとヒゲだが 実は 単にめんどくさくて 伸び放題なだけというウワサ。",
+            "_en": "A monk who gets tired of everything quickly. Although the eyebrows and beard are splendid, there are rumors that they are just a pain in the ass and can grow out at will.",
+            "_fr": "Un moine qui se lasse vite de tout. Bien que les sourcils et la barbe soient splendides, des rumeurs courent selon lesquelles ils ne sont qu'un emmerdeur et peuvent pousser à volonté."
+        }
+    ]
 }

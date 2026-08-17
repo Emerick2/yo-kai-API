@@ -317,5 +317,111 @@
         ]
     },
     "description_en": "This god of recollection can use his odd suction device to recover memories once thought lost.",
-    "nom_en": "Strongnek"
+    "nom_en": "Strongnek",
+    "rang_yww": "A",
+    "tribue_yww": "Nyororon",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "sarrasin",
+    "attitude_spécifique_yww": {
+        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "avantage_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "stats_initiale_yww": {
+        "hp": 61,
+        "str": 7,
+        "spr": 37,
+        "def": 31,
+        "spd": 10
+    },
+    "stats_max_yww": {
+        "hp": 473,
+        "str": 53,
+        "spr": 249,
+        "def": 193,
+        "spd": 77
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "ぶったたく",
+                "_en": "hit",
+                "_fr": "frapper"
+            },
+            "explication": {
+                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
+                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "極楽の術",
+                "_en": "The art of paradise",
+                "_fr": "L'art du paradis"
+            },
+            "explication": {
+                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "トラウマバキューマー",
+                "_en": "trauma vacuumer",
+                "_fr": "aspirateur de traumatologie"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "味方のHPを大きく回復し、悪いとりつき効果をなおす。",
+                "_en": "Greatly recovers HP of allies and cures bad haunting effects.",
+                "_fr": "Récupère grandement les PV des alliés et guérit les mauvais effets obsédants."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "思い出させる",
+                "_en": "remind",
+                "_fr": "rappeler"
+            },
+            "explication": {
+                "_jp": "【すばやさアップ】 とりつかれた妖怪はいいことを思い出して すばやさが大アップする。",
+                "_en": "[Increased speed] Possessed monsters remember good things and their speed increases greatly.",
+                "_fr": "[Vitesse accrue] Les monstres possédés se souviennent des bonnes choses et leur vitesse augmente considérablement."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "記憶をつかさどる神様。 不思議な掃除機を使って 記憶を吸い出せば まさかの前世の記憶まで 思い出すことができる。",
+            "_en": "God in charge of memory. If you use a mysterious vacuum cleaner to suck out your memories, you can even recall memories from your previous life.",
+            "_fr": "Dieu en charge de la mémoire. Si vous utilisez un mystérieux aspirateur pour aspirer vos souvenirs, vous pouvez même vous remémorer des souvenirs de votre vie antérieure."
+        }
+    ]
 }

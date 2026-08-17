@@ -430,5 +430,111 @@
         ]
     },
     "description_en": "He sucks the energy out of his victims but leaves their bodies intact so that they look like they've simply fallen asleep.",
-    "nom_en": "Lie-in Heart"
+    "nom_en": "Lie-in Heart",
+    "rang_yww": "S",
+    "tribue_yww": "Isamashi",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "viande",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
+    },
+    "avantage_yww": {
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
+    },
+    "stats_initiale_yww": {
+        "hp": 50,
+        "str": 25,
+        "spr": 41,
+        "def": 28,
+        "spd": 6
+    },
+    "stats_max_yww": {
+        "hp": 406,
+        "str": 181,
+        "spr": 236,
+        "def": 234,
+        "spd": 97
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "かみちぎる",
+                "_en": "Kamichigiru",
+                "_fr": "Kamichigiru"
+            },
+            "explication": {
+                "_jp": "【威力:70 / 打撃】 強力な一撃を加える",
+                "_en": "[Power: 70/Blow] Add a powerful blow",
+                "_fr": "[Puissance : 70/Coup] Ajoutez un coup puissant"
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "死神の術",
+                "_en": "Shinigami no Jutsu",
+                "_fr": "Shinigami no Jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:55 / 吸収】 敵のHPを大きく吸い取る。",
+                "_en": "[Power: 55 / Absorption] Absorbs a large amount of enemy's HP.",
+                "_fr": "[Puissance : 55 / Absorption] Absorbe une grande quantité de HP de l'ennemi."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "お命いただきます",
+                "_en": "I'll take your life",
+                "_fr": "je vais te prendre la vie"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "こんしんの一撃で近くの敵に大ダメージを与える。",
+                "_en": "Deals heavy damage to nearby enemies with a single blow.",
+                "_fr": "Inflige de lourds dégâts aux ennemis proches d'un seul coup."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "いのちをとる",
+                "_en": "take life",
+                "_fr": "prendre la vie"
+            },
+            "explication": {
+                "_jp": "【HP減少】 とりつかれた妖怪は命を奪い取られてHPが少しずつ減ってしまう。",
+                "_en": "[HP Decrease] The possessed monster's life is taken away and its HP gradually decreases.",
+                "_fr": "[Diminution des PV] La vie du monstre possédé est supprimée et ses PV diminuent progressivement."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "命だけを取り出して食らう おそろしい妖怪。 命を取られた体は傷ひとつなく 寝ているように見えるため 命を取られたと気付けない。",
+            "_en": "A terrifying monster that extracts and eats only life. The body that was killed does not have a single wound and appears to be sleeping, so you do not realize that your life has been taken.",
+            "_fr": "Un monstre terrifiant qui extrait et mange uniquement la vie. Le corps qui a été tué ne présente aucune égratignure et semble dormir, vous ne réalisez donc pas que votre vie a été enlevée."
+        }
+    ]
 }

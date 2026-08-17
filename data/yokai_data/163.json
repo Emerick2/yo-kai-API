@@ -23,7 +23,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/pioubidou.png",
     "numero": "165",
-    
     "attaques": [
         {
             "type": "Attaque",
@@ -238,5 +237,158 @@
         ]
     },
     "description_en": "A weird Yo-kai who's quite the belly dancer. His stomach feathers look like an old man's face.",
-    "nom_en": "Leadoni"
+    "nom_en": "Leadoni",
+    "rang_yww": "D",
+    "tribue_yww": "Bukimi",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "hamburger",
+    "nourriture_favorite": "hamburger",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "avantage_yww": {
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
+    },
+    "stats_initiale_yww": {
+        "hp": 49,
+        "str": 30,
+        "spr": 6,
+        "def": 13,
+        "spd": 13
+    },
+    "stats_max_yww": {
+        "hp": 387,
+        "str": 203,
+        "spr": 43,
+        "def": 120,
+        "spd": 119
+    },
+    "moyens_obtention_yww": [
+        {
+            "_jp": "ファミマコイン",
+            "_en": "Family Mart Coin",
+            "_fr": "Pièce de monnaie du marché familial"
+        },
+        {
+            "_jp": "ドコモコイン1",
+            "_en": "docomo coin 1",
+            "_fr": "pièce docomo 1"
+        },
+        {
+            "_jp": "十五夜コイン",
+            "_en": "jugoya coin",
+            "_fr": "pièce de monnaie jugoya"
+        },
+        {
+            "_jp": "ドコモコイン2",
+            "_en": "docomo coin 2",
+            "_fr": "pièce docomo 2"
+        },
+        {
+            "_jp": "ハロウィンコイン",
+            "_en": "halloween coin",
+            "_fr": "pièce de monnaie d'Halloween"
+        },
+        {
+            "_jp": "ミルクチョココイン",
+            "_en": "ミルクチョココイン",
+            "_fr": "ミルクチョココイン"
+        },
+        {
+            "_jp": "ビターチョココイン",
+            "_en": "bitter chocolate coin",
+            "_fr": "pièce de chocolat amer"
+        },
+        {
+            "_jp": "バレンタインコイン",
+            "_en": "valentine coin",
+            "_fr": "pièce de monnaie de la Saint-Valentin"
+        },
+        {
+            "_jp": "WDイベントコイン",
+            "_en": "WD event coin",
+            "_fr": "Pièce d'événement WD"
+        }
+    ],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "のしかかる",
+                "_en": "lean on",
+                "_fr": "s'appuyer sur"
+            },
+            "explication": {
+                "_jp": "【威力:25 / 打撃】 必ず命中する",
+                "_en": "[Power: 25 / Hit] Always hits",
+                "_fr": "[Puissance : 25 / Hit] Frappe toujours"
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "吸収の術",
+                "_en": "absorption technique",
+                "_fr": "technique d'absorption"
+            },
+            "explication": {
+                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "へんな顔プレス",
+                "_en": "strange face press",
+                "_fr": "presse à visage étrange"
+            },
+            "pouvoir": "93",
+            "explication": {
+                "_jp": "勢いよく飛び上がりお腹の顔で敵単体にダメージを与える。",
+                "_en": "Jumps up and deals damage to a single enemy with the face on its stomach.",
+                "_fr": "Saute et inflige des dégâts à un seul ennemi avec le visage sur le ventre."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "腹おどりさせる",
+                "_en": "make my stomach flutter",
+                "_fr": "me fait palpiter le ventre"
+            },
+            "explication": {
+                "_jp": "【まもりダウン】 とりつかれた妖怪はおなかを出しておどるから まもりが超ダウンする。",
+                "_en": "[Mamori Down] The possessed monster will stick out its belly and dance, which will greatly lower the protection.",
+                "_fr": "[Mamori Down] Le monstre possédé sortira son ventre et dansera, ce qui réduira considérablement la protection."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "お腹におっさんの顔にしか 見えないような模様があり それを利用した 腹おどりを得意とする ちょっと変な妖怪。",
+            "_en": "A slightly strange monster that has a pattern on its stomach that looks like an old man's face, and uses that pattern to perform belly dances.",
+            "_fr": "Un monstre légèrement étrange qui a un motif sur le ventre qui ressemble au visage d'un vieil homme et qui utilise ce motif pour effectuer des danses du ventre."
+        }
+    ]
 }

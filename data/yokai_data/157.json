@@ -407,5 +407,111 @@
         ]
     },
     "description_en": "A Yo-kai that nurtures negativity and sucks it up with its needlelike nose.",
-    "nom_en": "Ake"
+    "nom_en": "Ake",
+    "rang_yww": "E",
+    "tribue_yww": "Usurakage",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "jus",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "avantage_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "stats_initiale_yww": {
+        "hp": 37,
+        "str": 5,
+        "spr": 21,
+        "def": 10,
+        "spd": 15
+    },
+    "stats_max_yww": {
+        "hp": 288,
+        "str": 68,
+        "spr": 169,
+        "def": 84,
+        "spd": 147
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "こづく",
+                "_en": "poked you",
+                "_fr": "vous a Poké"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "すいとりの術",
+                "_en": "Sweetori no Jutsu",
+                "_fr": "Sweetori no Jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:25 / 吸収】 敵のHPを吸い取る。",
+                "_en": "[Power: 25 / Absorption] Absorbs the enemy's HP.",
+                "_fr": "[Puissance : 25 / Absorption] Absorbe les PV de l'ennemi."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "ネガティブ菌",
+                "_en": "negative bacteria",
+                "_fr": "bactéries négatives"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "ネガティブにさせる菌を敵全員におみまいし まもりを大ダウンさせる。",
+                "_en": "Inflicts negative bacteria on all enemies and greatly reduces their protection.",
+                "_fr": "Inflige des bactéries négatives à tous les ennemis et réduit considérablement leur protection."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "ネガティブにする",
+                "_en": "make it negative",
+                "_fr": "rends-le négatif"
+            },
+            "explication": {
+                "_jp": "【すばやさダウン】 とりつかれた妖怪はネガティブになり すばやさが大ダウンする。",
+                "_en": "【すばやさダウン】 とりつかれた妖怪はネガティブになり すばやさが大ダウンする。",
+                "_fr": "【すばやさダウン】 とりつかれた妖怪はネガティブになり すばやさが大ダウンする。"
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "人のネガティブなオーラが 大好物の妖怪。 羽から発する超音波で ネガティブな心を育て 針のような口で吸い取る。",
+            "_en": "A monster that loves people's negative auras. It cultivates negative thoughts using ultrasonic waves emitted from its wings, and sucks them out with its needle-like mouth.",
+            "_fr": "Un monstre qui aime les auras négatives des gens. Il cultive des pensées négatives à l’aide d’ondes ultrasonores émises par ses ailes et les aspire avec sa bouche en forme d’aiguille."
+        }
+    ]
 }

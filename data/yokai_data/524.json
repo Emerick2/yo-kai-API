@@ -132,5 +132,112 @@
         ]
     },
     "description_en": "Greatly concerned about the environment, this Yo-kai will reuse everything. Even going as far as drying used tissues.",
-    "nom_en": "Tongue-Twister"
+    "nom_en": "Tongue-Twister",
+    "rang_yww": "C",
+    "tribue_yww": "Pokapoka",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "légumes",
+    "nourriture_favorite": "légumes",
+    "attitude_spécifique_yww": {
+        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "avantage_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "stats_initiale_yww": {
+        "hp": 43,
+        "str": 16,
+        "spr": 22,
+        "def": 17,
+        "spd": 19
+    },
+    "stats_max_yww": {
+        "hp": 349,
+        "str": 110,
+        "spr": 163,
+        "def": 129,
+        "spd": 143
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "ヘッドバット",
+                "_en": "head butt",
+                "_fr": "coup de tête"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 打撃】 敵1体に攻撃する。",
+                "_en": "[Power: 50/Blow] Attacks one enemy.",
+                "_fr": "[Puissance : 50/Coup] Attaque un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "回復の術",
+                "_en": "art of recovery",
+                "_fr": "l'art de la récupération"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
+                "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
+                "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "リサイクルＨＰ",
+                "_en": "Recycling website",
+                "_fr": "Site de recyclage"
+            },
+            "pouvoir": "45",
+            "explication": {
+                "_jp": "地球のしずくで味方全員のHPを回復する。その後もHPが少しずつ回復する。",
+                "_en": "Recovers HP of all allies with earth drops. After that, HP will recover little by little.",
+                "_fr": "Récupère les HP de tous les alliés avec des gouttes de terre. Après cela, HP récupérera petit à petit."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "地球と通じあう",
+                "_en": "communicate with the earth",
+                "_fr": "communiquer avec la terre"
+            },
+            "explication": {
+                "_jp": "【回復】 とりつかれた妖怪は母なる地球と通じあいHPが少しずつ回復する。",
+                "_en": "[Recovery] The possessed monster communicates with Mother Earth and gradually recovers its HP.",
+                "_fr": "[Récupération] Le monstre possédé communique avec la Terre Mère et récupère progressivement ses PV."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "エコ活動で環境に配慮しまくる 地球に優しいお爺さん妖怪。 そこまでやるか？というほどの 再利用っぷりで ティッシュは 外干しで乾かして何度も使う。",
+            "_en": "An earth-friendly old man who is considerate of the environment through eco-friendly activities. Will you go that far? Tissues are so reused that they can be hung outside to dry and used over and over again.",
+            "_fr": "Un vieil homme respectueux de la planète et soucieux de l'environnement à travers des activités respectueuses de l'environnement. Irez-vous jusque-là ? Les mouchoirs sont tellement réutilisés qu’ils peuvent être suspendus dehors pour sécher et utilisés encore et encore."
+        }
+    ]
 }

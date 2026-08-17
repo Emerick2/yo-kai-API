@@ -23,7 +23,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/toumou.png",
     "numero": "004",
-
     "attaques": [
         {
             "type": "Attaque",
@@ -492,5 +491,118 @@
         ]
     },
     "description_en": "A lazy katana Yo-kai who can drain all of your motivation. He's strangely sharp for being so lazy.",
-    "nom_en": "Minochi"
+    "nom_en": "Minochi",
+    "rang_yww": "E",
+    "tribue_yww": "Isamashi",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "jus",
+    "nourriture_favorite": "jus",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "avantage_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "stats_initiale_yww": {
+        "hp": 48,
+        "str": 28,
+        "spr": 3,
+        "def": 10,
+        "spd": 13
+    },
+    "stats_max_yww": {
+        "hp": 305,
+        "str": 212,
+        "spr": 30,
+        "def": 117,
+        "spd": 125
+    },
+    "moyens_obtention_yww": [
+        {
+            "_jp": "1つ星コイン",
+            "_en": "1 star coin",
+            "_fr": "Pièce d'une étoile"
+        }
+    ],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "つばめがえし",
+                "_en": "Swallow replacement",
+                "_fr": "Remplacement de l'hirondelle"
+            },
+            "explication": {
+                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+                "_en": "[Power: 25×2/Blow] Attack twice",
+                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "つむじ風の術",
+                "_en": "Whirlwind technique",
+                "_fr": "Technique du tourbillon"
+            },
+            "explication": {
+                "_jp": "【威力:40 / 風属性】 風の妖術を使う。",
+                "_en": "[Power: 40 / Wind attribute] Uses wind magic.",
+                "_fr": "[Puissance : 40 / Attribut Vent] Utilise la magie du vent."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "だらけチョップ",
+                "_en": "Darake Chop",
+                "_fr": "Côtelette Darake"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "調査中。",
+                "_en": "Under investigation.",
+                "_fr": "Sous enquête."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "ふまじめにする",
+                "_en": "be serious",
+                "_fr": "sois sérieux"
+            },
+            "explication": {
+                "_jp": "【おさぼり】 とりつかれた妖怪はまじめに戦う気がなくなりたまに行動しなくなる。",
+                "_en": "[Osabori] A possessed monster loses the will to fight seriously and sometimes stops acting.",
+                "_fr": "[Osabori] Un monstre possédé perd la volonté de se battre sérieusement et arrête parfois d'agir."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "西のほうからダラダラと やってきた だらけるのが 大好きな刀の妖怪。 やる気をうばう困ったやつだが 切れ味はなかなか。",
+            "_en": "A sword-wielding monster that likes to wander around from the west. It's a troublesome thing that takes away motivation, but it's quite sharp.",
+            "_fr": "Un monstre brandissant une épée qui adore traîner et venir paresseusement de l'ouest. C'est une chose gênante qui enlève la motivation, mais c'est assez aigu."
+        }
+    ]
 }

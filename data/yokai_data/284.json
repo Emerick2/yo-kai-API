@@ -333,5 +333,111 @@
         ]
     },
     "description_en": "Her healing tongue can cure any wound and even serve to strengthen the bonds between people!",
-    "nom_en": "Kappeasy"
+    "nom_en": "Kappeasy",
+    "rang_yww": "E",
+    "tribue_yww": "Pokapoka",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "légumes",
+    "attitude_spécifique_yww": {
+        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
+    },
+    "avantage_yww": {
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
+    },
+    "stats_initiale_yww": {
+        "hp": 34,
+        "str": 4,
+        "spr": 22,
+        "def": 5,
+        "spd": 23
+    },
+    "stats_max_yww": {
+        "hp": 291,
+        "str": 45,
+        "spr": 171,
+        "def": 83,
+        "spd": 176
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "舌でなめる",
+                "_en": "lick with tongue",
+                "_fr": "lécher avec la langue"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 打撃】 舌でなめて敵1体を攻撃する。",
+                "_en": "[Power: 50/Blow] Attacks one enemy by licking it with your tongue.",
+                "_fr": "[Puissance : 50/Coup] Attaque un ennemi en le léchant avec votre langue."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "いやしの術",
+                "_en": "Healing techniques",
+                "_fr": "Techniques de guérison"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
+                "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
+                "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "なめときゃ治りんこ",
+                "_en": "Lick it and heal it Rinko",
+                "_fr": "Lèche-le et guéris-le Rinko"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "かわいい舌でペロペロとなめまくり味方全員のHPを回復する。",
+                "_en": "Recovers the HP of all allies by licking them with their cute tongue.",
+                "_fr": "Récupère les HP de tous les alliés en les léchant avec leur jolie langue."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "傷をなめる",
+                "_en": "lick the wound",
+                "_fr": "lécher la blessure"
+            },
+            "explication": {
+                "_jp": "【回復】 とりつかれた妖怪は傷をペロペロとなめられHPが少しずつ回復する。",
+                "_en": "[Recovery] The possessed monster will lick its wounds and its HP will recover little by little.",
+                "_fr": "[Récupération] Le monstre possédé pansera ses blessures et ses PV récupéreront petit à petit."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "キズナメコの舌には 消毒作用があり どんな傷でも ペロペロと治してしまう。 傷だけでなく 人と人の絆も 修復できるらしい。",
+            "_en": "The nameko's tongue has antiseptic properties and can quickly heal any wound. Apparently it can repair not only wounds but also bonds between people.",
+            "_fr": "La langue du nameko a des propriétés antiseptiques et peut guérir rapidement n'importe quelle blessure. Apparemment, cela peut réparer non seulement les blessures mais aussi les liens entre les gens."
+        }
+    ]
 }

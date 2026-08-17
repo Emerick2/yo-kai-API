@@ -236,5 +236,111 @@
         ]
     },
     "description_en": "Those Inspirited by Chicken Chukket are entirely passive, letting others make all their decisions.",
-    "nom_en": "Slippup"
+    "nom_en": "Slippup",
+    "rang_yww": "D",
+    "tribue_yww": "Fushigi",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "crème douce",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "avantage_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "stats_initiale_yww": {
+        "hp": 44,
+        "str": 25,
+        "spr": 4,
+        "def": 14,
+        "spd": 16
+    },
+    "stats_max_yww": {
+        "hp": 314,
+        "str": 198,
+        "spr": 33,
+        "def": 119,
+        "spd": 150
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "投げる",
+                "_en": "throw",
+                "_fr": "lancer"
+            },
+            "explication": {
+                "_jp": "【威力:60 / 打撃】 外れやすい",
+                "_en": "[Power: 60/Blow] Easy to miss",
+                "_fr": "[Puissance : 60/Coup] Facile à rater"
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "こいしの術",
+                "_en": "Koishi no jutsu",
+                "_fr": "Koishi pas de jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 土属性】 土の妖術を使う。",
+                "_en": "[Power: 30 / Earth attribute] Uses earth magic.",
+                "_fr": "[Puissance : 30 / Attribut Terre] Utilise la magie de la terre."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "まるなげキラーパス",
+                "_en": "Marunage Killer Pass",
+                "_fr": "Passe du tueur de Marunage"
+            },
+            "pouvoir": "76",
+            "explication": {
+                "_jp": "敵全員にダメージをあたえる",
+                "_en": "Deal damage to all enemies",
+                "_fr": "Infliger des dégâts à tous les ennemis"
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "丸投げさせる",
+                "_en": "give a full toss",
+                "_fr": "lancer à fond"
+            },
+            "explication": {
+                "_jp": "【おさぼり】 とりつかれた妖怪は戦いを丸投げしたまに行動しなくなる。",
+                "_en": "[Osabori] Possessed monsters sometimes stop acting after a complete battle.",
+                "_fr": "[Osabori] Les monstres possédés cessent parfois d'agir après une bataille complète."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "コイツが投げる「よろピク球」 をうっかり受け取った人は 「あとよろピク～！」と言われ すべてをまかされてしまう。 とりつかれると丸投げ側となる。",
+            "_en": "Anyone who accidentally receives the ``Yoropik ball'' thrown by this guy will be told, ``Ato Yoro Piku~!'' and will be left in charge of everything. If you become obsessed with it, you will become a round thrower.",
+            "_fr": "Quiconque reçoit accidentellement la « balle Yoropik » lancée par ce type se verra dire « Ato Yoro Piku ~ ! » et sera responsable de tout. Si cela vous obsède, vous deviendrez un lanceur de balles."
+        }
+    ]
 }

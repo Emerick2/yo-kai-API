@@ -23,7 +23,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/bonneto.png",
     "numero": "015",
-    
     "attaques": [
         {
             "type": "Attaque",
@@ -472,5 +471,118 @@
         ]
     },
     "description_en": "Once a proud warrior, Chansin threw it all away by gambling... Now his best odds are to retreat.",
-    "nom_en": "Slacka-slash"
+    "nom_en": "Slacka-slash",
+    "rang_yww": "C",
+    "tribue_yww": "Isamashi",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "fruit de mer",
+    "nourriture_favorite": "fruit de mer",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
+    },
+    "avantage_yww": {
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
+    },
+    "stats_initiale_yww": {
+        "hp": 53,
+        "str": 34,
+        "spr": 4,
+        "def": 14,
+        "spd": 15
+    },
+    "stats_max_yww": {
+        "hp": 394,
+        "str": 210,
+        "spr": 46,
+        "def": 125,
+        "spd": 130
+    },
+    "moyens_obtention_yww": [
+        {
+            "_jp": "赤コイン",
+            "_en": "red coin",
+            "_fr": "pièce rouge"
+        }
+    ],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "ワンツーパンチ",
+                "_en": "one two punch",
+                "_fr": "un deux coups de poing"
+            },
+            "explication": {
+                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+                "_en": "[Power: 25×2/Blow] Attack twice",
+                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "火花の術",
+                "_en": "Spark technique",
+                "_fr": "Technique d'étincelle"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 火属性】 火の妖術を使う。",
+                "_en": "[Power: 30 / Fire attribute] Uses fire magic.",
+                "_fr": "[Puissance : 30 / Attribut Feu] Utilise la magie du feu."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "真剣大バクチ",
+                "_en": "Seriously big bakuchi",
+                "_fr": "Sérieusement gros bakuchi"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "調査中。",
+                "_en": "Under investigation.",
+                "_fr": "Sous enquête."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "バクチ精神",
+                "_en": "Bakuchi spirit",
+                "_fr": "Esprit Bakuchi"
+            },
+            "explication": {
+                "_jp": "【まもりダウン】 とりつかれた妖怪は負けをかえりみなくなり まもりがダウンする。",
+                "_en": "[Mamori Down] The possessed monster no longer reflects on its defeat, and its protection goes down.",
+                "_fr": "[Mamori Down] Le monstre possédé ne réfléchit plus à sa défaite et sa protection diminue."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "かつては剣の道を極めた 武士だったが バクチの世界に 身を落としてしまい 武士の心を忘れてしまった。 逃げ足だけは速い。",
+            "_en": "He was once a samurai who mastered the art of swordsmanship, but he fell into the world of bakuchi and forgot his samurai spirit. Only his running legs are fast.",
+            "_fr": "Il était autrefois un samouraï qui maîtrisait l'art de l'épée, mais il est tombé dans le monde du bakuchi et a oublié son esprit de samouraï. Seules ses jambes de course sont rapides."
+        }
+    ]
 }

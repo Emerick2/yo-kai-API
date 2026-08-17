@@ -24,7 +24,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/papiltension.png",
     "numero": "122",
-
     "attaques": [
         {
             "type": "Attaque",
@@ -381,5 +380,112 @@
         ]
     },
     "description_en": "A butterfly Yo-kai who makes those he Inspirits cut ties with their best friends. Often mistaken for Enerfly.",
-    "nom_en": "Urnaconda"
+    "nom_en": "Urnaconda",
+    "rang_yww": "D",
+    "tribue_yww": "Pokapoka",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "jus",
+    "nourriture_favorite": "jus",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "avantage_yww": {
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
+    },
+    "stats_initiale_yww": {
+        "hp": 42,
+        "str": 4,
+        "spr": 23,
+        "def": 10,
+        "spd": 21
+    },
+    "stats_max_yww": {
+        "hp": 343,
+        "str": 49,
+        "spr": 176,
+        "def": 98,
+        "spd": 161
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "はたく",
+                "_en": "flutter",
+                "_fr": "battement"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "すいとりの術",
+                "_en": "Sweetori no Jutsu",
+                "_fr": "Sweetori no Jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:25 / 吸収】 敵のHPを吸い取る。",
+                "_en": "[Power: 25 / Absorption] Absorbs the enemy's HP.",
+                "_fr": "[Puissance : 25 / Absorption] Absorbe les PV de l'ennemi."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "絶交オーラ",
+                "_en": "Aura of ecstasy",
+                "_fr": "Aura d'extase"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "邪悪で危険な霊魂で敵にかかっている良い効果を解除する。",
+                "_en": "Remove positive effects from enemies with evil and dangerous spirits.",
+                "_fr": "Supprimez les effets positifs des ennemis aux esprits maléfiques et dangereux."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "絶交させる",
+                "_en": "make intercourse",
+                "_fr": "faire l'amour"
+            },
+            "explication": {
+                "_jp": "【混乱】 とりつかれた妖怪は友達と絶交してしまい味方をたまにこうげきする。",
+                "_en": "[Confusion] A possessed monster loses contact with its friends and sometimes attacks allies.",
+                "_fr": "[Confusion] Un monstre possédé perd le contact avec ses amis et attaque parfois ses alliés."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "とりつかれた人は 友達と絶交してしまう。 おそろしい能力を持つ チョウの妖怪。 ぜっこう蝶とよく間違われる。",
+            "_en": "People who are obsessed with it end up losing contact with their friends. A butterfly monster with terrifying abilities. It is often mistaken for a butterfly.",
+            "_fr": "Les gens qui en sont obsédés finissent par perdre contact avec leurs amis. Un monstre papillon aux capacités terrifiantes. On le prend souvent pour un papillon."
+        }
+    ]
 }

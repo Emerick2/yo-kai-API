@@ -24,7 +24,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/comte-zapzap.png",
     "numero": "227",
-    
     "attaques": [
         {
             "type": "Attaque",
@@ -364,5 +363,112 @@
         ]
     },
     "description_en": "A Yo-kai who takes an absurd amount of pleasure in hiding TV remotes in the most unlikely of locations.",
-    "nom_en": "Herbiboy"
+    "nom_en": "Herbiboy",
+    "rang_yww": "C",
+    "tribue_yww": "Usurakage",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "hamburger",
+    "nourriture_favorite": "hamburger",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
+    },
+    "avantage_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "stats_initiale_yww": {
+        "hp": 42,
+        "str": 19,
+        "spr": 7,
+        "def": 11,
+        "spd": 30
+    },
+    "stats_max_yww": {
+        "hp": 345,
+        "str": 130,
+        "spr": 61,
+        "def": 97,
+        "spd": 215
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "タックル",
+                "_en": "tackle",
+                "_fr": "tacle"
+            },
+            "explication": {
+                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
+                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "氷結の術",
+                "_en": "Freezing technique",
+                "_fr": "Technique de congélation"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 氷属性】 強力な氷の妖術を使う。",
+                "_en": "[Power: 50 / Ice attribute] Uses powerful ice magic.",
+                "_fr": "[Puissance : 50 / Attribut Glace] Utilise une puissante magie de glace."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "勝手に変えチャンネル",
+                "_en": "Change channel at will",
+                "_fr": "Changer de chaîne à volonté"
+            },
+            "pouvoir": "140",
+            "explication": {
+                "_jp": "邪悪な赤外線を敵単体にあびせる。当たった妖怪は味方をすぐにこうげきする。",
+                "_en": "Blasts a single enemy with evil infrared rays. The monster that is hit will immediately destroy its allies.",
+                "_fr": "Fait exploser un seul ennemi avec des rayons infrarouges maléfiques. Le monstre touché détruira immédiatement ses alliés."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "ナゾの怪電波",
+                "_en": "Mysterious mysterious radio waves",
+                "_fr": "Ondes radio mystérieuses et mystérieuses"
+            },
+            "explication": {
+                "_jp": "【ようりょくダウン】 とりつかれた妖怪はナゾの怪電波をあてられ ようりょくが超ダウンする。",
+                "_en": "[Yoryoku Down] The possessed monster is hit by a mysterious radio wave, and the Yokai goes down.",
+                "_fr": "[Yoryoku Down] Le monstre possédé est touché par une mystérieuse onde radio et le Yokai tombe."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "テレビのリモコンを隠して 人間が困っている所を 見るのが趣味の妖怪。 リモコンが 意外なところで 見つかるのはこいつのせい。",
+            "_en": "A monster whose hobby is hiding the TV remote control and watching humans get into trouble. This guy is the reason remote controls are found in unexpected places.",
+            "_fr": "Un monstre dont le passe-temps est de cacher la télécommande du téléviseur et de regarder les humains avoir des ennuis. Ce type est la raison pour laquelle les télécommandes se trouvent dans des endroits inattendus."
+        }
+    ]
 }

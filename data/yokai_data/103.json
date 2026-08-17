@@ -24,7 +24,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/emeranyan.png",
     "numero": "220",
-    
     "attaques": [
         {
             "type": "Attaque",
@@ -380,5 +379,112 @@
         ]
     },
     "description_en": "A Yo-kai made of emerald. If you could sell him, he'd be worth more than 100 million dollars.",
-    "nom_en": "Dianyan"
+    "nom_en": "Dianyan",
+    "rang_yww": "A",
+    "tribue_yww": "Pritchie",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "Chocobo",
+    "nourriture_favorite": "Chocobo",
+    "attitude_spécifique_yww": {
+        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
+    },
+    "avantage_yww": {
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
+    },
+    "stats_initiale_yww": {
+        "hp": 32,
+        "str": 27,
+        "spr": 33,
+        "def": 19,
+        "spd": 20
+    },
+    "stats_max_yww": {
+        "hp": 314,
+        "str": 169,
+        "spr": 204,
+        "def": 118,
+        "spd": 133
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "するどいつめ",
+                "_en": "sharp claw",
+                "_fr": "griffe acérée"
+            },
+            "explication": {
+                "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
+                "_en": "[Power: 15×2/Blow] Attack twice",
+                "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "極楽の術",
+                "_en": "The art of paradise",
+                "_fr": "L'art du paradis"
+            },
+            "explication": {
+                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "さわやかグリーン肉球",
+                "_en": "Refreshing green meat balls",
+                "_fr": "Boulettes de viande verte rafraîchissantes"
+            },
+            "pouvoir": "15×10",
+            "explication": {
+                "_jp": "エメラルドの肉球で 敵全員を 一心不乱になぐりまくる。",
+                "_en": "It attacks all enemies with its emerald paws.",
+                "_fr": "Il attaque tous les ennemis avec ses pattes émeraude."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "エメラルパワー",
+                "_en": "emerald power",
+                "_fr": "puissance émeraude"
+            },
+            "explication": {
+                "_jp": "【全ステアップ】 とりつかれた妖怪はエメラルドのかがやきで全ステータスがアップする。",
+                "_en": "[All Status Up] All stats of the possessed monster will be increased by the emerald glow.",
+                "_fr": "[All Status Up] Toutes les statistiques du monstre possédé seront augmentées par la lueur émeraude."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "全身がエメラルドで できたネコ妖怪。 お金にかえると １０億円以上の価値が あるらしい。",
+            "_en": "A cat monster whose entire body is made of emerald. It is said to be worth more than 1 billion yen when converted into money.",
+            "_fr": "Un monstre chat dont tout le corps est en émeraude. On estime qu’il vaut plus d’un milliard de yens une fois converti en argent."
+        }
+    ]
 }

@@ -118,5 +118,112 @@
         ]
     },
     "description_en": "This lumberjack Yo-kai is on a mission to perfect the art of chopping down trees while keeping his eyes closed.",
-    "nom_en": "Inflammaboy!"
+    "nom_en": "Inflammaboy!",
+    "rang_yww": "E",
+    "tribue_yww": "Pokapoka",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "Onigiri",
+    "nourriture_favorite": "Onigiri",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "avantage_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "stats_initiale_yww": {
+        "hp": 46,
+        "str": 10,
+        "spr": 14,
+        "def": 23,
+        "spd": 5
+    },
+    "stats_max_yww": {
+        "hp": 370,
+        "str": 94,
+        "spr": 138,
+        "def": 181,
+        "spd": 50
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "フルスイング",
+                "_en": "full swing",
+                "_fr": "bat son plein"
+            },
+            "explication": {
+                "_jp": "【威力:60 / 打撃】 外れやすい",
+                "_en": "[Power: 60/Blow] Easy to miss",
+                "_fr": "[Puissance : 60/Coup] Facile à rater"
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "こいしの術",
+                "_en": "Koishi no jutsu",
+                "_fr": "Koishi pas de jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 土属性】 土の妖術を使う。",
+                "_en": "[Power: 30 / Earth attribute] Uses earth magic.",
+                "_fr": "[Puissance : 30 / Attribut Terre] Utilise la magie de la terre."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "さぐりさぐりの治療",
+                "_en": "Treatment for groping",
+                "_fr": "Traitement pour tâtonner"
+            },
+            "pouvoir": "30",
+            "explication": {
+                "_jp": "いやしのしずくで味方全員のHPを回復する。その後もHPが少しずつ回復する。",
+                "_en": "Recovers HP of all allies with healing drops. After that, HP will recover little by little.",
+                "_fr": "Récupère les HP de tous les alliés avec des gouttes de guérison. Après cela, HP récupérera petit à petit."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "模索させる",
+                "_en": "let them explore",
+                "_fr": "laissez-les explorer"
+            },
+            "explication": {
+                "_jp": "【おさぼり】 とりつかれた妖怪は自分の道を模索しすぎてたまに行動しなくなる。",
+                "_en": "[Osabori] A possessed youkai searches for its own path so much that it sometimes stops acting.",
+                "_fr": "[Osabori] Un yôkai possédé cherche tellement sa propre voie qu'il arrête parfois d'agir."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "切った木の断面に納得いかず いろんなパターンで木を切って 模索している木こりの妖怪。 最近の流行は 目をつぶって 手さぐりで切ってみること。",
+            "_en": "A lumberjack monster who is not satisfied with the cross-section of the tree he cut, so he cuts the tree in various patterns and explores it. The latest trend is to close your eyes and try cutting by hand.",
+            "_fr": "Un monstre bûcheron qui n'est pas satisfait de la section transversale de l'arbre qu'il a coupé, alors il coupe l'arbre selon différents motifs et l'explore. La dernière tendance est de fermer les yeux et d’essayer de couper à la main."
+        }
+    ]
 }

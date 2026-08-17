@@ -23,7 +23,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/adolfo-jeton.png",
     "numero": "269",
-    
     "attaques": [
         {
             "type": "Attaque",
@@ -320,5 +319,112 @@
         ]
     },
     "description_en": "A supple and slippery character whose pathetic excuses make it utterly impossible to pin blame on him.",
-    "nom_en": "Yessir"
+    "nom_en": "Yessir",
+    "rang_yww": "C",
+    "tribue_yww": "Bukimi",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "fruit de mer",
+    "nourriture_favorite": "fruit de mer",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "avantage_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "stats_initiale_yww": {
+        "hp": 43,
+        "str": 24,
+        "spr": 16,
+        "def": 9,
+        "spd": 21
+    },
+    "stats_max_yww": {
+        "hp": 352,
+        "str": 189,
+        "spr": 117,
+        "def": 65,
+        "spd": 157
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "あてみ",
+                "_en": "Atemi",
+                "_fr": "Atémi"
+            },
+            "explication": {
+                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "竜巻の術",
+                "_en": "Tornado no Jutsu",
+                "_fr": "Tornade sans Jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 風属性】 強力な風の妖術を使う。",
+                "_en": "[Power: 50 / Wind attribute] Uses powerful wind magic.",
+                "_fr": "[Puissance : 50 / Attribut vent] Utilise une puissante magie du vent."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "くねくね踊り",
+                "_en": "Wiggle dance",
+                "_fr": "Danse agitée"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "のらりくらりと気持ち悪い動きで敵全員の全ステータスをダウンさせる。",
+                "_en": "Lowers all of the enemy's stats with a slow, creepy move.",
+                "_fr": "Réduit toutes les statistiques de l'ennemi avec un mouvement lent et effrayant."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "のらりくらりさせる",
+                "_en": "make you feel relaxed",
+                "_fr": "vous fait sentir détendu"
+            },
+            "explication": {
+                "_jp": "【おさぼり】 とりつかれた妖怪はのらりくらりとなかなか行動しなくなる。",
+                "_en": "[Osabori] A possessed monster becomes slow and slow to move.",
+                "_fr": "[Osabori] Un monstre possédé devient lent et lent à se déplacer."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "やわらかい体をしていて どれだけ文句を言われても のらりくらりと身をかわす。 とりつかれると 言い訳がやたらと上手くなる。",
+            "_en": "It has a soft body and no matter how many people complain about it, it can easily dodge it. When you become obsessed, you get better at making excuses.",
+            "_fr": "Il a un corps mou et peu importe le nombre de personnes qui s’en plaignent, il peut facilement l’esquiver. Lorsque vous devenez obsédé, vous devenez meilleur pour trouver des excuses."
+        }
+    ]
 }

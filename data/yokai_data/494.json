@@ -257,5 +257,123 @@
         ]
     },
     "description_en": "This Yo-kai always seems to be around when you've taken a hit to the noggin. It'll join you in twirling around uncontrollably.",
-    "nom_en": "Jawsome Kid"
+    "nom_en": "Jawsome Kid",
+    "rang_yww": "E",
+    "tribue_yww": "Pritchie",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "jus",
+    "nourriture_favorite": "jus",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "avantage_yww": {
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
+    },
+    "stats_initiale_yww": {
+        "hp": 32,
+        "str": 15,
+        "spr": 4,
+        "def": 9,
+        "spd": 24
+    },
+    "stats_max_yww": {
+        "hp": 279,
+        "str": 135,
+        "spr": 42,
+        "def": 99,
+        "spd": 172
+    },
+    "moyens_obtention_yww": [
+        {
+            "_jp": "お祭りコイン",
+            "_en": "festival coins",
+            "_fr": "pièces de monnaie du festival"
+        },
+        {
+            "_jp": "桃コイン",
+            "_en": "peach coin",
+            "_fr": "pièce de pêche"
+        }
+    ],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "はたく",
+                "_en": "flutter",
+                "_fr": "battement"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "電流の術",
+                "_en": "electric current technique",
+                "_fr": "technique du courant électrique"
+            },
+            "explication": {
+                "_jp": "【威力:40 / 雷属性】 雷の妖術を使う。",
+                "_en": "[Power: 40 / Lightning attribute] Uses lightning magic.",
+                "_fr": "[Puissance : 40 / Attribut Foudre] Utilise la magie de la foudre."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "ぴよぴよノックアウト",
+                "_en": "Piyo Piyo Knockout",
+                "_fr": "Piyo Piyo KO"
+            },
+            "pouvoir": "–",
+            "explication": {
+                "_jp": "目が回るオーラで敵全員を混乱させる。混乱した敵は味方をすぐにこうげきする。",
+                "_en": "Confuse all enemies with a dizzying aura. Confused enemies will quickly attack their allies.",
+                "_fr": "Confondez tous les ennemis avec une aura vertigineuse. Les ennemis confus attaqueront rapidement leurs alliés."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "ピヨらせる",
+                "_en": "make you froze",
+                "_fr": "te geler"
+            },
+            "explication": {
+                "_jp": "【混乱】 とりつかれた妖怪は目が回ってピヨり状態になり味方をすぐにこうげきする。",
+                "_en": "[Confusion] A possessed monster becomes dizzy and dazed, and immediately attacks its allies.",
+                "_fr": "[Confusion] Un monstre possédé devient étourdi et étourdi et attaque immédiatement ses alliés."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "強烈な一発にやられて 目が回るとき いっしょに ピヨピヨと回ってくれる妖怪。 なぜいっしょに回るのか 本人もピヨっててわからない。",
+            "_en": "A monster that spins around with you when you get dizzy from a powerful blow. I don't know why they're going around together because he's also freaking out.",
+            "_fr": "Un monstre qui tourne autour de vous lorsque vous êtes étourdi par un coup puissant. Je ne sais pas pourquoi ils sortent ensemble parce qu'il flippe aussi."
+        }
+    ]
 }

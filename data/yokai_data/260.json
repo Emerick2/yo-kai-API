@@ -395,5 +395,111 @@
         ]
     },
     "description_en": "A plain bowl of rice who can't help looking at the tasty treats others are eating and turning green with envy.",
-    "nom_en": "Chymera"
+    "nom_en": "Chymera",
+    "rang_yww": "E",
+    "tribue_yww": "Goketsu",
+    "rôle_yww": "réservoir",
+    "plat_préféré_yww": "Onigiri",
+    "attitude_spécifique_yww": {
+        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
+    },
+    "avantage_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "stats_initiale_yww": {
+        "hp": 49,
+        "str": 8,
+        "spr": 8,
+        "def": 20,
+        "spd": 14
+    },
+    "stats_max_yww": {
+        "hp": 408,
+        "str": 78,
+        "spr": 78,
+        "def": 194,
+        "spd": 96
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "あてみ",
+                "_en": "Atemi",
+                "_fr": "Atémi"
+            },
+            "explication": {
+                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "あられの術",
+                "_en": "Hail no jutsu",
+                "_fr": "Salut, pas de jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 氷属性】 氷の妖術を使う。",
+                "_en": "[Power: 30 / Ice attribute] Uses ice magic.",
+                "_fr": "[Puissance : 30 / Attribut Glace] Utilise la magie de la glace."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "突撃となりのうらや飯",
+                "_en": "Urayameshi next door",
+                "_fr": "Urayameshi à côté"
+            },
+            "pouvoir": "93",
+            "explication": {
+                "_jp": "うらめしさから正面の敵に思い切って突進し、ダメージを与える",
+                "_en": "Out of anger, he rushes towards the enemy in front of him and deals damage.",
+                "_fr": "De colère, il se précipite vers l'ennemi devant lui et lui inflige des dégâts."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "うらやましがらせる",
+                "_en": "make one envious",
+                "_fr": "faire envie"
+            },
+            "explication": {
+                "_jp": "【混乱】 とりつかれた妖怪は味方がうらやましくなって味方をたまにこうげきする。",
+                "_en": "[Confusion] A possessed monster becomes jealous of its allies and sometimes attacks them.",
+                "_fr": "[Confusion] Un monstre possédé devient jaloux de ses alliés et les attaque parfois."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "いつも他の人のお弁当を うらやましそうに見ている お米だけのお弁当妖怪。 とりつかれると すぐに他人が うらやましくなってしまう。",
+            "_en": "A bento monster made only of rice that is always looking at other people's bento with envy. When you become obsessed with something, you quickly become envious of others.",
+            "_fr": "Un monstre de bento composé uniquement de riz qui regarde toujours le bento des autres avec envie. Lorsque vous devenez obsédé par quelque chose, vous devenez rapidement envieux des autres."
+        }
+    ]
 }

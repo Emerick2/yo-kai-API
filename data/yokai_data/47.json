@@ -24,7 +24,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/baku.png",
     "numero": "103",
-
     "attaques": [
         {
             "type": "Attaque",
@@ -441,5 +440,173 @@
         ]
     },
     "description_en": "A Yo-kai that eats only human dreams. It puts people to sleep before digging in. Beaux rêves!",
-    "nom_en": "Skranny"
+    "nom_en": "Skranny",
+    "rang_yww": "D",
+    "tribue_yww": "Pritchie",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "jus",
+    "nourriture_favorite": "jus",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "avantage_yww": {
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
+    },
+    "stats_initiale_yww": {
+        "hp": 46,
+        "str": 7,
+        "spr": 19,
+        "def": 13,
+        "spd": 17
+    },
+    "stats_max_yww": {
+        "hp": 323,
+        "str": 49,
+        "spr": 181,
+        "def": 120,
+        "spd": 144
+    },
+    "moyens_obtention_yww": [
+        {
+            "_jp": "1つ星コイン",
+            "_en": "1 star coin",
+            "_fr": "Pièce d'une étoile"
+        },
+        {
+            "_jp": "5つ星コイン",
+            "_en": "5 star coin",
+            "_fr": "Pièce de 5 étoiles"
+        },
+        {
+            "_jp": "ファミマコイン",
+            "_en": "Family Mart Coin",
+            "_fr": "Pièce de monnaie du marché familial"
+        },
+        {
+            "_jp": "ドコモコイン1",
+            "_en": "docomo coin 1",
+            "_fr": "pièce docomo 1"
+        },
+        {
+            "_jp": "十五夜コイン",
+            "_en": "jugoya coin",
+            "_fr": "pièce de monnaie jugoya"
+        },
+        {
+            "_jp": "ドコモコイン2",
+            "_en": "docomo coin 2",
+            "_fr": "pièce docomo 2"
+        },
+        {
+            "_jp": "ハロウィンコイン",
+            "_en": "halloween coin",
+            "_fr": "pièce de monnaie d'Halloween"
+        },
+        {
+            "_jp": "ミルクチョココイン",
+            "_en": "milk chocolate coin",
+            "_fr": "pièce de chocolat au lait"
+        },
+        {
+            "_jp": "ビターチョココイン",
+            "_en": "bitter chocolate coin",
+            "_fr": "pièce de chocolat amer"
+        },
+        {
+            "_jp": "バレンタインコイン",
+            "_en": "valentine coin",
+            "_fr": "pièce de monnaie de la Saint-Valentin"
+        },
+        {
+            "_jp": "おひな様コイン",
+            "_en": "Hina-sama coin",
+            "_fr": "Pièce de monnaie Hina-sama"
+        },
+        {
+            "_jp": "おだいり様コイン",
+            "_en": "Odairi-sama coin",
+            "_fr": "Pièce Odairi-sama"
+        }
+    ],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "はたく",
+                "_en": "flutter",
+                "_fr": "battement"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "吸収の術",
+                "_en": "absorption technique",
+                "_fr": "technique d'absorption"
+            },
+            "explication": {
+                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "ネムケムリ",
+                "_en": "Nemkemri",
+                "_fr": "Nemkemri"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "眠くなるけむりで敵全員を眠らせる。当たった敵はなかなか行動しなくなる。",
+                "_en": "Puts all enemies to sleep with sleepy smoke. Enemies hit will not take any action.",
+                "_fr": "Endort tous les ennemis avec une fumée endormie. Les ennemis touchés n’effectueront aucune action."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "ねむらせる",
+                "_en": "make you sleep",
+                "_fr": "te faire dormir"
+            },
+            "explication": {
+                "_jp": "【おさぼり】 とりつかれた妖怪は眠りこけてしまいたまに行動しなくなる。",
+                "_en": "[Osabori] Possessed monsters fall asleep and sometimes stop acting.",
+                "_fr": "[Osabori] Les monstres possédés s'endorment et arrêtent parfois d'agir."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "人の見ている『夢』を ご飯にしている妖怪。 とりついた人を眠らせて 見ている夢を ゆっくりと ごちそうになる。",
+            "_en": "A monster that feeds on people's dreams. It puts the possessed person to sleep and slowly feasts on their dreams.",
+            "_fr": "Un monstre qui se nourrit des rêves des gens. Il endort la personne possédée et se régale lentement de ses rêves."
+        }
+    ]
 }

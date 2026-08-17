@@ -23,7 +23,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/scoltine.png",
     "numero": "298",
-    
     "attaques": [
         {
             "type": "Attaque",
@@ -339,5 +338,112 @@
         ]
     },
     "description_en": "This bug makes people get grumpy—and asking them what's wrong will only make things worse!",
-    "nom_en": "Squeeky"
+    "nom_en": "Squeeky",
+    "rang_yww": "D",
+    "tribue_yww": "Nyororon",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "hamburger",
+    "nourriture_favorite": "hamburger",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
+    },
+    "avantage_yww": {
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
+    },
+    "stats_initiale_yww": {
+        "hp": 45,
+        "str": 23,
+        "spr": 10,
+        "def": 13,
+        "spd": 17
+    },
+    "stats_max_yww": {
+        "hp": 372,
+        "str": 182,
+        "spr": 52,
+        "def": 116,
+        "spd": 146
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "ぶったたく",
+                "_en": "hit",
+                "_fr": "frapper"
+            },
+            "explication": {
+                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
+                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "火花の術",
+                "_en": "Spark technique",
+                "_fr": "Technique d'étincelle"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 火属性】 火の妖術を使う。",
+                "_en": "[Power: 30 / Fire attribute] Uses fire magic.",
+                "_fr": "[Puissance : 30 / Attribut Feu] Utilise la magie du feu."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "ムカムカ尻尾ッポ！",
+                "_en": "Nasty tail!",
+                "_fr": "Sale queue !"
+            },
+            "pouvoir": "67",
+            "explication": {
+                "_jp": "ムカムカしながらしっぽを叩きつけ敵1匹にダメージを与える。",
+                "_en": "Slaps his tail in a disgusted manner, dealing damage to one enemy.",
+                "_fr": "Frappe sa queue d'une manière dégoûtée, infligeant des dégâts à un ennemi."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "ムカムカさせる",
+                "_en": "make me feel sick",
+                "_fr": "me rend malade"
+            },
+            "explication": {
+                "_jp": "【混乱】 とりつかれた妖怪はとにかくムカムカして味方をたまにこうげきする。",
+                "_en": "[Confusion] Possessed monsters get really annoyed and sometimes attack their allies.",
+                "_fr": "[Confusion] Les monstres possédés sont vraiment énervés et attaquent parfois leurs alliés."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "ムカムカしているムカデ妖怪。 とりつかれると とにかく ムカムカしてしまう。 「怒ってるの？」って言葉は 火に油をそそぐので注意。",
+            "_en": "A disgusting centipede monster. When I get obsessed with something, it just makes me feel sick. Be careful not to say, \"Are you angry?\" as this will add fuel to the fire.",
+            "_fr": "Un monstre mille-pattes dégoûtant. Quand je suis obsédé par quelque chose, cela me rend malade. Faites attention à ne pas dire : « Êtes-vous en colère ? car cela ajouterait de l'huile sur le feu."
+        }
+    ]
 }

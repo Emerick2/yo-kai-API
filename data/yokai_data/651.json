@@ -94,5 +94,112 @@
         ]
     },
     "description_en": "One of the Seven Gods of Fortune, said to bring longevity and happiness. Bestows the power of the light to all.",
-    "nom_en": "Daikokuten"
+    "nom_en": "Daikokuten",
+    "rang_yww": "S",
+    "tribue_yww": "Pokapoka",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "Sushis",
+    "nourriture_favorite": "Sushis",
+    "attitude_spécifique_yww": {
+        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "avantage_yww": {
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
+    },
+    "stats_initiale_yww": {
+        "hp": 37,
+        "str": 15,
+        "spr": 55,
+        "def": 19,
+        "spd": 29
+    },
+    "stats_max_yww": {
+        "hp": 387,
+        "str": 98,
+        "spr": 300,
+        "def": 123,
+        "spd": 159
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "はたく",
+                "_en": "flutter",
+                "_fr": "battement"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "極楽の術",
+                "_en": "The art of paradise",
+                "_fr": "L'art du paradis"
+            },
+            "explication": {
+                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "福寿の陽光",
+                "_en": "Fukuju sunshine",
+                "_fr": "Le soleil de Fukuju"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "福を呼ぶめでたい光で味方全員を復活させHPも回復する。",
+                "_en": "The auspicious light that brings good fortune will revive all allies and restore their HP.",
+                "_fr": "La lumière propice qui apporte la bonne fortune ravivera tous les alliés et restaurera leurs PV."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "福禄寿の祝い",
+                "_en": "Fukurokuju celebration",
+                "_fr": "Célébration de Fukurokuju"
+            },
+            "explication": {
+                "_jp": "【回復】 とりつかれた妖怪は福禄寿に祝われて HPがだんだん回復する。",
+                "_en": "[Recovery] The possessed monster will be blessed by Fukurokuju and its HP will gradually recover.",
+                "_fr": "[Récupération] Le monstre possédé sera béni par Fukurokuju et ses HP récupéreront progressivement."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "福をもたらす七福神妖怪。 その大きな耳たぶをさわると 福をわけてもらえるらしいが 人見知りなので そう簡単には さわらせてくれない。",
+            "_en": "A monster of the Seven Lucky Gods that brings good fortune. It is said that if you touch its large earlobes, you will be granted good fortune, but since it is shy, it will not let you touch it easily.",
+            "_fr": "Un monstre des Sept Dieux Chanceux qui apporte la bonne fortune. On dit que si vous touchez ses gros lobes d’oreille, vous aurez de la chance, mais comme il est timide, il ne vous laissera pas le toucher facilement."
+        }
+    ]
 }

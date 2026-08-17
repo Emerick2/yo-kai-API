@@ -268,5 +268,111 @@
         ]
     },
     "description_en": "You won't understand anything when this guy's around, no matter how well it's explained.",
-    "nom_en": "Who-Me"
+    "nom_en": "Who-Me",
+    "rang_yww": "D",
+    "tribue_yww": "Fushigi",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "pain",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "avantage_yww": {
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
+    },
+    "stats_initiale_yww": {
+        "hp": 45,
+        "str": 7,
+        "spr": 28,
+        "def": 20,
+        "spd": 8
+    },
+    "stats_max_yww": {
+        "hp": 353,
+        "str": 67,
+        "spr": 200,
+        "def": 152,
+        "spd": 85
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "あてみ",
+                "_en": "Atemi",
+                "_fr": "Atémi"
+            },
+            "explication": {
+                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "いかずちの術",
+                "_en": "Ikazuchi no Jutsu",
+                "_fr": "Ikazuchi no Jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 雷属性】 強力な雷の妖術を使う。",
+                "_en": "[Power: 50 / Lightning attribute] Uses powerful lightning magic.",
+                "_fr": "[Puissance : 50 / Attribut Foudre] Utilise une puissante magie de foudre."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "なんかピンとこない話",
+                "_en": "Something doesn't make sense to me",
+                "_fr": "Quelque chose n'a pas de sens pour moi"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "調査中。",
+                "_en": "Under investigation.",
+                "_fr": "Sous enquête."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "ピンとこなくする",
+                "_en": "lose focus",
+                "_fr": "perdre sa concentration"
+            },
+            "explication": {
+                "_jp": "【ちからダウン】 とりつかれた妖怪は何事もピンとこなくなり ちからがダウンする。",
+                "_en": "[Power down] A possessed monster loses focus on everything and its power goes down.",
+                "_fr": "[Mise hors tension] Un monstre possédé perd sa concentration sur tout et sa puissance diminue."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "上手に説明したはずなのに 相手に「ピンとこんな～」と 言われたら コイツがいる証拠。 コイツがいる限り 相手が ピンとくることは ないのだ！",
+            "_en": "If you think you've explained it well, but the other person says, \"It's just like that,\" that's proof that this guy is there. As long as this guy is here, the other party will never get caught!",
+            "_fr": "Si vous pensez que vous l'avez bien expliqué, mais que l'autre personne dit : « C'est juste comme ça », c'est la preuve que ce type est là. Tant que ce type est là, l'autre partie ne se fera jamais prendre !"
+        }
+    ]
 }

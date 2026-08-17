@@ -369,5 +369,111 @@
         ]
     },
     "description_en": "A pot Yo-kai who sings a strange tune. If you hear singing coming from a pot, don't look into it!",
-    "nom_en": "Sir Berus"
+    "nom_en": "Sir Berus",
+    "rang_yww": "C",
+    "tribue_yww": "Nyororon",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "viande",
+    "attitude_spécifique_yww": {
+        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
+    },
+    "avantage_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "stats_initiale_yww": {
+        "hp": 48,
+        "str": 24,
+        "spr": 10,
+        "def": 18,
+        "spd": 19
+    },
+    "stats_max_yww": {
+        "hp": 386,
+        "str": 193,
+        "spr": 78,
+        "def": 128,
+        "spd": 135
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "くらいつく",
+                "_en": "Approximately",
+                "_fr": "Environ"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+                "_en": "[Power: 50/Blow] Deal a big blow",
+                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "吸収の術",
+                "_en": "吸収の術",
+                "_fr": "吸収の術"
+            },
+            "explication": {
+                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "人生うなぎ節",
+                "_en": "life eel festival",
+                "_fr": "festival de l'anguille de la vie"
+            },
+            "pouvoir": "22×5",
+            "explication": {
+                "_jp": "演歌のようりょうでかみまくり敵全体にダメージを与える。",
+                "_en": "Rolls up like an enka song and deals damage to all enemies.",
+                "_fr": "S'enroule comme une chanson enka et inflige des dégâts à tous les ennemis."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "歌の力",
+                "_en": "歌の力",
+                "_fr": "歌の力"
+            },
+            "explication": {
+                "_jp": "【ようりょくアップ】 とりつかれた妖怪は歌っちゃうほど気分がよくなり ようりょくがアップする。",
+                "_en": "[Yoryoku Up] The more a possessed monster sings, the better it feels, and its Yoryoku increases.",
+                "_fr": "[Yoryoku Up] Plus un monstre possédé chante, plus il se sent bien et son Yoryoku augmente."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "何ともいえない 不思議な声で歌うツボ妖怪。 ツボの中から 珍しい歌が聞こえても のぞきこんではいけない。",
+            "_en": "An acupuncture monster that sings with an indescribable and mysterious voice. Even if you hear an unusual song coming from inside the pot, don't look into it.",
+            "_fr": "Un monstre d'acupuncture qui chante d'une voix indescriptible et mystérieuse. Même si vous entendez une chanson inhabituelle venant de l’intérieur du pot, n’y regardez pas."
+        }
+    ]
 }

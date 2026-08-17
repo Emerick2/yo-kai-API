@@ -329,5 +329,117 @@
         ]
     },
     "description_en": "Wantston wants everything others have, but he won't even try to acquire what he envies. So no worries.",
-    "nom_en": "Drizzle"
+    "nom_en": "Drizzle",
+    "rang_yww": "E",
+    "tribue_yww": "Pokapoka",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "ramen",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "avantage_yww": {
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
+    },
+    "stats_initiale_yww": {
+        "hp": 44,
+        "str": 14,
+        "spr": 12,
+        "def": 5,
+        "spd": 22
+    },
+    "stats_max_yww": {
+        "hp": 279,
+        "str": 127,
+        "spr": 121,
+        "def": 69,
+        "spd": 163
+    },
+    "moyens_obtention_yww": [
+        {
+            "_jp": "スプリングコイン",
+            "_en": "spring coin",
+            "_fr": "pièce de printemps"
+        }
+    ],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "はたく",
+                "_en": "flutter",
+                "_fr": "battement"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "電流の術",
+                "_en": "electric current technique",
+                "_fr": "technique du courant électrique"
+            },
+            "explication": {
+                "_jp": "【威力:40 / 雷属性】 雷の妖術を使う。",
+                "_en": "[Power: 40 / Lightning attribute] Uses lightning magic.",
+                "_fr": "[Puissance : 40 / Attribut Foudre] Utilise la magie de la foudre."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "うらめしハンド",
+                "_en": "Urameshi hand",
+                "_fr": "Main d'Urameshi"
+            },
+            "pouvoir": "67",
+            "explication": {
+                "_jp": "口から生えた不思議な手で範囲内のHPを吸収し味方全員に分け与える。",
+                "_en": "A mysterious hand that grows from its mouth absorbs HP within its range and distributes it to all allies.",
+                "_fr": "Une main mystérieuse qui sort de sa bouche absorbe les HP à sa portée et les distribue à tous les alliés."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "うらやましがらせる",
+                "_en": "make one envious",
+                "_fr": "faire envie"
+            },
+            "explication": {
+                "_jp": "【混乱】 とりつかれた妖怪は味方がうらやましくなって味方をたまにこうげきする。",
+                "_en": "[Confusion] A possessed monster becomes jealous of its allies and sometimes attacks them.",
+                "_fr": "[Confusion] Un monstre possédé devient jaloux de ses alliés et les attaque parfois."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "他人のことなら どんなに小さなことでも うらやましがる妖怪。 でも それを手に入れる 努力はしようとしない。",
+            "_en": "A monster who is envious of other people, no matter how small. But I won't try to get it.",
+            "_fr": "Un monstre qui envie les autres, aussi petits soient-ils. Mais je n'essaierai pas de l'obtenir."
+        }
+    ]
 }

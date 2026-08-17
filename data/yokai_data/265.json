@@ -23,7 +23,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/fanfanfaron.png",
     "numero": "089",
-    
     "attaques": [
         {
             "type": "Attaque",
@@ -379,5 +378,112 @@
         ]
     },
     "description_en": "He's the priciest dish in the shop, and he knows it. Inspirits people to be insufferably self-satisfied.",
-    "nom_en": "Zappary"
+    "nom_en": "Zappary",
+    "rang_yww": "B",
+    "tribue_yww": "Goketsu",
+    "rôle_yww": "réservoir",
+    "plat_préféré_yww": "Onigiri",
+    "nourriture_favorite": "Onigiri",
+    "attitude_spécifique_yww": {
+        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
+    },
+    "avantage_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "stats_initiale_yww": {
+        "hp": 63,
+        "str": 11,
+        "spr": 17,
+        "def": 33,
+        "spd": 11
+    },
+    "stats_max_yww": {
+        "hp": 448,
+        "str": 90,
+        "spr": 156,
+        "def": 218,
+        "spd": 86
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "タックル",
+                "_en": "tackle",
+                "_fr": "tacle"
+            },
+            "explication": {
+                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 35/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 35/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "回復の術",
+                "_en": "art of recovery",
+                "_fr": "l'art de la récupération"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
+                "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
+                "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "極太海老天落とし",
+                "_en": "Extra thick shrimp tempura drop",
+                "_fr": "Goutte de tempura de crevettes extra épaisse"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "調査中。",
+                "_en": "Under investigation.",
+                "_fr": "Sous enquête."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "極太海老天の力",
+                "_en": "The power of extra-thick shrimp tempura",
+                "_fr": "Le pouvoir de la tempura de crevettes extra épaisse"
+            },
+            "explication": {
+                "_jp": "【まもりアップ】 とりつかれた妖怪は極太海老天の栄養でまもりがアップする。",
+                "_en": "[Increased protection] The protection of possessed monsters will increase with the nutrition of extra-thick shrimp tempura.",
+                "_fr": "[Protection accrue] La protection des monstres possédés augmentera avec la nutrition de tempura de crevettes extra-épaisses."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "プライドも値段も高い 超豪華な天ぷら丼妖怪。 プライ丼に とりつかれると プライドが高くなって みんなの反感を買うので注意。",
+            "_en": "A super luxurious tempura bowl monster with pride and high prices. Be careful, if you become obsessed with ply bowls, your pride will get high and everyone will resent you.",
+            "_fr": "Un monstre de bol tempura super luxueux avec de la fierté et des prix élevés. Attention, si vous devenez obsédé par les bols en plis, votre fierté montera en flèche et tout le monde vous en voudra."
+        }
+    ]
 }

@@ -23,7 +23,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/charivari.png",
     "numero": "091",
-    
     "attaques": [
         {
             "type": "Attaque",
@@ -358,5 +357,112 @@
         ]
     },
     "description_en": "A tank who trundled off toward the enemy but got badly lost. At least his heart's in the right place.",
-    "nom_en": "No-Go Kart"
+    "nom_en": "No-Go Kart",
+    "rang_yww": "E",
+    "tribue_yww": "Goketsu",
+    "rôle_yww": "réservoir",
+    "plat_préféré_yww": "Onigiri",
+    "nourriture_favorite": "Onigiri",
+    "attitude_spécifique_yww": {
+        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "avantage_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "stats_initiale_yww": {
+        "hp": 47,
+        "str": 10,
+        "spr": 6,
+        "def": 20,
+        "spd": 15
+    },
+    "stats_max_yww": {
+        "hp": 390,
+        "str": 97,
+        "spr": 48,
+        "def": 194,
+        "spd": 101
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "あてみ",
+                "_en": "Atemi",
+                "_fr": "Atémi"
+            },
+            "explication": {
+                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "こいしの術",
+                "_en": "Koishi no jutsu",
+                "_fr": "Koishi pas de jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 土属性】 土の妖術を使う。",
+                "_en": "[Power: 30 / Earth attribute] Uses earth magic.",
+                "_fr": "[Puissance : 30 / Attribut Terre] Utilise la magie de la terre."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "あっちこっち珍道中",
+                "_en": "A rare journey here and there",
+                "_fr": "Un voyage rare ici et là"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "調査中。",
+                "_en": "Under investigation.",
+                "_fr": "Sous enquête."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "道に迷わせる",
+                "_en": "lead astray",
+                "_fr": "égarer"
+            },
+            "explication": {
+                "_jp": "【おさぼり】 とりつかれた妖怪は道に迷ってしまってたまに行動しなくなる。",
+                "_en": "[Osabori] Possessed monsters get lost and sometimes stop acting.",
+                "_fr": "[Osabori] Les monstres possédés se perdent et arrêtent parfois d'agir."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "極度の方向オンチな妖怪。 行きたいところに 乗せていってあげると 言ったそばから 道をそれて 迷子になってしまうらしい。",
+            "_en": "A monster with extreme direction. Apparently, when I said I would take her where she wanted to go, she veered off the path and got lost.",
+            "_fr": "Un monstre avec une direction extrême. Apparemment, quand je lui ai dit que je l'emmènerais là où elle voulait aller, elle a quitté la route et s'est perdue."
+        }
+    ]
 }

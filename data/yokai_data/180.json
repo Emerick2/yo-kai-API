@@ -23,7 +23,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/marcognito.png",
     "numero": "144",
-    
     "attaques": [
         {
             "type": "Attaque",
@@ -299,5 +298,118 @@
         ]
     },
     "description_en": "Being Inspirited by Dimmy will tone down your presence. Dimmy uses this for his job as a ninja.",
-    "nom_en": "Lamedian"
+    "nom_en": "Lamedian",
+    "rang_yww": "E",
+    "tribue_yww": "Usurakage",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "Onigiri",
+    "nourriture_favorite": "Onigiri",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "avantage_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "stats_initiale_yww": {
+        "hp": 34,
+        "str": 19,
+        "spr": 2,
+        "def": 8,
+        "spd": 22
+    },
+    "stats_max_yww": {
+        "hp": 269,
+        "str": 143,
+        "spr": 35,
+        "def": 89,
+        "spd": 180
+    },
+    "moyens_obtention_yww": [
+        {
+            "_jp": "青コイン",
+            "_en": "blue coin",
+            "_fr": "pièce bleue"
+        }
+    ],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "きりつける",
+                "_en": "punish",
+                "_fr": "punir"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "ようじゅつ",
+                "_fr": "ようじゅつ"
+            },
+            "nom": {
+                "_jp": "つむじ風の術",
+                "_en": "Whirlwind technique",
+                "_fr": "Technique du tourbillon"
+            },
+            "explication": {
+                "_jp": "【威力:40 / 風属性】 風の妖術を使う。",
+                "_en": "[Power: 40 / Wind attribute] Uses wind magic.",
+                "_fr": "[Puissance : 40 / Attribut Vent] Utilise la magie du vent."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "ジミーな一発",
+                "_en": "Jimmy shot",
+                "_fr": "Jimmy a tiré"
+            },
+            "pouvoir": "67",
+            "explication": {
+                "_jp": "地味ながらも気合いの入った強力なビンタで敵1匹をこうげきする。",
+                "_en": "Destroys one enemy with a simple yet powerful slap.",
+                "_fr": "Détruit un ennemi d'un simple coup puissant."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "存在感をうすくする",
+                "_en": "diminish one's presence",
+                "_fr": "diminuer sa présence"
+            },
+            "explication": {
+                "_jp": "【まもりダウン】 とりつかれた妖怪はすごく地味になって まもりがダウンする。",
+                "_en": "[Mamori Down] The possessed monster becomes very plain and its protection goes down.",
+                "_fr": "[Mamori Down] Le monstre possédé devient très clair et sa protection diminue."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "ジミーにとりつかれると 影がうすくなり だれからも気づかれなくなる。 ジミーは忍者の仕事に その力を利用している。",
+            "_en": "When you're possessed by Jimmy, your shadow fades and no one notices you. Jimmy uses his powers to work as a ninja.",
+            "_fr": "Lorsque vous êtes possédé par Jimmy, votre ombre s'estompe et personne ne vous remarque. Jimmy utilise ses pouvoirs pour travailler comme un ninja."
+        }
+    ]
 }

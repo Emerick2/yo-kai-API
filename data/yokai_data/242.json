@@ -402,5 +402,111 @@
         ]
     },
     "description_en": "A neat-freak shogun who has been known to make heads roll if an underling so much as smudges his helmet.",
-    "nom_en": "Mudmunch"
+    "nom_en": "Mudmunch",
+    "rang_yww": "B",
+    "tribue_yww": "Isamashi",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "bonbons",
+    "attitude_spécifique_yww": {
+        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
+    },
+    "avantage_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "stats_initiale_yww": {
+        "hp": 52,
+        "str": 29,
+        "spr": 6,
+        "def": 20,
+        "spd": 26
+    },
+    "stats_max_yww": {
+        "hp": 348,
+        "str": 221,
+        "spr": 56,
+        "def": 148,
+        "spd": 149
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "スプレー発射",
+                "_en": "spray firing",
+                "_fr": "tir par pulvérisation"
+            },
+            "explication": {
+                "_jp": "【威力:40 / 打撃】 必ず命中する",
+                "_en": "[Power: 40/Blow] Always hits",
+                "_fr": "[Puissance : 40/Coup] Frappe toujours"
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "氷結の術",
+                "_en": "Freezing technique",
+                "_fr": "Technique de congélation"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 氷属性】 強力な氷の妖術を使う。",
+                "_en": "[Power: 50 / Ice attribute] Uses powerful ice magic.",
+                "_fr": "[Puissance : 50 / Attribut Glace] Utilise une puissante magie de glace."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "ピカピカ除菌の術",
+                "_en": "Shiny sterilization technique",
+                "_fr": "Technique de stérilisation brillante"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "味方のHPを大きく回復し悪いとりつき効果をなくす",
+                "_en": "Greatly recovers HP of allies and removes bad haunting effects",
+                "_fr": "Récupère grandement les HP des alliés et supprime les mauvais effets obsédants"
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "洗浄する",
+                "_en": "wash",
+                "_fr": "laver"
+            },
+            "explication": {
+                "_jp": "【回復】 とりつかれた妖怪はせいけつパワーでHPが少しずつ回復する。",
+                "_en": "[Recovery] Possessed monsters will recover their HP little by little using Seiketsu power.",
+                "_fr": "[Récupération] Un monstre possédé récupérera ses PV petit à petit grâce au pouvoir Seiketsu."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "掃除の力でのし上がった将軍。 あまりにも キレイ好きすぎて カブトが汚れていただけで 家来の首を はねることもあり みんなを震え上がらせている。",
+            "_en": "A general who rose to prominence through the power of cleaning. She loves cleanliness so much that she sometimes decapitates her servants just because her helmet is dirty, which makes everyone tremble.",
+            "_fr": "Un général qui s'est fait connaître grâce au pouvoir du nettoyage. Elle aime tellement la propreté qu'elle décapite parfois ses domestiques juste parce que son casque est sale, ce qui fait trembler tout le monde."
+        }
+    ]
 }

@@ -24,7 +24,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/granpapeti.png",
     "numero": "116",
-    
     "attaques": [
         {
             "type": "Attaque",
@@ -257,5 +256,118 @@
             "VovôrexiaVovônorexia (Wibble Wobble)"
         ]
     },
-    "nom_en": "Tengu"
+    "nom_en": "Tengu",
+    "rang_yww": "E",
+    "tribue_yww": "Pokapoka",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "Onigiri",
+    "nourriture_favorite": "Onigiri",
+    "attitude_spécifique_yww": {
+        "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
+        "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "avantage_yww": {
+        "_jp": "土属性",
+        "_en": "土属性",
+        "_fr": "土属性"
+    },
+    "stats_initiale_yww": {
+        "hp": 33,
+        "str": 5,
+        "spr": 20,
+        "def": 11,
+        "spd": 19
+    },
+    "stats_max_yww": {
+        "hp": 283,
+        "str": 45,
+        "spr": 190,
+        "def": 113,
+        "spd": 131
+    },
+    "moyens_obtention_yww": [
+        {
+            "_jp": "緑コイン",
+            "_en": "green coin",
+            "_fr": "pièce verte"
+        }
+    ],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "ずつき",
+                "_en": "Zutsuki",
+                "_fr": "Zutsuki"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体に攻撃する。",
+                "_en": "[Power: 30/Blow] Attacks one enemy.",
+                "_fr": "[Puissance : 30/Coup] Attaque un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "ようじゅつ",
+                "_fr": "ようじゅつ"
+            },
+            "nom": {
+                "_jp": "いやしの術",
+                "_en": "Healing techniques",
+                "_fr": "Techniques de guérison"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
+                "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
+                "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "ひもじインパクト",
+                "_en": "Himoji impact",
+                "_fr": "Impact Himoji"
+            },
+            "pouvoir": "60",
+            "explication": {
+                "_jp": "天に願いをささげて呼び寄せた大量のおにぎりで味方全員のHPを回復する。",
+                "_en": "Recovers the HP of all allies with a large amount of rice balls summoned by offering a wish to the heavens.",
+                "_fr": "Récupère les PV de tous les alliés avec une grande quantité de boulettes de riz invoquées en faisant un vœu au ciel."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "おなかをすかせる",
+                "_en": "make you hungry",
+                "_fr": "te donner faim"
+            },
+            "explication": {
+                "_jp": "【ちからダウン】 とりつかれた妖怪はおなかがへってしまい ちからがダウンする。",
+                "_en": "[Power down] The possessed monster becomes hungry and its power goes down.",
+                "_fr": "[Mise hors tension] Le monstre possédé a faim et sa puissance diminue."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "人のお腹を空かせる力を 持っている妖怪。 できることはそれだけ。 ひも爺自身も つねにお腹が空いている。",
+            "_en": "A monster that has the power to make people hungry. That's all you can do. Old Man Himo himself is always hungry.",
+            "_fr": "Un monstre qui a le pouvoir de donner faim. C'est tout ce que vous pouvez faire. Le vieil homme Himo lui-même a toujours faim."
+        }
+    ]
 }

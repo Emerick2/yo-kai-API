@@ -367,5 +367,111 @@
         ]
     },
     "description_en": "He looks just like Coughkoff, but don't say that! He hates that guy.",
-    "nom_en": "Goruma"
+    "nom_en": "Goruma",
+    "rang_yww": "D",
+    "tribue_yww": "Bukimi",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "pain",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
+    },
+    "avantage_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "stats_initiale_yww": {
+        "hp": 50,
+        "str": 17,
+        "spr": 7,
+        "def": 28,
+        "spd": 8
+    },
+    "stats_max_yww": {
+        "hp": 428,
+        "str": 140,
+        "spr": 48,
+        "def": 230,
+        "spd": 64
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "こづく",
+                "_en": "poked you",
+                "_fr": "vous a Poké"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "氷結の術",
+                "_en": "Freezing technique",
+                "_fr": "Technique de congélation"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 氷属性】 強力な氷の妖術を使う。",
+                "_en": "[Power: 50 / Ice attribute] Uses powerful ice magic.",
+                "_fr": "[Puissance : 50 / Attribut Glace] Utilise une puissante magie de glace."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "チクチクボム",
+                "_en": "tingling bomb",
+                "_fr": "bombe picotante"
+            },
+            "pouvoir": "130",
+            "explication": {
+                "_jp": "自爆して自分の体をぎせいにしつつ敵全体にダメージを与える。",
+                "_en": "Self-destructs, damaging your own body and damaging all enemies.",
+                "_fr": "S'autodétruit, endommageant votre propre corps et endommageant tous les ennemis."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "頭痛にする",
+                "_en": "give a headache",
+                "_fr": "donne mal à la tête"
+            },
+            "explication": {
+                "_jp": "【HP減少】 とりつかれた妖怪は頭がチクチクと痛くなりHPが少しずつ減ってしまう。",
+                "_en": "[HP Decrease] A possessed youkai's head will tingle and its HP will gradually decrease.",
+                "_fr": "[Diminution des PV] La tête d'un yôkai possédé va picoter et ses PV vont progressivement diminuer."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "イガイガグリと 見た目はそっくり。 よく間違えられるので 目のかたきにしている。 水辺にいたらチクチクウニだ。",
+            "_en": "It looks exactly like a mussel. I keep a close eye on this because I often get it wrong. If you're near the water, you'll find stinging sea urchins.",
+            "_fr": "Cela ressemble exactement à une moule. Je surveille cela de près car je me trompe souvent. Si vous êtes près de l’eau, vous trouverez des oursins piqueurs."
+        }
+    ]
 }

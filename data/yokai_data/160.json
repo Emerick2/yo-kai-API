@@ -343,5 +343,112 @@
         ]
     },
     "description_en": "A Yo-kai that beckons to people with a huge hand and gets them confused. It's his fault when a child gets lost!",
-    "nom_en": "Negatibuzz"
+    "nom_en": "Negatibuzz",
+    "rang_yww": "E",
+    "tribue_yww": "Usurakage",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "Dashi",
+    "nourriture_favorite": "Dashi",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
+    },
+    "avantage_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "stats_initiale_yww": {
+        "hp": 39,
+        "str": 17,
+        "spr": 6,
+        "def": 10,
+        "spd": 18
+    },
+    "stats_max_yww": {
+        "hp": 333,
+        "str": 131,
+        "spr": 70,
+        "def": 84,
+        "spd": 147
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "はたく",
+                "_en": "flutter",
+                "_fr": "battement"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "あられの術",
+                "_en": "Hail no jutsu",
+                "_fr": "Salut, pas de jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 氷属性】 氷の妖術を使う。",
+                "_en": "[Power: 30 / Ice attribute] Uses ice magic.",
+                "_fr": "[Puissance : 30 / Attribut Glace] Utilise la magie de la glace."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "鬼さんこちら",
+                "_en": "Oni-san here",
+                "_fr": "Oni-san ici"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "敵全員を誤った方向に導く。導かれた妖怪は味方をすぐにこうげきする。",
+                "_en": "Misdirect all enemies. The guided monster immediately attacks its allies.",
+                "_fr": "Dirigez tous les ennemis de manière erronée. Le monstre guidé attaque immédiatement ses alliés."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "敵をみちびく",
+                "_en": "guide the enemy",
+                "_fr": "guider l'ennemi"
+            },
+            "explication": {
+                "_jp": "【混乱】 とりつかれた妖怪はみちび鬼にみちびかれて味方をすぐにこうげきする。",
+                "_en": "[Confusion] The possessed youkai is guided by the Michibi demon and immediately attacks its allies.",
+                "_fr": "[Confusion] Le yôkai possédé est guidé par le démon Michibi et attaque immédiatement ses alliés."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "大きな手で手まねきして ついてきた人を 迷わせてしまう妖怪。 子どもが迷子になるのは こいつのしわざ。",
+            "_en": "A monster that uses its large hands to confuse people who follow it. This is what this guy does when children get lost.",
+            "_fr": "Un monstre qui utilise ses grandes mains pour confondre ceux qui le suivent. C'est ce que fait ce type quand des enfants se perdent."
+        }
+    ]
 }

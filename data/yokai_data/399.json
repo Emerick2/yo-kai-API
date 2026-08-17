@@ -23,7 +23,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/robonoko.png",
     "numero": "345",
-    
     "attaques": [
         {
             "type": "Attaque",
@@ -316,5 +315,112 @@
         ]
     },
     "description_en": "This robotic Noko from the future has the ability to blend into the background, avoiding detection.",
-    "nom_en": "Robokoma"
+    "nom_en": "Robokoma",
+    "rang_yww": "B",
+    "tribue_yww": "Nyororon",
+    "rôle_yww": "réservoir",
+    "plat_préféré_yww": "hamburger",
+    "nourriture_favorite": "hamburger",
+    "attitude_spécifique_yww": {
+        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
+    },
+    "avantage_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "stats_initiale_yww": {
+        "hp": 53,
+        "str": 11,
+        "spr": 18,
+        "def": 35,
+        "spd": 15
+    },
+    "stats_max_yww": {
+        "hp": 437,
+        "str": 41,
+        "spr": 143,
+        "def": 231,
+        "spd": 133
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "かみつく",
+                "_en": "bite",
+                "_fr": "mordre"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "落石の術",
+                "_en": "falling rock jutsu",
+                "_fr": "jutsu qui tombe des pierres"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
+                "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
+                "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "ギギギスマイル",
+                "_en": "Gigigi Smile",
+                "_fr": "Gigigi Sourire"
+            },
+            "pouvoir": "90",
+            "explication": {
+                "_jp": "ロボットならではのぎこちないスマイルで味方全員のHPを回復する。",
+                "_en": "Recovers the HP of all allies with an awkward smile unique to a robot.",
+                "_fr": "Récupère les PV de tous les alliés avec un sourire maladroit propre à un robot."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "鋼鉄パワー",
+                "_en": "steel power",
+                "_fr": "puissance de l'acier"
+            },
+            "explication": {
+                "_jp": "【まもりアップ】 とりつかれた妖怪は鋼鉄のおはだを手に入れて まもりがアップする。",
+                "_en": "[Increased protection] The possessed monster gains a steel shield and its protection increases.",
+                "_fr": "[Protection accrue] Le monstre possédé gagne un bouclier d'acier et sa protection augmente."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "未来からやってきた ツチノコのロボット。 まわりの景色に溶け込む ナノステルス技術で 人から 見つかることはなくなった。",
+            "_en": "A Tsuchinoko robot from the future. Thanks to nano-stealth technology that allows it to blend into its surroundings, it is no longer detected by humans.",
+            "_fr": "Un robot Tsuchinoko du futur. Grâce à la technologie nano-furtive qui lui permet de se fondre dans son environnement, il n’est plus détecté par les humains."
+        }
+    ]
 }

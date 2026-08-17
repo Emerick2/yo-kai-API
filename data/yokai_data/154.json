@@ -393,5 +393,111 @@
         ]
     },
     "description_en": "A bratty Yo-kai who's always kicking people's shoulders. The kicks just make your shoulders stiff.",
-    "nom_en": "Auntie Heart"
+    "nom_en": "Auntie Heart",
+    "rang_yww": "E",
+    "tribue_yww": "Usurakage",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "Dashi",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "avantage_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "stats_initiale_yww": {
+        "hp": 37,
+        "str": 19,
+        "spr": 6,
+        "def": 11,
+        "spd": 15
+    },
+    "stats_max_yww": {
+        "hp": 293,
+        "str": 169,
+        "spr": 42,
+        "def": 118,
+        "spd": 131
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "けり",
+                "_en": "Kicking",
+                "_fr": "Coup de pied"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "こいしの術",
+                "_en": "Koishi no jutsu",
+                "_fr": "Koishi pas de jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 土属性】 土の妖術を使う。",
+                "_en": "[Power: 30 / Earth attribute] Uses earth magic.",
+                "_fr": "[Puissance : 30 / Attribut Terre] Utilise la magie de la terre."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "肩たたき拳",
+                "_en": "Shoulder fist",
+                "_fr": "Poing d'épaule"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "勢いよく飛び上がり強力な突進。敵単体にダメージを与える。",
+                "_en": "Jump up with great force and make a powerful lunge. Deals damage to a single enemy.",
+                "_fr": "Sautez avec une grande force et effectuez une fente puissante. Inflige des dégâts à un seul ennemi."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "肩をこらせる",
+                "_en": "stiff shoulders",
+                "_fr": "épaules raides"
+            },
+            "explication": {
+                "_jp": "【HP減少】 とりつかれた妖怪は肩がいたすぎてHPがだんだん減ってしまう。",
+                "_en": "[HP Decrease] The possessed monster's shoulders are so strained that its HP gradually decreases.",
+                "_fr": "[Diminution des PV] Les épaules du monstre possédé sont tellement tendues que ses PV diminuent progressivement."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "怒りっぽい性格で いつも人の肩を けりまくっている。 けられてもケガはしないが ひどい肩こりになってしまう。",
+            "_en": "He has an angry personality and is always kicking people in the shoulder. Even if I get kicked, I don't get hurt, but I end up with severe shoulder stiffness.",
+            "_fr": "Il a une personnalité colérique et donne toujours des coups de pied aux gens dans l'épaule. Même si je reçois un coup de pied, je ne me blesse pas, mais je me retrouve avec une grave raideur à l'épaule."
+        }
+    ]
 }

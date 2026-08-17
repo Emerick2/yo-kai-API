@@ -23,7 +23,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/odyssenyan.png",
     "numero": "453",
-    
     "attaques": [
         {
             "type": "Attaque",
@@ -270,5 +269,123 @@
         ]
     },
     "description_en": "This cat was taken to the Palace of the Dragon King...but forgot his treasure on the way back home!",
-    "nom_en": "Emperor Mode"
+    "nom_en": "Emperor Mode",
+    "rang_yww": "A",
+    "tribue_yww": "Pokapoka",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "fruit de mer",
+    "nourriture_favorite": "fruit de mer",
+    "attitude_spécifique_yww": {
+        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
+    },
+    "avantage_yww": {
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
+    },
+    "stats_initiale_yww": {
+        "hp": 49,
+        "str": 10,
+        "spr": 40,
+        "def": 18,
+        "spd": 23
+    },
+    "stats_max_yww": {
+        "hp": 386,
+        "str": 59,
+        "spr": 253,
+        "def": 132,
+        "spd": 160
+    },
+    "moyens_obtention_yww": [
+        {
+            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+        },
+        {
+            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+        }
+    ],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "たたく",
+                "_en": "knock",
+                "_fr": "frappe"
+            },
+            "explication": {
+                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "極楽の術",
+                "_en": "The art of paradise",
+                "_fr": "L'art du paradis"
+            },
+            "explication": {
+                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "オープン・ザ・救急箱",
+                "_en": "Open the first aid kit",
+                "_fr": "Ouvrir la trousse de premiers secours"
+            },
+            "pouvoir": "120",
+            "explication": {
+                "_jp": "いやし効果のある玉手箱を オープンし 味方全員の HPを回復する",
+                "_en": "Open a treasure box with a healing effect and recover HP of all allies.",
+                "_fr": "Ouvrez un coffre au trésor avec un effet curatif et récupérez les HP de tous les alliés."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "竜宮城のみちびき",
+                "_en": "Ryugujo Michibiki",
+                "_fr": "Ryugujo Michibiki"
+            },
+            "explication": {
+                "_jp": "【全ステアップ】 とりつかれた妖怪は竜宮城の祈りのパワーで全ステータスが小アップする。",
+                "_en": "[All status up] The possessed monster has all its stats slightly increased by the power of Ryugujo's prayer.",
+                "_fr": "[Tous les statuts] Le monstre possédé a toutes ses statistiques légèrement augmentées par la puissance de la prière de Ryugujo."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "助けた亀に連れられて 竜宮城で暮らしたネコがいた。 帰りに 玉手箱をもらい忘れた ショックで妖怪になったとさ。 めでたし めでたし。",
+            "_en": "There was a cat who was taken to Ryugu Castle by the turtle he rescued. He said he forgot to get the treasure box on the way home and was so shocked that he turned into a monster. Congratulations! Congratulations!",
+            "_fr": "Il y avait un chat qui a été emmené au château de Ryugu par la tortue qu'il a sauvée. Il a dit qu'il avait oublié de récupérer le coffre au trésor sur le chemin du retour et qu'il avait été tellement choqué qu'il s'est transformé en monstre. Félicitations! Félicitations!"
+        }
+    ]
 }

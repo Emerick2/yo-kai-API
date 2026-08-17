@@ -145,5 +145,112 @@
         ]
     },
     "description_en": "Thoroughly enjoys hanging around in dungeons and scaring unwitting adventurers in search of treasure.",
-    "nom_en": "Eggcelency"
+    "nom_en": "Eggcelency",
+    "rang_yww": "C",
+    "tribue_yww": "Bukimi",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "ホットドッグ",
+    "nourriture_favorite": "ホットドッグ",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
+    },
+    "avantage_yww": {
+        "_jp": "氷属性",
+        "_en": "氷属性",
+        "_fr": "氷属性"
+    },
+    "stats_initiale_yww": {
+        "hp": 51,
+        "str": 21,
+        "spr": 3,
+        "def": 32,
+        "spd": 19
+    },
+    "stats_max_yww": {
+        "hp": 413,
+        "str": 153,
+        "spr": 28,
+        "def": 210,
+        "spd": 129
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "くらいつく",
+                "_en": "Approximately",
+                "_fr": "Environ"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+                "_en": "[Power: 50/Blow] Deal a big blow",
+                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "吸収の術",
+                "_en": "absorption technique",
+                "_fr": "technique d'absorption"
+            },
+            "explication": {
+                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "がっかりビックリ箱",
+                "_en": "Disappointing surprise box",
+                "_fr": "Boîte surprise décevante"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "宝箱と期待した敵をがっかりさせる。敵全員がなかなか行動しなくなる。",
+                "_en": "Disappointing the enemy who expected a treasure chest. All enemies become inactive.",
+                "_fr": "Décevant l'ennemi qui s'attendait à un coffre au trésor. Tous les ennemis deviennent inactifs."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "オタカラもどきの罠",
+                "_en": "Otakara-like trap",
+                "_fr": "Piège de type Otakara"
+            },
+            "explication": {
+                "_jp": "【まもりダウン】 とりつかれた妖怪はオタカラもどきの罠にかかり まもりが大ダウンする。",
+                "_en": "[Mamori Down] The possessed youkai is caught in a trap that looks like Otakara, and Mamori is greatly downed.",
+                "_fr": "[Mamori Down] Le yôkai possédé est pris dans un piège qui ressemble à Otakara, et Mamori est grandement abattu."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "宝箱にそっくりな姿の妖怪。 ダンジョン内の絶妙な位置で 待ち伏せし 宝箱と思い込んで 近づく冒険者を驚かせることに 快感を覚えるイジワルな奴。",
+            "_en": "A monster that looks just like a treasure chest. A mischievous person who takes pleasure in ambushing adventurers who approach in strategic positions within dungeons, thinking they are treasure chests.",
+            "_fr": "Un monstre qui ressemble à un coffre au trésor. Une personne espiègle qui prend plaisir à tendre une embuscade aux aventuriers qui s'approchent à des positions stratégiques à l'intérieur des donjons, pensant qu'il s'agit de coffres au trésor."
+        }
+    ]
 }

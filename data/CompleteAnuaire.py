@@ -1,31 +1,36 @@
-import os
 import json
+import os
+from pathlib import Path
+
 from DEV.trieParRang import La_MainTrieCategorie
 
-def creer_annuaire(versionAnglais : bool):
-    dossier_source = 'C:/Users/pacau/Desktop/MES PROJET/PROJET/API/yo-kai-API/data/yokai_data'
-    fichier_sortie = 'C:/Users/pacau/Desktop/MES PROJET/PROJET/API/yo-kai-API/data/annuaire_yo-kai.json'
-    if versionAnglais == True :
-        fichier_sortie = 'C:/Users/pacau/Desktop/MES PROJET/PROJET/API/yo-kai-API/data/annuaire_yo-kai_anglais.json'
+BASE_DIR = Path(__file__).resolve().parent
+
+
+def creer_annuaire(versionAnglais: bool):
+    dossier_source = BASE_DIR / "yokai_data"
+    fichier_sortie = BASE_DIR / "annuaire_yo-kai.json"
+    if versionAnglais:
+        fichier_sortie = BASE_DIR / "annuaire_yo-kai_anglais.json"
+
     annuaire = {}
 
-    if not os.path.exists(dossier_source):
+    if not dossier_source.exists():
         print(f"Erreur : Le dossier '{dossier_source}' est introuvable.")
         return
 
-    for nom_fichier in os.listdir(dossier_source):
+    for nom_fichier in sorted(os.listdir(dossier_source)):
         if nom_fichier.endswith('.json'):
-            chemin_complet = os.path.join(dossier_source, nom_fichier)
-            
+            chemin_complet = dossier_source / nom_fichier
             yokai_id = os.path.splitext(nom_fichier)[0]
-            
+
             try:
                 with open(chemin_complet, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                     nom_yokai = data.get("Nom", "Nom inconnu")
-                    if versionAnglais == True :
+                    if versionAnglais:
                         nom_yokai = data.get("nom_anglais", "Nom inconnu")
-                    
+
                     annuaire[yokai_id] = nom_yokai
             except Exception as e:
                 print(f"Erreur lors de la lecture de {nom_fichier} : {e}")
@@ -36,10 +41,11 @@ def creer_annuaire(versionAnglais : bool):
     print(f"Succès ! L'annuaire a été créé : {fichier_sortie}")
 
 
-def LaMainCompleteAnuaire() :
+def LaMainCompleteAnuaire():
     creer_annuaire(False)
     creer_annuaire(True)
     La_MainTrieCategorie()
+
 
 if __name__ == "__main__":
     LaMainCompleteAnuaire()

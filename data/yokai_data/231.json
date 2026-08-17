@@ -23,7 +23,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/camaieul.png",
     "numero": "216",
-    
     "attaques": [
         {
             "type": "Attaque",
@@ -365,5 +364,118 @@
         ]
     },
     "description_en": "This legendary Hungramps supposedly once filled a city with spirit-invigorating cherry blossoms.",
-    "nom_en": "Shogunyan"
+    "nom_en": "Shogunyan",
+    "rang_yww": "S",
+    "tribue_yww": "Pokapoka",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "Onigiri",
+    "nourriture_favorite": "Onigiri",
+    "attitude_spécifique_yww": {
+        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "avantage_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "stats_initiale_yww": {
+        "hp": 36,
+        "str": 15,
+        "spr": 54,
+        "def": 18,
+        "spd": 30
+    },
+    "stats_max_yww": {
+        "hp": 370,
+        "str": 102,
+        "spr": 299,
+        "def": 115,
+        "spd": 172
+    },
+    "moyens_obtention_yww": [
+        {
+            "_jp": "レジェンド解放",
+            "_en": "Legend release",
+            "_fr": "Sortie de légende"
+        }
+    ],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "ずつき",
+                "_en": "Zutsuki",
+                "_fr": "Zutsuki"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体に攻撃する。",
+                "_en": "[Power: 30/Blow] Attacks one enemy.",
+                "_fr": "[Puissance : 30/Coup] Attaque un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "極楽の術",
+                "_en": "The art of paradise",
+                "_fr": "L'art du paradis"
+            },
+            "explication": {
+                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "満開サクラサク",
+                "_en": "Cherry blossoms in full bloom",
+                "_fr": "Fleurs de cerisier en pleine floraison"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "奇跡の桜パワーで 味方全員を復活させ HPも回復する",
+                "_en": "Revive all allies and recover HP with miraculous cherry blossom power",
+                "_fr": "Ravivez tous les alliés et récupérez des PV grâce au pouvoir miraculeux des fleurs de cerisier."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "奇跡の桜",
+                "_en": "miraculous cherry blossoms",
+                "_fr": "fleurs de cerisier miraculeuses"
+            },
+            "explication": {
+                "_jp": "【すばやさアップ】 桜満開 すばやさがアップ",
+                "_en": "[Speed ​​up] Cherry blossoms in full bloom Speed ​​up",
+                "_fr": "[Accélérer] Fleurs de cerisier en pleine floraison Accélérer"
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "その昔 町中を 桜の花でいっぱいにしたという 伝説のひも爺。 その花には 魂を復活させる 力があるらしい。",
+            "_en": "A long time ago, there was a legendary man named Himo who filled the town with cherry blossoms. It seems that the flower has the power to revive the soul.",
+            "_fr": "Il y a bien longtemps, il y avait un homme légendaire nommé Himo qui remplissait la ville de fleurs de cerisier. Il semblerait que la fleur ait le pouvoir de raviver l’âme."
+        }
+    ]
 }

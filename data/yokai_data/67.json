@@ -362,5 +362,142 @@
         ]
     },
     "description_en": "Coughkoff can cause your throat to feel tingly and make you sick. Try to stay healthy!",
-    "nom_en": "Darumacho"
+    "nom_en": "Darumacho",
+    "rang_yww": "E",
+    "tribue_yww": "Bukimi",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "pain",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
+    },
+    "avantage_yww": {
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
+    },
+    "stats_initiale_yww": {
+        "hp": 48,
+        "str": 11,
+        "spr": 6,
+        "def": 25,
+        "spd": 9
+    },
+    "stats_max_yww": {
+        "hp": 408,
+        "str": 106,
+        "spr": 46,
+        "def": 211,
+        "spd": 88
+    },
+    "moyens_obtention_yww": [
+        {
+            "_jp": "十五夜コイン",
+            "_en": "jugoya coin",
+            "_fr": "pièce de monnaie jugoya"
+        },
+        {
+            "_jp": "ハロウィンコイン",
+            "_en": "halloween coin",
+            "_fr": "pièce de monnaie d'Halloween"
+        },
+        {
+            "_jp": "ミルクチョココイン",
+            "_en": "milk chocolate coin",
+            "_fr": "pièce de chocolat au lait"
+        },
+        {
+            "_jp": "ビターチョココイン",
+            "_en": "bitter chocolate coin",
+            "_fr": "pièce de chocolat amer"
+        },
+        {
+            "_jp": "バレンタインコイン",
+            "_en": "valentine coin",
+            "_fr": "pièce de monnaie de la Saint-Valentin"
+        },
+        {
+            "_jp": "WDイベントコイン",
+            "_en": "WD event coin",
+            "_fr": "Pièce d'événement WD"
+        }
+    ],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "こづく",
+                "_en": "poked you",
+                "_fr": "vous a Poké"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "放水の術",
+                "_en": "Water release technique",
+                "_fr": "Technique de libération d'eau"
+            },
+            "explication": {
+                "_jp": "【威力:40 / 水属性】 水の妖術を使う。",
+                "_en": "[Power: 40 / Water attribute] Uses water magic.",
+                "_fr": "[Puissance : 40 / Attribut Eau] Utilise la magie de l'eau."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "イガイガおとし",
+                "_en": "Mussel cleaning",
+                "_fr": "Nettoyage des moules"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "イガイガグリ特製のいや～な霊魂で敵にかかっている良い効果を解除する。",
+                "_en": "Removes good effects on enemies with Igaigaguri's special nasty spirit.",
+                "_fr": "Supprime les bons effets sur les ennemis grâce à l'esprit méchant spécial d'Igaigaguri."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "のどをイガイガにする",
+                "_en": "make your throat irritated",
+                "_fr": "irriter la gorge"
+            },
+            "explication": {
+                "_jp": "【HP減少】 とりつかれた妖怪はのどがイガイガと痛くなりHPが少しずつ減ってしまう。",
+                "_en": "[HP Decrease] A possessed monster will have a sore throat and its HP will gradually decrease.",
+                "_fr": "[Diminution des PV] Un monstre possédé aura mal à la gorge et ses PV diminueront progressivement."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "風邪三兄弟の一人。 とりついた人のノドを イガイガにしてしまう妖怪。 カゼをひくと とりつかれやすくなるぞ。",
+            "_en": "One of the three cold brothers. A monster that turns the throats of those it possesses into scratches. If you catch a cold, you'll be more likely to become obsessed.",
+            "_fr": "L'un des trois frères froids. Un monstre qui transforme la gorge de ceux qu'il possède en égratignures. Si vous attrapez froid, vous serez plus susceptible de devenir obsédé."
+        }
+    ]
 }

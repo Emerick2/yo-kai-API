@@ -409,5 +409,111 @@
         ]
     },
     "description_en": "The one female of the seaweed trio. Wiglin and Steppa both really like her, but she doesn't seem to notice.",
-    "nom_en": "Wiglin"
+    "nom_en": "Wiglin",
+    "rang_yww": "D",
+    "tribue_yww": "Pokapoka",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "ramen",
+    "attitude_spécifique_yww": {
+        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "avantage_yww": {
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
+    },
+    "stats_initiale_yww": {
+        "hp": 40,
+        "str": 4,
+        "spr": 27,
+        "def": 7,
+        "spd": 24
+    },
+    "stats_max_yww": {
+        "hp": 336,
+        "str": 45,
+        "spr": 194,
+        "def": 75,
+        "spd": 188
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "はたく",
+                "_en": "flutter",
+                "_fr": "battement"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "回復の術",
+                "_en": "art of recovery",
+                "_fr": "l'art de la récupération"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
+                "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
+                "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "情熱メカブサンバ！",
+                "_en": "Passionate Mekabusamba!",
+                "_fr": "Mekabusamba passionné!"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "情熱的なサンバのリズムでみんなを勇気づけ味方全員のHPがだんだん回復する。",
+                "_en": "He cheers everyone up with his passionate samba rhythm, and gradually recovers the HP of all his allies.",
+                "_fr": "Il remonte le moral de tout le monde avec son rythme de samba passionné, et récupère progressivement les HP de tous ses alliés."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "メカブのねばねば効果",
+                "_en": "Sticky effect of mekabu",
+                "_fr": "Effet collant du mekabu"
+            },
+            "explication": {
+                "_jp": "【すばやさアップ】 とりつかれた妖怪は体に良いねばねば成分ですばやさが大アップする。",
+                "_en": "[Increased speed] Possessed monsters have a sticky ingredient that is good for the body, greatly increasing their speed.",
+                "_fr": "[Vitesse augmentée] Les monstres possédés ont un ingrédient collant qui est bon pour le corps, augmentant considérablement leur vitesse."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "海藻三妖怪 唯一の女性妖怪。 ワカメくんもコンブさんも メカブちゃんを好きらしい。 いわゆる三角関係だが メカブちゃんは気づかない。",
+            "_en": "Three Seaweed Yokai The only female Yokai. Both Wakame-kun and Konbu-san seem to like Mekabu-chan. It's a so-called love triangle, but Mekabu-chan doesn't notice.",
+            "_fr": "Trois Yokai aux algues La seule femelle Yokai. Wakame-kun et Konbu-san semblent aimer Mekabu-chan. C'est ce qu'on appelle un triangle amoureux, mais Mekabu-chan ne le remarque pas."
+        }
+    ]
 }

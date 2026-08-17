@@ -227,5 +227,122 @@
         ]
     },
     "description_en": "Unable to shake the habit of a lifetime, this Yo-kai bolts straight for the exit whenever it enters a building.",
-    "nom_en": "El Gutso"
+    "nom_en": "El Gutso",
+    "rang_yww": "D",
+    "tribue_yww": "Fushigi",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "pâtes",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
+        "_fr": "(Rôle d'attaque) Reisei, cible de Zunou, (Attaque contre les alliés) Coopératif, de type Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
+    },
+    "avantage_yww": {
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
+    },
+    "stats_initiale_yww": {
+        "hp": 41,
+        "str": 3,
+        "spr": 18,
+        "def": 12,
+        "spd": 24
+    },
+    "stats_max_yww": {
+        "hp": 313,
+        "str": 35,
+        "spr": 142,
+        "def": 103,
+        "spd": 196
+    },
+    "moyens_obtention_yww": [
+        {
+            "_jp": "お祭りコイン",
+            "_en": "festival coins",
+            "_fr": "pièces de monnaie du festival"
+        },
+        {
+            "_jp": "黄色コイン",
+            "_en": "yellow coin",
+            "_fr": "pièce jaune"
+        }
+    ],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "あてみ",
+                "_en": "Atemi",
+                "_fr": "Atémi"
+            },
+            "explication": {
+                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "放水の術",
+                "_en": "Water release technique",
+                "_fr": "Technique de libération d'eau"
+            },
+            "explication": {
+                "_jp": "【威力:40 / 水属性】 水の妖術を使う。",
+                "_en": "[Power: 40 / Water attribute] Uses water magic.",
+                "_fr": "[Puissance : 40 / Attribut Eau] Utilise la magie de l'eau."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "脱出ダッシュでＧＯ！",
+                "_en": "Go with an escape dash!",
+                "_fr": "Partez avec une course d'évasion !"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "調査中。",
+                "_en": "Under investigation.",
+                "_fr": "Sous enquête."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "急がせる",
+                "_en": "hurry",
+                "_fr": "dépêchez-vous"
+            },
+            "explication": {
+                "_jp": "【すばやさアップ】 とりつかれた妖怪は非常口マークに急がされて すばやさがアップする。",
+                "_en": "[Increased speed] Possessed monsters are rushed to the emergency exit mark, increasing their speed.",
+                "_fr": "[Vitesse augmentée] Les monstres possédés sont précipités vers la marque de sortie de secours, augmentant ainsi leur vitesse."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "いつも非常口にかけこんでいる 緑のあの人が妖怪になった！ 長年の脱出グセが抜けきれず 建物に入っても すぐに出口を 目指して走り出してしまう。",
+            "_en": "That green person who always runs to the emergency exit has become a monster! I can't shake my long-standing habit of escaping, and even when I enter a building, I immediately start running towards the exit.",
+            "_fr": "Cette personne verte qui court toujours vers la sortie de secours est devenue un monstre ! Je ne peux pas me débarrasser de ma vieille habitude de m'échapper, et même lorsque j'entre dans un bâtiment, je me mets immédiatement à courir vers la sortie."
+        }
+    ]
 }

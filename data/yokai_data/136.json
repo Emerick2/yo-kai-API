@@ -24,7 +24,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/papiltation.png",
     "numero": "121",
-
     "attaques": [
         {
             "type": "Attaque",
@@ -383,5 +382,112 @@
         ]
     },
     "description_en": "A butterfly Yo-kai who brings those he Inspirits to their peak condition. Often mistaken for Enefly.",
-    "nom_en": "Croonger"
+    "nom_en": "Croonger",
+    "rang_yww": "D",
+    "tribue_yww": "Pokapoka",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "jus",
+    "nourriture_favorite": "jus",
+    "attitude_spécifique_yww": {
+        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
+    },
+    "avantage_yww": {
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
+    },
+    "stats_initiale_yww": {
+        "hp": 34,
+        "str": 7,
+        "spr": 25,
+        "def": 12,
+        "spd": 18
+    },
+    "stats_max_yww": {
+        "hp": 291,
+        "str": 58,
+        "spr": 186,
+        "def": 117,
+        "spd": 139
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "はたく",
+                "_en": "flutter",
+                "_fr": "battement"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "いやしの術",
+                "_en": "Healing techniques",
+                "_fr": "Techniques de guérison"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
+                "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
+                "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "絶好調ヘブン",
+                "_en": "Heaven in great condition",
+                "_fr": "Le paradis en très bon état"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "やすらぎのそよ風をおこし みんなの体調を絶好調にする 味方全員のHPが回復する",
+                "_en": "Creates a soothing breeze and improves everyone's health. Recovers HP of all allies.",
+                "_fr": "Crée une brise apaisante et améliore la santé de chacun. Récupère les HP de tous les alliés."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "絶好調にする",
+                "_en": "get in top shape",
+                "_fr": "être en pleine forme"
+            },
+            "explication": {
+                "_jp": "【全ステアップ】 絶好調になって 全ステータスがアップ",
+                "_en": "[All status up] Become in top condition and all stats will increase",
+                "_fr": "[Tous les statuts sont en place] Devenez en pleine forme et toutes les statistiques augmenteront"
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "とりついた人を 絶好調にしてくれるという すばらしい能力を持つ チョウの妖怪。 ゼッコウ蝶とよく間違われる。",
+            "_en": "A butterfly monster that has the amazing ability to make those it possesses become even better. It is often mistaken for the Zekko butterfly.",
+            "_fr": "Un monstre papillon qui a l'incroyable capacité de rendre ceux qu'il possède encore meilleurs. Il est souvent confondu avec le papillon Zekko."
+        }
+    ]
 }

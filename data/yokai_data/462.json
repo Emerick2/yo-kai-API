@@ -23,7 +23,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/imadjinn.png",
     "numero": "125",
-    
     "attaques": [
         {
             "type": "Attaque",
@@ -169,5 +168,112 @@
         ]
     },
     "description_en": "Imagine a world where humans and Yo-kai rallied under a banner of pure relaxation. Let's all just take it easy.",
-    "nom_en": "Statikid"
+    "nom_en": "Statikid",
+    "rang_yww": "B",
+    "tribue_yww": "Fushigi",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "crème douce",
+    "nourriture_favorite": "crème douce",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+    },
+    "faiblesse_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "avantage_yww": {
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
+    },
+    "stats_initiale_yww": {
+        "hp": 44,
+        "str": 11,
+        "spr": 33,
+        "def": 12,
+        "spd": 23
+    },
+    "stats_max_yww": {
+        "hp": 337,
+        "str": 56,
+        "spr": 218,
+        "def": 107,
+        "spd": 180
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "はたく",
+                "_en": "flutter",
+                "_fr": "battement"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "竜巻の術",
+                "_en": "Tornado no Jutsu",
+                "_fr": "Tornade sans Jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:50 / 風属性】 強力な風の妖術を使う。",
+                "_en": "[Power: 50 / Wind attribute] Uses powerful wind magic.",
+                "_fr": "[Puissance : 50 / Attribut vent] Utilise une puissante magie du vent."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "こんなにもヒマな世界",
+                "_en": "A world with so much free time",
+                "_fr": "Un monde avec tellement de temps libre"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "調査中。",
+                "_en": "Under investigation.",
+                "_fr": "Sous enquête."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "ヒマ愛を伝授する",
+                "_en": "teach free love",
+                "_fr": "enseigner l'amour libre"
+            },
+            "explication": {
+                "_jp": "【おさぼり】 とりつかれた妖怪はヒマを愛するあまりたまに行動しなくなる。",
+                "_en": "[Osabori] A possessed youkai loves free time so much that it sometimes stops acting.",
+                "_fr": "[Osabori] Un yôkai possédé aime tellement le temps libre qu'il arrête parfois d'agir."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "想像してごらん。すべての人が ヒマな世界を。人間も妖怪も 関係なく みんながヒマをもて あませば きっと世界はひとつ になる。さあ ヒマを楽しもう。",
+            "_en": "Just imagine. A world where everyone has free time. If everyone, humans and monsters alike, takes the time to have fun, the world will surely become one. Now let's enjoy our free time.",
+            "_fr": "Imaginez. Un monde où chacun a du temps libre. Si tout le monde, humains comme monstres, prend le temps de s’amuser, le monde ne fera sûrement plus qu’un. Profitons maintenant de notre temps libre."
+        }
+    ]
 }

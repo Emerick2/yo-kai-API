@@ -124,5 +124,112 @@
         ]
     },
     "description_en": "This Yo-kai's legendary dance will bring misfortune to anyone who gets taken in by his fancy moves.",
-    "nom_en": "Soloman"
+    "nom_en": "Soloman",
+    "rang_yww": "B",
+    "tribue_yww": "ブキミー族",
+    "rôle_yww": "レンジャー",
+    "plat_préféré_yww": "pizza",
+    "nourriture_favorite": "pizza",
+    "attitude_spécifique_yww": {
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_fr": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道"
+    },
+    "faiblesse_yww": {
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
+    },
+    "avantage_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "stats_initiale_yww": {
+        "hp": 46,
+        "str": 5,
+        "spr": 26,
+        "def": 9,
+        "spd": 34
+    },
+    "stats_max_yww": {
+        "hp": 383,
+        "str": 43,
+        "spr": 177,
+        "def": 71,
+        "spd": 231
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "はたく",
+                "_en": "flutter",
+                "_fr": "battement"
+            },
+            "explication": {
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "ようじゅつ",
+                "_fr": "ようじゅつ"
+            },
+            "nom": {
+                "_jp": "吸収の術",
+                "_en": "absorption technique",
+                "_fr": "technique d'absorption"
+            },
+            "explication": {
+                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "アンラッキー体操第四",
+                "_en": "アンラッキー体操第四",
+                "_fr": "アンラッキー体操第四"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "敵全員を不幸にする邪悪なダンスでHPがだんだん減っていく。",
+                "_en": "HP gradually decreases with an evil dance that makes all enemies unhappy.",
+                "_fr": "Les PV diminuent progressivement avec une danse maléfique qui rend tous les ennemis mécontents."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "不幸にする",
+                "_en": "make you unhappy",
+                "_fr": "te rendre malheureux"
+            },
+            "explication": {
+                "_jp": "【まもりダウン】 とりつかれた妖怪は悲しいぐらい不幸になり まもりが大ダウンする。",
+                "_en": "[Mamori Down] The possessed monster becomes extremely unhappy and its protection is greatly reduced.",
+                "_fr": "[Mamori Down] Le monstre possédé devient extrêmement malheureux et sa protection est considérablement réduite."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "伝説の呪いのダンスの踊り手。 独特の魅力があるダンスだが 踊り手のハッピーを吸い取り アンラッキーになるという 悲しい運命が待ち受けている。",
+            "_en": "Dancer of the legendary cursed dance. Although this dance has a unique charm, it has a sad fate in store: it absorbs the happiness of the dancers and makes them unlucky.",
+            "_fr": "Danseur de la légendaire danse maudite. Bien que cette danse ait un charme unique, elle réserve un triste sort : elle absorbe le bonheur des danseurs et leur rend la malchance."
+        }
+    ]
 }

@@ -24,7 +24,6 @@
     "Type": "",
     "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/pandanoko.png",
     "numero": "191",
-    
     "attaques": [
         {
             "type": "Attaque",
@@ -372,5 +371,112 @@
         ]
     },
     "description_en": "A wandering Yo-kai from a faraway land. He's tough to find and a miracle to actually befriend.",
-    "nom_en": "Greesel"
+    "nom_en": "Greesel",
+    "rang_yww": "A",
+    "tribue_yww": "Nyororon",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "hamburger",
+    "nourriture_favorite": "hamburger",
+    "attitude_spécifique_yww": {
+        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+    },
+    "faiblesse_yww": {
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
+    },
+    "avantage_yww": {
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
+    },
+    "stats_initiale_yww": {
+        "hp": 40,
+        "str": 21,
+        "spr": 17,
+        "def": 11,
+        "spd": 42
+    },
+    "stats_max_yww": {
+        "hp": 392,
+        "str": 131,
+        "spr": 112,
+        "def": 78,
+        "spd": 216
+    },
+    "moyens_obtention_yww": [],
+    "attaque_magie_yww": [
+        {
+            "type": {
+                "_jp": "こうげき",
+                "_en": "Kougeki",
+                "_fr": "Kougeki"
+            },
+            "nom": {
+                "_jp": "かみちぎる",
+                "_en": "Kamichigiru",
+                "_fr": "Kamichigiru"
+            },
+            "explication": {
+                "_jp": "【威力:70 / 打撃】 強力な一撃を加える",
+                "_en": "[Power: 70/Blow] Add a powerful blow",
+                "_fr": "[Puissance : 70/Coup] Ajoutez un coup puissant"
+            }
+        },
+        {
+            "type": {
+                "_jp": "ようじゅつ",
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
+            },
+            "nom": {
+                "_jp": "吹雪の術",
+                "_en": "Fubuki no Jutsu",
+                "_fr": "Fubuki no Jutsu"
+            },
+            "explication": {
+                "_jp": "【威力:70 / 氷属性】 強力な氷の妖術を使う。",
+                "_en": "[Power: 70 / Ice attribute] Uses powerful ice magic.",
+                "_fr": "[Puissance : 70 / Attribut Glace] Utilise une puissante magie de glace."
+            }
+        }
+    ],
+    "mouvement_spécial_yww": [
+        {
+            "nom": {
+                "_jp": "にっこりパンダ",
+                "_en": "smiling panda",
+                "_fr": "panda souriant"
+            },
+            "pouvoir": "0",
+            "explication": {
+                "_jp": "味方のHPを大きく回復する。",
+                "_en": "Greatly recovers an ally's HP.",
+                "_fr": "Récupère grandement les PV d'un allié."
+            }
+        }
+    ],
+    "posséder_yww": [
+        {
+            "nom": {
+                "_jp": "パンダの可愛さ",
+                "_en": "cuteness of panda",
+                "_fr": "gentillesse du panda"
+            },
+            "explication": {
+                "_jp": "【回復】 とりつかれた妖怪はパンダの可愛さにいやされHPが少しずつ回復する。",
+                "_en": "[Recovery] The possessed monster is healed by the panda's cuteness and its HP gradually recovers.",
+                "_fr": "[Récupération] Le monstre possédé est guéri par la gentillesse du panda et ses PV récupèrent progressivement."
+            }
+        }
+    ],
+    "explication_yww": [
+        {
+            "_jp": "異国からさすらってきた まぼろしの妖怪。 一つの場所にいないので 出会うのは至難の業。 友達になれたら奇跡。",
+            "_en": "An imaginary monster that has wandered from a foreign country. Since they are not in one place, it is extremely difficult to meet them. It would be a miracle if we could become friends.",
+            "_fr": "Un monstre imaginaire venu d'un pays étranger. Comme ils ne sont pas au même endroit, il est extrêmement difficile de les rencontrer. Ce serait un miracle si nous pouvions devenir amis."
+        }
+    ]
 }
