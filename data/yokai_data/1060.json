@@ -1,40 +1,58 @@
 {
-    "Nom": "roi des imitations",
-    "nom_original": "モノマネキング",
-    "Tribue": "ゴーケツ族",
-    "Rang": "B",
+    "Nom": "Onsen Jibanyan",
+    "Tribue": "Mignon",
+    "Rang": "A",
+    "nom_original": "雪だるだるま",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": "",
-    "nourriture": "",
-    "nourriture_favorite": "",
+    "Description": [
+        {
+            "_jp": "コワモテ雪だるまの 中に潜む 気だるそうな顔の だるま妖怪。 「雪かきしないといけないけど コタツから出たくないな～」を 各地で引き起こす 迷惑さん。",
+            "_en": "A languid-looking Daruma monster lurks inside a scary snowman. ``I have to shovel snow, but I don't want to get out of my kotatsu.'' This is a nuisance that causes people in various places.",
+            "_fr": "Un monstre Daruma à l’air langoureux se cache à l’intérieur d’un effrayant bonhomme de neige. «Je dois pelleter la neige, mais je ne veux pas sortir de mon kotatsu.» C'est une nuisance qui cause des gens à divers endroits."
+        }
+    ],
+    "nourriture": "curry",
+    "nourriture_favorite": "curry",
     "élément": "",
     "Rôle": "réservoir",
-    "rang_yww": "B",
-    "tribue_yww": "ゴーケツ族",
+    "rang_yww": "E",
+    "tribue_yww": "Goketsu",
     "rôle_yww": "réservoir",
-    "plat_préféré_yww": null,
+    "plat_préféré_yww": "curry",
     "attitude_spécifique_yww": {
-        "_jp": "編集中です。",
-        "_en": "Editing in progress.",
-        "_fr": "Montage en cours."
+        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
     },
     "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
     },
-    "stats_initiale_yww": {},
+    "stats_initiale_yww": {
+        "hp": 47,
+        "str": 9,
+        "spr": 7,
+        "def": 20,
+        "spd": 10
+    },
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "ジバニャンの妖怪温泉イベントで入手",
+            "_en": "Obtained from Jibanyan's Yokai Hot Spring event",
+            "_fr": "Obtenu lors de l'événement Yokai Hot Spring de Jibanyan"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -43,14 +61,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "あてみ",
+                "_en": "Atemi",
+                "_fr": "Atémi"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -60,45 +78,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "あられの術",
+                "_en": "Hail no jutsu",
+                "_fr": "Salut, pas de jutsu"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:30 / 氷属性】 氷の妖術を使う。",
+                "_en": "[Power: 30 / Ice attribute] Uses ice magic.",
+                "_fr": "[Puissance : 30 / Attribut Glace] Utilise la magie de la glace."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "大地になりきる",
-                "_en": "Become the earth",
-                "_fr": "Devenez la terre"
+                "_jp": "雪玉ヘッドバット",
+                "_en": "snowball head butt",
+                "_fr": "coup de tête de boule de neige"
             },
-            "pouvoir": "0",
+            "pouvoir": "93",
             "explication": {
-                "_jp": "自分のまもりを超アップしまわりの敵の注意を引く。",
-                "_en": "Super-up your own protection and attract the attention of surrounding enemies.",
-                "_fr": "Renforcez votre propre protection et attirez l'attention des ennemis environnants."
+                "_jp": "大きな雪玉がふってくるように 上空から 正面の敵に 頭突きをおみまいする",
+                "_en": "Headbutt the enemy in front of you from above, like a big snowball falling.",
+                "_fr": "Donnez un coup de tête à l'ennemi devant vous depuis le haut, comme si une grosse boule de neige tombait."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "ヘビーな雪玉",
+                "_en": "heavy snowball",
+                "_fr": "grosse boule de neige"
             },
             "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
+                "_jp": "【ちからダウン】 ずっしりと重い雪玉がふってきて ちからがダウン",
+                "_en": "[Power down] A heavy snowball falls and the power goes down.",
+                "_fr": "[Mise hors tension] Une grosse boule de neige tombe et le courant diminue."
             }
         }
     ],
-    "explication_yww": []
+    "explication_yww": [
+        {
+            "_jp": "コワモテ雪だるまの 中に潜む 気だるそうな顔の だるま妖怪。 「雪かきしないといけないけど コタツから出たくないな～」を 各地で引き起こす 迷惑さん。",
+            "_en": "A languid-looking Daruma monster lurks inside a scary snowman. ``I have to shovel snow, but I don't want to get out of my kotatsu.'' This is a nuisance that causes people in various places.",
+            "_fr": "Un monstre Daruma à l’air langoureux se cache à l’intérieur d’un effrayant bonhomme de neige. «Je dois pelleter la neige, mais je ne veux pas sortir de mon kotatsu.» C'est une nuisance qui cause des gens à divers endroits."
+        }
+    ],
+    "oldID": "1167",
+    "ID": "1165"
 }

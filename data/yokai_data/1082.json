@@ -1,40 +1,52 @@
 {
-    "Nom": "dandry",
-    "nom_original": "ダンドリー",
-    "Tribue": "Isamashi",
-    "Rang": "A",
+    "Nom": "Sakura Fubuki-hime",
+    "Tribue": "Mignon",
+    "Rang": "S",
+    "nom_original": "さくらコマさん",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
     "Description": "",
-    "nourriture": "fruit de mer",
-    "nourriture_favorite": "fruit de mer",
+    "nourriture": "crème douce",
+    "nourriture_favorite": "crème douce",
     "élément": "",
     "Rôle": "attaquant",
-    "rang_yww": "A",
-    "tribue_yww": "Isamashi",
+    "rang_yww": "S",
+    "tribue_yww": "Pritchie",
     "rôle_yww": "attaquant",
-    "plat_préféré_yww": "fruit de mer",
+    "plat_préféré_yww": "crème douce",
     "attitude_spécifique_yww": {
-        "_jp": "編集中です。",
-        "_en": "編集中です。",
-        "_fr": "編集中です。"
+        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zuno, (Attaque sur les alliés) Coopératif, type Kenshin"
     },
     "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "火属性",
-        "_fr": "火属性"
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
     },
     "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "氷属性",
-        "_fr": "氷属性"
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
     },
-    "stats_initiale_yww": {},
+    "stats_initiale_yww": {
+        "hp": 60,
+        "str": 8,
+        "spr": 35,
+        "def": 15,
+        "spd": 29
+    },
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "桜花ランラン妖怪ガシャ",
+            "_en": "Sakura Ranran Yokai Gasha",
+            "_fr": "Sakura Ranran Yokai Gasha"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -43,14 +55,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": "–",
-                "_fr": "–"
+                "_jp": "ぶんなぐる",
+                "_en": "wallop",
+                "_fr": "coup"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "【威力:- / –】 –",
-                "_fr": "【威力:- / –】 –"
+                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+                "_en": "[Power: 50/Blow] Deal a big blow",
+                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
             }
         },
         {
@@ -60,45 +72,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "れんごくの術",
+                "_en": "Rengoku no Jutsu",
+                "_fr": "Rengoku no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:70 / 火属性】 強力な火の妖術を使う。",
+                "_en": "[Power: 70 / Fire attribute] Uses powerful fire magic.",
+                "_fr": "[Puissance : 70 / Attribut Feu] Utilise une puissante magie du feu."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "ダンドリ盗賊哲学",
-                "_en": "ダンドリ盗賊哲学",
-                "_fr": "ダンドリ盗賊哲学"
+                "_jp": "もちもち桜乱舞",
+                "_en": "Chewy cherry blossom dance",
+                "_fr": "Danse moelleuse des fleurs de cerisier"
             },
-            "pouvoir": "0",
+            "pouvoir": "262",
             "explication": {
-                "_jp": "氷の柱で敵に大ダメージ。 敵の妖力をダウン。",
-                "_en": "Great damage to enemies with ice pillars. Reduces enemy's magical power.",
-                "_fr": "Gros dégâts aux ennemis avec des piliers de glace. Réduit le pouvoir magique de l'ennemi."
+                "_jp": "桜もちのように もちもちとした ひとだまを飛ばして 敵全員に ダメージを与える",
+                "_en": "Sends out sticky balls like cherry blossoms, damaging all enemies.",
+                "_fr": "Envoie des boules collantes comme des fleurs de cerisier, endommageant tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "おかわり桜もち",
+                "_en": "Refill cherry blossom mochi",
+                "_fr": "Recharge mochi fleurs de cerisier"
             },
             "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
+                "_jp": "【すばやさアップ】 ぱくぱく桜もちを食べつつけ すばやさがアップ",
+                "_en": "[Increased speed] Keep eating crunchy cherry blossom mochi to increase speed.",
+                "_fr": "[Vitesse augmentée] Continuez à manger du mochi croquant aux fleurs de cerisier pour augmenter la vitesse."
             }
         }
     ],
-    "explication_yww": []
+    "explication_yww": [],
+    "oldID": "1196",
+    "ID": "1194"
 }

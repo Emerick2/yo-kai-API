@@ -1,40 +1,52 @@
 {
-    "Nom": "capitaine dodo",
-    "nom_original": "キャプテンドード",
-    "Tribue": "Fushigi",
+    "Nom": "Chocowhis",
+    "Tribue": "Insaisissable",
     "Rang": "A",
+    "nom_original": "ダークチョコニャン",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": "",
-    "nourriture": "",
-    "nourriture_favorite": "",
+    "Description": [
+        {
+            "_jp": "バレンタインに合わせて ビターに変身したダークニャン。 世間が チョコに夢中になって 一喜一憂しているあいだに 悪事を働こうとする者を裁く。",
+            "_en": "Dark Nyan transformed into Bitter just in time for Valentine's Day. While the world is engrossed in chocolate and rejoices, I will judge those who try to do evil.",
+            "_fr": "Dark Nyan s'est transformé en Bitter juste à temps pour la Saint-Valentin. Pendant que le monde est absorbé par le chocolat et se réjouit, je jugerai ceux qui tentent de faire le mal."
+        }
+    ],
+    "nourriture": "fruit de mer",
+    "nourriture_favorite": "fruit de mer",
     "élément": "",
     "Rôle": "attaquant",
-    "rang_yww": "A",
-    "tribue_yww": "Fushigi",
+    "rang_yww": "S",
+    "tribue_yww": "Bukimi",
     "rôle_yww": "attaquant",
-    "plat_préféré_yww": null,
+    "plat_préféré_yww": "fruit de mer",
     "attitude_spécifique_yww": {
         "_jp": "編集中です。",
         "_en": "Editing in progress.",
         "_fr": "Montage en cours."
     },
     "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
     },
     "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
     },
     "stats_initiale_yww": {},
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+            "_en": "I'm so excited! Valentine Yokai Gasha",
+            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -43,14 +55,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "するどいつめ",
+                "_en": "sharp claw",
+                "_fr": "griffe acérée"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
+                "_en": "[Power: 15×2/Blow] Attack twice",
+                "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
             }
         },
         {
@@ -60,45 +72,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "嵐の術",
+                "_en": "Arashi no Jutsu",
+                "_fr": "Arashi no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:70 / 風属性】 強力な風の妖術を使う。",
+                "_en": "[Power: 70 / Wind attribute] Uses powerful wind magic.",
+                "_fr": "[Puissance : 70 / Attribut Vent] Utilise une puissante magie du vent."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "波乗りキャプテン物語",
-                "_en": "surfing captain story",
-                "_fr": "histoire du capitaine de surf"
+                "_jp": "チョコニャイトクロー",
+                "_en": "choconyt claw",
+                "_fr": "griffe de choconyt"
             },
-            "pouvoir": "0",
+            "pouvoir": "240",
             "explication": {
-                "_jp": "巨大な滝を打ちつけ敵に大ダメージを与える。",
-                "_en": "Slams down a huge waterfall, causing great damage to the enemy.",
-                "_fr": "Fait tomber une énorme cascade, causant de gros dégâts à l'ennemi."
+                "_jp": "闇夜の町を飛びまわり ダークな味わいの 攻撃を 敵全員に おみまいする",
+                "_en": "Fly around the city in the dark and inflict dark attacks on all enemies.",
+                "_fr": "Volez autour de la ville dans l'obscurité et infligez des attaques sombres à tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "ダークチョコの呪い",
+                "_en": "dark chocolate curse",
+                "_fr": "malédiction du chocolat noir"
             },
             "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
+                "_jp": "【混乱】 チョコが苦すぎて 味方をすぐにこうげきする",
+                "_en": "[Confusion] The chocolate is too bitter and will quickly attack your allies.",
+                "_fr": "[Confusion] Le chocolat est trop amer et va vite attaquer vos alliés."
             }
         }
     ],
-    "explication_yww": []
+    "explication_yww": [
+        {
+            "_jp": "バレンタインに合わせて ビターに変身したダークニャン。 世間が チョコに夢中になって 一喜一憂しているあいだに 悪事を働こうとする者を裁く。",
+            "_en": "Dark Nyan transformed into Bitter just in time for Valentine's Day. While the world is engrossed in chocolate and rejoices, I will judge those who try to do evil.",
+            "_fr": "Dark Nyan s'est transformé en Bitter juste à temps pour la Saint-Valentin. Pendant que le monde est absorbé par le chocolat et se réjouit, je jugerai ceux qui tentent de faire le mal."
+        }
+    ],
+    "oldID": "1173",
+    "ID": "1171"
 }

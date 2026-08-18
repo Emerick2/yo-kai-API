@@ -1,56 +1,55 @@
 {
-    "Nom": "Bourgeois G.",
-    "nom_original": "ブルジョワG",
-    "Tribue": "Pokapoka",
+    "Nom": "Pyjama Koma",
+    "Tribue": "Mignon",
     "Rang": "S",
+    "nom_original": "聖ふぶき姫",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "世界的な大富豪が莫大な財産を 残して死んでしまったことを 後悔し 妖怪となってお金を ばら撒きだした。お金を使い きると成仏できると信じている。",
-            "_en": "Regretful that a world-famous millionaire died leaving behind so much wealth, he turned into a monster and started throwing his money away. I believe that once I spend all my money, I can attain Buddhahood.",
-            "_fr": "Regrettant qu'un millionnaire de renommée mondiale soit mort en laissant derrière lui tant de richesses, il s'est transformé en monstre et a commencé à jeter son argent. Je crois qu’une fois que j’aurai dépensé tout mon argent, je pourrai atteindre la bouddhéité."
-        }
-    ],
-    "nourriture": "Sushis",
-    "nourriture_favorite": "Sushis",
+    "Description": "",
+    "nourriture": "",
+    "nourriture_favorite": "",
     "élément": "",
-    "Rôle": "guérisseur",
+    "Rôle": "attaquant",
     "rang_yww": "S",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "Sushis",
+    "tribue_yww": "Pritchie",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": null,
     "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
-        "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
+        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zuno, (Attaque sur les alliés) Coopératif, type Kenshin"
     },
     "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
     },
     "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
     },
     "stats_initiale_yww": {
-        "hp": 73,
-        "str": 6,
-        "spr": 49,
-        "def": 11,
-        "spd": 28
+        "hp": 46,
+        "str": 5,
+        "spr": 33,
+        "def": 22,
+        "spd": 31
     },
     "stats_max_yww": {},
     "moyens_obtention_yww": [
         {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+            "_jp": "クリスマスコイン",
+            "_en": "christmas coins",
+            "_fr": "pièces de Noël"
+        },
+        {
+            "_jp": "魅惑のクリスマス妖怪ガシャ",
+            "_en": "Enchanted Christmas monster Gasha",
+            "_fr": "Gasha, le monstre de Noël enchanté"
         }
     ],
     "attaque_magie_yww": [
@@ -61,14 +60,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "骨くだき",
-                "_en": "broken bones",
-                "_fr": "os cassés"
+                "_jp": "はりたおす",
+                "_en": "Haritaosu",
+                "_fr": "Haritaosu"
             },
             "explication": {
-                "_jp": "【威力:50 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 50/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 50/Coup] Inflige des dégâts à un ennemi."
+                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+                "_en": "[Power: 25×2/Blow] Attack twice",
+                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
             }
         },
         {
@@ -78,51 +77,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "極楽の術",
-                "_en": "The art of paradise",
-                "_fr": "L'art du paradis"
+                "_jp": "吹雪の術",
+                "_en": "Fubuki no Jutsu",
+                "_fr": "Fubuki no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+                "_jp": "【威力:70 / 氷属性】 強力な氷の妖術を使う。",
+                "_en": "[Power: 70 / Ice attribute] Uses powerful ice magic.",
+                "_fr": "[Puissance : 70 / Attribut Glace] Utilise une puissante magie de glace."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "マネーの神ふぶき",
-                "_en": "God of Money Fubuki",
-                "_fr": "Dieu de l'argent Fubuki"
+                "_jp": "キラキラ☆聖夜祭",
+                "_en": "Sparkling☆Holy Night Festival",
+                "_fr": "Pétillant☆Festival de la Nuit Sainte"
             },
-            "pouvoir": "0",
+            "pouvoir": "190",
             "explication": {
-                "_jp": "豊富な資金力で味方全員の士気を上げ 全ステータスをアップする。",
-                "_en": "Boost the morale of all your allies and improve all their stats with your abundant financial resources.",
-                "_fr": "Remontez le moral de tous vos alliés et améliorez toutes leurs statistiques grâce à vos abondantes ressources financières."
+                "_jp": "キラキラと舞い降る雪を 集めて巨大な氷塊を作り出し 敵全員に おみまいする",
+                "_en": "Collects the falling snow and creates a huge block of ice, which is given to all enemies.",
+                "_fr": "Récupère la neige qui tombe et crée un énorme bloc de glace, qui est donné à tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "大金持ち気分",
-                "_en": "Feeling like a millionaire",
-                "_fr": "Se sentir millionnaire"
+                "_jp": "聖夜に舞い散る雪",
+                "_en": "Snow falling on a holy night",
+                "_fr": "La neige tombe une nuit sainte"
             },
             "explication": {
-                "_jp": "【おさぼり】 大金持ち気分になり たまに行動しなくなる",
-                "_en": "[I slack off] I feel like I have a lot of money and sometimes I don't do anything.",
-                "_fr": "[Je me relâche] J'ai l'impression d'avoir beaucoup d'argent et parfois je ne fais rien."
+                "_jp": "【ようりょくアップ】 クリスマスへの期待が高まり ようりょくがアップ",
+                "_en": "[Yoryoku up] Expectations for Christmas are rising and happiness is up",
+                "_fr": "[Yoryoku up] Les attentes pour Noël augmentent et le bonheur est en hausse"
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "世界的な大富豪が莫大な財産を 残して死んでしまったことを 後悔し 妖怪となってお金を ばら撒きだした。お金を使い きると成仏できると信じている。",
-            "_en": "Regretful that a world-famous millionaire died leaving behind so much wealth, he turned into a monster and started throwing his money away. I believe that once I spend all my money, I can attain Buddhahood.",
-            "_fr": "Regrettant qu'un millionnaire de renommée mondiale soit mort en laissant derrière lui tant de richesses, il s'est transformé en monstre et a commencé à jeter son argent. Je crois qu’une fois que j’aurai dépensé tout mon argent, je pourrai atteindre la bouddhéité."
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1151",
+    "ID": "1149"
 }

@@ -1,8 +1,8 @@
 {
-    "Nom": "U.S.O.",
-    "nom_original": "U.S.O.",
-    "Tribue": "Fushigi",
-    "Rang": "C",
+    "Nom": "Ryokoka Jibanyan",
+    "Tribue": "Mignon",
+    "Rang": "A",
+    "nom_original": "アンドロイド山田・銅",
     "PV": "",
     "Force": "",
     "Esprit": "",
@@ -10,43 +10,54 @@
     "Vitesse": "",
     "Description": [
         {
-            "_jp": "とりついた人を ウソつきにしてしまう妖怪。 そもそも 自分自身が 『エセ宇宙人』という ウソの塊のような存在。",
-            "_en": "A monster that turns the person it possesses into a liar. To begin with, he himself is a ``fake alien'', a mass of lies.",
-            "_fr": "Un monstre qui transforme la personne qu'il possède en menteur. Pour commencer, il est lui-même un amas de mensonges, se qualifiant de « faux extraterrestre »."
+            "_jp": "説明しよう！ アンドロイドの研究をしていた 山田博士が 実験の大爆発に 巻き込まれ なんだかんだで こんな姿になったのだ！！！",
+            "_en": "Let's explain! Dr. Yamada, who was researching androids, got caught up in a huge explosion during an experiment and somehow ended up looking like this! ! !",
+            "_fr": "Expliquons-nous ! Le Dr Yamada, qui faisait des recherches sur les androïdes, a été pris dans une énorme explosion lors d'une expérience et a fini par ressembler à ceci ! ! !"
         }
     ],
-    "nourriture": "Sushis",
-    "nourriture_favorite": "Sushis",
+    "nourriture": "curry",
+    "nourriture_favorite": "curry",
     "élément": "",
-    "Rôle": "attaquant",
+    "Rôle": "ranger",
     "rang_yww": "C",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Sushis",
+    "tribue_yww": "Hagure",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "curry",
     "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
     },
     "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
     },
     "stats_initiale_yww": {
-        "hp": 48,
-        "str": 5,
-        "spr": 27,
-        "def": 21,
-        "spd": 18
+        "hp": 29,
+        "str": 29,
+        "spr": 29,
+        "def": 29,
+        "spd": 29
     },
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "1つ星コイン",
+            "_en": "1 star coin",
+            "_fr": "Pièce d'une étoile"
+        },
+        {
+            "_jp": "ヨロズマートコイン",
+            "_en": "Yorozu Mart Coin",
+            "_fr": "Pièce du marché Yorozu"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -55,14 +66,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "あてみ",
-                "_en": "Atemi",
-                "_fr": "Atémi"
+                "_jp": "ヘッドバット",
+                "_en": "head butt",
+                "_fr": "coup de tête"
             },
             "explication": {
-                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+                "_jp": "【威力:50 / 打撃】 敵1体に攻撃する。",
+                "_en": "[Power: 50/Blow] Attacks one enemy.",
+                "_fr": "[Puissance : 50/Coup] Attaque un ennemi."
             }
         },
         {
@@ -72,51 +83,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "吹雪の術",
-                "_en": "Fubuki no Jutsu",
-                "_fr": "Fubuki no Jutsu"
+                "_jp": "いかずちの術",
+                "_en": "Ikazuchi no Jutsu",
+                "_fr": "Ikazuchi no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:70 / 氷属性】 強力な氷の妖術を使う。",
-                "_en": "[Power: 70 / Ice attribute] Uses powerful ice magic.",
-                "_fr": "[Puissance : 70 / Attribut Glace] Utilise une puissante magie de glace."
+                "_jp": "【威力:50 / 雷属性】 強力な雷の妖術を使う。",
+                "_en": "[Power: 50 / Lightning attribute] Uses powerful lightning magic.",
+                "_fr": "[Puissance : 50 / Attribut Foudre] Utilise une puissante magie de foudre."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "宇宙最強ビーム（嘘）",
-                "_en": "Strongest beam in the universe (lie)",
-                "_fr": "Faisceau le plus puissant de l'univers (mensonge)"
+                "_jp": "へそビーム",
+                "_en": "navel beam",
+                "_fr": "faisceau de nombril"
             },
-            "pouvoir": "150",
+            "pouvoir": "140",
             "explication": {
-                "_jp": "氷の柱を発生させ敵全員に大ダメージを与える",
-                "_en": "Generates a pillar of ice and causes massive damage to all enemies.",
-                "_fr": "Génère un pilier de glace et cause des dégâts massifs à tous les ennemis."
+                "_jp": "独自性あふれるビームを へそから発射し 正面の敵にダメージ与える",
+                "_en": "Fires a unique beam from the belly button that damages the enemy in front of you.",
+                "_fr": "Tire un rayon unique depuis le nombril qui endommage l'ennemi devant vous."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "うそつきにする",
-                "_en": "make a liar",
-                "_fr": "faire un menteur"
+                "_jp": "アンドロイドにする",
+                "_en": "make it android",
+                "_fr": "fais-en un Android"
             },
             "explication": {
-                "_jp": "【おさぼり】 とりつかれた妖怪は口からでまかせを言ってたまに行動しなくなる。",
-                "_en": "[Osabori] Possessed monsters say things like leaving their mouths to themselves and sometimes stop acting.",
-                "_fr": "[Osabori] Les monstres possédés disent des choses comme laisser leur bouche tranquille et arrêtent parfois d'agir."
+                "_jp": "【すばやさダウン】 関節がアンドロイド化し すばやさがダウン",
+                "_en": "[Speed ​​down] Joints become android and speed decreases",
+                "_fr": "[Ralentissement de la vitesse] Les articulations deviennent androïdes et la vitesse diminue"
             }
         }
     ],
     "explication_yww": [
         {
-            "_jp": "とりついた人を ウソつきにしてしまう妖怪。 そもそも 自分自身が 『エセ宇宙人』という ウソの塊のような存在。",
-            "_en": "A monster that turns the person it possesses into a liar. To begin with, he himself is a ``fake alien'', a mass of lies.",
-            "_fr": "Un monstre qui transforme la personne qu'il possède en menteur. Pour commencer, il est lui-même un amas de mensonges, se qualifiant de « faux extraterrestre »."
+            "_jp": "説明しよう！ アンドロイドの研究をしていた 山田博士が 実験の大爆発に 巻き込まれ なんだかんだで こんな姿になったのだ！！！",
+            "_en": "Let's explain! Dr. Yamada, who was researching androids, got caught up in a huge explosion during an experiment and somehow ended up looking like this! ! !",
+            "_fr": "Expliquons-nous ! Le Dr Yamada, qui faisait des recherches sur les androïdes, a été pris dans une énorme explosion lors d'une expérience et a fini par ressembler à ceci ! ! !"
         }
-    ]
+    ],
+    "oldID": "1118",
+    "ID": "1116"
 }

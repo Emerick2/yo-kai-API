@@ -1,8 +1,8 @@
 {
-    "Nom": "Kappa/Mystère",
-    "nom_original": "河童・怪",
-    "Tribue": "Kaima",
+    "Nom": "Majo Fuumin",
+    "Tribue": "Sinistre",
     "Rang": "A",
+    "nom_original": "冥土野花子",
     "PV": "",
     "Force": "",
     "Esprit": "",
@@ -10,49 +10,49 @@
     "Vitesse": "",
     "Description": [
         {
-            "_jp": "河童が怪魔化した姿。 川に近づいた人を 引きずりこんで おぼれさせ おしりから 引き抜いた魂を 食べてしまうのだ。",
-            "_en": "The appearance of a kappa turned into a monster. It drags people who come close to the river, drowns them, and eats the souls it pulls out of its bottom.",
-            "_fr": "L'apparence d'un kappa s'est transformée en monstre. Il entraîne les gens qui s'approchent du fleuve, les noie et mange les âmes qu'il retire de son fond."
+            "_jp": "呪いのアイテムを買うため メイド喫茶でバイトをする 花子さん。 独特な口調が 一部のお客さんから人気だが 実は呪いの効果というウワサ。",
+            "_en": "Hanako works part-time at a maid cafe in order to buy cursed items. It's unique tone is popular with some customers, but it's actually rumored to have a curse effect.",
+            "_fr": "Hanako travaille à temps partiel dans un maid café afin d'acheter des objets maudits. Son ton unique est populaire auprès de certains clients, mais la rumeur dit qu'il aurait un effet de malédiction."
         }
     ],
-    "nourriture": "légumes",
-    "nourriture_favorite": "légumes",
+    "nourriture": "collation",
+    "nourriture_favorite": "collation",
     "élément": "",
-    "Rôle": "attaquant",
+    "Rôle": "ranger",
     "rang_yww": "A",
-    "tribue_yww": "Kaima",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "légumes",
+    "tribue_yww": "Bukimi",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "collation",
     "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zuno, (Attaque sur les alliés) Coopératif, type Kenshin"
     },
     "faiblesse_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "avantage_yww": {
         "_jp": "雷属性",
         "_en": "Lightning attribute",
         "_fr": "Attribut de foudre"
     },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
     "stats_initiale_yww": {
-        "hp": 55,
-        "str": 12,
-        "spr": 29,
-        "def": 7,
+        "hp": 37,
+        "str": 6,
+        "spr": 33,
+        "def": 18,
         "spd": 36
     },
-    "stats_max_yww": {
-        "hp": 429,
-        "str": 62,
-        "spr": 204,
-        "def": 73,
-        "spd": 235
-    },
-    "moyens_obtention_yww": [],
+    "stats_max_yww": {},
+    "moyens_obtention_yww": [
+        {
+            "_jp": "2018年ハロウィンイベントで入手",
+            "_en": "Obtained from the 2018 Halloween event",
+            "_fr": "Obtenu lors de l'événement Halloween 2018"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -61,9 +61,9 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "ワンツーパンチ",
-                "_en": "one two punch",
-                "_fr": "un deux coups de poing"
+                "_jp": "はりたおす",
+                "_en": "Haritaosu",
+                "_fr": "Haritaosu"
             },
             "explication": {
                 "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
@@ -78,51 +78,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "大滝の術",
-                "_en": "Otaki no Jutsu",
-                "_fr": "Otaki no Jutsu"
+                "_jp": "死神の術",
+                "_en": "Shinigami no Jutsu",
+                "_fr": "Shinigami no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:70 / 水属性】 強力な水の妖術を使う。",
-                "_en": "[Power: 70 / Water attribute] Uses powerful water magic.",
-                "_fr": "[Puissance : 70 / Attribut Eau] Utilise une puissante magie de l'eau."
+                "_jp": "【威力:55 / 吸収】 敵のHPを大きく吸い取る。",
+                "_en": "[Power: 55 / Absorption] Absorbs a large amount of enemy's HP.",
+                "_fr": "[Puissance : 55 / Absorption] Absorbe une grande quantité de HP de l'ennemi."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "カッパッ波ー！",
-                "_en": "Kappa wave!",
-                "_fr": "Vague Kappa !"
+                "_jp": "呪いのスマイルセット",
+                "_en": "cursed smile set",
+                "_fr": "ensemble de sourire maudit"
             },
-            "pouvoir": "155",
+            "pouvoir": "74",
             "explication": {
-                "_jp": "本場の強力な水流をランダムな敵に呼び出しダメージを与える。",
-                "_en": "Summons a powerful stream of water to deal damage to random enemies.",
-                "_fr": "Invoque un puissant jet d'eau pour infliger des dégâts à des ennemis aléatoires."
+                "_jp": "呪いのスマイルセットを敵全員に 放出し 当たった妖怪は HPがだんだん減っていく",
+                "_en": "Releases a cursed smile set on all enemies, and the hit monsters' HP gradually decreases.",
+                "_fr": "Libère un sourire maudit sur tous les ennemis et les PV des monstres touchés diminuent progressivement."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "邪気を伝える",
-                "_en": "convey evil spirits",
-                "_fr": "transmettre les mauvais esprits"
+                "_jp": "呪い返しのオーダー",
+                "_en": "Curse return order",
+                "_fr": "Ordre de retour de la malédiction"
             },
             "explication": {
-                "_jp": "【ようりょくダウン】 とりつかれた妖怪は邪気にあてられ ようりょくがダウンする。",
-                "_en": "[Yoryoku Down] The possessed monster is attacked by evil spirits, and its Yoryoku goes down.",
-                "_fr": "[Yoryoku Down] Le monstre possédé est attaqué par des esprits maléfiques et son Yoryoku tombe."
+                "_jp": "【回復】 ふりかかる呪いを跳ね返し HPがだんだん回復",
+                "_en": "[Recovery] Repel curses and gradually recover HP",
+                "_fr": "[Récupération] Repoussez les malédictions et récupérez progressivement des HP"
             }
         }
     ],
     "explication_yww": [
         {
-            "_jp": "河童が怪魔化した姿。 川に近づいた人を 引きずりこんで おぼれさせ おしりから 引き抜いた魂を 食べてしまうのだ。",
-            "_en": "The appearance of a kappa turned into a monster. It drags people who come close to the river, drowns them, and eats the souls it pulls out of its bottom.",
-            "_fr": "L'apparence d'un kappa s'est transformée en monstre. Il entraîne les gens qui s'approchent du fleuve, les noie et mange les âmes qu'il retire de son fond."
+            "_jp": "呪いのアイテムを買うため メイド喫茶でバイトをする 花子さん。 独特な口調が 一部のお客さんから人気だが 実は呪いの効果というウワサ。",
+            "_en": "Hanako works part-time at a maid cafe in order to buy cursed items. It's unique tone is popular with some customers, but it's actually rumored to have a curse effect.",
+            "_fr": "Hanako travaille à temps partiel dans un maid café afin d'acheter des objets maudits. Son ton unique est populaire auprès de certains clients, mais la rumeur dit qu'il aurait un effet de malédiction."
         }
-    ]
+    ],
+    "oldID": "1144",
+    "ID": "1142"
 }

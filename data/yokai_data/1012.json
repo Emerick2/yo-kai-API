@@ -1,52 +1,46 @@
 {
-    "Nom": "États-Unis Pyon",
-    "nom_original": "USAピョン",
-    "Tribue": "Usurakage",
-    "Rang": "B",
+    "Nom": "Kuro Nyankishi",
+    "Tribue": "Vaillant",
+    "Rang": "S",
+    "nom_original": "小悪魔コマじろう",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "ロケット工学の博士とともに 宇宙を目指した チビがいた。 実験の失敗で 命を落とし 妖怪になった今も まだ 博士との夢をあきらめない。",
-            "_en": "There was a little guy who aimed for space with a doctor of rocket engineering. Even though he lost his life due to a failed experiment and became a monster, he still does not give up on his dream with the doctor.",
-            "_fr": "Il y avait un petit gars qui visait l’espace avec un docteur en ingénierie des fusées. Même s'il a perdu la vie à cause d'une expérience ratée et est devenu un monstre, il n'abandonne toujours pas son rêve avec le médecin."
-        }
-    ],
-    "nourriture": "Donut",
-    "nourriture_favorite": "Donut",
+    "Description": "",
+    "nourriture": "lait",
+    "nourriture_favorite": "lait",
     "élément": "",
     "Rôle": "attaquant",
-    "rang_yww": "B",
-    "tribue_yww": "Usurakage",
+    "rang_yww": "C",
+    "tribue_yww": "Pritchie",
     "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Donut",
+    "plat_préféré_yww": "lait",
     "attitude_spécifique_yww": {
-        "_jp": "編集中です。",
-        "_en": "Editing in progress.",
-        "_fr": "Montage en cours."
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
     },
     "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
     },
-    "stats_initiale_yww": {},
+    "stats_initiale_yww": {
+        "hp": 51,
+        "str": 9,
+        "spr": 27,
+        "def": 10,
+        "spd": 9
+    },
     "stats_max_yww": {},
-    "moyens_obtention_yww": [
-        {
-            "_jp": "スプリングコイン",
-            "_en": "spring coin",
-            "_fr": "pièce de printemps"
-        }
-    ],
+    "moyens_obtention_yww": [],
     "attaque_magie_yww": [
         {
             "type": {
@@ -55,14 +49,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "パンチ",
+                "_en": "punch",
+                "_fr": "punch"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -72,51 +66,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "いかずちの術",
+                "_en": "Ikazuchi no Jutsu",
+                "_fr": "Ikazuchi no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:50 / 雷属性】 強力な雷の妖術を使う。",
+                "_en": "[Power: 50 / Lightning attribute] Uses powerful lightning magic.",
+                "_fr": "[Puissance : 50 / Attribut Foudre] Utilise une puissante magie de foudre."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "極太ＵＳＡビーム",
-                "_en": "Extra thick USA beam",
-                "_fr": "Poutre américaine très épaisse"
+                "_jp": "いたずらサンダー",
+                "_en": "naughty thunder",
+                "_fr": "tonnerre coquin"
             },
-            "pouvoir": "28×5",
+            "pouvoir": "73",
             "explication": {
-                "_jp": "極太ビームを発射し敵に大ダメージを与える",
-                "_en": "Fires a thick beam that causes great damage to the enemy.",
-                "_fr": "Tire un faisceau épais qui cause de gros dégâts à l'ennemi."
+                "_jp": "三つ又の槍に稲妻を集めて 敵全員に ビリビリとダメージを与える",
+                "_en": "Collect lightning into a three-pronged spear and cause damage to all enemies.",
+                "_fr": "Collectez la foudre dans une lance à trois branches et infligez des dégâts à tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "怒りっぽくする",
-                "_en": "make angry",
-                "_fr": "se mettre en colère"
+                "_jp": "イタズラしたくなる",
+                "_en": "Makes me want to play pranks",
+                "_fr": "ça me donne envie de faire des farces"
             },
             "explication": {
-                "_jp": "【混乱】 とりつかれた妖怪は怒りっぽくなってしまい味方をたまにこうげきする。",
-                "_en": "[Confusion] Possessed monsters become angry and sometimes attack their allies.",
-                "_fr": "[Confusion] Les monstres possédés se mettent en colère et attaquent parfois leurs alliés."
+                "_jp": "【おさぼり】 イタズラしたくなって たまに行動しなくなる",
+                "_en": "[Osabori] Sometimes I feel like playing pranks so I don't act anymore",
+                "_fr": "[Osabori] Parfois j'ai envie de faire des farces donc je n'agis plus"
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "ロケット工学の博士とともに 宇宙を目指した チビがいた。 実験の失敗で 命を落とし 妖怪になった今も まだ 博士との夢をあきらめない。",
-            "_en": "There was a little guy who aimed for space with a doctor of rocket engineering. Even though he lost his life due to a failed experiment and became a monster, he still does not give up on his dream with the doctor.",
-            "_fr": "Il y avait un petit gars qui visait l’espace avec un docteur en ingénierie des fusées. Même s'il a perdu la vie à cause d'une expérience ratée et est devenu un monstre, il n'abandonne toujours pas son rêve avec le médecin."
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1132",
+    "ID": "1130"
 }

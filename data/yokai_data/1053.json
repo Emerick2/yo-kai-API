@@ -1,22 +1,22 @@
 {
-    "Nom": "Est-ce que Calibur",
-    "nom_original": "ドエスカリバー",
-    "Tribue": "Usurakage",
+    "Nom": "Haregi Fubuki-hime",
+    "Tribue": "Mignon",
     "Rang": "S",
+    "nom_original": "温泉コマじろう",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
     "Description": "",
-    "nourriture": "",
-    "nourriture_favorite": "",
+    "nourriture": "lait",
+    "nourriture_favorite": "lait",
     "élément": "",
-    "Rôle": "ranger",
-    "rang_yww": "S",
-    "tribue_yww": "Usurakage",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": null,
+    "Rôle": "attaquant",
+    "rang_yww": "A",
+    "tribue_yww": "Pritchie",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "lait",
     "attitude_spécifique_yww": {
         "_jp": "編集中です。",
         "_en": "Editing in progress.",
@@ -34,7 +34,13 @@
     },
     "stats_initiale_yww": {},
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "ジバニャンの妖怪温泉イベントで入手",
+            "_en": "Obtained from Jibanyan's Yokai Hot Spring event",
+            "_fr": "Obtenu lors de l'événement Yokai Hot Spring de Jibanyan"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -43,14 +49,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "パンチ",
+                "_en": "punch",
+                "_fr": "punch"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -60,45 +66,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "いかずちの術",
+                "_en": "Ikazuchi no Jutsu",
+                "_fr": "Ikazuchi no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:50 / 雷属性】 強力な雷の妖術を使う。",
+                "_en": "[Power: 50 / Lightning attribute] Uses powerful lightning magic.",
+                "_fr": "[Puissance : 50 / Attribut Foudre] Utilise une puissante magie de foudre."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "ドエスサンダー",
-                "_en": "dos sander",
-                "_fr": "deux ponceuses"
+                "_jp": "湯上がりサンダー",
+                "_en": "Sander after bathing",
+                "_fr": "Ponceuse après le bain"
             },
-            "pouvoir": "0",
+            "pouvoir": "73",
             "explication": {
-                "_jp": "雷を落とし敵に大ダメージ。敵のスピードをダウン。",
-                "_en": "Drops lightning and causes heavy damage to the enemy. Reduce enemy speed.",
-                "_fr": "Lâche des éclairs et cause de lourds dégâts à l'ennemi. Réduisez la vitesse de l'ennemi."
+                "_jp": "湯上がりで のぼせて うっかり雷雲を呼び寄せ 敵全員にダメージを与える",
+                "_en": "Get hot after taking a bath and accidentally summon a thundercloud, damaging all enemies.",
+                "_fr": "Obtenez chaud après avoir pris un bain et invoquez accidentellement un nuage d'orage, endommageant tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "まんじゅうパワー",
+                "_en": "Manju power",
+                "_fr": "Pouvoir Manju"
             },
             "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
+                "_jp": "【ちからアップ】 まんじゅうの力で ちからがアップ",
+                "_en": "[Power up] Power up with the power of steamed buns",
+                "_fr": "[Power up] Mettez sous tension avec la puissance des petits pains cuits à la vapeur"
             }
         }
     ],
-    "explication_yww": []
+    "explication_yww": [],
+    "oldID": "1166",
+    "ID": "1164"
 }

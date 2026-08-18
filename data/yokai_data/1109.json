@@ -1,58 +1,46 @@
 {
-    "Nom": "Koma-san en voyage",
-    "nom_original": "旅するコマさん",
-    "Tribue": "Pritchie",
+    "Nom": "Sakurasheru",
+    "Tribue": "Insaisissable",
     "Rang": "B",
+    "nom_original": "マーマーメイド",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "ふろしきをリュックに変えて アクティブになったコマさん。 おいしいソフトクリームが 食べられるお店を見つけては いちもくさんに走り出す。",
-            "_en": "Mr. Koma changed his furoshiki into a backpack and became active. I find a shop that serves delicious soft-serve ice cream and start running everywhere.",
-            "_fr": "M. Koma a transformé son furoshiki en sac à dos et est devenu actif. Je trouve un magasin qui sert de délicieuses glaces molles et je commence à courir partout."
-        }
-    ],
-    "nourriture": "crème douce",
-    "nourriture_favorite": "crème douce",
+    "Description": "",
+    "nourriture": "bonbons",
+    "nourriture_favorite": "bonbons",
     "élément": "",
     "Rôle": "attaquant",
-    "rang_yww": "B",
-    "tribue_yww": "Pritchie",
+    "rang_yww": "S",
+    "tribue_yww": "Nyororon",
     "rôle_yww": "attaquant",
-    "plat_préféré_yww": "crème douce",
+    "plat_préféré_yww": "bonbons",
     "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zuno, (Attaque sur les alliés) Coopératif, type Kenshin"
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
+    },
+    "avantage_yww": {
         "_jp": "水属性",
         "_en": "water attribute",
         "_fr": "attribut de l'eau"
     },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
     "stats_initiale_yww": {
-        "hp": 45,
-        "str": 8,
-        "spr": 24,
-        "def": 10,
-        "spd": 22
+        "hp": 55,
+        "str": 12,
+        "spr": 39,
+        "def": 17,
+        "spd": 30
     },
     "stats_max_yww": {},
-    "moyens_obtention_yww": [
-        {
-            "_jp": "ヨロズマートコイン",
-            "_en": "Yorozu Mart Coin",
-            "_fr": "Pièce du marché Yorozu"
-        }
-    ],
+    "moyens_obtention_yww": [],
     "attaque_magie_yww": [
         {
             "type": {
@@ -61,14 +49,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "パンチ",
-                "_en": "punch",
-                "_fr": "punch"
+                "_jp": "しっぽうち",
+                "_en": "Shippouchi",
+                "_fr": "Shippouchi"
             },
             "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+                "_jp": "【威力:50 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 50/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 50/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -78,51 +66,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "火炎の術",
-                "_en": "flame technique",
-                "_fr": "technique de la flamme"
+                "_jp": "大滝の術",
+                "_en": "Otaki no Jutsu",
+                "_fr": "Otaki no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
-                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
-                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
+                "_jp": "【威力:70 / 水属性】 強力な水の妖術を使う。",
+                "_en": "[Power: 70 / Water attribute] Uses powerful water magic.",
+                "_fr": "[Puissance : 70 / Attribut Eau] Utilise une puissante magie de l'eau."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "行きずりひとだま乱舞",
-                "_en": "Ranbu Hitodama",
-                "_fr": "Ranbu Hitodama"
+                "_jp": "渚のメロメロウェーブ",
+                "_en": "Nagisa's melodious wave",
+                "_fr": "La vague mélodieuse de Nagisa"
             },
-            "pouvoir": "100",
+            "pouvoir": "148",
             "explication": {
-                "_jp": "旅の途中で出会ったひとだまを飛び交わせ、敵全員にダメージを与える",
-                "_en": "Fly the people you meet during your journey and deal damage to all enemies.",
-                "_fr": "Faites voler les personnes que vous rencontrez au cours de votre voyage et infligez des dégâts à tous les ennemis."
+                "_jp": "敵全員にダメージを与える",
+                "_en": "Cause damage to all enemies",
+                "_fr": "Infliger des dégâts à tous les ennemis"
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "旅行の準備",
-                "_en": "Preparing for the trip",
-                "_fr": "Préparation du voyage"
+                "_jp": "メルティーボイス",
+                "_en": "Melty voice",
+                "_fr": "Voix fondante"
             },
             "explication": {
-                "_jp": "【回復】 旅行にしっかり備えてHPが回復",
-                "_en": "[Recovery] Recover HP in preparation for your trip",
-                "_fr": "[Récupération] Récupérez des HP en préparation de votre voyage"
+                "_jp": "【まもりダウン】 まもりがダウン",
+                "_en": "[Mamori Down] Mamori is Down",
+                "_fr": "[Mamori à terre] Mamori est à terre"
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "ふろしきをリュックに変えて アクティブになったコマさん。 おいしいソフトクリームが 食べられるお店を見つけては いちもくさんに走り出す。",
-            "_en": "Mr. Koma changed his furoshiki into a backpack and became active. I find a shop that serves delicious soft-serve ice cream and start running everywhere.",
-            "_fr": "M. Koma a transformé son furoshiki en sac à dos et est devenu actif. Je trouve un magasin qui sert de délicieuses glaces molles et je commence à courir partout."
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1214",
+    "ID": "1212"
 }

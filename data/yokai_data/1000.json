@@ -1,58 +1,52 @@
 {
-    "Nom": "Colomb endormi",
-    "nom_original": "寝コロンブス",
-    "Tribue": "Pritchie",
-    "Rang": "D",
+    "Nom": "Cho Tokkyuu USApyon",
+    "Tribue": "Sombre",
+    "Rang": "B",
+    "nom_original": "温泉コマさん",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "気持ちよくコロンと寝ころぶ ための場所「新大陸」を発見 するために冒険している妖怪。 よさそうな場所を見つけても すぐに新大陸を求めて旅に出る。",
-            "_en": "A monster who is on an adventure to discover the ``New World'', a place where you can lie down comfortably. Even if they find a place that looks good, they immediately set out on a journey to find a new continent.",
-            "_fr": "Un monstre qui part à l'aventure pour découvrir le « Nouveau Monde », un endroit où l'on peut s'allonger confortablement. Même s’ils trouvent un endroit qui leur semble beau, ils se lancent immédiatement à la recherche d’un nouveau continent."
-        }
-    ],
-    "nourriture": "fruit de mer",
-    "nourriture_favorite": "fruit de mer",
+    "Description": "",
+    "nourriture": "crème douce",
+    "nourriture_favorite": "crème douce",
     "élément": "",
     "Rôle": "attaquant",
-    "rang_yww": "D",
+    "rang_yww": "A",
     "tribue_yww": "Pritchie",
     "rôle_yww": "attaquant",
-    "plat_préféré_yww": "fruit de mer",
+    "plat_préféré_yww": "crème douce",
     "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zuno, (Attaque sur les alliés) Coopératif, type Kenshin"
     },
     "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
     },
     "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
     },
     "stats_initiale_yww": {
-        "hp": 38,
-        "str": 3,
-        "spr": 20,
-        "def": 11,
-        "spd": 28
+        "hp": 44,
+        "str": 6,
+        "spr": 43,
+        "def": 12,
+        "spd": 22
     },
-    "stats_max_yww": {
-        "hp": 345,
-        "str": 41,
-        "spr": 167,
-        "def": 98,
-        "spd": 187
-    },
-    "moyens_obtention_yww": [],
+    "stats_max_yww": {},
+    "moyens_obtention_yww": [
+        {
+            "_jp": "公式ガイドブック「全方位まるわかりガイドブック」ふろくのシリアルコードで入手",
+            "_en": "Official guidebook ``Omnidirectional guidebook'' available with furoku serial code",
+            "_fr": "Guide officiel ``Guide omnidirectionnel'' disponible avec le code de série furoku"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -61,14 +55,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "たたく",
-                "_en": "knock",
-                "_fr": "frappe"
+                "_jp": "パンチ",
+                "_en": "punch",
+                "_fr": "punch"
             },
             "explication": {
-                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -78,51 +72,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "水流の術",
-                "_en": "Water flow technique",
-                "_fr": "Technique d'écoulement de l'eau"
+                "_jp": "火炎の術",
+                "_en": "flame technique",
+                "_fr": "technique de la flamme"
             },
             "explication": {
-                "_jp": "【威力:50 / 水属性】 強力な水の妖術を使う。",
-                "_en": "[Power: 50 / Water attribute] Uses powerful water magic.",
-                "_fr": "[Puissance : 50 / Attribut Eau] Utilise une puissante magie de l'eau."
+                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
+                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
+                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "ゴーゴー！新大陸",
-                "_en": "Go go! new continent",
-                "_fr": "Allez, allez ! nouveau continent"
+                "_jp": "湯上がりひとだま乱舞",
+                "_en": "Hitodama dancing after bathing",
+                "_fr": "Hitodama dansant après le bain"
             },
-            "pouvoir": "0",
+            "pouvoir": "100",
             "explication": {
-                "_jp": "味方全員に新大陸発見の号令をだし すばやさを大アップさせる。",
-                "_en": "Gives a command to all allies to discover a new continent and greatly increases their speed.",
-                "_fr": "Donne l'ordre à tous les alliés de découvrir un nouveau continent et augmente considérablement leur vitesse."
+                "_jp": "温めたひとだまを 飛び交わせ 敵全員に ダメージを与える",
+                "_en": "Fly the heated ball around, dealing damage to all enemies.",
+                "_fr": "Faites voler la balle chauffée, infligeant des dégâts à tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "寝ころばせる",
-                "_en": "lie down",
-                "_fr": "allongez-vous"
+                "_jp": "温泉デトックス",
+                "_en": "hot spring detox",
+                "_fr": "cure détox aux sources chaudes"
             },
             "explication": {
-                "_jp": "【おさぼり】 とりつかれた妖怪はだらだらと寝ころんでたまに行動しなくなる。",
-                "_en": "[Lazy] Possessed monsters lie lazily and sometimes become inactive.",
-                "_fr": "[Paresseux] Les monstres possédés mentent paresseusement et deviennent parfois inactifs."
+                "_jp": "【すばやさアップ】 温泉でデトックスして すばやさがアップ",
+                "_en": "[Improve your speed] Detox in a hot spring to improve your speed",
+                "_fr": "[Améliorez votre vitesse] Détox dans une source chaude pour améliorer votre vitesse"
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "気持ちよくコロンと寝ころぶ ための場所「新大陸」を発見 するために冒険している妖怪。 よさそうな場所を見つけても すぐに新大陸を求めて旅に出る。",
-            "_en": "A monster who is on an adventure to discover the ``New World'', a place where you can lie down comfortably. Even if they find a place that looks good, they immediately set out on a journey to find a new continent.",
-            "_fr": "Un monstre qui part à l'aventure pour découvrir le « Nouveau Monde », un endroit où l'on peut s'allonger confortablement. Même s’ils trouvent un endroit qui leur semble beau, ils se lancent immédiatement à la recherche d’un nouveau continent."
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1112",
+    "ID": "1110"
 }

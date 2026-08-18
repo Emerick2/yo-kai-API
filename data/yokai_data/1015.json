@@ -1,44 +1,44 @@
 {
-    "Nom": "Pyon américain (style militaire)",
-    "nom_original": "USAピョン(ミリタリースタイル)",
-    "Tribue": "Usurakage",
-    "Rang": "B",
+    "Nom": "Aki-Okami",
+    "Tribue": "Bienveillant",
+    "Rang": "S",
+    "nom_original": "小悪魔コマさん",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "サバイバル戦に特化した 衣装に着替えたＵＳＡピョン。 宇宙へ行った時のために どんな かこくな環境でも 生きぬけるタフさをみがく。",
-            "_en": "USA Pyon changed into a costume specialized for survival warfare. Develop the toughness to survive in any harsh environment in preparation for when you go to space.",
-            "_fr": "USA Pyon s'est transformé en un costume spécialisé pour la guerre de survie. Développez la ténacité nécessaire pour survivre dans n’importe quel environnement difficile en prévision de votre départ dans l’espace."
-        }
-    ],
-    "nourriture": "Donut",
-    "nourriture_favorite": "Donut",
+    "Description": "",
+    "nourriture": "crème douce",
+    "nourriture_favorite": "crème douce",
     "élément": "",
     "Rôle": "attaquant",
-    "rang_yww": "B",
-    "tribue_yww": "Usurakage",
+    "rang_yww": "C",
+    "tribue_yww": "Pritchie",
     "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Donut",
+    "plat_préféré_yww": "crème douce",
     "attitude_spécifique_yww": {
-        "_jp": "編集中です。",
-        "_en": "Editing in progress.",
-        "_fr": "Montage en cours."
+        "_jp": "(攻撃役) れいせい、ずのう的",
+        "_en": "(Attack role) Reisei, Zunou target",
+        "_fr": "(Rôle d'attaque) Reisei, cible de Zunou"
     },
     "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
     },
     "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
     },
-    "stats_initiale_yww": {},
+    "stats_initiale_yww": {
+        "hp": 47,
+        "str": 12,
+        "spr": 32,
+        "def": 12,
+        "spd": 8
+    },
     "stats_max_yww": {},
     "moyens_obtention_yww": [],
     "attaque_magie_yww": [
@@ -49,68 +49,64 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "パンチ",
+                "_en": "punch",
+                "_fr": "punch"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
             "type": {
                 "_jp": "ようじゅつ",
-                "_en": "ようじゅつ",
-                "_fr": "ようじゅつ"
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "火炎の術",
+                "_en": "flame technique",
+                "_fr": "technique de la flamme"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
+                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
+                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "絶対防衛ラインＵ",
-                "_en": "Absolute defense line U",
-                "_fr": "Ligne de défense absolue U"
+                "_jp": "お菓子なひとだま乱舞",
+                "_en": "Sweets Hitodama Ranbu",
+                "_fr": "Bonbons Hitodama Ranbu"
             },
-            "pouvoir": "22×5",
+            "pouvoir": "100",
             "explication": {
-                "_jp": "空からビームを降らし敵に大ダメージを与える",
-                "_en": "Rains a beam from the sky and causes great damage to the enemy.",
-                "_fr": "Il fait pleuvoir un rayon du ciel et cause de gros dégâts à l'ennemi."
+                "_jp": "あま～いにおいの ひとだまを飛び交わせ 敵全員にダメージを与える",
+                "_en": "Fly sweet-smelling balls and deal damage to all enemies.",
+                "_fr": "Faites voler des boules odorantes et infligez des dégâts à tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "怒りっぽくする",
-                "_en": "make angry",
-                "_fr": "se mettre en colère"
+                "_jp": "お菓子をパクッ！",
+                "_en": "Snack the sweets!",
+                "_fr": "Snack les bonbons !"
             },
             "explication": {
-                "_jp": "【混乱】 とりつかれた妖怪は怒りっぽくなってしまい味方をたまにこうげきする。",
-                "_en": "[Confusion] Possessed monsters become angry and sometimes attack their allies.",
-                "_fr": "[Confusion] Les monstres possédés se mettent en colère et attaquent parfois leurs alliés."
+                "_jp": "【–】 お菓子を食べて HPがだんだん回復",
+                "_en": "[–] HP gradually recovers by eating sweets",
+                "_fr": "[–] HP récupère progressivement en mangeant des sucreries"
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "サバイバル戦に特化した 衣装に着替えたＵＳＡピョン。 宇宙へ行った時のために どんな かこくな環境でも 生きぬけるタフさをみがく。",
-            "_en": "USA Pyon changed into a costume specialized for survival warfare. Develop the toughness to survive in any harsh environment in preparation for when you go to space.",
-            "_fr": "USA Pyon s'est transformé en un costume spécialisé pour la guerre de survie. Développez la ténacité nécessaire pour survivre dans n’importe quel environnement difficile en prévision de votre départ dans l’espace."
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1133",
+    "ID": "1131"
 }

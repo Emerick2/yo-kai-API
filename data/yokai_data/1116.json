@@ -1,20 +1,14 @@
 {
-    "Nom": "Voyageur Jibanyan",
-    "nom_original": "旅行家ジバニャン",
-    "Tribue": "Pritchie",
-    "Rang": "A",
+    "Nom": "Mamameido",
+    "Tribue": "Insaisissable",
+    "Rang": "S",
+    "nom_original": "レッドガードマンJ",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "トランクいっぱいに ロマンと チョコボーをつめ込みまくって 旅を続けているジバニャン。 「チョコボーのなる木」を求め 世界中を渡り歩いているらしい。",
-            "_en": "Jibanyan continues his journey with his trunk full of Romance and Chocobo. It seems that he travels around the world in search of the ``chocobo tree''.",
-            "_fr": "Jibanyan continue son voyage avec sa malle pleine de Romance et de Chocobo. Il semblerait qu'il voyage à travers le monde à la recherche du « chocobo »."
-        }
-    ],
+    "Description": "",
     "nourriture": "Chocobo",
     "nourriture_favorite": "Chocobo",
     "élément": "",
@@ -29,24 +23,30 @@
         "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
     },
     "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
     },
     "stats_initiale_yww": {
-        "hp": 63,
-        "str": 32,
-        "spr": 8,
-        "def": 13,
-        "spd": 36
+        "hp": 59,
+        "str": 20,
+        "spr": 5,
+        "def": 27,
+        "spd": 15
     },
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "降臨ボス討伐で入手可能",
+            "_en": "Obtainable by defeating the advent boss",
+            "_fr": "Obtenable en battant le boss de l'Avent"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -55,14 +55,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "めったうち",
-                "_en": "Very rarely",
-                "_fr": "Très rarement"
+                "_jp": "きりさく",
+                "_en": "Kirisaku",
+                "_fr": "Kirisaku"
             },
             "explication": {
-                "_jp": "【威力:24×3 / 打撃】 3回攻撃を行う",
-                "_en": "[Power: 24×3/Blow] Attacks 3 times",
-                "_fr": "[Puissance : 24×3/Coup] Attaque 3 fois"
+                "_jp": "【威力:17×3 / 打撃】 3回攻撃を行う",
+                "_en": "[Power: 17×3/Blow] Attacks 3 times",
+                "_fr": "[Puissance : 17×3/Coup] Attaque 3 fois"
             }
         },
         {
@@ -72,51 +72,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "こいしの術",
-                "_en": "Koishi no jutsu",
-                "_fr": "Koishi pas de jutsu"
+                "_jp": "火炎の術",
+                "_en": "flame technique",
+                "_fr": "technique de la flamme"
             },
             "explication": {
-                "_jp": "【威力:30 / 土属性】 土の妖術を使う。",
-                "_en": "[Power: 30 / Earth attribute] Uses earth magic.",
-                "_fr": "[Puissance : 30 / Attribut Terre] Utilise la magie de la terre."
+                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
+                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
+                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "万国ひゃくれつ肉球",
-                "_en": "Bankoku Hyakuretsu Paws",
-                "_fr": "Pattes de Bankoku Hyakuretsu"
+                "_jp": "地獄の用心棒",
+                "_en": "bodyguard of hell",
+                "_fr": "garde du corps de l'enfer"
             },
-            "pouvoir": "15×5",
+            "pouvoir": "190",
             "explication": {
-                "_jp": "世界中で身につけた様々な拳法で、敵全員をなぐりまくる",
-                "_en": "Beat all your enemies with the various martial arts techniques you have learned all over the world.",
-                "_fr": "Battez tous vos ennemis avec les différentes techniques d'arts martiaux que vous avez apprises partout dans le monde."
+                "_jp": "相手を一瞬で鎮圧させる波動を発射し 正面の敵にダメージを与える",
+                "_en": "Fires a wave that instantly suppresses the opponent and deals damage to the enemy in front of you.",
+                "_fr": "Tire une vague qui supprime instantanément l'adversaire et inflige des dégâts à l'ennemi devant vous."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "チョコボーさがし",
-                "_en": "Chocobo search",
-                "_fr": "Recherche de chocobos"
+                "_jp": "制圧する",
+                "_en": "conquer",
+                "_fr": "conquérir"
             },
             "explication": {
-                "_jp": "【おさぼり】 チョコボーが見つからず、たまに行動しなくなる。",
-                "_en": "[Osabori] I can't find Chocobo and sometimes he stops acting.",
-                "_fr": "[Osabori] Je ne trouve pas Chocobo et parfois il arrête de jouer."
+                "_jp": "【混乱】 動きを封じて制圧し ちからがダウン",
+                "_en": "[Confusion] Block movement and control, power down",
+                "_fr": "[Confusion] Bloquer le mouvement et le contrôle, éteindre"
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "トランクいっぱいに ロマンと チョコボーをつめ込みまくって 旅を続けているジバニャン。 「チョコボーのなる木」を求め 世界中を渡り歩いているらしい。",
-            "_en": "Jibanyan continues his journey with his trunk full of Romance and Chocobo. It seems that he travels around the world in search of the ``chocobo tree''.",
-            "_fr": "Jibanyan continue son voyage avec sa malle pleine de Romance et de Chocobo. Il semblerait qu'il voyage à travers le monde à la recherche du « chocobo »."
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1216",
+    "ID": "1214"
 }

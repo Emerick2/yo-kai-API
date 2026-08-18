@@ -1,44 +1,44 @@
 {
-    "Nom": "Fuu 2",
-    "nom_original": "フウ2",
-    "Tribue": "Fushigi",
-    "Rang": "C",
+    "Nom": "Ryokoka Komasan",
+    "Tribue": "Mignon",
+    "Rang": "A",
+    "nom_original": "月見オロチ",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "ごく普通の少年 天野景太は ごく普通に 死んでしまい ごく普通の妖怪となった！ とりついた相手を『フツウ』に してしまう 恐ろしい妖怪だ！",
-            "_en": "Keita Amano, an ordinary boy, died in an ordinary manner and became an ordinary monster! It's a terrifying monster that turns anyone it possesses into a normal person!",
-            "_fr": "Keita Amano, un garçon ordinaire, est mort d'une manière ordinaire et est devenu un monstre ordinaire ! C'est un monstre terrifiant qui transforme toute personne qu'il possède en une personne normale !"
-        }
-    ],
-    "nourriture": "pain",
-    "nourriture_favorite": "pain",
+    "Description": "",
+    "nourriture": "fruit de mer",
+    "nourriture_favorite": "fruit de mer",
     "élément": "",
     "Rôle": "attaquant",
-    "rang_yww": "C",
-    "tribue_yww": "Fushigi",
+    "rang_yww": "S",
+    "tribue_yww": "Nyororon",
     "rôle_yww": "attaquant",
-    "plat_préféré_yww": "pain",
+    "plat_préféré_yww": "fruit de mer",
     "attitude_spécifique_yww": {
-        "_jp": "編集中です。",
-        "_en": "Editing in progress.",
-        "_fr": "Montage en cours."
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
     },
     "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
     },
-    "stats_initiale_yww": {},
+    "stats_initiale_yww": {
+        "hp": 56,
+        "str": 38,
+        "spr": 24,
+        "def": 5,
+        "spd": 42
+    },
     "stats_max_yww": {},
     "moyens_obtention_yww": [],
     "attaque_magie_yww": [
@@ -49,14 +49,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "かみちぎる",
+                "_en": "Kamichigiru",
+                "_fr": "Kamichigiru"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:70 / 打撃】 強力な一撃を加える",
+                "_en": "[Power: 70/Blow] Add a powerful blow",
+                "_fr": "[Puissance : 70/Coup] Ajoutez un coup puissant"
             }
         },
         {
@@ -66,51 +66,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "雷神の術",
+                "_en": "Raijin no Jutsu",
+                "_fr": "Raijin no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
+                "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
+                "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "しょぼぼん普通オーラ",
-                "_en": "Shobobon normal aura",
-                "_fr": "Aura normale du Shobobon"
+                "_jp": "月光やまたのおろち",
+                "_en": "Gekko Yamata no Orochi",
+                "_fr": "Gekko Yamata no Orochi"
             },
-            "pouvoir": "0",
+            "pouvoir": "15×10",
             "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
+                "_jp": "月の力を宿したオーラで 作り出した 龍のマフラーに 敵全員を かみつかせまくる",
+                "_en": "A dragon scarf created with an aura imbued with the power of the moon will bite all enemies.",
+                "_fr": "Une écharpe de dragon créée avec une aura imprégnée du pouvoir de la lune mordra tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "フツーにする",
-                "_en": "make it normal",
-                "_fr": "rends-le normal"
+                "_jp": "龍にお団子をあげる",
+                "_en": "Give the dragon a dumpling",
+                "_fr": "Donnez une boulette au dragon"
             },
             "explication": {
-                "_jp": "【全ステダウン】 とりつかれた妖怪は全てがフツーになり全ステータスが小ダウンする。",
-                "_en": "[All status down] All of the possessed monsters become normal and all statuses are reduced by a small amount.",
-                "_fr": "[Tous les statuts baissés] Tous les monstres possédés deviennent normaux et tous les statuts sont légèrement réduits."
+                "_jp": "【おさぼり】 龍のマフラーにお団子を与え なかなか行動しなくなる",
+                "_en": "[Osabori] Give a dumpling to the dragon's muffler and it will not move easily.",
+                "_fr": "[Osabori] Donnez une boulette au silencieux du dragon et elle ne bougera pas facilement."
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "ごく普通の少年 天野景太は ごく普通に 死んでしまい ごく普通の妖怪となった！ とりついた相手を『フツウ』に してしまう 恐ろしい妖怪だ！",
-            "_en": "Keita Amano, an ordinary boy, died in an ordinary manner and became an ordinary monster! It's a terrifying monster that turns anyone it possesses into a normal person!",
-            "_fr": "Keita Amano, un garçon ordinaire, est mort d'une manière ordinaire et est devenu un monstre ordinaire ! C'est un monstre terrifiant qui transforme toute personne qu'il possède en une personne normale !"
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1123",
+    "ID": "1121"
 }

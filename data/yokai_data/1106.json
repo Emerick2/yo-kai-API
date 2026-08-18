@@ -1,50 +1,50 @@
 {
-    "Nom": "Festival Enraenra",
-    "nom_original": "お祭りえんらえんら",
-    "Tribue": "Fushigi",
-    "Rang": "A",
+    "Nom": "Kodomonohi Komasan",
+    "Tribue": "Mignon",
+    "Rang": "S",
+    "nom_original": "こどもの日ジバニャン",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
     "Description": "",
-    "nourriture": "Dashi",
-    "nourriture_favorite": "Dashi",
+    "nourriture": "Chocobo",
+    "nourriture_favorite": "Chocobo",
     "élément": "",
     "Rôle": "attaquant",
-    "rang_yww": "A",
-    "tribue_yww": "Fushigi",
+    "rang_yww": "S",
+    "tribue_yww": "Pritchie",
     "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Dashi",
+    "plat_préféré_yww": "Chocobo",
     "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zuno, (Attaque sur les alliés) Coopératif, type Kenshin"
+        "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
     },
     "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
     },
     "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
     },
     "stats_initiale_yww": {
-        "hp": 38,
-        "str": 5,
-        "spr": 36,
-        "def": 14,
-        "spd": 34
+        "hp": 55,
+        "str": 32,
+        "spr": 10,
+        "def": 18,
+        "spd": 30
     },
     "stats_max_yww": {},
     "moyens_obtention_yww": [
         {
-            "_jp": "お祭りコイン",
-            "_en": "festival coins",
-            "_fr": "pièces de monnaie du festival"
+            "_jp": "GW妖怪バトルリーグガシャ",
+            "_en": "GW Yokai Battle League Gasha",
+            "_fr": "GW Yokai Battle League Gasha"
         }
     ],
     "attaque_magie_yww": [
@@ -55,14 +55,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "はりたおす",
-                "_en": "Haritaosu",
-                "_fr": "Haritaosu"
+                "_jp": "ぶったたく",
+                "_en": "hit",
+                "_fr": "frapper"
             },
             "explication": {
-                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 25×2/Blow] Attack twice",
-                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
+                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
+                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -72,45 +72,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "嵐の術",
-                "_en": "Arashi no Jutsu",
-                "_fr": "Arashi no Jutsu"
+                "_jp": "火炎の術",
+                "_en": "flame technique",
+                "_fr": "technique de la flamme"
             },
             "explication": {
-                "_jp": "【威力:70 / 風属性】 強力な風の妖術を使う。",
-                "_en": "[Power: 70 / Wind attribute] Uses powerful wind magic.",
-                "_fr": "[Puissance : 70 / Attribut Vent] Utilise une puissante magie du vent."
+                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
+                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
+                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "おはだけトルネード",
-                "_en": "Ohahake Tornado",
-                "_fr": "Tornade Ohahake"
+                "_jp": "ひゃくれつ武将肉球",
+                "_en": "Hyakuretsu Busho Paws",
+                "_fr": "Pattes Hyakuretsu Busho"
             },
-            "pouvoir": "175",
+            "pouvoir": "15×5",
             "explication": {
-                "_jp": "浴衣がめくれるような強力な竜巻を呼び寄せ敵全体にダメージを与える。",
-                "_en": "Summons a powerful tornado that can rip off a yukata, damaging all enemies.",
-                "_fr": "Invoque une puissante tornade qui peut arracher un yukata, endommageant tous les ennemis."
+                "_jp": "大群を率いる 武将のごとく 勇ましい肉球で 敵全員を なぐりまくる",
+                "_en": "Like a military commander leading a horde, he attacks all the enemies with his brave paws.",
+                "_fr": "Tel un commandant militaire menant une horde, il attaque tous les ennemis avec ses courageuses pattes."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "うわさのけむり",
-                "_en": "rumored smoke",
-                "_fr": "rumeur de fumée"
+                "_jp": "軍配うちわを振る",
+                "_en": "wave a military fan",
+                "_fr": "agiter un éventail militaire"
             },
             "explication": {
-                "_jp": "【ようりょくアップ】 うわさのけむりに包まれてようりょくがアップ",
-                "_en": "[Yoryoku up] Yoryoku closes up surrounded by rumored smoke",
-                "_fr": "[Yoryoku up] Yoryoku se referme entouré de rumeurs de fumée"
+                "_jp": "【ちからアップ】 軍配うちわを振って士気が高まり ちからがアップ",
+                "_en": "[Power up] Waving the military fan increases morale and increases power",
+                "_fr": "[Power up] Agiter l'éventail militaire augmente le moral et augmente la puissance"
             }
         }
     ],
-    "explication_yww": []
+    "explication_yww": [],
+    "oldID": "1210",
+    "ID": "1208"
 }

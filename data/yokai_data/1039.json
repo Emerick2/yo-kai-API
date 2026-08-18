@@ -1,8 +1,8 @@
 {
-    "Nom": "Tofu des États-Unis",
-    "nom_original": "USA豆腐",
-    "Tribue": "Usurakage",
-    "Rang": "A",
+    "Nom": "Sei Fubuki-hime",
+    "Tribue": "Mignon",
+    "Rang": "S",
+    "nom_original": "しち面鳥",
     "PV": "",
     "Force": "",
     "Esprit": "",
@@ -10,35 +10,41 @@
     "Vitesse": "",
     "Description": [
         {
-            "_jp": "スシジバ 天コマときて いよいよ自分の番が回ってきた ＵＳＡピョンが スキヤキ鍋を かぶろうとしたが熱いし重い！ 焼き豆腐なんて いかがダニ？",
-            "_en": "スシジバ 天コマときて いよいよ自分の番が回ってきた ＵＳＡピョンが スキヤキ鍋を かぶろうとしたが熱いし重い！ 焼き豆腐なんて いかがダニ？",
-            "_fr": "スシジバ 天コマときて いよいよ自分の番が回ってきた ＵＳＡピョンが スキヤキ鍋を かぶろうとしたが熱いし重い！ 焼き豆腐なんて いかがダニ？"
+            "_jp": "極度のめんどくさがりで 「七面倒くさ…」が口癖の妖怪。 動いたり 頭を使うことすら わずらわしいと感じた結果 しち面鳥は 考えるのをやめた。",
+            "_en": "A monster who is extremely troublesome and whose favorite phrase is ``7 troublesome things...''. As a result of finding moving and even using his brain a nuisance, Shichimendori stopped thinking.",
+            "_fr": "Un monstre extrêmement gênant et dont la phrase préférée est \"7 choses gênantes...\". Ayant trouvé que bouger et même utiliser son cerveau était une nuisance, Shichimendori a arrêté de penser."
         }
     ],
-    "nourriture": "Sukiyaki",
-    "nourriture_favorite": "Sukiyaki",
+    "nourriture": "fruit de mer",
+    "nourriture_favorite": "fruit de mer",
     "élément": "",
     "Rôle": "attaquant",
-    "rang_yww": "A",
-    "tribue_yww": "Usurakage",
+    "rang_yww": "D",
+    "tribue_yww": "Fushigi",
     "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Sukiyaki",
+    "plat_préféré_yww": "fruit de mer",
     "attitude_spécifique_yww": {
-        "_jp": "編集中です。",
-        "_en": "Editing in progress.",
-        "_fr": "Montage en cours."
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
         "_jp": "火属性",
         "_en": "fire attribute",
         "_fr": "attribut de feu"
     },
-    "stats_initiale_yww": {},
+    "avantage_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "stats_initiale_yww": {
+        "hp": 39,
+        "str": 5,
+        "spr": 34,
+        "def": 11,
+        "spd": 17
+    },
     "stats_max_yww": {},
     "moyens_obtention_yww": [],
     "attaque_magie_yww": [
@@ -49,14 +55,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "こづく",
+                "_en": "poked you",
+                "_fr": "vous a Poké"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -66,51 +72,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "氷結の術",
+                "_en": "Freezing technique",
+                "_fr": "Technique de congélation"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:50 / 氷属性】 強力な氷の妖術を使う。",
+                "_en": "[Power: 50 / Ice attribute] Uses powerful ice magic.",
+                "_fr": "[Puissance : 50 / Attribut Glace] Utilise une puissante magie de glace."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "豆乳ＵＳＡビーム",
-                "_en": "Soymilk USA Beam",
-                "_fr": "Faisceau de lait de soja USA"
+                "_jp": "無気力ビンタ",
+                "_en": "Lethargic slap",
+                "_fr": "Gifle léthargique"
             },
-            "pouvoir": "28×5",
+            "pouvoir": "67",
             "explication": {
-                "_jp": "正面の敵に強力な極太ビームを発射しダメージを与える。",
-                "_en": "Fires a powerful thick beam at the enemy in front of you, dealing damage.",
-                "_fr": "Tire un puissant faisceau épais sur l'ennemi devant vous, lui infligeant des dégâts."
+                "_jp": "体は動かさず 首だけど びよ～んと伸ばして 正面の敵をビンタする",
+                "_en": "Without moving your body, just stretch your neck and slap the enemy in front of you.",
+                "_fr": "Sans bouger votre corps, étirez simplement votre cou et giflez l'ennemi devant vous."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "豆腐の大豆パワー",
-                "_en": "Soybean power of tofu",
-                "_fr": "Le pouvoir du soja du tofu"
+                "_jp": "めんどいアピール",
+                "_en": "Troublesome appeal",
+                "_fr": "Appel gênant"
             },
             "explication": {
-                "_jp": "【全ステアップ】 とりつかれた妖怪は豆腐に含まれるたんぱく質で 全ステータスが小アップする。",
-                "_en": "【全ステアップ】 とりつかれた妖怪は豆腐に含まれるたんぱく質で 全ステータスが小アップする。",
-                "_fr": "【全ステアップ】 とりつかれた妖怪は豆腐に含まれるたんぱく質で 全ステータスが小アップする。"
+                "_jp": "【おさぼり】 面倒くささをアピールして たまに行動しなくなる",
+                "_en": "[Lazy] I sometimes stop acting by showing off how troublesome I am.",
+                "_fr": "[Paresseux] J'arrête parfois d'agir en montrant à quel point je suis gênant."
             }
         }
     ],
     "explication_yww": [
         {
-            "_jp": "スシジバ 天コマときて いよいよ自分の番が回ってきた ＵＳＡピョンが スキヤキ鍋を かぶろうとしたが熱いし重い！ 焼き豆腐なんて いかがダニ？",
-            "_en": "スシジバ 天コマときて いよいよ自分の番が回ってきた ＵＳＡピョンが スキヤキ鍋を かぶろうとしたが熱いし重い！ 焼き豆腐なんて いかがダニ？",
-            "_fr": "スシジバ 天コマときて いよいよ自分の番が回ってきた ＵＳＡピョンが スキヤキ鍋を かぶろうとしたが熱いし重い！ 焼き豆腐なんて いかがダニ？"
+            "_jp": "極度のめんどくさがりで 「七面倒くさ…」が口癖の妖怪。 動いたり 頭を使うことすら わずらわしいと感じた結果 しち面鳥は 考えるのをやめた。",
+            "_en": "A monster who is extremely troublesome and whose favorite phrase is ``7 troublesome things...''. As a result of finding moving and even using his brain a nuisance, Shichimendori stopped thinking.",
+            "_fr": "Un monstre extrêmement gênant et dont la phrase préférée est \"7 choses gênantes...\". Ayant trouvé que bouger et même utiliser son cerveau était une nuisance, Shichimendori a arrêté de penser."
         }
-    ]
+    ],
+    "oldID": "1153",
+    "ID": "1151"
 }

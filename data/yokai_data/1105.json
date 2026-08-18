@@ -1,50 +1,56 @@
 {
-    "Nom": "festival de rabii",
-    "nom_original": "お祭りラビィ",
-    "Tribue": "Fushigi",
+    "Nom": "Kodomonohi Jibanyan",
+    "Tribue": "Mignon",
     "Rang": "S",
+    "nom_original": "さくらシェル",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": "",
-    "nourriture": "crème douce",
-    "nourriture_favorite": "crème douce",
+    "Description": [
+        {
+            "_jp": "春になって はらわシェルが さくらもちに なりきった姿。 体からいい香りを出し 人々に さくらもちを 買わせまくる。 ただし お花見シーズン限定。",
+            "_en": "In spring, the belly shell transforms into cherry blossom mochi. It emits a pleasant scent from its body and attracts people to buy Sakuramochi. However, it is limited to the cherry blossom viewing season.",
+            "_fr": "Au printemps, la coquille du ventre se transforme en mochi aux fleurs de cerisier. Il dégage un parfum agréable de son corps et incite les gens à acheter du Sakuramochi. Cependant, il est limité à la saison d'observation des fleurs de cerisier."
+        }
+    ],
+    "nourriture": "",
+    "nourriture_favorite": "",
     "élément": "",
-    "Rôle": "attaquant",
-    "rang_yww": "S",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "crème douce",
+    "Rôle": "ranger",
+    "rang_yww": "B",
+    "tribue_yww": "Nyororon",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": null,
     "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zuno, (Attaque sur les alliés) Coopératif, type Kenshin"
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
     },
     "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
     },
     "stats_initiale_yww": {
-        "hp": 61,
-        "str": 4,
-        "spr": 41,
-        "def": 19,
-        "spd": 29
+        "hp": 53,
+        "str": 17,
+        "spr": 9,
+        "def": 20,
+        "spd": 15
     },
     "stats_max_yww": {},
     "moyens_obtention_yww": [
         {
-            "_jp": "お祭りコイン",
-            "_en": "festival coins",
-            "_fr": "pièces de monnaie du festival"
+            "_jp": "2019GWイベントで入手",
+            "_en": "Obtained at 2019GW event",
+            "_fr": "Obtenu lors de l'événement 2019GW"
         }
     ],
     "attaque_magie_yww": [
@@ -55,14 +61,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "カード",
-                "_en": "card",
-                "_fr": "carte"
+                "_jp": "くらいつく",
+                "_en": "Approximately",
+                "_fr": "Environ"
             },
             "explication": {
-                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
-                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
+                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+                "_en": "[Power: 50/Blow] Deal a big blow",
+                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
             }
         },
         {
@@ -72,45 +78,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "吹雪の術",
-                "_en": "Fubuki no Jutsu",
-                "_fr": "Fubuki no Jutsu"
+                "_jp": "落石の術",
+                "_en": "falling rock jutsu",
+                "_fr": "jutsu qui tombe des pierres"
             },
             "explication": {
-                "_jp": "【威力:70 / 氷属性】 強力な氷の妖術を使う。",
-                "_en": "[Power: 70 / Ice attribute] Uses powerful ice magic.",
-                "_fr": "[Puissance : 70 / Attribut Glace] Utilise une puissante magie de glace."
+                "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
+                "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
+                "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "夏の恋物語",
-                "_en": "summer love story",
-                "_fr": "histoire d'amour d'été"
+                "_jp": "春のさくらもち散財",
+                "_en": "Spring Sakura Mochi Splurge",
+                "_fr": "Folie printanière Sakura Mochi"
             },
-            "pouvoir": "148",
+            "pouvoir": "0",
             "explication": {
-                "_jp": "サマーラブストーリーを描いたカードを投げて左右の敵にダメージを与える。",
-                "_en": "Throw a card depicting a summer love story to damage the enemies on the left and right.",
-                "_fr": "Lancez une carte représentant une histoire d'amour estivale pour endommager les ennemis à gauche et à droite."
+                "_jp": "大量のさくらもちを食べるために 散財させて 敵全員がなかなか行動しなくなる",
+                "_en": "If you make them waste their money in order to eat a large amount of Sakuramochi, all the enemies will become slow to act.",
+                "_fr": "Si vous leur faites gaspiller leur argent pour manger une grande quantité de Sakuramochi, tous les ennemis tarderont à agir."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "祭りを心待ちにさせる",
-                "_en": "make you look forward to the festival",
-                "_fr": "vous donne hâte d'être au festival"
+                "_jp": "さくらもち太り",
+                "_en": "Sakura mochi fat",
+                "_fr": "Graisse de mochi Sakura"
             },
             "explication": {
-                "_jp": "【すばやさアップ】 祭り当日を待ちきれずすばやさがアップ",
-                "_en": "[Increased speed] Improved speed because you can't wait for the day of the festival",
-                "_fr": "[Vitesse augmentée] Vitesse améliorée car vous ne pouvez pas attendre le jour du festival"
+                "_jp": "【おさぼり】 さくらもちで太って たまに行動しなくなる",
+                "_en": "[Slacker] I get fat because of Sakuramochi and sometimes I stop acting.",
+                "_fr": "[Slacker] Je grossis à cause de Sakuramochi et parfois j'arrête de jouer."
             }
         }
     ],
-    "explication_yww": []
+    "explication_yww": [
+        {
+            "_jp": "春になって はらわシェルが さくらもちに なりきった姿。 体からいい香りを出し 人々に さくらもちを 買わせまくる。 ただし お花見シーズン限定。",
+            "_en": "In spring, the belly shell transforms into cherry blossom mochi. It emits a pleasant scent from its body and attracts people to buy Sakuramochi. However, it is limited to the cherry blossom viewing season.",
+            "_fr": "Au printemps, la coquille du ventre se transforme en mochi aux fleurs de cerisier. Il dégage un parfum agréable de son corps et incite les gens à acheter du Sakuramochi. Cependant, il est limité à la saison d'observation des fleurs de cerisier."
+        }
+    ],
+    "oldID": "1212",
+    "ID": "1210"
 }

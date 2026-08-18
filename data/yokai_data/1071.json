@@ -1,40 +1,46 @@
 {
-    "Nom": "Cindy J.",
-    "nom_original": "シンディ・J",
-    "Tribue": "Nyororon",
-    "Rang": "S",
+    "Nom": "USAchoco",
+    "Tribue": "Sombre",
+    "Rang": "A",
+    "nom_original": "呪野チョ子",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
     "Description": "",
-    "nourriture": "–",
-    "nourriture_favorite": "–",
+    "nourriture": "",
+    "nourriture_favorite": "",
     "élément": "",
-    "Rôle": "ヒーラー",
+    "Rôle": "ranger",
     "rang_yww": "S",
-    "tribue_yww": "Nyororon",
-    "rôle_yww": "ヒーラー",
-    "plat_préféré_yww": "–",
+    "tribue_yww": "Bukimi",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": null,
     "attitude_spécifique_yww": {
         "_jp": "編集中です。",
         "_en": "Editing in progress.",
         "_fr": "Montage en cours."
     },
     "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "雷属性",
-        "_fr": "雷属性"
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
     },
     "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
     },
     "stats_initiale_yww": {},
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "チョコっとバレンタイン妖怪ガシャ",
+            "_en": "Chocolate Valentine Yokai Gasha",
+            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -43,62 +49,64 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "はりたおす",
+                "_en": "Haritaosu",
+                "_fr": "Haritaosu"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+                "_en": "[Power: 25×2/Blow] Attack twice",
+                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
             }
         },
         {
             "type": {
                 "_jp": "ようじゅつ",
-                "_en": "ようじゅつ",
-                "_fr": "ようじゅつ"
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "死神の術",
+                "_en": "Shinigami no Jutsu",
+                "_fr": "Shinigami no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "【威力:- / –】 –",
-                "_fr": "【威力:- / –】 –"
+                "_jp": "【威力:55 / 吸収】 敵のHPを大きく吸い取る。",
+                "_en": "[Power: 55 / Absorption] Absorbs a large amount of enemy's HP.",
+                "_fr": "[Puissance : 55 / Absorption] Absorbe une grande quantité de HP de l'ennemi."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "ジョーズにダンシング",
-                "_en": "ジョーズにダンシング",
-                "_fr": "ジョーズにダンシング"
+                "_jp": "失恋チョコの呪い",
+                "_en": "Curse of broken heart chocolate",
+                "_fr": "Malédiction du chocolat au cœur brisé"
             },
-            "pouvoir": "0",
+            "pouvoir": "111",
             "explication": {
-                "_jp": "味方のHPを一定時間回復 味方の攻撃力をアップ。",
-                "_en": "Recovers ally's HP for a certain period of time Increases ally's attack power.",
-                "_fr": "Récupère les PV de l'allié pendant un certain temps. Augmente la puissance d'attaque de l'allié."
+                "_jp": "呪いのエナジーを敵全員に放出し 当たった妖怪は失恋した気になり HPがだんだん減っていく",
+                "_en": "Releases cursed energy to all enemies, making the hit monsters feel like they've lost their love, and their HP gradually decreases.",
+                "_fr": "Libère de l'énergie maudite sur tous les ennemis, donnant aux monstres touchés l'impression qu'ils ont perdu leur amour et leurs PV diminuent progressivement."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "恋する乙女の呪い",
+                "_en": "The curse of a maiden in love",
+                "_fr": "La malédiction d'une jeune fille amoureuse"
             },
             "explication": {
-                "_jp": "【–】 –",
-                "_en": "【–】 –",
-                "_fr": "【–】 –"
+                "_jp": "【おさぼり】 恋に夢中になる呪いで なかなか行動しなくなる",
+                "_en": "[Osabori] Due to the curse of falling in love with love, it becomes difficult to act.",
+                "_fr": "[Osabori] En raison de la malédiction de tomber amoureux de l'amour, il devient difficile d'agir."
             }
         }
     ],
-    "explication_yww": []
+    "explication_yww": [],
+    "oldID": "1176",
+    "ID": "1174"
 }

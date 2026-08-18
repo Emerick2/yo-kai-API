@@ -1,32 +1,26 @@
 {
-    "Nom": "Enraenra/Kai",
-    "nom_original": "えんらえんら・怪",
-    "Tribue": "Kaima",
+    "Nom": "Ko Akuma Komajiro",
+    "Tribue": "Mignon",
     "Rang": "A",
+    "nom_original": "紅葉姫",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "えんらえんらが怪魔化した姿。 煙は 強力な毒になっていて 吸い込んでしまった人を おなかが筋肉痛になるくらい ずっと咳きこませる。",
-            "_en": "The appearance of Enraenra turned into a monster. The smoke is a powerful poison that causes people who breathe it in to cough for a long time until their stomach muscles ache.",
-            "_fr": "L'apparition d'Enraenra s'est transformée en monstre. La fumée est un poison puissant qui fait tousser longuement les personnes qui la respirent jusqu'à ce que leurs muscles abdominaux soient douloureux."
-        }
-    ],
-    "nourriture": "bonbons",
-    "nourriture_favorite": "bonbons",
+    "Description": "",
+    "nourriture": "Dashi",
+    "nourriture_favorite": "Dashi",
     "élément": "",
-    "Rôle": "attaquant",
-    "rang_yww": "A",
-    "tribue_yww": "Kaima",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "bonbons",
+    "Rôle": "guérisseur",
+    "rang_yww": "S",
+    "tribue_yww": "Pritchie",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "Dashi",
     "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+        "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
+        "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
     },
     "faiblesse_yww": {
         "_jp": "氷属性",
@@ -39,19 +33,13 @@
         "_fr": "attribut du vent"
     },
     "stats_initiale_yww": {
-        "hp": 66,
-        "str": 3,
-        "spr": 35,
-        "def": 12,
-        "spd": 32
+        "hp": 51,
+        "str": 35,
+        "spr": 22,
+        "def": 10,
+        "spd": 28
     },
-    "stats_max_yww": {
-        "hp": 431,
-        "str": 52,
-        "spr": 244,
-        "def": 94,
-        "spd": 225
-    },
+    "stats_max_yww": {},
     "moyens_obtention_yww": [],
     "attaque_magie_yww": [
         {
@@ -92,37 +80,33 @@
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "めくれるトルネード",
-                "_en": "Turning Tornado",
-                "_fr": "Tourner la tornade"
+                "_jp": "もじもじ紅葉シャイン",
+                "_en": "Mojimoji autumn leaves shine",
+                "_fr": "Les feuilles d'automne Mojimoji brillent"
             },
-            "pouvoir": "175",
+            "pouvoir": "60",
             "explication": {
-                "_jp": "服がめくれるような強力な竜巻を呼び寄せ敵全体にダメージを与える。",
-                "_en": "Summons a powerful tornado that can rip clothes off, damaging all enemies.",
-                "_fr": "Invoque une puissante tornade qui peut arracher les vêtements, endommageant tous les ennemis."
+                "_jp": "紅葉のビームで 正面の敵にダメージを与えつつ 味方全員のHPを回復する",
+                "_en": "Use a beam of autumn leaves to damage enemies in front of you while restoring the HP of all allies.",
+                "_fr": "Utilisez un rayon de feuilles d'automne pour endommager les ennemis devant vous tout en restaurant les PV de tous les alliés."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "いやなけむり",
-                "_en": "unpleasant smoke",
-                "_fr": "fumée désagréable"
+                "_jp": "求婚ラッシュにあう",
+                "_en": "faced with a rush of marriage proposals",
+                "_fr": "face à une ruée de demandes en mariage"
             },
             "explication": {
-                "_jp": "【HP減少】 とりつかれた妖怪はいやなけむりを吸ってしまいHPが少しずつ減ってしまう。",
-                "_en": "[HP Decrease] A possessed youkai will absorb unpleasant smoke and its HP will gradually decrease.",
-                "_fr": "[Diminution des PV] Un youkai possédé absorbera une fumée désagréable et ses PV diminueront progressivement."
+                "_jp": "【混乱】 求婚されすぎて混乱し 味方をたまに攻撃する",
+                "_en": "[Confusion] Gets confused because of too many marriage proposals and sometimes attacks allies.",
+                "_fr": "[Confusion] Se perd à cause d'un trop grand nombre de demandes en mariage et attaque parfois ses alliés."
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "えんらえんらが怪魔化した姿。 煙は 強力な毒になっていて 吸い込んでしまった人を おなかが筋肉痛になるくらい ずっと咳きこませる。",
-            "_en": "The appearance of Enraenra turned into a monster. The smoke is a powerful poison that causes people who breathe it in to cough for a long time until their stomach muscles ache.",
-            "_fr": "L'apparition d'Enraenra s'est transformée en monstre. La fumée est un poison puissant qui fait tousser longuement les personnes qui la respirent jusqu'à ce que leurs muscles abdominaux soient douloureux."
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1134",
+    "ID": "1132"
 }

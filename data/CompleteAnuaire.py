@@ -2,7 +2,13 @@ import json
 import os
 from pathlib import Path
 
-from DEV.trieParRang import La_MainTrieCategorie
+try:
+    from .DEV.trieParRang import La_MainTrieCategorie
+except ImportError:
+    try:
+        from data.DEV.trieParRang import La_MainTrieCategorie
+    except ImportError:  # pragma: no cover - fallback for direct execution
+        from DEV.trieParRang import La_MainTrieCategorie
 
 BASE_DIR = Path(__file__).resolve().parent
 

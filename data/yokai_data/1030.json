@@ -1,8 +1,8 @@
 {
-    "Nom": "Ningyo/Monstre",
-    "nom_original": "にんぎょ・怪",
-    "Tribue": "Kaima",
-    "Rang": "B",
+    "Nom": "Vampire Kyubi",
+    "Tribue": "Mystérieux",
+    "Rang": "S",
+    "nom_original": "ハロウィス",
     "PV": "",
     "Force": "",
     "Esprit": "",
@@ -10,49 +10,49 @@
     "Vitesse": "",
     "Description": [
         {
-            "_jp": "にんぎょが怪魔化した姿。 近づいてきた船を 美しい歌で 嵐の中にさそい 遭難させたり 沈没させて遊んでいる。",
-            "_en": "The appearance of Ningyo turned into a monster. They have fun by luring approaching ships into the storm with beautiful songs, causing them to be lost or sunk.",
-            "_fr": "L'apparence de Ningyo s'est transformée en monstre. Ils s'amusent en attirant les navires qui s'approchent dans la tempête avec de belles chansons, ce qui les fait perdre ou couler."
+            "_jp": "平凡でありきたりなオバケの ウィスパーがハロウィン衣装で ちょっぴりホラーに大変身！！ でも 手にした鎌はゴム製で 野菜を切ることもできないぞ。",
+            "_en": "Whisper, an ordinary ghost, transforms into a slightly horror costume with a Halloween costume! ! But the sickle in his hand is made of rubber, so he can't even cut vegetables.",
+            "_fr": "Whisper, un fantôme ordinaire, se transforme en costume légèrement horreur avec un costume d'Halloween ! ! Mais la faucille dans sa main est en caoutchouc, donc il ne peut même pas couper de légumes."
         }
     ],
-    "nourriture": "bonbons",
-    "nourriture_favorite": "bonbons",
+    "nourriture": "",
+    "nourriture_favorite": "",
     "élément": "",
     "Rôle": "attaquant",
-    "rang_yww": "B",
-    "tribue_yww": "Kaima",
+    "rang_yww": "A",
+    "tribue_yww": "Nyororon",
     "rôle_yww": "attaquant",
-    "plat_préféré_yww": "bonbons",
+    "plat_préféré_yww": null,
     "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "avantage_yww": {
         "_jp": "雷属性",
         "_en": "Lightning attribute",
         "_fr": "Attribut de foudre"
     },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
     "stats_initiale_yww": {
-        "hp": 55,
-        "str": 11,
-        "spr": 34,
-        "def": 3,
-        "spd": 20
+        "hp": 32,
+        "str": 12,
+        "spr": 12,
+        "def": 7,
+        "spd": 18
     },
-    "stats_max_yww": {
-        "hp": 441,
-        "str": 71,
-        "spr": 243,
-        "def": 51,
-        "spd": 171
-    },
-    "moyens_obtention_yww": [],
+    "stats_max_yww": {},
+    "moyens_obtention_yww": [
+        {
+            "_jp": "ハロウィンコイン",
+            "_en": "halloween coin",
+            "_fr": "pièce de monnaie d'Halloween"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -61,14 +61,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "しっぽうち",
-                "_en": "Shippouchi",
-                "_fr": "Shippouchi"
+                "_jp": "きりつける",
+                "_en": "punish",
+                "_fr": "punir"
             },
             "explication": {
-                "_jp": "【威力:50 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 50/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 50/Coup] Inflige des dégâts à un ennemi."
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -78,51 +78,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "水流の術",
-                "_en": "Water flow technique",
-                "_fr": "Technique d'écoulement de l'eau"
+                "_jp": "吸収の術",
+                "_en": "absorption technique",
+                "_fr": "technique d'absorption"
             },
             "explication": {
-                "_jp": "【威力:50 / 水属性】 強力な水の妖術を使う。",
-                "_en": "[Power: 50 / Water attribute] Uses powerful water magic.",
-                "_fr": "[Puissance : 50 / Attribut Eau] Utilise une puissante magie de l'eau."
+                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "渚のハイカラウェーブ",
-                "_en": "Nagisa's high color wave",
-                "_fr": "La vague haute couleur de Nagisa"
+                "_jp": "魂を刈る死のゴム鎌",
+                "_en": "The rubber sickle of death that reaps souls",
+                "_fr": "La faucille en caoutchouc de la mort qui fauche les âmes"
             },
-            "pouvoir": "73",
+            "pouvoir": "140",
             "explication": {
-                "_jp": "渚に打ち付ける波を呼び出し敵全体におみまいする。",
-                "_en": "Summons a wave that hits the shore and hits all enemies.",
-                "_fr": "Invoque une vague qui frappe le rivage et frappe tous les ennemis."
+                "_jp": "死神の鎌(ゴム製)を 静かに振り下ろし 正面の敵をこうげきする",
+                "_en": "Silently swings down the grim reaper's sickle (made of rubber) and attacks the enemy in front of it.",
+                "_fr": "Abaisse silencieusement la faucille de la faucheuse (en caoutchouc) et attaque l'ennemi devant elle."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "くさらせる",
-                "_en": "make you stink",
-                "_fr": "te fait puer"
+                "_jp": "くっせぇ～息",
+                "_en": "Damn it, breathe",
+                "_fr": "Bon sang, respire"
             },
             "explication": {
-                "_jp": "【HP減少】 とりつかれた妖怪は体がだんだんとくさってしまいHPが少しずつ減ってしまう。",
-                "_en": "[HP Decrease] A possessed youkai's body gradually deteriorates and its HP decreases little by little.",
-                "_fr": "[Diminution des PV] Le corps d'un yôkai possédé se détériore progressivement et ses PV diminuent petit à petit."
+                "_jp": "【すばやさダウン】 自分のくっせぇ～息が逆流して すばやさが大ダウン",
+                "_en": "[Swidth down] My breath is flowing backwards, and my speed is down a lot",
+                "_fr": "[Swidth down] Ma respiration coule à rebours et ma vitesse diminue beaucoup"
             }
         }
     ],
     "explication_yww": [
         {
-            "_jp": "にんぎょが怪魔化した姿。 近づいてきた船を 美しい歌で 嵐の中にさそい 遭難させたり 沈没させて遊んでいる。",
-            "_en": "The appearance of Ningyo turned into a monster. They have fun by luring approaching ships into the storm with beautiful songs, causing them to be lost or sunk.",
-            "_fr": "L'apparence de Ningyo s'est transformée en monstre. Ils s'amusent en attirant les navires qui s'approchent dans la tempête avec de belles chansons, ce qui les fait perdre ou couler."
+            "_jp": "平凡でありきたりなオバケの ウィスパーがハロウィン衣装で ちょっぴりホラーに大変身！！ でも 手にした鎌はゴム製で 野菜を切ることもできないぞ。",
+            "_en": "Whisper, an ordinary ghost, transforms into a slightly horror costume with a Halloween costume! ! But the sickle in his hand is made of rubber, so he can't even cut vegetables.",
+            "_fr": "Whisper, un fantôme ordinaire, se transforme en costume légèrement horreur avec un costume d'Halloween ! ! Mais la faucille dans sa main est en caoutchouc, donc il ne peut même pas couper de légumes."
         }
-    ]
+    ],
+    "oldID": "1143",
+    "ID": "1141"
 }

@@ -1,40 +1,46 @@
 {
-    "Nom": "mademoiselle",
-    "nom_original": "マドモアイゼル",
-    "Tribue": "Fushigi",
+    "Nom": "Haregi Komajiro",
+    "Tribue": "Mignon",
     "Rang": "S",
+    "nom_original": "晴れ着コマさん",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
     "Description": "",
-    "nourriture": "",
-    "nourriture_favorite": "",
+    "nourriture": "lait",
+    "nourriture_favorite": "lait",
     "élément": "",
-    "Rôle": "guérisseur",
+    "Rôle": "attaquant",
     "rang_yww": "S",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": null,
+    "tribue_yww": "Pritchie",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "lait",
     "attitude_spécifique_yww": {
         "_jp": "編集中です。",
         "_en": "Editing in progress.",
         "_fr": "Montage en cours."
     },
     "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
     },
     "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
     },
     "stats_initiale_yww": {},
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+            "_en": "First half of Yokai Gasha",
+            "_fr": "Première moitié de Yokai Gasha"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -43,14 +49,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "ぶんなぐる",
+                "_en": "wallop",
+                "_fr": "coup"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+                "_en": "[Power: 50/Blow] Deal a big blow",
+                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
             }
         },
         {
@@ -60,45 +66,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "れんごくの術",
+                "_en": "Rengoku no Jutsu",
+                "_fr": "Rengoku no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:70 / 火属性】 強力な火の妖術を使う。",
+                "_en": "[Power: 70 / Fire attribute] Uses powerful fire magic.",
+                "_fr": "[Puissance : 70 / Attribut Feu] Utilise une puissante magie du feu."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "キラメキデコレート",
-                "_en": "キラメキデコレート",
-                "_fr": "キラメキデコレート"
+                "_jp": "新年おみくじ乱舞",
+                "_en": "New year fortune dance",
+                "_fr": "Danse de fortune du nouvel an"
             },
-            "pouvoir": "0",
+            "pouvoir": "262",
             "explication": {
-                "_jp": "範囲内の敵に大ダメージ。範囲内の味方のHPを回復する。",
-                "_en": "Great damage to enemies within range. Recovers HP of allies within range.",
-                "_fr": "Gros dégâts aux ennemis à portée. Récupère les PV des alliés à portée."
+                "_jp": "大量の おみくじヒトダマを 飛び交わせ 敵全員に ダメージを与える",
+                "_en": "Fly a large amount of Fortune Hitodama around and deal damage to all enemies.",
+                "_fr": "Faites voler une grande quantité de Fortune Hitodama et infligez des dégâts à tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "くるくるコマまわし",
+                "_en": "spinning tops",
+                "_fr": "toupies"
             },
             "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
+                "_jp": "【ようりょくアップ】 コマまわしが成功して ようりょくがアップ",
+                "_en": "[Yoryoku up] If the spinning top is successful, the yoryo will be improved.",
+                "_fr": "[Yoryoku up] Si la toupie réussit, le yoryo sera amélioré."
             }
         }
     ],
-    "explication_yww": []
+    "explication_yww": [],
+    "oldID": "1163",
+    "ID": "1161"
 }

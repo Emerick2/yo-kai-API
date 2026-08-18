@@ -1,40 +1,52 @@
 {
-    "Nom": "Zombies CG",
-    "nom_original": "ゾン・ビー・CG",
-    "Tribue": "Bukimi",
-    "Rang": "S",
+    "Nom": "Marshmallow Samurai",
+    "Tribue": "Vaillant",
+    "Rang": "A",
+    "nom_original": "シュンミン",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": "",
-    "nourriture": "viande",
-    "nourriture_favorite": "viande",
+    "Description": [
+        {
+            "_jp": "桜の香りただよう 春風吹かせ 人々を心地よい夢の世界に誘う。 新たな門出に 胸を弾ませる 人間の夢を コッソリのぞいて もう少しだけ夢見させてあげる。",
+            "_en": "The scent of cherry blossoms blows in the spring breeze, inviting people into a pleasant world of dreams. I secretly peek into the dreams of people who are excited about a new beginning, and let them dream just a little more.",
+            "_fr": "Le parfum des fleurs de cerisier souffle dans la brise printanière, invitant les gens dans un monde de rêves agréable. Je regarde secrètement les rêves des gens qui sont enthousiasmés par un nouveau départ et je les laisse rêver encore un peu."
+        }
+    ],
+    "nourriture": "Dashi",
+    "nourriture_favorite": "Dashi",
     "élément": "",
-    "Rôle": "attaquant",
+    "Rôle": "ranger",
     "rang_yww": "S",
     "tribue_yww": "Bukimi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "viande",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "Dashi",
     "attitude_spécifique_yww": {
         "_jp": "編集中です。",
         "_en": "Editing in progress.",
         "_fr": "Montage en cours."
     },
     "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
         "_jp": "火属性",
         "_en": "fire attribute",
         "_fr": "attribut de feu"
     },
+    "avantage_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
     "stats_initiale_yww": {},
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "春一番妖怪ガシャ",
+            "_en": "Spring Ichiban Yokai Gasha",
+            "_fr": "Printemps Ichiban Yokai Gasha"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -43,14 +55,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "はたく",
+                "_en": "flutter",
+                "_fr": "battement"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -60,45 +72,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": "–",
-                "_fr": "–"
+                "_jp": "吹雪の術",
+                "_en": "Fubuki no Jutsu",
+                "_fr": "Fubuki no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:70 / 氷属性】 強力な氷の妖術を使う。",
+                "_en": "[Power: 70 / Ice attribute] Uses powerful ice magic.",
+                "_fr": "[Puissance : 70 / Attribut Glace] Utilise une puissante magie de glace."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "キレキレチョッパ斬り",
-                "_en": "Sharp Chopper Slash",
-                "_fr": "Tranche tranchante du hachoir"
+                "_jp": "春眠まどろみナイト",
+                "_en": "Spring sleep slumber night",
+                "_fr": "Nuit de sommeil de printemps"
             },
-            "pouvoir": "0",
+            "pouvoir": "–",
             "explication": {
-                "_jp": "連続攻撃を叩き込み 敵に大ダメージを与える",
-                "_en": "Deliver continuous attacks and cause great damage to the enemy",
-                "_fr": "Lancez des attaques continues et causez de gros dégâts à l'ennemi"
+                "_jp": "春の陽気で 相手を包み込み 敵全員の 全ステータスを ダウンさせる",
+                "_en": "Surrounds the opponent with spring cheerfulness and lowers all their stats.",
+                "_fr": "Entoure l’adversaire d’une gaieté printanière et réduit toutes ses statistiques."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "–",
-                "_en": "–",
-                "_fr": "–"
+                "_jp": "春のまどろみ",
+                "_en": "spring slumber",
+                "_fr": "sommeil printanier"
             },
             "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
+                "_jp": "【おさぼり】 春の陽気で眠くなり なかなか行動しなくなる",
+                "_en": "[Lazy] The spring weather makes me sleepy and I don't do much.",
+                "_fr": "[Paresseux] Le temps printanier me rend somnolent et je ne fais pas grand-chose."
             }
         }
     ],
-    "explication_yww": []
+    "explication_yww": [
+        {
+            "_jp": "桜の香りただよう 春風吹かせ 人々を心地よい夢の世界に誘う。 新たな門出に 胸を弾ませる 人間の夢を コッソリのぞいて もう少しだけ夢見させてあげる。",
+            "_en": "The scent of cherry blossoms blows in the spring breeze, inviting people into a pleasant world of dreams. I secretly peek into the dreams of people who are excited about a new beginning, and let them dream just a little more.",
+            "_fr": "Le parfum des fleurs de cerisier souffle dans la brise printanière, invitant les gens dans un monde de rêves agréable. Je regarde secrètement les rêves des gens qui sont enthousiasmés par un nouveau départ et je les laisse rêver encore un peu."
+        }
+    ],
+    "oldID": "1195",
+    "ID": "1193"
 }

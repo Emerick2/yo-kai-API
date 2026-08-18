@@ -1,8 +1,8 @@
 {
-    "Nom": "Robo G",
-    "nom_original": "ロボG",
-    "Tribue": "Pokapoka",
-    "Rang": "B",
+    "Nom": "Omatsuri Jibanyan",
+    "Tribue": "Mignon",
+    "Rang": "C",
+    "nom_original": "お祭りコマじろう",
     "PV": "",
     "Force": "",
     "Esprit": "",
@@ -10,187 +10,52 @@
     "Vitesse": "",
     "Description": [
         {
-            "_jp": "未来からやってきた ひも爺のロボット。 ロボットになっても つねにエネルギー不足で ひもじい思いをしている。",
-            "_en": "A robot called Himoji from the future. Even after becoming a robot, I always feel exhausted due to lack of energy.",
-            "_fr": "Un robot appelé Himoji du futur. Même après être devenu robot, je me sens toujours épuisé par manque d’énergie."
+            "_jp": "これが りんごあめズラ？ 赤くて キラキラしてて もんげーおいしそうズラ！ 兄ちゃんの分も 買ったから いっしょに食べるズラ♪",
+            "_en": "Is this apple candy zura? It's red, shiny, and looks delicious! I bought some for my brother too, so we can eat together♪",
+            "_fr": "Est-ce que ce sont des bonbons aux pommes Zura ? C'est rouge, brillant et ça a l'air délicieux ! J'en ai acheté aussi pour mon frère, pour qu'on puisse manger ensemble ♪"
         }
     ],
-    "nourriture": "Onigiri",
-    "nourriture_favorite": "Onigiri",
+    "nourriture": "lait",
+    "nourriture_favorite": "lait",
     "élément": "",
-    "Rôle": "guérisseur",
+    "Rôle": "attaquant",
     "rang_yww": "B",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "Onigiri",
+    "tribue_yww": "Pritchie",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "lait",
     "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "avantage_yww": {
         "_jp": "雷属性",
         "_en": "Lightning attribute",
         "_fr": "Attribut de foudre"
     },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
     "stats_initiale_yww": {
-        "hp": 49,
-        "str": 10,
-        "spr": 29,
-        "def": 22,
+        "hp": 45,
+        "str": 8,
+        "spr": 25,
+        "def": 21,
         "spd": 19
     },
     "stats_max_yww": {},
     "moyens_obtention_yww": [
         {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
+            "_jp": "ドコモコイン2",
+            "_en": "docomo coin 2",
+            "_fr": "pièce docomo 2"
         },
         {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+            "_jp": "NTTドコモコラボで入手",
+            "_en": "Obtained through NTT Docomo collaboration",
+            "_fr": "Obtenu grâce à la collaboration NTT Docomo"
         }
     ],
     "attaque_magie_yww": [
@@ -201,14 +66,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "ずつき",
-                "_en": "Zutsuki",
-                "_fr": "Zutsuki"
+                "_jp": "パンチ",
+                "_en": "punch",
+                "_fr": "punch"
             },
             "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体に攻撃する。",
-                "_en": "[Power: 30/Blow] Attacks one enemy.",
-                "_fr": "[Puissance : 30/Coup] Attaque un ennemi."
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -218,51 +83,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "回復の術",
-                "_en": "art of recovery",
-                "_fr": "l'art de la récupération"
+                "_jp": "いかずちの術",
+                "_en": "Ikazuchi no Jutsu",
+                "_fr": "Ikazuchi no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
+                "_jp": "【威力:50 / 雷属性】 強力な雷の妖術を使う。",
+                "_en": "[Power: 50 / Lightning attribute] Uses powerful lightning magic.",
+                "_fr": "[Puissance : 50 / Attribut Foudre] Utilise une puissante magie de foudre."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "メシハマダカノン砲",
-                "_en": "Meshihamada Cannon Cannon",
-                "_fr": "Canon Meshihamada Canon"
+                "_jp": "お祭りさわぎサンダー",
+                "_en": "Festival Sawagi Thunder",
+                "_fr": "Festival Sawagi Tonnerre"
             },
-            "pouvoir": "140",
+            "pouvoir": "73",
             "explication": {
-                "_jp": "未来の空腹エネルギーで作り出されたビームで敵にダメージを与える。",
-                "_en": "Damages enemies with a beam created from future hunger energy.",
-                "_fr": "Endommage les ennemis avec un rayon créé à partir de l'énergie de la faim future."
+                "_jp": "祭りの熱気をカミナリに変え 敵全員に ビリビリと ダメージを与える",
+                "_en": "Turns the heat of the festival into lightning, dealing damage to all enemies.",
+                "_fr": "Transforme la chaleur du festival en éclairs, infligeant des dégâts à tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "鋼鉄パワー",
-                "_en": "steel power",
-                "_fr": "puissance de l'acier"
+                "_jp": "途方にくれる",
+                "_en": "I'm at a loss",
+                "_fr": "je suis perdu"
             },
             "explication": {
-                "_jp": "【まもりアップ】 鋼鉄パワーでまもりがアップ",
-                "_en": "[Protection up] Increased protection with steel power",
-                "_fr": "[Protection augmentée] Protection accrue grâce à la puissance de l'acier"
+                "_jp": "【おさぼり】 途方にくれて たまに行動しなくなる",
+                "_en": "[Osabori] I feel lost and sometimes stop taking action.",
+                "_fr": "[Osabori] Je me sens perdu et parfois j'arrête d'agir."
             }
         }
     ],
     "explication_yww": [
         {
-            "_jp": "未来からやってきた ひも爺のロボット。 ロボットになっても つねにエネルギー不足で ひもじい思いをしている。",
-            "_en": "A robot called Himoji from the future. Even after becoming a robot, I always feel exhausted due to lack of energy.",
-            "_fr": "Un robot appelé Himoji du futur. Même après être devenu robot, je me sens toujours épuisé par manque d’énergie."
+            "_jp": "これが りんごあめズラ？ 赤くて キラキラしてて もんげーおいしそうズラ！ 兄ちゃんの分も 買ったから いっしょに食べるズラ♪",
+            "_en": "Is this apple candy zura? It's red, shiny, and looks delicious! I bought some for my brother too, so we can eat together♪",
+            "_fr": "Est-ce que ce sont des bonbons aux pommes Zura ? C'est rouge, brillant et ça a l'air délicieux ! J'en ai acheté aussi pour mon frère, pour qu'on puisse manger ensemble ♪"
         }
-    ]
+    ],
+    "oldID": "990",
+    "ID": "988"
 }

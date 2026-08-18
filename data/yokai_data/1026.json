@@ -1,58 +1,52 @@
 {
-    "Nom": "から傘お化け・怪",
-    "nom_original": "から傘お化け・怪",
-    "Tribue": "かいま族",
-    "Rang": "D",
+    "Nom": "Halloween Jibanyan",
+    "Tribue": "Mignon",
+    "Rang": "S",
+    "nom_original": "魔女フゥミン",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "から傘お化けが怪魔化した姿。 捨てられた傘の無念が よみがえり その目に映るすべての人を おそうようになってしまった。",
-            "_en": "The Umbrella Ghost has turned into a monster. The regret of the discarded umbrella has come back to haunt everyone in sight.",
-            "_fr": "Le Umbrella Ghost s'est transformé en monstre. Le regret du parapluie abandonné est revenu hanter tout le monde en vue."
-        }
-    ],
-    "nourriture": "Oden",
-    "nourriture_favorite": "Oden",
+    "Description": "",
+    "nourriture": "légumes",
+    "nourriture_favorite": "légumes",
     "élément": "",
-    "Rôle": "attaquant",
-    "rang_yww": "D",
-    "tribue_yww": "かいま族",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Oden",
+    "Rôle": "ranger",
+    "rang_yww": "A",
+    "tribue_yww": "Bukimi",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": "légumes",
     "attitude_spécifique_yww": {
         "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_fr": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道"
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "氷属性",
-        "_fr": "氷属性"
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
     },
     "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
     },
     "stats_initiale_yww": {
-        "hp": 49,
-        "str": 14,
-        "spr": 16,
-        "def": 6,
-        "spd": 25
+        "hp": 50,
+        "str": 8,
+        "spr": 25,
+        "def": 11,
+        "spd": 40
     },
-    "stats_max_yww": {
-        "hp": 404,
-        "str": 81,
-        "spr": 171,
-        "def": 61,
-        "spd": 195
-    },
-    "moyens_obtention_yww": [],
+    "stats_max_yww": {},
+    "moyens_obtention_yww": [
+        {
+            "_jp": "ハロウィンパーティー妖怪ガシャ",
+            "_en": "halloween party monster gasha",
+            "_fr": "fête d'Halloween monstre Gasha"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -61,9 +55,9 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "こづく",
-                "_en": "こづく",
-                "_fr": "こづく"
+                "_jp": "はたく",
+                "_en": "flutter",
+                "_fr": "battement"
             },
             "explication": {
                 "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
@@ -74,55 +68,51 @@
         {
             "type": {
                 "_jp": "ようじゅつ",
-                "_en": "ようじゅつ",
-                "_fr": "ようじゅつ"
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "竜巻の術",
-                "_en": "竜巻の術",
-                "_fr": "竜巻の術"
+                "_jp": "吹雪の術",
+                "_en": "Fubuki no Jutsu",
+                "_fr": "Fubuki no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:50 / 風属性】 強力な風の妖術を使う。",
-                "_en": "【威力:50 / 風属性】 強力な風の妖術を使う。",
-                "_fr": "【威力:50 / 風属性】 強力な風の妖術を使う。"
+                "_jp": "【威力:70 / 氷属性】 強力な氷の妖術を使う。",
+                "_en": "[Power: 70 / Ice attribute] Uses powerful ice magic.",
+                "_fr": "[Puissance : 70 / Attribut Glace] Utilise une puissante magie de glace."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "カラカラからっ風",
-                "_en": "カラカラからっ風",
-                "_fr": "カラカラからっ風"
+                "_jp": "ハロウィン遊ばナイト",
+                "_en": "halloween play night",
+                "_fr": "soirée de jeu d'Halloween"
             },
-            "pouvoir": "86",
+            "pouvoir": "0",
             "explication": {
-                "_jp": "古典妖怪特有のカラっとした風をおこし範囲内にダメージを与える。",
-                "_en": "Creates a crisp wind unique to classic monsters that deals damage within range.",
-                "_fr": "Crée un vent vif unique aux monstres classiques qui inflige des dégâts à portée."
+                "_jp": "イタズラなウィンクを投げつけ 敵全員の 全ステータスをダウンさせる",
+                "_en": "Throws a mischievous wink and lowers all stats of all enemies.",
+                "_fr": "Lance un clin d'œil malicieux et réduit toutes les statistiques de tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "ボロボロにする",
-                "_en": "ボロボロにする",
-                "_fr": "ボロボロにする"
+                "_jp": "朝帰りでウトウト…",
+                "_en": "I dozed off on my way home in the morning...",
+                "_fr": "Je me suis assoupi en rentrant chez moi le matin..."
             },
             "explication": {
-                "_jp": "【まもりダウン】 とりつかれた妖怪は穴あきのボロボロ傘のごとく まもりがダウンする。",
-                "_en": "【まもりダウン】 とりつかれた妖怪は穴あきのボロボロ傘のごとく まもりがダウンする。",
-                "_fr": "【まもりダウン】 とりつかれた妖怪は穴あきのボロボロ傘のごとく まもりがダウンする。"
+                "_jp": "【HP減少】 朝帰りで HPがだんだん減っていく",
+                "_en": "[HP decrease] After returning home in the morning, HP gradually decreases.",
+                "_fr": "[Diminution des HP] Après le retour à la maison le matin, les HP diminuent progressivement."
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "から傘お化けが怪魔化した姿。 捨てられた傘の無念が よみがえり その目に映るすべての人を おそうようになってしまった。",
-            "_en": "The Umbrella Ghost has turned into a monster. The regret of the discarded umbrella has come back to haunt everyone in sight.",
-            "_fr": "Le Umbrella Ghost s'est transformé en monstre. Le regret du parapluie abandonné est revenu hanter tout le monde en vue."
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1142",
+    "ID": "1140"
 }

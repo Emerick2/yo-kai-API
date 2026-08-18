@@ -1,8 +1,8 @@
 {
-    "Nom": "Rapide W",
-    "nom_original": "スピーディーW",
-    "Tribue": "Pokapoka",
-    "Rang": "S",
+    "Nom": "Tsukimi Zukyukyunta",
+    "Tribue": "Mignon",
+    "Rang": "A",
+    "nom_original": "万尾獅子・祭",
     "PV": "",
     "Force": "",
     "Esprit": "",
@@ -10,37 +10,43 @@
     "Vitesse": "",
     "Description": [
         {
-            "_jp": "速さの感覚が研ぎ澄まされて 常人の２倍の速さで生活する。 録画したＴＶ番組は倍速再生。 睡眠時間も半分。漫画だけは じっくり読むので普通の速さ。",
-            "_en": "Their sense of speed is sharpened and they live twice as fast as a normal person. Recorded TV programs can be played back at double speed. Sleep time is also half. I only read manga at a normal speed because I read them carefully.",
-            "_fr": "Leur sens de la vitesse est aiguisé et ils vivent deux fois plus vite qu’une personne normale. Les programmes TV enregistrés peuvent être lus à double vitesse. Le temps de sommeil est également réduit de moitié. Je ne lis les mangas qu'à une vitesse normale car je les lis attentivement."
+            "_jp": "太鼓の前に たたずむ万尾獅子。 叩くか？ …叩かない。 叩くか？ …叩かない。 叩くか？ …叩いたー！！！ 今日の仕事はこれにておしまい。",
+            "_en": "Manbi lion standing in front of the drum. Shall I hit you? ...Don't hit me. Shall I hit you? ...Don't hit me. Shall I hit you? ...I hit you! ! ! That's all for today's work.",
+            "_fr": "Lion Manbi debout devant le tambour. Dois-je te frapper ? ...Ne me frappe pas. Dois-je te frapper ? ... Ne me frappe pas. Dois-je te frapper ? ...Je t'ai frappé ! ! ! C'est tout pour le travail d'aujourd'hui."
         }
     ],
-    "nourriture": "pizza",
-    "nourriture_favorite": "pizza",
+    "nourriture": "Cuisine chinoise",
+    "nourriture_favorite": "Cuisine chinoise",
     "élément": "",
-    "Rôle": "guérisseur",
-    "rang_yww": "S",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "pizza",
+    "Rôle": "attaquant",
+    "rang_yww": "A",
+    "tribue_yww": "Isamashi",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "Cuisine chinoise",
     "attitude_spécifique_yww": {
         "_jp": "編集中です。",
         "_en": "Editing in progress.",
         "_fr": "Montage en cours."
     },
     "faiblesse_yww": {
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
+    },
+    "avantage_yww": {
         "_jp": "氷属性",
         "_en": "ice attribute",
         "_fr": "attribut de glace"
     },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
     "stats_initiale_yww": {},
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "TGS2018で登場",
+            "_en": "Appeared at TGS2018",
+            "_fr": "Apparu au TGS2018"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -49,14 +55,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "閃光ぎり",
+                "_en": "Just a flash of light",
+                "_fr": "Juste un éclair de lumière"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:24×3 / 打撃】 3回攻撃を行う",
+                "_en": "[Power: 24×3/Blow] Attacks 3 times",
+                "_fr": "[Puissance : 24×3/Coup] Attaque 3 fois"
             }
         },
         {
@@ -66,51 +72,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "氷結の術",
+                "_en": "Freezing technique",
+                "_fr": "Technique de congélation"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:50 / 氷属性】 強力な氷の妖術を使う。",
+                "_en": "[Power: 50 / Ice attribute] Uses powerful ice magic.",
+                "_fr": "[Puissance : 50 / Attribut Glace] Utilise une puissante magie de glace."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "速すぎワラッターＷ",
-                "_en": "Too fast Waratah W",
-                "_fr": "Trop rapide Waratah W"
+                "_jp": "祭囃子・獅子太鼓",
+                "_en": "Festival music/shishi drum",
+                "_fr": "Musique de festival/tambour shishi"
             },
-            "pouvoir": "160",
+            "pouvoir": "20×8",
             "explication": {
-                "_jp": "目にも止まらぬスピードで敵に突進し範囲内にダメージを与える。",
-                "_en": "Charges towards the enemy at unbelievable speed and deals damage within range.",
-                "_fr": "Charge vers l'ennemi à une vitesse incroyable et inflige des dégâts à portée."
+                "_jp": "満を持して バチを抜き 敵全員を 激しく斬りつける",
+                "_en": "Finally, he pulls out his drumstick and violently slashes all the enemies.",
+                "_fr": "Finalement, il sort son pilon et frappe violemment tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "スピーディーにする",
-                "_en": "make it faster",
-                "_fr": "rendre les choses plus rapides"
+                "_jp": "叩くと思わせる",
+                "_en": "make me think I'm going to hit you",
+                "_fr": "fais-moi penser que je vais te frapper"
             },
             "explication": {
-                "_jp": "【すばやさアップ】 とりつかれた妖怪はとにかくスピーディーになり すばやさがアップする。",
-                "_en": "[Increased speed] Possessed monsters become faster and their agility increases.",
-                "_fr": "[Vitesse accrue] Les monstres possédés deviennent plus rapides et leur agilité augmente."
+                "_jp": "【ステアップ解除】 太鼓を叩くのを待ち続け なかなか行動しなくなる",
+                "_en": "[Stair-up canceled] I keep waiting for the drum to be played and it becomes difficult to take action.",
+                "_fr": "[Montée d'escalier annulée] J'attends toujours que le tambour retentisse et ça devient difficile d'agir."
             }
         }
     ],
     "explication_yww": [
         {
-            "_jp": "速さの感覚が研ぎ澄まされて 常人の２倍の速さで生活する。 録画したＴＶ番組は倍速再生。 睡眠時間も半分。漫画だけは じっくり読むので普通の速さ。",
-            "_en": "Their sense of speed is sharpened and they live twice as fast as a normal person. Recorded TV programs can be played back at double speed. Sleep time is also half. I only read manga at a normal speed because I read them carefully.",
-            "_fr": "Leur sens de la vitesse est aiguisé et ils vivent deux fois plus vite qu’une personne normale. Les programmes TV enregistrés peuvent être lus à double vitesse. Le temps de sommeil est également réduit de moitié. Je ne lis les mangas qu'à une vitesse normale car je les lis attentivement."
+            "_jp": "太鼓の前に たたずむ万尾獅子。 叩くか？ …叩かない。 叩くか？ …叩かない。 叩くか？ …叩いたー！！！ 今日の仕事はこれにておしまい。",
+            "_en": "Manbi lion standing in front of the drum. Shall I hit you? ...Don't hit me. Shall I hit you? ...Don't hit me. Shall I hit you? ...I hit you! ! ! That's all for today's work.",
+            "_fr": "Lion Manbi debout devant le tambour. Dois-je te frapper ? ...Ne me frappe pas. Dois-je te frapper ? ... Ne me frappe pas. Dois-je te frapper ? ...Je t'ai frappé ! ! ! C'est tout pour le travail d'aujourd'hui."
         }
-    ]
+    ],
+    "oldID": "1129",
+    "ID": "1127"
 }

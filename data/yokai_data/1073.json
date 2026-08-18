@@ -1,40 +1,58 @@
 {
-    "Nom": "Vascoda Gama",
-    "nom_original": "バスコダ・ガマ",
-    "Tribue": "Nyororon",
-    "Rang": "A",
+    "Nom": "Sailor Choconyan",
+    "Tribue": "Mignon",
+    "Rang": "S",
+    "nom_original": "オロチ先輩",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": "",
-    "nourriture": "–",
-    "nourriture_favorite": "–",
+    "Description": [
+        {
+            "_jp": "妖怪の学校で 風紀委員長を つとめている オロチ先輩。 風紀を乱す者たちへ 容赦なく 龍のマフラーで鉄槌を下す姿に ファンとなる 女子生徒も多数。",
+            "_en": "Orochi-senpai is the head of the discipline committee at the Yokai school. Many female students have become fans of the sight of her mercilessly bringing down a hammer with a dragon scarf on those who disrupt public morals.",
+            "_fr": "Orochi-senpai est le chef du comité de discipline de l'école Yokai. De nombreuses étudiantes sont devenues fans de la voir abattre sans pitié un marteau avec une écharpe de dragon sur ceux qui perturbent la moralité publique."
+        }
+    ],
+    "nourriture": "fruit de mer",
+    "nourriture_favorite": "fruit de mer",
     "élément": "",
-    "Rôle": "réservoir",
-    "rang_yww": "A",
+    "Rôle": "attaquant",
+    "rang_yww": "S",
     "tribue_yww": "Nyororon",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "–",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "fruit de mer",
     "attitude_spécifique_yww": {
-        "_jp": "編集中です。",
-        "_en": "Editing in progress.",
-        "_fr": "Montage en cours."
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
+    },
+    "avantage_yww": {
         "_jp": "雷属性",
         "_en": "Lightning attribute",
         "_fr": "Attribut de foudre"
     },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
+    "stats_initiale_yww": {
+        "hp": 43,
+        "str": 30,
+        "spr": 12,
+        "def": 15,
+        "spd": 60
     },
-    "stats_initiale_yww": {},
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+            "_en": "Popular! Valentine Yokai Gasha",
+            "_fr": "Populaire! Valentin Yokai Gasha"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -43,14 +61,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "かみちぎる",
+                "_en": "Kamichigiru",
+                "_fr": "Kamichigiru"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:70 / 打撃】 強力な一撃を加える",
+                "_en": "[Power: 70/Blow] Add a powerful blow",
+                "_fr": "[Puissance : 70/Coup] Ajoutez un coup puissant"
             }
         },
         {
@@ -60,45 +78,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "雷神の術",
+                "_en": "Raijin no Jutsu",
+                "_fr": "Raijin no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
+                "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
+                "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "弱み発見伝",
-                "_en": "Weakness discovery story",
-                "_fr": "Histoire de découverte de faiblesse"
+                "_jp": "やまたの反省文",
+                "_en": "Yamata's reflection",
+                "_fr": "Le reflet de Yamata"
             },
-            "pouvoir": "0",
+            "pouvoir": "22×10",
             "explication": {
-                "_jp": "敵に攻撃し全ステータスをしばらくダウンさせる。",
-                "_en": "Attacks the enemy and lowers all stats for a while.",
-                "_fr": "Attaque l'ennemi et réduit toutes les statistiques pendant un moment."
+                "_jp": "風紀を乱した生徒たちに 龍のマフラーが反省文をせまって 敵全員に かみつきまくる",
+                "_en": "The dragon muffler demands a letter of remorse from the students who have disturbed public morals, and bites all the enemies.",
+                "_fr": "Le silencieux du dragon exige une lettre de remords des étudiants qui ont perturbé les bonnes mœurs et mord tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "静かにしたまえ",
+                "_en": "Be quiet",
+                "_fr": "Soyez silencieux"
             },
             "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
+                "_jp": "【すばやさダウン】 静かにするよう注意され すばやさがダウン",
+                "_en": "[Speed ​​down] Being warned to be quiet reduces speed.",
+                "_fr": "[Ralentir la vitesse] Être averti de rester silencieux réduit la vitesse."
             }
         }
     ],
-    "explication_yww": []
+    "explication_yww": [
+        {
+            "_jp": "妖怪の学校で 風紀委員長を つとめている オロチ先輩。 風紀を乱す者たちへ 容赦なく 龍のマフラーで鉄槌を下す姿に ファンとなる 女子生徒も多数。",
+            "_en": "Orochi-senpai is the head of the discipline committee at the Yokai school. Many female students have become fans of the sight of her mercilessly bringing down a hammer with a dragon scarf on those who disrupt public morals.",
+            "_fr": "Orochi-senpai est le chef du comité de discipline de l'école Yokai. De nombreuses étudiantes sont devenues fans de la voir abattre sans pitié un marteau avec une écharpe de dragon sur ceux qui perturbent la moralité publique."
+        }
+    ],
+    "oldID": "1179",
+    "ID": "1177"
 }

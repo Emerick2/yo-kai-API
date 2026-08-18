@@ -1,8 +1,8 @@
 {
-    "Nom": "Rouge J",
-    "nom_original": "レッドJ",
-    "Tribue": "Pritchie",
-    "Rang": "A",
+    "Nom": "Tsukimi Jibanyan",
+    "Tribue": "Mignon",
+    "Rang": "S",
+    "nom_original": "かぐやUSAピョン",
     "PV": "",
     "Force": "",
     "Esprit": "",
@@ -10,52 +10,47 @@
     "Vitesse": "",
     "Description": [
         {
-            "_jp": "極悪非道の化身『レッドＪ』。 その悪名は 妖怪ワールド中に 知れ渡る。 今宵もどこかで 破壊と悪逆の限りをつくし 哀れな妖怪たちの魂を食らう。",
-            "_en": "\"Red J\" is the embodiment of villainy. Its notoriety is known throughout the Yokai World. Tonight, somewhere, I will do my utmost in destruction and evil, and I will eat the souls of these pitiful monsters.",
-            "_fr": "\"Red J\" est l'incarnation de la méchanceté. Sa notoriété est connue dans tout le monde Yokai. Ce soir, quelque part, je ferai tout mon possible dans la destruction et le mal, et je mangerai les âmes de ces pitoyables monstres."
+            "_jp": "竹から生まれたUSAピョンは おじいさんおばあさんに愛され たった数年で 誰もがうらやむ 美しい姫へと成長しました…。 「って 姫じゃないダニ～！」",
+            "_en": "USA Pyon was born from bamboo and was loved by her grandparents, and in just a few years she has grown into a beautiful princess who is the envy of everyone... “That’s not a princess!”",
+            "_fr": "USA Pyon est née du bambou et était aimée de ses grands-parents, et en quelques années seulement, elle est devenue une belle princesse qui fait l'envie de tout le monde... \"Ce n'est pas une princesse !\""
         }
     ],
-    "nourriture": "Chocobo",
-    "nourriture_favorite": "Chocobo",
+    "nourriture": "Donut",
+    "nourriture_favorite": "Donut",
     "élément": "",
-    "Rôle": "attaquant",
-    "rang_yww": "A",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Chocobo",
+    "Rôle": "guérisseur",
+    "rang_yww": "C",
+    "tribue_yww": "Usurakage",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "Donut",
     "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+        "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
+        "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
     },
     "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
         "_jp": "火属性",
         "_en": "fire attribute",
         "_fr": "attribut de feu"
     },
+    "avantage_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
     "stats_initiale_yww": {
-        "hp": 51,
-        "str": 31,
-        "spr": 6,
-        "def": 11,
-        "spd": 37
+        "hp": 35,
+        "str": 18,
+        "spr": 32,
+        "def": 18,
+        "spd": 19
     },
     "stats_max_yww": {},
     "moyens_obtention_yww": [
         {
-            "_jp": "ヨロズマートコイン",
-            "_en": "Yorozu Mart Coin",
-            "_fr": "Pièce du marché Yorozu"
-        },
-        {
-            "_jp": "降臨ボス討伐で入手可能",
-            "_en": "Obtainable by defeating the advent boss",
-            "_fr": "Obtenable en battant le boss de l'Avent"
+            "_jp": "限定イベント出現",
+            "_en": "Limited event appearance",
+            "_fr": "Apparition limitée à l'événement"
         }
     ],
     "attaque_magie_yww": [
@@ -66,14 +61,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "きりさく",
-                "_en": "Kirisaku",
-                "_fr": "Kirisaku"
+                "_jp": "はりたおす",
+                "_en": "Haritaosu",
+                "_fr": "Haritaosu"
             },
             "explication": {
-                "_jp": "【威力:17×3 / 打撃】 3回攻撃を行う",
-                "_en": "[Power: 17×3/Blow] Attacks 3 times",
-                "_fr": "[Puissance : 17×3/Coup] Attaque 3 fois"
+                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+                "_en": "[Power: 25×2/Blow] Attack twice",
+                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
             }
         },
         {
@@ -83,51 +78,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "火炎の術",
-                "_en": "flame technique",
-                "_fr": "technique de la flamme"
+                "_jp": "氷結の術",
+                "_en": "Freezing technique",
+                "_fr": "Technique de congélation"
             },
             "explication": {
-                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
-                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
-                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
+                "_jp": "【威力:50 / 氷属性】 強力な氷の妖術を使う。",
+                "_en": "[Power: 50 / Ice attribute] Uses powerful ice magic.",
+                "_fr": "[Puissance : 50 / Attribut Glace] Utilise une puissante magie de glace."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "地獄の怨念玉",
-                "_en": "hell's grudge ball",
-                "_fr": "l'enfer de la rancune"
+                "_jp": "月夜のUSAオーラ",
+                "_en": "Moonlit USA aura",
+                "_fr": "Aura américaine au clair de lune"
             },
-            "pouvoir": "190",
+            "pouvoir": "120",
             "explication": {
-                "_jp": "怨念をこめたエネルギーを発射し正面の敵にダメージを与える",
-                "_en": "Fires energy filled with grudge and damages the enemy in front of you.",
-                "_fr": "Tire de l'énergie remplie de rancune et endommage l'ennemi devant vous."
+                "_jp": "降りそそぐ月光の力で いやしのオーラを 創り出し 味方全体のHPを回復する",
+                "_en": "Creates a healing aura with the power of falling moonlight and restores the HP of all allies.",
+                "_fr": "Crée une aura de guérison avec le pouvoir du clair de lune tombant et restaure les HP de tous les alliés."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "狂暴にする",
-                "_en": "go berserk",
-                "_fr": "se déchaîner"
+                "_jp": "月に帰るか迷う",
+                "_en": "I wonder if I should go back to the moon?",
+                "_fr": "Je me demande si je devrais retourner sur la lune ?"
             },
             "explication": {
-                "_jp": "【混乱】 すさまじく狂暴化し 味方をたまにこうげきする",
-                "_en": "[Confusion] Becomes extremely violent and sometimes attacks allies.",
-                "_fr": "[Confusion] Devient extrêmement violent et attaque parfois ses alliés."
+                "_jp": "【全ステダウン】 月に帰るか迷って 全ステータスが小ダウン",
+                "_en": "[All status down] All stats are down slightly as I wonder if I should go back to the moon.",
+                "_fr": "[Tous les statuts en baisse] Toutes les statistiques sont légèrement en baisse car je me demande si je devrais retourner sur la lune."
             }
         }
     ],
     "explication_yww": [
         {
-            "_jp": "極悪非道の化身『レッドＪ』。 その悪名は 妖怪ワールド中に 知れ渡る。 今宵もどこかで 破壊と悪逆の限りをつくし 哀れな妖怪たちの魂を食らう。",
-            "_en": "\"Red J\" is the embodiment of villainy. Its notoriety is known throughout the Yokai World. Tonight, somewhere, I will do my utmost in destruction and evil, and I will eat the souls of these pitiful monsters.",
-            "_fr": "\"Red J\" est l'incarnation de la méchanceté. Sa notoriété est connue dans tout le monde Yokai. Ce soir, quelque part, je ferai tout mon possible dans la destruction et le mal, et je mangerai les âmes de ces pitoyables monstres."
+            "_jp": "竹から生まれたUSAピョンは おじいさんおばあさんに愛され たった数年で 誰もがうらやむ 美しい姫へと成長しました…。 「って 姫じゃないダニ～！」",
+            "_en": "USA Pyon was born from bamboo and was loved by her grandparents, and in just a few years she has grown into a beautiful princess who is the envy of everyone... “That’s not a princess!”",
+            "_fr": "USA Pyon est née du bambou et était aimée de ses grands-parents, et en quelques années seulement, elle est devenue une belle princesse qui fait l'envie de tout le monde... \"Ce n'est pas une princesse !\""
         }
-    ]
+    ],
+    "oldID": "1128",
+    "ID": "1126"
 }

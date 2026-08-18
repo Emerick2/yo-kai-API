@@ -1,61 +1,50 @@
 {
-    "Nom": "Android Yamada Cuivre",
-    "nom_original": "アンドロイド山田・銅",
-    "Tribue": "Hagure",
-    "Rang": "C",
+    "Nom": "Gochiso Jibanyan",
+    "Tribue": "Mignon",
+    "Rang": "A",
+    "nom_original": "幻神・オーディン",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "説明しよう！ アンドロイドの研究をしていた 山田博士が 実験の大爆発に 巻き込まれ なんだかんだで こんな姿になったのだ！！！",
-            "_en": "Let's explain! Dr. Yamada, who was researching androids, got caught up in a huge explosion during an experiment and somehow ended up looking like this! ! !",
-            "_fr": "Expliquons-nous ! Le Dr Yamada, qui faisait des recherches sur les androïdes, a été pris dans une énorme explosion lors d'une expérience et a fini par ressembler à ceci ! ! !"
-        }
-    ],
-    "nourriture": "curry",
-    "nourriture_favorite": "curry",
+    "Description": "",
+    "nourriture": "Oden",
+    "nourriture_favorite": "Oden",
     "élément": "",
-    "Rôle": "ranger",
-    "rang_yww": "C",
-    "tribue_yww": "Hagure",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "curry",
+    "Rôle": "attaquant",
+    "rang_yww": "S",
+    "tribue_yww": "Goketsu",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "Oden",
     "attitude_spécifique_yww": {
         "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
         "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
         "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
-        "_jp": "–",
-        "_en": null,
-        "_fr": null
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
     },
     "avantage_yww": {
-        "_jp": "–",
-        "_en": null,
-        "_fr": null
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
     },
     "stats_initiale_yww": {
-        "hp": 29,
-        "str": 29,
-        "spr": 29,
-        "def": 29,
-        "spd": 29
+        "hp": 70,
+        "str": 23,
+        "spr": 5,
+        "def": 13,
+        "spd": 24
     },
     "stats_max_yww": {},
     "moyens_obtention_yww": [
         {
-            "_jp": "1つ星コイン",
-            "_en": "1 star coin",
-            "_fr": "Pièce d'une étoile"
-        },
-        {
-            "_jp": "ヨロズマートコイン",
-            "_en": "Yorozu Mart Coin",
-            "_fr": "Pièce du marché Yorozu"
+            "_jp": "パズドラコラボガシャ",
+            "_en": "Puzzle and Dragons collaboration gasha",
+            "_fr": "Gasha, collaboration entre Puzzle et Dragons"
         }
     ],
     "attaque_magie_yww": [
@@ -66,14 +55,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "ヘッドバット",
-                "_en": "head butt",
-                "_fr": "coup de tête"
+                "_jp": "きりつける",
+                "_en": "punish",
+                "_fr": "punir"
             },
             "explication": {
-                "_jp": "【威力:50 / 打撃】 敵1体に攻撃する。",
-                "_en": "[Power: 50/Blow] Attacks one enemy.",
-                "_fr": "[Puissance : 50/Coup] Attaque un ennemi."
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -83,51 +72,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "いかずちの術",
-                "_en": "Ikazuchi no Jutsu",
-                "_fr": "Ikazuchi no Jutsu"
+                "_jp": "火炎の術",
+                "_en": "flame technique",
+                "_fr": "technique de la flamme"
             },
             "explication": {
-                "_jp": "【威力:50 / 雷属性】 強力な雷の妖術を使う。",
-                "_en": "[Power: 50 / Lightning attribute] Uses powerful lightning magic.",
-                "_fr": "[Puissance : 50 / Attribut Foudre] Utilise une puissante magie de foudre."
+                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
+                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
+                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "へそビーム",
-                "_en": "navel beam",
-                "_fr": "faisceau de nombril"
+                "_jp": "滅槍グングニール",
+                "_en": "Slayer Gungnir",
+                "_fr": "Le tueur Gungnir"
             },
-            "pouvoir": "140",
+            "pouvoir": "150",
             "explication": {
-                "_jp": "独自性あふれるビームを へそから発射し 正面の敵にダメージ与える",
-                "_en": "Fires a unique beam from the belly button that damages the enemy in front of you.",
-                "_fr": "Tire un rayon unique depuis le nombril qui endommage l'ennemi devant vous."
+                "_jp": "手にした神の槍であたり一面を薙ぎ払い敵全員にダメージを与える",
+                "_en": "Use the god's spear in your hand to mow down the entire area, dealing damage to all enemies.",
+                "_fr": "Utilisez la lance du dieu dans votre main pour faucher toute la zone, infligeant des dégâts à tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "アンドロイドにする",
-                "_en": "make it android",
-                "_fr": "fais-en un Android"
+                "_jp": "幻神のルーン",
+                "_en": "phantom god rune",
+                "_fr": "rune du dieu fantôme"
             },
             "explication": {
-                "_jp": "【すばやさダウン】 関節がアンドロイド化し すばやさがダウン",
-                "_en": "[Speed ​​down] Joints become android and speed decreases",
-                "_fr": "[Ralentissement de la vitesse] Les articulations deviennent androïdes et la vitesse diminue"
+                "_jp": "【HP減少】 槍で突いた相手は毒に侵され HPが少しずつ減っていく",
+                "_en": "[HP Decrease] The opponent you hit with the spear will be poisoned and their HP will gradually decrease.",
+                "_fr": "[Diminution des PV] L'adversaire que vous touchez avec la lance sera empoisonné et ses PV diminueront progressivement."
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "説明しよう！ アンドロイドの研究をしていた 山田博士が 実験の大爆発に 巻き込まれ なんだかんだで こんな姿になったのだ！！！",
-            "_en": "Let's explain! Dr. Yamada, who was researching androids, got caught up in a huge explosion during an experiment and somehow ended up looking like this! ! !",
-            "_fr": "Expliquons-nous ! Le Dr Yamada, qui faisait des recherches sur les androïdes, a été pris dans une énorme explosion lors d'une expérience et a fini par ressembler à ceci ! ! !"
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1217",
+    "ID": "1215"
 }

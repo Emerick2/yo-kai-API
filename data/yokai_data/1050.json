@@ -1,22 +1,22 @@
 {
-    "Nom": "encore mort",
-    "nom_original": "アンコールデッド",
-    "Tribue": "Bukimi",
+    "Nom": "Haregi Komasan",
+    "Tribue": "Mignon",
     "Rang": "S",
+    "nom_original": "温泉ジバニャン",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
     "Description": "",
-    "nourriture": "",
-    "nourriture_favorite": "",
+    "nourriture": "Chocobo",
+    "nourriture_favorite": "Chocobo",
     "élément": "",
-    "Rôle": "réservoir",
-    "rang_yww": "S",
-    "tribue_yww": "Bukimi",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": null,
+    "Rôle": "attaquant",
+    "rang_yww": "A",
+    "tribue_yww": "Pritchie",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "Chocobo",
     "attitude_spécifique_yww": {
         "_jp": "編集中です。",
         "_en": "Editing in progress.",
@@ -34,7 +34,13 @@
     },
     "stats_initiale_yww": {},
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "ジバニャンの温泉妖怪イベントで入手",
+            "_en": "Obtained from Jibanyan hot spring monster event",
+            "_fr": "Obtenu lors de l'événement monstre des sources chaudes de Jibanyan"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -43,14 +49,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "するどいつめ",
+                "_en": "sharp claw",
+                "_fr": "griffe acérée"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
+                "_en": "[Power: 15×2/Blow] Attack twice",
+                "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
             }
         },
         {
@@ -60,45 +66,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "火花の術",
+                "_en": "Spark technique",
+                "_fr": "Technique d'étincelle"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:30 / 火属性】 火の妖術を使う。",
+                "_en": "[Power: 30 / Fire attribute] Uses fire magic.",
+                "_fr": "[Puissance : 30 / Attribut Feu] Utilise la magie du feu."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "死霊の熱烈アンコール",
-                "_en": "The Spirit of the Dead's Fierce Encore",
-                "_fr": "Fierce Encore de L'Esprit des Morts"
+                "_jp": "ひゃくれつ温泉肉球",
+                "_en": "Hyakuretsu hot spring meatballs",
+                "_fr": "Boulettes de viande des sources chaudes de Hyakuretsu"
             },
-            "pouvoir": "0",
+            "pouvoir": "15×5",
             "explication": {
-                "_jp": "まわりの味方の良い取り付き効果の時間を長くする。",
-                "_en": "Increases the duration of good attachment effects on nearby allies.",
-                "_fr": "Augmente la durée des bons effets d'attachement sur les alliés proches."
+                "_jp": "温泉のように熱くて強烈な肉球を 繰り出し 敵全員をなぐりまくる",
+                "_en": "It unleashes its hot, intense paws like a hot spring and hits all the enemies.",
+                "_fr": "Il libère ses pattes chaudes et intenses comme une source chaude et frappe tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "ようりょくの湯",
+                "_en": "Youryoku no Yu",
+                "_fr": "Votreyoku no Yu"
             },
             "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
+                "_jp": "【ようりょくアップ】 温泉パワーで ようりょくがアップ",
+                "_en": "[Improve your health] Increase your health with hot spring power",
+                "_fr": "[Améliorez votre santé] Augmentez votre santé grâce à la puissance des sources chaudes"
             }
         }
     ],
-    "explication_yww": []
+    "explication_yww": [],
+    "oldID": "1165",
+    "ID": "1163"
 }

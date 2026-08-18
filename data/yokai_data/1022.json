@@ -1,8 +1,8 @@
 {
-    "Nom": "Akaname/Kai",
-    "nom_original": "あかなめ・怪",
-    "Tribue": "Kaima",
-    "Rang": "C",
+    "Nom": "Meido Hanako",
+    "Tribue": "Sinistre",
+    "Rang": "A",
+    "nom_original": "リンゴニャン",
     "PV": "",
     "Force": "",
     "Esprit": "",
@@ -10,49 +10,49 @@
     "Vitesse": "",
     "Description": [
         {
-            "_jp": "あかなめが怪魔化した姿。 長い舌には悪いものが こびりついていて こいつがなめた場所は べっとりと汚れてしまう。",
-            "_en": "Akaname turned into a monster. Its long tongue has bad things stuck to it, and the places it licks become sticky and dirty.",
-            "_fr": "Akaname s'est transformé en monstre. Sa longue langue est collée à de mauvaises choses et les endroits qu'il lèche deviennent collants et sales."
+            "_jp": "リンゴ果汁100%のネコ妖怪。 お肌ツヤツヤ 背筋シャキッ！ 病気知らずの 元気な体が自慢。 寝込んでいる人の そばにきて いたわってくれる。 やさしい…。",
+            "_en": "A cat monster made from 100% apple juice. Your skin will be shiny and your spine will be crisp! I am proud of my healthy body, which has never been sick. They come to the side of people who are asleep and comfort them. kind….",
+            "_fr": "Un yo-kai-chat composé à 100 % de jus de pomme. Doté d'une peau lumineuse et d'une posture impeccable, il jouit d'une santé de fer et ne tombe jamais malade. Il se rend au chevet des personnes alitées pour les réconforter et prendre soin d'elles. Il est tellement gentil..."
         }
     ],
-    "nourriture": "Oden",
-    "nourriture_favorite": "Oden",
+    "nourriture": "Chocobo",
+    "nourriture_favorite": "Chocobo",
     "élément": "",
     "Rôle": "attaquant",
-    "rang_yww": "C",
-    "tribue_yww": "Kaima",
+    "rang_yww": "A",
+    "tribue_yww": "Pritchie",
     "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Oden",
+    "plat_préféré_yww": "Chocobo",
     "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_fr": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道"
+        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zuno, (Attaque sur les alliés) Coopératif, type Kenshin"
     },
     "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
     },
     "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
     },
     "stats_initiale_yww": {
-        "hp": 70,
-        "str": 37,
-        "spr": 5,
+        "hp": 46,
+        "str": 18,
+        "spr": 37,
         "def": 9,
-        "spd": 14
+        "spd": 33
     },
-    "stats_max_yww": {
-        "hp": 474,
-        "str": 241,
-        "spr": 61,
-        "def": 79,
-        "spd": 154
-    },
-    "moyens_obtention_yww": [],
+    "stats_max_yww": {},
+    "moyens_obtention_yww": [
+        {
+            "_jp": "妖怪ウォッチフェア＠イオンで入手",
+            "_en": "Obtained at Yokai Watch Fair @ Aeon",
+            "_fr": "Obtenu au Yokai Watch Fair @ Aeon"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -61,14 +61,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "舌でなめる",
-                "_en": "舌でなめる",
-                "_fr": "舌でなめる"
+                "_jp": "するどいつめ",
+                "_en": "sharp claw",
+                "_fr": "griffe acérée"
             },
             "explication": {
-                "_jp": "【威力:50 / 打撃】 舌でなめて敵1体を攻撃する。",
-                "_en": "[Power: 50/Blow] Attacks one enemy by licking it with your tongue.",
-                "_fr": "[Puissance : 50/Coup] Attaque un ennemi en le léchant avec votre langue."
+                "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
+                "_en": "[Power: 15×2/Blow] Attack twice",
+                "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
             }
         },
         {
@@ -78,51 +78,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "いかずちの術",
-                "_en": "いかずちの術",
-                "_fr": "いかずちの術"
+                "_jp": "火炎の術",
+                "_en": "flame technique",
+                "_fr": "technique de la flamme"
             },
             "explication": {
-                "_jp": "【威力:50 / 雷属性】 強力な雷の妖術を使う。",
-                "_en": "【威力:50 / 雷属性】 強力な雷の妖術を使う。",
-                "_fr": "【威力:50 / 雷属性】 強力な雷の妖術を使う。"
+                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
+                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
+                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "べろりんぺろんちょ",
-                "_en": "べろりんぺろんちょ",
-                "_fr": "べろりんぺろんちょ"
+                "_jp": "焼リンゴファイニャー",
+                "_en": "Baked apple figna",
+                "_fr": "Figna aux pommes au four"
             },
-            "pouvoir": "34×3",
+            "pouvoir": "110",
             "explication": {
-                "_jp": "長い舌を使って激しくなめまくり範囲内をこうげきする。",
-                "_en": "It uses its long tongue to violently lick and lick the area.",
-                "_fr": "Il utilise sa longue langue pour lécher et lécher violemment la zone."
+                "_jp": "とびきりジューシーな焼リンゴを つくりだすアッツアツな炎で 敵全体にダメージを与える",
+                "_en": "Damages all enemies with hot flames that create extra juicy baked apples.",
+                "_fr": "Endommage tous les ennemis avec des flammes brûlantes qui créent des pommes au four très juteuses."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "なめまわす",
-                "_en": "なめまわす",
-                "_fr": "なめまわす"
+                "_jp": "リンゴ果汁",
+                "_en": "apple juice",
+                "_fr": "jus de pomme"
             },
             "explication": {
-                "_jp": "【おさぼり】 とりつかれた妖怪はなめられて気分が悪くなりたまに行動しなくなる。",
-                "_en": "【おさぼり】 とりつかれた妖怪はなめられて気分が悪くなりたまに行動しなくなる。",
-                "_fr": "【おさぼり】 とりつかれた妖怪はなめられて気分が悪くなりたまに行動しなくなる。"
+                "_jp": "【ようりょくアップ】 ジューシーなリンゴの果汁で ようりょくがアップ",
+                "_en": "[Improve your health] Increase your health with juicy apple juice",
+                "_fr": "[Améliorez votre santé] Améliorez votre santé avec du jus de pomme juteux"
             }
         }
     ],
     "explication_yww": [
         {
-            "_jp": "あかなめが怪魔化した姿。 長い舌には悪いものが こびりついていて こいつがなめた場所は べっとりと汚れてしまう。",
-            "_en": "Akaname turned into a monster. Its long tongue has bad things stuck to it, and the places it licks become sticky and dirty.",
-            "_fr": "Akaname s'est transformé en monstre. Sa longue langue est collée à de mauvaises choses et les endroits qu'il lèche deviennent collants et sales."
+            "_jp": "リンゴ果汁100%のネコ妖怪。 お肌ツヤツヤ 背筋シャキッ！ 病気知らずの 元気な体が自慢。 寝込んでいる人の そばにきて いたわってくれる。 やさしい…。",
+            "_en": "A cat monster made from 100% apple juice. Your skin will be shiny and your spine will be crisp! I am proud of my healthy body, which has never been sick. They come to the side of people who are asleep and comfort them. kind….",
+            "_fr": "Un yo-kai-chat composé à 100 % de jus de pomme. Doté d'une peau lumineuse et d'une posture impeccable, il jouit d'une santé de fer et ne tombe jamais malade. Il se rend au chevet des personnes alitées pour les réconforter et prendre soin d'elles. Il est tellement gentil..."
         }
-    ]
+    ],
+    "oldID": "1146",
+    "ID": "1144"
 }

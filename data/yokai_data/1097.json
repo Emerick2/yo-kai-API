@@ -1,40 +1,52 @@
 {
-    "Nom": "Doya Osa",
-    "nom_original": "ドヤ・オサ",
-    "Tribue": "Nyororon",
-    "Rang": "B",
+    "Nom": "Poppo Jibanyan",
+    "Tribue": "Mignon",
+    "Rang": "S",
+    "nom_original": "バクうらら",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
     "Description": "",
-    "nourriture": "",
-    "nourriture_favorite": "",
+    "nourriture": "jus",
+    "nourriture_favorite": "jus",
     "élément": "",
     "Rôle": "guérisseur",
-    "rang_yww": "B",
-    "tribue_yww": "Nyororon",
+    "rang_yww": "C",
+    "tribue_yww": "Pritchie",
     "rôle_yww": "guérisseur",
-    "plat_préféré_yww": null,
+    "plat_préféré_yww": "jus",
     "attitude_spécifique_yww": {
-        "_jp": "編集中です。",
-        "_en": "Editing in progress.",
-        "_fr": "Montage en cours."
+        "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
+        "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
     },
     "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
     },
     "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "水属性",
-        "_fr": "水属性"
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
     },
-    "stats_initiale_yww": {},
+    "stats_initiale_yww": {
+        "hp": 54,
+        "str": 5,
+        "spr": 23,
+        "def": 12,
+        "spd": 15
+    },
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "妖怪春祭りでイベントメダルから出現",
+            "_en": "Appears from event medals at Yokai Spring Festival",
+            "_fr": "Apparaît sur les médailles d'événement du Festival du Printemps de Yokai"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -43,14 +55,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "はたく",
+                "_en": "flutter",
+                "_fr": "battement"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -60,45 +72,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "吸収の術",
+                "_en": "absorption technique",
+                "_fr": "technique d'absorption"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "オサのテッパン自慢話",
-                "_en": "Osa's Teppan boast story",
-                "_fr": "L'histoire de Teppan d'Osa"
+                "_jp": "ハルノネムリ",
+                "_en": "Harunonemuri",
+                "_fr": "Harunonemuri"
             },
-            "pouvoir": "0",
+            "pouvoir": "–",
             "explication": {
-                "_jp": "味方のHPを大きく回復し悪いとりつき効果をなおす。",
-                "_en": "Greatly recovers HP of allies and cures bad haunting effects.",
-                "_fr": "Récupère grandement les PV des alliés et guérit les mauvais effets obsédants."
+                "_jp": "春の陽気で まどろませて 味方全員のHPが だんだん回復する",
+                "_en": "Let the spring weather lull you into a slumber and gradually recover the HP of all allies.",
+                "_fr": "Laissez le temps printanier vous endormir et récupérez progressivement les PV de tous les alliés."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "うららかタイム",
+                "_en": "Uraraka time",
+                "_fr": "Heure à Uraraka"
             },
             "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
+                "_jp": "【ちからダウン】 春のうららかな妖気にウトウトして ちからがダウン",
+                "_en": "[Chikara Down] I doze off in the gentle mysteriousness of spring, and my power goes down.",
+                "_fr": "[Chikara Down] Je m'endors dans le doux mystère du printemps et mon pouvoir diminue."
             }
         }
     ],
-    "explication_yww": []
+    "explication_yww": [],
+    "oldID": "1204",
+    "ID": "1202"
 }

@@ -1,8 +1,8 @@
 {
-    "Nom": "TETSUYA",
-    "nom_original": "TETSUYA",
-    "Tribue": "Usurakage",
-    "Rang": "E",
+    "Nom": "Tsukimi Orochi",
+    "Tribue": "Insaisissable",
+    "Rang": "S",
+    "nom_original": "月見コマじろう",
     "PV": "",
     "Force": "",
     "Esprit": "",
@@ -10,23 +10,23 @@
     "Vitesse": "",
     "Description": [
         {
-            "_jp": "どんなに眠くても 徹夜で遊びまくってしまう 完全夜型妖怪。 徹夜を自慢する友達がいたら とりつかれているのかも。",
-            "_en": "A complete night owl monster that stays up all night playing no matter how sleepy you are. If you have a friend who brags about staying up all night, you might be obsessed.",
-            "_fr": "Un monstre oiseau de nuit complet qui reste éveillé toute la nuit à jouer, peu importe à quel point vous êtes somnolent. Si vous avez un ami qui se vante de rester éveillé toute la nuit, vous pourriez être obsédé."
+            "_jp": "月見団子を いっぱい用意して お月見を待ちわびるコマじろう。 ふろしきの中にはDJセットが そろっていて 集まった妖怪と 朝まで踊り明かすんだYO！",
+            "_en": "Komajiro prepares lots of Tsukimi Dango and waits for the moon viewing. There's a DJ set inside the furoshiki, and you can dance with the gathered monsters until the morning!",
+            "_fr": "Komajiro prépare beaucoup de Tsukimi Dango et attend l'observation de la lune. Il y a un DJ set à l'intérieur du furoshiki, et vous pouvez danser avec les monstres rassemblés jusqu'au matin !"
         }
     ],
-    "nourriture": "hamburger",
-    "nourriture_favorite": "hamburger",
+    "nourriture": "lait",
+    "nourriture_favorite": "lait",
     "élément": "",
-    "Rôle": "ranger",
-    "rang_yww": "E",
-    "tribue_yww": "Usurakage",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "hamburger",
+    "Rôle": "attaquant",
+    "rang_yww": "C",
+    "tribue_yww": "Pritchie",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "lait",
     "attitude_spécifique_yww": {
-        "_jp": "編集中です。",
-        "_en": "Editing in progress.",
-        "_fr": "Montage en cours."
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
         "_jp": "土属性",
@@ -38,9 +38,21 @@
         "_en": "Lightning attribute",
         "_fr": "Attribut de foudre"
     },
-    "stats_initiale_yww": {},
+    "stats_initiale_yww": {
+        "hp": 46,
+        "str": 7,
+        "spr": 24,
+        "def": 7,
+        "spd": 9
+    },
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "十五夜コイン",
+            "_en": "jugoya coin",
+            "_fr": "pièce de monnaie jugoya"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -49,14 +61,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "パンチ",
+                "_en": "punch",
+                "_fr": "punch"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -66,51 +78,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "いかずちの術",
+                "_en": "Ikazuchi no Jutsu",
+                "_fr": "Ikazuchi no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:50 / 雷属性】 強力な雷の妖術を使う。",
+                "_en": "[Power: 50 / Lightning attribute] Uses powerful lightning magic.",
+                "_fr": "[Puissance : 50 / Attribut Foudre] Utilise une puissante magie de foudre."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "オールナイトゲーム",
-                "_en": "all night game",
-                "_fr": "jeu toute la nuit"
+                "_jp": "お月見サンダー",
+                "_en": "moon-viewing thunder",
+                "_fr": "tonnerre d'observation de la lune"
             },
-            "pouvoir": "0",
+            "pouvoir": "73",
             "explication": {
-                "_jp": "徹夜続きのネガティブなオーラで敵全員のまもりを大ダウンさせる。",
-                "_en": "Greatly lowers the protection of all enemies with a negative aura that lasts all night.",
-                "_fr": "Réduit considérablement la protection de tous les ennemis avec une aura négative qui dure toute la nuit."
+                "_jp": "お月見を盛り上げるために カミナリを呼び 敵全員に ビリビリとダメージを与える",
+                "_en": "To liven up the moon viewing, summon lightning and deal damage to all enemies.",
+                "_fr": "Pour animer l'observation de la lune, invoquez la foudre et infligez des dégâts à tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "夜更かしさせる",
-                "_en": "keep me up late",
-                "_fr": "veille-moi tard"
+                "_jp": "ソワソワする",
+                "_en": "fidgety",
+                "_fr": "agité"
             },
             "explication": {
-                "_jp": "【まもりダウン】 とりつかれた妖怪は夜更かしがやめられなくなり まもりが大ダウンする。",
-                "_en": "[Mamori Down] A possessed youkai can't stop staying up late, and his protection goes down significantly.",
-                "_fr": "[Mamori Down] Un yôkai possédé ne peut s'empêcher de veiller tard et sa protection diminue considérablement."
+                "_jp": "【おさぼり】 得意のDJをやりたくなって たまに行動しなくなる",
+                "_en": "[Osabori] I want to be a DJ, which I'm good at, but sometimes I don't do anything.",
+                "_fr": "[Osabori] Je veux être DJ, ce pour quoi je suis bon, mais parfois je ne fais rien."
             }
         }
     ],
     "explication_yww": [
         {
-            "_jp": "どんなに眠くても 徹夜で遊びまくってしまう 完全夜型妖怪。 徹夜を自慢する友達がいたら とりつかれているのかも。",
-            "_en": "A complete night owl monster that stays up all night playing no matter how sleepy you are. If you have a friend who brags about staying up all night, you might be obsessed.",
-            "_fr": "Un monstre oiseau de nuit complet qui reste éveillé toute la nuit à jouer, peu importe à quel point vous êtes somnolent. Si vous avez un ami qui se vante de rester éveillé toute la nuit, vous pourriez être obsédé."
+            "_jp": "月見団子を いっぱい用意して お月見を待ちわびるコマじろう。 ふろしきの中にはDJセットが そろっていて 集まった妖怪と 朝まで踊り明かすんだYO！",
+            "_en": "Komajiro prepares lots of Tsukimi Dango and waits for the moon viewing. There's a DJ set inside the furoshiki, and you can dance with the gathered monsters until the morning!",
+            "_fr": "Komajiro prépare beaucoup de Tsukimi Dango et attend l'observation de la lune. Il y a un DJ set à l'intérieur du furoshiki, et vous pouvez danser avec les monstres rassemblés jusqu'au matin !"
         }
-    ]
+    ],
+    "oldID": "1125",
+    "ID": "1123"
 }

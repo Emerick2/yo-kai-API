@@ -1,8 +1,8 @@
 {
-    "Nom": "Umibozu",
-    "nom_original": "うみぼうず",
-    "Tribue": "Goketsu",
+    "Nom": "Softkemuuri",
+    "Tribue": "Mystérieux",
     "Rang": "S",
+    "nom_original": "じだラクーン",
     "PV": "",
     "Force": "",
     "Esprit": "",
@@ -10,23 +10,23 @@
     "Vitesse": "",
     "Description": [
         {
-            "_jp": "海のような広い心を持つ妖怪。 それもそのはず。 実は海の化身で 自分自身が 海であると言っても 過言ではないのだ。",
-            "_en": "A monster with a heart as wide as the ocean. That should be it. In fact, it is no exaggeration to say that it is the incarnation of the sea, and that it is itself the sea.",
-            "_fr": "Un monstre au cœur aussi large que l'océan. Ça devrait être ça. En fait, il n’est pas exagéré de dire qu’elle est l’incarnation de la mer et qu’elle est elle-même la mer."
+            "_jp": "いつもダラけていたいと願う 自堕落な アライグマ妖怪。 何に対しても やる気が起きず 毎日ダラダラと過ごしているが 本人は幸せそうだ。",
+            "_en": "A self-deprecating raccoon monster who always wants to be lazy. Although he has no motivation to do anything and spends his days lazing around, he seems to be happy.",
+            "_fr": "Un monstre raton laveur autodérision qui veut toujours être paresseux. Même s’il n’a aucune motivation pour faire quoi que ce soit et passe ses journées à paresser, il semble heureux."
         }
     ],
-    "nourriture": "légumes",
-    "nourriture_favorite": "légumes",
+    "nourriture": "jus",
+    "nourriture_favorite": "jus",
     "élément": "",
-    "Rôle": "réservoir",
-    "rang_yww": "S",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "légumes",
+    "Rôle": "attaquant",
+    "rang_yww": "B",
+    "tribue_yww": "Pritchie",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "jus",
     "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
         "_jp": "雷属性",
@@ -39,24 +39,18 @@
         "_fr": "attribut de l'eau"
     },
     "stats_initiale_yww": {
-        "hp": 94,
-        "str": 11,
-        "spr": 21,
-        "def": 33,
-        "spd": 13
+        "hp": 44,
+        "str": 7,
+        "spr": 43,
+        "def": 19,
+        "spd": 7
     },
-    "stats_max_yww": {
-        "hp": 695,
-        "str": 71,
-        "spr": 168,
-        "def": 238,
-        "spd": 81
-    },
+    "stats_max_yww": {},
     "moyens_obtention_yww": [
         {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
+            "_jp": "コロコロコミック9月号のふろくで入手",
+            "_en": "Obtained from Furoku in the September issue of CoroCoro Comic",
+            "_fr": "Obtenu auprès de Furoku dans le numéro de septembre de CoroCoro Comic"
         }
     ],
     "attaque_magie_yww": [
@@ -67,14 +61,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "こなごなつぶし",
-                "_en": "Konago Nutsushi",
-                "_fr": "Konago Nutsushi"
+                "_jp": "タックル",
+                "_en": "tackle",
+                "_fr": "tacle"
             },
             "explication": {
-                "_jp": "【威力:55 / 打撃】 大きな一撃を加える",
-                "_en": "[Power: 55 / Blow] Deal a big blow",
-                "_fr": "[Puissance : 55/Coup] Portez un gros coup"
+                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
+                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -84,51 +78,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "大滝の術",
-                "_en": "Otaki no Jutsu",
-                "_fr": "Otaki no Jutsu"
+                "_jp": "水流の術",
+                "_en": "Water flow technique",
+                "_fr": "Technique d'écoulement de l'eau"
             },
             "explication": {
-                "_jp": "【威力:70 / 水属性】 強力な水の妖術を使う。",
-                "_en": "[Power: 70 / Water attribute] Uses powerful water magic.",
-                "_fr": "[Puissance : 70 / Attribut Eau] Utilise une puissante magie de l'eau."
+                "_jp": "【威力:50 / 水属性】 強力な水の妖術を使う。",
+                "_en": "[Power: 50 / Water attribute] Uses powerful water magic.",
+                "_fr": "[Puissance : 50 / Attribut Eau] Utilise une puissante magie de l'eau."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "黒潮ガード",
-                "_en": "Kuroshio Guard",
-                "_fr": "Garde Kuroshio"
+                "_jp": "自堕落スプラッシュ",
+                "_en": "dissolute splash",
+                "_fr": "éclaboussure dissolue"
             },
-            "pouvoir": "0",
+            "pouvoir": "115",
             "explication": {
-                "_jp": "全てを受け止める体勢に まもりを超アップしつつ 敵の攻撃を一身に集める",
-                "_en": "Get in a position to absorb everything, super-up your protection, and collect enemy attacks all at once.",
-                "_fr": "Soyez en mesure de tout absorber, renforcez votre protection et récupérez les attaques ennemies d’un seul coup."
+                "_jp": "自堕落な水流を ランダムな位置に呼び出し ダメージを与える",
+                "_en": "Summons a corruptive stream of water to a random location and deals damage.",
+                "_fr": "Invoque un jet d'eau corrupteur à un endroit aléatoire et inflige des dégâts."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "海の力",
-                "_en": "power of the sea",
-                "_fr": "puissance de la mer"
+                "_jp": "自堕落にする",
+                "_en": "make self-destructive",
+                "_fr": "rendre autodestructeur"
             },
             "explication": {
-                "_jp": "【全ステアップ】 海の力で 全ステータスがアップ",
-                "_en": "[All status up] Increase all status with the power of the sea",
-                "_fr": "[Tous les statuts en place] Augmentez tous les statuts avec la puissance de la mer"
+                "_jp": "【おさぼり】 自堕落になって たまに行動しなくなる",
+                "_en": "[Lazy] I become self-indulgent and sometimes stop taking action.",
+                "_fr": "[Paresseux] Je deviens complaisant et parfois j'arrête d'agir."
             }
         }
     ],
     "explication_yww": [
         {
-            "_jp": "海のような広い心を持つ妖怪。 それもそのはず。 実は海の化身で 自分自身が 海であると言っても 過言ではないのだ。",
-            "_en": "A monster with a heart as wide as the ocean. That should be it. In fact, it is no exaggeration to say that it is the incarnation of the sea, and that it is itself the sea.",
-            "_fr": "Un monstre au cœur aussi large que l'océan. Ça devrait être ça. En fait, il n’est pas exagéré de dire qu’elle est l’incarnation de la mer et qu’elle est elle-même la mer."
+            "_jp": "いつもダラけていたいと願う 自堕落な アライグマ妖怪。 何に対しても やる気が起きず 毎日ダラダラと過ごしているが 本人は幸せそうだ。",
+            "_en": "A self-deprecating raccoon monster who always wants to be lazy. Although he has no motivation to do anything and spends his days lazing around, he seems to be happy.",
+            "_fr": "Un monstre raton laveur autodérision qui veut toujours être paresseux. Même s’il n’a aucune motivation pour faire quoi que ce soit et passe ses journées à paresser, il semble heureux."
         }
-    ]
+    ],
+    "oldID": "1117",
+    "ID": "1115"
 }

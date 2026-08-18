@@ -1,46 +1,52 @@
 {
-    "Nom": "États-Unis Pyon Nakadatsu",
-    "nom_original": "USAピョン仲達",
-    "Tribue": "Usurakage",
-    "Rang": "S",
+    "Nom": "Momijibanyan",
+    "Tribue": "Mignon",
+    "Rang": "A",
+    "nom_original": "8頭身ハロウィス",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "軍師ウィスパー孔明と 深い 因縁のあるＵＳＡピョン仲達。 「ウザい ウィス明 キレる ピョン達を パシらす」という 謎の故事が 残されている。",
-            "_en": "USA Byon Nakadatsu has a deep connection with the tactician Whisper Komei. There is a mysterious story that goes like this: ``It's annoying and makes the angry people go away.''",
-            "_fr": "USA Byon Nakadatsu entretient des liens profonds avec le tacticien Whisper Komei. Il y a une histoire mystérieuse qui dit ceci : « C'est ennuyeux et ça fait partir les gens en colère. »"
-        }
-    ],
-    "nourriture": "Donut",
-    "nourriture_favorite": "Donut",
+    "Description": "",
+    "nourriture": "crème douce",
+    "nourriture_favorite": "crème douce",
     "élément": "",
     "Rôle": "attaquant",
-    "rang_yww": "S",
-    "tribue_yww": "Usurakage",
+    "rang_yww": "A",
+    "tribue_yww": "Nyororon",
     "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Donut",
+    "plat_préféré_yww": "crème douce",
     "attitude_spécifique_yww": {
-        "_jp": "編集中です。",
-        "_en": "Editing in progress.",
-        "_fr": "Montage en cours."
+        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
     },
     "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
     },
-    "stats_initiale_yww": {},
+    "stats_initiale_yww": {
+        "hp": 44,
+        "str": 41,
+        "spr": 71,
+        "def": 21,
+        "spd": 50
+    },
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "妖怪仮装パレードで入手",
+            "_en": "Obtained at Yokai Costume Parade",
+            "_fr": "Obtenu lors du défilé de costumes Yokai"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -49,14 +55,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "れんぞくぎり",
+                "_en": "Lenzokugiri",
+                "_fr": "Lenzokugiri"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:25×2 / 打撃】 –",
+                "_en": "[Power: 25×2 / Blow] –",
+                "_fr": "[Puissance : 25×2 / Coup] –"
             }
         },
         {
@@ -66,51 +72,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "吸収の術",
+                "_en": "absorption technique",
+                "_fr": "technique d'absorption"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "極太ＵＳＡビーム",
-                "_en": "Extra thick USA beam",
-                "_fr": "Poutre américaine très épaisse"
+                "_jp": "死神からぶりアタック",
+                "_en": "Grim Reaper Karaburi Attack",
+                "_fr": "Attaque de la Faucheuse Karaburi"
             },
-            "pouvoir": "190",
+            "pouvoir": "160",
             "explication": {
-                "_jp": "極太ビームを発射し敵に大ダメージを与える",
-                "_en": "Fires a thick beam that causes great damage to the enemy.",
-                "_fr": "Tire un faisceau épais qui cause de gros dégâts à l'ennemi."
+                "_jp": "大きな鎌を振り下ろすと思いきや 正面の敵に かかとを叩きつける",
+                "_en": "Just when I thought I was swinging my big sickle down, I slammed my heel into the enemy in front of me.",
+                "_fr": "Juste au moment où je pensais balancer ma grosse faucille, j’ai frappé du talon l’ennemi devant moi."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "怒りっぽくする",
-                "_en": "make angry",
-                "_fr": "se mettre en colère"
+                "_jp": "モテモテ作戦大失敗",
+                "_en": "Operation Motemote is a big failure",
+                "_fr": "L’opération Motemote est un gros échec"
             },
             "explication": {
-                "_jp": "【混乱】 とりつかれた妖怪は怒りっぽくなってしまい味方をたまにこうげきする。",
-                "_en": "[Confusion] Possessed monsters become angry and sometimes attack their allies.",
-                "_fr": "[Confusion] Les monstres possédés se mettent en colère et attaquent parfois leurs alliés."
+                "_jp": "【まもりダウン】 モテモテ作戦に失敗し まもりが大ダウンする",
+                "_en": "[Mamori Down] The popularity strategy fails and Mamori goes down a lot.",
+                "_fr": "[Mamori Down] La stratégie de popularité échoue et Mamori baisse beaucoup."
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "軍師ウィスパー孔明と 深い 因縁のあるＵＳＡピョン仲達。 「ウザい ウィス明 キレる ピョン達を パシらす」という 謎の故事が 残されている。",
-            "_en": "USA Byon Nakadatsu has a deep connection with the tactician Whisper Komei. There is a mysterious story that goes like this: ``It's annoying and makes the angry people go away.''",
-            "_fr": "USA Byon Nakadatsu entretient des liens profonds avec le tacticien Whisper Komei. Il y a une histoire mystérieuse qui dit ceci : « C'est ennuyeux et ça fait partir les gens en colère. »"
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1137",
+    "ID": "1135"
 }

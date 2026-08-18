@@ -1,67 +1,55 @@
 {
-    "Nom": "le venu sombre",
-    "nom_original": "ダークコマー",
-    "Tribue": "ウスラカゲ族",
-    "Rang": "A",
+    "Nom": "Fuyunyan Santa",
+    "Tribue": "Vaillant",
+    "Rang": "S",
+    "nom_original": "聖犬神",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "漆黒のマントを身にまとい 法で裁くことができない悪人を 闇夜で成敗するダークヒーロー。 主な活動は 深夜のゴミ拾いで 街の美化に貢献している。",
-            "_en": "A dark hero who wears a jet-black cloak and fights and defeats evil people who cannot be brought to justice. Their main activity is picking up trash late at night, contributing to the beautification of the city.",
-            "_fr": "Un héros sombre qui porte un manteau noir de jais et combat et vainc les méchants qui ne peuvent pas être traduits en justice. Leur activité principale consiste à ramasser les déchets tard dans la nuit, contribuant ainsi à l'embellissement de la ville."
-        }
-    ],
-    "nourriture": "crème douce",
-    "nourriture_favorite": "crème douce",
+    "Description": "",
+    "nourriture": "",
+    "nourriture_favorite": "",
     "élément": "",
-    "Rôle": "アタッカー",
-    "rang_yww": "A",
-    "tribue_yww": "ウスラカゲ族",
-    "rôle_yww": "アタッカー",
-    "plat_préféré_yww": "crème douce",
+    "Rôle": "attaquant",
+    "rang_yww": "S",
+    "tribue_yww": "Fushigi",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": null,
     "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zuno, (Attaque sur les alliés) Coopératif, type Kenshin"
     },
     "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "水属性",
-        "_fr": "水属性"
-    },
-    "avantage_yww": {
         "_jp": "火属性",
         "_en": "fire attribute",
         "_fr": "attribut de feu"
     },
+    "avantage_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
     "stats_initiale_yww": {
-        "hp": 49,
-        "str": 5,
+        "hp": 58,
+        "str": 8,
         "spr": 40,
-        "def": 16,
-        "spd": 24
+        "def": 27,
+        "spd": 20
     },
-    "stats_max_yww": {
-        "hp": 408,
-        "str": 159,
-        "spr": 128,
-        "def": 142,
-        "spd": 163
-    },
+    "stats_max_yww": {},
     "moyens_obtention_yww": [
         {
-            "_jp": "ヨロズマートコイン",
-            "_en": "Yorozu Mart Coin",
-            "_fr": "Pièce du marché Yorozu"
+            "_jp": "クリスマスコイン",
+            "_en": "christmas coins",
+            "_fr": "pièces de Noël"
         },
         {
-            "_jp": "妖怪降臨で登場",
-            "_en": "妖怪降臨で登場",
-            "_fr": "妖怪降臨で登場"
+            "_jp": "魅惑のクリスマス妖怪ガシャ",
+            "_en": "Enchanted Christmas monster Gasha",
+            "_fr": "Gasha, le monstre de Noël enchanté"
         }
     ],
     "attaque_magie_yww": [
@@ -72,68 +60,64 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "パンチ",
-                "_en": "punch",
-                "_fr": "punch"
+                "_jp": "しっぽうち",
+                "_en": "Shippouchi",
+                "_fr": "Shippouchi"
             },
             "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+                "_jp": "【威力:50 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 50/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 50/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
             "type": {
                 "_jp": "ようじゅつ",
-                "_en": "ようじゅつ",
-                "_fr": "ようじゅつ"
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "死神の術",
-                "_en": "Shinigami no Jutsu",
-                "_fr": "Shinigami no Jutsu"
+                "_jp": "吹雪の術",
+                "_en": "Fubuki no Jutsu",
+                "_fr": "Fubuki no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:55 / 吸収】 敵のHPを大きく吸い取る。",
-                "_en": "[Power: 55 / Absorption] Absorbs a large amount of enemy's HP.",
-                "_fr": "[Puissance : 55 / Absorption] Absorbe une grande quantité de HP de l'ennemi."
+                "_jp": "【威力:70 / 氷属性】 強力な氷の妖術を使う。",
+                "_en": "[Power: 70 / Ice attribute] Uses powerful ice magic.",
+                "_fr": "[Puissance : 70 / Attribut Glace] Utilise une puissante magie de glace."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "ダークファントム乱舞",
-                "_en": "dark phantom dance",
-                "_fr": "danse fantôme sombre"
+                "_jp": "極氷地獄",
+                "_en": "polar ice hell",
+                "_fr": "l'enfer des glaces polaires"
             },
-            "pouvoir": "100",
+            "pouvoir": "200",
             "explication": {
-                "_jp": "邪悪なひとだまを 飛び交わせ 左右の敵に ダメージを与える",
-                "_en": "Fly the evil bullets around and deal damage to the enemies on the left and right.",
-                "_fr": "Faites voler les balles maléfiques et infligez des dégâts aux ennemis à gauche et à droite."
+                "_jp": "全てを凍らせる 猛吹雪を巻き起こし 敵全員を氷づけにする",
+                "_en": "Freeze everything.Create a blizzard and freeze all enemies.",
+                "_fr": "Gelez tout. Créez un blizzard et gèlez tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "闇夜の呪い",
-                "_en": "curse of the dark night",
-                "_fr": "malédiction de la nuit noire"
+                "_jp": "聖犬神の加護",
+                "_en": "Holy dog ​​god's protection",
+                "_fr": "Protection de Dieu du chien sacré"
             },
             "explication": {
-                "_jp": "【HP減少】 闇夜の呪いにかかり HPがだんだん減っていく",
-                "_en": "[HP decrease] HP gradually decreases due to the curse of the dark night",
-                "_fr": "[Diminution des HP] Les HP diminuent progressivement en raison de la malédiction de la nuit noire"
+                "_jp": "【回復】 聖犬神の加護で HPがだんだん回復",
+                "_en": "[Recovery] HP gradually recovers with the blessings of the Holy Dog God",
+                "_fr": "[Récupération] HP récupère progressivement avec les bénédictions du Dieu Chien Saint"
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "漆黒のマントを身にまとい 法で裁くことができない悪人を 闇夜で成敗するダークヒーロー。 主な活動は 深夜のゴミ拾いで 街の美化に貢献している。",
-            "_en": "A dark hero who wears a jet-black cloak and fights and defeats evil people who cannot be brought to justice. Their main activity is picking up trash late at night, contributing to the beautification of the city.",
-            "_fr": "Un héros sombre qui porte un manteau noir de jais et combat et vainc les méchants qui ne peuvent pas être traduits en justice. Leur activité principale consiste à ramasser les déchets tard dans la nuit, contribuant ainsi à l'embellissement de la ville."
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1152",
+    "ID": "1150"
 }

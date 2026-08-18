@@ -1,50 +1,44 @@
 {
-    "Nom": "M. Scoop",
-    "nom_original": "Mr.スコップ",
-    "Tribue": "Fushigi",
+    "Nom": "Salarydon",
+    "Tribue": "Insaisissable",
     "Rang": "A",
+    "nom_original": "晴れ着フユニャン",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "掘ることが大好きな妖怪。 あらゆる場所を掘りまくるが Ｍｒ．スコップ自身には 深く 掘りさげてはいけない秘密が いくつもあるので要注意。",
-            "_en": "A monster who loves digging. I dig everywhere, but Mr. The shovel itself has many secrets that you shouldn't dig into, so be careful.",
-            "_fr": "Un monstre qui adore creuser. Je creuse partout, mais M. La pelle elle-même a de nombreux secrets qu'il ne faut pas creuser, alors soyez prudent."
-        }
-    ],
-    "nourriture": "Sushis",
-    "nourriture_favorite": "Sushis",
+    "Description": "",
+    "nourriture": "",
+    "nourriture_favorite": "",
     "élément": "",
-    "Rôle": "ranger",
-    "rang_yww": "A",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "Sushis",
+    "Rôle": "attaquant",
+    "rang_yww": "S",
+    "tribue_yww": "Isamashi",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": null,
     "attitude_spécifique_yww": {
         "_jp": "編集中です。",
         "_en": "Editing in progress.",
         "_fr": "Montage en cours."
     },
     "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
     },
     "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
+        "_jp": "風属性",
+        "_en": "wind attribute",
+        "_fr": "attribut du vent"
     },
     "stats_initiale_yww": {},
     "stats_max_yww": {},
     "moyens_obtention_yww": [
         {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
+            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+            "_en": "First half of Yokai Gasha",
+            "_fr": "Première moitié de Yokai Gasha"
         }
     ],
     "attaque_magie_yww": [
@@ -55,14 +49,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "ぶんなぐる",
+                "_en": "wallop",
+                "_fr": "coup"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+                "_en": "[Power: 50/Blow] Deal a big blow",
+                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
             }
         },
         {
@@ -72,51 +66,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "竜巻の術",
+                "_en": "Tornado no Jutsu",
+                "_fr": "Tornade sans Jutsu"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:50 / 風属性】 強力な風の妖術を使う。",
+                "_en": "[Power: 50 / Wind attribute] Uses powerful wind magic.",
+                "_fr": "[Puissance : 50 / Attribut vent] Utilise une puissante magie du vent."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "埋めちゃいますね！",
-                "_en": "I'll fill it up!",
-                "_fr": "Je vais le remplir !"
+                "_jp": "おしょうガッツ！肉球",
+                "_en": "Oshou Guts! paws",
+                "_fr": "Oshou Guts! pattes"
             },
-            "pouvoir": "190",
+            "pouvoir": "0",
             "explication": {
-                "_jp": "愛用のスコップ片手に突進し 敵に激しいダメージを与える。",
-                "_en": "Charges forward with his favorite shovel in hand and deals intense damage to the enemy.",
-                "_fr": "Charge en avant avec sa pelle préférée à la main et inflige d'intenses dégâts à l'ennemi."
+                "_jp": "お祝いの気持ちをこめた めでたい ストレートパンチを 正面の敵におみまいする",
+                "_en": "Deliver an auspicious straight punch filled with celebratory feelings to the enemy in front of you.",
+                "_fr": "Donnez un coup de poing de bon augure rempli de sentiments de célébration à l'ennemi devant vous."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "穴を掘らせる",
-                "_en": "make a hole dig",
-                "_fr": "faire un trou creuser"
+                "_jp": "あけおめパトロール",
+                "_en": "Akeome Patrol",
+                "_fr": "Patrouille Akeome"
             },
             "explication": {
-                "_jp": "【おさぼり】 とりつかれた妖怪は穴掘りしたい衝動に駆られて たまに行動しなくなる。",
-                "_en": "[Osabori] A possessed youkai is driven by the urge to dig a hole and sometimes stops acting.",
-                "_fr": "[Osabori] Un yôkai possédé est motivé par l'envie de creuser un trou et arrête parfois d'agir."
+                "_jp": "【ちからアップ】 初詣の人々を守る気持ちがみなぎり、ちからがアップ",
+                "_en": "[Power up] The feeling of protecting the people on New Year's visit is overflowing, and the power is up",
+                "_fr": "[Mise sous tension] Le sentiment de protéger les personnes lors de la visite du Nouvel An déborde et la puissance est augmentée"
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "掘ることが大好きな妖怪。 あらゆる場所を掘りまくるが Ｍｒ．スコップ自身には 深く 掘りさげてはいけない秘密が いくつもあるので要注意。",
-            "_en": "A monster who loves digging. I dig everywhere, but Mr. The shovel itself has many secrets that you shouldn't dig into, so be careful.",
-            "_fr": "Un monstre qui adore creuser. Je creuse partout, mais M. La pelle elle-même a de nombreux secrets qu'il ne faut pas creuser, alors soyez prudent."
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1159",
+    "ID": "1157"
 }

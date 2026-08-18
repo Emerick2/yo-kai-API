@@ -1,32 +1,26 @@
 {
-    "Nom": "serveuse contan",
-    "nom_original": "ウェイトレスコンたん",
-    "Tribue": "Pritchie",
-    "Rang": "C",
+    "Nom": "Sanshokudango Komasan",
+    "Tribue": "Mignon",
+    "Rang": "A",
+    "nom_original": "ごちそうジバニャン",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "お店のアイドルとなった ウェイトレス姿のコンたん。 いつもくるお客さんたちの そのデレデレな魂胆だって 彼女には ぜんぶお見通し！",
-            "_en": "Kontan, dressed as a waitress, became the idol of the restaurant. She can see through all of the customers who come all the time, even their arrogant spirits!",
-            "_fr": "Kontan, habillée en serveuse, est devenue l'idole du restaurant. Elle peut voir à travers tous les clients qui viennent tout le temps, même leur esprit arrogant !"
-        }
-    ],
-    "nourriture": "Tempura",
-    "nourriture_favorite": "Tempura",
+    "Description": "",
+    "nourriture": "Chocobo",
+    "nourriture_favorite": "Chocobo",
     "élément": "",
-    "Rôle": "guérisseur",
-    "rang_yww": "C",
+    "Rôle": "attaquant",
+    "rang_yww": "A",
     "tribue_yww": "Pritchie",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "Tempura",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "Chocobo",
     "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
-        "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
+        "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
     },
     "faiblesse_yww": {
         "_jp": "水属性",
@@ -39,18 +33,18 @@
         "_fr": "attribut de feu"
     },
     "stats_initiale_yww": {
-        "hp": 42,
-        "str": 15,
-        "spr": 27,
-        "def": 7,
-        "spd": 27
+        "hp": 56,
+        "str": 20,
+        "spr": 7,
+        "def": 13,
+        "spd": 24
     },
     "stats_max_yww": {},
     "moyens_obtention_yww": [
         {
-            "_jp": "週刊ファミ通8月2日号ふろくのシリアルコードで入手",
-            "_en": "Get it with the serial code of Weekly Famitsu August 2 issue Furoku",
-            "_fr": "Obtenez-le avec le code de série du Weekly Famitsu numéro du 2 août Furoku"
+            "_jp": "ガスト&しゃぶ葉コラボで入手",
+            "_en": "Obtained from Gusto & Shabuha collaboration",
+            "_fr": "Obtenu grâce à la collaboration Gusto & Shabuha"
         }
     ],
     "attaque_magie_yww": [
@@ -61,14 +55,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "はたく",
-                "_en": "flutter",
-                "_fr": "battement"
+                "_jp": "するどいつめ",
+                "_en": "sharp claw",
+                "_fr": "griffe acérée"
             },
             "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+                "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
+                "_en": "[Power: 15×2/Blow] Attack twice",
+                "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
             }
         },
         {
@@ -78,51 +72,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "いやしの術",
-                "_en": "Healing techniques",
-                "_fr": "Techniques de guérison"
+                "_jp": "火花の術",
+                "_en": "Spark technique",
+                "_fr": "Technique d'étincelle"
             },
             "explication": {
-                "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
+                "_jp": "【威力:30 / 火属性】 火の妖術を使う。",
+                "_en": "[Power: 30 / Fire attribute] Uses fire magic.",
+                "_fr": "[Puissance : 30 / Attribut Feu] Utilise la magie du feu."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "スマイルセットヒール",
-                "_en": "smile set heels",
-                "_fr": "sourire, mettre des talons"
+                "_jp": "ごちそう大満足肉球",
+                "_en": "Delicious and satisfying meatballs",
+                "_fr": "Boulettes de viande délicieuses et satisfaisantes"
             },
-            "pouvoir": "60",
+            "pouvoir": "15×5",
             "explication": {
-                "_jp": "お店のアイドルの笑顔に 心も身体も いやされて 味方全体のHPが回復する",
-                "_en": "The smile of the shop's idol will heal your mind and body, and the HP of all allies will be restored.",
-                "_fr": "Le sourire de l'idole de la boutique guérira votre esprit et votre corps, et les PV de tous les alliés seront restaurés."
+                "_jp": "ごちそうを食べて大満足した勢いのある肉球で敵全員をなぐりまくる",
+                "_en": "Satisfied with his feast, he hits all the enemies with his powerful paws.",
+                "_fr": "Satisfait de son festin, il frappe tous les ennemis avec ses puissantes pattes."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "注文をまちがえる",
-                "_en": "order wrong",
-                "_fr": "commande erronée"
+                "_jp": "ごちそうスタンバイ",
+                "_en": "feast standby",
+                "_fr": "fête en attente"
             },
             "explication": {
-                "_jp": "【おさぼり】 注文をまちがえて たまに行動しなくなる",
-                "_en": "[Osabori] Sometimes I make a mistake in my order and stop taking action.",
-                "_fr": "[Osabori] Parfois, je fais une erreur dans ma commande et j'arrête d'agir."
+                "_jp": "【すばやさアップ】 すばやさがアップ",
+                "_en": "[Increased speed] Increased speed",
+                "_fr": "[Augmentation de la vitesse] Augmentation de la vitesse"
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "お店のアイドルとなった ウェイトレス姿のコンたん。 いつもくるお客さんたちの そのデレデレな魂胆だって 彼女には ぜんぶお見通し！",
-            "_en": "Kontan, dressed as a waitress, became the idol of the restaurant. She can see through all of the customers who come all the time, even their arrogant spirits!",
-            "_fr": "Kontan, habillée en serveuse, est devenue l'idole du restaurant. Elle peut voir à travers tous les clients qui viennent tout le temps, même leur esprit arrogant !"
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1215",
+    "ID": "1213"
 }

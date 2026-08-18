@@ -1,8 +1,8 @@
 {
-    "Nom": "Wisbé",
-    "nom_original": "ウィスベェ",
-    "Tribue": "Nyororon",
-    "Rang": "C",
+    "Nom": "Uma Ginnan",
+    "Tribue": "Sombre",
+    "Rang": "A",
+    "nom_original": "パジャマコマじろう",
     "PV": "",
     "Force": "",
     "Esprit": "",
@@ -10,23 +10,23 @@
     "Vitesse": "",
     "Description": [
         {
-            "_jp": "戦国武将の石田三成に 妖怪軍師として仕えた妖怪。 本当の名は『シッタカブリ』。 とりつかれると知ったかぶりで でまかせばかり言ってしまう。",
-            "_en": "A yokai who served as a yokai strategist to Sengoku warlord Ishida Mitsunari. The real name is \"Shitakabuli\". When I'm obsessed with something, I pretend like I know what to do and say all kinds of random things.",
-            "_fr": "Un yokai qui a servi de stratège yokai auprès du seigneur de guerre Sengoku Ishida Mitsunari. Le vrai nom est « Shitakabuli ». Quand je suis obsédé par quelque chose, je fais semblant de savoir quoi faire et je dis toutes sortes de choses aléatoires."
+            "_jp": "故郷のお母ちゃんがこしらえた パジャマを着こんだコマじろう。 かわいいフードは 夜の散歩で 体を冷やさないように…という お母ちゃんの まごころズラ。",
+            "_en": "Komajiro is wearing pajamas made by his mother back home. A cute hoodie to keep your body cool while walking at night... A mother's sincere idea.",
+            "_fr": "Komajiro porte un pyjama confectionné par sa mère à la maison. Un joli sweat à capuche pour garder son corps au frais en marchant la nuit... Une idée sincère d'une maman."
         }
     ],
-    "nourriture": "crème douce",
-    "nourriture_favorite": "crème douce",
+    "nourriture": "lait",
+    "nourriture_favorite": "lait",
     "élément": "",
-    "Rôle": "ranger",
-    "rang_yww": "C",
-    "tribue_yww": "Nyororon",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "crème douce",
+    "Rôle": "attaquant",
+    "rang_yww": "A",
+    "tribue_yww": "Pritchie",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "lait",
     "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zuno, (Attaque sur les alliés) Coopératif, type Kenshin"
     },
     "faiblesse_yww": {
         "_jp": "土属性",
@@ -34,25 +34,25 @@
         "_fr": "attribut terre"
     },
     "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
     },
     "stats_initiale_yww": {
-        "hp": 46,
-        "str": 4,
-        "spr": 23,
-        "def": 4,
-        "spd": 33
+        "hp": 52,
+        "str": 8,
+        "spr": 26,
+        "def": 15,
+        "spd": 5
     },
-    "stats_max_yww": {
-        "hp": 376,
-        "str": 56,
-        "spr": 177,
-        "def": 47,
-        "spd": 214
-    },
-    "moyens_obtention_yww": [],
+    "stats_max_yww": {},
+    "moyens_obtention_yww": [
+        {
+            "_jp": "寝間着でゆったり妖怪ガシャ",
+            "_en": "Relaxing Yokai Gasha in nightwear",
+            "_fr": "Yokai Gasha relaxant en tenue de nuit"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -61,14 +61,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "あてみ",
-                "_en": "Atemi",
-                "_fr": "Atémi"
+                "_jp": "パンチ",
+                "_en": "punch",
+                "_fr": "punch"
             },
             "explication": {
-                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -78,51 +78,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "吸収の術",
-                "_en": "absorption technique",
-                "_fr": "technique d'absorption"
+                "_jp": "いかずちの術",
+                "_en": "Ikazuchi no Jutsu",
+                "_fr": "Ikazuchi no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
-                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
-                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
+                "_jp": "【威力:50 / 雷属性】 強力な雷の妖術を使う。",
+                "_en": "【威力:50 / 雷属性】 強力な雷の妖術を使う。",
+                "_fr": "【威力:50 / 雷属性】 強力な雷の妖術を使う。"
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "シッタカブリ吐息",
-                "_en": "Shittakabuli sigh",
-                "_fr": "Shittakabuli soupire"
+                "_jp": "パジャマでサンダー！",
+                "_en": "Thunder in pajamas!",
+                "_fr": "Tonnerre en pyjama !"
             },
-            "pouvoir": "60",
+            "pouvoir": "73",
             "explication": {
-                "_jp": "いやーなゲロを敵全体にまき散らす。まもりを大ダウンさせる効果もある。",
-                "_en": "Spreads disgusting vomit all over the enemy. It also has the effect of greatly reducing protection.",
-                "_fr": "Répand du vomi dégoûtant sur tout l'ennemi. Cela a également pour effet de réduire fortement la protection."
+                "_jp": "まるで昼間のように明るい カミナリを呼び出し 敵全員に ダメージを与える",
+                "_en": "Summons lightning that is as bright as daytime and deals damage to all enemies.",
+                "_fr": "Invoque un éclair aussi brillant que le jour et inflige des dégâts à tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "ゲロを吐く",
-                "_en": "vomit",
-                "_fr": "vomir"
+                "_jp": "ソヨソヨよかぜ",
+                "_en": "Soyosoyo yokaze",
+                "_fr": "Soyosoyo yokaze"
             },
             "explication": {
-                "_jp": "【まもりダウン】 とりつかれた妖怪はゲロまみれになり まもりが大ダウンする。",
-                "_en": "[Mamori Down] The possessed monster becomes covered in vomit and its protection is greatly reduced.",
-                "_fr": "[Mamori Down] Le monstre possédé se couvre de vomi et sa protection est considérablement réduite."
+                "_jp": "【まもりアップ】 おだやかな夜風にあたり まもりがアップ",
+                "_en": "[Increased protection] Increased protection in the gentle night breeze",
+                "_fr": "[Protection accrue] Protection accrue dans la douce brise nocturne"
             }
         }
     ],
     "explication_yww": [
         {
-            "_jp": "戦国武将の石田三成に 妖怪軍師として仕えた妖怪。 本当の名は『シッタカブリ』。 とりつかれると知ったかぶりで でまかせばかり言ってしまう。",
-            "_en": "A yokai who served as a yokai strategist to Sengoku warlord Ishida Mitsunari. The real name is \"Shitakabuli\". When I'm obsessed with something, I pretend like I know what to do and say all kinds of random things.",
-            "_fr": "Un yokai qui a servi de stratège yokai auprès du seigneur de guerre Sengoku Ishida Mitsunari. Le vrai nom est « Shitakabuli ». Quand je suis obsédé par quelque chose, je fais semblant de savoir quoi faire et je dis toutes sortes de choses aléatoires."
+            "_jp": "故郷のお母ちゃんがこしらえた パジャマを着こんだコマじろう。 かわいいフードは 夜の散歩で 体を冷やさないように…という お母ちゃんの まごころズラ。",
+            "_en": "Komajiro is wearing pajamas made by his mother back home. A cute hoodie to keep your body cool while walking at night... A mother's sincere idea.",
+            "_fr": "Komajiro porte un pyjama confectionné par sa mère à la maison. Un joli sweat à capuche pour garder son corps au frais en marchant la nuit... Une idée sincère d'une maman."
         }
-    ]
+    ],
+    "oldID": "1147",
+    "ID": "1145"
 }

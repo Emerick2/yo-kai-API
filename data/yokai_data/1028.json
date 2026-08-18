@@ -1,8 +1,8 @@
 {
-    "Nom": "くだん・怪",
-    "nom_original": "くだん・怪",
-    "Tribue": "Kaima",
-    "Rang": "C",
+    "Nom": "Hallowhis",
+    "Tribue": "Insaisissable",
+    "Rang": "A",
+    "nom_original": "ウ魔ギンナン",
     "PV": "",
     "Force": "",
     "Esprit": "",
@@ -10,48 +10,42 @@
     "Vitesse": "",
     "Description": [
         {
-            "_jp": "くだんが怪魔化した姿。 不吉な予言ばかり 人々に告げて 怖がっている顔を見て ニヤニヤ喜んでいる。",
-            "_en": "The appearance of Kudan turning into a monster. He tells people all of his ominous prophecies, and when he sees their scared faces, he smiles with joy.",
-            "_fr": "L'apparition de Kudan se transformant en monstre. Il raconte aux gens toutes ses prophéties inquiétantes et quand il voit leurs visages effrayés, il sourit de joie."
+            "_jp": "大きなイチョウの葉を 背中にさして ゴキゲンなウ魔。 羽はどこに行ってしまったのか。 正体不明な ウ魔の謎は 秋とともに 深まるばかり。",
+            "_en": "A nervous horse with a large ginkgo leaf on his back. Where did the feathers go? The mystery of the unidentified beast only deepens as autumn approaches.",
+            "_fr": "Un cheval nerveux avec une grande feuille de ginkgo sur le dos. Où sont passées les plumes ? Le mystère de la bête non identifiée ne fait que s’approfondir à l’approche de l’automne."
         }
     ],
-    "nourriture": "すし",
-    "nourriture_favorite": "すし",
+    "nourriture": "",
+    "nourriture_favorite": "",
     "élément": "",
-    "Rôle": "ヒーラー",
-    "rang_yww": "C",
-    "tribue_yww": "Kaima",
-    "rôle_yww": "ヒーラー",
-    "plat_préféré_yww": "すし",
+    "Rôle": "ranger",
+    "rang_yww": "A",
+    "tribue_yww": "Usurakage",
+    "rôle_yww": "ranger",
+    "plat_préféré_yww": null,
     "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
-        "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
+        "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
     },
     "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "水属性",
-        "_fr": "水属性"
+        "_jp": "土属性",
+        "_en": "earth attribute",
+        "_fr": "attribut terre"
     },
     "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "土属性",
-        "_fr": "土属性"
+        "_jp": "雷属性",
+        "_en": "Lightning attribute",
+        "_fr": "Attribut de foudre"
     },
     "stats_initiale_yww": {
-        "hp": 51,
-        "str": 23,
-        "spr": 30,
-        "def": 5,
-        "spd": 17
+        "hp": 49,
+        "str": 27,
+        "spr": 7,
+        "def": 23,
+        "spd": 31
     },
-    "stats_max_yww": {
-        "hp": 440,
-        "str": 166,
-        "spr": 190,
-        "def": 40,
-        "spd": 156
-    },
+    "stats_max_yww": {},
     "moyens_obtention_yww": [],
     "attaque_magie_yww": [
         {
@@ -61,14 +55,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "あてみ",
-                "_en": "Atemi",
-                "_fr": "Atémi"
+                "_jp": "くらいつく",
+                "_en": "Approximately",
+                "_fr": "Environ"
             },
             "explication": {
-                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+                "_en": "[Power: 50/Blow] Deal a big blow",
+                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
             }
         },
         {
@@ -78,51 +72,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "回復の術",
-                "_en": "回復の術",
-                "_fr": "回復の術"
+                "_jp": "吸収の術",
+                "_en": "absorption technique",
+                "_fr": "technique d'absorption"
             },
             "explication": {
-                "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
-                "_en": "【威力:50 / 回復】 味方のHPを回復する。",
-                "_fr": "【威力:50 / 回復】 味方のHPを回復する。"
+                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "いやしの吉兆",
-                "_en": "Good omen of healing",
-                "_fr": "Bon présage de guérison"
+                "_jp": "激烈！銀杏スメル",
+                "_en": "Intense! ginkgo smelt",
+                "_fr": "Intense! odeur de ginkgo"
             },
-            "pouvoir": "0",
+            "pouvoir": "95",
             "explication": {
-                "_jp": "良い運命を導く予知で幸せなふんいきを作り出し 味方全員のHPを回復する。",
-                "_en": "Creates a happy atmosphere with predictions that lead to a good fate and restores the HP of all allies.",
-                "_fr": "Crée une atmosphère joyeuse avec des prédictions qui mènent à un bon sort et restaure les HP de tous les alliés."
+                "_jp": "銀杏の激烈な悪臭を 正面の敵に 発射して まもりを 大ダウンさせる",
+                "_en": "Fires the intense stench of ginkgo at the enemy in front of you, greatly knocking down Mamori.",
+                "_fr": "Tire la puanteur intense du ginkgo sur l'ennemi devant vous, renversant grandement Mamori."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "不幸な呪い",
-                "_en": "不幸な呪い",
-                "_fr": "不幸な呪い"
+                "_jp": "空翔けるイチョウの羽",
+                "_en": "Ginkgo feathers flying in the sky",
+                "_fr": "Plumes de ginkgo volant dans le ciel"
             },
             "explication": {
-                "_jp": "【ちからダウン】 とりつかれた妖怪は不幸な呪いにみまわれ ちからがダウンする。",
-                "_en": "【ちからダウン】 とりつかれた妖怪は不幸な呪いにみまわれ ちからがダウンする。",
-                "_fr": "【ちからダウン】 とりつかれた妖怪は不幸な呪いにみまわれ ちからがダウンする。"
+                "_jp": "【すばやさアップ】 イチョウの葉を羽のようにして すばやさが大アップ",
+                "_en": "[Increases speed] Use ginkgo leaves like wings to greatly increase speed.",
+                "_fr": "[Augmente la vitesse] Utilisez des feuilles de ginkgo comme des ailes pour augmenter considérablement la vitesse."
             }
         }
     ],
     "explication_yww": [
         {
-            "_jp": "くだんが怪魔化した姿。 不吉な予言ばかり 人々に告げて 怖がっている顔を見て ニヤニヤ喜んでいる。",
-            "_en": "The appearance of Kudan turning into a monster. He tells people all of his ominous prophecies, and when he sees their scared faces, he smiles with joy.",
-            "_fr": "L'apparition de Kudan se transformant en monstre. Il raconte aux gens toutes ses prophéties inquiétantes et quand il voit leurs visages effrayés, il sourit de joie."
+            "_jp": "大きなイチョウの葉を 背中にさして ゴキゲンなウ魔。 羽はどこに行ってしまったのか。 正体不明な ウ魔の謎は 秋とともに 深まるばかり。",
+            "_en": "A nervous horse with a large ginkgo leaf on his back. Where did the feathers go? The mystery of the unidentified beast only deepens as autumn approaches.",
+            "_fr": "Un cheval nerveux avec une grande feuille de ginkgo sur le dos. Où sont passées les plumes ? Le mystère de la bête non identifiée ne fait que s’approfondir à l’approche de l’automne."
         }
-    ]
+    ],
+    "oldID": "1145",
+    "ID": "1143"
 }

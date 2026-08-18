@@ -1,8 +1,8 @@
 {
-    "Nom": "pierre de rosette",
-    "nom_original": "ロゼッタストーン",
-    "Tribue": "Pokapoka",
+    "Nom": "Haregi Enraenra",
+    "Tribue": "Mystérieux",
     "Rang": "S",
+    "nom_original": "晴れ着ラビィ",
     "PV": "",
     "Force": "",
     "Esprit": "",
@@ -12,10 +12,10 @@
     "nourriture": "",
     "nourriture_favorite": "",
     "élément": "",
-    "Rôle": "réservoir",
+    "Rôle": "attaquant",
     "rang_yww": "S",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "réservoir",
+    "tribue_yww": "Fushigi",
+    "rôle_yww": "attaquant",
     "plat_préféré_yww": null,
     "attitude_spécifique_yww": {
         "_jp": "編集中です。",
@@ -23,18 +23,24 @@
         "_fr": "Montage en cours."
     },
     "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
     },
     "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
     },
     "stats_initiale_yww": {},
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+            "_en": "First half of Yokai Gasha",
+            "_fr": "Première moitié de Yokai Gasha"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -43,14 +49,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "カード",
+                "_en": "card",
+                "_fr": "carte"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
+                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -60,45 +66,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "吹雪の術",
+                "_en": "Fubuki no Jutsu",
+                "_fr": "Fubuki no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:70 / 氷属性】 強力な氷の妖術を使う。",
+                "_en": "[Power: 70 / Ice attribute] Uses powerful ice magic.",
+                "_fr": "[Puissance : 70 / Attribut Glace] Utilise une puissante magie de glace."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "しりとりしよっ！",
-                "_en": "Let's do Shiritori!",
-                "_fr": "Faisons Shiritori !"
+                "_jp": "初夢の恋物語",
+                "_en": "first dream love story",
+                "_fr": "première histoire d'amour de rêve"
             },
-            "pouvoir": "0",
+            "pouvoir": "222",
             "explication": {
-                "_jp": "重たい岩石を落とし敵に大ダメージを与える。",
-                "_en": "Drops heavy rocks, causing great damage to enemies.",
-                "_fr": "Lâche de lourdes pierres, causant de gros dégâts aux ennemis."
+                "_jp": "初夢の恋の詩が書かれたカードを投げて、左右の敵にダメージを与える",
+                "_en": "Throw a card with a poem of love written on it to deal damage to the enemies on the left and right.",
+                "_fr": "Lancez une carte avec un poème d'amour écrit dessus pour infliger des dégâts aux ennemis à gauche et à droite."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "着くずれしちゃう",
+                "_en": "I'll arrive late",
+                "_fr": "j'arriverai tard"
             },
             "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
+                "_jp": "【おさぼり】 晴れ着の着くずれが気になって、たまに行動しなくなる",
+                "_en": "[Osabori] Sometimes I don't do anything because I'm worried about my best clothes slipping off.",
+                "_fr": "[Osabori] Parfois, je ne fais rien parce que j'ai peur que mes plus beaux vêtements glissent."
             }
         }
     ],
-    "explication_yww": []
+    "explication_yww": [],
+    "oldID": "1160",
+    "ID": "1158"
 }

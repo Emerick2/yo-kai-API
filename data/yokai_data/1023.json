@@ -1,57 +1,45 @@
 {
-    "Nom": "Dorotabō/Kai",
-    "nom_original": "泥田坊・怪",
-    "Tribue": "かいま族",
-    "Rang": "B",
+    "Nom": "Ko Akuma Komasan",
+    "Tribue": "Mignon",
+    "Rang": "A",
+    "nom_original": "モミジバニャン",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "泥田坊が怪魔化した姿。 憎しみの心にとらわれ うらみの力が増した。 田んぼを通りがかった人の 足をつかんで引きずり込む。",
-            "_en": "Dorotabo turned into a monster. Caught in a heart of hatred, the power of envy has increased. He grabs a passerby by the foot and drags him through the rice field.",
-            "_fr": "Dorotabo s'est transformé en monstre. Pris dans un cœur de haine, le pouvoir de l’envie s’est accru. Il attrape un passant par le pied et le traîne à travers la rizière."
-        }
-    ],
-    "nourriture": "おでん",
-    "nourriture_favorite": "おでん",
+    "Description": "",
+    "nourriture": "Chocobo",
+    "nourriture_favorite": "Chocobo",
     "élément": "",
-    "Rôle": "réservoir",
-    "rang_yww": "B",
-    "tribue_yww": "かいま族",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "おでん",
+    "Rôle": "attaquant",
+    "rang_yww": "A",
+    "tribue_yww": "Pritchie",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "Chocobo",
     "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
-        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
+    },
+    "avantage_yww": {
         "_jp": "風属性",
         "_en": "wind attribute",
         "_fr": "attribut du vent"
     },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "土属性",
-        "_fr": "土属性"
-    },
     "stats_initiale_yww": {
-        "hp": 78,
-        "str": 45,
-        "spr": 5,
-        "def": 13,
-        "spd": 8
+        "hp": 41,
+        "str": 30,
+        "spr": 6,
+        "def": 14,
+        "spd": 31
     },
-    "stats_max_yww": {
-        "hp": 515,
-        "str": 281,
-        "spr": 89,
-        "def": 109,
-        "spd": 89
-    },
+    "stats_max_yww": {},
     "moyens_obtention_yww": [],
     "attaque_magie_yww": [
         {
@@ -61,68 +49,64 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "ぶんなぐる",
-                "_en": "ぶんなぐる",
-                "_fr": "ぶんなぐる"
+                "_jp": "するどいつめ",
+                "_en": "sharp claw",
+                "_fr": "griffe acérée"
             },
             "explication": {
-                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
-                "_en": "[Power: 50/Blow] Deal a big blow",
-                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
+                "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
+                "_en": "[Power: 15×2/Blow] Attack twice",
+                "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
             }
         },
         {
             "type": {
                 "_jp": "ようじゅつ",
-                "_en": "ようじゅつ",
-                "_fr": "ようじゅつ"
+                "_en": "Yojutsu",
+                "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "落石の術",
-                "_en": "落石の術",
-                "_fr": "落石の術"
+                "_jp": "竜巻の術",
+                "_en": "Tornado no Jutsu",
+                "_fr": "Tornade sans Jutsu"
             },
             "explication": {
-                "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
-                "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
-                "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
+                "_jp": "【威力:50 / 風属性】 強力な風の妖術を使う。",
+                "_en": "[Power: 50 / Wind attribute] Uses powerful wind magic.",
+                "_fr": "[Puissance : 50 / Attribut vent] Utilise une puissante magie du vent."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "田を返せ～田を返せ～",
-                "_en": "Give back the rice fields ~ Give back the rice fields ~",
-                "_fr": "Redonnez les rizières ~ Redonnez les rizières ~"
+                "_jp": "メイプル肉球",
+                "_en": "maple paws",
+                "_fr": "pattes d'érable"
             },
-            "pouvoir": "0",
+            "pouvoir": "15×5",
             "explication": {
-                "_jp": "田の恨みがこもった危険な呪いで敵全員のちからを大ダウンさせる。",
-                "_en": "A dangerous curse filled with Tan's grudge that greatly reduces the power of all enemies.",
-                "_fr": "Une malédiction dangereuse remplie de rancune de Tan qui réduit considérablement la puissance de tous les ennemis."
+                "_jp": "もみじ色に染まった メイプルな肉球で 敵全員を なぐりまくる",
+                "_en": "It hits all the enemies with its maple paws dyed the color of maple.",
+                "_fr": "Il frappe tous les ennemis avec ses pattes en érable teintes en couleur d'érable."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "田の恨み",
-                "_en": "Den's grudge",
-                "_fr": "La rancune de Den"
+                "_jp": "もみじ狩りをする",
+                "_en": "go maple picking",
+                "_fr": "aller cueillir des érables"
             },
             "explication": {
-                "_jp": "【HP減少】 とりつかれた妖怪は田んぼの恨みをかけられHPが少しずつ減ってしまう。",
-                "_en": "[HP Decrease] The possessed youkai suffers the grudge of the rice fields and its HP gradually decreases.",
-                "_fr": "[Diminution des PV] Le youkai possédé subit la rancune des rizières et ses PV diminuent progressivement."
+                "_jp": "【おさぼり】 お気に入りのもみじを探したくなり たまに行動しなくなる",
+                "_en": "[Osabori] I want to look for my favorite maple and sometimes I don't do anything.",
+                "_fr": "[Osabori] Je veux chercher mon érable préféré et parfois je ne fais rien."
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "泥田坊が怪魔化した姿。 憎しみの心にとらわれ うらみの力が増した。 田んぼを通りがかった人の 足をつかんで引きずり込む。",
-            "_en": "Dorotabo turned into a monster. Caught in a heart of hatred, the power of envy has increased. He grabs a passerby by the foot and drags him through the rice field.",
-            "_fr": "Dorotabo s'est transformé en monstre. Pris dans un cœur de haine, le pouvoir de l’envie s’est accru. Il attrape un passant par le pied et le traîne à travers la rizière."
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1135",
+    "ID": "1133"
 }

@@ -1,46 +1,52 @@
 {
-    "Nom": "G affamé",
-    "nom_original": "ハングリーG",
-    "Tribue": "Pokapoka",
-    "Rang": "B",
+    "Nom": "Tsukimi Komasan",
+    "Tribue": "Mignon",
+    "Rang": "C",
+    "nom_original": "月見ジバニャン",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "ＵＳＡの超大食い妖怪。 その食欲は ひも爺の２倍以上。 コイツにとりつかれた人間が 食べ放題のお店にやって来たら そのお店は潰れてしまうという。",
-            "_en": "USA's super-eating monster. His appetite is more than twice that of Old Man Himo. It is said that if a person possessed by this guy came to an all-you-can-eat restaurant, the restaurant would go out of business.",
-            "_fr": "Le monstre super-mangeur des États-Unis. Son appétit est plus du double de celui du vieil homme Himo. On dit que si une personne possédée par ce type venait dans un restaurant à volonté, le restaurant ferait faillite."
-        }
-    ],
-    "nourriture": "viande",
-    "nourriture_favorite": "viande",
+    "Description": "",
+    "nourriture": "Chocobo",
+    "nourriture_favorite": "Chocobo",
     "élément": "",
-    "Rôle": "guérisseur",
-    "rang_yww": "B",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "viande",
+    "Rôle": "attaquant",
+    "rang_yww": "S",
+    "tribue_yww": "Pritchie",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "Chocobo",
     "attitude_spécifique_yww": {
-        "_jp": "編集中です。",
-        "_en": "Editing in progress.",
-        "_fr": "Montage en cours."
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
     },
     "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
     },
-    "stats_initiale_yww": {},
+    "stats_initiale_yww": {
+        "hp": 61,
+        "str": 31,
+        "spr": 18,
+        "def": 17,
+        "spd": 42
+    },
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "十五夜コイン",
+            "_en": "jugoya coin",
+            "_fr": "pièce de monnaie jugoya"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -49,14 +55,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "たたく",
+                "_en": "knock",
+                "_fr": "frappe"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -66,51 +72,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "れんごくの術",
+                "_en": "Rengoku no Jutsu",
+                "_fr": "Rengoku no Jutsu"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:70 / 火属性】 強力な火の妖術を使う。",
+                "_en": "[Power: 70 / Fire attribute] Uses powerful fire magic.",
+                "_fr": "[Puissance : 70 / Attribut Feu] Utilise une puissante magie du feu."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "ｈｕｎｇｒｙ‐Ｇ？",
-                "_en": "hungry-G?",
-                "_fr": "faim-G ?"
+                "_jp": "ひゃくれつお団子肉球",
+                "_en": "Hyakuretsu Dango Meatballs",
+                "_fr": "Boulettes de viande Hyakuretsu Dango"
             },
-            "pouvoir": "0",
+            "pouvoir": "15×5",
             "explication": {
-                "_jp": "肉を食べまくってHPを回復しつつ最強の状態になる。",
-                "_en": "Eat a lot of meat and recover your HP until you reach your strongest state.",
-                "_fr": "Mangez beaucoup de viande et récupérez vos HP jusqu'à atteindre votre état le plus fort."
+                "_jp": "お団子のように弾力のある拳で リズミカルに なぐりまくり 敵全員にダメージを与える",
+                "_en": "Rhythmically punch with a ball-like fist, damaging all enemies.",
+                "_fr": "Frappez rythmiquement avec un poing en forme de balle, endommageant tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "おなかペコペコにする",
-                "_en": "make your stomach bloat",
-                "_fr": "faire gonfler ton ventre"
+                "_jp": "夜空を見上げる",
+                "_en": "look up at the night sky",
+                "_fr": "regarde le ciel nocturne"
             },
             "explication": {
-                "_jp": "【ちからダウン】 とりつかれた妖怪はおなかがペコペコになり ちからがダウンする。",
-                "_en": "[Power Down] A possessed monster's stomach becomes flat and its power goes down.",
-                "_fr": "[Power Down] Le ventre du monstre possédé devient plat et sa puissance diminue."
+                "_jp": "【おさぼり】 夜空を見上げて たまに行動しなくなる",
+                "_en": "[Osabori] I look up at the night sky and sometimes stop acting.",
+                "_fr": "[Osabori] Je regarde le ciel nocturne et parfois j'arrête de jouer."
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "ＵＳＡの超大食い妖怪。 その食欲は ひも爺の２倍以上。 コイツにとりつかれた人間が 食べ放題のお店にやって来たら そのお店は潰れてしまうという。",
-            "_en": "USA's super-eating monster. His appetite is more than twice that of Old Man Himo. It is said that if a person possessed by this guy came to an all-you-can-eat restaurant, the restaurant would go out of business.",
-            "_fr": "Le monstre super-mangeur des États-Unis. Son appétit est plus du double de celui du vieil homme Himo. On dit que si une personne possédée par ce type venait dans un restaurant à volonté, le restaurant ferait faillite."
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1126",
+    "ID": "1124"
 }

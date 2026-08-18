@@ -1,40 +1,58 @@
 {
-    "Nom": "je me sens en colère",
-    "nom_original": "ふてくさる",
-    "Tribue": "Usurakage",
-    "Rang": "B",
+    "Nom": "Onsen Komajiro",
+    "Tribue": "Mignon",
+    "Rang": "A",
+    "nom_original": "フユオカミ",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": "",
-    "nourriture": "",
-    "nourriture_favorite": "",
+    "Description": [
+        {
+            "_jp": "冬の訪れと共に 姿を現しては 美しい銀世界を舞う 雪山の母。 激しい吹雪を呼び起こす舞で 山に雪化粧をほどこし 春を 迎えるための沈黙をもたらす。",
+            "_en": "With the arrival of winter, the mother of snowy mountains appears and dances in a beautiful silver world. The dance evokes a violent snowstorm, coating the mountains with snow and bringing silence to welcome spring.",
+            "_fr": "Avec l’arrivée de l’hiver, la mère des montagnes enneigées apparaît et danse dans un magnifique monde argenté. La danse évoque une violente tempête de neige, recouvrant les montagnes de neige et apportant le silence pour accueillir le printemps."
+        }
+    ],
+    "nourriture": "légumes",
+    "nourriture_favorite": "légumes",
     "élément": "",
-    "Rôle": "ranger",
-    "rang_yww": "B",
-    "tribue_yww": "Usurakage",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": null,
+    "Rôle": "guérisseur",
+    "rang_yww": "S",
+    "tribue_yww": "Pokapoka",
+    "rôle_yww": "guérisseur",
+    "plat_préféré_yww": "légumes",
     "attitude_spécifique_yww": {
-        "_jp": "編集中です。",
-        "_en": "Editing in progress.",
-        "_fr": "Montage en cours."
+        "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
+        "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
+        "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
     },
     "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
     },
     "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
     },
-    "stats_initiale_yww": {},
+    "stats_initiale_yww": {
+        "hp": 65,
+        "str": 10,
+        "spr": 34,
+        "def": 31,
+        "spd": 14
+    },
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "幻の雪山の宿妖怪ガシャ",
+            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -43,14 +61,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "はりたおす",
+                "_en": "Haritaosu",
+                "_fr": "Haritaosu"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+                "_en": "[Power: 25×2/Blow] Attack twice",
+                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
             }
         },
         {
@@ -60,45 +78,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "極楽の術",
+                "_en": "The art of paradise",
+                "_fr": "L'art du paradis"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "不満爆発ボンバー",
-                "_en": "Dissatisfied Bomber",
-                "_fr": "Bombardier mécontent"
+                "_jp": "白銀の吐息",
+                "_en": "silver breath",
+                "_fr": "souffle d'argent"
             },
-            "pouvoir": "0",
+            "pouvoir": "–",
             "explication": {
-                "_jp": "まわりの敵味方に超ダメージ。自分もダメージを受ける。",
-                "_en": "Great damage to surrounding enemies and allies. You will also take damage.",
-                "_fr": "Gros dégâts aux ennemis et alliés environnants. Vous subirez également des dégâts."
+                "_jp": "静寂な冬山の 澄んだ風で 味方全員を復活させ HPも回復する",
+                "_en": "静寂な冬山の 澄んだ風で 味方全員を復活させ HPも回復する",
+                "_fr": "静寂な冬山の 澄んだ風で 味方全員を復活させ HPも回復する"
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "氷雪の舞",
+                "_en": "ice and snow dance",
+                "_fr": "danse de la glace et de la neige"
             },
             "explication": {
-                "_jp": "【–】 –",
-                "_en": "【–】 –",
-                "_fr": "【–】 –"
+                "_jp": "【HP減少】 激しい氷雪を呼び寄せる舞で HPがだんだん減っていく",
+                "_en": "[HP decrease] HP gradually decreases due to the dance that summons intense ice and snow",
+                "_fr": "[Diminution des HP] Les HP diminuent progressivement en raison de la danse qui invoque de la glace et de la neige intenses"
             }
         }
     ],
-    "explication_yww": []
+    "explication_yww": [
+        {
+            "_jp": "冬の訪れと共に 姿を現しては 美しい銀世界を舞う 雪山の母。 激しい吹雪を呼び起こす舞で 山に雪化粧をほどこし 春を 迎えるための沈黙をもたらす。",
+            "_en": "With the arrival of winter, the mother of snowy mountains appears and dances in a beautiful silver world. The dance evokes a violent snowstorm, coating the mountains with snow and bringing silence to welcome spring.",
+            "_fr": "Avec l’arrivée de l’hiver, la mère des montagnes enneigées apparaît et danse dans un magnifique monde argenté. La danse évoque une violente tempête de neige, recouvrant les montagnes de neige et apportant le silence pour accueillir le printemps."
+        }
+    ],
+    "oldID": "1168",
+    "ID": "1166"
 }

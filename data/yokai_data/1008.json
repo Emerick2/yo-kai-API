@@ -1,8 +1,8 @@
 {
-    "Nom": "Afro13",
-    "nom_original": "アフロ13",
-    "Tribue": "Pokapoka",
-    "Rang": "D",
+    "Nom": "Kaguya Usapyon",
+    "Tribue": "Sombre",
+    "Rang": "C",
+    "nom_original": "黒ニャン騎士",
     "PV": "",
     "Force": "",
     "Esprit": "",
@@ -10,23 +10,23 @@
     "Vitesse": "",
     "Description": [
         {
-            "_jp": "妖怪宇宙ロケットによる 月面探査計画の隊員に選ばれ 来たるべき出発の日にむけて 訓練中。自慢のアフロが邪魔で ヘルメットが入らないのが問題。",
-            "_en": "He has been selected as a member of a Yokai Space Rocket mission to explore the moon, and is currently training for the upcoming departure. The problem is that my proud afro gets in the way and my helmet won't fit.",
-            "_fr": "Il a été sélectionné comme membre d'une mission Yokai Space Rocket pour explorer la lune et s'entraîne actuellement pour le prochain départ. Le problème est que ma fière afro me gêne et que mon casque ne rentre pas."
+            "_jp": "強さを追い求めるため 国を捨て 放浪者となった。 放浪を始めたものの 方向音痴のせいで なかなか 目的地にたどり着けない。",
+            "_en": "In pursuit of strength, he abandoned his country and became a wanderer. Although he started wandering, he had a hard time reaching his destination due to his lack of sense of direction.",
+            "_fr": "En quête de force, il abandonna son pays et devint un vagabond. Bien qu’il ait commencé à errer, il a eu du mal à atteindre sa destination en raison de son manque de sens de l’orientation."
         }
     ],
-    "nourriture": "Donut",
-    "nourriture_favorite": "Donut",
+    "nourriture": "viande",
+    "nourriture_favorite": "viande",
     "élément": "",
-    "Rôle": "guérisseur",
-    "rang_yww": "D",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "Donut",
+    "Rôle": "attaquant",
+    "rang_yww": "S",
+    "tribue_yww": "Isamashi",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "viande",
     "attitude_spécifique_yww": {
-        "_jp": "編集中です。",
-        "_en": "Editing in progress.",
-        "_fr": "Montage en cours."
+        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
         "_jp": "火属性",
@@ -38,9 +38,21 @@
         "_en": "ice attribute",
         "_fr": "attribut de glace"
     },
-    "stats_initiale_yww": {},
+    "stats_initiale_yww": {
+        "hp": 52,
+        "str": 22,
+        "spr": 9,
+        "def": 49,
+        "spd": 18
+    },
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "コロコロコミック10月号のふろくで入手(Android限定)",
+            "_en": "Obtained from Furoku in the October issue of CoroCoro Comic (Android only)",
+            "_fr": "Obtenu auprès de Furoku dans le numéro d'octobre de CoroCoro Comic (Android uniquement)"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -49,14 +61,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "ずつき",
-                "_en": "Zutsuki",
-                "_fr": "Zutsuki"
+                "_jp": "閃光ぎり",
+                "_en": "Just a flash of light",
+                "_fr": "Juste un éclair de lumière"
             },
             "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体に攻撃する。",
-                "_en": "[Power: 30/Blow] Attacks one enemy.",
-                "_fr": "[Puissance : 30/Coup] Attaque un ennemi."
+                "_jp": "【威力:24×3 / 打撃】 3回攻撃を行う",
+                "_en": "[Power: 24×3/Blow] Attacks 3 times",
+                "_fr": "[Puissance : 24×3/Coup] Attaque 3 fois"
             }
         },
         {
@@ -66,51 +78,53 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "あられの術",
-                "_en": "Hail no jutsu",
-                "_fr": "Salut, pas de jutsu"
+                "_jp": "氷結の術",
+                "_en": "Freezing technique",
+                "_fr": "Technique de congélation"
             },
             "explication": {
-                "_jp": "【威力:30 / 氷属性】 氷の妖術を使う。",
-                "_en": "[Power: 30 / Ice attribute] Uses ice magic.",
-                "_fr": "[Puissance : 30 / Attribut Glace] Utilise la magie de la glace."
+                "_jp": "【威力:50 / 氷属性】 強力な氷の妖術を使う。",
+                "_en": "[Power: 50 / Ice attribute] Uses powerful ice magic.",
+                "_fr": "[Puissance : 50 / Attribut Glace] Utilise une puissante magie de glace."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "無重力アフロパワー",
-                "_en": "weightless afro power",
-                "_fr": "puissance afro en apesanteur"
+                "_jp": "黒ニャクスキャリバー",
+                "_en": "black nyaku caliber",
+                "_fr": "calibre nyaku noir"
             },
-            "pouvoir": "0",
+            "pouvoir": "32×5",
             "explication": {
-                "_jp": "まわりの味方のスピードをしばらく大アップ",
-                "_en": "Greatly increases the speed of surrounding allies for a while.",
-                "_fr": "Augmente considérablement la vitesse des alliés environnants pendant un certain temps."
+                "_jp": "黒き騎士のつるぎで 勇敢に斬りかかり 敵全員に ダメージを与える",
+                "_en": "Bravely slash with the black knight's sword, dealing damage to all enemies.",
+                "_fr": "Tranchez courageusement avec l'épée du chevalier noir, infligeant des dégâts à tous les ennemis."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "無重力にする",
-                "_en": "make it weightless",
-                "_fr": "rends-le en apesanteur"
+                "_jp": "方向音痴",
+                "_en": "sense of direction",
+                "_fr": "sens de l'orientation"
             },
             "explication": {
-                "_jp": "【すばやさアップ】 とりつかれた妖怪は体が無重力のように軽くなり すばやさがアップする。",
-                "_en": "[Increased speed] A possessed monster's body becomes as light as weightless, increasing its speed.",
-                "_fr": "[Vitesse accrue] Le corps d'un monstre possédé devient aussi léger qu'en apesanteur, augmentant sa vitesse."
+                "_jp": "【全ステダウン】 方向音痴になって 全ステータスがダウン",
+                "_en": "[All status down] All status goes down due to lack of direction.",
+                "_fr": "[Tous les statuts baissés] Tous les statuts diminuent en raison d'un manque de direction."
             }
         }
     ],
     "explication_yww": [
         {
-            "_jp": "妖怪宇宙ロケットによる 月面探査計画の隊員に選ばれ 来たるべき出発の日にむけて 訓練中。自慢のアフロが邪魔で ヘルメットが入らないのが問題。",
-            "_en": "He has been selected as a member of a Yokai Space Rocket mission to explore the moon, and is currently training for the upcoming departure. The problem is that my proud afro gets in the way and my helmet won't fit.",
-            "_fr": "Il a été sélectionné comme membre d'une mission Yokai Space Rocket pour explorer la lune et s'entraîne actuellement pour le prochain départ. Le problème est que ma fière afro me gêne et que mon casque ne rentre pas."
+            "_jp": "強さを追い求めるため 国を捨て 放浪者となった。 放浪を始めたものの 方向音痴のせいで なかなか 目的地にたどり着けない。",
+            "_en": "In pursuit of strength, he abandoned his country and became a wanderer. Although he started wandering, he had a hard time reaching his destination due to his lack of sense of direction.",
+            "_fr": "En quête de force, il abandonna son pays et devint un vagabond. Bien qu’il ait commencé à errer, il a eu du mal à atteindre sa destination en raison de son manque de sens de l’orientation."
         }
-    ]
+    ],
+    "oldID": "1130",
+    "ID": "1128"
 }

@@ -1,40 +1,46 @@
 {
-    "Nom": "Yodersen",
-    "nom_original": "ヨーデルセン",
-    "Tribue": "Fushigi",
+    "Nom": "Haregi Rabby",
+    "Tribue": "Mystérieux",
     "Rang": "S",
+    "nom_original": "晴れ着ジバニャン",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
     "Description": "",
-    "nourriture": "",
-    "nourriture_favorite": "",
+    "nourriture": "Chocobo",
+    "nourriture_favorite": "Chocobo",
     "élément": "",
-    "Rôle": "ranger",
+    "Rôle": "attaquant",
     "rang_yww": "S",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": null,
+    "tribue_yww": "Pritchie",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "Chocobo",
     "attitude_spécifique_yww": {
         "_jp": "編集中です。",
         "_en": "Editing in progress.",
         "_fr": "Montage en cours."
     },
     "faiblesse_yww": {
-        "_jp": "–",
-        "_en": null,
-        "_fr": null
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
     },
     "avantage_yww": {
-        "_jp": "–",
-        "_en": null,
-        "_fr": null
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
     },
     "stats_initiale_yww": {},
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+            "_en": "First half of Yokai Gasha",
+            "_fr": "Première moitié de Yokai Gasha"
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -43,14 +49,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "するどいつめ",
+                "_en": "sharp claw",
+                "_fr": "griffe acérée"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
+                "_en": "[Power: 15×2/Blow] Attack twice",
+                "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
             }
         },
         {
@@ -60,45 +66,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "火炎の術",
+                "_en": "flame technique",
+                "_fr": "technique de la flamme"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
+                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
+                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "めくりゆく真理",
-                "_en": "The turning truth",
-                "_fr": "La vérité tournante"
+                "_jp": "新春ひゃくれつ肉球",
+                "_en": "New Year Hyakuretsu Paws",
+                "_fr": "Pattes Hyakuretsu du Nouvel An"
             },
-            "pouvoir": "0",
+            "pouvoir": "39×5",
             "explication": {
-                "_jp": "こんしんの一撃で前方の敵に大ダメージを与える。",
-                "_en": "Deals heavy damage to enemies in front with a single blow.",
-                "_fr": "Inflige de lourds dégâts aux ennemis devant d'un seul coup."
+                "_jp": "お正月の ケン玉あそびで きたえあげた肉球で 敵全員を なぐりまくる",
+                "_en": "Hit all the enemies with the paws you made during the Kendama game on New Year's Day.",
+                "_fr": "Frappez tous les ennemis avec les pattes que vous avez fabriquées lors du jeu Kendama le jour de l'An."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "初日の出ダッシュ",
+                "_en": "first sunrise dash",
+                "_fr": "premier coup de soleil"
             },
             "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
+                "_jp": "【すばやさアップ】 初日の出を見て希望がみなぎり すばやさが大アップ",
+                "_en": "[Increased speed] Seeing the first sunrise of the year fills you with hope and greatly increases your speed.",
+                "_fr": "[Vitesse accrue] Voir le premier lever de soleil de l'année vous remplit d'espoir et augmente considérablement votre vitesse."
             }
         }
     ],
-    "explication_yww": []
+    "explication_yww": [],
+    "oldID": "1162",
+    "ID": "1160"
 }

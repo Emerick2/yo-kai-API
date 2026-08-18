@@ -1,40 +1,62 @@
 {
-    "Nom": "Sont Baccino",
-    "nom_original": "アレ・バッチーノ",
-    "Tribue": "Usurakage",
-    "Rang": "A",
+    "Nom": "Koisuru Fubuki-hime",
+    "Tribue": "Mignon",
+    "Rang": "S",
+    "nom_original": "USAチョコ",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
     "Description": "",
-    "nourriture": "",
-    "nourriture_favorite": "",
+    "nourriture": "Donut",
+    "nourriture_favorite": "Donut",
     "élément": "",
-    "Rôle": "attaquant",
+    "Rôle": "アタッカー",
     "rang_yww": "A",
     "tribue_yww": "Usurakage",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": null,
+    "rôle_yww": "アタッカー",
+    "plat_préféré_yww": "Donut",
     "attitude_spécifique_yww": {
-        "_jp": "編集中です。",
-        "_en": "Editing in progress.",
-        "_fr": "Montage en cours."
+        "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
+        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
     },
     "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
+        "_jp": "水属性",
+        "_en": "water attribute",
+        "_fr": "attribut de l'eau"
     },
     "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
     },
-    "stats_initiale_yww": {},
+    "stats_initiale_yww": {
+        "hp": 47,
+        "str": 25,
+        "spr": 25,
+        "def": 17,
+        "spd": 21
+    },
     "stats_max_yww": {},
-    "moyens_obtention_yww": [],
+    "moyens_obtention_yww": [
+        {
+            "_jp": "ビターチョココイン",
+            "_en": "bitter chocolate coin",
+            "_fr": "pièce de chocolat amer"
+        },
+        {
+            "_jp": "バレンタインコイン",
+            "_en": "valentine coin",
+            "_fr": "pièce de monnaie de la Saint-Valentin"
+        },
+        {
+            "_jp": "チョコっときになるバレンタインイベントで入手",
+            "_en": "Obtained from the chocolate-filled Valentine's Day event.",
+            "_fr": "Obtenu lors de l'événement de la Saint-Valentin rempli de chocolat."
+        }
+    ],
     "attaque_magie_yww": [
         {
             "type": {
@@ -43,14 +65,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "疾風づき",
+                "_en": "Gale",
+                "_fr": "Coup de vent"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:8×5 / 打撃】 連続攻撃を行う",
+                "_en": "[Power: 8×5/Blow] Performs continuous attacks",
+                "_fr": "[Puissance : 8×5/Coup] Effectue des attaques continues"
             }
         },
         {
@@ -60,45 +82,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
+                "_jp": "いやしの術",
+                "_en": "Healing techniques",
+                "_fr": "Techniques de guérison"
             },
             "explication": {
-                "_jp": "【威力:- / –】 –",
-                "_en": "[Power:- / –] –",
-                "_fr": "[Pouvoir:- / -] -"
+                "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
+                "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
+                "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "あれ？ばっちーの",
-                "_en": "Huh? Bacchi's",
-                "_fr": "Hein? Bacchis"
+                "_jp": "カカオUSAビーム",
+                "_en": "cacao usa beam",
+                "_fr": "poutre de cacao USA"
             },
-            "pouvoir": "0",
+            "pouvoir": "132",
             "explication": {
-                "_jp": "まわりの味方の全ステータスをしばらくアップさせる。",
-                "_en": "Increases the status of all allies around you for a while.",
-                "_fr": "Augmente le statut de tous les alliés autour de vous pendant un certain temps."
+                "_jp": "正面の敵に 強力な カカオビームを発射し ダメージを与える",
+                "_en": "Fires a powerful cacao beam at the enemy in front, dealing damage.",
+                "_fr": "Tire un puissant rayon de cacao sur l'ennemi devant vous, lui infligeant des dégâts."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "–",
-                "_en": "–",
-                "_fr": "–"
+                "_jp": "カカオパワー",
+                "_en": "cacao power",
+                "_fr": "puissance du cacao"
             },
             "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
+                "_jp": "【ちからアップ】 カカオの栄養で ちからがアップ",
+                "_en": "[Increase your strength] Increase your strength with the nutrition of cacao",
+                "_fr": "[Augmentez votre force] Augmentez votre force avec la nutrition du cacao"
             }
         }
     ],
-    "explication_yww": []
+    "explication_yww": [],
+    "oldID": "1174",
+    "ID": "1172"
 }

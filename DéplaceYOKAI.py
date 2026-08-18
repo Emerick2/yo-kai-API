@@ -41,7 +41,8 @@ def _move_yokai_assets(old_id, new_id, mapping):
     """Déplace physiquement les fichiers d'un ID vers un autre et met à jour le mapping."""
     paths_to_move = [
         (f"data/yokai_data/{old_id}.json", f"data/yokai_data/{new_id}.json"),
-        (f"data/_3D/models/model_y{old_id}.fbx", f"data/_3D/models/model_y{new_id}.fbx")
+        (f"data/_3D/models/model_y{old_id}.fbx", f"data/_3D/models/model_y{new_id}.fbx"),
+        (f"img/yo-kai_img/images_yww{old_id}.png", f"img/yo-kai_img/images_yww{new_id}.png")
     ]
     
     # 1. Déplacer les fichiers standards
@@ -172,7 +173,7 @@ def ajouterYokai(ID_arrive):
 #510 : chine
 
 # n=3
-deplaceYokai(826,999,False)
+deplaceYokai(983,3000,False)
 
 
 LaMainCompleteAnuaire()

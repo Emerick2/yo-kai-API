@@ -1,56 +1,50 @@
 {
-    "Nom": "Pin Nyan",
-    "nom_original": "パインニャン",
-    "Tribue": "Pritchie",
-    "Rang": "A",
+    "Nom": "Kodomonohi Shishimaru",
+    "Tribue": "Vaillant",
+    "Rang": "C",
+    "nom_original": "三色だんゴマさん",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "パイン果汁100%のネコ妖怪。 硬い皮のせいでとっつきにくく 思われているが 南国育ちの 陽気な性格で 元気いっぱい！ 甘酸っぱい 青春話が大好き。",
-            "_en": "A cat monster made from 100% pine juice. Because of their hard skin, they are considered difficult to get along with, but they are full of energy and have a cheerful personality, having grown up in the southern part of the world! I love sweet and sour youth stories.",
-            "_fr": "Un monstre chat composé à 100 % de jus de pin. En raison de leur peau dure, ils sont considérés comme difficiles à vivre, mais ils sont pleins d'énergie et ont une personnalité enjouée, ayant grandi dans le sud du monde ! J'adore les histoires de jeunesse aigres-douces."
-        }
-    ],
-    "nourriture": "Chocobo",
-    "nourriture_favorite": "Chocobo",
+    "Description": "",
+    "nourriture": "crème douce",
+    "nourriture_favorite": "crème douce",
     "élément": "",
     "Rôle": "attaquant",
     "rang_yww": "A",
     "tribue_yww": "Pritchie",
     "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Chocobo",
+    "plat_préféré_yww": "crème douce",
     "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
+        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
+        "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
+        "_fr": "(Rôle d'attaque) Reisei, cible Zuno, (Attaque sur les alliés) Coopératif, type Kenshin"
     },
     "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
     },
     "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
     },
     "stats_initiale_yww": {
-        "hp": 52,
-        "str": 36,
-        "spr": 12,
-        "def": 23,
+        "hp": 59,
+        "str": 8,
+        "spr": 21,
+        "def": 13,
         "spd": 20
     },
     "stats_max_yww": {},
     "moyens_obtention_yww": [
         {
-            "_jp": "イトーヨーカドーイベントで入手",
-            "_en": "イトーヨーカドーイベントで入手",
-            "_fr": "イトーヨーカドーイベントで入手"
+            "_jp": "2019GWイベントで入手",
+            "_en": "Obtained at 2019GW event",
+            "_fr": "Obtenu lors de l'événement 2019GW"
         }
     ],
     "attaque_magie_yww": [
@@ -61,14 +55,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "するどいつめ",
-                "_en": "sharp claw",
-                "_fr": "griffe acérée"
+                "_jp": "パンチ",
+                "_en": "punch",
+                "_fr": "punch"
             },
             "explication": {
-                "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 15×2/Blow] Attack twice",
-                "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
+                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -78,51 +72,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "氷結の術",
-                "_en": "Freezing technique",
-                "_fr": "Technique de congélation"
+                "_jp": "火炎の術",
+                "_en": "flame technique",
+                "_fr": "technique de la flamme"
             },
             "explication": {
-                "_jp": "【威力:50 / 氷属性】 強力な氷の妖術を使う。",
-                "_en": "[Power: 50 / Ice attribute] Uses powerful ice magic.",
-                "_fr": "[Puissance : 50 / Attribut Glace] Utilise une puissante magie de glace."
+                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
+                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
+                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "トゲトゲ肉球",
-                "_en": "Spiky paws",
-                "_fr": "Pattes hérissées"
+                "_jp": "ひとだまだんご乱舞",
+                "_en": "Hitodama Dango Dance",
+                "_fr": "Danse Hitodama Dango"
             },
-            "pouvoir": "15×10",
+            "pouvoir": "0",
             "explication": {
-                "_jp": "パイナップルのトゲがついた肉球で敵全員をなぐりまくる",
-                "_en": "Hit all the enemies with a paw with pineapple spikes.",
-                "_fr": "Frappez tous les ennemis avec une patte avec des pointes d'ananas."
+                "_jp": "おだんごのようなひとだまを飛び交わせ 左右の敵に ダメージを与える",
+                "_en": "Fly balls like dumplings around, dealing damage to the enemies on the left and right.",
+                "_fr": "Faites voler des balles comme des boulettes, infligeant des dégâts aux ennemis à gauche et à droite."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "パインの皮",
-                "_en": "pine bark",
-                "_fr": "écorce de pin"
+                "_jp": "おだんごいかがズラ？",
+                "_en": "How about a dumpling?",
+                "_fr": "Que diriez-vous d'une boulette ?"
             },
             "explication": {
-                "_jp": "【ちからアップ】 ちからがアップ",
-                "_en": "[Power up] Power up",
-                "_fr": "[Mise sous tension] Mise sous tension"
+                "_jp": "【全ステアップ】 おだんごパワーで 全ステータスが小アップ",
+                "_en": "[All stages up] All stats are slightly increased with Odango power",
+                "_fr": "[Toutes les étapes supérieures] Toutes les statistiques sont légèrement augmentées avec le pouvoir d'Odango"
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "パイン果汁100%のネコ妖怪。 硬い皮のせいでとっつきにくく 思われているが 南国育ちの 陽気な性格で 元気いっぱい！ 甘酸っぱい 青春話が大好き。",
-            "_en": "A cat monster made from 100% pine juice. Because of their hard skin, they are considered difficult to get along with, but they are full of energy and have a cheerful personality, having grown up in the southern part of the world! I love sweet and sour youth stories.",
-            "_fr": "Un monstre chat composé à 100 % de jus de pin. En raison de leur peau dure, ils sont considérés comme difficiles à vivre, mais ils sont pleins d'énergie et ont une personnalité enjouée, ayant grandi dans le sud du monde ! J'adore les histoires de jeunesse aigres-douces."
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1213",
+    "ID": "1211"
 }

@@ -1,57 +1,45 @@
 {
-    "Nom": "magnifique ambassadrice",
-    "nom_original": "ゴージャス大使",
-    "Tribue": "Usurakage",
+    "Nom": "Hijiri Inugami",
+    "Tribue": "Mystérieux",
     "Rang": "S",
+    "nom_original": "USAピョンサンタ",
     "PV": "",
     "Force": "",
     "Esprit": "",
     "Défense": "",
     "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "妖怪ゴージャス協会連盟から 任命されて活動する大使。 地味なものが許せないらしく あらゆるものを過剰に豪華に するので 目がチカチカする。",
-            "_en": "An ambassador appointed by the Yokai Gorgeous Association Federation. It seems like she can't stand plain things, so she makes everything extravagant, so her eyes are twinkling.",
-            "_fr": "Un ambassadeur nommé par la Fédération des Associations Yokai Magnifique. On dirait qu'elle ne supporte pas les choses simples, alors elle rend tout extravagant, donc ses yeux pétillent."
-        }
-    ],
-    "nourriture": "天ぷら",
-    "nourriture_favorite": "天ぷら",
+    "Description": "",
+    "nourriture": "Donut",
+    "nourriture_favorite": "Donut",
     "élément": "",
-    "Rôle": "ranger",
-    "rang_yww": "S",
+    "Rôle": "attaquant",
+    "rang_yww": "B",
     "tribue_yww": "Usurakage",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "天ぷら",
+    "rôle_yww": "attaquant",
+    "plat_préféré_yww": "Donut",
     "attitude_spécifique_yww": {
         "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
         "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
         "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
     },
     "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
+        "_jp": "火属性",
+        "_en": "fire attribute",
+        "_fr": "attribut de feu"
     },
     "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
+        "_jp": "氷属性",
+        "_en": "ice attribute",
+        "_fr": "attribut de glace"
     },
     "stats_initiale_yww": {
-        "hp": 36,
-        "str": 21,
-        "spr": 22,
-        "def": 27,
-        "spd": 20
+        "hp": 54,
+        "str": 31,
+        "spr": 5,
+        "def": 17,
+        "spd": 21
     },
-    "stats_max_yww": {
-        "hp": 356,
-        "str": 139,
-        "spr": 147,
-        "def": 173,
-        "spd": 129
-    },
+    "stats_max_yww": {},
     "moyens_obtention_yww": [],
     "attaque_magie_yww": [
         {
@@ -61,14 +49,14 @@
                 "_fr": "Kougeki"
             },
             "nom": {
-                "_jp": "はりたおす",
-                "_en": "Haritaosu",
-                "_fr": "Haritaosu"
+                "_jp": "ショット",
+                "_en": "shot",
+                "_fr": "tir"
             },
             "explication": {
-                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
-                "_en": "【威力:25×2 / 打撃】 2回攻撃を行う",
-                "_fr": "【威力:25×2 / 打撃】 2回攻撃を行う"
+                "_jp": "【威力:50 / 打撃】 敵1体にダメージを与える",
+                "_en": "[Power: 50/Blow] Deals damage to one enemy.",
+                "_fr": "[Puissance : 50/Coup] Inflige des dégâts à un ennemi."
             }
         },
         {
@@ -78,51 +66,47 @@
                 "_fr": "Yojutsu"
             },
             "nom": {
-                "_jp": "雷神の術",
-                "_en": "Raijin no Jutsu",
-                "_fr": "Raijin no Jutsu"
+                "_jp": "あられの術",
+                "_en": "Hail no jutsu",
+                "_fr": "Salut, pas de jutsu"
             },
             "explication": {
-                "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
-                "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
-                "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
+                "_jp": "【威力:30 / 氷属性】 氷の妖術を使う。",
+                "_en": "[Power: 30 / Ice attribute] Uses ice magic.",
+                "_fr": "[Puissance : 30 / Attribut Glace] Utilise la magie de la glace."
             }
         }
     ],
     "mouvement_spécial_yww": [
         {
             "nom": {
-                "_jp": "ゴージャスゾーン",
-                "_en": "gorgeous zone",
-                "_fr": "zone magnifique"
+                "_jp": "メリクリ特大ビーム",
+                "_en": "Merikuri extra large beam",
+                "_fr": "Poutre extra large Merikuri"
             },
-            "pouvoir": "0",
+            "pouvoir": "28×5",
             "explication": {
-                "_jp": "ゴージャス&ラグジュアリーなオーラで味方全員の全ステータスをアップする。",
-                "_en": "Increases all stats of all allies with a gorgeous and luxurious aura.",
-                "_fr": "Augmente toutes les statistiques de tous les alliés avec une aura magnifique et luxueuse."
+                "_jp": "サンタスーツの不思議な力で 極太ビームを放ち 正面の敵に ダメージを与える",
+                "_en": "Using the mysterious power of Santa's suit, it emits an extremely thick beam that damages the enemy in front of it.",
+                "_fr": "Utilisant le pouvoir mystérieux du costume du Père Noël, il émet un faisceau extrêmement épais qui endommage l'ennemi devant lui."
             }
         }
     ],
     "posséder_yww": [
         {
             "nom": {
-                "_jp": "ゴージャスにする",
-                "_en": "make it gorgeous",
-                "_fr": "rends-le magnifique"
+                "_jp": "ぶちまけプレゼント",
+                "_en": "A surprise present",
+                "_fr": "Un cadeau surprise"
             },
             "explication": {
-                "_jp": "【まもりダウン】 とりつかれた妖怪は防御よりも派手さを重視し まもりが大ダウンする。",
-                "_en": "[Protection Down] Possessed monsters place more emphasis on showiness than defense, and their protection is greatly reduced.",
-                "_fr": "[Protection réduite] Les monstres possédés mettent davantage l'accent sur l'éclat que sur la défense, et leur protection est considérablement réduite."
+                "_jp": "【まもりダウン】 プレゼントをぶちまけてしまい まもりがダウン",
+                "_en": "[Mamori down] I threw away the present and my mamori went down.",
+                "_fr": "[Mamori à terre] J'ai jeté le cadeau et mon Mamori est tombé."
             }
         }
     ],
-    "explication_yww": [
-        {
-            "_jp": "妖怪ゴージャス協会連盟から 任命されて活動する大使。 地味なものが許せないらしく あらゆるものを過剰に豪華に するので 目がチカチカする。",
-            "_en": "An ambassador appointed by the Yokai Gorgeous Association Federation. It seems like she can't stand plain things, so she makes everything extravagant, so her eyes are twinkling.",
-            "_fr": "Un ambassadeur nommé par la Fédération des Associations Yokai Magnifique. On dirait qu'elle ne supporte pas les choses simples, alors elle rend tout extravagant, donc ses yeux pétillent."
-        }
-    ]
+    "explication_yww": [],
+    "oldID": "1154",
+    "ID": "1152"
 }
