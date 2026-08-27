@@ -1,545 +1,576 @@
 {
-    "ID": "240",
-    "Nom": "Bouh",
-    "Tribue": "Vaillant",
-    "Rang": "C",
-    "PV": "412",
-    "Force": "253",
-    "Esprit": "41",
-    "Défense": "164",
-    "Vitesse": "62",
-    "Description": "Ce Yo-kai incarne la douleur des fermiers ayant perdu leurs champs. On l'entend souvent crier « C'est chez moi ! ».",
-    "description SITE": "Ce Yo-kai incarne la douleur des fermiers ayant perdu leurs champs. On l'entend souvent crier «C'est chez moi !».",
-    "nourriture": "Oden",
-    "élément": "Terre",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Bouh vient de la boue et de l'interjection 'Bouh !' pour faire peur.",
-    "origine": "Bouh est basé sur le youkai Dorotabo, qui est le nom japonais de ce Yo-kai, dont le nom signifie \"moine des champs de riz boueux\". Il était à l'origine le fantôme d'un riziculteur décédé avant d'avoir pu récolter les fruits de son dur labeur et hante depuis ses champs bien-aimés. Chaque nuit, il surgit du sol en criant \"Rendez-moi mes rizières !\", chassant tous ceux qui tentent de se les approprier et maudissant ceux qui les ont négligés. Il apparaît comme un vieil homme borgne avec des mains à trois doigts émergeant des champs boueux, sa peau bronzée par des journées passées à travailler sous le soleil brûlant. Dans la maison Blasters :",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/bouh.png",
-    "numero": "022",
-    "nourriture_favorite": "Oden",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Bain de boue",
-            "effet": "Se venge sur les ennemis quand il est battu."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing puissant",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Éboulement",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Bouhc émissaire",
-            "effet": "Exprime sa colère en attaquant l'ennemi et en faisant baisser sa FOR. 100 | 100"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Boue de force",
-            "effet": "Le Yo-kai envoûté s'énerve au sujet d'une rizière et perd des PV."
-        }
+  "ID": "240",
+  "Nom": "Bouh",
+  "Tribue": "Vaillant",
+  "Rang": "C",
+  "PV": "412",
+  "Force": "253",
+  "Esprit": "41",
+  "Défense": "164",
+  "Vitesse": "62",
+  "Description": "Ce Yo-kai incarne la douleur des fermiers ayant perdu leurs champs. On l'entend souvent crier « C'est chez moi ! ».",
+  "description SITE": "Ce Yo-kai incarne la douleur des fermiers ayant perdu leurs champs. On l'entend souvent crier «C'est chez moi !».",
+  "nourriture": "Oden",
+  "élément": "Terre",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Bouh vient de la boue et de l'interjection 'Bouh !' pour faire peur.",
+  "origine": "Bouh est basé sur le youkai Dorotabo, qui est le nom japonais de ce Yo-kai, dont le nom signifie \"moine des champs de riz boueux\". Il était à l'origine le fantôme d'un riziculteur décédé avant d'avoir pu récolter les fruits de son dur labeur et hante depuis ses champs bien-aimés. Chaque nuit, il surgit du sol en criant \"Rendez-moi mes rizières !\", chassant tous ceux qui tentent de se les approprier et maudissant ceux qui les ont négligés. Il apparaît comme un vieil homme borgne avec des mains à trois doigts émergeant des champs boueux, sa peau bronzée par des journées passées à travailler sous le soleil brûlant. Dans la maison Blasters :",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/bouh.png",
+  "numero": "022",
+  "nourriture_favorite": "Oden",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Bain de boue",
+      "effet": "Se venge sur les ennemis quand il est battu."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing puissant",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Éboulement",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Bouhc émissaire",
+      "effet": "Exprime sa colère en attaquant l'ennemi et en faisant baisser sa FOR. 100 | 100"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Boue de force",
+      "effet": "Le Yo-kai envoûté s'énerve au sujet d'une rizière et perd des PV."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Goût de nostalgie.",
+    "Mange de la nourriture insipide": "Euh...",
+    "Mange de la mauvaise nourriture": "Ne me force pas !",
+    "A la flemme": "Une petite sieste.",
+    "Devient ton ami": "Cet endroit sent pareil que les champs de riz. Je me sens à la maison..."
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Bouh",
+      "parent2": "Essence maléfique",
+      "resultat": "Mabouhl",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "泥田坊",
+  "nom_anglais": "Mudmunch",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Vieil Ourcival- rizières"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Goût de nostalgie.",
-        "Mange de la nourriture insipide": "Euh...",
-        "Mange de la mauvaise nourriture": "Ne me force pas !",
-        "A la flemme": "Une petite sieste.",
-        "Devient ton ami": "Cet endroit sent pareil que les champs de riz. Je me sens à la maison..."
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Bouh",
-            "parent2": "Essence maléfique",
-            "resultat": "Mabouhl",
-            "critere": "➨"
-        }
-    ],
-    "image_locale": "",
-    "nom_original": "泥田坊",
-    "nom_anglais": "Mudmunch",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Vieil Ourcival- rizières"
-        ],
-        "yw3": [
-            "Gare de Verteplaines- rizières"
-        ]
-    },
-    "rarite": "Classic icon",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Poing puissant",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Bouhc émissaire",
-                "puissance": "100|100",
-                "description": "Exprime sa colère en attaquant l'ennemi et en faisant baisser sa FOR."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Boue de force",
-                "puissance": "N/A",
-                "description": "Le Yo-kai envoûté s'énerve au sujet d'une rizière et perd des PV."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Bain de boue",
-                "description": "Se venge sur les ennemis quand il est battu."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Bouhc émissaire",
-                "puissance": "250",
-                "description": "Baisse temporaire de l'ATT. des ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Champ de force",
-                "puissance": "___",
-                "description": "Hausse temporaire de la protection des alliés."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Armure de fer",
-                "puissance": "___",
-                "description": "Forte réduction des dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Peau maudite",
-                "description": "Toutes stats renforcées si envoûté par l'ennemi."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Poing puissant",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Bouhc émissaire",
-                "puissance": "___",
-                "description": "En colère, il maudit ses ennemis, baissant fortement leur FOR."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Boue de force",
-                "puissance": "N/A",
-                "description": "Le Yo-kai envoûté s'énerve au sujet d'une rizière et perd des PV."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Bouhc émissaire",
-                "puissance": "250",
-                "description": "Attaque et réduit un instant l'attaque de l'ennemi."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Champ de force",
-                "puissance": "___",
-                "description": "Booste +++ la DÉF. alliée à proximité lors d’un instant."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Bain de boue",
-                "description": "Se venge sur les ennemis quand il est battu."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Vivez Karaté"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman de force"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Vivez Karaté"
-            },
-            {
-                "taux": "?%",
-                "objet": "Brochettes de bœuf"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Bain de boue",
-        "description": "Se venge sur les ennemis quand il est battu."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/bouh.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/bouh.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/bouh.wav",
-    "oldID": "240",
-    "medallium_ids": {
-        "yw2": "022",
-        "yw3": "035"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "026",
-        "yw Blasters 2": "035",
-        "yw Wibble Wobble": "1026",
-        "yw World": "0197"
-    },
-    "battle_type": "Classic",
-    "skill_name": "Sludge Grudge Cursed Skin ywB",
-    "skill_effect": "Sucking Mud",
-    "disliked_food": "Hamburgers",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "422",
-                "STR": "172",
-                "SPR": "95",
-                "DEF": "156",
-                "SPD": "109"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "377",
-                "STR": "196",
-                "SPR": "95",
-                "DEF": "222",
-                "SPD": "67"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "377",
-                "STR": "197",
-                "SPR": "91",
-                "DEF": "219"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "160-280"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "160-280",
-                "STR": "197",
-                "SPR": "91",
-                "DEF": "219"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "160-280"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "泥田坊",
-            "Dorotabō"
-        ],
-        "Spanish": [
-            "Atierrador"
-        ],
-        "French": [
-            "Bouh"
-        ],
-        "Italian": [
-            "Follfango"
-        ],
-        "German": [
-            "Schlammampf"
-        ],
-        "Dutch": [
-            "Mudmunch"
-        ],
-        "Korean": [
-            "논귀",
-            "Non-gwi"
-        ],
-        "Russian": [
-            "Грязежуй",
-            "Gryazezhuy"
-        ],
-        "Arabic": [
-            "صراخ",
-            "Ṣarrākh"
-        ],
-        "Chinese (Mandarin)": [
-            "泥田坊",
-            "Nítiánfāng"
-        ],
-        "Portuguese (Brazilian)": [
-            "Lamamarga"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "泥田坊"
-        ],
-        "Spanish": [
-            "Atierrador"
-        ],
-        "French": [
-            "Bouh"
-        ],
-        "Italian": [
-            "Follfango"
-        ],
-        "German": [
-            "Schlammampf"
-        ],
-        "Dutch": [
-            "Mudmunch"
-        ],
-        "Korean": [
-            "논귀"
-        ],
-        "Russian": [
-            "Грязежуй"
-        ],
-        "Arabic": [
-            "صراخ"
-        ],
-        "Chinese (Mandarin)": [
-            "泥田坊"
-        ],
-        "Portuguese (Brazilian)": [
-            "Lamamarga"
-        ]
-    },
-    "description_en": "This Yo-kai embodies the pain of farmers who have lost their fields. He's easy to identify thanks to his moan, \"Get off my land!\"",
-    "nom_en": "Sublappa",
-    "rang_yww": "C",
-    "tribue_yww": "Isamashi",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "Oden",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
-        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 54,
-        "str": 35,
-        "spr": 4,
-        "def": 24,
-        "spd": 6
-    },
-    "stats_max_yww": {
-        "hp": 412,
-        "str": 253,
-        "spr": 41,
-        "def": 164,
-        "spd": 62
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "ドキドキ妖怪きもだめしイベントで出現",
-            "_en": "Appearing in the exciting monster Kimodameshi event",
-            "_fr": "Apparaissant dans l'événement passionnant du monstre Kimodameshi"
-        }
-    ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ぶんなぐる",
-                "_en": "wallop",
-                "_fr": "coup"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
-                "_en": "[Power: 50/Blow] Deal a big blow",
-                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "落石の術",
-                "_en": "falling rock jutsu",
-                "_fr": "jutsu qui tombe des pierres"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
-                "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
-                "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "田を返せ～田を返せ～",
-                "_en": "Give back the rice fields ~ Give back the rice fields ~",
-                "_fr": "Redonnez les rizières ~ Redonnez les rizières ~"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "田の恨み",
-                "_en": "Den's grudge",
-                "_fr": "La rancune de Den"
-            },
-            "explication": {
-                "_jp": "【HP減少】 とりつかれた妖怪は田んぼの恨みをかけられHPが少しずつ減ってしまう。",
-                "_en": "[HP Decrease] The possessed youkai suffers the grudge of the rice fields and its HP gradually decreases.",
-                "_fr": "[Diminution des PV] Le youkai possédé subit la rancune des rizières et ses PV diminuent progressivement."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "大切な田んぼを奪われた老人が うらみの力で妖怪になった。 泥田坊が 田んぼに住みつくと 毎晩「田を返せ…」という うらみごとが聞こえるらしい。",
-            "_en": "An old man who lost his precious rice field became a monster due to the power of jealousy. It is said that when Dorotabo settles in a rice field, you can hear him yelling, ``Give me back the rice field...'' every night.",
-            "_fr": "Un vieil homme qui a perdu sa précieuse rizière est devenu un monstre à cause du pouvoir de la jalousie. On raconte que lorsque Dorotabo s'installe dans une rizière, on l'entend crier tous les soirs : « Rendez-moi la rizière... »."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Gare de Verteplaines- rizières"
     ]
+  },
+  "rarite": "Classic icon",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Poing puissant",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Éboulement",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Bouhc émissaire",
+        "puissance": "100|100",
+        "description": "Exprime sa colère en attaquant l'ennemi et en faisant baisser sa FOR."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Boue de force",
+        "puissance": "N/A",
+        "description": "Le Yo-kai envoûté s'énerve au sujet d'une rizière et perd des PV."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Bain de boue",
+        "description": "Se venge sur les ennemis quand il est battu."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Bouhc émissaire",
+        "puissance": "250",
+        "description": "Baisse temporaire de l'ATT. des ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Champ de force",
+        "puissance": "___",
+        "description": "Hausse temporaire de la protection des alliés."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Armure de fer",
+        "puissance": "___",
+        "description": "Forte réduction des dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Peau maudite",
+        "description": "Toutes stats renforcées si envoûté par l'ennemi."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Poing puissant",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Éboulement",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Bouhc émissaire",
+        "puissance": "___",
+        "description": "En colère, il maudit ses ennemis, baissant fortement leur FOR."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Boue de force",
+        "puissance": "N/A",
+        "description": "Le Yo-kai envoûté s'énerve au sujet d'une rizière et perd des PV."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Bouhc émissaire",
+        "puissance": "250",
+        "description": "Attaque et réduit un instant l'attaque de l'ennemi."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Champ de force",
+        "puissance": "___",
+        "description": "Booste +++ la DÉF. alliée à proximité lors d’un instant."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Bain de boue",
+        "description": "Se venge sur les ennemis quand il est battu."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Vivez Karaté"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman de force"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Vivez Karaté"
+      },
+      {
+        "taux": "?%",
+        "objet": "Brochettes de bœuf"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Bain de boue",
+    "description": "Se venge sur les ennemis quand il est battu."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/bouh.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/bouh.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/bouh.wav",
+  "oldID": "240",
+  "medallium_ids": {
+    "yw2": "022",
+    "yw3": "035"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "026",
+    "yw Blasters 2": "035",
+    "yw Wibble Wobble": "1026",
+    "yw World": "0197"
+  },
+  "battle_type": "Classic",
+  "skill_name": "Sludge Grudge Cursed Skin ywB",
+  "skill_effect": "Sucking Mud",
+  "disliked_food": "Hamburgers",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "422",
+        "STR": "172",
+        "SPR": "95",
+        "DEF": "156",
+        "SPD": "109"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "377",
+        "STR": "196",
+        "SPR": "95",
+        "DEF": "222",
+        "SPD": "67"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "377",
+        "STR": "197",
+        "SPR": "91",
+        "DEF": "219"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "160-280"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "160-280",
+        "STR": "197",
+        "SPR": "91",
+        "DEF": "219"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "160-280"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "泥田坊",
+      "Dorotabō"
+    ],
+    "Spanish": [
+      "Atierrador"
+    ],
+    "French": [
+      "Bouh"
+    ],
+    "Italian": [
+      "Follfango"
+    ],
+    "German": [
+      "Schlammampf"
+    ],
+    "Dutch": [
+      "Mudmunch"
+    ],
+    "Korean": [
+      "논귀",
+      "Non-gwi"
+    ],
+    "Russian": [
+      "Грязежуй",
+      "Gryazezhuy"
+    ],
+    "Arabic": [
+      "صراخ",
+      "Ṣarrākh"
+    ],
+    "Chinese (Mandarin)": [
+      "泥田坊",
+      "Nítiánfāng"
+    ],
+    "Portuguese (Brazilian)": [
+      "Lamamarga"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "泥田坊"
+    ],
+    "Spanish": [
+      "Atierrador"
+    ],
+    "French": [
+      "Bouh"
+    ],
+    "Italian": [
+      "Follfango"
+    ],
+    "German": [
+      "Schlammampf"
+    ],
+    "Dutch": [
+      "Mudmunch"
+    ],
+    "Korean": [
+      "논귀"
+    ],
+    "Russian": [
+      "Грязежуй"
+    ],
+    "Arabic": [
+      "صراخ"
+    ],
+    "Chinese (Mandarin)": [
+      "泥田坊"
+    ],
+    "Portuguese (Brazilian)": [
+      "Lamamarga"
+    ]
+  },
+  "description_en": "This Yo-kai embodies the pain of farmers who have lost their fields. He's easy to identify thanks to his moan, \"Get off my land!\"",
+  "nom_en": "Sublappa",
+  "rang_yww": "C",
+  "tribue_yww": "Isamashi",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "Oden",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+    "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 54,
+    "str": 35,
+    "spr": 4,
+    "def": 24,
+    "spd": 6
+  },
+  "stats_max_yww": {
+    "hp": 412,
+    "str": 253,
+    "spr": 41,
+    "def": 164,
+    "spd": 62
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "ドキドキ妖怪きもだめしイベントで出現",
+      "_en": "Appearing in the exciting monster Kimodameshi event",
+      "_fr": "Apparaissant dans l'événement passionnant du monstre Kimodameshi"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ぶんなぐる",
+        "_en": "wallop",
+        "_fr": "coup"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+        "_en": "[Power: 50/Blow] Deal a big blow",
+        "_fr": "[Puissance : 50/Coup] Portez un gros coup"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "落石の術",
+        "_en": "falling rock jutsu",
+        "_fr": "jutsu qui tombe des pierres"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
+        "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
+        "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "田を返せ～田を返せ～",
+        "_en": "Give back the rice fields ~ Give back the rice fields ~",
+        "_fr": "Redonnez les rizières ~ Redonnez les rizières ~"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "田の恨み",
+        "_en": "Den's grudge",
+        "_fr": "La rancune de Den"
+      },
+      "explication": {
+        "_jp": "【HP減少】 とりつかれた妖怪は田んぼの恨みをかけられHPが少しずつ減ってしまう。",
+        "_en": "[HP Decrease] The possessed youkai suffers the grudge of the rice fields and its HP gradually decreases.",
+        "_fr": "[Diminution des PV] Le youkai possédé subit la rancune des rizières et ses PV diminuent progressivement."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "大切な田んぼを奪われた老人が うらみの力で妖怪になった。 泥田坊が 田んぼに住みつくと 毎晩「田を返せ…」という うらみごとが聞こえるらしい。",
+      "_en": "An old man who lost his precious rice field became a monster due to the power of jealousy. It is said that when Dorotabo settles in a rice field, you can hear him yelling, ``Give me back the rice field...'' every night.",
+      "_fr": "Un vieil homme qui a perdu sa précieuse rizière est devenu un monstre à cause du pouvoir de la jalousie. On raconte que lorsque Dorotabo s'installe dans une rizière, on l'entend crier tous les soirs : « Rendez-moi la rizière... »."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "241",
+  "Name_yww": "泥田坊",
+  "description_jp_yww": "大切な田んぼを奪われた老人が うらみの力で妖怪になった。 泥田坊が　田んぼに住みつくと 毎晩「田を返せ…」という うらみごとが聞こえるらしい。",
+  "BingoMessage_jp_yww": "田んぼのにおいがするわい！ おで　あんたのこと気に入ったぞ",
+  "MonsterId_yww": "y237000",
+  "Height_yww": 9.2,
+  "CommondId_yww": "sp_237000",
+  "MinHp_yww": 54,
+  "MaxHp_yww": 412,
+  "MinAttack_yww": 35,
+  "MaxAttack_yww": 253,
+  "MinMagic_yww": 4,
+  "MaxMagic_yww": 41,
+  "MinDefense_yww": 24,
+  "MaxDefense_yww": 164,
+  "MinSpeed_yww": 6,
+  "MaxSpeed_yww": 62,
+  "AttackId_yww": 2,
+  "MagicId_yww": 11,
+  "HauntId_yww": 237000,
+  "SpSkillId_yww": 237000,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 15,
+  "DislikeFoodKind_yww": 6,
+  "ActionType_yww": 3,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y232800.png",
+  "SpriteImage_yww": "img_y232800.png",
+  "Audio_yww": "sp_y232800.wav",
+  "Description_yww": "Un vieil homme, dépouillé de sa précieuse rizière, s'est transformé en yōkai sous l'effet de la rancœur. Quand le Dorotabō s'installe dans la rizière, on entendrait chaque nuit ses paroles pleines de rancœur : « Rends-moi ma rizière… ».",
+  "BingoMessage_fr_yww": "Ça sent les rizières ! Hé, tu me plais bien, toi."
 }

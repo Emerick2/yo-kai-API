@@ -1,487 +1,518 @@
 {
-    "ID": "255",
-    "Nom": "Pardomino",
-    "Tribue": "Mystérieu",
-    "Rang": "A",
-    "PV": "392",
-    "Force": "74",
-    "Esprit": "226",
-    "Défense": "153",
-    "Vitesse": "146",
-    "Description": "Ce Yo-kai en forme de domino géant se couche pour s'excuser de tout et n'importe quoi.",
-    "nourriture": "Curry",
-    "élément": "Terre",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "Contrairement àTrodésolé, Pardomino a l'air plus sincère dans ses excuses.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/pardomino.png",
-    "numero": "060",
-    "nourriture_favorite": "Curry",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Plates excuses",
-            "effet": "Rend des PV aux alliés quand le Yo-kai flâne."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Laminage",
-            "effet": "30 | 66"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Météore",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Excuse interminable",
-            "effet": "Écrase un ennemi avec la force du pardon. Entrave les ennemis. 150 | 150"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Souffre-douleur",
-            "effet": "Le Yo-kai devient prétentieux et est la cible des ennemis."
-        }
+  "ID": "255",
+  "Nom": "Pardomino",
+  "Tribue": "Mystérieu",
+  "Rang": "A",
+  "PV": "392",
+  "Force": "74",
+  "Esprit": "226",
+  "Défense": "153",
+  "Vitesse": "146",
+  "Description": "Ce Yo-kai en forme de domino géant se couche pour s'excuser de tout et n'importe quoi.",
+  "nourriture": "Curry",
+  "élément": "Terre",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "Contrairement àTrodésolé, Pardomino a l'air plus sincère dans ses excuses.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/pardomino.png",
+  "numero": "060",
+  "nourriture_favorite": "Curry",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Plates excuses",
+      "effet": "Rend des PV aux alliés quand le Yo-kai flâne."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Laminage",
+      "effet": "30 | 66"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Météore",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Excuse interminable",
+      "effet": "Écrase un ennemi avec la force du pardon. Entrave les ennemis. 150 | 150"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Souffre-douleur",
+      "effet": "Le Yo-kai devient prétentieux et est la cible des ennemis."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est bon !",
+    "Mange de la nourriture insipide": "Euh, merci...",
+    "Mange de la mauvaise nourriture": "Tu vas le payer...",
+    "A la flemme": "Pardon, je traîne.",
+    "Est échangé": "Désolé de n'arriver que maintenant. Je vais te décevoir... Désolé en avance.",
+    "Devient ton ami": "Pardon ! Je suis vraiment désolé ! Je suis désolé de vouloir être ton ami !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "yw2",
+      "de": "Trodésolé",
+      "vers": "Pardomino",
+      "critere": "Niveau 30"
+    },
+    {
+      "type": "Évolution",
+      "contexte": "yw Blasters 1",
+      "de": "Trodésolé",
+      "vers": "Pardomino",
+      "critere": "Niveau 27"
+    },
+    {
+      "type": "Évolution",
+      "contexte": "yw3",
+      "de": "Trodésolé",
+      "vers": "Pardomino",
+      "critere": "Niveau 33"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "あやまり倒し",
+  "nom_anglais": "Bowminos",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Bruno Méyère",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Évolution"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est bon !",
-        "Mange de la nourriture insipide": "Euh, merci...",
-        "Mange de la mauvaise nourriture": "Tu vas le payer...",
-        "A la flemme": "Pardon, je traîne.",
-        "Est échangé": "Désolé de n'arriver que maintenant. Je vais te décevoir... Désolé en avance.",
-        "Devient ton ami": "Pardon ! Je suis vraiment désolé ! Je suis désolé de vouloir être ton ami !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "yw2",
-            "de": "Trodésolé",
-            "vers": "Pardomino",
-            "critere": "Niveau 30"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "yw Blasters 1",
-            "de": "Trodésolé",
-            "vers": "Pardomino",
-            "critere": "Niveau 27"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "yw3",
-            "de": "Trodésolé",
-            "vers": "Pardomino",
-            "critere": "Niveau 33"
-        }
+    "yw Blasters 1": [
+      "Évolution"
     ],
-    "image_locale": "",
-    "nom_original": "あやまり倒し",
-    "nom_anglais": "Bowminos",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Bruno Méyère",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Évolution"
-        ],
-        "yw Blasters 1": [
-            "Évolution"
-        ],
-        "yw3": [
-            "Évolution"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Laminage",
-                "puissance": "30|66",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Météore",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Excuse interminable",
-                "puissance": "150|150",
-                "description": "Écrase un ennemi avec la force du pardon. Entrave les ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Souffre-douleur",
-                "puissance": "N/A",
-                "description": "Le Yo-kai devient prétentieux et est la cible des ennemis."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Éboulement",
-                "puissance": "N/A",
-                "description": "Un sort de terre frappe les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Plates excuses",
-                "description": "Rend des PV aux alliés quand le Yo-kai flâne."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Excuse interminable",
-                "puissance": "250",
-                "description": "Dégâts à courte portée. Baisse temporaire VIT."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Galet",
-                "puissance": "40",
-                "description": "Utilise un sort de terre. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Piège zappeur",
-                "puissance": "___",
-                "description": "Peut paralyser un ennemi s'il marche dessus."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Provoquer",
-                "puissance": "___",
-                "description": "Attire l'attention des ennemis proches."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Tirer sa révérence",
-                "description": "Invisibilité temporaire en cas de danger."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Laminage",
-                "puissance": "40|88",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Météore",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Excuse interminable",
-                "puissance": "190|190",
-                "description": "Fait des courbettes face à la colonne devant lui. Ceux flattés ne veulent plus agir."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Souffre-douleur",
-                "puissance": "N/A",
-                "description": "Le Yo-kai  devient prétentieux. Il agit moins."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Excuse interminable",
-                "puissance": "250",
-                "description": "Frappe un ennemi proche. VIT. - temporairement."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Galet",
-                "puissance": "40",
-                "description": "Technique de terre+. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Piège zappeur",
-                "puissance": "___",
-                "description": "Pose un piège qui paralyse complètement l’ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Plates excuses",
-                "description": "Restaure des PV à un allié, quand le Yo-kai flâne."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Plates excuses",
-        "description": "Rend des PV aux alliés quand le Yo-kai flâne."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/pardomino.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/pardomino.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/pardomino.wav",
-    "oldID": "258",
-    "medallium_ids": {
-        "yw2": "060",
-        "yw3": "099"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "070",
-        "yw Blasters 2": "099",
-        "yw Wibble Wobble": "2083",
-        "yw World": "0790",
-        "yw Ukiukipedia": "yw7-008/YD4-012"
-    },
-    "battle_type": "Rare",
-    "skill_name": "Make Amends",
-    "skill_effect": "Not So Sorry",
-    "disliked_food": "Chinese Food",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "402",
-                "STR": "144",
-                "SPR": "180",
-                "DEF": "176",
-                "SPD": "141"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "Attribute tolerance": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "あやまり倒し",
-            "Ayamaridaoshi"
-        ],
-        "Spanish": [
-            "Domiplof"
-        ],
-        "French": [
-            "Pardomino"
-        ],
-        "Italian": [
-            "Inchimino"
-        ],
-        "German": [
-            "Sündenblock"
-        ],
-        "Korean": [
-            "엎드려송",
-            "Eopdeulyeosong'"
-        ],
-        "Russian": [
-            "Челебой",
-            "Cheleboy"
-        ],
-        "Arabic": [
-            "آسف",
-            "Āsif"
-        ],
-        "Portuguese (Brazilian)": [
-            "Dom"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "あやまり倒し"
-        ],
-        "Spanish": [
-            "Domiplof"
-        ],
-        "French": [
-            "Pardomino"
-        ],
-        "Italian": [
-            "Inchimino"
-        ],
-        "German": [
-            "Sündenblock"
-        ],
-        "Korean": [
-            "엎드려송"
-        ],
-        "Russian": [
-            "Челебой"
-        ],
-        "Arabic": [
-            "آسف"
-        ],
-        "Portuguese (Brazilian)": [
-            "Dom Minó"
-        ]
-    },
-    "description_en": "These domino Yo-kai are forever falling over themselves to apologize for every little thing.",
-    "nom_en": "Smogmella",
-    "rang_yww": "A",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "curry",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 50,
-        "str": 10,
-        "spr": 35,
-        "def": 21,
-        "spd": 24
-    },
-    "stats_max_yww": {
-        "hp": 392,
-        "str": 74,
-        "spr": 226,
-        "def": 153,
-        "spd": 146
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "おしつぶす",
-                "_en": "crush",
-                "_fr": "écraser"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 打撃】 必ず命中する",
-                "_en": "[Power: 40/Blow] Always hits",
-                "_fr": "[Puissance : 40/Coup] Frappe toujours"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "いん石の術",
-                "_en": "Meteor no jutsu",
-                "_fr": "Météore pas de jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 土属性】 強力な土の妖術を使う。",
-                "_en": "[Power: 70 / Earth attribute] Uses powerful earth magic.",
-                "_fr": "[Puissance : 70 / Attribut Terre] Utilise une puissante magie terrestre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "土下座ｄｅドミノ",
-                "_en": "dogeza de domino",
-                "_fr": "dogeza de domino"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "近くの敵にダメージを与えしばらくスピードをダウン",
-                "_en": "Damage nearby enemies and reduce their speed for a while",
-                "_fr": "Endommagez les ennemis proches et réduisez leur vitesse pendant un moment"
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ナメた態度にする",
-                "_en": "behave in a disrespectful manner",
-                "_fr": "se comporter de manière irrespectueuse"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 とりつかれた妖怪はナメた態度になってたまに行動しなくなる。",
-                "_en": "[Osabori] A possessed monster becomes lazy and sometimes stops acting.",
-                "_fr": "[Osabori] Un monstre possédé devient paresseux et arrête parfois d'agir."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "巨大なドミノのような 姿をした妖怪。 どんなに小さなことでも 謝りに謝りたおし 相手の体と心を押しつぶす。",
-            "_en": "A monster that looks like a giant domino. No matter how small it is, if you apologize over and over again, you will crush the other person's body and mind.",
-            "_fr": "Un monstre qui ressemble à un domino géant. Aussi petit soit-il, si vous vous excusez encore et encore, vous écraserez le corps et l'esprit de l'autre personne."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Évolution"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Laminage",
+        "puissance": "30|66",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Météore",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Excuse interminable",
+        "puissance": "150|150",
+        "description": "Écrase un ennemi avec la force du pardon. Entrave les ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Souffre-douleur",
+        "puissance": "N/A",
+        "description": "Le Yo-kai devient prétentieux et est la cible des ennemis."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Éboulement",
+        "puissance": "N/A",
+        "description": "Un sort de terre frappe les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Plates excuses",
+        "description": "Rend des PV aux alliés quand le Yo-kai flâne."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Excuse interminable",
+        "puissance": "250",
+        "description": "Dégâts à courte portée. Baisse temporaire VIT."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Galet",
+        "puissance": "40",
+        "description": "Utilise un sort de terre. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Piège zappeur",
+        "puissance": "___",
+        "description": "Peut paralyser un ennemi s'il marche dessus."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Provoquer",
+        "puissance": "___",
+        "description": "Attire l'attention des ennemis proches."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Tirer sa révérence",
+        "description": "Invisibilité temporaire en cas de danger."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Laminage",
+        "puissance": "40|88",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Météore",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Excuse interminable",
+        "puissance": "190|190",
+        "description": "Fait des courbettes face à la colonne devant lui. Ceux flattés ne veulent plus agir."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Souffre-douleur",
+        "puissance": "N/A",
+        "description": "Le Yo-kai  devient prétentieux. Il agit moins."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Excuse interminable",
+        "puissance": "250",
+        "description": "Frappe un ennemi proche. VIT. - temporairement."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Galet",
+        "puissance": "40",
+        "description": "Technique de terre+. Plus de dégâts si chargée."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Piège zappeur",
+        "puissance": "___",
+        "description": "Pose un piège qui paralyse complètement l’ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Plates excuses",
+        "description": "Restaure des PV à un allié, quand le Yo-kai flâne."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Plates excuses",
+    "description": "Rend des PV aux alliés quand le Yo-kai flâne."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/pardomino.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/pardomino.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/pardomino.wav",
+  "oldID": "258",
+  "medallium_ids": {
+    "yw2": "060",
+    "yw3": "099"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "070",
+    "yw Blasters 2": "099",
+    "yw Wibble Wobble": "2083",
+    "yw World": "0790",
+    "yw Ukiukipedia": "yw7-008/YD4-012"
+  },
+  "battle_type": "Rare",
+  "skill_name": "Make Amends",
+  "skill_effect": "Not So Sorry",
+  "disliked_food": "Chinese Food",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "402",
+        "STR": "144",
+        "SPR": "180",
+        "DEF": "176",
+        "SPD": "141"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "Attribute tolerance": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "あやまり倒し",
+      "Ayamaridaoshi"
+    ],
+    "Spanish": [
+      "Domiplof"
+    ],
+    "French": [
+      "Pardomino"
+    ],
+    "Italian": [
+      "Inchimino"
+    ],
+    "German": [
+      "Sündenblock"
+    ],
+    "Korean": [
+      "엎드려송",
+      "Eopdeulyeosong'"
+    ],
+    "Russian": [
+      "Челебой",
+      "Cheleboy"
+    ],
+    "Arabic": [
+      "آسف",
+      "Āsif"
+    ],
+    "Portuguese (Brazilian)": [
+      "Dom"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "あやまり倒し"
+    ],
+    "Spanish": [
+      "Domiplof"
+    ],
+    "French": [
+      "Pardomino"
+    ],
+    "Italian": [
+      "Inchimino"
+    ],
+    "German": [
+      "Sündenblock"
+    ],
+    "Korean": [
+      "엎드려송"
+    ],
+    "Russian": [
+      "Челебой"
+    ],
+    "Arabic": [
+      "آسف"
+    ],
+    "Portuguese (Brazilian)": [
+      "Dom Minó"
+    ]
+  },
+  "description_en": "These domino Yo-kai are forever falling over themselves to apologize for every little thing.",
+  "nom_en": "Smogmella",
+  "rang_yww": "A",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "curry",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 50,
+    "str": 10,
+    "spr": 35,
+    "def": 21,
+    "spd": 24
+  },
+  "stats_max_yww": {
+    "hp": 392,
+    "str": 74,
+    "spr": 226,
+    "def": 153,
+    "spd": 146
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "おしつぶす",
+        "_en": "crush",
+        "_fr": "écraser"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 打撃】 必ず命中する",
+        "_en": "[Power: 40/Blow] Always hits",
+        "_fr": "[Puissance : 40/Coup] Frappe toujours"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "いん石の術",
+        "_en": "Meteor no jutsu",
+        "_fr": "Météore pas de jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 土属性】 強力な土の妖術を使う。",
+        "_en": "[Power: 70 / Earth attribute] Uses powerful earth magic.",
+        "_fr": "[Puissance : 70 / Attribut Terre] Utilise une puissante magie terrestre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "土下座ｄｅドミノ",
+        "_en": "dogeza de domino",
+        "_fr": "dogeza de domino"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "近くの敵にダメージを与えしばらくスピードをダウン",
+        "_en": "Damage nearby enemies and reduce their speed for a while",
+        "_fr": "Endommagez les ennemis proches et réduisez leur vitesse pendant un moment"
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ナメた態度にする",
+        "_en": "behave in a disrespectful manner",
+        "_fr": "se comporter de manière irrespectueuse"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 とりつかれた妖怪はナメた態度になってたまに行動しなくなる。",
+        "_en": "[Osabori] A possessed monster becomes lazy and sometimes stops acting.",
+        "_fr": "[Osabori] Un monstre possédé devient paresseux et arrête parfois d'agir."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "巨大なドミノのような 姿をした妖怪。 どんなに小さなことでも 謝りに謝りたおし 相手の体と心を押しつぶす。",
+      "_en": "A monster that looks like a giant domino. No matter how small it is, if you apologize over and over again, you will crush the other person's body and mind.",
+      "_fr": "Un monstre qui ressemble à un domino géant. Aussi petit soit-il, si vous vous excusez encore et encore, vous écraserez le corps et l'esprit de l'autre personne."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "258",
+  "Name_yww": "あやまり倒し",
+  "description_jp_yww": "巨大なドミノのような 姿をした妖怪。 どんなに小さなことでも 謝りに謝りたおし 相手の体と心を押しつぶす。",
+  "BingoMessage_jp_yww": "出てきちゃって　すみませんでしたー！ ガッカリしたら　ホントすみません！",
+  "MonsterId_yww": "y251000",
+  "Height_yww": 23.11,
+  "CommondId_yww": "sp_251000",
+  "MinHp_yww": 50,
+  "MaxHp_yww": 392,
+  "MinAttack_yww": 10,
+  "MaxAttack_yww": 74,
+  "MinMagic_yww": 35,
+  "MaxMagic_yww": 226,
+  "MinDefense_yww": 21,
+  "MaxDefense_yww": 153,
+  "MinSpeed_yww": 24,
+  "MaxSpeed_yww": 146,
+  "AttackId_yww": 20,
+  "MagicId_yww": 12,
+  "HauntId_yww": 251000,
+  "SpSkillId_yww": 251000,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 13,
+  "DislikeFoodKind_yww": 9,
+  "ActionType_yww": 9,
+  "TribeType_yww": 2,
+  "MedallionImage_yww": "y246800.png",
+  "SpriteImage_yww": "img_y246800.png",
+  "Audio_yww": "sp_y246800.wav",
+  "Description_yww": "Un yōkai qui ressemble à un domino géant. Même pour la plus petite des choses, il s'excuse sans cesse, jusqu'à en écraser le corps et l'esprit de son interlocuteur.",
+  "BingoMessage_fr_yww": "Désolé d'être apparu comme ça ! Si ça vous a déçu, je m'en excuse vraiment !"
 }

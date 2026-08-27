@@ -1,557 +1,588 @@
 {
-    "ID": "86",
-    "Nom": "Castelius Max",
-    "Tribue": "Costaud",
-    "Rang": "S",
-    "PV": "516",
-    "Force": "140",
-    "Esprit": "88",
-    "Défense": "289",
-    "Vitesse": "84",
-    "Description": "Être envoûté par ce Yo-kai extrêmement rare te fera dépasser les notions de victoire et de défaite.",
-    "nourriture": "Lait",
-    "élément": "Vent",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/castelius-max.png",
-    "numero": "079",
-    "nourriture_favorite": "Lait",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Armure platine",
-            "effet": "Affaiblit les attaques de glace, de vent et d'eau."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Broie-os",
-            "effet": "100 | 150"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tornade",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Garde de platine",
-            "effet": "Augm. fortement la DÉF. et attire les attaques grâce à une pose défensive."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Énergie platine",
-            "effet": "Recouvre un allié de platine et augmente toutes ses statistiques !"
-        }
+  "ID": "86",
+  "Nom": "Castelius Max",
+  "Tribue": "Costaud",
+  "Rang": "S",
+  "PV": "516",
+  "Force": "140",
+  "Esprit": "88",
+  "Défense": "289",
+  "Vitesse": "84",
+  "Description": "Être envoûté par ce Yo-kai extrêmement rare te fera dépasser les notions de victoire et de défaite.",
+  "nourriture": "Lait",
+  "élément": "Vent",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/castelius-max.png",
+  "numero": "079",
+  "nourriture_favorite": "Lait",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Armure platine",
+      "effet": "Affaiblit les attaques de glace, de vent et d'eau."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Broie-os",
+      "effet": "100 | 150"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tornade",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Garde de platine",
+      "effet": "Augm. fortement la DÉF. et attire les attaques grâce à une pose défensive."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Énergie platine",
+      "effet": "Recouvre un allié de platine et augmente toutes ses statistiques !"
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Dix sur dix !",
+    "Mange de la nourriture insipide": "Euh... OK.",
+    "Mange de la mauvaise nourriture": "Zéro pointé !",
+    "A la flemme": "...",
+    "Est échangé": "Tu m'as vu briller au loin, pas vrai ? Je vais te garantir un futur brillant.",
+    "Devient ton ami": "Tu mérites une médaille de platine ! Essaie-la ! Tu en es vraiment digne !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Castelius II",
+      "parent2": "Castelius II",
+      "resultat": "Castelius I",
+      "critere": "➨"
+    },
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Castelius I",
+      "parent2": "Lingot de platine",
+      "resultat": "Castelius Max",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "プラチナカク",
+  "nom_anglais": "Castelius Max",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Lac des Coloquintes - arbres (Nuit)",
+      "Fusion"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Dix sur dix !",
-        "Mange de la nourriture insipide": "Euh... OK.",
-        "Mange de la mauvaise nourriture": "Zéro pointé !",
-        "A la flemme": "...",
-        "Est échangé": "Tu m'as vu briller au loin, pas vrai ? Je vais te garantir un futur brillant.",
-        "Devient ton ami": "Tu mérites une médaille de platine ! Essaie-la ! Tu en es vraiment digne !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Castelius II",
-            "parent2": "Castelius II",
-            "resultat": "Castelius I",
-            "critere": "➨"
-        },
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Castelius I",
-            "parent2": "Lingot de platine",
-            "resultat": "Castelius Max",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Fusion"
     ],
-    "image_locale": "",
-    "nom_original": "プラチナカク",
-    "nom_anglais": "Castelius Max",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Lac des Coloquintes - arbres (Nuit)",
-            "Fusion"
-        ],
-        "yw2": [
-            "Fusion"
-        ],
-        "yw Blasters 1": [
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion",
-            "Blasters T Statue d'Amubis récompense de mumulettes du 3e niveau"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Broie-os",
-                "puissance": "100|150",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tornade",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Garde de platine",
-                "puissance": "___",
-                "description": "Augmente sa DÉF. et attire les attaques ennemies."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie platine",
-                "puissance": "N/A",
-                "description": "Recouvre un allié de platine et augmente toutes ses statistiques !"
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Armure de platine",
-                "description": "Affaiblit les attaques de glace, de vent et d'eau."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Broie-os",
-                "puissance": "100|150",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tornade",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Garde de platine",
-                "puissance": "___",
-                "description": "Augm. fortement la DÉF. et attire les attaques grâce à une pose défensive."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie platine",
-                "puissance": "N/A",
-                "description": "Recouvre un allié de platine et augmente toutes ses statistiques !"
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Armure de platine",
-                "description": "Affaiblit les attaques de glace, de vent et d'eau."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Armure platine",
-                "puissance": "___",
-                "description": "Forte augmentation de la vitesse, attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Position de maître",
-                "puissance": "___",
-                "description": "Légère hausse des stats temporaire."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "80",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Armure miroir",
-                "puissance": "___",
-                "description": "Réduit et renvoie dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Armure de platine",
-                "description": "Réduit les dégâts de l'eau et du vent."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Broie-os",
-                "puissance": "50|80",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tornade",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Garde de platine",
-                "puissance": "___",
-                "description": "Fait preuve de raffinement dans sa défense. Accroît fortement la DÉF."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie platine",
-                "puissance": "N/A",
-                "description": "Recouvre un allié de platine et augmente toutes ses stats !"
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Garde de platine",
-                "puissance": "___",
-                "description": "Booste +++ la DÉF. Attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Position de maître",
-                "puissance": "___",
-                "description": "Booste temporairement toutes les stats."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Armure de platine",
-                "description": "Réduit les dégâts d'eau, de glace et de vent subis."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Lingot de platine"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman de défense"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Poupée de platine"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman de défense"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Poupée de platine"
-            },
-            {
-                "taux": "?%",
-                "objet": "Lait merveilleux"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Armure de platine",
-        "description": "Affaiblit les attaques de glace, de vent et d'eau."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/castelius-max.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/castelius-max.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/castelius-max.wav",
-    "oldID": "86",
-    "medallium_ids": {
-        "yw1": "079",
-        "yw2": "113",
-        "yw3": "187"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "127",
-        "yw Blasters 2": "191",
-        "yw Wibble Wobble": "3053",
-        "yw Ukiukipedia": "yw2-015"
-    },
-    "battle_type": "",
-    "skill_name": "Platinum Guard",
-    "skill_effect": "Platinum Power",
-    "disliked_food": "Candy",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "428",
-                "STR": "162",
-                "SPR": "131",
-                "DEF": "227",
-                "SPD": "159"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "538",
-                "STR": "162",
-                "SPR": "131",
-                "DEF": "227",
-                "SPD": "159"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "1-1",
-                "STR": "145",
-                "SPR": "98",
-                "DEF": "296",
-                "SPD": "91"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Spanish": [
-            "Maxicastelius"
-        ],
-        "French": [
-            "Castelius"
-        ],
-        "Italian": [
-            "Max"
-        ],
-        "German": [
-            "Oberkastellan"
-        ],
-        "Russian": [
-            "Фортификатус-Максимус",
-            "Fortifikatus-Maksimus"
-        ],
-        "Arabic": [
-            "فريد",
-            "Farīd"
-        ],
-        "Portuguese (Brazilian)": [
-            "Castelus"
-        ]
-    },
-    "localized_soultimates": {
-        "Spanish": [
-            "Maxicastelius"
-        ],
-        "French": [
-            "Castelius Max"
-        ],
-        "Italian": [
-            "Max Castelius"
-        ],
-        "German": [
-            "Oberkastellan"
-        ],
-        "Russian": [
-            "Фортификатус-Максимус"
-        ],
-        "Arabic": [
-            "فريد"
-        ],
-        "Portuguese (Brazilian)": [
-            "Castelus Max"
-        ]
-    },
-    "description_en": "Being Inspirited by this extremely rare Yo-kai will let you transcend mere winning and losing.",
-    "nom_en": "Castelius III",
-    "rang_yww": "S",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "lait",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {
-        "hp": 73,
-        "str": 16,
-        "spr": 13,
-        "def": 44,
-        "spd": 16
-    },
-    "stats_max_yww": {
-        "hp": 516,
-        "str": 140,
-        "spr": 88,
-        "def": 289,
-        "spd": 84
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "骨くだき",
-                "_en": "broken bones",
-                "_fr": "os cassés"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 50 / Hit] Deals damage to one enemy.",
-                "_fr": "[Puissance : 50/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "竜巻の術",
-                "_en": "Tornado no Jutsu",
-                "_fr": "Tornade sans Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 風属性】 強力な風の妖術を使う。",
-                "_en": "[Power: 50 / Wind attribute] Uses powerful wind magic.",
-                "_fr": "[Puissance : 50 / Attribut vent] Utilise une puissante magie du vent."
-            }
-        }
+    "yw Blasters 1": [
+      "Fusion"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "高級プラチナガード",
-                "_en": "luxury platinum guard",
-                "_fr": "garde de platine de luxe"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "プラチナの力",
-                "_en": "power of platinum",
-                "_fr": "pouvoir du platine"
-            },
-            "explication": {
-                "_jp": "【全ステアップ】 とりつかれた妖怪はまばゆいプラチナの力で全ステータスが小アップする。",
-                "_en": "[All Status Up] A possessed monster has all its stats slightly increased by the power of dazzling platinum.",
-                "_fr": "[All Status Up] Un monstre possédé voit toutes ses statistiques légèrement augmentées par la puissance du platine éblouissant."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "別名『ハクキンカク』。 とても珍しい妖怪で こいつに とりつかれると 勝ち負けをこえた 特別な存在になれるのだ。",
-            "_en": "Also known as \"Hakukinkaku\". This is a very rare monster, and if you are possessed by it, you will become a special being that transcends victory and defeat.",
-            "_fr": "Aussi connu sous le nom de « Hakukinkaku ». C'est un monstre très rare, et si vous en êtes possédé, vous deviendrez un être spécial qui transcende la victoire et la défaite."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion",
+      "Blasters T Statue d'Amubis récompense de mumulettes du 3e niveau"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Broie-os",
+        "puissance": "100|150",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tornade",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Garde de platine",
+        "puissance": "___",
+        "description": "Augmente sa DÉF. et attire les attaques ennemies."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie platine",
+        "puissance": "N/A",
+        "description": "Recouvre un allié de platine et augmente toutes ses statistiques !"
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Armure de platine",
+        "description": "Affaiblit les attaques de glace, de vent et d'eau."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Broie-os",
+        "puissance": "100|150",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tornade",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Garde de platine",
+        "puissance": "___",
+        "description": "Augm. fortement la DÉF. et attire les attaques grâce à une pose défensive."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie platine",
+        "puissance": "N/A",
+        "description": "Recouvre un allié de platine et augmente toutes ses statistiques !"
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Armure de platine",
+        "description": "Affaiblit les attaques de glace, de vent et d'eau."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Armure platine",
+        "puissance": "___",
+        "description": "Forte augmentation de la vitesse, attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Position de maître",
+        "puissance": "___",
+        "description": "Légère hausse des stats temporaire."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "80",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Armure miroir",
+        "puissance": "___",
+        "description": "Réduit et renvoie dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Armure de platine",
+        "description": "Réduit les dégâts de l'eau et du vent."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Broie-os",
+        "puissance": "50|80",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tornade",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Garde de platine",
+        "puissance": "___",
+        "description": "Fait preuve de raffinement dans sa défense. Accroît fortement la DÉF."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie platine",
+        "puissance": "N/A",
+        "description": "Recouvre un allié de platine et augmente toutes ses stats !"
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Garde de platine",
+        "puissance": "___",
+        "description": "Booste +++ la DÉF. Attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Position de maître",
+        "puissance": "___",
+        "description": "Booste temporairement toutes les stats."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Armure de platine",
+        "description": "Réduit les dégâts d'eau, de glace et de vent subis."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Lingot de platine"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman de défense"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Poupée de platine"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman de défense"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Poupée de platine"
+      },
+      {
+        "taux": "?%",
+        "objet": "Lait merveilleux"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Armure de platine",
+    "description": "Affaiblit les attaques de glace, de vent et d'eau."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/castelius-max.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/castelius-max.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/castelius-max.wav",
+  "oldID": "86",
+  "medallium_ids": {
+    "yw1": "079",
+    "yw2": "113",
+    "yw3": "187"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "127",
+    "yw Blasters 2": "191",
+    "yw Wibble Wobble": "3053",
+    "yw Ukiukipedia": "yw2-015"
+  },
+  "battle_type": "",
+  "skill_name": "Platinum Guard",
+  "skill_effect": "Platinum Power",
+  "disliked_food": "Candy",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "428",
+        "STR": "162",
+        "SPR": "131",
+        "DEF": "227",
+        "SPD": "159"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "538",
+        "STR": "162",
+        "SPR": "131",
+        "DEF": "227",
+        "SPD": "159"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "1-1",
+        "STR": "145",
+        "SPR": "98",
+        "DEF": "296",
+        "SPD": "91"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Spanish": [
+      "Maxicastelius"
+    ],
+    "French": [
+      "Castelius"
+    ],
+    "Italian": [
+      "Max"
+    ],
+    "German": [
+      "Oberkastellan"
+    ],
+    "Russian": [
+      "Фортификатус-Максимус",
+      "Fortifikatus-Maksimus"
+    ],
+    "Arabic": [
+      "فريد",
+      "Farīd"
+    ],
+    "Portuguese (Brazilian)": [
+      "Castelus"
+    ]
+  },
+  "localized_soultimates": {
+    "Spanish": [
+      "Maxicastelius"
+    ],
+    "French": [
+      "Castelius Max"
+    ],
+    "Italian": [
+      "Max Castelius"
+    ],
+    "German": [
+      "Oberkastellan"
+    ],
+    "Russian": [
+      "Фортификатус-Максимус"
+    ],
+    "Arabic": [
+      "فريد"
+    ],
+    "Portuguese (Brazilian)": [
+      "Castelus Max"
+    ]
+  },
+  "description_en": "Being Inspirited by this extremely rare Yo-kai will let you transcend mere winning and losing.",
+  "nom_en": "Castelius III",
+  "rang_yww": "S",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "lait",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {
+    "hp": 73,
+    "str": 16,
+    "spr": 13,
+    "def": 44,
+    "spd": 16
+  },
+  "stats_max_yww": {
+    "hp": 516,
+    "str": 140,
+    "spr": 88,
+    "def": 289,
+    "spd": 84
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "骨くだき",
+        "_en": "broken bones",
+        "_fr": "os cassés"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 50 / Hit] Deals damage to one enemy.",
+        "_fr": "[Puissance : 50/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "竜巻の術",
+        "_en": "Tornado no Jutsu",
+        "_fr": "Tornade sans Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 風属性】 強力な風の妖術を使う。",
+        "_en": "[Power: 50 / Wind attribute] Uses powerful wind magic.",
+        "_fr": "[Puissance : 50 / Attribut vent] Utilise une puissante magie du vent."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "高級プラチナガード",
+        "_en": "luxury platinum guard",
+        "_fr": "garde de platine de luxe"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "プラチナの力",
+        "_en": "power of platinum",
+        "_fr": "pouvoir du platine"
+      },
+      "explication": {
+        "_jp": "【全ステアップ】 とりつかれた妖怪はまばゆいプラチナの力で全ステータスが小アップする。",
+        "_en": "[All Status Up] A possessed monster has all its stats slightly increased by the power of dazzling platinum.",
+        "_fr": "[All Status Up] Un monstre possédé voit toutes ses statistiques légèrement augmentées par la puissance du platine éblouissant."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "別名『ハクキンカク』。 とても珍しい妖怪で こいつに とりつかれると 勝ち負けをこえた 特別な存在になれるのだ。",
+      "_en": "Also known as \"Hakukinkaku\". This is a very rare monster, and if you are possessed by it, you will become a special being that transcends victory and defeat.",
+      "_fr": "Aussi connu sous le nom de « Hakukinkaku ». C'est un monstre très rare, et si vous en êtes possédé, vous deviendrez un être spécial qui transcende la victoire et la défaite."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "86",
+  "Name_yww": "プラチナカク",
+  "description_jp_yww": "別名『ハクキンカク』。 とても珍しい妖怪で こいつに　とりつかれると 勝ち負けをこえた 特別な存在になれるのだ。",
+  "BingoMessage_jp_yww": "む…　お主　心の底にプラチナ級の輝きを 秘めておるな？　ともだちになろうぞ！",
+  "MonsterId_yww": "y147030",
+  "Height_yww": 10.0,
+  "CommondId_yww": "sp_147030",
+  "MinHp_yww": 73,
+  "MaxHp_yww": 516,
+  "MinAttack_yww": 16,
+  "MaxAttack_yww": 140,
+  "MinMagic_yww": 13,
+  "MaxMagic_yww": 88,
+  "MinDefense_yww": 44,
+  "MaxDefense_yww": 289,
+  "MinSpeed_yww": 16,
+  "MaxSpeed_yww": 84,
+  "AttackId_yww": 27,
+  "MagicId_yww": 17,
+  "HauntId_yww": 147030,
+  "SpSkillId_yww": 147030,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 4,
+  "DislikeFoodKind_yww": 3,
+  "ActionType_yww": 20,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y142830.png",
+  "SpriteImage_yww": "img_y142830.png",
+  "Audio_yww": "sp_y142830.wav",
+  "Description_yww": "Également connu sous le nom de « Hakukin-kaku ». C'est un yōkai extrêmement rare, et si l'on est possédé par cette créature, on devient une entité particulière, au-delà de la victoire ou de la défaite.",
+  "BingoMessage_fr_yww": "Hum… Tu caches au fond de toi une lueur digne du platine, n’est-ce pas ? Devenons amis !"
 }

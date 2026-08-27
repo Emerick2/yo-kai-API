@@ -1,632 +1,663 @@
 {
-    "ID": "3",
-    "Nom": "Woko",
-    "Tribue": "Vaillant",
-    "Rang": "E",
-    "PV": "290",
-    "Force": "212",
-    "Esprit": "38",
-    "Défense": "115",
-    "Vitesse": "115",
-    "Description": "Un Yo-kai imprudent qui entre dans le combat vêtu juste d'un pagne et d'un wok... sur la tête. Évite de lui chercher des poux.",
-    "nourriture": "Riz",
-    "élément": "Feu",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Woko vient du mot Wok (casque qu'il porte).",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "La personne qu'il envoûte se verra devenir tête-en-l'air et oubliera tout ce qu'elle fait.",
-    "personnalité": "Il est très brut et excité ! Il est hyperactif et est très curieux...",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/woko.png",
-    "numero": "001",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Casse-cou",
-            "effet": "Sera plus vulnérable aux coups critiques."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Pointe perçante",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Feu",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Cure-dents aiguisé",
-            "effet": "Pique ses ennemis avec son cure-dents chéri. 18x5 | 18x5"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Imprudence",
-            "effet": "L'ennemi devient imprudent et sa DÉF. est réduite."
-        }
+  "ID": "3",
+  "Nom": "Woko",
+  "Tribue": "Vaillant",
+  "Rang": "E",
+  "PV": "290",
+  "Force": "212",
+  "Esprit": "38",
+  "Défense": "115",
+  "Vitesse": "115",
+  "Description": "Un Yo-kai imprudent qui entre dans le combat vêtu juste d'un pagne et d'un wok... sur la tête. Évite de lui chercher des poux.",
+  "nourriture": "Riz",
+  "élément": "Feu",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Woko vient du mot Wok (casque qu'il porte).",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "La personne qu'il envoûte se verra devenir tête-en-l'air et oubliera tout ce qu'elle fait.",
+  "personnalité": "Il est très brut et excité ! Il est hyperactif et est très curieux...",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/woko.png",
+  "numero": "001",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Casse-cou",
+      "effet": "Sera plus vulnérable aux coups critiques."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Pointe perçante",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Feu",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Cure-dents aiguisé",
+      "effet": "Pique ses ennemis avec son cure-dents chéri. 18x5 | 18x5"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Imprudence",
+      "effet": "L'ennemi devient imprudent et sa DÉF. est réduite."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est trop bon !",
+    "Mange de la nourriture insipide": "Aha...",
+    "Mange de la mauvaise nourriture": "Arf...",
+    "A la flemme": "Au dodo !",
+    "Est échangé": "Qui es-tu, TOI ? Oh, peu importe. C'est un plaisir de te rencontrer.",
+    "Devient ton ami": "J'aurais dû être plus prudent... Peu importe. Devenons amis !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "Général",
+      "de": "Woko",
+      "vers": "Pagno",
+      "critere": "Niveau 18"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ぶようじん坊",
+  "nom_anglais": "Pandle",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Coteau fleuri – Chemin secret",
+      "Coteau fleuri - Sous les distributeurs"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est trop bon !",
-        "Mange de la nourriture insipide": "Aha...",
-        "Mange de la mauvaise nourriture": "Arf...",
-        "A la flemme": "Au dodo !",
-        "Est échangé": "Qui es-tu, TOI ? Oh, peu importe. C'est un plaisir de te rencontrer.",
-        "Devient ton ami": "J'aurais dû être plus prudent... Peu importe. Devenons amis !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "Général",
-            "de": "Woko",
-            "vers": "Pagno",
-            "critere": "Niveau 18"
-        }
+    "yw2": [
+      "Les Hauts de Granval – Passage des Matous",
+      "Les Hauts de Granval - Allée sinistre",
+      "Tunnel sans fin",
+      "Voie du mystère - route 2"
     ],
-    "image_locale": "",
-    "nom_original": "ぶようじん坊",
-    "nom_anglais": "Pandle",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Coteau fleuri – Chemin secret",
-            "Coteau fleuri - Sous les distributeurs"
-        ],
-        "yw2": [
-            "Les Hauts de Granval – Passage des Matous",
-            "Les Hauts de Granval - Allée sinistre",
-            "Tunnel sans fin",
-            "Voie du mystère - route 2"
-        ],
-        "yw Blasters 1": [
-            "Exclusif au Peloton du chat rouge",
-            "Patrouille -Hauts de Granval"
-        ],
-        "yw3": [
-            "Coteau fleuri- terrain vague"
-        ],
-        "yw Wibble Wobble": [
-            "Stage 1 (Les hauts de Granval)",
-            "Stage 83 (Centre ville de Granval)",
-            "Stage 142 (Tour excellence)",
-            "Stage Secret 1-6 (Egout A)",
-            "Stage Secret 3-8 (Egout C)",
-            "Stage évènement 3, 27 (Voie du mystère)",
-            "Stage caché 1 (Voie du mystère)"
-        ]
-    },
-    "rarite": "Peloton du chat rouge",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Pointe perçante",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Feu",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Cure-dents aiguisé",
-                "puissance": "20×5|20×5",
-                "description": "Pique ses ennemis avec son cure-dents chéri."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Imprudence",
-                "puissance": "N/A",
-                "description": "L'ennemi devient imprudent et sa DÉF. est réduite."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Casse-cou",
-                "description": "Sera plus vulnérable aux coups critiques."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Pointe perçante",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Feu",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Cure-dents aiguisé",
-                "puissance": "18×5|18×5",
-                "description": "Pique ses ennemis avec son cure-dents chéri."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Imprudence",
-                "puissance": "N/A",
-                "description": "L'ennemi devient imprudent et sa DÉF. est réduite."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque à bloc",
-                "puissance": "N/A",
-                "description": "Déclenche une forte attaque à courte portée."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Casse-cou",
-                "description": "Sera plus vulnérable aux coups critiques."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée"
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Cure-dents aiguisé",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Feu",
-                "puissance": "40",
-                "description": "Utilise un sort de feu. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Attaque puissante",
-                "puissance": "400",
-                "description": "Rassemble ta force en une seule attaque."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Casse-cou",
-                "description": "Plus de chance d'infliger et de recevoir des coups critiques."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Pointe perçante",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Feu",
-                "puissance": "30|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Cure-dents aiguisé",
-                "puissance": "15×5|45×5",
-                "description": "Pique ses ennemis avec son cure-dents chéri."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Imprudence",
-                "puissance": "N/A",
-                "description": "L'ennemi devient imprudent et sa DÉF. est réduite."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Cure-dents aiguisé",
-                "puissance": "40×10",
-                "description": "Enchaîne les coups, inflige des dégâts élevés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque l’ennemi avec une attaque féroce."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive des attaques par des déplacements rapides."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Casse-cou",
-                "description": "Susceptible d'infliger et de subir des coups critiques."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Vivez Karaté"
-            },
-            {
-                "taux": "?%",
-                "objet": "Riz à la prune"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Petit EXPorbe"
-            },
-            {
-                "taux": "?%",
-                "objet": "Riz à la prune"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Billet de loterie"
-            },
-            {
-                "taux": "?%",
-                "objet": "Riz à la prune"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Casse-cou",
-        "description": "Sera plus vulnérable aux coups critiques."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/woko.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/woko.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/woko.wav",
-    "medallium_ids": {
-        "yw1": "001",
-        "yw2": "001",
-        "yw3": "003"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "001",
-        "yw Blasters 2": "003",
-        "yw Wibble Wobble": "1001",
-        "yw World": "0001",
-        "yw Ukiukipedia": "yw2-001/YD7-001"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Careless",
-    "skill_effect": "Careless",
-    "disliked_food": "Bread",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "319",
-                "STR": "160",
-                "SPR": "70",
-                "DEF": "82",
-                "SPD": "130"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "300",
-                "STR": "160",
-                "SPR": "70",
-                "DEF": "82",
-                "SPD": "130"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "364",
-                "STR": "210",
-                "SPR": "55",
-                "DEF": "92",
-                "SPD": "120"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "362",
-                "STR": "205",
-                "SPR": "52",
-                "DEF": "92"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "97-170",
-                "STR": "205",
-                "SPR": "52",
-                "DEF": "92"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "97-170"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "97-170"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ぶようじん坊",
-            "Buyōjinbō"
-        ],
-        "Spanish": [
-            "Alcaldero"
-        ],
-        "French": [
-            "Woko"
-        ],
-        "Italian": [
-            "Padezoma"
-        ],
-        "German": [
-            "Pfannes"
-        ],
-        "Dutch": [
-            "Pandle"
-        ],
-        "Korean": [
-            "무대꼬",
-            "Mudaekko"
-        ],
-        "Russian": [
-            "Вокитель",
-            "Vokitel'"
-        ],
-        "Arabic": [
-            "قعدد",
-            "Qaʕadad"
-        ],
-        "Chinese (Cantonese)": [
-            "不用心坊",
-            "bat1"
-        ],
-        "Chinese (Mandarin)": [
-            "少根筋小鬼",
-            "Shǎogēnjīnxiǎoguǐ",
-            "(Taiwan)",
-            "粗心小鬼",
-            "Cūxīnxiǎoguǐ",
-            "(Mainland"
-        ],
-        "Portuguese (Brazilian)": [
-            "Maluquinho"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ぶようじん坊"
-        ],
-        "Spanish": [
-            "Alcaldero"
-        ],
-        "French": [
-            "Woko"
-        ],
-        "Italian": [
-            "Padezoma"
-        ],
-        "German": [
-            "Pfannes"
-        ],
-        "Dutch": [
-            "Pandle"
-        ],
-        "Korean": [
-            "무대꼬"
-        ],
-        "Russian": [
-            "Вокитель"
-        ],
-        "Arabic": [
-            "قعدد"
-        ],
-        "Chinese (Cantonese)": [
-            "不用心坊"
-        ],
-        "Chinese (Mandarin)": [
-            "少根筋小鬼(Taiwan)粗心小鬼(Mainland China)"
-        ],
-        "Portuguese (Brazilian)": [
-            "Maluquinho"
-        ]
-    },
-    "description_en": "A careless Yo-kai who enters battle wearing only a loincloth...and a pan on his head. Try not to take after him so much.",
-    "nom_en": "Whispocrates",
-    "rang_yww": "E",
-    "tribue_yww": "Isamashi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Onigiri",
-    "nourriture_favorite": "Onigiri",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 36,
-        "str": 35,
-        "spr": 3,
-        "def": 9,
-        "spd": 11
-    },
-    "stats_max_yww": {
-        "hp": 290,
-        "str": 212,
-        "spr": 38,
-        "def": 115,
-        "spd": 115
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "スプリングコイン",
-            "_en": "spring coin",
-            "_fr": "pièce de printemps"
-        }
+    "yw Blasters 1": [
+      "Exclusif au Peloton du chat rouge",
+      "Patrouille -Hauts de Granval"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "こづく",
-                "_en": "poked you",
-                "_fr": "vous a Poké"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "火花の術",
-                "_en": "Spark technique",
-                "_fr": "Technique d'étincelle"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 火属性】 火の妖術を使う。",
-                "_en": "[Power: 30 / Fire attribute] Uses fire magic.",
-                "_fr": "[Puissance : 30 / Attribut Feu] Utilise la magie du feu."
-            }
-        }
+    "yw3": [
+      "Coteau fleuri- terrain vague"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ツンツンようじ",
-                "_en": "Tsuntsun toothpick",
-                "_fr": "Cure-dent Tsuntsun"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ぶようじんにする",
-                "_en": "make it dirty",
-                "_fr": "le rendre sale"
-            },
-            "explication": {
-                "_jp": "【まもりダウン】 とりつかれた妖怪はぶようじんな心がまえになって まもりがダウンする。",
-                "_en": "[Mamori Down] A possessed monster has a dangerous heart in front of it, and its protection goes down.",
-                "_fr": "[Mamori Down] Un monstre possédé a un cœur dangereux devant lui et sa protection diminue."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "ふんどし いっちょうに お鍋をかぶっただけで 戦にのりこむ 不用心な妖怪。 とりついた人も 不用心にする困ったやつ。",
-            "_en": "A careless monster who goes into battle just by wearing a loincloth and a hot pot. It's a troublesome thing that makes even those who get attached to it careless.",
-            "_fr": "Un monstre insouciant qui part au combat simplement en portant un pagne et une fondue. C'est une chose gênante qui rend négligents même ceux qui s'y attachent."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Stage 1 (Les hauts de Granval)",
+      "Stage 83 (Centre ville de Granval)",
+      "Stage 142 (Tour excellence)",
+      "Stage Secret 1-6 (Egout A)",
+      "Stage Secret 3-8 (Egout C)",
+      "Stage évènement 3, 27 (Voie du mystère)",
+      "Stage caché 1 (Voie du mystère)"
     ]
+  },
+  "rarite": "Peloton du chat rouge",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Pointe perçante",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Feu",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Cure-dents aiguisé",
+        "puissance": "20×5|20×5",
+        "description": "Pique ses ennemis avec son cure-dents chéri."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Imprudence",
+        "puissance": "N/A",
+        "description": "L'ennemi devient imprudent et sa DÉF. est réduite."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Casse-cou",
+        "description": "Sera plus vulnérable aux coups critiques."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Pointe perçante",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Feu",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Cure-dents aiguisé",
+        "puissance": "18×5|18×5",
+        "description": "Pique ses ennemis avec son cure-dents chéri."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Imprudence",
+        "puissance": "N/A",
+        "description": "L'ennemi devient imprudent et sa DÉF. est réduite."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Attaque à bloc",
+        "puissance": "N/A",
+        "description": "Déclenche une forte attaque à courte portée."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Casse-cou",
+        "description": "Sera plus vulnérable aux coups critiques."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée"
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Cure-dents aiguisé",
+        "puissance": "40×10",
+        "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Feu",
+        "puissance": "40",
+        "description": "Utilise un sort de feu. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Attaque puissante",
+        "puissance": "400",
+        "description": "Rassemble ta force en une seule attaque."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Casse-cou",
+        "description": "Plus de chance d'infliger et de recevoir des coups critiques."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Pointe perçante",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Feu",
+        "puissance": "30|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Cure-dents aiguisé",
+        "puissance": "15×5|45×5",
+        "description": "Pique ses ennemis avec son cure-dents chéri."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Imprudence",
+        "puissance": "N/A",
+        "description": "L'ennemi devient imprudent et sa DÉF. est réduite."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Cure-dents aiguisé",
+        "puissance": "40×10",
+        "description": "Enchaîne les coups, inflige des dégâts élevés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque l’ennemi avec une attaque féroce."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive des attaques par des déplacements rapides."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Casse-cou",
+        "description": "Susceptible d'infliger et de subir des coups critiques."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Vivez Karaté"
+      },
+      {
+        "taux": "?%",
+        "objet": "Riz à la prune"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Petit EXPorbe"
+      },
+      {
+        "taux": "?%",
+        "objet": "Riz à la prune"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Billet de loterie"
+      },
+      {
+        "taux": "?%",
+        "objet": "Riz à la prune"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Casse-cou",
+    "description": "Sera plus vulnérable aux coups critiques."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/woko.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/woko.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/woko.wav",
+  "medallium_ids": {
+    "yw1": "001",
+    "yw2": "001",
+    "yw3": "003"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "001",
+    "yw Blasters 2": "003",
+    "yw Wibble Wobble": "1001",
+    "yw World": "0001",
+    "yw Ukiukipedia": "yw2-001/YD7-001"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Careless",
+  "skill_effect": "Careless",
+  "disliked_food": "Bread",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "319",
+        "STR": "160",
+        "SPR": "70",
+        "DEF": "82",
+        "SPD": "130"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "300",
+        "STR": "160",
+        "SPR": "70",
+        "DEF": "82",
+        "SPD": "130"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "364",
+        "STR": "210",
+        "SPR": "55",
+        "DEF": "92",
+        "SPD": "120"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "362",
+        "STR": "205",
+        "SPR": "52",
+        "DEF": "92"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "97-170",
+        "STR": "205",
+        "SPR": "52",
+        "DEF": "92"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "97-170"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "97-170"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ぶようじん坊",
+      "Buyōjinbō"
+    ],
+    "Spanish": [
+      "Alcaldero"
+    ],
+    "French": [
+      "Woko"
+    ],
+    "Italian": [
+      "Padezoma"
+    ],
+    "German": [
+      "Pfannes"
+    ],
+    "Dutch": [
+      "Pandle"
+    ],
+    "Korean": [
+      "무대꼬",
+      "Mudaekko"
+    ],
+    "Russian": [
+      "Вокитель",
+      "Vokitel'"
+    ],
+    "Arabic": [
+      "قعدد",
+      "Qaʕadad"
+    ],
+    "Chinese (Cantonese)": [
+      "不用心坊",
+      "bat1"
+    ],
+    "Chinese (Mandarin)": [
+      "少根筋小鬼",
+      "Shǎogēnjīnxiǎoguǐ",
+      "(Taiwan)",
+      "粗心小鬼",
+      "Cūxīnxiǎoguǐ",
+      "(Mainland"
+    ],
+    "Portuguese (Brazilian)": [
+      "Maluquinho"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ぶようじん坊"
+    ],
+    "Spanish": [
+      "Alcaldero"
+    ],
+    "French": [
+      "Woko"
+    ],
+    "Italian": [
+      "Padezoma"
+    ],
+    "German": [
+      "Pfannes"
+    ],
+    "Dutch": [
+      "Pandle"
+    ],
+    "Korean": [
+      "무대꼬"
+    ],
+    "Russian": [
+      "Вокитель"
+    ],
+    "Arabic": [
+      "قعدد"
+    ],
+    "Chinese (Cantonese)": [
+      "不用心坊"
+    ],
+    "Chinese (Mandarin)": [
+      "少根筋小鬼(Taiwan)粗心小鬼(Mainland China)"
+    ],
+    "Portuguese (Brazilian)": [
+      "Maluquinho"
+    ]
+  },
+  "description_en": "A careless Yo-kai who enters battle wearing only a loincloth...and a pan on his head. Try not to take after him so much.",
+  "nom_en": "Whispocrates",
+  "rang_yww": "E",
+  "tribue_yww": "Isamashi",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "Onigiri",
+  "nourriture_favorite": "Onigiri",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 36,
+    "str": 35,
+    "spr": 3,
+    "def": 9,
+    "spd": 11
+  },
+  "stats_max_yww": {
+    "hp": 290,
+    "str": 212,
+    "spr": 38,
+    "def": 115,
+    "spd": 115
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "スプリングコイン",
+      "_en": "spring coin",
+      "_fr": "pièce de printemps"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "こづく",
+        "_en": "poked you",
+        "_fr": "vous a Poké"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "火花の術",
+        "_en": "Spark technique",
+        "_fr": "Technique d'étincelle"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 火属性】 火の妖術を使う。",
+        "_en": "[Power: 30 / Fire attribute] Uses fire magic.",
+        "_fr": "[Puissance : 30 / Attribut Feu] Utilise la magie du feu."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ツンツンようじ",
+        "_en": "Tsuntsun toothpick",
+        "_fr": "Cure-dent Tsuntsun"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ぶようじんにする",
+        "_en": "make it dirty",
+        "_fr": "le rendre sale"
+      },
+      "explication": {
+        "_jp": "【まもりダウン】 とりつかれた妖怪はぶようじんな心がまえになって まもりがダウンする。",
+        "_en": "[Mamori Down] A possessed monster has a dangerous heart in front of it, and its protection goes down.",
+        "_fr": "[Mamori Down] Un monstre possédé a un cœur dangereux devant lui et sa protection diminue."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "ふんどし いっちょうに お鍋をかぶっただけで 戦にのりこむ 不用心な妖怪。 とりついた人も 不用心にする困ったやつ。",
+      "_en": "A careless monster who goes into battle just by wearing a loincloth and a hot pot. It's a troublesome thing that makes even those who get attached to it careless.",
+      "_fr": "Un monstre insouciant qui part au combat simplement en portant un pagne et une fondue. C'est une chose gênante qui rend négligents même ceux qui s'y attachent."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "3",
+  "Name_yww": "ぶようじん坊",
+  "description_jp_yww": "ふんどし　いっちょうに お鍋をかぶっただけで 戦に乗り込む　不用心な妖怪。 とりついた人間まで 不用心にする困ったやつ。",
+  "BingoMessage_jp_yww": "オイラを出すなんて不用心だねえ いいよ　いっしょに遊ぼう！！",
+  "MonsterId_yww": "y101000",
+  "Height_yww": 7.0,
+  "CommondId_yww": "sp_101000",
+  "MinHp_yww": 36,
+  "MaxHp_yww": 290,
+  "MinAttack_yww": 35,
+  "MaxAttack_yww": 212,
+  "MinMagic_yww": 3,
+  "MaxMagic_yww": 38,
+  "MinDefense_yww": 9,
+  "MaxDefense_yww": 115,
+  "MinSpeed_yww": 11,
+  "MaxSpeed_yww": 115,
+  "AttackId_yww": 13,
+  "MagicId_yww": 1,
+  "HauntId_yww": 101000,
+  "SpSkillId_yww": 101000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 1,
+  "DislikeFoodKind_yww": 2,
+  "ActionType_yww": 4,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y096800.png",
+  "SpriteImage_yww": "img_y096800.png",
+  "Audio_yww": "sp_y096800.wav",
+  "Description_yww": "Un yōkai imprudent qui, vêtu d'un simple fundoshi et d'une marmite sur la tête, part au combat. Un sacré emmerdeur qui rend même les humains qu'il possède tout aussi imprudents.",
+  "BingoMessage_fr_yww": "C'est un peu imprudent de me faire sortir, non ? D'accord, on va jouer ensemble !!"
 }

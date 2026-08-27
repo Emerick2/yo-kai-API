@@ -1,619 +1,650 @@
 {
-    "ID": "47",
-    "Nom": "Baku",
-    "Tribue": "Mignon",
-    "Rang": "D",
-    "PV": "323",
-    "Force": "49",
-    "Esprit": "181",
-    "Défense": "120",
-    "Vitesse": "144",
-    "Description-": "Elle utilise ses énormes enceintes pour diffuser des secrets honteux dans toute la ville. Il vaut mieux être prudent et l'éviter.",
-    "Description": "Un Yo-kai qui se délecte seulement des rêves des humains. Elles les endort avant de se régaler. Fais de beaux rêves !",
-    "nourriture": "Jus",
-    "élément": "Absorption",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Baku vient du Baku, un Yokai de la mythologie japonaise.",
-    "origine": "Dans la mythologie japonaise, lebakuest une créature fantastique originaire du folklore chinois, qui se nourrit des rêves et des cauchemars. L'inspiration de cette créature serait inspirée dutapir, un animal réel.",
-    "histoire": "",
-    "pouvoir": "Elle peut dévorer les rêves et cauchemars des personnes, elle est la raison pour laquelle on ne se souvient pas de certains rêves. Elle peut aussi enlever la fatigue d'une personne et prendre son apparence.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/baku.png",
-    "numero": "103",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Emprise",
-            "effet": "Augmente le nombre de PV absorbés."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Gifle",
-            "effet": "10 | 45"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Vortex",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Soporifumée",
-            "effet": "Expire de la fumée par son nez et endort ses ennemis."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Bonne nuit",
-            "effet": "Les Yo-kai affectés ont envie de dormir à cause d'une forte fatigue."
-        }
+  "ID": "47",
+  "Nom": "Baku",
+  "Tribue": "Mignon",
+  "Rang": "D",
+  "PV": "323",
+  "Force": "49",
+  "Esprit": "181",
+  "Défense": "120",
+  "Vitesse": "144",
+  "Description-": "Elle utilise ses énormes enceintes pour diffuser des secrets honteux dans toute la ville. Il vaut mieux être prudent et l'éviter.",
+  "Description": "Un Yo-kai qui se délecte seulement des rêves des humains. Elles les endort avant de se régaler. Fais de beaux rêves !",
+  "nourriture": "Jus",
+  "élément": "Absorption",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Baku vient du Baku, un Yokai de la mythologie japonaise.",
+  "origine": "Dans la mythologie japonaise, lebakuest une créature fantastique originaire du folklore chinois, qui se nourrit des rêves et des cauchemars. L'inspiration de cette créature serait inspirée dutapir, un animal réel.",
+  "histoire": "",
+  "pouvoir": "Elle peut dévorer les rêves et cauchemars des personnes, elle est la raison pour laquelle on ne se souvient pas de certains rêves. Elle peut aussi enlever la fatigue d'une personne et prendre son apparence.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/baku.png",
+  "numero": "103",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Emprise",
+      "effet": "Augmente le nombre de PV absorbés."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Gifle",
+      "effet": "10 | 45"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Vortex",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Soporifumée",
+      "effet": "Expire de la fumée par son nez et endort ses ennemis."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Bonne nuit",
+      "effet": "Les Yo-kai affectés ont envie de dormir à cause d'une forte fatigue."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "MIAM, MIAM.",
+    "Mange de la nourriture insipide": "Bof.",
+    "Mange de la mauvaise nourriture": "*vomit*",
+    "A la flemme": "Zzz...",
+    "Est échangé": "Baku être ton amie maintenant car ... faire rêves dégoutants !",
+    "Devient ton ami": "Baku devenir ton amie et se délecter de tes rêves !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "Général",
+      "de": "Baku",
+      "vers": "Bakuku",
+      "critere": "Niveau 29"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "バク",
+  "nom_anglais": "Baku",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Nathalie Bienaimé",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Histoire -Chapitre 4",
+      "Coteau fleuri- herbe",
+      "Coteau fleuri - bambous",
+      "Vieux manoir - demeure"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "MIAM, MIAM.",
-        "Mange de la nourriture insipide": "Bof.",
-        "Mange de la mauvaise nourriture": "*vomit*",
-        "A la flemme": "Zzz...",
-        "Est échangé": "Baku être ton amie maintenant car ... faire rêves dégoutants !",
-        "Devient ton ami": "Baku devenir ton amie et se délecter de tes rêves !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "Général",
-            "de": "Baku",
-            "vers": "Bakuku",
-            "critere": "Niveau 29"
-        }
+    "yw2": [
+      "Au cours de l'histoire",
+      "Yo-kai World- Montagne du menteur (apparition rare)",
+      "Bingo-kai-Pièce rose(passé)"
     ],
-    "image_locale": "",
-    "nom_original": "バク",
-    "nom_anglais": "Baku",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Nathalie Bienaimé",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Histoire -Chapitre 4",
-            "Coteau fleuri- herbe",
-            "Coteau fleuri - bambous",
-            "Vieux manoir - demeure"
-        ],
-        "yw2": [
-            "Au cours de l'histoire",
-            "Yo-kai World- Montagne du menteur (apparition rare)",
-            "Bingo-kai-Pièce rose(passé)"
-        ],
-        "yw3": [
-            "Coteau fleuri- Tombes (nuit)"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "Mononoke",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Soporifumée",
-                "puissance": "___",
-                "description": "Expire de la fumée par son nez et endort ses ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Bonne nuit",
-                "puissance": "N/A",
-                "description": "Les Yo-kai affectés ont envie de dormir à cause d'une forte fatigue."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Emprise",
-                "description": "Augmente le nombre de PV absorbés."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Soporifumée",
-                "puissance": "___",
-                "description": "Expire de la fumée par son nez et endort ses ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Bonne nuit",
-                "puissance": "N/A",
-                "description": "Les Yo-kai affectés ont envie de dormir à cause d'une forte fatigue."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Vortex",
-                "puissance": "N/A",
-                "description": "Te fait absorber les PV de l'ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Emprise",
-                "description": "Augmente le nombre de PV absorbés."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Soporifumée",
-                "puissance": "___",
-                "description": "Forte baisse temporaire de la défense ennemie."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Vortex",
-                "puissance": "30",
-                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Riz",
-                "puissance": "70",
-                "description": "Restaure tes PV."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Emprise",
-                "description": "Augmente le nombre de PV absorbés."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "40|88",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Soporifumée",
-                "puissance": "___",
-                "description": "Son nez libère de la fumée soporifique. Ceux touchés agissent moins."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Bonne nuit",
-                "puissance": "N/A",
-                "description": "Les Yo-kai affectés ont envie de dormir à cause d'une forte fatigue."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Emprise",
-                "description": "Augmente le nombre de PV absorbés."
-            }
-        ]
-    },
-    "soul_effects": {
-        "yw2": "Augmente légèrement la quantité de PV absorbés.",
-        "yw Blasters 1": "Augmente légèrement le nombre de PV absorbés.",
-        "yw3": "↑ un peu le nombre de PV absorbés."
-    },
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Amulette runique"
-            },
-            {
-                "taux": "?%",
-                "objet": "Sandwich"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Badge brillant"
-            },
-            {
-                "taux": "?%",
-                "objet": "Chips"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "EXPorbe moyen"
-            },
-            {
-                "taux": "?%",
-                "objet": "Y-Cola"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Emprise",
-        "description": "Augmente le nombre de PV absorbés."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/baku.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/baku.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/baku.wav",
-    "oldID": "47",
-    "medallium_ids": {
-        "yw1": "103",
-        "yw2": "146",
-        "yw3": "233",
-        "yw4": "42 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "Wib Wob": ""
-    },
-    "battle_type": "",
-    "skill_name": "Grip on You",
-    "skill_effect": "Bedtime",
-    "disliked_food": "Seafood",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "306",
-                "STR": "105",
-                "SPR": "148",
-                "DEF": "121",
-                "SPD": "143"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "335",
-                "STR": "105",
-                "SPR": "148",
-                "DEF": "121",
-                "SPD": "143"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "109",
-                "STR": "26",
-                "SPR": "31",
-                "DEF": "131",
-                "SPD": "155"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "217-379",
-                "STR": "26",
-                "SPR": "31"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "217-379"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "217-379"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "217-379"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "バク",
-            "Baku"
-        ],
-        "Spanish": [
-            "Baku"
-        ],
-        "French": [
-            "Baku"
-        ],
-        "Italian": [
-            "Baku"
-        ],
-        "German": [
-            "Baku"
-        ],
-        "Korean": [
-            "맥",
-            "Maeg"
-        ],
-        "Russian": [
-            "Бакусон",
-            "Bakuson"
-        ],
-        "Arabic": [
-            "ياكو",
-            "Yākū"
-        ],
-        "Chinese (Mandarin)": [
-            "黑貘",
-            "食罗狼",
-            "Shíluōláng",
-            "[",
-            "1",
-            "]"
-        ],
-        "Portuguese (Brazilian)": [
-            "Antoxa"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "バク"
-        ],
-        "Spanish": [
-            "Baku"
-        ],
-        "French": [
-            "Baku"
-        ],
-        "Italian": [
-            "Baku"
-        ],
-        "German": [
-            "Baku"
-        ],
-        "Korean": [
-            "맥"
-        ],
-        "Russian": [
-            "Бакусон"
-        ],
-        "Arabic": [
-            "ياكو"
-        ],
-        "Chinese (Mandarin)": [
-            "黑貘食罗狼[1]"
-        ],
-        "Portuguese (Brazilian)": [
-            "Antoxa"
-        ]
-    },
-    "description_en": "A Yo-kai that eats only human dreams. It puts people to sleep before digging in. Beaux rêves!",
-    "nom_en": "Skranny",
-    "rang_yww": "D",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "jus",
-    "nourriture_favorite": "jus",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 46,
-        "str": 7,
-        "spr": 19,
-        "def": 13,
-        "spd": 17
-    },
-    "stats_max_yww": {
-        "hp": 323,
-        "str": 49,
-        "spr": 181,
-        "def": 120,
-        "spd": 144
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "1つ星コイン",
-            "_en": "1 star coin",
-            "_fr": "Pièce d'une étoile"
-        },
-        {
-            "_jp": "5つ星コイン",
-            "_en": "5 star coin",
-            "_fr": "Pièce de 5 étoiles"
-        },
-        {
-            "_jp": "ファミマコイン",
-            "_en": "Family Mart Coin",
-            "_fr": "Pièce de monnaie du marché familial"
-        },
-        {
-            "_jp": "ドコモコイン1",
-            "_en": "docomo coin 1",
-            "_fr": "pièce docomo 1"
-        },
-        {
-            "_jp": "十五夜コイン",
-            "_en": "jugoya coin",
-            "_fr": "pièce de monnaie jugoya"
-        },
-        {
-            "_jp": "ドコモコイン2",
-            "_en": "docomo coin 2",
-            "_fr": "pièce docomo 2"
-        },
-        {
-            "_jp": "ハロウィンコイン",
-            "_en": "halloween coin",
-            "_fr": "pièce de monnaie d'Halloween"
-        },
-        {
-            "_jp": "ミルクチョココイン",
-            "_en": "milk chocolate coin",
-            "_fr": "pièce de chocolat au lait"
-        },
-        {
-            "_jp": "ビターチョココイン",
-            "_en": "bitter chocolate coin",
-            "_fr": "pièce de chocolat amer"
-        },
-        {
-            "_jp": "バレンタインコイン",
-            "_en": "valentine coin",
-            "_fr": "pièce de monnaie de la Saint-Valentin"
-        },
-        {
-            "_jp": "おひな様コイン",
-            "_en": "Hina-sama coin",
-            "_fr": "Pièce de monnaie Hina-sama"
-        },
-        {
-            "_jp": "おだいり様コイン",
-            "_en": "Odairi-sama coin",
-            "_fr": "Pièce Odairi-sama"
-        }
-    ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はたく",
-                "_en": "flutter",
-                "_fr": "battement"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "吸収の術",
-                "_en": "absorption technique",
-                "_fr": "technique d'absorption"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
-                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
-                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ネムケムリ",
-                "_en": "Nemkemri",
-                "_fr": "Nemkemri"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "眠くなるけむりで敵全員を眠らせる。当たった敵はなかなか行動しなくなる。",
-                "_en": "Puts all enemies to sleep with sleepy smoke. Enemies hit will not take any action.",
-                "_fr": "Endort tous les ennemis avec une fumée endormie. Les ennemis touchés n’effectueront aucune action."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ねむらせる",
-                "_en": "make you sleep",
-                "_fr": "te faire dormir"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 とりつかれた妖怪は眠りこけてしまいたまに行動しなくなる。",
-                "_en": "[Osabori] Possessed monsters fall asleep and sometimes stop acting.",
-                "_fr": "[Osabori] Les monstres possédés s'endorment et arrêtent parfois d'agir."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "人の見ている『夢』を ご飯にしている妖怪。 とりついた人を眠らせて 見ている夢を ゆっくりと ごちそうになる。",
-            "_en": "A monster that feeds on people's dreams. It puts the possessed person to sleep and slowly feasts on their dreams.",
-            "_fr": "Un monstre qui se nourrit des rêves des gens. Il endort la personne possédée et se régale lentement de ses rêves."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Coteau fleuri- Tombes (nuit)"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "Mononoke",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Vortex",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Soporifumée",
+        "puissance": "___",
+        "description": "Expire de la fumée par son nez et endort ses ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Bonne nuit",
+        "puissance": "N/A",
+        "description": "Les Yo-kai affectés ont envie de dormir à cause d'une forte fatigue."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Emprise",
+        "description": "Augmente le nombre de PV absorbés."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Vortex",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Soporifumée",
+        "puissance": "___",
+        "description": "Expire de la fumée par son nez et endort ses ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Bonne nuit",
+        "puissance": "N/A",
+        "description": "Les Yo-kai affectés ont envie de dormir à cause d'une forte fatigue."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Vortex",
+        "puissance": "N/A",
+        "description": "Te fait absorber les PV de l'ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Emprise",
+        "description": "Augmente le nombre de PV absorbés."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Soporifumée",
+        "puissance": "___",
+        "description": "Forte baisse temporaire de la défense ennemie."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Vortex",
+        "puissance": "30",
+        "description": "Absorbe les PV ennemis. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Riz",
+        "puissance": "70",
+        "description": "Restaure tes PV."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Emprise",
+        "description": "Augmente le nombre de PV absorbés."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Vortex",
+        "puissance": "40|88",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Soporifumée",
+        "puissance": "___",
+        "description": "Son nez libère de la fumée soporifique. Ceux touchés agissent moins."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Bonne nuit",
+        "puissance": "N/A",
+        "description": "Les Yo-kai affectés ont envie de dormir à cause d'une forte fatigue."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Emprise",
+        "description": "Augmente le nombre de PV absorbés."
+      }
+    ]
+  },
+  "soul_effects": {
+    "yw2": "Augmente légèrement la quantité de PV absorbés.",
+    "yw Blasters 1": "Augmente légèrement le nombre de PV absorbés.",
+    "yw3": "↑ un peu le nombre de PV absorbés."
+  },
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Amulette runique"
+      },
+      {
+        "taux": "?%",
+        "objet": "Sandwich"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Badge brillant"
+      },
+      {
+        "taux": "?%",
+        "objet": "Chips"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "EXPorbe moyen"
+      },
+      {
+        "taux": "?%",
+        "objet": "Y-Cola"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Emprise",
+    "description": "Augmente le nombre de PV absorbés."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/baku.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/baku.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/baku.wav",
+  "oldID": "47",
+  "medallium_ids": {
+    "yw1": "103",
+    "yw2": "146",
+    "yw3": "233",
+    "yw4": "42 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "Wib Wob": ""
+  },
+  "battle_type": "",
+  "skill_name": "Grip on You",
+  "skill_effect": "Bedtime",
+  "disliked_food": "Seafood",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "306",
+        "STR": "105",
+        "SPR": "148",
+        "DEF": "121",
+        "SPD": "143"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "335",
+        "STR": "105",
+        "SPR": "148",
+        "DEF": "121",
+        "SPD": "143"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "109",
+        "STR": "26",
+        "SPR": "31",
+        "DEF": "131",
+        "SPD": "155"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "217-379",
+        "STR": "26",
+        "SPR": "31"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "217-379"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "217-379"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "217-379"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "バク",
+      "Baku"
+    ],
+    "Spanish": [
+      "Baku"
+    ],
+    "French": [
+      "Baku"
+    ],
+    "Italian": [
+      "Baku"
+    ],
+    "German": [
+      "Baku"
+    ],
+    "Korean": [
+      "맥",
+      "Maeg"
+    ],
+    "Russian": [
+      "Бакусон",
+      "Bakuson"
+    ],
+    "Arabic": [
+      "ياكو",
+      "Yākū"
+    ],
+    "Chinese (Mandarin)": [
+      "黑貘",
+      "食罗狼",
+      "Shíluōláng",
+      "[",
+      "1",
+      "]"
+    ],
+    "Portuguese (Brazilian)": [
+      "Antoxa"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "バク"
+    ],
+    "Spanish": [
+      "Baku"
+    ],
+    "French": [
+      "Baku"
+    ],
+    "Italian": [
+      "Baku"
+    ],
+    "German": [
+      "Baku"
+    ],
+    "Korean": [
+      "맥"
+    ],
+    "Russian": [
+      "Бакусон"
+    ],
+    "Arabic": [
+      "ياكو"
+    ],
+    "Chinese (Mandarin)": [
+      "黑貘食罗狼[1]"
+    ],
+    "Portuguese (Brazilian)": [
+      "Antoxa"
+    ]
+  },
+  "description_en": "A Yo-kai that eats only human dreams. It puts people to sleep before digging in. Beaux rêves!",
+  "nom_en": "Skranny",
+  "rang_yww": "D",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "jus",
+  "nourriture_favorite": "jus",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 46,
+    "str": 7,
+    "spr": 19,
+    "def": 13,
+    "spd": 17
+  },
+  "stats_max_yww": {
+    "hp": 323,
+    "str": 49,
+    "spr": 181,
+    "def": 120,
+    "spd": 144
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "1つ星コイン",
+      "_en": "1 star coin",
+      "_fr": "Pièce d'une étoile"
+    },
+    {
+      "_jp": "5つ星コイン",
+      "_en": "5 star coin",
+      "_fr": "Pièce de 5 étoiles"
+    },
+    {
+      "_jp": "ファミマコイン",
+      "_en": "Family Mart Coin",
+      "_fr": "Pièce de monnaie du marché familial"
+    },
+    {
+      "_jp": "ドコモコイン1",
+      "_en": "docomo coin 1",
+      "_fr": "pièce docomo 1"
+    },
+    {
+      "_jp": "十五夜コイン",
+      "_en": "jugoya coin",
+      "_fr": "pièce de monnaie jugoya"
+    },
+    {
+      "_jp": "ドコモコイン2",
+      "_en": "docomo coin 2",
+      "_fr": "pièce docomo 2"
+    },
+    {
+      "_jp": "ハロウィンコイン",
+      "_en": "halloween coin",
+      "_fr": "pièce de monnaie d'Halloween"
+    },
+    {
+      "_jp": "ミルクチョココイン",
+      "_en": "milk chocolate coin",
+      "_fr": "pièce de chocolat au lait"
+    },
+    {
+      "_jp": "ビターチョココイン",
+      "_en": "bitter chocolate coin",
+      "_fr": "pièce de chocolat amer"
+    },
+    {
+      "_jp": "バレンタインコイン",
+      "_en": "valentine coin",
+      "_fr": "pièce de monnaie de la Saint-Valentin"
+    },
+    {
+      "_jp": "おひな様コイン",
+      "_en": "Hina-sama coin",
+      "_fr": "Pièce de monnaie Hina-sama"
+    },
+    {
+      "_jp": "おだいり様コイン",
+      "_en": "Odairi-sama coin",
+      "_fr": "Pièce Odairi-sama"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "はたく",
+        "_en": "flutter",
+        "_fr": "battement"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "吸収の術",
+        "_en": "absorption technique",
+        "_fr": "technique d'absorption"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+        "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+        "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ネムケムリ",
+        "_en": "Nemkemri",
+        "_fr": "Nemkemri"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "眠くなるけむりで敵全員を眠らせる。当たった敵はなかなか行動しなくなる。",
+        "_en": "Puts all enemies to sleep with sleepy smoke. Enemies hit will not take any action.",
+        "_fr": "Endort tous les ennemis avec une fumée endormie. Les ennemis touchés n’effectueront aucune action."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ねむらせる",
+        "_en": "make you sleep",
+        "_fr": "te faire dormir"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 とりつかれた妖怪は眠りこけてしまいたまに行動しなくなる。",
+        "_en": "[Osabori] Possessed monsters fall asleep and sometimes stop acting.",
+        "_fr": "[Osabori] Les monstres possédés s'endorment et arrêtent parfois d'agir."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "人の見ている『夢』を ご飯にしている妖怪。 とりついた人を眠らせて 見ている夢を ゆっくりと ごちそうになる。",
+      "_en": "A monster that feeds on people's dreams. It puts the possessed person to sleep and slowly feasts on their dreams.",
+      "_fr": "Un monstre qui se nourrit des rêves des gens. Il endort la personne possédée et se régale lentement de ses rêves."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "47",
+  "Name_yww": "バク",
+  "description_jp_yww": "人の見ている『夢』を ご飯にしている妖怪。 とりついた人を眠らせて 見ている夢を ゆっくりと　ごちそうになる。",
+  "BingoMessage_jp_yww": "お主　いい夢を見せてくれそうじゃの ついていってやろうかの",
+  "MonsterId_yww": "y127000",
+  "Height_yww": 7.0,
+  "CommondId_yww": "sp_127000",
+  "MinHp_yww": 46,
+  "MaxHp_yww": 323,
+  "MinAttack_yww": 7,
+  "MaxAttack_yww": 49,
+  "MinMagic_yww": 19,
+  "MaxMagic_yww": 181,
+  "MinDefense_yww": 13,
+  "MaxDefense_yww": 120,
+  "MinSpeed_yww": 17,
+  "MaxSpeed_yww": 144,
+  "AttackId_yww": 10,
+  "MagicId_yww": 20,
+  "HauntId_yww": 127000,
+  "SpSkillId_yww": 127000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 5,
+  "DislikeFoodKind_yww": 12,
+  "ActionType_yww": 9,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y122800.png",
+  "SpriteImage_yww": "img_y122800.png",
+  "Audio_yww": "sp_y122800.wav",
+  "Description_yww": "Un yōkai qui se nourrit des « rêves » des gens. Il endort la personne qu’il a possédée et se régale lentement du rêve qu’elle fait.",
+  "BingoMessage_fr_yww": "Tu sembles pouvoir m'offrir de beaux rêves, toi. Je vais peut-être te suivre."
 }

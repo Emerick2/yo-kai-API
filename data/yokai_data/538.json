@@ -1,248 +1,279 @@
 {
-    "ID": "538",
-    "Nom": "Indexter",
-    "Tribue": "Sombre",
-    "Rang": "D",
-    "PV": "356",
-    "Force": "46",
-    "Esprit": "189",
-    "Défense": "160",
-    "Vitesse": "113",
-    "Description": "Ce Yo-kai surgit de nulle part, dans les ordinateurs des gens, pour leur donner d'obscurs faits sur le monde de l'informatique.",
-    "nourriture": "Pizza",
-    "élément": "Absorption",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Indexter est capable de naviguer d'ordinateur en ordinateur sans problème à travers le net. Il est capable de trouver des informations sur Internet, même perdues.",
-    "personnalité": "Indexter est un geek renfermé sur lui-même, ne vivant que grâce aux technologies. Il possède de très grandes connaissances liées à l'informatique.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/indexter.png",
-    "nom_original": "ギーくん",
-    "nom_anglais": "Indexter",
-    "premiere_apparition": "yw3",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": "English VA Joey D'Auria"
-    },
-    "localisations": {
-        "yw3": [
-            "Betel- hangar n° 2"
-        ]
-    },
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Indexter",
-            "parent2": "Couchtar",
-            "resultat": "Hacksel",
-            "critere": "➨"
-        }
-    ],
-    "rarite": "Yo-kai Mericain",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Virus informatique",
-        "description": "La malédiction annule la force élémentaire ennemie."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/indexter.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/indexter.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/indexter.wav",
-    "oldID": "546",
-    "medallium_ids": {
-        "yw3": "406"
-    },
-    "spinoff_ids": {
-        "yw Wibble Wobble": "6085"
-    },
-    "battle_type": "'Merican",
-    "skill_name": "Malware",
-    "skill_effect": "Geekify",
-    "disliked_food": "Seafood",
-    "global_stats": {
-        "yw3": {
-            "stats": {
-                "HP": "122-209",
-                "STR": "46",
-                "SPR": "189",
-                "DEF": "160",
-                "SPD": "113"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "122-209"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "122-209"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ギーくん",
-            "Gī-kun"
-        ],
-        "Spanish": [
-            "Bilgatino"
-        ],
-        "French": [
-            "Indexter"
-        ],
-        "Italian": [
-            "Nerdio"
-        ],
-        "German": [
-            "Nerdinand"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ギーくん"
-        ],
-        "Spanish": [
-            "Bilgatino"
-        ],
-        "French": [
-            "Indexter"
-        ],
-        "Italian": [
-            "Nerdio"
-        ],
-        "German": [
-            "Nerdinand"
-        ]
-    },
-    "description_en": "This Yo-kai travels the information highway freely, randomly appearing on people's computers to reel off obscure IT facts.",
-    "nom_en": "Neggplant",
-    "rang_yww": "D",
-    "tribue_yww": "Usurakage",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "pizza",
-    "nourriture_favorite": "pizza",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "stats_initiale_yww": {
-        "hp": 45,
-        "str": 5,
-        "spr": 25,
-        "def": 20,
-        "spd": 13
-    },
-    "stats_max_yww": {
-        "hp": 356,
-        "str": 46,
-        "spr": 189,
-        "def": 160,
-        "spd": 113
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はたく",
-                "_en": "flutter",
-                "_fr": "battement"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "吸収の術",
-                "_en": "absorption technique",
-                "_fr": "technique d'absorption"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
-                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
-                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "無線混ＬＡＮ環境構築",
-                "_en": "Wireless mixed LAN environment construction",
-                "_fr": "Construction d'un environnement LAN mixte sans fil"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "敵全員の脳をハッキングし混乱させる。混乱すると味方をすぐにこうげきする。",
-                "_en": "Hack and confuse the brains of all your enemies. If confused, it will quickly attack allies.",
-                "_fr": "Piratez et confondez le cerveau de tous vos ennemis. S'il est confus, il attaquera rapidement ses alliés."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "オタクにする",
-                "_en": "make an otaku",
-                "_fr": "faire un otaku"
-            },
-            "explication": {
-                "_jp": "【ちからダウン】 とりつかれた妖怪はコンピューターオタクになり ちからが大ダウンする。",
-                "_en": "[Power down] The possessed monster becomes a computer geek and his power goes down.",
-                "_fr": "[Mise hors tension] Le monstre possédé devient un connaisseur de l'informatique et son pouvoir diminue."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "パソコンに詳しくなりすぎて インターネットの世界を自由に 行き来できるようになった。 夜な夜な 誰かのＰＣに現れ その深い知識を披露している。",
-            "_en": "I became so knowledgeable about computers that I was able to move freely around the world of the Internet. Every night, he appears on someone's PC and shows off his deep knowledge.",
-            "_fr": "J'ai acquis de telles connaissances en informatique que j'ai pu me déplacer librement dans le monde d'Internet. Chaque nuit, il apparaît sur le PC de quelqu'un et montre ses profondes connaissances."
-        }
-    ],
-    "jeu_present": [
-        "yw3"
+  "ID": "538",
+  "Nom": "Indexter",
+  "Tribue": "Sombre",
+  "Rang": "D",
+  "PV": "356",
+  "Force": "46",
+  "Esprit": "189",
+  "Défense": "160",
+  "Vitesse": "113",
+  "Description": "Ce Yo-kai surgit de nulle part, dans les ordinateurs des gens, pour leur donner d'obscurs faits sur le monde de l'informatique.",
+  "nourriture": "Pizza",
+  "élément": "Absorption",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Indexter est capable de naviguer d'ordinateur en ordinateur sans problème à travers le net. Il est capable de trouver des informations sur Internet, même perdues.",
+  "personnalité": "Indexter est un geek renfermé sur lui-même, ne vivant que grâce aux technologies. Il possède de très grandes connaissances liées à l'informatique.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/indexter.png",
+  "nom_original": "ギーくん",
+  "nom_anglais": "Indexter",
+  "premiere_apparition": "yw3",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": "English VA Joey D'Auria"
+  },
+  "localisations": {
+    "yw3": [
+      "Betel- hangar n° 2"
     ]
+  },
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Indexter",
+      "parent2": "Couchtar",
+      "resultat": "Hacksel",
+      "critere": "➨"
+    }
+  ],
+  "rarite": "Yo-kai Mericain",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {},
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Virus informatique",
+    "description": "La malédiction annule la force élémentaire ennemie."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/indexter.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/indexter.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/indexter.wav",
+  "oldID": "546",
+  "medallium_ids": {
+    "yw3": "406"
+  },
+  "spinoff_ids": {
+    "yw Wibble Wobble": "6085"
+  },
+  "battle_type": "'Merican",
+  "skill_name": "Malware",
+  "skill_effect": "Geekify",
+  "disliked_food": "Seafood",
+  "global_stats": {
+    "yw3": {
+      "stats": {
+        "HP": "122-209",
+        "STR": "46",
+        "SPR": "189",
+        "DEF": "160",
+        "SPD": "113"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "122-209"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "122-209"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ギーくん",
+      "Gī-kun"
+    ],
+    "Spanish": [
+      "Bilgatino"
+    ],
+    "French": [
+      "Indexter"
+    ],
+    "Italian": [
+      "Nerdio"
+    ],
+    "German": [
+      "Nerdinand"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ギーくん"
+    ],
+    "Spanish": [
+      "Bilgatino"
+    ],
+    "French": [
+      "Indexter"
+    ],
+    "Italian": [
+      "Nerdio"
+    ],
+    "German": [
+      "Nerdinand"
+    ]
+  },
+  "description_en": "This Yo-kai travels the information highway freely, randomly appearing on people's computers to reel off obscure IT facts.",
+  "nom_en": "Neggplant",
+  "rang_yww": "D",
+  "tribue_yww": "Usurakage",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "pizza",
+  "nourriture_favorite": "pizza",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "avantage_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "stats_initiale_yww": {
+    "hp": 45,
+    "str": 5,
+    "spr": 25,
+    "def": 20,
+    "spd": 13
+  },
+  "stats_max_yww": {
+    "hp": 356,
+    "str": 46,
+    "spr": 189,
+    "def": 160,
+    "spd": 113
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "はたく",
+        "_en": "flutter",
+        "_fr": "battement"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "吸収の術",
+        "_en": "absorption technique",
+        "_fr": "technique d'absorption"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+        "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+        "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "無線混ＬＡＮ環境構築",
+        "_en": "Wireless mixed LAN environment construction",
+        "_fr": "Construction d'un environnement LAN mixte sans fil"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "敵全員の脳をハッキングし混乱させる。混乱すると味方をすぐにこうげきする。",
+        "_en": "Hack and confuse the brains of all your enemies. If confused, it will quickly attack allies.",
+        "_fr": "Piratez et confondez le cerveau de tous vos ennemis. S'il est confus, il attaquera rapidement ses alliés."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "オタクにする",
+        "_en": "make an otaku",
+        "_fr": "faire un otaku"
+      },
+      "explication": {
+        "_jp": "【ちからダウン】 とりつかれた妖怪はコンピューターオタクになり ちからが大ダウンする。",
+        "_en": "[Power down] The possessed monster becomes a computer geek and his power goes down.",
+        "_fr": "[Mise hors tension] Le monstre possédé devient un connaisseur de l'informatique et son pouvoir diminue."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "パソコンに詳しくなりすぎて インターネットの世界を自由に 行き来できるようになった。 夜な夜な 誰かのＰＣに現れ その深い知識を披露している。",
+      "_en": "I became so knowledgeable about computers that I was able to move freely around the world of the Internet. Every night, he appears on someone's PC and shows off his deep knowledge.",
+      "_fr": "J'ai acquis de telles connaissances en informatique que j'ai pu me déplacer librement dans le monde d'Internet. Chaque nuit, il apparaît sur le PC de quelqu'un et montre ses profondes connaissances."
+    }
+  ],
+  "jeu_present": [
+    "yw3"
+  ],
+  "id_yww": "528",
+  "Name_yww": "ギーくん",
+  "description_jp_yww": "パソコンに詳しくなりすぎて インターネットの世界を自由に 行き来できるようになった。 夜な夜な　誰かのＰＣに現れ その深い知識を披露している。",
+  "BingoMessage_jp_yww": "パソコンやインターネットのことについて お困りでしたら　ボクにお任せください！",
+  "MonsterId_yww": "y593000",
+  "Height_yww": 10.97,
+  "CommondId_yww": "sp_593000",
+  "MinHp_yww": 43,
+  "MaxHp_yww": 361,
+  "MinAttack_yww": 7,
+  "MaxAttack_yww": 50,
+  "MinMagic_yww": 19,
+  "MaxMagic_yww": 174,
+  "MinDefense_yww": 16,
+  "MaxDefense_yww": 152,
+  "MinSpeed_yww": 12,
+  "MaxSpeed_yww": 90,
+  "AttackId_yww": 46,
+  "MagicId_yww": 10,
+  "HauntId_yww": 593000,
+  "SpSkillId_yww": 593000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 23,
+  "DislikeFoodKind_yww": 4,
+  "ActionType_yww": 22,
+  "TribeType_yww": 6,
+  "MedallionImage_yww": "y588800.png",
+  "SpriteImage_yww": "img_y588800.png",
+  "Audio_yww": "sp_y588800.wav",
+  "Description_yww": "Il s'y connaît désormais tellement bien en informatique qu'il peut se déplacer librement dans le monde d'Internet. Nuit après nuit, il fait son apparition sur l'ordinateur de quelqu'un pour y faire étalage de ses connaissances approfondies.",
+  "BingoMessage_fr_yww": "Si vous rencontrez des difficultés avec votre ordinateur ou Internet, faites-moi confiance !"
 }

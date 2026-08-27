@@ -1,306 +1,337 @@
 {
-    "ID": "454",
-    "Nom": "Curryeux",
-    "Tribue": "Mystérieu",
-    "Rang": "E",
-    "PV": "383",
-    "Force": "33",
-    "Esprit": "218",
-    "Défense": "93",
-    "Vitesse": "110",
-    "Description": "Hein ? Quoi ? Comment ? Attends, on doit donner une explication pour lui ? Vraiment ? Pour de vrai ? Mais pourquoi ?",
-    "nourriture": "Curry",
-    "élément": "Foudre",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Sous son envoûtement, les gens deviennent aussi curieux et prennent la même posture.",
-    "personnalité": "Comme son nom l'indique il est très curieux et passe son temps à demander \"pourquoi\".",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/curryeux.png",
-    "numero": "082",
-    "nourriture_favorite": "Curry",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Auto-persuasion",
-            "effet": "Booste les effets des grâces du lanceur."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Plaquage absolu",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Décharge",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Pataquès futile",
-            "effet": "Embrouille l'ennemi avec une aura mystérieuse. Mais pourquoi ?!"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Pourquoiii ?",
-            "effet": "L'ennemi se demande pourquoi il se bat. Il peut refuser d'agir.Médaillon de Curryeux"
-        }
+  "ID": "454",
+  "Nom": "Curryeux",
+  "Tribue": "Mystérieu",
+  "Rang": "E",
+  "PV": "383",
+  "Force": "33",
+  "Esprit": "218",
+  "Défense": "93",
+  "Vitesse": "110",
+  "Description": "Hein ? Quoi ? Comment ? Attends, on doit donner une explication pour lui ? Vraiment ? Pour de vrai ? Mais pourquoi ?",
+  "nourriture": "Curry",
+  "élément": "Foudre",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Sous son envoûtement, les gens deviennent aussi curieux et prennent la même posture.",
+  "personnalité": "Comme son nom l'indique il est très curieux et passe son temps à demander \"pourquoi\".",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/curryeux.png",
+  "numero": "082",
+  "nourriture_favorite": "Curry",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Auto-persuasion",
+      "effet": "Booste les effets des grâces du lanceur."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Plaquage absolu",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Décharge",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Pataquès futile",
+      "effet": "Embrouille l'ennemi avec une aura mystérieuse. Mais pourquoi ?!"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Pourquoiii ?",
+      "effet": "L'ennemi se demande pourquoi il se bat. Il peut refuser d'agir.Médaillon de Curryeux"
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Pourquoi c'est bon ?",
+    "Mange de la nourriture insipide": "Quoi ? Qui ? Où ?",
+    "Mange de la mauvaise nourriture": "Pourquoi si infect ?!",
+    "A la flemme": "Pourquoi se battre ?",
+    "Devient ton ami": "Pourquoi avoir attaqué au lieu de me demander d'être ton ami ? Pourquoi ?",
+    "Est échangé": "Je viens d'arriver, mais ça a pas l'air de te faire plaisir ! Pourquoi ?",
+    "Bingo-kai": "Pourquoi tu m'as libéré ? Pourquoi toi ? Pourquoi maintenant ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Curryeux",
+      "parent2": "M. Felipaix",
+      "resultat": "Curryogi",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ナンデナン",
+  "nom_anglais": "Why Naant",
+  "premiere_apparition": "yw3",
+  "voix": {
+    "japonaise": "Ryoko Nagata",
+    "francaise": "Nathalie Bienaimé",
+    "anglaise": "English VA Todd Haberkorn"
+  },
+  "localisations": {
+    "yw3": [
+      "Centre-ville de Granval- Parking souterrain, Arrière-cour du Vent d'hiver",
+      "Bingo-kai-Pièce jaune- 3e prix"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Pourquoi c'est bon ?",
-        "Mange de la nourriture insipide": "Quoi ? Qui ? Où ?",
-        "Mange de la mauvaise nourriture": "Pourquoi si infect ?!",
-        "A la flemme": "Pourquoi se battre ?",
-        "Devient ton ami": "Pourquoi avoir attaqué au lieu de me demander d'être ton ami ? Pourquoi ?",
-        "Est échangé": "Je viens d'arriver, mais ça a pas l'air de te faire plaisir ! Pourquoi ?",
-        "Bingo-kai": "Pourquoi tu m'as libéré ? Pourquoi toi ? Pourquoi maintenant ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Curryeux",
-            "parent2": "M. Felipaix",
-            "resultat": "Curryogi",
-            "critere": "➨"
-        }
-    ],
-    "image_locale": "",
-    "nom_original": "ナンデナン",
-    "nom_anglais": "Why Naant",
-    "premiere_apparition": "yw3",
-    "voix": {
-        "japonaise": "Ryoko Nagata",
-        "francaise": "Nathalie Bienaimé",
-        "anglaise": "English VA Todd Haberkorn"
-    },
-    "localisations": {
-        "yw3": [
-            "Centre-ville de Granval- Parking souterrain, Arrière-cour du Vent d'hiver",
-            "Bingo-kai-Pièce jaune- 3e prix"
-        ],
-        "yw Puni Puni": [
-            "Il est apparu dans l'Événement - Bataille de Lance-Pierre des Noko:",
-            "Village Noko- Stage 1",
-            "Super Village Noko- Stage 18",
-            "Ultra Village Noko- Stage 38"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Curry du chef"
-            },
-            {
-                "taux": "?%",
-                "objet": "Curry de poulet"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Auto-persuasion",
-        "description": "Booste les effets des grâces du lanceur."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/curryeux.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/curryeux.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/curryeux.wav",
-    "oldID": "463",
-    "medallium_ids": {
-        "yw3": "082"
-    },
-    "spinoff_ids": {
-        "yw Blasters 2": "082",
-        "yw Wibble Wobble": "2089",
-        "yw World": "0300"
-    },
-    "battle_type": "",
-    "skill_name": "Self-Help",
-    "skill_effect": "But Whhhyyy?!",
-    "disliked_food": "Pizza",
-    "global_stats": {
-        "yw3": {
-            "stats": {
-                "HP": "186-321",
-                "STR": "38",
-                "SPR": "223",
-                "DEF": "98",
-                "SPD": "115"
-            },
-            "elements": {
-                "attribute": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "186-321"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "186-321"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ナンデナン",
-            "Nandenan"
-        ],
-        "Spanish": [
-            "Preguntio"
-        ],
-        "French": [
-            "Curryeux"
-        ],
-        "Italian": [
-            "Terrogo"
-        ],
-        "German": [
-            "Nan-Sens"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ナンデナン"
-        ],
-        "Spanish": [
-            "Preguntio"
-        ],
-        "French": [
-            "Curryeux"
-        ],
-        "Italian": [
-            "Terrogo"
-        ],
-        "German": [
-            "Nan-Sens"
-        ]
-    },
-    "description_en": "What's this? Huh? Wha...? Wait, we're supposed to explain this Yo-kai here? But...why? Woah, hey there. Just tell me, why?",
-    "nom_en": "Zip Unlock",
-    "rang_yww": "E",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "curry",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 46,
-        "str": 5,
-        "spr": 27,
-        "def": 8,
-        "spd": 12
-    },
-    "stats_max_yww": {
-        "hp": 383,
-        "str": 33,
-        "spr": 218,
-        "def": 93,
-        "spd": 110
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "あてみ",
-                "_en": "Atemi",
-                "_fr": "Atémi"
-            },
-            "explication": {
-                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "電流の術",
-                "_en": "electric current technique",
-                "_fr": "technique du courant électrique"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 雷属性】 雷の妖術を使う。",
-                "_en": "[Power: 40 / Lightning attribute] Uses lightning magic.",
-                "_fr": "[Puissance : 40 / Attribut Foudre] Utilise la magie de la foudre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ナンでバトってるん？",
-                "_en": "Are you fighting with naan?",
-                "_fr": "Vous battez-vous avec Naan ?"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "疑問を持たせる",
-                "_en": "raise doubts",
-                "_fr": "soulever des doutes"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 とりつかれた妖怪は戦うことに疑問をもちたまに行動しなくなる。",
-                "_en": "[Osabori] Possessed monsters have doubts about fighting and sometimes stop acting.",
-                "_fr": "[Osabori] Les monstres possédés ont des doutes quant au combat et arrêtent parfois d'agir."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "コレって なんでなん？ アレって なんでなん？ ここで妖怪の説明するのって なんでなん？ ねぇ ねぇ 教えて なんでな～～ん！？",
-            "_en": "What is this? Why is that? Why are you explaining about monsters here? Hey, hey, tell me why! ?",
-            "_fr": "Qu'est-ce que c'est? Pourquoi donc? Pourquoi parlez-vous des monstres ici ? Hé, hé, dis-moi pourquoi ! ?"
-        }
-    ],
-    "jeu_present": [
-        "yw3"
+    "yw Puni Puni": [
+      "Il est apparu dans l'Événement - Bataille de Lance-Pierre des Noko:",
+      "Village Noko- Stage 1",
+      "Super Village Noko- Stage 18",
+      "Ultra Village Noko- Stage 38"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {},
+  "soul_effects": null,
+  "drops": {
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Curry du chef"
+      },
+      {
+        "taux": "?%",
+        "objet": "Curry de poulet"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Auto-persuasion",
+    "description": "Booste les effets des grâces du lanceur."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/curryeux.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/curryeux.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/curryeux.wav",
+  "oldID": "463",
+  "medallium_ids": {
+    "yw3": "082"
+  },
+  "spinoff_ids": {
+    "yw Blasters 2": "082",
+    "yw Wibble Wobble": "2089",
+    "yw World": "0300"
+  },
+  "battle_type": "",
+  "skill_name": "Self-Help",
+  "skill_effect": "But Whhhyyy?!",
+  "disliked_food": "Pizza",
+  "global_stats": {
+    "yw3": {
+      "stats": {
+        "HP": "186-321",
+        "STR": "38",
+        "SPR": "223",
+        "DEF": "98",
+        "SPD": "115"
+      },
+      "elements": {
+        "attribute": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "186-321"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "186-321"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ナンデナン",
+      "Nandenan"
+    ],
+    "Spanish": [
+      "Preguntio"
+    ],
+    "French": [
+      "Curryeux"
+    ],
+    "Italian": [
+      "Terrogo"
+    ],
+    "German": [
+      "Nan-Sens"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ナンデナン"
+    ],
+    "Spanish": [
+      "Preguntio"
+    ],
+    "French": [
+      "Curryeux"
+    ],
+    "Italian": [
+      "Terrogo"
+    ],
+    "German": [
+      "Nan-Sens"
+    ]
+  },
+  "description_en": "What's this? Huh? Wha...? Wait, we're supposed to explain this Yo-kai here? But...why? Woah, hey there. Just tell me, why?",
+  "nom_en": "Zip Unlock",
+  "rang_yww": "E",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "curry",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 46,
+    "str": 5,
+    "spr": 27,
+    "def": 8,
+    "spd": 12
+  },
+  "stats_max_yww": {
+    "hp": 383,
+    "str": 33,
+    "spr": 218,
+    "def": 93,
+    "spd": 110
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "あてみ",
+        "_en": "Atemi",
+        "_fr": "Atémi"
+      },
+      "explication": {
+        "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "電流の術",
+        "_en": "electric current technique",
+        "_fr": "technique du courant électrique"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 雷属性】 雷の妖術を使う。",
+        "_en": "[Power: 40 / Lightning attribute] Uses lightning magic.",
+        "_fr": "[Puissance : 40 / Attribut Foudre] Utilise la magie de la foudre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ナンでバトってるん？",
+        "_en": "Are you fighting with naan?",
+        "_fr": "Vous battez-vous avec Naan ?"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "疑問を持たせる",
+        "_en": "raise doubts",
+        "_fr": "soulever des doutes"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 とりつかれた妖怪は戦うことに疑問をもちたまに行動しなくなる。",
+        "_en": "[Osabori] Possessed monsters have doubts about fighting and sometimes stop acting.",
+        "_fr": "[Osabori] Les monstres possédés ont des doutes quant au combat et arrêtent parfois d'agir."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "コレって なんでなん？ アレって なんでなん？ ここで妖怪の説明するのって なんでなん？ ねぇ ねぇ 教えて なんでな～～ん！？",
+      "_en": "What is this? Why is that? Why are you explaining about monsters here? Hey, hey, tell me why! ?",
+      "_fr": "Qu'est-ce que c'est? Pourquoi donc? Pourquoi parlez-vous des monstres ici ? Hé, hé, dis-moi pourquoi ! ?"
+    }
+  ],
+  "jeu_present": [
+    "yw3"
+  ],
+  "id_yww": "449",
+  "Name_yww": "ナンデナン",
+  "description_jp_yww": "コレって　なんでなん？ アレって　なんでなん？ ここで妖怪の説明するのって なんでなん？　ねぇ　ねぇ　 教えて　なんでな～～ん！？",
+  "BingoMessage_jp_yww": "なんでなん？　なんで出れたん？ きみ…　あれなん？　かみさまなん？",
+  "MonsterId_yww": "y519000",
+  "Height_yww": 10.03,
+  "CommondId_yww": "sp_519000",
+  "MinHp_yww": 45,
+  "MaxHp_yww": 360,
+  "MinAttack_yww": 5,
+  "MaxAttack_yww": 53,
+  "MinMagic_yww": 23,
+  "MaxMagic_yww": 191,
+  "MinDefense_yww": 15,
+  "MaxDefense_yww": 145,
+  "MinSpeed_yww": 11,
+  "MaxSpeed_yww": 70,
+  "AttackId_yww": 16,
+  "MagicId_yww": 7,
+  "HauntId_yww": 519000,
+  "SpSkillId_yww": 519000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 20,
+  "DislikeFoodKind_yww": 4,
+  "ActionType_yww": 22,
+  "TribeType_yww": 2,
+  "MedallionImage_yww": "y514800.png",
+  "SpriteImage_yww": "img_y514800.png",
+  "Audio_yww": "sp_y514800.wav",
+  "Description_yww": "Pourquoi ça, alors ? Pourquoi ça, alors ? Pourquoi est-ce qu’on explique les yōkai ici, alors ? Hé, hé,  dis-moi, pourquoi donc ~~~ !?",
+  "BingoMessage_fr_yww": "Pourquoi ? Comment as-tu pu sortir ? Toi… C'est quoi, ça ? C'est Dieu ?"
 }

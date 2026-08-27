@@ -1,577 +1,608 @@
 {
-    "ID": "159",
-    "Nom": "Grattoptère",
-    "Tribue": "Sombre",
-    "Rang": "A",
-    "PV": "379",
-    "Force": "74",
-    "Esprit": "174",
-    "Défense": "90",
-    "Vitesse": "225",
-    "Description": "Ton corps commencera à te démanger s'il est là. Peu importe à quel point tu grattes, ça ne s'arrêtera pas.",
-    "description SITE": "Ton corps commencera à te démanger s'il est là. Peu importe à quel point tu te grattes, ça ne s'arrêtera pas.",
-    "nourriture": "Jus",
-    "élément": "Foudre",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Grattoptère est à l'origine des démangeaisons provoquées par les piqûres de moustique.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/grattoptere.png",
-    "numero": "143",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Vampirisation",
-            "effet": "Absorbe les PV avec des attaques normales."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Percée critique",
-            "effet": "30 | 66"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Haute tension",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Grattocalypse",
-            "effet": "Les ennemis se grattent et leur FOR. est réduite. 120 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Grattouille",
-            "effet": "Pousse l'ennemi à se gratter sans arrêt, ce qui fait baisser ses PV."
-        }
+  "ID": "159",
+  "Nom": "Grattoptère",
+  "Tribue": "Sombre",
+  "Rang": "A",
+  "PV": "379",
+  "Force": "74",
+  "Esprit": "174",
+  "Défense": "90",
+  "Vitesse": "225",
+  "Description": "Ton corps commencera à te démanger s'il est là. Peu importe à quel point tu grattes, ça ne s'arrêtera pas.",
+  "description SITE": "Ton corps commencera à te démanger s'il est là. Peu importe à quel point tu te grattes, ça ne s'arrêtera pas.",
+  "nourriture": "Jus",
+  "élément": "Foudre",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Grattoptère est à l'origine des démangeaisons provoquées par les piqûres de moustique.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/grattoptere.png",
+  "numero": "143",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Vampirisation",
+      "effet": "Absorbe les PV avec des attaques normales."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Percée critique",
+      "effet": "30 | 66"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Haute tension",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Grattocalypse",
+      "effet": "Les ennemis se grattent et leur FOR. est réduite. 120 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Grattouille",
+      "effet": "Pousse l'ennemi à se gratter sans arrêt, ce qui fait baisser ses PV."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Que c'est bon !",
+    "Mange de la nourriture insipide": "Zzza va !",
+    "Mange de la mauvaise nourriture": "Ça me gratte...",
+    "A la flemme": "Zzz...",
+    "Est échangé": "Tu sens que ça te démange un peu ? Parce que c'est sûrement ma faute.",
+    "Devient ton ami": "Tu veux qu'on devienne amis ? Je te préviens, tu vas te gratter, c'est sûr."
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "かゆかゆ",
+  "nom_anglais": "Scritchy",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Nayéli Forest",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Hauts de Granval - Quartier résidentiel- arbres (Jour)",
+      "Bingo-kai-Pièce bleue"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Que c'est bon !",
-        "Mange de la nourriture insipide": "Zzza va !",
-        "Mange de la mauvaise nourriture": "Ça me gratte...",
-        "A la flemme": "Zzz...",
-        "Est échangé": "Tu sens que ça te démange un peu ? Parce que c'est sûrement ma faute.",
-        "Devient ton ami": "Tu veux qu'on devienne amis ? Je te préviens, tu vas te gratter, c'est sûr."
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "かゆかゆ",
-    "nom_anglais": "Scritchy",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Nayéli Forest",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Hauts de Granval - Quartier résidentiel- arbres (Jour)",
-            "Bingo-kai-Pièce bleue"
-        ],
-        "yw2": [
-            "Tour Excellence- arbres"
-        ],
-        "yw3": [
-            "Base secrète forêt- arbres",
-            "Forêt de Mortebranche",
-            "Roue Rêve-Pièce bleue"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Percée critique",
-                "puissance": "30|66",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Grattocalypse",
-                "puissance": "120|120",
-                "description": "Les ennemis se grattent et leur FOR. diminue."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Gratouille",
-                "puissance": "N/A",
-                "description": "Pousse l'ennemi à se gratter sans arrêt, ce qui fait baisser ses PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Vampirisation",
-                "description": "Absorbe les PV avec des attaques normales."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Percée critique",
-                "puissance": "30|66",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Grattocalypse",
-                "puissance": "120|120",
-                "description": "Les ennemis se grattent et leur FOR. diminue."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Gratouille",
-                "puissance": "N/A",
-                "description": "Pousse l'ennemi à se gratter sans arrêt, ce qui fait baisser ses PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Vampirisation",
-                "description": "Absorbe les PV avec des attaques normales."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Grattocalypse",
-                "puissance": "250",
-                "description": "Baisse temporaire de l'ATT. des ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Foudre",
-                "puissance": "50",
-                "description": "Un sort de foudre puissant. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Envoût. poison +",
-                "puissance": "___",
-                "description": "Baisse rapide PV ennemis. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Cercle de maladie",
-                "puissance": "___",
-                "description": "Crée un champ où PV ennemis baissent rapidement."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Vampirisation",
-                "description": "Absorbe une partie des PV lors d'attaques."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Percée critique",
-                "puissance": "10|35",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Grattocalypse",
-                "puissance": "___",
-                "description": "Les ennemis n'arrêtent plus de se gratter, baissant fortement leur FOR."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Gratouille",
-                "puissance": "N/A",
-                "description": "Pousse l'ennemi à se gratter sans arrêt, ce qui réduit peu à peu ses PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Vampirisation",
-                "description": "Absorbe les PV de l'ennemi à chaque attaque réussie."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Vampirisation",
-        "description": "Absorbe les PV avec des attaques normales."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/grattoptere.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/grattoptere.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/grattoptere.wav",
-    "oldID": "159",
-    "medallium_ids": {
-        "yw1": "143",
-        "yw2": "213",
-        "yw3": "391"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "256",
-        "yw Blasters 2": "398",
-        "yw World": "0122",
-        "yw Ukiukipedia": "yw2-031"
-    },
-    "battle_type": "",
-    "skill_name": "Vampiric",
-    "skill_effect": "Itchy",
-    "disliked_food": "Hamburgers",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "407",
-                "STR": "105",
-                "SPR": "197",
-                "DEF": "142",
-                "SPD": "184"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "389",
-                "STR": "105",
-                "SPR": "197",
-                "DEF": "142",
-                "SPD": "184"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "389",
-                "STR": "79",
-                "SPR": "179",
-                "DEF": "95",
-                "SPD": "230"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "かゆかゆ",
-            "Kayukayu"
-        ],
-        "Spanish": [
-            "Picorrón"
-        ],
-        "French": [
-            "Grattoptère"
-        ],
-        "Italian": [
-            "Prudor"
-        ],
-        "German": [
-            "Juckmuck"
-        ],
-        "Russian": [
-            "Чешетар",
-            "Cheshetar"
-        ],
-        "Arabic": [
-            "وخاز",
-            "Wakhkhāz"
-        ],
-        "Portuguese (Brazilian)": [
-            "Coça-Coça"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "かゆかゆ"
-        ],
-        "Spanish": [
-            "Picorrón"
-        ],
-        "French": [
-            "Grattoptère"
-        ],
-        "Italian": [
-            "Prudor"
-        ],
-        "German": [
-            "Juckmuck"
-        ],
-        "Russian": [
-            "Чешетар"
-        ],
-        "Arabic": [
-            "وخاز"
-        ],
-        "Portuguese (Brazilian)": [
-            "Coça-Coça"
-        ]
-    },
-    "description_en": "The mere presence of Scritchy will make your body itch. No amount of scratching can make it stop.",
-    "nom_en": "Agon",
-    "rang_yww": "A",
-    "tribue_yww": "Usurakage",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "jus",
-    "nourriture_favorite": "jus",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 47,
-        "str": 8,
-        "spr": 24,
-        "def": 14,
-        "spd": 37
-    },
-    "stats_max_yww": {
-        "hp": 379,
-        "str": 74,
-        "spr": 174,
-        "def": 90,
-        "spd": 225
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "5つ星コイン",
-            "_en": "5 star coin",
-            "_fr": "Pièce de 5 étoiles"
-        },
-        {
-            "_jp": "青コイン",
-            "_en": "blue coin",
-            "_fr": "pièce bleue"
-        },
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw2": [
+      "Tour Excellence- arbres"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "きゅうしょづき",
-                "_en": "Kyushozuki",
-                "_fr": "Kyushozuki"
-            },
-            "explication": {
-                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "雷神の術",
-                "_en": "Raijin no Jutsu",
-                "_fr": "Raijin no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
-                "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
-                "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "かゆかゆ地獄",
-                "_en": "Itchy hell",
-                "_fr": "Un enfer qui démange"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "敵に攻撃し、攻撃力をしばらく大ダウンさせる。",
-                "_en": "Attacks the enemy and greatly reduces their attack power for a while.",
-                "_fr": "Attaque l'ennemi et réduit considérablement sa puissance d'attaque pendant un certain temps."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "かゆくさせる",
-                "_en": "make it itchy",
-                "_fr": "ça démange"
-            },
-            "explication": {
-                "_jp": "【HP減少】 かゆくさせてHPが減少する",
-                "_en": "[HP decrease] HP decreases due to itching",
-                "_fr": "[Diminution des HP] Les HP diminuent à cause des démangeaisons"
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "かゆかゆが近くにいると 全身がかゆくなってしまう。 どんなにかいても かゆみはおさまらず 肌がボロボロになる。",
-            "_en": "When I'm near itchy itch, my whole body becomes itchy. No matter how much I try, the itching doesn't go away and my skin becomes ruined.",
-            "_fr": "Quand je suis proche des démangeaisons, tout mon corps commence à me démanger. Peu importe tous mes efforts, les démangeaisons ne disparaissent pas et ma peau s'abîme."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Base secrète forêt- arbres",
+      "Forêt de Mortebranche",
+      "Roue Rêve-Pièce bleue"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Percée critique",
+        "puissance": "30|66",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Haute tension",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Grattocalypse",
+        "puissance": "120|120",
+        "description": "Les ennemis se grattent et leur FOR. diminue."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Gratouille",
+        "puissance": "N/A",
+        "description": "Pousse l'ennemi à se gratter sans arrêt, ce qui fait baisser ses PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Vampirisation",
+        "description": "Absorbe les PV avec des attaques normales."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Percée critique",
+        "puissance": "30|66",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Haute tension",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Grattocalypse",
+        "puissance": "120|120",
+        "description": "Les ennemis se grattent et leur FOR. diminue."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Gratouille",
+        "puissance": "N/A",
+        "description": "Pousse l'ennemi à se gratter sans arrêt, ce qui fait baisser ses PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Vampirisation",
+        "description": "Absorbe les PV avec des attaques normales."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Grattocalypse",
+        "puissance": "250",
+        "description": "Baisse temporaire de l'ATT. des ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Foudre",
+        "puissance": "50",
+        "description": "Un sort de foudre puissant. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Envoût. poison +",
+        "puissance": "___",
+        "description": "Baisse rapide PV ennemis. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Cercle de maladie",
+        "puissance": "___",
+        "description": "Crée un champ où PV ennemis baissent rapidement."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Vampirisation",
+        "description": "Absorbe une partie des PV lors d'attaques."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Percée critique",
+        "puissance": "10|35",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Haute tension",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Grattocalypse",
+        "puissance": "___",
+        "description": "Les ennemis n'arrêtent plus de se gratter, baissant fortement leur FOR."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Gratouille",
+        "puissance": "N/A",
+        "description": "Pousse l'ennemi à se gratter sans arrêt, ce qui réduit peu à peu ses PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Vampirisation",
+        "description": "Absorbe les PV de l'ennemi à chaque attaque réussie."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Vampirisation",
+    "description": "Absorbe les PV avec des attaques normales."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/grattoptere.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/grattoptere.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/grattoptere.wav",
+  "oldID": "159",
+  "medallium_ids": {
+    "yw1": "143",
+    "yw2": "213",
+    "yw3": "391"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "256",
+    "yw Blasters 2": "398",
+    "yw World": "0122",
+    "yw Ukiukipedia": "yw2-031"
+  },
+  "battle_type": "",
+  "skill_name": "Vampiric",
+  "skill_effect": "Itchy",
+  "disliked_food": "Hamburgers",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "407",
+        "STR": "105",
+        "SPR": "197",
+        "DEF": "142",
+        "SPD": "184"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "389",
+        "STR": "105",
+        "SPR": "197",
+        "DEF": "142",
+        "SPD": "184"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "389",
+        "STR": "79",
+        "SPR": "179",
+        "DEF": "95",
+        "SPD": "230"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "かゆかゆ",
+      "Kayukayu"
+    ],
+    "Spanish": [
+      "Picorrón"
+    ],
+    "French": [
+      "Grattoptère"
+    ],
+    "Italian": [
+      "Prudor"
+    ],
+    "German": [
+      "Juckmuck"
+    ],
+    "Russian": [
+      "Чешетар",
+      "Cheshetar"
+    ],
+    "Arabic": [
+      "وخاز",
+      "Wakhkhāz"
+    ],
+    "Portuguese (Brazilian)": [
+      "Coça-Coça"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "かゆかゆ"
+    ],
+    "Spanish": [
+      "Picorrón"
+    ],
+    "French": [
+      "Grattoptère"
+    ],
+    "Italian": [
+      "Prudor"
+    ],
+    "German": [
+      "Juckmuck"
+    ],
+    "Russian": [
+      "Чешетар"
+    ],
+    "Arabic": [
+      "وخاز"
+    ],
+    "Portuguese (Brazilian)": [
+      "Coça-Coça"
+    ]
+  },
+  "description_en": "The mere presence of Scritchy will make your body itch. No amount of scratching can make it stop.",
+  "nom_en": "Agon",
+  "rang_yww": "A",
+  "tribue_yww": "Usurakage",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "jus",
+  "nourriture_favorite": "jus",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 47,
+    "str": 8,
+    "spr": 24,
+    "def": 14,
+    "spd": 37
+  },
+  "stats_max_yww": {
+    "hp": 379,
+    "str": 74,
+    "spr": 174,
+    "def": 90,
+    "spd": 225
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "5つ星コイン",
+      "_en": "5 star coin",
+      "_fr": "Pièce de 5 étoiles"
+    },
+    {
+      "_jp": "青コイン",
+      "_en": "blue coin",
+      "_fr": "pièce bleue"
+    },
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "きゅうしょづき",
+        "_en": "Kyushozuki",
+        "_fr": "Kyushozuki"
+      },
+      "explication": {
+        "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "雷神の術",
+        "_en": "Raijin no Jutsu",
+        "_fr": "Raijin no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
+        "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
+        "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "かゆかゆ地獄",
+        "_en": "Itchy hell",
+        "_fr": "Un enfer qui démange"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "敵に攻撃し、攻撃力をしばらく大ダウンさせる。",
+        "_en": "Attacks the enemy and greatly reduces their attack power for a while.",
+        "_fr": "Attaque l'ennemi et réduit considérablement sa puissance d'attaque pendant un certain temps."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "かゆくさせる",
+        "_en": "make it itchy",
+        "_fr": "ça démange"
+      },
+      "explication": {
+        "_jp": "【HP減少】 かゆくさせてHPが減少する",
+        "_en": "[HP decrease] HP decreases due to itching",
+        "_fr": "[Diminution des HP] Les HP diminuent à cause des démangeaisons"
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "かゆかゆが近くにいると 全身がかゆくなってしまう。 どんなにかいても かゆみはおさまらず 肌がボロボロになる。",
+      "_en": "When I'm near itchy itch, my whole body becomes itchy. No matter how much I try, the itching doesn't go away and my skin becomes ruined.",
+      "_fr": "Quand je suis proche des démangeaisons, tout mon corps commence à me démanger. Peu importe tous mes efforts, les démangeaisons ne disparaissent pas et ma peau s'abîme."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "160",
+  "Name_yww": "かゆかゆ",
+  "description_jp_yww": "かゆかゆが近くにいると 全身がかゆくなってしまう。 どんなにかいても かゆみはおさまらず 肌がボロボロになる。",
+  "BingoMessage_jp_yww": "あたしを出した時から　肌がかゆくない？ もし大丈夫なら　ともだちブーン！",
+  "MonsterId_yww": "y185010",
+  "Height_yww": 21.0,
+  "CommondId_yww": "sp_185010",
+  "MinHp_yww": 47,
+  "MaxHp_yww": 379,
+  "MinAttack_yww": 8,
+  "MaxAttack_yww": 74,
+  "MinMagic_yww": 24,
+  "MaxMagic_yww": 174,
+  "MinDefense_yww": 14,
+  "MaxDefense_yww": 90,
+  "MinSpeed_yww": 37,
+  "MaxSpeed_yww": 225,
+  "AttackId_yww": 32,
+  "MagicId_yww": 9,
+  "HauntId_yww": 185010,
+  "SpSkillId_yww": 185010,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 5,
+  "DislikeFoodKind_yww": 6,
+  "ActionType_yww": 22,
+  "TribeType_yww": 6,
+  "MedallionImage_yww": "y180810.png",
+  "SpriteImage_yww": "img_y180810.png",
+  "Audio_yww": "sp_y180810.wav",
+  "Description_yww": "Quand Kayuka est près de moi, j'ai des démangeaisons partout. J'ai beau me gratter, les démangeaisons ne s'atténuent pas et ma peau finit par être en lambeaux.",
+  "BingoMessage_fr_yww": "Tu n'as pas de démangeaisons depuis que je suis sortie ? Si tout va bien, on est amis !"
 }

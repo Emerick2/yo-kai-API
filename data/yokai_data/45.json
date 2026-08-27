@@ -1,540 +1,571 @@
 {
-    "ID": "45",
-    "Nom": "Mémétal",
-    "Tribue": "Mystérieu",
-    "Rang": "C",
-    "PV": "173",
-    "Force": "165",
-    "Esprit": "187",
-    "Défense": "88",
-    "Vitesse": "131",
-    "Description-": "Quand Toutouïe t'envoûte, tu as envie de tout, vraiment tout lui dire. Aucun secret ne lui échappe.",
-    "Description": "Seules les Toutouïe qui ont trouvé l'amour avec le heavy-metal pourront se maquiller en squelette et devenir Mémétal.",
-    "nourriture": "Ramen",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "Mémétal est un mot-valise entre Mémé (surnom donné aux personnes âgées) et métal (pour le heavy-metal, un style de rock)",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/memetal.png",
-    "numero": "039",
-    "nourriture_favorite": "Ramen",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Traitement",
-            "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Gifle",
-            "effet": "10 | 45"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Restauration",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Squelébaffe",
-            "effet": "Une gifle qui peut annuler les Âmultimes adverses. 130 | 130"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Visage peint",
-            "effet": "Réduit la DÉF. d'un ennemi à l'aide d'un sort squelettique."
-        }
+  "ID": "45",
+  "Nom": "Mémétal",
+  "Tribue": "Mystérieu",
+  "Rang": "C",
+  "PV": "173",
+  "Force": "165",
+  "Esprit": "187",
+  "Défense": "88",
+  "Vitesse": "131",
+  "Description-": "Quand Toutouïe t'envoûte, tu as envie de tout, vraiment tout lui dire. Aucun secret ne lui échappe.",
+  "Description": "Seules les Toutouïe qui ont trouvé l'amour avec le heavy-metal pourront se maquiller en squelette et devenir Mémétal.",
+  "nourriture": "Ramen",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "Mémétal est un mot-valise entre Mémé (surnom donné aux personnes âgées) et métal (pour le heavy-metal, un style de rock)",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/memetal.png",
+  "numero": "039",
+  "nourriture_favorite": "Ramen",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Traitement",
+      "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Gifle",
+      "effet": "10 | 45"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Restauration",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Squelébaffe",
+      "effet": "Une gifle qui peut annuler les Âmultimes adverses. 130 | 130"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Visage peint",
+      "effet": "Réduit la DÉF. d'un ennemi à l'aide d'un sort squelettique."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "DIS TOUT !",
+    "Mange de la nourriture insipide": "Dis tout.",
+    "Mange de la mauvaise nourriture": "Dis tout...",
+    "A la flemme": "Dis tout...",
+    "Est échangé": "Dis tout ! (Enchantée !)",
+    "Devient ton ami": "Dis tout ? (Je peux être ton amie ?)"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "ドクロ婆",
+  "nom_anglais": "Skranny",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Planque Yo-kai(Clinique du Crépuscule)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "DIS TOUT !",
-        "Mange de la nourriture insipide": "Dis tout.",
-        "Mange de la mauvaise nourriture": "Dis tout...",
-        "A la flemme": "Dis tout...",
-        "Est échangé": "Dis tout ! (Enchantée !)",
-        "Devient ton ami": "Dis tout ? (Je peux être ton amie ?)"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "ドクロ婆",
-    "nom_anglais": "Skranny",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Planque Yo-kai(Clinique du Crépuscule)"
-        ],
-        "yw2": [
-            "Planque Yo-kai \"Le Jizo affamé\", que l'on peut trouver aumont Sylvestre(sur le chemin du tunnel abandonné ou sur le sentier de randonnée qui mène au sommet du mont Sylvestre)  ou àOurcival(derrière l'école d'Ourcival ou près du mont de l'Ours)"
-        ],
-        "yw Blasters 1": [
-            "Exclusif à l'Escadron du chien blancPatrouille -Ourcival"
-        ],
-        "yw3": [
-            "Les Hauts- sous les distributeurs"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Guérison",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Squelébaffe",
-                "puissance": "80|176",
-                "description": "Une gifle qui peut annuler les Âmultimes adverses."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Visage peint",
-                "puissance": "N/A",
-                "description": "Réduit la DÉF. d'un ennemi à l'aide d'un sort squelettique."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Redonne peu à peu des PV au Yo-kai voisin."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Squelébaffe",
-                "puissance": "130|130",
-                "description": "Une gifle qui peut annuler les Âmultimes adverses."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Visage peint",
-                "puissance": "N/A",
-                "description": "Réduit la DÉF. d'un ennemi à l'aide d'un sort squelettique."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Cercle guérisseur",
-                "puissance": "N/A",
-                "description": "Chargée, rend des PV à plusieurs Yo-kai."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Redonne peu à peu des PV aux Yo-kai voisins."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Squelébaffe",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Cercle guérisseur",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Boost de vitesse +",
-                "puissance": "___",
-                "description": "Forte hausse VIT. alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Les PV des alliés sont restaurés graduellement."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Squelébaffe",
-                "puissance": "100|200",
-                "description": "L'ennemi tombe sur un os... oups, une gifle."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Visage peint",
-                "puissance": "N/A",
-                "description": "Réduit la DÉF. d'un ennemi à l'aide d'un sort squelettique."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Squelébaffe",
-                "puissance": "400",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. PV rendus + si chargé."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Cercle guérisseur",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Plus de portée si chargé."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Rend peu à peu des PV à tous les alliés reliés."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Remède infect"
-            },
-            {
-                "taux": "?%",
-                "objet": "Riz à la crevette"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "La teigne parfaite"
-            },
-            {
-                "taux": "?%",
-                "objet": "Fraisier"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Techniques tip-top"
-            },
-            {
-                "taux": "?%",
-                "objet": "Ramen au poulet"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Traitement",
-        "description": "Redonne peu à peu des PV au Yo-kai voisin."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/memetal.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/memetal.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/memetal.wav",
-    "oldID": "45",
-    "medallium_ids": {
-        "yw1": "039",
-        "yw2": "055",
-        "yw3": "094"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "065",
-        "yw Blasters 2": "094",
-        "yw Wibble Wobble": "2008",
-        "yw World": "0033",
-        "yw Ukiukipedia": "yw1-011"
-    },
-    "battle_type": "Rare",
-    "skill_name": "Caring",
-    "skill_effect": "Face Paint",
-    "disliked_food": "Bread",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "331",
-                "STR": "111",
-                "SPR": "192",
-                "DEF": "99",
-                "SPD": "166"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "183",
-                "STR": "111",
-                "SPR": "192",
-                "DEF": "99",
-                "SPD": "166"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "180-315",
-                "STR": "170",
-                "SPR": "192",
-                "DEF": "93",
-                "SPD": "136"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "180-315"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "180-315"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "180-315"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Spanish": [
-            "Esquelleja"
-        ],
-        "French": [
-            "Mémétal"
-        ],
-        "Italian": [
-            "Schelevekia"
-        ],
-        "German": [
-            "Omakabra"
-        ],
-        "Russian": [
-            "Жутеешна",
-            "Zhuteeshna"
-        ],
-        "Arabic": [
-            "مهزولة",
-            "Mahzūla"
-        ],
-        "Chinese (Mandarin)": [
-            "骷髏婆"
-        ],
-        "Portuguese (Brazilian)": [
-            "Leva-e-traz"
-        ]
-    },
-    "localized_soultimates": {
-        "Spanish": [
-            "Esquelleja"
-        ],
-        "French": [
-            "Mémétal"
-        ],
-        "Italian": [
-            "Schelevekia"
-        ],
-        "German": [
-            "Omakabra"
-        ],
-        "Russian": [
-            "Жутеешна"
-        ],
-        "Arabic": [
-            "مهزولة"
-        ],
-        "Chinese (Mandarin)": [
-            "骷髏婆"
-        ],
-        "Portuguese (Brazilian)": [
-            "Leva-e-traz"
-        ]
-    },
-    "description_en": "Only Tattletells who discover their love of heavy metal music can don the skull makeup and become a Skranny.",
-    "nom_en": "Casanono",
-    "rang_yww": "C",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "ramen",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
-        "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 33,
-        "str": 25,
-        "spr": 27,
-        "def": 9,
-        "spd": 13
-    },
-    "stats_max_yww": {
-        "hp": 173,
-        "str": 165,
-        "spr": 187,
-        "def": 88,
-        "spd": 131
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はたく",
-                "_en": "flutter",
-                "_fr": "battement"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "回復の術",
-                "_en": "art of recovery",
-                "_fr": "l'art de la récupération"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
-            }
-        }
+    "yw2": [
+      "Planque Yo-kai \"Le Jizo affamé\", que l'on peut trouver aumont Sylvestre(sur le chemin du tunnel abandonné ou sur le sentier de randonnée qui mène au sommet du mont Sylvestre)  ou àOurcival(derrière l'école d'Ourcival ou près du mont de l'Ours)"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ホネホネチョップ",
-                "_en": "Honehone chop",
-                "_fr": "Côtelette de miel"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
+    "yw Blasters 1": [
+      "Exclusif à l'Escadron du chien blancPatrouille -Ourcival"
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ドクロする",
-                "_en": "make a skull",
-                "_fr": "faire un crâne"
-            },
-            "explication": {
-                "_jp": "【まもりダウン】 とりつかれた妖怪はいわくつきのドクロの呪いで まもりがダウンする。",
-                "_en": "[Mamori Down] The possessed monster's mamori goes down due to the curse of the Ikutsuki Skull.",
-                "_fr": "[Mamori Down] Le mamori du monstre possédé tombe à cause de la malédiction du crâne d'Ikutsuki."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "白ぬりメイクのバクロ婆。 デスメタルの心にめざめた 一部のバクロ婆だけが ドクロ婆になれるという とても珍しい存在。",
-            "_en": "Bakuroba with white makeup. Only some Bakuro-ba who have awakened to the heart of death metal can become Dokuro-ba, which is extremely rare.",
-            "_fr": "Bakuroba avec du maquillage blanc. Seuls certains Bakuro-ba éveillés au cœur du death metal peuvent devenir Dokuro-ba, ce qui est extrêmement rare."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Les Hauts- sous les distributeurs"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Guérison",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Squelébaffe",
+        "puissance": "80|176",
+        "description": "Une gifle qui peut annuler les Âmultimes adverses."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Visage peint",
+        "puissance": "N/A",
+        "description": "Réduit la DÉF. d'un ennemi à l'aide d'un sort squelettique."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Redonne peu à peu des PV au Yo-kai voisin."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Squelébaffe",
+        "puissance": "130|130",
+        "description": "Une gifle qui peut annuler les Âmultimes adverses."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Visage peint",
+        "puissance": "N/A",
+        "description": "Réduit la DÉF. d'un ennemi à l'aide d'un sort squelettique."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Cercle guérisseur",
+        "puissance": "N/A",
+        "description": "Chargée, rend des PV à plusieurs Yo-kai."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Squelébaffe",
+        "puissance": "400",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Cercle guérisseur",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Boost de vitesse +",
+        "puissance": "___",
+        "description": "Forte hausse VIT. alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Les PV des alliés sont restaurés graduellement."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Squelébaffe",
+        "puissance": "100|200",
+        "description": "L'ennemi tombe sur un os... oups, une gifle."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Visage peint",
+        "puissance": "N/A",
+        "description": "Réduit la DÉF. d'un ennemi à l'aide d'un sort squelettique."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Squelébaffe",
+        "puissance": "400",
+        "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. PV rendus + si chargé."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Cercle guérisseur",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Plus de portée si chargé."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Rend peu à peu des PV à tous les alliés reliés."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Remède infect"
+      },
+      {
+        "taux": "?%",
+        "objet": "Riz à la crevette"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "La teigne parfaite"
+      },
+      {
+        "taux": "?%",
+        "objet": "Fraisier"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Techniques tip-top"
+      },
+      {
+        "taux": "?%",
+        "objet": "Ramen au poulet"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Traitement",
+    "description": "Redonne peu à peu des PV au Yo-kai voisin."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/memetal.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/memetal.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/memetal.wav",
+  "oldID": "45",
+  "medallium_ids": {
+    "yw1": "039",
+    "yw2": "055",
+    "yw3": "094"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "065",
+    "yw Blasters 2": "094",
+    "yw Wibble Wobble": "2008",
+    "yw World": "0033",
+    "yw Ukiukipedia": "yw1-011"
+  },
+  "battle_type": "Rare",
+  "skill_name": "Caring",
+  "skill_effect": "Face Paint",
+  "disliked_food": "Bread",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "331",
+        "STR": "111",
+        "SPR": "192",
+        "DEF": "99",
+        "SPD": "166"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "183",
+        "STR": "111",
+        "SPR": "192",
+        "DEF": "99",
+        "SPD": "166"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "180-315",
+        "STR": "170",
+        "SPR": "192",
+        "DEF": "93",
+        "SPD": "136"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "180-315"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "180-315"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "180-315"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Spanish": [
+      "Esquelleja"
+    ],
+    "French": [
+      "Mémétal"
+    ],
+    "Italian": [
+      "Schelevekia"
+    ],
+    "German": [
+      "Omakabra"
+    ],
+    "Russian": [
+      "Жутеешна",
+      "Zhuteeshna"
+    ],
+    "Arabic": [
+      "مهزولة",
+      "Mahzūla"
+    ],
+    "Chinese (Mandarin)": [
+      "骷髏婆"
+    ],
+    "Portuguese (Brazilian)": [
+      "Leva-e-traz"
+    ]
+  },
+  "localized_soultimates": {
+    "Spanish": [
+      "Esquelleja"
+    ],
+    "French": [
+      "Mémétal"
+    ],
+    "Italian": [
+      "Schelevekia"
+    ],
+    "German": [
+      "Omakabra"
+    ],
+    "Russian": [
+      "Жутеешна"
+    ],
+    "Arabic": [
+      "مهزولة"
+    ],
+    "Chinese (Mandarin)": [
+      "骷髏婆"
+    ],
+    "Portuguese (Brazilian)": [
+      "Leva-e-traz"
+    ]
+  },
+  "description_en": "Only Tattletells who discover their love of heavy metal music can don the skull makeup and become a Skranny.",
+  "nom_en": "Casanono",
+  "rang_yww": "C",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "ramen",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
+    "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 33,
+    "str": 25,
+    "spr": 27,
+    "def": 9,
+    "spd": 13
+  },
+  "stats_max_yww": {
+    "hp": 173,
+    "str": 165,
+    "spr": 187,
+    "def": 88,
+    "spd": 131
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "はたく",
+        "_en": "flutter",
+        "_fr": "battement"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "回復の術",
+        "_en": "art of recovery",
+        "_fr": "l'art de la récupération"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ホネホネチョップ",
+        "_en": "Honehone chop",
+        "_fr": "Côtelette de miel"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ドクロする",
+        "_en": "make a skull",
+        "_fr": "faire un crâne"
+      },
+      "explication": {
+        "_jp": "【まもりダウン】 とりつかれた妖怪はいわくつきのドクロの呪いで まもりがダウンする。",
+        "_en": "[Mamori Down] The possessed monster's mamori goes down due to the curse of the Ikutsuki Skull.",
+        "_fr": "[Mamori Down] Le mamori du monstre possédé tombe à cause de la malédiction du crâne d'Ikutsuki."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "白ぬりメイクのバクロ婆。 デスメタルの心にめざめた 一部のバクロ婆だけが ドクロ婆になれるという とても珍しい存在。",
+      "_en": "Bakuroba with white makeup. Only some Bakuro-ba who have awakened to the heart of death metal can become Dokuro-ba, which is extremely rare.",
+      "_fr": "Bakuroba avec du maquillage blanc. Seuls certains Bakuro-ba éveillés au cœur du death metal peuvent devenir Dokuro-ba, ce qui est extrêmement rare."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "45",
+  "Name_yww": "ドクロ婆",
+  "description_jp_yww": "白ぬりメイクのバクロ婆。 デスメタルの心にめざめた 一部のバクロ婆だけが ドクロ婆になれるという とても珍しい存在。",
+  "BingoMessage_jp_yww": "ババーン！！ （あんた幸運だね！　ワシが出るなんて！）",
+  "MonsterId_yww": "y125010",
+  "Height_yww": 7.0,
+  "CommondId_yww": "sp_125010",
+  "MinHp_yww": 33,
+  "MaxHp_yww": 173,
+  "MinAttack_yww": 25,
+  "MaxAttack_yww": 165,
+  "MinMagic_yww": 27,
+  "MaxMagic_yww": 187,
+  "MinDefense_yww": 9,
+  "MaxDefense_yww": 88,
+  "MinSpeed_yww": 13,
+  "MaxSpeed_yww": 131,
+  "AttackId_yww": 10,
+  "MagicId_yww": 23,
+  "HauntId_yww": 125010,
+  "SpSkillId_yww": 125010,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 7,
+  "DislikeFoodKind_yww": 2,
+  "ActionType_yww": 11,
+  "TribeType_yww": 2,
+  "MedallionImage_yww": "y120810.png",
+  "SpriteImage_yww": "img_y120810.png",
+  "Audio_yww": "sp_y120810.wav",
+  "Description_yww": "La vieille Bakuro au maquillage blanc. Seules certaines vieilles Bakuro, dont le cœur s'est éveillé au death metal, peuvent devenir des vieilles Tête de mort : des êtres extrêmement rares.",
+  "BingoMessage_fr_yww": "Bam !! (Tu as de la chance ! Que je me montre, moi !)"
 }

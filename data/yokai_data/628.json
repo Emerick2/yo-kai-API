@@ -1,246 +1,277 @@
 {
-    "ID": "628",
-    "Nom": "Haltela",
-    "Tribue": "Costaud",
-    "Rang": "B",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "Il ne laisse rien passer, surtout pas les fraudeurs de la finance.",
-    "nourriture": "Sushi",
-    "élément": "Terre",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Toute personne envoûtée par Haltela sera capable de résister aux envies des autres et de tout leur refuser sèchement.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/haltela.png",
-    "nom_original": "ウォール・ガイ",
-    "nom_anglais": "Judgebrick",
-    "premiere_apparition": "yw3",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw3": [
-            "Haltela peut être obtenu en fusionnantNanpartet desVermicelles colorés. Il peut également être trouvé dans leLabyrinthe de la bravoure."
-        ]
-    },
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Nanpart",
-            "parent2": "Vermicelles colorés",
-            "resultat": "Haltela",
-            "critere": "➨"
-        }
-    ],
-    "rarite": "Yo-kai Mericain",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Bénéfice excellent",
-        "description": "Booste la DÉF. quand un Yo-kai éparpille de l'argent."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/haltela.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/haltela.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/haltela.wav",
-    "oldID": "637",
-    "medallium_ids": {
-        "yw3": "624"
-    },
-    "spinoff_ids": {
-        "yw Blasters 2": "645",
-        "yw Wibble Wobble": "3073",
-        "yw World": "0818"
-    },
-    "battle_type": "'Merican",
-    "skill_name": "Solid Investment",
-    "skill_effect": "Disbursement",
-    "disliked_food": "Meat",
-    "global_stats": {
-        "yw3": {
-            "stats": {
-                "HP": "1-1",
-                "STR": "147",
-                "SPR": "48",
-                "DEF": "294",
-                "SPD": "63"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ウォール・ガイ"
-        ],
-        "Spanish": [
-            "Frauduralla"
-        ],
-        "French": [
-            "Haltela"
-        ],
-        "Italian": [
-            "Teblock"
-        ],
-        "German": [
-            "Börsenblokka"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ウォール・ガイ Wōru Gai"
-        ],
-        "Spanish": [
-            "Frauduralla"
-        ],
-        "French": [
-            "Haltela"
-        ],
-        "Italian": [
-            "Teblock"
-        ],
-        "German": [
-            "Börsenblokka"
-        ]
-    },
-    "description_en": "An elite brick broker determined to clamp down on the shady dealings in the financial world.",
-    "nom_en": "My-Baaad",
-    "rang_yww": "B",
-    "tribue_yww": "ゴーケツ族",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "Sushis",
-    "nourriture_favorite": "Sushis",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない",
-        "_en": "(Shield role) Shincho, don't move.",
-        "_fr": "(Rôle de bouclier) Shincho, ne bouge pas."
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 65,
-        "str": 13,
-        "spr": 6,
-        "def": 45,
-        "spd": 7
-    },
-    "stats_max_yww": {
-        "hp": 500,
-        "str": 142,
-        "spr": 43,
-        "def": 289,
-        "spd": 58
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "タックル",
-                "_en": "タックル",
-                "_fr": "タックル"
-            },
-            "explication": {
-                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
-                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "落石の術",
-                "_en": "falling rock jutsu",
-                "_fr": "jutsu qui tombe des pierres"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
-                "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
-                "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ガッチリ金融バリア",
-                "_en": "Solid financial barrier",
-                "_fr": "Une barrière financière solide"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "資金流出を断固防ぐ覚悟の体勢になり 自分のまもりを超アップする。",
-                "_en": "Be prepared to resolutely prevent fund outflows and greatly increase your own protection.",
-                "_fr": "Soyez prêt à empêcher résolument les sorties de fonds et à augmenter considérablement votre propre protection."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "資金運用させる",
-                "_en": "manage funds",
-                "_fr": "gérer les fonds"
-            },
-            "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "ＵＳＡ金融街の不正な取引を 取り締まる エリート壁妖怪。 怪しい取引を その厚い壁で 阻み 経済市場を大きく 成長させてきた。",
-            "_en": "An elite wall monster who cracks down on illegal transactions in the USA financial district. It has blocked suspicious transactions with its thick walls and has allowed the economic market to grow significantly.",
-            "_fr": "Un monstre mural d'élite qui réprime les transactions illégales dans le quartier financier des États-Unis. Il a bloqué les transactions suspectes grâce à ses murs épais et a permis au marché économique de se développer de manière significative."
-        }
-    ],
-    "jeu_present": [
-        "yw3"
+  "ID": "628",
+  "Nom": "Haltela",
+  "Tribue": "Costaud",
+  "Rang": "B",
+  "PV": 429,
+  "Force": 43,
+  "Esprit": 251,
+  "Défense": 89,
+  "Vitesse": 76,
+  "Description": "Il ne laisse rien passer, surtout pas les fraudeurs de la finance.",
+  "nourriture": "Sushi",
+  "élément": "Terre",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Toute personne envoûtée par Haltela sera capable de résister aux envies des autres et de tout leur refuser sèchement.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/haltela.png",
+  "nom_original": "ウォール・ガイ",
+  "nom_anglais": "Judgebrick",
+  "premiere_apparition": "yw3",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw3": [
+      "Haltela peut être obtenu en fusionnantNanpartet desVermicelles colorés. Il peut également être trouvé dans leLabyrinthe de la bravoure."
     ]
+  },
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Nanpart",
+      "parent2": "Vermicelles colorés",
+      "resultat": "Haltela",
+      "critere": "➨"
+    }
+  ],
+  "rarite": "Yo-kai Mericain",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {},
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Bénéfice excellent",
+    "description": "Booste la DÉF. quand un Yo-kai éparpille de l'argent."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/haltela.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/haltela.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/haltela.wav",
+  "oldID": "637",
+  "medallium_ids": {
+    "yw3": "624"
+  },
+  "spinoff_ids": {
+    "yw Blasters 2": "645",
+    "yw Wibble Wobble": "3073",
+    "yw World": "0818"
+  },
+  "battle_type": "'Merican",
+  "skill_name": "Solid Investment",
+  "skill_effect": "Disbursement",
+  "disliked_food": "Meat",
+  "global_stats": {
+    "yw3": {
+      "stats": {
+        "HP": "1-1",
+        "STR": "147",
+        "SPR": "48",
+        "DEF": "294",
+        "SPD": "63"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ウォール・ガイ"
+    ],
+    "Spanish": [
+      "Frauduralla"
+    ],
+    "French": [
+      "Haltela"
+    ],
+    "Italian": [
+      "Teblock"
+    ],
+    "German": [
+      "Börsenblokka"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ウォール・ガイ Wōru Gai"
+    ],
+    "Spanish": [
+      "Frauduralla"
+    ],
+    "French": [
+      "Haltela"
+    ],
+    "Italian": [
+      "Teblock"
+    ],
+    "German": [
+      "Börsenblokka"
+    ]
+  },
+  "description_en": "An elite brick broker determined to clamp down on the shady dealings in the financial world.",
+  "nom_en": "My-Baaad",
+  "rang_yww": "B",
+  "tribue_yww": "ゴーケツ族",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "Sushis",
+  "nourriture_favorite": "Sushis",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない",
+    "_en": "(Shield role) Shincho, don't move.",
+    "_fr": "(Rôle de bouclier) Shincho, ne bouge pas."
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 65,
+    "str": 13,
+    "spr": 6,
+    "def": 45,
+    "spd": 7
+  },
+  "stats_max_yww": {
+    "hp": 500,
+    "str": 142,
+    "spr": 43,
+    "def": 289,
+    "spd": 58
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "タックル",
+        "_en": "タックル",
+        "_fr": "タックル"
+      },
+      "explication": {
+        "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
+        "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "落石の術",
+        "_en": "falling rock jutsu",
+        "_fr": "jutsu qui tombe des pierres"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
+        "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
+        "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ガッチリ金融バリア",
+        "_en": "Solid financial barrier",
+        "_fr": "Une barrière financière solide"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "資金流出を断固防ぐ覚悟の体勢になり 自分のまもりを超アップする。",
+        "_en": "Be prepared to resolutely prevent fund outflows and greatly increase your own protection.",
+        "_fr": "Soyez prêt à empêcher résolument les sorties de fonds et à augmenter considérablement votre propre protection."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "資金運用させる",
+        "_en": "manage funds",
+        "_fr": "gérer les fonds"
+      },
+      "explication": {
+        "_jp": "【–】 –",
+        "_en": null,
+        "_fr": null
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "ＵＳＡ金融街の不正な取引を 取り締まる エリート壁妖怪。 怪しい取引を その厚い壁で 阻み 経済市場を大きく 成長させてきた。",
+      "_en": "An elite wall monster who cracks down on illegal transactions in the USA financial district. It has blocked suspicious transactions with its thick walls and has allowed the economic market to grow significantly.",
+      "_fr": "Un monstre mural d'élite qui réprime les transactions illégales dans le quartier financier des États-Unis. Il a bloqué les transactions suspectes grâce à ses murs épais et a permis au marché économique de se développer de manière significative."
+    }
+  ],
+  "jeu_present": [
+    "yw3"
+  ],
+  "id_yww": "615",
+  "Name_yww": "ウォール・ガイ",
+  "description_jp_yww": "ＵＳＡ金融街の不正な取引を 取り締まる　エリート壁妖怪。 怪しい取引を　その厚い壁で 阻み　経済市場を大きく 成長させてきた。　　",
+  "BingoMessage_jp_yww": "キミが　私を出してくれたのだな お金のことは　私に任せてくれ",
+  "MonsterId_yww": "y688000",
+  "Height_yww": 16.66,
+  "CommondId_yww": "sp_688000",
+  "MinHp_yww": 55,
+  "MaxHp_yww": 429,
+  "MinAttack_yww": 7,
+  "MaxAttack_yww": 43,
+  "MinMagic_yww": 33,
+  "MaxMagic_yww": 251,
+  "MinDefense_yww": 9,
+  "MaxDefense_yww": 89,
+  "MinSpeed_yww": 10,
+  "MaxSpeed_yww": 76,
+  "AttackId_yww": 10,
+  "MagicId_yww": 20,
+  "HauntId_yww": 688000,
+  "SpSkillId_yww": 688000,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 19,
+  "DislikeFoodKind_yww": 13,
+  "ActionType_yww": 27,
+  "TribeType_yww": 6,
+  "MedallionImage_yww": "y683800.png",
+  "SpriteImage_yww": "img_y683800.png",
+  "Audio_yww": "sp_y683800.wav",
+  "Description_yww": "Un monstre mural d'élite chargé de lutter contre les transactions frauduleuses dans le quartier financier américain. Grâce à son mur épais, il a bloqué les transactions suspectes et a ainsi permis une forte croissance des marchés économiques.  ",
+  "BingoMessage_fr_yww": "C'est donc toi qui m'as fait sortir, n'est-ce pas ? Pour l'argent, laisse-moi m'en occuper."
 }

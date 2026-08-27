@@ -1,538 +1,569 @@
 {
-    "ID": "161",
-    "Nom": "Onisoi",
-    "Tribue": "Sombre",
-    "Rang": "D",
-    "PV": "378",
-    "Force": "55",
-    "Esprit": "173",
-    "Défense": "140",
-    "Vitesse": "128",
-    "Description": "Ceux envoûtés par Onisoi recevront un meilleur traitement que les autres autour. Hé ! C'est pas juste !",
-    "description SITE": "Ceux envoûtés par Onisoi recevront un meilleur traitement que les autres autour. Hé ! C'est pas juste!",
-    "nourriture": "Bonbons",
-    "élément": "Absorption",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Ceux qui sont envoûtés par Onisoi recevront un traitement de faveur de la part de ceux autour d'eux.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/onisoi.png",
-    "numero": "137",
-    "nourriture_favorite": "Sucrerie",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Coupe-vent",
-            "effet": "Réduit les dégâts d'attaques de vent subis."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Gifle",
-            "effet": "10 | 45"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Absorption",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Rien que pour toi",
-            "effet": "Augmente la DÉF. d'un allié, ce qui attire les attaques ennemies."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Favoritisme",
-            "effet": "Les alliés envoûtés ne seront pas attaqués. Traitement de faveur !"
-        }
+  "ID": "161",
+  "Nom": "Onisoi",
+  "Tribue": "Sombre",
+  "Rang": "D",
+  "PV": "378",
+  "Force": "55",
+  "Esprit": "173",
+  "Défense": "140",
+  "Vitesse": "128",
+  "Description": "Ceux envoûtés par Onisoi recevront un meilleur traitement que les autres autour. Hé ! C'est pas juste !",
+  "description SITE": "Ceux envoûtés par Onisoi recevront un meilleur traitement que les autres autour. Hé ! C'est pas juste!",
+  "nourriture": "Bonbons",
+  "élément": "Absorption",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Ceux qui sont envoûtés par Onisoi recevront un traitement de faveur de la part de ceux autour d'eux.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/onisoi.png",
+  "numero": "137",
+  "nourriture_favorite": "Sucrerie",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Coupe-vent",
+      "effet": "Réduit les dégâts d'attaques de vent subis."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Gifle",
+      "effet": "10 | 45"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Absorption",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Rien que pour toi",
+      "effet": "Augmente la DÉF. d'un allié, ce qui attire les attaques ennemies."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Favoritisme",
+      "effet": "Les alliés envoûtés ne seront pas attaqués. Traitement de faveur !"
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Très bon choix !",
+    "Mange de la nourriture insipide": "C'est pas extra...",
+    "Mange de la mauvaise nourriture": "Grrr... Dégoûtant !",
+    "A la flemme": "*soupire*",
+    "Est échangé": "Je crois bien que je commence à te préférer à ... ! Lui dis pas !",
+    "Devient ton ami": "Quelle force ! Si j'étais un professeur, je te donnerais vingt sur vingt !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "えこひい鬼",
+  "nom_anglais": "Mynimo",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Yann Pichon",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Centre-ville- arrière-cour du vent d'hiver"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Très bon choix !",
-        "Mange de la nourriture insipide": "C'est pas extra...",
-        "Mange de la mauvaise nourriture": "Grrr... Dégoûtant !",
-        "A la flemme": "*soupire*",
-        "Est échangé": "Je crois bien que je commence à te préférer à ... ! Lui dis pas !",
-        "Devient ton ami": "Quelle force ! Si j'étais un professeur, je te donnerais vingt sur vingt !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "えこひい鬼",
-    "nom_anglais": "Mynimo",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Yann Pichon",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Centre-ville- arrière-cour du vent d'hiver"
-        ],
-        "yw2": [
-            "École élémentaire - 1er",
-            "Tunnel sans fin"
-        ],
-        "yw3": [
-            "La Corniche- buissons"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Absorption",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Rien que pour toi",
-                "puissance": "___",
-                "description": "Augmente la DÉF. d'un allié et attire sur lui les attaques ennemies."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Favoritisme",
-                "puissance": "N/A",
-                "description": "Les alliés envoûtés ne seront pas attaqués. Traitement de faveur !"
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Coupe-vent",
-                "description": "Réduit les dégâts des attaques de vent."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Absorption",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Rien que pour toi",
-                "puissance": "___",
-                "description": "Augmente la DÉF. d'un allié, ce qui attire les attaques ennemies."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Favoritisme",
-                "puissance": "N/A",
-                "description": "Les alliés envoûtés ne seront pas attaqués. Traitement de faveur !"
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Coupe-vent",
-                "description": "Réduit les dégâts d'attaques de vent subis."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Rien que pour toi",
-                "puissance": "___",
-                "description": "Forte augmentation vitesse, attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Mine",
-                "puissance": "600",
-                "description": "Explose si un ennemi ou un allié s'en approche."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Sac grappin",
-                "puissance": "___",
-                "description": "Reçois un objet aléatoire, selon la chance que tu as."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Pass gratuit",
-                "description": "N'attire plus l'attention des ennemis."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Absorption",
-                "puissance": "25|87",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Rien que pour toi",
-                "puissance": "___",
-                "description": "La puissance du favoritisme réduit fortement la FOR. des ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Favoritisme",
-                "puissance": "N/A",
-                "description": "L'ennemi facilite la tâche de ses adversaires et baisse sa FOR."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Coupe-vent",
-                "description": "Réduit les dégâts de vent subis par tous les alliés."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Coupe-vent",
-        "description": "Réduit les dégâts des attaques de vent."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/onisoi.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/onisoi.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/onisoi.wav",
-    "oldID": "161",
-    "medallium_ids": {
-        "yw1": "137",
-        "yw2": "203",
-        "yw3": "379"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "246",
-        "yw Blasters 2": "386",
-        "yw Wibble Wobble": "6021",
-        "yw World": "0117",
-        "yw Ukiukipedia": "yw2-029"
-    },
-    "battle_type": "",
-    "skill_name": "Windshield",
-    "skill_effect": "Bias",
-    "disliked_food": "Milk",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "305",
-                "STR": "146",
-                "SPR": "95",
-                "DEF": "136",
-                "SPD": "131"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "388",
-                "STR": "146",
-                "SPR": "95",
-                "DEF": "136",
-                "SPD": "131"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "217-379",
-                "STR": "60",
-                "SPR": "178",
-                "DEF": "145",
-                "SPD": "133"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "217-379"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "217-379"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "217-379"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "えこひい鬼",
-            "Ekohīki"
-        ],
-        "Spanish": [
-            "Topamí"
-        ],
-        "Italian": [
-            "Favorio"
-        ],
-        "German": [
-            "Schieba"
-        ],
-        "Russian": [
-            "Эники-Бен",
-            "Eniki-Ben"
-        ],
-        "Arabic": [
-            "فراح",
-            "Farrāḥ"
-        ],
-        "Chinese (Mandarin)": [
-            "偏心鬼",
-            "Piānxīnguǐ"
-        ],
-        "Portuguese (Brazilian)": [
-            "Mimadonnie"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "えこひい鬼"
-        ],
-        "Spanish": [
-            "Topamí"
-        ],
-        "Italian": [
-            "Favorio"
-        ],
-        "German": [
-            "Schieba"
-        ],
-        "Russian": [
-            "Эники-Бен"
-        ],
-        "Arabic": [
-            "فراح"
-        ],
-        "Chinese (Mandarin)": [
-            "偏心鬼"
-        ],
-        "Portuguese (Brazilian)": [
-            "Mimadonnie"
-        ]
-    },
-    "description_en": "People Inspirited by Mynimo get much better treatment than those around them. Hey! That's not fair!",
-    "nom_en": "Moskevil",
-    "rang_yww": "D",
-    "tribue_yww": "Usurakage",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "Dashi",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "stats_initiale_yww": {
-        "hp": 44,
-        "str": 8,
-        "spr": 20,
-        "def": 18,
-        "spd": 17
-    },
-    "stats_max_yww": {
-        "hp": 378,
-        "str": 55,
-        "spr": 173,
-        "def": 140,
-        "spd": 128
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "お祭りコイン",
-            "_en": "festival coins",
-            "_fr": "pièces de monnaie du festival"
-        },
-        {
-            "_jp": "ファミマコイン",
-            "_en": "Family Mart Coin",
-            "_fr": "Pièce de monnaie du marché familial"
-        },
-        {
-            "_jp": "ドコモコイン1",
-            "_en": "docomo coin 1",
-            "_fr": "pièce docomo 1"
-        },
-        {
-            "_jp": "十五夜コイン",
-            "_en": "jugoya coin",
-            "_fr": "pièce de monnaie jugoya"
-        },
-        {
-            "_jp": "ドコモコイン2",
-            "_en": "docomo coin 2",
-            "_fr": "pièce docomo 2"
-        },
-        {
-            "_jp": "青コイン",
-            "_en": "blue coin",
-            "_fr": "pièce bleue"
-        },
-        {
-            "_jp": "ハロウィンコイン",
-            "_en": "halloween coin",
-            "_fr": "pièce de monnaie d'Halloween"
-        },
-        {
-            "_jp": "ミルクチョココイン",
-            "_en": "milk chocolate coin",
-            "_fr": "pièce de chocolat au lait"
-        },
-        {
-            "_jp": "ビターチョココイン",
-            "_en": "bitter chocolate coin",
-            "_fr": "pièce de chocolat amer"
-        },
-        {
-            "_jp": "バレンタインコイン",
-            "_en": "valentine coin",
-            "_fr": "pièce de monnaie de la Saint-Valentin"
-        },
-        {
-            "_jp": "WDイベントコイン",
-            "_en": "WD event coin",
-            "_fr": "Pièce d'événement WD"
-        }
+    "yw2": [
+      "École élémentaire - 1er",
+      "Tunnel sans fin"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はたく",
-                "_en": "flutter",
-                "_fr": "battement"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "すいとりの術",
-                "_en": "Sweetori no Jutsu",
-                "_fr": "Sweetori no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:25 / 吸収】 敵のHPを吸い取る。",
-                "_en": "[Power: 25 / Absorption] Absorbs the enemy's HP.",
-                "_fr": "[Puissance : 25 / Absorption] Absorbe les PV de l'ennemi."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "特別ごひいきハンド",
-                "_en": "special favor hand",
-                "_fr": "main de faveur spéciale"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "えこひいきしたくなるオーラを敵全員にあびせ ちからを大ダウンさせる。",
-                "_en": "Imbues all enemies with an aura that makes them want to show favoritism, greatly reducing their power.",
-                "_fr": "Imprègne tous les ennemis d'une aura qui leur donne envie de faire preuve de favoritisme, réduisant considérablement leur puissance."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "えこひいきさせる",
-                "_en": "show favoritism",
-                "_fr": "faire preuve de favoritisme"
-            },
-            "explication": {
-                "_jp": "【ちからダウン】 とりつかれた妖怪は敵をえこひいきして ちからが大ダウンする。",
-                "_en": "[Power Down] The possessed youkai shows favoritism to the enemy, greatly reducing its power.",
-                "_fr": "[Power Down] Le yôkai possédé fait preuve de favoritisme envers l'ennemi, réduisant considérablement sa puissance."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "とりつかれた人は えこひいきされるようになる。 とりつかれたほうは 悪い気はしないが 周りはあまりおもしろくない。",
-            "_en": "A person who is obsessed will be treated with favoritism. I don't feel bad about being obsessed, but the people around me aren't very interesting.",
-            "_fr": "Une personne obsédée sera traitée avec favoritisme. Je ne me sens pas mal d'être obsédée, mais les gens autour de moi ne sont pas très intéressants."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "La Corniche- buissons"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Absorption",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Rien que pour toi",
+        "puissance": "___",
+        "description": "Augmente la DÉF. d'un allié et attire sur lui les attaques ennemies."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Favoritisme",
+        "puissance": "N/A",
+        "description": "Les alliés envoûtés ne seront pas attaqués. Traitement de faveur !"
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Coupe-vent",
+        "description": "Réduit les dégâts des attaques de vent."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Absorption",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Rien que pour toi",
+        "puissance": "___",
+        "description": "Augmente la DÉF. d'un allié, ce qui attire les attaques ennemies."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Favoritisme",
+        "puissance": "N/A",
+        "description": "Les alliés envoûtés ne seront pas attaqués. Traitement de faveur !"
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Coupe-vent",
+        "description": "Réduit les dégâts d'attaques de vent subis."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Rien que pour toi",
+        "puissance": "___",
+        "description": "Forte augmentation vitesse, attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Mine",
+        "puissance": "600",
+        "description": "Explose si un ennemi ou un allié s'en approche."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Sac grappin",
+        "puissance": "___",
+        "description": "Reçois un objet aléatoire, selon la chance que tu as."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Pass gratuit",
+        "description": "N'attire plus l'attention des ennemis."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Absorption",
+        "puissance": "25|87",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Rien que pour toi",
+        "puissance": "___",
+        "description": "La puissance du favoritisme réduit fortement la FOR. des ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Favoritisme",
+        "puissance": "N/A",
+        "description": "L'ennemi facilite la tâche de ses adversaires et baisse sa FOR."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Coupe-vent",
+        "description": "Réduit les dégâts de vent subis par tous les alliés."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Coupe-vent",
+    "description": "Réduit les dégâts des attaques de vent."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/onisoi.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/onisoi.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/onisoi.wav",
+  "oldID": "161",
+  "medallium_ids": {
+    "yw1": "137",
+    "yw2": "203",
+    "yw3": "379"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "246",
+    "yw Blasters 2": "386",
+    "yw Wibble Wobble": "6021",
+    "yw World": "0117",
+    "yw Ukiukipedia": "yw2-029"
+  },
+  "battle_type": "",
+  "skill_name": "Windshield",
+  "skill_effect": "Bias",
+  "disliked_food": "Milk",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "305",
+        "STR": "146",
+        "SPR": "95",
+        "DEF": "136",
+        "SPD": "131"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "388",
+        "STR": "146",
+        "SPR": "95",
+        "DEF": "136",
+        "SPD": "131"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "217-379",
+        "STR": "60",
+        "SPR": "178",
+        "DEF": "145",
+        "SPD": "133"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "217-379"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "217-379"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "217-379"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "えこひい鬼",
+      "Ekohīki"
+    ],
+    "Spanish": [
+      "Topamí"
+    ],
+    "Italian": [
+      "Favorio"
+    ],
+    "German": [
+      "Schieba"
+    ],
+    "Russian": [
+      "Эники-Бен",
+      "Eniki-Ben"
+    ],
+    "Arabic": [
+      "فراح",
+      "Farrāḥ"
+    ],
+    "Chinese (Mandarin)": [
+      "偏心鬼",
+      "Piānxīnguǐ"
+    ],
+    "Portuguese (Brazilian)": [
+      "Mimadonnie"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "えこひい鬼"
+    ],
+    "Spanish": [
+      "Topamí"
+    ],
+    "Italian": [
+      "Favorio"
+    ],
+    "German": [
+      "Schieba"
+    ],
+    "Russian": [
+      "Эники-Бен"
+    ],
+    "Arabic": [
+      "فراح"
+    ],
+    "Chinese (Mandarin)": [
+      "偏心鬼"
+    ],
+    "Portuguese (Brazilian)": [
+      "Mimadonnie"
+    ]
+  },
+  "description_en": "People Inspirited by Mynimo get much better treatment than those around them. Hey! That's not fair!",
+  "nom_en": "Moskevil",
+  "rang_yww": "D",
+  "tribue_yww": "Usurakage",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "Dashi",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "avantage_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "stats_initiale_yww": {
+    "hp": 44,
+    "str": 8,
+    "spr": 20,
+    "def": 18,
+    "spd": 17
+  },
+  "stats_max_yww": {
+    "hp": 378,
+    "str": 55,
+    "spr": 173,
+    "def": 140,
+    "spd": 128
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "お祭りコイン",
+      "_en": "festival coins",
+      "_fr": "pièces de monnaie du festival"
+    },
+    {
+      "_jp": "ファミマコイン",
+      "_en": "Family Mart Coin",
+      "_fr": "Pièce de monnaie du marché familial"
+    },
+    {
+      "_jp": "ドコモコイン1",
+      "_en": "docomo coin 1",
+      "_fr": "pièce docomo 1"
+    },
+    {
+      "_jp": "十五夜コイン",
+      "_en": "jugoya coin",
+      "_fr": "pièce de monnaie jugoya"
+    },
+    {
+      "_jp": "ドコモコイン2",
+      "_en": "docomo coin 2",
+      "_fr": "pièce docomo 2"
+    },
+    {
+      "_jp": "青コイン",
+      "_en": "blue coin",
+      "_fr": "pièce bleue"
+    },
+    {
+      "_jp": "ハロウィンコイン",
+      "_en": "halloween coin",
+      "_fr": "pièce de monnaie d'Halloween"
+    },
+    {
+      "_jp": "ミルクチョココイン",
+      "_en": "milk chocolate coin",
+      "_fr": "pièce de chocolat au lait"
+    },
+    {
+      "_jp": "ビターチョココイン",
+      "_en": "bitter chocolate coin",
+      "_fr": "pièce de chocolat amer"
+    },
+    {
+      "_jp": "バレンタインコイン",
+      "_en": "valentine coin",
+      "_fr": "pièce de monnaie de la Saint-Valentin"
+    },
+    {
+      "_jp": "WDイベントコイン",
+      "_en": "WD event coin",
+      "_fr": "Pièce d'événement WD"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "はたく",
+        "_en": "flutter",
+        "_fr": "battement"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "すいとりの術",
+        "_en": "Sweetori no Jutsu",
+        "_fr": "Sweetori no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:25 / 吸収】 敵のHPを吸い取る。",
+        "_en": "[Power: 25 / Absorption] Absorbs the enemy's HP.",
+        "_fr": "[Puissance : 25 / Absorption] Absorbe les PV de l'ennemi."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "特別ごひいきハンド",
+        "_en": "special favor hand",
+        "_fr": "main de faveur spéciale"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "えこひいきしたくなるオーラを敵全員にあびせ ちからを大ダウンさせる。",
+        "_en": "Imbues all enemies with an aura that makes them want to show favoritism, greatly reducing their power.",
+        "_fr": "Imprègne tous les ennemis d'une aura qui leur donne envie de faire preuve de favoritisme, réduisant considérablement leur puissance."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "えこひいきさせる",
+        "_en": "show favoritism",
+        "_fr": "faire preuve de favoritisme"
+      },
+      "explication": {
+        "_jp": "【ちからダウン】 とりつかれた妖怪は敵をえこひいきして ちからが大ダウンする。",
+        "_en": "[Power Down] The possessed youkai shows favoritism to the enemy, greatly reducing its power.",
+        "_fr": "[Power Down] Le yôkai possédé fait preuve de favoritisme envers l'ennemi, réduisant considérablement sa puissance."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "とりつかれた人は えこひいきされるようになる。 とりつかれたほうは 悪い気はしないが 周りはあまりおもしろくない。",
+      "_en": "A person who is obsessed will be treated with favoritism. I don't feel bad about being obsessed, but the people around me aren't very interesting.",
+      "_fr": "Une personne obsédée sera traitée avec favoritisme. Je ne me sens pas mal d'être obsédée, mais les gens autour de moi ne sont pas très intéressants."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "162",
+  "Name_yww": "えこひい鬼",
+  "description_jp_yww": "とりつかれた人は えこひいきされるようになる。　 とりつかれたほうは 悪い気はしないが 周りはあまりおもしろくない。",
+  "BingoMessage_jp_yww": "きみが出してくれたの？　ぼくが先生なら えこひいきしているとこだよ",
+  "MonsterId_yww": "y186010",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_186010",
+  "MinHp_yww": 44,
+  "MaxHp_yww": 378,
+  "MinAttack_yww": 8,
+  "MaxAttack_yww": 55,
+  "MinMagic_yww": 20,
+  "MaxMagic_yww": 173,
+  "MinDefense_yww": 18,
+  "MaxDefense_yww": 140,
+  "MinSpeed_yww": 17,
+  "MaxSpeed_yww": 128,
+  "AttackId_yww": 10,
+  "MagicId_yww": 19,
+  "HauntId_yww": 186010,
+  "SpSkillId_yww": 186010,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 3,
+  "DislikeFoodKind_yww": 4,
+  "ActionType_yww": 22,
+  "TribeType_yww": 6,
+  "MedallionImage_yww": "y181810.png",
+  "SpriteImage_yww": "img_y181810.png",
+  "Audio_yww": "sp_y181810.wav",
+  "Description_yww": "La personne possédée commence à faire l'objet d'un traitement de faveur. La personne possédée ne s'en plaint pas, mais son entourage trouve cela peu réjouissant.",
+  "BingoMessage_fr_yww": "C'est toi qui me l'as donné ? Si j'étais ton prof, je dirais que je te fais du favoritisme."
 }

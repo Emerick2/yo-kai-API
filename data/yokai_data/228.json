@@ -1,623 +1,654 @@
 {
-    "ID": "228",
-    "Nom": "Shogunyan",
-    "Tribue": "Vaillant",
-    "Rang": "S",
-    "PV": "340",
-    "Force": "177",
-    "Esprit": "52",
-    "Défense": "128",
-    "Vitesse": "259",
-    "Description": "Cet ancêtre de Jibanyan a un sabre tellement affûté qu'il coupe même ------------------------------ les descriptions en deux.",
-    "description SITE": "Jibanyan est devenu un guerrier légendaire. Il adore le thon et en garde toujours une portion dans son armure.",
-    "nourriture": "Fruits de Mer",
-    "élément": "Vent",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Shogunyan vient de Shogun, Général en chef des armées, au Japon (du XIIe au XIXe siècle) et de Nyan, cri du chat en Japonais. Bushinyan vient de Bushi ('samouraï') et Nyan. Ce dernier pourrait également être un jeu de mots sur Katsuobushi 'flocons de bonite')",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Shogunyan a un pouvoir légendaire et est très puissant avec son katana destructeur.",
-    "personnalité": "Contrairement à Jibanyan, Shogunyan est digne mais aussi un peu téméraire. Il adore également la guerre.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/shogunyan.png",
-    "numero": "214",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Instant critique",
-            "effet": "Puissance des coups critiques élevée."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Taillade éclair",
-            "effet": "20x3 | 44x3"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Ouragan",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Chatana",
-            "effet": "Coupe ses adversaires avec sa précieuse lame sans utiliser ses griffes. 25x10 | 25x10"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Cœur de guerrier",
-            "effet": "Donne à un allié le cœur d'un guerrier et augmente sa FOR"
-        }
+  "ID": "228",
+  "Nom": "Shogunyan",
+  "Tribue": "Vaillant",
+  "Rang": "S",
+  "PV": "340",
+  "Force": "177",
+  "Esprit": "52",
+  "Défense": "128",
+  "Vitesse": "259",
+  "Description": "Cet ancêtre de Jibanyan a un sabre tellement affûté qu'il coupe même ------------------------------ les descriptions en deux.",
+  "description SITE": "Jibanyan est devenu un guerrier légendaire. Il adore le thon et en garde toujours une portion dans son armure.",
+  "nourriture": "Fruits de Mer",
+  "élément": "Vent",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Shogunyan vient de Shogun, Général en chef des armées, au Japon (du XIIe au XIXe siècle) et de Nyan, cri du chat en Japonais. Bushinyan vient de Bushi ('samouraï') et Nyan. Ce dernier pourrait également être un jeu de mots sur Katsuobushi 'flocons de bonite')",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Shogunyan a un pouvoir légendaire et est très puissant avec son katana destructeur.",
+  "personnalité": "Contrairement à Jibanyan, Shogunyan est digne mais aussi un peu téméraire. Il adore également la guerre.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/shogunyan.png",
+  "numero": "214",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Instant critique",
+      "effet": "Puissance des coups critiques élevée."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Taillade éclair",
+      "effet": "20x3 | 44x3"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Ouragan",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Chatana",
+      "effet": "Coupe ses adversaires avec sa précieuse lame sans utiliser ses griffes. 25x10 | 25x10"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Cœur de guerrier",
+      "effet": "Donne à un allié le cœur d'un guerrier et augmente sa FOR"
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "J'approuve.",
+    "Mange de la nourriture insipide": "Pas mal.",
+    "Mange de la mauvaise nourriture": "C'est décevant !",
+    "A la flemme": "Ça peut attendre ?",
+    "Est échangé": "Ton seigneur shogun approuve-t-il notre amitié ?",
+    "Devient ton ami": "Je suis Shogunyan ! Laisse-moi devenir ton fidèle compagnyan !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Shogunyan",
+      "parent2": "Whisper",
+      "resultat": "Shoguwhis",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ブシニャン",
+  "nom_anglais": "Shogunyan",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Etsuko Kozakura",
+    "francaise": "Caroline Combes",
+    "anglaise": "English VA Alicyn Packard (Video games and Season 1 and 2 anime dub) Kira Buckland (most scenes in Season 3 anime dub) Colleen O'Shaughnessey (select scenes in Season 3 anime dub)"
+  },
+  "localisations": {
+    "Général": [
+      "Dans les jeux vidéos, il faut réunir ces huit Yo-kai pour obtenir Shogunyan :"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "J'approuve.",
-        "Mange de la nourriture insipide": "Pas mal.",
-        "Mange de la mauvaise nourriture": "C'est décevant !",
-        "A la flemme": "Ça peut attendre ?",
-        "Est échangé": "Ton seigneur shogun approuve-t-il notre amitié ?",
-        "Devient ton ami": "Je suis Shogunyan ! Laisse-moi devenir ton fidèle compagnyan !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Shogunyan",
-            "parent2": "Whisper",
-            "resultat": "Shoguwhis",
-            "critere": "➨"
-        }
-    ],
-    "image_locale": "",
-    "nom_original": "ブシニャン",
-    "nom_anglais": "Shogunyan",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Etsuko Kozakura",
-        "francaise": "Caroline Combes",
-        "anglaise": "English VA Alicyn Packard (Video games and Season 1 and 2 anime dub) Kira Buckland (most scenes in Season 3 anime dub) Colleen O'Shaughnessey (select scenes in Season 3 anime dub)"
-    },
-    "localisations": {
-        "Général": [
-            "Dans les jeux vidéos, il faut réunir ces huit Yo-kai pour obtenir Shogunyan :"
-        ],
-        "yw1": [],
-        "yw2": [],
-        "yw Blasters 1": [],
-        "yw3": [],
-        "yw Wibble Wobble": [],
-        "yw4": [
-            "Contrairement aux jeux précédents, Shogunyan est obtenable dans leBingo-kaiauMont Sylvestre. Il peux être obtenu au Bingo-kai du présent grâce à laPièce Gasha,Pièce 5 étoilesou laPièce 1 étoileen tant que premier prix."
-        ]
-    },
-    "rarite": "Légende Icon",
-    "tribu_yw4": "Shogunyan",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Taillade éclair",
-                "puissance": "20×3|44×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Ouragan",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Chatana",
-                "puissance": "22×10|22×10",
-                "description": "Coupe ses adversaires avec sa précieuse lame sans utiliser ses griffes."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cœur de guerrier",
-                "puissance": "N/A",
-                "description": "Donne à un allié le cœur d'un guerrier et augmente sa FOR."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Instant critique",
-                "description": "Puissance des coups critiques élevés."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Taillade éclair",
-                "puissance": "20×3|44×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Ouragan",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Chatana",
-                "puissance": "25×10|25×10",
-                "description": "Coupe ses adversaires avec sa précieuse lame sans utiliser ses griffes."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cœur de guerrier",
-                "puissance": "N/A",
-                "description": "Donne à un allié le cœur d'un guerrier et augmente sa FOR."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque ardente",
-                "puissance": "N/A",
-                "description": "Esquive toutes les attaques physiques."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Instant critique",
-                "description": "Puissance des coups critiques élevés."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Chatana",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Attaque blitz",
-                "puissance": "25",
-                "description": "Touche plusieurs fois pour des attaques en continu."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Attaque précipitée",
-                "puissance": "80",
-                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Position invincible",
-                "puissance": "___",
-                "description": "Invincibilité temporaire."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Voir rouge",
-                "description": "Hausse ATT. en attaquant (cumulable)."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Taillade éclair",
-                "puissance": "24×3|38×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Ouragan",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Chatana",
-                "puissance": "16×10|24×10",
-                "description": "Coupe les cibles à portée avec sa précieuse lame, sans utiliser ses griffes."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cœur de guerrier",
-                "puissance": "N/A",
-                "description": "Donne à un allié le cœur d'un guerrier et augmente sa FOR."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Attaque trois fois. Le coup ultime est plus puissant."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Chatana",
-                "puissance": "40×10",
-                "description": "Enchaîne les coups, inflige des dégâts élevés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque blitz",
-                "puissance": "25",
-                "description": "Assaut continu. Le coup ultime est plus puissant."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive des attaques par des déplacements rapides."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Instant critique",
-                "description": "Booste les dégâts critiques."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Clochette de vitesse"
-            },
-            {
-                "taux": "?%",
-                "objet": "Sériole"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Les coups secrets"
-            },
-            {
-                "taux": "?%",
-                "objet": "Sériole"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "EXPorbe moyen"
-            },
-            {
-                "taux": "?%",
-                "objet": "Saumon fumé"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Instant critique",
-        "description": "Puissance des coups critiques élevés."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/shogunyan.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/shogunyan.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/shogunyan.wav",
-    "name_romaji_jp": "Bushinyan",
-    "oldID": "227",
-    "medallium_ids": {
-        "yw1": "214",
-        "yw2": "322",
-        "yw3": "608",
-        "yw4": "26 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "383",
-        "yw Blasters 2": "623",
-        "yw Wibble Wobble": "1014",
-        "yw World": "0183",
-        "Y-Gakuen": "111",
-        "yw Ukiukipedia": "yw2-007/YD1-008"
-    },
-    "battle_type": "Legendary",
-    "skill_name": "Extreme Critical",
-    "skill_effect": "Heart of a Warrior",
-    "disliked_food": "Vegetables",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "389",
-                "STR": "219",
-                "SPR": "135",
-                "DEF": "143",
-                "SPD": "238"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "389",
-                "STR": "219",
-                "SPR": "135",
-                "DEF": "143",
-                "SPD": "238"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "386",
-                "STR": "191",
-                "SPR": "124",
-                "DEF": "143",
-                "SPD": "238"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "459",
-                "STR": "240",
-                "SPR": "112",
-                "DEF": "149"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "455",
-                "STR": "240",
-                "SPR": "108",
-                "DEF": "148"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "340"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "Soul": {
-            "stats": {
-                "HP": "242-423",
-                "STR": "240",
-                "SPR": "108",
-                "DEF": "148"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "242-423",
-                "STR": "240",
-                "SPR": "108",
-                "DEF": "148"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "340",
-                "STR": "177",
-                "SPR": "52",
-                "DEF": "128",
-                "SPD": "259"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw World": {
-            "stats": {
-                "HP": "340",
-                "STR": "177",
-                "SPR": "52",
-                "DEF": "128",
-                "SPD": "259"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ブシニャン",
-            "Bushinyan"
-        ],
-        "Spanish": [
-            "Shogunyan"
-        ],
-        "French": [
-            "Shogunyan"
-        ],
-        "Italian": [
-            "Shogunyan"
-        ],
-        "German": [
-            "Shogunyan"
-        ],
-        "Korean": [
-            "무사냥",
-            "Musanyang"
-        ],
-        "Russian": [
-            "Сегуньян",
-            "Segun'yan"
-        ],
-        "Arabic": [
-            "شوغونيان",
-            "Shūghūniyān"
-        ],
-        "Chinese (Cantonese)": [
-            "武士喵",
-            "Wǔshìmiāo"
-        ],
-        "Portuguese (Brazilian)": [
-            "Shogunyan"
-        ],
-        "Turkish": [
-            "Şoganyan"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ブシニャン"
-        ],
-        "Spanish": [
-            "Shogunyan"
-        ],
-        "French": [
-            "Shogunyan"
-        ],
-        "Italian": [
-            "Shogunyan"
-        ],
-        "German": [
-            "Shogunyan"
-        ],
-        "Korean": [
-            "무사냥"
-        ],
-        "Russian": [
-            "Сегуньян"
-        ],
-        "Arabic": [
-            "شوغونيان"
-        ],
-        "Chinese (Cantonese)": [
-            "武士喵"
-        ],
-        "Portuguese (Brazilian)": [
-            "Shogunyan"
-        ],
-        "Turkish": [
-            "Şoganyan"
-        ]
-    },
-    "description_en": "This ancestor of Jibanyan owns a sword so sharp it ------------------------------ can even slice this description in two!",
-    "nom_en": "Venoct",
-    "rang_yww": "S",
-    "tribue_yww": null,
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": null,
-    "nourriture_favorite": "fruit de mer",
-    "attitude_spécifique_yww": null,
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {},
-    "stats_max_yww": {},
-    "moyens_obtention_yww": [
-        {
-            "_jp": "アタッカー",
-            "_en": "attacker",
-            "_fr": "attaquant"
-        },
-        {
-            "_jp": "コマじゅうろう - 特定の場所で出現",
-            "_en": "Komajuro - Appears in specific locations",
-            "_fr": "Komajuro – Apparaît à des endroits spécifiques"
-        },
-        {
-            "_jp": "ジンギスギスカン - 特定の場所で出現 - その他",
-            "_en": "Genghis Khan - Appears in specific locations - Others",
-            "_fr": "Gengis Khan - Apparaît dans des endroits spécifiques - Autres"
-        },
-        {
-            "_jp": "枕返し - 特定の場所で出現 - コインから出現",
-            "_en": "Makuragaeshi - Appears in specific locations - Appears from coins",
-            "_fr": "Makuragaeshi – Apparaît à des endroits spécifiques – Apparaît à partir de pièces de monnaie"
-        },
-        {
-            "_jp": "ふくろじじい - 特定の場所で出現",
-            "_en": "Owl Old Man - Appears in certain locations",
-            "_fr": "Owl Old Man - Apparaît à certains endroits"
-        },
-        {
-            "_jp": "じんめん犬 - 特定の場所で出現",
-            "_en": "Jinmen Inu - Appears in certain locations",
-            "_fr": "Jinmen Inu – Apparaît à certains endroits"
-        },
-        {
-            "_jp": "チクチクウニ - 特定の場所で出現",
-            "_en": "Prickly sea urchin - Appears in specific locations",
-            "_fr": "Oursin épineux - Apparaît à des endroits spécifiques"
-        },
-        {
-            "_jp": "チンギスギスハン - アイテム進化で出現",
-            "_en": "Genghis Ghis Khan - Appears through item evolution",
-            "_fr": "Gengis Ghis Khan – Apparaît à travers l'évolution des objets"
-        },
-        {
-            "_jp": "かおベロス - レベル進化で出現",
-            "_en": "Kaoberos - Appears through level evolution",
-            "_fr": "Kaoberos - Apparaît à travers l'évolution des niveaux"
-        }
-    ],
-    "attaque_magie_yww": [],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "入手方法",
-                "_en": "How to get it",
-                "_fr": "Comment l'obtenir"
-            },
-            "pouvoir": "スナック",
-            "explication": {
-                "_jp": "特定の場所で出現滋賀県日野町",
-                "_en": "Appears in specific locations in Hino Town, Shiga Prefecture",
-                "_fr": "Apparaît à des endroits spécifiques de la ville de Hino, préfecture de Shiga."
-            }
-        }
-    ],
-    "posséder_yww": [],
-    "explication_yww": [],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw1": [],
+    "yw2": [],
+    "yw Blasters 1": [],
+    "yw3": [],
+    "yw Wibble Wobble": [],
+    "yw4": [
+      "Contrairement aux jeux précédents, Shogunyan est obtenable dans leBingo-kaiauMont Sylvestre. Il peux être obtenu au Bingo-kai du présent grâce à laPièce Gasha,Pièce 5 étoilesou laPièce 1 étoileen tant que premier prix."
     ]
+  },
+  "rarite": "Légende Icon",
+  "tribu_yw4": "Shogunyan",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Taillade éclair",
+        "puissance": "20×3|44×3",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Ouragan",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Chatana",
+        "puissance": "22×10|22×10",
+        "description": "Coupe ses adversaires avec sa précieuse lame sans utiliser ses griffes."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cœur de guerrier",
+        "puissance": "N/A",
+        "description": "Donne à un allié le cœur d'un guerrier et augmente sa FOR."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Instant critique",
+        "description": "Puissance des coups critiques élevés."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Taillade éclair",
+        "puissance": "20×3|44×3",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Ouragan",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Chatana",
+        "puissance": "25×10|25×10",
+        "description": "Coupe ses adversaires avec sa précieuse lame sans utiliser ses griffes."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cœur de guerrier",
+        "puissance": "N/A",
+        "description": "Donne à un allié le cœur d'un guerrier et augmente sa FOR."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Attaque ardente",
+        "puissance": "N/A",
+        "description": "Esquive toutes les attaques physiques."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Instant critique",
+        "description": "Puissance des coups critiques élevés."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Chatana",
+        "puissance": "40×10",
+        "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Attaque blitz",
+        "puissance": "25",
+        "description": "Touche plusieurs fois pour des attaques en continu."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Attaque précipitée",
+        "puissance": "80",
+        "description": "Attaque en faisant face à l'ennemi et fonce dessus."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Position invincible",
+        "puissance": "___",
+        "description": "Invincibilité temporaire."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Voir rouge",
+        "description": "Hausse ATT. en attaquant (cumulable)."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Taillade éclair",
+        "puissance": "24×3|38×3",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Ouragan",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Chatana",
+        "puissance": "16×10|24×10",
+        "description": "Coupe les cibles à portée avec sa précieuse lame, sans utiliser ses griffes."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cœur de guerrier",
+        "puissance": "N/A",
+        "description": "Donne à un allié le cœur d'un guerrier et augmente sa FOR."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Attaque trois fois. Le coup ultime est plus puissant."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Chatana",
+        "puissance": "40×10",
+        "description": "Enchaîne les coups, inflige des dégâts élevés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Attaque blitz",
+        "puissance": "25",
+        "description": "Assaut continu. Le coup ultime est plus puissant."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive des attaques par des déplacements rapides."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Instant critique",
+        "description": "Booste les dégâts critiques."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Clochette de vitesse"
+      },
+      {
+        "taux": "?%",
+        "objet": "Sériole"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Les coups secrets"
+      },
+      {
+        "taux": "?%",
+        "objet": "Sériole"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "EXPorbe moyen"
+      },
+      {
+        "taux": "?%",
+        "objet": "Saumon fumé"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Instant critique",
+    "description": "Puissance des coups critiques élevés."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/shogunyan.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/shogunyan.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/shogunyan.wav",
+  "name_romaji_jp": "Bushinyan",
+  "oldID": "227",
+  "medallium_ids": {
+    "yw1": "214",
+    "yw2": "322",
+    "yw3": "608",
+    "yw4": "26 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "383",
+    "yw Blasters 2": "623",
+    "yw Wibble Wobble": "1014",
+    "yw World": "0183",
+    "Y-Gakuen": "111",
+    "yw Ukiukipedia": "yw2-007/YD1-008"
+  },
+  "battle_type": "Legendary",
+  "skill_name": "Extreme Critical",
+  "skill_effect": "Heart of a Warrior",
+  "disliked_food": "Vegetables",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "389",
+        "STR": "219",
+        "SPR": "135",
+        "DEF": "143",
+        "SPD": "238"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "389",
+        "STR": "219",
+        "SPR": "135",
+        "DEF": "143",
+        "SPD": "238"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "386",
+        "STR": "191",
+        "SPR": "124",
+        "DEF": "143",
+        "SPD": "238"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "459",
+        "STR": "240",
+        "SPR": "112",
+        "DEF": "149"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "455",
+        "STR": "240",
+        "SPR": "108",
+        "DEF": "148"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "340"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "Soul": {
+      "stats": {
+        "HP": "242-423",
+        "STR": "240",
+        "SPR": "108",
+        "DEF": "148"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "242-423",
+        "STR": "240",
+        "SPR": "108",
+        "DEF": "148"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "340",
+        "STR": "177",
+        "SPR": "52",
+        "DEF": "128",
+        "SPD": "259"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw World": {
+      "stats": {
+        "HP": "340",
+        "STR": "177",
+        "SPR": "52",
+        "DEF": "128",
+        "SPD": "259"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ブシニャン",
+      "Bushinyan"
+    ],
+    "Spanish": [
+      "Shogunyan"
+    ],
+    "French": [
+      "Shogunyan"
+    ],
+    "Italian": [
+      "Shogunyan"
+    ],
+    "German": [
+      "Shogunyan"
+    ],
+    "Korean": [
+      "무사냥",
+      "Musanyang"
+    ],
+    "Russian": [
+      "Сегуньян",
+      "Segun'yan"
+    ],
+    "Arabic": [
+      "شوغونيان",
+      "Shūghūniyān"
+    ],
+    "Chinese (Cantonese)": [
+      "武士喵",
+      "Wǔshìmiāo"
+    ],
+    "Portuguese (Brazilian)": [
+      "Shogunyan"
+    ],
+    "Turkish": [
+      "Şoganyan"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ブシニャン"
+    ],
+    "Spanish": [
+      "Shogunyan"
+    ],
+    "French": [
+      "Shogunyan"
+    ],
+    "Italian": [
+      "Shogunyan"
+    ],
+    "German": [
+      "Shogunyan"
+    ],
+    "Korean": [
+      "무사냥"
+    ],
+    "Russian": [
+      "Сегуньян"
+    ],
+    "Arabic": [
+      "شوغونيان"
+    ],
+    "Chinese (Cantonese)": [
+      "武士喵"
+    ],
+    "Portuguese (Brazilian)": [
+      "Shogunyan"
+    ],
+    "Turkish": [
+      "Şoganyan"
+    ]
+  },
+  "description_en": "This ancestor of Jibanyan owns a sword so sharp it ------------------------------ can even slice this description in two!",
+  "nom_en": "Venoct",
+  "rang_yww": "S",
+  "tribue_yww": null,
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": null,
+  "nourriture_favorite": "fruit de mer",
+  "attitude_spécifique_yww": null,
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {},
+  "stats_max_yww": {},
+  "moyens_obtention_yww": [
+    {
+      "_jp": "アタッカー",
+      "_en": "attacker",
+      "_fr": "attaquant"
+    },
+    {
+      "_jp": "コマじゅうろう - 特定の場所で出現",
+      "_en": "Komajuro - Appears in specific locations",
+      "_fr": "Komajuro – Apparaît à des endroits spécifiques"
+    },
+    {
+      "_jp": "ジンギスギスカン - 特定の場所で出現 - その他",
+      "_en": "Genghis Khan - Appears in specific locations - Others",
+      "_fr": "Gengis Khan - Apparaît dans des endroits spécifiques - Autres"
+    },
+    {
+      "_jp": "枕返し - 特定の場所で出現 - コインから出現",
+      "_en": "Makuragaeshi - Appears in specific locations - Appears from coins",
+      "_fr": "Makuragaeshi – Apparaît à des endroits spécifiques – Apparaît à partir de pièces de monnaie"
+    },
+    {
+      "_jp": "ふくろじじい - 特定の場所で出現",
+      "_en": "Owl Old Man - Appears in certain locations",
+      "_fr": "Owl Old Man - Apparaît à certains endroits"
+    },
+    {
+      "_jp": "じんめん犬 - 特定の場所で出現",
+      "_en": "Jinmen Inu - Appears in certain locations",
+      "_fr": "Jinmen Inu – Apparaît à certains endroits"
+    },
+    {
+      "_jp": "チクチクウニ - 特定の場所で出現",
+      "_en": "Prickly sea urchin - Appears in specific locations",
+      "_fr": "Oursin épineux - Apparaît à des endroits spécifiques"
+    },
+    {
+      "_jp": "チンギスギスハン - アイテム進化で出現",
+      "_en": "Genghis Ghis Khan - Appears through item evolution",
+      "_fr": "Gengis Ghis Khan – Apparaît à travers l'évolution des objets"
+    },
+    {
+      "_jp": "かおベロス - レベル進化で出現",
+      "_en": "Kaoberos - Appears through level evolution",
+      "_fr": "Kaoberos - Apparaît à travers l'évolution des niveaux"
+    }
+  ],
+  "attaque_magie_yww": [],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "入手方法",
+        "_en": "How to get it",
+        "_fr": "Comment l'obtenir"
+      },
+      "pouvoir": "スナック",
+      "explication": {
+        "_jp": "特定の場所で出現滋賀県日野町",
+        "_en": "Appears in specific locations in Hino Town, Shiga Prefecture",
+        "_fr": "Apparaît à des endroits spécifiques de la ville de Hino, préfecture de Shiga."
+      }
+    }
+  ],
+  "posséder_yww": [],
+  "explication_yww": [],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "228",
+  "Name_yww": "ブシニャン",
+  "description_jp_yww": "ジバニャンのご先祖さま。 伝説級の斬れ味をもつ刀で --------------------------------- 「妖怪解説　真っ二つ斬り！」 と　このように斬ってしまう。",
+  "BingoMessage_jp_yww": "お主が出してくれたんでござるか！ 礼を言うでござる！",
+  "MonsterId_yww": "y222000",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_222000",
+  "MinHp_yww": 50,
+  "MaxHp_yww": 340,
+  "MinAttack_yww": 30,
+  "MaxAttack_yww": 177,
+  "MinMagic_yww": 7,
+  "MaxMagic_yww": 52,
+  "MinDefense_yww": 18,
+  "MaxDefense_yww": 128,
+  "MinSpeed_yww": 40,
+  "MaxSpeed_yww": 259,
+  "AttackId_yww": 45,
+  "MagicId_yww": 18,
+  "HauntId_yww": 222000,
+  "SpSkillId_yww": 222000,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 12,
+  "DislikeFoodKind_yww": 10,
+  "ActionType_yww": 5,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y217800.png",
+  "SpriteImage_yww": "img_y217800.png",
+  "Audio_yww": "sp_y217800.wav",
+  "Description_yww": "L'ancêtre de Jibanyan. Avec un sabre dont le tranchant est légendaire, --------------------------------- « Explication sur les yōkai : coup en deux ! » et il les tranche ainsi.",
+  "BingoMessage_fr_yww": "C'est donc vous qui l'avez offert ! Je vous en remercie !"
 }

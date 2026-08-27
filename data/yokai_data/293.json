@@ -1,328 +1,359 @@
 {
-    "ID": "293",
-    "Nom": "M. Felipaix",
-    "Tribue": "Bienveillant",
-    "Rang": "B",
-    "PV": "385",
-    "Force": "64",
-    "Esprit": "181",
-    "Défense": "143",
-    "Vitesse": "166",
-    "Description": "Son attitude responsable et ses airs d'employé respectable et humble ne manquent pas d'attirer les regards.",
-    "description SITE": "Son attitude responsable et ses airs d'employés respectable et humble ne manquent pas d'attirer les regards.",
-    "nourriture": "Oden",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/m-felipaix.png",
-    "numero": "173",
-    "nourriture_favorite": "Oden",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Responsable",
-            "effet": "Ne flânera jamais."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coup de boule",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Restauration",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tempête de stable",
-            "effet": "Tous les ennemis sont frappés par la force d'une vie stable. 130 | 130"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paixsible",
-            "effet": "Le Yo-kai est si docile qu'il ne peut pas être ciblé."
-        }
+  "ID": "293",
+  "Nom": "M. Felipaix",
+  "Tribue": "Bienveillant",
+  "Rang": "B",
+  "PV": "385",
+  "Force": "64",
+  "Esprit": "181",
+  "Défense": "143",
+  "Vitesse": "166",
+  "Description": "Son attitude responsable et ses airs d'employé respectable et humble ne manquent pas d'attirer les regards.",
+  "description SITE": "Son attitude responsable et ses airs d'employés respectable et humble ne manquent pas d'attirer les regards.",
+  "nourriture": "Oden",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/m-felipaix.png",
+  "numero": "173",
+  "nourriture_favorite": "Oden",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Responsable",
+      "effet": "Ne flânera jamais."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coup de boule",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Restauration",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tempête de stable",
+      "effet": "Tous les ennemis sont frappés par la force d'une vie stable. 130 | 130"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paixsible",
+      "effet": "Le Yo-kai est si docile qu'il ne peut pas être ciblé."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Je te remercie !",
+    "Mange de la nourriture insipide": "Ça peut aller.",
+    "Mange de la mauvaise nourriture": "Je refuse !",
+    "A la flemme": "Besoin de repos.",
+    "Est échangé": "Je suis le fameux M. Felipaix ! Tu n'as peut-être jamais entendu parler de moi.",
+    "Devient ton ami": "Quel beau combat ! Je suis M. Felipaix. Tu veux bien me donner du travail ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "yw2, Blasters & 3",
+      "parent1": "Felipaix",
+      "parent2": "Costume sable",
+      "resultat": "M. Felipaix",
+      "critere": "➨"
+    },
+    {
+      "type": "Fusion",
+      "contexte": "yw3",
+      "parent1": "Curryeux",
+      "parent2": "M. Felipaix",
+      "resultat": "Curryogi",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "大山砂夫",
+  "nom_anglais": "Mister Sandmeh",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Fusion"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Je te remercie !",
-        "Mange de la nourriture insipide": "Ça peut aller.",
-        "Mange de la mauvaise nourriture": "Je refuse !",
-        "A la flemme": "Besoin de repos.",
-        "Est échangé": "Je suis le fameux M. Felipaix ! Tu n'as peut-être jamais entendu parler de moi.",
-        "Devient ton ami": "Quel beau combat ! Je suis M. Felipaix. Tu veux bien me donner du travail ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "yw2, Blasters & 3",
-            "parent1": "Felipaix",
-            "parent2": "Costume sable",
-            "resultat": "M. Felipaix",
-            "critere": "➨"
-        },
-        {
-            "type": "Fusion",
-            "contexte": "yw3",
-            "parent1": "Curryeux",
-            "parent2": "M. Felipaix",
-            "resultat": "Curryogi",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Fusion"
     ],
-    "image_locale": "",
-    "nom_original": "大山砂夫",
-    "nom_anglais": "Mister Sandmeh",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Fusion"
-        ],
-        "yw Blasters 1": [
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Responsable",
-        "description": "Ne subit que la moitié des dégâts."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/m-felipaix.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/m-felipaix.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/m-felipaix.wav",
-    "oldID": "303",
-    "medallium_ids": {
-        "yw2": "173",
-        "yw3": "323"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "215",
-        "yw Blasters 2": "330",
-        "yw Wibble Wobble": "5036",
-        "yw World": "0225"
-    },
-    "battle_type": "",
-    "skill_name": "Sand Still Carefree Spirit yw2 FS",
-    "skill_effect": "A-meh-zing",
-    "disliked_food": "Snacks",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "357",
-                "STR": "165",
-                "SPR": "153",
-                "DEF": "138",
-                "SPD": "153"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "395",
-                "STR": "69",
-                "SPR": "186",
-                "DEF": "148",
-                "SPD": "171"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "大山砂夫",
-            "Ōyama"
-        ],
-        "Spanish": [
-            "Don"
-        ],
-        "French": [
-            "Monsieur"
-        ],
-        "Italian": [
-            "Signor"
-        ],
-        "German": [
-            "Herr"
-        ],
-        "Russian": [
-            "Господин",
-            "Gospodin"
-        ],
-        "Arabic": [
-            "السيد",
-            "Alsayid"
-        ],
-        "Portuguese (Brazilian)": [
-            "Senhor"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "大山砂夫"
-        ],
-        "Spanish": [
-            "Don Arenito"
-        ],
-        "French": [
-            "Monsieur Félipaix"
-        ],
-        "Italian": [
-            "Signor Sabbio"
-        ],
-        "German": [
-            "Herr Körner"
-        ],
-        "Russian": [
-            "Господин Задремов"
-        ],
-        "Arabic": [
-            "السيد حباب"
-        ],
-        "Portuguese (Brazilian)": [
-            "Senhor Calmin"
-        ]
-    },
-    "description_en": "His responsible attitude and respectable-salary- man's air of humility are so intense that others can't help but notice.",
-    "nom_en": "Ray O'Light",
-    "rang_yww": "B",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "Oden",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 49,
-        "str": 8,
-        "spr": 26,
-        "def": 18,
-        "spd": 25
-    },
-    "stats_max_yww": {
-        "hp": 385,
-        "str": 64,
-        "spr": 181,
-        "def": 143,
-        "spd": 166
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "1つ星コイン",
-            "_en": "1 star coin",
-            "_fr": "Pièce d'une étoile"
-        }
-    ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ずつき",
-                "_en": "Zutsuki",
-                "_fr": "Zutsuki"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体に攻撃する。",
-                "_en": "[Power: 30/Blow] Attacks one enemy.",
-                "_fr": "[Puissance : 30/Coup] Attaque un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "回復の術",
-                "_en": "art of recovery",
-                "_fr": "l'art de la récupération"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "大山砂夫と申します。",
-                "_en": "My name is Sunao Oyama.",
-                "_fr": "Je m'appelle Sunao Oyama."
-            },
-            "pouvoir": "150",
-            "explication": {
-                "_jp": "サラリーマン生活で地道に きたえた土の力で 敵全員にダメージを与える",
-                "_en": "Damage all enemies with the power of the earth that I learned through my life as an office worker.",
-                "_fr": "Endommagez tous les ennemis avec le pouvoir de la terre que j'ai appris au cours de ma vie d'employé de bureau."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "素直にする",
-                "_en": "be honest",
-                "_fr": "sois honnête"
-            },
-            "explication": {
-                "_jp": "【全ステアップ】 とりつかれた妖怪はなんでも素直に受け入れて全ステータスが小アップする。",
-                "_en": "[All Stairs Up] A possessed monster will accept anything and all stats will be slightly increased.",
-                "_fr": "[Tous les escaliers] Un monstre possédé acceptera n'importe quoi et toutes les statistiques seront légèrement augmentées."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "素直な性格のまま マジメな サラリーマンに成長した砂夫。 素直さがあふれる 完璧なおじぎには 相手も思わず腰が低くなる。",
-            "_en": "Sunao has grown into a serious office worker while maintaining his honest personality. A perfect bow that overflows with sincerity makes the other person bow low.",
-            "_fr": "Sunao est devenu un employé de bureau sérieux tout en conservant sa personnalité honnête. Un salut parfait qui déborde de sincérité fait que l'autre personne s'incline profondément."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {},
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Responsable",
+    "description": "Ne subit que la moitié des dégâts."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/m-felipaix.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/m-felipaix.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/m-felipaix.wav",
+  "oldID": "303",
+  "medallium_ids": {
+    "yw2": "173",
+    "yw3": "323"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "215",
+    "yw Blasters 2": "330",
+    "yw Wibble Wobble": "5036",
+    "yw World": "0225"
+  },
+  "battle_type": "",
+  "skill_name": "Sand Still Carefree Spirit yw2 FS",
+  "skill_effect": "A-meh-zing",
+  "disliked_food": "Snacks",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "357",
+        "STR": "165",
+        "SPR": "153",
+        "DEF": "138",
+        "SPD": "153"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "395",
+        "STR": "69",
+        "SPR": "186",
+        "DEF": "148",
+        "SPD": "171"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "大山砂夫",
+      "Ōyama"
+    ],
+    "Spanish": [
+      "Don"
+    ],
+    "French": [
+      "Monsieur"
+    ],
+    "Italian": [
+      "Signor"
+    ],
+    "German": [
+      "Herr"
+    ],
+    "Russian": [
+      "Господин",
+      "Gospodin"
+    ],
+    "Arabic": [
+      "السيد",
+      "Alsayid"
+    ],
+    "Portuguese (Brazilian)": [
+      "Senhor"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "大山砂夫"
+    ],
+    "Spanish": [
+      "Don Arenito"
+    ],
+    "French": [
+      "Monsieur Félipaix"
+    ],
+    "Italian": [
+      "Signor Sabbio"
+    ],
+    "German": [
+      "Herr Körner"
+    ],
+    "Russian": [
+      "Господин Задремов"
+    ],
+    "Arabic": [
+      "السيد حباب"
+    ],
+    "Portuguese (Brazilian)": [
+      "Senhor Calmin"
+    ]
+  },
+  "description_en": "His responsible attitude and respectable-salary- man's air of humility are so intense that others can't help but notice.",
+  "nom_en": "Ray O'Light",
+  "rang_yww": "B",
+  "tribue_yww": "Pokapoka",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "Oden",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 49,
+    "str": 8,
+    "spr": 26,
+    "def": 18,
+    "spd": 25
+  },
+  "stats_max_yww": {
+    "hp": 385,
+    "str": 64,
+    "spr": 181,
+    "def": 143,
+    "spd": 166
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "1つ星コイン",
+      "_en": "1 star coin",
+      "_fr": "Pièce d'une étoile"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ずつき",
+        "_en": "Zutsuki",
+        "_fr": "Zutsuki"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体に攻撃する。",
+        "_en": "[Power: 30/Blow] Attacks one enemy.",
+        "_fr": "[Puissance : 30/Coup] Attaque un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "回復の術",
+        "_en": "art of recovery",
+        "_fr": "l'art de la récupération"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "大山砂夫と申します。",
+        "_en": "My name is Sunao Oyama.",
+        "_fr": "Je m'appelle Sunao Oyama."
+      },
+      "pouvoir": "150",
+      "explication": {
+        "_jp": "サラリーマン生活で地道に きたえた土の力で 敵全員にダメージを与える",
+        "_en": "Damage all enemies with the power of the earth that I learned through my life as an office worker.",
+        "_fr": "Endommagez tous les ennemis avec le pouvoir de la terre que j'ai appris au cours de ma vie d'employé de bureau."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "素直にする",
+        "_en": "be honest",
+        "_fr": "sois honnête"
+      },
+      "explication": {
+        "_jp": "【全ステアップ】 とりつかれた妖怪はなんでも素直に受け入れて全ステータスが小アップする。",
+        "_en": "[All Stairs Up] A possessed monster will accept anything and all stats will be slightly increased.",
+        "_fr": "[Tous les escaliers] Un monstre possédé acceptera n'importe quoi et toutes les statistiques seront légèrement augmentées."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "素直な性格のまま マジメな サラリーマンに成長した砂夫。 素直さがあふれる 完璧なおじぎには 相手も思わず腰が低くなる。",
+      "_en": "Sunao has grown into a serious office worker while maintaining his honest personality. A perfect bow that overflows with sincerity makes the other person bow low.",
+      "_fr": "Sunao est devenu un employé de bureau sérieux tout en conservant sa personnalité honnête. Un salut parfait qui déborde de sincérité fait que l'autre personne s'incline profondément."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "299",
+  "Name_yww": "大山砂夫",
+  "description_jp_yww": "素直な性格のまま　マジメな サラリーマンに成長した砂夫。 素直さがあふれる 完璧なおじぎには 相手も思わず腰が低くなる。",
+  "BingoMessage_jp_yww": "わたくし　大山砂夫と申します これからもよろしくお願いいたします",
+  "MonsterId_yww": "y284000",
+  "Height_yww": 8.91,
+  "CommondId_yww": "sp_284000",
+  "MinHp_yww": 46,
+  "MaxHp_yww": 345,
+  "MinAttack_yww": 6,
+  "MaxAttack_yww": 49,
+  "MinMagic_yww": 26,
+  "MaxMagic_yww": 186,
+  "MinDefense_yww": 10,
+  "MaxDefense_yww": 94,
+  "MinSpeed_yww": 32,
+  "MaxSpeed_yww": 203,
+  "AttackId_yww": 55,
+  "MagicId_yww": 24,
+  "HauntId_yww": 284000,
+  "SpSkillId_yww": 284000,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 10,
+  "DislikeFoodKind_yww": 13,
+  "ActionType_yww": 15,
+  "TribeType_yww": 5,
+  "MedallionImage_yww": "y279800.png",
+  "SpriteImage_yww": "img_y279800.png",
+  "Audio_yww": "sp_y279800.wav",
+  "Description_yww": "Tout en conservant son caractère franc, Sunao est devenu un employé de bureau sérieux. Sa révérence parfaite, qui respire la sincérité, incite son interlocuteur à se montrer spontanément humble.",
+  "BingoMessage_fr_yww": "Je m'appelle Sunao Ōyama. Je compte bien sur votre soutien à l'avenir."
 }

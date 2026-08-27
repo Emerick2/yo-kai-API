@@ -1,398 +1,429 @@
 {
-    "ID": "107",
-    "Nom": "Appak",
-    "Tribue": "Mignon",
-    "Rang": "A",
-    "PV": "374",
-    "Force": "54",
-    "Esprit": "239",
-    "Défense": "121",
-    "Vitesse": "174",
-    "Description": "Appak peut pratiquement tout couper avec sa lame d'eau. Il parcourt le globe pour augmenter ses capacités.",
-    "nourriture": "Légume",
-    "élément": "Eau",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Appakvient du mot Kappaécrit à l'envers.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/appak.png",
-    "numero": "097",
-    "nourriture_favorite": "Sushi",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Kapparacte",
-            "effet": "Bloque les dégâts des attaques d'eau."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Double coupure",
-            "effet": "18x2 | 39x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Cascade",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Torrentaille",
-            "effet": "Concentre son esprit dans son épée d'eau pour tailler l'ennemi. 130 | 195"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Force torrentielle",
-            "effet": "Augmente autant la concentration d'un allié que son ESP. !"
-        }
+  "ID": "107",
+  "Nom": "Appak",
+  "Tribue": "Mignon",
+  "Rang": "A",
+  "PV": "374",
+  "Force": "54",
+  "Esprit": "239",
+  "Défense": "121",
+  "Vitesse": "174",
+  "Description": "Appak peut pratiquement tout couper avec sa lame d'eau. Il parcourt le globe pour augmenter ses capacités.",
+  "nourriture": "Légume",
+  "élément": "Eau",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Appakvient du mot Kappaécrit à l'envers.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/appak.png",
+  "numero": "097",
+  "nourriture_favorite": "Sushi",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Kapparacte",
+      "effet": "Bloque les dégâts des attaques d'eau."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Double coupure",
+      "effet": "18x2 | 39x2"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Cascade",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Torrentaille",
+      "effet": "Concentre son esprit dans son épée d'eau pour tailler l'ennemi. 130 | 195"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Force torrentielle",
+      "effet": "Augmente autant la concentration d'un allié que son ESP. !"
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Quelle fraîcheur !",
+    "Mange de la nourriture insipide": "C'est très banal.",
+    "Mange de la mauvaise nourriture": "Je me sens mal...",
+    "A la flemme": "Zzz...",
+    "Est échangé": "Je me suis échoué ici pendant mes voyages... Puis-je rester un peu ?",
+    "Devient ton ami": "Je peux être ton ami ? Sinon, bah... Tant pis."
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "Général",
+      "de": "Kappacap",
+      "vers": "Appak",
+      "critere": "Niveau 32"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "たびガッパ",
+  "nom_anglais": "Appak",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Évolution",
+      "Coteau fleuri- fleuve est",
+      "Clinique du Crépuscule"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Quelle fraîcheur !",
-        "Mange de la nourriture insipide": "C'est très banal.",
-        "Mange de la mauvaise nourriture": "Je me sens mal...",
-        "A la flemme": "Zzz...",
-        "Est échangé": "Je me suis échoué ici pendant mes voyages... Puis-je rester un peu ?",
-        "Devient ton ami": "Je peux être ton ami ? Sinon, bah... Tant pis."
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "Général",
-            "de": "Kappacap",
-            "vers": "Appak",
-            "critere": "Niveau 32"
-        }
+    "yw2": [
+      "Évolution"
     ],
-    "image_locale": "",
-    "nom_original": "たびガッパ",
-    "nom_anglais": "Appak",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Évolution",
-            "Coteau fleuri- fleuve est",
-            "Clinique du Crépuscule"
-        ],
-        "yw2": [
-            "Évolution"
-        ],
-        "yw3": [
-            "Évolution"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
-    "soul_effects": {
-        "yw2": "Réduit beaucoup les dégâts d’attaques d'eau subis.",
-        "yw Blasters 1": "Réduit les dégâts de l'eau.",
-        "yw3": "Récupère des PV quand il flâne."
-    },
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Gourde sans fond"
-            },
-            {
-                "taux": "?%",
-                "objet": "Concombre"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Gourde sans fond"
-            },
-            {
-                "taux": "?%",
-                "objet": "Concombre"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Gourde sans fond"
-            },
-            {
-                "taux": "?%",
-                "objet": "Maki concombre"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Intrusion",
-        "description": "Inflige toujours des dégâts élémentaires."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/appak.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/appak.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/appak.wav",
-    "oldID": "107",
-    "medallium_ids": {
-        "yw1": "097",
-        "yw2": "140",
-        "yw3": "241"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "176",
-        "yw Blasters 2": "246",
-        "yw Wibble Wobble": "4040",
-        "yw World": "0778",
-        "yw Ukiukipedia": "yw1-032"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Penetrate Fill 'Er Up yw2 FS",
-    "skill_effect": "Torrent Power",
-    "disliked_food": "Hamburgers",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "368",
-                "STR": "176",
-                "SPR": "179",
-                "DEF": "119",
-                "SPD": "162"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "368",
-                "STR": "176",
-                "SPR": "179",
-                "DEF": "119",
-                "SPD": "162"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "199-348",
-                "STR": "59",
-                "SPR": "244",
-                "DEF": "126",
-                "SPD": "179"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "199-348"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "199-348"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "199-348"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "たびガッパ",
-            "Tabigappa"
-        ],
-        "Spanish": [
-            "Kappadachín"
-        ],
-        "French": [
-            "Appak"
-        ],
-        "Italian": [
-            "Movikappa"
-        ],
-        "German": [
-            "Nomakappa"
-        ],
-        "Korean": [
-            "방랑거북",
-            "Bangnanggeobuk"
-        ],
-        "Russian": [
-            "Мечекаппа",
-            "Mechekappa"
-        ],
-        "Arabic": [
-            "جوال",
-            "Jawwāl"
-        ],
-        "Chinese (Mandarin)": [
-            "旅行河童",
-            "Lǚxíng"
-        ],
-        "Portuguese (Brazilian)": [
-            "Kappagume"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "たびガッパ"
-        ],
-        "Spanish": [
-            "Kappadachín"
-        ],
-        "French": [
-            "Appak"
-        ],
-        "Italian": [
-            "Movikappa"
-        ],
-        "German": [
-            "Nomakappa"
-        ],
-        "Korean": [
-            "방랑거북"
-        ],
-        "Russian": [
-            "Мечекаппа"
-        ],
-        "Arabic": [
-            "جوال"
-        ],
-        "Chinese (Mandarin)": [
-            "旅行河童"
-        ],
-        "Portuguese (Brazilian)": [
-            "Kappagume"
-        ]
-    },
-    "description_en": "Appak can cut just about anything with his water sword. He wanders the world in order to heighten his skills.",
-    "nom_en": "Topanyan",
-    "rang_yww": "A",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Sushis",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
-        "_fr": "(Rôle d'attaque) Reisei, cible de Zunou, (Attaque contre les alliés) Coopératif, de type Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 54,
-        "str": 7,
-        "spr": 35,
-        "def": 15,
-        "spd": 25
-    },
-    "stats_max_yww": {
-        "hp": 374,
-        "str": 54,
-        "spr": 239,
-        "def": 121,
-        "spd": 174
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "つばめがえし",
-                "_en": "Swallow replacement",
-                "_fr": "Remplacement de l'hirondelle"
-            },
-            "explication": {
-                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 25×2/Blow] Attack twice",
-                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "大滝の術",
-                "_en": "Otaki no Jutsu",
-                "_fr": "Otaki no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 水属性】 強力な水の妖術を使う。",
-                "_en": "[Power: 70 / Water attribute] Uses powerful water magic.",
-                "_fr": "[Puissance : 70 / Attribut Eau] Utilise une puissante magie de l'eau."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "げきりゅう一閃",
-                "_en": "Gekiryu Ichisen",
-                "_fr": "Gekiryu Ichisen"
-            },
-            "pouvoir": "200",
-            "explication": {
-                "_jp": "水筒ブレードに全妖気を注入し斬りつける。",
-                "_en": "Injects all your energy into the canteen blade and slashes.",
-                "_fr": "Injecte toute votre énergie dans la lame de la cantine et tranche."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "げきりゅうパワー",
-                "_en": "Gekiryu power",
-                "_fr": "Pouvoir Gekiryu"
-            },
-            "explication": {
-                "_jp": "【ようりょくアップ】 とりつかれた妖怪は集中力がじょうしょうし ようりょくがアップする。",
-                "_en": "[Improve your health] A possessed monster's concentration and health will increase.",
-                "_fr": "[Santé accrue] La concentration et la santé d'un monstre possédé augmenteront."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "各地を旅して剣の腕を きたえるカッパ。 水でできた自慢の刃で どんなものでも スパスパと切り裂いてしまう。",
-            "_en": "A kappa who travels all over the place and improves his sword skills. It can cut through anything with its proud blade made of water.",
-            "_fr": "Un kappa qui voyage partout pour améliorer ses compétences à l'épée. Il peut tout couper grâce à sa fière lame faite d'eau."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Évolution"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {},
+  "soul_effects": {
+    "yw2": "Réduit beaucoup les dégâts d’attaques d'eau subis.",
+    "yw Blasters 1": "Réduit les dégâts de l'eau.",
+    "yw3": "Récupère des PV quand il flâne."
+  },
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Gourde sans fond"
+      },
+      {
+        "taux": "?%",
+        "objet": "Concombre"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Gourde sans fond"
+      },
+      {
+        "taux": "?%",
+        "objet": "Concombre"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Gourde sans fond"
+      },
+      {
+        "taux": "?%",
+        "objet": "Maki concombre"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Intrusion",
+    "description": "Inflige toujours des dégâts élémentaires."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/appak.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/appak.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/appak.wav",
+  "oldID": "107",
+  "medallium_ids": {
+    "yw1": "097",
+    "yw2": "140",
+    "yw3": "241"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "176",
+    "yw Blasters 2": "246",
+    "yw Wibble Wobble": "4040",
+    "yw World": "0778",
+    "yw Ukiukipedia": "yw1-032"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Penetrate Fill 'Er Up yw2 FS",
+  "skill_effect": "Torrent Power",
+  "disliked_food": "Hamburgers",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "368",
+        "STR": "176",
+        "SPR": "179",
+        "DEF": "119",
+        "SPD": "162"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "368",
+        "STR": "176",
+        "SPR": "179",
+        "DEF": "119",
+        "SPD": "162"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "199-348",
+        "STR": "59",
+        "SPR": "244",
+        "DEF": "126",
+        "SPD": "179"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "199-348"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "199-348"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "199-348"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "たびガッパ",
+      "Tabigappa"
+    ],
+    "Spanish": [
+      "Kappadachín"
+    ],
+    "French": [
+      "Appak"
+    ],
+    "Italian": [
+      "Movikappa"
+    ],
+    "German": [
+      "Nomakappa"
+    ],
+    "Korean": [
+      "방랑거북",
+      "Bangnanggeobuk"
+    ],
+    "Russian": [
+      "Мечекаппа",
+      "Mechekappa"
+    ],
+    "Arabic": [
+      "جوال",
+      "Jawwāl"
+    ],
+    "Chinese (Mandarin)": [
+      "旅行河童",
+      "Lǚxíng"
+    ],
+    "Portuguese (Brazilian)": [
+      "Kappagume"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "たびガッパ"
+    ],
+    "Spanish": [
+      "Kappadachín"
+    ],
+    "French": [
+      "Appak"
+    ],
+    "Italian": [
+      "Movikappa"
+    ],
+    "German": [
+      "Nomakappa"
+    ],
+    "Korean": [
+      "방랑거북"
+    ],
+    "Russian": [
+      "Мечекаппа"
+    ],
+    "Arabic": [
+      "جوال"
+    ],
+    "Chinese (Mandarin)": [
+      "旅行河童"
+    ],
+    "Portuguese (Brazilian)": [
+      "Kappagume"
+    ]
+  },
+  "description_en": "Appak can cut just about anything with his water sword. He wanders the world in order to heighten his skills.",
+  "nom_en": "Topanyan",
+  "rang_yww": "A",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "Sushis",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
+    "_fr": "(Rôle d'attaque) Reisei, cible de Zunou, (Attaque contre les alliés) Coopératif, de type Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 54,
+    "str": 7,
+    "spr": 35,
+    "def": 15,
+    "spd": 25
+  },
+  "stats_max_yww": {
+    "hp": 374,
+    "str": 54,
+    "spr": 239,
+    "def": 121,
+    "spd": 174
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "つばめがえし",
+        "_en": "Swallow replacement",
+        "_fr": "Remplacement de l'hirondelle"
+      },
+      "explication": {
+        "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+        "_en": "[Power: 25×2/Blow] Attack twice",
+        "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "大滝の術",
+        "_en": "Otaki no Jutsu",
+        "_fr": "Otaki no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 水属性】 強力な水の妖術を使う。",
+        "_en": "[Power: 70 / Water attribute] Uses powerful water magic.",
+        "_fr": "[Puissance : 70 / Attribut Eau] Utilise une puissante magie de l'eau."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "げきりゅう一閃",
+        "_en": "Gekiryu Ichisen",
+        "_fr": "Gekiryu Ichisen"
+      },
+      "pouvoir": "200",
+      "explication": {
+        "_jp": "水筒ブレードに全妖気を注入し斬りつける。",
+        "_en": "Injects all your energy into the canteen blade and slashes.",
+        "_fr": "Injecte toute votre énergie dans la lame de la cantine et tranche."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "げきりゅうパワー",
+        "_en": "Gekiryu power",
+        "_fr": "Pouvoir Gekiryu"
+      },
+      "explication": {
+        "_jp": "【ようりょくアップ】 とりつかれた妖怪は集中力がじょうしょうし ようりょくがアップする。",
+        "_en": "[Improve your health] A possessed monster's concentration and health will increase.",
+        "_fr": "[Santé accrue] La concentration et la santé d'un monstre possédé augmenteront."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "各地を旅して剣の腕を きたえるカッパ。 水でできた自慢の刃で どんなものでも スパスパと切り裂いてしまう。",
+      "_en": "A kappa who travels all over the place and improves his sword skills. It can cut through anything with its proud blade made of water.",
+      "_fr": "Un kappa qui voyage partout pour améliorer ses compétences à l'épée. Il peut tout couper grâce à sa fière lame faite d'eau."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "107",
+  "Name_yww": "たびガッパ",
+  "description_jp_yww": "各地を旅して剣の腕を きたえるカッパ。 水でできた自慢の刃で どんなものでも スパスパと切り裂いてしまう。",
+  "BingoMessage_jp_yww": "おお！　きみが出してくれたのか！ 主と認めよう！　これからよろしく頼む！",
+  "MonsterId_yww": "y158000",
+  "Height_yww": 8.0,
+  "CommondId_yww": "sp_158000",
+  "MinHp_yww": 54,
+  "MaxHp_yww": 374,
+  "MinAttack_yww": 7,
+  "MaxAttack_yww": 54,
+  "MinMagic_yww": 35,
+  "MaxMagic_yww": 239,
+  "MinDefense_yww": 15,
+  "MaxDefense_yww": 121,
+  "MinSpeed_yww": 25,
+  "MaxSpeed_yww": 174,
+  "AttackId_yww": 44,
+  "MagicId_yww": 6,
+  "HauntId_yww": 158000,
+  "SpSkillId_yww": 158000,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 8,
+  "DislikeFoodKind_yww": 6,
+  "ActionType_yww": 9,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y153800.png",
+  "SpriteImage_yww": "img_y153800.png",
+  "Audio_yww": "sp_y153800.wav",
+  "Description_yww": "Un kappa qui parcourt le pays pour affiner son art du combat à l'épée. Grâce à sa lame dont il est si fier, faite d'eau, il tranche tout d'un coup sec.",
+  "BingoMessage_fr_yww": "Oh ! C'est toi qui m'as fait sortir de là ? Je te reconnais comme mon maître ! Je compte sur toi à partir de maintenant !"
 }

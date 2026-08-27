@@ -1,520 +1,551 @@
 {
-    "ID": "253",
-    "Nom": "Brumella",
-    "Tribue": "Mystérieu",
-    "Rang": "A",
-    "PV": "291",
-    "Force": "41",
-    "Esprit": "193",
-    "Défense": "127",
-    "Vitesse": "228",
-    "Description": "Sa nature vaporeuse lui permet de prendre n'importe quelle forme, mais celle-ci est sa préférée.",
-    "nourriture": "Douceurs",
-    "élément": "Vent",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Brumella vient de brume (fine pellicule de brouillard)",
-    "origine": "Comme c'est un Yo-kai classique, ce Yo-kai est tiré du folklore japonais: c'est un déviant du YôkaiEn'enra.",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/brumella.png",
-    "numero": "062",
-    "nourriture_favorite": "Sucrerie",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Brume magique",
-            "effet": "Aide la jauge d'âme des Yo-kai voisins à se remplir."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Volée",
-            "effet": "20x2 | 44x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Ouragan",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tornadine",
-            "effet": "Déclenche une forte rafale, ce qui froisse les vêtements de l'ennemi. 220 | 220"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Brumisation",
-            "effet": "Une fumée encercle le Yo-kai. Son ESP. augmente énormément."
-        }
+  "ID": "253",
+  "Nom": "Brumella",
+  "Tribue": "Mystérieu",
+  "Rang": "A",
+  "PV": "291",
+  "Force": "41",
+  "Esprit": "193",
+  "Défense": "127",
+  "Vitesse": "228",
+  "Description": "Sa nature vaporeuse lui permet de prendre n'importe quelle forme, mais celle-ci est sa préférée.",
+  "nourriture": "Douceurs",
+  "élément": "Vent",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Brumella vient de brume (fine pellicule de brouillard)",
+  "origine": "Comme c'est un Yo-kai classique, ce Yo-kai est tiré du folklore japonais: c'est un déviant du YôkaiEn'enra.",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/brumella.png",
+  "numero": "062",
+  "nourriture_favorite": "Sucrerie",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Brume magique",
+      "effet": "Aide la jauge d'âme des Yo-kai voisins à se remplir."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Volée",
+      "effet": "20x2 | 44x2"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Ouragan",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tornadine",
+      "effet": "Déclenche une forte rafale, ce qui froisse les vêtements de l'ennemi. 220 | 220"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Brumisation",
+      "effet": "Une fumée encercle le Yo-kai. Son ESP. augmente énormément."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Que c'est bon !",
+    "Mange de la nourriture insipide": "Mouaf...",
+    "Mange de la mauvaise nourriture": "Sors d'ici !",
+    "A la flemme": "Puis-je m'arrêter ?",
+    "Est échangé": "L'ambiance dans cette ville est superbe ! Hi hi !",
+    "Devient ton ami": "Ouah, tu ne rigoles pas, dis donc... Ça te dirait qu'on devienne amis ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "yw2",
+      "de": "Brumette",
+      "vers": "Brumella",
+      "critere": "Niveau 27"
+    },
+    {
+      "type": "Évolution",
+      "contexte": "yw3",
+      "de": "Brumette",
+      "vers": "Brumella",
+      "critere": "Niveau 47"
+    },
+    {
+      "type": "Évolution",
+      "contexte": "yw Wibble Wobble",
+      "de": "Brumette",
+      "vers": "Brumella",
+      "critere": "Niveau 38"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "えんらえんら",
+  "nom_anglais": "Smogmella",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Kiyono Yasuno",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Brumella peut être obtenue en faisantévoluerBrumette.",
+      "Elle peut également être obtenue auBingo-kaidu passé avec unePièce jaune."
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Que c'est bon !",
-        "Mange de la nourriture insipide": "Mouaf...",
-        "Mange de la mauvaise nourriture": "Sors d'ici !",
-        "A la flemme": "Puis-je m'arrêter ?",
-        "Est échangé": "L'ambiance dans cette ville est superbe ! Hi hi !",
-        "Devient ton ami": "Ouah, tu ne rigoles pas, dis donc... Ça te dirait qu'on devienne amis ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "yw2",
-            "de": "Brumette",
-            "vers": "Brumella",
-            "critere": "Niveau 27"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "yw3",
-            "de": "Brumette",
-            "vers": "Brumella",
-            "critere": "Niveau 47"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "yw Wibble Wobble",
-            "de": "Brumette",
-            "vers": "Brumella",
-            "critere": "Niveau 38"
-        }
+    "yw Blasters 1": [
+      "Brumella peut être obtenue en faisant évoluer Brumette."
     ],
-    "image_locale": "",
-    "nom_original": "えんらえんら",
-    "nom_anglais": "Smogmella",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Kiyono Yasuno",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Brumella peut être obtenue en faisantévoluerBrumette.",
-            "Elle peut également être obtenue auBingo-kaidu passé avec unePièce jaune."
-        ],
-        "yw Blasters 1": [
-            "Brumella peut être obtenue en faisant évoluer Brumette."
-        ],
-        "yw3": [
-            "Brumella peut être obtenue en faisant évoluer Brumette.",
-            "Elle peut également être obtenue au Bingo-kai avec unePièce légendaire."
-        ]
-    },
-    "rarite": "Classic icon",
-    "tribu_yw4": "Brumella",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Volée",
-                "puissance": "20×2|44×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Ouragan",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Tornadine",
-                "puissance": "220|220",
-                "description": "Déclenche une forte rafale, ce qui froisse les vêtements de l'ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Brumisation",
-                "puissance": "N/A",
-                "description": "Une fumée encercle le Yo-kai. Son ESP. augmente énormément."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Tourbillon",
-                "puissance": "N/A",
-                "description": "Un tourbillon s'abat sur les ennemis éloignés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Tornade",
-                "puissance": "N/A",
-                "description": "Un sort de vent balaie les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Brume magique",
-                "description": "Aide la jauge d'âme des Yo-kai voisins à se remplir."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Tornadine",
-                "puissance": "50×8",
-                "description": "Une tornade inflige de gros dégâts aux ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Tourbillon",
-                "puissance": "40",
-                "description": "Utilise un sort de vent. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Attaque de repli",
-                "puissance": "70",
-                "description": "Pendant l'attaque, recule et évite les coups ennemis."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Tornade",
-                "puissance": "50",
-                "description": "Un sort de vent puissant. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Brume magique",
-                "description": "Chargement rapide de la jauge d'âme pour les alliés."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Volée",
-                "puissance": "25×2|55×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Ouragan",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Tornadine",
-                "puissance": "175|262",
-                "description": "Une tornade capable de soulever des jupes s'abat sur les ennemis à portée."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Brumisation",
-                "puissance": "N/A",
-                "description": "Une fumée mystérieuse enveloppe le Yo-kai. Son ESP. augmente."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Tornadine",
-                "puissance": "50×8",
-                "description": "Dégâts ++ sur les ennemis fauchés par la tornade."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Tornade",
-                "puissance": "50",
-                "description": "Technique de vent++. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive des attaques par des déplacements rapides."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Brume magique",
-                "description": "Remplit lentement la jauge d'âme des Yo-kai reliés."
-            }
-        ]
-    },
-    "soul_effects": {
-        "yw2": "Redonne de l’âme aux alliés voisins.",
-        "yw Blasters 1": "Chargement de la jauge d’âme un peu plus rapide.",
-        "yw3": "↑ peu à peu sa jauge d’âme et celle des Yo-kai reliés."
-    },
-    "drops": {},
-    "special_talent": {
-        "nom": "Brume magique",
-        "description": "Aide la jauge d'âme des Yo-kai voisins à se remplir."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/brumella.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/brumella.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/brumella.wav",
-    "oldID": "255",
-    "medallium_ids": {
-        "yw2": "062",
-        "yw3": "101",
-        "yw4": "84 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "072",
-        "yw Blasters 2": "102",
-        "yw Wibble Wobble": "2027",
-        "yw World": "0202",
-        "yw Ukiukipedia": "yw7-009"
-    },
-    "battle_type": "Classic",
-    "skill_name": "Magic Mist",
-    "skill_effect": "Amazing Haze",
-    "disliked_food": "Rice Balls",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "301",
-                "STR": "112",
-                "SPR": "194",
-                "DEF": "136",
-                "SPD": "207"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "348",
-                "STR": "94",
-                "SPR": "180",
-                "DEF": "132",
-                "SPD": "233"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "409",
-                "STR": "143",
-                "SPR": "229",
-                "DEF": "154"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "217-383",
-                "STR": "143",
-                "SPR": "229",
-                "DEF": "154"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "217-383"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "217-383"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "えんらえんら",
-            "Enraenra"
-        ],
-        "Spanish": [
-            "Nébula"
-        ],
-        "French": [
-            "Brumella"
-        ],
-        "Italian": [
-            "Vapornella"
-        ],
-        "German": [
-            "Miasmia"
-        ],
-        "Korean": [
-            "연귀",
-            "Yeongwi"
-        ],
-        "Russian": [
-            "Дымушка",
-            "Dymushka"
-        ],
-        "Arabic": [
-            "دخناء",
-            "Dakhnā'"
-        ],
-        "Portuguese (Brazilian)": [
-            "Vaporosa"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "えんらえんら"
-        ],
-        "Spanish": [
-            "Nébula"
-        ],
-        "French": [
-            "Brumella"
-        ],
-        "Italian": [
-            "Vapornella"
-        ],
-        "German": [
-            "Miasmia"
-        ],
-        "Korean": [
-            "연귀"
-        ],
-        "Russian": [
-            "Дымушка"
-        ],
-        "Arabic": [
-            "دخناء"
-        ],
-        "Portuguese (Brazilian)": [
-            "Vaporosa"
-        ]
-    },
-    "description_en": "Her vaporous nature means she can take on any form she chooses, but this shape is by far her current favorite.",
-    "nom_en": "Mimikin",
-    "rang_yww": "A",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "bonbons",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zuno, (Attaque sur les alliés) Coopératif, type Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {
-        "hp": 40,
-        "str": 4,
-        "spr": 30,
-        "def": 16,
-        "spd": 36
-    },
-    "stats_max_yww": {
-        "hp": 291,
-        "str": 41,
-        "spr": 193,
-        "def": 127,
-        "spd": 228
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はりたおす",
-                "_en": "Haritaosu",
-                "_fr": "Haritaosu"
-            },
-            "explication": {
-                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 25×2/Blow] Attack twice",
-                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "嵐の術",
-                "_en": "Arashi no Jutsu",
-                "_fr": "Arashi no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 風属性】 強力な風の妖術を使う。",
-                "_en": "[Power: 70 / Wind attribute] Uses powerful wind magic.",
-                "_fr": "[Puissance : 70 / Attribut Vent] Utilise une puissante magie du vent."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "めくれるトルネード",
-                "_en": "Turning Tornado",
-                "_fr": "Tourner la tornade"
-            },
-            "pouvoir": "175",
-            "explication": {
-                "_jp": "敵全員にダメージを与える",
-                "_en": "Cause damage to all enemies",
-                "_fr": "Infliger des dégâts à tous les ennemis"
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ふしぎなけむり",
-                "_en": "Mysterious smoke",
-                "_fr": "Fumée mystérieuse"
-            },
-            "explication": {
-                "_jp": "【ようりょくアップ】 とりつかれた妖怪はふしぎなけむりに包まれ ようりょくがアップする。",
-                "_en": "[Yoryoku close-up] The possessed monster is enveloped in mysterious smoke, and the picture closes up.",
-                "_fr": "[Gros plan Yoryoku] Le monstre possédé est enveloppé d'une fumée mystérieuse et l'image se referme."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "ゆらゆらと形を変えながら 大気中をさまよう 煙の妖怪。 煙なのでどんな姿にもなれるが いちばん評判がよかった 今の姿が お気に入り。",
-            "_en": "A smoke monster that wanders through the atmosphere, changing its shape. Since it's smoke, it can take on any shape it wants, but its current form is the one that received the best reviews.",
-            "_fr": "Un monstre de fumée qui erre dans l'atmosphère en changeant de forme. Puisqu'il s'agit de fumée, il peut prendre n'importe quelle forme, mais sa forme actuelle est celle qui a reçu les meilleures critiques."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Brumella peut être obtenue en faisant évoluer Brumette.",
+      "Elle peut également être obtenue au Bingo-kai avec unePièce légendaire."
     ]
+  },
+  "rarite": "Classic icon",
+  "tribu_yw4": "Brumella",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Volée",
+        "puissance": "20×2|44×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Ouragan",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Tornadine",
+        "puissance": "220|220",
+        "description": "Déclenche une forte rafale, ce qui froisse les vêtements de l'ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Brumisation",
+        "puissance": "N/A",
+        "description": "Une fumée encercle le Yo-kai. Son ESP. augmente énormément."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Tourbillon",
+        "puissance": "N/A",
+        "description": "Un tourbillon s'abat sur les ennemis éloignés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Tornade",
+        "puissance": "N/A",
+        "description": "Un sort de vent balaie les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Brume magique",
+        "description": "Aide la jauge d'âme des Yo-kai voisins à se remplir."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Tornadine",
+        "puissance": "50×8",
+        "description": "Une tornade inflige de gros dégâts aux ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Tourbillon",
+        "puissance": "40",
+        "description": "Utilise un sort de vent. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Attaque de repli",
+        "puissance": "70",
+        "description": "Pendant l'attaque, recule et évite les coups ennemis."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Tornade",
+        "puissance": "50",
+        "description": "Un sort de vent puissant. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Brume magique",
+        "description": "Chargement rapide de la jauge d'âme pour les alliés."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Volée",
+        "puissance": "25×2|55×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Ouragan",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Tornadine",
+        "puissance": "175|262",
+        "description": "Une tornade capable de soulever des jupes s'abat sur les ennemis à portée."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Brumisation",
+        "puissance": "N/A",
+        "description": "Une fumée mystérieuse enveloppe le Yo-kai. Son ESP. augmente."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Tornadine",
+        "puissance": "50×8",
+        "description": "Dégâts ++ sur les ennemis fauchés par la tornade."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Tornade",
+        "puissance": "50",
+        "description": "Technique de vent++. Plus de dégâts si chargée."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive des attaques par des déplacements rapides."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Brume magique",
+        "description": "Remplit lentement la jauge d'âme des Yo-kai reliés."
+      }
+    ]
+  },
+  "soul_effects": {
+    "yw2": "Redonne de l’âme aux alliés voisins.",
+    "yw Blasters 1": "Chargement de la jauge d’âme un peu plus rapide.",
+    "yw3": "↑ peu à peu sa jauge d’âme et celle des Yo-kai reliés."
+  },
+  "drops": {},
+  "special_talent": {
+    "nom": "Brume magique",
+    "description": "Aide la jauge d'âme des Yo-kai voisins à se remplir."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/brumella.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/brumella.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/brumella.wav",
+  "oldID": "255",
+  "medallium_ids": {
+    "yw2": "062",
+    "yw3": "101",
+    "yw4": "84 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "072",
+    "yw Blasters 2": "102",
+    "yw Wibble Wobble": "2027",
+    "yw World": "0202",
+    "yw Ukiukipedia": "yw7-009"
+  },
+  "battle_type": "Classic",
+  "skill_name": "Magic Mist",
+  "skill_effect": "Amazing Haze",
+  "disliked_food": "Rice Balls",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "301",
+        "STR": "112",
+        "SPR": "194",
+        "DEF": "136",
+        "SPD": "207"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "348",
+        "STR": "94",
+        "SPR": "180",
+        "DEF": "132",
+        "SPD": "233"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "409",
+        "STR": "143",
+        "SPR": "229",
+        "DEF": "154"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "217-383",
+        "STR": "143",
+        "SPR": "229",
+        "DEF": "154"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "217-383"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "217-383"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "えんらえんら",
+      "Enraenra"
+    ],
+    "Spanish": [
+      "Nébula"
+    ],
+    "French": [
+      "Brumella"
+    ],
+    "Italian": [
+      "Vapornella"
+    ],
+    "German": [
+      "Miasmia"
+    ],
+    "Korean": [
+      "연귀",
+      "Yeongwi"
+    ],
+    "Russian": [
+      "Дымушка",
+      "Dymushka"
+    ],
+    "Arabic": [
+      "دخناء",
+      "Dakhnā'"
+    ],
+    "Portuguese (Brazilian)": [
+      "Vaporosa"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "えんらえんら"
+    ],
+    "Spanish": [
+      "Nébula"
+    ],
+    "French": [
+      "Brumella"
+    ],
+    "Italian": [
+      "Vapornella"
+    ],
+    "German": [
+      "Miasmia"
+    ],
+    "Korean": [
+      "연귀"
+    ],
+    "Russian": [
+      "Дымушка"
+    ],
+    "Arabic": [
+      "دخناء"
+    ],
+    "Portuguese (Brazilian)": [
+      "Vaporosa"
+    ]
+  },
+  "description_en": "Her vaporous nature means she can take on any form she chooses, but this shape is by far her current favorite.",
+  "nom_en": "Mimikin",
+  "rang_yww": "A",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "bonbons",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zuno, (Attaque sur les alliés) Coopératif, type Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {
+    "hp": 40,
+    "str": 4,
+    "spr": 30,
+    "def": 16,
+    "spd": 36
+  },
+  "stats_max_yww": {
+    "hp": 291,
+    "str": 41,
+    "spr": 193,
+    "def": 127,
+    "spd": 228
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "はりたおす",
+        "_en": "Haritaosu",
+        "_fr": "Haritaosu"
+      },
+      "explication": {
+        "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+        "_en": "[Power: 25×2/Blow] Attack twice",
+        "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "嵐の術",
+        "_en": "Arashi no Jutsu",
+        "_fr": "Arashi no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 風属性】 強力な風の妖術を使う。",
+        "_en": "[Power: 70 / Wind attribute] Uses powerful wind magic.",
+        "_fr": "[Puissance : 70 / Attribut Vent] Utilise une puissante magie du vent."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "めくれるトルネード",
+        "_en": "Turning Tornado",
+        "_fr": "Tourner la tornade"
+      },
+      "pouvoir": "175",
+      "explication": {
+        "_jp": "敵全員にダメージを与える",
+        "_en": "Cause damage to all enemies",
+        "_fr": "Infliger des dégâts à tous les ennemis"
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ふしぎなけむり",
+        "_en": "Mysterious smoke",
+        "_fr": "Fumée mystérieuse"
+      },
+      "explication": {
+        "_jp": "【ようりょくアップ】 とりつかれた妖怪はふしぎなけむりに包まれ ようりょくがアップする。",
+        "_en": "[Yoryoku close-up] The possessed monster is enveloped in mysterious smoke, and the picture closes up.",
+        "_fr": "[Gros plan Yoryoku] Le monstre possédé est enveloppé d'une fumée mystérieuse et l'image se referme."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "ゆらゆらと形を変えながら 大気中をさまよう 煙の妖怪。 煙なのでどんな姿にもなれるが いちばん評判がよかった 今の姿が お気に入り。",
+      "_en": "A smoke monster that wanders through the atmosphere, changing its shape. Since it's smoke, it can take on any shape it wants, but its current form is the one that received the best reviews.",
+      "_fr": "Un monstre de fumée qui erre dans l'atmosphère en changeant de forme. Puisqu'il s'agit de fumée, il peut prendre n'importe quelle forme, mais sa forme actuelle est celle qui a reçu les meilleures critiques."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "255",
+  "Name_yww": "えんらえんら",
+  "description_jp_yww": "ゆらゆらと形を変えながら 大気中をさまよう　煙の妖怪。 煙なのでどんな姿にもなれるが いちばん評判がよかった 今の姿が　お気に入り。",
+  "BingoMessage_jp_yww": "あらぁ　あたしを連れ出してくれるの？ ふふふ…　これからは　おともだちね～",
+  "MonsterId_yww": "y249000",
+  "Height_yww": 13.81,
+  "CommondId_yww": "sp_249000",
+  "MinHp_yww": 40,
+  "MaxHp_yww": 349,
+  "MinAttack_yww": 4,
+  "MaxAttack_yww": 41,
+  "MinMagic_yww": 30,
+  "MaxMagic_yww": 231,
+  "MinDefense_yww": 16,
+  "MaxDefense_yww": 127,
+  "MinSpeed_yww": 36,
+  "MaxSpeed_yww": 228,
+  "AttackId_yww": 11,
+  "MagicId_yww": 18,
+  "HauntId_yww": 249000,
+  "SpSkillId_yww": 249000,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 14,
+  "DislikeFoodKind_yww": 1,
+  "ActionType_yww": 10,
+  "TribeType_yww": 2,
+  "MedallionImage_yww": "y244800.png",
+  "SpriteImage_yww": "img_y244800.png",
+  "Audio_yww": "sp_y244800.wav",
+  "Description_yww": "Un yōkai de fumée qui erre dans l'atmosphère en changeant de forme au gré de ses mouvements. Comme il est fait de fumée, il peut prendre n'importe quelle apparence, mais c'est celle qui lui vaut le plus de succès qu'il préfère.",
+  "BingoMessage_fr_yww": "Tiens, tu m'emmènes faire un tour ? Hihihi… À partir de maintenant, on est amis, hein ?"
 }

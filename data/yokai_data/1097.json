@@ -1,123 +1,45 @@
 {
-    "Nom": "Poppo Jibanyan",
-    "Tribue": "Mignon",
-    "Rang": "S",
-    "nom_original": "バクうらら",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "",
-    "nourriture": "jus",
-    "nourriture_favorite": "jus",
-    "élément": "",
-    "Rôle": "guérisseur",
-    "rang_yww": "C",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "jus",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
-        "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 54,
-        "str": 5,
-        "spr": 23,
-        "def": 12,
-        "spd": 15
-    },
-    "stats_max_yww": {},
-    "moyens_obtention_yww": [
-        {
-            "_jp": "妖怪春祭りでイベントメダルから出現",
-            "_en": "Appears from event medals at Yokai Spring Festival",
-            "_fr": "Apparaît sur les médailles d'événement du Festival du Printemps de Yokai"
-        }
-    ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はたく",
-                "_en": "flutter",
-                "_fr": "battement"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "吸収の術",
-                "_en": "absorption technique",
-                "_fr": "technique d'absorption"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
-                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
-                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ハルノネムリ",
-                "_en": "Harunonemuri",
-                "_fr": "Harunonemuri"
-            },
-            "pouvoir": "–",
-            "explication": {
-                "_jp": "春の陽気で まどろませて 味方全員のHPが だんだん回復する",
-                "_en": "Let the spring weather lull you into a slumber and gradually recover the HP of all allies.",
-                "_fr": "Laissez le temps printanier vous endormir et récupérez progressivement les PV de tous les alliés."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "うららかタイム",
-                "_en": "Uraraka time",
-                "_fr": "Heure à Uraraka"
-            },
-            "explication": {
-                "_jp": "【ちからダウン】 春のうららかな妖気にウトウトして ちからがダウン",
-                "_en": "[Chikara Down] I doze off in the gentle mysteriousness of spring, and my power goes down.",
-                "_fr": "[Chikara Down] Je m'endors dans le doux mystère du printemps et mon pouvoir diminue."
-            }
-        }
-    ],
-    "explication_yww": [],
-    "oldID": "1204",
-    "ID": "1202",
-    "nom_en": "Poppo Jibanyan",
-    "premiere_apparition": "yww",
-    "jeu_present": [
-        "yww"
-    ]
+  "Nom": "ブライダルイザナミ",
+  "nom_original": "ブライダルイザナミ",
+  "Rang": 6,
+  "PV": 423,
+  "Force": 64,
+  "Esprit": 313,
+  "Défense": 140,
+  "Vitesse": 160,
+  "Description": "Izanami a créé sa propre robe de mariée, soignée dans les moindres détails, et la porte à la perfection. Sa silhouette de mariée, d’une beauté divine, rayonne d’une beauté digne d’une déesse.",
+  "nourriture": 3,
+  "nourriture_favorite": 3,
+  "disliked_food": 9,
+  "id_yww": "908",
+  "Name_yww": "ブライダルイザナミ",
+  "description_jp_yww": "細部までこだわった自分専用の ウェディングドレスを産み出し バッチリ着こなしたイザナミ。 その神々しい　花嫁すがたは 女神のような美しさをほこる。",
+  "BingoMessage_jp_yww": "えっと～　ふつつかものですが… …よろしくお願いね！",
+  "MonsterId_yww": "y5002270",
+  "Height_yww": 17.0,
+  "CommondId_yww": "sp_5002270",
+  "MinHp_yww": 55,
+  "MaxHp_yww": 423,
+  "MinAttack_yww": 9,
+  "MaxAttack_yww": 64,
+  "MinMagic_yww": 35,
+  "MaxMagic_yww": 313,
+  "MinDefense_yww": 17,
+  "MaxDefense_yww": 140,
+  "MinSpeed_yww": 19,
+  "MaxSpeed_yww": 160,
+  "AttackId_yww": 11,
+  "MagicId_yww": 15,
+  "HauntId_yww": 5002270,
+  "SpSkillId_yww": 5002270,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 3,
+  "DislikeFoodKind_yww": 9,
+  "ActionType_yww": 10,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y4998070.png",
+  "SpriteImage_yww": "img_y4998070.png",
+  "Audio_yww": "sp_y4998070.wav",
+  "Description_yww": "Izanami a créé sa propre robe de mariée, soignée dans les moindres détails, et la porte à la perfection. Sa silhouette de mariée, d’une beauté divine, rayonne d’une beauté digne d’une déesse.",
+  "BingoMessage_fr_yww": "Euh… Je ne suis pas très douée, mais… … Je compte sur vous !"
 }

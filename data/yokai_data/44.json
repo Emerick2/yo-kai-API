@@ -1,547 +1,578 @@
 {
-    "ID": "44",
-    "Nom": "Toutouïe",
-    "Tribue": "Mystérieu",
-    "Rang": "D",
-    "PV": "226",
-    "Force": "71",
-    "Esprit": "207",
-    "Défense": "108",
-    "Vitesse": "128",
-    "Description": "Quand Toutouïe t'envoûte, tu as envie de tout, vraiment tout lui dire. Aucun secret ne lui échappe.",
-    "nourriture": "Ramen",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "Toutouïe vient de l'expression être tout ouïe",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Toutouïe a le pouvoir de faire dire aux gens tout ce qu'ils pensent.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/toutouie.png",
-    "nom_original": "バクロ婆",
-    "nom_anglais": "Tattletell",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Chie Sato",
-        "francaise": "Nayéli Forest",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Au cours del'histoire",
-            "Coteau fleuri- Terrain vague - poubelles",
-            "Vieux manoir - demeure"
-        ],
-        "yw2": [
-            "Bingo-kai-Pile ou passe"
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Coteau fleuri"
-        ],
-        "yw3": [
-            "Les Hauts de Granval- Sous les voitures"
-        ],
-        "yw4": [
-            "Les Hauts de Granval- Portes Sésames",
-            "Les Hauts de Granval- Failles"
-        ]
-    },
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "yw2",
-            "de": "Toutouïe",
-            "vers": "Babalance",
-            "critere": "Niveau 22"
-        }
+  "ID": "44",
+  "Nom": "Toutouïe",
+  "Tribue": "Mystérieu",
+  "Rang": "D",
+  "PV": "226",
+  "Force": "71",
+  "Esprit": "207",
+  "Défense": "108",
+  "Vitesse": "128",
+  "Description": "Quand Toutouïe t'envoûte, tu as envie de tout, vraiment tout lui dire. Aucun secret ne lui échappe.",
+  "nourriture": "Ramen",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "Toutouïe vient de l'expression être tout ouïe",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Toutouïe a le pouvoir de faire dire aux gens tout ce qu'ils pensent.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/toutouie.png",
+  "nom_original": "バクロ婆",
+  "nom_anglais": "Tattletell",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Chie Sato",
+    "francaise": "Nayéli Forest",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Au cours del'histoire",
+      "Coteau fleuri- Terrain vague - poubelles",
+      "Vieux manoir - demeure"
     ],
-    "rarite": "Commun",
-    "tribu_yw4": "Onnen",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Guérison",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Claque d'amour",
-                "puissance": "60|157",
-                "description": "Gifle l'ennemi... avec amour. Âmultimes adverses annulables."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Révélation",
-                "puissance": "N/A",
-                "description": "La faiblesse d'un ennemi est révélée, ce qui fait baisser sa DÉF."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Redonne des PV au Yo-kai voisin."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Claque d'amour",
-                "puissance": "120|120",
-                "description": "Gifle l'ennemi... avec amour. Peut annuler les Âmultimes ennemies."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Révélation",
-                "puissance": "N/A",
-                "description": "La faiblesse d'un ennemi est révélée, ce qui fait baisser sa DÉF."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Restauration",
-                "puissance": "N/A",
-                "description": "Rend des PV à un Yo-kai. Charge automatiquement."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Redonne peu à peu des PV aux Yo-kai voisins."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Claque d'amour",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "50",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Cercle guérisseur",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Boost de vitesse",
-                "puissance": "___",
-                "description": "Hausse VIT. des alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Les PV des alliés sont restaurés graduellement."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Claque d'amour",
-                "puissance": "67|201",
-                "description": "Gifle l'ennemi... avec amour."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Révélation",
-                "puissance": "N/A",
-                "description": "La faiblesse d'un ennemi est révélée, ce qui fait baisser sa DÉF."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Claque d'amour",
-                "puissance": "400",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque l’ennemi avec une attaque féroce."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. PV rendus + si chargé."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Rend peu à peu des PV à tous les alliés reliés."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Anneau rouillé"
-            },
-            {
-                "taux": "?%",
-                "objet": "Tourmaline"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Bague mimi"
-            },
-            {
-                "taux": "?%",
-                "objet": "Cheesecake"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Billet de loterie"
-            },
-            {
-                "taux": "?%",
-                "objet": "Ramen minute"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Traitement",
-        "description": "Redonne des PV au Yo-kai voisin."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/toutouie.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/toutouie.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/toutouie.wav",
-    "oldID": "44",
-    "medallium_ids": {
-        "yw1": "037",
-        "yw2": "053",
-        "yw3": "092",
-        "yw4": "3 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "063",
-        "yw Blasters 2": "092",
-        "yw Wibble Wobble": "2007",
-        "yw World": "0031",
-        "Y-Gakuen": "077",
-        "yw Ukiukipedia": "yw1-008"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Caring",
-    "skill_effect": "Disclose",
-    "disliked_food": "Bread",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "236",
-                "STR": "84",
-                "SPR": "178",
-                "DEF": "115",
-                "SPD": "145"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "147-260",
-                "STR": "40",
-                "SPR": "44"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "147-260"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "147-260"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "Y School Heroes: Bustlin' School Life": {
-            "stats": {
-                "HP": "147-260"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "147-260"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "バクロ婆",
-            "Bakurobā"
-        ],
-        "Spanish": [
-            "Cotilleja"
-        ],
-        "French": [
-            "Toutouïe"
-        ],
-        "Italian": [
-            "Rivela"
-        ],
-        "German": [
-            "Petzmeralda"
-        ],
-        "Korean": [
-            "나불할멈",
-            "Nabulhalmeom"
-        ],
-        "Russian": [
-            "Разболтаишна",
-            "Razboltaishna"
-        ],
-        "Arabic": [
-            "كركوبة",
-            "Karkūba"
-        ],
-        "Chinese (Cantonese)": [
-            "八卦婆婆",
-            "baat3"
-        ],
-        "Chinese (Mandarin)": [
-            "八卦婆",
-            "Bāguàpó",
-            "真言婆婆",
-            "Zhēnyánpópo"
-        ],
-        "Portuguese (Brazilian)": [
-            "Fofoqueira"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "バクロ婆"
-        ],
-        "Spanish": [
-            "Cotilleja"
-        ],
-        "French": [
-            "Toutouïe"
-        ],
-        "Italian": [
-            "Rivela"
-        ],
-        "German": [
-            "Petzmeralda"
-        ],
-        "Korean": [
-            "나불할멈"
-        ],
-        "Russian": [
-            "Разболтаишна"
-        ],
-        "Arabic": [
-            "كركوبة"
-        ],
-        "Chinese (Cantonese)": [
-            "八卦婆婆"
-        ],
-        "Chinese (Mandarin)": [
-            "八卦婆真言婆婆"
-        ],
-        "Portuguese (Brazilian)": [
-            "Fofoqueira"
-        ]
-    },
-    "description_en": "When Tattletell Inspirits you, you'll feel inspired to TELL, TELL, TELL all of your secrets.",
-    "nom_en": "Casanuva",
-    "rang_yww": "D",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "ramen",
-    "nourriture_favorite": "ramen",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
-        "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "stats_initiale_yww": {
-        "hp": 36,
-        "str": 9,
-        "spr": 28,
-        "def": 11,
-        "spd": 15
-    },
-    "stats_max_yww": {
-        "hp": 226,
-        "str": 71,
-        "spr": 207,
-        "def": 108,
-        "spd": 128
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はたく",
-                "_en": "flutter",
-                "_fr": "battement"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "回復の術",
-                "_en": "art of recovery",
-                "_fr": "l'art de la récupération"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
-            }
-        }
+    "yw2": [
+      "Bingo-kai-Pile ou passe"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "愛のビンタ",
-                "_en": "love slap",
-                "_fr": "claque d'amour"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
+    "yw Blasters 1": [
+      "Patrouille -Coteau fleuri"
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "バクロする",
-                "_en": "make a mistake",
-                "_fr": "se tromper"
-            },
-            "explication": {
-                "_jp": "【まもりダウン】 とりつかれた妖怪は弱点をバクロされ まもりがダウンする。",
-                "_en": "[Mamori Down] The weak point of the possessed monster is revealed and the protection goes down.",
-                "_fr": "[Mamori Down] Le point faible du monstre possédé est révélé et la protection tombe."
-            }
-        }
+    "yw3": [
+      "Les Hauts de Granval- Sous les voitures"
     ],
-    "explication_yww": [
-        {
-            "_jp": "バクロ婆に とりつかれると 話したくないことも なんでもしゃべりたくなる。 秘密ができない 体になってしまうのだ。",
-            "_en": "When you're obsessed with Bakuro-ba, you'll want to talk about everything, even things you don't want to talk about. You end up with a body that can't keep secrets.",
-            "_fr": "Lorsque vous êtes obsédé par Bakuro-ba, vous aurez envie de parler de tout, même de choses dont vous ne voulez pas parler. Vous vous retrouvez avec un corps qui ne peut pas garder de secrets."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw4": [
+      "Les Hauts de Granval- Portes Sésames",
+      "Les Hauts de Granval- Failles"
     ]
+  },
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "yw2",
+      "de": "Toutouïe",
+      "vers": "Babalance",
+      "critere": "Niveau 22"
+    }
+  ],
+  "rarite": "Commun",
+  "tribu_yw4": "Onnen",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Guérison",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Claque d'amour",
+        "puissance": "60|157",
+        "description": "Gifle l'ennemi... avec amour. Âmultimes adverses annulables."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Révélation",
+        "puissance": "N/A",
+        "description": "La faiblesse d'un ennemi est révélée, ce qui fait baisser sa DÉF."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Redonne des PV au Yo-kai voisin."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Claque d'amour",
+        "puissance": "120|120",
+        "description": "Gifle l'ennemi... avec amour. Peut annuler les Âmultimes ennemies."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Révélation",
+        "puissance": "N/A",
+        "description": "La faiblesse d'un ennemi est révélée, ce qui fait baisser sa DÉF."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Restauration",
+        "puissance": "N/A",
+        "description": "Rend des PV à un Yo-kai. Charge automatiquement."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Claque d'amour",
+        "puissance": "400",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Restauration",
+        "puissance": "50",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Cercle guérisseur",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Boost de vitesse",
+        "puissance": "___",
+        "description": "Hausse VIT. des alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Les PV des alliés sont restaurés graduellement."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Claque d'amour",
+        "puissance": "67|201",
+        "description": "Gifle l'ennemi... avec amour."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Révélation",
+        "puissance": "N/A",
+        "description": "La faiblesse d'un ennemi est révélée, ce qui fait baisser sa DÉF."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Claque d'amour",
+        "puissance": "400",
+        "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque l’ennemi avec une attaque féroce."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. PV rendus + si chargé."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Rend peu à peu des PV à tous les alliés reliés."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Anneau rouillé"
+      },
+      {
+        "taux": "?%",
+        "objet": "Tourmaline"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Bague mimi"
+      },
+      {
+        "taux": "?%",
+        "objet": "Cheesecake"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Billet de loterie"
+      },
+      {
+        "taux": "?%",
+        "objet": "Ramen minute"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Traitement",
+    "description": "Redonne des PV au Yo-kai voisin."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/toutouie.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/toutouie.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/toutouie.wav",
+  "oldID": "44",
+  "medallium_ids": {
+    "yw1": "037",
+    "yw2": "053",
+    "yw3": "092",
+    "yw4": "3 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "063",
+    "yw Blasters 2": "092",
+    "yw Wibble Wobble": "2007",
+    "yw World": "0031",
+    "Y-Gakuen": "077",
+    "yw Ukiukipedia": "yw1-008"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Caring",
+  "skill_effect": "Disclose",
+  "disliked_food": "Bread",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "236",
+        "STR": "84",
+        "SPR": "178",
+        "DEF": "115",
+        "SPD": "145"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "147-260",
+        "STR": "40",
+        "SPR": "44"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "147-260"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "147-260"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "Y School Heroes: Bustlin' School Life": {
+      "stats": {
+        "HP": "147-260"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "147-260"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "バクロ婆",
+      "Bakurobā"
+    ],
+    "Spanish": [
+      "Cotilleja"
+    ],
+    "French": [
+      "Toutouïe"
+    ],
+    "Italian": [
+      "Rivela"
+    ],
+    "German": [
+      "Petzmeralda"
+    ],
+    "Korean": [
+      "나불할멈",
+      "Nabulhalmeom"
+    ],
+    "Russian": [
+      "Разболтаишна",
+      "Razboltaishna"
+    ],
+    "Arabic": [
+      "كركوبة",
+      "Karkūba"
+    ],
+    "Chinese (Cantonese)": [
+      "八卦婆婆",
+      "baat3"
+    ],
+    "Chinese (Mandarin)": [
+      "八卦婆",
+      "Bāguàpó",
+      "真言婆婆",
+      "Zhēnyánpópo"
+    ],
+    "Portuguese (Brazilian)": [
+      "Fofoqueira"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "バクロ婆"
+    ],
+    "Spanish": [
+      "Cotilleja"
+    ],
+    "French": [
+      "Toutouïe"
+    ],
+    "Italian": [
+      "Rivela"
+    ],
+    "German": [
+      "Petzmeralda"
+    ],
+    "Korean": [
+      "나불할멈"
+    ],
+    "Russian": [
+      "Разболтаишна"
+    ],
+    "Arabic": [
+      "كركوبة"
+    ],
+    "Chinese (Cantonese)": [
+      "八卦婆婆"
+    ],
+    "Chinese (Mandarin)": [
+      "八卦婆真言婆婆"
+    ],
+    "Portuguese (Brazilian)": [
+      "Fofoqueira"
+    ]
+  },
+  "description_en": "When Tattletell Inspirits you, you'll feel inspired to TELL, TELL, TELL all of your secrets.",
+  "nom_en": "Casanuva",
+  "rang_yww": "D",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "ramen",
+  "nourriture_favorite": "ramen",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
+    "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "avantage_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "stats_initiale_yww": {
+    "hp": 36,
+    "str": 9,
+    "spr": 28,
+    "def": 11,
+    "spd": 15
+  },
+  "stats_max_yww": {
+    "hp": 226,
+    "str": 71,
+    "spr": 207,
+    "def": 108,
+    "spd": 128
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "はたく",
+        "_en": "flutter",
+        "_fr": "battement"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "回復の術",
+        "_en": "art of recovery",
+        "_fr": "l'art de la récupération"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "愛のビンタ",
+        "_en": "love slap",
+        "_fr": "claque d'amour"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "バクロする",
+        "_en": "make a mistake",
+        "_fr": "se tromper"
+      },
+      "explication": {
+        "_jp": "【まもりダウン】 とりつかれた妖怪は弱点をバクロされ まもりがダウンする。",
+        "_en": "[Mamori Down] The weak point of the possessed monster is revealed and the protection goes down.",
+        "_fr": "[Mamori Down] Le point faible du monstre possédé est révélé et la protection tombe."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "バクロ婆に とりつかれると 話したくないことも なんでもしゃべりたくなる。 秘密ができない 体になってしまうのだ。",
+      "_en": "When you're obsessed with Bakuro-ba, you'll want to talk about everything, even things you don't want to talk about. You end up with a body that can't keep secrets.",
+      "_fr": "Lorsque vous êtes obsédé par Bakuro-ba, vous aurez envie de parler de tout, même de choses dont vous ne voulez pas parler. Vous vous retrouvez avec un corps qui ne peut pas garder de secrets."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "44",
+  "Name_yww": "バクロ婆",
+  "description_jp_yww": "バクロ婆に　とりつかれると 話したくないことも なんでもしゃべりたくなる。 秘密ができない 体になってしまうのだ。",
+  "BingoMessage_jp_yww": "ババーン！！ （これから　よろしく頼むよ！）",
+  "MonsterId_yww": "y125000",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_125000",
+  "MinHp_yww": 36,
+  "MaxHp_yww": 226,
+  "MinAttack_yww": 9,
+  "MaxAttack_yww": 71,
+  "MinMagic_yww": 28,
+  "MaxMagic_yww": 207,
+  "MinDefense_yww": 11,
+  "MaxDefense_yww": 108,
+  "MinSpeed_yww": 15,
+  "MaxSpeed_yww": 128,
+  "AttackId_yww": 10,
+  "MagicId_yww": 23,
+  "HauntId_yww": 125000,
+  "SpSkillId_yww": 125000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 7,
+  "DislikeFoodKind_yww": 2,
+  "ActionType_yww": 14,
+  "TribeType_yww": 2,
+  "MedallionImage_yww": "y120800.png",
+  "SpriteImage_yww": "img_y120800.png",
+  "Audio_yww": "sp_y120800.wav",
+  "Description_yww": "Quand on est possédé par la vieille Bacro, on a envie de tout raconter, même ce qu'on ne voudrait pas dire. On ne peut plus garder de secrets, c'est comme si notre corps ne le permettait plus.",
+  "BingoMessage_fr_yww": "Bam !! (Je compte sur toi à partir de maintenant !)"
 }

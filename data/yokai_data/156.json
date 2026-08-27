@@ -1,642 +1,673 @@
 {
-    "ID": "156",
-    "Nom": "Contracto",
-    "Tribue": "Sombre",
-    "Rang": "B",
-    "PV": "424",
-    "Force": "235",
-    "Esprit": "45",
-    "Défense": "156",
-    "Vitesse": "123",
-    "Description": "Un horrible Yo-kai qui donne aux gens de fortes douleurs dans le dos. Plus tu es âgé, plus ça fait mal !",
-    "nourriture": "Bonbons",
-    "élément": "Terre",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/contracto.png",
-    "numero": "140",
-    "nourriture_favorite": "Sucrerie",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Instant critique",
-            "effet": "Puissance des coups critiques élevée."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing puissant",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Météore",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Plein le dos",
-            "effet": "Frappe les hanches d'un ennemi. Peut annuler les Âmultimes. 180 | 180"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Mal de dos",
-            "effet": "Ruine le dos d'un ennemi et l'immobilise complètement."
-        }
+  "ID": "156",
+  "Nom": "Contracto",
+  "Tribue": "Sombre",
+  "Rang": "B",
+  "PV": "424",
+  "Force": "235",
+  "Esprit": "45",
+  "Défense": "156",
+  "Vitesse": "123",
+  "Description": "Un horrible Yo-kai qui donne aux gens de fortes douleurs dans le dos. Plus tu es âgé, plus ça fait mal !",
+  "nourriture": "Bonbons",
+  "élément": "Terre",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/contracto.png",
+  "numero": "140",
+  "nourriture_favorite": "Sucrerie",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Instant critique",
+      "effet": "Puissance des coups critiques élevée."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing puissant",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Météore",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Plein le dos",
+      "effet": "Frappe les hanches d'un ennemi. Peut annuler les Âmultimes. 180 | 180"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Mal de dos",
+      "effet": "Ruine le dos d'un ennemi et l'immobilise complètement."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est à tomber !",
+    "Mange de la nourriture insipide": "C'est pas mal...",
+    "Mange de la mauvaise nourriture": "Ça pue !",
+    "A la flemme": "Je veux dormir !",
+    "Est échangé": "AH ! J'ai mal au dos... Je peux me reposer chez toi ?",
+    "Devient ton ami": "Je me suis presque bloqué le dos ! Du coup on est amis, non ?"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "ぎっくり男",
+  "nom_anglais": "Agon",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Tunnel abandonné"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est à tomber !",
-        "Mange de la nourriture insipide": "C'est pas mal...",
-        "Mange de la mauvaise nourriture": "Ça pue !",
-        "A la flemme": "Je veux dormir !",
-        "Est échangé": "AH ! J'ai mal au dos... Je peux me reposer chez toi ?",
-        "Devient ton ami": "Je me suis presque bloqué le dos ! Du coup on est amis, non ?"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "ぎっくり男",
-    "nom_anglais": "Agon",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Tunnel abandonné"
-        ],
-        "yw2": [
-            "Tunnel abandonné - est"
-        ],
-        "yw3": [
-            "Train"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Poing puissant",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Météore",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Plein le dos",
-                "puissance": "150|225",
-                "description": "Frappe les hanches. Peut annuler les Âmultimes."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Mal de dos",
-                "puissance": "N/A",
-                "description": "Ruine le dos d'un ennemi et l'immobilise complètement."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Instant critique",
-                "description": "Puissance des coups critiques élevés."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Poing puissant",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Météore",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Plein le dos",
-                "puissance": "180|180",
-                "description": "Frappe les hanches d'un ennemi. Peut annuler les Âmultimes."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Mal de dos",
-                "puissance": "N/A",
-                "description": "Ruine le dos d'un ennemi et l'immobilise complètement."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Instant critique",
-                "description": "Puissance des coups critiques élevés."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Plein le dos",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Attaque chargée",
-                "puissance": "80",
-                "description": "Attaque courte portée. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Position offensive",
-                "puissance": "___",
-                "description": "Hausse de l'attaque temporaire."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Galet",
-                "puissance": "40",
-                "description": "Utilise un sort de terre. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Instant critique",
-                "description": "Hausse de puissance des coups critiques."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Poing puissant",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Météore",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Plein le dos",
-                "puissance": "100|200",
-                "description": "Frappe le dos d'un ennemi avec une de ses haltères super lourdes. Ouille !"
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Mal de dos",
-                "puissance": "N/A",
-                "description": "Ruine le dos d'un ennemi pour l'empêcher d'agir."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Instant critique",
-                "description": "Booste les dégâts critiques."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Instant critique",
-        "description": "Puissance des coups critiques élevés."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/contracto.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/contracto.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/contracto.wav",
-    "oldID": "156",
-    "medallium_ids": {
-        "yw1": "140",
-        "yw2": "206",
-        "yw3": "382"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "249",
-        "yw Blasters 2": "389",
-        "yw Wibble Wobble": "6002",
-        "yw World": "0119"
-    },
-    "battle_type": "",
-    "skill_name": "Extreme Critical",
-    "skill_effect": "Back Pain",
-    "disliked_food": "Sushi",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "388",
-                "STR": "202",
-                "SPR": "126",
-                "DEF": "148",
-                "SPD": "105"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "434",
-                "STR": "202",
-                "SPR": "126",
-                "DEF": "148",
-                "SPD": "105"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "171-297",
-                "STR": "240",
-                "SPR": "50",
-                "DEF": "161",
-                "SPD": "128"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "171-297"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "171-297"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "171-297"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ぎっくり男",
-            "Gikkuri-otoko"
-        ],
-        "Spanish": [
-            "Machaka"
-        ],
-        "French": [
-            "Contracto"
-        ],
-        "Italian": [
-            "Agonio"
-        ],
-        "German": [
-            "Agon"
-        ],
-        "Russian": [
-            "Суставолом",
-            "Sustavolom"
-        ],
-        "Arabic": [
-            "ضراب",
-            "Ḍarrāb"
-        ],
-        "Chinese (Mandarin)": [
-            "腰痛男子漢",
-            "Yāotòngnánzǐhàn"
-        ],
-        "Portuguese (Brazilian)": [
-            "Lombardo"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ぎっくり男"
-        ],
-        "Spanish": [
-            "Machaka"
-        ],
-        "French": [
-            "Contracto"
-        ],
-        "Italian": [
-            "Agonio"
-        ],
-        "German": [
-            "Agon"
-        ],
-        "Russian": [
-            "Суставолом"
-        ],
-        "Arabic": [
-            "ضراب"
-        ],
-        "Chinese (Mandarin)": [
-            "腰痛男子漢"
-        ],
-        "Portuguese (Brazilian)": [
-            "Lombardo"
-        ]
-    },
-    "description_en": "A horrible Yo-kai that gives people a slipped disk in their backs! You're more susceptible the older you are.",
-    "nom_en": "Uncle Infinite",
-    "rang_yww": "B",
-    "tribue_yww": "Usurakage",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Dashi",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 48,
-        "str": 35,
-        "spr": 5,
-        "def": 22,
-        "spd": 18
-    },
-    "stats_max_yww": {
-        "hp": 424,
-        "str": 235,
-        "spr": 45,
-        "def": 156,
-        "spd": 123
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "青コイン",
-            "_en": "blue coin",
-            "_fr": "pièce bleue"
-        },
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw2": [
+      "Tunnel abandonné - est"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ぶんなぐる",
-                "_en": "wallop",
-                "_fr": "coup"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
-                "_en": "[Power: 50/Blow] Deal a big blow",
-                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "いん石の術",
-                "_en": "Meteor no jutsu",
-                "_fr": "Météore pas de jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 土属性】 強力な土の妖術を使う。",
-                "_en": "[Power: 70 / Earth attribute] Uses powerful earth magic.",
-                "_fr": "[Puissance : 70 / Attribut Terre] Utilise une puissante magie terrestre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "腰痛バスター",
-                "_en": "back pain buster",
-                "_fr": "anti-mal de dos"
-            },
-            "pouvoir": "100",
-            "explication": {
-                "_jp": "ずしっと思い特注の鉄アレイで敵1匹の腰をぶんなぐる。",
-                "_en": "I quickly hit one enemy around the waist with a custom-made iron array.",
-                "_fr": "J'ai rapidement frappé un ennemi autour de la taille avec un ensemble de fer sur mesure."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ぎっくり腰にする",
-                "_en": "make your back stiff",
-                "_fr": "rendre ton dos raide"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 ぎっくり腰になってなかなか行動しなくなる",
-                "_en": "[Lazy] My back is strained and I find it hard to move.",
-                "_fr": "[Paresseux] Mon dos est tendu et j'ai du mal à bouger."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "人の腰を痛めつけ ぎっくり腰にしてしまう 凶悪な妖怪。 年をとった人ほど とりつかれやすい。",
-            "_en": "A ferocious monster that hurts people's backs and makes them stiff. The older people are, the more easily they become obsessed.",
-            "_fr": "Un monstre féroce qui fait mal au dos et rend les gens raides. Plus les gens sont âgés, plus ils deviennent facilement obsédés."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Train"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Poing puissant",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Météore",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Plein le dos",
+        "puissance": "150|225",
+        "description": "Frappe les hanches. Peut annuler les Âmultimes."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Mal de dos",
+        "puissance": "N/A",
+        "description": "Ruine le dos d'un ennemi et l'immobilise complètement."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Instant critique",
+        "description": "Puissance des coups critiques élevés."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Poing puissant",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Météore",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Plein le dos",
+        "puissance": "180|180",
+        "description": "Frappe les hanches d'un ennemi. Peut annuler les Âmultimes."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Mal de dos",
+        "puissance": "N/A",
+        "description": "Ruine le dos d'un ennemi et l'immobilise complètement."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Instant critique",
+        "description": "Puissance des coups critiques élevés."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Plein le dos",
+        "puissance": "400",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Attaque chargée",
+        "puissance": "80",
+        "description": "Attaque courte portée. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Position offensive",
+        "puissance": "___",
+        "description": "Hausse de l'attaque temporaire."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Galet",
+        "puissance": "40",
+        "description": "Utilise un sort de terre. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Instant critique",
+        "description": "Hausse de puissance des coups critiques."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Poing puissant",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Météore",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Plein le dos",
+        "puissance": "100|200",
+        "description": "Frappe le dos d'un ennemi avec une de ses haltères super lourdes. Ouille !"
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Mal de dos",
+        "puissance": "N/A",
+        "description": "Ruine le dos d'un ennemi pour l'empêcher d'agir."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Instant critique",
+        "description": "Booste les dégâts critiques."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Instant critique",
+    "description": "Puissance des coups critiques élevés."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/contracto.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/contracto.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/contracto.wav",
+  "oldID": "156",
+  "medallium_ids": {
+    "yw1": "140",
+    "yw2": "206",
+    "yw3": "382"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "249",
+    "yw Blasters 2": "389",
+    "yw Wibble Wobble": "6002",
+    "yw World": "0119"
+  },
+  "battle_type": "",
+  "skill_name": "Extreme Critical",
+  "skill_effect": "Back Pain",
+  "disliked_food": "Sushi",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "388",
+        "STR": "202",
+        "SPR": "126",
+        "DEF": "148",
+        "SPD": "105"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "434",
+        "STR": "202",
+        "SPR": "126",
+        "DEF": "148",
+        "SPD": "105"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "171-297",
+        "STR": "240",
+        "SPR": "50",
+        "DEF": "161",
+        "SPD": "128"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "171-297"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "171-297"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "171-297"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ぎっくり男",
+      "Gikkuri-otoko"
+    ],
+    "Spanish": [
+      "Machaka"
+    ],
+    "French": [
+      "Contracto"
+    ],
+    "Italian": [
+      "Agonio"
+    ],
+    "German": [
+      "Agon"
+    ],
+    "Russian": [
+      "Суставолом",
+      "Sustavolom"
+    ],
+    "Arabic": [
+      "ضراب",
+      "Ḍarrāb"
+    ],
+    "Chinese (Mandarin)": [
+      "腰痛男子漢",
+      "Yāotòngnánzǐhàn"
+    ],
+    "Portuguese (Brazilian)": [
+      "Lombardo"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ぎっくり男"
+    ],
+    "Spanish": [
+      "Machaka"
+    ],
+    "French": [
+      "Contracto"
+    ],
+    "Italian": [
+      "Agonio"
+    ],
+    "German": [
+      "Agon"
+    ],
+    "Russian": [
+      "Суставолом"
+    ],
+    "Arabic": [
+      "ضراب"
+    ],
+    "Chinese (Mandarin)": [
+      "腰痛男子漢"
+    ],
+    "Portuguese (Brazilian)": [
+      "Lombardo"
+    ]
+  },
+  "description_en": "A horrible Yo-kai that gives people a slipped disk in their backs! You're more susceptible the older you are.",
+  "nom_en": "Uncle Infinite",
+  "rang_yww": "B",
+  "tribue_yww": "Usurakage",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "Dashi",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 48,
+    "str": 35,
+    "spr": 5,
+    "def": 22,
+    "spd": 18
+  },
+  "stats_max_yww": {
+    "hp": 424,
+    "str": 235,
+    "spr": 45,
+    "def": 156,
+    "spd": 123
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "青コイン",
+      "_en": "blue coin",
+      "_fr": "pièce bleue"
+    },
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "ホワイトデー妖怪ガシャ",
+      "_en": "White Day Yokai Gasha",
+      "_fr": "Jour blanc Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    },
+    {
+      "_jp": "春一番妖怪ガシャ",
+      "_en": "Spring Ichiban Yokai Gasha",
+      "_fr": "Printemps Ichiban Yokai Gasha"
+    },
+    {
+      "_jp": "桜花ランラン妖怪ガシャ",
+      "_en": "Sakura Ranran Yokai Gasha",
+      "_fr": "Sakura Ranran Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "電車でお出かけ妖怪ガシャ",
+      "_en": "Going out by train Yokai Gasha",
+      "_fr": "Sortir en train Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "GW妖怪バトルリーグガシャ",
+      "_en": "GW Yokai Battle League Gasha",
+      "_fr": "GW Yokai Battle League Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ぶんなぐる",
+        "_en": "wallop",
+        "_fr": "coup"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+        "_en": "[Power: 50/Blow] Deal a big blow",
+        "_fr": "[Puissance : 50/Coup] Portez un gros coup"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "いん石の術",
+        "_en": "Meteor no jutsu",
+        "_fr": "Météore pas de jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 土属性】 強力な土の妖術を使う。",
+        "_en": "[Power: 70 / Earth attribute] Uses powerful earth magic.",
+        "_fr": "[Puissance : 70 / Attribut Terre] Utilise une puissante magie terrestre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "腰痛バスター",
+        "_en": "back pain buster",
+        "_fr": "anti-mal de dos"
+      },
+      "pouvoir": "100",
+      "explication": {
+        "_jp": "ずしっと思い特注の鉄アレイで敵1匹の腰をぶんなぐる。",
+        "_en": "I quickly hit one enemy around the waist with a custom-made iron array.",
+        "_fr": "J'ai rapidement frappé un ennemi autour de la taille avec un ensemble de fer sur mesure."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ぎっくり腰にする",
+        "_en": "make your back stiff",
+        "_fr": "rendre ton dos raide"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 ぎっくり腰になってなかなか行動しなくなる",
+        "_en": "[Lazy] My back is strained and I find it hard to move.",
+        "_fr": "[Paresseux] Mon dos est tendu et j'ai du mal à bouger."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "人の腰を痛めつけ ぎっくり腰にしてしまう 凶悪な妖怪。 年をとった人ほど とりつかれやすい。",
+      "_en": "A ferocious monster that hurts people's backs and makes them stiff. The older people are, the more easily they become obsessed.",
+      "_fr": "Un monstre féroce qui fait mal au dos et rend les gens raides. Plus les gens sont âgés, plus ils deviennent facilement obsédés."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "157",
+  "Name_yww": "ぎっくり男",
+  "description_jp_yww": "人の腰を痛めつけ ぎっくり腰にしてしまう 凶悪な妖怪。 年をとった人ほど とりつかれやすい。",
+  "BingoMessage_jp_yww": "じっとしすぎて　腰を痛めるとこだったぜ！ 出してくれてありがとな！",
+  "MonsterId_yww": "y183010",
+  "Height_yww": 8.0,
+  "CommondId_yww": "sp_183010",
+  "MinHp_yww": 48,
+  "MaxHp_yww": 424,
+  "MinAttack_yww": 35,
+  "MaxAttack_yww": 235,
+  "MinMagic_yww": 5,
+  "MaxMagic_yww": 45,
+  "MinDefense_yww": 22,
+  "MaxDefense_yww": 156,
+  "MinSpeed_yww": 18,
+  "MaxSpeed_yww": 123,
+  "AttackId_yww": 2,
+  "MagicId_yww": 12,
+  "HauntId_yww": 183010,
+  "SpSkillId_yww": 183010,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 3,
+  "DislikeFoodKind_yww": 8,
+  "ActionType_yww": 4,
+  "TribeType_yww": 6,
+  "MedallionImage_yww": "y178810.png",
+  "SpriteImage_yww": "img_y178810.png",
+  "Audio_yww": "sp_y178810.wav",
+  "Description_yww": "Un yōkai malfaisant qui inflige des douleurs au bas du dos et provoque des lumbagos. Plus on vieillit, plus on est susceptible d'être possédé par lui.",
+  "BingoMessage_fr_yww": "J'ai failli me faire mal au dos à force de rester immobile ! Merci de m'avoir fait sortir de là !"
 }

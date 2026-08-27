@@ -1,454 +1,485 @@
 {
-    "ID": "347",
-    "Nom": "Cyrustre",
-    "Tribue": "Perfide",
-    "Rang": "S",
-    "PV": "635",
-    "Force": "306",
-    "Esprit": "82",
-    "Défense": "206",
-    "Vitesse": "122",
-    "Description": "Ce boss Perfide se donne toujours à fond. Aucun Yo-kai ne lui arrive à la cheville.",
-    "nourriture": "Viande",
-    "élément": "Terre",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Cyrustre vient de Si et de Rustre (indivindu brutal et grossier)",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Il est très puissant et a beaucoup de muscles. Il peut soulever et pousser d'énormes objets.",
-    "personnalité": "Il est bête et suit à la lettre les ordres qu'on lui donne sans même réfléchir.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/cyrustre.png",
-    "numero": "357",
-    "nourriture_favorite": "Viande",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Instant critique",
-            "effet": "Puissance des coups critiques élevée."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Broie-os",
-            "effet": "100 | 150"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Météore",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Cœur de cible",
-            "effet": "Augmente la DÉF. et attire toutes les attaques."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Arythmie",
-            "effet": "Le Yo-kai est pétrifié par une force terrible, ce qui baisse sa VIT."
-        }
+  "ID": "347",
+  "Nom": "Cyrustre",
+  "Tribue": "Perfide",
+  "Rang": "S",
+  "PV": "635",
+  "Force": "306",
+  "Esprit": "82",
+  "Défense": "206",
+  "Vitesse": "122",
+  "Description": "Ce boss Perfide se donne toujours à fond. Aucun Yo-kai ne lui arrive à la cheville.",
+  "nourriture": "Viande",
+  "élément": "Terre",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Cyrustre vient de Si et de Rustre (indivindu brutal et grossier)",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Il est très puissant et a beaucoup de muscles. Il peut soulever et pousser d'énormes objets.",
+  "personnalité": "Il est bête et suit à la lettre les ordres qu'on lui donne sans même réfléchir.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/cyrustre.png",
+  "numero": "357",
+  "nourriture_favorite": "Viande",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Instant critique",
+      "effet": "Puissance des coups critiques élevée."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Broie-os",
+      "effet": "100 | 150"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Météore",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Cœur de cible",
+      "effet": "Augmente la DÉF. et attire toutes les attaques."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Arythmie",
+      "effet": "Le Yo-kai est pétrifié par une force terrible, ce qui baisse sa VIT."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Mmh, généreux.",
+    "Mange de la nourriture insipide": "Bon, ça se mange.",
+    "Mange de la mauvaise nourriture": "Ennuyeux...",
+    "A la flemme": "Oh, du repos...",
+    "Est échangé": "Selon ..., tu aimes bien le désordre. Moi aussi !",
+    "Devient ton ami": "Tu ne manques pas de panache ! Soyons amis !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "豪怪",
+  "nom_anglais": "Untidy",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Exclusif à Spectres Psychiques",
+      "Quête - Cyrustre : les origines-Musée lac des Coloquintes - 1er(nuit)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Mmh, généreux.",
-        "Mange de la nourriture insipide": "Bon, ça se mange.",
-        "Mange de la mauvaise nourriture": "Ennuyeux...",
-        "A la flemme": "Oh, du repos...",
-        "Est échangé": "Selon ..., tu aimes bien le désordre. Moi aussi !",
-        "Devient ton ami": "Tu ne manques pas de panache ! Soyons amis !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "豪怪",
-    "nom_anglais": "Untidy",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Exclusif à Spectres Psychiques",
-            "Quête - Cyrustre : les origines-Musée lac des Coloquintes - 1er(nuit)"
-        ],
-        "yw Blasters 1": [
-            "Histoire - Cinq Yo-kai Perfides effrayants !"
-        ],
-        "yw3": [
-            "Quête - La dame au sukiyaki",
-            "Portail mystère- Salle des maîtres"
-        ],
-        "yw Wibble Wobble": [
-            "Paradis Divin - 2ème Etage - Niveau 19-19"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Broie-os",
-                "puissance": "100|150",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Météore",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Cœur de cible",
-                "puissance": "___",
-                "description": "Augmente la DÉF. et attire toutes les attaques."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Arythmie",
-                "puissance": "N/A",
-                "description": "Le Yo-kai est pétrifié par une force terrible, ce qui baisse sa VIT."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Instant critique",
-                "description": "Puissance des coups critiques élevée."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Cœur de cible",
-                "puissance": "___",
-                "description": "Forte augm. vitesse, attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Déblindage +",
-                "puissance": "80",
-                "description": "Baisse temporaire DÉF. des ennemis touchés."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Armure de fer",
-                "puissance": "___",
-                "description": "Forte réduction des dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Instant critique",
-                "description": "Hausse de puissance des coups critiques."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Broie-os",
-                "puissance": "50|80",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Météore",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Cœur de cible",
-                "puissance": "___",
-                "description": "Prend une pose audacieuse qui fait augmenter la DÉF."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Arythmie",
-                "puissance": "N/A",
-                "description": "Le Yo-kai est pétrifié par une force terrible, ce qui baisse sa VIT."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Instant critique",
-                "description": "Booste les dégâts critiques."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Instant critique",
-        "description": "Puissance des coups critiques élevée."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/cyrustre.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/cyrustre.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/cyrustre.wav",
-    "oldID": "363",
-    "medallium_ids": {
-        "yw2": "357",
-        "yw3": "577"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "403",
-        "yw Blasters 2": "596",
-        "yw Wibble Wobble": "9003",
-        "yw World": "0445",
-        "yw Ukiukipedia": "yw9-028/YD7-052"
-    },
-    "battle_type": "Rare",
-    "skill_name": "Extreme Critical",
-    "skill_effect": "Untidy Power",
-    "disliked_food": "Vegetables",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "645",
-                "STR": "154",
-                "SPR": "86",
-                "DEF": "218",
-                "SPD": "150"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "449-801",
-                "STR": "311",
-                "SPR": "87",
-                "DEF": "211",
-                "SPD": "127"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "449-801"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "449-801"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "449-801"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "豪怪",
-            "Gōkai"
-        ],
-        "Spanish": [
-            "Implacablio"
-        ],
-        "French": [
-            "Cyrustre"
-        ],
-        "Italian": [
-            "Kattivik"
-        ],
-        "German": [
-            "Ganzo"
-        ],
-        "Korean": [
-            "호쾌하괴"
-        ],
-        "Russian": [
-            "Бардакхан",
-            "Bardakkhan"
-        ],
-        "Chinese (Mandarin)": [
-            "豪怪"
-        ],
-        "Portuguese (Brazilian)": [
-            "Malfazejo"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "豪怪"
-        ],
-        "Spanish": [
-            "Implacablio"
-        ],
-        "French": [
-            "Cyrustre"
-        ],
-        "Italian": [
-            "Kattivik"
-        ],
-        "German": [
-            "Ganzo"
-        ],
-        "Korean": [
-            "호쾌하괴 Hokwaehagoe"
-        ],
-        "Russian": [
-            "Бардакхан"
-        ],
-        "Chinese (Mandarin)": [
-            "豪怪"
-        ],
-        "Portuguese (Brazilian)": [
-            "Malfazejo"
-        ]
-    },
-    "description_en": "A Wicked boss who is always all in. No Yo-kai can match Untidy for pure power.",
-    "nom_en": "Schemer",
-    "rang_yww": "S",
-    "tribue_yww": "Kaima",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "viande",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
-        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 92,
-        "str": 48,
-        "spr": 7,
-        "def": 29,
-        "spd": 10
-    },
-    "stats_max_yww": {
-        "hp": 635,
-        "str": 306,
-        "spr": 82,
-        "def": 206,
-        "spd": 122
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "期間限定出現",
-            "_en": "Limited time appearance",
-            "_fr": "Apparition à durée limitée"
-        }
+    "yw Blasters 1": [
+      "Histoire - Cinq Yo-kai Perfides effrayants !"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "骨くだき",
-                "_en": "broken bones",
-                "_fr": "os cassés"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 50/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 50/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "いん石の術",
-                "_en": "Meteor no jutsu",
-                "_fr": "Météore pas de jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 土属性】 強力な土の妖術を使う。",
-                "_en": "[Power: 70 / Earth attribute] Uses powerful earth magic.",
-                "_fr": "[Puissance : 70 / Attribut Terre] Utilise une puissante magie terrestre."
-            }
-        }
+    "yw3": [
+      "Quête - La dame au sukiyaki",
+      "Portail mystère- Salle des maîtres"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "豪快な守り",
-                "_en": "A mighty defense",
-                "_fr": "Une puissante défense"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "豪快な構えで まもりを超アップしつつ 敵の攻撃を一身に集める",
-                "_en": "With a dynamic stance, you can greatly increase your protection and gather all the enemy's attacks.",
-                "_fr": "Avec une position dynamique, vous pouvez augmenter considérablement votre protection et rassembler toutes les attaques ennemies."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "豪快な力",
-                "_en": "mighty power",
-                "_fr": "puissance puissante"
-            },
-            "explication": {
-                "_jp": "【すばやさダウン】 豪快な呪いで すばやさが大ダウン",
-                "_en": "[Speed ​​reduction] A powerful curse greatly reduces speed.",
-                "_fr": "[Réduction de la vitesse] Une puissante malédiction réduit considérablement la vitesse."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "怪魔の幹部の一人。 なにごとも豪快でなければ 気が済まない妖怪。 単純なパワーは 怪魔ナンバーワン。",
-            "_en": "One of the monster executives. A monster who can't get enough of anything unless it's exciting. Simple power is the number one monster.",
-            "_fr": "L'un des dirigeants monstres. Un monstre qui ne se lasse de rien, sauf si c'est excitant. Le pouvoir simple est le monstre numéro un."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Paradis Divin - 2ème Etage - Niveau 19-19"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Broie-os",
+        "puissance": "100|150",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Météore",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Cœur de cible",
+        "puissance": "___",
+        "description": "Augmente la DÉF. et attire toutes les attaques."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Arythmie",
+        "puissance": "N/A",
+        "description": "Le Yo-kai est pétrifié par une force terrible, ce qui baisse sa VIT."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Instant critique",
+        "description": "Puissance des coups critiques élevée."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Cœur de cible",
+        "puissance": "___",
+        "description": "Forte augm. vitesse, attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Déblindage +",
+        "puissance": "80",
+        "description": "Baisse temporaire DÉF. des ennemis touchés."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Armure de fer",
+        "puissance": "___",
+        "description": "Forte réduction des dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Instant critique",
+        "description": "Hausse de puissance des coups critiques."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Broie-os",
+        "puissance": "50|80",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Météore",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Cœur de cible",
+        "puissance": "___",
+        "description": "Prend une pose audacieuse qui fait augmenter la DÉF."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Arythmie",
+        "puissance": "N/A",
+        "description": "Le Yo-kai est pétrifié par une force terrible, ce qui baisse sa VIT."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Instant critique",
+        "description": "Booste les dégâts critiques."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Instant critique",
+    "description": "Puissance des coups critiques élevée."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/cyrustre.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/cyrustre.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/cyrustre.wav",
+  "oldID": "363",
+  "medallium_ids": {
+    "yw2": "357",
+    "yw3": "577"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "403",
+    "yw Blasters 2": "596",
+    "yw Wibble Wobble": "9003",
+    "yw World": "0445",
+    "yw Ukiukipedia": "yw9-028/YD7-052"
+  },
+  "battle_type": "Rare",
+  "skill_name": "Extreme Critical",
+  "skill_effect": "Untidy Power",
+  "disliked_food": "Vegetables",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "645",
+        "STR": "154",
+        "SPR": "86",
+        "DEF": "218",
+        "SPD": "150"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "449-801",
+        "STR": "311",
+        "SPR": "87",
+        "DEF": "211",
+        "SPD": "127"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "449-801"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "449-801"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "449-801"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "豪怪",
+      "Gōkai"
+    ],
+    "Spanish": [
+      "Implacablio"
+    ],
+    "French": [
+      "Cyrustre"
+    ],
+    "Italian": [
+      "Kattivik"
+    ],
+    "German": [
+      "Ganzo"
+    ],
+    "Korean": [
+      "호쾌하괴"
+    ],
+    "Russian": [
+      "Бардакхан",
+      "Bardakkhan"
+    ],
+    "Chinese (Mandarin)": [
+      "豪怪"
+    ],
+    "Portuguese (Brazilian)": [
+      "Malfazejo"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "豪怪"
+    ],
+    "Spanish": [
+      "Implacablio"
+    ],
+    "French": [
+      "Cyrustre"
+    ],
+    "Italian": [
+      "Kattivik"
+    ],
+    "German": [
+      "Ganzo"
+    ],
+    "Korean": [
+      "호쾌하괴 Hokwaehagoe"
+    ],
+    "Russian": [
+      "Бардакхан"
+    ],
+    "Chinese (Mandarin)": [
+      "豪怪"
+    ],
+    "Portuguese (Brazilian)": [
+      "Malfazejo"
+    ]
+  },
+  "description_en": "A Wicked boss who is always all in. No Yo-kai can match Untidy for pure power.",
+  "nom_en": "Schemer",
+  "rang_yww": "S",
+  "tribue_yww": "Kaima",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "viande",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+    "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 92,
+    "str": 48,
+    "spr": 7,
+    "def": 29,
+    "spd": 10
+  },
+  "stats_max_yww": {
+    "hp": 635,
+    "str": 306,
+    "spr": 82,
+    "def": 206,
+    "spd": 122
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "期間限定出現",
+      "_en": "Limited time appearance",
+      "_fr": "Apparition à durée limitée"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "骨くだき",
+        "_en": "broken bones",
+        "_fr": "os cassés"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 50/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 50/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "いん石の術",
+        "_en": "Meteor no jutsu",
+        "_fr": "Météore pas de jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 土属性】 強力な土の妖術を使う。",
+        "_en": "[Power: 70 / Earth attribute] Uses powerful earth magic.",
+        "_fr": "[Puissance : 70 / Attribut Terre] Utilise une puissante magie terrestre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "豪快な守り",
+        "_en": "A mighty defense",
+        "_fr": "Une puissante défense"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "豪快な構えで まもりを超アップしつつ 敵の攻撃を一身に集める",
+        "_en": "With a dynamic stance, you can greatly increase your protection and gather all the enemy's attacks.",
+        "_fr": "Avec une position dynamique, vous pouvez augmenter considérablement votre protection et rassembler toutes les attaques ennemies."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "豪快な力",
+        "_en": "mighty power",
+        "_fr": "puissance puissante"
+      },
+      "explication": {
+        "_jp": "【すばやさダウン】 豪快な呪いで すばやさが大ダウン",
+        "_en": "[Speed ​​reduction] A powerful curse greatly reduces speed.",
+        "_fr": "[Réduction de la vitesse] Une puissante malédiction réduit considérablement la vitesse."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "怪魔の幹部の一人。 なにごとも豪快でなければ 気が済まない妖怪。 単純なパワーは 怪魔ナンバーワン。",
+      "_en": "One of the monster executives. A monster who can't get enough of anything unless it's exciting. Simple power is the number one monster.",
+      "_fr": "L'un des dirigeants monstres. Un monstre qui ne se lasse de rien, sauf si c'est excitant. Le pouvoir simple est le monstre numéro un."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "353",
+  "Name_yww": "豪怪",
+  "description_jp_yww": "怪魔の幹部の一人。 なにごとも豪快でなければ 気が済まない妖怪。 単純なパワーは 怪魔ナンバーワン。",
+  "BingoMessage_jp_yww": "豪快に登場しただよ！ 豪快に仲間になるだぁー",
+  "MonsterId_yww": "y336000",
+  "Height_yww": 17.0,
+  "CommondId_yww": "sp_336000",
+  "MinHp_yww": 47,
+  "MaxHp_yww": 408,
+  "MinAttack_yww": 7,
+  "MaxAttack_yww": 45,
+  "MinMagic_yww": 36,
+  "MaxMagic_yww": 242,
+  "MinDefense_yww": 11,
+  "MaxDefense_yww": 95,
+  "MinSpeed_yww": 47,
+  "MaxSpeed_yww": 300,
+  "AttackId_yww": 11,
+  "MagicId_yww": 6,
+  "HauntId_yww": 336000,
+  "SpSkillId_yww": 336000,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 12,
+  "DislikeFoodKind_yww": 11,
+  "ActionType_yww": 22,
+  "TribeType_yww": 9,
+  "MedallionImage_yww": "y331800.png",
+  "SpriteImage_yww": "img_y331800.png",
+  "Audio_yww": "sp_y331800.wav",
+  "Description_yww": "L'un des chefs des Kaima. Un yōkai qui ne se satisfait que de ce qui est spectaculaire. En termes de puissance brute, il est le numéro un des Kaima.",
+  "BingoMessage_fr_yww": "Il a fait une entrée fracassante ! Il va rejoindre notre équipe en grande pompe !"
 }

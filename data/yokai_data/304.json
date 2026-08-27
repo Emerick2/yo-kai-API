@@ -1,466 +1,497 @@
 {
-    "ID": "304",
-    "Nom": "Hâtila",
-    "Tribue": "Sombre",
-    "Rang": "C",
-    "PV": "366",
-    "Force": "207",
-    "Esprit": "56",
-    "Défense": "114",
-    "Vitesse": "147",
-    "Description": "Impatient, ce Yo-kai ne peut pas attendre. Il est le premier à faire la queue quand une nouveauté sort.",
-    "nourriture": "Curry",
-    "élément": "Vent",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/hatila.png",
-    "numero": "225",
-    "nourriture_favorite": "Curry",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Moi d'abord",
-            "effet": "Obtient une attaque préventive."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing un-deux",
-            "effet": "15x2 | 33x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tornade",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing final",
-            "effet": "Un ennemi est troublé par une explosion de frustration contenue. 80 | 80"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Impétuosité",
-            "effet": "Le Yo-kai ne veut pas attendre son tour et attaque ses alliés."
-        }
+  "ID": "304",
+  "Nom": "Hâtila",
+  "Tribue": "Sombre",
+  "Rang": "C",
+  "PV": "366",
+  "Force": "207",
+  "Esprit": "56",
+  "Défense": "114",
+  "Vitesse": "147",
+  "Description": "Impatient, ce Yo-kai ne peut pas attendre. Il est le premier à faire la queue quand une nouveauté sort.",
+  "nourriture": "Curry",
+  "élément": "Vent",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/hatila.png",
+  "numero": "225",
+  "nourriture_favorite": "Curry",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Moi d'abord",
+      "effet": "Obtient une attaque préventive."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing un-deux",
+      "effet": "15x2 | 33x2"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tornade",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing final",
+      "effet": "Un ennemi est troublé par une explosion de frustration contenue. 80 | 80"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Impétuosité",
+      "effet": "Le Yo-kai ne veut pas attendre son tour et attaque ses alliés."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est trop parfait !",
+    "Mange de la nourriture insipide": "Que dire...",
+    "Mange de la mauvaise nourriture": "Impardonnable !",
+    "A la flemme": "Je me repose !",
+    "Est échangé": "Hé ! Je te signale que j'ai été ami avec",
+    "Devient ton ami": "Je ne peux plus attendre ! Vite, vite ! Devenons amis !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "yw3",
+      "parent1": "Hâtila",
+      "parent2": "Mauvaise nouvelle",
+      "resultat": "Entout' Hâtila",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "まてんし",
+  "nom_anglais": "K'mon-K'mon",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Kiyono Yasuno",
+    "francaise": "Grégory Laisné",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Coteau fleuri- tombes",
+      "Clinique du Crépuscule",
+      "Tunnel sans fin",
+      "Bingo-kai-Pièce bleue",
+      "Train"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est trop parfait !",
-        "Mange de la nourriture insipide": "Que dire...",
-        "Mange de la mauvaise nourriture": "Impardonnable !",
-        "A la flemme": "Je me repose !",
-        "Est échangé": "Hé ! Je te signale que j'ai été ami avec",
-        "Devient ton ami": "Je ne peux plus attendre ! Vite, vite ! Devenons amis !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "yw3",
-            "parent1": "Hâtila",
-            "parent2": "Mauvaise nouvelle",
-            "resultat": "Entout' Hâtila",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Patrouille -Centre-ville"
     ],
-    "image_locale": "",
-    "nom_original": "まてんし",
-    "nom_anglais": "K'mon-K'mon",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Kiyono Yasuno",
-        "francaise": "Grégory Laisné",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Coteau fleuri- tombes",
-            "Clinique du Crépuscule",
-            "Tunnel sans fin",
-            "Bingo-kai-Pièce bleue",
-            "Train"
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Centre-ville"
-        ],
-        "yw3": [
-            "Tour Excellence- poubelles"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "15×2|33×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tornade",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Poing final",
-                "puissance": "80|80",
-                "description": "Un ennemi est troublé par une explosion de frustration contenue."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Impétuosité",
-                "puissance": "N/A",
-                "description": "Le Yo-kai ne veut pas attendre son tour et attaque ses alliés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Moi d'abord",
-                "description": "Obtient une attaque préventive."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Poing final",
-                "puissance": "250",
-                "description": "Dégâts à courte portée. Baisse temporaire ATT."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Attaque précipitée",
-                "puissance": "80",
-                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Position de rapidité",
-                "puissance": "___",
-                "description": "Hausse de la vitesse temporaire."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Tourbillon",
-                "puissance": "40",
-                "description": "Utilise un sort de vent. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Moi d'abord !",
-                "description": "Stats diminuées 3 minutes après le début de mission."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "25×2|55×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tornade",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Poing final",
-                "puissance": "140|280",
-                "description": "Frappe la colonne devant lui et y sème la confusion."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Impétuosité",
-                "puissance": "N/A",
-                "description": "Le Yo-kai ne veut pas attendre son tour et attaque ses alliés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Moi d'abord",
-                "description": "Obtient une attaque préventive."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Moi d'abord",
-        "description": "Obtient une attaque préventive."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/hatila.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/hatila.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/hatila.wav",
-    "oldID": "315",
-    "medallium_ids": {
-        "yw2": "225",
-        "yw3": "418"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "270",
-        "yw Wibble Wobble": "6016",
-        "yw Ukiukipedia": "yw4-028/YD2-037"
-    },
-    "battle_type": "",
-    "skill_name": "Me First!",
-    "skill_effect": "Hate to Wait",
-    "disliked_food": "Hamburgers",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "376",
-                "STR": "163",
-                "SPR": "156",
-                "DEF": "140",
-                "SPD": "124"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "138-243",
-                "STR": "212",
-                "SPR": "61",
-                "DEF": "119",
-                "SPD": "152"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "138-243"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "138-243"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "138-243"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "まてんし"
-        ],
-        "Spanish": [
-            "Espaoi"
-        ],
-        "French": [
-            "Hâtila"
-        ],
-        "Italian": [
-            "Subitora"
-        ],
-        "German": [
-            "Wirzbald"
-        ],
-        "Korean": [
-            "비키비키"
-        ],
-        "Russian": [
-            "Скоскореев",
-            "Skoskoreev"
-        ],
-        "Arabic": [
-            "لجوج",
-            "Lajūj"
-        ],
-        "Chinese (Cantonese)": [
-            "鄧吾徹"
-        ],
-        "Chinese (Mandarin)": [
-            "等不及"
-        ],
-        "Portuguese (Brazilian)": [
-            "Andalogo"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "まてんし Matenshi"
-        ],
-        "Spanish": [
-            "Espaoi"
-        ],
-        "French": [
-            "Hâtila"
-        ],
-        "Italian": [
-            "Subitora"
-        ],
-        "German": [
-            "Wirzbald"
-        ],
-        "Korean": [
-            "비키비키 Bikibiki"
-        ],
-        "Russian": [
-            "Скоскореев"
-        ],
-        "Arabic": [
-            "لجوج"
-        ],
-        "Chinese (Cantonese)": [
-            "鄧吾徹 “dang6 ng4 cit3”"
-        ],
-        "Chinese (Mandarin)": [
-            "等不及 “děng bù jí”"
-        ],
-        "Portuguese (Brazilian)": [
-            "Andalogo"
-        ]
-    },
-    "description_en": "An impatient Yo-kai who's always antsy. You'll find him first in line whenever anything new is released.",
-    "nom_en": "Wydeawake",
-    "rang_yww": "C",
-    "tribue_yww": "Usurakage",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "curry",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {
-        "hp": 45,
-        "str": 28,
-        "spr": 7,
-        "def": 15,
-        "spd": 22
-    },
-    "stats_max_yww": {
-        "hp": 366,
-        "str": 207,
-        "spr": 56,
-        "def": 114,
-        "spd": 147
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ワンツーパンチ",
-                "_en": "one two punch",
-                "_fr": "un deux coups de poing"
-            },
-            "explication": {
-                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 25×2/Blow] Attack twice",
-                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "竜巻の術",
-                "_en": "Tornado no Jutsu",
-                "_fr": "Tornade sans Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 風属性】 強力な風の妖術を使う。",
-                "_en": "[Power: 50 / Wind attribute] Uses powerful wind magic.",
-                "_fr": "[Puissance : 50 / Attribut vent] Utilise une puissante magie du vent."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "せっかちパンチ",
-                "_en": "Impatient punch",
-                "_fr": "Coup de poing impatient"
-            },
-            "pouvoir": "140",
-            "explication": {
-                "_jp": "敵単体をパンチする。当たった妖怪は味方をすぐにこうげきする。",
-                "_en": "Punch a single enemy. The monster that is hit will immediately destroy its allies.",
-                "_fr": "Frappez un seul ennemi. Le monstre touché détruira immédiatement ses alliés."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "せっかちにする",
-                "_en": "be impatient",
-                "_fr": "être impatient"
-            },
-            "explication": {
-                "_jp": "【混乱】 とりつかれた妖怪は自分の番が待ちきれなくなり味方をすぐにこうげきする。",
-                "_en": "[Confusion] A possessed monster can't wait for its turn and immediately attacks its allies.",
-                "_fr": "[Confusion] Un monstre possédé ne peut pas attendre son tour et attaque immédiatement ses alliés."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "「もう待てんし！」が口ぐせの せっかちな天使妖怪。 それなのに 気になる新製品の発売日には 行列に並びたがる。",
-            "_en": "An impatient angel monster whose habit is \"I can't wait any longer!\" Yet, people still want to wait in line on the release date of a new product they're interested in.",
-            "_fr": "Un monstre ange impatient dont l'habitude est \"Je ne peux plus attendre !\" Pourtant, les gens veulent toujours faire la queue pour la date de sortie d'un nouveau produit qui les intéresse."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Tour Excellence- poubelles"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Poing un-deux",
+        "puissance": "15×2|33×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tornade",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Poing final",
+        "puissance": "80|80",
+        "description": "Un ennemi est troublé par une explosion de frustration contenue."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Impétuosité",
+        "puissance": "N/A",
+        "description": "Le Yo-kai ne veut pas attendre son tour et attaque ses alliés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Moi d'abord",
+        "description": "Obtient une attaque préventive."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Poing final",
+        "puissance": "250",
+        "description": "Dégâts à courte portée. Baisse temporaire ATT."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Attaque précipitée",
+        "puissance": "80",
+        "description": "Attaque en faisant face à l'ennemi et fonce dessus."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Position de rapidité",
+        "puissance": "___",
+        "description": "Hausse de la vitesse temporaire."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Tourbillon",
+        "puissance": "40",
+        "description": "Utilise un sort de vent. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Moi d'abord !",
+        "description": "Stats diminuées 3 minutes après le début de mission."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Poing un-deux",
+        "puissance": "25×2|55×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tornade",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Poing final",
+        "puissance": "140|280",
+        "description": "Frappe la colonne devant lui et y sème la confusion."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Impétuosité",
+        "puissance": "N/A",
+        "description": "Le Yo-kai ne veut pas attendre son tour et attaque ses alliés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Moi d'abord",
+        "description": "Obtient une attaque préventive."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Moi d'abord",
+    "description": "Obtient une attaque préventive."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/hatila.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/hatila.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/hatila.wav",
+  "oldID": "315",
+  "medallium_ids": {
+    "yw2": "225",
+    "yw3": "418"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "270",
+    "yw Wibble Wobble": "6016",
+    "yw Ukiukipedia": "yw4-028/YD2-037"
+  },
+  "battle_type": "",
+  "skill_name": "Me First!",
+  "skill_effect": "Hate to Wait",
+  "disliked_food": "Hamburgers",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "376",
+        "STR": "163",
+        "SPR": "156",
+        "DEF": "140",
+        "SPD": "124"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "138-243",
+        "STR": "212",
+        "SPR": "61",
+        "DEF": "119",
+        "SPD": "152"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "138-243"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "138-243"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "138-243"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "まてんし"
+    ],
+    "Spanish": [
+      "Espaoi"
+    ],
+    "French": [
+      "Hâtila"
+    ],
+    "Italian": [
+      "Subitora"
+    ],
+    "German": [
+      "Wirzbald"
+    ],
+    "Korean": [
+      "비키비키"
+    ],
+    "Russian": [
+      "Скоскореев",
+      "Skoskoreev"
+    ],
+    "Arabic": [
+      "لجوج",
+      "Lajūj"
+    ],
+    "Chinese (Cantonese)": [
+      "鄧吾徹"
+    ],
+    "Chinese (Mandarin)": [
+      "等不及"
+    ],
+    "Portuguese (Brazilian)": [
+      "Andalogo"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "まてんし Matenshi"
+    ],
+    "Spanish": [
+      "Espaoi"
+    ],
+    "French": [
+      "Hâtila"
+    ],
+    "Italian": [
+      "Subitora"
+    ],
+    "German": [
+      "Wirzbald"
+    ],
+    "Korean": [
+      "비키비키 Bikibiki"
+    ],
+    "Russian": [
+      "Скоскореев"
+    ],
+    "Arabic": [
+      "لجوج"
+    ],
+    "Chinese (Cantonese)": [
+      "鄧吾徹 “dang6 ng4 cit3”"
+    ],
+    "Chinese (Mandarin)": [
+      "等不及 “děng bù jí”"
+    ],
+    "Portuguese (Brazilian)": [
+      "Andalogo"
+    ]
+  },
+  "description_en": "An impatient Yo-kai who's always antsy. You'll find him first in line whenever anything new is released.",
+  "nom_en": "Wydeawake",
+  "rang_yww": "C",
+  "tribue_yww": "Usurakage",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "curry",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {
+    "hp": 45,
+    "str": 28,
+    "spr": 7,
+    "def": 15,
+    "spd": 22
+  },
+  "stats_max_yww": {
+    "hp": 366,
+    "str": 207,
+    "spr": 56,
+    "def": 114,
+    "spd": 147
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ワンツーパンチ",
+        "_en": "one two punch",
+        "_fr": "un deux coups de poing"
+      },
+      "explication": {
+        "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+        "_en": "[Power: 25×2/Blow] Attack twice",
+        "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "竜巻の術",
+        "_en": "Tornado no Jutsu",
+        "_fr": "Tornade sans Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 風属性】 強力な風の妖術を使う。",
+        "_en": "[Power: 50 / Wind attribute] Uses powerful wind magic.",
+        "_fr": "[Puissance : 50 / Attribut vent] Utilise une puissante magie du vent."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "せっかちパンチ",
+        "_en": "Impatient punch",
+        "_fr": "Coup de poing impatient"
+      },
+      "pouvoir": "140",
+      "explication": {
+        "_jp": "敵単体をパンチする。当たった妖怪は味方をすぐにこうげきする。",
+        "_en": "Punch a single enemy. The monster that is hit will immediately destroy its allies.",
+        "_fr": "Frappez un seul ennemi. Le monstre touché détruira immédiatement ses alliés."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "せっかちにする",
+        "_en": "be impatient",
+        "_fr": "être impatient"
+      },
+      "explication": {
+        "_jp": "【混乱】 とりつかれた妖怪は自分の番が待ちきれなくなり味方をすぐにこうげきする。",
+        "_en": "[Confusion] A possessed monster can't wait for its turn and immediately attacks its allies.",
+        "_fr": "[Confusion] Un monstre possédé ne peut pas attendre son tour et attaque immédiatement ses alliés."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "「もう待てんし！」が口ぐせの せっかちな天使妖怪。 それなのに 気になる新製品の発売日には 行列に並びたがる。",
+      "_en": "An impatient angel monster whose habit is \"I can't wait any longer!\" Yet, people still want to wait in line on the release date of a new product they're interested in.",
+      "_fr": "Un monstre ange impatient dont l'habitude est \"Je ne peux plus attendre !\" Pourtant, les gens veulent toujours faire la queue pour la date de sortie d'un nouveau produit qui les intéresse."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "310",
+  "Name_yww": "まてんし",
+  "description_jp_yww": "「もう待てんし！」が口ぐせの せっかちな天使妖怪。 それなのに 気になる新製品の発売日には 行列に並びたがる。",
+  "BingoMessage_jp_yww": "ガシャ玉の中でずっと待ってたし！ さすがに　これ以上待てんし！",
+  "MonsterId_yww": "y294000",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_294000",
+  "MinHp_yww": 40,
+  "MaxHp_yww": 335,
+  "MinAttack_yww": 4,
+  "MaxAttack_yww": 42,
+  "MinMagic_yww": 18,
+  "MaxMagic_yww": 159,
+  "MinDefense_yww": 11,
+  "MaxDefense_yww": 106,
+  "MinSpeed_yww": 18,
+  "MaxSpeed_yww": 151,
+  "AttackId_yww": 25,
+  "MagicId_yww": 4,
+  "HauntId_yww": 294000,
+  "SpSkillId_yww": 294000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 10,
+  "DislikeFoodKind_yww": 11,
+  "ActionType_yww": 22,
+  "TribeType_yww": 6,
+  "MedallionImage_yww": "y289800.png",
+  "SpriteImage_yww": "img_y289800.png",
+  "Audio_yww": "sp_y289800.wav",
+  "Description_yww": "Un ange-yōkai impatient dont la phrase fétiche est « J'en peux plus d'attendre ! ». Et pourtant, lorsqu'un nouveau produit qui l'intéresse sort, il n'hésite pas à faire la queue.",
+  "BingoMessage_fr_yww": "J'ai attendu tellement longtemps dans la capsule à surprise ! Franchement, je ne peux plus attendre !"
 }

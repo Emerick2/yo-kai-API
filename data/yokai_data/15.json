@@ -1,593 +1,624 @@
 {
-    "ID": "15",
-    "Nom": "Sabri",
-    "Tribue": "Vaillant",
-    "Rang": "A",
-    "PV": "411",
-    "Force": "243",
-    "Esprit": "54",
-    "Défense": "136",
-    "Vitesse": "153",
-    "Description": "Un Yo-kai qui a repris la voie du sabre quand son esprit a été ravivé par une lame légendaire.",
-    "nourriture": "Fruits de Mer",
-    "élément": "Vent",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Sabri vient de Sabre.",
-    "origine": "Comme l'Épée légendaire, Sabri est inspiré deMasamune, un ancien forgeron de sabres japonais. Selon une histoire populaire, les deux forgerons Masamune et Muramasa (dont est inspiréPadelou) ont testé leurs lames en les plaçant dans un ruisseau. Alors que l'épée de Muramasa coupait tout ce qu'elle touchait – les feuilles, les poissons, et même l'air lui-même – la lame de Masamune ne coupait que les feuilles tout en laissant les poissons nager indemnes. Ce test est souvent cité comme métaphore des philosophies contrastées des deux forgerons : la lame de Muramasa était considérée comme trop tranchante pour son propre bien, tandis que celle de Masamune faisait preuve de discernement et de retenue.",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/sabri.png",
-    "numero": "016",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Célérité",
-            "effet": "Susceptible d'infliger des coups critiques."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Taillade éclair",
-            "effet": "20x3 | 44x3"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tourbillon",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Entaille mythique",
-            "effet": "Coupe un ennemi avec la lame de la justice. Grande chance de coup critique. 155 | 232"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Fine lame",
-            "effet": "L'épée Masamune augmente la FOR. d'un allié."
-        }
+  "ID": "15",
+  "Nom": "Sabri",
+  "Tribue": "Vaillant",
+  "Rang": "A",
+  "PV": "411",
+  "Force": "243",
+  "Esprit": "54",
+  "Défense": "136",
+  "Vitesse": "153",
+  "Description": "Un Yo-kai qui a repris la voie du sabre quand son esprit a été ravivé par une lame légendaire.",
+  "nourriture": "Fruits de Mer",
+  "élément": "Vent",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Sabri vient de Sabre.",
+  "origine": "Comme l'Épée légendaire, Sabri est inspiré deMasamune, un ancien forgeron de sabres japonais. Selon une histoire populaire, les deux forgerons Masamune et Muramasa (dont est inspiréPadelou) ont testé leurs lames en les plaçant dans un ruisseau. Alors que l'épée de Muramasa coupait tout ce qu'elle touchait – les feuilles, les poissons, et même l'air lui-même – la lame de Masamune ne coupait que les feuilles tout en laissant les poissons nager indemnes. Ce test est souvent cité comme métaphore des philosophies contrastées des deux forgerons : la lame de Muramasa était considérée comme trop tranchante pour son propre bien, tandis que celle de Masamune faisait preuve de discernement et de retenue.",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/sabri.png",
+  "numero": "016",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Célérité",
+      "effet": "Susceptible d'infliger des coups critiques."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Taillade éclair",
+      "effet": "20x3 | 44x3"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tourbillon",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Entaille mythique",
+      "effet": "Coupe un ennemi avec la lame de la justice. Grande chance de coup critique. 155 | 232"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Fine lame",
+      "effet": "L'épée Masamune augmente la FOR. d'un allié."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Voilà, c'est ça !",
+    "Mange de la nourriture insipide": "Ça passe.",
+    "Mange de la mauvaise nourriture": "Affreux !",
+    "A la flemme": "Une pause !",
+    "Est échangé": "Je suis sûr que tu surpasseras",
+    "Devient ton ami": "Dis donc, quelle force ! Nous devons devenir alliés !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Bonneto",
+      "parent2": "Épée légendaire",
+      "resultat": "Sabri",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "まさむね",
+  "nom_anglais": "Sheen",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Fusion",
+      "Bingo-kai-Pièce 5 étoiles- 2e prix"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Voilà, c'est ça !",
-        "Mange de la nourriture insipide": "Ça passe.",
-        "Mange de la mauvaise nourriture": "Affreux !",
-        "A la flemme": "Une pause !",
-        "Est échangé": "Je suis sûr que tu surpasseras",
-        "Devient ton ami": "Dis donc, quelle force ! Nous devons devenir alliés !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Bonneto",
-            "parent2": "Épée légendaire",
-            "resultat": "Sabri",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Fusion",
+      "Bingo-kai oni"
     ],
-    "image_locale": "",
-    "nom_original": "まさむね",
-    "nom_anglais": "Sheen",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Fusion",
-            "Bingo-kai-Pièce 5 étoiles- 2e prix"
-        ],
-        "yw2": [
-            "Fusion",
-            "Bingo-kai oni"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Taillade éclair",
-                "puissance": "20×3|44×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Entaille mythique",
-                "puissance": "170|255",
-                "description": "Coupe un ennemi avec la lame de la justice. Grande chance de coup critique."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Fine lame",
-                "puissance": "N/A",
-                "description": "L'épée Masamune augmente la FOR. d'un allié."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Célérité",
-                "description": "Susceptible d'infliger des coups critiques."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Taillade éclair",
-                "puissance": "20×3|44×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Entaille mythique",
-                "puissance": "155|232",
-                "description": "Coupe un ennemi avec la lame de la justice. Grande chance de coup critique."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Fine lame",
-                "puissance": "N/A",
-                "description": "L'épée Masamune augmente la FOR. d'un allié."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque ardente",
-                "puissance": "N/A",
-                "description": "Esquive toutes les attaques physiques."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Célérité",
-                "description": "Susceptible d'infliger des coups critiques."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte ."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Entaille mythique",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Attaque précipitée",
-                "puissance": "80",
-                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Attaque de repli",
-                "puissance": "70",
-                "description": "Pendant l'attaque, recule et évite les coups ennemis."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Contre",
-                "puissance": "___",
-                "description": "Repousse les attaques et contre-attaque."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Célérité",
-                "description": "Plus de chance d'infliger des coups critiques."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Taillade éclair",
-                "puissance": "24×3|38×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Entaille mythique",
-                "puissance": "190|285",
-                "description": "Découpe la colonne en face avec l'épée de la justice."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Fine lame",
-                "puissance": "N/A",
-                "description": "L'épée Masamune augmente la FOR. d'un allié."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Attaque trois fois. Le coup ultime est plus puissant."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Entaille mythique",
-                "puissance": "400",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque précipitée",
-                "puissance": "80",
-                "description": "Fonce sur un ennemi en frappant à la chaîne."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Attaque de repli",
-                "puissance": "70",
-                "description": "Se replie en attaquant pour éviter les coups ennemis."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Célérité",
-                "description": "Susceptible d'infliger des coups critiques."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Tourmaline"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman de force"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Les coups secrets"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman de force"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Les coups secrets"
-            },
-            {
-                "taux": "?%",
-                "objet": "Oursin cru"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Célérité",
-        "description": "Susceptible d'infliger des coups critiques."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/sabri.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/sabri.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/sabri.wav",
-    "medallium_ids": {
-        "yw1": "016",
-        "yw2": "028",
-        "yw3": "044"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "032",
-        "yw Blasters 2": "044",
-        "yw Wibble Wobble": "1042",
-        "yw Ukiukipedia": "yw3-002"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Light Speed",
-    "skill_effect": "Fine Weapon",
-    "disliked_food": "Meat",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "399",
-                "STR": "206",
-                "SPR": "121",
-                "DEF": "138",
-                "SPD": "161"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "421",
-                "STR": "206",
-                "SPR": "121",
-                "DEF": "138",
-                "SPD": "161"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "419",
-                "STR": "231",
-                "SPR": "126",
-                "DEF": "159",
-                "SPD": "158"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "419",
-                "STR": "231",
-                "SPR": "126",
-                "DEF": "159"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "187-338"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "187-338",
-                "STR": "231",
-                "SPR": "126",
-                "DEF": "159"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "187-338"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "まさむね",
-            "Masamune"
-        ],
-        "Spanish": [
-            "Lustre"
-        ],
-        "French": [
-            "Sabri"
-        ],
-        "Italian": [
-            "Lucenio"
-        ],
-        "German": [
-            "Schimma"
-        ],
-        "Dutch": [
-            "Sheen"
-        ],
-        "Korean": [
-            "요괴검사",
-            "Yogoegeomsa"
-        ],
-        "Russian": [
-            "Мерцато",
-            "Mertsato"
-        ],
-        "Arabic": [
-            "نصل",
-            "Naṣl"
-        ],
-        "Chinese (Mandarin)": [
-            "正宗"
-        ],
-        "Portuguese (Brazilian)": [
-            "Chim"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "まさむね"
-        ],
-        "Spanish": [
-            "Lustre"
-        ],
-        "French": [
-            "Sabri"
-        ],
-        "Italian": [
-            "Lucenio"
-        ],
-        "German": [
-            "Schimma"
-        ],
-        "Dutch": [
-            "Sheen"
-        ],
-        "Korean": [
-            "요괴검사"
-        ],
-        "Russian": [
-            "Мерцато"
-        ],
-        "Arabic": [
-            "نصل"
-        ],
-        "Chinese (Mandarin)": [
-            "正宗"
-        ],
-        "Portuguese (Brazilian)": [
-            "Chim"
-        ]
-    },
-    "description_en": "A Yo-kai swordsman who returned to the way of the sword when a legendary blade reignited his spirit.",
-    "nom_en": "Chansin",
-    "rang_yww": "A",
-    "tribue_yww": "Isamashi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "fruit de mer",
-    "nourriture_favorite": "fruit de mer",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {
-        "hp": 59,
-        "str": 41,
-        "spr": 5,
-        "def": 18,
-        "spd": 20
-    },
-    "stats_max_yww": {
-        "hp": 411,
-        "str": 243,
-        "spr": 54,
-        "def": 136,
-        "spd": 153
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "閃光ぎり",
-                "_en": "Just a flash of light",
-                "_fr": "Juste un éclair de lumière"
-            },
-            "explication": {
-                "_jp": "【威力:24×3 / 打撃】 3回攻撃を行う",
-                "_en": "[Power: 24×3/Blow] Attacks 3 times",
-                "_fr": "[Puissance : 24×3/Coup] Attaque 3 fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "つむじ風の術",
-                "_en": "Whirlwind technique",
-                "_fr": "Technique du tourbillon"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 風属性】 風の妖術を使う。",
-                "_en": "[Power: 40 / Wind attribute] Uses wind magic.",
-                "_fr": "[Puissance : 40 / Attribut Vent] Utilise la magie du vent."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "名刀マサムネ",
-                "_en": "famous sword masamune",
-                "_fr": "célèbre épée masamune"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "名刀パワー",
-                "_en": "famous sword power",
-                "_fr": "puissance d'épée célèbre"
-            },
-            "explication": {
-                "_jp": "【ちからアップ】 とりつかれた妖怪は名刀マサムネの力で ちからがアップする。",
-                "_en": "[Power up] The possessed monster's power increases with the power of the famous sword Masamune.",
-                "_fr": "[Power up] La puissance du monstre possédé augmente avec la puissance de la célèbre épée Masamune."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "武士としての心をゆさぶられる 名刀と出会い 剣の道に舞い戻った妖怪剣士。 かつて きたえた剣の腕で 悪党を成敗する。",
-            "_en": "A monster swordsman returns to the sword after encountering a famous sword that touches his heart as a samurai. Defeated villains with his once-improved sword skills.",
-            "_fr": "Un épéiste monstre revient à l'épée après avoir rencontré une célèbre épée qui touche son cœur de samouraï. Il bat les méchants grâce à ses compétences d'épée autrefois améliorées."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Taillade éclair",
+        "puissance": "20×3|44×3",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tourbillon",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Entaille mythique",
+        "puissance": "170|255",
+        "description": "Coupe un ennemi avec la lame de la justice. Grande chance de coup critique."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Fine lame",
+        "puissance": "N/A",
+        "description": "L'épée Masamune augmente la FOR. d'un allié."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Célérité",
+        "description": "Susceptible d'infliger des coups critiques."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Taillade éclair",
+        "puissance": "20×3|44×3",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tourbillon",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Entaille mythique",
+        "puissance": "155|232",
+        "description": "Coupe un ennemi avec la lame de la justice. Grande chance de coup critique."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Fine lame",
+        "puissance": "N/A",
+        "description": "L'épée Masamune augmente la FOR. d'un allié."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Attaque ardente",
+        "puissance": "N/A",
+        "description": "Esquive toutes les attaques physiques."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Célérité",
+        "description": "Susceptible d'infliger des coups critiques."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte ."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Entaille mythique",
+        "puissance": "400",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Attaque précipitée",
+        "puissance": "80",
+        "description": "Attaque en faisant face à l'ennemi et fonce dessus."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Attaque de repli",
+        "puissance": "70",
+        "description": "Pendant l'attaque, recule et évite les coups ennemis."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Contre",
+        "puissance": "___",
+        "description": "Repousse les attaques et contre-attaque."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Célérité",
+        "description": "Plus de chance d'infliger des coups critiques."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Taillade éclair",
+        "puissance": "24×3|38×3",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tourbillon",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Entaille mythique",
+        "puissance": "190|285",
+        "description": "Découpe la colonne en face avec l'épée de la justice."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Fine lame",
+        "puissance": "N/A",
+        "description": "L'épée Masamune augmente la FOR. d'un allié."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Attaque trois fois. Le coup ultime est plus puissant."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Entaille mythique",
+        "puissance": "400",
+        "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Attaque précipitée",
+        "puissance": "80",
+        "description": "Fonce sur un ennemi en frappant à la chaîne."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Attaque de repli",
+        "puissance": "70",
+        "description": "Se replie en attaquant pour éviter les coups ennemis."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Célérité",
+        "description": "Susceptible d'infliger des coups critiques."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Tourmaline"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman de force"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Les coups secrets"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman de force"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Les coups secrets"
+      },
+      {
+        "taux": "?%",
+        "objet": "Oursin cru"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Célérité",
+    "description": "Susceptible d'infliger des coups critiques."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/sabri.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/sabri.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/sabri.wav",
+  "medallium_ids": {
+    "yw1": "016",
+    "yw2": "028",
+    "yw3": "044"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "032",
+    "yw Blasters 2": "044",
+    "yw Wibble Wobble": "1042",
+    "yw Ukiukipedia": "yw3-002"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Light Speed",
+  "skill_effect": "Fine Weapon",
+  "disliked_food": "Meat",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "399",
+        "STR": "206",
+        "SPR": "121",
+        "DEF": "138",
+        "SPD": "161"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "421",
+        "STR": "206",
+        "SPR": "121",
+        "DEF": "138",
+        "SPD": "161"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "419",
+        "STR": "231",
+        "SPR": "126",
+        "DEF": "159",
+        "SPD": "158"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "419",
+        "STR": "231",
+        "SPR": "126",
+        "DEF": "159"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "187-338"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "187-338",
+        "STR": "231",
+        "SPR": "126",
+        "DEF": "159"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "187-338"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "まさむね",
+      "Masamune"
+    ],
+    "Spanish": [
+      "Lustre"
+    ],
+    "French": [
+      "Sabri"
+    ],
+    "Italian": [
+      "Lucenio"
+    ],
+    "German": [
+      "Schimma"
+    ],
+    "Dutch": [
+      "Sheen"
+    ],
+    "Korean": [
+      "요괴검사",
+      "Yogoegeomsa"
+    ],
+    "Russian": [
+      "Мерцато",
+      "Mertsato"
+    ],
+    "Arabic": [
+      "نصل",
+      "Naṣl"
+    ],
+    "Chinese (Mandarin)": [
+      "正宗"
+    ],
+    "Portuguese (Brazilian)": [
+      "Chim"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "まさむね"
+    ],
+    "Spanish": [
+      "Lustre"
+    ],
+    "French": [
+      "Sabri"
+    ],
+    "Italian": [
+      "Lucenio"
+    ],
+    "German": [
+      "Schimma"
+    ],
+    "Dutch": [
+      "Sheen"
+    ],
+    "Korean": [
+      "요괴검사"
+    ],
+    "Russian": [
+      "Мерцато"
+    ],
+    "Arabic": [
+      "نصل"
+    ],
+    "Chinese (Mandarin)": [
+      "正宗"
+    ],
+    "Portuguese (Brazilian)": [
+      "Chim"
+    ]
+  },
+  "description_en": "A Yo-kai swordsman who returned to the way of the sword when a legendary blade reignited his spirit.",
+  "nom_en": "Chansin",
+  "rang_yww": "A",
+  "tribue_yww": "Isamashi",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "fruit de mer",
+  "nourriture_favorite": "fruit de mer",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {
+    "hp": 59,
+    "str": 41,
+    "spr": 5,
+    "def": 18,
+    "spd": 20
+  },
+  "stats_max_yww": {
+    "hp": 411,
+    "str": 243,
+    "spr": 54,
+    "def": 136,
+    "spd": 153
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "閃光ぎり",
+        "_en": "Just a flash of light",
+        "_fr": "Juste un éclair de lumière"
+      },
+      "explication": {
+        "_jp": "【威力:24×3 / 打撃】 3回攻撃を行う",
+        "_en": "[Power: 24×3/Blow] Attacks 3 times",
+        "_fr": "[Puissance : 24×3/Coup] Attaque 3 fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "つむじ風の術",
+        "_en": "Whirlwind technique",
+        "_fr": "Technique du tourbillon"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 風属性】 風の妖術を使う。",
+        "_en": "[Power: 40 / Wind attribute] Uses wind magic.",
+        "_fr": "[Puissance : 40 / Attribut Vent] Utilise la magie du vent."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "名刀マサムネ",
+        "_en": "famous sword masamune",
+        "_fr": "célèbre épée masamune"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "名刀パワー",
+        "_en": "famous sword power",
+        "_fr": "puissance d'épée célèbre"
+      },
+      "explication": {
+        "_jp": "【ちからアップ】 とりつかれた妖怪は名刀マサムネの力で ちからがアップする。",
+        "_en": "[Power up] The possessed monster's power increases with the power of the famous sword Masamune.",
+        "_fr": "[Power up] La puissance du monstre possédé augmente avec la puissance de la célèbre épée Masamune."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "武士としての心をゆさぶられる 名刀と出会い 剣の道に舞い戻った妖怪剣士。 かつて きたえた剣の腕で 悪党を成敗する。",
+      "_en": "A monster swordsman returns to the sword after encountering a famous sword that touches his heart as a samurai. Defeated villains with his once-improved sword skills.",
+      "_fr": "Un épéiste monstre revient à l'épée après avoir rencontré une célèbre épée qui touche son cœur de samouraï. Il bat les méchants grâce à ses compétences d'épée autrefois améliorées."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "15",
+  "Name_yww": "まさむね",
+  "description_jp_yww": "武士としての心をゆさぶられる 名刀と出会い 剣の道に舞い戻った妖怪剣士。 かつて　きたえた剣の腕で 悪党を成敗する。",
+  "BingoMessage_jp_yww": "再び日の光を浴びることができるとは… せっしゃはまさむね　以後よろしく頼む",
+  "MonsterId_yww": "y109000",
+  "Height_yww": 18.0,
+  "CommondId_yww": "sp_109000",
+  "MinHp_yww": 59,
+  "MaxHp_yww": 423,
+  "MinAttack_yww": 41,
+  "MaxAttack_yww": 248,
+  "MinMagic_yww": 5,
+  "MaxMagic_yww": 54,
+  "MinDefense_yww": 18,
+  "MaxDefense_yww": 138,
+  "MinSpeed_yww": 20,
+  "MaxSpeed_yww": 187,
+  "AttackId_yww": 45,
+  "MagicId_yww": 16,
+  "HauntId_yww": 109000,
+  "SpSkillId_yww": 109000,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 12,
+  "DislikeFoodKind_yww": 11,
+  "ActionType_yww": 5,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y104800.png",
+  "SpriteImage_yww": "img_y104800.png",
+  "Audio_yww": "sp_y104800.wav",
+  "Description_yww": "Touché au plus profond de son âme de samouraï, après avoir découvert une épée légendaire, le sabreur yōkai a retrouvé le chemin de la voie du sabre. Grâce à son talent d’épéiste, affûté autrefois, il vient à bout des malfaiteurs.",
+  "BingoMessage_fr_yww": "Je n’aurais jamais cru pouvoir revoir la lumière du jour… Je suis Masamune. Enchanté, je compte sur vous à l’avenir."
 }

@@ -1,574 +1,605 @@
 {
-    "ID": "52",
-    "Nom": "Télémir",
-    "Tribue": "Mystérieu",
-    "Rang": "C",
-    "PV": "405",
-    "Force": "50",
-    "Esprit": "255",
-    "Défense": "154",
-    "Vitesse": "53",
-    "Description-": "Il est assez paresseux, mais s'il se motive, sa puissance pourrait résoudre beaucoup de problèmes d'énergie.",
-    "Description": "Ancien miroir qui abritait une âme et maintenant devenu un Yo-kai. Il peut créer un portail entre deux miroirs.",
-    "nourriture": "Cuisine chinoise",
-    "élément": "Absorption",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Télémir vient de Téléporter et de Miroir.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Un Télémir peut téléporter des personnes, des objets et des Yo-kai à un autre Télémir qui se situe à un endroit différent.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/telemir.png",
-    "numero": "046",
-    "nourriture_favorite": "Plats chinois",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Effet miroir",
-            "effet": "Renvoie à l'ennemi 1/2 des dégâts qu'il inflige."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Plaquage absolu",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Vortex",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tourne-miroir",
-            "effet": "Invoque au hasard un esprit du monde des miroirs pour attaquer."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Énergie du miroir",
-            "effet": "Augmente l'ESP. d'un allié avec le pouvoir d'un mystérieux miroir."
-        }
+  "ID": "52",
+  "Nom": "Télémir",
+  "Tribue": "Mystérieu",
+  "Rang": "C",
+  "PV": "405",
+  "Force": "50",
+  "Esprit": "255",
+  "Défense": "154",
+  "Vitesse": "53",
+  "Description-": "Il est assez paresseux, mais s'il se motive, sa puissance pourrait résoudre beaucoup de problèmes d'énergie.",
+  "Description": "Ancien miroir qui abritait une âme et maintenant devenu un Yo-kai. Il peut créer un portail entre deux miroirs.",
+  "nourriture": "Cuisine chinoise",
+  "élément": "Absorption",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Télémir vient de Téléporter et de Miroir.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Un Télémir peut téléporter des personnes, des objets et des Yo-kai à un autre Télémir qui se situe à un endroit différent.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/telemir.png",
+  "numero": "046",
+  "nourriture_favorite": "Plats chinois",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Effet miroir",
+      "effet": "Renvoie à l'ennemi 1/2 des dégâts qu'il inflige."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Plaquage absolu",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Vortex",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tourne-miroir",
+      "effet": "Invoque au hasard un esprit du monde des miroirs pour attaquer."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Énergie du miroir",
+      "effet": "Augmente l'ESP. d'un allié avec le pouvoir d'un mystérieux miroir."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est très bon !",
+    "Mange de la nourriture insipide": "Un peu fade...",
+    "Mange de la mauvaise nourriture": "Arrête ça !",
+    "A la flemme": "Meh...",
+    "Est échangé": "Meh... Je trouve que t'as une langue marrante. On est fait pour être amis.",
+    "Devient ton ami": "Quel spectacle ! J'ose suggérer que l'on devienne amis !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Télémir",
+      "parent2": "Espi",
+      "resultat": "Triptic-tac",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "うんがい鏡",
+  "nom_anglais": "Mirapo",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Adrien Solis (Saison 1,Saison 2)",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Au cours del'histoire",
+      "La Corniche- arbres (Jour)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est très bon !",
-        "Mange de la nourriture insipide": "Un peu fade...",
-        "Mange de la mauvaise nourriture": "Arrête ça !",
-        "A la flemme": "Meh...",
-        "Est échangé": "Meh... Je trouve que t'as une langue marrante. On est fait pour être amis.",
-        "Devient ton ami": "Quel spectacle ! J'ose suggérer que l'on devienne amis !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Télémir",
-            "parent2": "Espi",
-            "resultat": "Triptic-tac",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Au cours de l'histoire",
+      "Yo-kai World - Montagne du menteur"
     ],
-    "image_locale": "",
-    "nom_original": "うんがい鏡",
-    "nom_anglais": "Mirapo",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Adrien Solis (Saison 1,Saison 2)",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Au cours del'histoire",
-            "La Corniche- arbres (Jour)"
-        ],
-        "yw2": [
-            "Au cours de l'histoire",
-            "Yo-kai World - Montagne du menteur"
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Ourcival"
-        ],
-        "yw3": [
-            "Au cours de l'histoire",
-            "Tour Excellence- jardins"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Tourne-miroir",
-                "puissance": "___",
-                "description": "Invoque au hasard un esprit du monde des miroirs pour attaquer."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie du miroir",
-                "puissance": "N/A",
-                "description": "Augmente l'ESP. d'un allié avec le pouvoir d'un mystérieux miroir."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Effet miroir",
-                "description": "Renvoie à l'ennemi 1/2 des dégâts qu'il inflige."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Tourne-miroir",
-                "puissance": "___",
-                "description": "Invoque au hasard un esprit du monde des miroirs pour attaquer."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie du miroir",
-                "puissance": "N/A",
-                "description": "Augmente l'ESP. d'un allié avec le pouvoir d'un mystérieux miroir."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Vortex",
-                "puissance": "N/A",
-                "description": "Te fait absorber les PV de l'ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Effet miroir",
-                "description": "Renvoie à l'ennemi 1/2 des dégâts qu'il inflige."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Tourne-miroir",
-                "puissance": "33×6",
-                "description": "Dégâts propotionnels aux âmes invoquées."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Vortex",
-                "puissance": "30",
-                "description": "Absorbe les PV de l'ennemi. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Armure miroir",
-                "puissance": "___",
-                "description": "Réduit et renvoie les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Effet miroir",
-                "description": "Dégâts des att. ennemies partiellement renvoyés."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "20|70",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "40|88",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Tourne-miroir",
-                "puissance": "___",
-                "description": "Invoque au hasard un esprit du monde des miroirs pour attaquer."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie du miroir",
-                "puissance": "N/A",
-                "description": "Augmente l'ESP. d'un allié avec le pouvoir d'un mystérieux miroir."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Tourne-miroir",
-                "puissance": "33×6",
-                "description": "↑ dégâts en fonction du nombre d'esprits invoqués."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Vortex",
-                "puissance": "30",
-                "description": "Draine + les PV ennemis. Plus de PV volés si chargé."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure miroir",
-                "puissance": "___",
-                "description": "Renvoie un peu de dégâts, attire l’attention ennemie."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Effet miroir",
-                "description": "Renvoie les dégâts d'une technique à l'ennemi."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Badge brillant"
-            },
-            {
-                "taux": "?%",
-                "objet": "Anneau rouillé"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Badge noir"
-            },
-            {
-                "taux": "?%",
-                "objet": "Poupée de fer"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "EXPorbe moyen"
-            },
-            {
-                "taux": "?%",
-                "objet": "Foie à l'oignon"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Effet miroir",
-        "description": "Renvoie à l'ennemi 1/2 des dégâts qu'il inflige."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/telemir.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/telemir.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/telemir.wav",
-    "name_romaji_jp": "Ungaikyō",
-    "oldID": "52",
-    "medallium_ids": {
-        "yw1": "046",
-        "yw2": "069",
-        "yw3": "118",
-        "yw4": "51 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "079",
-        "yw Blasters 2": "119",
-        "yw Wibble Wobble": "2014",
-        "yw Ukiukipedia": "yw3-004"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Mirror Body",
-    "skill_effect": "Mirror Power",
-    "disliked_food": "Ramen",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "331",
-                "STR": "101",
-                "SPR": "167",
-                "DEF": "154",
-                "SPD": "128"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "188",
-                "STR": "39",
-                "SPR": "69",
-                "DEF": "159",
-                "SPD": "58"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "242-422",
-                "STR": "39",
-                "SPR": "69"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "242-422"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "242-422"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "242-422"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "うんがい鏡",
-            "Ungaikyō"
-        ],
-        "Spanish": [
-            "Telespejo"
-        ],
-        "French": [
-            "Télémir"
-        ],
-        "Italian": [
-            "Traspec"
-        ],
-        "German": [
-            "Portalex"
-        ],
-        "Korean": [
-            "운외경",
-            "Unoegyeong"
-        ],
-        "Russian": [
-            "Зеркалтал",
-            "Zerkaltal"
-        ],
-        "Arabic": [
-            "مصقول",
-            "Maṣqūl"
-        ],
-        "Chinese (Mandarin)": [
-            "雲外鏡"
-        ],
-        "Portuguese (Brazilian)": [
-            "Espelho"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "うんがい鏡"
-        ],
-        "Spanish": [
-            "Telespejo"
-        ],
-        "French": [
-            "Télémir"
-        ],
-        "Italian": [
-            "Traspec"
-        ],
-        "German": [
-            "Portalex"
-        ],
-        "Korean": [
-            "운외경"
-        ],
-        "Russian": [
-            "Зеркалтал"
-        ],
-        "Arabic": [
-            "مصقول"
-        ],
-        "Chinese (Mandarin)": [
-            "雲外鏡"
-        ],
-        "Portuguese (Brazilian)": [
-            "Espelho Mágico"
-        ]
-    },
-    "description_en": "An ancient mirror that embodied a soul and became a Yo-kai. It can make a portal between two mirrors.",
-    "nom_en": "Signiton",
-    "rang_yww": "C",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "Cuisine chinoise",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 52,
-        "str": 4,
-        "spr": 44,
-        "def": 16,
-        "spd": 5
-    },
-    "stats_max_yww": {
-        "hp": 405,
-        "str": 50,
-        "spr": 255,
-        "def": 154,
-        "spd": 53
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "あてみ",
-                "_en": "Atemi",
-                "_fr": "Atémi"
-            },
-            "explication": {
-                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "吸収の術",
-                "_en": "absorption technique",
-                "_fr": "technique d'absorption"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
-                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
-                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
-            }
-        }
+    "yw Blasters 1": [
+      "Patrouille -Ourcival"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "かがみよかがみ",
-                "_en": "Kagamiyo Kagami",
-                "_fr": "Kagamiyo Kagami"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "鏡の力",
-                "_en": "power of mirror",
-                "_fr": "pouvoir du miroir"
-            },
-            "explication": {
-                "_jp": "【ようりょくアップ】 とりつかれた妖怪はふしぎな鏡の力で ようりょくがアップする。",
-                "_en": "[Yoryoku Up] The possessed monster's health increases with the power of a mysterious mirror.",
-                "_fr": "[Yoryoku Up] La santé du monstre possédé augmente avec la puissance d'un miroir mystérieux."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "ゆいしょ正しい古い鏡に 霊魂が宿り 妖怪になった姿。 鏡と鏡の中の空間をつなげる 不思議な能力がある。 鏡のお手入れは１日３回。",
-            "_en": "A spirit resides in an old mirror that has become a monster. It has a mysterious ability to connect mirrors and the space inside them. Clean the mirror three times a day.",
-            "_fr": "Un esprit réside dans un vieux miroir devenu monstre. Il a une mystérieuse capacité à relier les miroirs et l’espace qu’ils contiennent. Nettoyez le miroir trois fois par jour."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Au cours de l'histoire",
+      "Tour Excellence- jardins"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage absolu",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Vortex",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Tourne-miroir",
+        "puissance": "___",
+        "description": "Invoque au hasard un esprit du monde des miroirs pour attaquer."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie du miroir",
+        "puissance": "N/A",
+        "description": "Augmente l'ESP. d'un allié avec le pouvoir d'un mystérieux miroir."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Effet miroir",
+        "description": "Renvoie à l'ennemi 1/2 des dégâts qu'il inflige."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage absolu",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Vortex",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Tourne-miroir",
+        "puissance": "___",
+        "description": "Invoque au hasard un esprit du monde des miroirs pour attaquer."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie du miroir",
+        "puissance": "N/A",
+        "description": "Augmente l'ESP. d'un allié avec le pouvoir d'un mystérieux miroir."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Vortex",
+        "puissance": "N/A",
+        "description": "Te fait absorber les PV de l'ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Effet miroir",
+        "description": "Renvoie à l'ennemi 1/2 des dégâts qu'il inflige."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Tourne-miroir",
+        "puissance": "33×6",
+        "description": "Dégâts propotionnels aux âmes invoquées."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Vortex",
+        "puissance": "30",
+        "description": "Absorbe les PV de l'ennemi. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Armure miroir",
+        "puissance": "___",
+        "description": "Réduit et renvoie les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Effet miroir",
+        "description": "Dégâts des att. ennemies partiellement renvoyés."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage absolu",
+        "puissance": "20|70",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Vortex",
+        "puissance": "40|88",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Tourne-miroir",
+        "puissance": "___",
+        "description": "Invoque au hasard un esprit du monde des miroirs pour attaquer."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie du miroir",
+        "puissance": "N/A",
+        "description": "Augmente l'ESP. d'un allié avec le pouvoir d'un mystérieux miroir."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Tourne-miroir",
+        "puissance": "33×6",
+        "description": "↑ dégâts en fonction du nombre d'esprits invoqués."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Vortex",
+        "puissance": "30",
+        "description": "Draine + les PV ennemis. Plus de PV volés si chargé."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure miroir",
+        "puissance": "___",
+        "description": "Renvoie un peu de dégâts, attire l’attention ennemie."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Effet miroir",
+        "description": "Renvoie les dégâts d'une technique à l'ennemi."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Badge brillant"
+      },
+      {
+        "taux": "?%",
+        "objet": "Anneau rouillé"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Badge noir"
+      },
+      {
+        "taux": "?%",
+        "objet": "Poupée de fer"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "EXPorbe moyen"
+      },
+      {
+        "taux": "?%",
+        "objet": "Foie à l'oignon"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Effet miroir",
+    "description": "Renvoie à l'ennemi 1/2 des dégâts qu'il inflige."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/telemir.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/telemir.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/telemir.wav",
+  "name_romaji_jp": "Ungaikyō",
+  "oldID": "52",
+  "medallium_ids": {
+    "yw1": "046",
+    "yw2": "069",
+    "yw3": "118",
+    "yw4": "51 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "079",
+    "yw Blasters 2": "119",
+    "yw Wibble Wobble": "2014",
+    "yw Ukiukipedia": "yw3-004"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Mirror Body",
+  "skill_effect": "Mirror Power",
+  "disliked_food": "Ramen",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "331",
+        "STR": "101",
+        "SPR": "167",
+        "DEF": "154",
+        "SPD": "128"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "188",
+        "STR": "39",
+        "SPR": "69",
+        "DEF": "159",
+        "SPD": "58"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "242-422",
+        "STR": "39",
+        "SPR": "69"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "242-422"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "242-422"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "242-422"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "うんがい鏡",
+      "Ungaikyō"
+    ],
+    "Spanish": [
+      "Telespejo"
+    ],
+    "French": [
+      "Télémir"
+    ],
+    "Italian": [
+      "Traspec"
+    ],
+    "German": [
+      "Portalex"
+    ],
+    "Korean": [
+      "운외경",
+      "Unoegyeong"
+    ],
+    "Russian": [
+      "Зеркалтал",
+      "Zerkaltal"
+    ],
+    "Arabic": [
+      "مصقول",
+      "Maṣqūl"
+    ],
+    "Chinese (Mandarin)": [
+      "雲外鏡"
+    ],
+    "Portuguese (Brazilian)": [
+      "Espelho"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "うんがい鏡"
+    ],
+    "Spanish": [
+      "Telespejo"
+    ],
+    "French": [
+      "Télémir"
+    ],
+    "Italian": [
+      "Traspec"
+    ],
+    "German": [
+      "Portalex"
+    ],
+    "Korean": [
+      "운외경"
+    ],
+    "Russian": [
+      "Зеркалтал"
+    ],
+    "Arabic": [
+      "مصقول"
+    ],
+    "Chinese (Mandarin)": [
+      "雲外鏡"
+    ],
+    "Portuguese (Brazilian)": [
+      "Espelho Mágico"
+    ]
+  },
+  "description_en": "An ancient mirror that embodied a soul and became a Yo-kai. It can make a portal between two mirrors.",
+  "nom_en": "Signiton",
+  "rang_yww": "C",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "Cuisine chinoise",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 52,
+    "str": 4,
+    "spr": 44,
+    "def": 16,
+    "spd": 5
+  },
+  "stats_max_yww": {
+    "hp": 405,
+    "str": 50,
+    "spr": 255,
+    "def": 154,
+    "spd": 53
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "あてみ",
+        "_en": "Atemi",
+        "_fr": "Atémi"
+      },
+      "explication": {
+        "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "吸収の術",
+        "_en": "absorption technique",
+        "_fr": "technique d'absorption"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+        "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+        "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "かがみよかがみ",
+        "_en": "Kagamiyo Kagami",
+        "_fr": "Kagamiyo Kagami"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "鏡の力",
+        "_en": "power of mirror",
+        "_fr": "pouvoir du miroir"
+      },
+      "explication": {
+        "_jp": "【ようりょくアップ】 とりつかれた妖怪はふしぎな鏡の力で ようりょくがアップする。",
+        "_en": "[Yoryoku Up] The possessed monster's health increases with the power of a mysterious mirror.",
+        "_fr": "[Yoryoku Up] La santé du monstre possédé augmente avec la puissance d'un miroir mystérieux."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "ゆいしょ正しい古い鏡に 霊魂が宿り 妖怪になった姿。 鏡と鏡の中の空間をつなげる 不思議な能力がある。 鏡のお手入れは１日３回。",
+      "_en": "A spirit resides in an old mirror that has become a monster. It has a mysterious ability to connect mirrors and the space inside them. Clean the mirror three times a day.",
+      "_fr": "Un esprit réside dans un vieux miroir devenu monstre. Il a une mystérieuse capacité à relier les miroirs et l’espace qu’ils contiennent. Nettoyez le miroir trois fois par jour."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "52",
+  "Name_yww": "うんがい鏡",
+  "description_jp_yww": "ゆいしょ正しい古い鏡に 霊魂が宿り　妖怪になった姿。 鏡と鏡の中の空間をつなげる 不思議な能力がある。 鏡のお手入れは１日３回。",
+  "BingoMessage_jp_yww": "ぺろ～ん　ありがとうございまーす！ これから　よろしくおねがいしまーす！",
+  "MonsterId_yww": "y130000",
+  "Height_yww": 14.0,
+  "CommondId_yww": "sp_130000",
+  "MinHp_yww": 52,
+  "MaxHp_yww": 405,
+  "MinAttack_yww": 4,
+  "MaxAttack_yww": 50,
+  "MinMagic_yww": 44,
+  "MaxMagic_yww": 255,
+  "MinDefense_yww": 16,
+  "MaxDefense_yww": 154,
+  "MinSpeed_yww": 5,
+  "MaxSpeed_yww": 53,
+  "AttackId_yww": 25,
+  "MagicId_yww": 20,
+  "HauntId_yww": 130000,
+  "SpSkillId_yww": 130000,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 9,
+  "DislikeFoodKind_yww": 7,
+  "ActionType_yww": 10,
+  "TribeType_yww": 2,
+  "MedallionImage_yww": "y125800.png",
+  "SpriteImage_yww": "img_y125800.png",
+  "Audio_yww": "sp_y125800.wav",
+  "Description_yww": "Yui-sho : une ancienne miroir authentique dans lequel une âme s'est installée, prenant la forme d'un yōkai. Il possède le pouvoir mystérieux de relier le miroir à l'espace qui se trouve en son sein. Il faut entretenir le miroir trois fois par jour.",
+  "BingoMessage_fr_yww": "Léchouette… Merci beaucoup ! Au plaisir de vous retrouver !"
 }

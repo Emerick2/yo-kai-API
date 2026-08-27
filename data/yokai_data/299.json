@@ -1,430 +1,461 @@
 {
-    "ID": "299",
-    "Nom": "Kyrycorne",
-    "Tribue": "Bienveillant",
-    "Rang": "S",
-    "PV": "461",
-    "Force": "101",
-    "Esprit": "249",
-    "Défense": "138",
-    "Vitesse": "130",
-    "Description": "Créature légendaire dotée d'une corne que d'innombrables aventuriers ont convoitée.",
-    "nourriture": "Soba",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "Kyrycorne vient de Kyryn (Yo-kai) et Corne.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/kyrycorne.png",
-    "numero": "201",
-    "nourriture_favorite": "Soba",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Second souffle",
-            "effet": "Restaure une partie des PV des alliés dans le besoin."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Mâchouille",
-            "effet": "45 | 99"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paradis",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Dop-corne",
-            "effet": "Le son de la corne sacrée restaure les PV des alliés."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Corne de soin",
-            "effet": "Le Yo-kai récupère des PV grâce à la corne de soin."
-        }
+  "ID": "299",
+  "Nom": "Kyrycorne",
+  "Tribue": "Bienveillant",
+  "Rang": "S",
+  "PV": "461",
+  "Force": "101",
+  "Esprit": "249",
+  "Défense": "138",
+  "Vitesse": "130",
+  "Description": "Créature légendaire dotée d'une corne que d'innombrables aventuriers ont convoitée.",
+  "nourriture": "Soba",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "Kyrycorne vient de Kyryn (Yo-kai) et Corne.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/kyrycorne.png",
+  "numero": "201",
+  "nourriture_favorite": "Soba",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Second souffle",
+      "effet": "Restaure une partie des PV des alliés dans le besoin."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Mâchouille",
+      "effet": "45 | 99"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paradis",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Dop-corne",
+      "effet": "Le son de la corne sacrée restaure les PV des alliés."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Corne de soin",
+      "effet": "Le Yo-kai récupère des PV grâce à la corne de soin."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Trop bon !",
+    "Mange de la nourriture insipide": "Merci, je suppose.",
+    "Mange de la mauvaise nourriture": "Pauvres papilles.",
+    "A la flemme": "Je fais une pause.",
+    "Est échangé": "Ravi de te rencontrer ! Nous encornerons nos ennemis ensemble !",
+    "Devient ton ami": "Touché ! Bien visé ! Compte-moi parmi tes amis !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "イッカク",
+  "nom_anglais": "Unikirin",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": "English VA Brent Pendergrass"
+  },
+  "localisations": {
+    "yw2": [
+      "Bingo-kai -Pièce verte(passé)",
+      "Bingo-kai -Pièce 5 étoiles(passé)",
+      "Bingo-kai -Pièce spéciale(passé)",
+      "Bingo-kai -Pièce joyeuse(passé)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Trop bon !",
-        "Mange de la nourriture insipide": "Merci, je suppose.",
-        "Mange de la mauvaise nourriture": "Pauvres papilles.",
-        "A la flemme": "Je fais une pause.",
-        "Est échangé": "Ravi de te rencontrer ! Nous encornerons nos ennemis ensemble !",
-        "Devient ton ami": "Touché ! Bien visé ! Compte-moi parmi tes amis !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "イッカク",
-    "nom_anglais": "Unikirin",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": "English VA Brent Pendergrass"
-    },
-    "localisations": {
-        "yw2": [
-            "Bingo-kai -Pièce verte(passé)",
-            "Bingo-kai -Pièce 5 étoiles(passé)",
-            "Bingo-kai -Pièce spéciale(passé)",
-            "Bingo-kai -Pièce joyeuse(passé)"
-        ],
-        "yw Blasters 1": [
-            "Bingo-kai -Pièce verte- 1er prix"
-        ],
-        "yw3": [
-            "Tour du Karmagister- 4e épreuve",
-            "Blasters T- Labyrinthe de Rang S",
-            "Blasters T- Mont Mulympe - Domniscian 2.0"
-        ],
-        "yw Wibble Wobble": [
-            "Finir dans le Top 5 en Mélée."
-        ]
-    },
-    "rarite": "Classic icon",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "45|99",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Dop-corne",
-                "puissance": "___",
-                "description": "Le son de la corne sacrée restaure les PV des alliés."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Corne de soin",
-                "puissance": "N/A",
-                "description": "Le Yo-kai récupère des PV grâce à la corne de soin."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Second souffle",
-                "description": "Restaure une partie des PV des alliés dans le besoin."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée"
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Dop-corne",
-                "puissance": "400",
-                "description": "Alliés retrouvent beaucoup de PV."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Envoûtement guérisseur",
-                "puissance": "___",
-                "description": "Hausse lente des PV alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Cercle parfait",
-                "puissance": "___",
-                "description": "Crée un champ où les stats des alliés augmenteront."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Second souffle",
-                "description": "Guérit des PV suppl. sur un Yo-kai en danger."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Dop-corne",
-                "puissance": "___",
-                "description": "Le son de la corne sacrée restaure les PV des alliés."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Corne de soin",
-                "puissance": "N/A",
-                "description": "Le Yo-kai récupère des PV grâce à la corne de soin."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Second souffle",
-                "description": "Restaure une partie des PV des alliés dans le besoin."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Second souffle",
-        "description": "Restaure une partie des PV des alliés dans le besoin."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/kyrycorne.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/kyrycorne.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/kyrycorne.wav",
-    "oldID": "309",
-    "medallium_ids": {
-        "yw2": "201",
-        "yw3": "372"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "244",
-        "yw Wibble Wobble": "5022",
-        "yw Ukiukipedia": "yw10-007"
-    },
-    "battle_type": "Classic",
-    "skill_name": "Second Wind",
-    "skill_effect": "Healing Horn",
-    "disliked_food": "Candy",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "471",
-                "STR": "206",
-                "SPR": "183",
-                "DEF": "132",
-                "SPD": "196"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "471",
-                "STR": "106",
-                "SPR": "254",
-                "DEF": "143",
-                "SPD": "135"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "イッカク",
-            "Ikkaku"
-        ],
-        "Spanish": [
-            "Unikyryn"
-        ],
-        "French": [
-            "Kyrycorne"
-        ],
-        "Italian": [
-            "Unikirin"
-        ],
-        "German": [
-            "Feinhorn"
-        ],
-        "Dutch": [
-            "Unikirin"
-        ],
-        "Korean": [
-            "일각수",
-            "Ilgagsu"
-        ],
-        "Russian": [
-            "Киринорог",
-            "Kirinorog"
-        ],
-        "Arabic": [
-            "جلمود",
-            "Julmūd"
-        ],
-        "Portuguese (Brazilian)": [
-            "Unikirin"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "イッカク"
-        ],
-        "Spanish": [
-            "Unikyryn"
-        ],
-        "French": [
-            "Kyrycorne"
-        ],
-        "Italian": [
-            "Unikirin"
-        ],
-        "German": [
-            "Feinhorn"
-        ],
-        "Dutch": [
-            "Unikirin"
-        ],
-        "Korean": [
-            "일각수"
-        ],
-        "Russian": [
-            "Киринорог"
-        ],
-        "Arabic": [
-            "جلمود"
-        ],
-        "Portuguese (Brazilian)": [
-            "Unikirin"
-        ]
-    },
-    "description_en": "A legendary creature with a horn that countless figures throughout history have tried to steal.",
-    "nom_en": "Supoor Hero",
-    "rang_yww": "S",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "sarrasin",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {
-        "hp": 48,
-        "str": 16,
-        "spr": 31,
-        "def": 12,
-        "spd": 27
-    },
-    "stats_max_yww": {
-        "hp": 402,
-        "str": 144,
-        "spr": 163,
-        "def": 43,
-        "spd": 291
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "骨くだき",
-                "_en": "broken bones",
-                "_fr": "os cassés"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 50 / Hit] Deals damage to one enemy.",
-                "_fr": "[Puissance : 50 / Hit] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "極楽の術",
-                "_en": "The art of paradise",
-                "_fr": "L'art du paradis"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
-            }
-        }
+    "yw Blasters 1": [
+      "Bingo-kai -Pièce verte- 1er prix"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "一本イットク？",
-                "_en": "One bottle?",
-                "_fr": "Une bouteille ?"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "天に向って聖なる角をかかげ味方全員のHPを全回復する。",
-                "_en": "Raise your sacred horn towards the sky and fully recover the HP of all allies.",
-                "_fr": "Levez votre corne sacrée vers le ciel et récupérez pleinement les PV de tous les alliés."
-            }
-        }
+    "yw3": [
+      "Tour du Karmagister- 4e épreuve",
+      "Blasters T- Labyrinthe de Rang S",
+      "Blasters T- Mont Mulympe - Domniscian 2.0"
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "角の力",
-                "_en": "power of horns",
-                "_fr": "pouvoir des cornes"
-            },
-            "explication": {
-                "_jp": "【回復】 とりつかれた妖怪は聖なる角に加護されHPが少しずつ回復する。",
-                "_en": "[Recovery] The possessed monster is protected by the sacred horn and its HP gradually recovers.",
-                "_fr": "[Récupération] Le monstre possédé est protégé par la corne sacrée et ses PV récupèrent progressivement."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "一本の美しい角が特徴の 聖なる妖怪。 歴史上のさまざまな権力者が その角を 手に入れようと あらゆる手を使ったという。",
-            "_en": "A sacred monster with a beautiful horn. It is said that various powerful people throughout history did everything they could to obtain the horn.",
-            "_fr": "Un monstre sacré avec une belle corne. On raconte que diverses personnes puissantes à travers l’histoire ont fait tout ce qu’elles pouvaient pour obtenir la corne."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Finir dans le Top 5 en Mélée."
     ]
+  },
+  "rarite": "Classic icon",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Mâchouille",
+        "puissance": "45|99",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Dop-corne",
+        "puissance": "___",
+        "description": "Le son de la corne sacrée restaure les PV des alliés."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Corne de soin",
+        "puissance": "N/A",
+        "description": "Le Yo-kai récupère des PV grâce à la corne de soin."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Second souffle",
+        "description": "Restaure une partie des PV des alliés dans le besoin."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée"
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Dop-corne",
+        "puissance": "400",
+        "description": "Alliés retrouvent beaucoup de PV."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Envoûtement guérisseur",
+        "puissance": "___",
+        "description": "Hausse lente des PV alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Cercle parfait",
+        "puissance": "___",
+        "description": "Crée un champ où les stats des alliés augmenteront."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Second souffle",
+        "description": "Guérit des PV suppl. sur un Yo-kai en danger."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Mâchouille",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Dop-corne",
+        "puissance": "___",
+        "description": "Le son de la corne sacrée restaure les PV des alliés."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Corne de soin",
+        "puissance": "N/A",
+        "description": "Le Yo-kai récupère des PV grâce à la corne de soin."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Second souffle",
+        "description": "Restaure une partie des PV des alliés dans le besoin."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Second souffle",
+    "description": "Restaure une partie des PV des alliés dans le besoin."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/kyrycorne.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/kyrycorne.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/kyrycorne.wav",
+  "oldID": "309",
+  "medallium_ids": {
+    "yw2": "201",
+    "yw3": "372"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "244",
+    "yw Wibble Wobble": "5022",
+    "yw Ukiukipedia": "yw10-007"
+  },
+  "battle_type": "Classic",
+  "skill_name": "Second Wind",
+  "skill_effect": "Healing Horn",
+  "disliked_food": "Candy",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "471",
+        "STR": "206",
+        "SPR": "183",
+        "DEF": "132",
+        "SPD": "196"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "471",
+        "STR": "106",
+        "SPR": "254",
+        "DEF": "143",
+        "SPD": "135"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "イッカク",
+      "Ikkaku"
+    ],
+    "Spanish": [
+      "Unikyryn"
+    ],
+    "French": [
+      "Kyrycorne"
+    ],
+    "Italian": [
+      "Unikirin"
+    ],
+    "German": [
+      "Feinhorn"
+    ],
+    "Dutch": [
+      "Unikirin"
+    ],
+    "Korean": [
+      "일각수",
+      "Ilgagsu"
+    ],
+    "Russian": [
+      "Киринорог",
+      "Kirinorog"
+    ],
+    "Arabic": [
+      "جلمود",
+      "Julmūd"
+    ],
+    "Portuguese (Brazilian)": [
+      "Unikirin"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "イッカク"
+    ],
+    "Spanish": [
+      "Unikyryn"
+    ],
+    "French": [
+      "Kyrycorne"
+    ],
+    "Italian": [
+      "Unikirin"
+    ],
+    "German": [
+      "Feinhorn"
+    ],
+    "Dutch": [
+      "Unikirin"
+    ],
+    "Korean": [
+      "일각수"
+    ],
+    "Russian": [
+      "Киринорог"
+    ],
+    "Arabic": [
+      "جلمود"
+    ],
+    "Portuguese (Brazilian)": [
+      "Unikirin"
+    ]
+  },
+  "description_en": "A legendary creature with a horn that countless figures throughout history have tried to steal.",
+  "nom_en": "Supoor Hero",
+  "rang_yww": "S",
+  "tribue_yww": "Pokapoka",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "sarrasin",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {
+    "hp": 48,
+    "str": 16,
+    "spr": 31,
+    "def": 12,
+    "spd": 27
+  },
+  "stats_max_yww": {
+    "hp": 402,
+    "str": 144,
+    "spr": 163,
+    "def": 43,
+    "spd": 291
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "骨くだき",
+        "_en": "broken bones",
+        "_fr": "os cassés"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 50 / Hit] Deals damage to one enemy.",
+        "_fr": "[Puissance : 50 / Hit] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "極楽の術",
+        "_en": "The art of paradise",
+        "_fr": "L'art du paradis"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "一本イットク？",
+        "_en": "One bottle?",
+        "_fr": "Une bouteille ?"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "天に向って聖なる角をかかげ味方全員のHPを全回復する。",
+        "_en": "Raise your sacred horn towards the sky and fully recover the HP of all allies.",
+        "_fr": "Levez votre corne sacrée vers le ciel et récupérez pleinement les PV de tous les alliés."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "角の力",
+        "_en": "power of horns",
+        "_fr": "pouvoir des cornes"
+      },
+      "explication": {
+        "_jp": "【回復】 とりつかれた妖怪は聖なる角に加護されHPが少しずつ回復する。",
+        "_en": "[Recovery] The possessed monster is protected by the sacred horn and its HP gradually recovers.",
+        "_fr": "[Récupération] Le monstre possédé est protégé par la corne sacrée et ses PV récupèrent progressivement."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "一本の美しい角が特徴の 聖なる妖怪。 歴史上のさまざまな権力者が その角を 手に入れようと あらゆる手を使ったという。",
+      "_en": "A sacred monster with a beautiful horn. It is said that various powerful people throughout history did everything they could to obtain the horn.",
+      "_fr": "Un monstre sacré avec une belle corne. On raconte que diverses personnes puissantes à travers l’histoire ont fait tout ce qu’elles pouvaient pour obtenir la corne."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "305",
+  "Name_yww": "イッカク",
+  "description_jp_yww": "一本の美しい角が特徴の 聖なる妖怪。 歴史上のさまざまな権力者が その角を　手に入れようと あらゆる手を使ったという。",
+  "BingoMessage_jp_yww": "イッポーン！　イッポーン！ 一本とられたぞー！",
+  "MonsterId_yww": "y290000",
+  "Height_yww": 21.74,
+  "CommondId_yww": "sp_290000",
+  "MinHp_yww": 46,
+  "MaxHp_yww": 435,
+  "MinAttack_yww": 12,
+  "MaxAttack_yww": 82,
+  "MinMagic_yww": 46,
+  "MaxMagic_yww": 268,
+  "MinDefense_yww": 20,
+  "MaxDefense_yww": 118,
+  "MinSpeed_yww": 23,
+  "MaxSpeed_yww": 148,
+  "AttackId_yww": 17,
+  "MagicId_yww": 24,
+  "HauntId_yww": 290000,
+  "SpSkillId_yww": 290000,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 9,
+  "DislikeFoodKind_yww": 5,
+  "ActionType_yww": 15,
+  "TribeType_yww": 5,
+  "MedallionImage_yww": "y285800.png",
+  "SpriteImage_yww": "img_y285800.png",
+  "Audio_yww": "sp_y285800.wav",
+  "Description_yww": "Un yōkai sacré caractérisé par une magnifique corne. On raconte que divers dirigeants historiques auraient tout mis en œuvre pour s'emparer de cette corne.",
+  "BingoMessage_fr_yww": "Un point ! Un point ! On en a pris un !"
 }

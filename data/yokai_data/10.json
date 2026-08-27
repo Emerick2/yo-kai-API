@@ -1,476 +1,507 @@
 {
-    "ID": "10",
-    "Nom": "Mochimacho",
-    "Tribue": "Vaillant",
-    "Rang": "D",
-    "PV": "382",
-    "Force": "210",
-    "Esprit": "75",
-    "Défense": "142",
-    "Vitesse": "40",
-    "Description": "Quand il est amoureux, il devient un peu trop protecteur avec son âme sœur. Ta jalousie sera multipliée.",
-    "nourriture": "Riz",
-    "élément": "Feu",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Mochimacho vient de Mochi (friandise appréciée au japon) et de Macho.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Les personnes qu'il envoûte deviennent jalouses de tout ce qu'elles voient.",
-    "personnalité": "Il est un peu trop protecteur et est jaloux de tout le monde.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/mochimacho.png",
-    "numero": "008",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Peau rebondie",
-            "effet": "Augmente sa défense si gros dégâts reçus."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing puissant",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Feu",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing minochi",
-            "effet": "Gonfle et donne un vilain coup de poing à un adversaire. 120 | 180"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Jalousie",
-            "effet": "L'ennemi devient si jaloux de ses alliés qu'il a envie de les attaquer."
-        }
+  "ID": "10",
+  "Nom": "Mochimacho",
+  "Tribue": "Vaillant",
+  "Rang": "D",
+  "PV": "382",
+  "Force": "210",
+  "Esprit": "75",
+  "Défense": "142",
+  "Vitesse": "40",
+  "Description": "Quand il est amoureux, il devient un peu trop protecteur avec son âme sœur. Ta jalousie sera multipliée.",
+  "nourriture": "Riz",
+  "élément": "Feu",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Mochimacho vient de Mochi (friandise appréciée au japon) et de Macho.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Les personnes qu'il envoûte deviennent jalouses de tout ce qu'elles voient.",
+  "personnalité": "Il est un peu trop protecteur et est jaloux de tout le monde.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/mochimacho.png",
+  "numero": "008",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Peau rebondie",
+      "effet": "Augmente sa défense si gros dégâts reçus."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing puissant",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Feu",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing minochi",
+      "effet": "Gonfle et donne un vilain coup de poing à un adversaire. 120 | 180"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Jalousie",
+      "effet": "L'ennemi devient si jaloux de ses alliés qu'il a envie de les attaquer."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Je suis plus fort !",
+    "Mange de la nourriture insipide": "Ça devrait aller.",
+    "Mange de la mauvaise nourriture": "Enlevez-moi ça !",
+    "A la flemme": "Je suis fatigué.",
+    "Est échangé": "Amis ? Sans problème ! Maintenant, ce ne sera que toi et moi.",
+    "Devient ton ami": "Tu es tellement incroyable, c'est pas juste ! On ferait mieux de devenir amis !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "やきモチ",
+  "nom_anglais": "Minochi",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Centre–ville de Granval–Tour de commerce de Granval"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Je suis plus fort !",
-        "Mange de la nourriture insipide": "Ça devrait aller.",
-        "Mange de la mauvaise nourriture": "Enlevez-moi ça !",
-        "A la flemme": "Je suis fatigué.",
-        "Est échangé": "Amis ? Sans problème ! Maintenant, ce ne sera que toi et moi.",
-        "Devient ton ami": "Tu es tellement incroyable, c'est pas juste ! On ferait mieux de devenir amis !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "やきモチ",
-    "nom_anglais": "Minochi",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Centre–ville de Granval–Tour de commerce de Granval"
-        ],
-        "yw2": [
-            "Centre–ville de Granval – Arrière–cour du Vent d'hiver",
-            "Centre–ville de Granval – Ruisseau & Mer",
-            "Quartier des boutiques– Buissons & Fleurs",
-            "La Corniche–Musée lac des Coloquintes– Rez-de-Chaussée",
-            "La Corniche – Musée lac des Coloquintes – 1er",
-            "Bingo-kai–Pièce rouge (Passé)",
-            "Tunnel sans fin- De 1m à 5000m",
-            "Train"
-        ],
-        "yw Blasters 1": [
-            "Exclusif au Peloton du chat rougePatrouille - Quartier des boutiques"
-        ],
-        "yw3": [
-            "Quartier des boutiques - Contre-allées rue commerçante"
-        ],
-        "yw Puni Puni": [
-            "Stage 57 (Coteau Fleuri)",
-            "Stage 83 (Centre-ville de Granval)",
-            "Stage 121 (Centre-ville de Granval)",
-            "Stage 258 (Vieux Granval)",
-            "Stage 266 (Vieux Granval)",
-            "Stage Secret 3-3 (Égout C)",
-            "Stage Secret 7-6 (Tour Excellence - Lieu d'observation)",
-            "Stage Secret 11-36 (Limbes Éternelles - 3ème Cercle)",
-            "Stage Secret 14-70 (Limbes Éternelles - 6ème Cercle)",
-            "Stage Secret 18-17 (Sanctuaire Divin - 2ème Cercle)",
-            "Stage Secret 21-22 (Sanctuaire Divin - 5ème Cercle)",
-            "Stage Secret 21-37 (Sanctuaire Divin - 5ème Cercle)",
-            "Stage Secret 23-68 (Sanctuaire Divin - 7ème Cercle)",
-            "Bingo-Kai (Pièce joyeuse)",
-            "Bingo-Kai (Pièce mystère)",
-            "Bingo-Kai (Pièce rouge)"
-        ]
-    },
-    "rarite": "Peloton du chat rouge",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "5%",
-                "objet": "Vivez Karaté"
-            },
-            {
-                "taux": "35%",
-                "objet": "Staminum"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "6%",
-                "objet": "Vivez Karaté"
-            },
-            {
-                "taux": "40%",
-                "objet": "Staminum"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "4%",
-                "objet": "Vivez Karaté"
-            },
-            {
-                "taux": "14%",
-                "objet": "Riz à la prune"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Peau rebondie",
-        "description": "Augmente sa défense si gros dégâts reçus."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/mochimacho.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/mochimacho.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/mochimacho.wav",
-    "medallium_ids": {
-        "yw1": "008",
-        "yw2": "015",
-        "yw3": "018"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "015",
-        "yw Blasters 2": "018",
-        "yw Wibble Wobble": "1005",
-        "yw World": "0008",
-        "yw Ukiukipedia": "yw1-001/YD3-002"
-    },
-    "battle_type": "",
-    "skill_name": "Soft Skin yw yw2 Elasticity yw3 ywB",
-    "skill_effect": "Jealousy",
-    "disliked_food": "Milk",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "378",
-                "STR": "177",
-                "SPR": "37",
-                "DEF": "142",
-                "SPD": "91"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "392",
-                "STR": "177",
-                "SPR": "37",
-                "DEF": "142",
-                "SPD": "91"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "415",
-                "STR": "177",
-                "SPR": "47",
-                "DEF": "221",
-                "SPD": "45"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "415",
-                "STR": "177",
-                "SPR": "47",
-                "DEF": "221"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "203-353",
-                "STR": "177",
-                "SPR": "47",
-                "DEF": "221"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "203-353"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "203-353"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "やきモチ",
-            "Yakimochi"
-        ],
-        "Spanish": [
-            "Machimío"
-        ],
-        "French": [
-            "Mochimacho"
-        ],
-        "Italian": [
-            "Miomacho"
-        ],
-        "German": [
-            "Misskunz"
-        ],
-        "Dutch": [
-            "Minochi"
-        ],
-        "Korean": [
-            "시기떡",
-            "Sigitteok"
-        ],
-        "Russian": [
-            "Ревносуш",
-            "Revnosush"
-        ],
-        "Arabic": [
-            "غيران",
-            "Ghayrān"
-        ],
-        "Chinese (Mandarin)": [
-            "嫉妒麻吉",
-            "Jídùmájí"
-        ],
-        "Portuguese (Brazilian)": [
-            "Rob"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "やきモチ"
-        ],
-        "Spanish": [
-            "Machimío"
-        ],
-        "French": [
-            "Mochimacho"
-        ],
-        "Italian": [
-            "Miomacho"
-        ],
-        "German": [
-            "Misskunz"
-        ],
-        "Dutch": [
-            "Minochi"
-        ],
-        "Korean": [
-            "시기떡"
-        ],
-        "Russian": [
-            "Ревносуш"
-        ],
-        "Arabic": [
-            "غيران"
-        ],
-        "Chinese (Mandarin)": [
-            "嫉妒麻吉"
-        ],
-        "Portuguese (Brazilian)": [
-            "Rob Bolinho"
-        ]
-    },
-    "description_en": "When he's in love, he gets overly protective of his partner. He can make you a very jealous person.",
-    "nom_en": "Mochismo",
-    "rang_yww": "D",
-    "tribue_yww": "Isamashi",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "Onigiri",
-    "nourriture_favorite": "Onigiri",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
-        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 49,
-        "str": 26,
-        "spr": 8,
-        "def": 20,
-        "spd": 4
-    },
-    "stats_max_yww": {
-        "hp": 382,
-        "str": 210,
-        "spr": 75,
-        "def": 142,
-        "spd": 40
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "1つ星コイン",
-            "_en": "1 star coin",
-            "_fr": "Pièce d'une étoile"
-        },
-        {
-            "_jp": "お祭りコイン",
-            "_en": "festival coins",
-            "_fr": "pièces de monnaie du festival"
-        },
-        {
-            "_jp": "ファミマコイン",
-            "_en": "Family Mart Coin",
-            "_fr": "Pièce de monnaie du marché familial"
-        },
-        {
-            "_jp": "ドコモコイン1",
-            "_en": "docomo coin 1",
-            "_fr": "pièce docomo 1"
-        },
-        {
-            "_jp": "十五夜コイン",
-            "_en": "jugoya coin",
-            "_fr": "pièce de monnaie jugoya"
-        },
-        {
-            "_jp": "ドコモコイン2",
-            "_en": "docomo coin 2",
-            "_fr": "pièce docomo 2"
-        }
+    "yw2": [
+      "Centre–ville de Granval – Arrière–cour du Vent d'hiver",
+      "Centre–ville de Granval – Ruisseau & Mer",
+      "Quartier des boutiques– Buissons & Fleurs",
+      "La Corniche–Musée lac des Coloquintes– Rez-de-Chaussée",
+      "La Corniche – Musée lac des Coloquintes – 1er",
+      "Bingo-kai–Pièce rouge (Passé)",
+      "Tunnel sans fin- De 1m à 5000m",
+      "Train"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ぶんなぐる",
-                "_en": "wallop",
-                "_fr": "coup"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
-                "_en": "[Power: 50/Blow] Deal a big blow",
-                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "火花の術",
-                "_en": "Spark technique",
-                "_fr": "Technique d'étincelle"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 火属性】 火の妖術を使う。",
-                "_en": "[Power: 30 / Fire attribute] Uses fire magic.",
-                "_fr": "[Puissance : 30 / Attribut Feu] Utilise la magie du feu."
-            }
-        }
+    "yw Blasters 1": [
+      "Exclusif au Peloton du chat rougePatrouille - Quartier des boutiques"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "やきモチ拳",
-                "_en": "Yakimochi fist",
-                "_fr": "Poing Yakimochi"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
+    "yw3": [
+      "Quartier des boutiques - Contre-allées rue commerçante"
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "焼きもちをやかせる",
-                "_en": "Speed ​​up baked rice cakes",
-                "_fr": "Accélérez la cuisson des gâteaux de riz"
-            },
-            "explication": {
-                "_jp": "【混乱】 とりつかれた妖怪は味方にまでやきもちを焼き味方をたまにこうげきする。",
-                "_en": "[Confusion] A possessed monster becomes jealous of its allies, and sometimes attacks them.",
-                "_fr": "[Confusion] Un monstre possédé devient jaloux de ses alliés, et les attaque parfois."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "好きになったら 相手が どんなことをしても ヤキモチを焼いてしまう。 こいつに とりつかれると ヤキモチ焼きになっちゃうぞ。",
-            "_en": "When you fall in love with someone, no matter what they do, you end up getting angry. If you get hooked on this guy, you'll end up getting angry.",
-            "_fr": "Quand on tombe amoureux de quelqu’un, quoi qu’il fasse, on finit par se mettre en colère. Si vous devenez accro à ce type, vous finirez par vous mettre en colère."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Puni Puni": [
+      "Stage 57 (Coteau Fleuri)",
+      "Stage 83 (Centre-ville de Granval)",
+      "Stage 121 (Centre-ville de Granval)",
+      "Stage 258 (Vieux Granval)",
+      "Stage 266 (Vieux Granval)",
+      "Stage Secret 3-3 (Égout C)",
+      "Stage Secret 7-6 (Tour Excellence - Lieu d'observation)",
+      "Stage Secret 11-36 (Limbes Éternelles - 3ème Cercle)",
+      "Stage Secret 14-70 (Limbes Éternelles - 6ème Cercle)",
+      "Stage Secret 18-17 (Sanctuaire Divin - 2ème Cercle)",
+      "Stage Secret 21-22 (Sanctuaire Divin - 5ème Cercle)",
+      "Stage Secret 21-37 (Sanctuaire Divin - 5ème Cercle)",
+      "Stage Secret 23-68 (Sanctuaire Divin - 7ème Cercle)",
+      "Bingo-Kai (Pièce joyeuse)",
+      "Bingo-Kai (Pièce mystère)",
+      "Bingo-Kai (Pièce rouge)"
     ]
+  },
+  "rarite": "Peloton du chat rouge",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {},
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "5%",
+        "objet": "Vivez Karaté"
+      },
+      {
+        "taux": "35%",
+        "objet": "Staminum"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "6%",
+        "objet": "Vivez Karaté"
+      },
+      {
+        "taux": "40%",
+        "objet": "Staminum"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "4%",
+        "objet": "Vivez Karaté"
+      },
+      {
+        "taux": "14%",
+        "objet": "Riz à la prune"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Peau rebondie",
+    "description": "Augmente sa défense si gros dégâts reçus."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/mochimacho.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/mochimacho.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/mochimacho.wav",
+  "medallium_ids": {
+    "yw1": "008",
+    "yw2": "015",
+    "yw3": "018"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "015",
+    "yw Blasters 2": "018",
+    "yw Wibble Wobble": "1005",
+    "yw World": "0008",
+    "yw Ukiukipedia": "yw1-001/YD3-002"
+  },
+  "battle_type": "",
+  "skill_name": "Soft Skin yw yw2 Elasticity yw3 ywB",
+  "skill_effect": "Jealousy",
+  "disliked_food": "Milk",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "378",
+        "STR": "177",
+        "SPR": "37",
+        "DEF": "142",
+        "SPD": "91"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "392",
+        "STR": "177",
+        "SPR": "37",
+        "DEF": "142",
+        "SPD": "91"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "415",
+        "STR": "177",
+        "SPR": "47",
+        "DEF": "221",
+        "SPD": "45"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "415",
+        "STR": "177",
+        "SPR": "47",
+        "DEF": "221"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "203-353",
+        "STR": "177",
+        "SPR": "47",
+        "DEF": "221"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "203-353"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "203-353"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "やきモチ",
+      "Yakimochi"
+    ],
+    "Spanish": [
+      "Machimío"
+    ],
+    "French": [
+      "Mochimacho"
+    ],
+    "Italian": [
+      "Miomacho"
+    ],
+    "German": [
+      "Misskunz"
+    ],
+    "Dutch": [
+      "Minochi"
+    ],
+    "Korean": [
+      "시기떡",
+      "Sigitteok"
+    ],
+    "Russian": [
+      "Ревносуш",
+      "Revnosush"
+    ],
+    "Arabic": [
+      "غيران",
+      "Ghayrān"
+    ],
+    "Chinese (Mandarin)": [
+      "嫉妒麻吉",
+      "Jídùmájí"
+    ],
+    "Portuguese (Brazilian)": [
+      "Rob"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "やきモチ"
+    ],
+    "Spanish": [
+      "Machimío"
+    ],
+    "French": [
+      "Mochimacho"
+    ],
+    "Italian": [
+      "Miomacho"
+    ],
+    "German": [
+      "Misskunz"
+    ],
+    "Dutch": [
+      "Minochi"
+    ],
+    "Korean": [
+      "시기떡"
+    ],
+    "Russian": [
+      "Ревносуш"
+    ],
+    "Arabic": [
+      "غيران"
+    ],
+    "Chinese (Mandarin)": [
+      "嫉妒麻吉"
+    ],
+    "Portuguese (Brazilian)": [
+      "Rob Bolinho"
+    ]
+  },
+  "description_en": "When he's in love, he gets overly protective of his partner. He can make you a very jealous person.",
+  "nom_en": "Mochismo",
+  "rang_yww": "D",
+  "tribue_yww": "Isamashi",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "Onigiri",
+  "nourriture_favorite": "Onigiri",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+    "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 49,
+    "str": 26,
+    "spr": 8,
+    "def": 20,
+    "spd": 4
+  },
+  "stats_max_yww": {
+    "hp": 382,
+    "str": 210,
+    "spr": 75,
+    "def": 142,
+    "spd": 40
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "1つ星コイン",
+      "_en": "1 star coin",
+      "_fr": "Pièce d'une étoile"
+    },
+    {
+      "_jp": "お祭りコイン",
+      "_en": "festival coins",
+      "_fr": "pièces de monnaie du festival"
+    },
+    {
+      "_jp": "ファミマコイン",
+      "_en": "Family Mart Coin",
+      "_fr": "Pièce de monnaie du marché familial"
+    },
+    {
+      "_jp": "ドコモコイン1",
+      "_en": "docomo coin 1",
+      "_fr": "pièce docomo 1"
+    },
+    {
+      "_jp": "十五夜コイン",
+      "_en": "jugoya coin",
+      "_fr": "pièce de monnaie jugoya"
+    },
+    {
+      "_jp": "ドコモコイン2",
+      "_en": "docomo coin 2",
+      "_fr": "pièce docomo 2"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ぶんなぐる",
+        "_en": "wallop",
+        "_fr": "coup"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+        "_en": "[Power: 50/Blow] Deal a big blow",
+        "_fr": "[Puissance : 50/Coup] Portez un gros coup"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "火花の術",
+        "_en": "Spark technique",
+        "_fr": "Technique d'étincelle"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 火属性】 火の妖術を使う。",
+        "_en": "[Power: 30 / Fire attribute] Uses fire magic.",
+        "_fr": "[Puissance : 30 / Attribut Feu] Utilise la magie du feu."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "やきモチ拳",
+        "_en": "Yakimochi fist",
+        "_fr": "Poing Yakimochi"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "焼きもちをやかせる",
+        "_en": "Speed ​​up baked rice cakes",
+        "_fr": "Accélérez la cuisson des gâteaux de riz"
+      },
+      "explication": {
+        "_jp": "【混乱】 とりつかれた妖怪は味方にまでやきもちを焼き味方をたまにこうげきする。",
+        "_en": "[Confusion] A possessed monster becomes jealous of its allies, and sometimes attacks them.",
+        "_fr": "[Confusion] Un monstre possédé devient jaloux de ses alliés, et les attaque parfois."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "好きになったら 相手が どんなことをしても ヤキモチを焼いてしまう。 こいつに とりつかれると ヤキモチ焼きになっちゃうぞ。",
+      "_en": "When you fall in love with someone, no matter what they do, you end up getting angry. If you get hooked on this guy, you'll end up getting angry.",
+      "_fr": "Quand on tombe amoureux de quelqu’un, quoi qu’il fasse, on finit par se mettre en colère. Si vous devenez accro à ce type, vous finirez par vous mettre en colère."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "10",
+  "Name_yww": "やきモチ",
+  "description_jp_yww": "好きになったら 相手が　どんなことをしても ヤキモチを焼いてしまう。 こいつに　とりつかれると ヤキモチ焼きになっちゃうぞ。",
+  "BingoMessage_jp_yww": "出してくれてありがとモチ！ 一生ついていくモチ！",
+  "MonsterId_yww": "y105010",
+  "Height_yww": 17.0,
+  "CommondId_yww": "sp_105010",
+  "MinHp_yww": 49,
+  "MaxHp_yww": 382,
+  "MinAttack_yww": 26,
+  "MaxAttack_yww": 210,
+  "MinMagic_yww": 8,
+  "MaxMagic_yww": 75,
+  "MinDefense_yww": 20,
+  "MaxDefense_yww": 142,
+  "MinSpeed_yww": 4,
+  "MaxSpeed_yww": 40,
+  "AttackId_yww": 2,
+  "MagicId_yww": 1,
+  "HauntId_yww": 105010,
+  "SpSkillId_yww": 105010,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 1,
+  "DislikeFoodKind_yww": 4,
+  "ActionType_yww": 3,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y100810.png",
+  "SpriteImage_yww": "img_y100810.png",
+  "Audio_yww": "sp_y100810.wav",
+  "Description_yww": "Quand on tombe amoureux, quoi que fasse l'autre, on finit par être jaloux. Si tu te laisses happer par ce type, tu vas devenir jaloux.",
+  "BingoMessage_fr_yww": "Merci de l'avoir publié, Mochi ! Je te suivrai toute ma vie, Mochi !"
 }

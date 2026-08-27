@@ -1,698 +1,729 @@
 {
-    "ID": "46",
-    "Nom": "Babalance",
-    "Tribue": "Mystérieu",
-    "Rang": "B",
-    "PV": "291",
-    "Force": "80",
-    "Esprit": "233",
-    "Défense": "137",
-    "Vitesse": "139",
-    "Description-": "Seules les Toutouïe qui ont trouvé l'amour avec le heavy-metal pourront se maquiller en squelette et devenir Mémétal.",
-    "Description": "Elle utilise ses énormes enceintes pour diffuser des secrets honteux dans toute la ville. Il vaut mieux être prudent et l'éviter.",
-    "nourriture": "Ramen",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "Babalance est sournoise et n'hésite pas à faire énormement de bruit, en dévoilant des secrets, avec ses enceintes quitte à déranger les gens qui l'entourre. En effet, dans une mission deyw Blasters, les Blasters accompagnés deFaux KappaetSirénéedoivent battre Babalance et un groupe deToutouïecar ceux-ci font trop de bruit.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/babalance.png",
-    "numero": "038",
-    "nourriture_favorite": "Ramen",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Traitement",
-            "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Méga frappe",
-            "effet": "40 | 88"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paradis",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Volume à fond !",
-            "effet": "Lâche ses enceintes et frappe. Peut annuler les Âmultimes ennemies. 160 | 160"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Révélation",
-            "effet": "La faiblesse d'un ennemi est révélée, ce qui fait baisser sa DÉF."
-        }
+  "ID": "46",
+  "Nom": "Babalance",
+  "Tribue": "Mystérieu",
+  "Rang": "B",
+  "PV": "291",
+  "Force": "80",
+  "Esprit": "233",
+  "Défense": "137",
+  "Vitesse": "139",
+  "Description-": "Seules les Toutouïe qui ont trouvé l'amour avec le heavy-metal pourront se maquiller en squelette et devenir Mémétal.",
+  "Description": "Elle utilise ses énormes enceintes pour diffuser des secrets honteux dans toute la ville. Il vaut mieux être prudent et l'éviter.",
+  "nourriture": "Ramen",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "Babalance est sournoise et n'hésite pas à faire énormement de bruit, en dévoilant des secrets, avec ses enceintes quitte à déranger les gens qui l'entourre. En effet, dans une mission deyw Blasters, les Blasters accompagnés deFaux KappaetSirénéedoivent battre Babalance et un groupe deToutouïecar ceux-ci font trop de bruit.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/babalance.png",
+  "numero": "038",
+  "nourriture_favorite": "Ramen",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Traitement",
+      "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Méga frappe",
+      "effet": "40 | 88"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paradis",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Volume à fond !",
+      "effet": "Lâche ses enceintes et frappe. Peut annuler les Âmultimes ennemies. 160 | 160"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Révélation",
+      "effet": "La faiblesse d'un ennemi est révélée, ce qui fait baisser sa DÉF."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "DIS TOUT !",
+    "Mange de la nourriture insipide": "Dis tout.",
+    "Mange de la mauvaise nourriture": "Dis tout...",
+    "A la flemme": "Dis tout...",
+    "Est échangé": "Dis tout, dis tout... (Bonjour, je suis enchantée !)",
+    "Devient ton ami": "Dis tout ! (Je suis sous ton charme !)"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "Général",
+      "de": "Toutouïe",
+      "vers": "Babalance",
+      "critere": "Niveau 23"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ババァーン",
+  "nom_anglais": "Tattlecast",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Fusion"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "DIS TOUT !",
-        "Mange de la nourriture insipide": "Dis tout.",
-        "Mange de la mauvaise nourriture": "Dis tout...",
-        "A la flemme": "Dis tout...",
-        "Est échangé": "Dis tout, dis tout... (Bonjour, je suis enchantée !)",
-        "Devient ton ami": "Dis tout ! (Je suis sous ton charme !)"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "Général",
-            "de": "Toutouïe",
-            "vers": "Babalance",
-            "critere": "Niveau 23"
-        }
+    "yw2": [
+      "Évolution"
     ],
-    "image_locale": "",
-    "nom_original": "ババァーン",
-    "nom_anglais": "Tattlecast",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Fusion"
-        ],
-        "yw2": [
-            "Évolution"
-        ],
-        "yw Blasters 1": [
-            "Évolution",
-            "Patrouille -Coteau fleuri"
-        ],
-        "yw3": [
-            "Évolution"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Méga frappe",
-                "puissance": "40|88",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Volume à fond !",
-                "puissance": "75|165",
-                "description": "Lâche ses enceintes et frappe. Peut annuler les Âmultimes ennemies."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Révélation",
-                "puissance": "N/A",
-                "description": "La faiblesse d'un ennemi est révélée, ce qui fait baisser sa DÉF."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Redonne peu à peu des PV au Yo-kai voisin."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Méga frappe",
-                "puissance": "40|88",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Volume à fond !",
-                "puissance": "160|160",
-                "description": "Lâche ses enceintes et frappe. Peut annuler les Âmultimes ennemies."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Révélation",
-                "puissance": "N/A",
-                "description": "La faiblesse d'un ennemi est révélée, ce qui fait baisser sa DÉF."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Restauration",
-                "puissance": "N/A",
-                "description": "Rend des PV à un Yo-kai. Charge automatiquement."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Redonne peu à peu des PV aux Yo-kai voisins."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée ."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Volume à fond !",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Envoûtement guérisseur",
-                "puissance": "___",
-                "description": "Hausse lente des PV alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Cercle guérisseur",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Les PV des alliés sont restaurés graduellement."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Méga frappe",
-                "puissance": "35|77",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Volume à fond !",
-                "puissance": "100|200",
-                "description": "Pour une raison inconnue, elle jette ses enceintes et gifle l'ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Révélation",
-                "puissance": "N/A",
-                "description": "La faiblesse de l'ennemi est révélée, ce qui fait baisser sa DÉF."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Volume à fond !",
-                "puissance": "400",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque l’ennemi avec une attaque féroce."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. PV rendus + si chargé."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Rend peu à peu des PV à tous les alliés reliés."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Opale"
-            },
-            {
-                "taux": "?%",
-                "objet": "Remède infect"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Anneau féérique"
-            },
-            {
-                "taux": "?%",
-                "objet": "Crêpes nappées"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Ramen deluxe"
-            },
-            {
-                "taux": "?%",
-                "objet": "Carte cadeau musique"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Traitement",
-        "description": "Redonne peu à peu des PV au Yo-kai voisin."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/babalance.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/babalance.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/babalance.wav",
-    "oldID": "46",
-    "medallium_ids": {
-        "yw1": "038",
-        "yw2": "054",
-        "yw3": "093"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "064",
-        "yw Blasters 2": "093",
-        "yw Wibble Wobble": "2009",
-        "yw World": "0032",
-        "yw Ukiukipedia": "yw2-009"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Caring",
-    "skill_effect": "Disclose",
-    "disliked_food": "Bread",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "301",
-                "STR": "113",
-                "SPR": "201",
-                "DEF": "124",
-                "SPD": "170"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "218-380",
-                "STR": "85",
-                "SPR": "238",
-                "DEF": "142",
-                "SPD": "144"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "218-380"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "218-380"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "218-380"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ババァーン",
-            "Babaaān"
-        ],
-        "Spanish": [
-            "Marulleja"
-        ],
-        "French": [
-            "Babalance"
-        ],
-        "Italian": [
-            "Kia-Kia"
-        ],
-        "German": [
-            "Stereoma"
-        ],
-        "Korean": [
-            "까발멈",
-            "Kkabalmeom"
-        ],
-        "Russian": [
-            "Диджей",
-            "Didzhey"
-        ],
-        "Arabic": [
-            "عياطة",
-            "Eayyāṭa"
-        ],
-        "Chinese (Mandarin)": [
-            "擴音婆"
-        ],
-        "Portuguese (Brazilian)": [
-            "DJ"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ババァーン"
-        ],
-        "Spanish": [
-            "Marulleja"
-        ],
-        "French": [
-            "Babalance"
-        ],
-        "Italian": [
-            "Kia-Kia"
-        ],
-        "German": [
-            "Stereoma"
-        ],
-        "Korean": [
-            "까발멈"
-        ],
-        "Russian": [
-            "Диджей Трезвонова"
-        ],
-        "Arabic": [
-            "عياطة"
-        ],
-        "Chinese (Mandarin)": [
-            "擴音婆"
-        ],
-        "Portuguese (Brazilian)": [
-            "DJ Fofoca"
-        ]
-    },
-    "description_en": "She uses her massive speakers to broadcast scandalous secrets to the whole city. Hope they aren't yours!",
-    "nom_en": "Tattletell",
-    "rang_yww": "B",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "ramen",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
-        "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "stats_initiale_yww": {
-        "hp": 42,
-        "str": 12,
-        "spr": 35,
-        "def": 18,
-        "spd": 19
-    },
-    "stats_max_yww": {
-        "hp": 291,
-        "str": 80,
-        "spr": 233,
-        "def": 137,
-        "spd": 139
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw Blasters 1": [
+      "Évolution",
+      "Patrouille -Coteau fleuri"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ぶったたく",
-                "_en": "hit",
-                "_fr": "frapper"
-            },
-            "explication": {
-                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
-                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "極楽の術",
-                "_en": "The art of paradise",
-                "_fr": "L'art du paradis"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "大音量ババァーン！",
-                "_en": "Loud volume!",
-                "_fr": "Fort volume !"
-            },
-            "pouvoir": "100",
-            "explication": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "バクロする",
-                "_en": "make a mistake",
-                "_fr": "se tromper"
-            },
-            "explication": {
-                "_jp": "【まもりダウン】 とりつかれた妖怪は弱点をバクロされ まもりがダウンする。",
-                "_en": "[Mamori Down] The weak point of the possessed monster is revealed and the protection goes down.",
-                "_fr": "[Mamori Down] Le point faible du monstre possédé est révélé et la protection tombe."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "大きなスピーカーで バクロ情報を 町中にぶちまける。 バクロされた人は たまったものじゃない。",
-            "_en": "A large speaker broadcasts background information throughout the town. People who have been exposed are not just people.",
-            "_fr": "Un grand haut-parleur diffuse des informations générales dans toute la ville. Les personnes exposées ne sont pas seulement des personnes."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Évolution"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Méga frappe",
+        "puissance": "40|88",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Volume à fond !",
+        "puissance": "75|165",
+        "description": "Lâche ses enceintes et frappe. Peut annuler les Âmultimes ennemies."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Révélation",
+        "puissance": "N/A",
+        "description": "La faiblesse d'un ennemi est révélée, ce qui fait baisser sa DÉF."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Redonne peu à peu des PV au Yo-kai voisin."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Méga frappe",
+        "puissance": "40|88",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Volume à fond !",
+        "puissance": "160|160",
+        "description": "Lâche ses enceintes et frappe. Peut annuler les Âmultimes ennemies."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Révélation",
+        "puissance": "N/A",
+        "description": "La faiblesse d'un ennemi est révélée, ce qui fait baisser sa DÉF."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Restauration",
+        "puissance": "N/A",
+        "description": "Rend des PV à un Yo-kai. Charge automatiquement."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée ."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Volume à fond !",
+        "puissance": "400",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Envoûtement guérisseur",
+        "puissance": "___",
+        "description": "Hausse lente des PV alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Cercle guérisseur",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Les PV des alliés sont restaurés graduellement."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Méga frappe",
+        "puissance": "35|77",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Volume à fond !",
+        "puissance": "100|200",
+        "description": "Pour une raison inconnue, elle jette ses enceintes et gifle l'ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Révélation",
+        "puissance": "N/A",
+        "description": "La faiblesse de l'ennemi est révélée, ce qui fait baisser sa DÉF."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Volume à fond !",
+        "puissance": "400",
+        "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque l’ennemi avec une attaque féroce."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. PV rendus + si chargé."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Rend peu à peu des PV à tous les alliés reliés."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Opale"
+      },
+      {
+        "taux": "?%",
+        "objet": "Remède infect"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Anneau féérique"
+      },
+      {
+        "taux": "?%",
+        "objet": "Crêpes nappées"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Ramen deluxe"
+      },
+      {
+        "taux": "?%",
+        "objet": "Carte cadeau musique"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Traitement",
+    "description": "Redonne peu à peu des PV au Yo-kai voisin."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/babalance.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/babalance.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/babalance.wav",
+  "oldID": "46",
+  "medallium_ids": {
+    "yw1": "038",
+    "yw2": "054",
+    "yw3": "093"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "064",
+    "yw Blasters 2": "093",
+    "yw Wibble Wobble": "2009",
+    "yw World": "0032",
+    "yw Ukiukipedia": "yw2-009"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Caring",
+  "skill_effect": "Disclose",
+  "disliked_food": "Bread",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "301",
+        "STR": "113",
+        "SPR": "201",
+        "DEF": "124",
+        "SPD": "170"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "218-380",
+        "STR": "85",
+        "SPR": "238",
+        "DEF": "142",
+        "SPD": "144"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "218-380"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "218-380"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "218-380"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ババァーン",
+      "Babaaān"
+    ],
+    "Spanish": [
+      "Marulleja"
+    ],
+    "French": [
+      "Babalance"
+    ],
+    "Italian": [
+      "Kia-Kia"
+    ],
+    "German": [
+      "Stereoma"
+    ],
+    "Korean": [
+      "까발멈",
+      "Kkabalmeom"
+    ],
+    "Russian": [
+      "Диджей",
+      "Didzhey"
+    ],
+    "Arabic": [
+      "عياطة",
+      "Eayyāṭa"
+    ],
+    "Chinese (Mandarin)": [
+      "擴音婆"
+    ],
+    "Portuguese (Brazilian)": [
+      "DJ"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ババァーン"
+    ],
+    "Spanish": [
+      "Marulleja"
+    ],
+    "French": [
+      "Babalance"
+    ],
+    "Italian": [
+      "Kia-Kia"
+    ],
+    "German": [
+      "Stereoma"
+    ],
+    "Korean": [
+      "까발멈"
+    ],
+    "Russian": [
+      "Диджей Трезвонова"
+    ],
+    "Arabic": [
+      "عياطة"
+    ],
+    "Chinese (Mandarin)": [
+      "擴音婆"
+    ],
+    "Portuguese (Brazilian)": [
+      "DJ Fofoca"
+    ]
+  },
+  "description_en": "She uses her massive speakers to broadcast scandalous secrets to the whole city. Hope they aren't yours!",
+  "nom_en": "Tattletell",
+  "rang_yww": "B",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "ramen",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
+    "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "avantage_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "stats_initiale_yww": {
+    "hp": 42,
+    "str": 12,
+    "spr": 35,
+    "def": 18,
+    "spd": 19
+  },
+  "stats_max_yww": {
+    "hp": 291,
+    "str": 80,
+    "spr": 233,
+    "def": 137,
+    "spd": 139
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "ホワイトデー妖怪ガシャ",
+      "_en": "White Day Yokai Gasha",
+      "_fr": "Jour blanc Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    },
+    {
+      "_jp": "春一番妖怪ガシャ",
+      "_en": "Spring Ichiban Yokai Gasha",
+      "_fr": "Printemps Ichiban Yokai Gasha"
+    },
+    {
+      "_jp": "桜花ランラン妖怪ガシャ",
+      "_en": "Sakura Ranran Yokai Gasha",
+      "_fr": "Sakura Ranran Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "電車でお出かけ妖怪ガシャ",
+      "_en": "Going out by train Yokai Gasha",
+      "_fr": "Sortir en train Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "GW妖怪バトルリーグガシャ",
+      "_en": "GW Yokai Battle League Gasha",
+      "_fr": "GW Yokai Battle League Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ぶったたく",
+        "_en": "hit",
+        "_fr": "frapper"
+      },
+      "explication": {
+        "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
+        "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "極楽の術",
+        "_en": "The art of paradise",
+        "_fr": "L'art du paradis"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "大音量ババァーン！",
+        "_en": "Loud volume!",
+        "_fr": "Fort volume !"
+      },
+      "pouvoir": "100",
+      "explication": {
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "バクロする",
+        "_en": "make a mistake",
+        "_fr": "se tromper"
+      },
+      "explication": {
+        "_jp": "【まもりダウン】 とりつかれた妖怪は弱点をバクロされ まもりがダウンする。",
+        "_en": "[Mamori Down] The weak point of the possessed monster is revealed and the protection goes down.",
+        "_fr": "[Mamori Down] Le point faible du monstre possédé est révélé et la protection tombe."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "大きなスピーカーで バクロ情報を 町中にぶちまける。 バクロされた人は たまったものじゃない。",
+      "_en": "A large speaker broadcasts background information throughout the town. People who have been exposed are not just people.",
+      "_fr": "Un grand haut-parleur diffuse des informations générales dans toute la ville. Les personnes exposées ne sont pas seulement des personnes."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "46",
+  "Name_yww": "ババァーン",
+  "description_jp_yww": "大きなスピーカーで バクロ情報を 町中にぶちまける。 バクロされた人は たまったものじゃない。",
+  "BingoMessage_jp_yww": "ババーン！！ （今日から　ここでお世話になるよ！）",
+  "MonsterId_yww": "y126000",
+  "Height_yww": 7.0,
+  "CommondId_yww": "sp_126000",
+  "MinHp_yww": 42,
+  "MaxHp_yww": 291,
+  "MinAttack_yww": 12,
+  "MaxAttack_yww": 80,
+  "MinMagic_yww": 35,
+  "MaxMagic_yww": 233,
+  "MinDefense_yww": 18,
+  "MaxDefense_yww": 137,
+  "MinSpeed_yww": 19,
+  "MaxSpeed_yww": 139,
+  "AttackId_yww": 47,
+  "MagicId_yww": 24,
+  "HauntId_yww": 126000,
+  "SpSkillId_yww": 126000,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 7,
+  "DislikeFoodKind_yww": 2,
+  "ActionType_yww": 14,
+  "TribeType_yww": 2,
+  "MedallionImage_yww": "y121800.png",
+  "SpriteImage_yww": "img_y121800.png",
+  "Audio_yww": "sp_y121800.wav",
+  "Description_yww": "À l'aide de gros haut-parleurs, on diffuse des informations compromettantes dans toute la ville. Pour ceux qui sont ainsi mis au pilori, c'est vraiment insupportable.",
+  "BingoMessage_fr_yww": "Bam !! (À partir d'aujourd'hui, je vais passer du temps ici !)"
 }

@@ -1,660 +1,691 @@
 {
-    "ID": "203",
-    "Nom": "Belzel",
-    "Tribue": "Sombre",
-    "Rang": "A",
-    "PV": "425",
-    "Force": "235",
-    "Esprit": "71",
-    "Défense": "117",
-    "Vitesse": "194",
-    "Description": "Timidémon a vaincu sa peur, et il est devenu surpuissant malgré ses petits moments de stress.",
-    "nourriture": "Ramen",
-    "élément": "Feu",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Belzel vient de Belzébuth, un démon, et de belles ailes.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Les personnes qu'il envoûte se montrent très dures et fermes, mais deviennent lâches et couardes s'ils perdent.",
-    "personnalité": "Contrairement àTimidémon, Belzel est très courageux, mais il montre parfois une certaine lâcheté au combat, comme après une défaite totale.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/belzel.png",
-    "numero": "158",
-    "nourriture_favorite": "Ramen",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Intimidation",
-            "effet": "Aucun Yo-kai ne flânera."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Rafale de coups",
-            "effet": "10x5 | 22x5"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Brasier",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Vil sortilège",
-            "effet": "Maudit ses ennemis à l'aide d'un sort qui fait baisser les PV graduellement. 140 | 140"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poule mouillée",
-            "effet": "Transforme l'ennemi en poule mouillée qui ne veut plus se battre."
-        }
+  "ID": "203",
+  "Nom": "Belzel",
+  "Tribue": "Sombre",
+  "Rang": "A",
+  "PV": "425",
+  "Force": "235",
+  "Esprit": "71",
+  "Défense": "117",
+  "Vitesse": "194",
+  "Description": "Timidémon a vaincu sa peur, et il est devenu surpuissant malgré ses petits moments de stress.",
+  "nourriture": "Ramen",
+  "élément": "Feu",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Belzel vient de Belzébuth, un démon, et de belles ailes.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Les personnes qu'il envoûte se montrent très dures et fermes, mais deviennent lâches et couardes s'ils perdent.",
+  "personnalité": "Contrairement àTimidémon, Belzel est très courageux, mais il montre parfois une certaine lâcheté au combat, comme après une défaite totale.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/belzel.png",
+  "numero": "158",
+  "nourriture_favorite": "Ramen",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Intimidation",
+      "effet": "Aucun Yo-kai ne flânera."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Rafale de coups",
+      "effet": "10x5 | 22x5"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Brasier",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Vil sortilège",
+      "effet": "Maudit ses ennemis à l'aide d'un sort qui fait baisser les PV graduellement. 140 | 140"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poule mouillée",
+      "effet": "Transforme l'ennemi en poule mouillée qui ne veut plus se battre."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Oooh, miam !",
+    "Mange de la nourriture insipide": "Euh...",
+    "Mange de la mauvaise nourriture": "Va-t'en !",
+    "A la flemme": "Euh, pas encore...",
+    "Est échangé": "Hmm... Un peu plus de malice ne serait pas de trop par ici. Mouahah ! *tousse*",
+    "Devient ton ami": "Tu es digne de mon amitié. Ça te dit ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Timidémon",
+      "parent2": "Éclat démoniaque",
+      "resultat": "Belzel",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "デビビラン",
+  "nom_anglais": "Beelzebold",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "FusionnerTimidémonavec unéclat démoniaque, donné par Belzel à laMontagne du menteurdans leYo-kai Worldsi vous terminez sa quête,Belzel fait du zèle !, consistant en le battre à un combat ; l'objet peut également être obtenu pendant laTerr'heuresi la quête a été terminée au préalable.",
+      "Belzel peut également apparaître rarement dans les poubelles de la Rue de l'école, dans leCentre-Ville de Granval."
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Oooh, miam !",
-        "Mange de la nourriture insipide": "Euh...",
-        "Mange de la mauvaise nourriture": "Va-t'en !",
-        "A la flemme": "Euh, pas encore...",
-        "Est échangé": "Hmm... Un peu plus de malice ne serait pas de trop par ici. Mouahah ! *tousse*",
-        "Devient ton ami": "Tu es digne de mon amitié. Ça te dit ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Timidémon",
-            "parent2": "Éclat démoniaque",
-            "resultat": "Belzel",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Fusionner Timidémon avec un éclat démoniaque, qui peut être obtenu dans leBingo-kai oni, après laTerr'heureou une mission dumode Blasters."
     ],
-    "image_locale": "",
-    "nom_original": "デビビラン",
-    "nom_anglais": "Beelzebold",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "FusionnerTimidémonavec unéclat démoniaque, donné par Belzel à laMontagne du menteurdans leYo-kai Worldsi vous terminez sa quête,Belzel fait du zèle !, consistant en le battre à un combat ; l'objet peut également être obtenu pendant laTerr'heuresi la quête a été terminée au préalable.",
-            "Belzel peut également apparaître rarement dans les poubelles de la Rue de l'école, dans leCentre-Ville de Granval."
-        ],
-        "yw2": [
-            "Fusionner Timidémon avec un éclat démoniaque, qui peut être obtenu dans leBingo-kai oni, après laTerr'heureou une mission dumode Blasters."
-        ],
-        "yw Blasters 1": [
-            "Fusionner Timidémon avec un éclat démoniaque."
-        ],
-        "yw3": [
-            "Fusionner Timidémon avec un éclat démoniaque."
-        ],
-        "yw Puni Puni": [
-            "Belzel est disponible dans laPièce bleue Gou dans laSuper pile ou passe S. Il peut également être obtenu en fusionnant Timidémon avec un éclat démoniaque."
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "10×5|22×5",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Brasier",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Vil sortilège",
-                "puissance": "140|140",
-                "description": "Maudit ses ennemis à l'aide d'un sort qui fait baisser les PV."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Poule mouillée",
-                "puissance": "N/A",
-                "description": "Transforme l'ennemi en poule mouillée qui ne veut plus se battre."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Intimidation",
-                "description": "Aucun Yo-kai ne flânera."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "10×5|22×5",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Brasier",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Vil sortilège",
-                "puissance": "140|140",
-                "description": "Maudit ses ennemis à l'aide d'un sort qui fait baisser les PV graduellement."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Poule mouillée",
-                "puissance": "N/A",
-                "description": "Transforme l'ennemi en poule mouillée qui ne veut plus se battre."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Intimidation",
-                "description": "Aucun Yo-kai ne flânera."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Vil sortilège",
-                "puissance": "___",
-                "description": "PV des ennemis baissent rapidement."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Attaque précipitée",
-                "puissance": "80",
-                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Envoût. poison",
-                "puissance": "___",
-                "description": "Baisse lente PV ennemis. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Contre",
-                "puissance": "___",
-                "description": "Repousse les attaques et contre-attaque."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Instant critique",
-                "description": "Hausse de puissance des coups critiques."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "8×5|17×5",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Brasier",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Vil sortilège",
-                "puissance": "74|74",
-                "description": "Maudit les ennemis à portée, avec un sort qui baisse peu à peu leurs PV."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Frayeur",
-                "puissance": "N/A",
-                "description": "Transforme l'ennemi en poule mouillée qui ne veut plus se battre."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Intimidation",
-                "description": "Aucun Yo-kai ne flânera."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Intimidation",
-        "description": "Aucun Yo-kai ne flânera."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/belzel.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/belzel.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/belzel.wav",
-    "oldID": "202",
-    "medallium_ids": {
-        "yw1": "158",
-        "yw2": "237",
-        "yw3": "435"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "287",
-        "yw Blasters 2": "448",
-        "yw Wibble Wobble": "6014",
-        "yw World": "0135",
-        "yw Ukiukipedia": "yw3-022"
-    },
-    "battle_type": "",
-    "skill_name": "Intimidation",
-    "skill_effect": "Scaredy-Cat yw yw2 Frighten yw3",
-    "disliked_food": "Seafood",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "359",
-                "STR": "213",
-                "SPR": "158",
-                "DEF": "172",
-                "SPD": "184"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "435",
-                "STR": "213",
-                "SPR": "158",
-                "DEF": "172",
-                "SPD": "184"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "380-665",
-                "STR": "240",
-                "SPR": "76",
-                "DEF": "122",
-                "SPD": "199"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "380-665"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "380-665"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "380-665"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "デビビラン",
-            "Debibiran"
-        ],
-        "Spanish": [
-            "Osademonio"
-        ],
-        "French": [
-            "Belzel"
-        ],
-        "Italian": [
-            "Prodemone"
-        ],
-        "German": [
-            "Muzifer"
-        ],
-        "Korean": [
-            "안쫄데빌",
-            "Anjjoldebil"
-        ],
-        "Russian": [
-            "Дерзобес",
-            "Derzobes"
-        ],
-        "Arabic": [
-            "ساكن",
-            "Sākin"
-        ],
-        "Chinese (Mandarin)": [
-            "無畏惡魔"
-        ],
-        "Portuguese (Brazilian)": [
-            "Diabousado"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "デビビラン"
-        ],
-        "Spanish": [
-            "Osademonio"
-        ],
-        "French": [
-            "Belzel"
-        ],
-        "Italian": [
-            "Prodemone"
-        ],
-        "German": [
-            "Muzifer"
-        ],
-        "Korean": [
-            "안쫄데빌"
-        ],
-        "Russian": [
-            "Дерзобес"
-        ],
-        "Arabic": [
-            "ساكن"
-        ],
-        "Chinese (Mandarin)": [
-            "無畏惡魔"
-        ],
-        "Portuguese (Brazilian)": [
-            "Diabousado"
-        ]
-    },
-    "description_en": "Timidevil at full power! He still gets nervous every so often, though.",
-    "nom_en": "Tantroni",
-    "rang_yww": "S",
-    "tribue_yww": "Usurakage",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "ramen",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 51,
-        "str": 37,
-        "spr": 10,
-        "def": 17,
-        "spd": 31
-    },
-    "stats_max_yww": {
-        "hp": 425,
-        "str": 235,
-        "spr": 71,
-        "def": 117,
-        "spd": 194
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw Blasters 1": [
+      "Fusionner Timidémon avec un éclat démoniaque."
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "疾風づき",
-                "_en": "Gale",
-                "_fr": "Coup de vent"
-            },
-            "explication": {
-                "_jp": "【威力:8×5 / 打撃】 連続攻撃を行う",
-                "_en": "[Power: 8×5/Blow] Performs continuous attacks",
-                "_fr": "[Puissance : 8×5/Coup] Effectue des attaques continues"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "れんごくの術",
-                "_en": "Rengoku no Jutsu",
-                "_fr": "Rengoku no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 火属性】 強力な火の妖術を使う。",
-                "_en": "[Power: 70 / Fire attribute] Uses powerful fire magic.",
-                "_fr": "[Puissance : 70 / Attribut Feu] Utilise une puissante magie du feu."
-            }
-        }
+    "yw3": [
+      "Fusionner Timidémon avec un éclat démoniaque."
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "デビラカダブラ",
-                "_en": "Devilacadabra",
-                "_fr": "Diableacadabra"
-            },
-            "pouvoir": "74",
-            "explication": {
-                "_jp": "凶悪な呪文を敵全体にあびせ HPをだんだん減らす効果もある",
-                "_en": "It also has the effect of casting a brutal spell on all enemies and gradually reducing their HP.",
-                "_fr": "Cela a également pour effet de lancer un sort brutal sur tous les ennemis et de réduire progressivement leurs PV."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "びびらせる",
-                "_en": "frighten",
-                "_fr": "effrayer"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 とりつかれた妖怪は超ビビリになってなかなか行動しなくなる。",
-                "_en": "[Osabori] A possessed monster becomes extremely nervous and becomes inactive.",
-                "_fr": "[Osabori] Un monstre possédé devient extrêmement nerveux et devient inactif."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "デビビルの ビビりな心がなくなり 最強の力を手にした悪魔。 まだ ふとした瞬間 昔に戻ることもある。",
-            "_en": "Devil Bill's fearful heart is gone and he gains the most powerful power. There are still moments when I go back in time.",
-            "_fr": "Le cœur craintif de Devil Bill a disparu et il acquiert le pouvoir le plus puissant. Il y a encore des moments où je remonte le temps."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Puni Puni": [
+      "Belzel est disponible dans laPièce bleue Gou dans laSuper pile ou passe S. Il peut également être obtenu en fusionnant Timidémon avec un éclat démoniaque."
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Rafale de coups",
+        "puissance": "10×5|22×5",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Brasier",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Vil sortilège",
+        "puissance": "140|140",
+        "description": "Maudit ses ennemis à l'aide d'un sort qui fait baisser les PV."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Poule mouillée",
+        "puissance": "N/A",
+        "description": "Transforme l'ennemi en poule mouillée qui ne veut plus se battre."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Intimidation",
+        "description": "Aucun Yo-kai ne flânera."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Rafale de coups",
+        "puissance": "10×5|22×5",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Brasier",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Vil sortilège",
+        "puissance": "140|140",
+        "description": "Maudit ses ennemis à l'aide d'un sort qui fait baisser les PV graduellement."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Poule mouillée",
+        "puissance": "N/A",
+        "description": "Transforme l'ennemi en poule mouillée qui ne veut plus se battre."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Intimidation",
+        "description": "Aucun Yo-kai ne flânera."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Vil sortilège",
+        "puissance": "___",
+        "description": "PV des ennemis baissent rapidement."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Attaque précipitée",
+        "puissance": "80",
+        "description": "Attaque en faisant face à l'ennemi et fonce dessus."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Envoût. poison",
+        "puissance": "___",
+        "description": "Baisse lente PV ennemis. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Contre",
+        "puissance": "___",
+        "description": "Repousse les attaques et contre-attaque."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Instant critique",
+        "description": "Hausse de puissance des coups critiques."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Rafale de coups",
+        "puissance": "8×5|17×5",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Brasier",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Vil sortilège",
+        "puissance": "74|74",
+        "description": "Maudit les ennemis à portée, avec un sort qui baisse peu à peu leurs PV."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Frayeur",
+        "puissance": "N/A",
+        "description": "Transforme l'ennemi en poule mouillée qui ne veut plus se battre."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Intimidation",
+        "description": "Aucun Yo-kai ne flânera."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Intimidation",
+    "description": "Aucun Yo-kai ne flânera."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/belzel.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/belzel.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/belzel.wav",
+  "oldID": "202",
+  "medallium_ids": {
+    "yw1": "158",
+    "yw2": "237",
+    "yw3": "435"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "287",
+    "yw Blasters 2": "448",
+    "yw Wibble Wobble": "6014",
+    "yw World": "0135",
+    "yw Ukiukipedia": "yw3-022"
+  },
+  "battle_type": "",
+  "skill_name": "Intimidation",
+  "skill_effect": "Scaredy-Cat yw yw2 Frighten yw3",
+  "disliked_food": "Seafood",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "359",
+        "STR": "213",
+        "SPR": "158",
+        "DEF": "172",
+        "SPD": "184"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "435",
+        "STR": "213",
+        "SPR": "158",
+        "DEF": "172",
+        "SPD": "184"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "380-665",
+        "STR": "240",
+        "SPR": "76",
+        "DEF": "122",
+        "SPD": "199"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "380-665"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "380-665"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "380-665"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "デビビラン",
+      "Debibiran"
+    ],
+    "Spanish": [
+      "Osademonio"
+    ],
+    "French": [
+      "Belzel"
+    ],
+    "Italian": [
+      "Prodemone"
+    ],
+    "German": [
+      "Muzifer"
+    ],
+    "Korean": [
+      "안쫄데빌",
+      "Anjjoldebil"
+    ],
+    "Russian": [
+      "Дерзобес",
+      "Derzobes"
+    ],
+    "Arabic": [
+      "ساكن",
+      "Sākin"
+    ],
+    "Chinese (Mandarin)": [
+      "無畏惡魔"
+    ],
+    "Portuguese (Brazilian)": [
+      "Diabousado"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "デビビラン"
+    ],
+    "Spanish": [
+      "Osademonio"
+    ],
+    "French": [
+      "Belzel"
+    ],
+    "Italian": [
+      "Prodemone"
+    ],
+    "German": [
+      "Muzifer"
+    ],
+    "Korean": [
+      "안쫄데빌"
+    ],
+    "Russian": [
+      "Дерзобес"
+    ],
+    "Arabic": [
+      "ساكن"
+    ],
+    "Chinese (Mandarin)": [
+      "無畏惡魔"
+    ],
+    "Portuguese (Brazilian)": [
+      "Diabousado"
+    ]
+  },
+  "description_en": "Timidevil at full power! He still gets nervous every so often, though.",
+  "nom_en": "Tantroni",
+  "rang_yww": "S",
+  "tribue_yww": "Usurakage",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "ramen",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 51,
+    "str": 37,
+    "spr": 10,
+    "def": 17,
+    "spd": 31
+  },
+  "stats_max_yww": {
+    "hp": 425,
+    "str": 235,
+    "spr": 71,
+    "def": 117,
+    "spd": 194
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "ホワイトデー妖怪ガシャ",
+      "_en": "White Day Yokai Gasha",
+      "_fr": "Jour blanc Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    },
+    {
+      "_jp": "春一番妖怪ガシャ",
+      "_en": "Spring Ichiban Yokai Gasha",
+      "_fr": "Printemps Ichiban Yokai Gasha"
+    },
+    {
+      "_jp": "桜花ランラン妖怪ガシャ",
+      "_en": "Sakura Ranran Yokai Gasha",
+      "_fr": "Sakura Ranran Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "電車でお出かけ妖怪ガシャ",
+      "_en": "Going out by train Yokai Gasha",
+      "_fr": "Sortir en train Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "GW妖怪バトルリーグガシャ",
+      "_en": "GW Yokai Battle League Gasha",
+      "_fr": "GW Yokai Battle League Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "疾風づき",
+        "_en": "Gale",
+        "_fr": "Coup de vent"
+      },
+      "explication": {
+        "_jp": "【威力:8×5 / 打撃】 連続攻撃を行う",
+        "_en": "[Power: 8×5/Blow] Performs continuous attacks",
+        "_fr": "[Puissance : 8×5/Coup] Effectue des attaques continues"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "れんごくの術",
+        "_en": "Rengoku no Jutsu",
+        "_fr": "Rengoku no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 火属性】 強力な火の妖術を使う。",
+        "_en": "[Power: 70 / Fire attribute] Uses powerful fire magic.",
+        "_fr": "[Puissance : 70 / Attribut Feu] Utilise une puissante magie du feu."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "デビラカダブラ",
+        "_en": "Devilacadabra",
+        "_fr": "Diableacadabra"
+      },
+      "pouvoir": "74",
+      "explication": {
+        "_jp": "凶悪な呪文を敵全体にあびせ HPをだんだん減らす効果もある",
+        "_en": "It also has the effect of casting a brutal spell on all enemies and gradually reducing their HP.",
+        "_fr": "Cela a également pour effet de lancer un sort brutal sur tous les ennemis et de réduire progressivement leurs PV."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "びびらせる",
+        "_en": "frighten",
+        "_fr": "effrayer"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 とりつかれた妖怪は超ビビリになってなかなか行動しなくなる。",
+        "_en": "[Osabori] A possessed monster becomes extremely nervous and becomes inactive.",
+        "_fr": "[Osabori] Un monstre possédé devient extrêmement nerveux et devient inactif."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "デビビルの ビビりな心がなくなり 最強の力を手にした悪魔。 まだ ふとした瞬間 昔に戻ることもある。",
+      "_en": "Devil Bill's fearful heart is gone and he gains the most powerful power. There are still moments when I go back in time.",
+      "_fr": "Le cœur craintif de Devil Bill a disparu et il acquiert le pouvoir le plus puissant. Il y a encore des moments où je remonte le temps."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "203",
+  "Name_yww": "デビビラン",
+  "description_jp_yww": "デビビルの ビビりな心がなくなり 最強の力を手にした悪魔。 まだ　ふとした瞬間 昔に戻ることもある。",
+  "BingoMessage_jp_yww": "フン　お前のような雑魚ごときが ともだちなど…！　なってもいいけど…",
+  "MonsterId_yww": "y209000",
+  "Height_yww": 14.0,
+  "CommondId_yww": "sp_209000",
+  "MinHp_yww": 51,
+  "MaxHp_yww": 425,
+  "MinAttack_yww": 37,
+  "MaxAttack_yww": 235,
+  "MinMagic_yww": 10,
+  "MaxMagic_yww": 71,
+  "MinDefense_yww": 17,
+  "MaxDefense_yww": 117,
+  "MinSpeed_yww": 31,
+  "MaxSpeed_yww": 194,
+  "AttackId_yww": 15,
+  "MagicId_yww": 3,
+  "HauntId_yww": 209000,
+  "SpSkillId_yww": 209000,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 7,
+  "DislikeFoodKind_yww": 12,
+  "ActionType_yww": 4,
+  "TribeType_yww": 6,
+  "MedallionImage_yww": "y204800.png",
+  "SpriteImage_yww": "img_y204800.png",
+  "Audio_yww": "sp_y204800.wav",
+  "Description_yww": "Un démon qui, après s'être débarrassé de sa nature peureuse, a acquis une puissance inégalée. Il lui arrive encore, à certains moments, de retomber dans ses anciennes habitudes.",
+  "BingoMessage_fr_yww": "Pfff ! Une minable comme toi comme amie… ! Bon, d'accord, ça ne me dérangerait pas…"
 }

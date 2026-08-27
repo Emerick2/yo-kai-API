@@ -1,343 +1,374 @@
 {
-    "ID": "710",
-    "Nom": "Néfertyrannie",
-    "Tribue": "Mignon",
-    "Rang": "S",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "Ceux qui tombent sous le charme de ce Yo-kai sont prêts à tout pour elle.",
-    "nourriture": "Légume",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/nefertyrannie.png",
-    "nom_original": "クレクレパトラ",
-    "nom_anglais": "Meopatra",
-    "premiere_apparition": "",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw3": [
-            "Blasters T- Jardin Suspendu - Néfertyrannie",
-            "Bingo-kai/Roue Rêve-Pièce de trésor- 1er Prix"
-        ],
-        "yw Wibble Wobble": [
-            "Stage Secret :Événement - Idol Royal , En direct du feu de camp de la mort",
-            "Événement - Idol Royal , En direct du feu de camp de la mort"
-        ]
-    },
-    "fusions": [],
-    "rarite": "Trésor Icône",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "15×2|52×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Attention touchante",
-                "puissance": "100|200",
-                "description": "Contraint les ennemis à portée à donner leurs PV et partager avec les alliés."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Traîtrise du sphinx",
-                "puissance": "N/A",
-                "description": "L'ennemi veut ce que ses alliés ont. Il se met à les attaquer."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Extorsion",
-                "description": "Vole un objet à chaque attaque."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Extorsion",
-        "description": "Vole un objet à chaque attaque."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/nefertyrannie.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/nefertyrannie.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/nefertyrannie.wav",
-    "oldID": "722",
-    "medallium_ids": {
-        "yw3": "695"
-    },
-    "spinoff_ids": {
-        "yw Blasters 2": "719",
-        "yw Wibble Wobble": "4131",
-        "yw Ukiukipedia": "YD7-028"
-    },
-    "battle_type": "Treasure",
-    "skill_name": "Gimme Gimme",
-    "skill_effect": "Spiteful Sphinx",
-    "disliked_food": "Pizza",
-    "global_stats": {
-        "yw3": {
-            "stats": {
-                "HP": "370",
-                "STR": "184",
-                "SPR": "184",
-                "DEF": "169",
-                "SPD": "236"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "219-400",
-                "STR": "184",
-                "SPR": "184",
-                "DEF": "169"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "219-400"
-            },
-            "elements": {},
-            "attacks": [
-                {
-                    "type": "Attack",
-                    "name": "Attack",
-                    "power": "50",
-                    "attribute": "Attack",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Attack Boost",
-                    "power": "-",
-                    "attribute": "Attack boost",
-                    "range": "Single ally, Area (Charged)"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Paradise",
-                    "power": "-",
-                    "attribute": "Paradise Icon",
-                    "range": "Single ally"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Tornado",
-                    "power": "50, 160 (Charged)",
-                    "attribute": "Tornado",
-                    "range": "Single Enemy, Area (Charged)"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Big Attack Boost",
-                    "power": "-",
-                    "attribute": "Big Attack Boost Icon",
-                    "range": "Single ally, Area (Charged)"
-                },
-                {
-                    "type": "Soultimate Move",
-                    "name": "Passionate Regard",
-                    "power": "200 x 2",
-                    "attribute": "Drain",
-                    "range": "Area"
-                },
-                {
-                    "type": "Skill",
-                    "name": "Greed",
-                    "power": "N/A",
-                    "attribute": "None",
-                    "range": "Self"
-                }
-            ]
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "219-400"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "クレクレパトラKurekurepatora"
-        ],
-        "Spanish": [
-            "Miopatra"
-        ],
-        "French": [
-            "Néfertyrannie"
-        ],
-        "Italian": [
-            "Miopatra"
-        ],
-        "German": [
-            "Egopatra"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "クレクレパトラKurekurepatora"
-        ],
-        "Spanish": [
-            "Miopatra"
-        ],
-        "French": [
-            "Néfertyrannie"
-        ],
-        "Italian": [
-            "Miopatra"
-        ],
-        "German": [
-            "Egopatra"
-        ]
-    },
-    "description_en": "Those who fall for this beautiful Yo-kai's charms are willing to do anything in her service.",
-    "nom_en": "Indiana Jaws",
-    "rang_yww": "S",
-    "tribue_yww": "プリチー族",
-    "rôle_yww": "ヒーラー",
-    "plat_préféré_yww": "野菜",
-    "nourriture_favorite": "野菜",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
-        "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {
-        "hp": 50,
-        "str": 23,
-        "spr": 23,
-        "def": 19,
-        "spd": 34
-    },
-    "stats_max_yww": {
-        "hp": 403,
-        "str": 203,
-        "spr": 219,
-        "def": 187,
-        "spd": 236
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        }
+  "ID": "710",
+  "Nom": "Néfertyrannie",
+  "Tribue": "Mignon",
+  "Rang": "S",
+  "PV": 375,
+  "Force": 81,
+  "Esprit": 180,
+  "Défense": 43,
+  "Vitesse": 213,
+  "Description": "Ceux qui tombent sous le charme de ce Yo-kai sont prêts à tout pour elle.",
+  "nourriture": "Légume",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/nefertyrannie.png",
+  "nom_original": "クレクレパトラ",
+  "nom_anglais": "Meopatra",
+  "premiere_apparition": "",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw3": [
+      "Blasters T- Jardin Suspendu - Néfertyrannie",
+      "Bingo-kai/Roue Rêve-Pièce de trésor- 1er Prix"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "こうげき",
-                "_fr": "こうげき"
-            },
-            "nom": {
-                "_jp": "するどいつめ",
-                "_en": "するどいつめ",
-                "_fr": "するどいつめ"
-            },
-            "explication": {
-                "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
-                "_en": "【威力:15×2 / 打撃】 2回攻撃を行う",
-                "_fr": "【威力:15×2 / 打撃】 2回攻撃を行う"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "ようじゅつ",
-                "_fr": "ようじゅつ"
-            },
-            "nom": {
-                "_jp": "極楽の術",
-                "_en": "極楽の術",
-                "_fr": "極楽の術"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "クレクレ欲しがり熱線",
-                "_en": "クレクレ欲しがり熱線",
-                "_fr": "クレクレ欲しがり熱線"
-            },
-            "pouvoir": "100",
-            "explication": {
-                "_jp": "逃れられないおねだりで 範囲内のHPを吸収し 味方全員に分け与える。",
-                "_en": "With an inescapable request, it absorbs HP within range and distributes it to all allies.",
-                "_fr": "Avec une demande incontournable, il absorbe les HP à portée et les distribue à tous les alliés."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "なんでも欲しがらせる",
-                "_en": "make you want anything",
-                "_fr": "te donne envie de n'importe quoi"
-            },
-            "explication": {
-                "_jp": "【混乱】 とりつかれた妖怪は味方の物を欲しがり 味方をたまにこうげきする。",
-                "_en": "【混乱】 とりつかれた妖怪は味方の物を欲しがり 味方をたまにこうげきする。",
-                "_fr": "【混乱】 とりつかれた妖怪は味方の物を欲しがり 味方をたまにこうげきする。"
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "妖怪ワールドの三大美女妖怪の １人。クレクレパトラが 欲しがって手に入らないものは 何もない。彼女に魅入られた ものは魂までも捧げてしまう。",
-            "_en": "One of the three most beautiful Yokai in the Yokai World. There is nothing that Kureklepatra wants that she cannot have. Those who are charmed by her will even give their souls to her.",
-            "_fr": "L'un des trois plus beaux Yokai du monde Yokai. Il n’y a rien que Kureklepatra veuille qu’elle ne puisse avoir. Ceux qui sont charmés par elle lui donneront même leur âme."
-        }
+    "yw Wibble Wobble": [
+      "Stage Secret :Événement - Idol Royal , En direct du feu de camp de la mort",
+      "Événement - Idol Royal , En direct du feu de camp de la mort"
     ]
+  },
+  "fusions": [],
+  "rarite": "Trésor Icône",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Griffes acérées",
+        "puissance": "15×2|52×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Attention touchante",
+        "puissance": "100|200",
+        "description": "Contraint les ennemis à portée à donner leurs PV et partager avec les alliés."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Traîtrise du sphinx",
+        "puissance": "N/A",
+        "description": "L'ennemi veut ce que ses alliés ont. Il se met à les attaquer."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Extorsion",
+        "description": "Vole un objet à chaque attaque."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Extorsion",
+    "description": "Vole un objet à chaque attaque."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/nefertyrannie.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/nefertyrannie.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/nefertyrannie.wav",
+  "oldID": "722",
+  "medallium_ids": {
+    "yw3": "695"
+  },
+  "spinoff_ids": {
+    "yw Blasters 2": "719",
+    "yw Wibble Wobble": "4131",
+    "yw Ukiukipedia": "YD7-028"
+  },
+  "battle_type": "Treasure",
+  "skill_name": "Gimme Gimme",
+  "skill_effect": "Spiteful Sphinx",
+  "disliked_food": "Pizza",
+  "global_stats": {
+    "yw3": {
+      "stats": {
+        "HP": "370",
+        "STR": "184",
+        "SPR": "184",
+        "DEF": "169",
+        "SPD": "236"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "219-400",
+        "STR": "184",
+        "SPR": "184",
+        "DEF": "169"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "219-400"
+      },
+      "elements": {},
+      "attacks": [
+        {
+          "type": "Attack",
+          "name": "Attack",
+          "power": "50",
+          "attribute": "Attack",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Attack Boost",
+          "power": "-",
+          "attribute": "Attack boost",
+          "range": "Single ally, Area (Charged)"
+        },
+        {
+          "type": "Technique",
+          "name": "Paradise",
+          "power": "-",
+          "attribute": "Paradise Icon",
+          "range": "Single ally"
+        },
+        {
+          "type": "Technique",
+          "name": "Tornado",
+          "power": "50, 160 (Charged)",
+          "attribute": "Tornado",
+          "range": "Single Enemy, Area (Charged)"
+        },
+        {
+          "type": "Technique",
+          "name": "Big Attack Boost",
+          "power": "-",
+          "attribute": "Big Attack Boost Icon",
+          "range": "Single ally, Area (Charged)"
+        },
+        {
+          "type": "Soultimate Move",
+          "name": "Passionate Regard",
+          "power": "200 x 2",
+          "attribute": "Drain",
+          "range": "Area"
+        },
+        {
+          "type": "Skill",
+          "name": "Greed",
+          "power": "N/A",
+          "attribute": "None",
+          "range": "Self"
+        }
+      ]
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "219-400"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "クレクレパトラKurekurepatora"
+    ],
+    "Spanish": [
+      "Miopatra"
+    ],
+    "French": [
+      "Néfertyrannie"
+    ],
+    "Italian": [
+      "Miopatra"
+    ],
+    "German": [
+      "Egopatra"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "クレクレパトラKurekurepatora"
+    ],
+    "Spanish": [
+      "Miopatra"
+    ],
+    "French": [
+      "Néfertyrannie"
+    ],
+    "Italian": [
+      "Miopatra"
+    ],
+    "German": [
+      "Egopatra"
+    ]
+  },
+  "description_en": "Those who fall for this beautiful Yo-kai's charms are willing to do anything in her service.",
+  "nom_en": "Indiana Jaws",
+  "rang_yww": "S",
+  "tribue_yww": "プリチー族",
+  "rôle_yww": "ヒーラー",
+  "plat_préféré_yww": "野菜",
+  "nourriture_favorite": "野菜",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
+    "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {
+    "hp": 50,
+    "str": 23,
+    "spr": 23,
+    "def": 19,
+    "spd": 34
+  },
+  "stats_max_yww": {
+    "hp": 403,
+    "str": 203,
+    "spr": 219,
+    "def": 187,
+    "spd": 236
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "こうげき",
+        "_fr": "こうげき"
+      },
+      "nom": {
+        "_jp": "するどいつめ",
+        "_en": "するどいつめ",
+        "_fr": "するどいつめ"
+      },
+      "explication": {
+        "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
+        "_en": "【威力:15×2 / 打撃】 2回攻撃を行う",
+        "_fr": "【威力:15×2 / 打撃】 2回攻撃を行う"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "ようじゅつ",
+        "_fr": "ようじゅつ"
+      },
+      "nom": {
+        "_jp": "極楽の術",
+        "_en": "極楽の術",
+        "_fr": "極楽の術"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "クレクレ欲しがり熱線",
+        "_en": "クレクレ欲しがり熱線",
+        "_fr": "クレクレ欲しがり熱線"
+      },
+      "pouvoir": "100",
+      "explication": {
+        "_jp": "逃れられないおねだりで 範囲内のHPを吸収し 味方全員に分け与える。",
+        "_en": "With an inescapable request, it absorbs HP within range and distributes it to all allies.",
+        "_fr": "Avec une demande incontournable, il absorbe les HP à portée et les distribue à tous les alliés."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "なんでも欲しがらせる",
+        "_en": "make you want anything",
+        "_fr": "te donne envie de n'importe quoi"
+      },
+      "explication": {
+        "_jp": "【混乱】 とりつかれた妖怪は味方の物を欲しがり 味方をたまにこうげきする。",
+        "_en": "【混乱】 とりつかれた妖怪は味方の物を欲しがり 味方をたまにこうげきする。",
+        "_fr": "【混乱】 とりつかれた妖怪は味方の物を欲しがり 味方をたまにこうげきする。"
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "妖怪ワールドの三大美女妖怪の １人。クレクレパトラが 欲しがって手に入らないものは 何もない。彼女に魅入られた ものは魂までも捧げてしまう。",
+      "_en": "One of the three most beautiful Yokai in the Yokai World. There is nothing that Kureklepatra wants that she cannot have. Those who are charmed by her will even give their souls to her.",
+      "_fr": "L'un des trois plus beaux Yokai du monde Yokai. Il n’y a rien que Kureklepatra veuille qu’elle ne puisse avoir. Ceux qui sont charmés par elle lui donneront même leur âme."
+    }
+  ],
+  "id_yww": "1501",
+  "Name_yww": "クレクレパトラ",
+  "description_jp_yww": "妖怪ワールドの三大美女妖怪の １人。クレクレパトラが 欲しがって手に入らないものは 何もない。彼女に魅入られた ものは魂までも捧げてしまう。",
+  "BingoMessage_jp_yww": "わらわを出すとは　幸運な者じゃ！ お前のその幸運　わらわにおくれ！",
+  "MonsterId_yww": "y8000150",
+  "Height_yww": 10.0,
+  "CommondId_yww": "sp_8000150",
+  "MinHp_yww": 54,
+  "MaxHp_yww": 405,
+  "MinAttack_yww": 27,
+  "MaxAttack_yww": 238,
+  "MinMagic_yww": 11,
+  "MaxMagic_yww": 82,
+  "MinDefense_yww": 11,
+  "MaxDefense_yww": 82,
+  "MinSpeed_yww": 27,
+  "MaxSpeed_yww": 243,
+  "AttackId_yww": 2,
+  "MagicId_yww": 2,
+  "HauntId_yww": 8000150,
+  "SpSkillId_yww": 8000150,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 13,
+  "DislikeFoodKind_yww": 14,
+  "ActionType_yww": 1,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y7995950.png",
+  "SpriteImage_yww": "img_y7995950.png",
+  "Audio_yww": "sp_y7995950.wav",
+  "Description_yww": "L'une des trois plus belles yōkai du monde des yōkai. Il n'y a rien que Kurekurepatra ne puisse obtenir si elle le désire. Ceux qui tombent sous son charme sont prêts à lui offrir jusqu'à leur âme.",
+  "BingoMessage_fr_yww": "Tu oses te présenter devant moi ? Tu as vraiment de la chance ! Donne-moi un peu de cette chance que tu as !"
 }

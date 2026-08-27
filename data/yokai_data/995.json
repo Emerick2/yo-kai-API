@@ -1,117 +1,45 @@
 {
-    "Nom": "Komasan touriste",
-    "Tribue": "Mignon",
-    "Rang": "A",
-    "nom_original": "月見オロチ",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "",
-    "nourriture": "fruit de mer",
-    "nourriture_favorite": "fruit de mer",
-    "élément": "",
-    "Rôle": "attaquant",
-    "rang_yww": "S",
-    "tribue_yww": "Nyororon",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "fruit de mer",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 56,
-        "str": 38,
-        "spr": 24,
-        "def": 5,
-        "spd": 42
-    },
-    "stats_max_yww": {},
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "かみちぎる",
-                "_en": "Kamichigiru",
-                "_fr": "Kamichigiru"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 打撃】 強力な一撃を加える",
-                "_en": "[Power: 70/Blow] Add a powerful blow",
-                "_fr": "[Puissance : 70/Coup] Ajoutez un coup puissant"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "雷神の術",
-                "_en": "Raijin no Jutsu",
-                "_fr": "Raijin no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
-                "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
-                "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "月光やまたのおろち",
-                "_en": "Gekko Yamata no Orochi",
-                "_fr": "Gekko Yamata no Orochi"
-            },
-            "pouvoir": "15×10",
-            "explication": {
-                "_jp": "月の力を宿したオーラで 作り出した 龍のマフラーに 敵全員を かみつかせまくる",
-                "_en": "A dragon scarf created with an aura imbued with the power of the moon will bite all enemies.",
-                "_fr": "Une écharpe de dragon créée avec une aura imprégnée du pouvoir de la lune mordra tous les ennemis."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "龍にお団子をあげる",
-                "_en": "Give the dragon a dumpling",
-                "_fr": "Donnez une boulette au dragon"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 龍のマフラーにお団子を与え なかなか行動しなくなる",
-                "_en": "[Osabori] Give a dumpling to the dragon's muffler and it will not move easily.",
-                "_fr": "[Osabori] Donnez une boulette au silencieux du dragon et elle ne bougera pas facilement."
-            }
-        }
-    ],
-    "explication_yww": [],
-    "oldID": "1123",
-    "ID": "1121",
-    "nom_en": "Ryokoka Komasan",
-    "premiere_apparition": "yww",
-    "jeu_present": [
-        "yww"
-    ]
+  "Nom": "アケ魔将",
+  "nom_original": "アケ魔将",
+  "Rang": 5,
+  "PV": 412,
+  "Force": 65,
+  "Esprit": 205,
+  "Défense": 83,
+  "Vitesse": 242,
+  "Description": "Depuis des temps immémoriaux, un grand général veille sur la fin de l'année et le début de la nouvelle. Une fois qu'il a fini de sonner les cloches du réveillon, il emmène tout le monde au meilleur endroit pour admirer le premier lever de soleil de l'année.",
+  "nourriture": 3,
+  "nourriture_favorite": 3,
+  "disliked_food": 10,
+  "id_yww": "750",
+  "Name_yww": "アケ魔将",
+  "description_jp_yww": "大昔から　ゆく年くる年を 見守っている　エラい将軍。 除夜の鐘を打ち終わった後は 初日の出の　ベストスポットに みんなを連れていってくれる。",
+  "BingoMessage_jp_yww": "アッパレ！　実にめでたい正月じゃ！ さぁ　ともに新たな年を祝おうぞ！",
+  "MonsterId_yww": "y5000430",
+  "Height_yww": 14.0,
+  "CommondId_yww": "sp_5000430",
+  "MinHp_yww": 50,
+  "MaxHp_yww": 412,
+  "MinAttack_yww": 8,
+  "MaxAttack_yww": 65,
+  "MinMagic_yww": 25,
+  "MaxMagic_yww": 205,
+  "MinDefense_yww": 11,
+  "MaxDefense_yww": 83,
+  "MinSpeed_yww": 40,
+  "MaxSpeed_yww": 242,
+  "AttackId_yww": 10,
+  "MagicId_yww": 15,
+  "HauntId_yww": 5000430,
+  "SpSkillId_yww": 5000430,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 3,
+  "DislikeFoodKind_yww": 10,
+  "ActionType_yww": 22,
+  "TribeType_yww": 7,
+  "MedallionImage_yww": "y4996230.png",
+  "SpriteImage_yww": "img_y4996230.png",
+  "Audio_yww": "sp_y4996230.wav",
+  "Description_yww": "Depuis des temps immémoriaux, un grand général veille sur la fin de l'année et le début de la nouvelle. Une fois qu'il a fini de sonner les cloches du réveillon, il emmène tout le monde au meilleur endroit pour admirer le premier lever de soleil de l'année.",
+  "BingoMessage_fr_yww": "Bravo ! Quel merveilleux Nouvel An ! Allez, célébrons ensemble cette nouvelle année !"
 }

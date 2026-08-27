@@ -1,493 +1,524 @@
 {
-    "ID": "389",
-    "Nom": "Sumodon",
-    "Tribue": "Costaud",
-    "Rang": "D",
-    "PV": "444",
-    "Force": "110",
-    "Esprit": "88",
-    "Défense": "205",
-    "Vitesse": "63",
-    "Description": "Un fier sumo plutôt délicat à côtoyer, avec ses gros bras en nouilles et son bouillon brûlant.",
-    "description SITE": "Un fier lutteur de sumo dont les bras épais et noueux et le bouillon chaud font de lui une véritable poignée.",
-    "nourriture": "Soba",
-    "élément": "Restauration",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Sumodon possède des bras épais et noueux, le rendant redoutable lors de ses nombreuses luttes.",
-    "personnalité": "Sumodon est un Yo-kai lutteur et fier de l'être. Il a également beaucoup d'amis, dontAgonigiri,Jalouseriz,Fanfanfaron, etc.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/sumodon.png",
-    "numero": "382",
-    "nourriture_favorite": "Soba",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Volonté de fer",
-            "effet": "Gardera 1 PV après un coup fatal."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paume puissante",
-            "effet": "60 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Guérison",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Couverture",
-            "effet": "Une bonne claque capable d'annuler l'Âmultime d'un ennemi. 160 | 160"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Chaud bouillon",
-            "effet": "DÉF. du Yo-kai augmentée grâce à son amour pour la soupe de nouilles."
-        }
+  "ID": "389",
+  "Nom": "Sumodon",
+  "Tribue": "Costaud",
+  "Rang": "D",
+  "PV": "444",
+  "Force": "110",
+  "Esprit": "88",
+  "Défense": "205",
+  "Vitesse": "63",
+  "Description": "Un fier sumo plutôt délicat à côtoyer, avec ses gros bras en nouilles et son bouillon brûlant.",
+  "description SITE": "Un fier lutteur de sumo dont les bras épais et noueux et le bouillon chaud font de lui une véritable poignée.",
+  "nourriture": "Soba",
+  "élément": "Restauration",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Sumodon possède des bras épais et noueux, le rendant redoutable lors de ses nombreuses luttes.",
+  "personnalité": "Sumodon est un Yo-kai lutteur et fier de l'être. Il a également beaucoup d'amis, dontAgonigiri,Jalouseriz,Fanfanfaron, etc.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/sumodon.png",
+  "numero": "382",
+  "nourriture_favorite": "Soba",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Volonté de fer",
+      "effet": "Gardera 1 PV après un coup fatal."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paume puissante",
+      "effet": "60 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Guérison",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Couverture",
+      "effet": "Une bonne claque capable d'annuler l'Âmultime d'un ennemi. 160 | 160"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Chaud bouillon",
+      "effet": "DÉF. du Yo-kai augmentée grâce à son amour pour la soupe de nouilles."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Que c'est bon !",
+    "Mange de la nourriture insipide": "Ça allait.",
+    "Mange de la mauvaise nourriture": "Exécrable...",
+    "A la flemme": "C'est agaçant...",
+    "Est échangé": "Ha ha ! Ces muscles, heu ces nouilles étaient trop pour ... !",
+    "Devient ton ami": "Arf... Tu as l'esprit des champions ! Un combat de sumo, ça te tente ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Sumodon",
+      "parent2": "Chapeau de paille",
+      "resultat": "Soupotori",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "すもうどん",
+  "nom_anglais": "Sumodon",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Bingo-kai-Pièce du sud"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Que c'est bon !",
-        "Mange de la nourriture insipide": "Ça allait.",
-        "Mange de la mauvaise nourriture": "Exécrable...",
-        "A la flemme": "C'est agaçant...",
-        "Est échangé": "Ha ha ! Ces muscles, heu ces nouilles étaient trop pour ... !",
-        "Devient ton ami": "Arf... Tu as l'esprit des champions ! Un combat de sumo, ça te tente ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Sumodon",
-            "parent2": "Chapeau de paille",
-            "resultat": "Soupotori",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Bingo-kai-Pièce du sud"
     ],
-    "image_locale": "",
-    "nom_original": "すもうどん",
-    "nom_anglais": "Sumodon",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Bingo-kai-Pièce du sud"
-        ],
-        "yw Blasters 1": [
-            "Bingo-kai-Pièce du sud"
-        ],
-        "yw3": [
-            "Centre-ville de Granval- Zone souterraine (nuit)",
-            "Bingo-kai -Pièce orange- 3e prix (Granval)"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Paume puissante",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Guérison",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Couverture",
-                "puissance": "160|240",
-                "description": "Une bonne claque capable d'annuler l'Âmultime d'un ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Chaud bouillon",
-                "puissance": "N/A",
-                "description": "DÉF. du Yo-kai augmenté grâce à son amour pour la soupe de nouilles."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Volonté de fer",
-                "description": "Gardera 1 PV après avoir subi un coup fatal."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Couverture",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Armure de fer",
-                "puissance": "___",
-                "description": "Forte réduction des dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Persistance",
-                "description": "Ralentit la perte de la jauge d'attaque."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Paume puissante",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Couverture",
-                "puissance": "67|201",
-                "description": "Donne une bonne grosse gifle à un adversaire."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Chaud bouillon",
-                "puissance": "N/A",
-                "description": "La DÉF. du Yo-kai s'accroît grâce à son amour pour la soupe de nouilles."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Couverture",
-                "puissance": "400",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque l’ennemi avec une attaque féroce."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Volonté de fer",
-                "description": "Gardera 1 PV après un coup fatal. (une fois)"
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Amulette runique"
-            },
-            {
-                "taux": "?%",
-                "objet": "Sushi crevette"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Nouilles soba"
-            },
-            {
-                "taux": "?%",
-                "objet": "Étoile dansante"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Volonté de fer",
-        "description": "Gardera 1 PV après avoir subi un coup fatal."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/sumodon.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/sumodon.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/sumodon.wav",
-    "oldID": "395",
-    "medallium_ids": {
-        "yw2": "382",
-        "yw3": "166"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "112",
-        "yw Blasters 2": "170",
-        "yw Wibble Wobble": "3098",
-        "yw World": "0277",
-        "yw Ukiukipedia": "Pyw-112"
-    },
-    "battle_type": "",
-    "skill_name": "The Stand",
-    "skill_effect": "Suck it Up",
-    "disliked_food": "Snacks",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "454",
-                "STR": "104",
-                "SPR": "50",
-                "DEF": "107",
-                "SPD": "65"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "122-209",
-                "STR": "115",
-                "SPR": "93",
-                "DEF": "210",
-                "SPD": "68"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "122-209"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "122-209"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "122-209"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "すもうどん",
-            "Sumoudon"
-        ],
-        "Spanish": [
-            "Sumodón"
-        ],
-        "French": [
-            "Sumodon"
-        ],
-        "Italian": [
-            "Sumbrodo"
-        ],
-        "German": [
-            "Sumodon"
-        ],
-        "Russian": [
-            "Сумосуп",
-            "Sumosup"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "すもうどん"
-        ],
-        "Spanish": [
-            "Sumodón"
-        ],
-        "French": [
-            "Sumodon"
-        ],
-        "Italian": [
-            "Sumbrodo"
-        ],
-        "German": [
-            "Sumodon"
-        ],
-        "Russian": [
-            "Сумосуп"
-        ]
-    },
-    "description_en": "A proud sumo wrestler whose thick, noodly arms and piping-hot broth make him a real handful.",
-    "nom_en": "Takoyaking",
-    "rang_yww": "D",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "sarrasin",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 52,
-        "str": 15,
-        "spr": 10,
-        "def": 28,
-        "spd": 6
-    },
-    "stats_max_yww": {
-        "hp": 444,
-        "str": 110,
-        "spr": 88,
-        "def": 205,
-        "spd": 63
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "ご当地妖怪入手キャンペーン",
-            "_en": "Local Yokai acquisition campaign",
-            "_fr": "Campagne d'acquisition de Yokai locaux"
-        }
-    ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "つっぱり",
-                "_en": "Tension",
-                "_fr": "Tension"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 敵のガードの効果を下げる",
-                "_en": "[Power: 50 / Hit] Reduces the effectiveness of enemy's guard",
-                "_fr": "[Puissance : 50 / Hit] Réduit l'efficacité de la garde ennemie"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "いやしの術",
-                "_en": "Healing techniques",
-                "_fr": "Techniques de guérison"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ごっつぁんで素うどん",
-                "_en": "Gottsuan udon noodles",
-                "_fr": "Nouilles udon Gottsuan"
-            },
-            "pouvoir": "67",
-            "explication": {
-                "_jp": "こしのある強力な張り手を おみまいし 正面の敵に ダメージを与える",
-                "_en": "Use a stiff and powerful hand to deal damage to the enemy in front of you.",
-                "_fr": "Utilisez une main raide et puissante pour infliger des dégâts à l'ennemi devant vous."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "うどんのコシ",
-                "_en": "Udon chewiness",
-                "_fr": "Udon moelleux"
-            },
-            "explication": {
-                "_jp": "【まもりアップ】 うどんのコシで まもりがアップ",
-                "_en": "[Increased protection] Increased protection with the chewiness of udon",
-                "_fr": "[Protection accrue] Protection accrue avec le moelleux de l'udon"
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "腰には自信があるお相撲さん。 うどんの触手で絡めとり むりやり相撲をとらせてくる。 つゆが熱々なので まわしをつかむのも大変。",
-            "_en": "A sumo wrestler who is confident in his hips. He uses the udon's tentacles to entangle them and forces them to engage in sumo wrestling. The soup is so hot that it's difficult to grab the mawashi.",
-            "_fr": "Un lutteur de sumo qui a confiance en ses hanches. Il utilise les tentacules de l'udon pour les enchevêtrer et les force à s'engager dans une lutte sumo. La soupe est si chaude qu'il est difficile d'attraper le mawashi."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Centre-ville de Granval- Zone souterraine (nuit)",
+      "Bingo-kai -Pièce orange- 3e prix (Granval)"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Paume puissante",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Guérison",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Couverture",
+        "puissance": "160|240",
+        "description": "Une bonne claque capable d'annuler l'Âmultime d'un ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Chaud bouillon",
+        "puissance": "N/A",
+        "description": "DÉF. du Yo-kai augmenté grâce à son amour pour la soupe de nouilles."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Volonté de fer",
+        "description": "Gardera 1 PV après avoir subi un coup fatal."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Couverture",
+        "puissance": "400",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Armure de fer",
+        "puissance": "___",
+        "description": "Forte réduction des dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Persistance",
+        "description": "Ralentit la perte de la jauge d'attaque."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Paume puissante",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Couverture",
+        "puissance": "67|201",
+        "description": "Donne une bonne grosse gifle à un adversaire."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Chaud bouillon",
+        "puissance": "N/A",
+        "description": "La DÉF. du Yo-kai s'accroît grâce à son amour pour la soupe de nouilles."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Couverture",
+        "puissance": "400",
+        "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque l’ennemi avec une attaque féroce."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Volonté de fer",
+        "description": "Gardera 1 PV après un coup fatal. (une fois)"
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Amulette runique"
+      },
+      {
+        "taux": "?%",
+        "objet": "Sushi crevette"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Nouilles soba"
+      },
+      {
+        "taux": "?%",
+        "objet": "Étoile dansante"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Volonté de fer",
+    "description": "Gardera 1 PV après avoir subi un coup fatal."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/sumodon.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/sumodon.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/sumodon.wav",
+  "oldID": "395",
+  "medallium_ids": {
+    "yw2": "382",
+    "yw3": "166"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "112",
+    "yw Blasters 2": "170",
+    "yw Wibble Wobble": "3098",
+    "yw World": "0277",
+    "yw Ukiukipedia": "Pyw-112"
+  },
+  "battle_type": "",
+  "skill_name": "The Stand",
+  "skill_effect": "Suck it Up",
+  "disliked_food": "Snacks",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "454",
+        "STR": "104",
+        "SPR": "50",
+        "DEF": "107",
+        "SPD": "65"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "122-209",
+        "STR": "115",
+        "SPR": "93",
+        "DEF": "210",
+        "SPD": "68"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "122-209"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "122-209"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "122-209"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "すもうどん",
+      "Sumoudon"
+    ],
+    "Spanish": [
+      "Sumodón"
+    ],
+    "French": [
+      "Sumodon"
+    ],
+    "Italian": [
+      "Sumbrodo"
+    ],
+    "German": [
+      "Sumodon"
+    ],
+    "Russian": [
+      "Сумосуп",
+      "Sumosup"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "すもうどん"
+    ],
+    "Spanish": [
+      "Sumodón"
+    ],
+    "French": [
+      "Sumodon"
+    ],
+    "Italian": [
+      "Sumbrodo"
+    ],
+    "German": [
+      "Sumodon"
+    ],
+    "Russian": [
+      "Сумосуп"
+    ]
+  },
+  "description_en": "A proud sumo wrestler whose thick, noodly arms and piping-hot broth make him a real handful.",
+  "nom_en": "Takoyaking",
+  "rang_yww": "D",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "sarrasin",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 52,
+    "str": 15,
+    "spr": 10,
+    "def": 28,
+    "spd": 6
+  },
+  "stats_max_yww": {
+    "hp": 444,
+    "str": 110,
+    "spr": 88,
+    "def": 205,
+    "spd": 63
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "ご当地妖怪入手キャンペーン",
+      "_en": "Local Yokai acquisition campaign",
+      "_fr": "Campagne d'acquisition de Yokai locaux"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "つっぱり",
+        "_en": "Tension",
+        "_fr": "Tension"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 敵のガードの効果を下げる",
+        "_en": "[Power: 50 / Hit] Reduces the effectiveness of enemy's guard",
+        "_fr": "[Puissance : 50 / Hit] Réduit l'efficacité de la garde ennemie"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "いやしの術",
+        "_en": "Healing techniques",
+        "_fr": "Techniques de guérison"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ごっつぁんで素うどん",
+        "_en": "Gottsuan udon noodles",
+        "_fr": "Nouilles udon Gottsuan"
+      },
+      "pouvoir": "67",
+      "explication": {
+        "_jp": "こしのある強力な張り手を おみまいし 正面の敵に ダメージを与える",
+        "_en": "Use a stiff and powerful hand to deal damage to the enemy in front of you.",
+        "_fr": "Utilisez une main raide et puissante pour infliger des dégâts à l'ennemi devant vous."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "うどんのコシ",
+        "_en": "Udon chewiness",
+        "_fr": "Udon moelleux"
+      },
+      "explication": {
+        "_jp": "【まもりアップ】 うどんのコシで まもりがアップ",
+        "_en": "[Increased protection] Increased protection with the chewiness of udon",
+        "_fr": "[Protection accrue] Protection accrue avec le moelleux de l'udon"
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "腰には自信があるお相撲さん。 うどんの触手で絡めとり むりやり相撲をとらせてくる。 つゆが熱々なので まわしをつかむのも大変。",
+      "_en": "A sumo wrestler who is confident in his hips. He uses the udon's tentacles to entangle them and forces them to engage in sumo wrestling. The soup is so hot that it's difficult to grab the mawashi.",
+      "_fr": "Un lutteur de sumo qui a confiance en ses hanches. Il utilise les tentacules de l'udon pour les enchevêtrer et les force à s'engager dans une lutte sumo. La soupe est si chaude qu'il est difficile d'attraper le mawashi."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "396",
+  "Name_yww": "すもうどん",
+  "description_jp_yww": "腰には自信があるお相撲さん。 うどんの触手で絡めとり むりやり相撲をとらせてくる。 つゆが熱々なので まわしをつかむのも大変。",
+  "BingoMessage_jp_yww": "おらと相撲がしたいんけ？ ほんだら　ともだちになってつか！",
+  "MonsterId_yww": "y411000",
+  "Height_yww": 8.0,
+  "CommondId_yww": "sp_411000",
+  "MinHp_yww": 48,
+  "MaxHp_yww": 418,
+  "MinAttack_yww": 5,
+  "MaxAttack_yww": 40,
+  "MinMagic_yww": 21,
+  "MaxMagic_yww": 166,
+  "MinDefense_yww": 26,
+  "MaxDefense_yww": 193,
+  "MinSpeed_yww": 9,
+  "MaxSpeed_yww": 75,
+  "AttackId_yww": 2,
+  "MagicId_yww": 10,
+  "HauntId_yww": 411000,
+  "SpSkillId_yww": 411000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 15,
+  "DislikeFoodKind_yww": 3,
+  "ActionType_yww": 17,
+  "TribeType_yww": 7,
+  "MedallionImage_yww": "y406800.png",
+  "SpriteImage_yww": "img_y406800.png",
+  "Audio_yww": "sp_y406800.wav",
+  "Description_yww": "Un sumo qui a confiance en ses hanches. Il m'enroule de ses tentacules d'udon et me force à lutter avec lui. Comme le bouillon est brûlant, j'ai du mal à attraper son mawashi.",
+  "BingoMessage_fr_yww": "Tu veux faire du sumo avec moi ? Alors, on devient amis !"
 }

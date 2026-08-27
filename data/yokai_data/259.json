@@ -1,511 +1,542 @@
 {
-    "ID": "259",
-    "Nom": "Potache",
-    "Tribue": "Costaud",
-    "Rang": "E",
-    "PV": "428",
-    "Force": "96",
-    "Esprit": "52",
-    "Défense": "198",
-    "Vitesse": "66",
-    "Description": "Il adore effrayer les gens en leur faisant croire qu'il est sur le point de tomber et de se briser en mille morceaux.",
-    "nourriture": "Encas",
-    "élément": "Terre",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/potache.png",
-    "numero": "084",
-    "nourriture_favorite": "Encas",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Repot éternel",
-            "effet": "Empêche tous les Yo-kai d'être ressuscités."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Plaquage absolu",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Galet",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Un pot fêlé",
-            "effet": "Sème la confusion en faisant croire qu'il va tomber."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Fêlure",
-            "effet": "Le corps du Yo-kai est fragile. Sa DÉF. baisse."
-        }
+  "ID": "259",
+  "Nom": "Potache",
+  "Tribue": "Costaud",
+  "Rang": "E",
+  "PV": "428",
+  "Force": "96",
+  "Esprit": "52",
+  "Défense": "198",
+  "Vitesse": "66",
+  "Description": "Il adore effrayer les gens en leur faisant croire qu'il est sur le point de tomber et de se briser en mille morceaux.",
+  "nourriture": "Encas",
+  "élément": "Terre",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/potache.png",
+  "numero": "084",
+  "nourriture_favorite": "Encas",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Repot éternel",
+      "effet": "Empêche tous les Yo-kai d'être ressuscités."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Plaquage absolu",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Galet",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Un pot fêlé",
+      "effet": "Sème la confusion en faisant croire qu'il va tomber."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Fêlure",
+      "effet": "Le corps du Yo-kai est fragile. Sa DÉF. baisse."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Ouah, c'est bon !",
+    "Mange de la nourriture insipide": "Pas mon favori.",
+    "Mange de la mauvaise nourriture": "Je suis ballonné.",
+    "A la flemme": "Brrr...",
+    "Est échangé": "Youhou ! On est amis ! Oh oh... Toute cette excitation me fait chavirer...",
+    "Devient ton ami": "Je peux devenir ton ami ? Pfiou... Je suis vraiment nerveux..."
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "yw3",
+      "parent1": "Potache",
+      "parent2": "Céramique ancienne",
+      "resultat": "Dépotache",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ドキ土器",
+  "nom_anglais": "Terrorpotta",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Mont Sylvestre- Sentier de randonnée",
+      "Mont Sylvestre - Méga-toboggan",
+      "Tunnel sans fin",
+      "Voie du mystère- Route des farceurs - sortie",
+      "Bingo-kai-Pièce orange(présent)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Ouah, c'est bon !",
-        "Mange de la nourriture insipide": "Pas mon favori.",
-        "Mange de la mauvaise nourriture": "Je suis ballonné.",
-        "A la flemme": "Brrr...",
-        "Est échangé": "Youhou ! On est amis ! Oh oh... Toute cette excitation me fait chavirer...",
-        "Devient ton ami": "Je peux devenir ton ami ? Pfiou... Je suis vraiment nerveux..."
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "yw3",
-            "parent1": "Potache",
-            "parent2": "Céramique ancienne",
-            "resultat": "Dépotache",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Patrouille -La Corniche",
+      "Bingo-kai - Pièce orange"
     ],
-    "image_locale": "",
-    "nom_original": "ドキ土器",
-    "nom_anglais": "Terrorpotta",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Mont Sylvestre- Sentier de randonnée",
-            "Mont Sylvestre - Méga-toboggan",
-            "Tunnel sans fin",
-            "Voie du mystère- Route des farceurs - sortie",
-            "Bingo-kai-Pièce orange(présent)"
-        ],
-        "yw Blasters 1": [
-            "Patrouille -La Corniche",
-            "Bingo-kai - Pièce orange"
-        ],
-        "yw3": [
-            "Mont Sylvestre - bambous",
-            "Mont Sylvestre - Méga-toboggan",
-            "Bingo-kai - Pièce orange - 3e prix"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Galet",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Un pot fêlé",
-                "puissance": "___",
-                "description": "Sème la confusion en faisant croire qu'il va tomber."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Fêlure",
-                "puissance": "N/A",
-                "description": "Le corps du Yo-kai est fragile. Sa DÉF. baisse."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Galet",
-                "puissance": "N/A",
-                "description": "Un éboulement enterre les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Repot éternel",
-                "description": "Empêche tous les Yo-kai d'être ressucités."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Un pot fêlé",
-                "puissance": "___",
-                "description": "Forte baisse temporaire de l'attaque ennemie."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Mine",
-                "puissance": "600",
-                "description": "Explose si un ennemi ou un allié s'en approche."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Baisse défensive",
-                "puissance": "___",
-                "description": "Baisse DÉF. ennemie. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Trappeur vif",
-                "description": "Hausse de la vitesse d'installation des pièges."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "20|70",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Galet",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Un pot fêlé",
-                "puissance": "___",
-                "description": "Sème la confusion en faisant croire qu'il va tomber."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Fêlure",
-                "puissance": "N/A",
-                "description": "Le corps du Yo-kai devient fragile. Sa DÉF. baisse."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Un pot fêlé",
-                "puissance": "___",
-                "description": "Réduction ++ temporaire de l'attaque de l'ennemi."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Démolibombe",
-                "puissance": "500",
-                "description": "Bombe à retardement + pouvant blesser les alliés."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Détection de pièges",
-                "puissance": "___",
-                "description": "Génère une zone qui détecte les pièges cachés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Repot éternel",
-                "description": "Empêche tous les Yo-kai d'être ressucités."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "La défense de A à Z"
-            },
-            {
-                "taux": "?%",
-                "objet": "Daikon à la vapeur"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "La défense de A à Z"
-            },
-            {
-                "taux": "?%",
-                "objet": "Chips"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Repot éternel",
-        "description": "Empêche tous les Yo-kai d'être ressucités."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/potache.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/potache.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/potache.wav",
-    "oldID": "262",
-    "medallium_ids": {
-        "yw2": "084",
-        "yw3": "147"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "094",
-        "yw Blasters 2": "150",
-        "Three Kingdoms": "090",
-        "yw Ukiukipedia": "yw4-010"
-    },
-    "battle_type": "",
-    "skill_name": "Rest in Pieces",
-    "skill_effect": "Crack Up",
-    "disliked_food": "Juice",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "438",
-                "STR": "134",
-                "SPR": "97",
-                "DEF": "148",
-                "SPD": "150"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "186-321",
-                "STR": "101",
-                "SPR": "57",
-                "DEF": "203",
-                "SPD": "71"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "Attribute tolerance": {
-            "stats": {
-                "HP": "186-321"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "186-321"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "186-321"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "186-321"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ドキ土器",
-            "Dokidoki"
-        ],
-        "Spanish": [
-            "Aterracota"
-        ],
-        "French": [
-            "Potache"
-        ],
-        "Italian": [
-            "Tensiovaso"
-        ],
-        "German": [
-            "Pochtopf"
-        ],
-        "Russian": [
-            "Горшкожут",
-            "Gorshkozhut"
-        ],
-        "Arabic": [
-            "خائف",
-            "Khā'if"
-        ],
-        "Portuguese (Brazilian)": [
-            "Supersensíl"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ドキ土器"
-        ],
-        "Spanish": [
-            "Aterracota"
-        ],
-        "French": [
-            "Potache"
-        ],
-        "Italian": [
-            "Tensiovaso"
-        ],
-        "German": [
-            "Pochtopf"
-        ],
-        "Russian": [
-            "Горшкожут"
-        ],
-        "Arabic": [
-            "خائف"
-        ],
-        "Portuguese (Brazilian)": [
-            "Supersensíl"
-        ]
-    },
-    "description_en": "Loves scaring people by making them think that he's about to fall onto the floor and be smashed to smithereens.",
-    "nom_en": "Miradox",
-    "rang_yww": "E",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "collation",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 56,
-        "str": 12,
-        "spr": 6,
-        "def": 23,
-        "spd": 6
-    },
-    "stats_max_yww": {
-        "hp": 428,
-        "str": 96,
-        "spr": 52,
-        "def": 198,
-        "spd": 66
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "スプリングコイン",
-            "_en": "spring coin",
-            "_fr": "pièce de printemps"
-        }
-    ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "あてみ",
-                "_en": "Atemi",
-                "_fr": "Atémi"
-            },
-            "explication": {
-                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "こいしの術",
-                "_en": "Koishi no jutsu",
-                "_fr": "Koishi pas de jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 土属性】 土の妖術を使う。",
-                "_en": "[Power: 30 / Earth attribute] Uses earth magic.",
-                "_fr": "[Puissance : 30 / Attribut Terre] Utilise la magie de la terre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "縄文ハートブレイク",
-                "_en": "Jomon Heartbreak",
-                "_fr": "Jomon chagrin d'amour"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "割れやすくする",
-                "_en": "make it easier to break",
-                "_fr": "faciliter la rupture"
-            },
-            "explication": {
-                "_jp": "【まもりダウン】 とりつかれた妖怪は体が割れやすくなってまもりがダウンする。",
-                "_en": "[Mamori Down] A possessed monster's body becomes easily broken and its protection goes down.",
-                "_fr": "[Mamori Down] Le corps d'un monstre possédé se brise facilement et sa protection diminue."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "今にも割れそうな土器の妖怪。 イタズラ心あふれる性格で いつも 机のギリギリ落ちるか 落ちないかの場所に立ち みんなをドキドキさせる。",
-            "_en": "An earthenware monster that looks like it's about to break at any moment. He has a mischievous personality and always stands at the edge of the desk where he can barely fall or not, making everyone's heart flutter.",
-            "_fr": "Un monstre en faïence qui semble sur le point de se briser à tout moment. Il a une personnalité espiègle et se tient toujours au bord du bureau où il peut à peine tomber ou non, faisant battre le cœur de tout le monde."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Mont Sylvestre - bambous",
+      "Mont Sylvestre - Méga-toboggan",
+      "Bingo-kai - Pièce orange - 3e prix"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage absolu",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Galet",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Un pot fêlé",
+        "puissance": "___",
+        "description": "Sème la confusion en faisant croire qu'il va tomber."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Fêlure",
+        "puissance": "N/A",
+        "description": "Le corps du Yo-kai est fragile. Sa DÉF. baisse."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Galet",
+        "puissance": "N/A",
+        "description": "Un éboulement enterre les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Repot éternel",
+        "description": "Empêche tous les Yo-kai d'être ressucités."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Un pot fêlé",
+        "puissance": "___",
+        "description": "Forte baisse temporaire de l'attaque ennemie."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Mine",
+        "puissance": "600",
+        "description": "Explose si un ennemi ou un allié s'en approche."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Baisse défensive",
+        "puissance": "___",
+        "description": "Baisse DÉF. ennemie. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Trappeur vif",
+        "description": "Hausse de la vitesse d'installation des pièges."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage absolu",
+        "puissance": "20|70",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Galet",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Un pot fêlé",
+        "puissance": "___",
+        "description": "Sème la confusion en faisant croire qu'il va tomber."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Fêlure",
+        "puissance": "N/A",
+        "description": "Le corps du Yo-kai devient fragile. Sa DÉF. baisse."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Un pot fêlé",
+        "puissance": "___",
+        "description": "Réduction ++ temporaire de l'attaque de l'ennemi."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Démolibombe",
+        "puissance": "500",
+        "description": "Bombe à retardement + pouvant blesser les alliés."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Détection de pièges",
+        "puissance": "___",
+        "description": "Génère une zone qui détecte les pièges cachés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Repot éternel",
+        "description": "Empêche tous les Yo-kai d'être ressucités."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "La défense de A à Z"
+      },
+      {
+        "taux": "?%",
+        "objet": "Daikon à la vapeur"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "La défense de A à Z"
+      },
+      {
+        "taux": "?%",
+        "objet": "Chips"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Repot éternel",
+    "description": "Empêche tous les Yo-kai d'être ressucités."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/potache.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/potache.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/potache.wav",
+  "oldID": "262",
+  "medallium_ids": {
+    "yw2": "084",
+    "yw3": "147"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "094",
+    "yw Blasters 2": "150",
+    "Three Kingdoms": "090",
+    "yw Ukiukipedia": "yw4-010"
+  },
+  "battle_type": "",
+  "skill_name": "Rest in Pieces",
+  "skill_effect": "Crack Up",
+  "disliked_food": "Juice",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "438",
+        "STR": "134",
+        "SPR": "97",
+        "DEF": "148",
+        "SPD": "150"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "186-321",
+        "STR": "101",
+        "SPR": "57",
+        "DEF": "203",
+        "SPD": "71"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "Attribute tolerance": {
+      "stats": {
+        "HP": "186-321"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "186-321"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "186-321"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "186-321"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ドキ土器",
+      "Dokidoki"
+    ],
+    "Spanish": [
+      "Aterracota"
+    ],
+    "French": [
+      "Potache"
+    ],
+    "Italian": [
+      "Tensiovaso"
+    ],
+    "German": [
+      "Pochtopf"
+    ],
+    "Russian": [
+      "Горшкожут",
+      "Gorshkozhut"
+    ],
+    "Arabic": [
+      "خائف",
+      "Khā'if"
+    ],
+    "Portuguese (Brazilian)": [
+      "Supersensíl"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ドキ土器"
+    ],
+    "Spanish": [
+      "Aterracota"
+    ],
+    "French": [
+      "Potache"
+    ],
+    "Italian": [
+      "Tensiovaso"
+    ],
+    "German": [
+      "Pochtopf"
+    ],
+    "Russian": [
+      "Горшкожут"
+    ],
+    "Arabic": [
+      "خائف"
+    ],
+    "Portuguese (Brazilian)": [
+      "Supersensíl"
+    ]
+  },
+  "description_en": "Loves scaring people by making them think that he's about to fall onto the floor and be smashed to smithereens.",
+  "nom_en": "Miradox",
+  "rang_yww": "E",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "collation",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 56,
+    "str": 12,
+    "spr": 6,
+    "def": 23,
+    "spd": 6
+  },
+  "stats_max_yww": {
+    "hp": 428,
+    "str": 96,
+    "spr": 52,
+    "def": 198,
+    "spd": 66
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "スプリングコイン",
+      "_en": "spring coin",
+      "_fr": "pièce de printemps"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "あてみ",
+        "_en": "Atemi",
+        "_fr": "Atémi"
+      },
+      "explication": {
+        "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "こいしの術",
+        "_en": "Koishi no jutsu",
+        "_fr": "Koishi pas de jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 土属性】 土の妖術を使う。",
+        "_en": "[Power: 30 / Earth attribute] Uses earth magic.",
+        "_fr": "[Puissance : 30 / Attribut Terre] Utilise la magie de la terre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "縄文ハートブレイク",
+        "_en": "Jomon Heartbreak",
+        "_fr": "Jomon chagrin d'amour"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "割れやすくする",
+        "_en": "make it easier to break",
+        "_fr": "faciliter la rupture"
+      },
+      "explication": {
+        "_jp": "【まもりダウン】 とりつかれた妖怪は体が割れやすくなってまもりがダウンする。",
+        "_en": "[Mamori Down] A possessed monster's body becomes easily broken and its protection goes down.",
+        "_fr": "[Mamori Down] Le corps d'un monstre possédé se brise facilement et sa protection diminue."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "今にも割れそうな土器の妖怪。 イタズラ心あふれる性格で いつも 机のギリギリ落ちるか 落ちないかの場所に立ち みんなをドキドキさせる。",
+      "_en": "An earthenware monster that looks like it's about to break at any moment. He has a mischievous personality and always stands at the edge of the desk where he can barely fall or not, making everyone's heart flutter.",
+      "_fr": "Un monstre en faïence qui semble sur le point de se briser à tout moment. Il a une personnalité espiègle et se tient toujours au bord du bureau où il peut à peine tomber ou non, faisant battre le cœur de tout le monde."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "262",
+  "Name_yww": "ドキ土器",
+  "description_jp_yww": "今にも割れそうな土器の妖怪。 イタズラ心あふれる性格で いつも　机のギリギリ落ちるか 落ちないかの場所に立ち みんなをドキドキさせる。",
+  "BingoMessage_jp_yww": "どっきーん！　急に外に出られてびっくり！ でも　うれしいよ～　ありがと～",
+  "MonsterId_yww": "y254000",
+  "Height_yww": 7.79,
+  "CommondId_yww": "sp_254000",
+  "MinHp_yww": 56,
+  "MaxHp_yww": 428,
+  "MinAttack_yww": 12,
+  "MaxAttack_yww": 96,
+  "MinMagic_yww": 6,
+  "MaxMagic_yww": 52,
+  "MinDefense_yww": 23,
+  "MaxDefense_yww": 198,
+  "MinSpeed_yww": 6,
+  "MaxSpeed_yww": 66,
+  "AttackId_yww": 25,
+  "MagicId_yww": 10,
+  "HauntId_yww": 254000,
+  "SpSkillId_yww": 254000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 17,
+  "DislikeFoodKind_yww": 5,
+  "ActionType_yww": 19,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y249800.png",
+  "SpriteImage_yww": "img_y249800.png",
+  "Audio_yww": "sp_y249800.wav",
+  "Description_yww": "Un yōkai en forme de poterie qui semble sur le point de se briser à tout moment. D'un naturel espiègle, il se tient toujours au bord du bureau, à la limite de tomber ou non, et fait battre le cœur de tout le monde.",
+  "BingoMessage_fr_yww": "Ouh là là ! J'ai eu un choc en me retrouvant soudain dehors ! Mais ça me fait plaisir ~ Merci ~"
 }

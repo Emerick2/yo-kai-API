@@ -1,513 +1,544 @@
 {
-    "ID": "384",
-    "Nom": "Barrakéda",
-    "Tribue": "Vaillant",
-    "Rang": "B",
-    "PV": "456",
-    "Force": "268",
-    "Esprit": "48",
-    "Défense": "171",
-    "Vitesse": "55",
-    "Description": "Ce Samuren surentraîné est si puissant que personne n'a envie de l'affronter.",
-    "nourriture": "Fruits de Mer",
-    "élément": "Eau",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Barrakéda vient de Barracuda et de Baraqué.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/barrakeda.png",
-    "numero": "377",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Flâneur pro",
-            "effet": "Récupère quelques PV quand il flâne."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Taillade éclair",
-            "effet": "20x3 | 44x3"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Rapides",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Vague à lame",
-            "effet": "Frappe tous les ennemis de ses épées, juste pour le plaisir. 31x5 | 31x5"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Galvanisation",
-            "effet": "Les stats du Yo-kai augmentent un peu grâce à l'énergie galvanisante."
-        }
+  "ID": "384",
+  "Nom": "Barrakéda",
+  "Tribue": "Vaillant",
+  "Rang": "B",
+  "PV": "456",
+  "Force": "268",
+  "Esprit": "48",
+  "Défense": "171",
+  "Vitesse": "55",
+  "Description": "Ce Samuren surentraîné est si puissant que personne n'a envie de l'affronter.",
+  "nourriture": "Fruits de Mer",
+  "élément": "Eau",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Barrakéda vient de Barracuda et de Baraqué.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/barrakeda.png",
+  "numero": "377",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Flâneur pro",
+      "effet": "Récupère quelques PV quand il flâne."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Taillade éclair",
+      "effet": "20x3 | 44x3"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Rapides",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Vague à lame",
+      "effet": "Frappe tous les ennemis de ses épées, juste pour le plaisir. 31x5 | 31x5"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Galvanisation",
+      "effet": "Les stats du Yo-kai augmentent un peu grâce à l'énergie galvanisante."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est fantastique !",
+    "Mange de la nourriture insipide": "Ça peut aller.",
+    "Mange de la mauvaise nourriture": "Ça va pas coller...",
+    "A la flemme": "Aucun intérêt.",
+    "Est échangé": "Youhou ! Une nouvelle ville ! Quelqu'un veut se battre ? S'il vous plaît?",
+    "Devient ton ami": "Ouah, c'était marrant ! Encore !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Samuren",
+      "parent2": "Emblème d'or",
+      "resultat": "Barrakéda",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ひまつ武士",
+  "nom_anglais": "Time Keeler",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Fusion"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est fantastique !",
-        "Mange de la nourriture insipide": "Ça peut aller.",
-        "Mange de la mauvaise nourriture": "Ça va pas coller...",
-        "A la flemme": "Aucun intérêt.",
-        "Est échangé": "Youhou ! Une nouvelle ville ! Quelqu'un veut se battre ? S'il vous plaît?",
-        "Devient ton ami": "Ouah, c'était marrant ! Encore !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Samuren",
-            "parent2": "Emblème d'or",
-            "resultat": "Barrakéda",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Fusion"
     ],
-    "image_locale": "",
-    "nom_original": "ひまつ武士",
-    "nom_anglais": "Time Keeler",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Fusion"
-        ],
-        "yw Blasters 1": [
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Taillade éclair",
-                "puissance": "20×3|44×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Rapides",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Vague à lame",
-                "puissance": "31×5",
-                "description": "Frappe tous les ennemis de ses épées, juste pour le plaisir."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Galvanisation",
-                "puissance": "N/A",
-                "description": "Les stats du Yo-kai augmentent un peu grâce à l'énergie galvanisante."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Torrent",
-                "puissance": "N/A",
-                "description": "Un jet d'eau attaque les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Flâneur pro",
-                "description": "Récupère quelques PV quand il flâne."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Vague à lame",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Déblindage",
-                "puissance": "80",
-                "description": "Baisse temporaire DÉF. des ennemis touchés."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Déblindage +",
-                "puissance": "80",
-                "description": "Baisse temporaire DÉF. des ennemis touchés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Cours toujours",
-                "description": "L'énergie ne diminue pas."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Taillade éclair",
-                "puissance": "24×3|38×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Rapides",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Vague à lame",
-                "puissance": "24×5",
-                "description": "Frappe tous les ennemis de ses épées, juste pour le plaisir."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Galvanisation",
-                "puissance": "N/A",
-                "description": "Les stats du Yo-kai augmentent un peu grâce à l'énergie galvanisante."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Vague à lame",
-                "puissance": "40×10",
-                "description": "Enchaîne les coups, inflige des dégâts élevés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Découragement",
-                "puissance": "80",
-                "description": "Fait chuter l’attaque d’un ennemi pendant un instant."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi, attirant ainsi son attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Flâneur pro",
-                "description": "Récupère quelques PV quand il flâne."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Bracelet de brute"
-            },
-            {
-                "taux": "?%",
-                "objet": "Maquereau séché"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Oursin cru"
-            },
-            {
-                "taux": "?%",
-                "objet": "Moules"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Flâneur pro",
-        "description": "Récupère quelques PV quand il flâne."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/barrakeda.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/barrakeda.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/barrakeda.wav",
-    "oldID": "390",
-    "medallium_ids": {
-        "yw2": "377",
-        "yw3": "023"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "020",
-        "yw Blasters 2": "023",
-        "yw Wibble Wobble": "1073",
-        "yw World": "0272",
-        "yw Ukiukipedia": "Pyw-119"
-    },
-    "battle_type": "",
-    "skill_name": "Skilled Loafer yw2 yw3 Keep on Runnin' ywB",
-    "skill_effect": "Eelectrify",
-    "disliked_food": "Bread",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "466",
-                "STR": "132",
-                "SPR": "59",
-                "DEF": "124",
-                "SPD": "65"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "400",
-                "STR": "201",
-                "SPR": "95",
-                "DEF": "234",
-                "SPD": "60"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "Attribute tolerance": {
-            "stats": {
-                "HP": "396",
-                "STR": "198",
-                "SPR": "98",
-                "DEF": "229"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "396",
-                "STR": "198",
-                "SPR": "98",
-                "DEF": "229"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "202-328"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "202-328",
-                "STR": "198",
-                "SPR": "98",
-                "DEF": "229"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "202-328"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ひまつ武士",
-            "Himatsubushi"
-        ],
-        "Spanish": [
-            "Anguilocio"
-        ],
-        "French": [
-            "Barrakéda"
-        ],
-        "Italian": [
-            "Roninguilla"
-        ],
-        "German": [
-            "Generaal"
-        ],
-        "Russian": [
-            "Пронзачас",
-            "Pronzachas"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ひまつ武士"
-        ],
-        "Spanish": [
-            "Anguilocio"
-        ],
-        "French": [
-            "Barrakéda"
-        ],
-        "Italian": [
-            "Roninguilla"
-        ],
-        "German": [
-            "Generaal"
-        ],
-        "Russian": [
-            "Пронзачас"
-        ]
-    },
-    "nom_en": "Panja Pupil",
-    "rang_yww": "B",
-    "tribue_yww": "Isamashi",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "fruit de mer",
-    "nourriture_favorite": "fruit de mer",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 66,
-        "str": 43,
-        "spr": 6,
-        "def": 17,
-        "spd": 6
-    },
-    "stats_max_yww": {
-        "hp": 456,
-        "str": 268,
-        "spr": 48,
-        "def": 171,
-        "spd": 55
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "閃光ぎり",
-                "_en": "Just a flash of light",
-                "_fr": "Juste un éclair de lumière"
-            },
-            "explication": {
-                "_jp": "【威力:24×3 / 打撃】 3回攻撃を行う",
-                "_en": "[Power: 24×3/Blow] Attacks 3 times",
-                "_fr": "[Puissance : 24×3/Coup] Attaque 3 fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "水流の術",
-                "_en": "Water flow technique",
-                "_fr": "Technique d'écoulement de l'eau"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 水属性】 強力な水の妖術を使う。",
-                "_en": "[Power: 50 / Water attribute] Uses powerful water magic.",
-                "_fr": "[Puissance : 50 / Attribut Eau] Utilise une puissante magie de l'eau."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ひまつぶし斬り",
-                "_en": "Time-killing slash",
-                "_fr": "Slash qui tue le temps"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "うなぎのスタミナ",
-                "_en": "Eel stamina",
-                "_fr": "Endurance de l'anguille"
-            },
-            "explication": {
-                "_jp": "【全ステアップ】 とりつかれた妖怪はうなぎ特有のスタミナ成分で全ステータスがアップする。",
-                "_en": "[All stats up] A possessed monster will have all stats up due to the eel's unique stamina component.",
-                "_fr": "[Toutes les statistiques augmentées] Un monstre possédé aura toutes ses statistiques augmentées en raison de la composante d'endurance unique de l'anguille."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "すさまじく 強くなりすぎた ひつま武士。 相手をしてくれる人がおらず ひまつぶしに 勝負を挑んでくる。",
-            "_en": "Hitsuma Samurai has become extremely strong. Since there is no one to play with, he challenges himself to a fight to kill time.",
-            "_fr": "Hitsuma Samurai est devenu extrêmement fort. Puisqu’il n’y a personne avec qui jouer, il se lance un défi pour tuer le temps."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Taillade éclair",
+        "puissance": "20×3|44×3",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Rapides",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Vague à lame",
+        "puissance": "31×5",
+        "description": "Frappe tous les ennemis de ses épées, juste pour le plaisir."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Galvanisation",
+        "puissance": "N/A",
+        "description": "Les stats du Yo-kai augmentent un peu grâce à l'énergie galvanisante."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Torrent",
+        "puissance": "N/A",
+        "description": "Un jet d'eau attaque les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Flâneur pro",
+        "description": "Récupère quelques PV quand il flâne."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Vague à lame",
+        "puissance": "40×10",
+        "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Déblindage",
+        "puissance": "80",
+        "description": "Baisse temporaire DÉF. des ennemis touchés."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Déblindage +",
+        "puissance": "80",
+        "description": "Baisse temporaire DÉF. des ennemis touchés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Cours toujours",
+        "description": "L'énergie ne diminue pas."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Taillade éclair",
+        "puissance": "24×3|38×3",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Rapides",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Vague à lame",
+        "puissance": "24×5",
+        "description": "Frappe tous les ennemis de ses épées, juste pour le plaisir."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Galvanisation",
+        "puissance": "N/A",
+        "description": "Les stats du Yo-kai augmentent un peu grâce à l'énergie galvanisante."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Vague à lame",
+        "puissance": "40×10",
+        "description": "Enchaîne les coups, inflige des dégâts élevés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Découragement",
+        "puissance": "80",
+        "description": "Fait chuter l’attaque d’un ennemi pendant un instant."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi, attirant ainsi son attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Flâneur pro",
+        "description": "Récupère quelques PV quand il flâne."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Bracelet de brute"
+      },
+      {
+        "taux": "?%",
+        "objet": "Maquereau séché"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Oursin cru"
+      },
+      {
+        "taux": "?%",
+        "objet": "Moules"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Flâneur pro",
+    "description": "Récupère quelques PV quand il flâne."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/barrakeda.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/barrakeda.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/barrakeda.wav",
+  "oldID": "390",
+  "medallium_ids": {
+    "yw2": "377",
+    "yw3": "023"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "020",
+    "yw Blasters 2": "023",
+    "yw Wibble Wobble": "1073",
+    "yw World": "0272",
+    "yw Ukiukipedia": "Pyw-119"
+  },
+  "battle_type": "",
+  "skill_name": "Skilled Loafer yw2 yw3 Keep on Runnin' ywB",
+  "skill_effect": "Eelectrify",
+  "disliked_food": "Bread",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "466",
+        "STR": "132",
+        "SPR": "59",
+        "DEF": "124",
+        "SPD": "65"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "400",
+        "STR": "201",
+        "SPR": "95",
+        "DEF": "234",
+        "SPD": "60"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "Attribute tolerance": {
+      "stats": {
+        "HP": "396",
+        "STR": "198",
+        "SPR": "98",
+        "DEF": "229"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "396",
+        "STR": "198",
+        "SPR": "98",
+        "DEF": "229"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "202-328"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "202-328",
+        "STR": "198",
+        "SPR": "98",
+        "DEF": "229"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "202-328"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ひまつ武士",
+      "Himatsubushi"
+    ],
+    "Spanish": [
+      "Anguilocio"
+    ],
+    "French": [
+      "Barrakéda"
+    ],
+    "Italian": [
+      "Roninguilla"
+    ],
+    "German": [
+      "Generaal"
+    ],
+    "Russian": [
+      "Пронзачас",
+      "Pronzachas"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ひまつ武士"
+    ],
+    "Spanish": [
+      "Anguilocio"
+    ],
+    "French": [
+      "Barrakéda"
+    ],
+    "Italian": [
+      "Roninguilla"
+    ],
+    "German": [
+      "Generaal"
+    ],
+    "Russian": [
+      "Пронзачас"
+    ]
+  },
+  "nom_en": "Panja Pupil",
+  "rang_yww": "B",
+  "tribue_yww": "Isamashi",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "fruit de mer",
+  "nourriture_favorite": "fruit de mer",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 66,
+    "str": 43,
+    "spr": 6,
+    "def": 17,
+    "spd": 6
+  },
+  "stats_max_yww": {
+    "hp": 456,
+    "str": 268,
+    "spr": 48,
+    "def": 171,
+    "spd": 55
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "閃光ぎり",
+        "_en": "Just a flash of light",
+        "_fr": "Juste un éclair de lumière"
+      },
+      "explication": {
+        "_jp": "【威力:24×3 / 打撃】 3回攻撃を行う",
+        "_en": "[Power: 24×3/Blow] Attacks 3 times",
+        "_fr": "[Puissance : 24×3/Coup] Attaque 3 fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "水流の術",
+        "_en": "Water flow technique",
+        "_fr": "Technique d'écoulement de l'eau"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 水属性】 強力な水の妖術を使う。",
+        "_en": "[Power: 50 / Water attribute] Uses powerful water magic.",
+        "_fr": "[Puissance : 50 / Attribut Eau] Utilise une puissante magie de l'eau."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ひまつぶし斬り",
+        "_en": "Time-killing slash",
+        "_fr": "Slash qui tue le temps"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "うなぎのスタミナ",
+        "_en": "Eel stamina",
+        "_fr": "Endurance de l'anguille"
+      },
+      "explication": {
+        "_jp": "【全ステアップ】 とりつかれた妖怪はうなぎ特有のスタミナ成分で全ステータスがアップする。",
+        "_en": "[All stats up] A possessed monster will have all stats up due to the eel's unique stamina component.",
+        "_fr": "[Toutes les statistiques augmentées] Un monstre possédé aura toutes ses statistiques augmentées en raison de la composante d'endurance unique de l'anguille."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "すさまじく 強くなりすぎた ひつま武士。 相手をしてくれる人がおらず ひまつぶしに 勝負を挑んでくる。",
+      "_en": "Hitsuma Samurai has become extremely strong. Since there is no one to play with, he challenges himself to a fight to kill time.",
+      "_fr": "Hitsuma Samurai est devenu extrêmement fort. Puisqu’il n’y a personne avec qui jouer, il se lance un défi pour tuer le temps."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "391",
+  "Name_yww": "ひまつ武士",
+  "description_jp_yww": "すさまじく 強くなりすぎた　ひつま武士。 相手をしてくれる人がおらず ひまつぶしに 勝負を挑んでくる。",
+  "BingoMessage_jp_yww": "どえりゃーヒマだがね！ おみゃーが相手してくれるかね？",
+  "MonsterId_yww": "y406000",
+  "Height_yww": 8.55,
+  "CommondId_yww": "sp_406000",
+  "MinHp_yww": 45,
+  "MaxHp_yww": 344,
+  "MinAttack_yww": 24,
+  "MaxAttack_yww": 171,
+  "MinMagic_yww": 7,
+  "MaxMagic_yww": 43,
+  "MinDefense_yww": 14,
+  "MaxDefense_yww": 109,
+  "MinSpeed_yww": 30,
+  "MaxSpeed_yww": 211,
+  "AttackId_yww": 44,
+  "MagicId_yww": 14,
+  "HauntId_yww": 406000,
+  "SpSkillId_yww": 406000,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 8,
+  "DislikeFoodKind_yww": 6,
+  "ActionType_yww": 5,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y401800.png",
+  "SpriteImage_yww": "img_y401800.png",
+  "Audio_yww": "sp_y401800.wav",
+  "Description_yww": "Le samouraï Hitsuma est devenu incroyablement puissant. Comme personne ne veut l'affronter, il cherche à tuer le temps en lançant des défis.",
+  "BingoMessage_fr_yww": "J'ai vraiment un temps fou à tuer ! Tu veux bien m'accorder un peu de temps ?"
 }

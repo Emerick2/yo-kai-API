@@ -1,163 +1,200 @@
 {
-    "Nom": "Shien",
-    "nom_original": "紫炎",
-    "name_romaji_jp": "Shien",
-    "nom_anglais": "Shien",
-    "oldID": "961",
-    "ID": "965",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/965.png",
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/965.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/965.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/965.wav",
-    "Tribue": "Mikado",
-    "Rang": "S",
-    "élément": "Fire",
-    "nourriture": "Sukiyaki",
-    "voix": {
-        "japonaise": "Japanese VA Shun Oguri",
-        "anglaise": ""
-    },
-    "medallium_ids": {
-        "yw4": "169 - Yo-kai9 - Boss"
-    },
-    "spinoff_ids": {
-        "Wib Wob": "",
-        "Kunitori": "",
-        "yw World": ""
-    },
-    "battle_type": "",
-    "skill_name": "A Blow of Fear",
-    "skill_effect": "Flames of Purgatory",
-    "disliked_food": "",
-    "global_stats": {
-        "PuraPura Blasters": {
-            "stats": {
-                "HP": "386-783",
-                "STR": "445",
-                "SPR": "358"
-            },
-            "elements": {
-                "attribute": "Fire"
-            },
-            "attacks": []
-        }
-    },
-    "random_names": {},
-    "localized_names": {
-        "Korean": [
-            "자염",
-            "Jayeom"
-        ]
-    },
-    "localized_soultimates": {
-        "Korean": [
-            "자염"
-        ]
-    },
-    "rang_yww": "S",
-    "tribue_yww": "Emma",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "viande",
-    "Rôle": "attaquant",
-    "nourriture_favorite": "viande",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "–",
-        "_en": null,
-        "_fr": null
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 48,
-        "str": 38,
-        "spr": 29,
-        "def": 18,
-        "spd": 11
-    },
-    "stats_max_yww": {},
-    "moyens_obtention_yww": [
-        {
-            "_jp": "妖怪降臨(2018/12/14～2019/1/14)",
-            "_en": "Monster advent (2018/12/14-2019/1/14)",
-            "_fr": "L'avènement des monstres (14/12/2018-14/1/2019)"
-        }
-    ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "きりつける",
-                "_en": "punish",
-                "_fr": "punir"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "火炎の術",
-                "_en": "flame technique",
-                "_fr": "technique de la flamme"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
-                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
-                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "邪炎剣舞",
-                "_en": "Evil Flame Sword Dance",
-                "_fr": "Danse de l'épée de la flamme maléfique"
-            },
-            "pouvoir": "10×10",
-            "explication": {
-                "_jp": "闇の炎を纏った剣をふるい 敵を燃やしつくすほどの勢いで 切り刻む",
-                "_en": "Wield a sword wrapped in dark flames and cut into pieces with enough force to burn the enemy to pieces.",
-                "_fr": "Maniez une épée enveloppée de flammes sombres et coupée en morceaux avec suffisamment de force pour brûler l'ennemi en morceaux."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "れんごくの炎",
-                "_en": "flame of brick",
-                "_fr": "flamme de brique"
-            },
-            "explication": {
-                "_jp": "【HP減少】 憎悪の炎につつまれ HPがだんだん減っていく",
-                "_en": "[HP decrease] Surrounded by flames of hatred, HP gradually decreases",
-                "_fr": "[Diminution des HP] Entouré de flammes de haine, les HP diminuent progressivement"
-            }
-        }
-    ],
-    "explication_yww": [],
-    "premiere_apparition": "yw4",
-    "jeu_present": [
-        "yw4"
+  "Nom": "Shien",
+  "nom_original": "紫炎",
+  "name_romaji_jp": "Shien",
+  "nom_anglais": "Shien",
+  "oldID": "961",
+  "ID": "965",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/965.png",
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/965.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/965.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/965.wav",
+  "Tribue": "Mikado",
+  "Rang": "S",
+  "élément": "Fire",
+  "nourriture": "Sukiyaki",
+  "voix": {
+    "japonaise": "Japanese VA Shun Oguri",
+    "anglaise": ""
+  },
+  "medallium_ids": {
+    "yw4": "169 - Yo-kai9 - Boss"
+  },
+  "spinoff_ids": {
+    "Wib Wob": "",
+    "Kunitori": "",
+    "yw World": ""
+  },
+  "battle_type": "",
+  "skill_name": "A Blow of Fear",
+  "skill_effect": "Flames of Purgatory",
+  "disliked_food": 10,
+  "global_stats": {
+    "PuraPura Blasters": {
+      "stats": {
+        "HP": "386-783",
+        "STR": "445",
+        "SPR": "358"
+      },
+      "elements": {
+        "attribute": "Fire"
+      },
+      "attacks": []
+    }
+  },
+  "random_names": {},
+  "localized_names": {
+    "Korean": [
+      "자염",
+      "Jayeom"
     ]
+  },
+  "localized_soultimates": {
+    "Korean": [
+      "자염"
+    ]
+  },
+  "rang_yww": "S",
+  "tribue_yww": "Emma",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "viande",
+  "Rôle": "attaquant",
+  "nourriture_favorite": "viande",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "–",
+    "_en": null,
+    "_fr": null
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 48,
+    "str": 38,
+    "spr": 29,
+    "def": 18,
+    "spd": 11
+  },
+  "stats_max_yww": {},
+  "moyens_obtention_yww": [
+    {
+      "_jp": "妖怪降臨(2018/12/14～2019/1/14)",
+      "_en": "Monster advent (2018/12/14-2019/1/14)",
+      "_fr": "L'avènement des monstres (14/12/2018-14/1/2019)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "きりつける",
+        "_en": "punish",
+        "_fr": "punir"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "火炎の術",
+        "_en": "flame technique",
+        "_fr": "technique de la flamme"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
+        "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
+        "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "邪炎剣舞",
+        "_en": "Evil Flame Sword Dance",
+        "_fr": "Danse de l'épée de la flamme maléfique"
+      },
+      "pouvoir": "10×10",
+      "explication": {
+        "_jp": "闇の炎を纏った剣をふるい 敵を燃やしつくすほどの勢いで 切り刻む",
+        "_en": "Wield a sword wrapped in dark flames and cut into pieces with enough force to burn the enemy to pieces.",
+        "_fr": "Maniez une épée enveloppée de flammes sombres et coupée en morceaux avec suffisamment de force pour brûler l'ennemi en morceaux."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "れんごくの炎",
+        "_en": "flame of brick",
+        "_fr": "flamme de brique"
+      },
+      "explication": {
+        "_jp": "【HP減少】 憎悪の炎につつまれ HPがだんだん減っていく",
+        "_en": "[HP decrease] Surrounded by flames of hatred, HP gradually decreases",
+        "_fr": "[Diminution des HP] Entouré de flammes de haine, les HP diminuent progressivement"
+      }
+    }
+  ],
+  "explication_yww": [],
+  "premiere_apparition": "yw4",
+  "jeu_present": [
+    "yw4"
+  ],
+  "PV": 333,
+  "Force": 160,
+  "Esprit": 161,
+  "Défense": 102,
+  "Vitesse": 194,
+  "Description": "Fils biologique du Grand Roi Enma, c'est un yōkai qui compte de nombreux subordonnés dans le royaume des démons. Depuis son plus jeune âge, il s'est soumis à un entraînement rigoureux et a acquis une puissance redoutable, mais une flamme sombre brûle dans son cœur…",
+  "id_yww": "826",
+  "Name_yww": "紫炎",
+  "description_jp_yww": "閻魔大王の　実の息子であり 妖魔界に多くの手下を持つ妖怪。 幼い頃から　過酷な修行を積み すさまじい実力をつけてきたが 心には　暗い炎が燃えている…。",
+  "BingoMessage_jp_yww": "人間が　私の力を求めるか… よかろう　望み通り支配してやる",
+  "MonsterId_yww": "y5002080",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_5002080",
+  "MinHp_yww": 41,
+  "MaxHp_yww": 333,
+  "MinAttack_yww": 21,
+  "MaxAttack_yww": 160,
+  "MinMagic_yww": 22,
+  "MaxMagic_yww": 161,
+  "MinDefense_yww": 13,
+  "MaxDefense_yww": 102,
+  "MinSpeed_yww": 23,
+  "MaxSpeed_yww": 194,
+  "AttackId_yww": 41,
+  "MagicId_yww": 23,
+  "HauntId_yww": 5002080,
+  "SpSkillId_yww": 5002080,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 18,
+  "DislikeFoodKind_yww": 10,
+  "ActionType_yww": 11,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y4997880.png",
+  "SpriteImage_yww": "img_y4997880.png",
+  "Audio_yww": "sp_y4997880.wav",
+  "Description_yww": "Fils biologique du Grand Roi Enma, c'est un yōkai qui compte de nombreux subordonnés dans le royaume des démons. Depuis son plus jeune âge, il s'est soumis à un entraînement rigoureux et a acquis une puissance redoutable, mais une flamme sombre brûle dans son cœur…",
+  "BingoMessage_fr_yww": "Les humains veulent mon pouvoir… Très bien. Je vais les dominer comme ils le souhaitent."
 }

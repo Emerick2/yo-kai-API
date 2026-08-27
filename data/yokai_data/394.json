@@ -1,401 +1,432 @@
 {
-    "ID": "394",
-    "Nom": "Canastelle",
-    "Tribue": "Bienveillant",
-    "Rang": "B",
-    "PV": "373",
-    "Force": "54",
-    "Esprit": "205",
-    "Défense": "126",
-    "Vitesse": "166",
-    "Description": "La gaîté de ce Yo-kai est un vrai rayon de soleil. Elle illumine la journée de tous ceux qu'elle croise.",
-    "description SITE": "La gaîté de ce Yo-kai est un vrai rayon de soleil. Elle illumine les journées de tous ceux qu'elle croise.",
-    "nourriture": "Bonbons",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/canastelle.png",
-    "numero": "387",
-    "nourriture_favorite": "Sucrerie",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Sirop",
-            "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Plaquage",
-            "effet": "60 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Restauration",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "French canne-canne",
-            "effet": "Remonte le moral des troupes et restaure les PV. 120 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Petite douceur",
-            "effet": "Le Yo-kai récupère des PV grâce à la saveur de la canne à sucre."
-        }
+  "ID": "394",
+  "Nom": "Canastelle",
+  "Tribue": "Bienveillant",
+  "Rang": "B",
+  "PV": "373",
+  "Force": "54",
+  "Esprit": "205",
+  "Défense": "126",
+  "Vitesse": "166",
+  "Description": "La gaîté de ce Yo-kai est un vrai rayon de soleil. Elle illumine la journée de tous ceux qu'elle croise.",
+  "description SITE": "La gaîté de ce Yo-kai est un vrai rayon de soleil. Elle illumine les journées de tous ceux qu'elle croise.",
+  "nourriture": "Bonbons",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/canastelle.png",
+  "numero": "387",
+  "nourriture_favorite": "Sucrerie",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Sirop",
+      "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Plaquage",
+      "effet": "60 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Restauration",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "French canne-canne",
+      "effet": "Remonte le moral des troupes et restaure les PV. 120 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Petite douceur",
+      "effet": "Le Yo-kai récupère des PV grâce à la saveur de la canne à sucre."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Miam !",
+    "Mange de la nourriture insipide": "C'est pas mal.",
+    "Mange de la mauvaise nourriture": "Ça ne brille pas...",
+    "A la flemme": "Je reviens vite.",
+    "Est échangé": "Tu veux que je vienne avec toi ? Quelle émotion COUIIIIII !",
+    "Devient ton ami": "Je suis excitée comme une puce ! Devenons amis !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Lacanne",
+      "parent2": "Hibiscus rouge",
+      "resultat": "Canastelle",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ウキウキビ",
+  "nom_anglais": "Starrycane",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Fusion"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Miam !",
-        "Mange de la nourriture insipide": "C'est pas mal.",
-        "Mange de la mauvaise nourriture": "Ça ne brille pas...",
-        "A la flemme": "Je reviens vite.",
-        "Est échangé": "Tu veux que je vienne avec toi ? Quelle émotion COUIIIIII !",
-        "Devient ton ami": "Je suis excitée comme une puce ! Devenons amis !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Lacanne",
-            "parent2": "Hibiscus rouge",
-            "resultat": "Canastelle",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Fusion"
     ],
-    "image_locale": "",
-    "nom_original": "ウキウキビ",
-    "nom_anglais": "Starrycane",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Fusion"
-        ],
-        "yw Blasters 1": [
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "French canne-canne",
-                "puissance": "120|120",
-                "description": "Remonte le moral des troupes et restaure les PV."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Petite douceur",
-                "puissance": "N/A",
-                "description": "Le Yo-kai récupère des PV grâce à la saveur de la canne à sucre."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Sirop",
-                "description": "Redonne peu à peu des PV aux Yo-kai voisins."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "French canne-canne",
-                "puissance": "400",
-                "description": "Alliés retrouvent beaucoup de PV."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Envoût guérisseur",
-                "puissance": "___",
-                "description": "Hausse lente des PV alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Paradis",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Envoût guérisseur +",
-                "puissance": "___",
-                "description": "Hausse rapide des PV alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Bonne mine",
-                "description": "Tes PV sont restaurés graduellement."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage",
-                "puissance": "35|77",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "French canne-canne",
-                "puissance": "90|180",
-                "description": "Remonte le moral des troupes et restaure les PV."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Petite douceur",
-                "puissance": "N/A",
-                "description": "Le Yo-kai récupère des PV grâce à la saveur de la canne à sucre."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Sirop",
-                "description": "Rend peu à peu des PV à tous les alliés reliés."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Sirop",
-        "description": "Redonne peu à peu des PV aux Yo-kai voisins."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/canastelle.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/canastelle.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/canastelle.wav",
-    "oldID": "400",
-    "medallium_ids": {
-        "yw2": "387",
-        "yw3": "332"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "219",
-        "yw Blasters 2": "340",
-        "yw Wibble Wobble": "5057",
-        "yw World": "0282"
-    },
-    "battle_type": "",
-    "skill_name": "How Sweet",
-    "skill_effect": "Sweet Relief",
-    "disliked_food": "Chinese Food",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "383",
-                "STR": "71",
-                "SPR": "121",
-                "DEF": "97",
-                "SPD": "121"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "383",
-                "STR": "59",
-                "SPR": "210",
-                "DEF": "131",
-                "SPD": "171"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "トキメキビ",
-            "Tokimekibi"
-        ],
-        "Spanish": [
-            "Talloestrella"
-        ],
-        "Italian": [
-            "Dolceleste"
-        ],
-        "German": [
-            "Jubelstielchen"
-        ],
-        "Russian": [
-            "Звездостник",
-            "Zvezdostnik"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "トキメキビ"
-        ],
-        "Spanish": [
-            "Talloestrella"
-        ],
-        "Italian": [
-            "Dolceleste"
-        ],
-        "German": [
-            "Jubelstielchen"
-        ],
-        "Russian": [
-            "Звездостник"
-        ]
-    },
-    "description_en": "This Yo-kai is simply bursting with excitement! No wonder she makes people see stars!",
-    "nom_en": "Whateverest",
-    "rang_yww": "D",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "collation",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {
-        "hp": 36,
-        "str": 5,
-        "spr": 24,
-        "def": 11,
-        "spd": 23
-    },
-    "stats_max_yww": {
-        "hp": 298,
-        "str": 46,
-        "spr": 188,
-        "def": 113,
-        "spd": 149
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "ご当地妖怪入手キャンペーン",
-            "_en": "Local Yokai acquisition campaign",
-            "_fr": "Campagne d'acquisition de Yokai locaux"
-        }
-    ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "あてみ",
-                "_en": "Atemi",
-                "_fr": "Atémi"
-            },
-            "explication": {
-                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "いやしの術",
-                "_en": "Healing techniques",
-                "_fr": "Techniques de guérison"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "いやしウキウキ",
-                "_en": "Healing and excitement",
-                "_fr": "Guérison et enthousiasme"
-            },
-            "pouvoir": "60",
-            "explication": {
-                "_jp": "可愛く楽しげな動きで みんなをウキウキさせ 味方全員のHPを回復する",
-                "_en": "Makes everyone excited with cute and fun movements and restores the HP of all allies.",
-                "_fr": "Rend tout le monde excité avec des mouvements mignons et amusants et restaure les HP de tous les alliés."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ウキウキさせる",
-                "_en": "make me excited",
-                "_fr": "m'excite"
-            },
-            "explication": {
-                "_jp": "【回復】 さとうきびの甘みで HPがだんだん回復",
-                "_en": "[Recovery] HP gradually recovers with the sweetness of sugarcane",
-                "_fr": "[Récupération] HP récupère progressivement avec la douceur de la canne à sucre"
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "風に揺られてウキウキな妖怪。 「なんくるないさ」が口ぐせ。 とりつかれると 辛いことも 乗りこえられそうな気になる。 かむと ほんのり甘い味。",
-            "_en": "An exciting monster swaying in the wind. ``Nankuru naisa'' is my favorite phrase. When you become obsessed with something, you feel like you can overcome even the toughest times. Slightly sweet taste when chewed.",
-            "_fr": "Un monstre passionnant se balançant au gré du vent. \"Nankuru naisa\" est ma phrase préférée. Lorsque vous devenez obsédé par quelque chose, vous sentez que vous pouvez surmonter même les moments les plus difficiles. Goût légèrement sucré à la mastication."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "French canne-canne",
+        "puissance": "120|120",
+        "description": "Remonte le moral des troupes et restaure les PV."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Petite douceur",
+        "puissance": "N/A",
+        "description": "Le Yo-kai récupère des PV grâce à la saveur de la canne à sucre."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Sirop",
+        "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "French canne-canne",
+        "puissance": "400",
+        "description": "Alliés retrouvent beaucoup de PV."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Envoût guérisseur",
+        "puissance": "___",
+        "description": "Hausse lente des PV alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Paradis",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Envoût guérisseur +",
+        "puissance": "___",
+        "description": "Hausse rapide des PV alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Bonne mine",
+        "description": "Tes PV sont restaurés graduellement."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage",
+        "puissance": "35|77",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "French canne-canne",
+        "puissance": "90|180",
+        "description": "Remonte le moral des troupes et restaure les PV."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Petite douceur",
+        "puissance": "N/A",
+        "description": "Le Yo-kai récupère des PV grâce à la saveur de la canne à sucre."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Sirop",
+        "description": "Rend peu à peu des PV à tous les alliés reliés."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Sirop",
+    "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/canastelle.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/canastelle.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/canastelle.wav",
+  "oldID": "400",
+  "medallium_ids": {
+    "yw2": "387",
+    "yw3": "332"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "219",
+    "yw Blasters 2": "340",
+    "yw Wibble Wobble": "5057",
+    "yw World": "0282"
+  },
+  "battle_type": "",
+  "skill_name": "How Sweet",
+  "skill_effect": "Sweet Relief",
+  "disliked_food": "Chinese Food",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "383",
+        "STR": "71",
+        "SPR": "121",
+        "DEF": "97",
+        "SPD": "121"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "383",
+        "STR": "59",
+        "SPR": "210",
+        "DEF": "131",
+        "SPD": "171"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "トキメキビ",
+      "Tokimekibi"
+    ],
+    "Spanish": [
+      "Talloestrella"
+    ],
+    "Italian": [
+      "Dolceleste"
+    ],
+    "German": [
+      "Jubelstielchen"
+    ],
+    "Russian": [
+      "Звездостник",
+      "Zvezdostnik"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "トキメキビ"
+    ],
+    "Spanish": [
+      "Talloestrella"
+    ],
+    "Italian": [
+      "Dolceleste"
+    ],
+    "German": [
+      "Jubelstielchen"
+    ],
+    "Russian": [
+      "Звездостник"
+    ]
+  },
+  "description_en": "This Yo-kai is simply bursting with excitement! No wonder she makes people see stars!",
+  "nom_en": "Whateverest",
+  "rang_yww": "D",
+  "tribue_yww": "Pokapoka",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "collation",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {
+    "hp": 36,
+    "str": 5,
+    "spr": 24,
+    "def": 11,
+    "spd": 23
+  },
+  "stats_max_yww": {
+    "hp": 298,
+    "str": 46,
+    "spr": 188,
+    "def": 113,
+    "spd": 149
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "ご当地妖怪入手キャンペーン",
+      "_en": "Local Yokai acquisition campaign",
+      "_fr": "Campagne d'acquisition de Yokai locaux"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "あてみ",
+        "_en": "Atemi",
+        "_fr": "Atémi"
+      },
+      "explication": {
+        "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "いやしの術",
+        "_en": "Healing techniques",
+        "_fr": "Techniques de guérison"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "いやしウキウキ",
+        "_en": "Healing and excitement",
+        "_fr": "Guérison et enthousiasme"
+      },
+      "pouvoir": "60",
+      "explication": {
+        "_jp": "可愛く楽しげな動きで みんなをウキウキさせ 味方全員のHPを回復する",
+        "_en": "Makes everyone excited with cute and fun movements and restores the HP of all allies.",
+        "_fr": "Rend tout le monde excité avec des mouvements mignons et amusants et restaure les HP de tous les alliés."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ウキウキさせる",
+        "_en": "make me excited",
+        "_fr": "m'excite"
+      },
+      "explication": {
+        "_jp": "【回復】 さとうきびの甘みで HPがだんだん回復",
+        "_en": "[Recovery] HP gradually recovers with the sweetness of sugarcane",
+        "_fr": "[Récupération] HP récupère progressivement avec la douceur de la canne à sucre"
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "風に揺られてウキウキな妖怪。 「なんくるないさ」が口ぐせ。 とりつかれると 辛いことも 乗りこえられそうな気になる。 かむと ほんのり甘い味。",
+      "_en": "An exciting monster swaying in the wind. ``Nankuru naisa'' is my favorite phrase. When you become obsessed with something, you feel like you can overcome even the toughest times. Slightly sweet taste when chewed.",
+      "_fr": "Un monstre passionnant se balançant au gré du vent. \"Nankuru naisa\" est ma phrase préférée. Lorsque vous devenez obsédé par quelque chose, vous sentez que vous pouvez surmonter même les moments les plus difficiles. Goût légèrement sucré à la mastication."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "400",
+  "Name_yww": "ウキウキビ",
+  "description_jp_yww": "風に揺られてウキウキな妖怪。 「なんくるないさ」が口ぐせ。 とりつかれると　辛いことも 乗りこえられそうな気になる。 かむと　ほんのり甘い味。",
+  "BingoMessage_jp_yww": "めんそーれ！ きみも一緒にウキウキさー！",
+  "MonsterId_yww": "y415000",
+  "Height_yww": 7.0,
+  "CommondId_yww": "sp_415000",
+  "MinHp_yww": 55,
+  "MaxHp_yww": 461,
+  "MinAttack_yww": 5,
+  "MaxAttack_yww": 48,
+  "MinMagic_yww": 16,
+  "MaxMagic_yww": 134,
+  "MinDefense_yww": 31,
+  "MaxDefense_yww": 219,
+  "MinSpeed_yww": 6,
+  "MaxSpeed_yww": 60,
+  "AttackId_yww": 25,
+  "MagicId_yww": 1,
+  "HauntId_yww": 415000,
+  "SpSkillId_yww": 415000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 11,
+  "DislikeFoodKind_yww": 14,
+  "ActionType_yww": 17,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y410800.png",
+  "SpriteImage_yww": "img_y410800.png",
+  "Audio_yww": "sp_y410800.wav",
+  "Description_yww": "Un yōkai qui se balance au gré du vent, tout joyeux. Sa phrase fétiche est « Tout ira bien ». Quand il s'empare de toi, tu as l'impression de pouvoir surmonter n'importe quelle épreuve. Quand on le croque, il a un goût légèrement sucré.",
+  "BingoMessage_fr_yww": "Bienvenue ! Toi aussi, viens t'amuser avec nous !"
 }

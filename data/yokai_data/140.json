@@ -1,536 +1,567 @@
 {
-    "ID": "140",
-    "Nom": "Noripop",
-    "Tribue": "Bienveillant",
-    "Rang": "E",
-    "PV": "330",
-    "Force": "136",
-    "Esprit": "160",
-    "Défense": "65",
-    "Vitesse": "117",
-    "Description-": "Wakapoeira est un des rivaux de Noripop. Selon lui la meilleure algue du monde est le kombu... Si ça intéresse quelqu'un.",
-    "Description": "Ce Yo-kai algue veut populariser la danse de sa ville natale dans le monde. Et il est aussi très en forme !",
-    "nourriture": "Ramen",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "Noripop vient de nori (algue) et dehip-hop (style de danse originaire de Jamaique)",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Noripoppeut, commeSalsalgaetWakapoeira, donner à quelqu'un l'envie de danser.",
-    "personnalité": "Comme ses congénères, il est toujours de bonne humeur, par contre, il est en froid avecWakapoeirasans doute rivaux pour le coeur deSalsalga.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/noripop.png",
-    "numero": "111",
-    "nourriture_favorite": "Ramen",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Corps vif",
-            "effet": "Esquive les attaques avec brio !"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Gifle",
-            "effet": "10 | 45"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Guérison",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Air entraînant",
-            "effet": "Augmente la volonté et la DÉF. des alliés grâce à une mélodie."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Wakame de santé",
-            "effet": "Utilise des algues pour augmenter la FOR. d'un allié."
-        }
+  "ID": "140",
+  "Nom": "Noripop",
+  "Tribue": "Bienveillant",
+  "Rang": "E",
+  "PV": "330",
+  "Force": "136",
+  "Esprit": "160",
+  "Défense": "65",
+  "Vitesse": "117",
+  "Description-": "Wakapoeira est un des rivaux de Noripop. Selon lui la meilleure algue du monde est le kombu... Si ça intéresse quelqu'un.",
+  "Description": "Ce Yo-kai algue veut populariser la danse de sa ville natale dans le monde. Et il est aussi très en forme !",
+  "nourriture": "Ramen",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "Noripop vient de nori (algue) et dehip-hop (style de danse originaire de Jamaique)",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Noripoppeut, commeSalsalgaetWakapoeira, donner à quelqu'un l'envie de danser.",
+  "personnalité": "Comme ses congénères, il est toujours de bonne humeur, par contre, il est en froid avecWakapoeirasans doute rivaux pour le coeur deSalsalga.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/noripop.png",
+  "numero": "111",
+  "nourriture_favorite": "Ramen",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Corps vif",
+      "effet": "Esquive les attaques avec brio !"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Gifle",
+      "effet": "10 | 45"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Guérison",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Air entraînant",
+      "effet": "Augmente la volonté et la DÉF. des alliés grâce à une mélodie."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Wakame de santé",
+      "effet": "Utilise des algues pour augmenter la FOR. d'un allié."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Mmh, ce bouillon !",
+    "Mange de la nourriture insipide": "Ça se mange.",
+    "Mange de la mauvaise nourriture": "Bien essayé...",
+    "A la flemme": "*flâne*",
+    "Est échangé": "Super ! Je vais pouvoir propager ma danse traditionnelle dans cette ville !",
+    "Devient ton ami": "T'aimes quand j'ondule ? Je te montre comment faire, si tu veux ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "yw2",
+      "de": "Noripop",
+      "vers": "Algacarena",
+      "critere": "Niveau 17"
+    },
+    {
+      "type": "Évolution",
+      "contexte": "yw3",
+      "de": "Noripop",
+      "vers": "Algacarena",
+      "critere": "Niveau 15"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ワカメくん",
+  "nom_anglais": "Wiglin",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Masahito Yabe",
+    "francaise": "Nathalie Bienaimé",
+    "anglaise": "English VA Alicyn Packard"
+  },
+  "localisations": {
+    "yw1": [
+      "Centre–ville de Granval– océan (jour)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Mmh, ce bouillon !",
-        "Mange de la nourriture insipide": "Ça se mange.",
-        "Mange de la mauvaise nourriture": "Bien essayé...",
-        "A la flemme": "*flâne*",
-        "Est échangé": "Super ! Je vais pouvoir propager ma danse traditionnelle dans cette ville !",
-        "Devient ton ami": "T'aimes quand j'ondule ? Je te montre comment faire, si tu veux ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "yw2",
-            "de": "Noripop",
-            "vers": "Algacarena",
-            "critere": "Niveau 17"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "yw3",
-            "de": "Noripop",
-            "vers": "Algacarena",
-            "critere": "Niveau 15"
-        }
+    "yw2": [
+      "Quartier des boutiques – Contre–allées rue commerçante"
     ],
-    "image_locale": "",
-    "nom_original": "ワカメくん",
-    "nom_anglais": "Wiglin",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Masahito Yabe",
-        "francaise": "Nathalie Bienaimé",
-        "anglaise": "English VA Alicyn Packard"
-    },
-    "localisations": {
-        "yw1": [
-            "Centre–ville de Granval– océan (jour)"
-        ],
-        "yw2": [
-            "Quartier des boutiques – Contre–allées rue commerçante"
-        ],
-        "yw Blasters 1": [
-            "Patrouille : centre-ville de Granval"
-        ],
-        "yw3": [
-            "Centre-ville de Granval – océan"
-        ],
-        "yw4": [
-            "Sakura Motomachi – Centre"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "Noripop",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Guérison",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Air entraînant",
-                "puissance": "___",
-                "description": "Augmente la volonté et la DÉF. des alliés grâce à une mélodie."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Wakame de santé",
-                "puissance": "N/A",
-                "description": "Utilise des algues pour augmenter la FOR. d'un allié."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Corps vif",
-                "description": "Esquive les attaques avec brio !"
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Guérison",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Air entraînant",
-                "puissance": "___",
-                "description": "Augmente la volonté et la DÉF. des alliés grâce à une mélodie."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Wakame de santé",
-                "puissance": "N/A",
-                "description": "Utilise des algues pour augmenter la FOR. d'un allié."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Corps vif",
-                "description": "Esquive les attaques avec brio !"
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Air entraînant",
-                "puissance": "___",
-                "description": "Augmentation temporaire de la défense des alliés à proximité."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Envoût guérisseur",
-                "puissance": "___",
-                "description": "Hausse lente des PV alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Boost d'attaque",
-                "puissance": "___",
-                "description": "Hausse ATT. des alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : En avant la danse",
-                "description": "Hausse de la VIT. pour tous les alliés."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Air entraînant",
-                "puissance": "___",
-                "description": "Augmente la volonté et la DÉF. des alliés grâce à une mélodie effrénée !"
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Wakame de santé",
-                "puissance": "N/A",
-                "description": "Utilise des algues pour augmenter la FOR. d'un allié."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Corps vif",
-                "description": "Esquive les attaques avec brio !"
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Corps vif",
-        "description": "Esquive les attaques avec brio !"
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/noripop.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/noripop.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/noripop.wav",
-    "oldID": "140",
-    "medallium_ids": {
-        "yw1": "111",
-        "yw2": "163",
-        "yw3": "311",
-        "yw4": "45 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "204",
-        "yw Blasters 2": "317",
-        "yw Wibble Wobble": "5007",
-        "yw World": "0094",
-        "yw Ukiukipedia": "yw2-029/YD2-029"
-    },
-    "battle_type": "",
-    "skill_name": "Wavy Body",
-    "skill_effect": "Healthy Wakame",
-    "disliked_food": "Seafood",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "295",
-                "STR": "141",
-                "SPR": "105",
-                "DEF": "117",
-                "SPD": "111"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "340",
-                "STR": "141",
-                "SPR": "105",
-                "DEF": "117",
-                "SPD": "111"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "108",
-                "STR": "24",
-                "SPR": "34",
-                "DEF": "70",
-                "SPD": "122"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "149-263",
-                "STR": "24",
-                "SPR": "34"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "149-263"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "149-263"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "149-263"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ワカメくん",
-            "Wakame-kun"
-        ],
-        "Spanish": [
-            "Cimbrón"
-        ],
-        "French": [
-            "Noripop"
-        ],
-        "Italian": [
-            "Danz"
-        ],
-        "German": [
-            "Walza"
-        ],
-        "Dutch": [
-            "Wiglin"
-        ],
-        "Korean": [
-            "미역군",
-            "Miyeokgun"
-        ],
-        "Russian": [
-            "Взмахану",
-            "Vzmakhanu"
-        ],
-        "Arabic": [
-            "سرخس",
-            "Sarkhas"
-        ],
-        "Chinese (Mandarin)": [
-            "海帶弟弟"
-        ],
-        "Portuguese (Brazilian)": [
-            "Noritmo"
-        ],
-        "Thai": [
-            "วาคาเมะคุง"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ワカメくん"
-        ],
-        "Spanish": [
-            "Cimbrón"
-        ],
-        "French": [
-            "Noripop"
-        ],
-        "Italian": [
-            "Danz"
-        ],
-        "German": [
-            "Walza"
-        ],
-        "Dutch": [
-            "Wiglin"
-        ],
-        "Korean": [
-            "미역군"
-        ],
-        "Russian": [
-            "Взмахану"
-        ],
-        "Arabic": [
-            "سرخس"
-        ],
-        "Chinese (Mandarin)": [
-            "海帶弟弟"
-        ],
-        "Portuguese (Brazilian)": [
-            "Noritmo"
-        ],
-        "Thai": [
-            "วาคาเมะคุง"
-        ]
-    },
-    "description_en": "A seaweed Yo-kai who wants to spread his hometown dance to the world. And he's very healthy too!",
-    "nom_en": "Betterfly",
-    "rang_yww": "E",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "ramen",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 40,
-        "str": 16,
-        "spr": 19,
-        "def": 7,
-        "spd": 14
-    },
-    "stats_max_yww": {
-        "hp": 330,
-        "str": 136,
-        "spr": 160,
-        "def": 65,
-        "spd": 117
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はたく",
-                "_en": "flutter",
-                "_fr": "battement"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "いやしの術",
-                "_en": "Healing techniques",
-                "_fr": "Techniques de guérison"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
-            }
-        }
+    "yw Blasters 1": [
+      "Patrouille : centre-ville de Granval"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "名物ワカメ音頭",
-                "_en": "Famous wakame ondo",
-                "_fr": "Célèbre wakame ondo"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "十八番のワカメ音頭で味方全員のテンションを上げ まもりを大アップさせる。",
-                "_en": "Raise the tension of all allies with the 18th song Wakame Ondo and greatly increase their protection.",
-                "_fr": "Faites monter la tension de tous les alliés avec la 18ème chanson Wakame Ondo et augmentez considérablement leur protection."
-            }
-        }
+    "yw3": [
+      "Centre-ville de Granval – océan"
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ワカメの健康パワー",
-                "_en": "The health power of seaweed",
-                "_fr": "Le pouvoir santé des algues"
-            },
-            "explication": {
-                "_jp": "【ちからアップ】 とりつかれた妖怪はワカメの健康パワーで ちからが大アップする。",
-                "_en": "[Power up] The possessed monster's power increases greatly with the health power of wakame seaweed.",
-                "_fr": "[Power up] La puissance du monstre possédé augmente considérablement avec le pouvoir de santé des algues wakame."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "ワカメくんの地元の名物 『ワカメ音頭』を広めようと ひらひらとおどるワカメ妖怪。 ワカメの海藻パワーで とっても健康。",
-            "_en": "Wakame-kun's wakame monster dances around to spread the word of his local specialty, ``Wakame Ondo.'' The power of wakame seaweed makes it very healthy.",
-            "_fr": "Le monstre wakame de Wakame-kun danse pour faire connaître sa spécialité locale, « Wakame Ondo ». Le pouvoir des algues wakame les rend très saines."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw4": [
+      "Sakura Motomachi – Centre"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "Noripop",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Guérison",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Air entraînant",
+        "puissance": "___",
+        "description": "Augmente la volonté et la DÉF. des alliés grâce à une mélodie."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Wakame de santé",
+        "puissance": "N/A",
+        "description": "Utilise des algues pour augmenter la FOR. d'un allié."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Corps vif",
+        "description": "Esquive les attaques avec brio !"
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Guérison",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Air entraînant",
+        "puissance": "___",
+        "description": "Augmente la volonté et la DÉF. des alliés grâce à une mélodie."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Wakame de santé",
+        "puissance": "N/A",
+        "description": "Utilise des algues pour augmenter la FOR. d'un allié."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Corps vif",
+        "description": "Esquive les attaques avec brio !"
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Air entraînant",
+        "puissance": "___",
+        "description": "Augmentation temporaire de la défense des alliés à proximité."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Envoût guérisseur",
+        "puissance": "___",
+        "description": "Hausse lente des PV alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Boost d'attaque",
+        "puissance": "___",
+        "description": "Hausse ATT. des alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : En avant la danse",
+        "description": "Hausse de la VIT. pour tous les alliés."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Air entraînant",
+        "puissance": "___",
+        "description": "Augmente la volonté et la DÉF. des alliés grâce à une mélodie effrénée !"
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Wakame de santé",
+        "puissance": "N/A",
+        "description": "Utilise des algues pour augmenter la FOR. d'un allié."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Corps vif",
+        "description": "Esquive les attaques avec brio !"
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Corps vif",
+    "description": "Esquive les attaques avec brio !"
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/noripop.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/noripop.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/noripop.wav",
+  "oldID": "140",
+  "medallium_ids": {
+    "yw1": "111",
+    "yw2": "163",
+    "yw3": "311",
+    "yw4": "45 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "204",
+    "yw Blasters 2": "317",
+    "yw Wibble Wobble": "5007",
+    "yw World": "0094",
+    "yw Ukiukipedia": "yw2-029/YD2-029"
+  },
+  "battle_type": "",
+  "skill_name": "Wavy Body",
+  "skill_effect": "Healthy Wakame",
+  "disliked_food": "Seafood",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "295",
+        "STR": "141",
+        "SPR": "105",
+        "DEF": "117",
+        "SPD": "111"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "340",
+        "STR": "141",
+        "SPR": "105",
+        "DEF": "117",
+        "SPD": "111"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "108",
+        "STR": "24",
+        "SPR": "34",
+        "DEF": "70",
+        "SPD": "122"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "149-263",
+        "STR": "24",
+        "SPR": "34"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "149-263"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "149-263"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "149-263"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ワカメくん",
+      "Wakame-kun"
+    ],
+    "Spanish": [
+      "Cimbrón"
+    ],
+    "French": [
+      "Noripop"
+    ],
+    "Italian": [
+      "Danz"
+    ],
+    "German": [
+      "Walza"
+    ],
+    "Dutch": [
+      "Wiglin"
+    ],
+    "Korean": [
+      "미역군",
+      "Miyeokgun"
+    ],
+    "Russian": [
+      "Взмахану",
+      "Vzmakhanu"
+    ],
+    "Arabic": [
+      "سرخس",
+      "Sarkhas"
+    ],
+    "Chinese (Mandarin)": [
+      "海帶弟弟"
+    ],
+    "Portuguese (Brazilian)": [
+      "Noritmo"
+    ],
+    "Thai": [
+      "วาคาเมะคุง"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ワカメくん"
+    ],
+    "Spanish": [
+      "Cimbrón"
+    ],
+    "French": [
+      "Noripop"
+    ],
+    "Italian": [
+      "Danz"
+    ],
+    "German": [
+      "Walza"
+    ],
+    "Dutch": [
+      "Wiglin"
+    ],
+    "Korean": [
+      "미역군"
+    ],
+    "Russian": [
+      "Взмахану"
+    ],
+    "Arabic": [
+      "سرخس"
+    ],
+    "Chinese (Mandarin)": [
+      "海帶弟弟"
+    ],
+    "Portuguese (Brazilian)": [
+      "Noritmo"
+    ],
+    "Thai": [
+      "วาคาเมะคุง"
+    ]
+  },
+  "description_en": "A seaweed Yo-kai who wants to spread his hometown dance to the world. And he's very healthy too!",
+  "nom_en": "Betterfly",
+  "rang_yww": "E",
+  "tribue_yww": "Pokapoka",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "ramen",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 40,
+    "str": 16,
+    "spr": 19,
+    "def": 7,
+    "spd": 14
+  },
+  "stats_max_yww": {
+    "hp": 330,
+    "str": 136,
+    "spr": 160,
+    "def": 65,
+    "spd": 117
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "はたく",
+        "_en": "flutter",
+        "_fr": "battement"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "いやしの術",
+        "_en": "Healing techniques",
+        "_fr": "Techniques de guérison"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "名物ワカメ音頭",
+        "_en": "Famous wakame ondo",
+        "_fr": "Célèbre wakame ondo"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "十八番のワカメ音頭で味方全員のテンションを上げ まもりを大アップさせる。",
+        "_en": "Raise the tension of all allies with the 18th song Wakame Ondo and greatly increase their protection.",
+        "_fr": "Faites monter la tension de tous les alliés avec la 18ème chanson Wakame Ondo et augmentez considérablement leur protection."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ワカメの健康パワー",
+        "_en": "The health power of seaweed",
+        "_fr": "Le pouvoir santé des algues"
+      },
+      "explication": {
+        "_jp": "【ちからアップ】 とりつかれた妖怪はワカメの健康パワーで ちからが大アップする。",
+        "_en": "[Power up] The possessed monster's power increases greatly with the health power of wakame seaweed.",
+        "_fr": "[Power up] La puissance du monstre possédé augmente considérablement avec le pouvoir de santé des algues wakame."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "ワカメくんの地元の名物 『ワカメ音頭』を広めようと ひらひらとおどるワカメ妖怪。 ワカメの海藻パワーで とっても健康。",
+      "_en": "Wakame-kun's wakame monster dances around to spread the word of his local specialty, ``Wakame Ondo.'' The power of wakame seaweed makes it very healthy.",
+      "_fr": "Le monstre wakame de Wakame-kun danse pour faire connaître sa spécialité locale, « Wakame Ondo ». Le pouvoir des algues wakame les rend très saines."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "140",
+  "Name_yww": "ワカメくん",
+  "description_jp_yww": "ワカメくんの地元の名物 『ワカメ音頭』を広めようと ひらひらとおどるワカメ妖怪。 ワカメの海藻パワーで とっても健康。",
+  "BingoMessage_jp_yww": "そのステップ　お前もおどるんだな！？ もうボクらは　ダンスともだちだぜ！！",
+  "MonsterId_yww": "y174000",
+  "Height_yww": 8.0,
+  "CommondId_yww": "sp_174000",
+  "MinHp_yww": 40,
+  "MaxHp_yww": 330,
+  "MinAttack_yww": 16,
+  "MaxAttack_yww": 136,
+  "MinMagic_yww": 19,
+  "MaxMagic_yww": 160,
+  "MinDefense_yww": 7,
+  "MaxDefense_yww": 65,
+  "MinSpeed_yww": 14,
+  "MaxSpeed_yww": 117,
+  "AttackId_yww": 10,
+  "MagicId_yww": 22,
+  "HauntId_yww": 174000,
+  "SpSkillId_yww": 174000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 7,
+  "DislikeFoodKind_yww": 12,
+  "ActionType_yww": 11,
+  "TribeType_yww": 5,
+  "MedallionImage_yww": "y169800.png",
+  "SpriteImage_yww": "img_y169800.png",
+  "Audio_yww": "sp_y169800.wav",
+  "Description_yww": "Une spécialité locale de Wakame-kun : le « Wakame Ondo », que ce yōkai Wakame s'efforce de faire connaître en dansant avec grâce. Grâce au pouvoir des algues Wakame, il est en excellente santé.",
+  "BingoMessage_fr_yww": "Tu vas aussi danser ce pas-là, hein ?! On est déjà des potes de danse, maintenant !!"
 }

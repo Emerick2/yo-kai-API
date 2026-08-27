@@ -1,649 +1,680 @@
 {
-    "ID": "201",
-    "Nom": "Contrarioni",
-    "Tribue": "Sombre",
-    "Rang": "B",
-    "PV": "442",
-    "Force": "84",
-    "Esprit": "49",
-    "Défense": "233",
-    "Vitesse": "171",
-    "Description": "Les personnes envoûtées refusent tout en bloc et sont toujours en désaccord avec les autres.",
-    "nourriture": "Cuisine chinoise",
-    "élément": "Foudre",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Contrarioni vient de Contrarié et de Oni.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Les personnes qu'il envoûte se disputent quel que soit le sujet.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/contrarioni.png",
-    "numero": "152",
-    "nourriture_favorite": "Plats chinois",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Suspicion",
-            "effet": "Peut attaquer un allié."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Percée critique",
-            "effet": "30 | 66"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Foudre",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Vent contraire",
-            "effet": "Répand un gaz qui contrarie les ennemis, ce qui sème le chaos."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Opposition",
-            "effet": "Force l'ennemi à attaquer ses alliés... Sans raison."
-        }
+  "ID": "201",
+  "Nom": "Contrarioni",
+  "Tribue": "Sombre",
+  "Rang": "B",
+  "PV": "442",
+  "Force": "84",
+  "Esprit": "49",
+  "Défense": "233",
+  "Vitesse": "171",
+  "Description": "Les personnes envoûtées refusent tout en bloc et sont toujours en désaccord avec les autres.",
+  "nourriture": "Cuisine chinoise",
+  "élément": "Foudre",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Contrarioni vient de Contrarié et de Oni.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Les personnes qu'il envoûte se disputent quel que soit le sujet.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/contrarioni.png",
+  "numero": "152",
+  "nourriture_favorite": "Plats chinois",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Suspicion",
+      "effet": "Peut attaquer un allié."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Percée critique",
+      "effet": "30 | 66"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Foudre",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Vent contraire",
+      "effet": "Répand un gaz qui contrarie les ennemis, ce qui sème le chaos."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Opposition",
+      "effet": "Force l'ennemi à attaquer ses alliés... Sans raison."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est très bon !",
+    "Mange de la nourriture insipide": "Aha...",
+    "Mange de la mauvaise nourriture": "Arrête !",
+    "A la flemme": "Pas moyen...",
+    "Est échangé": "On est amis, tu dis ? Je ne crois pas...",
+    "Devient ton ami": "Je ne serai jamais ton ami !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "あまのじゃく",
+  "nom_anglais": "Contrarioni",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Musée lac des Coloquintes(Nuit)",
+      "Bingo-kai-Pièce bleue"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est très bon !",
-        "Mange de la nourriture insipide": "Aha...",
-        "Mange de la mauvaise nourriture": "Arrête !",
-        "A la flemme": "Pas moyen...",
-        "Est échangé": "On est amis, tu dis ? Je ne crois pas...",
-        "Devient ton ami": "Je ne serai jamais ton ami !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "あまのじゃく",
-    "nom_anglais": "Contrarioni",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Musée lac des Coloquintes(Nuit)",
-            "Bingo-kai-Pièce bleue"
-        ],
-        "yw2": [
-            "Tour Excellence- jardins",
-            "Tour Excellence - sous les distributeurs",
-            "Yo-kai World- Route des vandales",
-            "Bingo-kai - Pièce bleue (passé)"
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Vieux Granval"
-        ],
-        "yw3": [
-            "Il est possible de trouver Contrarioni sur des bouches à incendie àCawet."
-        ],
-        "yw Wibble Wobble": [
-            "Contrarioni apparaît sur les cartes principales.",
-            "Il est également possible de l'obtenir avec laPièce bleue, laPièce joyeuse, laPièce mystère, laPièce 1 étoile, laPièce 5 étoileset laPièce bleue G."
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Percée critique",
-                "puissance": "30|66",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Foudre",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Vent contraire",
-                "puissance": "___",
-                "description": "Émet un gaz maléfique qui contre ses ennemis et les trouble."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Opposition",
-                "puissance": "N/A",
-                "description": "Force l'ennemi à attaquer ses alliés... Sans raison."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Suspicion",
-                "description": "Peut attaquer un allié."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Percée critique",
-                "puissance": "30|66",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Foudre",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Vent contraire",
-                "puissance": "___",
-                "description": "Répand un gaz qui contrarie ses ennemis, ce qui sème le chaos."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Opposition",
-                "puissance": "N/A",
-                "description": "Force l'ennemi à attaquer ses alliés... Sans raison."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Suspicion",
-                "description": "Peut attaquer un allié."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Vent contraire",
-                "puissance": "___",
-                "description": "Forte baisse temporaire de l'attaque ennemie."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Riz",
-                "puissance": "70",
-                "description": "Restaure tes PV."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Armure miroir",
-                "puissance": "___",
-                "description": "Réduit et renvoie dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Anticonformiste",
-                "description": "Toutes stats renforcées si envoûté par l'ennemi."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Percée critique",
-                "puissance": "10|35",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Foudre",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Vent contraire",
-                "puissance": "___",
-                "description": "Émet un gaz maléfique qui contre ses ennemis et les trouble."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Opposition",
-                "puissance": "N/A",
-                "description": "L'ennemi attaque parfois ses alliés. Pourquoi pas, après tout ?"
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Suspicion",
-                "description": "Peut attaquer un allié."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Suspicion",
-        "description": "Peut attaquer un allié."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/contrarioni.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/contrarioni.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/contrarioni.wav",
-    "oldID": "200",
-    "medallium_ids": {
-        "yw1": "152",
-        "yw2": "218",
-        "yw3": "398"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "262",
-        "yw Blasters 2": "405",
-        "yw Wibble Wobble": "6012",
-        "yw World": "0131",
-        "yw Ukiukipedia": "yw4-029"
-    },
-    "battle_type": "",
-    "skill_name": "Suspicion",
-    "skill_effect": "Contrariness",
-    "disliked_food": "Milk",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "312",
-                "STR": "136",
-                "SPR": "153",
-                "DEF": "172",
-                "SPD": "183"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "452",
-                "STR": "136",
-                "SPR": "153",
-                "DEF": "172",
-                "SPD": "183"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "192-336",
-                "STR": "89",
-                "SPR": "54",
-                "DEF": "238",
-                "SPD": "176"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "192-336"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "192-336"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "192-336"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "あまのじゃく",
-            "Amanojaku"
-        ],
-        "Spanish": [
-            "Contrarioni"
-        ],
-        "Italian": [
-            "Bastian"
-        ],
-        "German": [
-            "Onimich"
-        ],
-        "Korean": [
-            "심술",
-            "Simsul"
-        ],
-        "Russian": [
-            "Спородемон",
-            "Sporodemon"
-        ],
-        "Arabic": [
-            "خليطى",
-            "Khalīṭā"
-        ],
-        "Chinese (Mandarin)": [
-            "彆扭鬼"
-        ],
-        "Portuguese (Brazilian)": [
-            "Ducontra"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "あまのじゃく"
-        ],
-        "Spanish": [
-            "Contrarioni"
-        ],
-        "Italian": [
-            "Bastian"
-        ],
-        "German": [
-            "Onimich"
-        ],
-        "Korean": [
-            "심술 도깨비"
-        ],
-        "Russian": [
-            "Спородемон"
-        ],
-        "Arabic": [
-            "خليطى"
-        ],
-        "Chinese (Mandarin)": [
-            "彆扭鬼"
-        ],
-        "Portuguese (Brazilian)": [
-            "Ducontra"
-        ]
-    },
-    "description_en": "Get ready to say \"no\" a lot if Contrarioni Inspirits you. You'll disagree with anything people say. Always fun at parties.",
-    "nom_en": "Nird",
-    "rang_yww": "B",
-    "tribue_yww": "Usurakage",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "Cuisine chinoise",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
-        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 52,
-        "str": 10,
-        "spr": 10,
-        "def": 30,
-        "spd": 25
-    },
-    "stats_max_yww": {
-        "hp": 442,
-        "str": 84,
-        "spr": 49,
-        "def": 233,
-        "spd": 171
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "青コイン",
-            "_en": "blue coin",
-            "_fr": "pièce bleue"
-        },
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw2": [
+      "Tour Excellence- jardins",
+      "Tour Excellence - sous les distributeurs",
+      "Yo-kai World- Route des vandales",
+      "Bingo-kai - Pièce bleue (passé)"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "きゅうしょづき",
-                "_en": "Kyushozuki",
-                "_fr": "Kyushozuki"
-            },
-            "explication": {
-                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "いかずちの術",
-                "_en": "Ikazuchi no Jutsu",
-                "_fr": "Ikazuchi no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 雷属性】 強力な雷の妖術を使う。",
-                "_en": "[Power: 50 / Lightning attribute] Uses powerful lightning magic.",
-                "_fr": "[Puissance : 50 / Attribut Foudre] Utilise une puissante magie de foudre."
-            }
-        }
+    "yw Blasters 1": [
+      "Patrouille -Vieux Granval"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ひねくれガス",
-                "_en": "twisted gas",
-                "_fr": "gaz tordu"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "ひねくれるガスを敵全員にまきちらす。当たった敵は味方をすぐにこうげきする。",
-                "_en": "Spreads a twisting gas on all enemies. Enemies hit will immediately kill their allies.",
-                "_fr": "Répand un gaz tordu sur tous les ennemis. Les ennemis touchés tueront immédiatement leurs alliés."
-            }
-        }
+    "yw3": [
+      "Il est possible de trouver Contrarioni sur des bouches à incendie àCawet."
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ひねくれさせる",
-                "_en": "make it perverse",
-                "_fr": "rends-le pervers"
-            },
-            "explication": {
-                "_jp": "【混乱】 ひねくれて味方をたまにこうげきする",
-                "_en": "[Confusion] Twisted and sometimes attacks allies",
-                "_fr": "[Confusion] Tordu et attaque parfois les alliés"
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "こいつに とりつかれると どんなことも 素直に受け入れられない あまのじゃくな 人になってしまう。",
-            "_en": "If you become obsessed with this person, you'll end up becoming a total idiot who can't accept anything honestly.",
-            "_fr": "Si vous devenez obsédé par cette personne, vous finirez par devenir un idiot total qui ne peut rien accepter honnêtement."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Contrarioni apparaît sur les cartes principales.",
+      "Il est également possible de l'obtenir avec laPièce bleue, laPièce joyeuse, laPièce mystère, laPièce 1 étoile, laPièce 5 étoileset laPièce bleue G."
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Percée critique",
+        "puissance": "30|66",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Foudre",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Vent contraire",
+        "puissance": "___",
+        "description": "Émet un gaz maléfique qui contre ses ennemis et les trouble."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Opposition",
+        "puissance": "N/A",
+        "description": "Force l'ennemi à attaquer ses alliés... Sans raison."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Suspicion",
+        "description": "Peut attaquer un allié."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Percée critique",
+        "puissance": "30|66",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Foudre",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Vent contraire",
+        "puissance": "___",
+        "description": "Répand un gaz qui contrarie ses ennemis, ce qui sème le chaos."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Opposition",
+        "puissance": "N/A",
+        "description": "Force l'ennemi à attaquer ses alliés... Sans raison."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Suspicion",
+        "description": "Peut attaquer un allié."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Vent contraire",
+        "puissance": "___",
+        "description": "Forte baisse temporaire de l'attaque ennemie."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Riz",
+        "puissance": "70",
+        "description": "Restaure tes PV."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Armure miroir",
+        "puissance": "___",
+        "description": "Réduit et renvoie dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Anticonformiste",
+        "description": "Toutes stats renforcées si envoûté par l'ennemi."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Percée critique",
+        "puissance": "10|35",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Foudre",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Vent contraire",
+        "puissance": "___",
+        "description": "Émet un gaz maléfique qui contre ses ennemis et les trouble."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Opposition",
+        "puissance": "N/A",
+        "description": "L'ennemi attaque parfois ses alliés. Pourquoi pas, après tout ?"
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Suspicion",
+        "description": "Peut attaquer un allié."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Suspicion",
+    "description": "Peut attaquer un allié."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/contrarioni.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/contrarioni.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/contrarioni.wav",
+  "oldID": "200",
+  "medallium_ids": {
+    "yw1": "152",
+    "yw2": "218",
+    "yw3": "398"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "262",
+    "yw Blasters 2": "405",
+    "yw Wibble Wobble": "6012",
+    "yw World": "0131",
+    "yw Ukiukipedia": "yw4-029"
+  },
+  "battle_type": "",
+  "skill_name": "Suspicion",
+  "skill_effect": "Contrariness",
+  "disliked_food": "Milk",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "312",
+        "STR": "136",
+        "SPR": "153",
+        "DEF": "172",
+        "SPD": "183"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "452",
+        "STR": "136",
+        "SPR": "153",
+        "DEF": "172",
+        "SPD": "183"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "192-336",
+        "STR": "89",
+        "SPR": "54",
+        "DEF": "238",
+        "SPD": "176"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "192-336"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "192-336"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "192-336"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "あまのじゃく",
+      "Amanojaku"
+    ],
+    "Spanish": [
+      "Contrarioni"
+    ],
+    "Italian": [
+      "Bastian"
+    ],
+    "German": [
+      "Onimich"
+    ],
+    "Korean": [
+      "심술",
+      "Simsul"
+    ],
+    "Russian": [
+      "Спородемон",
+      "Sporodemon"
+    ],
+    "Arabic": [
+      "خليطى",
+      "Khalīṭā"
+    ],
+    "Chinese (Mandarin)": [
+      "彆扭鬼"
+    ],
+    "Portuguese (Brazilian)": [
+      "Ducontra"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "あまのじゃく"
+    ],
+    "Spanish": [
+      "Contrarioni"
+    ],
+    "Italian": [
+      "Bastian"
+    ],
+    "German": [
+      "Onimich"
+    ],
+    "Korean": [
+      "심술 도깨비"
+    ],
+    "Russian": [
+      "Спородемон"
+    ],
+    "Arabic": [
+      "خليطى"
+    ],
+    "Chinese (Mandarin)": [
+      "彆扭鬼"
+    ],
+    "Portuguese (Brazilian)": [
+      "Ducontra"
+    ]
+  },
+  "description_en": "Get ready to say \"no\" a lot if Contrarioni Inspirits you. You'll disagree with anything people say. Always fun at parties.",
+  "nom_en": "Nird",
+  "rang_yww": "B",
+  "tribue_yww": "Usurakage",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "Cuisine chinoise",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+    "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 52,
+    "str": 10,
+    "spr": 10,
+    "def": 30,
+    "spd": 25
+  },
+  "stats_max_yww": {
+    "hp": 442,
+    "str": 84,
+    "spr": 49,
+    "def": 233,
+    "spd": 171
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "青コイン",
+      "_en": "blue coin",
+      "_fr": "pièce bleue"
+    },
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "ホワイトデー妖怪ガシャ",
+      "_en": "White Day Yokai Gasha",
+      "_fr": "Jour blanc Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    },
+    {
+      "_jp": "春一番妖怪ガシャ",
+      "_en": "Spring Ichiban Yokai Gasha",
+      "_fr": "Printemps Ichiban Yokai Gasha"
+    },
+    {
+      "_jp": "桜花ランラン妖怪ガシャ",
+      "_en": "Sakura Ranran Yokai Gasha",
+      "_fr": "Sakura Ranran Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "電車でお出かけ妖怪ガシャ",
+      "_en": "Going out by train Yokai Gasha",
+      "_fr": "Sortir en train Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "GW妖怪バトルリーグガシャ",
+      "_en": "GW Yokai Battle League Gasha",
+      "_fr": "GW Yokai Battle League Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "きゅうしょづき",
+        "_en": "Kyushozuki",
+        "_fr": "Kyushozuki"
+      },
+      "explication": {
+        "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "いかずちの術",
+        "_en": "Ikazuchi no Jutsu",
+        "_fr": "Ikazuchi no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 雷属性】 強力な雷の妖術を使う。",
+        "_en": "[Power: 50 / Lightning attribute] Uses powerful lightning magic.",
+        "_fr": "[Puissance : 50 / Attribut Foudre] Utilise une puissante magie de foudre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ひねくれガス",
+        "_en": "twisted gas",
+        "_fr": "gaz tordu"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "ひねくれるガスを敵全員にまきちらす。当たった敵は味方をすぐにこうげきする。",
+        "_en": "Spreads a twisting gas on all enemies. Enemies hit will immediately kill their allies.",
+        "_fr": "Répand un gaz tordu sur tous les ennemis. Les ennemis touchés tueront immédiatement leurs alliés."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ひねくれさせる",
+        "_en": "make it perverse",
+        "_fr": "rends-le pervers"
+      },
+      "explication": {
+        "_jp": "【混乱】 ひねくれて味方をたまにこうげきする",
+        "_en": "[Confusion] Twisted and sometimes attacks allies",
+        "_fr": "[Confusion] Tordu et attaque parfois les alliés"
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "こいつに とりつかれると どんなことも 素直に受け入れられない あまのじゃくな 人になってしまう。",
+      "_en": "If you become obsessed with this person, you'll end up becoming a total idiot who can't accept anything honestly.",
+      "_fr": "Si vous devenez obsédé par cette personne, vous finirez par devenir un idiot total qui ne peut rien accepter honnêtement."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "201",
+  "Name_yww": "あまのじゃく",
+  "description_jp_yww": "こいつに　とりつかれると どんなことも 素直に受け入れられない あまのじゃくな 人になってしまう。",
+  "BingoMessage_jp_yww": "ともだちになってほしいのぉ～？ どぉ～しよっかなぁ～",
+  "MonsterId_yww": "y207020",
+  "Height_yww": 11.0,
+  "CommondId_yww": "sp_207020",
+  "MinHp_yww": 52,
+  "MaxHp_yww": 442,
+  "MinAttack_yww": 10,
+  "MaxAttack_yww": 84,
+  "MinMagic_yww": 10,
+  "MaxMagic_yww": 49,
+  "MinDefense_yww": 30,
+  "MaxDefense_yww": 233,
+  "MinSpeed_yww": 25,
+  "MaxSpeed_yww": 171,
+  "AttackId_yww": 32,
+  "MagicId_yww": 8,
+  "HauntId_yww": 207020,
+  "SpSkillId_yww": 207020,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 9,
+  "DislikeFoodKind_yww": 4,
+  "ActionType_yww": 19,
+  "TribeType_yww": 6,
+  "MedallionImage_yww": "y202820.png",
+  "SpriteImage_yww": "img_y202820.png",
+  "Audio_yww": "sp_y202820.wav",
+  "Description_yww": "Si on se laisse envahir par ce sentiment, on ne peut plus accepter quoi que ce soit avec simplicité, et on finit par devenir une personne rebelle.",
+  "BingoMessage_fr_yww": "Tu veux qu'on soit amis ? Qu'est-ce que je vais faire ?"
 }

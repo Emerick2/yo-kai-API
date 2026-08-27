@@ -1,400 +1,431 @@
 {
-    "ID": "409",
-    "Nom": "Chimpanyan",
-    "Tribue": "Mignon",
-    "Rang": "B",
-    "PV": "364",
-    "Force": "169",
-    "Esprit": "47",
-    "Défense": "81",
-    "Vitesse": "231",
-    "Description": "Un des servants de Momonyan. Il n'a pas l'habitude du travail d'équipe, mais ne peut résister aux raviolis de millet.",
-    "description SITE": "Même s'il est plutôt perso habituellement, les friandises de Taronyan ont convaincu cet adepte du chacun pour soi de le suivre.",
-    "nourriture": "Chocolat",
-    "élément": "Foudre",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "Chimpanyan vient de Chimpanzé et de Nyan (Jibanyan/Cri du chat en japonais).",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Il peut déclencher une fureur du singe similaire à l'attaque deJibanyan.",
-    "personnalité": "Il est toujours perso, dans son coin. Grâce à son nouveau meilleur ami,Momonyan, il a complètement oublié ce trait de comportement.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/chimpanyan.png",
-    "numero": "412",
-    "nourriture_favorite": "Barre chocolatée",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Boulette",
-            "effet": "Récupère des PV après évanouissement. (une fois)"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Griffes acérées",
-            "effet": "10x2 | 45x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Décharge",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Singerie",
-            "effet": "Frappe les ennemis à portée avec le pouvoir des délicieux raviolis de millet. 22x5 | 44x5"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Simiesque",
-            "effet": "Donne au Yo-kai l'agilité d'un singe, sa VIT. augmente !"
-        }
+  "ID": "409",
+  "Nom": "Chimpanyan",
+  "Tribue": "Mignon",
+  "Rang": "B",
+  "PV": "364",
+  "Force": "169",
+  "Esprit": "47",
+  "Défense": "81",
+  "Vitesse": "231",
+  "Description": "Un des servants de Momonyan. Il n'a pas l'habitude du travail d'équipe, mais ne peut résister aux raviolis de millet.",
+  "description SITE": "Même s'il est plutôt perso habituellement, les friandises de Taronyan ont convaincu cet adepte du chacun pour soi de le suivre.",
+  "nourriture": "Chocolat",
+  "élément": "Foudre",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "Chimpanyan vient de Chimpanzé et de Nyan (Jibanyan/Cri du chat en japonais).",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Il peut déclencher une fureur du singe similaire à l'attaque deJibanyan.",
+  "personnalité": "Il est toujours perso, dans son coin. Grâce à son nouveau meilleur ami,Momonyan, il a complètement oublié ce trait de comportement.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/chimpanyan.png",
+  "numero": "412",
+  "nourriture_favorite": "Barre chocolatée",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Boulette",
+      "effet": "Récupère des PV après évanouissement. (une fois)"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Griffes acérées",
+      "effet": "10x2 | 45x2"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Décharge",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Singerie",
+      "effet": "Frappe les ennemis à portée avec le pouvoir des délicieux raviolis de millet. 22x5 | 44x5"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Simiesque",
+      "effet": "Donne au Yo-kai l'agilité d'un singe, sa VIT. augmente !"
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Ouh ouh, encore !",
+    "Mange de la nourriture insipide": "Ouh ouh, non rien !",
+    "Mange de la mauvaise nourriture": "Ouh ouh, non !",
+    "A la flemme": "Ouh ouh, fatigué !",
+    "Devient ton ami": "Ouh ouh haha ! C'est pas à un vieux singe qu'on apprend à vaincre les onis !",
+    "Est échangé": "Ouh ouh haha ! Chimpanyan à ton service ! Ravi de te rencontrer !",
+    "Bingo-kai": "Tu m'as sorti de là ! Ouh ouh ouh !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "サルニャン",
+  "nom_anglais": "Chimpanyan",
+  "premiere_apparition": "ywb1",
+  "voix": {
+    "japonaise": "Kiyono Yasuno",
+    "francaise": "Caroline Combes",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw Blasters 1": [
+      "Scannez le QR code pour obtenir laBoulette pour singe, qui rendra possible de se lier d'amitié avec Chimpanyan dans les missions suivantes :",
+      "Mission - Le chasseur Momotaro",
+      "Mission - Le chasseur Momotaro 2 (Brigade du Lapin Lunaire)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Ouh ouh, encore !",
-        "Mange de la nourriture insipide": "Ouh ouh, non rien !",
-        "Mange de la mauvaise nourriture": "Ouh ouh, non !",
-        "A la flemme": "Ouh ouh, fatigué !",
-        "Devient ton ami": "Ouh ouh haha ! C'est pas à un vieux singe qu'on apprend à vaincre les onis !",
-        "Est échangé": "Ouh ouh haha ! Chimpanyan à ton service ! Ravi de te rencontrer !",
-        "Bingo-kai": "Tu m'as sorti de là ! Ouh ouh ouh !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "サルニャン",
-    "nom_anglais": "Chimpanyan",
-    "premiere_apparition": "ywb1",
-    "voix": {
-        "japonaise": "Kiyono Yasuno",
-        "francaise": "Caroline Combes",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw Blasters 1": [
-            "Scannez le QR code pour obtenir laBoulette pour singe, qui rendra possible de se lier d'amitié avec Chimpanyan dans les missions suivantes :",
-            "Mission - Le chasseur Momotaro",
-            "Mission - Le chasseur Momotaro 2 (Brigade du Lapin Lunaire)"
-        ],
-        "yw3": [
-            "Bingo-kai-Pièce errante- 1er prix",
-            "Blasters T-Musphinx au poing fermé ②- récompense de Mumulette"
-        ],
-        "yw Wibble Wobble": [
-            "Bingo-kai - 3000y",
-            "Niveau caché 2 (Épreuve d'Ogralos)"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Singerie",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Onde de choc",
-                "puissance": "120",
-                "description": "Saute et crée une onde de choc en retombant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Piège",
-                "puissance": "___",
-                "description": "Peut engourdir un ennemi s'il marche dessus."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Galet",
-                "puissance": "40",
-                "description": "Utilise un sort de terre. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Boulette",
-                "description": "Tous les PV restaurés en cas de défaite."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "15×2|52×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Singerie",
-                "puissance": "22×5|44×5",
-                "description": "Frappe les ennemis à portée avec le pouvoir des délicieux raviolis de millet."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Simiesque",
-                "puissance": "N/A",
-                "description": "Donne au Yo-kai l'agilité d'un singe, sa VIT. augmente !"
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Boulette",
-                "description": "Récupère des PV après évanouissement. (une fois)"
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Boulette",
-        "description": "Tous les PV restaurés en cas de défaite."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/chimpanyan.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/chimpanyan.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/chimpanyan.wav",
-    "oldID": "415",
-    "medallium_ids": {
-        "yw3": "272"
-    },
-    "spinoff_ids": {
-        "Kunitori": ""
-    },
-    "battle_type": "",
-    "skill_name": "Dumpling",
-    "skill_effect": "Monkeying Around",
-    "disliked_food": "Vegetables",
-    "global_stats": {
-        "yw3": {
-            "stats": {
-                "HP": "374",
-                "STR": "174",
-                "SPR": "52",
-                "DEF": "86",
-                "SPD": "236"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "384",
-                "STR": "165",
-                "SPR": "141",
-                "DEF": "168"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "165-304",
-                "STR": "165",
-                "SPR": "141",
-                "DEF": "168"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "165-304"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "サルニャン",
-            "Sarunyan"
-        ],
-        "Spanish": [
-            "Simionyan"
-        ],
-        "French": [
-            "Chimpanyan"
-        ],
-        "Italian": [
-            "Scimyan"
-        ],
-        "German": [
-            "Schimpanyan"
-        ],
-        "Korean": [
-            "멍키냥",
-            "Meongkinyang"
-        ],
-        "Chinese (Mandarin)": [
-            "猴子喵"
-        ],
-        "Portuguese (Brazilian)": [
-            "Macaconyan"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "サルニャン"
-        ],
-        "Spanish": [
-            "Simionyan"
-        ],
-        "French": [
-            "Chimpanyan"
-        ],
-        "Italian": [
-            "Scimyan"
-        ],
-        "German": [
-            "Schimpanyan"
-        ],
-        "Korean": [
-            "멍키냥"
-        ],
-        "Chinese (Mandarin)": [
-            "猴子喵"
-        ],
-        "Portuguese (Brazilian)": [
-            "Macaconyan"
-        ]
-    },
-    "description_en": "One of Momonyan's servants. He's not used to teamwork, but can't resist a millet dumpling.",
-    "nom_en": "Wrongnek",
-    "rang_yww": "B",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "Chocobo",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 42,
-        "str": 24,
-        "spr": 5,
-        "def": 10,
-        "spd": 37
-    },
-    "stats_max_yww": {
-        "hp": 364,
-        "str": 169,
-        "spr": 47,
-        "def": 81,
-        "spd": 231
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "1つ星コイン",
-            "_en": "1 star coin",
-            "_fr": "Pièce d'une étoile"
-        }
+    "yw3": [
+      "Bingo-kai-Pièce errante- 1er prix",
+      "Blasters T-Musphinx au poing fermé ②- récompense de Mumulette"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "するどいつめ",
-                "_en": "sharp claw",
-                "_fr": "griffe acérée"
-            },
-            "explication": {
-                "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 15×2/Blow] Attack twice",
-                "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "電流の術",
-                "_en": "electric current technique",
-                "_fr": "technique du courant électrique"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 雷属性】 雷の妖術を使う。",
-                "_en": "[Power: 40 / Lightning attribute] Uses lightning magic.",
-                "_fr": "[Puissance : 40 / Attribut Foudre] Utilise la magie de la foudre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "モンキー炸裂パンチ",
-                "_en": "monkey explosive punch",
-                "_fr": "coup de poing explosif de singe"
-            },
-            "pouvoir": "22×5",
-            "explication": {
-                "_jp": "きびだんごパワーで範囲内をなぐりまくりダメージを与える。",
-                "_en": "Use Kibidango power to swipe within the area and deal damage.",
-                "_fr": "Utilisez le pouvoir Kibidango pour glisser dans la zone et infliger des dégâts."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "猿っぽくする",
-                "_en": "make it look like a monkey",
-                "_fr": "fais-le ressembler à un singe"
-            },
-            "explication": {
-                "_jp": "【すばやさアップ】 とりつかれた妖怪は猿っぽい身のこなしをおぼえ すばやさがアップする。",
-                "_en": "[Increased speed] Possessed monsters learn monkey-like movements and increase their speed.",
-                "_fr": "[Vitesse accrue] Les monstres possédés apprennent les mouvements de ceux d'un singe et augmentent leur vitesse."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "モモタロニャンの家来の一匹。 自由きままな性格で 団体行動は苦手だが きびだんごの魅力に あらがえず 家来になった。",
-            "_en": "One of Momotaronyan's servants. Although he has a free-spirited personality and doesn't like working in groups, he can't resist Kibidango's charm and becomes his servant.",
-            "_fr": "L'un des serviteurs de Momotaronyan. Bien qu'il ait une personnalité libre d'esprit et n'aime pas travailler en groupe, il ne résiste pas au charme de Kibidango et devient son serviteur."
-        }
-    ],
-    "jeu_present": [
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Bingo-kai - 3000y",
+      "Niveau caché 2 (Épreuve d'Ogralos)"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Singerie",
+        "puissance": "40×10",
+        "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Onde de choc",
+        "puissance": "120",
+        "description": "Saute et crée une onde de choc en retombant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Piège",
+        "puissance": "___",
+        "description": "Peut engourdir un ennemi s'il marche dessus."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Galet",
+        "puissance": "40",
+        "description": "Utilise un sort de terre. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Boulette",
+        "description": "Tous les PV restaurés en cas de défaite."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Griffes acérées",
+        "puissance": "15×2|52×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Décharge",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Singerie",
+        "puissance": "22×5|44×5",
+        "description": "Frappe les ennemis à portée avec le pouvoir des délicieux raviolis de millet."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Simiesque",
+        "puissance": "N/A",
+        "description": "Donne au Yo-kai l'agilité d'un singe, sa VIT. augmente !"
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Boulette",
+        "description": "Récupère des PV après évanouissement. (une fois)"
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Boulette",
+    "description": "Tous les PV restaurés en cas de défaite."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/chimpanyan.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/chimpanyan.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/chimpanyan.wav",
+  "oldID": "415",
+  "medallium_ids": {
+    "yw3": "272"
+  },
+  "spinoff_ids": {
+    "Kunitori": ""
+  },
+  "battle_type": "",
+  "skill_name": "Dumpling",
+  "skill_effect": "Monkeying Around",
+  "disliked_food": "Vegetables",
+  "global_stats": {
+    "yw3": {
+      "stats": {
+        "HP": "374",
+        "STR": "174",
+        "SPR": "52",
+        "DEF": "86",
+        "SPD": "236"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "384",
+        "STR": "165",
+        "SPR": "141",
+        "DEF": "168"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "165-304",
+        "STR": "165",
+        "SPR": "141",
+        "DEF": "168"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "165-304"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "サルニャン",
+      "Sarunyan"
+    ],
+    "Spanish": [
+      "Simionyan"
+    ],
+    "French": [
+      "Chimpanyan"
+    ],
+    "Italian": [
+      "Scimyan"
+    ],
+    "German": [
+      "Schimpanyan"
+    ],
+    "Korean": [
+      "멍키냥",
+      "Meongkinyang"
+    ],
+    "Chinese (Mandarin)": [
+      "猴子喵"
+    ],
+    "Portuguese (Brazilian)": [
+      "Macaconyan"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "サルニャン"
+    ],
+    "Spanish": [
+      "Simionyan"
+    ],
+    "French": [
+      "Chimpanyan"
+    ],
+    "Italian": [
+      "Scimyan"
+    ],
+    "German": [
+      "Schimpanyan"
+    ],
+    "Korean": [
+      "멍키냥"
+    ],
+    "Chinese (Mandarin)": [
+      "猴子喵"
+    ],
+    "Portuguese (Brazilian)": [
+      "Macaconyan"
+    ]
+  },
+  "description_en": "One of Momonyan's servants. He's not used to teamwork, but can't resist a millet dumpling.",
+  "nom_en": "Wrongnek",
+  "rang_yww": "B",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "Chocobo",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 42,
+    "str": 24,
+    "spr": 5,
+    "def": 10,
+    "spd": 37
+  },
+  "stats_max_yww": {
+    "hp": 364,
+    "str": 169,
+    "spr": 47,
+    "def": 81,
+    "spd": 231
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "1つ星コイン",
+      "_en": "1 star coin",
+      "_fr": "Pièce d'une étoile"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "するどいつめ",
+        "_en": "sharp claw",
+        "_fr": "griffe acérée"
+      },
+      "explication": {
+        "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
+        "_en": "[Power: 15×2/Blow] Attack twice",
+        "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "電流の術",
+        "_en": "electric current technique",
+        "_fr": "technique du courant électrique"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 雷属性】 雷の妖術を使う。",
+        "_en": "[Power: 40 / Lightning attribute] Uses lightning magic.",
+        "_fr": "[Puissance : 40 / Attribut Foudre] Utilise la magie de la foudre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "モンキー炸裂パンチ",
+        "_en": "monkey explosive punch",
+        "_fr": "coup de poing explosif de singe"
+      },
+      "pouvoir": "22×5",
+      "explication": {
+        "_jp": "きびだんごパワーで範囲内をなぐりまくりダメージを与える。",
+        "_en": "Use Kibidango power to swipe within the area and deal damage.",
+        "_fr": "Utilisez le pouvoir Kibidango pour glisser dans la zone et infliger des dégâts."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "猿っぽくする",
+        "_en": "make it look like a monkey",
+        "_fr": "fais-le ressembler à un singe"
+      },
+      "explication": {
+        "_jp": "【すばやさアップ】 とりつかれた妖怪は猿っぽい身のこなしをおぼえ すばやさがアップする。",
+        "_en": "[Increased speed] Possessed monsters learn monkey-like movements and increase their speed.",
+        "_fr": "[Vitesse accrue] Les monstres possédés apprennent les mouvements de ceux d'un singe et augmentent leur vitesse."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "モモタロニャンの家来の一匹。 自由きままな性格で 団体行動は苦手だが きびだんごの魅力に あらがえず 家来になった。",
+      "_en": "One of Momotaronyan's servants. Although he has a free-spirited personality and doesn't like working in groups, he can't resist Kibidango's charm and becomes his servant.",
+      "_fr": "L'un des serviteurs de Momotaronyan. Bien qu'il ait une personnalité libre d'esprit et n'aime pas travailler en groupe, il ne résiste pas au charme de Kibidango et devient son serviteur."
+    }
+  ],
+  "jeu_present": [
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "404",
+  "Name_yww": "サルニャン",
+  "description_jp_yww": "モモタロニャンの家来の一匹。 自由きままな性格で 団体行動は苦手だが きびだんごの魅力に あらがえず　家来になった。",
+  "BingoMessage_jp_yww": "ウキー！　やっと出られたキー！ とりあえずお前についてくキー！",
+  "MonsterId_yww": "y451000",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_451000",
+  "MinHp_yww": 51,
+  "MaxHp_yww": 425,
+  "MinAttack_yww": 19,
+  "MaxAttack_yww": 140,
+  "MinMagic_yww": 6,
+  "MaxMagic_yww": 49,
+  "MinDefense_yww": 32,
+  "MaxDefense_yww": 205,
+  "MinSpeed_yww": 28,
+  "MaxSpeed_yww": 181,
+  "AttackId_yww": 45,
+  "MagicId_yww": 2,
+  "HauntId_yww": 451000,
+  "SpSkillId_yww": 451000,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 8,
+  "DislikeFoodKind_yww": 20,
+  "ActionType_yww": 16,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y446800.png",
+  "SpriteImage_yww": "img_y446800.png",
+  "Audio_yww": "sp_y446800.wav",
+  "Description_yww": "L'un des serviteurs de Momotaro-nyan. D'un caractère libre et insouciant, il n'est pas très à l'aise dans les activités de groupe, mais, incapable de résister au charme des kibidango, il est devenu son serviteur.",
+  "BingoMessage_fr_yww": "Ouf ! J'ai enfin réussi à sortir ! Bon, pour l'instant, je te suis !"
 }

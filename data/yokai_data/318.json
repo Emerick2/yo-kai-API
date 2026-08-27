@@ -1,474 +1,505 @@
 {
-    "ID": "318",
-    "Nom": "Sornella",
-    "Tribue": "Sinistre",
-    "Rang": "A",
-    "PV": "417",
-    "Force": "66",
-    "Esprit": "199",
-    "Défense": "87",
-    "Vitesse": "225",
-    "Description": "Désormais au lycée, Ornella passe ses journées à jeter des sorts et à perturber les cours, d'où son nouveau surnom.",
-    "description SITE": "Désormais au lycée,Ornellapasse ses journées à jeter des sorts et à perturber les cours, d'où le nouveau surnom.",
-    "nourriture": "Encas",
-    "élément": "Absorption",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/sornella.png",
-    "numero": "273",
-    "nourriture_favorite": "Encas",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Réassort",
-            "effet": "Les envoûtements négatifs sur alliés sont intensifiés."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Volée",
-            "effet": "20x2 | 44x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Récolte",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Amour maudit",
-            "effet": "Un sort provenant d'un livre réduit rapidement les PV de l'ennemi."
-        },
-        {
-            "type": "Attaque",
-            "nom": "À l'ancienne",
-            "effet": "Le Yo-kai est maudit par une élève, ce qui baisse son ESP."
-        }
+  "ID": "318",
+  "Nom": "Sornella",
+  "Tribue": "Sinistre",
+  "Rang": "A",
+  "PV": "417",
+  "Force": "66",
+  "Esprit": "199",
+  "Défense": "87",
+  "Vitesse": "225",
+  "Description": "Désormais au lycée, Ornella passe ses journées à jeter des sorts et à perturber les cours, d'où son nouveau surnom.",
+  "description SITE": "Désormais au lycée,Ornellapasse ses journées à jeter des sorts et à perturber les cours, d'où le nouveau surnom.",
+  "nourriture": "Encas",
+  "élément": "Absorption",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/sornella.png",
+  "numero": "273",
+  "nourriture_favorite": "Encas",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Réassort",
+      "effet": "Les envoûtements négatifs sur alliés sont intensifiés."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Volée",
+      "effet": "20x2 | 44x2"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Récolte",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Amour maudit",
+      "effet": "Un sort provenant d'un livre réduit rapidement les PV de l'ennemi."
+    },
+    {
+      "type": "Attaque",
+      "nom": "À l'ancienne",
+      "effet": "Le Yo-kai est maudit par une élève, ce qui baisse son ESP."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Oui... j'aime bien.",
+    "Mange de la nourriture insipide": "C'est un peu fade.",
+    "Mange de la mauvaise nourriture": "Tu vas le payer !",
+    "A la flemme": "Je traîne un peu !",
+    "Est échangé": "Pour me venger, j'ai jeté un sort sur",
+    "Devient ton ami": "Je resterai à tes côtés et te lancerai un sort par jour ? Ça te dit ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Ornella",
+      "parent2": "Revue maudite",
+      "resultat": "Sornella",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "呪野花子",
+  "nom_anglais": "Foiletta",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Fusion"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Oui... j'aime bien.",
-        "Mange de la nourriture insipide": "C'est un peu fade.",
-        "Mange de la mauvaise nourriture": "Tu vas le payer !",
-        "A la flemme": "Je traîne un peu !",
-        "Est échangé": "Pour me venger, j'ai jeté un sort sur",
-        "Devient ton ami": "Je resterai à tes côtés et te lancerai un sort par jour ? Ça te dit ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Ornella",
-            "parent2": "Revue maudite",
-            "resultat": "Sornella",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Fusion"
     ],
-    "image_locale": "",
-    "nom_original": "呪野花子",
-    "nom_anglais": "Foiletta",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Fusion"
-        ],
-        "yw Blasters 1": [
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Volée",
-                "puissance": "20×2|44×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Récolte",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Amour maudit",
-                "puissance": "",
-                "description": "Un sort provenant d'un livre réduit rapidement les PV de l'ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "À l'ancienne",
-                "puissance": "N/A",
-                "description": "Le Yo-kai est maudit par une élève, ce qui baisse son ESP."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Réassort",
-                "description": "Les envoûtements négatifs des alliés sont intensifiés."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Sort d'ici",
-                "puissance": "___",
-                "description": "PV des ennemis baissent rapidement."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Vortex",
-                "puissance": "30",
-                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Attaque de repli",
-                "puissance": "70",
-                "description": "Pendant l'attaque, recule et évite les coups ennemis."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Siphon",
-                "puissance": "40",
-                "description": "Absorbe beaucoup de PV. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Emprise",
-                "description": "Augmente le nombre de PV absorbés."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Volée",
-                "puissance": "25×2|55×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Récolte",
-                "puissance": "55|88",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Amour maudit",
-                "puissance": "74|74",
-                "description": "Maudit les ennemis à portée et baisse peu à peu leurs PV."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "À l'ancienne",
-                "puissance": "N/A",
-                "description": "Le Yo-kai est maudit par une lycéenne, ce qui baisse son ESP."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Réassort",
-                "description": "Intensifie les malédictions sur les ennemis."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Réassort",
-        "description": "Les envoûtements négatifs des alliés sont intensifiés."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/sornella.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/sornella.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/sornella.wav",
-    "oldID": "335",
-    "medallium_ids": {
-        "yw2": "273",
-        "yw3": "492"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "328",
-        "yw Blasters 2": "507",
-        "yw Wibble Wobble": "7048",
-        "yw World": "0247",
-        "yw Ukiukipedia": "yw5-021"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Curse Worsener yw2 yw3 Grip on You ywB",
-    "skill_effect": "High School Hex",
-    "disliked_food": "Milk",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "427",
-                "STR": "136",
-                "SPR": "204",
-                "DEF": "164",
-                "SPD": "179"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "405",
-                "STR": "126",
-                "SPR": "236",
-                "DEF": "173",
-                "SPD": "230"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "Main series games": {
-            "stats": {
-                "HP": "550-1",
-                "STR": "126",
-                "SPR": "236",
-                "DEF": "173"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "Spin-off games": {
-            "stats": {
-                "HP": "550-1",
-                "STR": "126",
-                "SPR": "236",
-                "DEF": "173"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "550-1",
-                "STR": "126",
-                "SPR": "236",
-                "DEF": "173"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "550-1"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "550-1"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "呪野花子",
-            "Noroino"
-        ],
-        "Spanish": [
-            "Malena"
-        ],
-        "French": [
-            "Sornella"
-        ],
-        "Italian": [
-            "Disturbella"
-        ],
-        "German": [
-            "Maledixi"
-        ],
-        "Russian": [
-            "Хулиганушка",
-            "Khuliganushka"
-        ],
-        "Arabic": [
-            "الآنسة",
-            "Al'ānisa"
-        ],
-        "Portuguese (Brazilian)": [
-            "Ana"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "呪野花子"
-        ],
-        "Spanish": [
-            "Malena"
-        ],
-        "French": [
-            "Sornella"
-        ],
-        "Italian": [
-            "Disturbella"
-        ],
-        "German": [
-            "Maledixi"
-        ],
-        "Russian": [
-            "Хулиганушка"
-        ],
-        "Arabic": [
-            "الآنسة مشاكل"
-        ],
-        "Portuguese (Brazilian)": [
-            "Ana Tema"
-        ]
-    },
-    "description_en": "Toiletta's now in high school, where her love of curses and disruptive behavior has earned her a new nickname.",
-    "nom_en": "Rawry",
-    "rang_yww": "A",
-    "tribue_yww": "ブキミー族",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "collation",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 49,
-        "str": 9,
-        "spr": 29,
-        "def": 14,
-        "spd": 34
-    },
-    "stats_max_yww": {
-        "hp": 417,
-        "str": 66,
-        "spr": 199,
-        "def": 87,
-        "spd": 225
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はりたおす",
-                "_en": "Haritaosu",
-                "_fr": "Haritaosu"
-            },
-            "explication": {
-                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
-                "_en": "【威力:25×2 / 打撃】 2回攻撃を行う",
-                "_fr": "【威力:25×2 / 打撃】 2回攻撃を行う"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "死神の術",
-                "_en": "死神の術",
-                "_fr": "死神の術"
-            },
-            "explication": {
-                "_jp": "【威力:55 / 吸収】 敵のHPを大きく吸い取る。",
-                "_en": "【威力:55 / 吸収】 敵のHPを大きく吸い取る。",
-                "_fr": "【威力:55 / 吸収】 敵のHPを大きく吸い取る。"
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "呪いのラブレター",
-                "_en": "cursed love letter",
-                "_fr": "lettre d'amour maudite"
-            },
-            "pouvoir": "74",
-            "explication": {
-                "_jp": "呪いのエナジーを敵全体に放出する。当たった妖怪はHPがだんだん減っていく。",
-                "_en": "Releases cursed energy to all enemies. The hit monster's HP gradually decreases.",
-                "_fr": "Libère de l'énergie maudite sur tous les ennemis. Les PV du monstre touché diminuent progressivement."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "花子（高２）の呪い",
-                "_en": "花子（高２）の呪い",
-                "_fr": "花子（高２）の呪い"
-            },
-            "explication": {
-                "_jp": "【ようりょくダウン】 とりつかれた妖怪は高校2年生級の呪いの力でようりょくが大ダウンする。",
-                "_en": "[Yoryoku Down] The possessed youkai has a curse like a second-year high school student whose power goes down greatly.",
-                "_fr": "[Yoryoku Down] Le yôkai possédé a une malédiction comme un lycéen de deuxième année dont le pouvoir diminue considérablement."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "花子さんが成長して 女子高生になった姿。 授業もマジメに聞かず 呪いのことばかり考えている 危ない子になってしまった。",
-            "_en": "Hanako grows up and becomes a high school girl. She has become a dangerous child who doesn't listen seriously in class and only thinks about curses.",
-            "_fr": "Hanako grandit et devient lycéenne. Elle est devenue une enfant dangereuse qui n'écoute pas sérieusement en classe et ne pense qu'aux malédictions."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Volée",
+        "puissance": "20×2|44×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Récolte",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Amour maudit",
+        "puissance": "",
+        "description": "Un sort provenant d'un livre réduit rapidement les PV de l'ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "À l'ancienne",
+        "puissance": "N/A",
+        "description": "Le Yo-kai est maudit par une élève, ce qui baisse son ESP."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Réassort",
+        "description": "Les envoûtements négatifs des alliés sont intensifiés."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Sort d'ici",
+        "puissance": "___",
+        "description": "PV des ennemis baissent rapidement."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Vortex",
+        "puissance": "30",
+        "description": "Absorbe les PV ennemis. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Attaque de repli",
+        "puissance": "70",
+        "description": "Pendant l'attaque, recule et évite les coups ennemis."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Siphon",
+        "puissance": "40",
+        "description": "Absorbe beaucoup de PV. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Emprise",
+        "description": "Augmente le nombre de PV absorbés."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Volée",
+        "puissance": "25×2|55×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Récolte",
+        "puissance": "55|88",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Amour maudit",
+        "puissance": "74|74",
+        "description": "Maudit les ennemis à portée et baisse peu à peu leurs PV."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "À l'ancienne",
+        "puissance": "N/A",
+        "description": "Le Yo-kai est maudit par une lycéenne, ce qui baisse son ESP."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Réassort",
+        "description": "Intensifie les malédictions sur les ennemis."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Réassort",
+    "description": "Les envoûtements négatifs des alliés sont intensifiés."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/sornella.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/sornella.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/sornella.wav",
+  "oldID": "335",
+  "medallium_ids": {
+    "yw2": "273",
+    "yw3": "492"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "328",
+    "yw Blasters 2": "507",
+    "yw Wibble Wobble": "7048",
+    "yw World": "0247",
+    "yw Ukiukipedia": "yw5-021"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Curse Worsener yw2 yw3 Grip on You ywB",
+  "skill_effect": "High School Hex",
+  "disliked_food": "Milk",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "427",
+        "STR": "136",
+        "SPR": "204",
+        "DEF": "164",
+        "SPD": "179"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "405",
+        "STR": "126",
+        "SPR": "236",
+        "DEF": "173",
+        "SPD": "230"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "Main series games": {
+      "stats": {
+        "HP": "550-1",
+        "STR": "126",
+        "SPR": "236",
+        "DEF": "173"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "Spin-off games": {
+      "stats": {
+        "HP": "550-1",
+        "STR": "126",
+        "SPR": "236",
+        "DEF": "173"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "550-1",
+        "STR": "126",
+        "SPR": "236",
+        "DEF": "173"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "550-1"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "550-1"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "呪野花子",
+      "Noroino"
+    ],
+    "Spanish": [
+      "Malena"
+    ],
+    "French": [
+      "Sornella"
+    ],
+    "Italian": [
+      "Disturbella"
+    ],
+    "German": [
+      "Maledixi"
+    ],
+    "Russian": [
+      "Хулиганушка",
+      "Khuliganushka"
+    ],
+    "Arabic": [
+      "الآنسة",
+      "Al'ānisa"
+    ],
+    "Portuguese (Brazilian)": [
+      "Ana"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "呪野花子"
+    ],
+    "Spanish": [
+      "Malena"
+    ],
+    "French": [
+      "Sornella"
+    ],
+    "Italian": [
+      "Disturbella"
+    ],
+    "German": [
+      "Maledixi"
+    ],
+    "Russian": [
+      "Хулиганушка"
+    ],
+    "Arabic": [
+      "الآنسة مشاكل"
+    ],
+    "Portuguese (Brazilian)": [
+      "Ana Tema"
+    ]
+  },
+  "description_en": "Toiletta's now in high school, where her love of curses and disruptive behavior has earned her a new nickname.",
+  "nom_en": "Rawry",
+  "rang_yww": "A",
+  "tribue_yww": "ブキミー族",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "collation",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 49,
+    "str": 9,
+    "spr": 29,
+    "def": 14,
+    "spd": 34
+  },
+  "stats_max_yww": {
+    "hp": 417,
+    "str": 66,
+    "spr": 199,
+    "def": 87,
+    "spd": 225
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "はりたおす",
+        "_en": "Haritaosu",
+        "_fr": "Haritaosu"
+      },
+      "explication": {
+        "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+        "_en": "【威力:25×2 / 打撃】 2回攻撃を行う",
+        "_fr": "【威力:25×2 / 打撃】 2回攻撃を行う"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "死神の術",
+        "_en": "死神の術",
+        "_fr": "死神の術"
+      },
+      "explication": {
+        "_jp": "【威力:55 / 吸収】 敵のHPを大きく吸い取る。",
+        "_en": "【威力:55 / 吸収】 敵のHPを大きく吸い取る。",
+        "_fr": "【威力:55 / 吸収】 敵のHPを大きく吸い取る。"
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "呪いのラブレター",
+        "_en": "cursed love letter",
+        "_fr": "lettre d'amour maudite"
+      },
+      "pouvoir": "74",
+      "explication": {
+        "_jp": "呪いのエナジーを敵全体に放出する。当たった妖怪はHPがだんだん減っていく。",
+        "_en": "Releases cursed energy to all enemies. The hit monster's HP gradually decreases.",
+        "_fr": "Libère de l'énergie maudite sur tous les ennemis. Les PV du monstre touché diminuent progressivement."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "花子（高２）の呪い",
+        "_en": "花子（高２）の呪い",
+        "_fr": "花子（高２）の呪い"
+      },
+      "explication": {
+        "_jp": "【ようりょくダウン】 とりつかれた妖怪は高校2年生級の呪いの力でようりょくが大ダウンする。",
+        "_en": "[Yoryoku Down] The possessed youkai has a curse like a second-year high school student whose power goes down greatly.",
+        "_fr": "[Yoryoku Down] Le yôkai possédé a une malédiction comme un lycéen de deuxième année dont le pouvoir diminue considérablement."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "花子さんが成長して 女子高生になった姿。 授業もマジメに聞かず 呪いのことばかり考えている 危ない子になってしまった。",
+      "_en": "Hanako grows up and becomes a high school girl. She has become a dangerous child who doesn't listen seriously in class and only thinks about curses.",
+      "_fr": "Hanako grandit et devient lycéenne. Elle est devenue une enfant dangereuse qui n'écoute pas sérieusement en classe et ne pense qu'aux malédictions."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "328",
+  "Name_yww": "呪野花子",
+  "description_jp_yww": "花子さんが成長して 女子高生になった姿。 授業もマジメに聞かず 呪いのことばかり考えている 危ない子になってしまった。",
+  "BingoMessage_jp_yww": "フフフ　開けちゃったね 今日から毎日　呪ってあげるね！",
+  "MonsterId_yww": "y311000",
+  "Height_yww": 8.75,
+  "CommondId_yww": "sp_311000",
+  "MinHp_yww": 51,
+  "MaxHp_yww": 405,
+  "MinAttack_yww": 7,
+  "MaxAttack_yww": 43,
+  "MinMagic_yww": 30,
+  "MaxMagic_yww": 216,
+  "MinDefense_yww": 37,
+  "MaxDefense_yww": 247,
+  "MinSpeed_yww": 16,
+  "MaxSpeed_yww": 91,
+  "AttackId_yww": 26,
+  "MagicId_yww": 12,
+  "HauntId_yww": 311000,
+  "SpSkillId_yww": 311000,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 1,
+  "DislikeFoodKind_yww": 9,
+  "ActionType_yww": 17,
+  "TribeType_yww": 7,
+  "MedallionImage_yww": "y306800.png",
+  "SpriteImage_yww": "img_y306800.png",
+  "Audio_yww": "sp_y306800.wav",
+  "Description_yww": "Hanako a grandi et est devenue une lycéenne. Elle n'écoute plus attentivement en cours et ne pense plus qu'à la malédiction : elle est devenue une jeune fille à problèmes.",
+  "BingoMessage_fr_yww": "Huhuhu, tu l'as ouverte, hein ? À partir d'aujourd'hui, je vais te maudire tous les jours !"
 }

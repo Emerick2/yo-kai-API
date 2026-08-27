@@ -1,527 +1,558 @@
 {
-    "ID": "130",
-    "Nom": "Corniot",
-    "Tribue": "Sinistre",
-    "Rang": "E",
-    "PV": "298",
-    "Force": "178",
-    "Esprit": "40",
-    "Défense": "102",
-    "Vitesse": "142",
-    "Description-": "Personne ne veut se rapprocher de Bicorniot, à cause de ses visages méchants. C'est un parfait chien de garde.",
-    "Description": "Un caniche à tête humaine qui aime faire peur aux gens. Il espère un jour devenir un chef d’entreprise.",
-    "nourriture": "Cuisine chinoise",
-    "élément": "Feu",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "Corniot vient de Corniaud (chien croisé)",
-    "origine": "Corniot vient duJinmenken\"???\" (qui est aussi son nom Japonais) le chien à tête d'homme, est une créature légendaire du folklore japonais, capable, selon certains témoignages, de comprendre et parler les langues humaines.",
-    "histoire": "",
-    "pouvoir": "Il peut transformer les gens en chien à visage humain après les avoir mordus.",
-    "personnalité": "Il adorerait avoir une maîtresse mais personne ne veut de lui à cause de son visage repoussant il aime aussi les formes des femmes.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/corniot.png",
-    "numero": "169",
-    "nourriture_favorite": "Plats chinois",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Paradis cynophile",
-            "effet": "Augm. stats d'un voisin avec le même talent."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Mâchouille",
-            "effet": "45 | 99"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Incendie",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Grand caninvore",
-            "effet": "Mord tous ses ennemis avec frénésie. C'est assez effrayant... 19x5 | 19x5"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Confusion",
-            "effet": "Incite l'ennemi à attaquer ses alliés."
-        }
+  "ID": "130",
+  "Nom": "Corniot",
+  "Tribue": "Sinistre",
+  "Rang": "E",
+  "PV": "298",
+  "Force": "178",
+  "Esprit": "40",
+  "Défense": "102",
+  "Vitesse": "142",
+  "Description-": "Personne ne veut se rapprocher de Bicorniot, à cause de ses visages méchants. C'est un parfait chien de garde.",
+  "Description": "Un caniche à tête humaine qui aime faire peur aux gens. Il espère un jour devenir un chef d’entreprise.",
+  "nourriture": "Cuisine chinoise",
+  "élément": "Feu",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "Corniot vient de Corniaud (chien croisé)",
+  "origine": "Corniot vient duJinmenken\"???\" (qui est aussi son nom Japonais) le chien à tête d'homme, est une créature légendaire du folklore japonais, capable, selon certains témoignages, de comprendre et parler les langues humaines.",
+  "histoire": "",
+  "pouvoir": "Il peut transformer les gens en chien à visage humain après les avoir mordus.",
+  "personnalité": "Il adorerait avoir une maîtresse mais personne ne veut de lui à cause de son visage repoussant il aime aussi les formes des femmes.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/corniot.png",
+  "numero": "169",
+  "nourriture_favorite": "Plats chinois",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Paradis cynophile",
+      "effet": "Augm. stats d'un voisin avec le même talent."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Mâchouille",
+      "effet": "45 | 99"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Incendie",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Grand caninvore",
+      "effet": "Mord tous ses ennemis avec frénésie. C'est assez effrayant... 19x5 | 19x5"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Confusion",
+      "effet": "Incite l'ennemi à attaquer ses alliés."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est bon !",
+    "Mange de la nourriture insipide": "J'ai connu mieux...",
+    "Mange de la mauvaise nourriture": "Euh...",
+    "A la flemme": "C'est pas vrai !",
+    "Est échangé": "Je ne comprends pas... Pourquoi",
+    "Devient ton ami": "NON ! C'est affreux ! Je veux de nouveaux amis !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "yw2 & 3",
+      "de": "Corniot",
+      "vers": "Bicorniot",
+      "critere": "Niveau 22"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "じんめん犬",
+  "nom_anglais": "Manjimutt",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Naoki Bando",
+    "francaise": "Bruno Méyère",
+    "anglaise": "English VA Paul Greenberg"
+  },
+  "localisations": {
+    "yw1": [
+      "Coteau fleuri– Chemin secret",
+      "Coteau fleuri – Terrain Vague",
+      "Coteau fleuri – Ordures & Dépotoirs",
+      "Limbes éternelles– 1er cercle",
+      "Limbes éternelles – 2e cercle",
+      "Mont Sylvestre–Bingo-kai–Pièce mauve"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est bon !",
-        "Mange de la nourriture insipide": "J'ai connu mieux...",
-        "Mange de la mauvaise nourriture": "Euh...",
-        "A la flemme": "C'est pas vrai !",
-        "Est échangé": "Je ne comprends pas... Pourquoi",
-        "Devient ton ami": "NON ! C'est affreux ! Je veux de nouveaux amis !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "yw2 & 3",
-            "de": "Corniot",
-            "vers": "Bicorniot",
-            "critere": "Niveau 22"
-        }
+    "yw2": [
+      "Mont Sylvestre – Bingo-kai –Pile ou passe"
     ],
-    "image_locale": "",
-    "nom_original": "じんめん犬",
-    "nom_anglais": "Manjimutt",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Naoki Bando",
-        "francaise": "Bruno Méyère",
-        "anglaise": "English VA Paul Greenberg"
-    },
-    "localisations": {
-        "yw1": [
-            "Coteau fleuri– Chemin secret",
-            "Coteau fleuri – Terrain Vague",
-            "Coteau fleuri – Ordures & Dépotoirs",
-            "Limbes éternelles– 1er cercle",
-            "Limbes éternelles – 2e cercle",
-            "Mont Sylvestre–Bingo-kai–Pièce mauve"
-        ],
-        "yw2": [
-            "Mont Sylvestre – Bingo-kai –Pile ou passe"
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Coteau fleuri",
-            "Bingo-kai -Pièce mauve"
-        ],
-        "yw3": [
-            "La Corniche– Sous les voitures"
-        ],
-        "yw4": [
-            "LesHauts de Granval",
-            "Hell's Kitchen",
-            "Bingo-kai(Présent) :",
-            "-Vieille Pièce(3ieme prix)",
-            "-Pièce 5 étoiles,Pièce 1 étoile, Y-monnaie (prix de consolation)",
-            "Corniot est également trouvable dans les combats deGrolos,BlingosetBogosdans leTournoi Enma - Arène Oni. Ainsi que dans le tutoriel et les missions deRugisetOrqanosdu modePura Pura Busters."
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "45|99",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Feu",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Grand caninvore",
-                "puissance": "18×5|18×5",
-                "description": "Mord tous ses ennemis avec frénésie. C'est assez effrayant..."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Confusion",
-                "puissance": "N/A",
-                "description": "Incite l'ennemi à attaquer ses alliés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Paradis cynophile",
-                "description": "Augmente les stats d'un voisin avec le même talent."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "45|99",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Grand caninvore",
-                "puissance": "19×5|19×5",
-                "description": "Mord tous ses ennemis avec frénésie. C'est assez effrayant..."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Confusion",
-                "puissance": "N/A",
-                "description": "Incite l'ennemi à attaquer ses alliés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Paradis cynophile",
-                "description": "Augmente les stats d'un voisin avec le même talent."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Grand caninvore",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Baisse offensive",
-                "puissance": "___",
-                "description": "Baisse ATT. ennemie. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Démolibombe",
-                "puissance": "500",
-                "description": "Une bombe explose sur les ennemis et les alliés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Donnant donnant",
-                "description": "Tes PV sont restaurés après réanimation."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Grand caninvore",
-                "puissance": "15×5|45×5",
-                "description": "Mord les ennemis à portée avec frénésie. C'est assez effrayant."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Confusion",
-                "puissance": "N/A",
-                "description": "L'ennemi est confus et attaque parfois ses alliés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Paradis cynophile",
-                "description": "↑ stats si relié à un Yo-kai avec le même talent."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Paradis cynophile",
-        "description": "Augmente les stats d'un voisin avec le même talent."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/corniot.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/corniot.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/corniot.wav",
-    "oldID": "130",
-    "medallium_ids": {
-        "yw1": "169",
-        "yw2": "259",
-        "yw3": "465",
-        "yw4": "39 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "Kunitori": ""
-    },
-    "battle_type": "",
-    "skill_name": "Mutt's Paradise",
-    "skill_effect": "Confusion",
-    "disliked_food": "Vegetables",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "308",
-                "STR": "142",
-                "SPR": "114",
-                "DEF": "94",
-                "SPD": "145"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "85",
-                "STR": "22",
-                "SPR": "11",
-                "DEF": "107",
-                "SPD": "147"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "102-175",
-                "STR": "22",
-                "SPR": "11"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "102-175"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "102-175"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "Y School Heroes: Bustlin' School Life": {
-            "stats": {
-                "HP": "102-175"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "102-175"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "じんめん犬",
-            "Jinmenken"
-        ],
-        "Spanish": [
-            "Cantonio"
-        ],
-        "French": [
-            "Corniot"
-        ],
-        "Italian": [
-            "Canom"
-        ],
-        "German": [
-            "Möter"
-        ],
-        "Dutch": [
-            "Manjimutt"
-        ],
-        "Korean": [
-            "인면견",
-            "Inmyeongyeon"
-        ],
-        "Russian": [
-            "Шелупудель",
-            "Shelupudel'"
-        ],
-        "Arabic": [
-            "نباح",
-            "Nabbāḥ"
-        ],
-        "Chinese (Mandarin)": [
-            "人面犬",
-            "Rénmiànquǎn"
-        ],
-        "Portuguese (Brazilian)": [
-            "Sarnento"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "じんめん犬"
-        ],
-        "Spanish": [
-            "Cantonio"
-        ],
-        "French": [
-            "Corniot"
-        ],
-        "Italian": [
-            "Canom"
-        ],
-        "German": [
-            "Möter"
-        ],
-        "Dutch": [
-            "Manjimutt"
-        ],
-        "Korean": [
-            "인면견"
-        ],
-        "Russian": [
-            "Шелупудель"
-        ],
-        "Arabic": [
-            "نباح"
-        ],
-        "Chinese (Mandarin)": [
-            "人面犬"
-        ],
-        "Portuguese (Brazilian)": [
-            "Sarnento"
-        ]
-    },
-    "description_en": "A man-faced poodle who enjoys scaring people frightened by a poodle with a man's face. Hopes to one day be a CEO.",
-    "nom_en": "Grainpa",
-    "rang_yww": "E",
-    "tribue_yww": "Bukimi",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "curry",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 38,
-        "str": 21,
-        "spr": 3,
-        "def": 11,
-        "spd": 17
-    },
-    "stats_max_yww": {
-        "hp": 298,
-        "str": 178,
-        "spr": 40,
-        "def": 102,
-        "spd": 142
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "くらいつく",
-                "_en": "Approximately",
-                "_fr": "Environ"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
-                "_en": "[Power: 50/Blow] Deal a big blow",
-                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "火炎の術",
-                "_en": "flame technique",
-                "_fr": "technique de la flamme"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
-                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
-                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
-            }
-        }
+    "yw Blasters 1": [
+      "Patrouille -Coteau fleuri",
+      "Bingo-kai -Pièce mauve"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "おっさんかみマックス",
-                "_en": "Ossankami Max",
-                "_fr": "Ossankami Max"
-            },
-            "pouvoir": "15×5",
-            "explication": {
-                "_jp": "日頃のストレスを忘れて一心不乱にかみまくり敵全体にダメージを与える。",
-                "_en": "Forget about everyday stress and bite with all your might, dealing damage to all enemies.",
-                "_fr": "Oubliez le stress quotidien et mordez de toutes vos forces, infligeant des dégâts à tous les ennemis."
-            }
-        }
+    "yw3": [
+      "La Corniche– Sous les voitures"
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "混乱させる",
-                "_en": "confuse",
-                "_fr": "embrouiller"
-            },
-            "explication": {
-                "_jp": "【混乱】 味方をたまにこうげきする",
-                "_en": "[Confusion] Occasionally attacks allies",
-                "_fr": "[Confusion] Attaque occasionnellement les alliés"
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "今風の犬種の人面犬。 後ろ姿のかわいさに つられて寄ってきた人を よくビックリさせる。 モテモテになるのが夢。",
-            "_en": "A modern breed of dog with a human face. It often surprises people who approach it because of its cuteness from behind. My dream is to be popular.",
-            "_fr": "Une race de chien moderne à visage humain. Il surprend souvent ceux qui l'approchent en raison de sa gentillesse par derrière. Mon rêve est d'être populaire."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw4": [
+      "LesHauts de Granval",
+      "Hell's Kitchen",
+      "Bingo-kai(Présent) :",
+      "-Vieille Pièce(3ieme prix)",
+      "-Pièce 5 étoiles,Pièce 1 étoile, Y-monnaie (prix de consolation)",
+      "Corniot est également trouvable dans les combats deGrolos,BlingosetBogosdans leTournoi Enma - Arène Oni. Ainsi que dans le tutoriel et les missions deRugisetOrqanosdu modePura Pura Busters."
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Mâchouille",
+        "puissance": "45|99",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Feu",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Grand caninvore",
+        "puissance": "18×5|18×5",
+        "description": "Mord tous ses ennemis avec frénésie. C'est assez effrayant..."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Confusion",
+        "puissance": "N/A",
+        "description": "Incite l'ennemi à attaquer ses alliés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Paradis cynophile",
+        "description": "Augmente les stats d'un voisin avec le même talent."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Mâchouille",
+        "puissance": "45|99",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Incendie",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Grand caninvore",
+        "puissance": "19×5|19×5",
+        "description": "Mord tous ses ennemis avec frénésie. C'est assez effrayant..."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Confusion",
+        "puissance": "N/A",
+        "description": "Incite l'ennemi à attaquer ses alliés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Paradis cynophile",
+        "description": "Augmente les stats d'un voisin avec le même talent."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Grand caninvore",
+        "puissance": "40×10",
+        "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Baisse offensive",
+        "puissance": "___",
+        "description": "Baisse ATT. ennemie. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Démolibombe",
+        "puissance": "500",
+        "description": "Une bombe explose sur les ennemis et les alliés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Donnant donnant",
+        "description": "Tes PV sont restaurés après réanimation."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Mâchouille",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Incendie",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Grand caninvore",
+        "puissance": "15×5|45×5",
+        "description": "Mord les ennemis à portée avec frénésie. C'est assez effrayant."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Confusion",
+        "puissance": "N/A",
+        "description": "L'ennemi est confus et attaque parfois ses alliés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Paradis cynophile",
+        "description": "↑ stats si relié à un Yo-kai avec le même talent."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Paradis cynophile",
+    "description": "Augmente les stats d'un voisin avec le même talent."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/corniot.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/corniot.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/corniot.wav",
+  "oldID": "130",
+  "medallium_ids": {
+    "yw1": "169",
+    "yw2": "259",
+    "yw3": "465",
+    "yw4": "39 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "Kunitori": ""
+  },
+  "battle_type": "",
+  "skill_name": "Mutt's Paradise",
+  "skill_effect": "Confusion",
+  "disliked_food": "Vegetables",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "308",
+        "STR": "142",
+        "SPR": "114",
+        "DEF": "94",
+        "SPD": "145"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "85",
+        "STR": "22",
+        "SPR": "11",
+        "DEF": "107",
+        "SPD": "147"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "102-175",
+        "STR": "22",
+        "SPR": "11"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "102-175"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "102-175"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "Y School Heroes: Bustlin' School Life": {
+      "stats": {
+        "HP": "102-175"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "102-175"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "じんめん犬",
+      "Jinmenken"
+    ],
+    "Spanish": [
+      "Cantonio"
+    ],
+    "French": [
+      "Corniot"
+    ],
+    "Italian": [
+      "Canom"
+    ],
+    "German": [
+      "Möter"
+    ],
+    "Dutch": [
+      "Manjimutt"
+    ],
+    "Korean": [
+      "인면견",
+      "Inmyeongyeon"
+    ],
+    "Russian": [
+      "Шелупудель",
+      "Shelupudel'"
+    ],
+    "Arabic": [
+      "نباح",
+      "Nabbāḥ"
+    ],
+    "Chinese (Mandarin)": [
+      "人面犬",
+      "Rénmiànquǎn"
+    ],
+    "Portuguese (Brazilian)": [
+      "Sarnento"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "じんめん犬"
+    ],
+    "Spanish": [
+      "Cantonio"
+    ],
+    "French": [
+      "Corniot"
+    ],
+    "Italian": [
+      "Canom"
+    ],
+    "German": [
+      "Möter"
+    ],
+    "Dutch": [
+      "Manjimutt"
+    ],
+    "Korean": [
+      "인면견"
+    ],
+    "Russian": [
+      "Шелупудель"
+    ],
+    "Arabic": [
+      "نباح"
+    ],
+    "Chinese (Mandarin)": [
+      "人面犬"
+    ],
+    "Portuguese (Brazilian)": [
+      "Sarnento"
+    ]
+  },
+  "description_en": "A man-faced poodle who enjoys scaring people frightened by a poodle with a man's face. Hopes to one day be a CEO.",
+  "nom_en": "Grainpa",
+  "rang_yww": "E",
+  "tribue_yww": "Bukimi",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "curry",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 38,
+    "str": 21,
+    "spr": 3,
+    "def": 11,
+    "spd": 17
+  },
+  "stats_max_yww": {
+    "hp": 298,
+    "str": 178,
+    "spr": 40,
+    "def": 102,
+    "spd": 142
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "くらいつく",
+        "_en": "Approximately",
+        "_fr": "Environ"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+        "_en": "[Power: 50/Blow] Deal a big blow",
+        "_fr": "[Puissance : 50/Coup] Portez un gros coup"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "火炎の術",
+        "_en": "flame technique",
+        "_fr": "technique de la flamme"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
+        "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
+        "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "おっさんかみマックス",
+        "_en": "Ossankami Max",
+        "_fr": "Ossankami Max"
+      },
+      "pouvoir": "15×5",
+      "explication": {
+        "_jp": "日頃のストレスを忘れて一心不乱にかみまくり敵全体にダメージを与える。",
+        "_en": "Forget about everyday stress and bite with all your might, dealing damage to all enemies.",
+        "_fr": "Oubliez le stress quotidien et mordez de toutes vos forces, infligeant des dégâts à tous les ennemis."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "混乱させる",
+        "_en": "confuse",
+        "_fr": "embrouiller"
+      },
+      "explication": {
+        "_jp": "【混乱】 味方をたまにこうげきする",
+        "_en": "[Confusion] Occasionally attacks allies",
+        "_fr": "[Confusion] Attaque occasionnellement les alliés"
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "今風の犬種の人面犬。 後ろ姿のかわいさに つられて寄ってきた人を よくビックリさせる。 モテモテになるのが夢。",
+      "_en": "A modern breed of dog with a human face. It often surprises people who approach it because of its cuteness from behind. My dream is to be popular.",
+      "_fr": "Une race de chien moderne à visage humain. Il surprend souvent ceux qui l'approchent en raison de sa gentillesse par derrière. Mon rêve est d'être populaire."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "130",
+  "Name_yww": "じんめん犬",
+  "description_jp_yww": "今風の犬種の人面犬。 後ろ姿のかわいさに つられて寄ってきた人を よくビックリさせる。 モテモテになるのが夢。",
+  "BingoMessage_jp_yww": "もう…　こんな所にとじこめられて サイアクですよ…　まったく…",
+  "MonsterId_yww": "y169000",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_169000",
+  "MinHp_yww": 38,
+  "MaxHp_yww": 298,
+  "MinAttack_yww": 21,
+  "MaxAttack_yww": 178,
+  "MinMagic_yww": 3,
+  "MaxMagic_yww": 40,
+  "MinDefense_yww": 11,
+  "MaxDefense_yww": 102,
+  "MinSpeed_yww": 17,
+  "MaxSpeed_yww": 142,
+  "AttackId_yww": 17,
+  "MagicId_yww": 2,
+  "HauntId_yww": 169000,
+  "SpSkillId_yww": 169000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 13,
+  "DislikeFoodKind_yww": 10,
+  "ActionType_yww": 4,
+  "TribeType_yww": 7,
+  "MedallionImage_yww": "y164800.png",
+  "SpriteImage_yww": "img_y164800.png",
+  "Audio_yww": "sp_y164800.wav",
+  "Description_yww": "Un chien au visage humain, très tendance. Il surprend souvent les personnes attirées par la beauté de son dos. Son rêve : être très populaire.",
+  "BingoMessage_fr_yww": "Franchement… Être enfermé dans un endroit pareil, c'est vraiment l'horreur… Vraiment…"
 }

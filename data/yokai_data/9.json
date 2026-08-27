@@ -1,496 +1,527 @@
 {
-    "ID": "9",
-    "Nom": "Sumochi",
-    "Tribue": "Vaillant",
-    "Rang": "D",
-    "PV": "433",
-    "Force": "228",
-    "Esprit": "45",
-    "Défense": "120",
-    "Vitesse": "58",
-    "Description": "Il est mignon la plupart du temps, mais quand il s'énerve, son corps se craquèle et sa tête virile apparaît.",
-    "nourriture": "Riz",
-    "élément": "Terre",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Sumochi vient de Sumo et de Mochi",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Les gens sont d'humeur susceptible quand il les envoûte.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/sumochi.png",
-    "numero": "007",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Peau rebondie",
-            "effet": "Augmente sa défense si gros dégâts reçus."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing puissant",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Galet",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing mochi",
-            "effet": "Gonfle et donne un vilain coup de poing à un adversaire. 105 | 157"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Mochi-force",
-            "effet": "Augmente la FOR. d'un allié à l'aide du pouvoir du délicieux mochi."
-        }
+  "ID": "9",
+  "Nom": "Sumochi",
+  "Tribue": "Vaillant",
+  "Rang": "D",
+  "PV": "433",
+  "Force": "228",
+  "Esprit": "45",
+  "Défense": "120",
+  "Vitesse": "58",
+  "Description": "Il est mignon la plupart du temps, mais quand il s'énerve, son corps se craquèle et sa tête virile apparaît.",
+  "nourriture": "Riz",
+  "élément": "Terre",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Sumochi vient de Sumo et de Mochi",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Les gens sont d'humeur susceptible quand il les envoûte.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/sumochi.png",
+  "numero": "007",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Peau rebondie",
+      "effet": "Augmente sa défense si gros dégâts reçus."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing puissant",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Galet",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing mochi",
+      "effet": "Gonfle et donne un vilain coup de poing à un adversaire. 105 | 157"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Mochi-force",
+      "effet": "Augmente la FOR. d'un allié à l'aide du pouvoir du délicieux mochi."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "J'adore !",
+    "Mange de la nourriture insipide": "Euh... OK...",
+    "Mange de la mauvaise nourriture": "Dégoûtant !",
+    "A la flemme": "Je suis vidé.",
+    "Est échangé": "Une nouvelle amitié ? Je suis si content que je vais exploser !",
+    "Devient ton ami": "Hé, regarde-toi un peu ! On devrait être amis, nous deux !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Sumochi",
+      "parent2": "Darabajoie",
+      "resultat": "Darumastar",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ちからモチ",
+  "nom_anglais": "Mochismo",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Frédéric Souterelle",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Hauts de Granval- sous les distributeurs",
+      "Hauts de Granval - sous les voitures",
+      "Coteau Fleuri- chemin secret"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "J'adore !",
-        "Mange de la nourriture insipide": "Euh... OK...",
-        "Mange de la mauvaise nourriture": "Dégoûtant !",
-        "A la flemme": "Je suis vidé.",
-        "Est échangé": "Une nouvelle amitié ? Je suis si content que je vais exploser !",
-        "Devient ton ami": "Hé, regarde-toi un peu ! On devrait être amis, nous deux !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Sumochi",
-            "parent2": "Darabajoie",
-            "resultat": "Darumastar",
-            "critere": "➨"
-        }
+    "yw2": [
+      "École élémentaire de Granval- 1er étage (nuit)"
     ],
-    "image_locale": "",
-    "nom_original": "ちからモチ",
-    "nom_anglais": "Mochismo",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Frédéric Souterelle",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Hauts de Granval- sous les distributeurs",
-            "Hauts de Granval - sous les voitures",
-            "Coteau Fleuri- chemin secret"
-        ],
-        "yw2": [
-            "École élémentaire de Granval- 1er étage (nuit)"
-        ],
-        "yw Blasters 1": [
-            "Patrouille - Hauts de Granval"
-        ],
-        "yw3": [
-            "École élémentaire de Granval (nuit)"
-        ],
-        "yw4": [
-            "Sakura Motomachi (Passé)",
-            "Kasumidai- Yo-kai Spots",
-            "Bingo-kai-Pièce Ancienneen tant que second prix,Pièce Gasha,Pièce 5 étoilesetPièce 1 étoileen tant que troisième prix.",
-            "Sumochi peux aussi apparaître dans le combat contreGrolosetBlingosdans leTournoi Enma - Arène Oniainsi que les missions deOgralos,Bushinyan (Shadowside)etMcKrakendans le mode Blasters."
-        ],
-        "yw Puni Puni": [
-            "Stage 27 (Mont Sylvestre)",
-            "Stage 55 (Coteau Fleuri)",
-            "Stage 66 (Coteau Fleuri)",
-            "Stage 83 (Centre-ville de Granval)",
-            "Stage 121 (Centre-ville de Granval)",
-            "Stage 151 (Tour Excellence)",
-            "Stage 205 (San Fantastico)",
-            "Stage 222 (Ourcival)",
-            "Stage 236 (Ourcival)",
-            "Stage 252 (Ourcival)",
-            "Stage Secret 2-2 (Egoût B)",
-            "Stage Secret 7-6 (Tour Excellence - Etage d'observation)",
-            "Stage Secret 10-18 (Limbes Eternelles — 2ème Cercle)",
-            "Stage Secret 10-25 (Limbes Eternelles — 2ème Cercle)",
-            "Stage Secret 11-36 (Limbes Eternelles — 3ème Cercle)",
-            "Stage Secret 18-17 (Sanctuaire Divin — 2ème Cercle)",
-            "Stage Secret 21-22 (Sanctuaire Divin — 5ème Cercle)",
-            "Stage Secret 21-37 (Paradis Divin — 5ème Cercle)",
-            "Bingo-Kai (Pièce Frisson)",
-            "Bingo-Kai (Pièce Mystère)",
-            "Bingo-Kai (Pièce Rouge)"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "Normal",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "10%",
-                "objet": "Pensez Karaté"
-            },
-            {
-                "taux": "35%",
-                "objet": "Staminum"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "20%",
-                "objet": "Pensez Karaté"
-            },
-            {
-                "taux": "40%",
-                "objet": "Staminum"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "10%",
-                "objet": "Pensez Karaté"
-            },
-            {
-                "taux": "14%",
-                "objet": "Riz à la prune"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Peau rebondie",
-        "description": "Augmente sa défense si gros dégâts reçus."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/sumochi.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/sumochi.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/sumochi.wav",
-    "medallium_ids": {
-        "yw1": "007",
-        "yw2": "014",
-        "yw3": "017",
-        "yw4": "12 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "014",
-        "yw Blasters 2": "017",
-        "yw Wibble Wobble": "1004",
-        "yw World": "0007",
-        "yw Ukiukipedia": "yw2-002/YD6-002"
-    },
-    "battle_type": "",
-    "skill_name": "Soft Skin yw yw2 yw3 Gooey Guard ywB",
-    "skill_effect": "Mochi Power",
-    "disliked_food": "Milk",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "369",
-                "STR": "171",
-                "SPR": "65",
-                "DEF": "116",
-                "SPD": "104"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "443",
-                "STR": "171",
-                "SPR": "65",
-                "DEF": "116",
-                "SPD": "104"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "201",
-                "STR": "58",
-                "SPR": "33",
-                "DEF": "125",
-                "SPD": "63"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "399",
-                "STR": "191",
-                "SPR": "65",
-                "DEF": "205"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "393",
-                "STR": "190",
-                "SPR": "64",
-                "DEF": "205"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "197-347",
-                "STR": "190",
-                "SPR": "64",
-                "DEF": "205"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "197-347"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "197-347"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ちからモチ",
-            "Chikaramochi"
-        ],
-        "Spanish": [
-            "Mochimacho"
-        ],
-        "French": [
-            "Sumochi"
-        ],
-        "Italian": [
-            "Nervimacho"
-        ],
-        "German": [
-            "Mochismo"
-        ],
-        "Dutch": [
-            "Mochismo"
-        ],
-        "Korean": [
-            "떡강쇠",
-            "Tteokgangsoe"
-        ],
-        "Russian": [
-            "Рисик",
-            "Risik"
-        ],
-        "Arabic": [
-            "منفوخ",
-            "Manfūkh"
-        ],
-        "Chinese (Cantonese)": [
-            "大力年糕",
-            "daai6"
-        ],
-        "Chinese (Mandarin)": [
-            "力量麻吉",
-            "Lìliàngmájí",
-            "(Taiwan)",
-            "糕力士",
-            "Gāolìshì",
-            "(Mainland"
-        ],
-        "Portuguese (Brazilian)": [
-            "Bob"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ちからモチ"
-        ],
-        "Spanish": [
-            "Mochimacho"
-        ],
-        "French": [
-            "Sumochi"
-        ],
-        "Italian": [
-            "Nervimacho"
-        ],
-        "German": [
-            "Mochismo"
-        ],
-        "Dutch": [
-            "Mochismo"
-        ],
-        "Korean": [
-            "떡강쇠"
-        ],
-        "Russian": [
-            "Рисик"
-        ],
-        "Arabic": [
-            "منفوخ"
-        ],
-        "Chinese (Cantonese)": [
-            "大力年糕"
-        ],
-        "Chinese (Mandarin)": [
-            "力量麻吉(Taiwan)糕力士(Mainland China)"
-        ],
-        "Portuguese (Brazilian)": [
-            "Bob Bolinho"
-        ]
-    },
-    "description_en": "He's cute most of the time, but when he's mad, his body cracks and his manly face pops out.",
-    "nom_en": "Q'wit",
-    "rang_yww": "D",
-    "tribue_yww": "Isamashi",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "Onigiri",
-    "nourriture_favorite": "Onigiri",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない",
-        "_en": "(Shield role) Shincho, don't move.",
-        "_fr": "(Rôle de bouclier) Shincho, ne bouge pas."
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 58,
-        "str": 36,
-        "spr": 4,
-        "def": 12,
-        "spd": 4
-    },
-    "stats_max_yww": {
-        "hp": 433,
-        "str": 228,
-        "spr": 45,
-        "def": 120,
-        "spd": 58
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "赤コイン",
-            "_en": "red coin",
-            "_fr": "pièce rouge"
-        },
-        {
-            "_jp": "スプリングコイン",
-            "_en": "spring coin",
-            "_fr": "pièce de printemps"
-        }
+    "yw Blasters 1": [
+      "Patrouille - Hauts de Granval"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ぶんなぐる",
-                "_en": "wallop",
-                "_fr": "coup"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
-                "_en": "[Power: 50/Blow] Deal a big blow",
-                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "こいしの術",
-                "_en": "Koishi no jutsu",
-                "_fr": "Koishi pas de jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 土属性】 土の妖術を使う。",
-                "_en": "[Power: 30 / Earth attribute] Uses earth magic.",
-                "_fr": "[Puissance : 30 / Attribut Terre] Utilise la magie de la terre."
-            }
-        }
+    "yw3": [
+      "École élémentaire de Granval (nuit)"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "モチモチ拳",
-                "_en": "Chewy fist",
-                "_fr": "Poing moelleux"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
+    "yw4": [
+      "Sakura Motomachi (Passé)",
+      "Kasumidai- Yo-kai Spots",
+      "Bingo-kai-Pièce Ancienneen tant que second prix,Pièce Gasha,Pièce 5 étoilesetPièce 1 étoileen tant que troisième prix.",
+      "Sumochi peux aussi apparaître dans le combat contreGrolosetBlingosdans leTournoi Enma - Arène Oniainsi que les missions deOgralos,Bushinyan (Shadowside)etMcKrakendans le mode Blasters."
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "とりもち",
-                "_en": "Torimochi",
-                "_fr": "Torimochi"
-            },
-            "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "いつもは もち肌が魅力の かわいいやつだが 一度怒ると ふくれあがり 体が割れて 中から 男らしい顔が飛び出すぞ。",
-            "_en": "He's usually a cute guy with a plump skin, but once he gets angry, he swells up, his body splits open, and his manly face pops out from inside.",
-            "_fr": "C'est généralement un gars mignon avec une peau rebondie, mais une fois qu'il se met en colère, il enfle, son corps se fend et son visage viril ressort de l'intérieur."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Puni Puni": [
+      "Stage 27 (Mont Sylvestre)",
+      "Stage 55 (Coteau Fleuri)",
+      "Stage 66 (Coteau Fleuri)",
+      "Stage 83 (Centre-ville de Granval)",
+      "Stage 121 (Centre-ville de Granval)",
+      "Stage 151 (Tour Excellence)",
+      "Stage 205 (San Fantastico)",
+      "Stage 222 (Ourcival)",
+      "Stage 236 (Ourcival)",
+      "Stage 252 (Ourcival)",
+      "Stage Secret 2-2 (Egoût B)",
+      "Stage Secret 7-6 (Tour Excellence - Etage d'observation)",
+      "Stage Secret 10-18 (Limbes Eternelles — 2ème Cercle)",
+      "Stage Secret 10-25 (Limbes Eternelles — 2ème Cercle)",
+      "Stage Secret 11-36 (Limbes Eternelles — 3ème Cercle)",
+      "Stage Secret 18-17 (Sanctuaire Divin — 2ème Cercle)",
+      "Stage Secret 21-22 (Sanctuaire Divin — 5ème Cercle)",
+      "Stage Secret 21-37 (Paradis Divin — 5ème Cercle)",
+      "Bingo-Kai (Pièce Frisson)",
+      "Bingo-Kai (Pièce Mystère)",
+      "Bingo-Kai (Pièce Rouge)"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "Normal",
+  "attaques_par_jeu": {},
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "10%",
+        "objet": "Pensez Karaté"
+      },
+      {
+        "taux": "35%",
+        "objet": "Staminum"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "20%",
+        "objet": "Pensez Karaté"
+      },
+      {
+        "taux": "40%",
+        "objet": "Staminum"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "10%",
+        "objet": "Pensez Karaté"
+      },
+      {
+        "taux": "14%",
+        "objet": "Riz à la prune"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Peau rebondie",
+    "description": "Augmente sa défense si gros dégâts reçus."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/sumochi.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/sumochi.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/sumochi.wav",
+  "medallium_ids": {
+    "yw1": "007",
+    "yw2": "014",
+    "yw3": "017",
+    "yw4": "12 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "014",
+    "yw Blasters 2": "017",
+    "yw Wibble Wobble": "1004",
+    "yw World": "0007",
+    "yw Ukiukipedia": "yw2-002/YD6-002"
+  },
+  "battle_type": "",
+  "skill_name": "Soft Skin yw yw2 yw3 Gooey Guard ywB",
+  "skill_effect": "Mochi Power",
+  "disliked_food": "Milk",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "369",
+        "STR": "171",
+        "SPR": "65",
+        "DEF": "116",
+        "SPD": "104"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "443",
+        "STR": "171",
+        "SPR": "65",
+        "DEF": "116",
+        "SPD": "104"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "201",
+        "STR": "58",
+        "SPR": "33",
+        "DEF": "125",
+        "SPD": "63"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "399",
+        "STR": "191",
+        "SPR": "65",
+        "DEF": "205"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "393",
+        "STR": "190",
+        "SPR": "64",
+        "DEF": "205"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "197-347",
+        "STR": "190",
+        "SPR": "64",
+        "DEF": "205"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "197-347"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "197-347"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ちからモチ",
+      "Chikaramochi"
+    ],
+    "Spanish": [
+      "Mochimacho"
+    ],
+    "French": [
+      "Sumochi"
+    ],
+    "Italian": [
+      "Nervimacho"
+    ],
+    "German": [
+      "Mochismo"
+    ],
+    "Dutch": [
+      "Mochismo"
+    ],
+    "Korean": [
+      "떡강쇠",
+      "Tteokgangsoe"
+    ],
+    "Russian": [
+      "Рисик",
+      "Risik"
+    ],
+    "Arabic": [
+      "منفوخ",
+      "Manfūkh"
+    ],
+    "Chinese (Cantonese)": [
+      "大力年糕",
+      "daai6"
+    ],
+    "Chinese (Mandarin)": [
+      "力量麻吉",
+      "Lìliàngmájí",
+      "(Taiwan)",
+      "糕力士",
+      "Gāolìshì",
+      "(Mainland"
+    ],
+    "Portuguese (Brazilian)": [
+      "Bob"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ちからモチ"
+    ],
+    "Spanish": [
+      "Mochimacho"
+    ],
+    "French": [
+      "Sumochi"
+    ],
+    "Italian": [
+      "Nervimacho"
+    ],
+    "German": [
+      "Mochismo"
+    ],
+    "Dutch": [
+      "Mochismo"
+    ],
+    "Korean": [
+      "떡강쇠"
+    ],
+    "Russian": [
+      "Рисик"
+    ],
+    "Arabic": [
+      "منفوخ"
+    ],
+    "Chinese (Cantonese)": [
+      "大力年糕"
+    ],
+    "Chinese (Mandarin)": [
+      "力量麻吉(Taiwan)糕力士(Mainland China)"
+    ],
+    "Portuguese (Brazilian)": [
+      "Bob Bolinho"
+    ]
+  },
+  "description_en": "He's cute most of the time, but when he's mad, his body cracks and his manly face pops out.",
+  "nom_en": "Q'wit",
+  "rang_yww": "D",
+  "tribue_yww": "Isamashi",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "Onigiri",
+  "nourriture_favorite": "Onigiri",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない",
+    "_en": "(Shield role) Shincho, don't move.",
+    "_fr": "(Rôle de bouclier) Shincho, ne bouge pas."
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 58,
+    "str": 36,
+    "spr": 4,
+    "def": 12,
+    "spd": 4
+  },
+  "stats_max_yww": {
+    "hp": 433,
+    "str": 228,
+    "spr": 45,
+    "def": 120,
+    "spd": 58
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "赤コイン",
+      "_en": "red coin",
+      "_fr": "pièce rouge"
+    },
+    {
+      "_jp": "スプリングコイン",
+      "_en": "spring coin",
+      "_fr": "pièce de printemps"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ぶんなぐる",
+        "_en": "wallop",
+        "_fr": "coup"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+        "_en": "[Power: 50/Blow] Deal a big blow",
+        "_fr": "[Puissance : 50/Coup] Portez un gros coup"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "こいしの術",
+        "_en": "Koishi no jutsu",
+        "_fr": "Koishi pas de jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 土属性】 土の妖術を使う。",
+        "_en": "[Power: 30 / Earth attribute] Uses earth magic.",
+        "_fr": "[Puissance : 30 / Attribut Terre] Utilise la magie de la terre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "モチモチ拳",
+        "_en": "Chewy fist",
+        "_fr": "Poing moelleux"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "とりもち",
+        "_en": "Torimochi",
+        "_fr": "Torimochi"
+      },
+      "explication": {
+        "_jp": "【–】 –",
+        "_en": null,
+        "_fr": null
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "いつもは もち肌が魅力の かわいいやつだが 一度怒ると ふくれあがり 体が割れて 中から 男らしい顔が飛び出すぞ。",
+      "_en": "He's usually a cute guy with a plump skin, but once he gets angry, he swells up, his body splits open, and his manly face pops out from inside.",
+      "_fr": "C'est généralement un gars mignon avec une peau rebondie, mais une fois qu'il se met en colère, il enfle, son corps se fend et son visage viril ressort de l'intérieur."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "9",
+  "Name_yww": "ちからモチ",
+  "description_jp_yww": "いつもは　もち肌が魅力の かわいいやつだが 一度怒ると　ふくれあがり 体が割れて　中から　 男らしい顔が飛び出すぞ。",
+  "BingoMessage_jp_yww": "出してくれてありがとモチ！ お前の荷物　持ってやるモチ！",
+  "MonsterId_yww": "y105000",
+  "Height_yww": 17.0,
+  "CommondId_yww": "sp_105000",
+  "MinHp_yww": 58,
+  "MaxHp_yww": 433,
+  "MinAttack_yww": 36,
+  "MaxAttack_yww": 228,
+  "MinMagic_yww": 4,
+  "MaxMagic_yww": 45,
+  "MinDefense_yww": 12,
+  "MaxDefense_yww": 120,
+  "MinSpeed_yww": 4,
+  "MaxSpeed_yww": 58,
+  "AttackId_yww": 2,
+  "MagicId_yww": 10,
+  "HauntId_yww": 105000,
+  "SpSkillId_yww": 105000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 1,
+  "DislikeFoodKind_yww": 4,
+  "ActionType_yww": 3,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y100800.png",
+  "SpriteImage_yww": "img_y100800.png",
+  "Audio_yww": "sp_y100800.wav",
+  "Description_yww": "D'habitude, c'est un petit bonhomme adorable, avec une peau douce et lisse, mais dès qu'il se met en colère, il se gonfle et son corps se fend en deux, laissant apparaître un visage viril.",
+  "BingoMessage_fr_yww": "Merci de me l'avoir donné, Mochi ! Je vais porter tes affaires, Mochi !"
 }

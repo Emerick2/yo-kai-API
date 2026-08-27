@@ -1,359 +1,390 @@
 {
-    "ID": "432",
-    "Nom": "Jeniflair",
-    "Tribue": "Mignon",
-    "Rang": "D",
-    "PV": "340",
-    "Force": "85",
-    "Esprit": "176",
-    "Défense": "53",
-    "Vitesse": "179",
-    "Description": "Une étoile montante du Yo-kai World. Très perspicace, elle navigue avec aisance les eaux troubles du showbiz.",
-    "description SITE": "Une étoile montante dans le célèbre Yo-kai World. Sa perspicacité l'aide à naviguer dans les dures réalités du show-business.",
-    "nourriture": "Tempura",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Si Jeniflair t'envoûtes, tu deviendras une célébrité pour ton entourage, quoi que tu fasses.",
-    "personnalité": "Jeniflair est un Yo-kai star qui arrive à survivre la dure réalité du show business avec sa perspicacité. Elle est toujours en forme et souriante.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/jeniflair.png",
-    "nom_original": "コンたん",
-    "nom_anglais": "Krystal Fox",
-    "premiere_apparition": "yw3",
-    "voix": {
-        "japonaise": "Kiyono Yasuno",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw3": [
-            "Électropolis- sous les distributeurs",
-            "Électropolis - matériaux de construction",
-            "Blasters T"
-        ],
-        "yw4": [
-            "Tatsumi-kawabata - Nord",
-            "Shin-motomachi Zone commerçante",
-            "Yo-kai World-Bingo-kaiVieille Pièce- 2e prixPièce 5 étoiles- 3e prixPièce 1 étoile- 3e prix)",
-            "Vieille Pièce- 2e prix",
-            "Pièce 5 étoiles- 3e prix",
-            "Pièce 1 étoile- 3e prix)",
-            "Jeniflair peut également être rencontrée dans les tutoriels deGargaros,Kenshin AmaterasuetOrqanosdes missions du modePura Pura Busters."
-        ]
-    },
-    "fusions": [],
-    "rarite": "Commun",
-    "tribu_yw4": "Jeniflair",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Tempura citrouille"
-            },
-            {
-                "taux": "?%",
-                "objet": "Étoile dansante"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Sympathie",
-        "description": "Améliore les chances de devenir ami avec un ennemi."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/jeniflair.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/jeniflair.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/jeniflair.wav",
-    "oldID": "441",
-    "medallium_ids": {
-        "yw3": "229",
-        "yw4": "41 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 2": "234",
-        "yw Wibble Wobble": "4106",
-        "yw World": "0325",
-        "yw Ukiukipedia": "YD2-022"
-    },
-    "battle_type": "",
-    "skill_name": "Popularity",
-    "skill_effect": "Heart-thumping",
-    "disliked_food": "Hamburgers",
-    "global_stats": {
-        "yw3": {
-            "stats": {
-                "HP": "155",
-                "STR": "32",
-                "SPR": "57",
-                "DEF": "58",
-                "SPD": "184"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "328",
-                "STR": "99",
-                "SPR": "234",
-                "DEF": "99"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "156-274",
-                "STR": "99",
-                "SPR": "234",
-                "DEF": "99"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "156-274"
-            },
-            "elements": {},
-            "attacks": [
-                {
-                    "type": "Attack",
-                    "name": "Attack",
-                    "power": "50",
-                    "attribute": "Attack",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Restore",
-                    "power": "80, 130 (Charged)",
-                    "attribute": "Restoration",
-                    "range": "Single ally"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Circle Restore",
-                    "power": "80 (70 charged)",
-                    "attribute": "Circle restore",
-                    "range": "Single ally, Area (Charged)"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Attack Boost",
-                    "power": "-",
-                    "attribute": "Attack boost",
-                    "range": "Single ally, Area (Charged)"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Blaze",
-                    "power": "50, 160 (charged)",
-                    "attribute": "Blaze",
-                    "range": "Single Enemy, Area (Charged)"
-                },
-                {
-                    "type": "Soultimate Move",
-                    "name": "Openly Hidden Heal",
-                    "power": "400",
-                    "attribute": "Restoration",
-                    "range": "Area"
-                },
-                {
-                    "type": "Skill",
-                    "name": "Popularity",
-                    "power": "N/A",
-                    "attribute": "None",
-                    "range": ""
-                }
-            ]
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "156-274"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "コンたん",
-            "Kon-tan"
-        ],
-        "Spanish": [
-            "BellónZ"
-        ],
-        "French": [
-            "Jeniflair"
-        ],
-        "Italian": [
-            "Indovolpina"
-        ],
-        "German": [
-            "Fixi"
-        ],
-        "Chinese (Mandarin)": [
-            "小狐仙"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "コンたん"
-        ],
-        "Spanish": [
-            "BellónZ"
-        ],
-        "French": [
-            "Jeniflair"
-        ],
-        "Italian": [
-            "Indovolpina"
-        ],
-        "German": [
-            "Fixi Fox"
-        ],
-        "Chinese (Mandarin)": [
-            "小狐仙"
-        ]
-    },
-    "description_en": "A rising star in the celebrity Yo-kai World. Her sharp insight helps her navigate the harsh realities of show business.",
-    "nom_en": "Zazel",
-    "rang_yww": "D",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "Tempura",
-    "nourriture_favorite": "Tempura",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 38,
-        "str": 10,
-        "spr": 23,
-        "def": 5,
-        "spd": 24
-    },
-    "stats_max_yww": {
-        "hp": 340,
-        "str": 85,
-        "spr": 176,
-        "def": 53,
-        "spd": 179
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "おひな様コイン",
-            "_en": "Hina-sama coin",
-            "_fr": "Pièce de monnaie Hina-sama"
-        },
-        {
-            "_jp": "おだいり様コイン",
-            "_en": "Odairi-sama coin",
-            "_fr": "Pièce Odairi-sama"
-        }
+  "ID": "432",
+  "Nom": "Jeniflair",
+  "Tribue": "Mignon",
+  "Rang": "D",
+  "PV": "340",
+  "Force": "85",
+  "Esprit": "176",
+  "Défense": "53",
+  "Vitesse": "179",
+  "Description": "Une étoile montante du Yo-kai World. Très perspicace, elle navigue avec aisance les eaux troubles du showbiz.",
+  "description SITE": "Une étoile montante dans le célèbre Yo-kai World. Sa perspicacité l'aide à naviguer dans les dures réalités du show-business.",
+  "nourriture": "Tempura",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Si Jeniflair t'envoûtes, tu deviendras une célébrité pour ton entourage, quoi que tu fasses.",
+  "personnalité": "Jeniflair est un Yo-kai star qui arrive à survivre la dure réalité du show business avec sa perspicacité. Elle est toujours en forme et souriante.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/jeniflair.png",
+  "nom_original": "コンたん",
+  "nom_anglais": "Krystal Fox",
+  "premiere_apparition": "yw3",
+  "voix": {
+    "japonaise": "Kiyono Yasuno",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw3": [
+      "Électropolis- sous les distributeurs",
+      "Électropolis - matériaux de construction",
+      "Blasters T"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はたく",
-                "_en": "flutter",
-                "_fr": "battement"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "いやしの術",
-                "_en": "Healing techniques",
-                "_fr": "Techniques de guérison"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "魂胆みえみえヒール",
-                "_en": "soul gall emie heels",
-                "_fr": "talons d'emie"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "こんたん見え見えでも可愛い仕草にみながいやされ味方全員のHPが回復する。",
-                "_en": "Even if it's obvious, everyone will be healed by this cute gesture and all allies will recover their HP.",
-                "_fr": "Même si c'est évident, tout le monde sera soigné par ce joli geste et tous les alliés récupéreront leurs PV."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ドキドキさせる",
-                "_en": "make my heart pound",
-                "_fr": "fais battre mon cœur"
-            },
-            "explication": {
-                "_jp": "【回復】 とりつかれた妖怪は心をおどらされHPが少しずつ回復する。",
-                "_en": "[Recovery] The possessed monster's mind is affected and its HP gradually recovers.",
-                "_fr": "[Récupération] L'esprit du monstre possédé est affecté et ses PV récupèrent progressivement."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "キツネのアイドル妖怪。 どんな魂胆も 見え見えに 見透かしてしまう洞察力で きびしい妖怪芸能界をうまく 立ち回り 人気急上昇中。",
-            "_en": "A fox idol monster. With his insight that can clearly see through any soul, he has successfully navigated the harsh world of ghost entertainment and is rapidly gaining popularity.",
-            "_fr": "Un monstre idole du renard. Grâce à sa perspicacité qui permet de voir clairement à travers n'importe quelle âme, il a réussi à naviguer dans le monde difficile du divertissement fantôme et gagne rapidement en popularité."
-        }
-    ],
-    "jeu_present": [
-        "yw3"
+    "yw4": [
+      "Tatsumi-kawabata - Nord",
+      "Shin-motomachi Zone commerçante",
+      "Yo-kai World-Bingo-kaiVieille Pièce- 2e prixPièce 5 étoiles- 3e prixPièce 1 étoile- 3e prix)",
+      "Vieille Pièce- 2e prix",
+      "Pièce 5 étoiles- 3e prix",
+      "Pièce 1 étoile- 3e prix)",
+      "Jeniflair peut également être rencontrée dans les tutoriels deGargaros,Kenshin AmaterasuetOrqanosdes missions du modePura Pura Busters."
     ]
+  },
+  "fusions": [],
+  "rarite": "Commun",
+  "tribu_yw4": "Jeniflair",
+  "attaques_par_jeu": {},
+  "soul_effects": null,
+  "drops": {
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Tempura citrouille"
+      },
+      {
+        "taux": "?%",
+        "objet": "Étoile dansante"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Sympathie",
+    "description": "Améliore les chances de devenir ami avec un ennemi."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/jeniflair.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/jeniflair.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/jeniflair.wav",
+  "oldID": "441",
+  "medallium_ids": {
+    "yw3": "229",
+    "yw4": "41 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 2": "234",
+    "yw Wibble Wobble": "4106",
+    "yw World": "0325",
+    "yw Ukiukipedia": "YD2-022"
+  },
+  "battle_type": "",
+  "skill_name": "Popularity",
+  "skill_effect": "Heart-thumping",
+  "disliked_food": "Hamburgers",
+  "global_stats": {
+    "yw3": {
+      "stats": {
+        "HP": "155",
+        "STR": "32",
+        "SPR": "57",
+        "DEF": "58",
+        "SPD": "184"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "328",
+        "STR": "99",
+        "SPR": "234",
+        "DEF": "99"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "156-274",
+        "STR": "99",
+        "SPR": "234",
+        "DEF": "99"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "156-274"
+      },
+      "elements": {},
+      "attacks": [
+        {
+          "type": "Attack",
+          "name": "Attack",
+          "power": "50",
+          "attribute": "Attack",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Restore",
+          "power": "80, 130 (Charged)",
+          "attribute": "Restoration",
+          "range": "Single ally"
+        },
+        {
+          "type": "Technique",
+          "name": "Circle Restore",
+          "power": "80 (70 charged)",
+          "attribute": "Circle restore",
+          "range": "Single ally, Area (Charged)"
+        },
+        {
+          "type": "Technique",
+          "name": "Attack Boost",
+          "power": "-",
+          "attribute": "Attack boost",
+          "range": "Single ally, Area (Charged)"
+        },
+        {
+          "type": "Technique",
+          "name": "Blaze",
+          "power": "50, 160 (charged)",
+          "attribute": "Blaze",
+          "range": "Single Enemy, Area (Charged)"
+        },
+        {
+          "type": "Soultimate Move",
+          "name": "Openly Hidden Heal",
+          "power": "400",
+          "attribute": "Restoration",
+          "range": "Area"
+        },
+        {
+          "type": "Skill",
+          "name": "Popularity",
+          "power": "N/A",
+          "attribute": "None",
+          "range": ""
+        }
+      ]
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "156-274"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "コンたん",
+      "Kon-tan"
+    ],
+    "Spanish": [
+      "BellónZ"
+    ],
+    "French": [
+      "Jeniflair"
+    ],
+    "Italian": [
+      "Indovolpina"
+    ],
+    "German": [
+      "Fixi"
+    ],
+    "Chinese (Mandarin)": [
+      "小狐仙"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "コンたん"
+    ],
+    "Spanish": [
+      "BellónZ"
+    ],
+    "French": [
+      "Jeniflair"
+    ],
+    "Italian": [
+      "Indovolpina"
+    ],
+    "German": [
+      "Fixi Fox"
+    ],
+    "Chinese (Mandarin)": [
+      "小狐仙"
+    ]
+  },
+  "description_en": "A rising star in the celebrity Yo-kai World. Her sharp insight helps her navigate the harsh realities of show business.",
+  "nom_en": "Zazel",
+  "rang_yww": "D",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "Tempura",
+  "nourriture_favorite": "Tempura",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 38,
+    "str": 10,
+    "spr": 23,
+    "def": 5,
+    "spd": 24
+  },
+  "stats_max_yww": {
+    "hp": 340,
+    "str": 85,
+    "spr": 176,
+    "def": 53,
+    "spd": 179
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "おひな様コイン",
+      "_en": "Hina-sama coin",
+      "_fr": "Pièce de monnaie Hina-sama"
+    },
+    {
+      "_jp": "おだいり様コイン",
+      "_en": "Odairi-sama coin",
+      "_fr": "Pièce Odairi-sama"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "はたく",
+        "_en": "flutter",
+        "_fr": "battement"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "いやしの術",
+        "_en": "Healing techniques",
+        "_fr": "Techniques de guérison"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "魂胆みえみえヒール",
+        "_en": "soul gall emie heels",
+        "_fr": "talons d'emie"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "こんたん見え見えでも可愛い仕草にみながいやされ味方全員のHPが回復する。",
+        "_en": "Even if it's obvious, everyone will be healed by this cute gesture and all allies will recover their HP.",
+        "_fr": "Même si c'est évident, tout le monde sera soigné par ce joli geste et tous les alliés récupéreront leurs PV."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ドキドキさせる",
+        "_en": "make my heart pound",
+        "_fr": "fais battre mon cœur"
+      },
+      "explication": {
+        "_jp": "【回復】 とりつかれた妖怪は心をおどらされHPが少しずつ回復する。",
+        "_en": "[Recovery] The possessed monster's mind is affected and its HP gradually recovers.",
+        "_fr": "[Récupération] L'esprit du monstre possédé est affecté et ses PV récupèrent progressivement."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "キツネのアイドル妖怪。 どんな魂胆も 見え見えに 見透かしてしまう洞察力で きびしい妖怪芸能界をうまく 立ち回り 人気急上昇中。",
+      "_en": "A fox idol monster. With his insight that can clearly see through any soul, he has successfully navigated the harsh world of ghost entertainment and is rapidly gaining popularity.",
+      "_fr": "Un monstre idole du renard. Grâce à sa perspicacité qui permet de voir clairement à travers n'importe quelle âme, il a réussi à naviguer dans le monde difficile du divertissement fantôme et gagne rapidement en popularité."
+    }
+  ],
+  "jeu_present": [
+    "yw3"
+  ],
+  "id_yww": "427",
+  "Name_yww": "コンたん",
+  "description_jp_yww": "キツネのアイドル妖怪。 どんな魂胆も　見え見えに 見透かしてしまう洞察力で きびしい妖怪芸能界をうまく 立ち回り　人気急上昇中。",
+  "BingoMessage_jp_yww": "みんなのアイドル　コンたんだよ～っ♥ まっててくれて　ありがと～っ！",
+  "MonsterId_yww": "y485000",
+  "Height_yww": 13.2,
+  "CommondId_yww": "sp_485000",
+  "MinHp_yww": 57,
+  "MaxHp_yww": 457,
+  "MinAttack_yww": 40,
+  "MaxAttack_yww": 226,
+  "MinMagic_yww": 7,
+  "MaxMagic_yww": 75,
+  "MinDefense_yww": 31,
+  "MaxDefense_yww": 197,
+  "MinSpeed_yww": 9,
+  "MaxSpeed_yww": 84,
+  "AttackId_yww": 3,
+  "MagicId_yww": 14,
+  "HauntId_yww": 485000,
+  "SpSkillId_yww": 485000,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 19,
+  "DislikeFoodKind_yww": 8,
+  "ActionType_yww": 3,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y480800.png",
+  "SpriteImage_yww": "img_y480800.png",
+  "Audio_yww": "sp_y480800.wav",
+  "Description_yww": "Une idole yōkai en forme de renard. Grâce à sa perspicacité qui lui permet de percer à jour toutes les intentions, elle sait habilement évoluer dans le monde impitoyable du show-business des yōkai, et sa popularité est en pleine ascension.",
+  "BingoMessage_fr_yww": "C'est Konta, l'idole de tout le monde~♥ Merci de m'avoir attendu~ !"
 }

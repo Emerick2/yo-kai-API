@@ -1,561 +1,592 @@
 {
-    "ID": "188",
-    "Nom": "Lulugubre",
-    "Tribue": "Sinistre",
-    "Rang": "D",
-    "PV": "384",
-    "Force": "96",
-    "Esprit": "160",
-    "Défense": "151",
-    "Vitesse": "88",
-    "Description": "Son aura rend lugubre le lieu où elle se trouve. C'est bien pire quand elle est de mauvaise humeur.",
-    "nourriture": "Pain",
-    "élément": "Terre",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Lulugubre vient du prénom Lulu et de Lugubre. Dismarelda est basé sur le mot Dismal qui signifie un état d'esprit triste ou sombre, et le prénom féminin Esmeralda.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Son aura rend lugubre le lieu où elle se trouve. Ne t'étonne pas si tes parents se disputent !",
-    "personnalité": "Elle est très dépressive et se lamente toujours, se trouvant nulle.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/lulugubre.png",
-    "numero": "179",
-    "nourriture_favorite": "Pain",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Peau maudite",
-            "effet": "Les stats augmentent quand envoûté par ennemi."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Écrasement",
-            "effet": "10 | 45"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Éboulement",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Sinistrose",
-            "effet": "Couvre ses ennemis d'une sombre fumée qui réduit leur FOR. 40 | 40"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Temps couvert",
-            "effet": "Des nuages pluvieux entourent l'ennemi et sa FOR. diminue énormément."
-        }
+  "ID": "188",
+  "Nom": "Lulugubre",
+  "Tribue": "Sinistre",
+  "Rang": "D",
+  "PV": "384",
+  "Force": "96",
+  "Esprit": "160",
+  "Défense": "151",
+  "Vitesse": "88",
+  "Description": "Son aura rend lugubre le lieu où elle se trouve. C'est bien pire quand elle est de mauvaise humeur.",
+  "nourriture": "Pain",
+  "élément": "Terre",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Lulugubre vient du prénom Lulu et de Lugubre. Dismarelda est basé sur le mot Dismal qui signifie un état d'esprit triste ou sombre, et le prénom féminin Esmeralda.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Son aura rend lugubre le lieu où elle se trouve. Ne t'étonne pas si tes parents se disputent !",
+  "personnalité": "Elle est très dépressive et se lamente toujours, se trouvant nulle.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/lulugubre.png",
+  "numero": "179",
+  "nourriture_favorite": "Pain",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Peau maudite",
+      "effet": "Les stats augmentent quand envoûté par ennemi."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Écrasement",
+      "effet": "10 | 45"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Éboulement",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Sinistrose",
+      "effet": "Couvre ses ennemis d'une sombre fumée qui réduit leur FOR. 40 | 40"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Temps couvert",
+      "effet": "Des nuages pluvieux entourent l'ennemi et sa FOR. diminue énormément."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Merci, mon petit !",
+    "Mange de la nourriture insipide": "J'ai connu pire.",
+    "Mange de la mauvaise nourriture": "C'est déprimant...",
+    "A la flemme": "Oula...",
+    "Est échangé": "*soupire* Je me sens abandonnée. Tu ne me laisseras pas toi... hein ?",
+    "Devient ton ami": "Oh, mon petit, je te propose d'être ton amie. Qu'en dis-tu ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Lulugubre",
+      "parent2": "Jojojoyeux",
+      "resultat": "Paradoxa",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ドンヨリーヌ",
+  "nom_anglais": "Dismarelda",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Ryoko Nagata",
+    "francaise": "Caroline Combes",
+    "anglaise": "English VA Melissa Hutchison"
+  },
+  "localisations": {
+    "yw1": [
+      "Histoire -Chapitre 2",
+      "Centre–ville de Granval-Chantier",
+      "Centre–ville de Granval - Arrière–cour du Vent d'hiver",
+      "Centre-ville de Granval - Aire de livraison",
+      "Centre-ville de Granval - Raccourci vers l'Académie - Ordures & Dépotoirs",
+      "Quartier des boutiques- Contre–allées rue commerçante"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Merci, mon petit !",
-        "Mange de la nourriture insipide": "J'ai connu pire.",
-        "Mange de la mauvaise nourriture": "C'est déprimant...",
-        "A la flemme": "Oula...",
-        "Est échangé": "*soupire* Je me sens abandonnée. Tu ne me laisseras pas toi... hein ?",
-        "Devient ton ami": "Oh, mon petit, je te propose d'être ton amie. Qu'en dis-tu ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Lulugubre",
-            "parent2": "Jojojoyeux",
-            "resultat": "Paradoxa",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Coteau fleuri-Vieux manoir- Grenier demeure",
+      "Coteau fleuri - Sous les voitures & Distributeurs.",
+      "Bingo-kai-pièce mauve(Passé)",
+      "Tunnel sans fin"
     ],
-    "image_locale": "",
-    "nom_original": "ドンヨリーヌ",
-    "nom_anglais": "Dismarelda",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Ryoko Nagata",
-        "francaise": "Caroline Combes",
-        "anglaise": "English VA Melissa Hutchison"
-    },
-    "localisations": {
-        "yw1": [
-            "Histoire -Chapitre 2",
-            "Centre–ville de Granval-Chantier",
-            "Centre–ville de Granval - Arrière–cour du Vent d'hiver",
-            "Centre-ville de Granval - Aire de livraison",
-            "Centre-ville de Granval - Raccourci vers l'Académie - Ordures & Dépotoirs",
-            "Quartier des boutiques- Contre–allées rue commerçante"
-        ],
-        "yw2": [
-            "Coteau fleuri-Vieux manoir- Grenier demeure",
-            "Coteau fleuri - Sous les voitures & Distributeurs.",
-            "Bingo-kai-pièce mauve(Passé)",
-            "Tunnel sans fin"
-        ],
-        "yw3": [
-            "Base secrète de la forêt- dans l'herbe",
-            "Grotte du grincheux"
-        ],
-        "yw4": [
-            "Boutique du Tournoi de Sumo."
-        ],
-        "yw Wibble Wobble": [
-            "Stage 38, 43 (Le Coteau fleuri)",
-            "Stage 98 (Quartier des boutiques)",
-            "Stage 117 (La Corniche)",
-            "Stage 235 (Les plaines Plinplot)",
-            "Stage 272 (Granval-sur-Mer)",
-            "Stage Secret 2-7 (Égout B)",
-            "Stage Secret 8-6 (Route des Vandales)",
-            "Stage Secret 10-21 (Limbes éternelles - 2ème Cercle)",
-            "Stage Secret 13-61, 13-66 (Limbes éternelles - 5ème Cercle)",
-            "Stage Secret 15-98 (Limbes éternelles - 7ème Cercle)",
-            "Stage Secret 16-115 (Limbes éternelles - 8ème Cercle)",
-            "Stage Secret 17-16 (Paradis divin - RDC)",
-            "Stage Secret 18-9 (Paradis divin - 1er étage)",
-            "Stage Secret 19-16 (Paradis divin - 2ème étage)",
-            "Stage Secret 21-26 (Paradis divin - 4ème étage)"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "Lulugubre",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Écrasement",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Galet",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Sinistrose",
-                "puissance": "40|40",
-                "description": "Couvre ses ennemis d'une sombre fumée qui réduit leur FOR."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Temps couvert",
-                "puissance": "N/A",
-                "description": "Des nuages pluvieux entourent l'ennemi et diminuent sa force."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Peau maudite",
-                "description": "Les stats augmentent lorsque envoûté."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Écrasement",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Sinistrose",
-                "puissance": "40|40",
-                "description": "Couvre ses ennemis d'une sombre fumée qui réduit leur FOR."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Temps couvert",
-                "puissance": "N/A",
-                "description": "Des nuages pluvieux entourent l'ennemi et sa FOR. diminue énormément."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Peau maudite",
-                "description": "Les stats augmentent quand envoûté par ennemi."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Sinistrose",
-                "puissance": "250",
-                "description": "Baisse temporaire de l'ATT. des ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Déblindage",
-                "puissance": "80",
-                "description": "Baisse temporaire DÉF. des ennemis touchés."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Galet",
-                "puissance": "40",
-                "description": "Utilise un sort de terre. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Saute d'humeur",
-                "description": "Toutes les stats renforcées quand les PV sont au max."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Écrasement",
-                "puissance": "25|87",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Sinistrose",
-                "puissance": "36|36",
-                "description": "Une fumée lugubre assaille les ennemis à portée. Baisse fortement la FOR."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Temps couvert",
-                "puissance": "N/A",
-                "description": "Plonge l'ennemi dans la morosité et réduit fortement sa FOR."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Peau maudite",
-                "description": "↑ tous les stats + si envoûté par un ennemi."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Peau maudite",
-        "description": "Les stats augmentent lorsque envoûté."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/lulugubre.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/lulugubre.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/lulugubre.wav",
-    "oldID": "188",
-    "medallium_ids": {
-        "yw1": "179",
-        "yw2": "265",
-        "yw3": "478",
-        "yw4": "5 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "317",
-        "yw Blasters 2": "493",
-        "yw Wibble Wobble": "7018",
-        "yw World": "0153",
-        "yw Ukiukipedia": "yw1-049/YD2-041"
-    },
-    "battle_type": "",
-    "skill_name": "Cursed Skin",
-    "skill_effect": "Overcast",
-    "disliked_food": "Ramen",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "323",
-                "STR": "91",
-                "SPR": "155",
-                "DEF": "145",
-                "SPD": "120"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "394",
-                "STR": "91",
-                "SPR": "155",
-                "DEF": "145",
-                "SPD": "120"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "331",
-                "STR": "60",
-                "SPR": "90",
-                "DEF": "156",
-                "SPD": "93"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "205-355",
-                "STR": "60",
-                "SPR": "90"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "205-355"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "205-355"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "205-355"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ドンヨリーヌ",
-            "Don'yorīnu"
-        ],
-        "Spanish": [
-            "Negatalia"
-        ],
-        "French": [
-            "Lulugubre"
-        ],
-        "Italian": [
-            "Negatina"
-        ],
-        "German": [
-            "Tristine"
-        ],
-        "Korean": [
-            "칙칙하잔느",
-            "Chikchikhajanneu"
-        ],
-        "Russian": [
-            "Угрюмоташа",
-            "Ugryumotasha"
-        ],
-        "Arabic": [
-            "مهمومة",
-            "Mahmūma"
-        ],
-        "Chinese (Cantonese)": [
-            "冬陰莉露",
-            "dung1"
-        ],
-        "Chinese (Mandarin)": [
-            "陰沉怪",
-            "Yīnchénguài",
-            "(Taiwan)",
-            "冬莉露",
-            "dōng",
-            "(Mainland"
-        ],
-        "Portuguese (Brazilian)": [
-            "Abatilda"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ドンヨリーヌ"
-        ],
-        "Spanish": [
-            "Negatalia"
-        ],
-        "French": [
-            "Lulugubre"
-        ],
-        "Italian": [
-            "Negatina"
-        ],
-        "German": [
-            "Tristine"
-        ],
-        "Korean": [
-            "칙칙하잔느"
-        ],
-        "Russian": [
-            "Угрюмоташа"
-        ],
-        "Arabic": [
-            "مهمومة"
-        ],
-        "Chinese (Cantonese)": [
-            "冬陰莉露"
-        ],
-        "Chinese (Mandarin)": [
-            "陰沉怪(Taiwan)冬莉露(Mainland China)"
-        ],
-        "Portuguese (Brazilian)": [
-            "Abatilda"
-        ]
-    },
-    "description_en": "Her gloomy aura can darken the mood in any environment. It's even worse when she's in a bad mood.",
-    "nom_en": "Gush",
-    "rang_yww": "D",
-    "tribue_yww": "Bukimi",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "pain",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
-        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 49,
-        "str": 11,
-        "spr": 22,
-        "def": 20,
-        "spd": 10
-    },
-    "stats_max_yww": {
-        "hp": 384,
-        "str": 96,
-        "spr": 160,
-        "def": 151,
-        "spd": 88
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "のしかかる",
-                "_en": "lean on",
-                "_fr": "s'appuyer sur"
-            },
-            "explication": {
-                "_jp": "【威力:25 / 打撃】 必ず命中する",
-                "_en": "[Power: 25 / Hit] Always hits",
-                "_fr": "[Puissance : 25 / Hit] Frappe toujours"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "落石の術",
-                "_en": "falling rock jutsu",
-                "_fr": "jutsu qui tombe des pierres"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
-                "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
-                "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
-            }
-        }
+    "yw3": [
+      "Base secrète de la forêt- dans l'herbe",
+      "Grotte du grincheux"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ドンヨリ砲",
-                "_en": "Don Yori Cannon",
-                "_fr": "Canon Don Yori"
-            },
-            "pouvoir": "36",
-            "explication": {
-                "_jp": "邪悪なしょうきを敵全体に吐き出す。ちからを大ダウンさせる効果もある。",
-                "_en": "Spit out evil fire at all enemies. It also has the effect of greatly reducing power.",
-                "_fr": "Crachez du feu maléfique sur tous les ennemis. Cela a également pour effet de réduire fortement la puissance."
-            }
-        }
+    "yw4": [
+      "Boutique du Tournoi de Sumo."
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ドンヨリさせる",
-                "_en": "make you nervous",
-                "_fr": "te rend nerveux"
-            },
-            "explication": {
-                "_jp": "【ちからダウン】 とりつかれた妖怪はドンヨリした空気につつまれ ちからが大ダウンする。",
-                "_en": "[Power down] The possessed monster is surrounded by a tense atmosphere, and its power is greatly downed.",
-                "_fr": "[Mise hors tension] Le monstre possédé est entouré d'une atmosphère tendue et sa puissance est considérablement réduite."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "暗くてジメジメしたオーラが 場の空気を悪くしてしまう。 とくにドンヨリーヌ自身が 落ち込んでいるときは ジメジメ度がアップする。",
-            "_en": "The dark and damp aura makes the atmosphere bad. Especially when Donyorine himself is depressed, his level of depression increases.",
-            "_fr": "L'aura sombre et humide rend l'atmosphère mauvaise. Surtout lorsque Donyorine lui-même est déprimé, son niveau de dépression augmente."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Stage 38, 43 (Le Coteau fleuri)",
+      "Stage 98 (Quartier des boutiques)",
+      "Stage 117 (La Corniche)",
+      "Stage 235 (Les plaines Plinplot)",
+      "Stage 272 (Granval-sur-Mer)",
+      "Stage Secret 2-7 (Égout B)",
+      "Stage Secret 8-6 (Route des Vandales)",
+      "Stage Secret 10-21 (Limbes éternelles - 2ème Cercle)",
+      "Stage Secret 13-61, 13-66 (Limbes éternelles - 5ème Cercle)",
+      "Stage Secret 15-98 (Limbes éternelles - 7ème Cercle)",
+      "Stage Secret 16-115 (Limbes éternelles - 8ème Cercle)",
+      "Stage Secret 17-16 (Paradis divin - RDC)",
+      "Stage Secret 18-9 (Paradis divin - 1er étage)",
+      "Stage Secret 19-16 (Paradis divin - 2ème étage)",
+      "Stage Secret 21-26 (Paradis divin - 4ème étage)"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "Lulugubre",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Écrasement",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Galet",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Sinistrose",
+        "puissance": "40|40",
+        "description": "Couvre ses ennemis d'une sombre fumée qui réduit leur FOR."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Temps couvert",
+        "puissance": "N/A",
+        "description": "Des nuages pluvieux entourent l'ennemi et diminuent sa force."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Peau maudite",
+        "description": "Les stats augmentent lorsque envoûté."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Écrasement",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Éboulement",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Sinistrose",
+        "puissance": "40|40",
+        "description": "Couvre ses ennemis d'une sombre fumée qui réduit leur FOR."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Temps couvert",
+        "puissance": "N/A",
+        "description": "Des nuages pluvieux entourent l'ennemi et sa FOR. diminue énormément."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Peau maudite",
+        "description": "Les stats augmentent quand envoûté par ennemi."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Sinistrose",
+        "puissance": "250",
+        "description": "Baisse temporaire de l'ATT. des ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Déblindage",
+        "puissance": "80",
+        "description": "Baisse temporaire DÉF. des ennemis touchés."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Galet",
+        "puissance": "40",
+        "description": "Utilise un sort de terre. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Saute d'humeur",
+        "description": "Toutes les stats renforcées quand les PV sont au max."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Écrasement",
+        "puissance": "25|87",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Éboulement",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Sinistrose",
+        "puissance": "36|36",
+        "description": "Une fumée lugubre assaille les ennemis à portée. Baisse fortement la FOR."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Temps couvert",
+        "puissance": "N/A",
+        "description": "Plonge l'ennemi dans la morosité et réduit fortement sa FOR."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Peau maudite",
+        "description": "↑ tous les stats + si envoûté par un ennemi."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Peau maudite",
+    "description": "Les stats augmentent lorsque envoûté."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/lulugubre.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/lulugubre.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/lulugubre.wav",
+  "oldID": "188",
+  "medallium_ids": {
+    "yw1": "179",
+    "yw2": "265",
+    "yw3": "478",
+    "yw4": "5 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "317",
+    "yw Blasters 2": "493",
+    "yw Wibble Wobble": "7018",
+    "yw World": "0153",
+    "yw Ukiukipedia": "yw1-049/YD2-041"
+  },
+  "battle_type": "",
+  "skill_name": "Cursed Skin",
+  "skill_effect": "Overcast",
+  "disliked_food": "Ramen",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "323",
+        "STR": "91",
+        "SPR": "155",
+        "DEF": "145",
+        "SPD": "120"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "394",
+        "STR": "91",
+        "SPR": "155",
+        "DEF": "145",
+        "SPD": "120"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "331",
+        "STR": "60",
+        "SPR": "90",
+        "DEF": "156",
+        "SPD": "93"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "205-355",
+        "STR": "60",
+        "SPR": "90"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "205-355"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "205-355"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "205-355"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ドンヨリーヌ",
+      "Don'yorīnu"
+    ],
+    "Spanish": [
+      "Negatalia"
+    ],
+    "French": [
+      "Lulugubre"
+    ],
+    "Italian": [
+      "Negatina"
+    ],
+    "German": [
+      "Tristine"
+    ],
+    "Korean": [
+      "칙칙하잔느",
+      "Chikchikhajanneu"
+    ],
+    "Russian": [
+      "Угрюмоташа",
+      "Ugryumotasha"
+    ],
+    "Arabic": [
+      "مهمومة",
+      "Mahmūma"
+    ],
+    "Chinese (Cantonese)": [
+      "冬陰莉露",
+      "dung1"
+    ],
+    "Chinese (Mandarin)": [
+      "陰沉怪",
+      "Yīnchénguài",
+      "(Taiwan)",
+      "冬莉露",
+      "dōng",
+      "(Mainland"
+    ],
+    "Portuguese (Brazilian)": [
+      "Abatilda"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ドンヨリーヌ"
+    ],
+    "Spanish": [
+      "Negatalia"
+    ],
+    "French": [
+      "Lulugubre"
+    ],
+    "Italian": [
+      "Negatina"
+    ],
+    "German": [
+      "Tristine"
+    ],
+    "Korean": [
+      "칙칙하잔느"
+    ],
+    "Russian": [
+      "Угрюмоташа"
+    ],
+    "Arabic": [
+      "مهمومة"
+    ],
+    "Chinese (Cantonese)": [
+      "冬陰莉露"
+    ],
+    "Chinese (Mandarin)": [
+      "陰沉怪(Taiwan)冬莉露(Mainland China)"
+    ],
+    "Portuguese (Brazilian)": [
+      "Abatilda"
+    ]
+  },
+  "description_en": "Her gloomy aura can darken the mood in any environment. It's even worse when she's in a bad mood.",
+  "nom_en": "Gush",
+  "rang_yww": "D",
+  "tribue_yww": "Bukimi",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "pain",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+    "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 49,
+    "str": 11,
+    "spr": 22,
+    "def": 20,
+    "spd": 10
+  },
+  "stats_max_yww": {
+    "hp": 384,
+    "str": 96,
+    "spr": 160,
+    "def": 151,
+    "spd": 88
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "のしかかる",
+        "_en": "lean on",
+        "_fr": "s'appuyer sur"
+      },
+      "explication": {
+        "_jp": "【威力:25 / 打撃】 必ず命中する",
+        "_en": "[Power: 25 / Hit] Always hits",
+        "_fr": "[Puissance : 25 / Hit] Frappe toujours"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "落石の術",
+        "_en": "falling rock jutsu",
+        "_fr": "jutsu qui tombe des pierres"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
+        "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
+        "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ドンヨリ砲",
+        "_en": "Don Yori Cannon",
+        "_fr": "Canon Don Yori"
+      },
+      "pouvoir": "36",
+      "explication": {
+        "_jp": "邪悪なしょうきを敵全体に吐き出す。ちからを大ダウンさせる効果もある。",
+        "_en": "Spit out evil fire at all enemies. It also has the effect of greatly reducing power.",
+        "_fr": "Crachez du feu maléfique sur tous les ennemis. Cela a également pour effet de réduire fortement la puissance."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ドンヨリさせる",
+        "_en": "make you nervous",
+        "_fr": "te rend nerveux"
+      },
+      "explication": {
+        "_jp": "【ちからダウン】 とりつかれた妖怪はドンヨリした空気につつまれ ちからが大ダウンする。",
+        "_en": "[Power down] The possessed monster is surrounded by a tense atmosphere, and its power is greatly downed.",
+        "_fr": "[Mise hors tension] Le monstre possédé est entouré d'une atmosphère tendue et sa puissance est considérablement réduite."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "暗くてジメジメしたオーラが 場の空気を悪くしてしまう。 とくにドンヨリーヌ自身が 落ち込んでいるときは ジメジメ度がアップする。",
+      "_en": "The dark and damp aura makes the atmosphere bad. Especially when Donyorine himself is depressed, his level of depression increases.",
+      "_fr": "L'aura sombre et humide rend l'atmosphère mauvaise. Surtout lorsque Donyorine lui-même est déprimé, son niveau de dépression augmente."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "189",
+  "Name_yww": "ドンヨリーヌ",
+  "description_jp_yww": "暗くてジメジメしたオーラが 場の空気を悪くしてしまう。 とくにドンヨリーヌ自身が 落ち込んでいるときは ジメジメ度がアップする。",
+  "BingoMessage_jp_yww": "あなたがここから解放してくれたのね ジュヴァ～ン！　もうともだちね！",
+  "MonsterId_yww": "y201000",
+  "Height_yww": 13.0,
+  "CommondId_yww": "sp_201000",
+  "MinHp_yww": 49,
+  "MaxHp_yww": 384,
+  "MinAttack_yww": 11,
+  "MaxAttack_yww": 96,
+  "MinMagic_yww": 22,
+  "MaxMagic_yww": 160,
+  "MinDefense_yww": 20,
+  "MaxDefense_yww": 151,
+  "MinSpeed_yww": 10,
+  "MaxSpeed_yww": 88,
+  "AttackId_yww": 19,
+  "MagicId_yww": 11,
+  "HauntId_yww": 201000,
+  "SpSkillId_yww": 201000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 2,
+  "DislikeFoodKind_yww": 7,
+  "ActionType_yww": 22,
+  "TribeType_yww": 7,
+  "MedallionImage_yww": "y196800.png",
+  "SpriteImage_yww": "img_y196800.png",
+  "Audio_yww": "sp_y196800.wav",
+  "Description_yww": "Son aura sombre et pesante gâche l'ambiance. Surtout quand Donyoline elle-même est déprimée, cette atmosphère pesante s'accentue.",
+  "BingoMessage_fr_yww": "C'est toi qui m'as libérée d'ici, n'est-ce pas ? Juvan ! On est amis maintenant !"
 }

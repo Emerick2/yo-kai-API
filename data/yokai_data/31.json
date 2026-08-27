@@ -1,543 +1,574 @@
 {
-    "ID": "31",
-    "Nom": "Morvobec",
-    "Tribue": "Mystérieu",
-    "Rang": "E",
-    "PV": "292",
-    "Force": "54",
-    "Esprit": "193",
-    "Défense": "95",
-    "Vitesse": "113",
-    "Description": "Un Yo-kai grue toujours enrhumé. Il a peur que ses fuites nasales le rendent trop lourd pour voler... Normal.",
-    "nourriture": "Fruits de Mer",
-    "élément": "Eau",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "Morvobec vient de Morve au bec.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/morvobec.png",
-    "numero": "028",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Jeu d'eau",
-            "effet": "Augmente les dégâts de ses attaques d'eau."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Pointe perçante",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Torrent",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Baffe élastique",
-            "effet": "Baffe un adversaire avec sa morve. Peut annuler les Âmultimes. 100 | 100"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Nez coulant",
-            "effet": "L'ennemi a le nez si coulant qu'il ne peut que renifler."
-        }
+  "ID": "31",
+  "Nom": "Morvobec",
+  "Tribue": "Mystérieu",
+  "Rang": "E",
+  "PV": "292",
+  "Force": "54",
+  "Esprit": "193",
+  "Défense": "95",
+  "Vitesse": "113",
+  "Description": "Un Yo-kai grue toujours enrhumé. Il a peur que ses fuites nasales le rendent trop lourd pour voler... Normal.",
+  "nourriture": "Fruits de Mer",
+  "élément": "Eau",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "Morvobec vient de Morve au bec.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/morvobec.png",
+  "numero": "028",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Jeu d'eau",
+      "effet": "Augmente les dégâts de ses attaques d'eau."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Pointe perçante",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Torrent",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Baffe élastique",
+      "effet": "Baffe un adversaire avec sa morve. Peut annuler les Âmultimes. 100 | 100"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Nez coulant",
+      "effet": "L'ennemi a le nez si coulant qu'il ne peut que renifler."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Biab biab !",
+    "Mange de la nourriture insipide": "C'était bangeable.",
+    "Mange de la mauvaise nourriture": "C'est écœurant !",
+    "A la flemme": "Faut se relaxer...",
+    "Est échangé": "Hum... ravi de te rencontrer... J'espère que la morve ne te dérange pas.",
+    "Devient ton ami": "Ta force me donne la nausée... On pourrait être amis quand même ?"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "ズルズルづる",
+  "nom_anglais": "Snotsolong",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Hauts de Granval- fleuve ouest",
+      "Coteau fleuri- fleuve",
+      "Vieux manoir - demeure",
+      "Bingo-kai-pièce jaune"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Biab biab !",
-        "Mange de la nourriture insipide": "C'était bangeable.",
-        "Mange de la mauvaise nourriture": "C'est écœurant !",
-        "A la flemme": "Faut se relaxer...",
-        "Est échangé": "Hum... ravi de te rencontrer... J'espère que la morve ne te dérange pas.",
-        "Devient ton ami": "Ta force me donne la nausée... On pourrait être amis quand même ?"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "ズルズルづる",
-    "nom_anglais": "Snotsolong",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Hauts de Granval- fleuve ouest",
-            "Coteau fleuri- fleuve",
-            "Vieux manoir - demeure",
-            "Bingo-kai-pièce jaune"
-        ],
-        "yw2": [
-            "Coteau fleuri - chemin secret",
-            "Portails mystères"
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Coteau fleuri"
-        ],
-        "yw3": [
-            "Coteau fleuri - fleuve"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Pointe perçante",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Torrent",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Baffe élastique",
-                "puissance": "60|157",
-                "description": "Baffe un adversaire avec sa morve. Âmultimes annulables."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Nez coulant",
-                "puissance": "N/A",
-                "description": "L'ennemi a le nez si coulant qu'il ne peut que renifler."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Jeu d'eau",
-                "description": "Augmente les dégâts des attaques d'eau."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Pointe perçante",
-                "puissance": "15|57",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Torrent",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Baffe élastique",
-                "puissance": "100|100",
-                "description": "Baffe un adversaire avec sa morve. Peut annuler les Âmultimes."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Nez coulant",
-                "puissance": "N/A",
-                "description": "L'ennemi a le nez si coulant qu'il ne peut que renifler."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Rapides",
-                "puissance": "N/A",
-                "description": "Un torrent déferle sur les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Jeu d'eau",
-                "description": "Augmente les dégâts de ses attaques d'eau."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Baffe élastique",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Torrent",
-                "puissance": "40",
-                "description": "Utilise un sort d'eau. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Baisse de vitesse",
-                "puissance": "___",
-                "description": "Baisse VIT. ennemie. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Baisse offensive",
-                "puissance": "___",
-                "description": "Baisse ATT. ennemie. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Tintouin",
-                "description": "Effet envoûtement négatif plus durable sur soi."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Pointe perçante",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Torrent",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Baffe élastique",
-                "puissance": "67|201",
-                "description": "Baffe un adversaire avec sa morve."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Nez coulant",
-                "puissance": "N/A",
-                "description": "L'ennemi a le nez qui coule tout le temps, il ne peut que renifler !"
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Baffe élastique",
-                "puissance": "400",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Torrent",
-                "puissance": "40",
-                "description": "Technique d'eau+. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Baisse de vitesse",
-                "puissance": "___",
-                "description": "Réduit + VIT. ennemie. Plus de portée si chargé."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Jeu d'eau",
-                "description": "Booste les dégâts d'eau de tous les Yo-kai."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Dico-tech"
-            },
-            {
-                "taux": "?%",
-                "objet": "Lait"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Dico-tech"
-            },
-            {
-                "taux": "?%",
-                "objet": "Thé de l'âme"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Dico-tech"
-            },
-            {
-                "taux": "?%",
-                "objet": "Maquereau séché"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Jeu d'eau",
-        "description": "Augmente les dégâts des attaques d'eau."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/morvobec.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/morvobec.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/morvobec.wav",
-    "oldID": "32",
-    "medallium_ids": {
-        "yw1": "028",
-        "yw2": "042",
-        "yw3": "072"
-    },
-    "spinoff_ids": {
-        "Wib Wob": ""
-    },
-    "battle_type": "",
-    "skill_name": "Water Play",
-    "skill_effect": "Runny Nose",
-    "disliked_food": "Ramen",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "261",
-                "STR": "90",
-                "SPR": "131",
-                "DEF": "121",
-                "SPD": "136"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "302",
-                "STR": "90",
-                "SPR": "131",
-                "DEF": "121",
-                "SPD": "136"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "302",
-                "STR": "59",
-                "SPR": "198",
-                "DEF": "100",
-                "SPD": "118"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ズルズルづる",
-            "Zuruzuru-zuru"
-        ],
-        "Spanish": [
-            "Mokopavo"
-        ],
-        "French": [
-            "Morvobec"
-        ],
-        "Italian": [
-            "Grumoko"
-        ],
-        "German": [
-            "Drotzel"
-        ],
-        "Dutch": [
-            "Snotsolong"
-        ],
-        "Korean": [
-            "줄줄새",
-            "juljulsae"
-        ],
-        "Russian": [
-            "Соплелëт",
-            "Soplelyot"
-        ],
-        "Arabic": [
-            "مزكوم",
-            "Mazkūm"
-        ],
-        "Portuguese (Brazilian)": [
-            "Corizave"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ズルズルづる"
-        ],
-        "Spanish": [
-            "Mokopavo"
-        ],
-        "French": [
-            "Morvobec"
-        ],
-        "Italian": [
-            "Grumoko"
-        ],
-        "German": [
-            "Drotzel"
-        ],
-        "Dutch": [
-            "Snotsolong"
-        ],
-        "Korean": [
-            "줄줄새"
-        ],
-        "Russian": [
-            "Соплелëт"
-        ],
-        "Arabic": [
-            "مزكوم"
-        ],
-        "Portuguese (Brazilian)": [
-            "Corizave"
-        ]
-    },
-    "description_en": "A crane Yo-kai with an insanely runny nose. He's scared his drippings will make him too heavy to fly. ...I'd be scared too.",
-    "nom_en": "Snartle",
-    "rang_yww": "E",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "fruit de mer",
-    "nourriture_favorite": "fruit de mer",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 33,
-        "str": 3,
-        "spr": 33,
-        "def": 10,
-        "spd": 14
-    },
-    "stats_max_yww": {
-        "hp": 292,
-        "str": 54,
-        "spr": 193,
-        "def": 95,
-        "spd": 113
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "お祭りコイン",
-            "_en": "festival coins",
-            "_fr": "pièces de monnaie du festival"
-        },
-        {
-            "_jp": "黄色コイン",
-            "_en": "yellow coin",
-            "_fr": "pièce jaune"
-        }
+    "yw2": [
+      "Coteau fleuri - chemin secret",
+      "Portails mystères"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "こづく",
-                "_en": "poked you",
-                "_fr": "vous a Poké"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "放水の術",
-                "_en": "Water release technique",
-                "_fr": "Technique de libération d'eau"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 水属性】 水の妖術を使う。",
-                "_en": "[Power: 40 / Water attribute] Uses water magic.",
-                "_fr": "[Puissance : 40 / Attribut Eau] Utilise la magie de l'eau."
-            }
-        }
+    "yw Blasters 1": [
+      "Patrouille -Coteau fleuri"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "びろ～んビンタ",
-                "_en": "Biron slap",
-                "_fr": "claque de Biron"
-            },
-            "pouvoir": "67",
-            "explication": {
-                "_jp": "びろ～んと伸びた鼻水を勢いよく撃ちつけて正面の敵をビンタする",
-                "_en": "Slap the enemy in front of you by shooting the snot that stretches out with force.",
-                "_fr": "Frappez l'ennemi devant vous en tirant sur la morve qui s'étire avec force."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ズルズルにする",
-                "_en": "slurp",
-                "_fr": "slurp"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 とりつかれた妖怪は鼻水が止まらなくなりたまに行動しなくなる。",
-                "_en": "[Osabori] A possessed monster will no longer stop its nose from running, and will sometimes stop acting.",
-                "_fr": "[Osabori] Un monstre possédé n'empêchera plus son nez de couler, et cessera parfois d'agir."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "信じられないぐらい 鼻水がズルズル出てくる ツルの妖怪。 鼻水が重すぎて飛べないのが 一番の悩み。",
-            "_en": "A creeper monster whose nose is so runny you won't believe it. My biggest problem is that my nose is so heavy that I can't fly.",
-            "_fr": "Un monstre rampant dont le nez est si liquide que vous n'y croirez pas. Mon plus gros problème est que mon nez est si lourd que je ne peux pas voler."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Coteau fleuri - fleuve"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Pointe perçante",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Torrent",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Baffe élastique",
+        "puissance": "60|157",
+        "description": "Baffe un adversaire avec sa morve. Âmultimes annulables."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Nez coulant",
+        "puissance": "N/A",
+        "description": "L'ennemi a le nez si coulant qu'il ne peut que renifler."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Jeu d'eau",
+        "description": "Augmente les dégâts des attaques d'eau."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Pointe perçante",
+        "puissance": "15|57",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Torrent",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Baffe élastique",
+        "puissance": "100|100",
+        "description": "Baffe un adversaire avec sa morve. Peut annuler les Âmultimes."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Nez coulant",
+        "puissance": "N/A",
+        "description": "L'ennemi a le nez si coulant qu'il ne peut que renifler."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Rapides",
+        "puissance": "N/A",
+        "description": "Un torrent déferle sur les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Jeu d'eau",
+        "description": "Augmente les dégâts de ses attaques d'eau."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Baffe élastique",
+        "puissance": "400",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Torrent",
+        "puissance": "40",
+        "description": "Utilise un sort d'eau. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Baisse de vitesse",
+        "puissance": "___",
+        "description": "Baisse VIT. ennemie. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Baisse offensive",
+        "puissance": "___",
+        "description": "Baisse ATT. ennemie. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Tintouin",
+        "description": "Effet envoûtement négatif plus durable sur soi."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Pointe perçante",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Torrent",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Baffe élastique",
+        "puissance": "67|201",
+        "description": "Baffe un adversaire avec sa morve."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Nez coulant",
+        "puissance": "N/A",
+        "description": "L'ennemi a le nez qui coule tout le temps, il ne peut que renifler !"
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Baffe élastique",
+        "puissance": "400",
+        "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Torrent",
+        "puissance": "40",
+        "description": "Technique d'eau+. Plus de dégâts si chargée."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Baisse de vitesse",
+        "puissance": "___",
+        "description": "Réduit + VIT. ennemie. Plus de portée si chargé."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Jeu d'eau",
+        "description": "Booste les dégâts d'eau de tous les Yo-kai."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Dico-tech"
+      },
+      {
+        "taux": "?%",
+        "objet": "Lait"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Dico-tech"
+      },
+      {
+        "taux": "?%",
+        "objet": "Thé de l'âme"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Dico-tech"
+      },
+      {
+        "taux": "?%",
+        "objet": "Maquereau séché"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Jeu d'eau",
+    "description": "Augmente les dégâts des attaques d'eau."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/morvobec.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/morvobec.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/morvobec.wav",
+  "oldID": "32",
+  "medallium_ids": {
+    "yw1": "028",
+    "yw2": "042",
+    "yw3": "072"
+  },
+  "spinoff_ids": {
+    "Wib Wob": ""
+  },
+  "battle_type": "",
+  "skill_name": "Water Play",
+  "skill_effect": "Runny Nose",
+  "disliked_food": "Ramen",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "261",
+        "STR": "90",
+        "SPR": "131",
+        "DEF": "121",
+        "SPD": "136"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "302",
+        "STR": "90",
+        "SPR": "131",
+        "DEF": "121",
+        "SPD": "136"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "302",
+        "STR": "59",
+        "SPR": "198",
+        "DEF": "100",
+        "SPD": "118"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ズルズルづる",
+      "Zuruzuru-zuru"
+    ],
+    "Spanish": [
+      "Mokopavo"
+    ],
+    "French": [
+      "Morvobec"
+    ],
+    "Italian": [
+      "Grumoko"
+    ],
+    "German": [
+      "Drotzel"
+    ],
+    "Dutch": [
+      "Snotsolong"
+    ],
+    "Korean": [
+      "줄줄새",
+      "juljulsae"
+    ],
+    "Russian": [
+      "Соплелëт",
+      "Soplelyot"
+    ],
+    "Arabic": [
+      "مزكوم",
+      "Mazkūm"
+    ],
+    "Portuguese (Brazilian)": [
+      "Corizave"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ズルズルづる"
+    ],
+    "Spanish": [
+      "Mokopavo"
+    ],
+    "French": [
+      "Morvobec"
+    ],
+    "Italian": [
+      "Grumoko"
+    ],
+    "German": [
+      "Drotzel"
+    ],
+    "Dutch": [
+      "Snotsolong"
+    ],
+    "Korean": [
+      "줄줄새"
+    ],
+    "Russian": [
+      "Соплелëт"
+    ],
+    "Arabic": [
+      "مزكوم"
+    ],
+    "Portuguese (Brazilian)": [
+      "Corizave"
+    ]
+  },
+  "description_en": "A crane Yo-kai with an insanely runny nose. He's scared his drippings will make him too heavy to fly. ...I'd be scared too.",
+  "nom_en": "Snartle",
+  "rang_yww": "E",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "fruit de mer",
+  "nourriture_favorite": "fruit de mer",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 33,
+    "str": 3,
+    "spr": 33,
+    "def": 10,
+    "spd": 14
+  },
+  "stats_max_yww": {
+    "hp": 292,
+    "str": 54,
+    "spr": 193,
+    "def": 95,
+    "spd": 113
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "お祭りコイン",
+      "_en": "festival coins",
+      "_fr": "pièces de monnaie du festival"
+    },
+    {
+      "_jp": "黄色コイン",
+      "_en": "yellow coin",
+      "_fr": "pièce jaune"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "こづく",
+        "_en": "poked you",
+        "_fr": "vous a Poké"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "放水の術",
+        "_en": "Water release technique",
+        "_fr": "Technique de libération d'eau"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 水属性】 水の妖術を使う。",
+        "_en": "[Power: 40 / Water attribute] Uses water magic.",
+        "_fr": "[Puissance : 40 / Attribut Eau] Utilise la magie de l'eau."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "びろ～んビンタ",
+        "_en": "Biron slap",
+        "_fr": "claque de Biron"
+      },
+      "pouvoir": "67",
+      "explication": {
+        "_jp": "びろ～んと伸びた鼻水を勢いよく撃ちつけて正面の敵をビンタする",
+        "_en": "Slap the enemy in front of you by shooting the snot that stretches out with force.",
+        "_fr": "Frappez l'ennemi devant vous en tirant sur la morve qui s'étire avec force."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ズルズルにする",
+        "_en": "slurp",
+        "_fr": "slurp"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 とりつかれた妖怪は鼻水が止まらなくなりたまに行動しなくなる。",
+        "_en": "[Osabori] A possessed monster will no longer stop its nose from running, and will sometimes stop acting.",
+        "_fr": "[Osabori] Un monstre possédé n'empêchera plus son nez de couler, et cessera parfois d'agir."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "信じられないぐらい 鼻水がズルズル出てくる ツルの妖怪。 鼻水が重すぎて飛べないのが 一番の悩み。",
+      "_en": "A creeper monster whose nose is so runny you won't believe it. My biggest problem is that my nose is so heavy that I can't fly.",
+      "_fr": "Un monstre rampant dont le nez est si liquide que vous n'y croirez pas. Mon plus gros problème est que mon nez est si lourd que je ne peux pas voler."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "31",
+  "Name_yww": "ズルズルづる",
+  "description_jp_yww": "信じられないぐらい 鼻水がズルズル出てくる ツルの妖怪。 鼻水が重すぎて飛べないのが 一番の悩み。",
+  "BingoMessage_jp_yww": "きみのその優しさで　はなみずを 止めてくれるとうれしいな！",
+  "MonsterId_yww": "y118000",
+  "Height_yww": 7.0,
+  "CommondId_yww": "sp_118000",
+  "MinHp_yww": 33,
+  "MaxHp_yww": 292,
+  "MinAttack_yww": 3,
+  "MaxAttack_yww": 54,
+  "MinMagic_yww": 33,
+  "MaxMagic_yww": 193,
+  "MinDefense_yww": 10,
+  "MaxDefense_yww": 95,
+  "MinSpeed_yww": 14,
+  "MaxSpeed_yww": 113,
+  "AttackId_yww": 13,
+  "MagicId_yww": 4,
+  "HauntId_yww": 118000,
+  "SpSkillId_yww": 118000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 12,
+  "DislikeFoodKind_yww": 7,
+  "ActionType_yww": 9,
+  "TribeType_yww": 2,
+  "MedallionImage_yww": "y113800.png",
+  "SpriteImage_yww": "img_y113800.png",
+  "Audio_yww": "sp_y113800.wav",
+  "Description_yww": "Incroyable, mais son nez coule sans arrêt : c'est un yōkai en forme de grue. Son plus grand souci, c'est que son nez coule tellement qu'il ne peut plus voler.",
+  "BingoMessage_fr_yww": "Si ta gentillesse pouvait me faire cesser de renifler, j'en serais ravie !"
 }

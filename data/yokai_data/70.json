@@ -1,566 +1,597 @@
 {
-    "ID": "70",
-    "Nom": "Margoth",
-    "Tribue": "Mignon",
-    "Rang": "C",
-    "PV": "344",
-    "Force": "144",
-    "Esprit": "123",
-    "Défense": "115",
-    "Vitesse": "152",
-    "Description": "Malgré son air calme dans sa robe gothique, elle explosera de rage si tu insultes son style.",
-    "nourriture": "Hamburger",
-    "élément": "Feu",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "Margoth vient du prénom Margaud et de Goth (Gothique en anglais, qui est aussi un style vestimentaire).",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/margoth.png",
-    "numero": "085",
-    "nourriture_favorite": "Dessert",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Ténacité",
-            "effet": "Bloque envoûtements négatifs des ennemis."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Rafale de coups",
-            "effet": "10x5 | 22x5"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Incendie",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "☆Belle Ombrelle",
-            "effet": "Pique tous les ennemis avec son parapluie fantaisiste. 22x7 | 22x7"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Générosité",
-            "effet": "Rend un Yo-kai tellement généreux qu'il donne de l'argent."
-        }
+  "ID": "70",
+  "Nom": "Margoth",
+  "Tribue": "Mignon",
+  "Rang": "C",
+  "PV": "344",
+  "Force": "144",
+  "Esprit": "123",
+  "Défense": "115",
+  "Vitesse": "152",
+  "Description": "Malgré son air calme dans sa robe gothique, elle explosera de rage si tu insultes son style.",
+  "nourriture": "Hamburger",
+  "élément": "Feu",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "Margoth vient du prénom Margaud et de Goth (Gothique en anglais, qui est aussi un style vestimentaire).",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/margoth.png",
+  "numero": "085",
+  "nourriture_favorite": "Dessert",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Ténacité",
+      "effet": "Bloque envoûtements négatifs des ennemis."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Rafale de coups",
+      "effet": "10x5 | 22x5"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Incendie",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "☆Belle Ombrelle",
+      "effet": "Pique tous les ennemis avec son parapluie fantaisiste. 22x7 | 22x7"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Générosité",
+      "effet": "Rend un Yo-kai tellement généreux qu'il donne de l'argent."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Je me régale !",
+    "Mange de la nourriture insipide": "C'est... bon.",
+    "Mange de la mauvaise nourriture": "Oui... mais non.",
+    "A la flemme": "Meh...",
+    "Est échangé": "Tu t'habilles vraiment trop comme ... Je dis ça, je dis rien !",
+    "Devient ton ami": "La force est très tendance ces temps-ci ! Lions-nous d'amitié !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Squarlett",
+      "parent2": "Cupistol",
+      "resultat": "Margoth",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "カラカラさん",
+  "nom_anglais": "Rattelle",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Fusion",
+      "La Corniche- buissons",
+      "La Corniche-musée(de nuit)",
+      "Chapitre 9 : Cap ou pas cap"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Je me régale !",
-        "Mange de la nourriture insipide": "C'est... bon.",
-        "Mange de la mauvaise nourriture": "Oui... mais non.",
-        "A la flemme": "Meh...",
-        "Est échangé": "Tu t'habilles vraiment trop comme ... Je dis ça, je dis rien !",
-        "Devient ton ami": "La force est très tendance ces temps-ci ! Lions-nous d'amitié !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Squarlett",
-            "parent2": "Cupistol",
-            "resultat": "Margoth",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Fusion",
+      "Portails mystères"
     ],
-    "image_locale": "",
-    "nom_original": "カラカラさん",
-    "nom_anglais": "Rattelle",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Fusion",
-            "La Corniche- buissons",
-            "La Corniche-musée(de nuit)",
-            "Chapitre 9 : Cap ou pas cap"
-        ],
-        "yw2": [
-            "Fusion",
-            "Portails mystères"
-        ],
-        "yw Blasters 1": [
-            "Exclusif à l'Escadron du chien blanc",
-            "Patrouille - La Corniche",
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "L'Escadron du chien blanc",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "10×5|22×5",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "☆Belle Ombrelle",
-                "puissance": "22×7|22×7",
-                "description": "Pique tous les ennemis avec son parapluie fantaisiste."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Générosité",
-                "puissance": "N/A",
-                "description": "Rend un Yo-kai tellement généreux qu'il donne de l'argent."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Ténacité",
-                "description": "Bloque envoûtements négatifs des ennemis."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "10×5|22×5",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "☆Belle Ombrelle",
-                "puissance": "22×7|22×7",
-                "description": "Pique tous les ennemis avec son parapluie fantaisiste."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Générosité",
-                "puissance": "N/A",
-                "description": "Rend un Yo-kai tellement généreux qu'il donne de l'argent."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Incendie",
-                "puissance": "N/A",
-                "description": "Un sort de feu brûle les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Ténacité",
-                "description": "Bloque envoûtements négatifs des ennemis."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "☆Belle Ombrelle",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Boost de défense",
-                "puissance": "___",
-                "description": "Hausse DÉF. des alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Feu",
-                "puissance": "40",
-                "description": "Utilise un sort de feu. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Lessivage",
-                "description": "Chargement rapide de la jauge d'attaque si PV au max."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "8×5|17×5",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "☆Belle Ombrelle",
-                "puissance": "18×7|36×7",
-                "description": "Pique les ennemis à portée, avec son parapluie fantaisiste."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Générosité",
-                "puissance": "N/A",
-                "description": "Rend un Yo-kai tellement généreux qu'il donne parfois de l'argent."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "☆Belle Ombrelle",
-                "puissance": "40×10",
-                "description": "Enchaîne les coups, inflige des dégâts élevés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque l’ennemi avec une attaque féroce."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. PV rendus + si chargé."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Ténacité",
-                "description": "Bloque envoûtements négatifs des ennemis."
-            }
-        ]
-    },
-    "soul_effects": {
-        "yw2": "Réduit les dégâts d’attaques de feu subis.",
-        "yw Blasters 1": "Chargement de la jauge d’attaque un peu plus rapide.",
-        "yw3": "Booste un peu la DÉF. des Yo-kai reliés."
-    },
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Bague mimi"
-            },
-            {
-                "taux": "?%",
-                "objet": "Maquereau séché"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Bague mimi"
-            },
-            {
-                "taux": "?%",
-                "objet": "Cheesecake"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Remède amer"
-            },
-            {
-                "taux": "?%",
-                "objet": "Fraisier"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Ténacité",
-        "description": "Bloque envoûtements négatifs des ennemis."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/margoth.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/margoth.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/margoth.wav",
-    "hated_food": "riz",
-    "oldID": "70",
-    "medallium_ids": {
-        "yw1": "085",
-        "yw2": "125",
-        "yw3": "214"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "143",
-        "yw Blasters 2": "219",
-        "yw Wibble Wobble": "4176",
-        "yw World": "0073",
-        "yw Ukiukipedia": "yw5-011"
-    },
-    "battle_type": "",
-    "skill_name": "Hanging In",
-    "skill_effect": "So Generous",
-    "disliked_food": "Soba",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "346",
-                "STR": "145",
-                "SPR": "108",
-                "DEF": "141",
-                "SPD": "159"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "343",
-                "STR": "145",
-                "SPR": "108",
-                "DEF": "141",
-                "SPD": "159"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "142-247",
-                "STR": "143",
-                "SPR": "121",
-                "DEF": "132",
-                "SPD": "179"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "142-247"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "142-247"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "142-247"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "カラカラさん",
-            "Karakarasan"
-        ],
-        "Spanish": [
-            "Rechinella"
-        ],
-        "French": [
-            "Margoth"
-        ],
-        "Italian": [
-            "Stylossa"
-        ],
-        "German": [
-            "Klapperika"
-        ],
-        "Russian": [
-            "Дребезжалия",
-            "Drebezzhallaya"
-        ],
-        "Arabic": [
-            "زركشة",
-            "Zarkasha"
-        ],
-        "Portuguese (Brazilian)": [
-            "Góticarina"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "カラカラさん"
-        ],
-        "Spanish": [
-            "Rechinella"
-        ],
-        "French": [
-            "Margoth"
-        ],
-        "Italian": [
-            "Stylossa"
-        ],
-        "German": [
-            "Klapperika"
-        ],
-        "Russian": [
-            "Дребезжалия"
-        ],
-        "Arabic": [
-            "زركشة"
-        ],
-        "Portuguese (Brazilian)": [
-            "Góticarina"
-        ]
-    },
-    "description_en": "While she looks calm in her gothic wear, she'll fly into a rage if you insult her style.",
-    "nom_en": "Hurchin",
-    "rang_yww": "C",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "bonbons",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い",
-        "_en": "(Recovery role) Kind and compassionate",
-        "_fr": "(Rôle de récupération) Gentil et compatissant"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 45,
-        "str": 19,
-        "spr": 15,
-        "def": 14,
-        "spd": 20
-    },
-    "stats_max_yww": {
-        "hp": 344,
-        "str": 144,
-        "spr": 123,
-        "def": 115,
-        "spd": 152
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "疾風づき",
-                "_en": "Gale",
-                "_fr": "Coup de vent"
-            },
-            "explication": {
-                "_jp": "【威力:8×5 / 打撃】 連続攻撃を行う",
-                "_en": "[Power: 8×5/Blow] Performs continuous attacks",
-                "_fr": "[Puissance : 8×5/Coup] Effectue des attaques continues"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "火炎の術",
-                "_en": "flame technique",
-                "_fr": "technique de la flamme"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
-                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
-                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
-            }
-        }
+    "yw Blasters 1": [
+      "Exclusif à l'Escadron du chien blanc",
+      "Patrouille - La Corniche",
+      "Fusion"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ハイカラ☆パラソル",
-                "_en": "High collar☆parasol",
-                "_fr": "Col montant☆parasol"
-            },
-            "pouvoir": "18",
-            "explication": {
-                "_jp": "ハイカラな傘で刺しまくりダメージを与える。",
-                "_en": "It stabs you repeatedly with its high-colored umbrella, causing damage.",
-                "_fr": "Il vous poignarde à plusieurs reprises avec son parapluie coloré, causant des dégâts."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "気前をよくする",
-                "_en": "be generous",
-                "_fr": "être généreux"
-            },
-            "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "ゴスロリファッションの がいこつ妖怪。 いつもは おとなしく気どっているが 服をけなすと ブチ切れて本性をあらわす。",
-            "_en": "A gothic loli fashion monster. She's usually quiet and airy, but when you make fun of her clothes, she bursts out and reveals her true nature.",
-            "_fr": "Un monstre de la mode gothique loli. Elle est généralement calme et aérienne, mais lorsque vous vous moquez de ses vêtements, elle éclate et révèle sa vraie nature."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "L'Escadron du chien blanc",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Rafale de coups",
+        "puissance": "10×5|22×5",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Incendie",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "☆Belle Ombrelle",
+        "puissance": "22×7|22×7",
+        "description": "Pique tous les ennemis avec son parapluie fantaisiste."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Générosité",
+        "puissance": "N/A",
+        "description": "Rend un Yo-kai tellement généreux qu'il donne de l'argent."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Ténacité",
+        "description": "Bloque envoûtements négatifs des ennemis."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Rafale de coups",
+        "puissance": "10×5|22×5",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Incendie",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "☆Belle Ombrelle",
+        "puissance": "22×7|22×7",
+        "description": "Pique tous les ennemis avec son parapluie fantaisiste."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Générosité",
+        "puissance": "N/A",
+        "description": "Rend un Yo-kai tellement généreux qu'il donne de l'argent."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Incendie",
+        "puissance": "N/A",
+        "description": "Un sort de feu brûle les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Ténacité",
+        "description": "Bloque envoûtements négatifs des ennemis."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "☆Belle Ombrelle",
+        "puissance": "40×10",
+        "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Boost de défense",
+        "puissance": "___",
+        "description": "Hausse DÉF. des alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Feu",
+        "puissance": "40",
+        "description": "Utilise un sort de feu. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Lessivage",
+        "description": "Chargement rapide de la jauge d'attaque si PV au max."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Rafale de coups",
+        "puissance": "8×5|17×5",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Incendie",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "☆Belle Ombrelle",
+        "puissance": "18×7|36×7",
+        "description": "Pique les ennemis à portée, avec son parapluie fantaisiste."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Générosité",
+        "puissance": "N/A",
+        "description": "Rend un Yo-kai tellement généreux qu'il donne parfois de l'argent."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "☆Belle Ombrelle",
+        "puissance": "40×10",
+        "description": "Enchaîne les coups, inflige des dégâts élevés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque l’ennemi avec une attaque féroce."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. PV rendus + si chargé."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Ténacité",
+        "description": "Bloque envoûtements négatifs des ennemis."
+      }
+    ]
+  },
+  "soul_effects": {
+    "yw2": "Réduit les dégâts d’attaques de feu subis.",
+    "yw Blasters 1": "Chargement de la jauge d’attaque un peu plus rapide.",
+    "yw3": "Booste un peu la DÉF. des Yo-kai reliés."
+  },
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Bague mimi"
+      },
+      {
+        "taux": "?%",
+        "objet": "Maquereau séché"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Bague mimi"
+      },
+      {
+        "taux": "?%",
+        "objet": "Cheesecake"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Remède amer"
+      },
+      {
+        "taux": "?%",
+        "objet": "Fraisier"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Ténacité",
+    "description": "Bloque envoûtements négatifs des ennemis."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/margoth.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/margoth.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/margoth.wav",
+  "hated_food": "riz",
+  "oldID": "70",
+  "medallium_ids": {
+    "yw1": "085",
+    "yw2": "125",
+    "yw3": "214"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "143",
+    "yw Blasters 2": "219",
+    "yw Wibble Wobble": "4176",
+    "yw World": "0073",
+    "yw Ukiukipedia": "yw5-011"
+  },
+  "battle_type": "",
+  "skill_name": "Hanging In",
+  "skill_effect": "So Generous",
+  "disliked_food": "Soba",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "346",
+        "STR": "145",
+        "SPR": "108",
+        "DEF": "141",
+        "SPD": "159"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "343",
+        "STR": "145",
+        "SPR": "108",
+        "DEF": "141",
+        "SPD": "159"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "142-247",
+        "STR": "143",
+        "SPR": "121",
+        "DEF": "132",
+        "SPD": "179"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "142-247"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "142-247"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "142-247"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "カラカラさん",
+      "Karakarasan"
+    ],
+    "Spanish": [
+      "Rechinella"
+    ],
+    "French": [
+      "Margoth"
+    ],
+    "Italian": [
+      "Stylossa"
+    ],
+    "German": [
+      "Klapperika"
+    ],
+    "Russian": [
+      "Дребезжалия",
+      "Drebezzhallaya"
+    ],
+    "Arabic": [
+      "زركشة",
+      "Zarkasha"
+    ],
+    "Portuguese (Brazilian)": [
+      "Góticarina"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "カラカラさん"
+    ],
+    "Spanish": [
+      "Rechinella"
+    ],
+    "French": [
+      "Margoth"
+    ],
+    "Italian": [
+      "Stylossa"
+    ],
+    "German": [
+      "Klapperika"
+    ],
+    "Russian": [
+      "Дребезжалия"
+    ],
+    "Arabic": [
+      "زركشة"
+    ],
+    "Portuguese (Brazilian)": [
+      "Góticarina"
+    ]
+  },
+  "description_en": "While she looks calm in her gothic wear, she'll fly into a rage if you insult her style.",
+  "nom_en": "Hurchin",
+  "rang_yww": "C",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "bonbons",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い",
+    "_en": "(Recovery role) Kind and compassionate",
+    "_fr": "(Rôle de récupération) Gentil et compatissant"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 45,
+    "str": 19,
+    "spr": 15,
+    "def": 14,
+    "spd": 20
+  },
+  "stats_max_yww": {
+    "hp": 344,
+    "str": 144,
+    "spr": 123,
+    "def": 115,
+    "spd": 152
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "疾風づき",
+        "_en": "Gale",
+        "_fr": "Coup de vent"
+      },
+      "explication": {
+        "_jp": "【威力:8×5 / 打撃】 連続攻撃を行う",
+        "_en": "[Power: 8×5/Blow] Performs continuous attacks",
+        "_fr": "[Puissance : 8×5/Coup] Effectue des attaques continues"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "火炎の術",
+        "_en": "flame technique",
+        "_fr": "technique de la flamme"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
+        "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
+        "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ハイカラ☆パラソル",
+        "_en": "High collar☆parasol",
+        "_fr": "Col montant☆parasol"
+      },
+      "pouvoir": "18",
+      "explication": {
+        "_jp": "ハイカラな傘で刺しまくりダメージを与える。",
+        "_en": "It stabs you repeatedly with its high-colored umbrella, causing damage.",
+        "_fr": "Il vous poignarde à plusieurs reprises avec son parapluie coloré, causant des dégâts."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "気前をよくする",
+        "_en": "be generous",
+        "_fr": "être généreux"
+      },
+      "explication": {
+        "_jp": "【–】 –",
+        "_en": null,
+        "_fr": null
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "ゴスロリファッションの がいこつ妖怪。 いつもは おとなしく気どっているが 服をけなすと ブチ切れて本性をあらわす。",
+      "_en": "A gothic loli fashion monster. She's usually quiet and airy, but when you make fun of her clothes, she bursts out and reveals her true nature.",
+      "_fr": "Un monstre de la mode gothique loli. Elle est généralement calme et aérienne, mais lorsque vous vous moquez de ses vêtements, elle éclate et révèle sa vraie nature."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "70",
+  "Name_yww": "カラカラさん",
+  "description_jp_yww": "ゴスロリファッションの がいこつ妖怪。　いつもは おとなしく気どっているが 服をけなすと ブチ切れて本性をあらわす。",
+  "BingoMessage_jp_yww": "おっしゃれ～！　ステキな場所ね 決めた！　今日からここで暮らすわ！",
+  "MonsterId_yww": "y139000",
+  "Height_yww": 14.0,
+  "CommondId_yww": "sp_139000",
+  "MinHp_yww": 45,
+  "MaxHp_yww": 344,
+  "MinAttack_yww": 19,
+  "MaxAttack_yww": 144,
+  "MinMagic_yww": 15,
+  "MaxMagic_yww": 123,
+  "MinDefense_yww": 14,
+  "MaxDefense_yww": 115,
+  "MinSpeed_yww": 20,
+  "MaxSpeed_yww": 152,
+  "AttackId_yww": 15,
+  "MagicId_yww": 2,
+  "HauntId_yww": 139000,
+  "SpSkillId_yww": 139000,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 14,
+  "DislikeFoodKind_yww": 16,
+  "ActionType_yww": 1,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y134800.png",
+  "SpriteImage_yww": "img_y134800.png",
+  "Audio_yww": "sp_y134800.wav",
+  "Description_yww": "Un yōkai squelette au style gothic lolita. D'ordinaire, il se montre calme et posé, mais si on critique ses vêtements, il pète les plombs et révèle sa vraie nature.",
+  "BingoMessage_fr_yww": "C'est trop chic ! C'est un endroit magnifique. C'est décidé ! Je vais vivre ici à partir d'aujourd'hui !"
 }

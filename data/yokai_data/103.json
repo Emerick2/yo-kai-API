@@ -1,495 +1,526 @@
 {
-    "ID": "103",
-    "Nom": "Émeranyan",
-    "Tribue": "Mignon",
-    "Rang": "A",
-    "PV": "314",
-    "Force": "169",
-    "Esprit": "204",
-    "Défense": "118",
-    "Vitesse": "133",
-    "Description": "Un Yo-kai serti d'émeraudes. Si on pouvait le vendre, il vaudrait plus de 100 millions d'euros.",
-    "description SITE": "Un Jibanyan d'émeraude. Si on pouvait le vendre, il vaudrait plus de 100 millions d'euro.",
-    "nourriture": "Fruits de Mer",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "Émeranyanvient deJibanyanet d'émeraude.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/emeranyan.png",
-    "numero": "220",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Lien spécial",
-            "effet": "Augmente stats d'un voisin avec le même talent."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Griffes acérées",
-            "effet": "10x2 | 45x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paradis",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Émeraupattes",
-            "effet": "Il attaque tous les ennemis avec ses pattes en émeraude. 15x10 | 22x10"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Force émeraude",
-            "effet": "Rend les stats d'un allié aussi luisantes qu'une belle émeraude."
-        }
+  "ID": "103",
+  "Nom": "Émeranyan",
+  "Tribue": "Mignon",
+  "Rang": "A",
+  "PV": "314",
+  "Force": "169",
+  "Esprit": "204",
+  "Défense": "118",
+  "Vitesse": "133",
+  "Description": "Un Yo-kai serti d'émeraudes. Si on pouvait le vendre, il vaudrait plus de 100 millions d'euros.",
+  "description SITE": "Un Jibanyan d'émeraude. Si on pouvait le vendre, il vaudrait plus de 100 millions d'euro.",
+  "nourriture": "Fruits de Mer",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "Émeranyanvient deJibanyanet d'émeraude.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/emeranyan.png",
+  "numero": "220",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Lien spécial",
+      "effet": "Augmente stats d'un voisin avec le même talent."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Griffes acérées",
+      "effet": "10x2 | 45x2"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paradis",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Émeraupattes",
+      "effet": "Il attaque tous les ennemis avec ses pattes en émeraude. 15x10 | 22x10"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Force émeraude",
+      "effet": "Rend les stats d'un allié aussi luisantes qu'une belle émeraude."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Nyam nyam...",
+    "Mange de la nourriture insipide": "Pas mal...",
+    "Mange de la mauvaise nourriture": "Nyon merci !",
+    "A la flemme": "Nyah...",
+    "Est échangé": "Tu es vraiment aussi sympathique que",
+    "Devient ton ami": "Ouah ! Il faut absolument qu'on soit amis !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "エメラルニャン",
+  "nom_anglais": "Emenyan",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Mont Sylvestre- Maison abandonnée (QR code)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Nyam nyam...",
-        "Mange de la nourriture insipide": "Pas mal...",
-        "Mange de la mauvaise nourriture": "Nyon merci !",
-        "A la flemme": "Nyah...",
-        "Est échangé": "Tu es vraiment aussi sympathique que",
-        "Devient ton ami": "Ouah ! Il faut absolument qu'on soit amis !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "エメラルニャン",
-    "nom_anglais": "Emenyan",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Mont Sylvestre- Maison abandonnée (QR code)"
-        ],
-        "yw2 - Spectres Psychiques": [
-            "Voie du mystère - Grand-route dorée- Bingo-kai -Pièce mystère (papillon)."
-        ],
-        "yw3": [
-            "Pavillon de l’Ambroisie"
-        ],
-        "yw Wibble Wobble": [
-            "Atout Or I (paiement)"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "10×2|45×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Émeraupattes",
-                "puissance": "20×10|30×10",
-                "description": "Il attaque tous les ennemis avec ses pattes en émeraude."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Force émeraude",
-                "puissance": "N/A",
-                "description": "Rend les stats d'un allié aussi luisantes qu'une belle émeraude."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Lien spécial",
-                "description": "Augm. stats d'un voisin avec le même talent."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "10×2|45×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Émeraupattes",
-                "puissance": "15×10|15×10",
-                "description": "Il attaque tous les ennemis avec ses pattes en émeraude."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Force émeraude",
-                "puissance": "N/A",
-                "description": "Rend les stats d'un allié aussi luisantes qu'une belle émeraude."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Paradis",
-                "puissance": "N/A",
-                "description": "Rend plein de PV à un Yo-kai. Charge lente."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Lien spécial",
-                "description": "Augmente stats d'un voisin avec le même talent."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Émeraupattes",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Paradis",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Envoût. multi-boost",
-                "puissance": "___",
-                "description": "Hausse des stats alliées. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Boost d'attaque +",
-                "puissance": "___",
-                "description": "Forte hausse ATT. alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Diamant incrusté",
-                "description": "Immunité contre les effets d'envoûtement négatifs."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "15×2|52×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Émeraupattes",
-                "puissance": "15×10|22×10",
-                "description": "Attaque les ennemis à portée, avec ses pattes en émeraude adorables."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Force émeraude",
-                "puissance": "N/A",
-                "description": "Rend les stats d'un allié aussi brillantes qu'une belle émeraude."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Lien spécial",
-                "description": "↑ stats si relié à un Yo-kai avec le même talent."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Lien spécial",
-        "description": "Augm. stats d'un voisin avec le même talent."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/emeranyan.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/emeranyan.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/emeranyan.wav",
-    "oldID": "103",
-    "medallium_ids": {
-        "yw1": "220",
-        "yw2": "331",
-        "yw3": "285"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "162",
-        "yw Blasters 2": "290",
-        "yw Wibble Wobble": "4012",
-        "yw Ukiukipedia": "yw2-019"
-    },
-    "battle_type": "",
-    "skill_name": "Linked Together",
-    "skill_effect": "Emerald Power",
-    "disliked_food": "Vegetables",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "343",
-                "STR": "147",
-                "SPR": "189",
-                "DEF": "148",
-                "SPD": "188"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "324",
-                "STR": "147",
-                "SPR": "189",
-                "DEF": "148",
-                "SPD": "188"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "375",
-                "STR": "122",
-                "SPR": "221",
-                "DEF": "183",
-                "SPD": "138"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "365",
-                "STR": "126",
-                "SPR": "215",
-                "DEF": "181"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "192-273",
-                "STR": "126",
-                "SPR": "215",
-                "DEF": "181"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "192-273"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "エメラルニャン",
-            "Emeralnyan"
-        ],
-        "Spanish": [
-            "Esmenyan"
-        ],
-        "French": [
-            "Émeranyan"
-        ],
-        "Italian": [
-            "Smeranyan"
-        ],
-        "German": [
-            "Smaranyan"
-        ],
-        "Dutch": [
-            "Emenyan"
-        ],
-        "Russian": [
-            "Изумруньян",
-            "Izumrun'yan"
-        ],
-        "Arabic": [
-            "زمرد",
-            "Zumurrud"
-        ],
-        "Portuguese (Brazilian)": [
-            "Esmeraldyan"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "エメラルニャン"
-        ],
-        "Spanish": [
-            "Esmenyan"
-        ],
-        "French": [
-            "Émeranyan"
-        ],
-        "Italian": [
-            "Smeranyan"
-        ],
-        "German": [
-            "Smaranyan"
-        ],
-        "Dutch": [
-            "Emenyan"
-        ],
-        "Russian": [
-            "Изумруньян"
-        ],
-        "Arabic": [
-            "زمرد"
-        ],
-        "Portuguese (Brazilian)": [
-            "Esmeraldyan"
-        ]
-    },
-    "description_en": "A Yo-kai made of emerald. If you could sell him, he'd be worth more than 100 million dollars.",
-    "nom_en": "Dianyan",
-    "rang_yww": "A",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "Chocobo",
-    "nourriture_favorite": "Chocobo",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "–",
-        "_en": null,
-        "_fr": null
-    },
-    "avantage_yww": {
-        "_jp": "–",
-        "_en": null,
-        "_fr": null
-    },
-    "stats_initiale_yww": {
-        "hp": 32,
-        "str": 27,
-        "spr": 33,
-        "def": 19,
-        "spd": 20
-    },
-    "stats_max_yww": {
-        "hp": 314,
-        "str": 169,
-        "spr": 204,
-        "def": 118,
-        "spd": 133
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "するどいつめ",
-                "_en": "sharp claw",
-                "_fr": "griffe acérée"
-            },
-            "explication": {
-                "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 15×2/Blow] Attack twice",
-                "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "極楽の術",
-                "_en": "The art of paradise",
-                "_fr": "L'art du paradis"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
-            }
-        }
+    "yw2 - Spectres Psychiques": [
+      "Voie du mystère - Grand-route dorée- Bingo-kai -Pièce mystère (papillon)."
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "さわやかグリーン肉球",
-                "_en": "Refreshing green meat balls",
-                "_fr": "Boulettes de viande verte rafraîchissantes"
-            },
-            "pouvoir": "15×10",
-            "explication": {
-                "_jp": "エメラルドの肉球で 敵全員を 一心不乱になぐりまくる。",
-                "_en": "It attacks all enemies with its emerald paws.",
-                "_fr": "Il attaque tous les ennemis avec ses pattes émeraude."
-            }
-        }
+    "yw3": [
+      "Pavillon de l’Ambroisie"
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "エメラルパワー",
-                "_en": "emerald power",
-                "_fr": "puissance émeraude"
-            },
-            "explication": {
-                "_jp": "【全ステアップ】 とりつかれた妖怪はエメラルドのかがやきで全ステータスがアップする。",
-                "_en": "[All Status Up] All stats of the possessed monster will be increased by the emerald glow.",
-                "_fr": "[All Status Up] Toutes les statistiques du monstre possédé seront augmentées par la lueur émeraude."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "全身がエメラルドで できたネコ妖怪。 お金にかえると １０億円以上の価値が あるらしい。",
-            "_en": "A cat monster whose entire body is made of emerald. It is said to be worth more than 1 billion yen when converted into money.",
-            "_fr": "Un monstre chat dont tout le corps est en émeraude. On estime qu’il vaut plus d’un milliard de yens une fois converti en argent."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3"
+    "yw Wibble Wobble": [
+      "Atout Or I (paiement)"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Griffes acérées",
+        "puissance": "10×2|45×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Émeraupattes",
+        "puissance": "20×10|30×10",
+        "description": "Il attaque tous les ennemis avec ses pattes en émeraude."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Force émeraude",
+        "puissance": "N/A",
+        "description": "Rend les stats d'un allié aussi luisantes qu'une belle émeraude."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Lien spécial",
+        "description": "Augm. stats d'un voisin avec le même talent."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Griffes acérées",
+        "puissance": "10×2|45×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Émeraupattes",
+        "puissance": "15×10|15×10",
+        "description": "Il attaque tous les ennemis avec ses pattes en émeraude."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Force émeraude",
+        "puissance": "N/A",
+        "description": "Rend les stats d'un allié aussi luisantes qu'une belle émeraude."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Paradis",
+        "puissance": "N/A",
+        "description": "Rend plein de PV à un Yo-kai. Charge lente."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Lien spécial",
+        "description": "Augmente stats d'un voisin avec le même talent."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Émeraupattes",
+        "puissance": "40×10",
+        "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Paradis",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Envoût. multi-boost",
+        "puissance": "___",
+        "description": "Hausse des stats alliées. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Boost d'attaque +",
+        "puissance": "___",
+        "description": "Forte hausse ATT. alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Diamant incrusté",
+        "description": "Immunité contre les effets d'envoûtement négatifs."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Griffes acérées",
+        "puissance": "15×2|52×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Émeraupattes",
+        "puissance": "15×10|22×10",
+        "description": "Attaque les ennemis à portée, avec ses pattes en émeraude adorables."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Force émeraude",
+        "puissance": "N/A",
+        "description": "Rend les stats d'un allié aussi brillantes qu'une belle émeraude."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Lien spécial",
+        "description": "↑ stats si relié à un Yo-kai avec le même talent."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Lien spécial",
+    "description": "Augm. stats d'un voisin avec le même talent."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/emeranyan.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/emeranyan.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/emeranyan.wav",
+  "oldID": "103",
+  "medallium_ids": {
+    "yw1": "220",
+    "yw2": "331",
+    "yw3": "285"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "162",
+    "yw Blasters 2": "290",
+    "yw Wibble Wobble": "4012",
+    "yw Ukiukipedia": "yw2-019"
+  },
+  "battle_type": "",
+  "skill_name": "Linked Together",
+  "skill_effect": "Emerald Power",
+  "disliked_food": "Vegetables",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "343",
+        "STR": "147",
+        "SPR": "189",
+        "DEF": "148",
+        "SPD": "188"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "324",
+        "STR": "147",
+        "SPR": "189",
+        "DEF": "148",
+        "SPD": "188"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "375",
+        "STR": "122",
+        "SPR": "221",
+        "DEF": "183",
+        "SPD": "138"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "365",
+        "STR": "126",
+        "SPR": "215",
+        "DEF": "181"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "192-273",
+        "STR": "126",
+        "SPR": "215",
+        "DEF": "181"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "192-273"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "エメラルニャン",
+      "Emeralnyan"
+    ],
+    "Spanish": [
+      "Esmenyan"
+    ],
+    "French": [
+      "Émeranyan"
+    ],
+    "Italian": [
+      "Smeranyan"
+    ],
+    "German": [
+      "Smaranyan"
+    ],
+    "Dutch": [
+      "Emenyan"
+    ],
+    "Russian": [
+      "Изумруньян",
+      "Izumrun'yan"
+    ],
+    "Arabic": [
+      "زمرد",
+      "Zumurrud"
+    ],
+    "Portuguese (Brazilian)": [
+      "Esmeraldyan"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "エメラルニャン"
+    ],
+    "Spanish": [
+      "Esmenyan"
+    ],
+    "French": [
+      "Émeranyan"
+    ],
+    "Italian": [
+      "Smeranyan"
+    ],
+    "German": [
+      "Smaranyan"
+    ],
+    "Dutch": [
+      "Emenyan"
+    ],
+    "Russian": [
+      "Изумруньян"
+    ],
+    "Arabic": [
+      "زمرد"
+    ],
+    "Portuguese (Brazilian)": [
+      "Esmeraldyan"
+    ]
+  },
+  "description_en": "A Yo-kai made of emerald. If you could sell him, he'd be worth more than 100 million dollars.",
+  "nom_en": "Dianyan",
+  "rang_yww": "A",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "Chocobo",
+  "nourriture_favorite": "Chocobo",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "–",
+    "_en": null,
+    "_fr": null
+  },
+  "avantage_yww": {
+    "_jp": "–",
+    "_en": null,
+    "_fr": null
+  },
+  "stats_initiale_yww": {
+    "hp": 32,
+    "str": 27,
+    "spr": 33,
+    "def": 19,
+    "spd": 20
+  },
+  "stats_max_yww": {
+    "hp": 314,
+    "str": 169,
+    "spr": 204,
+    "def": 118,
+    "spd": 133
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "するどいつめ",
+        "_en": "sharp claw",
+        "_fr": "griffe acérée"
+      },
+      "explication": {
+        "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
+        "_en": "[Power: 15×2/Blow] Attack twice",
+        "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "極楽の術",
+        "_en": "The art of paradise",
+        "_fr": "L'art du paradis"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "さわやかグリーン肉球",
+        "_en": "Refreshing green meat balls",
+        "_fr": "Boulettes de viande verte rafraîchissantes"
+      },
+      "pouvoir": "15×10",
+      "explication": {
+        "_jp": "エメラルドの肉球で 敵全員を 一心不乱になぐりまくる。",
+        "_en": "It attacks all enemies with its emerald paws.",
+        "_fr": "Il attaque tous les ennemis avec ses pattes émeraude."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "エメラルパワー",
+        "_en": "emerald power",
+        "_fr": "puissance émeraude"
+      },
+      "explication": {
+        "_jp": "【全ステアップ】 とりつかれた妖怪はエメラルドのかがやきで全ステータスがアップする。",
+        "_en": "[All Status Up] All stats of the possessed monster will be increased by the emerald glow.",
+        "_fr": "[All Status Up] Toutes les statistiques du monstre possédé seront augmentées par la lueur émeraude."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "全身がエメラルドで できたネコ妖怪。 お金にかえると １０億円以上の価値が あるらしい。",
+      "_en": "A cat monster whose entire body is made of emerald. It is said to be worth more than 1 billion yen when converted into money.",
+      "_fr": "Un monstre chat dont tout le corps est en émeraude. On estime qu’il vaut plus d’un milliard de yens une fois converti en argent."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3"
+  ],
+  "id_yww": "103",
+  "Name_yww": "エメラルニャン",
+  "description_jp_yww": "全身がエメラルドで できたネコ妖怪。 お金にかえると １０億円以上の価値が あるらしい。",
+  "BingoMessage_jp_yww": "きみの心　キラキラしてるニャン！ エメラルド級ニャン！",
+  "MonsterId_yww": "y156020",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_156020",
+  "MinHp_yww": 32,
+  "MaxHp_yww": 314,
+  "MinAttack_yww": 27,
+  "MaxAttack_yww": 169,
+  "MinMagic_yww": 33,
+  "MaxMagic_yww": 204,
+  "MinDefense_yww": 19,
+  "MaxDefense_yww": 118,
+  "MinSpeed_yww": 20,
+  "MaxSpeed_yww": 133,
+  "AttackId_yww": 41,
+  "MagicId_yww": 24,
+  "HauntId_yww": 156020,
+  "SpSkillId_yww": 156020,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 18,
+  "DislikeFoodKind_yww": 10,
+  "ActionType_yww": 11,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y151820.png",
+  "SpriteImage_yww": "img_y151820.png",
+  "Audio_yww": "sp_y151820.wav",
+  "Description_yww": "Un yōkai félin entièrement fait d'émeraude. Si on le convertissait en argent, il vaudrait apparemment plus d'un milliard de yens.",
+  "BingoMessage_fr_yww": "Ton cœur brille de mille feux, miaou ! C'est de la classe émeraude, miaou !"
 }

@@ -1,324 +1,355 @@
 {
-    "ID": "496",
-    "Nom": "Éclopain",
-    "Tribue": "Mignon",
-    "Rang": "E",
-    "PV": "363",
-    "Force": "192",
-    "Esprit": "40",
-    "Défense": "108",
-    "Vitesse": "118",
-    "Description": "Un boxeur qui finit toujours éclopé, après un combat. Il est croustillant, mais bon, ça va pas l'aider sur le ring.",
-    "description SITE": "Un boxeur qui finit toujours éclopé, après un combat. Il est croustillant, mais bon, ça va pas l'aider sur le ring",
-    "nourriture": "Lait",
-    "élément": "Terre",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Éclopain à la capacité d'encaisser énormément de coups sans s'effondrer.",
-    "personnalité": "Éclopain est un Yo-kai gentil et moelleux, même sur le ring. Malgré les coups qu'il se prend durant les combats, il se défend rarement et préfère encaisser les coups.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/eclopain.png",
-    "nom_original": "こてんパン",
-    "nom_anglais": "Buttered Blue",
-    "premiere_apparition": "yw3",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Caroline Combes",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw3": [
-            "Betel- bouches d'incendie",
-            "Roue rêve-Pièce rose- 3e prix"
-        ]
-    },
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "Général",
-            "de": "Éclopain",
-            "vers": "Pain Surprise",
-            "critere": "Niveau 30"
-        }
-    ],
-    "rarite": "Yo-kai Mericain",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Badge noir"
-            },
-            {
-                "taux": "?%",
-                "objet": "Lait"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Dévouement",
-        "description": "Reçoit plus de points d'expérience."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/eclopain.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/eclopain.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/eclopain.wav",
-    "oldID": "505",
-    "medallium_ids": {
-        "yw3": "219"
-    },
-    "spinoff_ids": {
-        "yw Blasters 2": "224",
-        "yw Wibble Wobble": "4102"
-    },
-    "battle_type": "'Merican",
-    "skill_name": "Hard Worker",
-    "skill_effect": "Butter Blue",
-    "disliked_food": "Hot Dogs",
-    "global_stats": {
-        "yw3": {
-            "stats": {
-                "HP": "350",
-                "STR": "190",
-                "SPR": "61",
-                "DEF": "128",
-                "SPD": "123"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "217-342",
-                "STR": "190",
-                "SPR": "61",
-                "DEF": "128"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "217-342"
-            },
-            "elements": {},
-            "attacks": [
-                {
-                    "type": "Attack",
-                    "name": "Attack",
-                    "power": "50",
-                    "attribute": "Attack",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Power Attack",
-                    "power": "100",
-                    "attribute": "Power attack",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Dodge",
-                    "power": "-",
-                    "attribute": "Dodge",
-                    "range": "Self"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Counter",
-                    "power": "-",
-                    "attribute": "Counter",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Defensive Stance",
-                    "power": "N/A",
-                    "attribute": "Defensive stance",
-                    "range": "Self"
-                },
-                {
-                    "type": "Soultimate Move",
-                    "name": "Buttered Again!",
-                    "power": "40x10",
-                    "attribute": "Attack",
-                    "range": "Area"
-                },
-                {
-                    "type": "Skill",
-                    "name": "Hang in There",
-                    "power": "N/A",
-                    "attribute": "None",
-                    "range": "Self"
-                }
-            ]
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "217-342"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "こてんパン",
-            "Kotenpan"
-        ],
-        "Spanish": [
-            "Apanleado"
-        ],
-        "French": [
-            "Éclopain"
-        ],
-        "Italian": [
-            "Panbotto"
-        ],
-        "German": [
-            "Henry"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "こてんパン"
-        ],
-        "Spanish": [
-            "Apanleado"
-        ],
-        "French": [
-            "Éclopain"
-        ],
-        "Italian": [
-            "Panbotto"
-        ],
-        "German": [
-            "Henry Laschke"
-        ]
-    },
-    "description_en": "A boxer who always gets beaten black and blue. He's nice and chewy, but that won't help him in the ring.",
-    "nom_en": "Unbelievaboy!",
-    "rang_yww": "E",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "lait",
-    "nourriture_favorite": "lait",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 46,
-        "str": 23,
-        "spr": 5,
-        "def": 11,
-        "spd": 13
-    },
-    "stats_max_yww": {
-        "hp": 363,
-        "str": 192,
-        "spr": 40,
-        "def": 108,
-        "spd": 118
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "パンチ",
-                "_en": "punch",
-                "_fr": "punch"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "こいしの術",
-                "_en": "Koishi no jutsu",
-                "_fr": "Koishi pas de jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 土属性】 土の妖術を使う。",
-                "_en": "[Power: 30 / Earth attribute] Uses earth magic.",
-                "_fr": "[Puissance : 30 / Attribut Terre] Utilise la magie de la terre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "今日もコテンパン祭り",
-                "_en": "Today is also Kotenpan Festival",
-                "_fr": "Aujourd'hui, c'est aussi le festival Kotenpan"
-            },
-            "pouvoir": "15",
-            "explication": {
-                "_jp": "こてんぱんになりながらも必死に腕を振り回しなぐりまくる。",
-                "_en": "Even though I'm exhausted, I frantically swing my arms around and attack him.",
-                "_fr": "Même si je suis épuisé, je balance frénétiquement mes bras et je l'attaque."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "コテンパンにする",
-                "_en": "make it into bread",
-                "_fr": "en faire du pain"
-            },
-            "explication": {
-                "_jp": "【まもりダウン】 とりつかれた妖怪は簡単にこてんぱんにされるほど まもりがダウンする。",
-                "_en": "[Mamori Down] The more possessed youkai is easily beaten down, the more the protection will go down.",
-                "_fr": "[Mamori Down] Plus un youkai possédé est facilement battu, plus la protection diminue."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "いつでもコテンパンにやられて しまう弱すぎるボクサー妖怪。 はげしいトレーニングの成果で パンのモチモチ感はUPしたが 残念ながら試合には関係ない。",
-            "_en": "A boxer monster who is too weak to be defeated at any time. As a result of intense training, the chewiness of the bread has improved, but unfortunately it has no bearing on the match.",
-            "_fr": "Un monstre boxeur trop faible pour être vaincu à tout moment. Grâce à un entraînement intense, le moelleux du pain s'est amélioré, mais cela n'a malheureusement aucune influence sur le match."
-        }
-    ],
-    "jeu_present": [
-        "yw3"
+  "ID": "496",
+  "Nom": "Éclopain",
+  "Tribue": "Mignon",
+  "Rang": "E",
+  "PV": "363",
+  "Force": "192",
+  "Esprit": "40",
+  "Défense": "108",
+  "Vitesse": "118",
+  "Description": "Un boxeur qui finit toujours éclopé, après un combat. Il est croustillant, mais bon, ça va pas l'aider sur le ring.",
+  "description SITE": "Un boxeur qui finit toujours éclopé, après un combat. Il est croustillant, mais bon, ça va pas l'aider sur le ring",
+  "nourriture": "Lait",
+  "élément": "Terre",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Éclopain à la capacité d'encaisser énormément de coups sans s'effondrer.",
+  "personnalité": "Éclopain est un Yo-kai gentil et moelleux, même sur le ring. Malgré les coups qu'il se prend durant les combats, il se défend rarement et préfère encaisser les coups.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/eclopain.png",
+  "nom_original": "こてんパン",
+  "nom_anglais": "Buttered Blue",
+  "premiere_apparition": "yw3",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Caroline Combes",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw3": [
+      "Betel- bouches d'incendie",
+      "Roue rêve-Pièce rose- 3e prix"
     ]
+  },
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "Général",
+      "de": "Éclopain",
+      "vers": "Pain Surprise",
+      "critere": "Niveau 30"
+    }
+  ],
+  "rarite": "Yo-kai Mericain",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {},
+  "soul_effects": null,
+  "drops": {
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Badge noir"
+      },
+      {
+        "taux": "?%",
+        "objet": "Lait"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Dévouement",
+    "description": "Reçoit plus de points d'expérience."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/eclopain.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/eclopain.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/eclopain.wav",
+  "oldID": "505",
+  "medallium_ids": {
+    "yw3": "219"
+  },
+  "spinoff_ids": {
+    "yw Blasters 2": "224",
+    "yw Wibble Wobble": "4102"
+  },
+  "battle_type": "'Merican",
+  "skill_name": "Hard Worker",
+  "skill_effect": "Butter Blue",
+  "disliked_food": "Hot Dogs",
+  "global_stats": {
+    "yw3": {
+      "stats": {
+        "HP": "350",
+        "STR": "190",
+        "SPR": "61",
+        "DEF": "128",
+        "SPD": "123"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "217-342",
+        "STR": "190",
+        "SPR": "61",
+        "DEF": "128"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "217-342"
+      },
+      "elements": {},
+      "attacks": [
+        {
+          "type": "Attack",
+          "name": "Attack",
+          "power": "50",
+          "attribute": "Attack",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Power Attack",
+          "power": "100",
+          "attribute": "Power attack",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Dodge",
+          "power": "-",
+          "attribute": "Dodge",
+          "range": "Self"
+        },
+        {
+          "type": "Technique",
+          "name": "Counter",
+          "power": "-",
+          "attribute": "Counter",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Defensive Stance",
+          "power": "N/A",
+          "attribute": "Defensive stance",
+          "range": "Self"
+        },
+        {
+          "type": "Soultimate Move",
+          "name": "Buttered Again!",
+          "power": "40x10",
+          "attribute": "Attack",
+          "range": "Area"
+        },
+        {
+          "type": "Skill",
+          "name": "Hang in There",
+          "power": "N/A",
+          "attribute": "None",
+          "range": "Self"
+        }
+      ]
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "217-342"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "こてんパン",
+      "Kotenpan"
+    ],
+    "Spanish": [
+      "Apanleado"
+    ],
+    "French": [
+      "Éclopain"
+    ],
+    "Italian": [
+      "Panbotto"
+    ],
+    "German": [
+      "Henry"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "こてんパン"
+    ],
+    "Spanish": [
+      "Apanleado"
+    ],
+    "French": [
+      "Éclopain"
+    ],
+    "Italian": [
+      "Panbotto"
+    ],
+    "German": [
+      "Henry Laschke"
+    ]
+  },
+  "description_en": "A boxer who always gets beaten black and blue. He's nice and chewy, but that won't help him in the ring.",
+  "nom_en": "Unbelievaboy!",
+  "rang_yww": "E",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "lait",
+  "nourriture_favorite": "lait",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 46,
+    "str": 23,
+    "spr": 5,
+    "def": 11,
+    "spd": 13
+  },
+  "stats_max_yww": {
+    "hp": 363,
+    "str": 192,
+    "spr": 40,
+    "def": 108,
+    "spd": 118
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "パンチ",
+        "_en": "punch",
+        "_fr": "punch"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "こいしの術",
+        "_en": "Koishi no jutsu",
+        "_fr": "Koishi pas de jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 土属性】 土の妖術を使う。",
+        "_en": "[Power: 30 / Earth attribute] Uses earth magic.",
+        "_fr": "[Puissance : 30 / Attribut Terre] Utilise la magie de la terre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "今日もコテンパン祭り",
+        "_en": "Today is also Kotenpan Festival",
+        "_fr": "Aujourd'hui, c'est aussi le festival Kotenpan"
+      },
+      "pouvoir": "15",
+      "explication": {
+        "_jp": "こてんぱんになりながらも必死に腕を振り回しなぐりまくる。",
+        "_en": "Even though I'm exhausted, I frantically swing my arms around and attack him.",
+        "_fr": "Même si je suis épuisé, je balance frénétiquement mes bras et je l'attaque."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "コテンパンにする",
+        "_en": "make it into bread",
+        "_fr": "en faire du pain"
+      },
+      "explication": {
+        "_jp": "【まもりダウン】 とりつかれた妖怪は簡単にこてんぱんにされるほど まもりがダウンする。",
+        "_en": "[Mamori Down] The more possessed youkai is easily beaten down, the more the protection will go down.",
+        "_fr": "[Mamori Down] Plus un youkai possédé est facilement battu, plus la protection diminue."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "いつでもコテンパンにやられて しまう弱すぎるボクサー妖怪。 はげしいトレーニングの成果で パンのモチモチ感はUPしたが 残念ながら試合には関係ない。",
+      "_en": "A boxer monster who is too weak to be defeated at any time. As a result of intense training, the chewiness of the bread has improved, but unfortunately it has no bearing on the match.",
+      "_fr": "Un monstre boxeur trop faible pour être vaincu à tout moment. Grâce à un entraînement intense, le moelleux du pain s'est amélioré, mais cela n'a malheureusement aucune influence sur le match."
+    }
+  ],
+  "jeu_present": [
+    "yw3"
+  ],
+  "id_yww": "487",
+  "Name_yww": "こてんパン",
+  "description_jp_yww": "いつでもコテンパンにやられて しまう弱すぎるボクサー妖怪。 はげしいトレーニングの成果で パンのモチモチ感はＵＰしたが 残念ながら試合には関係ない。",
+  "BingoMessage_jp_yww": "出してくれて　助かったぜ… いっしょに　修行しようぜ　相棒…！",
+  "MonsterId_yww": "y555000",
+  "Height_yww": 9.13,
+  "CommondId_yww": "sp_555000",
+  "MinHp_yww": 33,
+  "MaxHp_yww": 282,
+  "MinAttack_yww": 18,
+  "MaxAttack_yww": 153,
+  "MinMagic_yww": 2,
+  "MaxMagic_yww": 35,
+  "MinDefense_yww": 6,
+  "MaxDefense_yww": 79,
+  "MinSpeed_yww": 25,
+  "MaxSpeed_yww": 180,
+  "AttackId_yww": 2,
+  "MagicId_yww": 1,
+  "HauntId_yww": 555000,
+  "SpSkillId_yww": 555000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 17,
+  "DislikeFoodKind_yww": 16,
+  "ActionType_yww": 5,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y550800.png",
+  "SpriteImage_yww": "img_y550800.png",
+  "Audio_yww": "sp_y550800.wav",
+  "Description_yww": "Un yōkai boxeur bien trop faible qui se fait systématiquement mettre K.O. Grâce à un entraînement intensif, sa texture moelleuse s'est améliorée, mais malheureusement, cela n'a aucune incidence sur les combats.",
+  "BingoMessage_fr_yww": "Merci de m'avoir sorti de là… Entraînons-nous ensemble, mon pote… !"
 }

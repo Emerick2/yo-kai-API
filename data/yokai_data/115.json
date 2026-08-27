@@ -1,334 +1,365 @@
 {
-    "ID": "115",
-    "Nom": "Komistigri",
-    "Tribue": "Mignon",
-    "Rang": "A",
-    "PV": "426",
-    "Force": "55",
-    "Esprit": "227",
-    "Défense": "156",
-    "Vitesse": "152",
-    "Description-": "Bababou regarde dans le vide. Parfois, il ne bouge pas pendant trois jours entiers. À quoi peut-il bien penser ?",
-    "Description": "La recherche de son frère a fait ressortir son esprit féroce. Il a même des rayures !",
-    "nourriture": "Lait",
-    "élément": "Foudre",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Komistigrivient de Komainuet de 'Mistigri' un prénom parfois donné aux chats. 'Tigri' peut également faire référence à ses rayures.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "Komistigri est plus féroce qu'avant.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/komistigri.png",
-    "numero": "102",
-    "nourriture_favorite": "Lait",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Oméga",
-            "effet": "La FOR. augmente à côté d'un Yo-kai alpha."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing précis",
-            "effet": "90 | 135"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Haute tension",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Force du tigre",
-            "effet": "Un allié gagne énormément de VIT. Autant qu'un tigre."
-        }
+  "ID": "115",
+  "Nom": "Komistigri",
+  "Tribue": "Mignon",
+  "Rang": "A",
+  "PV": "426",
+  "Force": "55",
+  "Esprit": "227",
+  "Défense": "156",
+  "Vitesse": "152",
+  "Description-": "Bababou regarde dans le vide. Parfois, il ne bouge pas pendant trois jours entiers. À quoi peut-il bien penser ?",
+  "Description": "La recherche de son frère a fait ressortir son esprit féroce. Il a même des rayures !",
+  "nourriture": "Lait",
+  "élément": "Foudre",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Komistigrivient de Komainuet de 'Mistigri' un prénom parfois donné aux chats. 'Tigri' peut également faire référence à ses rayures.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "Komistigri est plus féroce qu'avant.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/komistigri.png",
+  "numero": "102",
+  "nourriture_favorite": "Lait",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Oméga",
+      "effet": "La FOR. augmente à côté d'un Yo-kai alpha."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing précis",
+      "effet": "90 | 135"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Haute tension",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Force du tigre",
+      "effet": "Un allié gagne énormément de VIT. Autant qu'un tigre."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Ouah ! Génial !",
+    "Mange de la nourriture insipide": "*mâche*",
+    "Mange de la mauvaise nourriture": "*chouine*",
+    "A la flemme": "Une seconde !",
+    "Est échangé": "Quelle jolie petite ville ! Oh, je suis tellement content d'être avec toi.",
+    "Devient ton ami": "Pfiou. Je déteste perdre. Mais j'adore l'amitié !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "yw1 & yw2",
+      "de": "Komajiro",
+      "vers": "Komistigri",
+      "critere": "Niveau 35"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "とらじろう",
+  "nom_anglais": "Komiger",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Évolution",
+      "Clinique du Crépuscule"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Ouah ! Génial !",
-        "Mange de la nourriture insipide": "*mâche*",
-        "Mange de la mauvaise nourriture": "*chouine*",
-        "A la flemme": "Une seconde !",
-        "Est échangé": "Quelle jolie petite ville ! Oh, je suis tellement content d'être avec toi.",
-        "Devient ton ami": "Pfiou. Je déteste perdre. Mais j'adore l'amitié !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "yw1 & yw2",
-            "de": "Komajiro",
-            "vers": "Komistigri",
-            "critere": "Niveau 35"
-        }
+    "yw2": [
+      "Évolution"
     ],
-    "image_locale": "",
-    "nom_original": "とらじろう",
-    "nom_anglais": "Komiger",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Évolution",
-            "Clinique du Crépuscule"
-        ],
-        "yw2": [
-            "Évolution"
-        ],
-        "yw Blasters 1": [
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Oméga",
-        "description": "La FOR. augmente à côté d'un Yo-kai alpha."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/komistigri.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/komistigri.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/komistigri.wav",
-    "oldID": "115",
-    "medallium_ids": {
-        "yw1": "102",
-        "yw2": "145",
-        "yw3": "258"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "183",
-        "yw Blasters 2": "263",
-        "yw Wibble Wobble": "4101",
-        "yw World": "0780",
-        "yw Ukiukipedia": "yw2-022/Pyw-055/Pyw-267 (Wanderer)/Syw-025/YD3-022/YDU-017 (Wanderer)"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Omega Fist of Thunder yw2 BS",
-    "skill_effect": "Tiger Power",
-    "disliked_food": "Juice",
-    "global_stats": {
-        "yw3": {
-            "stats": {
-                "HP": "260-454",
-                "STR": "60",
-                "SPR": "232",
-                "DEF": "161",
-                "SPD": "157"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "260-454"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "260-454"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "260-454"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "とらじろう",
-            "Torajirō"
-        ],
-        "Spanish": [
-            "Komatigrado"
-        ],
-        "French": [
-            "Komistigri"
-        ],
-        "Italian": [
-            "Komagre"
-        ],
-        "German": [
-            "Komatigga"
-        ],
-        "Russian": [
-            "Коматигр",
-            "Komatigr"
-        ],
-        "Arabic": [
-            "نمور",
-            "Nammūr"
-        ],
-        "Chinese (Mandarin)": [
-            "虎次郎"
-        ],
-        "Portuguese (European)": [
-            "Komatigre"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "とらじろう"
-        ],
-        "Spanish": [
-            "Komatigrado"
-        ],
-        "French": [
-            "Komistigri"
-        ],
-        "Italian": [
-            "Komagre"
-        ],
-        "German": [
-            "Komatigga"
-        ],
-        "Russian": [
-            "Коматигр"
-        ],
-        "Arabic": [
-            "نمور"
-        ],
-        "Chinese (Mandarin)": [
-            "虎次郎"
-        ],
-        "Portuguese (European)": [
-            "Komatigre"
-        ]
-    },
-    "description_en": "Komajiro's pursuit of his brother brought out his ferocious tiger spirit. He even has stripes!",
-    "nom_en": "Komajiro S",
-    "rang_yww": "A",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "lait",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zuno, (Attaque sur les alliés) Coopératif, type Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 67,
-        "str": 12,
-        "spr": 30,
-        "def": 24,
-        "spd": 26
-    },
-    "stats_max_yww": {
-        "hp": 533,
-        "str": 60,
-        "spr": 212,
-        "def": 173,
-        "spd": 156
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "正拳突き",
-                "_en": "straight fist punch",
-                "_fr": "coup de poing droit"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 打撃】 強力な一撃を加える",
-                "_en": "[Power: 70/Blow] Add a powerful blow",
-                "_fr": "[Puissance : 70/Coup] Ajoutez un coup puissant"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "雷神の術",
-                "_en": "Raijin no Jutsu",
-                "_fr": "Raijin no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
-                "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
-                "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
-            }
-        }
+    "yw Blasters 1": [
+      "Fusion"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "稲妻クレイジー",
-                "_en": "lightning crazy",
-                "_fr": "fou de foudre"
-            },
-            "pouvoir": "148",
-            "explication": {
-                "_jp": "しびれる稲妻を呼び寄せビリビリとダメージを与える。",
-                "_en": "Summons numbing lightning and deals damage.",
-                "_fr": "Invoque des éclairs engourdissants et inflige des dégâts."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "とらとらパワー",
-                "_en": "Toratora Power",
-                "_fr": "Pouvoir Toratora"
-            },
-            "explication": {
-                "_jp": "【すばやさアップ】 とりつかれた妖怪はなぞのとらとらパワーで すばやさがアップする。",
-                "_en": "[Increased speed] Possessed monsters have mysterious toratora powers that increase their speed.",
-                "_fr": "[Vitesse accrue] Les monstres possédés ont de mystérieux pouvoirs de totora qui augmentent leur vitesse."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "コマさんを探して 旅を続けるうちに たくましく成長した。 猛虎の力がめざめ 虎の模様が浮き出る。",
-            "_en": "As I continued my journey in search of Mr. Koma, I grew stronger. The power of the fierce tiger is awakened, and the tiger's pattern stands out.",
-            "_fr": "En poursuivant mon voyage à la recherche de M. Koma, je suis devenu plus fort. Le pouvoir du tigre féroce est réveillé et le motif du tigre se démarque."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {},
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Oméga",
+    "description": "La FOR. augmente à côté d'un Yo-kai alpha."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/komistigri.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/komistigri.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/komistigri.wav",
+  "oldID": "115",
+  "medallium_ids": {
+    "yw1": "102",
+    "yw2": "145",
+    "yw3": "258"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "183",
+    "yw Blasters 2": "263",
+    "yw Wibble Wobble": "4101",
+    "yw World": "0780",
+    "yw Ukiukipedia": "yw2-022/Pyw-055/Pyw-267 (Wanderer)/Syw-025/YD3-022/YDU-017 (Wanderer)"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Omega Fist of Thunder yw2 BS",
+  "skill_effect": "Tiger Power",
+  "disliked_food": "Juice",
+  "global_stats": {
+    "yw3": {
+      "stats": {
+        "HP": "260-454",
+        "STR": "60",
+        "SPR": "232",
+        "DEF": "161",
+        "SPD": "157"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "260-454"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "260-454"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "260-454"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "とらじろう",
+      "Torajirō"
+    ],
+    "Spanish": [
+      "Komatigrado"
+    ],
+    "French": [
+      "Komistigri"
+    ],
+    "Italian": [
+      "Komagre"
+    ],
+    "German": [
+      "Komatigga"
+    ],
+    "Russian": [
+      "Коматигр",
+      "Komatigr"
+    ],
+    "Arabic": [
+      "نمور",
+      "Nammūr"
+    ],
+    "Chinese (Mandarin)": [
+      "虎次郎"
+    ],
+    "Portuguese (European)": [
+      "Komatigre"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "とらじろう"
+    ],
+    "Spanish": [
+      "Komatigrado"
+    ],
+    "French": [
+      "Komistigri"
+    ],
+    "Italian": [
+      "Komagre"
+    ],
+    "German": [
+      "Komatigga"
+    ],
+    "Russian": [
+      "Коматигр"
+    ],
+    "Arabic": [
+      "نمور"
+    ],
+    "Chinese (Mandarin)": [
+      "虎次郎"
+    ],
+    "Portuguese (European)": [
+      "Komatigre"
+    ]
+  },
+  "description_en": "Komajiro's pursuit of his brother brought out his ferocious tiger spirit. He even has stripes!",
+  "nom_en": "Komajiro S",
+  "rang_yww": "A",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "lait",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zuno, (Attaque sur les alliés) Coopératif, type Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 67,
+    "str": 12,
+    "spr": 30,
+    "def": 24,
+    "spd": 26
+  },
+  "stats_max_yww": {
+    "hp": 533,
+    "str": 60,
+    "spr": 212,
+    "def": 173,
+    "spd": 156
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "正拳突き",
+        "_en": "straight fist punch",
+        "_fr": "coup de poing droit"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 打撃】 強力な一撃を加える",
+        "_en": "[Power: 70/Blow] Add a powerful blow",
+        "_fr": "[Puissance : 70/Coup] Ajoutez un coup puissant"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "雷神の術",
+        "_en": "Raijin no Jutsu",
+        "_fr": "Raijin no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
+        "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
+        "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "稲妻クレイジー",
+        "_en": "lightning crazy",
+        "_fr": "fou de foudre"
+      },
+      "pouvoir": "148",
+      "explication": {
+        "_jp": "しびれる稲妻を呼び寄せビリビリとダメージを与える。",
+        "_en": "Summons numbing lightning and deals damage.",
+        "_fr": "Invoque des éclairs engourdissants et inflige des dégâts."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "とらとらパワー",
+        "_en": "Toratora Power",
+        "_fr": "Pouvoir Toratora"
+      },
+      "explication": {
+        "_jp": "【すばやさアップ】 とりつかれた妖怪はなぞのとらとらパワーで すばやさがアップする。",
+        "_en": "[Increased speed] Possessed monsters have mysterious toratora powers that increase their speed.",
+        "_fr": "[Vitesse accrue] Les monstres possédés ont de mystérieux pouvoirs de totora qui augmentent leur vitesse."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "コマさんを探して 旅を続けるうちに たくましく成長した。 猛虎の力がめざめ 虎の模様が浮き出る。",
+      "_en": "As I continued my journey in search of Mr. Koma, I grew stronger. The power of the fierce tiger is awakened, and the tiger's pattern stands out.",
+      "_fr": "En poursuivant mon voyage à la recherche de M. Koma, je suis devenu plus fort. Le pouvoir du tigre féroce est réveillé et le motif du tigre se démarque."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "115",
+  "Name_yww": "とらじろう",
+  "description_jp_yww": "コマさんを探して 旅を続けるうちに たくましく成長した。 猛虎の力がめざめ 虎の模様が浮き出る。",
+  "BingoMessage_jp_yww": "お前との出会いを待っていた！ ともだちになるしかねぇぜ！",
+  "MonsterId_yww": "y160020",
+  "Height_yww": 9.0,
+  "CommondId_yww": "sp_160020",
+  "MinHp_yww": 55,
+  "MaxHp_yww": 426,
+  "MinAttack_yww": 10,
+  "MaxAttack_yww": 55,
+  "MinMagic_yww": 33,
+  "MaxMagic_yww": 227,
+  "MinDefense_yww": 20,
+  "MaxDefense_yww": 156,
+  "MinSpeed_yww": 25,
+  "MaxSpeed_yww": 152,
+  "AttackId_yww": 3,
+  "MagicId_yww": 9,
+  "HauntId_yww": 160020,
+  "SpSkillId_yww": 160020,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 4,
+  "DislikeFoodKind_yww": 5,
+  "ActionType_yww": 10,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y155820.png",
+  "SpriteImage_yww": "img_y155820.png",
+  "Audio_yww": "sp_y155820.wav",
+  "Description_yww": "À la recherche de Koma-san Au fil de son voyage, il a grandi et est devenu plus fort. La force du tigre féroce s'est réveillée et ses rayures ont commencé à apparaître.",
+  "BingoMessage_fr_yww": "J'attendais de te rencontrer ! On n'a pas d'autre choix que de devenir potes !"
 }

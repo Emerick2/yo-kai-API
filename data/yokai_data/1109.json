@@ -1,117 +1,45 @@
 {
-    "Nom": "Sakurasheru",
-    "Tribue": "Insaisissable",
-    "Rang": "B",
-    "nom_original": "マーマーメイド",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "",
-    "nourriture": "bonbons",
-    "nourriture_favorite": "bonbons",
-    "élément": "",
-    "Rôle": "attaquant",
-    "rang_yww": "S",
-    "tribue_yww": "Nyororon",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "bonbons",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 55,
-        "str": 12,
-        "spr": 39,
-        "def": 17,
-        "spd": 30
-    },
-    "stats_max_yww": {},
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "しっぽうち",
-                "_en": "Shippouchi",
-                "_fr": "Shippouchi"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 50/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 50/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "大滝の術",
-                "_en": "Otaki no Jutsu",
-                "_fr": "Otaki no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 水属性】 強力な水の妖術を使う。",
-                "_en": "[Power: 70 / Water attribute] Uses powerful water magic.",
-                "_fr": "[Puissance : 70 / Attribut Eau] Utilise une puissante magie de l'eau."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "渚のメロメロウェーブ",
-                "_en": "Nagisa's melodious wave",
-                "_fr": "La vague mélodieuse de Nagisa"
-            },
-            "pouvoir": "148",
-            "explication": {
-                "_jp": "敵全員にダメージを与える",
-                "_en": "Cause damage to all enemies",
-                "_fr": "Infliger des dégâts à tous les ennemis"
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "メルティーボイス",
-                "_en": "Melty voice",
-                "_fr": "Voix fondante"
-            },
-            "explication": {
-                "_jp": "【まもりダウン】 まもりがダウン",
-                "_en": "[Mamori Down] Mamori is Down",
-                "_fr": "[Mamori à terre] Mamori est à terre"
-            }
-        }
-    ],
-    "explication_yww": [],
-    "oldID": "1214",
-    "ID": "1212",
-    "nom_en": "Sakurasheru",
-    "premiere_apparition": "yww",
-    "jeu_present": [
-        "yww"
-    ]
+  "Nom": "真夏のスノーラビィ",
+  "nom_original": "真夏のスノーラビィ",
+  "Rang": 5,
+  "PV": 422,
+  "Force": 55,
+  "Esprit": 190,
+  "Défense": 98,
+  "Vitesse": 210,
+  "Description": "Snowrabby, qui nous apporte une brise fraîche et rafraîchissante pendant les chaudes journées d'été. Cette brise vivifiante qui souffle les jours ensoleillés rappelle aux gens le sentiment de pure joie que procure l'été.",
+  "nourriture": 17,
+  "nourriture_favorite": 17,
+  "disliked_food": 4,
+  "id_yww": "920",
+  "Name_yww": "真夏のスノーラビィ",
+  "description_jp_yww": "暑い夏に　ひやっと涼しい風を 届けてくれる　スノーラビィ。 晴れた日に吹く　爽やかな風は 夏を楽しむ　ピュアな気持ちを 人々に　思い出させてくれる。",
+  "BingoMessage_jp_yww": "この季節も　けっこう好きだなぁ～ じゃ　ボクとステキな夏にしよっか♪",
+  "MonsterId_yww": "y5002470",
+  "Height_yww": 14.77,
+  "CommondId_yww": "sp_5002470",
+  "MinHp_yww": 55,
+  "MaxHp_yww": 422,
+  "MinAttack_yww": 8,
+  "MaxAttack_yww": 55,
+  "MinMagic_yww": 20,
+  "MaxMagic_yww": 190,
+  "MinDefense_yww": 13,
+  "MaxDefense_yww": 98,
+  "MinSpeed_yww": 24,
+  "MaxSpeed_yww": 210,
+  "AttackId_yww": 11,
+  "MagicId_yww": 21,
+  "HauntId_yww": 5002470,
+  "SpSkillId_yww": 5002470,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 17,
+  "DislikeFoodKind_yww": 4,
+  "ActionType_yww": 22,
+  "TribeType_yww": 7,
+  "MedallionImage_yww": "y4998270.png",
+  "SpriteImage_yww": "img_y4998270.png",
+  "Audio_yww": "sp_y4998270.wav",
+  "Description_yww": "Snowrabby, qui nous apporte une brise fraîche et rafraîchissante pendant les chaudes journées d'été. Cette brise vivifiante qui souffle les jours ensoleillés rappelle aux gens le sentiment de pure joie que procure l'été.",
+  "BingoMessage_fr_yww": "J'aime bien cette saison, en fait~ Alors, on va passer un super été ensemble, hein ? ♪"
 }

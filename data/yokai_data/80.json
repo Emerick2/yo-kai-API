@@ -1,480 +1,511 @@
 {
-    "ID": "80",
-    "Nom": "Coléroptère",
-    "Tribue": "Costaud",
-    "Rang": "B",
-    "PV": "452",
-    "Force": "124",
-    "Esprit": "66",
-    "Défense": "228",
-    "Vitesse": "86",
-    "Description": "Le super agressif Coléroptère est toujours en train de se battre avec Scatcheur pour le titre de roi des Yo-kai insectes.",
-    "description SITE": "Le très agressif Coléroptère est toujours en train de se battre avecScatcheurpour le titre du roi des insectes.",
-    "nourriture": "Légume",
-    "élément": "Terre",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Coléroptère vient de l'espèce de coléoptères, insectes dotés d'élytres protégeant leurs ailes ; et de colère.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "Il est colérique et très agressif. Lorsqu'un Coléroptère a prouvé sa valeur en combat, celui-ci évolue en Rhinolimit.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/coleroptere.png",
-    "numero": "073",
-    "nourriture_favorite": "Légume",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Brise-garde",
-            "effet": "N'est pas affecté par la défense adverse."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tour complet",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Éboulement",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Corne rageuse",
-            "effet": "Cogne un ennemi avec sa précieuse corne et inflige des dégâts importants. 160 | 240"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Rhinocéforce",
-            "effet": "Donne à un allié toute la FOR. d'un scarabée rhinocéros."
-        }
+  "ID": "80",
+  "Nom": "Coléroptère",
+  "Tribue": "Costaud",
+  "Rang": "B",
+  "PV": "452",
+  "Force": "124",
+  "Esprit": "66",
+  "Défense": "228",
+  "Vitesse": "86",
+  "Description": "Le super agressif Coléroptère est toujours en train de se battre avec Scatcheur pour le titre de roi des Yo-kai insectes.",
+  "description SITE": "Le très agressif Coléroptère est toujours en train de se battre avecScatcheurpour le titre du roi des insectes.",
+  "nourriture": "Légume",
+  "élément": "Terre",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Coléroptère vient de l'espèce de coléoptères, insectes dotés d'élytres protégeant leurs ailes ; et de colère.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "Il est colérique et très agressif. Lorsqu'un Coléroptère a prouvé sa valeur en combat, celui-ci évolue en Rhinolimit.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/coleroptere.png",
+  "numero": "073",
+  "nourriture_favorite": "Légume",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Brise-garde",
+      "effet": "N'est pas affecté par la défense adverse."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tour complet",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Éboulement",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Corne rageuse",
+      "effet": "Cogne un ennemi avec sa précieuse corne et inflige des dégâts importants. 160 | 240"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Rhinocéforce",
+      "effet": "Donne à un allié toute la FOR. d'un scarabée rhinocéros."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Y en a encore ?",
+    "Mange de la nourriture insipide": "*mastique*",
+    "Mange de la mauvaise nourriture": "Peuh...",
+    "A la flemme": "Je suis fatigué.",
+    "Est échangé": "Je n'ai pas de plainte à formuler quant à notre amitié. Enchanté !",
+    "Devient ton ami": "Ça c'est de l'adversaire ! Je te suivrai dans tous tes combats avec plaisir !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Coléroptère",
+      "parent2": "Âme imbattable",
+      "resultat": "Rhinolimit",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "武者かぶと",
+  "nom_anglais": "Rhinoggin",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Sentier de randonnée- arbres (nuit)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Y en a encore ?",
-        "Mange de la nourriture insipide": "*mastique*",
-        "Mange de la mauvaise nourriture": "Peuh...",
-        "A la flemme": "Je suis fatigué.",
-        "Est échangé": "Je n'ai pas de plainte à formuler quant à notre amitié. Enchanté !",
-        "Devient ton ami": "Ça c'est de l'adversaire ! Je te suivrai dans tous tes combats avec plaisir !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Coléroptère",
-            "parent2": "Âme imbattable",
-            "resultat": "Rhinolimit",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Ourcival- arbres"
     ],
-    "image_locale": "",
-    "nom_original": "武者かぶと",
-    "nom_anglais": "Rhinoggin",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Sentier de randonnée- arbres (nuit)"
-        ],
-        "yw2": [
-            "Ourcival- arbres"
-        ],
-        "yw3": [
-            "Gare d'Ourcival- arbres"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Amulette armure"
-            },
-            {
-                "taux": "?%",
-                "objet": "Mélasse"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Amulette armure"
-            },
-            {
-                "taux": "?%",
-                "objet": "Mélasse"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Tout sur la défense"
-            },
-            {
-                "taux": "?%",
-                "objet": "Concombre"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Brise-garde",
-        "description": "N'est pas affecté par la défense adverse."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/coleroptere.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/coleroptere.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/coleroptere.wav",
-    "oldID": "80",
-    "medallium_ids": {
-        "yw1": "073",
-        "yw2": "114",
-        "yw3": "189"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "128",
-        "yw Blasters 2": "193",
-        "yw Wibble Wobble": "3007",
-        "yw World": "0064",
-        "yw Ukiukipedia": "yw4-013"
-    },
-    "battle_type": "",
-    "skill_name": "Guard Break",
-    "skill_effect": "Rhino Power",
-    "disliked_food": "Milk",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "402",
-                "STR": "163",
-                "SPR": "105",
-                "DEF": "182",
-                "SPD": "102"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "402",
-                "STR": "163",
-                "SPR": "105",
-                "DEF": "182",
-                "SPD": "102"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "269-467",
-                "STR": "129",
-                "SPR": "71",
-                "DEF": "233",
-                "SPD": "91"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "269-467"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "269-467"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "269-467"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Spanish": [
-            "Pegarabajo"
-        ],
-        "French": [
-            "Coléroptère"
-        ],
-        "Italian": [
-            "Rinofante"
-        ],
-        "German": [
-            "Rhinfanterist"
-        ],
-        "Russian": [
-            "Войнорог",
-            "Boynorog"
-        ],
-        "Arabic": [
-            "شداد",
-            "Shaddād"
-        ],
-        "Chinese (Mandarin)": [
-            "武者獨角仙"
-        ],
-        "Portuguese (Brazilian)": [
-            "Chifroso"
-        ]
-    },
-    "localized_soultimates": {
-        "Spanish": [
-            "Pegarabajo"
-        ],
-        "French": [
-            "Coléroptère"
-        ],
-        "Italian": [
-            "Rinofante"
-        ],
-        "German": [
-            "Rhinfanterist"
-        ],
-        "Russian": [
-            "Войнорог"
-        ],
-        "Arabic": [
-            "شداد"
-        ],
-        "Chinese (Mandarin)": [
-            "武者獨角仙"
-        ],
-        "Portuguese (Brazilian)": [
-            "Chifroso"
-        ]
-    },
-    "description_en": "The hyperaggressive Rhinoggin is always battling Beetler for the title of Bug Yo-kai King.",
-    "nom_en": "Mad Mountain",
-    "rang_yww": "B",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "légumes",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 54,
-        "str": 28,
-        "spr": 10,
-        "def": 30,
-        "spd": 11
-    },
-    "stats_max_yww": {
-        "hp": 452,
-        "str": 124,
-        "spr": 66,
-        "def": 228,
-        "spd": 86
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "5つ星コイン",
-            "_en": "5 star coin",
-            "_fr": "Pièce de 5 étoiles"
-        },
-        {
-            "_jp": "スペシャルコイン",
-            "_en": "special coin",
-            "_fr": "pièce spéciale"
-        },
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
-    ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "フルスイング",
-                "_en": "full swing",
-                "_fr": "bat son plein"
-            },
-            "explication": {
-                "_jp": "【威力:60 / 打撃】 外れやすい",
-                "_en": "[Power: 60/Blow] Easy to miss",
-                "_fr": "[Puissance : 60/Coup] Facile à rater"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "落石の術",
-                "_en": "falling rock jutsu",
-                "_fr": "jutsu qui tombe des pierres"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
-                "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
-                "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "超力ツノクラッシュ",
-                "_en": "super power horn crush",
-                "_fr": "écrasement du klaxon super puissant"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "かぶとパワー",
-                "_en": "helmet power",
-                "_fr": "puissance du casque"
-            },
-            "explication": {
-                "_jp": "【ちからアップ】 とりつかれた妖怪はかぶとパワーでちからがアップする。",
-                "_en": "[Power Up] The power of the possessed monster increases with the power of the helmet.",
-                "_fr": "[Power Up] La puissance du monstre possédé augmente avec la puissance du casque."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "荒くれ者の カブトムシ妖怪。 いつもクワノ武士と 虫妖怪の王の座をかけて 争っている。",
-            "_en": "A wild beetle monster. He is always competing with Kuwano Samurai for the title of king of insect monsters.",
-            "_fr": "Un monstre coléoptère sauvage. Il est toujours en compétition avec Kuwano Samurai pour le titre de roi des monstres insectes."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Gare d'Ourcival- arbres"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {},
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Amulette armure"
+      },
+      {
+        "taux": "?%",
+        "objet": "Mélasse"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Amulette armure"
+      },
+      {
+        "taux": "?%",
+        "objet": "Mélasse"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Tout sur la défense"
+      },
+      {
+        "taux": "?%",
+        "objet": "Concombre"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Brise-garde",
+    "description": "N'est pas affecté par la défense adverse."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/coleroptere.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/coleroptere.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/coleroptere.wav",
+  "oldID": "80",
+  "medallium_ids": {
+    "yw1": "073",
+    "yw2": "114",
+    "yw3": "189"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "128",
+    "yw Blasters 2": "193",
+    "yw Wibble Wobble": "3007",
+    "yw World": "0064",
+    "yw Ukiukipedia": "yw4-013"
+  },
+  "battle_type": "",
+  "skill_name": "Guard Break",
+  "skill_effect": "Rhino Power",
+  "disliked_food": "Milk",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "402",
+        "STR": "163",
+        "SPR": "105",
+        "DEF": "182",
+        "SPD": "102"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "402",
+        "STR": "163",
+        "SPR": "105",
+        "DEF": "182",
+        "SPD": "102"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "269-467",
+        "STR": "129",
+        "SPR": "71",
+        "DEF": "233",
+        "SPD": "91"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "269-467"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "269-467"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "269-467"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Spanish": [
+      "Pegarabajo"
+    ],
+    "French": [
+      "Coléroptère"
+    ],
+    "Italian": [
+      "Rinofante"
+    ],
+    "German": [
+      "Rhinfanterist"
+    ],
+    "Russian": [
+      "Войнорог",
+      "Boynorog"
+    ],
+    "Arabic": [
+      "شداد",
+      "Shaddād"
+    ],
+    "Chinese (Mandarin)": [
+      "武者獨角仙"
+    ],
+    "Portuguese (Brazilian)": [
+      "Chifroso"
+    ]
+  },
+  "localized_soultimates": {
+    "Spanish": [
+      "Pegarabajo"
+    ],
+    "French": [
+      "Coléroptère"
+    ],
+    "Italian": [
+      "Rinofante"
+    ],
+    "German": [
+      "Rhinfanterist"
+    ],
+    "Russian": [
+      "Войнорог"
+    ],
+    "Arabic": [
+      "شداد"
+    ],
+    "Chinese (Mandarin)": [
+      "武者獨角仙"
+    ],
+    "Portuguese (Brazilian)": [
+      "Chifroso"
+    ]
+  },
+  "description_en": "The hyperaggressive Rhinoggin is always battling Beetler for the title of Bug Yo-kai King.",
+  "nom_en": "Mad Mountain",
+  "rang_yww": "B",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "légumes",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 54,
+    "str": 28,
+    "spr": 10,
+    "def": 30,
+    "spd": 11
+  },
+  "stats_max_yww": {
+    "hp": 452,
+    "str": 124,
+    "spr": 66,
+    "def": 228,
+    "spd": 86
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "5つ星コイン",
+      "_en": "5 star coin",
+      "_fr": "Pièce de 5 étoiles"
+    },
+    {
+      "_jp": "スペシャルコイン",
+      "_en": "special coin",
+      "_fr": "pièce spéciale"
+    },
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "フルスイング",
+        "_en": "full swing",
+        "_fr": "bat son plein"
+      },
+      "explication": {
+        "_jp": "【威力:60 / 打撃】 外れやすい",
+        "_en": "[Power: 60/Blow] Easy to miss",
+        "_fr": "[Puissance : 60/Coup] Facile à rater"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "落石の術",
+        "_en": "falling rock jutsu",
+        "_fr": "jutsu qui tombe des pierres"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
+        "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
+        "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "超力ツノクラッシュ",
+        "_en": "super power horn crush",
+        "_fr": "écrasement du klaxon super puissant"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "かぶとパワー",
+        "_en": "helmet power",
+        "_fr": "puissance du casque"
+      },
+      "explication": {
+        "_jp": "【ちからアップ】 とりつかれた妖怪はかぶとパワーでちからがアップする。",
+        "_en": "[Power Up] The power of the possessed monster increases with the power of the helmet.",
+        "_fr": "[Power Up] La puissance du monstre possédé augmente avec la puissance du casque."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "荒くれ者の カブトムシ妖怪。 いつもクワノ武士と 虫妖怪の王の座をかけて 争っている。",
+      "_en": "A wild beetle monster. He is always competing with Kuwano Samurai for the title of king of insect monsters.",
+      "_fr": "Un monstre coléoptère sauvage. Il est toujours en compétition avec Kuwano Samurai pour le titre de roi des monstres insectes."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "80",
+  "Name_yww": "武者かぶと",
+  "description_jp_yww": "荒くれ者の カブトムシ妖怪。 いつもクワノ武士と 虫妖怪の王の座をかけて 争っている。",
+  "BingoMessage_jp_yww": "久しぶりの外の空気だ　礼を言うぜ！ このオレが　ともだちになってやる！",
+  "MonsterId_yww": "y145000",
+  "Height_yww": 10.0,
+  "CommondId_yww": "sp_145000",
+  "MinHp_yww": 54,
+  "MaxHp_yww": 452,
+  "MinAttack_yww": 28,
+  "MaxAttack_yww": 124,
+  "MinMagic_yww": 10,
+  "MaxMagic_yww": 66,
+  "MinDefense_yww": 30,
+  "MaxDefense_yww": 228,
+  "MinSpeed_yww": 11,
+  "MaxSpeed_yww": 86,
+  "AttackId_yww": 35,
+  "MagicId_yww": 11,
+  "HauntId_yww": 145000,
+  "SpSkillId_yww": 145000,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 10,
+  "DislikeFoodKind_yww": 4,
+  "ActionType_yww": 16,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y140800.png",
+  "SpriteImage_yww": "img_y140800.png",
+  "Audio_yww": "sp_y140800.wav",
+  "Description_yww": "Un yōkai scarabée-coccinelle au caractère bien trempé. Il est constamment en conflit avec le samourai Kuwano pour le trône de roi des yōkai insectes.",
+  "BingoMessage_fr_yww": "Ça fait longtemps que je n'ai pas respiré l'air frais. Merci beaucoup ! C'est moi qui vais devenir ton ami !"
 }

@@ -1,433 +1,464 @@
 {
-    "ID": "106",
-    "Nom": "Kappacap",
-    "Tribue": "Mignon",
-    "Rang": "D",
-    "PV": "343",
-    "Force": "43",
-    "Esprit": "184",
-    "Défense": "108",
-    "Vitesse": "147",
-    "Description": "La plupart des kappas sont dans l'eau, mais lui aime marcher en dehors. Il se met de l'eau sur la tête pour compenser.",
-    "nourriture": "Légume",
-    "élément": "Eau",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/kappacap.png",
-    "numero": "096",
-    "nourriture_favorite": "Sushi",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Flâneur pro",
-            "effet": "Récupère quelques PV quand il flâne."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coup de poing",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Rapides",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Méga cascade",
-            "effet": "Produit une énorme cascade pour noyer ses ennemis. 80 | 80"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Petit somme",
-            "effet": "Kappacap endort vite les ennemis... tout comme lui !"
-        }
+  "ID": "106",
+  "Nom": "Kappacap",
+  "Tribue": "Mignon",
+  "Rang": "D",
+  "PV": "343",
+  "Force": "43",
+  "Esprit": "184",
+  "Défense": "108",
+  "Vitesse": "147",
+  "Description": "La plupart des kappas sont dans l'eau, mais lui aime marcher en dehors. Il se met de l'eau sur la tête pour compenser.",
+  "nourriture": "Légume",
+  "élément": "Eau",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/kappacap.png",
+  "numero": "096",
+  "nourriture_favorite": "Sushi",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Flâneur pro",
+      "effet": "Récupère quelques PV quand il flâne."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coup de poing",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Rapides",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Méga cascade",
+      "effet": "Produit une énorme cascade pour noyer ses ennemis. 80 | 80"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Petit somme",
+      "effet": "Kappacap endort vite les ennemis... tout comme lui !"
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Génial !",
+    "Mange de la nourriture insipide": "C'est pas super.",
+    "Mange de la mauvaise nourriture": "Bizarre, ton truc...",
+    "A la flemme": "Je veux manger...",
+    "Est échangé": "Je suis content d'être arrivé ! C'est ... qui m'envoie !",
+    "Devient ton ami": "Plutôt cool. On fait ami-ami ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "Général",
+      "de": "Kappacap",
+      "vers": "Appak",
+      "critere": "Niveau 32"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ノガッパ",
+  "nom_anglais": "Walkappa",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Masahito Yabe",
+    "francaise": "Inconnue",
+    "anglaise": "English VA Melissa Hutchison"
+  },
+  "localisations": {
+    "yw1": [
+      "Histoire -Chapitre 5",
+      "Les Hauts- fleuve ouest",
+      "Les Hauts - fleuve est"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Génial !",
-        "Mange de la nourriture insipide": "C'est pas super.",
-        "Mange de la mauvaise nourriture": "Bizarre, ton truc...",
-        "A la flemme": "Je veux manger...",
-        "Est échangé": "Je suis content d'être arrivé ! C'est ... qui m'envoie !",
-        "Devient ton ami": "Plutôt cool. On fait ami-ami ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "Général",
-            "de": "Kappacap",
-            "vers": "Appak",
-            "critere": "Niveau 32"
-        }
+    "yw2": [
+      "Kappacap apparaît dans les rives ouest et est de la rivière dans lesHauts de Granval.",
+      "Il peut aussi être trouvé dans le carrefour fou de la route des bouffis dans laVoie du mystère."
     ],
-    "image_locale": "",
-    "nom_original": "ノガッパ",
-    "nom_anglais": "Walkappa",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Masahito Yabe",
-        "francaise": "Inconnue",
-        "anglaise": "English VA Melissa Hutchison"
-    },
-    "localisations": {
-        "yw1": [
-            "Histoire -Chapitre 5",
-            "Les Hauts- fleuve ouest",
-            "Les Hauts - fleuve est"
-        ],
-        "yw2": [
-            "Kappacap apparaît dans les rives ouest et est de la rivière dans lesHauts de Granval.",
-            "Il peut aussi être trouvé dans le carrefour fou de la route des bouffis dans laVoie du mystère."
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Hauts de Granval."
-        ],
-        "yw3": [
-            "Kappacap se trouve dans lesHauts de GranvalauMont Sylvestre."
-        ],
-        "yw Wibble Wobble": [
-            "Pack de démarrage",
-            "Bingo-kai"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "Normal",
-    "attaques_par_jeu": {},
-    "soul_effects": {
-        "yw2": "Récupère quelques PV quand il flâne.",
-        "yw Blasters 1": "Réduit légèrement les dégâts de l'eau.",
-        "yw3": "Récupère quelques PV quand il flâne."
-    },
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Techniques tip-top"
-            },
-            {
-                "taux": "?%",
-                "objet": "Concombre"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Gourde sans fond"
-            },
-            {
-                "taux": "?%",
-                "objet": "Concombre"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Gourde sans fond"
-            },
-            {
-                "taux": "?%",
-                "objet": "Maki concombre"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Flâneur pro",
-        "description": "Récupère quelques PV quand il flâne."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/kappacap.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/kappacap.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/kappacap.wav",
-    "oldID": "106",
-    "medallium_ids": {
-        "yw1": "096",
-        "yw2": "139",
-        "yw3": "240",
-        "yw4": "48 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "175",
-        "yw Blasters 2": "245",
-        "yw Wibble Wobble": "4015",
-        "yw World": "0777",
-        "yw Ukiukipedia": "yw1-027/YD1-026"
-    },
-    "battle_type": "",
-    "skill_name": "Skilled Loafer Water Play yw2 FS",
-    "skill_effect": "Nap Time",
-    "disliked_food": "Hamburgers",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "305",
-                "STR": "98",
-                "SPR": "157",
-                "DEF": "108",
-                "SPD": "151"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "353",
-                "STR": "98",
-                "SPR": "157",
-                "DEF": "108",
-                "SPD": "151"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "119",
-                "STR": "25",
-                "SPR": "37",
-                "DEF": "113",
-                "SPD": "152"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "117-204",
-                "STR": "25",
-                "SPR": "37"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "117-204"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "117-204"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "117-204"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ノガッパ",
-            "Nogappa"
-        ],
-        "Spanish": [
-            "Kappandante"
-        ],
-        "French": [
-            "Kappacap"
-        ],
-        "Italian": [
-            "Cammikappa"
-        ],
-        "German": [
-            "Wandakappa"
-        ],
-        "Korean": [
-            "접시거북",
-            "Jeopsigeobuk"
-        ],
-        "Russian": [
-            "Гулекаппа",
-            "Gulekappa"
-        ],
-        "Arabic": [
-            "منتعش",
-            "Muntaeish"
-        ],
-        "Chinese (Mandarin)": [
-            "野河童"
-        ],
-        "Portuguese (Brazilian)": [
-            "Kappandante"
-        ],
-        "Thai": [
-            "โนกัปปะ"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ノガッパ"
-        ],
-        "Spanish": [
-            "Kappandante"
-        ],
-        "French": [
-            "Kappacap"
-        ],
-        "Italian": [
-            "Cammikappa"
-        ],
-        "German": [
-            "Wandakappa"
-        ],
-        "Korean": [
-            "접시거북"
-        ],
-        "Russian": [
-            "Гулекаппа"
-        ],
-        "Arabic": [
-            "منتعش"
-        ],
-        "Chinese (Mandarin)": [
-            "野河童"
-        ],
-        "Portuguese (Brazilian)": [
-            "Kappandante"
-        ],
-        "Thai": [
-            "โนกัปปะ"
-        ]
-    },
-    "description_en": "Most kappas stay in the water, but this one likes to walk around. He pours water on his head to make up for this.",
-    "nom_en": "Rubinyan",
-    "rang_yww": "D",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Sushis",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 47,
-        "str": 5,
-        "spr": 20,
-        "def": 12,
-        "spd": 19
-    },
-    "stats_max_yww": {
-        "hp": 343,
-        "str": 43,
-        "spr": 184,
-        "def": 108,
-        "spd": 147
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "パンチ",
-                "_en": "punch",
-                "_fr": "punch"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "水流の術",
-                "_en": "Water flow technique",
-                "_fr": "Technique d'écoulement de l'eau"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 水属性】 強力な水の妖術を使う。",
-                "_en": "[Power: 50 / Water attribute] Uses powerful water magic.",
-                "_fr": "[Puissance : 50 / Attribut Eau] Utilise une puissante magie de l'eau."
-            }
-        }
+    "yw Blasters 1": [
+      "Patrouille -Hauts de Granval."
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "メガ滝おとし",
-                "_en": "Mega waterfall",
-                "_fr": "Méga cascade"
-            },
-            "pouvoir": "73",
-            "explication": {
-                "_jp": "敵の頭上に巨大な滝を発生させダメージを与える。",
-                "_en": "Creates a huge waterfall above the enemy's head, dealing damage.",
-                "_fr": "Crée une énorme cascade au-dessus de la tête de l'ennemi, infligeant des dégâts."
-            }
-        }
+    "yw3": [
+      "Kappacap se trouve dans lesHauts de GranvalauMont Sylvestre."
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "昼寝させる",
-                "_en": "take a nap",
-                "_fr": "faire une sieste"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 とりつかれた妖怪は昼寝が大好きになりたまに行動しなくなる。",
-                "_en": "[Osabori] A possessed youkai loves to take naps and sometimes stops acting.",
-                "_fr": "[Osabori] Un yôkai possédé adore faire des siestes et arrête parfois d'agir."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "水辺に住むカッパだが 歩くのが好きで よく散歩をしている。 疲れると 水とうの水を お皿にかけてリフレッシュ！",
-            "_en": "Although he lives near the water, he likes to walk and often takes walks. When you feel tired, refresh yourself by pouring water from a canister onto your plate!",
-            "_fr": "Bien qu'il habite près de l'eau, il aime marcher et se promène souvent. Lorsque vous vous sentez fatigué, rafraîchissez-vous en versant de l'eau d'un bidon dans votre assiette !"
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Pack de démarrage",
+      "Bingo-kai"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "Normal",
+  "attaques_par_jeu": {},
+  "soul_effects": {
+    "yw2": "Récupère quelques PV quand il flâne.",
+    "yw Blasters 1": "Réduit légèrement les dégâts de l'eau.",
+    "yw3": "Récupère quelques PV quand il flâne."
+  },
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Techniques tip-top"
+      },
+      {
+        "taux": "?%",
+        "objet": "Concombre"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Gourde sans fond"
+      },
+      {
+        "taux": "?%",
+        "objet": "Concombre"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Gourde sans fond"
+      },
+      {
+        "taux": "?%",
+        "objet": "Maki concombre"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Flâneur pro",
+    "description": "Récupère quelques PV quand il flâne."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/kappacap.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/kappacap.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/kappacap.wav",
+  "oldID": "106",
+  "medallium_ids": {
+    "yw1": "096",
+    "yw2": "139",
+    "yw3": "240",
+    "yw4": "48 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "175",
+    "yw Blasters 2": "245",
+    "yw Wibble Wobble": "4015",
+    "yw World": "0777",
+    "yw Ukiukipedia": "yw1-027/YD1-026"
+  },
+  "battle_type": "",
+  "skill_name": "Skilled Loafer Water Play yw2 FS",
+  "skill_effect": "Nap Time",
+  "disliked_food": "Hamburgers",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "305",
+        "STR": "98",
+        "SPR": "157",
+        "DEF": "108",
+        "SPD": "151"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "353",
+        "STR": "98",
+        "SPR": "157",
+        "DEF": "108",
+        "SPD": "151"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "119",
+        "STR": "25",
+        "SPR": "37",
+        "DEF": "113",
+        "SPD": "152"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "117-204",
+        "STR": "25",
+        "SPR": "37"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "117-204"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "117-204"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "117-204"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ノガッパ",
+      "Nogappa"
+    ],
+    "Spanish": [
+      "Kappandante"
+    ],
+    "French": [
+      "Kappacap"
+    ],
+    "Italian": [
+      "Cammikappa"
+    ],
+    "German": [
+      "Wandakappa"
+    ],
+    "Korean": [
+      "접시거북",
+      "Jeopsigeobuk"
+    ],
+    "Russian": [
+      "Гулекаппа",
+      "Gulekappa"
+    ],
+    "Arabic": [
+      "منتعش",
+      "Muntaeish"
+    ],
+    "Chinese (Mandarin)": [
+      "野河童"
+    ],
+    "Portuguese (Brazilian)": [
+      "Kappandante"
+    ],
+    "Thai": [
+      "โนกัปปะ"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ノガッパ"
+    ],
+    "Spanish": [
+      "Kappandante"
+    ],
+    "French": [
+      "Kappacap"
+    ],
+    "Italian": [
+      "Cammikappa"
+    ],
+    "German": [
+      "Wandakappa"
+    ],
+    "Korean": [
+      "접시거북"
+    ],
+    "Russian": [
+      "Гулекаппа"
+    ],
+    "Arabic": [
+      "منتعش"
+    ],
+    "Chinese (Mandarin)": [
+      "野河童"
+    ],
+    "Portuguese (Brazilian)": [
+      "Kappandante"
+    ],
+    "Thai": [
+      "โนกัปปะ"
+    ]
+  },
+  "description_en": "Most kappas stay in the water, but this one likes to walk around. He pours water on his head to make up for this.",
+  "nom_en": "Rubinyan",
+  "rang_yww": "D",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "Sushis",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 47,
+    "str": 5,
+    "spr": 20,
+    "def": 12,
+    "spd": 19
+  },
+  "stats_max_yww": {
+    "hp": 343,
+    "str": 43,
+    "spr": 184,
+    "def": 108,
+    "spd": 147
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "パンチ",
+        "_en": "punch",
+        "_fr": "punch"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "水流の術",
+        "_en": "Water flow technique",
+        "_fr": "Technique d'écoulement de l'eau"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 水属性】 強力な水の妖術を使う。",
+        "_en": "[Power: 50 / Water attribute] Uses powerful water magic.",
+        "_fr": "[Puissance : 50 / Attribut Eau] Utilise une puissante magie de l'eau."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "メガ滝おとし",
+        "_en": "Mega waterfall",
+        "_fr": "Méga cascade"
+      },
+      "pouvoir": "73",
+      "explication": {
+        "_jp": "敵の頭上に巨大な滝を発生させダメージを与える。",
+        "_en": "Creates a huge waterfall above the enemy's head, dealing damage.",
+        "_fr": "Crée une énorme cascade au-dessus de la tête de l'ennemi, infligeant des dégâts."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "昼寝させる",
+        "_en": "take a nap",
+        "_fr": "faire une sieste"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 とりつかれた妖怪は昼寝が大好きになりたまに行動しなくなる。",
+        "_en": "[Osabori] A possessed youkai loves to take naps and sometimes stops acting.",
+        "_fr": "[Osabori] Un yôkai possédé adore faire des siestes et arrête parfois d'agir."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "水辺に住むカッパだが 歩くのが好きで よく散歩をしている。 疲れると 水とうの水を お皿にかけてリフレッシュ！",
+      "_en": "Although he lives near the water, he likes to walk and often takes walks. When you feel tired, refresh yourself by pouring water from a canister onto your plate!",
+      "_fr": "Bien qu'il habite près de l'eau, il aime marcher et se promène souvent. Lorsque vous vous sentez fatigué, rafraîchissez-vous en versant de l'eau d'un bidon dans votre assiette !"
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "106",
+  "Name_yww": "ノガッパ",
+  "description_jp_yww": "水辺に住むカッパだが 歩くのが好きで よく散歩をしている。 疲れると　水とうの水を お皿にかけてリフレッシュ！",
+  "BingoMessage_jp_yww": "出してくれてありがとっスー いっしょに　おにぎり食べるっス！",
+  "MonsterId_yww": "y157000",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_157000",
+  "MinHp_yww": 47,
+  "MaxHp_yww": 343,
+  "MinAttack_yww": 5,
+  "MaxAttack_yww": 43,
+  "MinMagic_yww": 20,
+  "MaxMagic_yww": 184,
+  "MinDefense_yww": 12,
+  "MaxDefense_yww": 108,
+  "MinSpeed_yww": 19,
+  "MaxSpeed_yww": 147,
+  "AttackId_yww": 1,
+  "MagicId_yww": 5,
+  "HauntId_yww": 157000,
+  "SpSkillId_yww": 157000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 8,
+  "DislikeFoodKind_yww": 6,
+  "ActionType_yww": 9,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y152800.png",
+  "SpriteImage_yww": "img_y152800.png",
+  "Audio_yww": "sp_y152800.wav",
+  "Description_yww": "Bien qu'il vive au bord de l'eau, le kappa aime marcher et se promène souvent. Quand il est fatigué, il verse de l'eau de source dans une assiette pour se rafraîchir !",
+  "BingoMessage_fr_yww": "Merci beaucoup de m'en avoir donné ! On va manger des onigiri ensemble !"
 }

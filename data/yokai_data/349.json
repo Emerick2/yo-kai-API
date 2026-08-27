@@ -1,449 +1,480 @@
 {
-    "ID": "349",
-    "Nom": "Ronéan",
-    "Tribue": "Perfide",
-    "Rang": "S",
-    "PV": "465",
-    "Force": "222",
-    "Esprit": "174",
-    "Défense": "127",
-    "Vitesse": "156",
-    "Description": "Ce boss Perfide qui dispose de grands pouvoirs pense que son devoir est de tout détruire.",
-    "nourriture": "Curry",
-    "élément": "Foudre",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Ronéan vient de néant et du prénom Ronan.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Ronéan est le boss Perfide le plus puissant, il a une très grande force et peut détruire tout ce qu’il voit.",
-    "personnalité": "Ronéan a pour devise de tout détruire sur son chemin.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/ronean.png",
-    "numero": "360",
-    "nourriture_favorite": "Oden",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Brise-garde",
-            "effet": "N'est pas affecté par la défense adverse"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing précis",
-            "effet": "90 | 135"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Haute tension",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing d'orgue",
-            "effet": "Un coup de poing destructeur s'abat sur un ennemi. 265 | 397"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Apathie",
-            "effet": "Le Yo-kai est pétrifié par une force nuisible. Toutes ses stats baissent."
-        }
+  "ID": "349",
+  "Nom": "Ronéan",
+  "Tribue": "Perfide",
+  "Rang": "S",
+  "PV": "465",
+  "Force": "222",
+  "Esprit": "174",
+  "Défense": "127",
+  "Vitesse": "156",
+  "Description": "Ce boss Perfide qui dispose de grands pouvoirs pense que son devoir est de tout détruire.",
+  "nourriture": "Curry",
+  "élément": "Foudre",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Ronéan vient de néant et du prénom Ronan.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Ronéan est le boss Perfide le plus puissant, il a une très grande force et peut détruire tout ce qu’il voit.",
+  "personnalité": "Ronéan a pour devise de tout détruire sur son chemin.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/ronean.png",
+  "numero": "360",
+  "nourriture_favorite": "Oden",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Brise-garde",
+      "effet": "N'est pas affecté par la défense adverse"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing précis",
+      "effet": "90 | 135"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Haute tension",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing d'orgue",
+      "effet": "Un coup de poing destructeur s'abat sur un ennemi. 265 | 397"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Apathie",
+      "effet": "Le Yo-kai est pétrifié par une force nuisible. Toutes ses stats baissent."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est incroyable !",
+    "Mange de la nourriture insipide": "C'est tout ?",
+    "Mange de la mauvaise nourriture": "Oh non...",
+    "A la flemme": "Hé hé...",
+    "Est échangé": "Tellement à écraser, et si peu de temps pour le faire ! Mouahahah !",
+    "Devient ton ami": "J'ai simplement besoin de t'observer. Puis-je te suivre ?"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "破怪",
+  "nom_anglais": "Unkeen",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Exclusif à Spectres Psychiques",
+      "Quête - Ronéan : les origines-Tour de commerce de Granval - 3e étage(Nuit)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est incroyable !",
-        "Mange de la nourriture insipide": "C'est tout ?",
-        "Mange de la mauvaise nourriture": "Oh non...",
-        "A la flemme": "Hé hé...",
-        "Est échangé": "Tellement à écraser, et si peu de temps pour le faire ! Mouahahah !",
-        "Devient ton ami": "J'ai simplement besoin de t'observer. Puis-je te suivre ?"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "破怪",
-    "nom_anglais": "Unkeen",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Exclusif à Spectres Psychiques",
-            "Quête - Ronéan : les origines-Tour de commerce de Granval - 3e étage(Nuit)"
-        ],
-        "yw Blasters 1": [
-            "Histoire - Cinq Yo-kai Perfides effrayants !"
-        ],
-        "yw3": [
-            "Quête - La dame au sukiyaki",
-            "Portail mystère- Salle des maîtres"
-        ],
-        "yw Wibble Wobble": [
-            "Lucky Bingo-kai"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Poing précis",
-                "puissance": "90|135",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Poing d'orgue",
-                "puissance": "265|397",
-                "description": "Un coup de poing destructeur s'abat sur un ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Apathie",
-                "puissance": "N/A",
-                "description": "Le Yo-kai est pétrifié par une force nuisible. Toutes ses stats baissent."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Brise-garde",
-                "description": "N'est pas affecté par la défense adverse."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Poing d'orgue",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Attaque puissante",
-                "puissance": "400",
-                "description": "Rassemble ta force en une seule attaque."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Onde de choc",
-                "puissance": "120",
-                "description": "Saute et crée une onde de choc en retombant."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Position invincible",
-                "puissance": "___",
-                "description": "Invincibilité temporaire."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Enthousiaste",
-                "description": "Hausse ATT. en attaquant (cumulable)."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Poing précis",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Poing d'orgue",
-                "puissance": "190|285",
-                "description": "Un coup de poing destructeur s'abat sur la colonne devant lui."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Apathie",
-                "puissance": "N/A",
-                "description": "Le Yo-kai est pétrifié par une force nuisible. Toutes ses stats baissent."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Brise-garde",
-                "description": "Ignore la défense adverse lorsqu'il attaque."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Brise-garde",
-        "description": "N'est pas affecté par la défense adverse."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/ronean.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/ronean.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/ronean.wav",
-    "oldID": "365",
-    "medallium_ids": {
-        "yw2": "359",
-        "yw3": "579"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "405",
-        "yw Blasters 2": "598",
-        "yw Wibble Wobble": "9005",
-        "yw World": "0447",
-        "yw Ukiukipedia": "YD5-047"
-    },
-    "battle_type": "Rare",
-    "skill_name": "Guard Break",
-    "skill_effect": "Unkeen Power",
-    "disliked_food": "Seafood",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "475",
-                "STR": "215",
-                "SPR": "211",
-                "DEF": "138",
-                "SPD": "205"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "237-418",
-                "STR": "227",
-                "SPR": "179",
-                "DEF": "132",
-                "SPD": "161"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "237-418"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "237-418"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "237-418"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "破怪",
-            "Hakai"
-        ],
-        "Spanish": [
-            "Destrukto"
-        ],
-        "French": [
-            "Ronéan"
-        ],
-        "Italian": [
-            "Nihilo"
-        ],
-        "German": [
-            "Verheerbert"
-        ],
-        "Korean": [
-            "파괴",
-            "Pagoe"
-        ],
-        "Russian": [
-            "Непонрав",
-            "Neponrav"
-        ],
-        "Chinese (Mandarin)": [
-            "破怪"
-        ],
-        "Portuguese (Brazilian)": [
-            "Malfeitor"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "破怪"
-        ],
-        "Spanish": [
-            "Destrukto"
-        ],
-        "French": [
-            "Ronéan"
-        ],
-        "Italian": [
-            "Nihilo"
-        ],
-        "German": [
-            "Verheerbert"
-        ],
-        "Korean": [
-            "파괴"
-        ],
-        "Russian": [
-            "Непонрав"
-        ],
-        "Chinese (Mandarin)": [
-            "破怪"
-        ],
-        "Portuguese (Brazilian)": [
-            "Malfeitor"
-        ]
-    },
-    "description_en": "A Wicked boss who wields great power, he believes it's his duty to destroy all that he sees.",
-    "nom_en": "Unkaind",
-    "rang_yww": "S",
-    "tribue_yww": "Kaima",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "curry",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 55,
-        "str": 40,
-        "spr": 30,
-        "def": 22,
-        "spd": 26
-    },
-    "stats_max_yww": {
-        "hp": 465,
-        "str": 222,
-        "spr": 174,
-        "def": 127,
-        "spd": 156
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "期間限定出現",
-            "_en": "Limited time appearance",
-            "_fr": "Apparition à durée limitée"
-        }
+    "yw Blasters 1": [
+      "Histoire - Cinq Yo-kai Perfides effrayants !"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "正拳突き",
-                "_en": "straight fist punch",
-                "_fr": "coup de poing droit"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 打撃】 強力な一撃を加える",
-                "_en": "[Power: 70/Blow] Add a powerful blow",
-                "_fr": "[Puissance : 70/Coup] Ajoutez un coup puissant"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "雷神の術",
-                "_en": "Raijin no Jutsu",
-                "_fr": "Raijin no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
-                "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
-                "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
-            }
-        }
+    "yw3": [
+      "Quête - La dame au sukiyaki",
+      "Portail mystère- Salle des maîtres"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "破壊の一撃",
-                "_en": "A blow of destruction",
-                "_fr": "Un coup de destruction"
-            },
-            "pouvoir": "190",
-            "explication": {
-                "_jp": "全てを破壊するような 強烈なパンチを正面の敵に おみまいする",
-                "_en": "Deliver a powerful punch to the enemy in front of you that destroys everything.",
-                "_fr": "Donnez un puissant coup de poing à l'ennemi devant vous qui détruit tout."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "破壊的な力",
-                "_en": "destructive force",
-                "_fr": "force destructrice"
-            },
-            "explication": {
-                "_jp": "【全ステダウン】 破壊的な呪いで 全ステータスがダウン",
-                "_en": "[All status down] All status down due to destructive curse",
-                "_fr": "[Tous les statuts baissés] Tous les statuts baissés en raison d'une malédiction destructrice"
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "怪魔の幹部の一人。 怪魔のリーダー的存在で あらゆる物を破壊するという モットーを持つ。 戦闘力は 怪魔ナンバーワン。",
-            "_en": "One of the monster executives. He is a leader of monsters and has a motto of destroying everything. His fighting power is number one among monsters.",
-            "_fr": "L'un des dirigeants monstres. Il est un chef de monstres et a pour devise de tout détruire. Sa puissance de combat est la première parmi les monstres."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Lucky Bingo-kai"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Poing précis",
+        "puissance": "90|135",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Haute tension",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Poing d'orgue",
+        "puissance": "265|397",
+        "description": "Un coup de poing destructeur s'abat sur un ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Apathie",
+        "puissance": "N/A",
+        "description": "Le Yo-kai est pétrifié par une force nuisible. Toutes ses stats baissent."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Brise-garde",
+        "description": "N'est pas affecté par la défense adverse."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Poing d'orgue",
+        "puissance": "400",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Attaque puissante",
+        "puissance": "400",
+        "description": "Rassemble ta force en une seule attaque."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Onde de choc",
+        "puissance": "120",
+        "description": "Saute et crée une onde de choc en retombant."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Position invincible",
+        "puissance": "___",
+        "description": "Invincibilité temporaire."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Enthousiaste",
+        "description": "Hausse ATT. en attaquant (cumulable)."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Poing précis",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Haute tension",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Poing d'orgue",
+        "puissance": "190|285",
+        "description": "Un coup de poing destructeur s'abat sur la colonne devant lui."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Apathie",
+        "puissance": "N/A",
+        "description": "Le Yo-kai est pétrifié par une force nuisible. Toutes ses stats baissent."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Brise-garde",
+        "description": "Ignore la défense adverse lorsqu'il attaque."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Brise-garde",
+    "description": "N'est pas affecté par la défense adverse."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/ronean.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/ronean.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/ronean.wav",
+  "oldID": "365",
+  "medallium_ids": {
+    "yw2": "359",
+    "yw3": "579"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "405",
+    "yw Blasters 2": "598",
+    "yw Wibble Wobble": "9005",
+    "yw World": "0447",
+    "yw Ukiukipedia": "YD5-047"
+  },
+  "battle_type": "Rare",
+  "skill_name": "Guard Break",
+  "skill_effect": "Unkeen Power",
+  "disliked_food": "Seafood",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "475",
+        "STR": "215",
+        "SPR": "211",
+        "DEF": "138",
+        "SPD": "205"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "237-418",
+        "STR": "227",
+        "SPR": "179",
+        "DEF": "132",
+        "SPD": "161"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "237-418"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "237-418"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "237-418"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "破怪",
+      "Hakai"
+    ],
+    "Spanish": [
+      "Destrukto"
+    ],
+    "French": [
+      "Ronéan"
+    ],
+    "Italian": [
+      "Nihilo"
+    ],
+    "German": [
+      "Verheerbert"
+    ],
+    "Korean": [
+      "파괴",
+      "Pagoe"
+    ],
+    "Russian": [
+      "Непонрав",
+      "Neponrav"
+    ],
+    "Chinese (Mandarin)": [
+      "破怪"
+    ],
+    "Portuguese (Brazilian)": [
+      "Malfeitor"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "破怪"
+    ],
+    "Spanish": [
+      "Destrukto"
+    ],
+    "French": [
+      "Ronéan"
+    ],
+    "Italian": [
+      "Nihilo"
+    ],
+    "German": [
+      "Verheerbert"
+    ],
+    "Korean": [
+      "파괴"
+    ],
+    "Russian": [
+      "Непонрав"
+    ],
+    "Chinese (Mandarin)": [
+      "破怪"
+    ],
+    "Portuguese (Brazilian)": [
+      "Malfeitor"
+    ]
+  },
+  "description_en": "A Wicked boss who wields great power, he believes it's his duty to destroy all that he sees.",
+  "nom_en": "Unkaind",
+  "rang_yww": "S",
+  "tribue_yww": "Kaima",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "curry",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 55,
+    "str": 40,
+    "spr": 30,
+    "def": 22,
+    "spd": 26
+  },
+  "stats_max_yww": {
+    "hp": 465,
+    "str": 222,
+    "spr": 174,
+    "def": 127,
+    "spd": 156
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "期間限定出現",
+      "_en": "Limited time appearance",
+      "_fr": "Apparition à durée limitée"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "正拳突き",
+        "_en": "straight fist punch",
+        "_fr": "coup de poing droit"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 打撃】 強力な一撃を加える",
+        "_en": "[Power: 70/Blow] Add a powerful blow",
+        "_fr": "[Puissance : 70/Coup] Ajoutez un coup puissant"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "雷神の術",
+        "_en": "Raijin no Jutsu",
+        "_fr": "Raijin no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
+        "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
+        "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "破壊の一撃",
+        "_en": "A blow of destruction",
+        "_fr": "Un coup de destruction"
+      },
+      "pouvoir": "190",
+      "explication": {
+        "_jp": "全てを破壊するような 強烈なパンチを正面の敵に おみまいする",
+        "_en": "Deliver a powerful punch to the enemy in front of you that destroys everything.",
+        "_fr": "Donnez un puissant coup de poing à l'ennemi devant vous qui détruit tout."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "破壊的な力",
+        "_en": "destructive force",
+        "_fr": "force destructrice"
+      },
+      "explication": {
+        "_jp": "【全ステダウン】 破壊的な呪いで 全ステータスがダウン",
+        "_en": "[All status down] All status down due to destructive curse",
+        "_fr": "[Tous les statuts baissés] Tous les statuts baissés en raison d'une malédiction destructrice"
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "怪魔の幹部の一人。 怪魔のリーダー的存在で あらゆる物を破壊するという モットーを持つ。 戦闘力は 怪魔ナンバーワン。",
+      "_en": "One of the monster executives. He is a leader of monsters and has a motto of destroying everything. His fighting power is number one among monsters.",
+      "_fr": "L'un des dirigeants monstres. Il est un chef de monstres et a pour devise de tout détruire. Sa puissance de combat est la première parmi les monstres."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "355",
+  "Name_yww": "破怪",
+  "description_jp_yww": "怪魔の幹部の一人。 怪魔のリーダー的存在で あらゆる物を破壊するという モットーを持つ。 戦闘力は　怪魔ナンバーワン。",
+  "BingoMessage_jp_yww": "オレなら自分で出れたがな まあいい　ついていくことにしよう…",
+  "MonsterId_yww": "y338000",
+  "Height_yww": 14.89,
+  "CommondId_yww": "sp_338000",
+  "MinHp_yww": 55,
+  "MaxHp_yww": 463,
+  "MinAttack_yww": 8,
+  "MaxAttack_yww": 45,
+  "MinMagic_yww": 49,
+  "MaxMagic_yww": 323,
+  "MinDefense_yww": 20,
+  "MaxDefense_yww": 145,
+  "MinSpeed_yww": 30,
+  "MaxSpeed_yww": 199,
+  "AttackId_yww": 47,
+  "MagicId_yww": 18,
+  "HauntId_yww": 338000,
+  "SpSkillId_yww": 338000,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 15,
+  "DislikeFoodKind_yww": 2,
+  "ActionType_yww": 9,
+  "TribeType_yww": 9,
+  "MedallionImage_yww": "y333800.png",
+  "SpriteImage_yww": "img_y333800.png",
+  "Audio_yww": "sp_y333800.wav",
+  "Description_yww": "L'un des hauts responsables des Kaima. Il fait figure de chef de file des Kaima et a pour devise de tout détruire. C'est le numéro un des Kaima en termes de puissance de combat.",
+  "BingoMessage_fr_yww": "Moi, j'aurais pu sortir tout seul, mais bon... Tant pis, je vais les suivre…"
 }

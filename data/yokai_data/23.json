@@ -1,501 +1,532 @@
 {
-    "ID": "23",
-    "Nom": "Siro",
-    "Tribue": "Vaillant",
-    "Rang": "A",
-    "PV": "402",
-    "Force": "255",
-    "Esprit": "62",
-    "Défense": "143",
-    "Vitesse": "140",
-    "Description": "Ceux envoûtés par Siro deviennent meilleurs. L'avenir leur sourira ainsi qu'à leur entourage.",
-    "nourriture": "Viande",
-    "élément": "Foudre",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "Il est très bagarreur et déterminé. Il n'hésitera pas à te brûler si tu ne veux pas toujours faire mieux.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/siro.png",
-    "numero": "014",
-    "nourriture_favorite": "Viande",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Esprit étincelant",
-            "effet": "La puissance augmente quand un allié est battu."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing précis",
-            "effet": "90 | 135"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Foudre",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Chaleur radiante",
-            "effet": "Augmente la FOR. des alliés avec son aura féroce."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Cri du cœur",
-            "effet": "Augmente la VIT. d'un allié grâce à son aura rayonnante !"
-        }
+  "ID": "23",
+  "Nom": "Siro",
+  "Tribue": "Vaillant",
+  "Rang": "A",
+  "PV": "402",
+  "Force": "255",
+  "Esprit": "62",
+  "Défense": "143",
+  "Vitesse": "140",
+  "Description": "Ceux envoûtés par Siro deviennent meilleurs. L'avenir leur sourira ainsi qu'à leur entourage.",
+  "nourriture": "Viande",
+  "élément": "Foudre",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "Il est très bagarreur et déterminé. Il n'hésitera pas à te brûler si tu ne veux pas toujours faire mieux.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/siro.png",
+  "numero": "014",
+  "nourriture_favorite": "Viande",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Esprit étincelant",
+      "effet": "La puissance augmente quand un allié est battu."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing précis",
+      "effet": "90 | 135"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Foudre",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Chaleur radiante",
+      "effet": "Augmente la FOR. des alliés avec son aura féroce."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Cri du cœur",
+      "effet": "Augmente la VIT. d'un allié grâce à son aura rayonnante !"
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Dans le mille !",
+    "Mange de la nourriture insipide": "Ça peut aller.",
+    "Mange de la mauvaise nourriture": "Ah non, pas ça !",
+    "A la flemme": "En pause !",
+    "Est échangé": "À l'instant où on s'est rencontrés, mon cœur a rugi ! Que d'émotions.",
+    "Devient ton ami": "Mon cœur RUGIT ! ROAAAARRR ! POUR MES AMIS !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "轟獅子",
+  "nom_anglais": "Siro",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Les Hauts de Granval-École élémentaire- Extérieur - Buissons (Nuit pluvieuse)",
+      "Bingo-kai-Pièce rouge"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Dans le mille !",
-        "Mange de la nourriture insipide": "Ça peut aller.",
-        "Mange de la mauvaise nourriture": "Ah non, pas ça !",
-        "A la flemme": "En pause !",
-        "Est échangé": "À l'instant où on s'est rencontrés, mon cœur a rugi ! Que d'émotions.",
-        "Devient ton ami": "Mon cœur RUGIT ! ROAAAARRR ! POUR MES AMIS !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "轟獅子",
-    "nom_anglais": "Siro",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Les Hauts de Granval-École élémentaire- Extérieur - Buissons (Nuit pluvieuse)",
-            "Bingo-kai-Pièce rouge"
-        ],
-        "yw2": [
-            "Mont Sylvestre - Sentier de Randonnée",
-            "Portails Mystère- Salle des maîtres",
-            "Bingo-kai-Pièce rouge(Présent)",
-            "Bingo-kai -Pièce mystère (Quer)",
-            "Bingo-kai de laVoie du mystère-Pièce mystère (papillon)",
-            "Bingo-kai oni"
-        ],
-        "yw3": [
-            "Betel- sous les voitures"
-        ],
-        "yw Wibble Wobble": [
-            "Stage Caché 17 (Yo-kai World)"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Poing précis",
-                "puissance": "90|135",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Foudre",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Chaleur radiante",
-                "puissance": "",
-                "description": "Augmente la FOR. des alliés avec son aura féroce."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cri du cœur",
-                "puissance": "N/A",
-                "description": "Augmente la VIT. d'un allié grâce à son aura rayonnante !"
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit étincelant",
-                "description": "La puissance augmente quand un allié est battu."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Poing précis",
-                "puissance": "90|135",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Foudre",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Chaleur radiante",
-                "puissance": "",
-                "description": "Augmente la FOR. des alliés avec son aura féroce."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cri du cœur",
-                "puissance": "N/A",
-                "description": "Augmente la VIT. d'un allié grâce à son aura rayonnante !"
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Foudre",
-                "puissance": "N/A",
-                "description": "Foudroie les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit étincelant",
-                "description": "La puissance augmente quand un allié est battu."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Chaleur radiante",
-                "puissance": "___",
-                "description": "Augmentation temporaire de l'attaque des alliés à proximité."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Attaque blitz",
-                "puissance": "25",
-                "description": "Touche plusieurs fois pour des attaques en continu."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Choc de bombes",
-                "puissance": "750",
-                "description": "Une grosse bombe explose sur les ennemis et les alliés."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Décharge",
-                "puissance": "40",
-                "description": "Utilise un sort électrique. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Finisseur",
-                "description": "Augmente dégâts sur tous les ennemis en danger."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Poing précis",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Foudre",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Chaleur radiante",
-                "puissance": "",
-                "description": "Augmente fortement la FOR. de tous les alliés avec son aura féroce."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cri du cœur",
-                "puissance": "N/A",
-                "description": "Augmente la VIT. d'un allié grâce à une aura rayonnante !"
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Chaleur radiante",
-                "puissance": "___",
-                "description": "Booste +++ l'attaque des alliés proches un instant."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque blitz",
-                "puissance": "25",
-                "description": "Assaut continu. Le coup ultime est plus puissant."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Choc de bombes",
-                "puissance": "750",
-                "description": "Bombe à retardement ++ pouvant blesser les alliés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit étincelant",
-                "description": "↑ puissance, si un allié est battu."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Bracelet solaire"
-            },
-            {
-                "taux": "?%",
-                "objet": "Foie à l'oignon"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Bracelet solaire"
-            },
-            {
-                "taux": "?%",
-                "objet": "Foie à l'oignon"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Les coups secrets"
-            },
-            {
-                "taux": "?%",
-                "objet": "Langue de bœuf"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Esprit étincelant",
-        "description": "La puissance augmente quand un allié est battu."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/siro.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/siro.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/siro.wav",
-    "oldID": "24",
-    "medallium_ids": {
-        "yw1": "014",
-        "yw2": "026",
-        "yw3": "042"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "030",
-        "yw Blasters 2": "042",
-        "yw Wibble Wobble": "1008",
-        "yw World": "0013",
-        "yw Ukiukipedia": "yw1-004"
-    },
-    "battle_type": "Rare",
-    "skill_name": "Shining Spirit",
-    "skill_effect": "Heart's Roar Roar ywW",
-    "disliked_food": "",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "415",
-                "STR": "178",
-                "SPR": "198",
-                "DEF": "104",
-                "SPD": "149"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "412",
-                "STR": "178",
-                "SPR": "198",
-                "DEF": "104",
-                "SPD": "149"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "420",
-                "STR": "208",
-                "SPR": "218",
-                "DEF": "94",
-                "SPD": "145"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "410",
-                "STR": "205",
-                "SPR": "216",
-                "DEF": "92"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "317-554",
-                "STR": "205",
-                "SPR": "216",
-                "DEF": "92"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "457",
-                "STR": "285",
-                "SPR": "62",
-                "DEF": "153",
-                "SPD": "162"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw World": {
-            "stats": {
-                "HP": "457",
-                "STR": "285",
-                "SPR": "62",
-                "DEF": "153",
-                "SPD": "162"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "轟獅子",
-            "Todorokijishi"
-        ],
-        "Spanish": [
-            "Sirleón"
-        ],
-        "French": [
-            "Siro"
-        ],
-        "Italian": [
-            "Siro"
-        ],
-        "German": [
-            "Stimmuleo"
-        ],
-        "Dutch": [
-            "Siro"
-        ],
-        "Korean": [
-            "미라클",
-            "Milakeul"
-        ],
-        "Russian": [
-            "Велигрив",
-            "Veligriv"
-        ],
-        "Arabic": [
-            "زمجر",
-            "Zamjar"
-        ],
-        "Chinese (Mandarin)": [
-            "轟獅子"
-        ],
-        "Portuguese (Brazilian)": [
-            "Neveleo"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "轟獅子"
-        ],
-        "Spanish": [
-            "Sirleón"
-        ],
-        "French": [
-            "Siro"
-        ],
-        "Italian": [
-            "Siro"
-        ],
-        "German": [
-            "Stimmuleo"
-        ],
-        "Dutch": [
-            "Siro"
-        ],
-        "Korean": [
-            "미라클 라이온"
-        ],
-        "Russian": [
-            "Велигрив"
-        ],
-        "Arabic": [
-            "زمجر"
-        ],
-        "Chinese (Mandarin)": [
-            "轟獅子"
-        ],
-        "Portuguese (Brazilian)": [
-            "Neveleo"
-        ]
-    },
-    "description_en": "Siro brings out the best in those he Inspirits. They become shining lights for the future.",
-    "nom_en": "Quaken",
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw2": [
+      "Mont Sylvestre - Sentier de Randonnée",
+      "Portails Mystère- Salle des maîtres",
+      "Bingo-kai-Pièce rouge(Présent)",
+      "Bingo-kai -Pièce mystère (Quer)",
+      "Bingo-kai de laVoie du mystère-Pièce mystère (papillon)",
+      "Bingo-kai oni"
+    ],
+    "yw3": [
+      "Betel- sous les voitures"
+    ],
+    "yw Wibble Wobble": [
+      "Stage Caché 17 (Yo-kai World)"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Poing précis",
+        "puissance": "90|135",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Foudre",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Chaleur radiante",
+        "puissance": "",
+        "description": "Augmente la FOR. des alliés avec son aura féroce."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cri du cœur",
+        "puissance": "N/A",
+        "description": "Augmente la VIT. d'un allié grâce à son aura rayonnante !"
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit étincelant",
+        "description": "La puissance augmente quand un allié est battu."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Poing précis",
+        "puissance": "90|135",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Foudre",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Chaleur radiante",
+        "puissance": "",
+        "description": "Augmente la FOR. des alliés avec son aura féroce."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cri du cœur",
+        "puissance": "N/A",
+        "description": "Augmente la VIT. d'un allié grâce à son aura rayonnante !"
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Foudre",
+        "puissance": "N/A",
+        "description": "Foudroie les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit étincelant",
+        "description": "La puissance augmente quand un allié est battu."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Chaleur radiante",
+        "puissance": "___",
+        "description": "Augmentation temporaire de l'attaque des alliés à proximité."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Attaque blitz",
+        "puissance": "25",
+        "description": "Touche plusieurs fois pour des attaques en continu."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Choc de bombes",
+        "puissance": "750",
+        "description": "Une grosse bombe explose sur les ennemis et les alliés."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Décharge",
+        "puissance": "40",
+        "description": "Utilise un sort électrique. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Finisseur",
+        "description": "Augmente dégâts sur tous les ennemis en danger."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Poing précis",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Foudre",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Chaleur radiante",
+        "puissance": "",
+        "description": "Augmente fortement la FOR. de tous les alliés avec son aura féroce."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cri du cœur",
+        "puissance": "N/A",
+        "description": "Augmente la VIT. d'un allié grâce à une aura rayonnante !"
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Chaleur radiante",
+        "puissance": "___",
+        "description": "Booste +++ l'attaque des alliés proches un instant."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Attaque blitz",
+        "puissance": "25",
+        "description": "Assaut continu. Le coup ultime est plus puissant."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Choc de bombes",
+        "puissance": "750",
+        "description": "Bombe à retardement ++ pouvant blesser les alliés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit étincelant",
+        "description": "↑ puissance, si un allié est battu."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Bracelet solaire"
+      },
+      {
+        "taux": "?%",
+        "objet": "Foie à l'oignon"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Bracelet solaire"
+      },
+      {
+        "taux": "?%",
+        "objet": "Foie à l'oignon"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Les coups secrets"
+      },
+      {
+        "taux": "?%",
+        "objet": "Langue de bœuf"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Esprit étincelant",
+    "description": "La puissance augmente quand un allié est battu."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/siro.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/siro.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/siro.wav",
+  "oldID": "24",
+  "medallium_ids": {
+    "yw1": "014",
+    "yw2": "026",
+    "yw3": "042"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "030",
+    "yw Blasters 2": "042",
+    "yw Wibble Wobble": "1008",
+    "yw World": "0013",
+    "yw Ukiukipedia": "yw1-004"
+  },
+  "battle_type": "Rare",
+  "skill_name": "Shining Spirit",
+  "skill_effect": "Heart's Roar Roar ywW",
+  "disliked_food": 3,
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "415",
+        "STR": "178",
+        "SPR": "198",
+        "DEF": "104",
+        "SPD": "149"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "412",
+        "STR": "178",
+        "SPR": "198",
+        "DEF": "104",
+        "SPD": "149"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "420",
+        "STR": "208",
+        "SPR": "218",
+        "DEF": "94",
+        "SPD": "145"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "410",
+        "STR": "205",
+        "SPR": "216",
+        "DEF": "92"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "317-554",
+        "STR": "205",
+        "SPR": "216",
+        "DEF": "92"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "457",
+        "STR": "285",
+        "SPR": "62",
+        "DEF": "153",
+        "SPD": "162"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw World": {
+      "stats": {
+        "HP": "457",
+        "STR": "285",
+        "SPR": "62",
+        "DEF": "153",
+        "SPD": "162"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "轟獅子",
+      "Todorokijishi"
+    ],
+    "Spanish": [
+      "Sirleón"
+    ],
+    "French": [
+      "Siro"
+    ],
+    "Italian": [
+      "Siro"
+    ],
+    "German": [
+      "Stimmuleo"
+    ],
+    "Dutch": [
+      "Siro"
+    ],
+    "Korean": [
+      "미라클",
+      "Milakeul"
+    ],
+    "Russian": [
+      "Велигрив",
+      "Veligriv"
+    ],
+    "Arabic": [
+      "زمجر",
+      "Zamjar"
+    ],
+    "Chinese (Mandarin)": [
+      "轟獅子"
+    ],
+    "Portuguese (Brazilian)": [
+      "Neveleo"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "轟獅子"
+    ],
+    "Spanish": [
+      "Sirleón"
+    ],
+    "French": [
+      "Siro"
+    ],
+    "Italian": [
+      "Siro"
+    ],
+    "German": [
+      "Stimmuleo"
+    ],
+    "Dutch": [
+      "Siro"
+    ],
+    "Korean": [
+      "미라클 라이온"
+    ],
+    "Russian": [
+      "Велигрив"
+    ],
+    "Arabic": [
+      "زمجر"
+    ],
+    "Chinese (Mandarin)": [
+      "轟獅子"
+    ],
+    "Portuguese (Brazilian)": [
+      "Neveleo"
+    ]
+  },
+  "description_en": "Siro brings out the best in those he Inspirits. They become shining lights for the future.",
+  "nom_en": "Quaken",
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "23",
+  "Name_yww": "とどろき獅子",
+  "description_jp_yww": "珍しい銀色のライオン妖怪。 とりつかれた人は 向上心を呼びさまされ 後世にその名がとどろく 大人物になれる。",
+  "BingoMessage_jp_yww": "うおおおぉぉおお！！　お前の気持ちが 轟いたゾォ！！　ついていくぜ！！",
+  "MonsterId_yww": "y113020",
+  "Height_yww": 7.0,
+  "CommondId_yww": "sp_113020",
+  "MinHp_yww": 58,
+  "MaxHp_yww": 457,
+  "MinAttack_yww": 42,
+  "MaxAttack_yww": 285,
+  "MinMagic_yww": 6,
+  "MaxMagic_yww": 62,
+  "MinDefense_yww": 19,
+  "MaxDefense_yww": 153,
+  "MinSpeed_yww": 19,
+  "MaxSpeed_yww": 162,
+  "AttackId_yww": 3,
+  "MagicId_yww": 8,
+  "HauntId_yww": 113020,
+  "SpSkillId_yww": 113020,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 11,
+  "DislikeFoodKind_yww": 3,
+  "ActionType_yww": 1,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y108820.png",
+  "SpriteImage_yww": "img_y108820.png",
+  "Audio_yww": "sp_y108820.wav",
+  "Description_yww": "Un yōkai rare, ressemblant à un lion argenté. La personne possédée voit son ambition éveillée et peut devenir une personnalité éminente dont le nom résonnera à travers les générations.",
+  "BingoMessage_fr_yww": "Wouahhhhh !! Tes sentiments ont résonné en moi !! Je te suis !!"
 }

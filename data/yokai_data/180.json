@@ -1,422 +1,453 @@
 {
-    "ID": "180",
-    "Nom": "Marcognito",
-    "Tribue": "Sombre",
-    "Rang": "E",
-    "PV": "269",
-    "Force": "143",
-    "Esprit": "35",
-    "Défense": "89",
-    "Vitesse": "180",
-    "Description": "Son envoûtement va atténuer ta présence. Il se sert de ce pouvoir quand il travaille en tant que ninja.",
-    "nourriture": "Riz",
-    "élément": "Vent",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "Marcognito vient du prénom Marcoet de Incognito (le fait de ne pas être reconnu).",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Son envoûtement, qu'il appelle l'Effacement, permet d'atténuer la présence des personnes qu'il envoûte. Celles-ci ne seront plus remarquées par leurs congénères et finiront par rester seules. Dans le manga et le dessin-animé, les personnes envoûtées deviennent grises, fantomatiques, et leurs yeux disparaissent.",
-    "personnalité": "Il est très timide et paisible et veut ne pas être remarqué. Il est donc toujours à l'écart et est très dur envers lui-même, disant que son existence n'a aucune valeur et que personne ne doit se soucier de lui. Néanmoins, il reste un ninja et est capable de dégainer son épée très vivement pour se battre, si besoin.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/marcognito.png",
-    "numero": "144",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Invisibilité",
-            "effet": "Ne sera pas la cible des attaques."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coupe-part",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tourbillon",
-            "effet": "20 | 90"
-        }
+  "ID": "180",
+  "Nom": "Marcognito",
+  "Tribue": "Sombre",
+  "Rang": "E",
+  "PV": "269",
+  "Force": "143",
+  "Esprit": "35",
+  "Défense": "89",
+  "Vitesse": "180",
+  "Description": "Son envoûtement va atténuer ta présence. Il se sert de ce pouvoir quand il travaille en tant que ninja.",
+  "nourriture": "Riz",
+  "élément": "Vent",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "Marcognito vient du prénom Marcoet de Incognito (le fait de ne pas être reconnu).",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Son envoûtement, qu'il appelle l'Effacement, permet d'atténuer la présence des personnes qu'il envoûte. Celles-ci ne seront plus remarquées par leurs congénères et finiront par rester seules. Dans le manga et le dessin-animé, les personnes envoûtées deviennent grises, fantomatiques, et leurs yeux disparaissent.",
+  "personnalité": "Il est très timide et paisible et veut ne pas être remarqué. Il est donc toujours à l'écart et est très dur envers lui-même, disant que son existence n'a aucune valeur et que personne ne doit se soucier de lui. Néanmoins, il reste un ninja et est capable de dégainer son épée très vivement pour se battre, si besoin.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/marcognito.png",
+  "numero": "144",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Invisibilité",
+      "effet": "Ne sera pas la cible des attaques."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coupe-part",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tourbillon",
+      "effet": "20 | 90"
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est trop bon !",
+    "Mange de la nourriture insipide": "Ça peut aller.",
+    "Mange de la mauvaise nourriture": "C'est trop gras...",
+    "A la flemme": "Euh...",
+    "Est échangé": "Oh, tu m'as vu ? Je suis là, mais faisons semblant que non.",
+    "Devient ton ami": "Laisse-moi t'assister dans l'ombre..."
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "Général",
+      "de": "Marcognito",
+      "vers": "Ninjamévu",
+      "critere": "Niveau 24"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ジミー",
+  "nom_anglais": "Dimmy",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Mino Hino",
+    "francaise": "Nathalie Bienaimé",
+    "anglaise": "English VA Johnny Yong Bosch"
+  },
+  "localisations": {
+    "yw1": [
+      "Il est possible de le trouver auxHauts de Granvalsous les voitures et les distributeurs ainsi que dans le Passage des Matous ou dans l'Allée sinistre."
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est trop bon !",
-        "Mange de la nourriture insipide": "Ça peut aller.",
-        "Mange de la mauvaise nourriture": "C'est trop gras...",
-        "A la flemme": "Euh...",
-        "Est échangé": "Oh, tu m'as vu ? Je suis là, mais faisons semblant que non.",
-        "Devient ton ami": "Laisse-moi t'assister dans l'ombre..."
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "Général",
-            "de": "Marcognito",
-            "vers": "Ninjamévu",
-            "critere": "Niveau 24"
-        }
+    "yw2": [
+      "Il peut être trouvé sous les voitures et les distributeurs ou dans les dépôts d'ordures àLa Corniche."
     ],
-    "image_locale": "",
-    "nom_original": "ジミー",
-    "nom_anglais": "Dimmy",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Mino Hino",
-        "francaise": "Nathalie Bienaimé",
-        "anglaise": "English VA Johnny Yong Bosch"
-    },
-    "localisations": {
-        "yw1": [
-            "Il est possible de le trouver auxHauts de Granvalsous les voitures et les distributeurs ainsi que dans le Passage des Matous ou dans l'Allée sinistre."
-        ],
-        "yw2": [
-            "Il peut être trouvé sous les voitures et les distributeurs ou dans les dépôts d'ordures àLa Corniche."
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Coteau fleuri",
-            "Bingo-kai-Pièce bleue"
-        ],
-        "yw3": [
-            "Il est trouvable dans les hautes herbes de La Corniche, duQuartier des boutiques, duMont Sylvestreet des Hauts de Granval. Il peut aussi être obtenu à laRoue Rêveen utilisant unePièce bleue."
-        ],
-        "yw4": [
-            "Il peut apparaître dans les Portes à Sésames ou les Failles duCentre-Ville de Granvalou deSakura-motomachidu passé.",
-            "Bingo-kai:Pièce Gasha,Pièce 1 étoile,Pièce 5 étoilesen guise de prix de consolation.",
-            "Il peut également être trouvé dans le combat contreGrolosdans leTournoi Enma - Arène Oniainsi que dans les missions deDameboy,Hyakki-hime (Shadowside)etFudou Myouou-kaidans le mode Blasters."
-        ],
-        "yw Wibble Wobble": [
-            "Marcognito est présent sur la plupart des cartes principales et des cartes d'événement. Il est également possible de l'obtenir dans laPièce 1 étoile, laPièce bleueet laPièce frisson."
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Invisibilité",
-        "description": "Ne sera pas la cible des attaques."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/marcognito.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/marcognito.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/marcognito.wav",
-    "oldID": "180",
-    "medallium_ids": {
-        "yw1": "144",
-        "yw2": "214",
-        "yw3": "392",
-        "yw4": "2 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "257",
-        "yw Blasters 2": "399",
-        "yw Wibble Wobble": "6004",
-        "yw World": "0123",
-        "Y-Gakuen": "095",
-        "yw Ukiukipedia": "yw3-018"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Secrecy Wavy Body yw2 FS",
-    "skill_effect": "Fade Away",
-    "disliked_food": "Meat",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "286",
-                "STR": "139",
-                "SPR": "103",
-                "DEF": "75",
-                "SPD": "156"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "286",
-                "STR": "139",
-                "SPR": "103",
-                "DEF": "75",
-                "SPD": "156"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "143",
-                "STR": "26",
-                "SPR": "63",
-                "DEF": "94",
-                "SPD": "185"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "97-170",
-                "STR": "26",
-                "SPR": "63"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "97-170"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "97-170"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "97-170"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ジミー",
-            "Jimī"
-        ],
-        "Spanish": [
-            "Nomevén"
-        ],
-        "French": [
-            "Marcognito"
-        ],
-        "Italian": [
-            "Annebio"
-        ],
-        "German": [
-            "Simpel"
-        ],
-        "Dutch": [
-            "Dimmy"
-        ],
-        "Korean": [
-            "안띄림자",
-            "Anttuirimja"
-        ],
-        "Russian": [
-            "Впотьман",
-            "Vpot'man"
-        ],
-        "Arabic": [
-            "ضليل",
-            "Ḍillīl"
-        ],
-        "Chinese (Cantonese)": [
-            "占美",
-            "zim1"
-        ],
-        "Chinese (Mandarin)": [
-            "影忍",
-            "Yǐngrěn",
-            "(Taiwan)",
-            "淡影忍者",
-            "Dànyǐngrěnzhě",
-            "(Mainland"
-        ],
-        "Polish": [
-            "Dimmy"
-        ],
-        "Portuguese (European)": [
-            "Eds"
-        ],
-        "Thai": [
-            "จิมี่",
-            "Jì-mii"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ジミー"
-        ],
-        "Spanish": [
-            "Nomevén"
-        ],
-        "French": [
-            "Marcognito"
-        ],
-        "Italian": [
-            "Annebio"
-        ],
-        "German": [
-            "Simpel"
-        ],
-        "Dutch": [
-            "Dimmy"
-        ],
-        "Korean": [
-            "안띄림자"
-        ],
-        "Russian": [
-            "Впотьман"
-        ],
-        "Arabic": [
-            "ضليل"
-        ],
-        "Chinese (Cantonese)": [
-            "占美"
-        ],
-        "Chinese (Mandarin)": [
-            "影忍(Taiwan)淡影忍者(Mainland China)"
-        ],
-        "Polish": [
-            "Dimmy"
-        ],
-        "Portuguese (European)": [
-            "Eds Creto"
-        ],
-        "Thai": [
-            "จิมี่"
-        ]
-    },
-    "description_en": "Being Inspirited by Dimmy will tone down your presence. Dimmy uses this for his job as a ninja.",
-    "nom_en": "Lamedian",
-    "rang_yww": "E",
-    "tribue_yww": "Usurakage",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "Onigiri",
-    "nourriture_favorite": "Onigiri",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {
-        "hp": 34,
-        "str": 19,
-        "spr": 2,
-        "def": 8,
-        "spd": 22
-    },
-    "stats_max_yww": {
-        "hp": 269,
-        "str": 143,
-        "spr": 35,
-        "def": 89,
-        "spd": 180
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "青コイン",
-            "_en": "blue coin",
-            "_fr": "pièce bleue"
-        }
+    "yw Blasters 1": [
+      "Patrouille -Coteau fleuri",
+      "Bingo-kai-Pièce bleue"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "きりつける",
-                "_en": "punish",
-                "_fr": "punir"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "ようじゅつ",
-                "_fr": "ようじゅつ"
-            },
-            "nom": {
-                "_jp": "つむじ風の術",
-                "_en": "Whirlwind technique",
-                "_fr": "Technique du tourbillon"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 風属性】 風の妖術を使う。",
-                "_en": "[Power: 40 / Wind attribute] Uses wind magic.",
-                "_fr": "[Puissance : 40 / Attribut Vent] Utilise la magie du vent."
-            }
-        }
+    "yw3": [
+      "Il est trouvable dans les hautes herbes de La Corniche, duQuartier des boutiques, duMont Sylvestreet des Hauts de Granval. Il peut aussi être obtenu à laRoue Rêveen utilisant unePièce bleue."
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ジミーな一発",
-                "_en": "Jimmy shot",
-                "_fr": "Jimmy a tiré"
-            },
-            "pouvoir": "67",
-            "explication": {
-                "_jp": "地味ながらも気合いの入った強力なビンタで敵1匹をこうげきする。",
-                "_en": "Destroys one enemy with a simple yet powerful slap.",
-                "_fr": "Détruit un ennemi d'un simple coup puissant."
-            }
-        }
+    "yw4": [
+      "Il peut apparaître dans les Portes à Sésames ou les Failles duCentre-Ville de Granvalou deSakura-motomachidu passé.",
+      "Bingo-kai:Pièce Gasha,Pièce 1 étoile,Pièce 5 étoilesen guise de prix de consolation.",
+      "Il peut également être trouvé dans le combat contreGrolosdans leTournoi Enma - Arène Oniainsi que dans les missions deDameboy,Hyakki-hime (Shadowside)etFudou Myouou-kaidans le mode Blasters."
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "存在感をうすくする",
-                "_en": "diminish one's presence",
-                "_fr": "diminuer sa présence"
-            },
-            "explication": {
-                "_jp": "【まもりダウン】 とりつかれた妖怪はすごく地味になって まもりがダウンする。",
-                "_en": "[Mamori Down] The possessed monster becomes very plain and its protection goes down.",
-                "_fr": "[Mamori Down] Le monstre possédé devient très clair et sa protection diminue."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "ジミーにとりつかれると 影がうすくなり だれからも気づかれなくなる。 ジミーは忍者の仕事に その力を利用している。",
-            "_en": "When you're possessed by Jimmy, your shadow fades and no one notices you. Jimmy uses his powers to work as a ninja.",
-            "_fr": "Lorsque vous êtes possédé par Jimmy, votre ombre s'estompe et personne ne vous remarque. Jimmy utilise ses pouvoirs pour travailler comme un ninja."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Marcognito est présent sur la plupart des cartes principales et des cartes d'événement. Il est également possible de l'obtenir dans laPièce 1 étoile, laPièce bleueet laPièce frisson."
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {},
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Invisibilité",
+    "description": "Ne sera pas la cible des attaques."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/marcognito.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/marcognito.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/marcognito.wav",
+  "oldID": "180",
+  "medallium_ids": {
+    "yw1": "144",
+    "yw2": "214",
+    "yw3": "392",
+    "yw4": "2 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "257",
+    "yw Blasters 2": "399",
+    "yw Wibble Wobble": "6004",
+    "yw World": "0123",
+    "Y-Gakuen": "095",
+    "yw Ukiukipedia": "yw3-018"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Secrecy Wavy Body yw2 FS",
+  "skill_effect": "Fade Away",
+  "disliked_food": "Meat",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "286",
+        "STR": "139",
+        "SPR": "103",
+        "DEF": "75",
+        "SPD": "156"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "286",
+        "STR": "139",
+        "SPR": "103",
+        "DEF": "75",
+        "SPD": "156"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "143",
+        "STR": "26",
+        "SPR": "63",
+        "DEF": "94",
+        "SPD": "185"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "97-170",
+        "STR": "26",
+        "SPR": "63"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "97-170"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "97-170"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "97-170"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ジミー",
+      "Jimī"
+    ],
+    "Spanish": [
+      "Nomevén"
+    ],
+    "French": [
+      "Marcognito"
+    ],
+    "Italian": [
+      "Annebio"
+    ],
+    "German": [
+      "Simpel"
+    ],
+    "Dutch": [
+      "Dimmy"
+    ],
+    "Korean": [
+      "안띄림자",
+      "Anttuirimja"
+    ],
+    "Russian": [
+      "Впотьман",
+      "Vpot'man"
+    ],
+    "Arabic": [
+      "ضليل",
+      "Ḍillīl"
+    ],
+    "Chinese (Cantonese)": [
+      "占美",
+      "zim1"
+    ],
+    "Chinese (Mandarin)": [
+      "影忍",
+      "Yǐngrěn",
+      "(Taiwan)",
+      "淡影忍者",
+      "Dànyǐngrěnzhě",
+      "(Mainland"
+    ],
+    "Polish": [
+      "Dimmy"
+    ],
+    "Portuguese (European)": [
+      "Eds"
+    ],
+    "Thai": [
+      "จิมี่",
+      "Jì-mii"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ジミー"
+    ],
+    "Spanish": [
+      "Nomevén"
+    ],
+    "French": [
+      "Marcognito"
+    ],
+    "Italian": [
+      "Annebio"
+    ],
+    "German": [
+      "Simpel"
+    ],
+    "Dutch": [
+      "Dimmy"
+    ],
+    "Korean": [
+      "안띄림자"
+    ],
+    "Russian": [
+      "Впотьман"
+    ],
+    "Arabic": [
+      "ضليل"
+    ],
+    "Chinese (Cantonese)": [
+      "占美"
+    ],
+    "Chinese (Mandarin)": [
+      "影忍(Taiwan)淡影忍者(Mainland China)"
+    ],
+    "Polish": [
+      "Dimmy"
+    ],
+    "Portuguese (European)": [
+      "Eds Creto"
+    ],
+    "Thai": [
+      "จิมี่"
+    ]
+  },
+  "description_en": "Being Inspirited by Dimmy will tone down your presence. Dimmy uses this for his job as a ninja.",
+  "nom_en": "Lamedian",
+  "rang_yww": "E",
+  "tribue_yww": "Usurakage",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "Onigiri",
+  "nourriture_favorite": "Onigiri",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {
+    "hp": 34,
+    "str": 19,
+    "spr": 2,
+    "def": 8,
+    "spd": 22
+  },
+  "stats_max_yww": {
+    "hp": 269,
+    "str": 143,
+    "spr": 35,
+    "def": 89,
+    "spd": 180
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "青コイン",
+      "_en": "blue coin",
+      "_fr": "pièce bleue"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "きりつける",
+        "_en": "punish",
+        "_fr": "punir"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "ようじゅつ",
+        "_fr": "ようじゅつ"
+      },
+      "nom": {
+        "_jp": "つむじ風の術",
+        "_en": "Whirlwind technique",
+        "_fr": "Technique du tourbillon"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 風属性】 風の妖術を使う。",
+        "_en": "[Power: 40 / Wind attribute] Uses wind magic.",
+        "_fr": "[Puissance : 40 / Attribut Vent] Utilise la magie du vent."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ジミーな一発",
+        "_en": "Jimmy shot",
+        "_fr": "Jimmy a tiré"
+      },
+      "pouvoir": "67",
+      "explication": {
+        "_jp": "地味ながらも気合いの入った強力なビンタで敵1匹をこうげきする。",
+        "_en": "Destroys one enemy with a simple yet powerful slap.",
+        "_fr": "Détruit un ennemi d'un simple coup puissant."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "存在感をうすくする",
+        "_en": "diminish one's presence",
+        "_fr": "diminuer sa présence"
+      },
+      "explication": {
+        "_jp": "【まもりダウン】 とりつかれた妖怪はすごく地味になって まもりがダウンする。",
+        "_en": "[Mamori Down] The possessed monster becomes very plain and its protection goes down.",
+        "_fr": "[Mamori Down] Le monstre possédé devient très clair et sa protection diminue."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "ジミーにとりつかれると 影がうすくなり だれからも気づかれなくなる。 ジミーは忍者の仕事に その力を利用している。",
+      "_en": "When you're possessed by Jimmy, your shadow fades and no one notices you. Jimmy uses his powers to work as a ninja.",
+      "_fr": "Lorsque vous êtes possédé par Jimmy, votre ombre s'estompe et personne ne vous remarque. Jimmy utilise ses pouvoirs pour travailler comme un ninja."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "181",
+  "Name_yww": "ジミー",
+  "description_jp_yww": "ジミーにとりつかれると 影がうすくなり だれからも気づかれなくなる。 ジミーは忍者の仕事に その力を利用している。",
+  "BingoMessage_jp_yww": "こんな地味な ボクを見つけるなんて　感謝です…",
+  "MonsterId_yww": "y197000",
+  "Height_yww": 11.0,
+  "CommondId_yww": "sp_197000",
+  "MinHp_yww": 34,
+  "MaxHp_yww": 269,
+  "MinAttack_yww": 19,
+  "MaxAttack_yww": 143,
+  "MinMagic_yww": 2,
+  "MaxMagic_yww": 35,
+  "MinDefense_yww": 8,
+  "MaxDefense_yww": 89,
+  "MinSpeed_yww": 22,
+  "MaxSpeed_yww": 180,
+  "AttackId_yww": 43,
+  "MagicId_yww": 16,
+  "HauntId_yww": 197000,
+  "SpSkillId_yww": 197000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 1,
+  "DislikeFoodKind_yww": 11,
+  "ActionType_yww": 4,
+  "TribeType_yww": 6,
+  "MedallionImage_yww": "y192800.png",
+  "SpriteImage_yww": "img_y192800.png",
+  "Audio_yww": "sp_y192800.wav",
+  "Description_yww": "Quand on est possédé par Jimmy, on s'efface peu à peu et personne ne s'en rend compte. Jimmy utilise ce pouvoir dans le cadre de son métier de ninja.",
+  "BingoMessage_fr_yww": "Je te suis reconnaissant d'avoir remarqué un type aussi discret que moi…"
 }

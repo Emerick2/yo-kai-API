@@ -1,427 +1,458 @@
 {
-    "ID": "302",
-    "Nom": "Gloups",
-    "Tribue": "Sombre",
-    "Rang": "D",
-    "PV": "337",
-    "Force": "165",
-    "Esprit": "91",
-    "Défense": "106",
-    "Vitesse": "140",
-    "Description": "Ce Yo-kai emprunte les affaires des autres, puis les avale et ne les rend jamais.",
-    "description SITE": "Ce Yo-kai emprunte les affaires des autres, puis les avales et ne les rend jamais.",
-    "nourriture": "Sushi",
-    "élément": "Absorption",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Ceux qui sont envoûtés par Gloups empruntent des choses mais ne les rendent jamais à leur propriétaires.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/gloups.png",
-    "numero": "223",
-    "nourriture_favorite": "Sushi",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Doigts de fée",
-            "effet": "Vole un objet lorsqu'il attaque un ennemi."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Morsure",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Absorption",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Mutuelle santé",
-            "effet": "Se sert en PV ennemis et les partage avec ses alliés. 50 | 50"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Mainmise",
-            "effet": "Le Yo-kai veut emprunter les affaires des autres. Il attaque ses alliés."
-        }
+  "ID": "302",
+  "Nom": "Gloups",
+  "Tribue": "Sombre",
+  "Rang": "D",
+  "PV": "337",
+  "Force": "165",
+  "Esprit": "91",
+  "Défense": "106",
+  "Vitesse": "140",
+  "Description": "Ce Yo-kai emprunte les affaires des autres, puis les avale et ne les rend jamais.",
+  "description SITE": "Ce Yo-kai emprunte les affaires des autres, puis les avales et ne les rend jamais.",
+  "nourriture": "Sushi",
+  "élément": "Absorption",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Ceux qui sont envoûtés par Gloups empruntent des choses mais ne les rendent jamais à leur propriétaires.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/gloups.png",
+  "numero": "223",
+  "nourriture_favorite": "Sushi",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Doigts de fée",
+      "effet": "Vole un objet lorsqu'il attaque un ennemi."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Morsure",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Absorption",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Mutuelle santé",
+      "effet": "Se sert en PV ennemis et les partage avec ses alliés. 50 | 50"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Mainmise",
+      "effet": "Le Yo-kai veut emprunter les affaires des autres. Il attaque ses alliés."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Gloups !",
+    "Mange de la nourriture insipide": "*mâche*",
+    "Mange de la mauvaise nourriture": "Ptou !",
+    "A la flemme": "Oh, gloups.",
+    "Est échangé": "Alors comme ça, on veut me soustraire à",
+    "Devient ton ami": "Je suis sûr que tu me laisseras emprunter tes affaires. Devenons amis !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "yw2",
+      "de": "Gloups",
+      "vers": "Chip-Chope",
+      "critere": "Niveau 27"
+    },
+    {
+      "type": "Évolution",
+      "contexte": "yw3",
+      "de": "Gloups",
+      "vers": "Chip-Chope",
+      "critere": "Niveau 33"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "かりパックン",
+  "nom_anglais": "Yoink",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Grégory Laisné",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Ourcival- sous les maisons",
+      "Bingo-kai-Pièce bleue"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Gloups !",
-        "Mange de la nourriture insipide": "*mâche*",
-        "Mange de la mauvaise nourriture": "Ptou !",
-        "A la flemme": "Oh, gloups.",
-        "Est échangé": "Alors comme ça, on veut me soustraire à",
-        "Devient ton ami": "Je suis sûr que tu me laisseras emprunter tes affaires. Devenons amis !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "yw2",
-            "de": "Gloups",
-            "vers": "Chip-Chope",
-            "critere": "Niveau 27"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "yw3",
-            "de": "Gloups",
-            "vers": "Chip-Chope",
-            "critere": "Niveau 33"
-        }
+    "yw Blasters 1": [
+      "Exclusif au Peloton du chat rougePatrouille -Vieux Granval"
     ],
-    "image_locale": "",
-    "nom_original": "かりパックン",
-    "nom_anglais": "Yoink",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Grégory Laisné",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Ourcival- sous les maisons",
-            "Bingo-kai-Pièce bleue"
-        ],
-        "yw Blasters 1": [
-            "Exclusif au Peloton du chat rougePatrouille -Vieux Granval"
-        ],
-        "yw3": [
-            "Tour Excellence- matériaux de construction"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Morsure",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Absorption",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Mutuelle santé",
-                "puissance": "50|50",
-                "description": "Se sert en PV ennemis et les partage avec ses alliés."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Mainmise",
-                "puissance": "N/A",
-                "description": "Le Yo-kai veut emprunter les affaires des autres. Il attaque ses alliés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Doigts de fée",
-                "description": "Vole un objet lorsqu'il attaque un ennemi."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Mutuelle santé",
-                "puissance": "200×2",
-                "description": "Absorption des PV de l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Baisse offensive",
-                "puissance": "___",
-                "description": "Baisse ATT. ennemie. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Sac grappin",
-                "puissance": "___",
-                "description": "Reçois un objet aléatoire, selon la chance que tu as."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Chasseur petit gibier",
-                "description": "Augmente dégâts sur tous ennemis non Big boss."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Morsure",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Absorption",
-                "puissance": "25|87",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Mutuelle santé",
-                "puissance": "67|201",
-                "description": "Emprunte soi-disant les PV des ennemis à portée et les partage avec ses alliés."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Mainmise",
-                "puissance": "N/A",
-                "description": "Le Yo-kai veut emprunter les affaires des autres et attaque ses alliés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Doigts de fée",
-                "description": "Vole un objet lorsqu'il attaque un ennemi."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Doigts de fée",
-        "description": "Vole un objet lorsqu'il attaque un ennemi."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/gloups.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/gloups.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/gloups.wav",
-    "oldID": "313",
-    "medallium_ids": {
-        "yw2": "223",
-        "yw3": "404"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "268",
-        "yw Blasters 2": "411",
-        "yw World": "0795",
-        "yw Ukiukipedia": "yw6-028/YD5-031"
-    },
-    "battle_type": "",
-    "skill_name": "Sticky Fingers",
-    "skill_effect": "Bad Influence",
-    "disliked_food": "Sweets",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "347",
-                "STR": "146",
-                "SPR": "96",
-                "DEF": "143",
-                "SPD": "127"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "347",
-                "STR": "170",
-                "SPR": "96",
-                "DEF": "111",
-                "SPD": "145"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "かりパックン",
-            "Karipakkun"
-        ],
-        "Spanish": [
-            "Prestragon"
-        ],
-        "French": [
-            "Gloups"
-        ],
-        "Italian": [
-            "Prestamme"
-        ],
-        "German": [
-            "Schwupp"
-        ],
-        "Russian": [
-            "Заигратель",
-            "Zaigratel'"
-        ],
-        "Arabic": [
-            "بلاع",
-            "Ballāʕ"
-        ],
-        "Portuguese (Brazilian)": [
-            "Nhoc"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "かりパックン"
-        ],
-        "Spanish": [
-            "Prestragon"
-        ],
-        "French": [
-            "Gloups"
-        ],
-        "Italian": [
-            "Prestamme"
-        ],
-        "German": [
-            "Schwupp"
-        ],
-        "Russian": [
-            "Заигратель"
-        ],
-        "Arabic": [
-            "بلاع"
-        ],
-        "Portuguese (Brazilian)": [
-            "Nhoc"
-        ]
-    },
-    "description_en": "A Yo-kai who says he's borrowing people's stuff but actually just swallows it and never gives it back.",
-    "nom_en": "Pittapatt",
-    "rang_yww": "D",
-    "tribue_yww": "Usurakage",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "Sushis",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "stats_initiale_yww": {
-        "hp": 40,
-        "str": 22,
-        "spr": 10,
-        "def": 12,
-        "spd": 20
-    },
-    "stats_max_yww": {
-        "hp": 337,
-        "str": 165,
-        "spr": 91,
-        "def": 106,
-        "spd": 140
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "かみつく",
-                "_en": "bite",
-                "_fr": "mordre"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "すいとりの術",
-                "_en": "Sweetori no Jutsu",
-                "_fr": "Sweetori no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:25 / 吸収】 敵のHPを吸い取る。",
-                "_en": "[Power: 25 / Absorption] Absorbs the enemy's HP.",
-                "_fr": "[Puissance : 25 / Absorption] Absorbe les PV de l'ennemi."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "元気かりパックン",
-                "_en": "Cheer up Pakkun",
-                "_fr": "Courage Pakkun"
-            },
-            "pouvoir": "67",
-            "explication": {
-                "_jp": "むじゃきな借りパクテクで敵全員のHPを吸収し味方全員に分け与える。",
-                "_en": "Absorbs the HP of all enemies and distributes it to all allies using a reckless borrowed technique.",
-                "_fr": "Absorbe les HP de tous les ennemis et les distribue à tous les alliés en utilisant une technique empruntée imprudente."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "借りパクさせる",
-                "_en": "borrow and copy",
-                "_fr": "emprunter et copier"
-            },
-            "explication": {
-                "_jp": "【混乱】 とりつかれた妖怪は人の物を借りたくなってしまい味方をすぐにこうげきする。",
-                "_en": "[Confusion] A possessed youkai wants to borrow people's things and immediately attacks allies.",
-                "_fr": "[Confusion] Un yôkai possédé veut emprunter les affaires des gens et attaque immédiatement ses alliés."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "借りたものをパクッと飲み込み 自分のものにする妖怪。 とりつかれると 人から 借りたものを ずっと返さずに そのままにしてしまうのだ。",
-            "_en": "A monster that swallows borrowed things and makes them its own. When they become obsessed with something, they keep things that they have borrowed from others without returning them.",
-            "_fr": "Un monstre qui avale les choses empruntées et les fait siennes. Lorsqu’ils deviennent obsédés par quelque chose, ils gardent les choses qu’ils ont empruntées aux autres sans les rendre."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Tour Excellence- matériaux de construction"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Morsure",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Absorption",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Mutuelle santé",
+        "puissance": "50|50",
+        "description": "Se sert en PV ennemis et les partage avec ses alliés."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Mainmise",
+        "puissance": "N/A",
+        "description": "Le Yo-kai veut emprunter les affaires des autres. Il attaque ses alliés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Doigts de fée",
+        "description": "Vole un objet lorsqu'il attaque un ennemi."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Mutuelle santé",
+        "puissance": "200×2",
+        "description": "Absorption des PV de l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Baisse offensive",
+        "puissance": "___",
+        "description": "Baisse ATT. ennemie. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Sac grappin",
+        "puissance": "___",
+        "description": "Reçois un objet aléatoire, selon la chance que tu as."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Chasseur petit gibier",
+        "description": "Augmente dégâts sur tous ennemis non Big boss."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Morsure",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Absorption",
+        "puissance": "25|87",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Mutuelle santé",
+        "puissance": "67|201",
+        "description": "Emprunte soi-disant les PV des ennemis à portée et les partage avec ses alliés."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Mainmise",
+        "puissance": "N/A",
+        "description": "Le Yo-kai veut emprunter les affaires des autres et attaque ses alliés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Doigts de fée",
+        "description": "Vole un objet lorsqu'il attaque un ennemi."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Doigts de fée",
+    "description": "Vole un objet lorsqu'il attaque un ennemi."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/gloups.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/gloups.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/gloups.wav",
+  "oldID": "313",
+  "medallium_ids": {
+    "yw2": "223",
+    "yw3": "404"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "268",
+    "yw Blasters 2": "411",
+    "yw World": "0795",
+    "yw Ukiukipedia": "yw6-028/YD5-031"
+  },
+  "battle_type": "",
+  "skill_name": "Sticky Fingers",
+  "skill_effect": "Bad Influence",
+  "disliked_food": "Sweets",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "347",
+        "STR": "146",
+        "SPR": "96",
+        "DEF": "143",
+        "SPD": "127"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "347",
+        "STR": "170",
+        "SPR": "96",
+        "DEF": "111",
+        "SPD": "145"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "かりパックン",
+      "Karipakkun"
+    ],
+    "Spanish": [
+      "Prestragon"
+    ],
+    "French": [
+      "Gloups"
+    ],
+    "Italian": [
+      "Prestamme"
+    ],
+    "German": [
+      "Schwupp"
+    ],
+    "Russian": [
+      "Заигратель",
+      "Zaigratel'"
+    ],
+    "Arabic": [
+      "بلاع",
+      "Ballāʕ"
+    ],
+    "Portuguese (Brazilian)": [
+      "Nhoc"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "かりパックン"
+    ],
+    "Spanish": [
+      "Prestragon"
+    ],
+    "French": [
+      "Gloups"
+    ],
+    "Italian": [
+      "Prestamme"
+    ],
+    "German": [
+      "Schwupp"
+    ],
+    "Russian": [
+      "Заигратель"
+    ],
+    "Arabic": [
+      "بلاع"
+    ],
+    "Portuguese (Brazilian)": [
+      "Nhoc"
+    ]
+  },
+  "description_en": "A Yo-kai who says he's borrowing people's stuff but actually just swallows it and never gives it back.",
+  "nom_en": "Pittapatt",
+  "rang_yww": "D",
+  "tribue_yww": "Usurakage",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "Sushis",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "avantage_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "stats_initiale_yww": {
+    "hp": 40,
+    "str": 22,
+    "spr": 10,
+    "def": 12,
+    "spd": 20
+  },
+  "stats_max_yww": {
+    "hp": 337,
+    "str": 165,
+    "spr": 91,
+    "def": 106,
+    "spd": 140
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "かみつく",
+        "_en": "bite",
+        "_fr": "mordre"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "すいとりの術",
+        "_en": "Sweetori no Jutsu",
+        "_fr": "Sweetori no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:25 / 吸収】 敵のHPを吸い取る。",
+        "_en": "[Power: 25 / Absorption] Absorbs the enemy's HP.",
+        "_fr": "[Puissance : 25 / Absorption] Absorbe les PV de l'ennemi."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "元気かりパックン",
+        "_en": "Cheer up Pakkun",
+        "_fr": "Courage Pakkun"
+      },
+      "pouvoir": "67",
+      "explication": {
+        "_jp": "むじゃきな借りパクテクで敵全員のHPを吸収し味方全員に分け与える。",
+        "_en": "Absorbs the HP of all enemies and distributes it to all allies using a reckless borrowed technique.",
+        "_fr": "Absorbe les HP de tous les ennemis et les distribue à tous les alliés en utilisant une technique empruntée imprudente."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "借りパクさせる",
+        "_en": "borrow and copy",
+        "_fr": "emprunter et copier"
+      },
+      "explication": {
+        "_jp": "【混乱】 とりつかれた妖怪は人の物を借りたくなってしまい味方をすぐにこうげきする。",
+        "_en": "[Confusion] A possessed youkai wants to borrow people's things and immediately attacks allies.",
+        "_fr": "[Confusion] Un yôkai possédé veut emprunter les affaires des gens et attaque immédiatement ses alliés."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "借りたものをパクッと飲み込み 自分のものにする妖怪。 とりつかれると 人から 借りたものを ずっと返さずに そのままにしてしまうのだ。",
+      "_en": "A monster that swallows borrowed things and makes them its own. When they become obsessed with something, they keep things that they have borrowed from others without returning them.",
+      "_fr": "Un monstre qui avale les choses empruntées et les fait siennes. Lorsqu’ils deviennent obsédés par quelque chose, ils gardent les choses qu’ils ont empruntées aux autres sans les rendre."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "308",
+  "Name_yww": "かりパックン",
+  "description_jp_yww": "借りたものをパクッと飲み込み 自分のものにする妖怪。 とりつかれると　人から 借りたものを　ずっと返さずに そのままにしてしまうのだ。",
+  "BingoMessage_jp_yww": "今日から　お前とはともだちだぜ！ さっそくだが　マンガ貸してくれい！",
+  "MonsterId_yww": "y292000",
+  "Height_yww": 10.99,
+  "CommondId_yww": "sp_292000",
+  "MinHp_yww": 39,
+  "MaxHp_yww": 307,
+  "MinAttack_yww": 5,
+  "MaxAttack_yww": 51,
+  "MinMagic_yww": 19,
+  "MaxMagic_yww": 164,
+  "MinDefense_yww": 9,
+  "MaxDefense_yww": 95,
+  "MinSpeed_yww": 18,
+  "MaxSpeed_yww": 156,
+  "AttackId_yww": 1,
+  "MagicId_yww": 7,
+  "HauntId_yww": 292000,
+  "SpSkillId_yww": 292000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 6,
+  "DislikeFoodKind_yww": 10,
+  "ActionType_yww": 22,
+  "TribeType_yww": 6,
+  "MedallionImage_yww": "y287800.png",
+  "SpriteImage_yww": "img_y287800.png",
+  "Audio_yww": "sp_y287800.wav",
+  "Description_yww": "Un yōkai qui avale d'un coup ce qu'il a emprunté pour s'en approprier. Lorsqu'on est possédé par lui, on ne rend jamais ce qu'on a emprunté et on le laisse tel quel.",
+  "BingoMessage_fr_yww": "À partir d'aujourd'hui, on est potes ! Allez, prête-moi vite un manga !"
 }

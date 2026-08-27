@@ -1,514 +1,545 @@
 {
-    "ID": "220",
-    "Nom": "Jacquasseur",
-    "Tribue": "Insaisissable",
-    "Rang": "C",
-    "PV": "374",
-    "Force": "217",
-    "Esprit": "41",
-    "Défense": "118",
-    "Vitesse": "150",
-    "Description": "Il ne vaut mieux pas lui prêter l'oreille, sinon il ne s'arrêtera jamais de parler. Il n'est vraiment pas à l'écoute.",
-    "nourriture": "Bonbons",
-    "élément": "Eau",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "Jacquasseur vient de Jacasseur et de Jacques.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Sous son envoûtement, les gens deviennent très bavards et racontent des anecdotes soporifiques.",
-    "personnalité": "Jacquasseur est quelqu'un de très bavard mais il n'est jamais à l'écoute des autres.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/jacquasseur.png",
-    "numero": "207",
-    "nourriture_favorite": "Sucrerie",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Flâneur pro",
-            "effet": "Récupère quelques PV quand il flâne."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tour complet",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Rapides",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Pif Paf",
-            "effet": "Baffe un adversaire avec son nez. Peut annuler les Âmultimes. 160 | 160"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Moulin à parole",
-            "effet": "Rend un ennemi si bavard qu'il en est ralenti."
-        }
+  "ID": "220",
+  "Nom": "Jacquasseur",
+  "Tribue": "Insaisissable",
+  "Rang": "C",
+  "PV": "374",
+  "Force": "217",
+  "Esprit": "41",
+  "Défense": "118",
+  "Vitesse": "150",
+  "Description": "Il ne vaut mieux pas lui prêter l'oreille, sinon il ne s'arrêtera jamais de parler. Il n'est vraiment pas à l'écoute.",
+  "nourriture": "Bonbons",
+  "élément": "Eau",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "Jacquasseur vient de Jacasseur et de Jacques.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Sous son envoûtement, les gens deviennent très bavards et racontent des anecdotes soporifiques.",
+  "personnalité": "Jacquasseur est quelqu'un de très bavard mais il n'est jamais à l'écoute des autres.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/jacquasseur.png",
+  "numero": "207",
+  "nourriture_favorite": "Sucrerie",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Flâneur pro",
+      "effet": "Récupère quelques PV quand il flâne."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tour complet",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Rapides",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Pif Paf",
+      "effet": "Baffe un adversaire avec son nez. Peut annuler les Âmultimes. 160 | 160"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Moulin à parole",
+      "effet": "Rend un ennemi si bavard qu'il en est ralenti."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Ouah ! Trop bon !",
+    "Mange de la nourriture insipide": "J'en reprendrai !",
+    "Mange de la mauvaise nourriture": "Que dire...",
+    "A la flemme": "C'est fatigant !",
+    "Est échangé": "On est amis ? J'ai tellement de choses à te raconter sur",
+    "Devient ton ami": "Tu as du talent ! J'aime ta façon de penser."
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Jacquasseur",
+      "parent2": "Outransss",
+      "resultat": "Médisansss",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ナガバナ",
+  "nom_anglais": "Babblong",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Naoki Bando",
+    "francaise": "Yann Pichon",
+    "anglaise": "English VA Joey D'Auria"
+  },
+  "localisations": {
+    "yw1": [
+      "Quartier des boutiques-Résidences Sérénité- pièce vide",
+      "Quête - Moulin à paroles"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Ouah ! Trop bon !",
-        "Mange de la nourriture insipide": "J'en reprendrai !",
-        "Mange de la mauvaise nourriture": "Que dire...",
-        "A la flemme": "C'est fatigant !",
-        "Est échangé": "On est amis ? J'ai tellement de choses à te raconter sur",
-        "Devient ton ami": "Tu as du talent ! J'aime ta façon de penser."
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Jacquasseur",
-            "parent2": "Outransss",
-            "resultat": "Médisansss",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Mont Sylvestre– Bosquet aux Bambous",
+      "Quête - La faim justifie le moyen",
+      "Tunnel sans fin- 2 000m"
     ],
-    "image_locale": "",
-    "nom_original": "ナガバナ",
-    "nom_anglais": "Babblong",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Naoki Bando",
-        "francaise": "Yann Pichon",
-        "anglaise": "English VA Joey D'Auria"
-    },
-    "localisations": {
-        "yw1": [
-            "Quartier des boutiques-Résidences Sérénité- pièce vide",
-            "Quête - Moulin à paroles"
-        ],
-        "yw2": [
-            "Mont Sylvestre– Bosquet aux Bambous",
-            "Quête - La faim justifie le moyen",
-            "Tunnel sans fin- 2 000m"
-        ],
-        "yw Blasters 1": [
-            "Patrouille : Quartier des boutiques"
-        ],
-        "yw3": [
-            "Tour Excellence– buissons"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Tour complet",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Rapides",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Pif Paf",
-                "puissance": "120|180",
-                "description": "Baffe un adversaire avec son nez. Peut annuler les Âmultimes."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Moulin à parole",
-                "puissance": "N/A",
-                "description": "Rend un ennemi si bavard qu'il en est ralenti."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Flâneur pro",
-                "description": "Récupère quelques PV quand il flâne."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Tour complet",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Rapides",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Pif Paf",
-                "puissance": "160|160",
-                "description": "Baffe un adversaire avec son nez. Âmultimes annulables."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Moulin à parole",
-                "puissance": "N/A",
-                "description": "Rend un ennemi si bavard qu'il en est ralenti."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Flâneur pro",
-                "description": "Récupère quelques PV quand il flâne."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Pif Paf",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Attaque chargée",
-                "puissance": "80",
-                "description": "Attaque courte portée. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Piège",
-                "puissance": "___",
-                "description": "Peut engourdir un ennemi s'il marche dessus."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Baisse de vitesse",
-                "puissance": "___",
-                "description": "Baisse VIT. ennemie. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Mal au pouce",
-                "description": "Attire l'attention des ennemis."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Tour complet",
-                "puissance": "60|132",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Rapides",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Pif Paf",
-                "puissance": "100|200",
-                "description": "Baffe un adversaire avec sa péninsule... avec son long nez, quoi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Moulin à parole",
-                "puissance": "N/A",
-                "description": "L'ennemi papote sans arrêt, sa VIT. baisse."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Flâneur pro",
-                "description": "Le lanceur récupère des PV en flânant."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Flâneur pro",
-        "description": "Récupère quelques PV quand il flâne."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/jacquasseur.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/jacquasseur.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/jacquasseur.wav",
-    "oldID": "219",
-    "medallium_ids": {
-        "yw1": "207",
-        "yw2": "313",
-        "yw3": "558"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "374",
-        "yw Blasters 2": "577",
-        "yw Wibble Wobble": "8012",
-        "Kunitori": "7031",
-        "yw World": "0177",
-        "yw Ukiukipedia": "yw2-039"
-    },
-    "battle_type": "",
-    "skill_name": "Skilled Loafer",
-    "skill_effect": "Keep Chatting",
-    "disliked_food": "Juice",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "347",
-                "STR": "152",
-                "SPR": "96",
-                "DEF": "140",
-                "SPD": "147"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "384",
-                "STR": "152",
-                "SPR": "96",
-                "DEF": "140",
-                "SPD": "147"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "160-280",
-                "STR": "222",
-                "SPR": "46",
-                "DEF": "123",
-                "SPD": "155"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "160-280"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "160-280"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "160-280"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ナガバナ",
-            "Nagabana"
-        ],
-        "Spanish": [
-            "Charlatón"
-        ],
-        "French": [
-            "Jacquasseur"
-        ],
-        "Italian": [
-            "Blablablo"
-        ],
-        "German": [
-            "Labernase"
-        ],
-        "Korean": [
-            "긴코",
-            "Ginko"
-        ],
-        "Russian": [
-            "Заболтанис",
-            "Zaboltanis"
-        ],
-        "Arabic": [
-            "أنوف",
-            "Annūf"
-        ],
-        "Chinese (Cantonese)": [
-            "長鼻怪"
-        ],
-        "Chinese (Mandarin)": [
-            "落落長鼻"
-        ],
-        "Portuguese (Brazilian)": [
-            "Prolixus"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ナガバナ"
-        ],
-        "Spanish": [
-            "Charlatón"
-        ],
-        "French": [
-            "Jacquasseur"
-        ],
-        "Italian": [
-            "Blablablo"
-        ],
-        "German": [
-            "Labernase"
-        ],
-        "Korean": [
-            "긴코"
-        ],
-        "Russian": [
-            "Заболтанис"
-        ],
-        "Arabic": [
-            "أنوف"
-        ],
-        "Chinese (Cantonese)": [
-            "長鼻怪"
-        ],
-        "Chinese (Mandarin)": [
-            "落落長鼻"
-        ],
-        "Portuguese (Brazilian)": [
-            "Prolixus"
-        ]
-    },
-    "description_en": "Don't agree to listen to Babblong or else he'll talk and talk and talk and talk and talk and talk. He's a terrible listener.",
-    "nom_en": "Shrook",
-    "rang_yww": "C",
-    "tribue_yww": "Nyororon",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "Dashi",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 47,
-        "str": 30,
-        "spr": 6,
-        "def": 15,
-        "spd": 21
-    },
-    "stats_max_yww": {
-        "hp": 374,
-        "str": 217,
-        "spr": 41,
-        "def": 118,
-        "spd": 150
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "フルスイング",
-                "_en": "full swing",
-                "_fr": "bat son plein"
-            },
-            "explication": {
-                "_jp": "【威力:60 / 打撃】 外れやすい",
-                "_en": "[Power: 60/Blow] Easy to miss",
-                "_fr": "[Puissance : 60/Coup] Facile à rater"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "水流の術",
-                "_en": "Water flow technique",
-                "_fr": "Technique d'écoulement de l'eau"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 水属性】 強力な水の妖術を使う。",
-                "_en": "[Power: 50 / Water attribute] Uses powerful water magic.",
-                "_fr": "[Puissance : 50 / Attribut Eau] Utilise une puissante magie de l'eau."
-            }
-        }
+    "yw Blasters 1": [
+      "Patrouille : Quartier des boutiques"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ナガバナショック",
-                "_en": "nagabana shock",
-                "_fr": "choc nagabana"
-            },
-            "pouvoir": "100",
-            "explication": {
-                "_jp": "なが～い鼻をフルスイングし敵1匹をビンタする。",
-                "_en": "Slaps one enemy with a full swing of its long nose.",
-                "_fr": "Frappe un ennemi d'un grand coup de son long nez."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "話が長くなる",
-                "_en": "It's a long story",
-                "_fr": "C'est une longue histoire"
-            },
-            "explication": {
-                "_jp": "【すばやさダウン】 とりつかれた妖怪はむだ話ばかりして すばやさが大ダウンする。",
-                "_en": "[Speed ​​reduction] A possessed monster talks nonsense and its speed is greatly reduced.",
-                "_fr": "[Réduction de vitesse] Un monstre possédé dit des bêtises et sa vitesse est considérablement réduite."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "相手にしたとたん 聞いてもいないことを うんざりするほど話し続ける。 「そうそう 大辞典といえバナ ナニワのおっちゃんが…」",
-            "_en": "As soon as you meet someone, they keep talking about things you didn't even hear, until you get tired of it. \"Oh yeah, even though it's a big dictionary, it's a big old man...\"",
-            "_fr": "Dès que vous rencontrez quelqu'un, il continue de parler de choses que vous n'avez même pas entendues, jusqu'à ce que vous en ayez marre. \"Oh ouais, même si c'est un gros dictionnaire, c'est un grand vieux...\""
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Tour Excellence– buissons"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Tour complet",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Rapides",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Pif Paf",
+        "puissance": "120|180",
+        "description": "Baffe un adversaire avec son nez. Peut annuler les Âmultimes."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Moulin à parole",
+        "puissance": "N/A",
+        "description": "Rend un ennemi si bavard qu'il en est ralenti."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Flâneur pro",
+        "description": "Récupère quelques PV quand il flâne."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Tour complet",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Rapides",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Pif Paf",
+        "puissance": "160|160",
+        "description": "Baffe un adversaire avec son nez. Âmultimes annulables."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Moulin à parole",
+        "puissance": "N/A",
+        "description": "Rend un ennemi si bavard qu'il en est ralenti."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Flâneur pro",
+        "description": "Récupère quelques PV quand il flâne."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Pif Paf",
+        "puissance": "400",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Attaque chargée",
+        "puissance": "80",
+        "description": "Attaque courte portée. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Piège",
+        "puissance": "___",
+        "description": "Peut engourdir un ennemi s'il marche dessus."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Baisse de vitesse",
+        "puissance": "___",
+        "description": "Baisse VIT. ennemie. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Mal au pouce",
+        "description": "Attire l'attention des ennemis."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Tour complet",
+        "puissance": "60|132",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Rapides",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Pif Paf",
+        "puissance": "100|200",
+        "description": "Baffe un adversaire avec sa péninsule... avec son long nez, quoi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Moulin à parole",
+        "puissance": "N/A",
+        "description": "L'ennemi papote sans arrêt, sa VIT. baisse."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Flâneur pro",
+        "description": "Le lanceur récupère des PV en flânant."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Flâneur pro",
+    "description": "Récupère quelques PV quand il flâne."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/jacquasseur.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/jacquasseur.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/jacquasseur.wav",
+  "oldID": "219",
+  "medallium_ids": {
+    "yw1": "207",
+    "yw2": "313",
+    "yw3": "558"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "374",
+    "yw Blasters 2": "577",
+    "yw Wibble Wobble": "8012",
+    "Kunitori": "7031",
+    "yw World": "0177",
+    "yw Ukiukipedia": "yw2-039"
+  },
+  "battle_type": "",
+  "skill_name": "Skilled Loafer",
+  "skill_effect": "Keep Chatting",
+  "disliked_food": "Juice",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "347",
+        "STR": "152",
+        "SPR": "96",
+        "DEF": "140",
+        "SPD": "147"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "384",
+        "STR": "152",
+        "SPR": "96",
+        "DEF": "140",
+        "SPD": "147"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "160-280",
+        "STR": "222",
+        "SPR": "46",
+        "DEF": "123",
+        "SPD": "155"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "160-280"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "160-280"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "160-280"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ナガバナ",
+      "Nagabana"
+    ],
+    "Spanish": [
+      "Charlatón"
+    ],
+    "French": [
+      "Jacquasseur"
+    ],
+    "Italian": [
+      "Blablablo"
+    ],
+    "German": [
+      "Labernase"
+    ],
+    "Korean": [
+      "긴코",
+      "Ginko"
+    ],
+    "Russian": [
+      "Заболтанис",
+      "Zaboltanis"
+    ],
+    "Arabic": [
+      "أنوف",
+      "Annūf"
+    ],
+    "Chinese (Cantonese)": [
+      "長鼻怪"
+    ],
+    "Chinese (Mandarin)": [
+      "落落長鼻"
+    ],
+    "Portuguese (Brazilian)": [
+      "Prolixus"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ナガバナ"
+    ],
+    "Spanish": [
+      "Charlatón"
+    ],
+    "French": [
+      "Jacquasseur"
+    ],
+    "Italian": [
+      "Blablablo"
+    ],
+    "German": [
+      "Labernase"
+    ],
+    "Korean": [
+      "긴코"
+    ],
+    "Russian": [
+      "Заболтанис"
+    ],
+    "Arabic": [
+      "أنوف"
+    ],
+    "Chinese (Cantonese)": [
+      "長鼻怪"
+    ],
+    "Chinese (Mandarin)": [
+      "落落長鼻"
+    ],
+    "Portuguese (Brazilian)": [
+      "Prolixus"
+    ]
+  },
+  "description_en": "Don't agree to listen to Babblong or else he'll talk and talk and talk and talk and talk and talk. He's a terrible listener.",
+  "nom_en": "Shrook",
+  "rang_yww": "C",
+  "tribue_yww": "Nyororon",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "Dashi",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 47,
+    "str": 30,
+    "spr": 6,
+    "def": 15,
+    "spd": 21
+  },
+  "stats_max_yww": {
+    "hp": 374,
+    "str": 217,
+    "spr": 41,
+    "def": 118,
+    "spd": 150
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "フルスイング",
+        "_en": "full swing",
+        "_fr": "bat son plein"
+      },
+      "explication": {
+        "_jp": "【威力:60 / 打撃】 外れやすい",
+        "_en": "[Power: 60/Blow] Easy to miss",
+        "_fr": "[Puissance : 60/Coup] Facile à rater"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "水流の術",
+        "_en": "Water flow technique",
+        "_fr": "Technique d'écoulement de l'eau"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 水属性】 強力な水の妖術を使う。",
+        "_en": "[Power: 50 / Water attribute] Uses powerful water magic.",
+        "_fr": "[Puissance : 50 / Attribut Eau] Utilise une puissante magie de l'eau."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ナガバナショック",
+        "_en": "nagabana shock",
+        "_fr": "choc nagabana"
+      },
+      "pouvoir": "100",
+      "explication": {
+        "_jp": "なが～い鼻をフルスイングし敵1匹をビンタする。",
+        "_en": "Slaps one enemy with a full swing of its long nose.",
+        "_fr": "Frappe un ennemi d'un grand coup de son long nez."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "話が長くなる",
+        "_en": "It's a long story",
+        "_fr": "C'est une longue histoire"
+      },
+      "explication": {
+        "_jp": "【すばやさダウン】 とりつかれた妖怪はむだ話ばかりして すばやさが大ダウンする。",
+        "_en": "[Speed ​​reduction] A possessed monster talks nonsense and its speed is greatly reduced.",
+        "_fr": "[Réduction de vitesse] Un monstre possédé dit des bêtises et sa vitesse est considérablement réduite."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "相手にしたとたん 聞いてもいないことを うんざりするほど話し続ける。 「そうそう 大辞典といえバナ ナニワのおっちゃんが…」",
+      "_en": "As soon as you meet someone, they keep talking about things you didn't even hear, until you get tired of it. \"Oh yeah, even though it's a big dictionary, it's a big old man...\"",
+      "_fr": "Dès que vous rencontrez quelqu'un, il continue de parler de choses que vous n'avez même pas entendues, jusqu'à ce que vous en ayez marre. \"Oh ouais, même si c'est un gros dictionnaire, c'est un grand vieux...\""
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "220",
+  "Name_yww": "ナガバナ",
+  "description_jp_yww": "相手にしたとたん 聞いてもいないことを うんざりするほど話し続ける。 「そうそう　大辞典といえバナ 　ナニワのおっちゃんが…」",
+  "BingoMessage_jp_yww": "ここから出してくれたってことは ワイと語り合いたいってことやな！？",
+  "MonsterId_yww": "y219000",
+  "Height_yww": 10.0,
+  "CommondId_yww": "sp_219000",
+  "MinHp_yww": 47,
+  "MaxHp_yww": 374,
+  "MinAttack_yww": 30,
+  "MaxAttack_yww": 217,
+  "MinMagic_yww": 6,
+  "MaxMagic_yww": 41,
+  "MinDefense_yww": 15,
+  "MaxDefense_yww": 118,
+  "MinSpeed_yww": 21,
+  "MaxSpeed_yww": 150,
+  "AttackId_yww": 35,
+  "MagicId_yww": 5,
+  "HauntId_yww": 219000,
+  "SpSkillId_yww": 219000,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 3,
+  "DislikeFoodKind_yww": 5,
+  "ActionType_yww": 4,
+  "TribeType_yww": 8,
+  "MedallionImage_yww": "y214800.png",
+  "SpriteImage_yww": "img_y214800.png",
+  "Audio_yww": "sp_y214800.wav",
+  "Description_yww": "Dès qu’on lui adresse la parole, il se met à parler sans arrêt de choses dont personne ne lui a rien demandé, jusqu’à en devenir insupportable. « Ah oui, justement, même si c’est dans le grand dictionnaire, il y a ce vieux monsieur de Naniwa qui… »",
+  "BingoMessage_fr_yww": "Si tu m'as laissé sortir d'ici, c'est que tu veux discuter avec moi, c'est ça ?!"
 }

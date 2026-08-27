@@ -1,597 +1,628 @@
 {
-    "ID": "17",
-    "Nom": "Padelou",
-    "Tribue": "Vaillant",
-    "Rang": "A",
-    "PV": "400",
-    "Force": "230",
-    "Esprit": "64",
-    "Défense": "150",
-    "Vitesse": "145",
-    "Description": "Il veut répandre le sang à cause de sa lame maudite. Il peut très facilement approcher ses ennemis sans se faire repérer.",
-    "nourriture": "Fruits de Mer",
-    "élément": "Absorption",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Padelou vient de 'pas de loup' (avancer discrètement) ce qui fait écho à sa discrétion.",
-    "origine": "Comme l'épée maudite, Padelou est inspiré deMuramasa, un ancien forgeron de sabres japonais. Selon la légende, il était connu pour sa violence de caractère et transmettait cette violence à l'âme de ses sabres. Ce qui signifie que ses sabres étaient assoiffés du sang et poussaient leurs propriétaires à commettre des crimes, car les esprits de ces lames maudites refusaient de retourner au fourreau tant qu'elles n'avaient pas fait couler le sang.",
-    "histoire": "",
-    "pouvoir": "L'épée qu'il porte lui donne une attirance particulière pour le sang. Il se faufile vers les gens pour en obtenir. Il serait également réputé pour porter malheur.",
-    "personnalité": "Il est très dangereux ! Sa lame maudite le pousse à faire couler le sang.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/padelou.png",
-    "numero": "17",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Peau maudite",
-            "effet": "Les stats augmentent quand envoûté par ennemi."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Taillade éclair",
-            "effet": "20x3 | 44x3"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Absorption",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Entaille du démon",
-            "effet": "Taille tous ses ennemis avec son épée maudite. 20x7 | 30x7"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Épée maudite",
-            "effet": "Maudit un ennemi avec l'épée Muramasa, et réduit sa VIT."
-        }
+  "ID": "17",
+  "Nom": "Padelou",
+  "Tribue": "Vaillant",
+  "Rang": "A",
+  "PV": "400",
+  "Force": "230",
+  "Esprit": "64",
+  "Défense": "150",
+  "Vitesse": "145",
+  "Description": "Il veut répandre le sang à cause de sa lame maudite. Il peut très facilement approcher ses ennemis sans se faire repérer.",
+  "nourriture": "Fruits de Mer",
+  "élément": "Absorption",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Padelou vient de 'pas de loup' (avancer discrètement) ce qui fait écho à sa discrétion.",
+  "origine": "Comme l'épée maudite, Padelou est inspiré deMuramasa, un ancien forgeron de sabres japonais. Selon la légende, il était connu pour sa violence de caractère et transmettait cette violence à l'âme de ses sabres. Ce qui signifie que ses sabres étaient assoiffés du sang et poussaient leurs propriétaires à commettre des crimes, car les esprits de ces lames maudites refusaient de retourner au fourreau tant qu'elles n'avaient pas fait couler le sang.",
+  "histoire": "",
+  "pouvoir": "L'épée qu'il porte lui donne une attirance particulière pour le sang. Il se faufile vers les gens pour en obtenir. Il serait également réputé pour porter malheur.",
+  "personnalité": "Il est très dangereux ! Sa lame maudite le pousse à faire couler le sang.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/padelou.png",
+  "numero": "17",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Peau maudite",
+      "effet": "Les stats augmentent quand envoûté par ennemi."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Taillade éclair",
+      "effet": "20x3 | 44x3"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Absorption",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Entaille du démon",
+      "effet": "Taille tous ses ennemis avec son épée maudite. 20x7 | 30x7"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Épée maudite",
+      "effet": "Maudit un ennemi avec l'épée Muramasa, et réduit sa VIT."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Mmh...",
+    "Mange de la nourriture insipide": "C'est pas mauvais.",
+    "Mange de la mauvaise nourriture": "Gulp...",
+    "A la flemme": "Je fais une sieste.",
+    "Est échangé": "Ho ho ho... Je suis intrigué. Amis, nous le deviendrons.",
+    "Devient ton ami": "Alors comme ça tu veux devenir mon ami ? Surveille tes arrières..."
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Bonneto",
+      "parent2": "Épée maudite",
+      "resultat": "Padelou",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "むらまさ",
+  "nom_anglais": "Snee",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Fusion"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Mmh...",
-        "Mange de la nourriture insipide": "C'est pas mauvais.",
-        "Mange de la mauvaise nourriture": "Gulp...",
-        "A la flemme": "Je fais une sieste.",
-        "Est échangé": "Ho ho ho... Je suis intrigué. Amis, nous le deviendrons.",
-        "Devient ton ami": "Alors comme ça tu veux devenir mon ami ? Surveille tes arrières..."
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Bonneto",
-            "parent2": "Épée maudite",
-            "resultat": "Padelou",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Fusion",
+      "Gera Gera Land(au cours d'unequête, amitié impossible)"
     ],
-    "image_locale": "",
-    "nom_original": "むらまさ",
-    "nom_anglais": "Snee",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Fusion"
-        ],
-        "yw2": [
-            "Fusion",
-            "Gera Gera Land(au cours d'unequête, amitié impossible)"
-        ],
-        "yw Blasters 1": [
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Taillade éclair",
-                "puissance": "20×3|44×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Absorption",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Entaille du démon",
-                "puissance": "20×7|30×7",
-                "description": "Taille tous ses ennemis avec son épée maudite."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Épée maudite",
-                "puissance": "N/A",
-                "description": "Maudit un ennemi avec l'épée Muramasa, et réduit sa VIT."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Peau maudite",
-                "description": "Les stats augmentent quand envoûté par un ennemi."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Taillade éclair",
-                "puissance": "20×3|44×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Absorption",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Entaille du démon",
-                "puissance": "20×7|30×7",
-                "description": "Taille tous ses ennemis avec son épée maudite."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Épée maudite",
-                "puissance": "N/A",
-                "description": "Maudit un ennemi avec l'épée Muramasa, et réduit sa VIT."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Vortex",
-                "puissance": "N/A",
-                "description": "Te fait absorber les PV de l'ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Peau maudite",
-                "description": "Les stats augmentent quand envoûté par un ennemi."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Entaille du démon",
-                "puissance": "480",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Attaque de repli",
-                "puissance": "70",
-                "description": "Pendant l'attaque, recule et évite les coups ennemis."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Contre",
-                "puissance": "___",
-                "description": "Repousse les attaques et contre-attaque."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Siphon",
-                "puissance": "40",
-                "description": "Absorbe beaucoup de PV. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Vampirisation",
-                "description": "Absorbe une partie des PV lors d'attaques."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Taillade éclair",
-                "puissance": "24×3|38×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Absorption",
-                "puissance": "25|87",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Entaille du démon",
-                "puissance": "203|304",
-                "description": "Entaille les ennemis à portée avec sa fine épée maudite."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Épée maudite",
-                "puissance": "N/A",
-                "description": "Maudit un ennemi avec l'épée Muramasa, et réduit sa VIT."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Attaque trois fois. Le coup ultime est plus puissant."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Entaille du démon",
-                "puissance": "480",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque de repli",
-                "puissance": "70",
-                "description": "Se replie en attaquant pour éviter les coups ennemis."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Contre",
-                "puissance": "___",
-                "description": "Dévie une attaque ennemie et contre-attaque vite."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Peau maudite",
-                "description": "↑ tous les stats + si envoûté par un ennemi."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Opale"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman d'esprit"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Techniques tip-top"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman d'esprit"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Techniques tip-top"
-            },
-            {
-                "taux": "?%",
-                "objet": "Oursin cru"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Peau maudite",
-        "description": "Les stats augmentent quand envoûté par un ennemi."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/padelou.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/padelou.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/padelou.wav",
-    "oldID": "18",
-    "medallium_ids": {
-        "yw1": "017",
-        "yw2": "029",
-        "yw3": "045"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "033",
-        "yw Blasters 2": "045",
-        "yw Wibble Wobble": "1044",
-        "yw World": "1419",
-        "yw Ukiukipedia": "yw4-005/YD5-003"
-    },
-    "battle_type": "",
-    "skill_name": "Cursed Skin Vampiric ywB",
-    "skill_effect": "Cursed Sword",
-    "disliked_food": "Meat",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "395",
-                "STR": "198",
-                "SPR": "165",
-                "DEF": "97",
-                "SPD": "170"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "410",
-                "STR": "198",
-                "SPR": "165",
-                "DEF": "97",
-                "SPD": "170"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "405",
-                "STR": "217",
-                "SPR": "195",
-                "DEF": "118",
-                "SPD": "150"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "401",
-                "STR": "212",
-                "SPR": "192",
-                "DEF": "117"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "177-348",
-                "STR": "212",
-                "SPR": "192",
-                "DEF": "117"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "177-348"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "177-348"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "むらまさ",
-            "Muramasa"
-        ],
-        "Spanish": [
-            "Furtre"
-        ],
-        "French": [
-            "Padelou"
-        ],
-        "Italian": [
-            "Quietana"
-        ],
-        "German": [
-            "Fiesa"
-        ],
-        "Dutch": [
-            "Snee"
-        ],
-        "Korean": [
-            "요괴",
-            "Yogoe"
-        ],
-        "Russian": [
-            "Тенебой",
-            "Teneboy"
-        ],
-        "Arabic": [
-            "خيدوع",
-            "Khaydūʕ"
-        ],
-        "Chinese (Mandarin)": [
-            "村正"
-        ],
-        "Portuguese (Brazilian)": [
-            "Malfange"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "むらまさ"
-        ],
-        "Spanish": [
-            "Furtre"
-        ],
-        "French": [
-            "Padelou"
-        ],
-        "Italian": [
-            "Quietana"
-        ],
-        "German": [
-            "Fiesa"
-        ],
-        "Dutch": [
-            "Snee"
-        ],
-        "Korean": [
-            "요괴 마검사"
-        ],
-        "Russian": [
-            "Тенебой"
-        ],
-        "Arabic": [
-            "خيدوع"
-        ],
-        "Chinese (Mandarin)": [
-            "村正"
-        ],
-        "Portuguese (Brazilian)": [
-            "Malfange"
-        ]
-    },
-    "description_en": "Cursed by his demon blade, Snee searches the world for blood. He excels at silently sneaking up on his enemies.",
-    "nom_en": "Gleam",
-    "rang_yww": "A",
-    "tribue_yww": "Isamashi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "fruit de mer",
-    "nourriture_favorite": "fruit de mer",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "stats_initiale_yww": {
-        "hp": 54,
-        "str": 37,
-        "spr": 7,
-        "def": 24,
-        "spd": 18
-    },
-    "stats_max_yww": {
-        "hp": 400,
-        "str": 230,
-        "spr": 64,
-        "def": 150,
-        "spd": 145
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "閃光ぎり",
-                "_en": "Just a flash of light",
-                "_fr": "Juste un éclair de lumière"
-            },
-            "explication": {
-                "_jp": "【威力:24×3 / 打撃】 3回攻撃を行う",
-                "_en": "[Power: 24×3/Blow] Attacks 3 times",
-                "_fr": "[Puissance : 24×3/Coup] Attaque 3 fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "すいとりの術",
-                "_en": "Sweetori no Jutsu",
-                "_fr": "Sweetori no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:25 / 吸収】 敵のHPを吸い取る。",
-                "_en": "[Power: 25 / Absorption] Absorbs the enemy's HP.",
-                "_fr": "[Puissance : 25 / Absorption] Absorbe les PV de l'ennemi."
-            }
-        }
+    "yw Blasters 1": [
+      "Fusion"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "妖刀ムラマサ",
-                "_en": "Demon sword Muramasa",
-                "_fr": "Épée démoniaque Muramasa"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "妖刀の呪い",
-                "_en": "curse of the sword",
-                "_fr": "malédiction de l'épée"
-            },
-            "explication": {
-                "_jp": "【すばやさダウン】 とりつかれた妖怪は妖刀ムラマサの呪いで すばやさがダウンする。",
-                "_en": "[Speed ​​Down] A possessed monster has its speed reduced due to the curse of the demon sword Muramasa.",
-                "_fr": "[Speed ​​​​Down] Un monstre possédé voit sa vitesse réduite en raison de la malédiction de l'épée démoniaque Muramasa."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "邪悪な妖刀に心をうばわれ だれかの血を求めて さまよう亡霊剣士。 背後から忍びより 音もなく斬りすてる。",
-            "_en": "A ghost swordsman who wanders around in search of someone's blood after his heart is stolen by an evil demon sword. From behind, a ninja slashed away without making a sound.",
-            "_fr": "Un épéiste fantôme qui erre à la recherche du sang de quelqu'un après que son cœur ait été volé par une épée démoniaque maléfique. De derrière, un ninja s'éloigna sans faire de bruit."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Taillade éclair",
+        "puissance": "20×3|44×3",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Absorption",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Entaille du démon",
+        "puissance": "20×7|30×7",
+        "description": "Taille tous ses ennemis avec son épée maudite."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Épée maudite",
+        "puissance": "N/A",
+        "description": "Maudit un ennemi avec l'épée Muramasa, et réduit sa VIT."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Peau maudite",
+        "description": "Les stats augmentent quand envoûté par un ennemi."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Taillade éclair",
+        "puissance": "20×3|44×3",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Absorption",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Entaille du démon",
+        "puissance": "20×7|30×7",
+        "description": "Taille tous ses ennemis avec son épée maudite."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Épée maudite",
+        "puissance": "N/A",
+        "description": "Maudit un ennemi avec l'épée Muramasa, et réduit sa VIT."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Vortex",
+        "puissance": "N/A",
+        "description": "Te fait absorber les PV de l'ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Peau maudite",
+        "description": "Les stats augmentent quand envoûté par un ennemi."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Entaille du démon",
+        "puissance": "480",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Attaque de repli",
+        "puissance": "70",
+        "description": "Pendant l'attaque, recule et évite les coups ennemis."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Contre",
+        "puissance": "___",
+        "description": "Repousse les attaques et contre-attaque."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Siphon",
+        "puissance": "40",
+        "description": "Absorbe beaucoup de PV. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Vampirisation",
+        "description": "Absorbe une partie des PV lors d'attaques."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Taillade éclair",
+        "puissance": "24×3|38×3",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Absorption",
+        "puissance": "25|87",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Entaille du démon",
+        "puissance": "203|304",
+        "description": "Entaille les ennemis à portée avec sa fine épée maudite."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Épée maudite",
+        "puissance": "N/A",
+        "description": "Maudit un ennemi avec l'épée Muramasa, et réduit sa VIT."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Attaque trois fois. Le coup ultime est plus puissant."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Entaille du démon",
+        "puissance": "480",
+        "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Attaque de repli",
+        "puissance": "70",
+        "description": "Se replie en attaquant pour éviter les coups ennemis."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Contre",
+        "puissance": "___",
+        "description": "Dévie une attaque ennemie et contre-attaque vite."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Peau maudite",
+        "description": "↑ tous les stats + si envoûté par un ennemi."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Opale"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman d'esprit"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Techniques tip-top"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman d'esprit"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Techniques tip-top"
+      },
+      {
+        "taux": "?%",
+        "objet": "Oursin cru"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Peau maudite",
+    "description": "Les stats augmentent quand envoûté par un ennemi."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/padelou.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/padelou.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/padelou.wav",
+  "oldID": "18",
+  "medallium_ids": {
+    "yw1": "017",
+    "yw2": "029",
+    "yw3": "045"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "033",
+    "yw Blasters 2": "045",
+    "yw Wibble Wobble": "1044",
+    "yw World": "1419",
+    "yw Ukiukipedia": "yw4-005/YD5-003"
+  },
+  "battle_type": "",
+  "skill_name": "Cursed Skin Vampiric ywB",
+  "skill_effect": "Cursed Sword",
+  "disliked_food": "Meat",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "395",
+        "STR": "198",
+        "SPR": "165",
+        "DEF": "97",
+        "SPD": "170"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "410",
+        "STR": "198",
+        "SPR": "165",
+        "DEF": "97",
+        "SPD": "170"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "405",
+        "STR": "217",
+        "SPR": "195",
+        "DEF": "118",
+        "SPD": "150"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "401",
+        "STR": "212",
+        "SPR": "192",
+        "DEF": "117"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "177-348",
+        "STR": "212",
+        "SPR": "192",
+        "DEF": "117"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "177-348"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "177-348"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "むらまさ",
+      "Muramasa"
+    ],
+    "Spanish": [
+      "Furtre"
+    ],
+    "French": [
+      "Padelou"
+    ],
+    "Italian": [
+      "Quietana"
+    ],
+    "German": [
+      "Fiesa"
+    ],
+    "Dutch": [
+      "Snee"
+    ],
+    "Korean": [
+      "요괴",
+      "Yogoe"
+    ],
+    "Russian": [
+      "Тенебой",
+      "Teneboy"
+    ],
+    "Arabic": [
+      "خيدوع",
+      "Khaydūʕ"
+    ],
+    "Chinese (Mandarin)": [
+      "村正"
+    ],
+    "Portuguese (Brazilian)": [
+      "Malfange"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "むらまさ"
+    ],
+    "Spanish": [
+      "Furtre"
+    ],
+    "French": [
+      "Padelou"
+    ],
+    "Italian": [
+      "Quietana"
+    ],
+    "German": [
+      "Fiesa"
+    ],
+    "Dutch": [
+      "Snee"
+    ],
+    "Korean": [
+      "요괴 마검사"
+    ],
+    "Russian": [
+      "Тенебой"
+    ],
+    "Arabic": [
+      "خيدوع"
+    ],
+    "Chinese (Mandarin)": [
+      "村正"
+    ],
+    "Portuguese (Brazilian)": [
+      "Malfange"
+    ]
+  },
+  "description_en": "Cursed by his demon blade, Snee searches the world for blood. He excels at silently sneaking up on his enemies.",
+  "nom_en": "Gleam",
+  "rang_yww": "A",
+  "tribue_yww": "Isamashi",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "fruit de mer",
+  "nourriture_favorite": "fruit de mer",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "avantage_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "stats_initiale_yww": {
+    "hp": 54,
+    "str": 37,
+    "spr": 7,
+    "def": 24,
+    "spd": 18
+  },
+  "stats_max_yww": {
+    "hp": 400,
+    "str": 230,
+    "spr": 64,
+    "def": 150,
+    "spd": 145
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "閃光ぎり",
+        "_en": "Just a flash of light",
+        "_fr": "Juste un éclair de lumière"
+      },
+      "explication": {
+        "_jp": "【威力:24×3 / 打撃】 3回攻撃を行う",
+        "_en": "[Power: 24×3/Blow] Attacks 3 times",
+        "_fr": "[Puissance : 24×3/Coup] Attaque 3 fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "すいとりの術",
+        "_en": "Sweetori no Jutsu",
+        "_fr": "Sweetori no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:25 / 吸収】 敵のHPを吸い取る。",
+        "_en": "[Power: 25 / Absorption] Absorbs the enemy's HP.",
+        "_fr": "[Puissance : 25 / Absorption] Absorbe les PV de l'ennemi."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "妖刀ムラマサ",
+        "_en": "Demon sword Muramasa",
+        "_fr": "Épée démoniaque Muramasa"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "妖刀の呪い",
+        "_en": "curse of the sword",
+        "_fr": "malédiction de l'épée"
+      },
+      "explication": {
+        "_jp": "【すばやさダウン】 とりつかれた妖怪は妖刀ムラマサの呪いで すばやさがダウンする。",
+        "_en": "[Speed ​​Down] A possessed monster has its speed reduced due to the curse of the demon sword Muramasa.",
+        "_fr": "[Speed ​​​​Down] Un monstre possédé voit sa vitesse réduite en raison de la malédiction de l'épée démoniaque Muramasa."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "邪悪な妖刀に心をうばわれ だれかの血を求めて さまよう亡霊剣士。 背後から忍びより 音もなく斬りすてる。",
+      "_en": "A ghost swordsman who wanders around in search of someone's blood after his heart is stolen by an evil demon sword. From behind, a ninja slashed away without making a sound.",
+      "_fr": "Un épéiste fantôme qui erre à la recherche du sang de quelqu'un après que son cœur ait été volé par une épée démoniaque maléfique. De derrière, un ninja s'éloigna sans faire de bruit."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "17",
+  "Name_yww": "むらまさ",
+  "description_jp_yww": "邪悪な妖刀に心をうばわれ だれかの血を求めて さまよう亡霊剣士。 背後から忍びより 音もなく斬りすてる。　　",
+  "BingoMessage_jp_yww": "ほう　オレを目覚めさせたのはお前か… いいだろう　オレも参ろう",
+  "MonsterId_yww": "y110000",
+  "Height_yww": 20.0,
+  "CommondId_yww": "sp_110000",
+  "MinHp_yww": 54,
+  "MaxHp_yww": 411,
+  "MinAttack_yww": 37,
+  "MaxAttack_yww": 260,
+  "MinMagic_yww": 7,
+  "MaxMagic_yww": 64,
+  "MinDefense_yww": 24,
+  "MaxDefense_yww": 150,
+  "MinSpeed_yww": 18,
+  "MaxSpeed_yww": 165,
+  "AttackId_yww": 45,
+  "MagicId_yww": 19,
+  "HauntId_yww": 110000,
+  "SpSkillId_yww": 110000,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 12,
+  "DislikeFoodKind_yww": 11,
+  "ActionType_yww": 4,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y105800.png",
+  "SpriteImage_yww": "img_y105800.png",
+  "Audio_yww": "sp_y105800.wav",
+  "Description_yww": "Un épéiste fantôme, dont le cœur a été envahi par une épée maudite, erre en quête du sang d’autrui. Il s’approche furtivement par derrière et frappe sans un bruit.  ",
+  "BingoMessage_fr_yww": "Ah, c'est toi qui m'as réveillé… Très bien, j'y vais aussi."
 }

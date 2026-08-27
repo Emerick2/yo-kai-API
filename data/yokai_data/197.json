@@ -1,531 +1,562 @@
 {
-    "ID": "197",
-    "Nom": "Tengubre",
-    "Tribue": "Sombre",
-    "Rang": "C",
-    "PV": "350",
-    "Force": "59",
-    "Esprit": "188",
-    "Défense": "121",
-    "Vitesse": "156",
-    "Description": "Un tengu maussade qui passe son temps à lire. Son pessimisme aurait attiré plusieurs Yo-kai devenus ses fans.",
-    "nourriture": "Légume",
-    "élément": "Vent",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "Tengubre vient de Tengu, le Youkai dont il est inspiré, et de Lugubre.",
-    "origine": "Tengubre, est basé sur un tengu, une race très peuplée et diversifiée de youkai ressemblant à des corbeaux. Plus précisément, il est inspiré d'une catégorie de tengu, appelés kotengu (petit tengu) mais parfois aussi karasu-tengu (tengu corbeau) ou konoha-tengu (tengu de feuillage). Les Kotengu ressemblent plus à des oiseaux contrairement à leurs frères de haut rang qui ont généralement une apparence humanoïde (qui sont d'ailleurs l'inspiration deTenguetTengurou).",
-    "histoire": "",
-    "pouvoir": "Tengubre peut faire prendre à ses cibles une personnalité déprimée en balançant son éventail de feuilles. Dans le dessin-annimé, si quelqu’un fait sourire Tengubre, les effets s’estomperont instantanément.",
-    "personnalité": "Tengubre a un tempérament très pessimiste qu’il transmet à ses cibles.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/tengubre.png",
-    "numero": "153",
-    "nourriture_favorite": "Légume",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Coupe-vent",
-            "effet": "Réduit les dégâts d'attaques de vent subis."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coup retourné",
-            "effet": "60 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tornade",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Ouragan lugubre",
-            "effet": "Frappe l'ennemi avec une puissante tornade. 90 | 135"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Pessimisme",
-            "effet": "L'ennemi devient pessimiste et sa VIT. diminue."
-        }
+  "ID": "197",
+  "Nom": "Tengubre",
+  "Tribue": "Sombre",
+  "Rang": "C",
+  "PV": "350",
+  "Force": "59",
+  "Esprit": "188",
+  "Défense": "121",
+  "Vitesse": "156",
+  "Description": "Un tengu maussade qui passe son temps à lire. Son pessimisme aurait attiré plusieurs Yo-kai devenus ses fans.",
+  "nourriture": "Légume",
+  "élément": "Vent",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "Tengubre vient de Tengu, le Youkai dont il est inspiré, et de Lugubre.",
+  "origine": "Tengubre, est basé sur un tengu, une race très peuplée et diversifiée de youkai ressemblant à des corbeaux. Plus précisément, il est inspiré d'une catégorie de tengu, appelés kotengu (petit tengu) mais parfois aussi karasu-tengu (tengu corbeau) ou konoha-tengu (tengu de feuillage). Les Kotengu ressemblent plus à des oiseaux contrairement à leurs frères de haut rang qui ont généralement une apparence humanoïde (qui sont d'ailleurs l'inspiration deTenguetTengurou).",
+  "histoire": "",
+  "pouvoir": "Tengubre peut faire prendre à ses cibles une personnalité déprimée en balançant son éventail de feuilles. Dans le dessin-annimé, si quelqu’un fait sourire Tengubre, les effets s’estomperont instantanément.",
+  "personnalité": "Tengubre a un tempérament très pessimiste qu’il transmet à ses cibles.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/tengubre.png",
+  "numero": "153",
+  "nourriture_favorite": "Légume",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Coupe-vent",
+      "effet": "Réduit les dégâts d'attaques de vent subis."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coup retourné",
+      "effet": "60 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tornade",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Ouragan lugubre",
+      "effet": "Frappe l'ennemi avec une puissante tornade. 90 | 135"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Pessimisme",
+      "effet": "L'ennemi devient pessimiste et sa VIT. diminue."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Miam !",
+    "Mange de la nourriture insipide": "J'ai connu pire.",
+    "Mange de la mauvaise nourriture": "J'en suis malade...",
+    "A la flemme": "Qui s'y intéresse ?",
+    "Est échangé": "Tu veux que je sois ton ami ? Je ne m'y attendais pas.",
+    "Devient ton ami": "Deviens mon ami ? Je me doute que tu vas dire non mais qui ne tente rien..."
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "yw1 & yw2",
+      "parent1": "Tengubre",
+      "parent2": "Chauvekipeut",
+      "resultat": "Chauv'coucou",
+      "critere": "➨"
+    },
+    {
+      "type": "Fusion",
+      "contexte": "yw3",
+      "parent1": "Tengubre",
+      "parent2": "Couchtar",
+      "resultat": "Noctambill",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ネクラマテング",
+  "nom_anglais": "Tengloom",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Bruno Méyère",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Quartier des boutiques-Résidence Sérénité- arbres (Nuit)",
+      "Chantier - 1er étage",
+      "Chantier - 2e étage",
+      "Bingo-kai-Pièce bleue",
+      "Limbes éternelles - 3e cercle",
+      "Limbes éternelles - 4e cercle"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Miam !",
-        "Mange de la nourriture insipide": "J'ai connu pire.",
-        "Mange de la mauvaise nourriture": "J'en suis malade...",
-        "A la flemme": "Qui s'y intéresse ?",
-        "Est échangé": "Tu veux que je sois ton ami ? Je ne m'y attendais pas.",
-        "Devient ton ami": "Deviens mon ami ? Je me doute que tu vas dire non mais qui ne tente rien..."
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "yw1 & yw2",
-            "parent1": "Tengubre",
-            "parent2": "Chauvekipeut",
-            "resultat": "Chauv'coucou",
-            "critere": "➨"
-        },
-        {
-            "type": "Fusion",
-            "contexte": "yw3",
-            "parent1": "Tengubre",
-            "parent2": "Couchtar",
-            "resultat": "Noctambill",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Tour Excellence- Point d'observation",
+      "Bingo-kai-Pièce bleue(passé)"
     ],
-    "image_locale": "",
-    "nom_original": "ネクラマテング",
-    "nom_anglais": "Tengloom",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Bruno Méyère",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Quartier des boutiques-Résidence Sérénité- arbres (Nuit)",
-            "Chantier - 1er étage",
-            "Chantier - 2e étage",
-            "Bingo-kai-Pièce bleue",
-            "Limbes éternelles - 3e cercle",
-            "Limbes éternelles - 4e cercle"
-        ],
-        "yw2": [
-            "Tour Excellence- Point d'observation",
-            "Bingo-kai-Pièce bleue(passé)"
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Quartier des boutiques"
-        ],
-        "yw3": [
-            "Mont Sylvestre- bambous",
-            "Sommet du mont Sylvestre - point d'observation"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Coup retourné",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tornade",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Ouragan lugubre",
-                "puissance": "90|90",
-                "description": "Frappe l'ennemi avec une puissante tornade."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Pessimisme",
-                "puissance": "N/A",
-                "description": "L'ennemi devient pessimiste et sa VIT. diminue."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Coupe-vent",
-                "description": "Réduit les dégâts des attaques de vent."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Coup retourné",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tornade",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Ouragan lugubre",
-                "puissance": "90|90",
-                "description": "Frappe l'ennemi avec une puissante tornade."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Pessimisme",
-                "puissance": "N/A",
-                "description": "L'ennemi devient pessimiste et sa VIT. diminue."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Coupe-vent",
-                "description": "Réduit les dégâts d'attaques de vent subis."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Ouragan lugubre",
-                "puissance": "50×8",
-                "description": "Une tornade inflige de gros dégâts aux ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Tourbillon",
-                "puissance": "40",
-                "description": "Utilise un sort de vent. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Baisse de vitesse",
-                "puissance": "___",
-                "description": "Baisse VIT. ennemie. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Baisse offensive",
-                "puissance": "___",
-                "description": "Baisse ATT. ennemie. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Tintouin",
-                "description": "Effet envoûtement négatif plus durable sur soi."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Coup retourné",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tornade",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Ouragan lugubre",
-                "puissance": "130|260",
-                "description": "Une tornade violente s'abat sur les ennemis à portée."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Pessimisme",
-                "puissance": "N/A",
-                "description": "L'ennemi devient pessimiste et sa VIT. diminue fortement."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Coupe-vent",
-                "description": "Réduit les dégâts de vent subis par tous les alliés."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Coupe-vent",
-        "description": "Réduit les dégâts des attaques de vent."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/tengubre.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/tengubre.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/tengubre.wav",
-    "oldID": "196",
-    "medallium_ids": {
-        "yw1": "153",
-        "yw2": "229",
-        "yw3": "416"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "274",
-        "yw Blasters 2": "423",
-        "yw Wibble Wobble": "6008 (Friend)/10065 (Boss)",
-        "yw World": "0132",
-        "yw Ukiukipedia": "yw2-030"
-    },
-    "battle_type": "",
-    "skill_name": "Windshield",
-    "skill_effect": "Pessimism",
-    "disliked_food": "Milk",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "323",
-                "STR": "111",
-                "SPR": "169",
-                "DEF": "128",
-                "SPD": "159"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "360",
-                "STR": "111",
-                "SPR": "169",
-                "DEF": "128",
-                "SPD": "159"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "240-420",
-                "STR": "64",
-                "SPR": "193",
-                "DEF": "126",
-                "SPD": "161"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "240-420"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "240-420"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "240-420"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ネクラマテング",
-            "Nekuramatengu"
-        ],
-        "Spanish": [
-            "Tengulecto"
-        ],
-        "French": [
-            "Tengubre"
-        ],
-        "Italian": [
-            "Tenguleggon"
-        ],
-        "German": [
-            "Finstengu"
-        ],
-        "Korean": [
-            "음침까마귀",
-            "Imchimkkamagwi"
-        ],
-        "Russian": [
-            "Хмуротенгу",
-            "Khmurotengu"
-        ],
-        "Arabic": [
-            "نكدي",
-            "Nakadī"
-        ],
-        "Chinese (Cantonese)": [
-            "憂鬱魔天狗"
-        ],
-        "Chinese (Mandarin)": [
-            "憂鬱天狗"
-        ],
-        "Portuguese (Brazilian)": [
-            "Soturnave"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ネクラマテング"
-        ],
-        "Spanish": [
-            "Tengulecto"
-        ],
-        "French": [
-            "Tengubre"
-        ],
-        "Italian": [
-            "Tenguleggon"
-        ],
-        "German": [
-            "Finstengu"
-        ],
-        "Korean": [
-            "음침까마귀"
-        ],
-        "Russian": [
-            "Хмуротенгу"
-        ],
-        "Arabic": [
-            "نكدي"
-        ],
-        "Chinese (Cantonese)": [
-            "憂鬱魔天狗"
-        ],
-        "Chinese (Mandarin)": [
-            "憂鬱天狗"
-        ],
-        "Portuguese (Brazilian)": [
-            "Soturnave"
-        ]
-    },
-    "description_en": "A gloomy tengu who's always reading. He's somehow amassed a Yo-kai fan base that likes his pessimism.",
-    "nom_en": "Belfree",
-    "rang_yww": "C",
-    "tribue_yww": "ウスラカゲ族",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "pain",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {
-        "hp": 45,
-        "str": 5,
-        "spr": 28,
-        "def": 11,
-        "spd": 24
-    },
-    "stats_max_yww": {
-        "hp": 350,
-        "str": 59,
-        "spr": 188,
-        "def": 121,
-        "spd": 156
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "青コイン",
-            "_en": "blue coin",
-            "_fr": "pièce bleue"
-        }
+    "yw Blasters 1": [
+      "Patrouille -Quartier des boutiques"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "あびせげり",
-                "_en": "Abisegeri",
-                "_fr": "Abisegeri"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
-                "_en": "[Power: 50/Blow] Deal a big blow",
-                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "竜巻の術",
-                "_en": "Tornado no Jutsu",
-                "_fr": "Tornade sans Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 風属性】 強力な風の妖術を使う。",
-                "_en": "【威力:50 / 風属性】 強力な風の妖術を使う。",
-                "_fr": "【威力:50 / 風属性】 強力な風の妖術を使う。"
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ネクラ木枯らし",
-                "_en": "Nekura tree drying",
-                "_fr": "Séchage de l'arbre Nekura"
-            },
-            "pouvoir": "130",
-            "explication": {
-                "_jp": "強力な風の術。範囲内に竜巻でダメージを与える。",
-                "_en": "A powerful wind technique. Causes tornado damage within range.",
-                "_fr": "Une technique de vent puissante. Provoque des dégâts de tornade à portée."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "根暗にする",
-                "_en": "darken",
-                "_fr": "assombrir"
-            },
-            "explication": {
-                "_jp": "【すばやさダウン】 とりつかれた妖怪は根暗な性格で腰が重くなり すばやさが大ダウンする。",
-                "_en": "[Decreased speed] A possessed monster has a dark personality and becomes stiff, and its speed is greatly reduced.",
-                "_fr": "[Vitesse diminuée] Un monstre possédé a une personnalité sombre et devient raide, et sa vitesse est considérablement réduite."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "いつもだまって 本を読んでいる根暗な天狗。 しかし このふんいきが 心地よいと言う妖怪も多く 隠れた人気がある。",
-            "_en": "A gloomy tengu who is always quiet and reading a book. However, there are many yōkai who find this way of life pleasant, and it has a hidden popularity.",
-            "_fr": "Un tengu sombre qui est toujours silencieux et qui lit un livre. Cependant, de nombreux yōkai trouvent ce mode de vie agréable, et il possède une popularité cachée."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Mont Sylvestre- bambous",
+      "Sommet du mont Sylvestre - point d'observation"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Coup retourné",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tornade",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Ouragan lugubre",
+        "puissance": "90|90",
+        "description": "Frappe l'ennemi avec une puissante tornade."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Pessimisme",
+        "puissance": "N/A",
+        "description": "L'ennemi devient pessimiste et sa VIT. diminue."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Coupe-vent",
+        "description": "Réduit les dégâts des attaques de vent."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Coup retourné",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tornade",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Ouragan lugubre",
+        "puissance": "90|90",
+        "description": "Frappe l'ennemi avec une puissante tornade."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Pessimisme",
+        "puissance": "N/A",
+        "description": "L'ennemi devient pessimiste et sa VIT. diminue."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Coupe-vent",
+        "description": "Réduit les dégâts d'attaques de vent subis."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Ouragan lugubre",
+        "puissance": "50×8",
+        "description": "Une tornade inflige de gros dégâts aux ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Tourbillon",
+        "puissance": "40",
+        "description": "Utilise un sort de vent. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Baisse de vitesse",
+        "puissance": "___",
+        "description": "Baisse VIT. ennemie. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Baisse offensive",
+        "puissance": "___",
+        "description": "Baisse ATT. ennemie. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Tintouin",
+        "description": "Effet envoûtement négatif plus durable sur soi."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Coup retourné",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tornade",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Ouragan lugubre",
+        "puissance": "130|260",
+        "description": "Une tornade violente s'abat sur les ennemis à portée."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Pessimisme",
+        "puissance": "N/A",
+        "description": "L'ennemi devient pessimiste et sa VIT. diminue fortement."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Coupe-vent",
+        "description": "Réduit les dégâts de vent subis par tous les alliés."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Coupe-vent",
+    "description": "Réduit les dégâts des attaques de vent."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/tengubre.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/tengubre.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/tengubre.wav",
+  "oldID": "196",
+  "medallium_ids": {
+    "yw1": "153",
+    "yw2": "229",
+    "yw3": "416"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "274",
+    "yw Blasters 2": "423",
+    "yw Wibble Wobble": "6008 (Friend)/10065 (Boss)",
+    "yw World": "0132",
+    "yw Ukiukipedia": "yw2-030"
+  },
+  "battle_type": "",
+  "skill_name": "Windshield",
+  "skill_effect": "Pessimism",
+  "disliked_food": "Milk",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "323",
+        "STR": "111",
+        "SPR": "169",
+        "DEF": "128",
+        "SPD": "159"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "360",
+        "STR": "111",
+        "SPR": "169",
+        "DEF": "128",
+        "SPD": "159"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "240-420",
+        "STR": "64",
+        "SPR": "193",
+        "DEF": "126",
+        "SPD": "161"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "240-420"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "240-420"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "240-420"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ネクラマテング",
+      "Nekuramatengu"
+    ],
+    "Spanish": [
+      "Tengulecto"
+    ],
+    "French": [
+      "Tengubre"
+    ],
+    "Italian": [
+      "Tenguleggon"
+    ],
+    "German": [
+      "Finstengu"
+    ],
+    "Korean": [
+      "음침까마귀",
+      "Imchimkkamagwi"
+    ],
+    "Russian": [
+      "Хмуротенгу",
+      "Khmurotengu"
+    ],
+    "Arabic": [
+      "نكدي",
+      "Nakadī"
+    ],
+    "Chinese (Cantonese)": [
+      "憂鬱魔天狗"
+    ],
+    "Chinese (Mandarin)": [
+      "憂鬱天狗"
+    ],
+    "Portuguese (Brazilian)": [
+      "Soturnave"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ネクラマテング"
+    ],
+    "Spanish": [
+      "Tengulecto"
+    ],
+    "French": [
+      "Tengubre"
+    ],
+    "Italian": [
+      "Tenguleggon"
+    ],
+    "German": [
+      "Finstengu"
+    ],
+    "Korean": [
+      "음침까마귀"
+    ],
+    "Russian": [
+      "Хмуротенгу"
+    ],
+    "Arabic": [
+      "نكدي"
+    ],
+    "Chinese (Cantonese)": [
+      "憂鬱魔天狗"
+    ],
+    "Chinese (Mandarin)": [
+      "憂鬱天狗"
+    ],
+    "Portuguese (Brazilian)": [
+      "Soturnave"
+    ]
+  },
+  "description_en": "A gloomy tengu who's always reading. He's somehow amassed a Yo-kai fan base that likes his pessimism.",
+  "nom_en": "Belfree",
+  "rang_yww": "C",
+  "tribue_yww": "ウスラカゲ族",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "pain",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {
+    "hp": 45,
+    "str": 5,
+    "spr": 28,
+    "def": 11,
+    "spd": 24
+  },
+  "stats_max_yww": {
+    "hp": 350,
+    "str": 59,
+    "spr": 188,
+    "def": 121,
+    "spd": 156
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "青コイン",
+      "_en": "blue coin",
+      "_fr": "pièce bleue"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "あびせげり",
+        "_en": "Abisegeri",
+        "_fr": "Abisegeri"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+        "_en": "[Power: 50/Blow] Deal a big blow",
+        "_fr": "[Puissance : 50/Coup] Portez un gros coup"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "竜巻の術",
+        "_en": "Tornado no Jutsu",
+        "_fr": "Tornade sans Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 風属性】 強力な風の妖術を使う。",
+        "_en": "【威力:50 / 風属性】 強力な風の妖術を使う。",
+        "_fr": "【威力:50 / 風属性】 強力な風の妖術を使う。"
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ネクラ木枯らし",
+        "_en": "Nekura tree drying",
+        "_fr": "Séchage de l'arbre Nekura"
+      },
+      "pouvoir": "130",
+      "explication": {
+        "_jp": "強力な風の術。範囲内に竜巻でダメージを与える。",
+        "_en": "A powerful wind technique. Causes tornado damage within range.",
+        "_fr": "Une technique de vent puissante. Provoque des dégâts de tornade à portée."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "根暗にする",
+        "_en": "darken",
+        "_fr": "assombrir"
+      },
+      "explication": {
+        "_jp": "【すばやさダウン】 とりつかれた妖怪は根暗な性格で腰が重くなり すばやさが大ダウンする。",
+        "_en": "[Decreased speed] A possessed monster has a dark personality and becomes stiff, and its speed is greatly reduced.",
+        "_fr": "[Vitesse diminuée] Un monstre possédé a une personnalité sombre et devient raide, et sa vitesse est considérablement réduite."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "いつもだまって 本を読んでいる根暗な天狗。 しかし このふんいきが 心地よいと言う妖怪も多く 隠れた人気がある。",
+      "_en": "A gloomy tengu who is always quiet and reading a book. However, there are many yōkai who find this way of life pleasant, and it has a hidden popularity.",
+      "_fr": "Un tengu sombre qui est toujours silencieux et qui lit un livre. Cependant, de nombreux yōkai trouvent ce mode de vie agréable, et il possède une popularité cachée."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "197",
+  "Name_yww": "ネクラマテング",
+  "description_jp_yww": "いつもだまって 本を読んでいる根暗な天狗。 しかし　このふんいきが 心地よいと言う妖怪も多く 隠れた人気がある。",
+  "BingoMessage_jp_yww": "ど～ぅせ　ぼくなんかが出て がっかりしてるんだろ？　はぁ～あ…",
+  "MonsterId_yww": "y206000",
+  "Height_yww": 14.0,
+  "CommondId_yww": "sp_206000",
+  "MinHp_yww": 45,
+  "MaxHp_yww": 350,
+  "MinAttack_yww": 5,
+  "MaxAttack_yww": 59,
+  "MinMagic_yww": 28,
+  "MaxMagic_yww": 188,
+  "MinDefense_yww": 11,
+  "MaxDefense_yww": 121,
+  "MinSpeed_yww": 24,
+  "MaxSpeed_yww": 156,
+  "AttackId_yww": 8,
+  "MagicId_yww": 17,
+  "HauntId_yww": 206000,
+  "SpSkillId_yww": 206000,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 2,
+  "DislikeFoodKind_yww": 4,
+  "ActionType_yww": 9,
+  "TribeType_yww": 6,
+  "MedallionImage_yww": "y201800.png",
+  "SpriteImage_yww": "img_y201800.png",
+  "Audio_yww": "sp_y201800.wav",
+  "Description_yww": "Un tengu taciturne qui passe son temps à lire. Mais de nombreux yōkai trouvent cette atmosphère agréable, et il jouit d'une popularité discrète.",
+  "BingoMessage_fr_yww": "Tu es sûrement déçu que ce soit moi qui sois là, non ? Haaa…"
 }

@@ -1,462 +1,493 @@
 {
-    "ID": "390",
-    "Nom": "Soupotori",
-    "Tribue": "Costaud",
-    "Rang": "B",
-    "PV": "450",
-    "Force": "160",
-    "Esprit": "96",
-    "Défense": "218",
-    "Vitesse": "70",
-    "Description": "Ce sumo ayant atteint le grade de Yokozuna s'est distingué par sa poigne légendaire.",
-    "nourriture": "Soba",
-    "élément": "Restauration",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/soupotori.png",
-    "numero": "383",
-    "nourriture_favorite": "Soba",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Volonté de fer",
-            "effet": "Gardera 1 PV après un coup fatal."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paume puissante",
-            "effet": "60 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Restauration",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tombé",
-            "effet": "Une bonne claque capable d'annuler l'Âmultime d'un ennemi. 160 | 240"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Chaud bouillon",
-            "effet": "DÉF. du Yo-kai très accrue grâce à son amour pour la soupe de nouilles."
-        }
+  "ID": "390",
+  "Nom": "Soupotori",
+  "Tribue": "Costaud",
+  "Rang": "B",
+  "PV": "450",
+  "Force": "160",
+  "Esprit": "96",
+  "Défense": "218",
+  "Vitesse": "70",
+  "Description": "Ce sumo ayant atteint le grade de Yokozuna s'est distingué par sa poigne légendaire.",
+  "nourriture": "Soba",
+  "élément": "Restauration",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/soupotori.png",
+  "numero": "383",
+  "nourriture_favorite": "Soba",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Volonté de fer",
+      "effet": "Gardera 1 PV après un coup fatal."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paume puissante",
+      "effet": "60 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Restauration",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tombé",
+      "effet": "Une bonne claque capable d'annuler l'Âmultime d'un ennemi. 160 | 240"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Chaud bouillon",
+      "effet": "DÉF. du Yo-kai très accrue grâce à son amour pour la soupe de nouilles."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Que c'est bon !",
+    "Mange de la nourriture insipide": "Ça allait.",
+    "Mange de la mauvaise nourriture": "Infâme !",
+    "A la flemme": "Oh, mon dos...",
+    "Est échangé": "On se rencontre enfin... Je suis sûr que tu me connais de réputation.",
+    "Devient ton ami": "Je perds tout le temps ! Je dois continuer mon entraînement de sumo !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Sumodon",
+      "parent2": "Chapeau de paille",
+      "resultat": "Soupotori",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "横綱うどん",
+  "nom_anglais": "Yokozudon",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Fusion"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Que c'est bon !",
-        "Mange de la nourriture insipide": "Ça allait.",
-        "Mange de la mauvaise nourriture": "Infâme !",
-        "A la flemme": "Oh, mon dos...",
-        "Est échangé": "On se rencontre enfin... Je suis sûr que tu me connais de réputation.",
-        "Devient ton ami": "Je perds tout le temps ! Je dois continuer mon entraînement de sumo !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Sumodon",
-            "parent2": "Chapeau de paille",
-            "resultat": "Soupotori",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Fusion"
     ],
-    "image_locale": "",
-    "nom_original": "横綱うどん",
-    "nom_anglais": "Yokozudon",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Fusion"
-        ],
-        "yw Blasters 1": [
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Paume puissante",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Tombé",
-                "puissance": "160|240",
-                "description": "Une bonne claque capable d'annuler l'Âmultime d'un ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Chaud bouillon",
-                "puissance": "N/A",
-                "description": "DÉF. du Yo-kai très accrue grâce à son amour pour la soupe de nouilles."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Volonté de fer",
-                "description": "Gardera 1 PV après avoir subi un coup fatal."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Tombé",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Armure de fer",
-                "puissance": "___",
-                "description": "Forte réduction des dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Riz",
-                "puissance": "70",
-                "description": "Restaure tes PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Persistance",
-                "description": "Ralentit la perte de la jauge d'attaque."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Paume puissante",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Tombé",
-                "puissance": "100|200",
-                "description": "Donne une bonne grosse gifle à un adversaire."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Chaud bouillon",
-                "puissance": "N/A",
-                "description": "La DÉF. du Yo-kai s'accroît grâce à son amour pour la soupe de nouilles."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Tombé",
-                "puissance": "400",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi, attirant ainsi son attention."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Volonté de fer",
-                "description": "Gardera 1 PV après un coup fatal. (une fois)"
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Amulette armure"
-            },
-            {
-                "taux": "?%",
-                "objet": "Sushi crevette"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Nouilles au poisson"
-            },
-            {
-                "taux": "?%",
-                "objet": "Étoile dansante"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Volonté de fer",
-        "description": "Gardera 1 PV après avoir subi un coup fatal."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/soupotori.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/soupotori.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/soupotori.wav",
-    "oldID": "396",
-    "medallium_ids": {
-        "yw2": "383",
-        "yw3": "167"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "113",
-        "yw Blasters 2": "171",
-        "yw World": "0278",
-        "yw Ukiukipedia": "Pyw-121"
-    },
-    "battle_type": "",
-    "skill_name": "The Stand",
-    "skill_effect": "Suck it Up",
-    "disliked_food": "Snacks",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "460",
-                "STR": "61",
-                "SPR": "120",
-                "DEF": "120",
-                "SPD": "77"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "460",
-                "STR": "165",
-                "SPR": "101",
-                "DEF": "223",
-                "SPD": "75"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "横綱うどん"
-        ],
-        "Spanish": [
-            "Supersumodón"
-        ],
-        "French": [
-            "Soupotori"
-        ],
-        "Italian": [
-            "Brodozuna"
-        ],
-        "German": [
-            "Yokozudon"
-        ],
-        "Russian": [
-            "Екодзусуп",
-            "Ekodzusup"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "横綱うどん Yokozudon"
-        ],
-        "Spanish": [
-            "Supersumodón"
-        ],
-        "French": [
-            "Soupotori"
-        ],
-        "Italian": [
-            "Brodozuna"
-        ],
-        "German": [
-            "Yokozudon"
-        ],
-        "Russian": [
-            "Екодзусуп"
-        ]
-    },
-    "description_en": "An evolved Sumodon who has reached the rank of yokozuna. His firm grip is the stuff of legend.",
-    "nom_en": "Danke Sand",
-    "rang_yww": "B",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "sarrasin",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 53,
-        "str": 19,
-        "spr": 14,
-        "def": 36,
-        "spd": 10
-    },
-    "stats_max_yww": {
-        "hp": 450,
-        "str": 160,
-        "spr": 96,
-        "def": 218,
-        "spd": 70
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "つっぱり",
-                "_en": "Tension",
-                "_fr": "Tension"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 敵のガードの効果を下げる",
-                "_en": "[Power: 50 / Hit] Reduces the effectiveness of enemy's guard",
-                "_fr": "[Puissance : 50 / Hit] Réduit l'efficacité de la garde ennemie"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "回復の術",
-                "_en": "art of recovery",
-                "_fr": "l'art de la récupération"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "千秋楽うどん拳",
-                "_en": "Senshu Raku Udon Fist",
-                "_fr": "Poing Senshu Raku Udon"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "うどんのコシ",
-                "_en": "Udon chewiness",
-                "_fr": "Udon moelleux"
-            },
-            "explication": {
-                "_jp": "【まもりアップ】 とりつかれた妖怪はうどんのコシを身に着け まもりがアップする。",
-                "_en": "[Increased protection] The possessed monster wears the elasticity of udon noodles, and its protection increases.",
-                "_fr": "[Protection accrue] Le monstre possédé porte l'élasticité des nouilles udon et sa protection augmente."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "すもうどんの進化した姿。 飽きるまで 相撲の相手を させ続けるこまった妖怪。 横綱になってパワーアップし がっぷり四つで逃がさない。",
-            "_en": "The evolved version of Sumudon. A troublesome yokai who continues to wrestle with his sumo opponent until he gets tired of it. Become a yokozuna, power up, and don't let him run away.",
-            "_fr": "La version évoluée de Sumudon. Un yokai gênant qui continue de lutter avec son adversaire sumo jusqu'à ce qu'il en ait assez. Devenez un yokozuna, mettez-vous sous tension et ne le laissez pas s'enfuir."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Paume puissante",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Tombé",
+        "puissance": "160|240",
+        "description": "Une bonne claque capable d'annuler l'Âmultime d'un ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Chaud bouillon",
+        "puissance": "N/A",
+        "description": "DÉF. du Yo-kai très accrue grâce à son amour pour la soupe de nouilles."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Volonté de fer",
+        "description": "Gardera 1 PV après avoir subi un coup fatal."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Tombé",
+        "puissance": "400",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Armure de fer",
+        "puissance": "___",
+        "description": "Forte réduction des dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Riz",
+        "puissance": "70",
+        "description": "Restaure tes PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Persistance",
+        "description": "Ralentit la perte de la jauge d'attaque."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Paume puissante",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Tombé",
+        "puissance": "100|200",
+        "description": "Donne une bonne grosse gifle à un adversaire."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Chaud bouillon",
+        "puissance": "N/A",
+        "description": "La DÉF. du Yo-kai s'accroît grâce à son amour pour la soupe de nouilles."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Tombé",
+        "puissance": "400",
+        "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi, attirant ainsi son attention."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Volonté de fer",
+        "description": "Gardera 1 PV après un coup fatal. (une fois)"
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Amulette armure"
+      },
+      {
+        "taux": "?%",
+        "objet": "Sushi crevette"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Nouilles au poisson"
+      },
+      {
+        "taux": "?%",
+        "objet": "Étoile dansante"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Volonté de fer",
+    "description": "Gardera 1 PV après avoir subi un coup fatal."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/soupotori.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/soupotori.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/soupotori.wav",
+  "oldID": "396",
+  "medallium_ids": {
+    "yw2": "383",
+    "yw3": "167"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "113",
+    "yw Blasters 2": "171",
+    "yw World": "0278",
+    "yw Ukiukipedia": "Pyw-121"
+  },
+  "battle_type": "",
+  "skill_name": "The Stand",
+  "skill_effect": "Suck it Up",
+  "disliked_food": "Snacks",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "460",
+        "STR": "61",
+        "SPR": "120",
+        "DEF": "120",
+        "SPD": "77"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "460",
+        "STR": "165",
+        "SPR": "101",
+        "DEF": "223",
+        "SPD": "75"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "横綱うどん"
+    ],
+    "Spanish": [
+      "Supersumodón"
+    ],
+    "French": [
+      "Soupotori"
+    ],
+    "Italian": [
+      "Brodozuna"
+    ],
+    "German": [
+      "Yokozudon"
+    ],
+    "Russian": [
+      "Екодзусуп",
+      "Ekodzusup"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "横綱うどん Yokozudon"
+    ],
+    "Spanish": [
+      "Supersumodón"
+    ],
+    "French": [
+      "Soupotori"
+    ],
+    "Italian": [
+      "Brodozuna"
+    ],
+    "German": [
+      "Yokozudon"
+    ],
+    "Russian": [
+      "Екодзусуп"
+    ]
+  },
+  "description_en": "An evolved Sumodon who has reached the rank of yokozuna. His firm grip is the stuff of legend.",
+  "nom_en": "Danke Sand",
+  "rang_yww": "B",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "sarrasin",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 53,
+    "str": 19,
+    "spr": 14,
+    "def": 36,
+    "spd": 10
+  },
+  "stats_max_yww": {
+    "hp": 450,
+    "str": 160,
+    "spr": 96,
+    "def": 218,
+    "spd": 70
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "つっぱり",
+        "_en": "Tension",
+        "_fr": "Tension"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 敵のガードの効果を下げる",
+        "_en": "[Power: 50 / Hit] Reduces the effectiveness of enemy's guard",
+        "_fr": "[Puissance : 50 / Hit] Réduit l'efficacité de la garde ennemie"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "回復の術",
+        "_en": "art of recovery",
+        "_fr": "l'art de la récupération"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "千秋楽うどん拳",
+        "_en": "Senshu Raku Udon Fist",
+        "_fr": "Poing Senshu Raku Udon"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "うどんのコシ",
+        "_en": "Udon chewiness",
+        "_fr": "Udon moelleux"
+      },
+      "explication": {
+        "_jp": "【まもりアップ】 とりつかれた妖怪はうどんのコシを身に着け まもりがアップする。",
+        "_en": "[Increased protection] The possessed monster wears the elasticity of udon noodles, and its protection increases.",
+        "_fr": "[Protection accrue] Le monstre possédé porte l'élasticité des nouilles udon et sa protection augmente."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "すもうどんの進化した姿。 飽きるまで 相撲の相手を させ続けるこまった妖怪。 横綱になってパワーアップし がっぷり四つで逃がさない。",
+      "_en": "The evolved version of Sumudon. A troublesome yokai who continues to wrestle with his sumo opponent until he gets tired of it. Become a yokozuna, power up, and don't let him run away.",
+      "_fr": "La version évoluée de Sumudon. Un yokai gênant qui continue de lutter avec son adversaire sumo jusqu'à ce qu'il en ait assez. Devenez un yokozuna, mettez-vous sous tension et ne le laissez pas s'enfuir."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "397",
+  "Name_yww": "横綱うどん",
+  "description_jp_yww": "すもうどんの進化した姿。 飽きるまで　相撲の相手を させ続けるこまった妖怪。 横綱になってパワーアップし がっぷり四つで逃がさない。",
+  "BingoMessage_jp_yww": "おまえ　コシのきいたやつじゃけえ おらと　仲良うしてつか～",
+  "MonsterId_yww": "y412000",
+  "Height_yww": 10.0,
+  "CommondId_yww": "sp_412000",
+  "MinHp_yww": 55,
+  "MaxHp_yww": 466,
+  "MinAttack_yww": 6,
+  "MaxAttack_yww": 43,
+  "MinMagic_yww": 25,
+  "MaxMagic_yww": 181,
+  "MinDefense_yww": 36,
+  "MaxDefense_yww": 237,
+  "MinSpeed_yww": 11,
+  "MaxSpeed_yww": 78,
+  "AttackId_yww": 3,
+  "MagicId_yww": 11,
+  "HauntId_yww": 412000,
+  "SpSkillId_yww": 412000,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 15,
+  "DislikeFoodKind_yww": 3,
+  "ActionType_yww": 17,
+  "TribeType_yww": 7,
+  "MedallionImage_yww": "y407800.png",
+  "SpriteImage_yww": "img_y407800.png",
+  "Audio_yww": "sp_y407800.wav",
+  "Description_yww": "La forme évoluée de Sumo-don. Un yōkai embêtant qui vous oblige à l'affronter au sumo jusqu'à ce que vous en ayez marre. Devenu yokozuna, il a gagné en puissance et ne vous lâche plus une fois qu'il vous a pris en prise.",
+  "BingoMessage_fr_yww": "T'as du caractère, toi, alors On va bien s'entendre, hein ?"
 }

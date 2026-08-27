@@ -1,426 +1,457 @@
 {
-    "ID": "138",
-    "Nom": "Hyprapillon",
-    "Tribue": "Bienveillant",
-    "Rang": "A",
-    "PV": "387",
-    "Force": "59",
-    "Esprit": "237",
-    "Défense": "123",
-    "Vitesse": "173",
-    "Description-": "Un Yo-kai papillon avec des ailes féeriques. Respirer son parfum augmentera au max ton niveau d'enthousiasme.",
-    "Description": "Les gens atteindront des sommets inimaginables sous l'envoûtement de ce Yo-kai. Tout le monde le veut !",
-    "nourriture": "Jus",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Ceux qui subissent l'envoûtement de Hyprapillon atteindront des sommets inimaginables et seront en pleine forme.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/hyprapillon.png",
-    "numero": "123",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Écailles miracle",
-            "effet": "Immunisé contre les envoûtements ennemis."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Gifle",
-            "effet": "10 | 45"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paradis",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Remise en forme",
-            "effet": "Restaure les PV de ses alliés et les remet en super forme."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Bien-être",
-            "effet": "Redonne la forme à un allié et augmente toutes ses stats."
-        }
+  "ID": "138",
+  "Nom": "Hyprapillon",
+  "Tribue": "Bienveillant",
+  "Rang": "A",
+  "PV": "387",
+  "Force": "59",
+  "Esprit": "237",
+  "Défense": "123",
+  "Vitesse": "173",
+  "Description-": "Un Yo-kai papillon avec des ailes féeriques. Respirer son parfum augmentera au max ton niveau d'enthousiasme.",
+  "Description": "Les gens atteindront des sommets inimaginables sous l'envoûtement de ce Yo-kai. Tout le monde le veut !",
+  "nourriture": "Jus",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Ceux qui subissent l'envoûtement de Hyprapillon atteindront des sommets inimaginables et seront en pleine forme.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/hyprapillon.png",
+  "numero": "123",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Écailles miracle",
+      "effet": "Immunisé contre les envoûtements ennemis."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Gifle",
+      "effet": "10 | 45"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paradis",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Remise en forme",
+      "effet": "Restaure les PV de ses alliés et les remet en super forme."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Bien-être",
+      "effet": "Redonne la forme à un allié et augmente toutes ses stats."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est trop bon !",
+    "Mange de la nourriture insipide": "C'est bon, en fait !",
+    "Mange de la mauvaise nourriture": "Pas trop mon truc.",
+    "A la flemme": "Trop fatigué.",
+    "Est échangé": "Tu peux le faire ! On est bien mieux ensemble !",
+    "Devient ton ami": "Tout irait mieux si on faisait partie de la même équipe !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Papiltation",
+      "parent2": "Papiltension",
+      "resultat": "Hyprapillon",
+      "critere": "➨"
+    },
+    {
+      "type": "Fusion",
+      "contexte": "yw3",
+      "parent1": "Hyprapillon",
+      "parent2": "Vermicelles colorés",
+      "resultat": "Ailexagère",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "サイコウ蝶",
+  "nom_anglais": "Betterfly",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Fusion",
+      "Coteau fleuri-Clinique du Crépuscule"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est trop bon !",
-        "Mange de la nourriture insipide": "C'est bon, en fait !",
-        "Mange de la mauvaise nourriture": "Pas trop mon truc.",
-        "A la flemme": "Trop fatigué.",
-        "Est échangé": "Tu peux le faire ! On est bien mieux ensemble !",
-        "Devient ton ami": "Tout irait mieux si on faisait partie de la même équipe !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Papiltation",
-            "parent2": "Papiltension",
-            "resultat": "Hyprapillon",
-            "critere": "➨"
-        },
-        {
-            "type": "Fusion",
-            "contexte": "yw3",
-            "parent1": "Hyprapillon",
-            "parent2": "Vermicelles colorés",
-            "resultat": "Ailexagère",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Fusion"
     ],
-    "image_locale": "",
-    "nom_original": "サイコウ蝶",
-    "nom_anglais": "Betterfly",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Fusion",
-            "Coteau fleuri-Clinique du Crépuscule"
-        ],
-        "yw2": [
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Volée",
-                "puissance": "20×2|44×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Remise en forme",
-                "puissance": "110|165",
-                "description": "Restaure les PV de ses alliés et les remet en super forme."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Bien-être",
-                "puissance": "N/A",
-                "description": "Redonne la forme à un allié et augmente toutes ses stats."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Écailles miracles",
-                "description": "Immunisé contre les envoûtements ennemis."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Remise en forme",
-                "puissance": "110|165",
-                "description": "Restaure les PV de ses alliés et les remet en super forme."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Bien-être",
-                "puissance": "N/A",
-                "description": "Redonne la forme à un allié et augmente toutes ses stats."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Écailles miracles",
-                "description": "Immunisé contre les envoûtements ennemis."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Remise en forme",
-                "puissance": "400",
-                "description": "Alliés retrouvent beaucoup de PV."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Paradis",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Envoût. multi-boost",
-                "puissance": "___",
-                "description": "Hausse des stats alliées. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Boost de vitesse +",
-                "puissance": "___",
-                "description": "Forte hausse VIT. alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Écailles miracle",
-                "description": "Immunité contre les effets d'envoûtements négatifs."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Remise en forme",
-                "puissance": "120|180",
-                "description": "Restaure les PV de ses alliés et les remet en super forme."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Bien-être",
-                "puissance": "N/A",
-                "description": "Redonne la forme à un allié et augmente toutes ses stats."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Écailles miracles",
-                "description": "Immunisé contre les envoûtements ennemis."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Écailles miracles",
-        "description": "Immunisé contre les envoûtements ennemis."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/hyprapillon.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/hyprapillon.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/hyprapillon.wav",
-    "oldID": "138",
-    "medallium_ids": {
-        "yw1": "123",
-        "yw2": "183",
-        "yw3": "340"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "227",
-        "yw Blasters 2": "348",
-        "yw Wibble Wobble": "5005",
-        "yw World": "0106",
-        "yw Ukiukipedia": "yw2-026"
-    },
-    "battle_type": "",
-    "skill_name": "Miraculous Scales",
-    "skill_effect": "Feeling Fine",
-    "disliked_food": "Bread",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "366",
-                "STR": "142",
-                "SPR": "195",
-                "DEF": "119",
-                "SPD": "179"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "387",
-                "STR": "142",
-                "SPR": "195",
-                "DEF": "119",
-                "SPD": "179"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "254-449",
-                "STR": "59",
-                "SPR": "237",
-                "DEF": "123",
-                "SPD": "173"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "254-449"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "254-449"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "254-449"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "サイコウ蝶",
-            "Saikōchō"
-        ],
-        "Spanish": [
-            "Mejorposa"
-        ],
-        "French": [
-            "Hyprapillon"
-        ],
-        "Italian": [
-            "Farfamiglio"
-        ],
-        "German": [
-            "Besserling"
-        ],
-        "Dutch": [
-            "Betterfly"
-        ],
-        "Korean": [
-            "최고나비",
-            "Choegonabi"
-        ],
-        "Russian": [
-            "Благобабочка",
-            "Blagobabochka"
-        ],
-        "Arabic": [
-            "بارع",
-            "Bārie"
-        ],
-        "Chinese (Mandarin)": [
-            "最高蝶",
-            "Zuìgāodié"
-        ],
-        "Portuguese (Brazilian)": [
-            "Borbolendária",
-            "Borbolinda"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "サイコウ蝶"
-        ],
-        "Spanish": [
-            "Mejorposa"
-        ],
-        "French": [
-            "Hyprapillon"
-        ],
-        "Italian": [
-            "Farfamiglio"
-        ],
-        "German": [
-            "Besserling"
-        ],
-        "Dutch": [
-            "Betterfly"
-        ],
-        "Korean": [
-            "최고나비"
-        ],
-        "Russian": [
-            "Благобабочка"
-        ],
-        "Arabic": [
-            "بارع"
-        ],
-        "Chinese (Mandarin)": [
-            "最高蝶"
-        ],
-        "Portuguese (Brazilian)": [
-            "BorbolendáriaBorbolinda"
-        ]
-    },
-    "description_en": "People will fulfill their potential in ways they've never imagined with Betterfly. Everyone wants this Yo-kai!",
-    "nom_en": "Enerfly",
-    "rang_yww": "A",
-    "tribue_yww": null,
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": null,
-    "nourriture_favorite": "jus",
-    "attitude_spécifique_yww": null,
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {},
-    "stats_max_yww": {},
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [],
-    "mouvement_spécial_yww": [],
-    "posséder_yww": [],
-    "explication_yww": [],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Volée",
+        "puissance": "20×2|44×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Remise en forme",
+        "puissance": "110|165",
+        "description": "Restaure les PV de ses alliés et les remet en super forme."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Bien-être",
+        "puissance": "N/A",
+        "description": "Redonne la forme à un allié et augmente toutes ses stats."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Écailles miracles",
+        "description": "Immunisé contre les envoûtements ennemis."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Remise en forme",
+        "puissance": "110|165",
+        "description": "Restaure les PV de ses alliés et les remet en super forme."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Bien-être",
+        "puissance": "N/A",
+        "description": "Redonne la forme à un allié et augmente toutes ses stats."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Écailles miracles",
+        "description": "Immunisé contre les envoûtements ennemis."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Remise en forme",
+        "puissance": "400",
+        "description": "Alliés retrouvent beaucoup de PV."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Paradis",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Envoût. multi-boost",
+        "puissance": "___",
+        "description": "Hausse des stats alliées. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Boost de vitesse +",
+        "puissance": "___",
+        "description": "Forte hausse VIT. alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Écailles miracle",
+        "description": "Immunité contre les effets d'envoûtements négatifs."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Remise en forme",
+        "puissance": "120|180",
+        "description": "Restaure les PV de ses alliés et les remet en super forme."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Bien-être",
+        "puissance": "N/A",
+        "description": "Redonne la forme à un allié et augmente toutes ses stats."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Écailles miracles",
+        "description": "Immunisé contre les envoûtements ennemis."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Écailles miracles",
+    "description": "Immunisé contre les envoûtements ennemis."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/hyprapillon.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/hyprapillon.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/hyprapillon.wav",
+  "oldID": "138",
+  "medallium_ids": {
+    "yw1": "123",
+    "yw2": "183",
+    "yw3": "340"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "227",
+    "yw Blasters 2": "348",
+    "yw Wibble Wobble": "5005",
+    "yw World": "0106",
+    "yw Ukiukipedia": "yw2-026"
+  },
+  "battle_type": "",
+  "skill_name": "Miraculous Scales",
+  "skill_effect": "Feeling Fine",
+  "disliked_food": "Bread",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "366",
+        "STR": "142",
+        "SPR": "195",
+        "DEF": "119",
+        "SPD": "179"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "387",
+        "STR": "142",
+        "SPR": "195",
+        "DEF": "119",
+        "SPD": "179"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "254-449",
+        "STR": "59",
+        "SPR": "237",
+        "DEF": "123",
+        "SPD": "173"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "254-449"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "254-449"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "254-449"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "サイコウ蝶",
+      "Saikōchō"
+    ],
+    "Spanish": [
+      "Mejorposa"
+    ],
+    "French": [
+      "Hyprapillon"
+    ],
+    "Italian": [
+      "Farfamiglio"
+    ],
+    "German": [
+      "Besserling"
+    ],
+    "Dutch": [
+      "Betterfly"
+    ],
+    "Korean": [
+      "최고나비",
+      "Choegonabi"
+    ],
+    "Russian": [
+      "Благобабочка",
+      "Blagobabochka"
+    ],
+    "Arabic": [
+      "بارع",
+      "Bārie"
+    ],
+    "Chinese (Mandarin)": [
+      "最高蝶",
+      "Zuìgāodié"
+    ],
+    "Portuguese (Brazilian)": [
+      "Borbolendária",
+      "Borbolinda"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "サイコウ蝶"
+    ],
+    "Spanish": [
+      "Mejorposa"
+    ],
+    "French": [
+      "Hyprapillon"
+    ],
+    "Italian": [
+      "Farfamiglio"
+    ],
+    "German": [
+      "Besserling"
+    ],
+    "Dutch": [
+      "Betterfly"
+    ],
+    "Korean": [
+      "최고나비"
+    ],
+    "Russian": [
+      "Благобабочка"
+    ],
+    "Arabic": [
+      "بارع"
+    ],
+    "Chinese (Mandarin)": [
+      "最高蝶"
+    ],
+    "Portuguese (Brazilian)": [
+      "BorbolendáriaBorbolinda"
+    ]
+  },
+  "description_en": "People will fulfill their potential in ways they've never imagined with Betterfly. Everyone wants this Yo-kai!",
+  "nom_en": "Enerfly",
+  "rang_yww": "A",
+  "tribue_yww": null,
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": null,
+  "nourriture_favorite": "jus",
+  "attitude_spécifique_yww": null,
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {},
+  "stats_max_yww": {},
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [],
+  "mouvement_spécial_yww": [],
+  "posséder_yww": [],
+  "explication_yww": [],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "138",
+  "Name_yww": "サイコウ蝶",
+  "description_jp_yww": "とりつかれた人は 経験したことがないような 最高の調子になる。 だれもが　さがし求める チョウの妖怪。",
+  "BingoMessage_jp_yww": "いま　わたくしの気分は最高よ！ わたくしがいれば　あなたも最高潮よ！",
+  "MonsterId_yww": "y173000",
+  "Height_yww": 15.0,
+  "CommondId_yww": "sp_173000",
+  "MinHp_yww": 47,
+  "MaxHp_yww": 387,
+  "MinAttack_yww": 8,
+  "MaxAttack_yww": 59,
+  "MinMagic_yww": 38,
+  "MaxMagic_yww": 237,
+  "MinDefense_yww": 14,
+  "MaxDefense_yww": 123,
+  "MinSpeed_yww": 27,
+  "MaxSpeed_yww": 173,
+  "AttackId_yww": 10,
+  "MagicId_yww": 24,
+  "HauntId_yww": 173000,
+  "SpSkillId_yww": 173000,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 5,
+  "DislikeFoodKind_yww": 2,
+  "ActionType_yww": 15,
+  "TribeType_yww": 5,
+  "MedallionImage_yww": "y168800.png",
+  "SpriteImage_yww": "img_y168800.png",
+  "Audio_yww": "sp_y168800.wav",
+  "Description_yww": "La personne possédée se retrouve dans une forme exceptionnelle, comme elle n'en a jamais connue. Le yōkai papillon que tout le monde recherche.",
+  "BingoMessage_fr_yww": "En ce moment, je me sens au top ! Si je suis là, toi aussi, tu seras au top !"
 }

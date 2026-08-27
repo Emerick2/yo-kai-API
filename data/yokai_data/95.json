@@ -1,724 +1,755 @@
 {
-    "ID": "95",
-    "Nom": "Jibanyan",
-    "Tribue": "Mignon",
-    "Rang": "D",
-    "PV": "332",
-    "Force": "167",
-    "Esprit": "43",
-    "Défense": "104",
-    "Vitesse": "216",
-    "Description": "Après s'être fait rouler dessus par un camion, il hante un carrefour et cherche à prendre sa revanche sur eux.",
-    "nourriture": "Fruits de Mer",
-    "élément": "Feu",
-    "Rôle": "Combattant",
-    "Biographie": "Jibanyanvivait une vie tranquille avec sa maitresse,Amélie. Un jour, il se fit renverser par un camion et devint ensuite un Yo-Kai hantant le carrefour où il est mort. Depuis ce jour, il essaye d'arrêter les camions et les voitures qui passent à cet endroit, créant de nombreux accidents qui ont été évitées de justesse. C'est aussi là-bas qu'il fera la rencontre deNathanetWhisper. Il adore également les barres de chocolat et lesNext HarMIAOUny.",
-    "étimologie": "Son nom est une combinaison de Jibakurei (japonais: 地縛霊 \"fantôme lié à un emplacement\") et Nyan, l'onomatopée japonaise pour le \"Miaou\" d'un chat.",
-    "origine": "Jibanyan vient de la légende dubakeneko, plus précisément à unnekomata,chat souvent à double queue ayant la capacité de ressusciter les morts, de contrôler les flammes et de prendre forme humaine.",
-    "histoire": "",
-    "pouvoir": "Jibanyan envoûte les gens de sorte à ce qu'ils traversent au rouge pour se venger des camions, même si il sait que c'est souvent lui qui se fait rentrer dedans !",
-    "personnalité": "Ce chat paresseux adore les barres de chocolat. Mieux vaut ne pas l'énerver ou il se déchaînera par sa Fureur du Chaton.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/jibanyan.png",
-    "numero": "093",
-    "nourriture_favorite": "Barre de chocolat",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Adrénaline",
-            "effet": "La puissance augmente à chaque ennemi battu."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Griffes acérées",
-            "effet": "10x2 | 45x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Feu",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Fureur du chaton",
-            "effet": "Tous les ennemis se font cogner par ses pattes surentraînées. 20x5 | 20x5"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Ralentissement",
-            "effet": "Réduit la VIT. d'un ennemi avec un sceau paralysant."
-        }
+  "ID": "95",
+  "Nom": "Jibanyan",
+  "Tribue": "Mignon",
+  "Rang": "D",
+  "PV": "332",
+  "Force": "167",
+  "Esprit": "43",
+  "Défense": "104",
+  "Vitesse": "216",
+  "Description": "Après s'être fait rouler dessus par un camion, il hante un carrefour et cherche à prendre sa revanche sur eux.",
+  "nourriture": "Fruits de Mer",
+  "élément": "Feu",
+  "Rôle": "Combattant",
+  "Biographie": "Jibanyanvivait une vie tranquille avec sa maitresse,Amélie. Un jour, il se fit renverser par un camion et devint ensuite un Yo-Kai hantant le carrefour où il est mort. Depuis ce jour, il essaye d'arrêter les camions et les voitures qui passent à cet endroit, créant de nombreux accidents qui ont été évitées de justesse. C'est aussi là-bas qu'il fera la rencontre deNathanetWhisper. Il adore également les barres de chocolat et lesNext HarMIAOUny.",
+  "étimologie": "Son nom est une combinaison de Jibakurei (japonais: 地縛霊 \"fantôme lié à un emplacement\") et Nyan, l'onomatopée japonaise pour le \"Miaou\" d'un chat.",
+  "origine": "Jibanyan vient de la légende dubakeneko, plus précisément à unnekomata,chat souvent à double queue ayant la capacité de ressusciter les morts, de contrôler les flammes et de prendre forme humaine.",
+  "histoire": "",
+  "pouvoir": "Jibanyan envoûte les gens de sorte à ce qu'ils traversent au rouge pour se venger des camions, même si il sait que c'est souvent lui qui se fait rentrer dedans !",
+  "personnalité": "Ce chat paresseux adore les barres de chocolat. Mieux vaut ne pas l'énerver ou il se déchaînera par sa Fureur du Chaton.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/jibanyan.png",
+  "numero": "093",
+  "nourriture_favorite": "Barre de chocolat",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Adrénaline",
+      "effet": "La puissance augmente à chaque ennemi battu."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Griffes acérées",
+      "effet": "10x2 | 45x2"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Feu",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Fureur du chaton",
+      "effet": "Tous les ennemis se font cogner par ses pattes surentraînées. 20x5 | 20x5"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Ralentissement",
+      "effet": "Réduit la VIT. d'un ennemi avec un sceau paralysant."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Barre de chocolat !",
+    "Mange de la nourriture insipide": "Pas trop mal...",
+    "Mange de la mauvaise nourriture": "Nyooon ! Stooop !",
+    "A la flemme": "Tout endormiaou.",
+    "Est échangé": "On est amis, miaoutenant ? Cool ! Ravi de faire ta connyaissance !",
+    "Devient ton ami": "Quel combat ! Devenyons amis !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Jibanyan",
+      "parent2": "Loubarbare",
+      "resultat": "Bandinyan",
+      "critere": "➨"
+    },
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Jibanyan",
+      "parent2": "Malmidal",
+      "resultat": "Épinyan",
+      "critere": "➨"
+    },
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Jibanyan",
+      "parent2": "Jibanyan A",
+      "resultat": "Jibanyan S",
+      "critere": "➨"
+    },
+    {
+      "type": "Fusion",
+      "contexte": "Dans le dessin animé",
+      "parent1": "Jibanyan",
+      "parent2": "Whisper",
+      "resultat": "Buchinyan",
+      "critere": "➨"
+    },
+    {
+      "type": "Fusion",
+      "contexte": "Dans le dessin animé",
+      "parent1": "Jibanyan",
+      "parent2": "Komasan",
+      "resultat": "Jibakoma",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ジバニャン",
+  "nom_anglais": "Jibanyan",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Etzuko Kuzakura",
+    "francaise": "Fanny Bloc",
+    "anglaise": "English VAAlicyn Packard(Video games and Season 1 and 2 anime dub)Kira Buckland(Season 3 anime dub)"
+  },
+  "localisations": {
+    "yw1": [
+      "Au cours del'histoire",
+      "Limbes éternelles- 5e cercle",
+      "Limbes éternelles - 6e cercle",
+      "Mont Sylvestre-Bingo-kai- Pièce d'euphorie"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Barre de chocolat !",
-        "Mange de la nourriture insipide": "Pas trop mal...",
-        "Mange de la mauvaise nourriture": "Nyooon ! Stooop !",
-        "A la flemme": "Tout endormiaou.",
-        "Est échangé": "On est amis, miaoutenant ? Cool ! Ravi de faire ta connyaissance !",
-        "Devient ton ami": "Quel combat ! Devenyons amis !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Jibanyan",
-            "parent2": "Loubarbare",
-            "resultat": "Bandinyan",
-            "critere": "➨"
-        },
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Jibanyan",
-            "parent2": "Malmidal",
-            "resultat": "Épinyan",
-            "critere": "➨"
-        },
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Jibanyan",
-            "parent2": "Jibanyan A",
-            "resultat": "Jibanyan S",
-            "critere": "➨"
-        },
-        {
-            "type": "Fusion",
-            "contexte": "Dans le dessin animé",
-            "parent1": "Jibanyan",
-            "parent2": "Whisper",
-            "resultat": "Buchinyan",
-            "critere": "➨"
-        },
-        {
-            "type": "Fusion",
-            "contexte": "Dans le dessin animé",
-            "parent1": "Jibanyan",
-            "parent2": "Komasan",
-            "resultat": "Jibakoma",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Au cours de l'histoire"
     ],
-    "image_locale": "",
-    "nom_original": "ジバニャン",
-    "nom_anglais": "Jibanyan",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Etzuko Kuzakura",
-        "francaise": "Fanny Bloc",
-        "anglaise": "English VAAlicyn Packard(Video games and Season 1 and 2 anime dub)Kira Buckland(Season 3 anime dub)"
-    },
-    "localisations": {
-        "yw1": [
-            "Au cours del'histoire",
-            "Limbes éternelles- 5e cercle",
-            "Limbes éternelles - 6e cercle",
-            "Mont Sylvestre-Bingo-kai- Pièce d'euphorie"
-        ],
-        "yw2": [
-            "Au cours de l'histoire"
-        ],
-        "yw Blasters 1": [
-            "Histoire - Les Blasters fonds-de-tiroirs",
-            "Bingo-kai - Pièce Jibanyan"
-        ],
-        "yw3": [
-            "Histoire",
-            "Bingo-kai - Pièce légendaire"
-        ],
-        "yw4": [
-            "Un seul Jibanyan est obtenable par sauvegarde. Il est disponible dès le début du Chapitre 1. Il a également une rare chance d'apparaître à Granval et dans les tirages deGrolos."
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "Mononoke",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "10×2|45×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Feu",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Fureur du chaton",
-                "puissance": "20×5|20×5",
-                "description": "Tous les ennemis se font cogner par ses pattes surentraînées."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Ralentissement",
-                "puissance": "N/A",
-                "description": "Réduit la VIT. d'un ennemi avec un sceau paralysant."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Adrénaline",
-                "description": "La puissance augmente à chaque ennemi battu."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "10×2|45×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Feu",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Fureur du chaton",
-                "puissance": "20×5|20×5",
-                "description": "Tous les ennemis se font cogner par ses pattes surentraînées."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Ralentissement",
-                "puissance": "N/A",
-                "description": "Réduit la VIT. d'un ennemi avec un sceau paralysant."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque à bloc",
-                "puissance": "N/A",
-                "description": "Déclenche une forte attaque à courte portée."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Adrénaline",
-                "description": "La puissance augmente à chaque ennemi battu."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Fureur du chaton",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Feu",
-                "puissance": "40",
-                "description": "Utilise un sort de feu. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Attaque chargée",
-                "puissance": "80",
-                "description": "Attaque courte portée. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Réflexes rapides",
-                "description": "Échapper aux attaques ennemies plus facile avec Évasion."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "15×2|52×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Feu",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Fureur du chaton",
-                "puissance": "15×5|45×5",
-                "description": "Les ennemis à portée se font cogner par ses pattes surentraînées."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Ralentissement",
-                "puissance": "N/A",
-                "description": "Appose un sceau paralysant sur l'ennemi et l'immobilise."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Adrénaline",
-                "description": "↑ puissance, à chaque ennemi battu."
-            }
-        ]
-    },
-    "soul_effects": {
-        "yw2": "Attaque plus fortement après la défaite d'un ennemi.",
-        "yw Blasters 1": "Faible hausse de la VIT.",
-        "yw3": "↑ attaque +, parfois, si des ennemis sont battus."
-    },
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "La vie en tête"
-            },
-            {
-                "taux": "?%",
-                "objet": "Sériole"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Grelot brisé"
-            },
-            {
-                "taux": "?%",
-                "objet": "Barre de chocolat"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Barre choco-maxi"
-            },
-            {
-                "taux": "?%",
-                "objet": "Barre de chocolat"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Adrénaline",
-        "description": "La puissance augmente à chaque ennemi battu."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/jibanyan.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/jibanyan.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/jibanyan.wav",
-    "medallium_ids": {
-        "yw1": "093",
-        "yw2": "135",
-        "yw3": "243",
-        "yw4": "048"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "153",
-        "yw Blasters 2": "248",
-        "yw Wibble Wobble": "4007",
-        "Kunitori": "3048",
-        "yw World": "0080",
-        "Y-Gakuen": "088",
-        "yw Ukiukipedia": "yw1-026/YD1-024"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Adrenaline",
-    "skill_effect": "Slow Down",
-    "disliked_food": "Vegetables",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "322",
-                "STR": "153",
-                "SPR": "90",
-                "DEF": "108",
-                "SPD": "165"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "322",
-                "STR": "153",
-                "SPR": "90",
-                "DEF": "108",
-                "SPD": "165"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "178",
-                "STR": "70",
-                "SPR": "56",
-                "DEF": "109",
-                "SPD": "221"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "372",
-                "STR": "223",
-                "SPR": "61",
-                "DEF": "124"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "368",
-                "STR": "221",
-                "SPR": "59",
-                "DEF": "122"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "167-324"
-            },
-            "elements": {},
-            "attacks": [
-                {
-                    "type": "Attack",
-                    "name": "Triple Attack",
-                    "power": "30+30+60",
-                    "attribute": "Triple attack",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Power Attack",
-                    "power": "100",
-                    "attribute": "Power attack",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Dodge",
-                    "power": "-",
-                    "attribute": "Dodge",
-                    "range": "Self"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Fire",
-                    "power": "40, 100 (Charged)",
-                    "attribute": "Fire",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Charged Attack",
-                    "power": "80, 200 (Charged)",
-                    "attribute": "Charged attack",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Soultimate Move",
-                    "name": "Paws of Fury",
-                    "power": "40x10",
-                    "attribute": "Attack",
-                    "range": "Area"
-                },
-                {
-                    "type": "Skill",
-                    "name": "Quick Reflexes",
-                    "power": "N/A",
-                    "attribute": "Dodge",
-                    "range": "Self"
-                }
-            ]
-        },
-        "Soul": {
-            "stats": {
-                "HP": "167-324",
-                "STR": "221",
-                "SPR": "59",
-                "DEF": "122"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "167-324",
-                "STR": "221",
-                "SPR": "59",
-                "DEF": "122"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        }
-    },
-    "random_names": {
-        "Japanese": [
-            "ジバクねこ",
-            "Jibakuneko",
-            "ジニー",
-            "Jinī",
-            "はらまき",
-            "Haramaki",
-            "ニャンすけ",
-            "Nyansuke"
-        ],
-        "English": [
-            "Nyanto",
-            "Jibbers",
-            "Purrball",
-            "Poltpaws"
-        ],
-        "French": [
-            "Nyamiaou",
-            "Jiby",
-            "Tronyon",
-            "Stopauto"
-        ],
-        "German": [
-            "Nyanto",
-            "Jibber",
-            "Fellball",
-            "Geistatz"
-        ]
-    },
-    "localized_names": {
-        "Japanese": [
-            "ジバニャン",
-            "Jibanyan"
-        ],
-        "Spanish": [
-            "Jibanyan"
-        ],
-        "French": [
-            "Jibanyan"
-        ],
-        "Italian": [
-            "Jibanyan"
-        ],
-        "German": [
-            "Jibanyan"
-        ],
-        "Dutch": [
-            "Jibanyan"
-        ],
-        "Korean": [
-            "지바냥",
-            "Jibanyang"
-        ],
-        "Russian": [
-            "Джибаньян",
-            "Dzhiban'yan"
-        ],
-        "Arabic": [
-            "جيبانيان",
-            "Jībāniyān"
-        ],
-        "Chinese (Cantonese)": [
-            "地縛喵",
-            "dei6"
-        ],
-        "Chinese (Mandarin)": [
-            "吉胖喵",
-            "Jípàngmiāo",
-            "地缚猫",
-            "Dìfùmāo"
-        ],
-        "Portuguese (European)": [
-            "Jibanyan"
-        ],
-        "Portuguese (Brazilian)": [
-            "Jibanyan"
-        ],
-        "Turkish": [
-            "Cibanyan"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ひゃくれつ肉球"
-        ],
-        "Spanish": [
-            "Patitas Furiosas"
-        ],
-        "French": [
-            "Fureur du Chaton"
-        ],
-        "Italian": [
-            "Furia zampettante"
-        ],
-        "German": [
-            "Tatzen des Zorns"
-        ],
-        "Chinese (Cantonese)": [
-            "百烈肉球"
-        ]
-    },
-    "description_en": "After being run over by a truck, he Inspirits an intersection and seeks to get his revenge on passing trucks.",
-    "nom_en": "Flumpy",
-    "rang_yww": "D",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Chocobo",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 54,
-        "str": 29,
-        "spr": 9,
-        "def": 11,
-        "spd": 44
-    },
-    "stats_max_yww": {
-        "hp": 379,
-        "str": 235,
-        "spr": 58,
-        "def": 108,
-        "spd": 229
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "スプリングコイン",
-            "_en": "spring coin",
-            "_fr": "pièce de printemps"
-        }
+    "yw Blasters 1": [
+      "Histoire - Les Blasters fonds-de-tiroirs",
+      "Bingo-kai - Pièce Jibanyan"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "するどいつめ",
-                "_en": "sharp claw",
-                "_fr": "griffe acérée"
-            },
-            "explication": {
-                "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 15×2/Blow] Attack twice",
-                "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "火炎の術",
-                "_en": "flame technique",
-                "_fr": "technique de la flamme"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
-                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
-                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
-            }
-        }
+    "yw3": [
+      "Histoire",
+      "Bingo-kai - Pièce légendaire"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ひゃくれつ肉球",
-                "_en": "Hyakuretsu paws",
-                "_fr": "Pattes Hyakuretsu"
-            },
-            "pouvoir": "15×5",
-            "explication": {
-                "_jp": "トラック相手にきたえた肉球で敵全員をなぐりまくる",
-                "_en": "Hit all the enemies with a paw made for trucks.",
-                "_fr": "Frappez tous les ennemis avec une patte conçue pour les camions."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "しびれるお札Ｓ",
-                "_en": "Numb bill S",
-                "_fr": "Facture engourdie S"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 しびれるお札でたまに行動しなくなる",
-                "_en": "[Osabori] I sometimes stop taking action due to numbing bills.",
-                "_fr": "[Osabori] Parfois, j'arrête d'agir à cause de factures engourdies."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "クルマにハネられて 死んでしまったネコが 地縛霊になった姿。 クルマにリベンジをするが いつも失敗している。",
-            "_en": "A cat that was killed by a car and turned into an earthbound spirit. He tries to take revenge on the car, but always fails.",
-            "_fr": "Un chat qui a été tué par une voiture et transformé en un esprit terrestre. Il essaie de se venger de la voiture, mais échoue toujours."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw4": [
+      "Un seul Jibanyan est obtenable par sauvegarde. Il est disponible dès le début du Chapitre 1. Il a également une rare chance d'apparaître à Granval et dans les tirages deGrolos."
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "Mononoke",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Griffes acérées",
+        "puissance": "10×2|45×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Feu",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Fureur du chaton",
+        "puissance": "20×5|20×5",
+        "description": "Tous les ennemis se font cogner par ses pattes surentraînées."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Ralentissement",
+        "puissance": "N/A",
+        "description": "Réduit la VIT. d'un ennemi avec un sceau paralysant."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Adrénaline",
+        "description": "La puissance augmente à chaque ennemi battu."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Griffes acérées",
+        "puissance": "10×2|45×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Feu",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Fureur du chaton",
+        "puissance": "20×5|20×5",
+        "description": "Tous les ennemis se font cogner par ses pattes surentraînées."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Ralentissement",
+        "puissance": "N/A",
+        "description": "Réduit la VIT. d'un ennemi avec un sceau paralysant."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Attaque à bloc",
+        "puissance": "N/A",
+        "description": "Déclenche une forte attaque à courte portée."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Adrénaline",
+        "description": "La puissance augmente à chaque ennemi battu."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Fureur du chaton",
+        "puissance": "40×10",
+        "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Feu",
+        "puissance": "40",
+        "description": "Utilise un sort de feu. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Attaque chargée",
+        "puissance": "80",
+        "description": "Attaque courte portée. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Réflexes rapides",
+        "description": "Échapper aux attaques ennemies plus facile avec Évasion."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Griffes acérées",
+        "puissance": "15×2|52×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Feu",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Fureur du chaton",
+        "puissance": "15×5|45×5",
+        "description": "Les ennemis à portée se font cogner par ses pattes surentraînées."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Ralentissement",
+        "puissance": "N/A",
+        "description": "Appose un sceau paralysant sur l'ennemi et l'immobilise."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Adrénaline",
+        "description": "↑ puissance, à chaque ennemi battu."
+      }
+    ]
+  },
+  "soul_effects": {
+    "yw2": "Attaque plus fortement après la défaite d'un ennemi.",
+    "yw Blasters 1": "Faible hausse de la VIT.",
+    "yw3": "↑ attaque +, parfois, si des ennemis sont battus."
+  },
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "La vie en tête"
+      },
+      {
+        "taux": "?%",
+        "objet": "Sériole"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Grelot brisé"
+      },
+      {
+        "taux": "?%",
+        "objet": "Barre de chocolat"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Barre choco-maxi"
+      },
+      {
+        "taux": "?%",
+        "objet": "Barre de chocolat"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Adrénaline",
+    "description": "La puissance augmente à chaque ennemi battu."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/jibanyan.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/jibanyan.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/jibanyan.wav",
+  "medallium_ids": {
+    "yw1": "093",
+    "yw2": "135",
+    "yw3": "243",
+    "yw4": "048"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "153",
+    "yw Blasters 2": "248",
+    "yw Wibble Wobble": "4007",
+    "Kunitori": "3048",
+    "yw World": "0080",
+    "Y-Gakuen": "088",
+    "yw Ukiukipedia": "yw1-026/YD1-024"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Adrenaline",
+  "skill_effect": "Slow Down",
+  "disliked_food": "Vegetables",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "322",
+        "STR": "153",
+        "SPR": "90",
+        "DEF": "108",
+        "SPD": "165"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "322",
+        "STR": "153",
+        "SPR": "90",
+        "DEF": "108",
+        "SPD": "165"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "178",
+        "STR": "70",
+        "SPR": "56",
+        "DEF": "109",
+        "SPD": "221"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "372",
+        "STR": "223",
+        "SPR": "61",
+        "DEF": "124"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "368",
+        "STR": "221",
+        "SPR": "59",
+        "DEF": "122"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "167-324"
+      },
+      "elements": {},
+      "attacks": [
+        {
+          "type": "Attack",
+          "name": "Triple Attack",
+          "power": "30+30+60",
+          "attribute": "Triple attack",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Power Attack",
+          "power": "100",
+          "attribute": "Power attack",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Dodge",
+          "power": "-",
+          "attribute": "Dodge",
+          "range": "Self"
+        },
+        {
+          "type": "Technique",
+          "name": "Fire",
+          "power": "40, 100 (Charged)",
+          "attribute": "Fire",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Charged Attack",
+          "power": "80, 200 (Charged)",
+          "attribute": "Charged attack",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Soultimate Move",
+          "name": "Paws of Fury",
+          "power": "40x10",
+          "attribute": "Attack",
+          "range": "Area"
+        },
+        {
+          "type": "Skill",
+          "name": "Quick Reflexes",
+          "power": "N/A",
+          "attribute": "Dodge",
+          "range": "Self"
+        }
+      ]
+    },
+    "Soul": {
+      "stats": {
+        "HP": "167-324",
+        "STR": "221",
+        "SPR": "59",
+        "DEF": "122"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "167-324",
+        "STR": "221",
+        "SPR": "59",
+        "DEF": "122"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    }
+  },
+  "random_names": {
+    "Japanese": [
+      "ジバクねこ",
+      "Jibakuneko",
+      "ジニー",
+      "Jinī",
+      "はらまき",
+      "Haramaki",
+      "ニャンすけ",
+      "Nyansuke"
+    ],
+    "English": [
+      "Nyanto",
+      "Jibbers",
+      "Purrball",
+      "Poltpaws"
+    ],
+    "French": [
+      "Nyamiaou",
+      "Jiby",
+      "Tronyon",
+      "Stopauto"
+    ],
+    "German": [
+      "Nyanto",
+      "Jibber",
+      "Fellball",
+      "Geistatz"
+    ]
+  },
+  "localized_names": {
+    "Japanese": [
+      "ジバニャン",
+      "Jibanyan"
+    ],
+    "Spanish": [
+      "Jibanyan"
+    ],
+    "French": [
+      "Jibanyan"
+    ],
+    "Italian": [
+      "Jibanyan"
+    ],
+    "German": [
+      "Jibanyan"
+    ],
+    "Dutch": [
+      "Jibanyan"
+    ],
+    "Korean": [
+      "지바냥",
+      "Jibanyang"
+    ],
+    "Russian": [
+      "Джибаньян",
+      "Dzhiban'yan"
+    ],
+    "Arabic": [
+      "جيبانيان",
+      "Jībāniyān"
+    ],
+    "Chinese (Cantonese)": [
+      "地縛喵",
+      "dei6"
+    ],
+    "Chinese (Mandarin)": [
+      "吉胖喵",
+      "Jípàngmiāo",
+      "地缚猫",
+      "Dìfùmāo"
+    ],
+    "Portuguese (European)": [
+      "Jibanyan"
+    ],
+    "Portuguese (Brazilian)": [
+      "Jibanyan"
+    ],
+    "Turkish": [
+      "Cibanyan"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ひゃくれつ肉球"
+    ],
+    "Spanish": [
+      "Patitas Furiosas"
+    ],
+    "French": [
+      "Fureur du Chaton"
+    ],
+    "Italian": [
+      "Furia zampettante"
+    ],
+    "German": [
+      "Tatzen des Zorns"
+    ],
+    "Chinese (Cantonese)": [
+      "百烈肉球"
+    ]
+  },
+  "description_en": "After being run over by a truck, he Inspirits an intersection and seeks to get his revenge on passing trucks.",
+  "nom_en": "Flumpy",
+  "rang_yww": "D",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "Chocobo",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 54,
+    "str": 29,
+    "spr": 9,
+    "def": 11,
+    "spd": 44
+  },
+  "stats_max_yww": {
+    "hp": 379,
+    "str": 235,
+    "spr": 58,
+    "def": 108,
+    "spd": 229
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "スプリングコイン",
+      "_en": "spring coin",
+      "_fr": "pièce de printemps"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "するどいつめ",
+        "_en": "sharp claw",
+        "_fr": "griffe acérée"
+      },
+      "explication": {
+        "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
+        "_en": "[Power: 15×2/Blow] Attack twice",
+        "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "火炎の術",
+        "_en": "flame technique",
+        "_fr": "technique de la flamme"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
+        "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
+        "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ひゃくれつ肉球",
+        "_en": "Hyakuretsu paws",
+        "_fr": "Pattes Hyakuretsu"
+      },
+      "pouvoir": "15×5",
+      "explication": {
+        "_jp": "トラック相手にきたえた肉球で敵全員をなぐりまくる",
+        "_en": "Hit all the enemies with a paw made for trucks.",
+        "_fr": "Frappez tous les ennemis avec une patte conçue pour les camions."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "しびれるお札Ｓ",
+        "_en": "Numb bill S",
+        "_fr": "Facture engourdie S"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 しびれるお札でたまに行動しなくなる",
+        "_en": "[Osabori] I sometimes stop taking action due to numbing bills.",
+        "_fr": "[Osabori] Parfois, j'arrête d'agir à cause de factures engourdies."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "クルマにハネられて 死んでしまったネコが 地縛霊になった姿。 クルマにリベンジをするが いつも失敗している。",
+      "_en": "A cat that was killed by a car and turned into an earthbound spirit. He tries to take revenge on the car, but always fails.",
+      "_fr": "Un chat qui a été tué par une voiture et transformé en un esprit terrestre. Il essaie de se venger de la voiture, mais échoue toujours."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "95",
+  "Name_yww": "ジバニャン",
+  "description_jp_yww": "クルマにハネられて 死んでしまったネコが 地縛霊になった姿。 クルマにリベンジをするが いつも失敗している。",
+  "BingoMessage_jp_yww": "出してくれて　ありがとニャン お礼に　ともだちになってやるニャン！",
+  "MonsterId_yww": "y152000",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_152000",
+  "MinHp_yww": 65,
+  "MaxHp_yww": 332,
+  "MinAttack_yww": 20,
+  "MaxAttack_yww": 167,
+  "MinMagic_yww": 5,
+  "MaxMagic_yww": 43,
+  "MinDefense_yww": 9,
+  "MaxDefense_yww": 104,
+  "MinSpeed_yww": 29,
+  "MaxSpeed_yww": 216,
+  "AttackId_yww": 41,
+  "MagicId_yww": 1,
+  "HauntId_yww": 152000,
+  "SpSkillId_yww": 152000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 18,
+  "DislikeFoodKind_yww": 10,
+  "ActionType_yww": 31,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y147800.png",
+  "SpriteImage_yww": "img_y147800.png",
+  "Audio_yww": "sp_y147800.wav",
+  "Description_yww": "C'est l'apparence qu'a pris un chat qui a trouvé la mort après avoir été renversé par une voiture. Il tente de se venger de la voiture, mais échoue à chaque fois.",
+  "BingoMessage_fr_yww": "Merci de m'avoir laissé sortir, miaou En guise de remerciement, je vais devenir ton ami, miaou !"
 }

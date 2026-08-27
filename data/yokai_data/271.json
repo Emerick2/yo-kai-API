@@ -1,629 +1,660 @@
 {
-    "ID": "271",
-    "Nom": "Pachypipi",
-    "Tribue": "Costaud",
-    "Rang": "A",
-    "PV": "445",
-    "Force": "123",
-    "Esprit": "79",
-    "Défense": "267",
-    "Vitesse": "99",
-    "Description": "Il résiste vaillamment aux envies pressantes d'aller aux toilettes, mais personne ne sait vraiment pourquoi...",
-    "nourriture": "Riz",
-    "élément": "Eau",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Pachypipi vient de Pachyderme (groupe d'espèces auquel appartient l'éléphant), et de Pipi (terme enfantin pour l'urine).",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Les personnes qu'il envoûte résistent à toutes les pulsions et peuvent supporter n'importe quelle condition, comme une chaleur extrême ou un froid glacial.",
-    "personnalité": "Il est très calme et zen, se concentrant pour résister à tout.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/pachypipi.png",
-    "numero": "104",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Pas bouger",
-            "effet": "Gardera 1 PV après deux coups fatals."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Ventilateur",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Rapides",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Mur défensif",
-            "effet": "Se transforme en mur et augmente beaucoup la DÉF."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Dur à cuire",
-            "effet": "Le Yo-kai peut tout endurer. Sa DÉF. augmente énormément."
-        }
+  "ID": "271",
+  "Nom": "Pachypipi",
+  "Tribue": "Costaud",
+  "Rang": "A",
+  "PV": "445",
+  "Force": "123",
+  "Esprit": "79",
+  "Défense": "267",
+  "Vitesse": "99",
+  "Description": "Il résiste vaillamment aux envies pressantes d'aller aux toilettes, mais personne ne sait vraiment pourquoi...",
+  "nourriture": "Riz",
+  "élément": "Eau",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Pachypipi vient de Pachyderme (groupe d'espèces auquel appartient l'éléphant), et de Pipi (terme enfantin pour l'urine).",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Les personnes qu'il envoûte résistent à toutes les pulsions et peuvent supporter n'importe quelle condition, comme une chaleur extrême ou un froid glacial.",
+  "personnalité": "Il est très calme et zen, se concentrant pour résister à tout.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/pachypipi.png",
+  "numero": "104",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Pas bouger",
+      "effet": "Gardera 1 PV après deux coups fatals."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Ventilateur",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Rapides",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Mur défensif",
+      "effet": "Se transforme en mur et augmente beaucoup la DÉF."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Dur à cuire",
+      "effet": "Le Yo-kai peut tout endurer. Sa DÉF. augmente énormément."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "J'en veux encore !",
+    "Mange de la nourriture insipide": "Hmm...",
+    "Mange de la mauvaise nourriture": "Oh que non.",
+    "A la flemme": "Je m'endors...",
+    "Est échangé": "Je me suis retenu pendant tout le trajet. Je peux encore attendre...",
+    "Devient ton ami": "La patience est une vertu ! Je peux être ton ami aussi ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Pachycoul",
+      "parent2": "Persévéfant",
+      "resultat": "Pachypipi",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ガマンモス",
+  "nom_anglais": "Enduriphant",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Yann Pichon",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Il est possible d'obtenir Pachypipi parFusion, avec unePièce spécialeau Bingo-kai du passé ou dans leBingo-kai oni."
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "J'en veux encore !",
-        "Mange de la nourriture insipide": "Hmm...",
-        "Mange de la mauvaise nourriture": "Oh que non.",
-        "A la flemme": "Je m'endors...",
-        "Est échangé": "Je me suis retenu pendant tout le trajet. Je peux encore attendre...",
-        "Devient ton ami": "La patience est une vertu ! Je peux être ton ami aussi ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Pachycoul",
-            "parent2": "Persévéfant",
-            "resultat": "Pachypipi",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Pachypipi est obtenable par fusion ou en utilisant unePièce orangeau Bingo-kai."
     ],
-    "image_locale": "",
-    "nom_original": "ガマンモス",
-    "nom_anglais": "Enduriphant",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Yann Pichon",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Il est possible d'obtenir Pachypipi parFusion, avec unePièce spécialeau Bingo-kai du passé ou dans leBingo-kai oni."
-        ],
-        "yw Blasters 1": [
-            "Pachypipi est obtenable par fusion ou en utilisant unePièce orangeau Bingo-kai."
-        ],
-        "yw3": [
-            "Pour obtenir Pachypipi, vous devez fusionner Pachycoul et Persévéfant."
-        ],
-        "yw Blasters 2": [
-            "En plus d'être obtenable par fusion, Pachypipi peut être combattu dans l'armée deTomnyan, aux côtés deArachnus,Scolérique,MillyeuxetRugis."
-        ],
-        "yw Puni Puni": [
-            "Pachypipi apparaît pour la première fois dans l'ÉvénementBusters 2, la Légende de Bambaraya, où il est possible de l'obtenir dans le Stage Caché 1, en entrant 3 fois ou plus en Ébullition dans le Stage 24. Il est également possible de l'obtenir avec unePièce ++, unePièce Attaque des Titans, unePièce 10 Tirages du Shogi, unePièce 10 Tirages Shonen Sunday, unePièce 10 Tirages Yo-Majinou unePièce 10 Tirages Chasseurs de Dragons."
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Ventilateur",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Rapides",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Mur défensif",
-                "puissance": "___",
-                "description": "Se transforme en mur et augmente beaucoup la DÉF."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Dur à cuire",
-                "puissance": "N/A",
-                "description": "Le Yo-kai peut tout endurer. Sa DÉF. augmente énormément."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Pas bouger",
-                "description": "Gardera 1 PV après deux coups fatals."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Mur défensif",
-                "puissance": "___",
-                "description": "Forte augm. vitesse, attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Armure de fer",
-                "puissance": "___",
-                "description": "Forte réduction des dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Riz",
-                "puissance": "70",
-                "description": "Restaure tes PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Beaucoup de cran",
-                "description": "Quand PV à 0, 1 PV sera restauré 2 fois maximum."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Ventilateur",
-                "puissance": "20|70",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Rapides",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Mur défensif",
-                "puissance": "___",
-                "description": "Résiste à l'envie. Sa DÉF. augmente."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Dur à cuire",
-                "puissance": "N/A",
-                "description": "Le Yo-kai peut tout endurer. Sa DÉF. augmente."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Mur défensif",
-                "puissance": "___",
-                "description": "Booste +++ la DÉF. Attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Riz",
-                "puissance": "70",
-                "description": "Rend des PV au lanceur."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure fer",
-                "puissance": "___",
-                "description": "Dégâts reçus -- mais attire l’attention de l’ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Pas bouger",
-                "description": "Gardera 1 PV après un coup fatal. (deux fois)"
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Amulette de terre"
-            },
-            {
-                "taux": "?%",
-                "objet": "La défense de A à Z"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Grand EXPorbe"
-            },
-            {
-                "taux": "?%",
-                "objet": "Riz à la crevette"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Pas bouger",
-        "description": "Gardera 1 PV après deux coups fatals."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/pachypipi.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/pachypipi.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/pachypipi.wav",
-    "oldID": "275",
-    "medallium_ids": {
-        "yw2": "104",
-        "yw3": "172"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "118",
-        "yw Blasters 2": "176",
-        "yw Wibble Wobble": "3078",
-        "yw World": "0212",
-        "yw Ukiukipedia": "yw6-013"
-    },
-    "battle_type": "",
-    "skill_name": "Going Nowhere",
-    "skill_effect": "Thick Skin",
-    "disliked_food": "Bread",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "455",
-                "STR": "186",
-                "SPR": "132",
-                "DEF": "183",
-                "SPD": "134"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "455",
-                "STR": "128",
-                "SPR": "84",
-                "DEF": "272",
-                "SPD": "104"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ガマンモス",
-            "Gamanmosu"
-        ],
-        "Spanish": [
-            "Mamuguanto"
-        ],
-        "French": [
-            "Pachypipi"
-        ],
-        "Italian": [
-            "Resistofante"
-        ],
-        "German": [
-            "Mammussnich"
-        ],
-        "Russian": [
-            "Терпеслон",
-            "Terpeslon"
-        ],
-        "Arabic": [
-            "إمساك",
-            "Imsāk"
-        ],
-        "Portuguese (Brazilian)": [
-            "Resistromba"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ガマンモス"
-        ],
-        "Spanish": [
-            "Mamuguanto"
-        ],
-        "French": [
-            "Pachypipi"
-        ],
-        "Italian": [
-            "Resistofante"
-        ],
-        "German": [
-            "Mammussnich"
-        ],
-        "Russian": [
-            "Терпеслон"
-        ],
-        "Arabic": [
-            "إمساك"
-        ],
-        "Portuguese (Brazilian)": [
-            "Resistromba"
-        ]
-    },
-    "description_en": "Heroically resists the urge to go to the bathroom for reasons that remain obscure.",
-    "nom_en": "Blabeye",
-    "rang_yww": "A",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "Onigiri",
-    "nourriture_favorite": "Onigiri",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 56,
-        "str": 16,
-        "spr": 8,
-        "def": 45,
-        "spd": 13
-    },
-    "stats_max_yww": {
-        "hp": 445,
-        "str": 123,
-        "spr": 79,
-        "def": 267,
-        "spd": 99
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw3": [
+      "Pour obtenir Pachypipi, vous devez fusionner Pachycoul et Persévéfant."
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "風穴あけ",
-                "_en": "hole punching",
-                "_fr": "perforation"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "水流の術",
-                "_en": "Water flow technique",
-                "_fr": "Technique d'écoulement de l'eau"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 水属性】 強力な水の妖術を使う。",
-                "_en": "[Power: 50 / Water attribute] Uses powerful water magic.",
-                "_fr": "[Puissance : 50 / Attribut Eau] Utilise une puissante magie de l'eau."
-            }
-        }
+    "yw Blasters 2": [
+      "En plus d'être obtenable par fusion, Pachypipi peut être combattu dans l'armée deTomnyan, aux côtés deArachnus,Scolérique,MillyeuxetRugis."
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "忍耐バカの壁",
-                "_en": "wall of patience idiot",
-                "_fr": "mur de patience idiot"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "がまん強くする",
-                "_en": "be patient",
-                "_fr": "sois patient"
-            },
-            "explication": {
-                "_jp": "【まもりアップ】 とりつかれた妖怪は何でもがまんできるようになり まもりがアップする。",
-                "_en": "[Increased protection] A possessed monster will be able to withstand anything, and its protection will increase.",
-                "_fr": "[Protection accrue] Un monstre possédé sera capable de résister à tout, et sa protection augmentera."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "おしっこをガマンし続けた結果 あらゆることをガマンできる 最強の忍耐力を身につけた。 なぜ そこまでおしっこを ガマンし続けたかはナゾ。",
-            "_en": "As a result of continuing to endure urination, I have acquired the ultimate patience that allows me to endure anything. It's a mystery why I kept peeing for so long.",
-            "_fr": "En continuant à endurer la miction, j’ai acquis la patience ultime qui me permet de tout endurer. C'est un mystère pourquoi j'ai continué à faire pipi pendant si longtemps."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Puni Puni": [
+      "Pachypipi apparaît pour la première fois dans l'ÉvénementBusters 2, la Légende de Bambaraya, où il est possible de l'obtenir dans le Stage Caché 1, en entrant 3 fois ou plus en Ébullition dans le Stage 24. Il est également possible de l'obtenir avec unePièce ++, unePièce Attaque des Titans, unePièce 10 Tirages du Shogi, unePièce 10 Tirages Shonen Sunday, unePièce 10 Tirages Yo-Majinou unePièce 10 Tirages Chasseurs de Dragons."
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Ventilateur",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Rapides",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Mur défensif",
+        "puissance": "___",
+        "description": "Se transforme en mur et augmente beaucoup la DÉF."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Dur à cuire",
+        "puissance": "N/A",
+        "description": "Le Yo-kai peut tout endurer. Sa DÉF. augmente énormément."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Pas bouger",
+        "description": "Gardera 1 PV après deux coups fatals."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Mur défensif",
+        "puissance": "___",
+        "description": "Forte augm. vitesse, attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Armure de fer",
+        "puissance": "___",
+        "description": "Forte réduction des dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Riz",
+        "puissance": "70",
+        "description": "Restaure tes PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Beaucoup de cran",
+        "description": "Quand PV à 0, 1 PV sera restauré 2 fois maximum."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Ventilateur",
+        "puissance": "20|70",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Rapides",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Mur défensif",
+        "puissance": "___",
+        "description": "Résiste à l'envie. Sa DÉF. augmente."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Dur à cuire",
+        "puissance": "N/A",
+        "description": "Le Yo-kai peut tout endurer. Sa DÉF. augmente."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Mur défensif",
+        "puissance": "___",
+        "description": "Booste +++ la DÉF. Attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Riz",
+        "puissance": "70",
+        "description": "Rend des PV au lanceur."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure fer",
+        "puissance": "___",
+        "description": "Dégâts reçus -- mais attire l’attention de l’ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Pas bouger",
+        "description": "Gardera 1 PV après un coup fatal. (deux fois)"
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Amulette de terre"
+      },
+      {
+        "taux": "?%",
+        "objet": "La défense de A à Z"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Grand EXPorbe"
+      },
+      {
+        "taux": "?%",
+        "objet": "Riz à la crevette"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Pas bouger",
+    "description": "Gardera 1 PV après deux coups fatals."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/pachypipi.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/pachypipi.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/pachypipi.wav",
+  "oldID": "275",
+  "medallium_ids": {
+    "yw2": "104",
+    "yw3": "172"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "118",
+    "yw Blasters 2": "176",
+    "yw Wibble Wobble": "3078",
+    "yw World": "0212",
+    "yw Ukiukipedia": "yw6-013"
+  },
+  "battle_type": "",
+  "skill_name": "Going Nowhere",
+  "skill_effect": "Thick Skin",
+  "disliked_food": "Bread",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "455",
+        "STR": "186",
+        "SPR": "132",
+        "DEF": "183",
+        "SPD": "134"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "455",
+        "STR": "128",
+        "SPR": "84",
+        "DEF": "272",
+        "SPD": "104"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ガマンモス",
+      "Gamanmosu"
+    ],
+    "Spanish": [
+      "Mamuguanto"
+    ],
+    "French": [
+      "Pachypipi"
+    ],
+    "Italian": [
+      "Resistofante"
+    ],
+    "German": [
+      "Mammussnich"
+    ],
+    "Russian": [
+      "Терпеслон",
+      "Terpeslon"
+    ],
+    "Arabic": [
+      "إمساك",
+      "Imsāk"
+    ],
+    "Portuguese (Brazilian)": [
+      "Resistromba"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ガマンモス"
+    ],
+    "Spanish": [
+      "Mamuguanto"
+    ],
+    "French": [
+      "Pachypipi"
+    ],
+    "Italian": [
+      "Resistofante"
+    ],
+    "German": [
+      "Mammussnich"
+    ],
+    "Russian": [
+      "Терпеслон"
+    ],
+    "Arabic": [
+      "إمساك"
+    ],
+    "Portuguese (Brazilian)": [
+      "Resistromba"
+    ]
+  },
+  "description_en": "Heroically resists the urge to go to the bathroom for reasons that remain obscure.",
+  "nom_en": "Blabeye",
+  "rang_yww": "A",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "Onigiri",
+  "nourriture_favorite": "Onigiri",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 56,
+    "str": 16,
+    "spr": 8,
+    "def": 45,
+    "spd": 13
+  },
+  "stats_max_yww": {
+    "hp": 445,
+    "str": 123,
+    "spr": 79,
+    "def": 267,
+    "spd": 99
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "ホワイトデー妖怪ガシャ",
+      "_en": "White Day Yokai Gasha",
+      "_fr": "Jour blanc Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    },
+    {
+      "_jp": "春一番妖怪ガシャ",
+      "_en": "Spring Ichiban Yokai Gasha",
+      "_fr": "Printemps Ichiban Yokai Gasha"
+    },
+    {
+      "_jp": "桜花ランラン妖怪ガシャ",
+      "_en": "Sakura Ranran Yokai Gasha",
+      "_fr": "Sakura Ranran Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "電車でお出かけ妖怪ガシャ",
+      "_en": "Going out by train Yokai Gasha",
+      "_fr": "Sortir en train Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "GW妖怪バトルリーグガシャ",
+      "_en": "GW Yokai Battle League Gasha",
+      "_fr": "GW Yokai Battle League Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "風穴あけ",
+        "_en": "hole punching",
+        "_fr": "perforation"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "水流の術",
+        "_en": "Water flow technique",
+        "_fr": "Technique d'écoulement de l'eau"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 水属性】 強力な水の妖術を使う。",
+        "_en": "[Power: 50 / Water attribute] Uses powerful water magic.",
+        "_fr": "[Puissance : 50 / Attribut Eau] Utilise une puissante magie de l'eau."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "忍耐バカの壁",
+        "_en": "wall of patience idiot",
+        "_fr": "mur de patience idiot"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "がまん強くする",
+        "_en": "be patient",
+        "_fr": "sois patient"
+      },
+      "explication": {
+        "_jp": "【まもりアップ】 とりつかれた妖怪は何でもがまんできるようになり まもりがアップする。",
+        "_en": "[Increased protection] A possessed monster will be able to withstand anything, and its protection will increase.",
+        "_fr": "[Protection accrue] Un monstre possédé sera capable de résister à tout, et sa protection augmentera."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "おしっこをガマンし続けた結果 あらゆることをガマンできる 最強の忍耐力を身につけた。 なぜ そこまでおしっこを ガマンし続けたかはナゾ。",
+      "_en": "As a result of continuing to endure urination, I have acquired the ultimate patience that allows me to endure anything. It's a mystery why I kept peeing for so long.",
+      "_fr": "En continuant à endurer la miction, j’ai acquis la patience ultime qui me permet de tout endurer. C'est un mystère pourquoi j'ai continué à faire pipi pendant si longtemps."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "274",
+  "Name_yww": "ガマンモス",
+  "description_jp_yww": "おしっこをガマンし続けた結果 あらゆることをガマンできる 最強の忍耐力を身につけた。 なぜ　そこまでおしっこを ガマンし続けたかはナゾ。",
+  "BingoMessage_jp_yww": "ガシャの中は　ガマンのしがいがあったぞ！ 今日からお前も　一緒にガマンするか？",
+  "MonsterId_yww": "y265000",
+  "Height_yww": 8.0,
+  "CommondId_yww": "sp_265000",
+  "MinHp_yww": 56,
+  "MaxHp_yww": 445,
+  "MinAttack_yww": 16,
+  "MaxAttack_yww": 123,
+  "MinMagic_yww": 8,
+  "MaxMagic_yww": 79,
+  "MinDefense_yww": 45,
+  "MaxDefense_yww": 267,
+  "MinSpeed_yww": 13,
+  "MaxSpeed_yww": 99,
+  "AttackId_yww": 33,
+  "MagicId_yww": 5,
+  "HauntId_yww": 265000,
+  "SpSkillId_yww": 265000,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 1,
+  "DislikeFoodKind_yww": 2,
+  "ActionType_yww": 20,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y260800.png",
+  "SpriteImage_yww": "img_y260800.png",
+  "Audio_yww": "sp_y260800.wav",
+  "Description_yww": "En continuant à me retenir d'uriner, j'ai acquis une endurance à toute épreuve, capable de tout supporter. Pourquoi j'ai continué à me retenir d'uriner à ce point-là reste un mystère.",
+  "BingoMessage_fr_yww": "Le contenu de la capsule valait vraiment la peine d'avoir patienté ! Tu veux toi aussi patienter avec moi à partir d'aujourd'hui ?"
 }

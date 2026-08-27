@@ -1,655 +1,686 @@
 {
-    "ID": "179",
-    "Nom": "Morféa",
-    "Tribue": "Sinistre",
-    "Rang": "S",
-    "PV": "408",
-    "Force": "71",
-    "Esprit": "194",
-    "Défense": "87",
-    "Vitesse": "239",
-    "Description": "Quand Morféa t'envoûte, elle apparaît dans tes rêves pour jouer avec toi. C'est si amusant que tu ne voudras pas te réveiller.",
-    "nourriture": "Bonbons",
-    "élément": "Absorption",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "Morféa vient du dieu grec Morfée (une des divinités des rêves), et de a, une lettre ici utilisée pour souligner le féminin du nom.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/morfea.png",
-    "numero": "188",
-    "nourriture_favorite": "Sucrerie",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Emprise",
-            "effet": "Augmente le nombre de PV absorbés."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Gifle",
-            "effet": "10 | 45"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Récolte",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Ondes cauchemar",
-            "effet": "Émet une onde maléfique et réduit toutes les statistiques des ennemis. 140 | 140"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Bonne nuit",
-            "effet": "Le Yo-kai s'endort et ne peut plus agir."
-        }
+  "ID": "179",
+  "Nom": "Morféa",
+  "Tribue": "Sinistre",
+  "Rang": "S",
+  "PV": "408",
+  "Force": "71",
+  "Esprit": "194",
+  "Défense": "87",
+  "Vitesse": "239",
+  "Description": "Quand Morféa t'envoûte, elle apparaît dans tes rêves pour jouer avec toi. C'est si amusant que tu ne voudras pas te réveiller.",
+  "nourriture": "Bonbons",
+  "élément": "Absorption",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "Morféa vient du dieu grec Morfée (une des divinités des rêves), et de a, une lettre ici utilisée pour souligner le féminin du nom.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/morfea.png",
+  "numero": "188",
+  "nourriture_favorite": "Sucrerie",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Emprise",
+      "effet": "Augmente le nombre de PV absorbés."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Gifle",
+      "effet": "10 | 45"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Récolte",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Ondes cauchemar",
+      "effet": "Émet une onde maléfique et réduit toutes les statistiques des ennemis. 140 | 140"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Bonne nuit",
+      "effet": "Le Yo-kai s'endort et ne peut plus agir."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Que c'est bon !",
+    "Mange de la nourriture insipide": "C'est d'un banal.",
+    "Mange de la mauvaise nourriture": "Quel cauchemar...",
+    "A la flemme": "Fatiguée...",
+    "Est échangé": "J'ai partagé des rêves fantastiques avec",
+    "Devient ton ami": "Tu veux que je sois ton amie ? J'ai de beaux rêves à revendre..."
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "おねむの精",
+  "nom_anglais": "Sandi",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Limbes éternelles- 6e cercle"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Que c'est bon !",
-        "Mange de la nourriture insipide": "C'est d'un banal.",
-        "Mange de la mauvaise nourriture": "Quel cauchemar...",
-        "A la flemme": "Fatiguée...",
-        "Est échangé": "J'ai partagé des rêves fantastiques avec",
-        "Devient ton ami": "Tu veux que je sois ton amie ? J'ai de beaux rêves à revendre..."
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "おねむの精",
-    "nom_anglais": "Sandi",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Limbes éternelles- 6e cercle"
-        ],
-        "yw2": [
-            "Bingo-kai de la voie du mystère"
-        ],
-        "yw Blasters 1": [
-            "(Exclusive au Peloton du chat rouge)",
-            "Ultra Robonyan 28 - Prix 4 membres Peloton du chat rouge",
-            "Patrouille VIP"
-        ],
-        "yw3": [
-            "Centre-ville de Granval- jardins"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Volée",
-                "puissance": "20×2|44×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Récolte",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Ondes cauchemar",
-                "puissance": "140|140",
-                "description": "Émet une onde maléfique et réduit les stats des ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Bonne nuit",
-                "puissance": "N/A",
-                "description": "L'ennemi fatigue tellement qu'il s'endort en plein combat !"
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Emprise",
-                "description": "Augmente le nombre de PV absorbés."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Récolte",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Ondes cauchemar",
-                "puissance": "140|140",
-                "description": "Émet une onde maléfique et réduit les statistiques des ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Bonne nuit",
-                "puissance": "N/A",
-                "description": "L'ennemi fatigue tellement qu'il s'endort en plein combat !"
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Emprise",
-                "description": "Augmente le nombre de PV absorbés."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Ondes cauchemar",
-                "puissance": "250",
-                "description": "Baisse temporaire des stats des ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Vortex",
-                "puissance": "30",
-                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Baisse de défensive +",
-                "puissance": "___",
-                "description": "Forte baisse DÉF. ennemie. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Envoût. multi-baisse",
-                "puissance": "___",
-                "description": "Baisse des stats ennemies. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Bain de boue",
-                "description": "Hausse temporaire des stats après réanimation."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Récolte",
-                "puissance": "55|88",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Ondes cauchemar",
-                "puissance": "___",
-                "description": "Émet une onde maléfique et baisse toutes les stats de ses ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Bonne nuit",
-                "puissance": "N/A",
-                "description": "L'ennemi n'a qu'une envie : dormir. Il n'agit plus."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Emprise",
-                "description": "Augmente le nombre de PV absorbés."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Emprise",
-        "description": "Augmente le nombre de PV absorbés."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/morfea.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/morfea.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/morfea.wav",
-    "oldID": "179",
-    "medallium_ids": {
-        "yw1": "188",
-        "yw2": "281",
-        "yw3": "505"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "336",
-        "yw Blasters 2": "520",
-        "yw Wibble Wobble": "7017",
-        "yw World": "0162",
-        "yw Ukiukipedia": "yw12-004"
-    },
-    "battle_type": "",
-    "skill_name": "Grip on You yw yw2 yw3 Sludge Grudge ywB",
-    "skill_effect": "Bedtime",
-    "disliked_food": "Vegetables",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "421",
-                "STR": "138",
-                "SPR": "199",
-                "DEF": "146",
-                "SPD": "204"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "418",
-                "STR": "138",
-                "SPR": "199",
-                "DEF": "146",
-                "SPD": "204"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "418",
-                "STR": "76",
-                "SPR": "199",
-                "DEF": "92",
-                "SPD": "244"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "413",
-                "STR": "151",
-                "SPR": "200",
-                "DEF": "129"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "442-779",
-                "STR": "151",
-                "SPR": "200",
-                "DEF": "129"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "442-779"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Spanish": [
-            "Morfea"
-        ],
-        "French": [
-            "Morféa"
-        ],
-        "Italian": [
-            "Oniria"
-        ],
-        "German": [
-            "Sandy"
-        ],
-        "Korean": [
-            "못깨요",
-            "Motkkaeyo"
-        ],
-        "Russian": [
-            "Оля",
-            "Olya"
-        ],
-        "Arabic": [
-            "نوامة",
-            "Nawwāma"
-        ],
-        "Chinese (Mandarin)": [
-            "乖乖睡妖精",
-            "Guāiguāishuìyāojīng"
-        ],
-        "Portuguese (Brazilian)": [
-            "Devanéia"
-        ]
-    },
-    "localized_soultimates": {
-        "Spanish": [
-            "Morfea"
-        ],
-        "French": [
-            "Morféa"
-        ],
-        "Italian": [
-            "Oniria"
-        ],
-        "German": [
-            "Sandy"
-        ],
-        "Korean": [
-            "못깨요"
-        ],
-        "Russian": [
-            "Оля Лукойя"
-        ],
-        "Arabic": [
-            "نوامة"
-        ],
-        "Chinese (Mandarin)": [
-            "乖乖睡妖精"
-        ],
-        "Portuguese (Brazilian)": [
-            "Devanéia"
-        ]
-    },
-    "description_en": "When Sandi Inspirits you, the two of you will play in your dreams. It's too fun to ever wake up from.",
-    "nom_en": "Compunzer",
-    "rang_yww": "S",
-    "tribue_yww": "Bukimi",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "Dashi",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 47,
-        "str": 7,
-        "spr": 31,
-        "def": 10,
-        "spd": 45
-    },
-    "stats_max_yww": {
-        "hp": 408,
-        "str": 71,
-        "spr": 194,
-        "def": 87,
-        "spd": 239
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw2": [
+      "Bingo-kai de la voie du mystère"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はたく",
-                "_en": "flutter",
-                "_fr": "battement"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "死神の術",
-                "_en": "Shinigami no Jutsu",
-                "_fr": "Shinigami no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:55 / 吸収】 敵のHPを大きく吸い取る。",
-                "_en": "[Power: 55 / Absorption] Absorbs a large amount of enemy's HP.",
-                "_fr": "[Puissance : 55 / Absorption] Absorbe une grande quantité de HP de l'ennemi."
-            }
-        }
+    "yw Blasters 1": [
+      "(Exclusive au Peloton du chat rouge)",
+      "Ultra Robonyan 28 - Prix 4 membres Peloton du chat rouge",
+      "Patrouille VIP"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ねむねむドリーム",
-                "_en": "sleepy dream",
-                "_fr": "rêve endormi"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "敵全員の全ステータスをダウンさせる",
-                "_en": "Decreases all stats of all enemies",
-                "_fr": "Diminue toutes les statistiques de tous les ennemis"
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ねむらせる",
-                "_en": "make you sleep",
-                "_fr": "te faire dormir"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 深いねむりについて なかなか行動しなくなる",
-                "_en": "[Lazy] About deep sleep, it becomes difficult to act.",
-                "_fr": "[Paresseux] Concernant le sommeil profond, il devient difficile d'agir."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "こいつに とりつかれると 夢の中でおねむの精と遊べる。 それがあまりにも 楽しすぎて 起きることができなくなり 永遠に眠り続ける。",
-            "_en": "If you are possessed by this person, you will be able to play with the sleeping spirit in your dreams. It's so much fun that I can't wake up and sleep forever.",
-            "_fr": "Si vous êtes possédé par cette personne, vous pourrez jouer avec l'esprit endormi dans vos rêves. C'est tellement amusant que je ne peux pas me réveiller et dormir pour toujours."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Centre-ville de Granval- jardins"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Volée",
+        "puissance": "20×2|44×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Récolte",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Ondes cauchemar",
+        "puissance": "140|140",
+        "description": "Émet une onde maléfique et réduit les stats des ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Bonne nuit",
+        "puissance": "N/A",
+        "description": "L'ennemi fatigue tellement qu'il s'endort en plein combat !"
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Emprise",
+        "description": "Augmente le nombre de PV absorbés."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Récolte",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Ondes cauchemar",
+        "puissance": "140|140",
+        "description": "Émet une onde maléfique et réduit les statistiques des ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Bonne nuit",
+        "puissance": "N/A",
+        "description": "L'ennemi fatigue tellement qu'il s'endort en plein combat !"
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Emprise",
+        "description": "Augmente le nombre de PV absorbés."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Ondes cauchemar",
+        "puissance": "250",
+        "description": "Baisse temporaire des stats des ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Vortex",
+        "puissance": "30",
+        "description": "Absorbe les PV ennemis. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Baisse de défensive +",
+        "puissance": "___",
+        "description": "Forte baisse DÉF. ennemie. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Envoût. multi-baisse",
+        "puissance": "___",
+        "description": "Baisse des stats ennemies. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Bain de boue",
+        "description": "Hausse temporaire des stats après réanimation."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Récolte",
+        "puissance": "55|88",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Ondes cauchemar",
+        "puissance": "___",
+        "description": "Émet une onde maléfique et baisse toutes les stats de ses ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Bonne nuit",
+        "puissance": "N/A",
+        "description": "L'ennemi n'a qu'une envie : dormir. Il n'agit plus."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Emprise",
+        "description": "Augmente le nombre de PV absorbés."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Emprise",
+    "description": "Augmente le nombre de PV absorbés."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/morfea.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/morfea.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/morfea.wav",
+  "oldID": "179",
+  "medallium_ids": {
+    "yw1": "188",
+    "yw2": "281",
+    "yw3": "505"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "336",
+    "yw Blasters 2": "520",
+    "yw Wibble Wobble": "7017",
+    "yw World": "0162",
+    "yw Ukiukipedia": "yw12-004"
+  },
+  "battle_type": "",
+  "skill_name": "Grip on You yw yw2 yw3 Sludge Grudge ywB",
+  "skill_effect": "Bedtime",
+  "disliked_food": "Vegetables",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "421",
+        "STR": "138",
+        "SPR": "199",
+        "DEF": "146",
+        "SPD": "204"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "418",
+        "STR": "138",
+        "SPR": "199",
+        "DEF": "146",
+        "SPD": "204"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "418",
+        "STR": "76",
+        "SPR": "199",
+        "DEF": "92",
+        "SPD": "244"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "413",
+        "STR": "151",
+        "SPR": "200",
+        "DEF": "129"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "442-779",
+        "STR": "151",
+        "SPR": "200",
+        "DEF": "129"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "442-779"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Spanish": [
+      "Morfea"
+    ],
+    "French": [
+      "Morféa"
+    ],
+    "Italian": [
+      "Oniria"
+    ],
+    "German": [
+      "Sandy"
+    ],
+    "Korean": [
+      "못깨요",
+      "Motkkaeyo"
+    ],
+    "Russian": [
+      "Оля",
+      "Olya"
+    ],
+    "Arabic": [
+      "نوامة",
+      "Nawwāma"
+    ],
+    "Chinese (Mandarin)": [
+      "乖乖睡妖精",
+      "Guāiguāishuìyāojīng"
+    ],
+    "Portuguese (Brazilian)": [
+      "Devanéia"
+    ]
+  },
+  "localized_soultimates": {
+    "Spanish": [
+      "Morfea"
+    ],
+    "French": [
+      "Morféa"
+    ],
+    "Italian": [
+      "Oniria"
+    ],
+    "German": [
+      "Sandy"
+    ],
+    "Korean": [
+      "못깨요"
+    ],
+    "Russian": [
+      "Оля Лукойя"
+    ],
+    "Arabic": [
+      "نوامة"
+    ],
+    "Chinese (Mandarin)": [
+      "乖乖睡妖精"
+    ],
+    "Portuguese (Brazilian)": [
+      "Devanéia"
+    ]
+  },
+  "description_en": "When Sandi Inspirits you, the two of you will play in your dreams. It's too fun to ever wake up from.",
+  "nom_en": "Compunzer",
+  "rang_yww": "S",
+  "tribue_yww": "Bukimi",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "Dashi",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 47,
+    "str": 7,
+    "spr": 31,
+    "def": 10,
+    "spd": 45
+  },
+  "stats_max_yww": {
+    "hp": 408,
+    "str": 71,
+    "spr": 194,
+    "def": 87,
+    "spd": 239
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "ホワイトデー妖怪ガシャ",
+      "_en": "White Day Yokai Gasha",
+      "_fr": "Jour blanc Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    },
+    {
+      "_jp": "春一番妖怪ガシャ",
+      "_en": "Spring Ichiban Yokai Gasha",
+      "_fr": "Printemps Ichiban Yokai Gasha"
+    },
+    {
+      "_jp": "桜花ランラン妖怪ガシャ",
+      "_en": "Sakura Ranran Yokai Gasha",
+      "_fr": "Sakura Ranran Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "電車でお出かけ妖怪ガシャ",
+      "_en": "Going out by train Yokai Gasha",
+      "_fr": "Sortir en train Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "GW妖怪バトルリーグガシャ",
+      "_en": "GW Yokai Battle League Gasha",
+      "_fr": "GW Yokai Battle League Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "はたく",
+        "_en": "flutter",
+        "_fr": "battement"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "死神の術",
+        "_en": "Shinigami no Jutsu",
+        "_fr": "Shinigami no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:55 / 吸収】 敵のHPを大きく吸い取る。",
+        "_en": "[Power: 55 / Absorption] Absorbs a large amount of enemy's HP.",
+        "_fr": "[Puissance : 55 / Absorption] Absorbe une grande quantité de HP de l'ennemi."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ねむねむドリーム",
+        "_en": "sleepy dream",
+        "_fr": "rêve endormi"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "敵全員の全ステータスをダウンさせる",
+        "_en": "Decreases all stats of all enemies",
+        "_fr": "Diminue toutes les statistiques de tous les ennemis"
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ねむらせる",
+        "_en": "make you sleep",
+        "_fr": "te faire dormir"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 深いねむりについて なかなか行動しなくなる",
+        "_en": "[Lazy] About deep sleep, it becomes difficult to act.",
+        "_fr": "[Paresseux] Concernant le sommeil profond, il devient difficile d'agir."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "こいつに とりつかれると 夢の中でおねむの精と遊べる。 それがあまりにも 楽しすぎて 起きることができなくなり 永遠に眠り続ける。",
+      "_en": "If you are possessed by this person, you will be able to play with the sleeping spirit in your dreams. It's so much fun that I can't wake up and sleep forever.",
+      "_fr": "Si vous êtes possédé par cette personne, vous pourrez jouer avec l'esprit endormi dans vos rêves. C'est tellement amusant que je ne peux pas me réveiller et dormir pour toujours."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "180",
+  "Name_yww": "おねむの精",
+  "description_jp_yww": "こいつに　とりつかれると 夢の中でおねむの精と遊べる。 それがあまりにも　楽しすぎて　 起きることができなくなり 永遠に眠り続ける。",
+  "BingoMessage_jp_yww": "あなたが出してくれたのね… ありがとう…　いい夢みせてあげるわ",
+  "MonsterId_yww": "y196010",
+  "Height_yww": 14.0,
+  "CommondId_yww": "sp_196010",
+  "MinHp_yww": 47,
+  "MaxHp_yww": 408,
+  "MinAttack_yww": 7,
+  "MaxAttack_yww": 71,
+  "MinMagic_yww": 31,
+  "MaxMagic_yww": 194,
+  "MinDefense_yww": 10,
+  "MaxDefense_yww": 87,
+  "MinSpeed_yww": 45,
+  "MaxSpeed_yww": 239,
+  "AttackId_yww": 10,
+  "MagicId_yww": 21,
+  "HauntId_yww": 196010,
+  "SpSkillId_yww": 196010,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 3,
+  "DislikeFoodKind_yww": 10,
+  "ActionType_yww": 22,
+  "TribeType_yww": 7,
+  "MedallionImage_yww": "y191810.png",
+  "SpriteImage_yww": "img_y191810.png",
+  "Audio_yww": "sp_y191810.wav",
+  "Description_yww": "Si tu te laisses envoûter par cette créature, tu pourras jouer avec la fée du sommeil dans tes rêves. Mais c’est tellement amusant que tu ne pourras plus te réveiller et que tu dormiras pour toujours.",
+  "BingoMessage_fr_yww": "C'est toi qui me l'as offert… Merci… Je vais te faire faire de beaux rêves."
 }

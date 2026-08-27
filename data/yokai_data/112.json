@@ -1,471 +1,502 @@
 {
-    "ID": "112",
-    "Nom": "Komasan S",
-    "Tribue": "Mignon",
-    "Rang": "S",
-    "PV": "487",
-    "Force": "46",
-    "Esprit": "242",
-    "Défense": "117",
-    "Vitesse": "194",
-    "Description-": "Un jour, Komajiro a vu qu'il avait atteint le rang S. Cela semble l'avoir peu affecté, si ce n'est qu'il est plus optimiste qu'avant.",
-    "Description": "D'une façon ou d'une autre, Komasan a atteint le rang S. Cependant, il est perplexe et souhaiterait revenir à son rang précédent.",
-    "nourriture": "Lait",
-    "élément": "Feu",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Komasan Svient du Yo-kai Komasanet du rang S qu'il a acquis.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "Komasan est perplexe depuis qu'il a acquit ce pouvoir. Il préférerait son rang D habituel.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/komasan-s.png",
-    "numero": "434",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Feulie furieuse",
-            "effet": "Bloque les dégâts des attaques de feu."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing puissant",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Brasier",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Valse des esprits",
-            "effet": "Invoque des feux follets pour attaquer l'ennemi. 100 | 100"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Brûlure S",
-            "effet": "Brûle et réduit petit à petit les PV d'un ennemi grâce à des sourcils de rang S."
-        }
+  "ID": "112",
+  "Nom": "Komasan S",
+  "Tribue": "Mignon",
+  "Rang": "S",
+  "PV": "487",
+  "Force": "46",
+  "Esprit": "242",
+  "Défense": "117",
+  "Vitesse": "194",
+  "Description-": "Un jour, Komajiro a vu qu'il avait atteint le rang S. Cela semble l'avoir peu affecté, si ce n'est qu'il est plus optimiste qu'avant.",
+  "Description": "D'une façon ou d'une autre, Komasan a atteint le rang S. Cependant, il est perplexe et souhaiterait revenir à son rang précédent.",
+  "nourriture": "Lait",
+  "élément": "Feu",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Komasan Svient du Yo-kai Komasanet du rang S qu'il a acquis.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "Komasan est perplexe depuis qu'il a acquit ce pouvoir. Il préférerait son rang D habituel.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/komasan-s.png",
+  "numero": "434",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Feulie furieuse",
+      "effet": "Bloque les dégâts des attaques de feu."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing puissant",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Brasier",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Valse des esprits",
+      "effet": "Invoque des feux follets pour attaquer l'ennemi. 100 | 100"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Brûlure S",
+      "effet": "Brûle et réduit petit à petit les PV d'un ennemi grâce à des sourcils de rang S."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Quelle ripaille !",
+    "Mange de la nourriture insipide": "Miam miam...",
+    "Mange de la mauvaise nourriture": "Je vais vomir...",
+    "A la flemme": "Oh, mince alors !",
+    "Est échangé": "J'ignore ce qui m'est arrivé, mais je crois que je suis de rang S. Horreur !",
+    "Devient ton ami": "Tourneboulant ! Je viens avec toi !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "yw Wibble Wobble",
+      "parent1": "Komasan",
+      "parent2": "Komasan A",
+      "resultat": "Komasan S",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "コマさんS",
+  "nom_anglais": "Komasan S",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Exclusif à Fantômes bouffisAprès avoir fait la mise à jour 2.0. Vous pourrez le trouverMiam burgerauCentre-ville de Granval, il faut le combattre une fois par jour pour essayer de devenir son ami.",
+      "Vous pouvez également le trouver sur la versionSpectres Psychiquessi votre partie provient de Fantômes Bouffis via le transfert de données."
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Quelle ripaille !",
-        "Mange de la nourriture insipide": "Miam miam...",
-        "Mange de la mauvaise nourriture": "Je vais vomir...",
-        "A la flemme": "Oh, mince alors !",
-        "Est échangé": "J'ignore ce qui m'est arrivé, mais je crois que je suis de rang S. Horreur !",
-        "Devient ton ami": "Tourneboulant ! Je viens avec toi !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "yw Wibble Wobble",
-            "parent1": "Komasan",
-            "parent2": "Komasan A",
-            "resultat": "Komasan S",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Si le joueur a sauvegardé des données de yw2 - Fantômes Bouffis sur sa carte SD, il peut utiliser l'option sur l'écran de titre pour recevoir leBeignet bouffiqui peut être demandé parNoripopau rez-de-chaussée de laMaison Blasters. Cet objet permet au joueur de combattre Komasan S une fois par jour au colisée des voyageurs. Si le joueur a de la chance, il pourra se lier d'amitié avec Komasan S."
     ],
-    "image_locale": "",
-    "nom_original": "コマさんS",
-    "nom_anglais": "Komasan S",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Exclusif à Fantômes bouffisAprès avoir fait la mise à jour 2.0. Vous pourrez le trouverMiam burgerauCentre-ville de Granval, il faut le combattre une fois par jour pour essayer de devenir son ami.",
-            "Vous pouvez également le trouver sur la versionSpectres Psychiquessi votre partie provient de Fantômes Bouffis via le transfert de données."
-        ],
-        "yw Blasters 1": [
-            "Si le joueur a sauvegardé des données de yw2 - Fantômes Bouffis sur sa carte SD, il peut utiliser l'option sur l'écran de titre pour recevoir leBeignet bouffiqui peut être demandé parNoripopau rez-de-chaussée de laMaison Blasters. Cet objet permet au joueur de combattre Komasan S une fois par jour au colisée des voyageurs. Si le joueur a de la chance, il pourra se lier d'amitié avec Komasan S."
-        ],
-        "yw3": [
-            "Semblable à la méthode dans yw Blasters, le joueur peut obtenir leSac à fantômesdans le jeu en liant les données de sauvegarde de yw2 Fantômes Bouffis. Cet objet vous est remis au bureau de poste àPistachburgou àGranval. Une fois que le joueur a l'objet, Komasan S apparaîtra àSan Fantasticoet peut être combattu une fois par jour pour avoir une chance de se lier d'amitié avec lui."
-        ],
-        "yw Wibble Wobble": [
-            "Fusion"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Poing puissant",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Brasier",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Valse des esprits",
-                "puissance": "100|100",
-                "description": "Invoque des feux follets pour attaquer l'ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Brûlure S",
-                "puissance": "N/A",
-                "description": "Brûle et réduit petit à petit les PV d'un ennemi grâce à des sourcils de rang S."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Incendie",
-                "puissance": "N/A",
-                "description": "Un sort de feu brûle les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Feulie furieuse",
-                "description": "Bloque les dégâts des attaques de feu."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Valse des esprits",
-                "puissance": "67×6",
-                "description": "Une flamme bleue qui inflige de gros dégâts."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Attaque de repli",
-                "puissance": "70",
-                "description": "Pendant l'attaque, recule et évite les coups ennemis."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Feu",
-                "puissance": "40",
-                "description": "Utilise un sort de feu. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Incendie",
-                "puissance": "50",
-                "description": "Un sort de feu puissant. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Tourneboulant !",
-                "description": "Toutes les stats renforcées en cas de danger."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Poing puissant",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Brasier",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Valse des esprits",
-                "puissance": "100|100",
-                "description": "Invoque des feux follets pour attaquer les ennemis à portée."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Brûlure S",
-                "puissance": "N/A",
-                "description": "Brûle un ennemi et réduit ses PV grâce à des sourcils de rang S."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Feulie furieuse",
-                "description": "Bloque les dégâts des techniques de feu."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Feulie furieuse",
-        "description": "Bloque les dégâts des attaques de feu."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/komasan-s.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/komasan-s.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/komasan-s.wav",
-    "oldID": "112",
-    "medallium_ids": {
-        "yw2": "434",
-        "yw3": "254"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "181",
-        "yw Blasters 2": "259",
-        "yw Wibble Wobble": "4029",
-        "yw Ukiukipedia": "yw8-017"
-    },
-    "battle_type": "",
-    "skill_name": "Firewall",
-    "skill_effect": "Burn S",
-    "disliked_food": "Juice",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "497",
-                "STR": "51",
-                "SPR": "222",
-                "DEF": "163",
-                "SPD": "207"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "242-438",
-                "STR": "51",
-                "SPR": "247",
-                "DEF": "122",
-                "SPD": "199"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "Attribute tolerance": {
-            "stats": {
-                "HP": "242-438"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "242-438"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters Red Cat Team/White Dog Corps": {
-            "stats": {
-                "HP": "242-438"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "242-438"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "242-438"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "コマさんS",
-            "Komasan"
-        ],
-        "Spanish": [
-            "Komasan"
-        ],
-        "French": [
-            "Komasan"
-        ],
-        "Italian": [
-            "Komasan"
-        ],
-        "German": [
-            "Komasan"
-        ],
-        "Russian": [
-            "Комасан",
-            "Komasan"
-        ],
-        "Arabic": [
-            "كوماسان",
-            "Kūmāsān"
-        ],
-        "Portuguese (Brazilian)": [
-            "Komasan"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "コマさんS"
-        ],
-        "Spanish": [
-            "Komasan S"
-        ],
-        "French": [
-            "Komasan S"
-        ],
-        "Italian": [
-            "Komasan S"
-        ],
-        "German": [
-            "Komasan S"
-        ],
-        "Russian": [
-            "Комасан S"
-        ],
-        "Arabic": [
-            "كوماسان الثاني"
-        ],
-        "Portuguese (Brazilian)": [
-            "Komasan S"
-        ]
-    },
-    "description_en": "Somehow, Komasan became S-Rank. He's rather bewildered and wants to go back to his previous rank if possible.",
-    "nom_en": "Komajiro",
-    "rang_yww": "S",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "crème douce",
-    "nourriture_favorite": "crème douce",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 60,
-        "str": 9,
-        "spr": 37,
-        "def": 15,
-        "spd": 29
-    },
-    "stats_max_yww": {},
-    "moyens_obtention_yww": [
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        }
+    "yw3": [
+      "Semblable à la méthode dans yw Blasters, le joueur peut obtenir leSac à fantômesdans le jeu en liant les données de sauvegarde de yw2 Fantômes Bouffis. Cet objet vous est remis au bureau de poste àPistachburgou àGranval. Une fois que le joueur a l'objet, Komasan S apparaîtra àSan Fantasticoet peut être combattu une fois par jour pour avoir une chance de se lier d'amitié avec lui."
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ぶんなぐる",
-                "_en": "wallop",
-                "_fr": "coup"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
-                "_en": "[Power: 50/Blow] Deal a big blow",
-                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "れんごくの術",
-                "_en": "Rengoku no Jutsu",
-                "_fr": "Rengoku no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 火属性】 強力な火の妖術を使う。",
-                "_en": "[Power: 70 / Fire attribute] Uses powerful fire magic.",
-                "_fr": "[Puissance : 70 / Attribut Feu] Utilise une puissante magie du feu."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ひとだま乱舞",
-                "_en": "Hitodama Ranbu",
-                "_fr": "Hitodama Ranbu"
-            },
-            "pouvoir": "100",
-            "explication": {
-                "_jp": "呼び寄せたひとだまを飛び交わせダメージを与える。",
-                "_en": "It causes damage by causing the summoned people to fly back and forth.",
-                "_fr": "Cela cause des dégâts en faisant voler les personnes invoquées d'avant en arrière."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "やけどさせるS",
-                "_en": "Burn S",
-                "_fr": "Brûler S"
-            },
-            "explication": {
-                "_jp": "【HP減少】 とりつかれた妖怪はS級のまゆげでやけどし HPがだんだん減ってしまう。",
-                "_en": "[HP Decreased] The possessed monster will be burned by S-class eyebrows and its HP will gradually decrease.",
-                "_fr": "[HP diminué] Le monstre possédé sera brûlé par les sourcils de classe S et ses HP diminueront progressivement."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "ひょんなことから Ｓランクになったコマさん。 コマさん自身はとまどっており できれば元のランクに 戻りたいと思っているらしい。",
-            "_en": "Mr. Koma became S-rank by chance. Mr. Koma himself is confused and seems to want to return to his former rank if possible.",
-            "_fr": "M. Koma est devenu rang S par hasard. M. Koma lui-même est confus et semble vouloir revenir à son ancien grade si possible."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Fusion"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Poing puissant",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Brasier",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Valse des esprits",
+        "puissance": "100|100",
+        "description": "Invoque des feux follets pour attaquer l'ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Brûlure S",
+        "puissance": "N/A",
+        "description": "Brûle et réduit petit à petit les PV d'un ennemi grâce à des sourcils de rang S."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Incendie",
+        "puissance": "N/A",
+        "description": "Un sort de feu brûle les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Feulie furieuse",
+        "description": "Bloque les dégâts des attaques de feu."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Valse des esprits",
+        "puissance": "67×6",
+        "description": "Une flamme bleue qui inflige de gros dégâts."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Attaque de repli",
+        "puissance": "70",
+        "description": "Pendant l'attaque, recule et évite les coups ennemis."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Feu",
+        "puissance": "40",
+        "description": "Utilise un sort de feu. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Incendie",
+        "puissance": "50",
+        "description": "Un sort de feu puissant. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Tourneboulant !",
+        "description": "Toutes les stats renforcées en cas de danger."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Poing puissant",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Brasier",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Valse des esprits",
+        "puissance": "100|100",
+        "description": "Invoque des feux follets pour attaquer les ennemis à portée."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Brûlure S",
+        "puissance": "N/A",
+        "description": "Brûle un ennemi et réduit ses PV grâce à des sourcils de rang S."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Feulie furieuse",
+        "description": "Bloque les dégâts des techniques de feu."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Feulie furieuse",
+    "description": "Bloque les dégâts des attaques de feu."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/komasan-s.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/komasan-s.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/komasan-s.wav",
+  "oldID": "112",
+  "medallium_ids": {
+    "yw2": "434",
+    "yw3": "254"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "181",
+    "yw Blasters 2": "259",
+    "yw Wibble Wobble": "4029",
+    "yw Ukiukipedia": "yw8-017"
+  },
+  "battle_type": "",
+  "skill_name": "Firewall",
+  "skill_effect": "Burn S",
+  "disliked_food": "Juice",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "497",
+        "STR": "51",
+        "SPR": "222",
+        "DEF": "163",
+        "SPD": "207"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "242-438",
+        "STR": "51",
+        "SPR": "247",
+        "DEF": "122",
+        "SPD": "199"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "Attribute tolerance": {
+      "stats": {
+        "HP": "242-438"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "242-438"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters Red Cat Team/White Dog Corps": {
+      "stats": {
+        "HP": "242-438"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "242-438"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "242-438"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "コマさんS",
+      "Komasan"
+    ],
+    "Spanish": [
+      "Komasan"
+    ],
+    "French": [
+      "Komasan"
+    ],
+    "Italian": [
+      "Komasan"
+    ],
+    "German": [
+      "Komasan"
+    ],
+    "Russian": [
+      "Комасан",
+      "Komasan"
+    ],
+    "Arabic": [
+      "كوماسان",
+      "Kūmāsān"
+    ],
+    "Portuguese (Brazilian)": [
+      "Komasan"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "コマさんS"
+    ],
+    "Spanish": [
+      "Komasan S"
+    ],
+    "French": [
+      "Komasan S"
+    ],
+    "Italian": [
+      "Komasan S"
+    ],
+    "German": [
+      "Komasan S"
+    ],
+    "Russian": [
+      "Комасан S"
+    ],
+    "Arabic": [
+      "كوماسان الثاني"
+    ],
+    "Portuguese (Brazilian)": [
+      "Komasan S"
+    ]
+  },
+  "description_en": "Somehow, Komasan became S-Rank. He's rather bewildered and wants to go back to his previous rank if possible.",
+  "nom_en": "Komajiro",
+  "rang_yww": "S",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "crème douce",
+  "nourriture_favorite": "crème douce",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 60,
+    "str": 9,
+    "spr": 37,
+    "def": 15,
+    "spd": 29
+  },
+  "stats_max_yww": {},
+  "moyens_obtention_yww": [
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ぶんなぐる",
+        "_en": "wallop",
+        "_fr": "coup"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+        "_en": "[Power: 50/Blow] Deal a big blow",
+        "_fr": "[Puissance : 50/Coup] Portez un gros coup"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "れんごくの術",
+        "_en": "Rengoku no Jutsu",
+        "_fr": "Rengoku no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 火属性】 強力な火の妖術を使う。",
+        "_en": "[Power: 70 / Fire attribute] Uses powerful fire magic.",
+        "_fr": "[Puissance : 70 / Attribut Feu] Utilise une puissante magie du feu."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ひとだま乱舞",
+        "_en": "Hitodama Ranbu",
+        "_fr": "Hitodama Ranbu"
+      },
+      "pouvoir": "100",
+      "explication": {
+        "_jp": "呼び寄せたひとだまを飛び交わせダメージを与える。",
+        "_en": "It causes damage by causing the summoned people to fly back and forth.",
+        "_fr": "Cela cause des dégâts en faisant voler les personnes invoquées d'avant en arrière."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "やけどさせるS",
+        "_en": "Burn S",
+        "_fr": "Brûler S"
+      },
+      "explication": {
+        "_jp": "【HP減少】 とりつかれた妖怪はS級のまゆげでやけどし HPがだんだん減ってしまう。",
+        "_en": "[HP Decreased] The possessed monster will be burned by S-class eyebrows and its HP will gradually decrease.",
+        "_fr": "[HP diminué] Le monstre possédé sera brûlé par les sourcils de classe S et ses HP diminueront progressivement."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "ひょんなことから Ｓランクになったコマさん。 コマさん自身はとまどっており できれば元のランクに 戻りたいと思っているらしい。",
+      "_en": "Mr. Koma became S-rank by chance. Mr. Koma himself is confused and seems to want to return to his former rank if possible.",
+      "_fr": "M. Koma est devenu rang S par hasard. M. Koma lui-même est confus et semble vouloir revenir à son ancien grade si possible."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "112",
+  "Name_yww": "コマさんＳ",
+  "description_jp_yww": "ひょんなことから Ｓランクになったコマさん。 コマさん自身はとまどっており できれば元のランクに 戻りたいと思っているらしい。",
+  "BingoMessage_jp_yww": "ここは　もんげー都会ズラね… ちゃんとなじめるか心配ズラ…",
+  "MonsterId_yww": "y159900",
+  "Height_yww": 7.0,
+  "CommondId_yww": "sp_159900",
+  "MinHp_yww": 60,
+  "MaxHp_yww": 487,
+  "MinAttack_yww": 9,
+  "MaxAttack_yww": 46,
+  "MinMagic_yww": 37,
+  "MaxMagic_yww": 242,
+  "MinDefense_yww": 15,
+  "MaxDefense_yww": 117,
+  "MinSpeed_yww": 29,
+  "MaxSpeed_yww": 194,
+  "AttackId_yww": 2,
+  "MagicId_yww": 3,
+  "HauntId_yww": 159900,
+  "SpSkillId_yww": 159000,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 19,
+  "DislikeFoodKind_yww": 5,
+  "ActionType_yww": 9,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y155700.png",
+  "SpriteImage_yww": "img_y155700.png",
+  "Audio_yww": "sp_y155700.wav",
+  "Description_yww": "Par un hasard de circonstances, Koma-san est passé au rang S. Koma-san lui-même est déconcerté et il semblerait qu’il souhaite, si possible, retrouver son rang initial.",
+  "BingoMessage_fr_yww": "C'est vraiment une sacrée grande ville, là… Je me demande si je vais réussir à m'y intégrer…"
 }

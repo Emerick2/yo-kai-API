@@ -1,505 +1,536 @@
 {
-    "ID": "218",
-    "Nom": "Claquille",
-    "Tribue": "Insaisissable",
-    "Rang": "C",
-    "PV": "386",
-    "Force": "146",
-    "Esprit": "70",
-    "Défense": "183",
-    "Vitesse": "125",
-    "Description": "S'il t'envoûte, il te fera dépenser tout ton argent pour acheter des choses dont tu n'as même pas envie.",
-    "nourriture": "Pain",
-    "élément": "Vent",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Ceux qui sont envoûtés par Claquille dépensent leur argent dans plein de choses inutiles sans compter. Cela peut ruiner leurs économies.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/claquille.png",
-    "numero": "205",
-    "nourriture_favorite": "Pain",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Coqu'invincible",
-            "effet": "Immunisé contre les envoûtements ennemis."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Mâchouille",
-            "effet": "45 | 99"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tornade",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Casse du siècle",
-            "effet": "Ses ennemis oublient la valeur de l'argent et le dilapident. 130 | 130"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Gaspillage",
-            "effet": "L'ennemi gâche son argent en le jetant partout."
-        }
+  "ID": "218",
+  "Nom": "Claquille",
+  "Tribue": "Insaisissable",
+  "Rang": "C",
+  "PV": "386",
+  "Force": "146",
+  "Esprit": "70",
+  "Défense": "183",
+  "Vitesse": "125",
+  "Description": "S'il t'envoûte, il te fera dépenser tout ton argent pour acheter des choses dont tu n'as même pas envie.",
+  "nourriture": "Pain",
+  "élément": "Vent",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Ceux qui sont envoûtés par Claquille dépensent leur argent dans plein de choses inutiles sans compter. Cela peut ruiner leurs économies.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/claquille.png",
+  "numero": "205",
+  "nourriture_favorite": "Pain",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Coqu'invincible",
+      "effet": "Immunisé contre les envoûtements ennemis."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Mâchouille",
+      "effet": "45 | 99"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tornade",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Casse du siècle",
+      "effet": "Ses ennemis oublient la valeur de l'argent et le dilapident. 130 | 130"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Gaspillage",
+      "effet": "L'ennemi gâche son argent en le jetant partout."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est juste... !",
+    "Mange de la nourriture insipide": "Ça allait...",
+    "Mange de la mauvaise nourriture": "Beurk, dégoûtant !",
+    "A la flemme": "Je suis... fatigué...",
+    "Est échangé": "Ouah ! C'est l'heure de faire la fête ! Inutile de se priver !",
+    "Devient ton ami": "On dirait que tu adores dépenser de l'argent. J'aime ça !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "ムダヅカイ",
+  "nom_anglais": "Spenp",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Martial Le Minoux",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "La Corniche- fleuve ouest"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est juste... !",
-        "Mange de la nourriture insipide": "Ça allait...",
-        "Mange de la mauvaise nourriture": "Beurk, dégoûtant !",
-        "A la flemme": "Je suis... fatigué...",
-        "Est échangé": "Ouah ! C'est l'heure de faire la fête ! Inutile de se priver !",
-        "Devient ton ami": "On dirait que tu adores dépenser de l'argent. J'aime ça !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "ムダヅカイ",
-    "nom_anglais": "Spenp",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Martial Le Minoux",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "La Corniche- fleuve ouest"
-        ],
-        "yw2": [
-            "Quartier des boutiques",
-            "Voie du mystère - Grand-route dorée - entrée",
-            "Bingo-kai-Pièce bleu ciel"
-        ],
-        "yw3": [
-            "Électropolis - Parking louche"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "45|99",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tornade",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Casse du siècle",
-                "puissance": "130|130",
-                "description": "Ses ennemis oublient la valeur de l'argent et le dilapident."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Gaspillage",
-                "puissance": "N/A",
-                "description": "L'ennemi gâche son argent en le jetant partout."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Coqu'invincible",
-                "description": "Immunisé contre les envoûtements ennemis."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "45|99",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tornade",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Casse du siècle",
-                "puissance": "130|130",
-                "description": "Ses ennemis oublient la valeur de l'argent et le dilapident."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Gaspillage",
-                "puissance": "N/A",
-                "description": "L'ennemi gâche son argent en le jetant partout."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Coqu'invincible",
-                "description": "Immunisé contre les envoûtements ennemis."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Casse du siècle",
-                "puissance": "250",
-                "description": "Baisse temporaire DÉF. des ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Champ de force",
-                "puissance": "___",
-                "description": "Hausse temporaire de la protection des alliés."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Riz",
-                "puissance": "70",
-                "description": "Restaure tes PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Coqu'invincible",
-                "description": "Immunité contre les effets d'envoûtement négatifs."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Mâchouille",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tornade",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Casse du siècle",
-                "puissance": "___",
-                "description": "Ses ennemis oublient la valeur de l'argent et le dilapident !"
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Gaspillage",
-                "puissance": "N/A",
-                "description": "L'ennemi gâche son argent en le jetant partout."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Coqu'invincible",
-                "description": "Immunisé contre les envoûtements ennemis."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Coqu'invincible",
-        "description": "Immunisé contre les envoûtements ennemis."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/claquille.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/claquille.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/claquille.wav",
-    "oldID": "217",
-    "medallium_ids": {
-        "yw1": "205",
-        "yw2": "311",
-        "yw3": "556"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "372",
-        "yw Blasters 2": "575",
-        "yw Wibble Wobble": "8010",
-        "yw Ukiukipedia": "yw2-040"
-    },
-    "battle_type": "",
-    "skill_name": "Matchless Shell",
-    "skill_effect": "Wastefulness",
-    "disliked_food": "Seafood",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "334",
-                "STR": "135",
-                "SPR": "122",
-                "DEF": "188",
-                "SPD": "119"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "396",
-                "STR": "135",
-                "SPR": "122",
-                "DEF": "188",
-                "SPD": "119"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "130-235",
-                "STR": "151",
-                "SPR": "75",
-                "DEF": "188",
-                "SPD": "130"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "130-235"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "130-235"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "130-235"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ムダヅカイ",
-            "Mudazukai"
-        ],
-        "Spanish": [
-            "Boquirroto"
-        ],
-        "French": [
-            "Claquille"
-        ],
-        "Italian": [
-            "Sprek"
-        ],
-        "German": [
-            "Prassa"
-        ],
-        "Korean": [
-            "막써조개",
-            "Maksseojogae"
-        ],
-        "Russian": [
-            "Покупон",
-            "Pokupon"
-        ],
-        "Arabic": [
-            "بذرقة",
-            "Badhraqa"
-        ],
-        "Chinese (Cantonese)": [
-            "亂買貝"
-        ],
-        "Chinese (Mandarin)": [
-            "無節制怪"
-        ],
-        "Portuguese (Brazilian)": [
-            "Gastôncio"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ムダヅカイ"
-        ],
-        "Spanish": [
-            "Boquirroto"
-        ],
-        "French": [
-            "Claquille"
-        ],
-        "Italian": [
-            "Sprek"
-        ],
-        "German": [
-            "Prassa"
-        ],
-        "Korean": [
-            "막써조개"
-        ],
-        "Russian": [
-            "Покупон"
-        ],
-        "Arabic": [
-            "بذرقة"
-        ],
-        "Chinese (Cantonese)": [
-            "亂買貝"
-        ],
-        "Chinese (Mandarin)": [
-            "無節制怪"
-        ],
-        "Portuguese (Brazilian)": [
-            "Gastôncio"
-        ]
-    },
-    "description_en": "Being Inspirited by Spenp will make you buy things you don't even want. Wave bye to your cash!",
-    "nom_en": "Tunatic",
-    "rang_yww": "C",
-    "tribue_yww": "Nyororon",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "pain",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない",
-        "_en": "(Shield role) Shincho, don't move.",
-        "_fr": "(Rôle de bouclier) Shincho, ne bouge pas."
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {
-        "hp": 45,
-        "str": 21,
-        "spr": 15,
-        "def": 20,
-        "spd": 17
-    },
-    "stats_max_yww": {
-        "hp": 386,
-        "str": 146,
-        "spr": 70,
-        "def": 183,
-        "spd": 125
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "くらいつく",
-                "_en": "Approximately",
-                "_fr": "Environ"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
-                "_en": "[Power: 50/Blow] Deal a big blow",
-                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "竜巻の術",
-                "_en": "Tornado no Jutsu",
-                "_fr": "Tornade sans Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 風属性】 強力な風の妖術を使う。",
-                "_en": "[Power: 50 / Wind attribute] Uses powerful wind magic.",
-                "_fr": "[Puissance : 50 / Attribut vent] Utilise une puissante magie du vent."
-            }
-        }
+    "yw2": [
+      "Quartier des boutiques",
+      "Voie du mystère - Grand-route dorée - entrée",
+      "Bingo-kai-Pièce bleu ciel"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "がまぐちブレイカー",
-                "_en": "Gamaguchi breaker",
-                "_fr": "Briseur de Gamaguchi"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "むだづかいさせる",
-                "_en": "make you waste your time",
-                "_fr": "te faire perdre ton temps"
-            },
-            "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "ムダヅカイに とりつかれると 全然ほしくもないものも つい買ってしまい 貯金がなくなってしまう。",
-            "_en": "When you become obsessed with waste, you end up buying things you don't want at all, and your savings are gone.",
-            "_fr": "Lorsque vous devenez obsédé par le gaspillage, vous finissez par acheter des choses dont vous ne voulez pas du tout et vos économies disparaissent."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Électropolis - Parking louche"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Mâchouille",
+        "puissance": "45|99",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tornade",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Casse du siècle",
+        "puissance": "130|130",
+        "description": "Ses ennemis oublient la valeur de l'argent et le dilapident."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Gaspillage",
+        "puissance": "N/A",
+        "description": "L'ennemi gâche son argent en le jetant partout."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Coqu'invincible",
+        "description": "Immunisé contre les envoûtements ennemis."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Mâchouille",
+        "puissance": "45|99",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tornade",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Casse du siècle",
+        "puissance": "130|130",
+        "description": "Ses ennemis oublient la valeur de l'argent et le dilapident."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Gaspillage",
+        "puissance": "N/A",
+        "description": "L'ennemi gâche son argent en le jetant partout."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Coqu'invincible",
+        "description": "Immunisé contre les envoûtements ennemis."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Casse du siècle",
+        "puissance": "250",
+        "description": "Baisse temporaire DÉF. des ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Champ de force",
+        "puissance": "___",
+        "description": "Hausse temporaire de la protection des alliés."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Riz",
+        "puissance": "70",
+        "description": "Restaure tes PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Coqu'invincible",
+        "description": "Immunité contre les effets d'envoûtement négatifs."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Mâchouille",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tornade",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Casse du siècle",
+        "puissance": "___",
+        "description": "Ses ennemis oublient la valeur de l'argent et le dilapident !"
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Gaspillage",
+        "puissance": "N/A",
+        "description": "L'ennemi gâche son argent en le jetant partout."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Coqu'invincible",
+        "description": "Immunisé contre les envoûtements ennemis."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Coqu'invincible",
+    "description": "Immunisé contre les envoûtements ennemis."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/claquille.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/claquille.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/claquille.wav",
+  "oldID": "217",
+  "medallium_ids": {
+    "yw1": "205",
+    "yw2": "311",
+    "yw3": "556"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "372",
+    "yw Blasters 2": "575",
+    "yw Wibble Wobble": "8010",
+    "yw Ukiukipedia": "yw2-040"
+  },
+  "battle_type": "",
+  "skill_name": "Matchless Shell",
+  "skill_effect": "Wastefulness",
+  "disliked_food": "Seafood",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "334",
+        "STR": "135",
+        "SPR": "122",
+        "DEF": "188",
+        "SPD": "119"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "396",
+        "STR": "135",
+        "SPR": "122",
+        "DEF": "188",
+        "SPD": "119"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "130-235",
+        "STR": "151",
+        "SPR": "75",
+        "DEF": "188",
+        "SPD": "130"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "130-235"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "130-235"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "130-235"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ムダヅカイ",
+      "Mudazukai"
+    ],
+    "Spanish": [
+      "Boquirroto"
+    ],
+    "French": [
+      "Claquille"
+    ],
+    "Italian": [
+      "Sprek"
+    ],
+    "German": [
+      "Prassa"
+    ],
+    "Korean": [
+      "막써조개",
+      "Maksseojogae"
+    ],
+    "Russian": [
+      "Покупон",
+      "Pokupon"
+    ],
+    "Arabic": [
+      "بذرقة",
+      "Badhraqa"
+    ],
+    "Chinese (Cantonese)": [
+      "亂買貝"
+    ],
+    "Chinese (Mandarin)": [
+      "無節制怪"
+    ],
+    "Portuguese (Brazilian)": [
+      "Gastôncio"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ムダヅカイ"
+    ],
+    "Spanish": [
+      "Boquirroto"
+    ],
+    "French": [
+      "Claquille"
+    ],
+    "Italian": [
+      "Sprek"
+    ],
+    "German": [
+      "Prassa"
+    ],
+    "Korean": [
+      "막써조개"
+    ],
+    "Russian": [
+      "Покупон"
+    ],
+    "Arabic": [
+      "بذرقة"
+    ],
+    "Chinese (Cantonese)": [
+      "亂買貝"
+    ],
+    "Chinese (Mandarin)": [
+      "無節制怪"
+    ],
+    "Portuguese (Brazilian)": [
+      "Gastôncio"
+    ]
+  },
+  "description_en": "Being Inspirited by Spenp will make you buy things you don't even want. Wave bye to your cash!",
+  "nom_en": "Tunatic",
+  "rang_yww": "C",
+  "tribue_yww": "Nyororon",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "pain",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない",
+    "_en": "(Shield role) Shincho, don't move.",
+    "_fr": "(Rôle de bouclier) Shincho, ne bouge pas."
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {
+    "hp": 45,
+    "str": 21,
+    "spr": 15,
+    "def": 20,
+    "spd": 17
+  },
+  "stats_max_yww": {
+    "hp": 386,
+    "str": 146,
+    "spr": 70,
+    "def": 183,
+    "spd": 125
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "くらいつく",
+        "_en": "Approximately",
+        "_fr": "Environ"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+        "_en": "[Power: 50/Blow] Deal a big blow",
+        "_fr": "[Puissance : 50/Coup] Portez un gros coup"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "竜巻の術",
+        "_en": "Tornado no Jutsu",
+        "_fr": "Tornade sans Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 風属性】 強力な風の妖術を使う。",
+        "_en": "[Power: 50 / Wind attribute] Uses powerful wind magic.",
+        "_fr": "[Puissance : 50 / Attribut vent] Utilise une puissante magie du vent."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "がまぐちブレイカー",
+        "_en": "Gamaguchi breaker",
+        "_fr": "Briseur de Gamaguchi"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "むだづかいさせる",
+        "_en": "make you waste your time",
+        "_fr": "te faire perdre ton temps"
+      },
+      "explication": {
+        "_jp": "【–】 –",
+        "_en": null,
+        "_fr": null
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "ムダヅカイに とりつかれると 全然ほしくもないものも つい買ってしまい 貯金がなくなってしまう。",
+      "_en": "When you become obsessed with waste, you end up buying things you don't want at all, and your savings are gone.",
+      "_fr": "Lorsque vous devenez obsédé par le gaspillage, vous finissez par acheter des choses dont vous ne voulez pas du tout et vos économies disparaissent."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "218",
+  "Name_yww": "ムダヅカイ",
+  "description_jp_yww": "ムダヅカイに とりつかれると 全然ほしくもないものも つい買ってしまい 貯金がなくなってしまう。",
+  "BingoMessage_jp_yww": "シェッシェッシェ！ 今日はパーっとお祝いしよっか！",
+  "MonsterId_yww": "y218000",
+  "Height_yww": 7.0,
+  "CommondId_yww": "sp_218000",
+  "MinHp_yww": 45,
+  "MaxHp_yww": 386,
+  "MinAttack_yww": 21,
+  "MaxAttack_yww": 146,
+  "MinMagic_yww": 15,
+  "MaxMagic_yww": 70,
+  "MinDefense_yww": 20,
+  "MaxDefense_yww": 183,
+  "MinSpeed_yww": 17,
+  "MaxSpeed_yww": 125,
+  "AttackId_yww": 17,
+  "MagicId_yww": 17,
+  "HauntId_yww": 218000,
+  "SpSkillId_yww": 218000,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 2,
+  "DislikeFoodKind_yww": 12,
+  "ActionType_yww": 24,
+  "TribeType_yww": 8,
+  "MedallionImage_yww": "y213800.png",
+  "SpriteImage_yww": "img_y213800.png",
+  "Audio_yww": "sp_y213800.wav",
+  "Description_yww": "Quand on est pris par le gaspillage, on finit par acheter des choses dont on n'a absolument pas besoin et on se retrouve sans économies.",
+  "BingoMessage_fr_yww": "Chut, chut, chut ! Et si on faisait la fête aujourd'hui ?"
 }

@@ -1,681 +1,712 @@
 {
-    "ID": "74",
-    "Nom": "Granpart",
-    "Tribue": "Costaud",
-    "Rang": "A",
-    "PV": "483",
-    "Force": "60",
-    "Esprit": "159",
-    "Défense": "282",
-    "Vitesse": "70",
-    "Description": "Alors un impénétrable mur de château, il s'est transformé en Yo-kai après la chute de la famille qu'il protégeait.",
-    "nourriture": "Ramen",
-    "élément": "Terre",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Granpart est un mot-valise entre grand et rempart.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/granpart.png",
-    "numero": "062",
-    "nourriture_favorite": "Ramen",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Rempart",
-            "effet": "Défend quand il est placé devant."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Plaquage",
-            "effet": "60 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Éboulement",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Perce-muraille",
-            "effet": "Assomme l'ennemi avec un mur de pierre de son ancien château. 180 | 180"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Énergie du fort",
-            "effet": "Renforce la DÉF. d'un allié et le rend solide comme un rempart."
-        }
+  "ID": "74",
+  "Nom": "Granpart",
+  "Tribue": "Costaud",
+  "Rang": "A",
+  "PV": "483",
+  "Force": "60",
+  "Esprit": "159",
+  "Défense": "282",
+  "Vitesse": "70",
+  "Description": "Alors un impénétrable mur de château, il s'est transformé en Yo-kai après la chute de la famille qu'il protégeait.",
+  "nourriture": "Ramen",
+  "élément": "Terre",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Granpart est un mot-valise entre grand et rempart.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/granpart.png",
+  "numero": "062",
+  "nourriture_favorite": "Ramen",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Rempart",
+      "effet": "Défend quand il est placé devant."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Plaquage",
+      "effet": "60 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Éboulement",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Perce-muraille",
+      "effet": "Assomme l'ennemi avec un mur de pierre de son ancien château. 180 | 180"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Énergie du fort",
+      "effet": "Renforce la DÉF. d'un allié et le rend solide comme un rempart."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Youpi !",
+    "Mange de la nourriture insipide": "C'était pas mal.",
+    "Mange de la mauvaise nourriture": "C'est pas bon !",
+    "A la flemme": "J'en peux plus.",
+    "Est échangé": "Toi et moi, on est liés par l'amitié ? Te protéger sera donc un honneur.",
+    "Devient ton ami": "Je n'avais jamais rencontré quelqu'un comme toi, laisse-moi être ton rempart !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "シロカベ",
+  "nom_anglais": "Walldin",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Yo-kai World - Route des Vandales",
+      "Bingo-kai-pièce orange"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Youpi !",
-        "Mange de la nourriture insipide": "C'était pas mal.",
-        "Mange de la mauvaise nourriture": "C'est pas bon !",
-        "A la flemme": "J'en peux plus.",
-        "Est échangé": "Toi et moi, on est liés par l'amitié ? Te protéger sera donc un honneur.",
-        "Devient ton ami": "Je n'avais jamais rencontré quelqu'un comme toi, laisse-moi être ton rempart !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "シロカベ",
-    "nom_anglais": "Walldin",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Yo-kai World - Route des Vandales",
-            "Bingo-kai-pièce orange"
-        ],
-        "yw2": [
-            "La Corniche",
-            "Bingo-kai - pièce orange",
-            "Bingo-kai oni"
-        ],
-        "yw Blasters 1": [
-            "Exclusif à l'Escadron du chien blanc",
-            "Patrouille -Coteau fleuri",
-            "Big boss -Ultra Crocho- trésor spécial 4 membres Escadron du chien blanc"
-        ],
-        "yw3": [
-            "Hauts de Granval- matériaux de construction",
-            "Palais Enma 5"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Perce-muraille",
-                "puissance": "160|160",
-                "description": "Assomme l'ennemi avec un mur de pierre de son ancien château."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie du fort",
-                "puissance": "N/A",
-                "description": "Renforce la DÉF. d'un allié et le rend solide comme un rempart."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Rempart",
-                "description": "Défend quand il est placé devant."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Perce-muraille",
-                "puissance": "180|180",
-                "description": "Assomme l'ennemi avec un mur de pierre de son ancien château."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie du fort",
-                "puissance": "N/A",
-                "description": "Renforce la DÉF. d'un allié et le rend solide comme un rempart."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Galet",
-                "puissance": "N/A",
-                "description": "Un éboulement enterre les ennemis éloignés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Rempart",
-                "description": "Défend quand il est placé devant."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Perce-muraille",
-                "puissance": "80×5",
-                "description": "Des rochers infligent de gros dégâts aux ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Découragement +",
-                "puissance": "80",
-                "description": "Baisse temporaire ATT des ennemis touchés."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Armure de fer",
-                "puissance": "___",
-                "description": "Forte réduction des dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Position défensive",
-                "puissance": "___",
-                "description": "Hausse de la défense temporaire."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Persistance",
-                "description": "Ralentit la perte de la jauge d'attaque."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage",
-                "puissance": "35|77",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Perce-muraille",
-                "puissance": "200|300",
-                "description": "Assomme les ennemis à portée, avec un mur de pierre de son château."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie du fort",
-                "puissance": "N/A",
-                "description": "Renforce la DÉF. d'un allié et le rend solide comme un rempart."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Perce-muraille",
-                "puissance": "80×5",
-                "description": "Pluie de rochers qui inflige des dégâts élevés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Découragement +",
-                "puissance": "80",
-                "description": "Réduit ++ l’attaque ennemie un court instant."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure fer",
-                "puissance": "___",
-                "description": "Dégâts reçus -- mais attire l’attention de l’ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Rempart",
-                "description": "En garde automatiquement après déplacement."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Gemme de protection"
-            },
-            {
-                "taux": "?%",
-                "objet": "Toupropre"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Amulette de terre"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman de défense"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Amulette armure"
-            },
-            {
-                "taux": "?%",
-                "objet": "Ramen complet"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Rempart",
-        "description": "Défend quand il est placé devant."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/granpart.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/granpart.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/granpart.wav",
-    "oldID": "74",
-    "medallium_ids": {
-        "yw1": "062",
-        "yw2": "094",
-        "yw3": "151"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "104",
-        "yw Blasters 2": "154",
-        "yw Wibble Wobble": "3095",
-        "yw World": "0053",
-        "yw Ukiukipedia": "yw2-013"
-    },
-    "battle_type": "",
-    "skill_name": "Blocker",
-    "skill_effect": "Castle Power",
-    "disliked_food": "Hamburgers",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "426",
-                "STR": "138",
-                "SPR": "95",
-                "DEF": "226",
-                "SPD": "148"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "493",
-                "STR": "138",
-                "SPR": "95",
-                "DEF": "226",
-                "SPD": "148"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "1-1",
-                "STR": "65",
-                "SPR": "164",
-                "DEF": "287",
-                "SPD": "75"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "シロカベ"
-        ],
-        "Spanish": [
-            "Murallin"
-        ],
-        "French": [
-            "Granpart"
-        ],
-        "Italian": [
-            "Furimuro"
-        ],
-        "German": [
-            "Wallter"
-        ],
-        "Russian": [
-            "Замкович",
-            "Zamkovich"
-        ],
-        "Arabic": [
-            "عائق",
-            "Eā'iq"
-        ],
-        "Portuguese (Brazilian)": [
-            "Murinho"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "シロカベ Shirokabe"
-        ],
-        "Spanish": [
-            "Murallin"
-        ],
-        "French": [
-            "Granpart"
-        ],
-        "Italian": [
-            "Furimuro"
-        ],
-        "German": [
-            "Wallter"
-        ],
-        "Russian": [
-            "Замкович"
-        ],
-        "Arabic": [
-            "عائق"
-        ],
-        "Portuguese (Brazilian)": [
-            "Murinho"
-        ]
-    },
-    "description_en": "Formerly a sturdy castle wall, the fall of the family he once protected turned him into a Yo-kai.",
-    "nom_en": "Noway",
-    "rang_yww": "A",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "ramen",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 68,
-        "str": 5,
-        "spr": 19,
-        "def": 46,
-        "spd": 9
-    },
-    "stats_max_yww": {
-        "hp": 483,
-        "str": 60,
-        "spr": 159,
-        "def": 282,
-        "spd": 70
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "5つ星コイン",
-            "_en": "5 star coin",
-            "_fr": "Pièce de 5 étoiles"
-        },
-        {
-            "_jp": "お祭りコイン",
-            "_en": "festival coins",
-            "_fr": "pièces de monnaie du festival"
-        },
-        {
-            "_jp": "オレンジコイン",
-            "_en": "orange coin",
-            "_fr": "pièce de monnaie orange"
-        },
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw2": [
+      "La Corniche",
+      "Bingo-kai - pièce orange",
+      "Bingo-kai oni"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "タックル",
-                "_en": "tackle",
-                "_fr": "tacle"
-            },
-            "explication": {
-                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
-                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "落石の術",
-                "_en": "falling rock jutsu",
-                "_fr": "jutsu qui tombe des pierres"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
-                "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
-                "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
-            }
-        }
+    "yw Blasters 1": [
+      "Exclusif à l'Escadron du chien blanc",
+      "Patrouille -Coteau fleuri",
+      "Big boss -Ultra Crocho- trésor spécial 4 membres Escadron du chien blanc"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "石垣おとし",
-                "_en": "Ishigaki Otoshi",
-                "_fr": "Ishigaki Otoshi"
-            },
-            "pouvoir": "200",
-            "explication": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "お城の力",
-                "_en": "power of castle",
-                "_fr": "pouvoir du château"
-            },
-            "explication": {
-                "_jp": "【まもりアップ】 とりつかれた妖怪はお城のカベのごとく まもりがアップする。",
-                "_en": "[Increased protection] A possessed monster has increased protection like a castle wall.",
-                "_fr": "[Protection accrue] Un monstre possédé a une protection accrue comme un mur de château."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "昔は りっぱなお城の 城壁をしていたが 長い間 守っていた一族が 滅びてしまったので このたび妖怪となった。",
-            "_en": "In the past, it served as the wall of a magnificent castle, but since the family that protected it for a long time has perished, it has now become a monster.",
-            "_fr": "Autrefois, il servait de mur d'enceinte à un magnifique château, mais depuis que la famille qui l'a longtemps protégé a péri, il est aujourd'hui devenu un monstre."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Hauts de Granval- matériaux de construction",
+      "Palais Enma 5"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Éboulement",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Perce-muraille",
+        "puissance": "160|160",
+        "description": "Assomme l'ennemi avec un mur de pierre de son ancien château."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie du fort",
+        "puissance": "N/A",
+        "description": "Renforce la DÉF. d'un allié et le rend solide comme un rempart."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Rempart",
+        "description": "Défend quand il est placé devant."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Éboulement",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Perce-muraille",
+        "puissance": "180|180",
+        "description": "Assomme l'ennemi avec un mur de pierre de son ancien château."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie du fort",
+        "puissance": "N/A",
+        "description": "Renforce la DÉF. d'un allié et le rend solide comme un rempart."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Galet",
+        "puissance": "N/A",
+        "description": "Un éboulement enterre les ennemis éloignés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Rempart",
+        "description": "Défend quand il est placé devant."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Perce-muraille",
+        "puissance": "80×5",
+        "description": "Des rochers infligent de gros dégâts aux ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Découragement +",
+        "puissance": "80",
+        "description": "Baisse temporaire ATT des ennemis touchés."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Armure de fer",
+        "puissance": "___",
+        "description": "Forte réduction des dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Position défensive",
+        "puissance": "___",
+        "description": "Hausse de la défense temporaire."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Persistance",
+        "description": "Ralentit la perte de la jauge d'attaque."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage",
+        "puissance": "35|77",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Éboulement",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Perce-muraille",
+        "puissance": "200|300",
+        "description": "Assomme les ennemis à portée, avec un mur de pierre de son château."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie du fort",
+        "puissance": "N/A",
+        "description": "Renforce la DÉF. d'un allié et le rend solide comme un rempart."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Perce-muraille",
+        "puissance": "80×5",
+        "description": "Pluie de rochers qui inflige des dégâts élevés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Découragement +",
+        "puissance": "80",
+        "description": "Réduit ++ l’attaque ennemie un court instant."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure fer",
+        "puissance": "___",
+        "description": "Dégâts reçus -- mais attire l’attention de l’ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Rempart",
+        "description": "En garde automatiquement après déplacement."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Gemme de protection"
+      },
+      {
+        "taux": "?%",
+        "objet": "Toupropre"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Amulette de terre"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman de défense"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Amulette armure"
+      },
+      {
+        "taux": "?%",
+        "objet": "Ramen complet"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Rempart",
+    "description": "Défend quand il est placé devant."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/granpart.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/granpart.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/granpart.wav",
+  "oldID": "74",
+  "medallium_ids": {
+    "yw1": "062",
+    "yw2": "094",
+    "yw3": "151"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "104",
+    "yw Blasters 2": "154",
+    "yw Wibble Wobble": "3095",
+    "yw World": "0053",
+    "yw Ukiukipedia": "yw2-013"
+  },
+  "battle_type": "",
+  "skill_name": "Blocker",
+  "skill_effect": "Castle Power",
+  "disliked_food": "Hamburgers",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "426",
+        "STR": "138",
+        "SPR": "95",
+        "DEF": "226",
+        "SPD": "148"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "493",
+        "STR": "138",
+        "SPR": "95",
+        "DEF": "226",
+        "SPD": "148"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "1-1",
+        "STR": "65",
+        "SPR": "164",
+        "DEF": "287",
+        "SPD": "75"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "シロカベ"
+    ],
+    "Spanish": [
+      "Murallin"
+    ],
+    "French": [
+      "Granpart"
+    ],
+    "Italian": [
+      "Furimuro"
+    ],
+    "German": [
+      "Wallter"
+    ],
+    "Russian": [
+      "Замкович",
+      "Zamkovich"
+    ],
+    "Arabic": [
+      "عائق",
+      "Eā'iq"
+    ],
+    "Portuguese (Brazilian)": [
+      "Murinho"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "シロカベ Shirokabe"
+    ],
+    "Spanish": [
+      "Murallin"
+    ],
+    "French": [
+      "Granpart"
+    ],
+    "Italian": [
+      "Furimuro"
+    ],
+    "German": [
+      "Wallter"
+    ],
+    "Russian": [
+      "Замкович"
+    ],
+    "Arabic": [
+      "عائق"
+    ],
+    "Portuguese (Brazilian)": [
+      "Murinho"
+    ]
+  },
+  "description_en": "Formerly a sturdy castle wall, the fall of the family he once protected turned him into a Yo-kai.",
+  "nom_en": "Noway",
+  "rang_yww": "A",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "ramen",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 68,
+    "str": 5,
+    "spr": 19,
+    "def": 46,
+    "spd": 9
+  },
+  "stats_max_yww": {
+    "hp": 483,
+    "str": 60,
+    "spr": 159,
+    "def": 282,
+    "spd": 70
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "5つ星コイン",
+      "_en": "5 star coin",
+      "_fr": "Pièce de 5 étoiles"
+    },
+    {
+      "_jp": "お祭りコイン",
+      "_en": "festival coins",
+      "_fr": "pièces de monnaie du festival"
+    },
+    {
+      "_jp": "オレンジコイン",
+      "_en": "orange coin",
+      "_fr": "pièce de monnaie orange"
+    },
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "タックル",
+        "_en": "tackle",
+        "_fr": "tacle"
+      },
+      "explication": {
+        "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
+        "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "落石の術",
+        "_en": "falling rock jutsu",
+        "_fr": "jutsu qui tombe des pierres"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
+        "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
+        "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "石垣おとし",
+        "_en": "Ishigaki Otoshi",
+        "_fr": "Ishigaki Otoshi"
+      },
+      "pouvoir": "200",
+      "explication": {
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "お城の力",
+        "_en": "power of castle",
+        "_fr": "pouvoir du château"
+      },
+      "explication": {
+        "_jp": "【まもりアップ】 とりつかれた妖怪はお城のカベのごとく まもりがアップする。",
+        "_en": "[Increased protection] A possessed monster has increased protection like a castle wall.",
+        "_fr": "[Protection accrue] Un monstre possédé a une protection accrue comme un mur de château."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "昔は りっぱなお城の 城壁をしていたが 長い間 守っていた一族が 滅びてしまったので このたび妖怪となった。",
+      "_en": "In the past, it served as the wall of a magnificent castle, but since the family that protected it for a long time has perished, it has now become a monster.",
+      "_fr": "Autrefois, il servait de mur d'enceinte à un magnifique château, mais depuis que la famille qui l'a longtemps protégé a péri, il est aujourd'hui devenu un monstre."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "74",
+  "Name_yww": "シロカベ",
+  "description_jp_yww": "昔は　りっぱなお城の 城壁をしていたが 長い間　守っていた一族が 滅びてしまったので このたび妖怪となった。",
+  "BingoMessage_jp_yww": "出してくれた礼だ お前の命　このシロカベが守ってやるぞ！",
+  "MonsterId_yww": "y141010",
+  "Height_yww": 20.0,
+  "CommondId_yww": "sp_141010",
+  "MinHp_yww": 68,
+  "MaxHp_yww": 483,
+  "MinAttack_yww": 5,
+  "MaxAttack_yww": 60,
+  "MinMagic_yww": 19,
+  "MaxMagic_yww": 159,
+  "MinDefense_yww": 46,
+  "MaxDefense_yww": 282,
+  "MinSpeed_yww": 9,
+  "MaxSpeed_yww": 70,
+  "AttackId_yww": 26,
+  "MagicId_yww": 11,
+  "HauntId_yww": 141010,
+  "SpSkillId_yww": 141010,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 7,
+  "DislikeFoodKind_yww": 6,
+  "ActionType_yww": 17,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y136810.png",
+  "SpriteImage_yww": "img_y136810.png",
+  "Audio_yww": "sp_y136810.wav",
+  "Description_yww": "Autrefois, il formait les remparts d’un magnifique château, mais comme la famille qui l’avait défendu pendant si longtemps a disparu, il est désormais devenu un yōkai.",
+  "BingoMessage_fr_yww": "C'est pour te remercier de m'avoir aidé. Je vais protéger ta vie, moi, Shirokabe !"
 }

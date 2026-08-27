@@ -1,438 +1,469 @@
 {
-    "ID": "320",
-    "Nom": "Arachnia",
-    "Tribue": "Sinistre",
-    "Rang": "S",
-    "PV": "440",
-    "Force": "212",
-    "Esprit": "149",
-    "Défense": "98",
-    "Vitesse": "170",
-    "Description": "Expert en poisons, ce Yo-kai est souvent qualifié de femme fatale alors que c'est bien un homme.",
-    "description SITE": "Expert en poison, ce Yo-kai est souvent qualifié de femme fatale alors que c'est bien un homme.",
-    "nourriture": "Soba",
-    "élément": "Terre",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Il a les mêmes pouvoirs qu'Arachnusmais il peut créer du poison.",
-    "personnalité": "C'est un très bon commandant et un expert en poison. Dansyw3, on peut le rencontrer sur leChemin brumeuxoù il prend l'apparence d'une dame âgée avec une faucille. Il donnera des friandises à plusieurs reprise àNathanouArianeen répétant et dira qu'il les trouve mignons.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/arachnia.png",
-    "numero": "283",
-    "nourriture_favorite": "Soba",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Trarachnard",
-            "effet": "Attaque renforcée après avoir battu des ennemis."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing un-deux",
-            "effet": "15x2 | 33x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Météore",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Omnipattence",
-            "effet": "La force arachnéenne inflige des dégâts de terre sur un ennemi. 290 | 290"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Dans la toile",
-            "effet": "Le Yo-kai est pris dans une toile et sa VIT. baisse énormément."
-        }
+  "ID": "320",
+  "Nom": "Arachnia",
+  "Tribue": "Sinistre",
+  "Rang": "S",
+  "PV": "440",
+  "Force": "212",
+  "Esprit": "149",
+  "Défense": "98",
+  "Vitesse": "170",
+  "Description": "Expert en poisons, ce Yo-kai est souvent qualifié de femme fatale alors que c'est bien un homme.",
+  "description SITE": "Expert en poison, ce Yo-kai est souvent qualifié de femme fatale alors que c'est bien un homme.",
+  "nourriture": "Soba",
+  "élément": "Terre",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Il a les mêmes pouvoirs qu'Arachnusmais il peut créer du poison.",
+  "personnalité": "C'est un très bon commandant et un expert en poison. Dansyw3, on peut le rencontrer sur leChemin brumeuxoù il prend l'apparence d'une dame âgée avec une faucille. Il donnera des friandises à plusieurs reprise àNathanouArianeen répétant et dira qu'il les trouve mignons.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/arachnia.png",
+  "numero": "283",
+  "nourriture_favorite": "Soba",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Trarachnard",
+      "effet": "Attaque renforcée après avoir battu des ennemis."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing un-deux",
+      "effet": "15x2 | 33x2"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Météore",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Omnipattence",
+      "effet": "La force arachnéenne inflige des dégâts de terre sur un ennemi. 290 | 290"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Dans la toile",
+      "effet": "Le Yo-kai est pris dans une toile et sa VIT. baisse énormément."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Ouah, délicieux !",
+    "Mange de la nourriture insipide": "Bof bof.",
+    "Mange de la mauvaise nourriture": "Nauséabond.",
+    "A la flemme": "J'ai très peur.",
+    "Est échangé": "J'ai envie de rejoindre ton groupe. Tu t'occupes de la sauce, moi du poison !",
+    "Devient ton ami": "Si on est amis, je préparerai du délicieux poison rien que pour toi !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "女郎蜘蛛",
+  "nom_anglais": "Arachnia",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Bingo-kai-Pièce mauve(Passé)",
+      "Bingo-kai -Pièce 5 étoiles(Passé)",
+      "Bingo-kai -Pièce spéciale(Passé)",
+      "Bingo-kai gagnant"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Ouah, délicieux !",
-        "Mange de la nourriture insipide": "Bof bof.",
-        "Mange de la mauvaise nourriture": "Nauséabond.",
-        "A la flemme": "J'ai très peur.",
-        "Est échangé": "J'ai envie de rejoindre ton groupe. Tu t'occupes de la sauce, moi du poison !",
-        "Devient ton ami": "Si on est amis, je préparerai du délicieux poison rien que pour toi !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "女郎蜘蛛",
-    "nom_anglais": "Arachnia",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Bingo-kai-Pièce mauve(Passé)",
-            "Bingo-kai -Pièce 5 étoiles(Passé)",
-            "Bingo-kai -Pièce spéciale(Passé)",
-            "Bingo-kai gagnant"
-        ],
-        "yw3": [
-            "Chemin brumeux- parler 5 fois à la vielle dame tenant une faucille.",
-            "Pavillon de l'ambroisie",
-            "Bingo-kai -Pièce légendaire"
-        ]
-    },
-    "rarite": "Classic icon",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "15×2|33×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Météore",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Omnipattence",
-                "puissance": "290|290",
-                "description": "La force arachnéenne inflige des dégâts de terre sur un ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Dans la toile",
-                "puissance": "N/A",
-                "description": "Le Yo-kai est pris dans une toile et sa VIT. baisse énormément."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Trarachnard",
-                "description": "Attaque renforcée après avoir battu des ennemis."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Omnipattence",
-                "puissance": "80×5",
-                "description": "Des rochers infligent de gros dégâts aux ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Attaque précipitée",
-                "puissance": "80",
-                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Piège zappeur",
-                "puissance": "___",
-                "description": "Peut paralyser un ennemi s'il marche dessus."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Galet",
-                "puissance": "40",
-                "description": "Utilise un sort de terre. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Maître Web",
-                "description": "La jauge d'attaque se charge quand attaqué."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "25×2|55×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Météore",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Omnipattence",
-                "puissance": "155|232",
-                "description": "Fait s'écraser un rocher sur une case aléatoire par la force de l'araignée."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Dans la toile",
-                "puissance": "N/A",
-                "description": "Le Yo-kai est pris dans une toile et sa VIT. baisse fortement."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Trarachnard",
-                "description": "Attaque renforcée après avoir battu des ennemis."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Trarachnard",
-        "description": "Attaque renforcée après avoir battu des ennemis."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/arachnia.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/arachnia.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/arachnia.wav",
-    "name_romaji_jp": "Jorōgumo",
-    "oldID": "337",
-    "medallium_ids": {
-        "yw2": "283",
-        "yw3": "507"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "338",
-        "yw Blasters 2": "522",
-        "yw Wibble Wobble": "7027",
-        "yw Ukiukipedia": "yw8-022"
-    },
-    "battle_type": "Classic",
-    "skill_name": "Highlander",
-    "skill_effect": "Entrap",
-    "disliked_food": "Seafood",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "450",
-                "STR": "216",
-                "SPR": "162",
-                "DEF": "157",
-                "SPD": "212"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "428",
-                "STR": "227",
-                "SPR": "155",
-                "DEF": "170",
-                "SPD": "175"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "422",
-                "STR": "225",
-                "SPR": "151",
-                "DEF": "169"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "239-420",
-                "STR": "225",
-                "SPR": "151",
-                "DEF": "169"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "239-420"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "女郎蜘蛛"
-        ],
-        "Spanish": [
-            "Aracne"
-        ],
-        "Italian": [
-            "Arachnia"
-        ],
-        "German": [
-            "Arachnia"
-        ],
-        "Arabic": [
-            "مكار"
-        ],
-        "Portuguese (European)": [
-            "Aracnio"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "女郎蜘蛛"
-        ],
-        "Spanish": [
-            "Aracne"
-        ],
-        "Italian": [
-            "Arachnia"
-        ],
-        "German": [
-            "Arachnia"
-        ],
-        "Arabic": [
-            "مكار Makkār"
-        ],
-        "Portuguese (European)": [
-            "Aracnio"
-        ]
-    },
-    "description_en": "An expert in poisons, this Yo-kai is often called a femme fatale, despite being very much a man.",
-    "nom_en": "Fake-inand",
-    "rang_yww": "S",
-    "tribue_yww": "Bukimi",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "sarrasin",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 49,
-        "str": 29,
-        "spr": 22,
-        "def": 12,
-        "spd": 38
-    },
-    "stats_max_yww": {
-        "hp": 440,
-        "str": 212,
-        "spr": 149,
-        "def": 98,
-        "spd": 170
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ワンツーパンチ",
-                "_en": "one two punch",
-                "_fr": "un deux coups de poing"
-            },
-            "explication": {
-                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 25×2/Blow] Attack twice",
-                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "いん石の術",
-                "_en": "Meteor no jutsu",
-                "_fr": "Météore pas de jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 土属性】 強力な土の妖術を使う。",
-                "_en": "[Power: 70 / Earth attribute] Uses powerful earth magic.",
-                "_fr": "[Puissance : 70 / Attribut Terre] Utilise une puissante magie terrestre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "桃色ドトンドトーン",
-                "_en": "Pink dotondo tone",
-                "_fr": "Ton rose dotondo"
-            },
-            "pouvoir": "155",
-            "explication": {
-                "_jp": "有名な蜘蛛の力でランダムな敵に巨大な岩石を落とす。",
-                "_en": "Drop a giant rock on a random enemy with the power of the famous spider.",
-                "_fr": "Lâchez un rocher géant sur un ennemi aléatoire grâce au pouvoir de la célèbre araignée."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "くもの糸にからめる",
-                "_en": "Tangled in spider thread",
-                "_fr": "Emmêlé dans le fil d'araignée"
-            },
-            "explication": {
-                "_jp": "【すばやさダウン】 とりつかれた妖怪はくもの糸にからめとられ すばやさが大ダウンする。",
-                "_en": "[Speed ​​reduction] The possessed monster is entangled in spider threads, and its speed is greatly reduced.",
-                "_fr": "[Réduction de la vitesse] Le monstre possédé est empêtré dans des fils d'araignée et sa vitesse est considérablement réduite."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "毒のスペシャリスト。 ケーキに毒を入れたり 毒口紅によるキスなど 女子力が高い作戦を好むが れっきとした 男性である。",
-            "_en": "Poison specialist. He likes strategies that are feminine, such as putting poison in cakes and kissing with poison lipstick, but he is an honest man.",
-            "_fr": "Spécialiste des poisons. Il aime les stratégies féminines, comme mettre du poison dans les gâteaux et embrasser avec du rouge à lèvres empoisonné, mais c'est un homme honnête."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Chemin brumeux- parler 5 fois à la vielle dame tenant une faucille.",
+      "Pavillon de l'ambroisie",
+      "Bingo-kai -Pièce légendaire"
     ]
+  },
+  "rarite": "Classic icon",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Poing un-deux",
+        "puissance": "15×2|33×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Météore",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Omnipattence",
+        "puissance": "290|290",
+        "description": "La force arachnéenne inflige des dégâts de terre sur un ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Dans la toile",
+        "puissance": "N/A",
+        "description": "Le Yo-kai est pris dans une toile et sa VIT. baisse énormément."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Trarachnard",
+        "description": "Attaque renforcée après avoir battu des ennemis."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Omnipattence",
+        "puissance": "80×5",
+        "description": "Des rochers infligent de gros dégâts aux ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Attaque précipitée",
+        "puissance": "80",
+        "description": "Attaque en faisant face à l'ennemi et fonce dessus."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Piège zappeur",
+        "puissance": "___",
+        "description": "Peut paralyser un ennemi s'il marche dessus."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Galet",
+        "puissance": "40",
+        "description": "Utilise un sort de terre. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Maître Web",
+        "description": "La jauge d'attaque se charge quand attaqué."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Poing un-deux",
+        "puissance": "25×2|55×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Météore",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Omnipattence",
+        "puissance": "155|232",
+        "description": "Fait s'écraser un rocher sur une case aléatoire par la force de l'araignée."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Dans la toile",
+        "puissance": "N/A",
+        "description": "Le Yo-kai est pris dans une toile et sa VIT. baisse fortement."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Trarachnard",
+        "description": "Attaque renforcée après avoir battu des ennemis."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Trarachnard",
+    "description": "Attaque renforcée après avoir battu des ennemis."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/arachnia.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/arachnia.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/arachnia.wav",
+  "name_romaji_jp": "Jorōgumo",
+  "oldID": "337",
+  "medallium_ids": {
+    "yw2": "283",
+    "yw3": "507"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "338",
+    "yw Blasters 2": "522",
+    "yw Wibble Wobble": "7027",
+    "yw Ukiukipedia": "yw8-022"
+  },
+  "battle_type": "Classic",
+  "skill_name": "Highlander",
+  "skill_effect": "Entrap",
+  "disliked_food": "Seafood",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "450",
+        "STR": "216",
+        "SPR": "162",
+        "DEF": "157",
+        "SPD": "212"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "428",
+        "STR": "227",
+        "SPR": "155",
+        "DEF": "170",
+        "SPD": "175"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "422",
+        "STR": "225",
+        "SPR": "151",
+        "DEF": "169"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "239-420",
+        "STR": "225",
+        "SPR": "151",
+        "DEF": "169"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "239-420"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "女郎蜘蛛"
+    ],
+    "Spanish": [
+      "Aracne"
+    ],
+    "Italian": [
+      "Arachnia"
+    ],
+    "German": [
+      "Arachnia"
+    ],
+    "Arabic": [
+      "مكار"
+    ],
+    "Portuguese (European)": [
+      "Aracnio"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "女郎蜘蛛"
+    ],
+    "Spanish": [
+      "Aracne"
+    ],
+    "Italian": [
+      "Arachnia"
+    ],
+    "German": [
+      "Arachnia"
+    ],
+    "Arabic": [
+      "مكار Makkār"
+    ],
+    "Portuguese (European)": [
+      "Aracnio"
+    ]
+  },
+  "description_en": "An expert in poisons, this Yo-kai is often called a femme fatale, despite being very much a man.",
+  "nom_en": "Fake-inand",
+  "rang_yww": "S",
+  "tribue_yww": "Bukimi",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "sarrasin",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 49,
+    "str": 29,
+    "spr": 22,
+    "def": 12,
+    "spd": 38
+  },
+  "stats_max_yww": {
+    "hp": 440,
+    "str": 212,
+    "spr": 149,
+    "def": 98,
+    "spd": 170
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ワンツーパンチ",
+        "_en": "one two punch",
+        "_fr": "un deux coups de poing"
+      },
+      "explication": {
+        "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+        "_en": "[Power: 25×2/Blow] Attack twice",
+        "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "いん石の術",
+        "_en": "Meteor no jutsu",
+        "_fr": "Météore pas de jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 土属性】 強力な土の妖術を使う。",
+        "_en": "[Power: 70 / Earth attribute] Uses powerful earth magic.",
+        "_fr": "[Puissance : 70 / Attribut Terre] Utilise une puissante magie terrestre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "桃色ドトンドトーン",
+        "_en": "Pink dotondo tone",
+        "_fr": "Ton rose dotondo"
+      },
+      "pouvoir": "155",
+      "explication": {
+        "_jp": "有名な蜘蛛の力でランダムな敵に巨大な岩石を落とす。",
+        "_en": "Drop a giant rock on a random enemy with the power of the famous spider.",
+        "_fr": "Lâchez un rocher géant sur un ennemi aléatoire grâce au pouvoir de la célèbre araignée."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "くもの糸にからめる",
+        "_en": "Tangled in spider thread",
+        "_fr": "Emmêlé dans le fil d'araignée"
+      },
+      "explication": {
+        "_jp": "【すばやさダウン】 とりつかれた妖怪はくもの糸にからめとられ すばやさが大ダウンする。",
+        "_en": "[Speed ​​reduction] The possessed monster is entangled in spider threads, and its speed is greatly reduced.",
+        "_fr": "[Réduction de la vitesse] Le monstre possédé est empêtré dans des fils d'araignée et sa vitesse est considérablement réduite."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "毒のスペシャリスト。 ケーキに毒を入れたり 毒口紅によるキスなど 女子力が高い作戦を好むが れっきとした 男性である。",
+      "_en": "Poison specialist. He likes strategies that are feminine, such as putting poison in cakes and kissing with poison lipstick, but he is an honest man.",
+      "_fr": "Spécialiste des poisons. Il aime les stratégies féminines, comme mettre du poison dans les gâteaux et embrasser avec du rouge à lèvres empoisonné, mais c'est un homme honnête."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "330",
+  "Name_yww": "女郎蜘蛛",
+  "description_jp_yww": "毒のスペシャリスト。 ケーキに毒を入れたり 毒口紅によるキスなど 女子力が高い作戦を好むが れっきとした　男性である。",
+  "BingoMessage_jp_yww": "あっら～　開けちゃったのね！ がんじがらめにしてあげる！",
+  "MonsterId_yww": "y313000",
+  "Height_yww": 13.0,
+  "CommondId_yww": "sp_313000",
+  "MinHp_yww": 51,
+  "MaxHp_yww": 452,
+  "MinAttack_yww": 11,
+  "MaxAttack_yww": 56,
+  "MinMagic_yww": 40,
+  "MaxMagic_yww": 259,
+  "MinDefense_yww": 16,
+  "MaxDefense_yww": 130,
+  "MinSpeed_yww": 35,
+  "MaxSpeed_yww": 183,
+  "AttackId_yww": 5,
+  "MagicId_yww": 12,
+  "HauntId_yww": 313000,
+  "SpSkillId_yww": 313000,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 16,
+  "DislikeFoodKind_yww": 12,
+  "ActionType_yww": 9,
+  "TribeType_yww": 7,
+  "MedallionImage_yww": "y308800.png",
+  "SpriteImage_yww": "img_y308800.png",
+  "Audio_yww": "sp_y308800.wav",
+  "Description_yww": "Un spécialiste du poison. Qu'il s'agisse de glisser du poison dans un gâteau ou d'embrasser quelqu'un avec un rouge à lèvres empoisonné, il affectionne les stratagèmes très « féminins », mais c'est bel et bien un homme.",
+  "BingoMessage_fr_yww": "Oh là là… Tu l’as ouverte, alors ! Je vais t’attacher comme un marron !"
 }

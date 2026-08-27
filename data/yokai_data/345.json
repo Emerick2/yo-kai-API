@@ -1,437 +1,468 @@
 {
-    "ID": "345",
-    "Nom": "Injustin",
-    "Tribue": "Perfide",
-    "Rang": "S",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "Un boss Perfide qui prend un réel plaisir à être insupportable. Pas étonnant que personne ne l'aime !",
-    "nourriture": "Encas",
-    "élément": "Absorption",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "Injustin vient de Injuste et du prénom Justin.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/injustin.png",
-    "numero": "355",
-    "nourriture_favorite": "Encas",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Emprise",
-            "effet": "Augmente le nombre de PV absorbés."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Griffes acérées",
-            "effet": "10x2 | 45x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Récolte",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Sornoiserie",
-            "effet": "Un sort injuste réduit rapidement les PV de l'ennemi. 180 | 180"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Anesthésie",
-            "effet": "Le Yo-kai est pétrifié par une malédiction effrayante et ne peut plus agir."
-        }
+  "ID": "345",
+  "Nom": "Injustin",
+  "Tribue": "Perfide",
+  "Rang": "S",
+  "PV": 503,
+  "Force": 283,
+  "Esprit": 115,
+  "Défense": 140,
+  "Vitesse": 113,
+  "Description": "Un boss Perfide qui prend un réel plaisir à être insupportable. Pas étonnant que personne ne l'aime !",
+  "nourriture": "Encas",
+  "élément": "Absorption",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "Injustin vient de Injuste et du prénom Justin.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/injustin.png",
+  "numero": "355",
+  "nourriture_favorite": "Encas",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Emprise",
+      "effet": "Augmente le nombre de PV absorbés."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Griffes acérées",
+      "effet": "10x2 | 45x2"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Récolte",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Sornoiserie",
+      "effet": "Un sort injuste réduit rapidement les PV de l'ennemi. 180 | 180"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Anesthésie",
+      "effet": "Le Yo-kai est pétrifié par une malédiction effrayante et ne peut plus agir."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Pas mal !",
+    "Mange de la nourriture insipide": "Ça allait...",
+    "Mange de la mauvaise nourriture": "Pas pour moi...",
+    "A la flemme": "Je n'aime pas ça...",
+    "Est échangé": "C'est pas facile d'être amis avec moi... Si ... ne te l'a pas dit...",
+    "Devient ton ami": "Cette puissance... c'est irritant. Mais je ne te déteste pas pour autant."
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "厄怪",
+  "nom_anglais": "Unfairy",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Exclusif à Spectres Psychiques",
+      "Quête - Injustin : les origines- Tunnel de la Butte aux prières (Présent, nuit)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Pas mal !",
-        "Mange de la nourriture insipide": "Ça allait...",
-        "Mange de la mauvaise nourriture": "Pas pour moi...",
-        "A la flemme": "Je n'aime pas ça...",
-        "Est échangé": "C'est pas facile d'être amis avec moi... Si ... ne te l'a pas dit...",
-        "Devient ton ami": "Cette puissance... c'est irritant. Mais je ne te déteste pas pour autant."
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "厄怪",
-    "nom_anglais": "Unfairy",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Exclusif à Spectres Psychiques",
-            "Quête - Injustin : les origines- Tunnel de la Butte aux prières (Présent, nuit)"
-        ],
-        "yw Blasters 1": [
-            "Histoire - Cinq Yo-kai Perfides effrayants !"
-        ],
-        "yw3": [
-            "Quête - La dame au sukiyaki",
-            "Portail mystère- Salle des maîtres"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "10×2|45×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Récolte",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Sornoiserie",
-                "puissance": "180|180",
-                "description": "Un sort injuste réduit rapidement les PV de l'ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Anesthésie",
-                "puissance": "N/A",
-                "description": "Le Yo-kai est pétrifié par une malédiction effrayante et ne peut plus agir."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Emprise",
-                "description": "Augmente le nombre de PV absorbés."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Sort cruel",
-                "puissance": "250",
-                "description": "PV des ennemis réduits rapidement."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Vortex",
-                "puissance": "30",
-                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Envoût. poison +",
-                "puissance": "___",
-                "description": "Baisse rapide PV ennemis. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Envoût. multi-baisse",
-                "puissance": "___",
-                "description": "Baisse des stats ennemies. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Sort cruel",
-                "description": "Effet envoûtement négatif plus durable sur soi."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "15×2|52×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Récolte",
-                "puissance": "55|88",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Sornoiserie",
-                "puissance": "74|74",
-                "description": "Jette un sort injuste aux ennemis à portée, baissant peu à peu leurs PV."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Anesthésie",
-                "puissance": "N/A",
-                "description": "Le Yo-kai est pétrifié par une malédiction effrayante et agit moins."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Emprise",
-                "description": "Augmente le nombre de PV absorbés."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Emprise",
-        "description": "Augmente le nombre de PV absorbés."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/injustin.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/injustin.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/injustin.wav",
-    "oldID": "361",
-    "medallium_ids": {
-        "yw2": "355",
-        "yw3": "575"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "401",
-        "yw Blasters 2": "594",
-        "yw Wibble Wobble": "9001 (Friend)/10220 (Boss)",
-        "yw Ukiukipedia": "yw9-032"
-    },
-    "battle_type": "Rare",
-    "skill_name": "Grip on You",
-    "skill_effect": "Unfairy Power",
-    "disliked_food": "Soba",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "545",
-                "STR": "79",
-                "SPR": "140",
-                "DEF": "198",
-                "SPD": "123"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "409-746",
-                "STR": "57",
-                "SPR": "237",
-                "DEF": "261",
-                "SPD": "203"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "409-746"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "409-746"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "409-746"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "厄怪"
-        ],
-        "Spanish": [
-            "Injustio"
-        ],
-        "French": [
-            "Injustin"
-        ],
-        "Italian": [
-            "Pestifero"
-        ],
-        "German": [
-            "Nervo"
-        ],
-        "Russian": [
-            "Вредофей",
-            "Bredofey"
-        ],
-        "Chinese (Mandarin)": [
-            "厄怪"
-        ],
-        "Portuguese (Brazilian)": [
-            "Malmequer"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "厄怪 Yakkai"
-        ],
-        "Spanish": [
-            "Injustio"
-        ],
-        "French": [
-            "Injustin"
-        ],
-        "Italian": [
-            "Pestifero"
-        ],
-        "German": [
-            "Nervo"
-        ],
-        "Russian": [
-            "Вредофей"
-        ],
-        "Chinese (Mandarin)": [
-            "厄怪"
-        ],
-        "Portuguese (Brazilian)": [
-            "Malmequer"
-        ]
-    },
-    "description_en": "A Wicked boss who takes pleasure in being a pain. No wonder no one likes him!",
-    "nom_en": "Flicker",
-    "rang_yww": "S",
-    "tribue_yww": "かいま族",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "collation",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "水属性",
-        "_fr": "水属性"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 69,
-        "str": 10,
-        "spr": 35,
-        "def": 46,
-        "spd": 15
-    },
-    "stats_max_yww": {
-        "hp": 535,
-        "str": 52,
-        "spr": 232,
-        "def": 256,
-        "spd": 198
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "期間限定出現",
-            "_en": "Limited time appearance",
-            "_fr": "Apparition à durée limitée"
-        }
+    "yw Blasters 1": [
+      "Histoire - Cinq Yo-kai Perfides effrayants !"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "するどいつめ",
-                "_en": "sharp claw",
-                "_fr": "griffe acérée"
-            },
-            "explication": {
-                "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 15×2/Blow] Attack twice",
-                "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "死神の術",
-                "_en": "Shinigami no Jutsu",
-                "_fr": "Shinigami no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:55 / 吸収】 敵のHPを大きく吸い取る。",
-                "_en": "[Power: 55 / Absorption] Absorbs a large amount of enemy's HP.",
-                "_fr": "[Puissance : 55 / Absorption] Absorbe une grande quantité de HP de l'ennemi."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "厄介な呪い",
-                "_en": "a troublesome curse",
-                "_fr": "une malédiction gênante"
-            },
-            "pouvoir": "74",
-            "explication": {
-                "_jp": "厄介な呪いを敵全員に あびせ HPを だんだん減らす効果もある",
-                "_en": "Casts a troublesome curse on all enemies, which also has the effect of gradually reducing their HP.",
-                "_fr": "Lance une malédiction gênante sur tous les ennemis, ce qui a également pour effet de réduire progressivement leurs PV."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "厄介な力",
-                "_en": "troublesome power",
-                "_fr": "puissance gênante"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 厄介な力でなかなか行動しなくなる。",
-                "_en": "[Osabori] A troublesome force makes it difficult to take action.",
-                "_fr": "[Osabori] Une force gênante rend difficile l'action."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "怪魔の幹部の一人。 厄介に思われることに 喜びを感じる妖怪。 いやらしさは 怪魔ナンバーワン。",
-            "_en": "One of the monster executives. A monster that takes pleasure in being seen as troublesome. Naughtyness is the number one monster.",
-            "_fr": "L'un des dirigeants monstres. Un monstre qui prend plaisir à être perçu comme gênant. La méchanceté est le monstre numéro un."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Quête - La dame au sukiyaki",
+      "Portail mystère- Salle des maîtres"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Griffes acérées",
+        "puissance": "10×2|45×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Récolte",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Sornoiserie",
+        "puissance": "180|180",
+        "description": "Un sort injuste réduit rapidement les PV de l'ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Anesthésie",
+        "puissance": "N/A",
+        "description": "Le Yo-kai est pétrifié par une malédiction effrayante et ne peut plus agir."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Emprise",
+        "description": "Augmente le nombre de PV absorbés."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Sort cruel",
+        "puissance": "250",
+        "description": "PV des ennemis réduits rapidement."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Vortex",
+        "puissance": "30",
+        "description": "Absorbe les PV ennemis. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Envoût. poison +",
+        "puissance": "___",
+        "description": "Baisse rapide PV ennemis. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Envoût. multi-baisse",
+        "puissance": "___",
+        "description": "Baisse des stats ennemies. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Sort cruel",
+        "description": "Effet envoûtement négatif plus durable sur soi."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Griffes acérées",
+        "puissance": "15×2|52×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Récolte",
+        "puissance": "55|88",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Sornoiserie",
+        "puissance": "74|74",
+        "description": "Jette un sort injuste aux ennemis à portée, baissant peu à peu leurs PV."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Anesthésie",
+        "puissance": "N/A",
+        "description": "Le Yo-kai est pétrifié par une malédiction effrayante et agit moins."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Emprise",
+        "description": "Augmente le nombre de PV absorbés."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Emprise",
+    "description": "Augmente le nombre de PV absorbés."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/injustin.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/injustin.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/injustin.wav",
+  "oldID": "361",
+  "medallium_ids": {
+    "yw2": "355",
+    "yw3": "575"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "401",
+    "yw Blasters 2": "594",
+    "yw Wibble Wobble": "9001 (Friend)/10220 (Boss)",
+    "yw Ukiukipedia": "yw9-032"
+  },
+  "battle_type": "Rare",
+  "skill_name": "Grip on You",
+  "skill_effect": "Unfairy Power",
+  "disliked_food": "Soba",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "545",
+        "STR": "79",
+        "SPR": "140",
+        "DEF": "198",
+        "SPD": "123"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "409-746",
+        "STR": "57",
+        "SPR": "237",
+        "DEF": "261",
+        "SPD": "203"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "409-746"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "409-746"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "409-746"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "厄怪"
+    ],
+    "Spanish": [
+      "Injustio"
+    ],
+    "French": [
+      "Injustin"
+    ],
+    "Italian": [
+      "Pestifero"
+    ],
+    "German": [
+      "Nervo"
+    ],
+    "Russian": [
+      "Вредофей",
+      "Bredofey"
+    ],
+    "Chinese (Mandarin)": [
+      "厄怪"
+    ],
+    "Portuguese (Brazilian)": [
+      "Malmequer"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "厄怪 Yakkai"
+    ],
+    "Spanish": [
+      "Injustio"
+    ],
+    "French": [
+      "Injustin"
+    ],
+    "Italian": [
+      "Pestifero"
+    ],
+    "German": [
+      "Nervo"
+    ],
+    "Russian": [
+      "Вредофей"
+    ],
+    "Chinese (Mandarin)": [
+      "厄怪"
+    ],
+    "Portuguese (Brazilian)": [
+      "Malmequer"
+    ]
+  },
+  "description_en": "A Wicked boss who takes pleasure in being a pain. No wonder no one likes him!",
+  "nom_en": "Flicker",
+  "rang_yww": "S",
+  "tribue_yww": "かいま族",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "collation",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "水属性",
+    "_fr": "水属性"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 69,
+    "str": 10,
+    "spr": 35,
+    "def": 46,
+    "spd": 15
+  },
+  "stats_max_yww": {
+    "hp": 535,
+    "str": 52,
+    "spr": 232,
+    "def": 256,
+    "spd": 198
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "期間限定出現",
+      "_en": "Limited time appearance",
+      "_fr": "Apparition à durée limitée"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "するどいつめ",
+        "_en": "sharp claw",
+        "_fr": "griffe acérée"
+      },
+      "explication": {
+        "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
+        "_en": "[Power: 15×2/Blow] Attack twice",
+        "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "死神の術",
+        "_en": "Shinigami no Jutsu",
+        "_fr": "Shinigami no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:55 / 吸収】 敵のHPを大きく吸い取る。",
+        "_en": "[Power: 55 / Absorption] Absorbs a large amount of enemy's HP.",
+        "_fr": "[Puissance : 55 / Absorption] Absorbe une grande quantité de HP de l'ennemi."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "厄介な呪い",
+        "_en": "a troublesome curse",
+        "_fr": "une malédiction gênante"
+      },
+      "pouvoir": "74",
+      "explication": {
+        "_jp": "厄介な呪いを敵全員に あびせ HPを だんだん減らす効果もある",
+        "_en": "Casts a troublesome curse on all enemies, which also has the effect of gradually reducing their HP.",
+        "_fr": "Lance une malédiction gênante sur tous les ennemis, ce qui a également pour effet de réduire progressivement leurs PV."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "厄介な力",
+        "_en": "troublesome power",
+        "_fr": "puissance gênante"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 厄介な力でなかなか行動しなくなる。",
+        "_en": "[Osabori] A troublesome force makes it difficult to take action.",
+        "_fr": "[Osabori] Une force gênante rend difficile l'action."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "怪魔の幹部の一人。 厄介に思われることに 喜びを感じる妖怪。 いやらしさは 怪魔ナンバーワン。",
+      "_en": "One of the monster executives. A monster that takes pleasure in being seen as troublesome. Naughtyness is the number one monster.",
+      "_fr": "L'un des dirigeants monstres. Un monstre qui prend plaisir à être perçu comme gênant. La méchanceté est le monstre numéro un."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "351",
+  "Name_yww": "厄怪",
+  "description_jp_yww": "怪魔の幹部の一人。 厄介に思われることに 喜びを感じる妖怪。 いやらしさは 怪魔ナンバーワン。",
+  "BingoMessage_jp_yww": "ぼくをつれていく気っチュか？ 厄介なことになるっチュよ～",
+  "MonsterId_yww": "y331000",
+  "Height_yww": 11.98,
+  "CommondId_yww": "sp_331000",
+  "MinHp_yww": 61,
+  "MaxHp_yww": 503,
+  "MinAttack_yww": 34,
+  "MaxAttack_yww": 283,
+  "MinMagic_yww": 30,
+  "MaxMagic_yww": 115,
+  "MinDefense_yww": 33,
+  "MaxDefense_yww": 140,
+  "MinSpeed_yww": 20,
+  "MaxSpeed_yww": 113,
+  "AttackId_yww": 18,
+  "MagicId_yww": 21,
+  "HauntId_yww": 331000,
+  "SpSkillId_yww": 331000,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 11,
+  "DislikeFoodKind_yww": 16,
+  "ActionType_yww": 5,
+  "TribeType_yww": 8,
+  "MedallionImage_yww": "y326800.png",
+  "SpriteImage_yww": "img_y326800.png",
+  "Audio_yww": "sp_y326800.wav",
+  "Description_yww": "L'un des dirigeants des Kaima. Un yōkai qui prend plaisir à être considéré comme un emmerdeur. C'est le numéro un en matière de méchanceté parmi les Kaima.",
+  "BingoMessage_fr_yww": "Tu comptes m'emmener ? Ça va te causer des ennuis, je te le dis !"
 }

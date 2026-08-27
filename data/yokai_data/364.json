@@ -1,456 +1,487 @@
 {
-    "ID": "364",
-    "Nom": "Valetino",
-    "Tribue": "Mystérieu",
-    "Rang": "B",
-    "PV": "340",
-    "Force": "70",
-    "Esprit": "248",
-    "Défense": "119",
-    "Vitesse": "149",
-    "Description": "Ce majordome qualifié et pointilleux a été certifié par le très officiel Conseil Yo-kai des valets.",
-    "nourriture": "Soba",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "Il est perfectionniste. Il veut tout le temps faire les bonnes choses. Si quelqu'un ne veut pas faire tout comme lui, il se fâche.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/valetino.png",
-    "numero": "077",
-    "nourriture_favorite": "Soba",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Traitement",
-            "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Volée",
-            "effet": "20x2 | 44x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Restauration",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Service soigné",
-            "effet": "Le service impeccable de ce valet guérit tous les alliés. 120 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Cinq étoiles",
-            "effet": "Grâce à un grand talent de valet, le Yo-kai envoûté regagne des PV."
-        }
+  "ID": "364",
+  "Nom": "Valetino",
+  "Tribue": "Mystérieu",
+  "Rang": "B",
+  "PV": "340",
+  "Force": "70",
+  "Esprit": "248",
+  "Défense": "119",
+  "Vitesse": "149",
+  "Description": "Ce majordome qualifié et pointilleux a été certifié par le très officiel Conseil Yo-kai des valets.",
+  "nourriture": "Soba",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "Il est perfectionniste. Il veut tout le temps faire les bonnes choses. Si quelqu'un ne veut pas faire tout comme lui, il se fâche.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/valetino.png",
+  "numero": "077",
+  "nourriture_favorite": "Soba",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Traitement",
+      "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Volée",
+      "effet": "20x2 | 44x2"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Restauration",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Service soigné",
+      "effet": "Le service impeccable de ce valet guérit tous les alliés. 120 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Cinq étoiles",
+      "effet": "Grâce à un grand talent de valet, le Yo-kai envoûté regagne des PV."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Formidable !",
+    "Mange de la nourriture insipide": "Rien de spécial.",
+    "Mange de la mauvaise nourriture": "Désagréable...",
+    "A la flemme": "Je prends l'air.",
+    "Est échangé": "C'est un honneur de te rencontrer. Je répondrai à tous tes besoins !",
+    "Devient ton ami": "Je t'appellerai « maître », à présent. Cela ne te dérange pas, j'espère."
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "セバスチャン",
+  "nom_anglais": "Verygoodsir",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Adrien Solis",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Tour Excellence- arbres",
+      "Tour Excellence - point d'observation"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Formidable !",
-        "Mange de la nourriture insipide": "Rien de spécial.",
-        "Mange de la mauvaise nourriture": "Désagréable...",
-        "A la flemme": "Je prends l'air.",
-        "Est échangé": "C'est un honneur de te rencontrer. Je répondrai à tous tes besoins !",
-        "Devient ton ami": "Je t'appellerai « maître », à présent. Cela ne te dérange pas, j'espère."
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "セバスチャン",
-    "nom_anglais": "Verygoodsir",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Adrien Solis",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Tour Excellence- arbres",
-            "Tour Excellence - point d'observation"
-        ],
-        "yw Blasters 1": [
-            "Patrouille -La Corniche",
-            "Bingo-kai-Pièce jaune- 2e prix"
-        ],
-        "yw3": [
-            "Manoir des Cardamom- couloir du 1er"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Volée",
-                "puissance": "20×2|44×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Service soigné",
-                "puissance": "120|120",
-                "description": "Le service impeccable de ce valet guérit tous les alliés."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cinq étoiles",
-                "puissance": "N/A",
-                "description": "Grâce à un grand talent de valet, le Yo-kai envoûté regagne des PV."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Cercle guérisseur",
-                "puissance": "N/A",
-                "description": "Chargée, rend des PV à plusieurs Yo-kai."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Redonne peu à peu des PV aux Yo-kai voisins."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Service éloigné",
-                "puissance": "400",
-                "description": "Alliés retrouvent beaucoup de PV."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Cercle de guérison",
-                "puissance": "___",
-                "description": "Crée un champ où les alliés peuvent se restaurer."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Les PV des alliés sont restaurés graduellement."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Volée",
-                "puissance": "25×2|55×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Service soigné",
-                "puissance": "90|180",
-                "description": "Le service impeccable de ce valet guérit tous les alliés."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cinq étoiles",
-                "puissance": "N/A",
-                "description": "Donne des talents de majordome à un allié qui récupère des PV."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Service soigné",
-                "puissance": "400",
-                "description": "Rend PV ++ aux alliés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. PV rendus + si chargé."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Cercle de guérison",
-                "puissance": "___",
-                "description": "Crée une zone qui rend très vite des PV aux alliés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Rend peu à peu des PV à tous les alliés reliés."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Remède amer"
-            },
-            {
-                "taux": "?%",
-                "objet": "Cheesecake"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Staminum alpha"
-            },
-            {
-                "taux": "?%",
-                "objet": "Bouillon de nouilles"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Traitement",
-        "description": "Redonne peu à peu des PV aux Yo-kai voisins."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/valetino.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/valetino.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/valetino.wav",
-    "oldID": "370",
-    "medallium_ids": {
-        "yw2": "077",
-        "yw3": "121"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "087",
-        "yw Blasters 2": "122",
-        "yw Wibble Wobble": "2061",
-        "yw Ukiukipedia": "yw6-009"
-    },
-    "battle_type": "",
-    "skill_name": "Caring",
-    "skill_effect": "At Your Service",
-    "disliked_food": "Juice",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "350",
-                "STR": "156",
-                "SPR": "182",
-                "DEF": "108",
-                "SPD": "176"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "350",
-                "STR": "75",
-                "SPR": "253",
-                "DEF": "124",
-                "SPD": "154"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Spanish": [
-            "Ambrosio"
-        ],
-        "French": [
-            "Valetino"
-        ],
-        "Italian": [
-            "Kumandi"
-        ],
-        "German": [
-            "James"
-        ],
-        "Russian": [
-            "Сиюминут",
-            "Siyuminut"
-        ],
-        "Arabic": [
-            "نادل",
-            "Nādil"
-        ],
-        "Portuguese (Brazilian)": [
-            "James"
-        ]
-    },
-    "localized_soultimates": {
-        "Spanish": [
-            "Ambrosio"
-        ],
-        "French": [
-            "Valetino"
-        ],
-        "Italian": [
-            "Kumandi"
-        ],
-        "German": [
-            "James"
-        ],
-        "Russian": [
-            "Сиюминут"
-        ],
-        "Arabic": [
-            "نادل"
-        ],
-        "Portuguese (Brazilian)": [
-            "James"
-        ]
-    },
-    "description_en": "An excellent but fussy manservant officially certified by the Yo-kai Council of Applied Butlering.",
-    "nom_en": "Apelican",
-    "rang_yww": "B",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "sarrasin",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 39,
-        "str": 11,
-        "spr": 37,
-        "def": 19,
-        "spd": 20
-    },
-    "stats_max_yww": {
-        "hp": 340,
-        "str": 70,
-        "spr": 248,
-        "def": 119,
-        "spd": 149
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はりたおす",
-                "_en": "Haritaosu",
-                "_fr": "Haritaosu"
-            },
-            "explication": {
-                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 25×2/Blow] Attack twice",
-                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "回復の術",
-                "_en": "art of recovery",
-                "_fr": "l'art de la récupération"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
-            }
-        }
+    "yw Blasters 1": [
+      "Patrouille -La Corniche",
+      "Bingo-kai-Pièce jaune- 2e prix"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "完璧なおもてなし",
-                "_en": "perfect hospitality",
-                "_fr": "accueil parfait"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "お世話する",
-                "_en": "take care of",
-                "_fr": "prendre soin de"
-            },
-            "explication": {
-                "_jp": "【回復】 とりつかれた妖怪は執事教会公認のお世話でHPが少しずつ回復する。",
-                "_en": "[Recovery] Possessed monsters will recover their HP little by little under the care authorized by the Butler Church.",
-                "_fr": "[Récupération] Les monstres possédés récupéreront leurs PV petit à petit sous les soins autorisés par l'Église Butler."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "妖怪執事協会から派遣された 本物の妖怪執事。 テクニックは一級品だが 完璧を追求しすぎて みんなを ドン引きさせることも。",
-            "_en": "妖怪執事協会から派遣された 本物の妖怪執事。 テクニックは一級品だが 完璧を追求しすぎて みんなを ドン引きさせることも。",
-            "_fr": "妖怪執事協会から派遣された 本物の妖怪執事。 テクニックは一級品だが 完璧を追求しすぎて みんなを ドン引きさせることも。"
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Manoir des Cardamom- couloir du 1er"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Volée",
+        "puissance": "20×2|44×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Service soigné",
+        "puissance": "120|120",
+        "description": "Le service impeccable de ce valet guérit tous les alliés."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cinq étoiles",
+        "puissance": "N/A",
+        "description": "Grâce à un grand talent de valet, le Yo-kai envoûté regagne des PV."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Cercle guérisseur",
+        "puissance": "N/A",
+        "description": "Chargée, rend des PV à plusieurs Yo-kai."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Service éloigné",
+        "puissance": "400",
+        "description": "Alliés retrouvent beaucoup de PV."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Cercle de guérison",
+        "puissance": "___",
+        "description": "Crée un champ où les alliés peuvent se restaurer."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Les PV des alliés sont restaurés graduellement."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Volée",
+        "puissance": "25×2|55×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Service soigné",
+        "puissance": "90|180",
+        "description": "Le service impeccable de ce valet guérit tous les alliés."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cinq étoiles",
+        "puissance": "N/A",
+        "description": "Donne des talents de majordome à un allié qui récupère des PV."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Service soigné",
+        "puissance": "400",
+        "description": "Rend PV ++ aux alliés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. PV rendus + si chargé."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Cercle de guérison",
+        "puissance": "___",
+        "description": "Crée une zone qui rend très vite des PV aux alliés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Rend peu à peu des PV à tous les alliés reliés."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Remède amer"
+      },
+      {
+        "taux": "?%",
+        "objet": "Cheesecake"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Staminum alpha"
+      },
+      {
+        "taux": "?%",
+        "objet": "Bouillon de nouilles"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Traitement",
+    "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/valetino.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/valetino.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/valetino.wav",
+  "oldID": "370",
+  "medallium_ids": {
+    "yw2": "077",
+    "yw3": "121"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "087",
+    "yw Blasters 2": "122",
+    "yw Wibble Wobble": "2061",
+    "yw Ukiukipedia": "yw6-009"
+  },
+  "battle_type": "",
+  "skill_name": "Caring",
+  "skill_effect": "At Your Service",
+  "disliked_food": "Juice",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "350",
+        "STR": "156",
+        "SPR": "182",
+        "DEF": "108",
+        "SPD": "176"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "350",
+        "STR": "75",
+        "SPR": "253",
+        "DEF": "124",
+        "SPD": "154"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Spanish": [
+      "Ambrosio"
+    ],
+    "French": [
+      "Valetino"
+    ],
+    "Italian": [
+      "Kumandi"
+    ],
+    "German": [
+      "James"
+    ],
+    "Russian": [
+      "Сиюминут",
+      "Siyuminut"
+    ],
+    "Arabic": [
+      "نادل",
+      "Nādil"
+    ],
+    "Portuguese (Brazilian)": [
+      "James"
+    ]
+  },
+  "localized_soultimates": {
+    "Spanish": [
+      "Ambrosio"
+    ],
+    "French": [
+      "Valetino"
+    ],
+    "Italian": [
+      "Kumandi"
+    ],
+    "German": [
+      "James"
+    ],
+    "Russian": [
+      "Сиюминут"
+    ],
+    "Arabic": [
+      "نادل"
+    ],
+    "Portuguese (Brazilian)": [
+      "James"
+    ]
+  },
+  "description_en": "An excellent but fussy manservant officially certified by the Yo-kai Council of Applied Butlering.",
+  "nom_en": "Apelican",
+  "rang_yww": "B",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "sarrasin",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 39,
+    "str": 11,
+    "spr": 37,
+    "def": 19,
+    "spd": 20
+  },
+  "stats_max_yww": {
+    "hp": 340,
+    "str": 70,
+    "spr": 248,
+    "def": 119,
+    "spd": 149
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "はりたおす",
+        "_en": "Haritaosu",
+        "_fr": "Haritaosu"
+      },
+      "explication": {
+        "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+        "_en": "[Power: 25×2/Blow] Attack twice",
+        "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "回復の術",
+        "_en": "art of recovery",
+        "_fr": "l'art de la récupération"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "完璧なおもてなし",
+        "_en": "perfect hospitality",
+        "_fr": "accueil parfait"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "お世話する",
+        "_en": "take care of",
+        "_fr": "prendre soin de"
+      },
+      "explication": {
+        "_jp": "【回復】 とりつかれた妖怪は執事教会公認のお世話でHPが少しずつ回復する。",
+        "_en": "[Recovery] Possessed monsters will recover their HP little by little under the care authorized by the Butler Church.",
+        "_fr": "[Récupération] Les monstres possédés récupéreront leurs PV petit à petit sous les soins autorisés par l'Église Butler."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "妖怪執事協会から派遣された 本物の妖怪執事。 テクニックは一級品だが 完璧を追求しすぎて みんなを ドン引きさせることも。",
+      "_en": "妖怪執事協会から派遣された 本物の妖怪執事。 テクニックは一級品だが 完璧を追求しすぎて みんなを ドン引きさせることも。",
+      "_fr": "妖怪執事協会から派遣された 本物の妖怪執事。 テクニックは一級品だが 完璧を追求しすぎて みんなを ドン引きさせることも。"
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "360",
+  "Name_yww": "セバスチャン",
+  "description_jp_yww": "妖怪執事協会から派遣された 本物の妖怪執事。 テクニックは一級品だが 完璧を追求しすぎて　みんなを ドン引きさせることも。",
+  "BingoMessage_jp_yww": "お呼びでしょうか　ご主人さま わたくしに何なりとおっしゃって下さい",
+  "MonsterId_yww": "y343000",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_343000",
+  "MinHp_yww": 40,
+  "MaxHp_yww": 363,
+  "MinAttack_yww": 27,
+  "MaxAttack_yww": 178,
+  "MinMagic_yww": 7,
+  "MaxMagic_yww": 50,
+  "MinDefense_yww": 20,
+  "MaxDefense_yww": 117,
+  "MinSpeed_yww": 31,
+  "MaxSpeed_yww": 223,
+  "AttackId_yww": 41,
+  "MagicId_yww": 8,
+  "HauntId_yww": 343000,
+  "SpSkillId_yww": 343000,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 18,
+  "DislikeFoodKind_yww": 10,
+  "ActionType_yww": 5,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y338800.png",
+  "SpriteImage_yww": "img_y338800.png",
+  "Audio_yww": "sp_y338800.wav",
+  "Description_yww": "Un véritable majordome yōkai, envoyé par l'Association des majordomes yōkai. Ses compétences sont exceptionnelles, mais sa quête de la perfection peut parfois rebuter tout le monde.",
+  "BingoMessage_fr_yww": "Vous m'appelez, Maître ? Dites-moi ce que vous souhaitez."
 }

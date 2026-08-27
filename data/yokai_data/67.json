@@ -1,510 +1,541 @@
 {
-    "ID": "67",
-    "Nom": "Malmidal",
-    "Tribue": "Sinistre",
-    "Rang": "E",
-    "PV": "408",
-    "Force": "106",
-    "Esprit": "46",
-    "Défense": "211",
-    "Vitesse": "88",
-    "Description": "Malmidal peut irriter ta gorge et te rendre malade. Essaie de rester en bonne santé !",
-    "nourriture": "Pain",
-    "élément": "Eau",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "Malmidal est un mot-valise entre Malet et Amygdale.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Les personnes sous l'envoûtement de Malmidal attrapent un rhume.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/malmidal.png",
-    "numero": "162",
-    "nourriture_favorite": "Pain",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Garde pointue",
-            "effet": "Renvoit des dégâts à l'ennemi en défendant."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Pointe perçante",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Torrent",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Picoti Picota",
-            "effet": "Annule les bons effets sur les ennemis avec sa nature épineuse."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Gorge irritée",
-            "effet": "Donne mal à la gorge à un Yo-kai et réduit ses PV graduellement."
-        }
+  "ID": "67",
+  "Nom": "Malmidal",
+  "Tribue": "Sinistre",
+  "Rang": "E",
+  "PV": "408",
+  "Force": "106",
+  "Esprit": "46",
+  "Défense": "211",
+  "Vitesse": "88",
+  "Description": "Malmidal peut irriter ta gorge et te rendre malade. Essaie de rester en bonne santé !",
+  "nourriture": "Pain",
+  "élément": "Eau",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "Malmidal est un mot-valise entre Malet et Amygdale.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Les personnes sous l'envoûtement de Malmidal attrapent un rhume.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/malmidal.png",
+  "numero": "162",
+  "nourriture_favorite": "Pain",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Garde pointue",
+      "effet": "Renvoit des dégâts à l'ennemi en défendant."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Pointe perçante",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Torrent",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Picoti Picota",
+      "effet": "Annule les bons effets sur les ennemis avec sa nature épineuse."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Gorge irritée",
+      "effet": "Donne mal à la gorge à un Yo-kai et réduit ses PV graduellement."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est bon !",
+    "Mange de la nourriture insipide": "Pas trop mal !",
+    "Mange de la mauvaise nourriture": "Vraiment affreux !",
+    "A la flemme": "*tousse*",
+    "Est échangé": "Hé ! Je te conseille de bien faire attention à mes épines.",
+    "Devient ton ami": "Tu veux qu'on devienne amis ? Si tu refuses, gare à la toux !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Malmidal",
+      "parent2": "Jibanyan",
+      "resultat": "Épinyan",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "イガイガグリ",
+  "nom_anglais": "Coughkoff",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Égouts de Granval",
+      "Centre-ville de Granval- dans les arbres"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est bon !",
-        "Mange de la nourriture insipide": "Pas trop mal !",
-        "Mange de la mauvaise nourriture": "Vraiment affreux !",
-        "A la flemme": "*tousse*",
-        "Est échangé": "Hé ! Je te conseille de bien faire attention à mes épines.",
-        "Devient ton ami": "Tu veux qu'on devienne amis ? Si tu refuses, gare à la toux !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Malmidal",
-            "parent2": "Jibanyan",
-            "resultat": "Épinyan",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Centre-ville de Granval - dans les arbres",
+      "San Fantastico- Grotte du littoral",
+      "Tunnel sans fin",
+      "Dimension mystère"
     ],
-    "image_locale": "",
-    "nom_original": "イガイガグリ",
-    "nom_anglais": "Coughkoff",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Égouts de Granval",
-            "Centre-ville de Granval- dans les arbres"
-        ],
-        "yw2": [
-            "Centre-ville de Granval - dans les arbres",
-            "San Fantastico- Grotte du littoral",
-            "Tunnel sans fin",
-            "Dimension mystère"
-        ],
-        "yw Blasters 1": [
-            "Patrouille - centre-ville de Granval"
-        ],
-        "yw3": [
-            "Centre-ville de Granval - ruisseaux"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Pointe perçante",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Torrent",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Picoti Picota",
-                "puissance": "___",
-                "description": "Annule les bons effets sur un ennemi avec sa nature épineuse."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Gorge irritée",
-                "puissance": "N/A",
-                "description": "Donne mal à la gorge à un Yo-kai et réduit son nombre de PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Garde pointue",
-                "description": "Cause des dégâts à l'ennemi en défendant."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Pointe perçante",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Torrent",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Picoti Picota",
-                "puissance": "___",
-                "description": "Annule les bons effets sur les ennemis avec sa nature épineuse."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Gorge irritée",
-                "puissance": "N/A",
-                "description": "Donne mal à la gorge à un Yo-kai et réduit ses PV graduellement."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Garde pointue",
-                "description": "Renvoie des dégâts à l'ennemi en défendant."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Picoti Picota",
-                "puissance": "___",
-                "description": "Forte baisse temporaire de la défense ennemie."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Envoût. poison",
-                "puissance": "___",
-                "description": "Baisse lente PV ennemis. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Piège",
-                "puissance": "___",
-                "description": "Peut engourdir un ennemi s'il marche dessus."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Ça pique",
-                "description": "N'est plus bousculé par les attaques ennemies."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Pointe perçante",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Torrent",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Picoti Picota",
-                "puissance": "___",
-                "description": "Sa nature susceptible ôte les effets positifs de tous les ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Gorge irritée",
-                "puissance": "N/A",
-                "description": "Donne un mal de gorge à un Yo-kai et réduit lentement ses PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Garde pointue",
-                "description": "Renvoie des dégâts à l'ennemi en défendant."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Garde pointue",
-        "description": "Cause des dégâts à l'ennemi en défendant."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/malmidal.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/malmidal.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/malmidal.wav",
-    "oldID": "67",
-    "medallium_ids": {
-        "yw1": "162",
-        "yw2": "244",
-        "yw3": "450"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "296",
-        "yw Blasters 2": "464",
-        "yw World": "0139"
-    },
-    "battle_type": "",
-    "skill_name": "Spiky Guard",
-    "skill_effect": "Sore Throat",
-    "disliked_food": "Seafood",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "348",
-                "STR": "145",
-                "SPR": "48",
-                "DEF": "120",
-                "SPD": "106"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "418",
-                "STR": "145",
-                "SPR": "48",
-                "DEF": "120",
-                "SPD": "106"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "418",
-                "STR": "111",
-                "SPR": "51",
-                "DEF": "216",
-                "SPD": "93"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "イガイガグリ",
-            "Igaigaguri"
-        ],
-        "Spanish": [
-            "Ejemtos"
-        ],
-        "French": [
-            "Malmidal"
-        ],
-        "Italian": [
-            "Malagol"
-        ],
-        "German": [
-            "Hustanie"
-        ],
-        "Korean": [
-            "칼칼송이",
-            "Kalkalsongi"
-        ],
-        "Russian": [
-            "Кашлерштан",
-            "Kashlershtan"
-        ],
-        "Arabic": [
-            "أحاح",
-            "Aḥḥāḥ"
-        ],
-        "Portuguese (Brazilian)": [
-            "Cof-Cof"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "イガイガグリ"
-        ],
-        "Spanish": [
-            "Ejemtos"
-        ],
-        "French": [
-            "Malmidal"
-        ],
-        "Italian": [
-            "Malagol"
-        ],
-        "German": [
-            "Hustanie"
-        ],
-        "Korean": [
-            "칼칼송이"
-        ],
-        "Russian": [
-            "Кашлерштан"
-        ],
-        "Arabic": [
-            "أحاح"
-        ],
-        "Portuguese (Brazilian)": [
-            "Cof-Cof"
-        ]
-    },
-    "description_en": "Coughkoff can cause your throat to feel tingly and make you sick. Try to stay healthy!",
-    "nom_en": "Darumacho",
-    "rang_yww": "E",
-    "tribue_yww": "Bukimi",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "pain",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 48,
-        "str": 11,
-        "spr": 6,
-        "def": 25,
-        "spd": 9
-    },
-    "stats_max_yww": {
-        "hp": 408,
-        "str": 106,
-        "spr": 46,
-        "def": 211,
-        "spd": 88
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "十五夜コイン",
-            "_en": "jugoya coin",
-            "_fr": "pièce de monnaie jugoya"
-        },
-        {
-            "_jp": "ハロウィンコイン",
-            "_en": "halloween coin",
-            "_fr": "pièce de monnaie d'Halloween"
-        },
-        {
-            "_jp": "ミルクチョココイン",
-            "_en": "milk chocolate coin",
-            "_fr": "pièce de chocolat au lait"
-        },
-        {
-            "_jp": "ビターチョココイン",
-            "_en": "bitter chocolate coin",
-            "_fr": "pièce de chocolat amer"
-        },
-        {
-            "_jp": "バレンタインコイン",
-            "_en": "valentine coin",
-            "_fr": "pièce de monnaie de la Saint-Valentin"
-        },
-        {
-            "_jp": "WDイベントコイン",
-            "_en": "WD event coin",
-            "_fr": "Pièce d'événement WD"
-        }
+    "yw Blasters 1": [
+      "Patrouille - centre-ville de Granval"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "こづく",
-                "_en": "poked you",
-                "_fr": "vous a Poké"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "放水の術",
-                "_en": "Water release technique",
-                "_fr": "Technique de libération d'eau"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 水属性】 水の妖術を使う。",
-                "_en": "[Power: 40 / Water attribute] Uses water magic.",
-                "_fr": "[Puissance : 40 / Attribut Eau] Utilise la magie de l'eau."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "イガイガおとし",
-                "_en": "Mussel cleaning",
-                "_fr": "Nettoyage des moules"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "イガイガグリ特製のいや～な霊魂で敵にかかっている良い効果を解除する。",
-                "_en": "Removes good effects on enemies with Igaigaguri's special nasty spirit.",
-                "_fr": "Supprime les bons effets sur les ennemis grâce à l'esprit méchant spécial d'Igaigaguri."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "のどをイガイガにする",
-                "_en": "make your throat irritated",
-                "_fr": "irriter la gorge"
-            },
-            "explication": {
-                "_jp": "【HP減少】 とりつかれた妖怪はのどがイガイガと痛くなりHPが少しずつ減ってしまう。",
-                "_en": "[HP Decrease] A possessed monster will have a sore throat and its HP will gradually decrease.",
-                "_fr": "[Diminution des PV] Un monstre possédé aura mal à la gorge et ses PV diminueront progressivement."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "風邪三兄弟の一人。 とりついた人のノドを イガイガにしてしまう妖怪。 カゼをひくと とりつかれやすくなるぞ。",
-            "_en": "One of the three cold brothers. A monster that turns the throats of those it possesses into scratches. If you catch a cold, you'll be more likely to become obsessed.",
-            "_fr": "L'un des trois frères froids. Un monstre qui transforme la gorge de ceux qu'il possède en égratignures. Si vous attrapez froid, vous serez plus susceptible de devenir obsédé."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Centre-ville de Granval - ruisseaux"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Pointe perçante",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Torrent",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Picoti Picota",
+        "puissance": "___",
+        "description": "Annule les bons effets sur un ennemi avec sa nature épineuse."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Gorge irritée",
+        "puissance": "N/A",
+        "description": "Donne mal à la gorge à un Yo-kai et réduit son nombre de PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Garde pointue",
+        "description": "Cause des dégâts à l'ennemi en défendant."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Pointe perçante",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Torrent",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Picoti Picota",
+        "puissance": "___",
+        "description": "Annule les bons effets sur les ennemis avec sa nature épineuse."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Gorge irritée",
+        "puissance": "N/A",
+        "description": "Donne mal à la gorge à un Yo-kai et réduit ses PV graduellement."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Garde pointue",
+        "description": "Renvoie des dégâts à l'ennemi en défendant."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Picoti Picota",
+        "puissance": "___",
+        "description": "Forte baisse temporaire de la défense ennemie."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Envoût. poison",
+        "puissance": "___",
+        "description": "Baisse lente PV ennemis. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Piège",
+        "puissance": "___",
+        "description": "Peut engourdir un ennemi s'il marche dessus."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Ça pique",
+        "description": "N'est plus bousculé par les attaques ennemies."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Pointe perçante",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Torrent",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Picoti Picota",
+        "puissance": "___",
+        "description": "Sa nature susceptible ôte les effets positifs de tous les ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Gorge irritée",
+        "puissance": "N/A",
+        "description": "Donne un mal de gorge à un Yo-kai et réduit lentement ses PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Garde pointue",
+        "description": "Renvoie des dégâts à l'ennemi en défendant."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Garde pointue",
+    "description": "Cause des dégâts à l'ennemi en défendant."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/malmidal.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/malmidal.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/malmidal.wav",
+  "oldID": "67",
+  "medallium_ids": {
+    "yw1": "162",
+    "yw2": "244",
+    "yw3": "450"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "296",
+    "yw Blasters 2": "464",
+    "yw World": "0139"
+  },
+  "battle_type": "",
+  "skill_name": "Spiky Guard",
+  "skill_effect": "Sore Throat",
+  "disliked_food": "Seafood",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "348",
+        "STR": "145",
+        "SPR": "48",
+        "DEF": "120",
+        "SPD": "106"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "418",
+        "STR": "145",
+        "SPR": "48",
+        "DEF": "120",
+        "SPD": "106"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "418",
+        "STR": "111",
+        "SPR": "51",
+        "DEF": "216",
+        "SPD": "93"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "イガイガグリ",
+      "Igaigaguri"
+    ],
+    "Spanish": [
+      "Ejemtos"
+    ],
+    "French": [
+      "Malmidal"
+    ],
+    "Italian": [
+      "Malagol"
+    ],
+    "German": [
+      "Hustanie"
+    ],
+    "Korean": [
+      "칼칼송이",
+      "Kalkalsongi"
+    ],
+    "Russian": [
+      "Кашлерштан",
+      "Kashlershtan"
+    ],
+    "Arabic": [
+      "أحاح",
+      "Aḥḥāḥ"
+    ],
+    "Portuguese (Brazilian)": [
+      "Cof-Cof"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "イガイガグリ"
+    ],
+    "Spanish": [
+      "Ejemtos"
+    ],
+    "French": [
+      "Malmidal"
+    ],
+    "Italian": [
+      "Malagol"
+    ],
+    "German": [
+      "Hustanie"
+    ],
+    "Korean": [
+      "칼칼송이"
+    ],
+    "Russian": [
+      "Кашлерштан"
+    ],
+    "Arabic": [
+      "أحاح"
+    ],
+    "Portuguese (Brazilian)": [
+      "Cof-Cof"
+    ]
+  },
+  "description_en": "Coughkoff can cause your throat to feel tingly and make you sick. Try to stay healthy!",
+  "nom_en": "Darumacho",
+  "rang_yww": "E",
+  "tribue_yww": "Bukimi",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "pain",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 48,
+    "str": 11,
+    "spr": 6,
+    "def": 25,
+    "spd": 9
+  },
+  "stats_max_yww": {
+    "hp": 408,
+    "str": 106,
+    "spr": 46,
+    "def": 211,
+    "spd": 88
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "十五夜コイン",
+      "_en": "jugoya coin",
+      "_fr": "pièce de monnaie jugoya"
+    },
+    {
+      "_jp": "ハロウィンコイン",
+      "_en": "halloween coin",
+      "_fr": "pièce de monnaie d'Halloween"
+    },
+    {
+      "_jp": "ミルクチョココイン",
+      "_en": "milk chocolate coin",
+      "_fr": "pièce de chocolat au lait"
+    },
+    {
+      "_jp": "ビターチョココイン",
+      "_en": "bitter chocolate coin",
+      "_fr": "pièce de chocolat amer"
+    },
+    {
+      "_jp": "バレンタインコイン",
+      "_en": "valentine coin",
+      "_fr": "pièce de monnaie de la Saint-Valentin"
+    },
+    {
+      "_jp": "WDイベントコイン",
+      "_en": "WD event coin",
+      "_fr": "Pièce d'événement WD"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "こづく",
+        "_en": "poked you",
+        "_fr": "vous a Poké"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "放水の術",
+        "_en": "Water release technique",
+        "_fr": "Technique de libération d'eau"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 水属性】 水の妖術を使う。",
+        "_en": "[Power: 40 / Water attribute] Uses water magic.",
+        "_fr": "[Puissance : 40 / Attribut Eau] Utilise la magie de l'eau."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "イガイガおとし",
+        "_en": "Mussel cleaning",
+        "_fr": "Nettoyage des moules"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "イガイガグリ特製のいや～な霊魂で敵にかかっている良い効果を解除する。",
+        "_en": "Removes good effects on enemies with Igaigaguri's special nasty spirit.",
+        "_fr": "Supprime les bons effets sur les ennemis grâce à l'esprit méchant spécial d'Igaigaguri."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "のどをイガイガにする",
+        "_en": "make your throat irritated",
+        "_fr": "irriter la gorge"
+      },
+      "explication": {
+        "_jp": "【HP減少】 とりつかれた妖怪はのどがイガイガと痛くなりHPが少しずつ減ってしまう。",
+        "_en": "[HP Decrease] A possessed monster will have a sore throat and its HP will gradually decrease.",
+        "_fr": "[Diminution des PV] Un monstre possédé aura mal à la gorge et ses PV diminueront progressivement."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "風邪三兄弟の一人。 とりついた人のノドを イガイガにしてしまう妖怪。 カゼをひくと とりつかれやすくなるぞ。",
+      "_en": "One of the three cold brothers. A monster that turns the throats of those it possesses into scratches. If you catch a cold, you'll be more likely to become obsessed.",
+      "_fr": "L'un des trois frères froids. Un monstre qui transforme la gorge de ceux qu'il possède en égratignures. Si vous attrapez froid, vous serez plus susceptible de devenir obsédé."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "67",
+  "Name_yww": "イガイガグリ",
+  "description_jp_yww": "風邪三兄弟の一人。 とりついた人のノドを イガイガにしてしまう妖怪。 カゼをひくと とりつかれやすくなるぞ。",
+  "BingoMessage_jp_yww": "ありがと～！　さっそくだけど きみののど　イガイガさせていい？",
+  "MonsterId_yww": "y137000",
+  "Height_yww": 10.0,
+  "CommondId_yww": "sp_137000",
+  "MinHp_yww": 48,
+  "MaxHp_yww": 408,
+  "MinAttack_yww": 11,
+  "MaxAttack_yww": 106,
+  "MinMagic_yww": 6,
+  "MaxMagic_yww": 46,
+  "MinDefense_yww": 25,
+  "MaxDefense_yww": 211,
+  "MinSpeed_yww": 9,
+  "MaxSpeed_yww": 88,
+  "AttackId_yww": 13,
+  "MagicId_yww": 4,
+  "HauntId_yww": 137000,
+  "SpSkillId_yww": 137000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 2,
+  "DislikeFoodKind_yww": 12,
+  "ActionType_yww": 16,
+  "TribeType_yww": 7,
+  "MedallionImage_yww": "y132800.png",
+  "SpriteImage_yww": "img_y132800.png",
+  "Audio_yww": "sp_y132800.wav",
+  "Description_yww": "L'un des trois frères du rhume. Un yōkai qui provoque une irritation de la gorge chez la personne qu'il possède. Si tu attrapes un rhume, tu risques davantage d'être possédé.",
+  "BingoMessage_fr_yww": "Merci ! Bon, je vais aller droit au but : je peux te donner un petit picotement dans la gorge ?"
 }

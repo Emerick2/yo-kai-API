@@ -1,123 +1,45 @@
 {
-    "Nom": "Ameagari Otoko",
-    "Tribue": "Bienveillant",
-    "Rang": "A",
-    "nom_original": "ラブリー番長百鬼姫",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "",
-    "nourriture": "Dashi",
-    "nourriture_favorite": "Dashi",
-    "élément": "",
-    "Rôle": "ranger",
-    "rang_yww": "S",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "Dashi",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "stats_initiale_yww": {
-        "hp": 41,
-        "str": 20,
-        "spr": 40,
-        "def": 29,
-        "spd": 21
-    },
-    "stats_max_yww": {},
-    "moyens_obtention_yww": [
-        {
-            "_jp": "2019ホワイトデーイベントで開放",
-            "_en": "Released at the 2019 White Day event",
-            "_fr": "Sorti lors de l'événement White Day 2019"
-        }
-    ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はりたおす",
-                "_en": "Haritaosu",
-                "_fr": "Haritaosu"
-            },
-            "explication": {
-                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 25×2/Blow] Attack twice",
-                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "吹雪の術",
-                "_en": "Fubuki no Jutsu",
-                "_fr": "Fubuki no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 氷属性】 強力な氷の妖術を使う。",
-                "_en": "[Power: 70 / Ice attribute] Uses powerful ice magic.",
-                "_fr": "[Puissance : 70 / Attribut Glace] Utilise une puissante magie de glace."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ビシバシ☆竹刀乱舞",
-                "_en": "Bishibashi ☆ Shinai Ranbu",
-                "_fr": "Bishibashi ☆ Shinai Ranbu"
-            },
-            "pouvoir": "74",
-            "explication": {
-                "_jp": "豪華な竹刀さばきで 敵全員にダメージを あたえつつ 全ステータスを ダウンさせる",
-                "_en": "Decreases all stats while dealing damage to all enemies with gorgeous Shinai swords.",
-                "_fr": "Diminue toutes les statistiques tout en infligeant des dégâts à tous les ennemis avec de magnifiques épées Shinai."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "メンチを切る",
-                "_en": "cut minced meat",
-                "_fr": "couper la viande hachée"
-            },
-            "explication": {
-                "_jp": "【HP減少】 メンチをきって HPをだんだん減らす",
-                "_en": "[HP decrease] Gradually reduce HP by cutting mince",
-                "_fr": "[Diminution des HP] Réduisez progressivement les HP en coupant la viande hachée"
-            }
-        }
-    ],
-    "explication_yww": [],
-    "oldID": "1186",
-    "ID": "1184",
-    "nom_en": "Ameagari Otoko",
-    "premiere_apparition": "yww",
-    "jeu_present": [
-        "yww"
-    ]
+  "Nom": "はるのやま",
+  "nom_original": "はるのやま",
+  "Rang": 6,
+  "PV": 472,
+  "Force": 96,
+  "Esprit": 221,
+  "Défense": 92,
+  "Vitesse": 219,
+  "Description": "Il monte sur le ring au milieu d'une tempête de pétales de cerisier. Ce lutteur-yōkai est très apprécié pour son côté spectaculaire. Il s'est fixé pour objectif de devenir le « Yōkai Ōyokozuna », le plus grand champion du sumo du monde des yōkai, et lors du tournoi de printemps, il a fait des ravages sur le ring.",
+  "nourriture": 22,
+  "nourriture_favorite": 22,
+  "disliked_food": 19,
+  "id_yww": "889",
+  "Name_yww": "はるのやま",
+  "description_jp_yww": "桜吹雪と共に　土俵にあがる 華やかさが人気の　力士妖怪。 妖魔界の　大相撲の頂点である 妖怪大横綱を　目標にかかげ 春場所では　土俵の上で大暴れ。",
+  "BingoMessage_jp_yww": "春！　ようやくおいどんの季節じゃ！ さあ　大暴れするでゴワス！",
+  "MonsterId_yww": "y7000280",
+  "Height_yww": 13.0,
+  "CommondId_yww": "sp_7000280",
+  "MinHp_yww": 62,
+  "MaxHp_yww": 472,
+  "MinAttack_yww": 12,
+  "MaxAttack_yww": 96,
+  "MinMagic_yww": 25,
+  "MaxMagic_yww": 221,
+  "MinDefense_yww": 11,
+  "MaxDefense_yww": 92,
+  "MinSpeed_yww": 25,
+  "MaxSpeed_yww": 219,
+  "AttackId_yww": 43,
+  "MagicId_yww": 21,
+  "HauntId_yww": 7000280,
+  "SpSkillId_yww": 7000280,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 22,
+  "DislikeFoodKind_yww": 19,
+  "ActionType_yww": 10,
+  "TribeType_yww": 8,
+  "MedallionImage_yww": "y6996080.png",
+  "SpriteImage_yww": "img_y6996080.png",
+  "Audio_yww": "sp_y6996080.wav",
+  "Description_yww": "Il monte sur le ring au milieu d'une tempête de pétales de cerisier. Ce lutteur-yōkai est très apprécié pour son côté spectaculaire. Il s'est fixé pour objectif de devenir le « Yōkai Ōyokozuna », le plus grand champion du sumo du monde des yōkai, et lors du tournoi de printemps, il a fait des ravages sur le ring.",
+  "BingoMessage_fr_yww": "Le printemps ! C'est enfin ma saison ! Allez, je vais faire des ravages !"
 }

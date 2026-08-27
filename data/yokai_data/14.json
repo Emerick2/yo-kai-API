@@ -1,595 +1,626 @@
 {
-    "ID": "14",
-    "Nom": "Bonneto",
-    "Tribue": "Vaillant",
-    "Rang": "C",
-    "PV": "394",
-    "Force": "210",
-    "Esprit": "46",
-    "Défense": "125",
-    "Vitesse": "130",
-    "Description": "Fier guerrier il fût un temps, Bonneto a tout perdu dans les paris. Maintenant, son meilleur coup est de fuir.",
-    "nourriture": "Fruits de Mer",
-    "élément": "Feu",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Bonneto tire son nom du bonneteau, un jeu d'argent.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Son meilleur coup est la fuite.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/bonneto.png",
-    "numero": "015",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Quitte ou double",
-            "effet": "Inflige et subit plus de coups critiques."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing un-deux",
-            "effet": "15x2 | 33x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Feu",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Passe ou casse",
-            "effet": "Augmente la FOR. des alliés en les focalisant sur le combat."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tout ou rien",
-            "effet": "Rend un ennemi imprudent. Sa DÉF. est alors diminuée."
-        }
+  "ID": "14",
+  "Nom": "Bonneto",
+  "Tribue": "Vaillant",
+  "Rang": "C",
+  "PV": "394",
+  "Force": "210",
+  "Esprit": "46",
+  "Défense": "125",
+  "Vitesse": "130",
+  "Description": "Fier guerrier il fût un temps, Bonneto a tout perdu dans les paris. Maintenant, son meilleur coup est de fuir.",
+  "nourriture": "Fruits de Mer",
+  "élément": "Feu",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Bonneto tire son nom du bonneteau, un jeu d'argent.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Son meilleur coup est la fuite.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/bonneto.png",
+  "numero": "015",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Quitte ou double",
+      "effet": "Inflige et subit plus de coups critiques."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing un-deux",
+      "effet": "15x2 | 33x2"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Feu",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Passe ou casse",
+      "effet": "Augmente la FOR. des alliés en les focalisant sur le combat."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tout ou rien",
+      "effet": "Rend un ennemi imprudent. Sa DÉF. est alors diminuée."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Enfin !",
+    "Mange de la nourriture insipide": "Rien de spécial.",
+    "Mange de la mauvaise nourriture": "Non merci...",
+    "A la flemme": "C'est nul...",
+    "Est échangé": "Je parie que ce sera un franc succès. Ça ne peut pas être pire qu'avant.",
+    "Devient ton ami": "Ta bonne étoile te sourit enfin, j'en suis sûr ! Allez, tente ta chance avec moi !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "しょうブシ",
+  "nom_anglais": "Chansin",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Bruno Méyère",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Quartier des boutiques- sous les distributeurs",
+      "Quartier des boutiques - sous les voitures",
+      "Quartier des boutiques - Résidence Sérénité",
+      "Quête : \"Pincement au cœur\""
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Enfin !",
-        "Mange de la nourriture insipide": "Rien de spécial.",
-        "Mange de la mauvaise nourriture": "Non merci...",
-        "A la flemme": "C'est nul...",
-        "Est échangé": "Je parie que ce sera un franc succès. Ça ne peut pas être pire qu'avant.",
-        "Devient ton ami": "Ta bonne étoile te sourit enfin, j'en suis sûr ! Allez, tente ta chance avec moi !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "しょうブシ",
-    "nom_anglais": "Chansin",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Bruno Méyère",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Quartier des boutiques- sous les distributeurs",
-            "Quartier des boutiques - sous les voitures",
-            "Quartier des boutiques - Résidence Sérénité",
-            "Quête : \"Pincement au cœur\""
-        ],
-        "yw2": [
-            "San Fantastico-Grotte du littoral"
-        ],
-        "yw3": [
-            "Résidence Sérénité",
-            "San Fantastico - L'Atelier dérobé"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "15×2|33×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Feu",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Passe ou casse",
-                "puissance": "___",
-                "description": "Augmente la FOR. des alliés en les focalisant sur le combat."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Tout ou rien",
-                "puissance": "N/A",
-                "description": "Rend un ennemi imprudent. Sa DÉF. est alors diminuée."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Quitte ou double",
-                "description": "Inflige et subit plus de coups critiques."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "15×2|33×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Feu",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Passe ou casse",
-                "puissance": "___",
-                "description": "Augmente la FOR. des alliés en les focalisant sur le combat."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Tout ou rien",
-                "puissance": "N/A",
-                "description": "Rend un ennemi imprudent. Sa DÉF. est alors diminuée."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Renforcer",
-                "puissance": "N/A",
-                "description": "Temporaire. Augmente l'attaque d'un Yo-kai."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Quitte ou double",
-                "description": "Inflige et subit plus de coups critiques."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Passe ou casse",
-                "puissance": "___",
-                "description": "Augmentation temporaire de l'attaque des alliés à proximité."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Attaque précipitée",
-                "puissance": "80",
-                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Feu",
-                "puissance": "40",
-                "description": "Utilise un sort de feu. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Attaque de repli",
-                "puissance": "70",
-                "description": "Pendant l'attaque, recule et évite les coups ennemis."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Quitte ou double",
-                "description": "Plus de chance d'infliger et recevoir des coups critiques."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "25×2|55×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Feu",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Passe ou casse",
-                "puissance": "___",
-                "description": "Donne la soif de vaincre à tous les alliés. Forte hausse de la FOR."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Tout ou rien",
-                "puissance": "N/A",
-                "description": "Rend un ennemi imprudent, ce qui réduit sa DÉF."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Attaque trois fois. Le coup ultime est plus puissant."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Passe ou casse",
-                "puissance": "___",
-                "description": "Booste +++ l'attaque des alliés proches un instant."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque précipitée",
-                "puissance": "80",
-                "description": "Fonce sur un ennemi en frappant à la chaîne."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Feu",
-                "puissance": "40",
-                "description": "Technique de feu+. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Quitte ou double",
-                "description": "Susceptible d'infliger et de subir des coups critiques."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Destidé"
-            },
-            {
-                "taux": "?%",
-                "objet": "Amulette vieillote"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Bracelet majestueux"
-            },
-            {
-                "taux": "?%",
-                "objet": "Bracelet usé"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "EXPorbe moyen"
-            },
-            {
-                "taux": "?%",
-                "objet": "Sériole"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Quitte ou double",
-        "description": "Inflige et subit plus de coups critiques."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/bonneto.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/bonneto.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/bonneto.wav",
-    "medallium_ids": {
-        "yw1": "015",
-        "yw2": "027",
-        "yw3": "043"
-    },
-    "spinoff_ids": {
-        "Wib Wob": ""
-    },
-    "battle_type": "Regular",
-    "skill_name": "Gambler",
-    "skill_effect": "Go for Broke",
-    "disliked_food": "Meat",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "373",
-                "STR": "168",
-                "SPR": "107",
-                "DEF": "112",
-                "SPD": "146"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "404",
-                "STR": "168",
-                "SPR": "107",
-                "DEF": "112",
-                "SPD": "146"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "393",
-                "STR": "208",
-                "SPR": "117",
-                "DEF": "132",
-                "SPD": "135"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "393",
-                "STR": "203",
-                "SPR": "112",
-                "DEF": "134"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "1018-1815",
-                "STR": "203",
-                "SPR": "112",
-                "DEF": "134"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "1018-1815"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "1018-1815"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "しょうブシ",
-            "Shōbushi"
-        ],
-        "Spanish": [
-            "Ludorái"
-        ],
-        "French": [
-            "Bonneto"
-        ],
-        "Italian": [
-            "Zardo"
-        ],
-        "German": [
-            "Wettaran"
-        ],
-        "Dutch": [
-            "Chansin"
-        ],
-        "Korean": [
-            "승부사",
-            "Seungbusa"
-        ],
-        "Russian": [
-            "Игронин",
-            "Igronin"
-        ],
-        "Arabic": [
-            "فرور",
-            "Farūr"
-        ],
-        "Chinese (Cantonese)": [
-            "勝負師"
-        ],
-        "Chinese (Mandarin)": [
-            "勝負士"
-        ],
-        "Portuguese (Brazilian)": [
-            "Dudacaso"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "しょうブシ"
-        ],
-        "Spanish": [
-            "Ludorái"
-        ],
-        "French": [
-            "Bonneto"
-        ],
-        "Italian": [
-            "Zardo"
-        ],
-        "German": [
-            "Wettaran"
-        ],
-        "Dutch": [
-            "Chansin"
-        ],
-        "Korean": [
-            "승부사"
-        ],
-        "Russian": [
-            "Игронин"
-        ],
-        "Arabic": [
-            "فرور"
-        ],
-        "Chinese (Cantonese)": [
-            "勝負師"
-        ],
-        "Chinese (Mandarin)": [
-            "勝負士"
-        ],
-        "Portuguese (Brazilian)": [
-            "Dudacaso"
-        ]
-    },
-    "description_en": "Once a proud warrior, Chansin threw it all away by gambling... Now his best odds are to retreat.",
-    "nom_en": "Slacka-slash",
-    "rang_yww": "C",
-    "tribue_yww": "Isamashi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "fruit de mer",
-    "nourriture_favorite": "fruit de mer",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 53,
-        "str": 34,
-        "spr": 4,
-        "def": 14,
-        "spd": 15
-    },
-    "stats_max_yww": {
-        "hp": 394,
-        "str": 210,
-        "spr": 46,
-        "def": 125,
-        "spd": 130
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "赤コイン",
-            "_en": "red coin",
-            "_fr": "pièce rouge"
-        }
+    "yw2": [
+      "San Fantastico-Grotte du littoral"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ワンツーパンチ",
-                "_en": "one two punch",
-                "_fr": "un deux coups de poing"
-            },
-            "explication": {
-                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 25×2/Blow] Attack twice",
-                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "火花の術",
-                "_en": "Spark technique",
-                "_fr": "Technique d'étincelle"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 火属性】 火の妖術を使う。",
-                "_en": "[Power: 30 / Fire attribute] Uses fire magic.",
-                "_fr": "[Puissance : 30 / Attribut Feu] Utilise la magie du feu."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "真剣大バクチ",
-                "_en": "Seriously big bakuchi",
-                "_fr": "Sérieusement gros bakuchi"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "バクチ精神",
-                "_en": "Bakuchi spirit",
-                "_fr": "Esprit Bakuchi"
-            },
-            "explication": {
-                "_jp": "【まもりダウン】 とりつかれた妖怪は負けをかえりみなくなり まもりがダウンする。",
-                "_en": "[Mamori Down] The possessed monster no longer reflects on its defeat, and its protection goes down.",
-                "_fr": "[Mamori Down] Le monstre possédé ne réfléchit plus à sa défaite et sa protection diminue."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "かつては剣の道を極めた 武士だったが バクチの世界に 身を落としてしまい 武士の心を忘れてしまった。 逃げ足だけは速い。",
-            "_en": "He was once a samurai who mastered the art of swordsmanship, but he fell into the world of bakuchi and forgot his samurai spirit. Only his running legs are fast.",
-            "_fr": "Il était autrefois un samouraï qui maîtrisait l'art de l'épée, mais il est tombé dans le monde du bakuchi et a oublié son esprit de samouraï. Seules ses jambes de course sont rapides."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Résidence Sérénité",
+      "San Fantastico - L'Atelier dérobé"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Poing un-deux",
+        "puissance": "15×2|33×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Feu",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Passe ou casse",
+        "puissance": "___",
+        "description": "Augmente la FOR. des alliés en les focalisant sur le combat."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Tout ou rien",
+        "puissance": "N/A",
+        "description": "Rend un ennemi imprudent. Sa DÉF. est alors diminuée."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Quitte ou double",
+        "description": "Inflige et subit plus de coups critiques."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Poing un-deux",
+        "puissance": "15×2|33×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Feu",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Passe ou casse",
+        "puissance": "___",
+        "description": "Augmente la FOR. des alliés en les focalisant sur le combat."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Tout ou rien",
+        "puissance": "N/A",
+        "description": "Rend un ennemi imprudent. Sa DÉF. est alors diminuée."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Renforcer",
+        "puissance": "N/A",
+        "description": "Temporaire. Augmente l'attaque d'un Yo-kai."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Quitte ou double",
+        "description": "Inflige et subit plus de coups critiques."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Passe ou casse",
+        "puissance": "___",
+        "description": "Augmentation temporaire de l'attaque des alliés à proximité."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Attaque précipitée",
+        "puissance": "80",
+        "description": "Attaque en faisant face à l'ennemi et fonce dessus."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Feu",
+        "puissance": "40",
+        "description": "Utilise un sort de feu. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Attaque de repli",
+        "puissance": "70",
+        "description": "Pendant l'attaque, recule et évite les coups ennemis."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Quitte ou double",
+        "description": "Plus de chance d'infliger et recevoir des coups critiques."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Poing un-deux",
+        "puissance": "25×2|55×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Feu",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Passe ou casse",
+        "puissance": "___",
+        "description": "Donne la soif de vaincre à tous les alliés. Forte hausse de la FOR."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Tout ou rien",
+        "puissance": "N/A",
+        "description": "Rend un ennemi imprudent, ce qui réduit sa DÉF."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Attaque trois fois. Le coup ultime est plus puissant."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Passe ou casse",
+        "puissance": "___",
+        "description": "Booste +++ l'attaque des alliés proches un instant."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Attaque précipitée",
+        "puissance": "80",
+        "description": "Fonce sur un ennemi en frappant à la chaîne."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Feu",
+        "puissance": "40",
+        "description": "Technique de feu+. Plus de dégâts si chargée."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Quitte ou double",
+        "description": "Susceptible d'infliger et de subir des coups critiques."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Destidé"
+      },
+      {
+        "taux": "?%",
+        "objet": "Amulette vieillote"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Bracelet majestueux"
+      },
+      {
+        "taux": "?%",
+        "objet": "Bracelet usé"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "EXPorbe moyen"
+      },
+      {
+        "taux": "?%",
+        "objet": "Sériole"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Quitte ou double",
+    "description": "Inflige et subit plus de coups critiques."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/bonneto.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/bonneto.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/bonneto.wav",
+  "medallium_ids": {
+    "yw1": "015",
+    "yw2": "027",
+    "yw3": "043"
+  },
+  "spinoff_ids": {
+    "Wib Wob": ""
+  },
+  "battle_type": "Regular",
+  "skill_name": "Gambler",
+  "skill_effect": "Go for Broke",
+  "disliked_food": "Meat",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "373",
+        "STR": "168",
+        "SPR": "107",
+        "DEF": "112",
+        "SPD": "146"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "404",
+        "STR": "168",
+        "SPR": "107",
+        "DEF": "112",
+        "SPD": "146"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "393",
+        "STR": "208",
+        "SPR": "117",
+        "DEF": "132",
+        "SPD": "135"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "393",
+        "STR": "203",
+        "SPR": "112",
+        "DEF": "134"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "1018-1815",
+        "STR": "203",
+        "SPR": "112",
+        "DEF": "134"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "1018-1815"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "1018-1815"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "しょうブシ",
+      "Shōbushi"
+    ],
+    "Spanish": [
+      "Ludorái"
+    ],
+    "French": [
+      "Bonneto"
+    ],
+    "Italian": [
+      "Zardo"
+    ],
+    "German": [
+      "Wettaran"
+    ],
+    "Dutch": [
+      "Chansin"
+    ],
+    "Korean": [
+      "승부사",
+      "Seungbusa"
+    ],
+    "Russian": [
+      "Игронин",
+      "Igronin"
+    ],
+    "Arabic": [
+      "فرور",
+      "Farūr"
+    ],
+    "Chinese (Cantonese)": [
+      "勝負師"
+    ],
+    "Chinese (Mandarin)": [
+      "勝負士"
+    ],
+    "Portuguese (Brazilian)": [
+      "Dudacaso"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "しょうブシ"
+    ],
+    "Spanish": [
+      "Ludorái"
+    ],
+    "French": [
+      "Bonneto"
+    ],
+    "Italian": [
+      "Zardo"
+    ],
+    "German": [
+      "Wettaran"
+    ],
+    "Dutch": [
+      "Chansin"
+    ],
+    "Korean": [
+      "승부사"
+    ],
+    "Russian": [
+      "Игронин"
+    ],
+    "Arabic": [
+      "فرور"
+    ],
+    "Chinese (Cantonese)": [
+      "勝負師"
+    ],
+    "Chinese (Mandarin)": [
+      "勝負士"
+    ],
+    "Portuguese (Brazilian)": [
+      "Dudacaso"
+    ]
+  },
+  "description_en": "Once a proud warrior, Chansin threw it all away by gambling... Now his best odds are to retreat.",
+  "nom_en": "Slacka-slash",
+  "rang_yww": "C",
+  "tribue_yww": "Isamashi",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "fruit de mer",
+  "nourriture_favorite": "fruit de mer",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 53,
+    "str": 34,
+    "spr": 4,
+    "def": 14,
+    "spd": 15
+  },
+  "stats_max_yww": {
+    "hp": 394,
+    "str": 210,
+    "spr": 46,
+    "def": 125,
+    "spd": 130
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "赤コイン",
+      "_en": "red coin",
+      "_fr": "pièce rouge"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ワンツーパンチ",
+        "_en": "one two punch",
+        "_fr": "un deux coups de poing"
+      },
+      "explication": {
+        "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+        "_en": "[Power: 25×2/Blow] Attack twice",
+        "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "火花の術",
+        "_en": "Spark technique",
+        "_fr": "Technique d'étincelle"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 火属性】 火の妖術を使う。",
+        "_en": "[Power: 30 / Fire attribute] Uses fire magic.",
+        "_fr": "[Puissance : 30 / Attribut Feu] Utilise la magie du feu."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "真剣大バクチ",
+        "_en": "Seriously big bakuchi",
+        "_fr": "Sérieusement gros bakuchi"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "バクチ精神",
+        "_en": "Bakuchi spirit",
+        "_fr": "Esprit Bakuchi"
+      },
+      "explication": {
+        "_jp": "【まもりダウン】 とりつかれた妖怪は負けをかえりみなくなり まもりがダウンする。",
+        "_en": "[Mamori Down] The possessed monster no longer reflects on its defeat, and its protection goes down.",
+        "_fr": "[Mamori Down] Le monstre possédé ne réfléchit plus à sa défaite et sa protection diminue."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "かつては剣の道を極めた 武士だったが バクチの世界に 身を落としてしまい 武士の心を忘れてしまった。 逃げ足だけは速い。",
+      "_en": "He was once a samurai who mastered the art of swordsmanship, but he fell into the world of bakuchi and forgot his samurai spirit. Only his running legs are fast.",
+      "_fr": "Il était autrefois un samouraï qui maîtrisait l'art de l'épée, mais il est tombé dans le monde du bakuchi et a oublié son esprit de samouraï. Seules ses jambes de course sont rapides."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "14",
+  "Name_yww": "しょうブシ",
+  "description_jp_yww": "かつては剣の道を極めた 武士だったが　バクチの世界に 身を落としてしまい 武士の心を忘れてしまった。 逃げ足だけは速い。",
+  "BingoMessage_jp_yww": "このオレを出すとは　勝負に出たな！？ そのかけ　お前の勝ちだ！",
+  "MonsterId_yww": "y108000",
+  "Height_yww": 15.0,
+  "CommondId_yww": "sp_108000",
+  "MinHp_yww": 53,
+  "MaxHp_yww": 394,
+  "MinAttack_yww": 34,
+  "MaxAttack_yww": 210,
+  "MinMagic_yww": 4,
+  "MaxMagic_yww": 46,
+  "MinDefense_yww": 14,
+  "MaxDefense_yww": 125,
+  "MinSpeed_yww": 15,
+  "MaxSpeed_yww": 130,
+  "AttackId_yww": 5,
+  "MagicId_yww": 1,
+  "HauntId_yww": 108000,
+  "SpSkillId_yww": 108000,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 12,
+  "DislikeFoodKind_yww": 11,
+  "ActionType_yww": 4,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y103800.png",
+  "SpriteImage_yww": "img_y103800.png",
+  "Audio_yww": "sp_y103800.wav",
+  "Description_yww": "C'était autrefois un samouraï qui avait atteint la maîtrise de l'art du sabre, mais il s'est laissé entraîner dans le monde du jeu et a perdu l'esprit du samouraï. Il n'a plus qu'une seule qualité : il sait bien courir.",
+  "BingoMessage_fr_yww": "En sortant ce « moi-là », tu as décidé de tout miser, hein ?! Pour ce pari, c'est toi qui gagnes !"
 }

@@ -1,571 +1,602 @@
 {
-    "ID": "96",
-    "Nom": "Jibanyan S",
-    "Tribue": "Mignon",
-    "Rang": "S",
-    "PV": "379",
-    "Force": "235",
-    "Esprit": "58",
-    "Défense": "108",
-    "Vitesse": "229",
-    "Description": "Jibanyan est enfin passé au rang S. Il est plus fort et il est convaincu qu'il pourra enfin battre le camion, mais...",
-    "nourriture": "Chocolat",
-    "élément": "Feu",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Jibanyan Svient deJibanyan, sa forme de base et du Rang S qu'il a acquit.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Jibanyan S est beaucoup plus fort qu'avant mais pas assez pour résister aux camions...",
-    "personnalité": "Jibanyan a gardé son caractère mais il est bien plus courageux et confiant qu'avant.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/jibanyan-s.png",
-    "numero": "433",
-    "nourriture_favorite": "Barre chocolatée",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Tout ou rien",
-            "effet": "Inflige et subit plus de coups critiques."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Griffes acérées",
-            "effet": "10x2 | 45x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Incendie",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Fureur du chaton",
-            "effet": "Tous les ennemis se font cogner par ses pattes surentraînées. 20x5 | 20x5"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Ralentissement S",
-            "effet": "Réduit fortement la VIT. d'un ennemi grâce à un sceau paralysant  de rang S."
-        }
+  "ID": "96",
+  "Nom": "Jibanyan S",
+  "Tribue": "Mignon",
+  "Rang": "S",
+  "PV": "379",
+  "Force": "235",
+  "Esprit": "58",
+  "Défense": "108",
+  "Vitesse": "229",
+  "Description": "Jibanyan est enfin passé au rang S. Il est plus fort et il est convaincu qu'il pourra enfin battre le camion, mais...",
+  "nourriture": "Chocolat",
+  "élément": "Feu",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Jibanyan Svient deJibanyan, sa forme de base et du Rang S qu'il a acquit.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Jibanyan S est beaucoup plus fort qu'avant mais pas assez pour résister aux camions...",
+  "personnalité": "Jibanyan a gardé son caractère mais il est bien plus courageux et confiant qu'avant.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/jibanyan-s.png",
+  "numero": "433",
+  "nourriture_favorite": "Barre chocolatée",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Tout ou rien",
+      "effet": "Inflige et subit plus de coups critiques."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Griffes acérées",
+      "effet": "10x2 | 45x2"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Incendie",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Fureur du chaton",
+      "effet": "Tous les ennemis se font cogner par ses pattes surentraînées. 20x5 | 20x5"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Ralentissement S",
+      "effet": "Réduit fortement la VIT. d'un ennemi grâce à un sceau paralysant  de rang S."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est trop bon !",
+    "Mange de la nourriture insipide": "Pas miaouvais.",
+    "Mange de la mauvaise nourriture": "Dégueu, nyan...",
+    "A la flemme": "Nya, j'abandonne !",
+    "Est échangé": "Enfin le rang S, nya ! J'espère recevoir une attention de rang S désormais.",
+    "Devient ton ami": "C'est simple, nya. Tu as besoin de mon aide, donc je te viens en aide !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "yw Wibble Wobble",
+      "parent1": "Jibanyan",
+      "parent2": "Jibanyan A",
+      "resultat": "Jibanyan S",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ジバニャンS",
+  "nom_anglais": "Jibanyan S",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Exclusif à Esprit farceursAprès avoir fait la mise à jour 2.0. Vous pourrez le trouver àLa petite criée - les Hauts, il faut le combattre une fois par jour pour essayer de devenir son ami.",
+      "Vous pouvez également le trouver sur la versionSpectres Psychiquessi votre partie provient de Esprits farceurs via le transfert de données."
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est trop bon !",
-        "Mange de la nourriture insipide": "Pas miaouvais.",
-        "Mange de la mauvaise nourriture": "Dégueu, nyan...",
-        "A la flemme": "Nya, j'abandonne !",
-        "Est échangé": "Enfin le rang S, nya ! J'espère recevoir une attention de rang S désormais.",
-        "Devient ton ami": "C'est simple, nya. Tu as besoin de mon aide, donc je te viens en aide !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "yw Wibble Wobble",
-            "parent1": "Jibanyan",
-            "parent2": "Jibanyan A",
-            "resultat": "Jibanyan S",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Connectezyw2 - Esprits Farceursàyw Blasters. Il faudra ensuite aller voirNoripoppour recevoir leBeignet farceurpuis se rendre dans le Colisée des voyageurs où vous pourrez l'affronter."
     ],
-    "image_locale": "",
-    "nom_original": "ジバニャンS",
-    "nom_anglais": "Jibanyan S",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Exclusif à Esprit farceursAprès avoir fait la mise à jour 2.0. Vous pourrez le trouver àLa petite criée - les Hauts, il faut le combattre une fois par jour pour essayer de devenir son ami.",
-            "Vous pouvez également le trouver sur la versionSpectres Psychiquessi votre partie provient de Esprits farceurs via le transfert de données."
-        ],
-        "yw Blasters 1": [
-            "Connectezyw2 - Esprits Farceursàyw Blasters. Il faudra ensuite aller voirNoripoppour recevoir leBeignet farceurpuis se rendre dans le Colisée des voyageurs où vous pourrez l'affronter."
-        ],
-        "yw3": [
-            "Connectezyw2 - Esprits Farceursàyw3. Vous recevrez laCloche des espritset Jibanyan S sera disponible à Cawet - Hôtel - porte arrière."
-        ],
-        "yw Wibble Wobble": [
-            "Fusion",
-            "Bingo-kai",
-            "Bingo-kai gagnant"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "10×2|45×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Fureur du chaton",
-                "puissance": "20×5|20×5",
-                "description": "Tous les ennemis se font cogner par ses pattes surentraînées."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Ralentissement S",
-                "puissance": "N/A",
-                "description": "Réduit fortement la VIT. d'un ennemi grâce à un sceau paralysant de rang S."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque à bloc",
-                "puissance": "N/A",
-                "description": "Déclenche une forte attaque à courte portée."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Tout ou rien",
-                "description": "Inflige et subit plus de coups critiques."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Fureur du chaton",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Attaque chargée",
-                "puissance": "80",
-                "description": "Attaque courte portée. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Incendie",
-                "puissance": "50",
-                "description": "Un sort de feu puissant. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Attaque blitz",
-                "puissance": "25",
-                "description": "Touche plusieurs fois pour des attaques en continu."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Réflexes rapides",
-                "description": "Échapper aux attaques ennemies plus facile avec Évasion."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "15×2|52×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Fureur du chaton",
-                "puissance": "15×5|45×5",
-                "description": "Les ennemis à portée se font cogner par ses pattes surentraînées."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Ralentissement S",
-                "puissance": "N/A",
-                "description": "Appose un sceau paralysant de rang S sur l'ennemi et l'immobilise."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Tout ou rien",
-                "description": "Susceptible d'infliger et de subir des coups critiques."
-            }
-        ]
-    },
-    "soul_effects": {
-        "yw Blasters 1": "Forte hausse de la VIT.",
-        "yw3": "↑ les chances d’infliger des coups critiques."
-    },
-    "drops": {
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Méga EXPorbe"
-            },
-            {
-                "taux": "?%",
-                "objet": "Barre de chocolat"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Éclat de pièce 1 étoile"
-            },
-            {
-                "taux": "?%",
-                "objet": "Barre de chocolat"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Tout ou rien",
-        "description": "Inflige et subit plus de coups critiques."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/jibanyan-s.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/jibanyan-s.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/jibanyan-s.wav",
-    "oldID": "96",
-    "medallium_ids": {
-        "yw2": "433",
-        "yw3": "245"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "154",
-        "yw Blasters 2": "250",
-        "yw Wibble Wobble": "4027",
-        "Kunitori": "3035",
-        "yw World": "0284",
-        "yw Ukiukipedia": "yw7-025"
-    },
-    "battle_type": "",
-    "skill_name": "All or Nothing",
-    "skill_effect": "Slow Down S",
-    "disliked_food": "Vegetables",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "389",
-                "STR": "240",
-                "SPR": "168",
-                "DEF": "114",
-                "SPD": "193"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "434",
-                "STR": "235",
-                "SPR": "132",
-                "DEF": "139",
-                "SPD": "234"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "Attribute tolerance": {
-            "stats": {
-                "HP": "434",
-                "STR": "234",
-                "SPR": "127",
-                "DEF": "137"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "434",
-                "STR": "234",
-                "SPR": "127",
-                "DEF": "137"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "247-438"
-            },
-            "elements": {},
-            "attacks": [
-                {
-                    "type": "Attack",
-                    "name": "Triple Attack",
-                    "power": "30+30+60",
-                    "attribute": "Triple attack",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Charged Attack",
-                    "power": "80, 200 (Charged)",
-                    "attribute": "Charged attack",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Blaze",
-                    "power": "50, 160 (Charged)",
-                    "attribute": "Blaze",
-                    "range": "Single Enemy, Area (Charged)"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Dodge",
-                    "power": "-",
-                    "attribute": "Dodge",
-                    "range": "Self"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Blitz Attack",
-                    "power": "25x8+45",
-                    "attribute": "Blitz attack",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Soultimate Move",
-                    "name": "Paws of Fury",
-                    "power": "40x10",
-                    "attribute": "Attack",
-                    "range": "Area"
-                },
-                {
-                    "type": "Skill",
-                    "name": "Quick Reflexes",
-                    "power": "N/A",
-                    "attribute": "Dodge",
-                    "range": "Self"
-                }
-            ]
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "247-438",
-                "STR": "234",
-                "SPR": "127",
-                "DEF": "137"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "247-438"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ジバニャン",
-            "Ｓ",
-            "Jibanyan"
-        ],
-        "Spanish": [
-            "Jibanyan"
-        ],
-        "French": [
-            "Jibanyan"
-        ],
-        "Italian": [
-            "Jibanyan"
-        ],
-        "German": [
-            "Jibanyan"
-        ],
-        "Korean": [
-            "지바냥S",
-            "Jibanyang"
-        ],
-        "Russian": [
-            "Джибаньян",
-            "Dzhiban'yan"
-        ],
-        "Arabic": [
-            "جيبانيان",
-            "Jībānyān"
-        ],
-        "Portuguese (Brazilian)": [
-            "Jibanyan"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ジバニャンＳ"
-        ],
-        "Spanish": [
-            "Jibanyan S"
-        ],
-        "French": [
-            "Jibanyan S"
-        ],
-        "Italian": [
-            "Jibanyan S"
-        ],
-        "German": [
-            "Jibanyan S"
-        ],
-        "Korean": [
-            "지바냥S"
-        ],
-        "Russian": [
-            "Джибаньян S"
-        ],
-        "Arabic": [
-            "جيبانيان الثاني"
-        ],
-        "Portuguese (Brazilian)": [
-            "Jibanyan S"
-        ]
-    },
-    "description_en": "Finally Jibanyan is S-Rank! He's stronger and confident that he'll beat the truck, but...",
-    "nom_en": "Skreek",
-    "rang_yww": "S",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Chocobo",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 54,
-        "str": 29,
-        "spr": 9,
-        "def": 11,
-        "spd": 44
-    },
-    "stats_max_yww": {},
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "するどいつめ",
-                "_en": "sharp claw",
-                "_fr": "griffe acérée"
-            },
-            "explication": {
-                "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 15×2/Blow] Attack twice",
-                "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "火炎の術",
-                "_en": "flame technique",
-                "_fr": "technique de la flamme"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
-                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
-                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
-            }
-        }
+    "yw3": [
+      "Connectezyw2 - Esprits Farceursàyw3. Vous recevrez laCloche des espritset Jibanyan S sera disponible à Cawet - Hôtel - porte arrière."
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ひゃくれつ肉球",
-                "_en": "Hyakuretsu paws",
-                "_fr": "Pattes Hyakuretsu"
-            },
-            "pouvoir": "15×5",
-            "explication": {
-                "_jp": "トラック相手にきたえた肉球でなぐりまくる。",
-                "_en": "He hits the truck with his paws.",
-                "_fr": "Il heurte le camion avec ses pattes."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "しびれるお札S",
-                "_en": "Numbing bill S",
-                "_fr": "Facture engourdissante S"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 S級にしびれるお札で たまに行動しなくなる",
-                "_en": "[Osabori] I sometimes stop acting because of the S-class numbing bill.",
-                "_fr": "[Osabori] J'arrête parfois de jouer à cause du projet de loi anesthésiant de la classe S."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "ついに Ｓランクデビューを 果たした ジバニャン。 より強く 生まれ変わって トラックに勝つ時が来たと 自信満々のようではあるが…。",
-            "_en": "Jibanyan has finally made his S-rank debut. He seems confident that the time has come to be reborn stronger and win on the track, but...",
-            "_fr": "Jibanyan a enfin fait ses débuts au rang S. Il semble convaincu que le moment est venu de renaître plus fort et de gagner sur la piste, mais..."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Fusion",
+      "Bingo-kai",
+      "Bingo-kai gagnant"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Griffes acérées",
+        "puissance": "10×2|45×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Incendie",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Fureur du chaton",
+        "puissance": "20×5|20×5",
+        "description": "Tous les ennemis se font cogner par ses pattes surentraînées."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Ralentissement S",
+        "puissance": "N/A",
+        "description": "Réduit fortement la VIT. d'un ennemi grâce à un sceau paralysant de rang S."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Attaque à bloc",
+        "puissance": "N/A",
+        "description": "Déclenche une forte attaque à courte portée."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Tout ou rien",
+        "description": "Inflige et subit plus de coups critiques."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Fureur du chaton",
+        "puissance": "40×10",
+        "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Attaque chargée",
+        "puissance": "80",
+        "description": "Attaque courte portée. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Incendie",
+        "puissance": "50",
+        "description": "Un sort de feu puissant. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Attaque blitz",
+        "puissance": "25",
+        "description": "Touche plusieurs fois pour des attaques en continu."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Réflexes rapides",
+        "description": "Échapper aux attaques ennemies plus facile avec Évasion."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Griffes acérées",
+        "puissance": "15×2|52×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Incendie",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Fureur du chaton",
+        "puissance": "15×5|45×5",
+        "description": "Les ennemis à portée se font cogner par ses pattes surentraînées."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Ralentissement S",
+        "puissance": "N/A",
+        "description": "Appose un sceau paralysant de rang S sur l'ennemi et l'immobilise."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Tout ou rien",
+        "description": "Susceptible d'infliger et de subir des coups critiques."
+      }
+    ]
+  },
+  "soul_effects": {
+    "yw Blasters 1": "Forte hausse de la VIT.",
+    "yw3": "↑ les chances d’infliger des coups critiques."
+  },
+  "drops": {
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Méga EXPorbe"
+      },
+      {
+        "taux": "?%",
+        "objet": "Barre de chocolat"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Éclat de pièce 1 étoile"
+      },
+      {
+        "taux": "?%",
+        "objet": "Barre de chocolat"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Tout ou rien",
+    "description": "Inflige et subit plus de coups critiques."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/jibanyan-s.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/jibanyan-s.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/jibanyan-s.wav",
+  "oldID": "96",
+  "medallium_ids": {
+    "yw2": "433",
+    "yw3": "245"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "154",
+    "yw Blasters 2": "250",
+    "yw Wibble Wobble": "4027",
+    "Kunitori": "3035",
+    "yw World": "0284",
+    "yw Ukiukipedia": "yw7-025"
+  },
+  "battle_type": "",
+  "skill_name": "All or Nothing",
+  "skill_effect": "Slow Down S",
+  "disliked_food": "Vegetables",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "389",
+        "STR": "240",
+        "SPR": "168",
+        "DEF": "114",
+        "SPD": "193"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "434",
+        "STR": "235",
+        "SPR": "132",
+        "DEF": "139",
+        "SPD": "234"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "Attribute tolerance": {
+      "stats": {
+        "HP": "434",
+        "STR": "234",
+        "SPR": "127",
+        "DEF": "137"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "434",
+        "STR": "234",
+        "SPR": "127",
+        "DEF": "137"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "247-438"
+      },
+      "elements": {},
+      "attacks": [
+        {
+          "type": "Attack",
+          "name": "Triple Attack",
+          "power": "30+30+60",
+          "attribute": "Triple attack",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Charged Attack",
+          "power": "80, 200 (Charged)",
+          "attribute": "Charged attack",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Blaze",
+          "power": "50, 160 (Charged)",
+          "attribute": "Blaze",
+          "range": "Single Enemy, Area (Charged)"
+        },
+        {
+          "type": "Technique",
+          "name": "Dodge",
+          "power": "-",
+          "attribute": "Dodge",
+          "range": "Self"
+        },
+        {
+          "type": "Technique",
+          "name": "Blitz Attack",
+          "power": "25x8+45",
+          "attribute": "Blitz attack",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Soultimate Move",
+          "name": "Paws of Fury",
+          "power": "40x10",
+          "attribute": "Attack",
+          "range": "Area"
+        },
+        {
+          "type": "Skill",
+          "name": "Quick Reflexes",
+          "power": "N/A",
+          "attribute": "Dodge",
+          "range": "Self"
+        }
+      ]
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "247-438",
+        "STR": "234",
+        "SPR": "127",
+        "DEF": "137"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "247-438"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ジバニャン",
+      "Ｓ",
+      "Jibanyan"
+    ],
+    "Spanish": [
+      "Jibanyan"
+    ],
+    "French": [
+      "Jibanyan"
+    ],
+    "Italian": [
+      "Jibanyan"
+    ],
+    "German": [
+      "Jibanyan"
+    ],
+    "Korean": [
+      "지바냥S",
+      "Jibanyang"
+    ],
+    "Russian": [
+      "Джибаньян",
+      "Dzhiban'yan"
+    ],
+    "Arabic": [
+      "جيبانيان",
+      "Jībānyān"
+    ],
+    "Portuguese (Brazilian)": [
+      "Jibanyan"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ジバニャンＳ"
+    ],
+    "Spanish": [
+      "Jibanyan S"
+    ],
+    "French": [
+      "Jibanyan S"
+    ],
+    "Italian": [
+      "Jibanyan S"
+    ],
+    "German": [
+      "Jibanyan S"
+    ],
+    "Korean": [
+      "지바냥S"
+    ],
+    "Russian": [
+      "Джибаньян S"
+    ],
+    "Arabic": [
+      "جيبانيان الثاني"
+    ],
+    "Portuguese (Brazilian)": [
+      "Jibanyan S"
+    ]
+  },
+  "description_en": "Finally Jibanyan is S-Rank! He's stronger and confident that he'll beat the truck, but...",
+  "nom_en": "Skreek",
+  "rang_yww": "S",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "Chocobo",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 54,
+    "str": 29,
+    "spr": 9,
+    "def": 11,
+    "spd": 44
+  },
+  "stats_max_yww": {},
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "するどいつめ",
+        "_en": "sharp claw",
+        "_fr": "griffe acérée"
+      },
+      "explication": {
+        "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
+        "_en": "[Power: 15×2/Blow] Attack twice",
+        "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "火炎の術",
+        "_en": "flame technique",
+        "_fr": "technique de la flamme"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
+        "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
+        "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ひゃくれつ肉球",
+        "_en": "Hyakuretsu paws",
+        "_fr": "Pattes Hyakuretsu"
+      },
+      "pouvoir": "15×5",
+      "explication": {
+        "_jp": "トラック相手にきたえた肉球でなぐりまくる。",
+        "_en": "He hits the truck with his paws.",
+        "_fr": "Il heurte le camion avec ses pattes."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "しびれるお札S",
+        "_en": "Numbing bill S",
+        "_fr": "Facture engourdissante S"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 S級にしびれるお札で たまに行動しなくなる",
+        "_en": "[Osabori] I sometimes stop acting because of the S-class numbing bill.",
+        "_fr": "[Osabori] J'arrête parfois de jouer à cause du projet de loi anesthésiant de la classe S."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "ついに Ｓランクデビューを 果たした ジバニャン。 より強く 生まれ変わって トラックに勝つ時が来たと 自信満々のようではあるが…。",
+      "_en": "Jibanyan has finally made his S-rank debut. He seems confident that the time has come to be reborn stronger and win on the track, but...",
+      "_fr": "Jibanyan a enfin fait ses débuts au rang S. Il semble convaincu que le moment est venu de renaître plus fort et de gagner sur la piste, mais..."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "96",
+  "Name_yww": "ジバニャンＳ",
+  "description_jp_yww": "ついに　Ｓランクデビューを 果たした　ジバニャン。 より強く　生まれ変わって トラックに勝つ時が来たと 自信満々のようではあるが…。",
+  "BingoMessage_jp_yww": "Ｓ級なオレっちのお出ましニャン！ ズが高いニャン！",
+  "MonsterId_yww": "y152900",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_152900",
+  "MinHp_yww": 54,
+  "MaxHp_yww": 403,
+  "MinAttack_yww": 29,
+  "MaxAttack_yww": 278,
+  "MinMagic_yww": 9,
+  "MaxMagic_yww": 58,
+  "MinDefense_yww": 11,
+  "MaxDefense_yww": 123,
+  "MinSpeed_yww": 44,
+  "MaxSpeed_yww": 253,
+  "AttackId_yww": 41,
+  "MagicId_yww": 2,
+  "HauntId_yww": 152900,
+  "SpSkillId_yww": 152000,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 18,
+  "DislikeFoodKind_yww": 10,
+  "ActionType_yww": 4,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y148700.png",
+  "SpriteImage_yww": "img_y148700.png",
+  "Audio_yww": "sp_y148700.wav",
+  "Description_yww": "Jibanyan a enfin fait ses débuts en catégorie S. Il semble très confiant, convaincu que le moment est venu de renaître plus fort encore et de battre Track…",
+  "BingoMessage_fr_yww": "Me voici, moi, le champion de classe S ! Je suis au top !"
 }

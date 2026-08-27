@@ -1,646 +1,677 @@
 {
-    "ID": "194",
-    "Nom": "Vampiloc",
-    "Tribue": "Sombre",
-    "Rang": "A",
-    "PV": "401",
-    "Force": "208",
-    "Esprit": "68",
-    "Défense": "92",
-    "Vitesse": "217",
-    "Description": "Ce rare Chauv'coucou change de maison une fois par an. Peut-être que certains chanceux le verront déménager.",
-    "description SITE": "Ce rareChauv'coucouchange de maison une fois par an. Peut-être que certains chanceux le verront déménager.",
-    "nourriture": "Viande",
-    "élément": "Vent",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Vampiloc vient de vampire.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/vampiloc.png",
-    "numero": "149",
-    "nourriture_favorite": "Viande",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Vampirisation",
-            "effet": "Absorbe les PV avec des attaques normales."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Plaquage",
-            "effet": "60 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Ouragan",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Blues du départ",
-            "effet": "Entrave les ennemis avec un blues de malchance. 150 | 150"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Enfermé",
-            "effet": "L'ennemi n'a plus aucune motivation."
-        }
+  "ID": "194",
+  "Nom": "Vampiloc",
+  "Tribue": "Sombre",
+  "Rang": "A",
+  "PV": "401",
+  "Force": "208",
+  "Esprit": "68",
+  "Défense": "92",
+  "Vitesse": "217",
+  "Description": "Ce rare Chauv'coucou change de maison une fois par an. Peut-être que certains chanceux le verront déménager.",
+  "description SITE": "Ce rareChauv'coucouchange de maison une fois par an. Peut-être que certains chanceux le verront déménager.",
+  "nourriture": "Viande",
+  "élément": "Vent",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Vampiloc vient de vampire.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/vampiloc.png",
+  "numero": "149",
+  "nourriture_favorite": "Viande",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Vampirisation",
+      "effet": "Absorbe les PV avec des attaques normales."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Plaquage",
+      "effet": "60 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Ouragan",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Blues du départ",
+      "effet": "Entrave les ennemis avec un blues de malchance. 150 | 150"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Enfermé",
+      "effet": "L'ennemi n'a plus aucune motivation."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "J'adore !",
+    "Mange de la nourriture insipide": "Pas mal...",
+    "Mange de la mauvaise nourriture": "C'est horrible !",
+    "A la flemme": "J'en ai fini.",
+    "Est échangé": "Je peux rester avec toi ? Je me suis fait renvoyer par",
+    "Devient ton ami": "Si cette maison était un peu plus grande, on pourrait y habiter ensemble !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "ヤドコウモリ",
+  "nom_anglais": "Belfree",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Yo-kai World - Route des vandales"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "J'adore !",
-        "Mange de la nourriture insipide": "Pas mal...",
-        "Mange de la mauvaise nourriture": "C'est horrible !",
-        "A la flemme": "J'en ai fini.",
-        "Est échangé": "Je peux rester avec toi ? Je me suis fait renvoyer par",
-        "Devient ton ami": "Si cette maison était un peu plus grande, on pourrait y habiter ensemble !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "ヤドコウモリ",
-    "nom_anglais": "Belfree",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Yo-kai World - Route des vandales"
-        ],
-        "yw2": [
-            "Égouts de Granval",
-            "Bingo-kai-Pièce bleue(Passé)"
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Coteau fleuri(Peloton du chat rouge)",
-            "Big boss -Ultra Crème Chantiwhisp- trésor spécial 4 membres Peloton du chat rouge"
-        ],
-        "yw3": [
-            "Électropolis- arbres",
-            "Électropolis - Parking louche",
-            "Mythopolis- Parking louche",
-            "Bingo-kai - Pièce bleue"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Ouragan",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Blues du départ",
-                "puissance": "150|150",
-                "description": "Gêne les ennemis avec un blues de malchance.(L'ennemi attaquera moins)"
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Enfermé",
-                "puissance": "N/A",
-                "description": "L'ennemi n'a plus aucune motivation."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Vampirisation",
-                "description": "Absorbe les PV de l'ennemi avec des attaques normales."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Ouragan",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Blues du départ",
-                "puissance": "150|150",
-                "description": "Entrave les ennemis avec un blues de malchance."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Enfermé",
-                "puissance": "N/A",
-                "description": "L'ennemi n'a plus aucune motivation."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Vampirisation",
-                "description": "Absorbe les PV de l'ennemi avec des attaques normales."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Blues du départ",
-                "puissance": "250",
-                "description": "Baisse temporaire de la vit. des ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Champ de force",
-                "puissance": "___",
-                "description": "Hausse temporaire de la protection des alliés."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Armure de fer",
-                "puissance": "___",
-                "description": "Forte réduction des dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Profil bas",
-                "description": "Invisibilité temporaire en cas de danger."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage",
-                "puissance": "35|77",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Ouragan",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Blues du départ",
-                "puissance": "___",
-                "description": "Une malédiction s'abat sur tous les ennemis. Ceux touchés n'agissent plus."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Enfermé",
-                "puissance": "N/A",
-                "description": "L'ennemi n'a plus aucune motivation. Il n'a plus envie d'agir."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Vampirisation",
-                "description": "Absorbe les PV de l'ennemi à chaque attaque réussie."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Vampirisation",
-        "description": "Absorbe les PV de l'ennemi avec des attaques normales."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/vampiloc.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/vampiloc.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/vampiloc.wav",
-    "oldID": "193",
-    "medallium_ids": {
-        "yw1": "149",
-        "yw2": "222",
-        "yw3": "403"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "267",
-        "yw Blasters 2": "410",
-        "yw Wibble Wobble": "6066",
-        "yw World": "0128",
-        "yw Ukiukipedia": "yw1-047"
-    },
-    "battle_type": "",
-    "skill_name": "Vampiric",
-    "skill_effect": "Shut Away",
-    "disliked_food": "Ramen",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "361",
-                "STR": "159",
-                "SPR": "156",
-                "DEF": "203",
-                "SPD": "158"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "411",
-                "STR": "159",
-                "SPR": "156",
-                "DEF": "203",
-                "SPD": "158"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "411",
-                "STR": "213",
-                "SPR": "73",
-                "DEF": "97",
-                "SPD": "222"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "411",
-                "STR": "213",
-                "SPR": "73",
-                "DEF": "97"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "398-679",
-                "STR": "213",
-                "SPR": "73",
-                "DEF": "97"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "398-679"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ヤドコウモリ",
-            "Yadokōmori"
-        ],
-        "Spanish": [
-            "Ermiciélago"
-        ],
-        "Italian": [
-            "Eremistrello"
-        ],
-        "German": [
-            "Flederemit"
-        ],
-        "Russian": [
-            "Перелётыш",
-            "Perelyotysh"
-        ],
-        "Arabic": [
-            "نزيل",
-            "Nazīl"
-        ],
-        "Portuguese (Brazilian)": [
-            "Novatoca"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ヤドコウモリ"
-        ],
-        "Spanish": [
-            "Ermiciélago"
-        ],
-        "Italian": [
-            "Eremistrello"
-        ],
-        "German": [
-            "Flederemit"
-        ],
-        "Russian": [
-            "Перелётыш"
-        ],
-        "Arabic": [
-            "نزيل"
-        ],
-        "Portuguese (Brazilian)": [
-            "Novatoca"
-        ]
-    },
-    "description_en": "A rare Abodabat in temporary housing. Once a year, if you're lucky, you can see him change houses.",
-    "nom_en": "Grubsnitch",
-    "rang_yww": "A",
-    "tribue_yww": "Usurakage",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "viande",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
-        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {
-        "hp": 49,
-        "str": 29,
-        "spr": 12,
-        "def": 13,
-        "spd": 32
-    },
-    "stats_max_yww": {
-        "hp": 401,
-        "str": 208,
-        "spr": 68,
-        "def": 92,
-        "spd": 217
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw2": [
+      "Égouts de Granval",
+      "Bingo-kai-Pièce bleue(Passé)"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "タックル",
-                "_en": "tackle",
-                "_fr": "tacle"
-            },
-            "explication": {
-                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
-                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "嵐の術",
-                "_en": "Arashi no Jutsu",
-                "_fr": "Arashi no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 風属性】 強力な風の妖術を使う。",
-                "_en": "[Power: 70 / Wind attribute] Uses powerful wind magic.",
-                "_fr": "[Puissance : 70 / Attribut Vent] Utilise une puissante magie du vent."
-            }
-        }
+    "yw Blasters 1": [
+      "Patrouille -Coteau fleuri(Peloton du chat rouge)",
+      "Big boss -Ultra Crème Chantiwhisp- trésor spécial 4 membres Peloton du chat rouge"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ヤドこもりブルース",
-                "_en": "Yado Komori Blues",
-                "_fr": "Yado Komori Blues"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "呪いのブルースを敵全員にあびせる。当たった妖怪は全然行動しなくなる。",
-                "_en": "Casts cursed blues on all enemies. The monster that is hit will not move at all.",
-                "_fr": "Lance un blues maudit sur tous les ennemis. Le monstre touché ne bougera pas du tout."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "心をふさがせる",
-                "_en": "block my heart",
-                "_fr": "bloque mon coeur"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 心をふさいでなかなか行動しなくなる",
-                "_en": "[Lazy] Blocking your mind and making it difficult to take action",
-                "_fr": "[Paresseux] Bloquer votre esprit et rendre difficile l'action"
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "自分の家ではなく 宿にひきこもっている 珍しいトジコウモリ。 一年に一回 宿を交換する 貴重な光景が見られる。",
-            "_en": "A rare brown-eared bat that is holed up in an inn instead of its own home. A rare sight to be seen as they exchange accommodation once a year.",
-            "_fr": "Une rare chauve-souris à oreilles brunes enfermée dans une auberge au lieu de sa propre maison. Un spectacle rare puisqu’ils échangent leur logement une fois par an."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Électropolis- arbres",
+      "Électropolis - Parking louche",
+      "Mythopolis- Parking louche",
+      "Bingo-kai - Pièce bleue"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Ouragan",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Blues du départ",
+        "puissance": "150|150",
+        "description": "Gêne les ennemis avec un blues de malchance.(L'ennemi attaquera moins)"
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Enfermé",
+        "puissance": "N/A",
+        "description": "L'ennemi n'a plus aucune motivation."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Vampirisation",
+        "description": "Absorbe les PV de l'ennemi avec des attaques normales."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Ouragan",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Blues du départ",
+        "puissance": "150|150",
+        "description": "Entrave les ennemis avec un blues de malchance."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Enfermé",
+        "puissance": "N/A",
+        "description": "L'ennemi n'a plus aucune motivation."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Vampirisation",
+        "description": "Absorbe les PV de l'ennemi avec des attaques normales."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Blues du départ",
+        "puissance": "250",
+        "description": "Baisse temporaire de la vit. des ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Champ de force",
+        "puissance": "___",
+        "description": "Hausse temporaire de la protection des alliés."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Armure de fer",
+        "puissance": "___",
+        "description": "Forte réduction des dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Profil bas",
+        "description": "Invisibilité temporaire en cas de danger."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage",
+        "puissance": "35|77",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Ouragan",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Blues du départ",
+        "puissance": "___",
+        "description": "Une malédiction s'abat sur tous les ennemis. Ceux touchés n'agissent plus."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Enfermé",
+        "puissance": "N/A",
+        "description": "L'ennemi n'a plus aucune motivation. Il n'a plus envie d'agir."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Vampirisation",
+        "description": "Absorbe les PV de l'ennemi à chaque attaque réussie."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Vampirisation",
+    "description": "Absorbe les PV de l'ennemi avec des attaques normales."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/vampiloc.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/vampiloc.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/vampiloc.wav",
+  "oldID": "193",
+  "medallium_ids": {
+    "yw1": "149",
+    "yw2": "222",
+    "yw3": "403"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "267",
+    "yw Blasters 2": "410",
+    "yw Wibble Wobble": "6066",
+    "yw World": "0128",
+    "yw Ukiukipedia": "yw1-047"
+  },
+  "battle_type": "",
+  "skill_name": "Vampiric",
+  "skill_effect": "Shut Away",
+  "disliked_food": "Ramen",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "361",
+        "STR": "159",
+        "SPR": "156",
+        "DEF": "203",
+        "SPD": "158"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "411",
+        "STR": "159",
+        "SPR": "156",
+        "DEF": "203",
+        "SPD": "158"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "411",
+        "STR": "213",
+        "SPR": "73",
+        "DEF": "97",
+        "SPD": "222"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "411",
+        "STR": "213",
+        "SPR": "73",
+        "DEF": "97"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "398-679",
+        "STR": "213",
+        "SPR": "73",
+        "DEF": "97"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "398-679"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ヤドコウモリ",
+      "Yadokōmori"
+    ],
+    "Spanish": [
+      "Ermiciélago"
+    ],
+    "Italian": [
+      "Eremistrello"
+    ],
+    "German": [
+      "Flederemit"
+    ],
+    "Russian": [
+      "Перелётыш",
+      "Perelyotysh"
+    ],
+    "Arabic": [
+      "نزيل",
+      "Nazīl"
+    ],
+    "Portuguese (Brazilian)": [
+      "Novatoca"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ヤドコウモリ"
+    ],
+    "Spanish": [
+      "Ermiciélago"
+    ],
+    "Italian": [
+      "Eremistrello"
+    ],
+    "German": [
+      "Flederemit"
+    ],
+    "Russian": [
+      "Перелётыш"
+    ],
+    "Arabic": [
+      "نزيل"
+    ],
+    "Portuguese (Brazilian)": [
+      "Novatoca"
+    ]
+  },
+  "description_en": "A rare Abodabat in temporary housing. Once a year, if you're lucky, you can see him change houses.",
+  "nom_en": "Grubsnitch",
+  "rang_yww": "A",
+  "tribue_yww": "Usurakage",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "viande",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+    "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {
+    "hp": 49,
+    "str": 29,
+    "spr": 12,
+    "def": 13,
+    "spd": 32
+  },
+  "stats_max_yww": {
+    "hp": 401,
+    "str": 208,
+    "spr": 68,
+    "def": 92,
+    "spd": 217
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "ホワイトデー妖怪ガシャ",
+      "_en": "White Day Yokai Gasha",
+      "_fr": "Jour blanc Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    },
+    {
+      "_jp": "春一番妖怪ガシャ",
+      "_en": "Spring Ichiban Yokai Gasha",
+      "_fr": "Printemps Ichiban Yokai Gasha"
+    },
+    {
+      "_jp": "桜花ランラン妖怪ガシャ",
+      "_en": "Sakura Ranran Yokai Gasha",
+      "_fr": "Sakura Ranran Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "電車でお出かけ妖怪ガシャ",
+      "_en": "Going out by train Yokai Gasha",
+      "_fr": "Sortir en train Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "GW妖怪バトルリーグガシャ",
+      "_en": "GW Yokai Battle League Gasha",
+      "_fr": "GW Yokai Battle League Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "タックル",
+        "_en": "tackle",
+        "_fr": "tacle"
+      },
+      "explication": {
+        "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
+        "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "嵐の術",
+        "_en": "Arashi no Jutsu",
+        "_fr": "Arashi no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 風属性】 強力な風の妖術を使う。",
+        "_en": "[Power: 70 / Wind attribute] Uses powerful wind magic.",
+        "_fr": "[Puissance : 70 / Attribut Vent] Utilise une puissante magie du vent."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ヤドこもりブルース",
+        "_en": "Yado Komori Blues",
+        "_fr": "Yado Komori Blues"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "呪いのブルースを敵全員にあびせる。当たった妖怪は全然行動しなくなる。",
+        "_en": "Casts cursed blues on all enemies. The monster that is hit will not move at all.",
+        "_fr": "Lance un blues maudit sur tous les ennemis. Le monstre touché ne bougera pas du tout."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "心をふさがせる",
+        "_en": "block my heart",
+        "_fr": "bloque mon coeur"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 心をふさいでなかなか行動しなくなる",
+        "_en": "[Lazy] Blocking your mind and making it difficult to take action",
+        "_fr": "[Paresseux] Bloquer votre esprit et rendre difficile l'action"
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "自分の家ではなく 宿にひきこもっている 珍しいトジコウモリ。 一年に一回 宿を交換する 貴重な光景が見られる。",
+      "_en": "A rare brown-eared bat that is holed up in an inn instead of its own home. A rare sight to be seen as they exchange accommodation once a year.",
+      "_fr": "Une rare chauve-souris à oreilles brunes enfermée dans une auberge au lieu de sa propre maison. Un spectacle rare puisqu’ils échangent leur logement une fois par an."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "194",
+  "Name_yww": "ヤドコウモリ",
+  "description_jp_yww": "自分の家ではなく 宿にひきこもっている 珍しいトジコウモリ。 一年に一回　宿を交換する 貴重な光景が見られる。",
+  "BingoMessage_jp_yww": "ガシャ玉…　私の家が… 新しいお家さがしてくれますか？",
+  "MonsterId_yww": "y204010",
+  "Height_yww": 23.0,
+  "CommondId_yww": "sp_204010",
+  "MinHp_yww": 49,
+  "MaxHp_yww": 401,
+  "MinAttack_yww": 29,
+  "MaxAttack_yww": 208,
+  "MinMagic_yww": 12,
+  "MaxMagic_yww": 68,
+  "MinDefense_yww": 13,
+  "MaxDefense_yww": 92,
+  "MinSpeed_yww": 32,
+  "MaxSpeed_yww": 217,
+  "AttackId_yww": 26,
+  "MagicId_yww": 18,
+  "HauntId_yww": 204010,
+  "SpSkillId_yww": 204010,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 11,
+  "DislikeFoodKind_yww": 7,
+  "ActionType_yww": 21,
+  "TribeType_yww": 6,
+  "MedallionImage_yww": "y199810.png",
+  "SpriteImage_yww": "img_y199810.png",
+  "Audio_yww": "sp_y199810.wav",
+  "Description_yww": "Une chauve-souris à oreilles pointues, espèce rare, qui ne vit pas chez elle mais se réfugie dans un abri. Une fois par an, elle change d'abri : on peut alors observer ce spectacle exceptionnel.",
+  "BingoMessage_fr_yww": "Gashadama… Ma maison… Pourriez-vous m'aider à trouver une nouvelle maison ?"
 }

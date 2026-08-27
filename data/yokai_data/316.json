@@ -1,563 +1,594 @@
 {
-    "ID": "316",
-    "Nom": "Babarouf",
-    "Tribue": "Sinistre",
-    "Rang": "B",
-    "PV": "344",
-    "Force": "148",
-    "Esprit": "68",
-    "Défense": "63",
-    "Vitesse": "225",
-    "Description": "Il aime par-dessus tout faire vrombir le moteur de sa moto volée et déranger tout le monde.",
-    "nourriture": "Curry",
-    "élément": "Glace",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/babarouf.png",
-    "numero": "255",
-    "nourriture_favorite": "Curry",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Décibel",
-            "effet": "Les envoûtements infligent plus de dégâts aux Yo-kai."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Plaquage",
-            "effet": "60 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Gel",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Bombe de basses",
-            "effet": "Un bruit retentissant réduit graduellement les PV de l'ennemi."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Vroum vroum",
-            "effet": "Le Yo-kai a les oreilles qui sifflent à cause d'une explosion et perd des PV."
-        }
+  "ID": "316",
+  "Nom": "Babarouf",
+  "Tribue": "Sinistre",
+  "Rang": "B",
+  "PV": "344",
+  "Force": "148",
+  "Esprit": "68",
+  "Défense": "63",
+  "Vitesse": "225",
+  "Description": "Il aime par-dessus tout faire vrombir le moteur de sa moto volée et déranger tout le monde.",
+  "nourriture": "Curry",
+  "élément": "Glace",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/babarouf.png",
+  "numero": "255",
+  "nourriture_favorite": "Curry",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Décibel",
+      "effet": "Les envoûtements infligent plus de dégâts aux Yo-kai."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Plaquage",
+      "effet": "60 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Gel",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Bombe de basses",
+      "effet": "Un bruit retentissant réduit graduellement les PV de l'ennemi."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Vroum vroum",
+      "effet": "Le Yo-kai a les oreilles qui sifflent à cause d'une explosion et perd des PV."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est vivifiant !",
+    "Mange de la nourriture insipide": "C'est moyen !",
+    "Mange de la mauvaise nourriture": "Pfff ! Non merci.",
+    "A la flemme": "Je dois... dormir...",
+    "Est échangé": "*klaxonne* Allez, grimpe !",
+    "Devient ton ami": "Quel joli son tu fais... j'en suis tout retourné. Je veux être ton pote !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Zikafon",
+      "parent2": "Assourdisseur",
+      "resultat": "Babarouf",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "爆音ならし",
+  "nom_anglais": "Rawry",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Caroline Combes",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Fusion"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est vivifiant !",
-        "Mange de la nourriture insipide": "C'est moyen !",
-        "Mange de la mauvaise nourriture": "Pfff ! Non merci.",
-        "A la flemme": "Je dois... dormir...",
-        "Est échangé": "*klaxonne* Allez, grimpe !",
-        "Devient ton ami": "Quel joli son tu fais... j'en suis tout retourné. Je veux être ton pote !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Zikafon",
-            "parent2": "Assourdisseur",
-            "resultat": "Babarouf",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Fusion",
+      "Patrouille -Centre-ville"
     ],
-    "image_locale": "",
-    "nom_original": "爆音ならし",
-    "nom_anglais": "Rawry",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Caroline Combes",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Fusion"
-        ],
-        "yw Blasters 1": [
-            "Fusion",
-            "Patrouille -Centre-ville"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Gel",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Bombe de basses",
-                "puissance": "___",
-                "description": "Un bruit retentissant réduit graduellement les PV de l'ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Vroum vroum",
-                "puissance": "N/A",
-                "description": "Le Yo-kai a les oreilles qui sifflent à cause d'une explosion et perd des PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Décibel",
-                "description": "Les envoûtements infligent plus de dégâts aux Yo-kai."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Bombe de basses",
-                "puissance": "___",
-                "description": "PV des ennemis baissent rapidement."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Attaque précipitée",
-                "puissance": "80",
-                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Envoût. poison",
-                "puissance": "___",
-                "description": "Baisse lente PV ennemis. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Grêle",
-                "puissance": "40",
-                "description": "Utilise un sort de glace. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : À la charge",
-                "description": "Accélère le temps de chargement de l'attaque."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage",
-                "puissance": "35|77",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Gel",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Bombe de basses",
-                "puissance": "___",
-                "description": "Tous les ennemis perdent peu à peu leurs PV à cause de ses enceintes !"
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Vroum vroum",
-                "puissance": "N/A",
-                "description": "Le Yo-kai a les oreilles qui sifflent à cause d'une explosion et perd des PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Décibel",
-                "description": "Tous les Yo-kai subissent plus de dégâts si envoûtés."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Décibel",
-        "description": "Les envoûtements infligent plus de dégâts aux Yo-kai."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/babarouf.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/babarouf.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/babarouf.wav",
-    "oldID": "332",
-    "medallium_ids": {
-        "yw2": "255",
-        "yw3": "461"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "307",
-        "yw Ukiukipedia": "yw8-021"
-    },
-    "battle_type": "",
-    "skill_name": "Noise Pollution",
-    "skill_effect": "Vroom Vroom",
-    "disliked_food": "Oden",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "354",
-                "STR": "183",
-                "SPR": "116",
-                "DEF": "97",
-                "SPD": "206"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "354",
-                "STR": "153",
-                "SPR": "73",
-                "DEF": "68",
-                "SPD": "230"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "Bakuon-narashi"
-        ],
-        "Spanish": [
-            "Vrumbo"
-        ],
-        "French": [
-            "Babarouf"
-        ],
-        "Italian": [
-            "Rumbo"
-        ],
-        "German": [
-            "Krachmed"
-        ],
-        "Russian": [
-            "Газун",
-            "Gazun"
-        ],
-        "Arabic": [
-            "دراج",
-            "Darrāj"
-        ],
-        "Portuguese (Brazilian)": [
-            "Vrum-Vrum"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "Bakuon-narashi"
-        ],
-        "Spanish": [
-            "Vrumbo"
-        ],
-        "French": [
-            "Babarouf"
-        ],
-        "Italian": [
-            "Rumbo"
-        ],
-        "German": [
-            "Krachmed"
-        ],
-        "Russian": [
-            "Газун"
-        ],
-        "Arabic": [
-            "دراج"
-        ],
-        "Portuguese (Brazilian)": [
-            "Vrum-Vrum"
-        ]
-    },
-    "description_en": "He loves nothing more than revving the engine on his stolen bike and thoroughly annoying everyone.",
-    "nom_en": "Ben Tover",
-    "rang_yww": "B",
-    "tribue_yww": "Bukimi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "curry",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "stats_initiale_yww": {
-        "hp": 41,
-        "str": 19,
-        "spr": 7,
-        "def": 13,
-        "spd": 34
-    },
-    "stats_max_yww": {
-        "hp": 344,
-        "str": 148,
-        "spr": 68,
-        "def": 63,
-        "spd": 225
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
-    ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "タックル",
-                "_en": "tackle",
-                "_fr": "tacle"
-            },
-            "explication": {
-                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
-                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "氷結の術",
-                "_en": "Freezing technique",
-                "_fr": "Technique de congélation"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 氷属性】 強力な氷の妖術を使う。",
-                "_en": "[Power: 50 / Ice attribute] Uses powerful ice magic.",
-                "_fr": "[Puissance : 50 / Attribut Glace] Utilise une puissante magie de glace."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "パラリラ大爆走",
-                "_en": "Paralila big run",
-                "_fr": "Grande course de Paralila"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "スピーカーから轟く爆音で敵全員のHPがだんだん減っていく。",
-                "_en": "The HP of all enemies gradually decreases due to the loud sound coming from the speakers.",
-                "_fr": "Les HP de tous les ennemis diminuent progressivement en raison du son fort provenant des haut-parleurs."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "爆音をひびかせる",
-                "_en": "make a loud noise",
-                "_fr": "faire un grand bruit"
-            },
-            "explication": {
-                "_jp": "【HP減少】 爆音にやられてHPがだんだん減っていく",
-                "_en": "[HP decrease] HP gradually decreases due to the explosion",
-                "_fr": "[Diminution des HP] Les HP diminuent progressivement en raison de l'explosion"
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "最高の爆音を求めた結果 盗んだバイクで走り出した。 路上で 騒音をまきちらす 迷惑なやつは 爆音ならしに とりつかれているかも。",
-            "_en": "As a result of my search for the best sound, I started riding on a stolen bike. Those nuisances who make noise on the street may be obsessed with making loud noises.",
-            "_fr": "Suite à ma recherche du meilleur son, j'ai commencé à rouler sur un vélo volé. Les nuisances qui font du bruit dans la rue peuvent être obsédées par le bruit fort."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Gel",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Bombe de basses",
+        "puissance": "___",
+        "description": "Un bruit retentissant réduit graduellement les PV de l'ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Vroum vroum",
+        "puissance": "N/A",
+        "description": "Le Yo-kai a les oreilles qui sifflent à cause d'une explosion et perd des PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Décibel",
+        "description": "Les envoûtements infligent plus de dégâts aux Yo-kai."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Bombe de basses",
+        "puissance": "___",
+        "description": "PV des ennemis baissent rapidement."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Attaque précipitée",
+        "puissance": "80",
+        "description": "Attaque en faisant face à l'ennemi et fonce dessus."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Envoût. poison",
+        "puissance": "___",
+        "description": "Baisse lente PV ennemis. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Grêle",
+        "puissance": "40",
+        "description": "Utilise un sort de glace. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : À la charge",
+        "description": "Accélère le temps de chargement de l'attaque."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage",
+        "puissance": "35|77",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Gel",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Bombe de basses",
+        "puissance": "___",
+        "description": "Tous les ennemis perdent peu à peu leurs PV à cause de ses enceintes !"
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Vroum vroum",
+        "puissance": "N/A",
+        "description": "Le Yo-kai a les oreilles qui sifflent à cause d'une explosion et perd des PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Décibel",
+        "description": "Tous les Yo-kai subissent plus de dégâts si envoûtés."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Décibel",
+    "description": "Les envoûtements infligent plus de dégâts aux Yo-kai."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/babarouf.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/babarouf.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/babarouf.wav",
+  "oldID": "332",
+  "medallium_ids": {
+    "yw2": "255",
+    "yw3": "461"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "307",
+    "yw Ukiukipedia": "yw8-021"
+  },
+  "battle_type": "",
+  "skill_name": "Noise Pollution",
+  "skill_effect": "Vroom Vroom",
+  "disliked_food": "Oden",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "354",
+        "STR": "183",
+        "SPR": "116",
+        "DEF": "97",
+        "SPD": "206"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "354",
+        "STR": "153",
+        "SPR": "73",
+        "DEF": "68",
+        "SPD": "230"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "Bakuon-narashi"
+    ],
+    "Spanish": [
+      "Vrumbo"
+    ],
+    "French": [
+      "Babarouf"
+    ],
+    "Italian": [
+      "Rumbo"
+    ],
+    "German": [
+      "Krachmed"
+    ],
+    "Russian": [
+      "Газун",
+      "Gazun"
+    ],
+    "Arabic": [
+      "دراج",
+      "Darrāj"
+    ],
+    "Portuguese (Brazilian)": [
+      "Vrum-Vrum"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "Bakuon-narashi"
+    ],
+    "Spanish": [
+      "Vrumbo"
+    ],
+    "French": [
+      "Babarouf"
+    ],
+    "Italian": [
+      "Rumbo"
+    ],
+    "German": [
+      "Krachmed"
+    ],
+    "Russian": [
+      "Газун"
+    ],
+    "Arabic": [
+      "دراج"
+    ],
+    "Portuguese (Brazilian)": [
+      "Vrum-Vrum"
+    ]
+  },
+  "description_en": "He loves nothing more than revving the engine on his stolen bike and thoroughly annoying everyone.",
+  "nom_en": "Ben Tover",
+  "rang_yww": "B",
+  "tribue_yww": "Bukimi",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "curry",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "avantage_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "stats_initiale_yww": {
+    "hp": 41,
+    "str": 19,
+    "spr": 7,
+    "def": 13,
+    "spd": 34
+  },
+  "stats_max_yww": {
+    "hp": 344,
+    "str": 148,
+    "spr": 68,
+    "def": 63,
+    "spd": 225
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "ホワイトデー妖怪ガシャ",
+      "_en": "White Day Yokai Gasha",
+      "_fr": "Jour blanc Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    },
+    {
+      "_jp": "春一番妖怪ガシャ",
+      "_en": "Spring Ichiban Yokai Gasha",
+      "_fr": "Printemps Ichiban Yokai Gasha"
+    },
+    {
+      "_jp": "桜花ランラン妖怪ガシャ",
+      "_en": "Sakura Ranran Yokai Gasha",
+      "_fr": "Sakura Ranran Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "電車でお出かけ妖怪ガシャ",
+      "_en": "Going out by train Yokai Gasha",
+      "_fr": "Sortir en train Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "GW妖怪バトルリーグガシャ",
+      "_en": "GW Yokai Battle League Gasha",
+      "_fr": "GW Yokai Battle League Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "タックル",
+        "_en": "tackle",
+        "_fr": "tacle"
+      },
+      "explication": {
+        "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
+        "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "氷結の術",
+        "_en": "Freezing technique",
+        "_fr": "Technique de congélation"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 氷属性】 強力な氷の妖術を使う。",
+        "_en": "[Power: 50 / Ice attribute] Uses powerful ice magic.",
+        "_fr": "[Puissance : 50 / Attribut Glace] Utilise une puissante magie de glace."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "パラリラ大爆走",
+        "_en": "Paralila big run",
+        "_fr": "Grande course de Paralila"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "スピーカーから轟く爆音で敵全員のHPがだんだん減っていく。",
+        "_en": "The HP of all enemies gradually decreases due to the loud sound coming from the speakers.",
+        "_fr": "Les HP de tous les ennemis diminuent progressivement en raison du son fort provenant des haut-parleurs."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "爆音をひびかせる",
+        "_en": "make a loud noise",
+        "_fr": "faire un grand bruit"
+      },
+      "explication": {
+        "_jp": "【HP減少】 爆音にやられてHPがだんだん減っていく",
+        "_en": "[HP decrease] HP gradually decreases due to the explosion",
+        "_fr": "[Diminution des HP] Les HP diminuent progressivement en raison de l'explosion"
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "最高の爆音を求めた結果 盗んだバイクで走り出した。 路上で 騒音をまきちらす 迷惑なやつは 爆音ならしに とりつかれているかも。",
+      "_en": "As a result of my search for the best sound, I started riding on a stolen bike. Those nuisances who make noise on the street may be obsessed with making loud noises.",
+      "_fr": "Suite à ma recherche du meilleur son, j'ai commencé à rouler sur un vélo volé. Les nuisances qui font du bruit dans la rue peuvent être obsédées par le bruit fort."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "326",
+  "Name_yww": "爆音ならし",
+  "description_jp_yww": "最高の爆音を求めた結果 盗んだバイクで走り出した。 路上で　騒音をまきちらす 迷惑なやつは　爆音ならしに とりつかれているかも。",
+  "BingoMessage_jp_yww": "パラリラ！　パラリラ！ 外に出してくれて　アリガトよ！",
+  "MonsterId_yww": "y309000",
+  "Height_yww": 10.0,
+  "CommondId_yww": "sp_309000",
+  "MinHp_yww": 68,
+  "MaxHp_yww": 526,
+  "MinAttack_yww": 7,
+  "MaxAttack_yww": 55,
+  "MinMagic_yww": 31,
+  "MaxMagic_yww": 228,
+  "MinDefense_yww": 21,
+  "MaxDefense_yww": 134,
+  "MinSpeed_yww": 22,
+  "MaxSpeed_yww": 145,
+  "AttackId_yww": 20,
+  "MagicId_yww": 3,
+  "HauntId_yww": 309000,
+  "SpSkillId_yww": 309000,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 13,
+  "DislikeFoodKind_yww": 9,
+  "ActionType_yww": 17,
+  "TribeType_yww": 7,
+  "MedallionImage_yww": "y304800.png",
+  "SpriteImage_yww": "img_y304800.png",
+  "Audio_yww": "sp_y304800.wav",
+  "Description_yww": "À la recherche du bruit le plus assourdissant Il a pris la fuite sur une moto volée. Il répand le bruit dans les rues. Ce type gênant est peut-être obsédé par le bruit assourdissant.",
+  "BingoMessage_fr_yww": "Pararila ! Pararila ! Merci de m'avoir laissé sortir !"
 }

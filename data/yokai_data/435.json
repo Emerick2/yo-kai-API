@@ -1,258 +1,290 @@
 {
-    "ID": "435",
-    "Nom": "El Gallardo",
-    "Tribue": "Vaillant",
-    "Rang": "D",
-    "PV": "394",
-    "Force": "216",
-    "Esprit": "40",
-    "Défense": "103",
-    "Vitesse": "122",
-    "Description": "Sans cesse à la recherche d'un vrai combat. À mains nues et sans limite de temps. Un vrai combat, quoi.",
-    "description SITE": "Sans cesse à la recherche d'un vrai combat. À mains nues et sans limites de temps. Un vrai combat, quoi.",
-    "nourriture": "Viande",
-    "élément": "Feu",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Quiconque El Gallardo envoûte devient impatient de défier quelqu'un à une compétition. Il peut également faire en sorte que l'envoûté dise aux autres qu'il doivent être sérieux. Il a également le pouvoir de faire bouillir de l'eau/transformer l'eau en lave.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/el-gallardo.png",
-    "numero": "033",
-    "nourriture_favorite": "Viande",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Uppercut",
-            "effet": "Booste les dégâts quand l'ennemi visé est de rang S."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coup retourné",
-            "effet": "60 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Feu",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coup fatal",
-            "effet": "Attaque la colonne devant lui avec un coup de pied sauté. 93 | 279"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Joueur invétéré",
-            "effet": "L'allié est prêt pour un vrai combat ! Sa FOR. augmente."
-        }
-    ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Soif d'aventure !",
-        "Mange de la nourriture insipide": "Bien !",
-        "Mange de la mauvaise nourriture": "Pas bon du tout !",
-        "A la flemme": "C'est pas mon truc !",
-        "Devient ton ami": "Jé perdou, mais au moins, jé peux dévénir ton amigo !",
-        "Est échangé": "Excellente postoure, bonne attitoude... Olé ! Tou es formidable !",
-        "Bingo-kai": "Cé n'est plous lé temps d'hésiter, caramba !"
+  "ID": "435",
+  "Nom": "El Gallardo",
+  "Tribue": "Vaillant",
+  "Rang": "D",
+  "PV": "394",
+  "Force": "216",
+  "Esprit": "40",
+  "Défense": "103",
+  "Vitesse": "122",
+  "Description": "Sans cesse à la recherche d'un vrai combat. À mains nues et sans limite de temps. Un vrai combat, quoi.",
+  "description SITE": "Sans cesse à la recherche d'un vrai combat. À mains nues et sans limites de temps. Un vrai combat, quoi.",
+  "nourriture": "Viande",
+  "élément": "Feu",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Quiconque El Gallardo envoûte devient impatient de défier quelqu'un à une compétition. Il peut également faire en sorte que l'envoûté dise aux autres qu'il doivent être sérieux. Il a également le pouvoir de faire bouillir de l'eau/transformer l'eau en lave.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/el-gallardo.png",
+  "numero": "033",
+  "nourriture_favorite": "Viande",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Uppercut",
+      "effet": "Booste les dégâts quand l'ennemi visé est de rang S."
     },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "Général",
-            "de": "El Gallardo",
-            "vers": "Grande Gallardo",
-            "critere": "Niveau 35"
-        }
-    ],
-    "image_locale": "",
-    "nom_original": "ガチン小僧",
-    "nom_anglais": "El Gusto",
-    "premiere_apparition": "yw3",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue"
+    {
+      "type": "Attaque",
+      "nom": "Coup retourné",
+      "effet": "60 | 90"
     },
-    "localisations": {
-        "yw3": [
-            "Forêt de Mortebranche",
-            "Grotte du grincheux",
-            "Manoir des Cardamom - sous-sol",
-            "Tour Morleone",
-            "Roue rêve-Pièce rouge- 3e prix"
-        ]
+    {
+      "type": "Attaque",
+      "nom": "Feu",
+      "effet": "20 | 90"
     },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Coup retourné",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Feu",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Coup fatal",
-                "puissance": "93|279",
-                "description": "Attaque la colonne devant lui avec un coup de pied sauté."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Joueur invétéré",
-                "puissance": "N/A",
-                "description": "L'allié est prêt pour un vrai combat ! Sa FOR. augmente."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Uppercut",
-                "description": "Booste les dégâts quand l'ennemi visé est de rang S."
-            }
-        ]
+    {
+      "type": "Attaque",
+      "nom": "Coup fatal",
+      "effet": "Attaque la colonne devant lui avec un coup de pied sauté. 93 | 279"
     },
-    "soul_effects": null,
-    "drops": {
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Cuisse de poulet"
-            },
-            {
-                "taux": "?%",
-                "objet": "Étoile dansante"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Uppercut",
-        "description": "Booste les dégâts quand l'ennemi visé est de rang S."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/el-gallardo.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/el-gallardo.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/el-gallardo.wav",
-    "oldID": "444",
-    "description_en": "Always in search of his next real fight. That means bare knuckles and no time limit. You know, a REAL fight.",
-    "nom_en": "Krystal Fox",
-    "rang_yww": "D",
-    "tribue_yww": "Isamashi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "viande",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 50,
-        "str": 33,
-        "spr": 5,
-        "def": 8,
-        "spd": 14
-    },
-    "stats_max_yww": {
-        "hp": 394,
-        "str": 216,
-        "spr": 40,
-        "def": 103,
-        "spd": 122
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "あびせげり",
-                "_en": "Abisegeri",
-                "_fr": "Abisegeri"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
-                "_en": "[Power: 50/Blow] Deal a big blow",
-                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "火花の術",
-                "_en": "Spark technique",
-                "_fr": "Technique d'étincelle"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 火属性】 火の妖術を使う。",
-                "_en": "[Power: 30 / Fire attribute] Uses fire magic.",
-                "_fr": "[Puissance : 30 / Attribut Feu] Utilise la magie du feu."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "マジガチキーーック！",
-                "_en": "Really cool!",
-                "_fr": "Vraiment cool !"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ガチの戦闘態勢",
-                "_en": "Serious fighting stance",
-                "_fr": "Position de combat sérieuse"
-            },
-            "explication": {
-                "_jp": "【ちからアップ】 とりつかれた妖怪は真剣勝負の覚悟が生まれ ちからがアップする。",
-                "_en": "[Power up] The possessed monster becomes determined to fight seriously, and its power increases.",
-                "_fr": "[Power up] Le monstre possédé devient déterminé à se battre sérieusement et sa puissance augmente."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "常に武器なし制限時間なしの ガチンコ勝負に挑む妖怪。 もはや勝ち負けは関係ない… どれだけ“本気”なのかが なによりも大切なんだ！",
-            "_en": "A monster who always challenges himself to competitive battles without weapons and without time limits. It doesn't matter whether you win or lose anymore... What matters most is how serious you are!",
-            "_fr": "Un monstre qui se lance toujours un défi dans des combats compétitifs sans armes et sans limite de temps. Peu importe que vous gagniez ou perdiez... Ce qui compte le plus, c'est votre sérieux !"
-        }
-    ],
-    "jeu_present": [
-        "yw3"
+    {
+      "type": "Attaque",
+      "nom": "Joueur invétéré",
+      "effet": "L'allié est prêt pour un vrai combat ! Sa FOR. augmente."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Soif d'aventure !",
+    "Mange de la nourriture insipide": "Bien !",
+    "Mange de la mauvaise nourriture": "Pas bon du tout !",
+    "A la flemme": "C'est pas mon truc !",
+    "Devient ton ami": "Jé perdou, mais au moins, jé peux dévénir ton amigo !",
+    "Est échangé": "Excellente postoure, bonne attitoude... Olé ! Tou es formidable !",
+    "Bingo-kai": "Cé n'est plous lé temps d'hésiter, caramba !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "Général",
+      "de": "El Gallardo",
+      "vers": "Grande Gallardo",
+      "critere": "Niveau 35"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ガチン小僧",
+  "nom_anglais": "El Gusto",
+  "premiere_apparition": "yw3",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue"
+  },
+  "localisations": {
+    "yw3": [
+      "Forêt de Mortebranche",
+      "Grotte du grincheux",
+      "Manoir des Cardamom - sous-sol",
+      "Tour Morleone",
+      "Roue rêve-Pièce rouge- 3e prix"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Coup retourné",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Feu",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Coup fatal",
+        "puissance": "93|279",
+        "description": "Attaque la colonne devant lui avec un coup de pied sauté."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Joueur invétéré",
+        "puissance": "N/A",
+        "description": "L'allié est prêt pour un vrai combat ! Sa FOR. augmente."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Uppercut",
+        "description": "Booste les dégâts quand l'ennemi visé est de rang S."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Cuisse de poulet"
+      },
+      {
+        "taux": "?%",
+        "objet": "Étoile dansante"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Uppercut",
+    "description": "Booste les dégâts quand l'ennemi visé est de rang S."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/el-gallardo.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/el-gallardo.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/el-gallardo.wav",
+  "oldID": "444",
+  "description_en": "Always in search of his next real fight. That means bare knuckles and no time limit. You know, a REAL fight.",
+  "nom_en": "Krystal Fox",
+  "rang_yww": "D",
+  "tribue_yww": "Isamashi",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "viande",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 50,
+    "str": 33,
+    "spr": 5,
+    "def": 8,
+    "spd": 14
+  },
+  "stats_max_yww": {
+    "hp": 394,
+    "str": 216,
+    "spr": 40,
+    "def": 103,
+    "spd": 122
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "あびせげり",
+        "_en": "Abisegeri",
+        "_fr": "Abisegeri"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+        "_en": "[Power: 50/Blow] Deal a big blow",
+        "_fr": "[Puissance : 50/Coup] Portez un gros coup"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "火花の術",
+        "_en": "Spark technique",
+        "_fr": "Technique d'étincelle"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 火属性】 火の妖術を使う。",
+        "_en": "[Power: 30 / Fire attribute] Uses fire magic.",
+        "_fr": "[Puissance : 30 / Attribut Feu] Utilise la magie du feu."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "マジガチキーーック！",
+        "_en": "Really cool!",
+        "_fr": "Vraiment cool !"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ガチの戦闘態勢",
+        "_en": "Serious fighting stance",
+        "_fr": "Position de combat sérieuse"
+      },
+      "explication": {
+        "_jp": "【ちからアップ】 とりつかれた妖怪は真剣勝負の覚悟が生まれ ちからがアップする。",
+        "_en": "[Power up] The possessed monster becomes determined to fight seriously, and its power increases.",
+        "_fr": "[Power up] Le monstre possédé devient déterminé à se battre sérieusement et sa puissance augmente."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "常に武器なし制限時間なしの ガチンコ勝負に挑む妖怪。 もはや勝ち負けは関係ない… どれだけ“本気”なのかが なによりも大切なんだ！",
+      "_en": "A monster who always challenges himself to competitive battles without weapons and without time limits. It doesn't matter whether you win or lose anymore... What matters most is how serious you are!",
+      "_fr": "Un monstre qui se lance toujours un défi dans des combats compétitifs sans armes et sans limite de temps. Peu importe que vous gagniez ou perdiez... Ce qui compte le plus, c'est votre sérieux !"
+    }
+  ],
+  "jeu_present": [
+    "yw3"
+  ],
+  "disliked_food": 6,
+  "id_yww": "430",
+  "Name_yww": "ガチン小僧",
+  "description_jp_yww": "常に武器なし制限時間なしの ガチンコ勝負に挑む妖怪。 もはや勝ち負けは関係ない… どれだけ“[本気/ガチ]”なのかが なによりも大切なんだ！",
+  "BingoMessage_jp_yww": "オレを出してくれて　ありがとう！ ガチンコバトルなら　いつでも歓迎だぜ！",
+  "MonsterId_yww": "y501000",
+  "Height_yww": 11.38,
+  "CommondId_yww": "sp_501000",
+  "MinHp_yww": 38,
+  "MaxHp_yww": 340,
+  "MinAttack_yww": 10,
+  "MaxAttack_yww": 85,
+  "MinMagic_yww": 23,
+  "MaxMagic_yww": 176,
+  "MinDefense_yww": 5,
+  "MaxDefense_yww": 53,
+  "MinSpeed_yww": 24,
+  "MaxSpeed_yww": 179,
+  "AttackId_yww": 10,
+  "MagicId_yww": 22,
+  "HauntId_yww": 501000,
+  "SpSkillId_yww": 501000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 24,
+  "DislikeFoodKind_yww": 6,
+  "ActionType_yww": 15,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y496800.png",
+  "SpriteImage_yww": "img_y496800.png",
+  "Audio_yww": "sp_y496800.wav",
+  "Description_yww": "Un yōkai qui se lance sans cesse dans des combats acharnés, sans arme et sans limite de temps. La victoire ou la défaite n'ont plus aucune importance… Ce qui compte avant tout, c'est de montrer à quel point on est « [sérieux/à fond] » !",
+  "BingoMessage_fr_yww": "Merci de m'avoir fait participer ! Si c'est un combat à fond, je suis partant quand tu veux !"
 }

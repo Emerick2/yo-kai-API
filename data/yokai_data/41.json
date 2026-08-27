@@ -1,583 +1,614 @@
 {
-    "ID": "41",
-    "Nom": "Cupistol",
-    "Tribue": "Mystérieu",
-    "Rang": "D",
-    "PV": "296",
-    "Force": "69",
-    "Esprit": "183",
-    "Défense": "113",
-    "Vitesse": "138",
-    "Description-": "Il porte du maquillage du théâtre japonais kabuki. Il rêve de faire du rock et parcourir le monde à la rencontre de ses fans.",
-    "Description": "Ce charmant Yo-kai est populaire auprès des femmes. Armé de son pistolet à cœurs, il rend tout le monde amoureux.",
-    "nourriture": "Pain",
-    "élément": "Vent",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "Cupistol vient de Cupidon et de Pistolet.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "S'il tire sur deux personnes avec son pistolet, elles tomberont instantanément amoureuses l'une de l'autre.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/cupistol.png",
-    "numero": "040",
-    "nourriture_favorite": "Pain",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Sympathie",
-            "effet": "Incite plus d'ennemis à devenir tes amis."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tir",
-            "effet": "10 | 45"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tourbillon",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Baiser de la vie",
-            "effet": "Restaure les PV de ses alliés en leur envoyant un joli bisou ! 50 | 131"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Popularité",
-            "effet": "Rend un allié tellement populaire que tous les ennemis le ciblent."
-        }
+  "ID": "41",
+  "Nom": "Cupistol",
+  "Tribue": "Mystérieu",
+  "Rang": "D",
+  "PV": "296",
+  "Force": "69",
+  "Esprit": "183",
+  "Défense": "113",
+  "Vitesse": "138",
+  "Description-": "Il porte du maquillage du théâtre japonais kabuki. Il rêve de faire du rock et parcourir le monde à la rencontre de ses fans.",
+  "Description": "Ce charmant Yo-kai est populaire auprès des femmes. Armé de son pistolet à cœurs, il rend tout le monde amoureux.",
+  "nourriture": "Pain",
+  "élément": "Vent",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "Cupistol vient de Cupidon et de Pistolet.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "S'il tire sur deux personnes avec son pistolet, elles tomberont instantanément amoureuses l'une de l'autre.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/cupistol.png",
+  "numero": "040",
+  "nourriture_favorite": "Pain",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Sympathie",
+      "effet": "Incite plus d'ennemis à devenir tes amis."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tir",
+      "effet": "10 | 45"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tourbillon",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Baiser de la vie",
+      "effet": "Restaure les PV de ses alliés en leur envoyant un joli bisou ! 50 | 131"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Popularité",
+      "effet": "Rend un allié tellement populaire que tous les ennemis le ciblent."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Magnifique !",
+    "Mange de la nourriture insipide": "Rien de spécial.",
+    "Mange de la mauvaise nourriture": "C'est dégoûtant !",
+    "A la flemme": "Ahhh...",
+    "Est échangé": "Hé hé ! J'en ai fini avec",
+    "Devient ton ami": "Ho ho ! Quel charisme ! On devrait aller boire un chocolat chaud un jour !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Cupistol",
+      "parent2": "Six-coups foudre",
+      "resultat": "Donjouant",
+      "critere": "➨"
+    },
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Squarlett",
+      "parent2": "Cupistol",
+      "resultat": "Margoth",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "モテモ天",
+  "nom_anglais": "Cupistol",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Centre-ville- arbres",
+      "Tour de commerce- étage vide n°4",
+      "Tour de commerce - étage vide n°13"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Magnifique !",
-        "Mange de la nourriture insipide": "Rien de spécial.",
-        "Mange de la mauvaise nourriture": "C'est dégoûtant !",
-        "A la flemme": "Ahhh...",
-        "Est échangé": "Hé hé ! J'en ai fini avec",
-        "Devient ton ami": "Ho ho ! Quel charisme ! On devrait aller boire un chocolat chaud un jour !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Cupistol",
-            "parent2": "Six-coups foudre",
-            "resultat": "Donjouant",
-            "critere": "➨"
-        },
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Squarlett",
-            "parent2": "Cupistol",
-            "resultat": "Margoth",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Tour de commerce - étage vide n°3",
+      "Tour de commerce - étage vide n°13"
     ],
-    "image_locale": "",
-    "nom_original": "モテモ天",
-    "nom_anglais": "Cupistol",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Centre-ville- arbres",
-            "Tour de commerce- étage vide n°4",
-            "Tour de commerce - étage vide n°13"
-        ],
-        "yw2": [
-            "Tour de commerce - étage vide n°3",
-            "Tour de commerce - étage vide n°13"
-        ],
-        "yw3": [
-            "Quête - Se faire des amis",
-            "Cajoun- sous les voitures",
-            "Cajoun -Aspirateur Yo-kai"
-        ],
-        "yw Puni Puni": [
-            "Cupistol est apparu pour la première fois dans l'événementNuit de Bon Odori de KJ, où il était disponible dans le Stage 1 et le Stage 35. Il est revenu au Stand d'Échange des événementsPremière Collaboration avec Inazuma ElevenetMêlée de la Cloche de Cristal."
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Tir",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Baiser de la vie",
-                "puissance": "60|157",
-                "description": "Restaure les PV de ses alliés en leur envoyant un joli bisou !"
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Popularité",
-                "puissance": "N/A",
-                "description": "Rend un allié tellement populaire que tous les ennemis le ciblent."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Sympathie",
-                "description": "Incite plus d'ennemis à devenir tes amis."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Tir",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Baiser de la vie",
-                "puissance": "50|131",
-                "description": "Restaure les PV de ses alliés en leur envoyant un joli bisou !"
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Popularité",
-                "puissance": "N/A",
-                "description": "Rend un allié tellement populaire que tous les ennemis le ciblent."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Incendie",
-                "puissance": "N/A",
-                "description": "Un sort de feu brûle les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Sympathie",
-                "description": "Incite plus d'ennemis à devenir tes amis."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Flèche de Cupidon",
-                "puissance": "25",
-                "description": "Attaque longue portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Baiser de la vie",
-                "puissance": "400",
-                "description": "Alliés retrouvent beaucoup de PV."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Tourbillon",
-                "puissance": "40",
-                "description": "Utilise un sort de vent. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Boost de vitesse",
-                "puissance": "___",
-                "description": "Hausse VIT. des alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Sympathie",
-                "description": "Amitié plus probable avec les ennemis."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Tir",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Baiser de la vie",
-                "puissance": "60|180",
-                "description": "Restaure les PV de ses alliés en leur envoyant un joli bisou !"
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Popularité",
-                "puissance": "N/A",
-                "description": "Le Yo-kai envoûté devient populaire. Sa joie augmente son ESP."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Flèche de Cupidon",
-                "puissance": "25",
-                "description": "Attaque un ennemi éloigné."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Baiser de la vie",
-                "puissance": "400",
-                "description": "Rend PV ++ aux alliés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Tourbillon",
-                "puissance": "40",
-                "description": "Technique de vent+. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. PV rendus + si chargé."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Sympathie",
-                "description": "Améliore les chances de devenir ami avec un ennemi."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Badge brillant"
-            },
-            {
-                "taux": "?%",
-                "objet": "Poupée de fuite"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Six-coups foudre"
-            },
-            {
-                "taux": "?%",
-                "objet": "Cheesecake"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Bague mimi"
-            },
-            {
-                "taux": "?%",
-                "objet": "Cupcake"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Sympathie",
-        "description": "Incite plus d'ennemis à devenir tes amis."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/cupistol.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/cupistol.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/cupistol.wav",
-    "oldID": "41",
-    "medallium_ids": {
-        "yw1": "040",
-        "yw2": "056",
-        "yw3": "095"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "066",
-        "yw Blasters 2": "095",
-        "yw Wibble Wobble": "2073",
-        "yw World": "0034",
-        "yw Ukiukipedia": "yw5-006/YD7-009"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Popularity",
-    "skill_effect": "Popularize",
-    "disliked_food": "Rice Balls",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "324",
-                "STR": "97",
-                "SPR": "153",
-                "DEF": "101",
-                "SPD": "158"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "306",
-                "STR": "97",
-                "SPR": "153",
-                "DEF": "101",
-                "SPD": "158"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "139-239",
-                "STR": "74",
-                "SPR": "188",
-                "DEF": "118",
-                "SPD": "143"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "139-239"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "139-239"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "139-239"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "モテモ天",
-            "Motemoten"
-        ],
-        "Spanish": [
-            "Cupístolo"
-        ],
-        "French": [
-            "Cupistol"
-        ],
-        "Italian": [
-            "Cupistol"
-        ],
-        "German": [
-            "Pistoleros"
-        ],
-        "Russian": [
-            "Дон-Купидон",
-            "Don-Kupidon"
-        ],
-        "Arabic": [
-            "حساس",
-            "Ḥassās"
-        ],
-        "Chinese (Cantonese)": [
-            "人氣妖男",
-            "jan4"
-        ],
-        "Chinese (Mandarin)": [
-            "桃花小天",
-            "Táohuāxiǎotiān"
-        ],
-        "Portuguese (Brazilian)": [
-            "Xuxodó"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "モテモ天"
-        ],
-        "Spanish": [
-            "Cupístolo"
-        ],
-        "French": [
-            "Cupistol"
-        ],
-        "Italian": [
-            "Cupistol"
-        ],
-        "German": [
-            "Pistoleros"
-        ],
-        "Russian": [
-            "Дон-Купидон"
-        ],
-        "Arabic": [
-            "حساس"
-        ],
-        "Chinese (Cantonese)": [
-            "人氣妖男"
-        ],
-        "Chinese (Mandarin)": [
-            "桃花小天"
-        ],
-        "Portuguese (Brazilian)": [
-            "Xuxodó"
-        ]
-    },
-    "description_en": "This debonair Yo-kai is quite a hit with the ladies. Anyone he shoots will love you. He's just the greatest! *swoon*",
-    "nom_en": "Sushiyama",
-    "rang_yww": "D",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "bonbons",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {
-        "hp": 40,
-        "str": 12,
-        "spr": 19,
-        "def": 12,
-        "spd": 17
-    },
-    "stats_max_yww": {
-        "hp": 296,
-        "str": 69,
-        "spr": 183,
-        "def": 113,
-        "spd": 138
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "しゃげき",
-                "_en": "Shakeki",
-                "_fr": "Shakeki"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "つむじ風の術",
-                "_en": "Whirlwind technique",
-                "_fr": "Technique du tourbillon"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 風属性】 風の妖術を使う。",
-                "_en": "[Power: 40 / Wind attribute] Uses wind magic.",
-                "_fr": "[Puissance : 40 / Attribut Vent] Utilise la magie du vent."
-            }
-        }
+    "yw3": [
+      "Quête - Se faire des amis",
+      "Cajoun- sous les voitures",
+      "Cajoun -Aspirateur Yo-kai"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "いやしのなげキッス",
-                "_en": "healing nage kiss",
-                "_fr": "baiser de guérison"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "モテモテにする",
-                "_en": "make popular",
-                "_fr": "rendre populaire"
-            },
-            "explication": {
-                "_jp": "【ようりょくアップ】 とりつかれた妖怪はモテモテになった喜びで ようりょくがアップする。",
-                "_en": "[Yoryoku Up] The possessed monster's Yoryouku increases due to the joy of becoming popular.",
-                "_fr": "[Yoryoku Up] Le Yoryoku du monstre possédé augmente en raison de la joie de devenir populaire."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "超モテモテのイケメン妖怪。 ハートのピストルで うち抜いた相手から 好かれるようにしてくれる。 これ以上ないステキな妖怪。",
-            "_en": "A super popular and handsome monster. It uses the Pistol of Hearts to make the person you pull out love you. A more wonderful monster than this.",
-            "_fr": "Un monstre super populaire et beau. Il utilise le pistolet des cœurs pour que la personne que vous retirez vous aime. Un monstre plus merveilleux que celui-ci."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Puni Puni": [
+      "Cupistol est apparu pour la première fois dans l'événementNuit de Bon Odori de KJ, où il était disponible dans le Stage 1 et le Stage 35. Il est revenu au Stand d'Échange des événementsPremière Collaboration avec Inazuma ElevenetMêlée de la Cloche de Cristal."
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Tir",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tourbillon",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Baiser de la vie",
+        "puissance": "60|157",
+        "description": "Restaure les PV de ses alliés en leur envoyant un joli bisou !"
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Popularité",
+        "puissance": "N/A",
+        "description": "Rend un allié tellement populaire que tous les ennemis le ciblent."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Sympathie",
+        "description": "Incite plus d'ennemis à devenir tes amis."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Tir",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tourbillon",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Baiser de la vie",
+        "puissance": "50|131",
+        "description": "Restaure les PV de ses alliés en leur envoyant un joli bisou !"
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Popularité",
+        "puissance": "N/A",
+        "description": "Rend un allié tellement populaire que tous les ennemis le ciblent."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Incendie",
+        "puissance": "N/A",
+        "description": "Un sort de feu brûle les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Sympathie",
+        "description": "Incite plus d'ennemis à devenir tes amis."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Flèche de Cupidon",
+        "puissance": "25",
+        "description": "Attaque longue portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Baiser de la vie",
+        "puissance": "400",
+        "description": "Alliés retrouvent beaucoup de PV."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Tourbillon",
+        "puissance": "40",
+        "description": "Utilise un sort de vent. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Boost de vitesse",
+        "puissance": "___",
+        "description": "Hausse VIT. des alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Sympathie",
+        "description": "Amitié plus probable avec les ennemis."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Tir",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tourbillon",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Baiser de la vie",
+        "puissance": "60|180",
+        "description": "Restaure les PV de ses alliés en leur envoyant un joli bisou !"
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Popularité",
+        "puissance": "N/A",
+        "description": "Le Yo-kai envoûté devient populaire. Sa joie augmente son ESP."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Flèche de Cupidon",
+        "puissance": "25",
+        "description": "Attaque un ennemi éloigné."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Baiser de la vie",
+        "puissance": "400",
+        "description": "Rend PV ++ aux alliés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Tourbillon",
+        "puissance": "40",
+        "description": "Technique de vent+. Plus de dégâts si chargée."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. PV rendus + si chargé."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Sympathie",
+        "description": "Améliore les chances de devenir ami avec un ennemi."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Badge brillant"
+      },
+      {
+        "taux": "?%",
+        "objet": "Poupée de fuite"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Six-coups foudre"
+      },
+      {
+        "taux": "?%",
+        "objet": "Cheesecake"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Bague mimi"
+      },
+      {
+        "taux": "?%",
+        "objet": "Cupcake"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Sympathie",
+    "description": "Incite plus d'ennemis à devenir tes amis."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/cupistol.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/cupistol.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/cupistol.wav",
+  "oldID": "41",
+  "medallium_ids": {
+    "yw1": "040",
+    "yw2": "056",
+    "yw3": "095"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "066",
+    "yw Blasters 2": "095",
+    "yw Wibble Wobble": "2073",
+    "yw World": "0034",
+    "yw Ukiukipedia": "yw5-006/YD7-009"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Popularity",
+  "skill_effect": "Popularize",
+  "disliked_food": "Rice Balls",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "324",
+        "STR": "97",
+        "SPR": "153",
+        "DEF": "101",
+        "SPD": "158"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "306",
+        "STR": "97",
+        "SPR": "153",
+        "DEF": "101",
+        "SPD": "158"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "139-239",
+        "STR": "74",
+        "SPR": "188",
+        "DEF": "118",
+        "SPD": "143"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "139-239"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "139-239"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "139-239"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "モテモ天",
+      "Motemoten"
+    ],
+    "Spanish": [
+      "Cupístolo"
+    ],
+    "French": [
+      "Cupistol"
+    ],
+    "Italian": [
+      "Cupistol"
+    ],
+    "German": [
+      "Pistoleros"
+    ],
+    "Russian": [
+      "Дон-Купидон",
+      "Don-Kupidon"
+    ],
+    "Arabic": [
+      "حساس",
+      "Ḥassās"
+    ],
+    "Chinese (Cantonese)": [
+      "人氣妖男",
+      "jan4"
+    ],
+    "Chinese (Mandarin)": [
+      "桃花小天",
+      "Táohuāxiǎotiān"
+    ],
+    "Portuguese (Brazilian)": [
+      "Xuxodó"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "モテモ天"
+    ],
+    "Spanish": [
+      "Cupístolo"
+    ],
+    "French": [
+      "Cupistol"
+    ],
+    "Italian": [
+      "Cupistol"
+    ],
+    "German": [
+      "Pistoleros"
+    ],
+    "Russian": [
+      "Дон-Купидон"
+    ],
+    "Arabic": [
+      "حساس"
+    ],
+    "Chinese (Cantonese)": [
+      "人氣妖男"
+    ],
+    "Chinese (Mandarin)": [
+      "桃花小天"
+    ],
+    "Portuguese (Brazilian)": [
+      "Xuxodó"
+    ]
+  },
+  "description_en": "This debonair Yo-kai is quite a hit with the ladies. Anyone he shoots will love you. He's just the greatest! *swoon*",
+  "nom_en": "Sushiyama",
+  "rang_yww": "D",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "bonbons",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {
+    "hp": 40,
+    "str": 12,
+    "spr": 19,
+    "def": 12,
+    "spd": 17
+  },
+  "stats_max_yww": {
+    "hp": 296,
+    "str": 69,
+    "spr": 183,
+    "def": 113,
+    "spd": 138
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "しゃげき",
+        "_en": "Shakeki",
+        "_fr": "Shakeki"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "つむじ風の術",
+        "_en": "Whirlwind technique",
+        "_fr": "Technique du tourbillon"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 風属性】 風の妖術を使う。",
+        "_en": "[Power: 40 / Wind attribute] Uses wind magic.",
+        "_fr": "[Puissance : 40 / Attribut Vent] Utilise la magie du vent."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "いやしのなげキッス",
+        "_en": "healing nage kiss",
+        "_fr": "baiser de guérison"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "モテモテにする",
+        "_en": "make popular",
+        "_fr": "rendre populaire"
+      },
+      "explication": {
+        "_jp": "【ようりょくアップ】 とりつかれた妖怪はモテモテになった喜びで ようりょくがアップする。",
+        "_en": "[Yoryoku Up] The possessed monster's Yoryouku increases due to the joy of becoming popular.",
+        "_fr": "[Yoryoku Up] Le Yoryoku du monstre possédé augmente en raison de la joie de devenir populaire."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "超モテモテのイケメン妖怪。 ハートのピストルで うち抜いた相手から 好かれるようにしてくれる。 これ以上ないステキな妖怪。",
+      "_en": "A super popular and handsome monster. It uses the Pistol of Hearts to make the person you pull out love you. A more wonderful monster than this.",
+      "_fr": "Un monstre super populaire et beau. Il utilise le pistolet des cœurs pour que la personne que vous retirez vous aime. Un monstre plus merveilleux que celui-ci."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "41",
+  "Name_yww": "モテモ天",
+  "description_jp_yww": "超モテモテのイケメン妖怪。　 ハートのピストルで うち抜いた相手から 好かれるようにしてくれる。 これ以上ないステキな妖怪。",
+  "BingoMessage_jp_yww": "センキュー！　モテモテのボクと 付き合って楽しいことしようよ！",
+  "MonsterId_yww": "y123000",
+  "Height_yww": 10.0,
+  "CommondId_yww": "sp_123000",
+  "MinHp_yww": 40,
+  "MaxHp_yww": 296,
+  "MinAttack_yww": 12,
+  "MaxAttack_yww": 69,
+  "MinMagic_yww": 19,
+  "MaxMagic_yww": 183,
+  "MinDefense_yww": 12,
+  "MaxDefense_yww": 113,
+  "MinSpeed_yww": 17,
+  "MaxSpeed_yww": 138,
+  "AttackId_yww": 37,
+  "MagicId_yww": 16,
+  "HauntId_yww": 123000,
+  "SpSkillId_yww": 123000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 14,
+  "DislikeFoodKind_yww": 1,
+  "ActionType_yww": 10,
+  "TribeType_yww": 2,
+  "MedallionImage_yww": "y118800.png",
+  "SpriteImage_yww": "img_y118800.png",
+  "Audio_yww": "sp_y118800.wav",
+  "Description_yww": "Un yōkai super séduisant.  Grâce à son pistolet en forme de cœur, il fait en sorte que la personne qu'il a « touchée » finisse par l'aimer. Un yōkai on ne peut plus merveilleux.",
+  "BingoMessage_fr_yww": "Merci ! Moi qui ai beaucoup de succès auprès des filles, viens sortir avec moi pour qu'on s'amuse ensemble !"
 }

@@ -1,421 +1,452 @@
 {
-    "ID": "321",
-    "Nom": "Timours",
-    "Tribue": "Mignon",
-    "Rang": "B",
-    "PV": "364",
-    "Force": "176",
-    "Esprit": "190",
-    "Défense": "105",
-    "Vitesse": "109",
-    "Description": "Cet ours travaille nuit et jour à trouver des idées pour rendre son village plus populaire.",
-    "nourriture": "Viande",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "Timours vient du prénom Tim et d'ours, en référence à sa nature d'ours mais peut aussi être lié à la ville d'Ourcival, dont Timours est la mascotte.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/timours.png",
-    "numero": "154",
-    "nourriture_favorite": "Viande",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Boule de riz",
-            "effet": "Remplit les PV une fois quand ceux-ci sont bas."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing puissant",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Restauration",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Grosse légume",
-            "effet": "Grâce à l'énergie conférée par les légumes d'Ourcival, il attaque un seul ennemi. 170 | 255"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Charme rustique",
-            "effet": "Le Yo-kai est charmé par la vie à la campagne, toutes ses stats augmentent."
-        }
+  "ID": "321",
+  "Nom": "Timours",
+  "Tribue": "Mignon",
+  "Rang": "B",
+  "PV": "364",
+  "Force": "176",
+  "Esprit": "190",
+  "Défense": "105",
+  "Vitesse": "109",
+  "Description": "Cet ours travaille nuit et jour à trouver des idées pour rendre son village plus populaire.",
+  "nourriture": "Viande",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "Timours vient du prénom Tim et d'ours, en référence à sa nature d'ours mais peut aussi être lié à la ville d'Ourcival, dont Timours est la mascotte.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/timours.png",
+  "numero": "154",
+  "nourriture_favorite": "Viande",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Boule de riz",
+      "effet": "Remplit les PV une fois quand ceux-ci sont bas."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing puissant",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Restauration",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Grosse légume",
+      "effet": "Grâce à l'énergie conférée par les légumes d'Ourcival, il attaque un seul ennemi. 170 | 255"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Charme rustique",
+      "effet": "Le Yo-kai est charmé par la vie à la campagne, toutes ses stats augmentent."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "*sifflote* Youhou !",
+    "Mange de la nourriture insipide": "...",
+    "Mange de la mauvaise nourriture": "... !",
+    "A la flemme": "...",
+    "Est échangé": "Bonjour, toi ! Ça alors ! Cet endroit aurait bien besoin de plus d'ambiance !",
+    "Devient ton ami": "... (Amis, maintenant.)"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "ケマモン",
+  "nom_anglais": "Harry Barry",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Quête - Votre mascotte locale"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "*sifflote* Youhou !",
-        "Mange de la nourriture insipide": "...",
-        "Mange de la mauvaise nourriture": "... !",
-        "A la flemme": "...",
-        "Est échangé": "Bonjour, toi ! Ça alors ! Cet endroit aurait bien besoin de plus d'ambiance !",
-        "Devient ton ami": "... (Amis, maintenant.)"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "ケマモン",
-    "nom_anglais": "Harry Barry",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Quête - Votre mascotte locale"
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Ourcival",
-            "Bingo-kai-Pièce spéciale"
-        ],
-        "yw3": [
-            "Roue rêve-Pièce 5 étoiles"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Poing puissant",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Grosse légume",
-                "puissance": "170|225",
-                "description": "Grâce à l'énergie conférée par les légumes d'Ourcival, il attaque un seul ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Charme rustique",
-                "puissance": "N/A",
-                "description": "Le Yo-kai est charmé par la vie à la campagne, toutes ses stats augmentent."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Renforcer",
-                "puissance": "N/A",
-                "description": "Temporaire. Augmente l'attaque d'un Yo-kai."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Boule de riz",
-                "description": "Remplit les PV une fois quand ceux-ci sont bas."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Grosse légume",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts  courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Cercle parfait",
-                "puissance": "___",
-                "description": "Crée un champ où les stats des alliés augmenteront."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Riz-suscitation",
-                "description": "Restaure l'allié plus vite."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Poing puissant",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Grosse légume",
-                "puissance": "140|280",
-                "description": "Frappe la colonne devant lui avec l'énergie conférée par les légumes d'Ourcival."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Charme rustique",
-                "puissance": "N/A",
-                "description": "Le Yo-kai est charmé par la vie à la campagne, toutes ses stats augmentent."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Boule de riz",
-                "description": "Récupère des PV si sur le point d'être battu. (une fois)"
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Boule de riz",
-        "description": "Remplit les PV une fois quand ceux-ci sont bas."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/timours.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/timours.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/timours.wav",
-    "oldID": "338",
-    "medallium_ids": {
-        "yw2": "154",
-        "yw3": "269"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "195",
-        "yw Blasters 2": "274",
-        "yw World": "0219"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Bear Care",
-    "skill_effect": "Rustic Charm",
-    "disliked_food": "Vegetables",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "374",
-                "STR": "192",
-                "SPR": "146",
-                "DEF": "168",
-                "SPD": "130"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "374",
-                "STR": "181",
-                "SPR": "195",
-                "DEF": "110",
-                "SPD": "114"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ケマモン"
-        ],
-        "Spanish": [
-            "Oso"
-        ],
-        "French": [
-            "Timours"
-        ],
-        "Italian": [
-            "Harry"
-        ],
-        "German": [
-            "Peter"
-        ],
-        "Dutch": [
-            "Harry"
-        ],
-        "Korean": [
-            "달웅이",
-            "Dal-ung-i"
-        ],
-        "Russian": [
-            "Гарри",
-            "Garri"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ケマモン Kemamon"
-        ],
-        "Spanish": [
-            "Oso Boco"
-        ],
-        "French": [
-            "Timours"
-        ],
-        "Italian": [
-            "Harry Barry"
-        ],
-        "German": [
-            "Peter Petz"
-        ],
-        "Dutch": [
-            "Harry Barry"
-        ],
-        "Korean": [
-            "달웅이"
-        ],
-        "Russian": [
-            "Гарри Барри"
-        ]
-    },
-    "description_en": "This village mascot works night and day to come up with ways of making his hometown more popular.",
-    "nom_en": "Foiletta",
-    "rang_yww": "B",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "viande",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "–",
-        "_en": null,
-        "_fr": null
-    },
-    "avantage_yww": {
-        "_jp": "–",
-        "_en": null,
-        "_fr": null
-    },
-    "stats_initiale_yww": {
-        "hp": 48,
-        "str": 22,
-        "spr": 28,
-        "def": 15,
-        "spd": 16
-    },
-    "stats_max_yww": {
-        "hp": 364,
-        "str": 176,
-        "spr": 190,
-        "def": 105,
-        "spd": 109
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "1つ星コイン",
-            "_en": "1 star coin",
-            "_fr": "Pièce d'une étoile"
-        }
+    "yw Blasters 1": [
+      "Patrouille -Ourcival",
+      "Bingo-kai-Pièce spéciale"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ぶんなぐる",
-                "_en": "wallop",
-                "_fr": "coup"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
-                "_en": "[Power: 50/Blow] Deal a big blow",
-                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "回復の術",
-                "_en": "art of recovery",
-                "_fr": "l'art de la récupération"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ケマモト特産パンチ",
-                "_en": "Kemamoto special punch",
-                "_fr": "Coup de poing spécial Kemamoto"
-            },
-            "pouvoir": "140",
-            "explication": {
-                "_jp": "ケマモト特産の野菜でつちかった力でパンチする。",
-                "_en": "Punch with the power of Kemamoto's special vegetables.",
-                "_fr": "Punch avec la puissance des légumes spéciaux de Kemamoto."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "田舎の力",
-                "_en": "power of the countryside",
-                "_fr": "pouvoir de la campagne"
-            },
-            "explication": {
-                "_jp": "【ようりょくアップ】 とりつかれた妖怪はケマモトの田舎のやさしさで 全ステータスが小アップする。",
-                "_en": "[Yoryoku Up] All stats of possessed monsters will be slightly increased by Kemamoto's country kindness.",
-                "_fr": "[Yoryoku Up] Toutes les statistiques des monstres possédés seront légèrement augmentées par la gentillesse de Kemamoto."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "ケマモト村の村おこしのために がんばる ご当地キャラ妖怪。 『キャラ』と『妖怪』の間で 日々 悩み考えながら 活動を続けている。",
-            "_en": "A local mascot monster working hard to revitalize Kemamoto Village. He continues his activities while thinking about the difference between ``character'' and ``yokai'' every day.",
-            "_fr": "Un monstre mascotte local qui travaille dur pour revitaliser le village de Kemamoto. Il continue ses activités en réfléchissant chaque jour à la différence entre « personnage » et « yokai »."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Roue rêve-Pièce 5 étoiles"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Poing puissant",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Grosse légume",
+        "puissance": "170|225",
+        "description": "Grâce à l'énergie conférée par les légumes d'Ourcival, il attaque un seul ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Charme rustique",
+        "puissance": "N/A",
+        "description": "Le Yo-kai est charmé par la vie à la campagne, toutes ses stats augmentent."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Renforcer",
+        "puissance": "N/A",
+        "description": "Temporaire. Augmente l'attaque d'un Yo-kai."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Boule de riz",
+        "description": "Remplit les PV une fois quand ceux-ci sont bas."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Grosse légume",
+        "puissance": "400",
+        "description": "Inflige de gros dégâts  courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Cercle parfait",
+        "puissance": "___",
+        "description": "Crée un champ où les stats des alliés augmenteront."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Riz-suscitation",
+        "description": "Restaure l'allié plus vite."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Poing puissant",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Grosse légume",
+        "puissance": "140|280",
+        "description": "Frappe la colonne devant lui avec l'énergie conférée par les légumes d'Ourcival."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Charme rustique",
+        "puissance": "N/A",
+        "description": "Le Yo-kai est charmé par la vie à la campagne, toutes ses stats augmentent."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Boule de riz",
+        "description": "Récupère des PV si sur le point d'être battu. (une fois)"
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Boule de riz",
+    "description": "Remplit les PV une fois quand ceux-ci sont bas."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/timours.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/timours.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/timours.wav",
+  "oldID": "338",
+  "medallium_ids": {
+    "yw2": "154",
+    "yw3": "269"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "195",
+    "yw Blasters 2": "274",
+    "yw World": "0219"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Bear Care",
+  "skill_effect": "Rustic Charm",
+  "disliked_food": "Vegetables",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "374",
+        "STR": "192",
+        "SPR": "146",
+        "DEF": "168",
+        "SPD": "130"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "374",
+        "STR": "181",
+        "SPR": "195",
+        "DEF": "110",
+        "SPD": "114"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ケマモン"
+    ],
+    "Spanish": [
+      "Oso"
+    ],
+    "French": [
+      "Timours"
+    ],
+    "Italian": [
+      "Harry"
+    ],
+    "German": [
+      "Peter"
+    ],
+    "Dutch": [
+      "Harry"
+    ],
+    "Korean": [
+      "달웅이",
+      "Dal-ung-i"
+    ],
+    "Russian": [
+      "Гарри",
+      "Garri"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ケマモン Kemamon"
+    ],
+    "Spanish": [
+      "Oso Boco"
+    ],
+    "French": [
+      "Timours"
+    ],
+    "Italian": [
+      "Harry Barry"
+    ],
+    "German": [
+      "Peter Petz"
+    ],
+    "Dutch": [
+      "Harry Barry"
+    ],
+    "Korean": [
+      "달웅이"
+    ],
+    "Russian": [
+      "Гарри Барри"
+    ]
+  },
+  "description_en": "This village mascot works night and day to come up with ways of making his hometown more popular.",
+  "nom_en": "Foiletta",
+  "rang_yww": "B",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "viande",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "–",
+    "_en": null,
+    "_fr": null
+  },
+  "avantage_yww": {
+    "_jp": "–",
+    "_en": null,
+    "_fr": null
+  },
+  "stats_initiale_yww": {
+    "hp": 48,
+    "str": 22,
+    "spr": 28,
+    "def": 15,
+    "spd": 16
+  },
+  "stats_max_yww": {
+    "hp": 364,
+    "str": 176,
+    "spr": 190,
+    "def": 105,
+    "spd": 109
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "1つ星コイン",
+      "_en": "1 star coin",
+      "_fr": "Pièce d'une étoile"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ぶんなぐる",
+        "_en": "wallop",
+        "_fr": "coup"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+        "_en": "[Power: 50/Blow] Deal a big blow",
+        "_fr": "[Puissance : 50/Coup] Portez un gros coup"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "回復の術",
+        "_en": "art of recovery",
+        "_fr": "l'art de la récupération"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ケマモト特産パンチ",
+        "_en": "Kemamoto special punch",
+        "_fr": "Coup de poing spécial Kemamoto"
+      },
+      "pouvoir": "140",
+      "explication": {
+        "_jp": "ケマモト特産の野菜でつちかった力でパンチする。",
+        "_en": "Punch with the power of Kemamoto's special vegetables.",
+        "_fr": "Punch avec la puissance des légumes spéciaux de Kemamoto."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "田舎の力",
+        "_en": "power of the countryside",
+        "_fr": "pouvoir de la campagne"
+      },
+      "explication": {
+        "_jp": "【ようりょくアップ】 とりつかれた妖怪はケマモトの田舎のやさしさで 全ステータスが小アップする。",
+        "_en": "[Yoryoku Up] All stats of possessed monsters will be slightly increased by Kemamoto's country kindness.",
+        "_fr": "[Yoryoku Up] Toutes les statistiques des monstres possédés seront légèrement augmentées par la gentillesse de Kemamoto."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "ケマモト村の村おこしのために がんばる ご当地キャラ妖怪。 『キャラ』と『妖怪』の間で 日々 悩み考えながら 活動を続けている。",
+      "_en": "A local mascot monster working hard to revitalize Kemamoto Village. He continues his activities while thinking about the difference between ``character'' and ``yokai'' every day.",
+      "_fr": "Un monstre mascotte local qui travaille dur pour revitaliser le village de Kemamoto. Il continue ses activités en réfléchissant chaque jour à la différence entre « personnage » et « yokai »."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "331",
+  "Name_yww": "ケマモン",
+  "description_jp_yww": "ケマモト村の村おこしのために がんばる　ご当地キャラ妖怪。 『キャラ』と『妖怪』の間で 日々　悩み考えながら 活動を続けている。",
+  "BingoMessage_jp_yww": "やっと出られたケマ～！ 早く　ケマモト村に帰るケマ！",
+  "MonsterId_yww": "y313010",
+  "Height_yww": 13.0,
+  "CommondId_yww": "sp_313010",
+  "MinHp_yww": 49,
+  "MaxHp_yww": 440,
+  "MinAttack_yww": 29,
+  "MaxAttack_yww": 212,
+  "MinMagic_yww": 22,
+  "MaxMagic_yww": 149,
+  "MinDefense_yww": 12,
+  "MaxDefense_yww": 98,
+  "MinSpeed_yww": 38,
+  "MaxSpeed_yww": 170,
+  "AttackId_yww": 5,
+  "MagicId_yww": 12,
+  "HauntId_yww": 313010,
+  "SpSkillId_yww": 313010,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 16,
+  "DislikeFoodKind_yww": 12,
+  "ActionType_yww": 4,
+  "TribeType_yww": 7,
+  "MedallionImage_yww": "y308810.png",
+  "SpriteImage_yww": "img_y308810.png",
+  "Audio_yww": "sp_y308810.wav",
+  "Description_yww": "Un yōkai, mascotte locale, qui se donne à fond pour redynamiser le village de Kemamoto. Tantôt « mascotte », tantôt « yōkai », il poursuit ses activités tout en se posant chaque jour des questions.",
+  "BingoMessage_fr_yww": "Je suis enfin sorti, Kema ! Je vais vite rentrer au village de Kemamoto, Kema !"
 }

@@ -1,604 +1,635 @@
 {
-    "ID": "223",
-    "Nom": "Vipairflay",
-    "Tribue": "Insaisissable",
-    "Rang": "A",
-    "PV": "441",
-    "Force": "238",
-    "Esprit": "76",
-    "Défense": "130",
-    "Vitesse": "142",
-    "Description": "Il sort de nulle part dès qu'un combat commence pour s'assurer qu'il n'y ait pas de triche.",
-    "nourriture": "Fruits de Mer",
-    "élément": "Foudre",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "Vipairflay vient de Vipère (un serpent) et de Fair-play.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/vipairflay.png",
-    "numero": "211",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Grand sérieux",
-            "effet": "Ne flânera jamais."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coups successifs",
-            "effet": "15x3 | 33x3"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Haute tension",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Vague de venin",
-            "effet": "Répand une vague venimeuse qui réduit la FOR. ennemie."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Venin de vipère",
-            "effet": "Le venin de vipère envoûte le Yo-kai, ce qui baisse énormément sa VIT."
-        }
+  "ID": "223",
+  "Nom": "Vipairflay",
+  "Tribue": "Insaisissable",
+  "Rang": "A",
+  "PV": "441",
+  "Force": "238",
+  "Esprit": "76",
+  "Défense": "130",
+  "Vitesse": "142",
+  "Description": "Il sort de nulle part dès qu'un combat commence pour s'assurer qu'il n'y ait pas de triche.",
+  "nourriture": "Fruits de Mer",
+  "élément": "Foudre",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "Vipairflay vient de Vipère (un serpent) et de Fair-play.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/vipairflay.png",
+  "numero": "211",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Grand sérieux",
+      "effet": "Ne flânera jamais."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coups successifs",
+      "effet": "15x3 | 33x3"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Haute tension",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Vague de venin",
+      "effet": "Répand une vague venimeuse qui réduit la FOR. ennemie."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Venin de vipère",
+      "effet": "Le venin de vipère envoûte le Yo-kai, ce qui baisse énormément sa VIT."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Bravo !",
+    "Mange de la nourriture insipide": "Tellement banal.",
+    "Mange de la mauvaise nourriture": "Mon palais...",
+    "A la flemme": "J'ai essayé...",
+    "Est échangé": "Cet échange a été réalisé dans les règles et avec respect. Bien joué !",
+    "Devient ton ami": "Quel combat ! La plus glorieuse des gloires ! Il faut qu'on devienne amis !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "まむし行司",
+  "nom_anglais": "Slitheref",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Yo-kai World- Antichambre",
+      "Yo-kai World - Montagne du menteur (blanc)",
+      "Yo-kai World - Route des Vandales (blanc)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Bravo !",
-        "Mange de la nourriture insipide": "Tellement banal.",
-        "Mange de la mauvaise nourriture": "Mon palais...",
-        "A la flemme": "J'ai essayé...",
-        "Est échangé": "Cet échange a été réalisé dans les règles et avec respect. Bien joué !",
-        "Devient ton ami": "Quel combat ! La plus glorieuse des gloires ! Il faut qu'on devienne amis !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "まむし行司",
-    "nom_anglais": "Slitheref",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Yo-kai World- Antichambre",
-            "Yo-kai World - Montagne du menteur (blanc)",
-            "Yo-kai World - Route des Vandales (blanc)"
-        ],
-        "yw2": [
-            "Ourcival- tombes/buissons",
-            "Tunnel sans fin"
-        ],
-        "yw3": [
-            "Centre-ville de Granval- buissons"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Coups successifs",
-                "puissance": "15×3|33×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Vague de venin",
-                "puissance": "___",
-                "description": "Répand une vague venimeuse qui réduit la FOR. ennemie."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Venin de vipère",
-                "puissance": "N/A",
-                "description": "Ralentit un ennemi avec du venin de serpent."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Équipement banni",
-                "description": "Annule les effets des équipements."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Coups successifs",
-                "puissance": "15×3|33×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Vague de venin",
-                "puissance": "___",
-                "description": "Répand une vague venimeuse qui réduit la FOR. ennemie."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Venin de vipère",
-                "puissance": "N/A",
-                "description": "Le venin de vipère envoûte le Yo-kai, ce qui baisse énormément sa VIT."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Grand sérieux",
-                "description": "Ne flânera jamais."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Vague de venin",
-                "puissance": "___",
-                "description": "Forte baisse temporaire de l'attaque ennemie."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Décharge",
-                "puissance": "40",
-                "description": "Utilise un sort de foudre. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Envoût. poison +",
-                "puissance": "___",
-                "description": "Baisse rapide PV ennemis. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Cercle vicieux",
-                "puissance": "___",
-                "description": "Crée un champ où les stats des ennemis baissent."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Persistance",
-                "description": "Ralentit la perte de la jauge d'attaque."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Coups successifs",
-                "puissance": "24×3|38×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Vague de venin",
-                "puissance": "___",
-                "description": "Répand une vague venimeuse qui baisse fortement la FOR. ennemie."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Venin de vipère",
-                "puissance": "N/A",
-                "description": "L'effet paralysant du venin de vipère réduit la VIT. de l'ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Grand sérieux",
-                "description": "Ne flânera jamais."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Équipement banni",
-        "description": "Annule les effets des équipements."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/vipairflay.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/vipairflay.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/vipairflay.wav",
-    "oldID": "222",
-    "medallium_ids": {
-        "yw1": "211",
-        "yw2": "319",
-        "yw3": "567"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "380",
-        "yw Blasters 2": "586",
-        "yw Wibble Wobble": "8015",
-        "yw World": "0180",
-        "yw Ukiukipedia": "yw3-028"
-    },
-    "battle_type": "",
-    "skill_name": "Equipment Forbidden! yw yw2 Too serious yw3",
-    "skill_effect": "Pit Viper Venom",
-    "disliked_food": "Candy",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "384",
-                "STR": "168",
-                "SPR": "149",
-                "DEF": "170",
-                "SPD": "158"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "451",
-                "STR": "168",
-                "SPR": "149",
-                "DEF": "170",
-                "SPD": "158"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "343-602",
-                "STR": "243",
-                "SPR": "81",
-                "DEF": "135",
-                "SPD": "147"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "343-602"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "343-602"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "343-602"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "まむし行司",
-            "Mamushi"
-        ],
-        "Spanish": [
-            "Arfidio"
-        ],
-        "French": [
-            "Vipairflay"
-        ],
-        "Italian": [
-            "Rettilarbitro"
-        ],
-        "German": [
-            "Schiriviper"
-        ],
-        "Russian": [
-            "Арбитробра",
-            "Arbitrobra"
-        ],
-        "Arabic": [
-            "حاسم",
-            "Ḥāsim"
-        ],
-        "Portuguese (European)": [
-            "Najafurtiva"
-        ],
-        "Portuguese (Brazilian)": [
-            "Najafurtiva"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "まむし行司"
-        ],
-        "Spanish": [
-            "Arfidio"
-        ],
-        "French": [
-            "Vipairflay"
-        ],
-        "Italian": [
-            "Rettilarbitro"
-        ],
-        "German": [
-            "Schiriviper"
-        ],
-        "Russian": [
-            "Арбитробра"
-        ],
-        "Arabic": [
-            "حاسم"
-        ],
-        "Portuguese (European)": [
-            "Najafurtiva"
-        ],
-        "Portuguese (Brazilian)": [
-            "Najafurtiva"
-        ]
-    },
-    "description_en": "When a battle starts, Slitheref will appear out of nowhere and make sure the fight stays fair and square.",
-    "nom_en": "Babblong",
-    "rang_yww": "A",
-    "tribue_yww": "Nyororon",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "fruit de mer",
-    "nourriture_favorite": "fruit de mer",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 53,
-        "str": 30,
-        "spr": 16,
-        "def": 20,
-        "spd": 23
-    },
-    "stats_max_yww": {
-        "hp": 441,
-        "str": 238,
-        "spr": 76,
-        "def": 130,
-        "spd": 142
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "5つ星コイン",
-            "_en": "5 star coin",
-            "_fr": "Pièce de 5 étoiles"
-        },
-        {
-            "_jp": "水色コイン",
-            "_en": "light blue coin",
-            "_fr": "pièce bleu clair"
-        },
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw2": [
+      "Ourcival- tombes/buissons",
+      "Tunnel sans fin"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "めったうち",
-                "_en": "Very rarely",
-                "_fr": "Très rarement"
-            },
-            "explication": {
-                "_jp": "【威力:24×3 / 打撃】 3回攻撃を行う",
-                "_en": "[Power: 24×3/Blow] Attacks 3 times",
-                "_fr": "[Puissance : 24×3/Coup] Attaque 3 fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "雷神の術",
-                "_en": "Raijin no Jutsu",
-                "_fr": "Raijin no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
-                "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
-                "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "うっちゃり毒牙",
-                "_en": "Poison fang",
-                "_fr": "Croc empoisonné"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "まむしの毒を波動にしてふりまき敵全員のちからを大ダウンさせる。",
-                "_en": "Spreads the viper's poison in waves, greatly reducing the power of all enemies.",
-                "_fr": "Répand le venin de la vipère par vagues, réduisant considérablement la puissance de tous les ennemis."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "まむしの毒",
-                "_en": "viper poison",
-                "_fr": "poison de vipère"
-            },
-            "explication": {
-                "_jp": "【すばやさダウン】 まむしの毒でしびれてすばやさがダウン",
-                "_en": "[Speed ​​reduction] Speed ​​decreases due to numbness due to viper poison",
-                "_fr": "[Réduction de vitesse] La vitesse diminue en raison d'un engourdissement dû au venin de vipère"
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "戦いが始まると どこからともなくやってきて その場を仕切りだす。 その戦いは 正々堂々とした 清々しい勝負になる。",
-            "_en": "When a battle begins, they come out of nowhere and take charge of the situation. The battle will be a fair and refreshing one.",
-            "_fr": "Lorsqu’une bataille commence, ils surgissent de nulle part et prennent la situation en main. La bataille sera juste et rafraîchissante."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Centre-ville de Granval- buissons"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Coups successifs",
+        "puissance": "15×3|33×3",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Haute tension",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Vague de venin",
+        "puissance": "___",
+        "description": "Répand une vague venimeuse qui réduit la FOR. ennemie."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Venin de vipère",
+        "puissance": "N/A",
+        "description": "Ralentit un ennemi avec du venin de serpent."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Équipement banni",
+        "description": "Annule les effets des équipements."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Coups successifs",
+        "puissance": "15×3|33×3",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Haute tension",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Vague de venin",
+        "puissance": "___",
+        "description": "Répand une vague venimeuse qui réduit la FOR. ennemie."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Venin de vipère",
+        "puissance": "N/A",
+        "description": "Le venin de vipère envoûte le Yo-kai, ce qui baisse énormément sa VIT."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Grand sérieux",
+        "description": "Ne flânera jamais."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Vague de venin",
+        "puissance": "___",
+        "description": "Forte baisse temporaire de l'attaque ennemie."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Décharge",
+        "puissance": "40",
+        "description": "Utilise un sort de foudre. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Envoût. poison +",
+        "puissance": "___",
+        "description": "Baisse rapide PV ennemis. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Cercle vicieux",
+        "puissance": "___",
+        "description": "Crée un champ où les stats des ennemis baissent."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Persistance",
+        "description": "Ralentit la perte de la jauge d'attaque."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Coups successifs",
+        "puissance": "24×3|38×3",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Haute tension",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Vague de venin",
+        "puissance": "___",
+        "description": "Répand une vague venimeuse qui baisse fortement la FOR. ennemie."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Venin de vipère",
+        "puissance": "N/A",
+        "description": "L'effet paralysant du venin de vipère réduit la VIT. de l'ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Grand sérieux",
+        "description": "Ne flânera jamais."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Équipement banni",
+    "description": "Annule les effets des équipements."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/vipairflay.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/vipairflay.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/vipairflay.wav",
+  "oldID": "222",
+  "medallium_ids": {
+    "yw1": "211",
+    "yw2": "319",
+    "yw3": "567"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "380",
+    "yw Blasters 2": "586",
+    "yw Wibble Wobble": "8015",
+    "yw World": "0180",
+    "yw Ukiukipedia": "yw3-028"
+  },
+  "battle_type": "",
+  "skill_name": "Equipment Forbidden! yw yw2 Too serious yw3",
+  "skill_effect": "Pit Viper Venom",
+  "disliked_food": "Candy",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "384",
+        "STR": "168",
+        "SPR": "149",
+        "DEF": "170",
+        "SPD": "158"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "451",
+        "STR": "168",
+        "SPR": "149",
+        "DEF": "170",
+        "SPD": "158"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "343-602",
+        "STR": "243",
+        "SPR": "81",
+        "DEF": "135",
+        "SPD": "147"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "343-602"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "343-602"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "343-602"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "まむし行司",
+      "Mamushi"
+    ],
+    "Spanish": [
+      "Arfidio"
+    ],
+    "French": [
+      "Vipairflay"
+    ],
+    "Italian": [
+      "Rettilarbitro"
+    ],
+    "German": [
+      "Schiriviper"
+    ],
+    "Russian": [
+      "Арбитробра",
+      "Arbitrobra"
+    ],
+    "Arabic": [
+      "حاسم",
+      "Ḥāsim"
+    ],
+    "Portuguese (European)": [
+      "Najafurtiva"
+    ],
+    "Portuguese (Brazilian)": [
+      "Najafurtiva"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "まむし行司"
+    ],
+    "Spanish": [
+      "Arfidio"
+    ],
+    "French": [
+      "Vipairflay"
+    ],
+    "Italian": [
+      "Rettilarbitro"
+    ],
+    "German": [
+      "Schiriviper"
+    ],
+    "Russian": [
+      "Арбитробра"
+    ],
+    "Arabic": [
+      "حاسم"
+    ],
+    "Portuguese (European)": [
+      "Najafurtiva"
+    ],
+    "Portuguese (Brazilian)": [
+      "Najafurtiva"
+    ]
+  },
+  "description_en": "When a battle starts, Slitheref will appear out of nowhere and make sure the fight stays fair and square.",
+  "nom_en": "Babblong",
+  "rang_yww": "A",
+  "tribue_yww": "Nyororon",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "fruit de mer",
+  "nourriture_favorite": "fruit de mer",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 53,
+    "str": 30,
+    "spr": 16,
+    "def": 20,
+    "spd": 23
+  },
+  "stats_max_yww": {
+    "hp": 441,
+    "str": 238,
+    "spr": 76,
+    "def": 130,
+    "spd": 142
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "5つ星コイン",
+      "_en": "5 star coin",
+      "_fr": "Pièce de 5 étoiles"
+    },
+    {
+      "_jp": "水色コイン",
+      "_en": "light blue coin",
+      "_fr": "pièce bleu clair"
+    },
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "めったうち",
+        "_en": "Very rarely",
+        "_fr": "Très rarement"
+      },
+      "explication": {
+        "_jp": "【威力:24×3 / 打撃】 3回攻撃を行う",
+        "_en": "[Power: 24×3/Blow] Attacks 3 times",
+        "_fr": "[Puissance : 24×3/Coup] Attaque 3 fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "雷神の術",
+        "_en": "Raijin no Jutsu",
+        "_fr": "Raijin no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
+        "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
+        "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "うっちゃり毒牙",
+        "_en": "Poison fang",
+        "_fr": "Croc empoisonné"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "まむしの毒を波動にしてふりまき敵全員のちからを大ダウンさせる。",
+        "_en": "Spreads the viper's poison in waves, greatly reducing the power of all enemies.",
+        "_fr": "Répand le venin de la vipère par vagues, réduisant considérablement la puissance de tous les ennemis."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "まむしの毒",
+        "_en": "viper poison",
+        "_fr": "poison de vipère"
+      },
+      "explication": {
+        "_jp": "【すばやさダウン】 まむしの毒でしびれてすばやさがダウン",
+        "_en": "[Speed ​​reduction] Speed ​​decreases due to numbness due to viper poison",
+        "_fr": "[Réduction de vitesse] La vitesse diminue en raison d'un engourdissement dû au venin de vipère"
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "戦いが始まると どこからともなくやってきて その場を仕切りだす。 その戦いは 正々堂々とした 清々しい勝負になる。",
+      "_en": "When a battle begins, they come out of nowhere and take charge of the situation. The battle will be a fair and refreshing one.",
+      "_fr": "Lorsqu’une bataille commence, ils surgissent de nulle part et prennent la situation en main. La bataille sera juste et rafraîchissante."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "223",
+  "Name_yww": "まむし行司",
+  "description_jp_yww": "戦いが始まると どこからともなくやってきて その場を仕切りだす。 その戦いは　正々堂々とした 清々しい勝負になる。",
+  "BingoMessage_jp_yww": "そなたの堂々とした出で立ち　見事じゃ！ 仲間にしてくれ！",
+  "MonsterId_yww": "y220010",
+  "Height_yww": 8.0,
+  "CommondId_yww": "sp_220010",
+  "MinHp_yww": 53,
+  "MaxHp_yww": 441,
+  "MinAttack_yww": 30,
+  "MaxAttack_yww": 238,
+  "MinMagic_yww": 16,
+  "MaxMagic_yww": 76,
+  "MinDefense_yww": 20,
+  "MaxDefense_yww": 130,
+  "MinSpeed_yww": 23,
+  "MaxSpeed_yww": 142,
+  "AttackId_yww": 30,
+  "MagicId_yww": 9,
+  "HauntId_yww": 220010,
+  "SpSkillId_yww": 220010,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 12,
+  "DislikeFoodKind_yww": 3,
+  "ActionType_yww": 4,
+  "TribeType_yww": 8,
+  "MedallionImage_yww": "y215810.png",
+  "SpriteImage_yww": "img_y215810.png",
+  "Audio_yww": "sp_y215810.wav",
+  "Description_yww": "Dès que le combat commence, il surgit de nulle part et prend les choses en main. Ce combat devient alors une épreuve honnête et exaltante.",
+  "BingoMessage_fr_yww": "Ta prestance est magnifique ! Accepte-moi parmi tes compagnons !"
 }

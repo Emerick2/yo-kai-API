@@ -1,565 +1,596 @@
 {
-    "ID": "211",
-    "Nom": "Sire Dragon",
-    "Tribue": "Insaisissable",
-    "Rang": "S",
-    "PV": "436",
-    "Force": "194",
-    "Esprit": "194",
-    "Défense": "108",
-    "Vitesse": "138",
-    "Description": "Dracounet a acquis assez de dignité et peut donc prétendre au statut de « dragon ».",
-    "nourriture": "Cuisine chinoise",
-    "élément": "Terre",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Ses pouvoirs étant doublé Dracounet peut faire des tremblements de terre, faire tomber des météores et briser le sol en deux.",
-    "personnalité": "Dracounet est devenu très digne et peut enfin être appelé \"dragon\"",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/sire-dragon.png",
-    "numero": "199",
-    "nourriture_favorite": "Plats chinois",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Dragon tenace",
-            "effet": "Sa puissance augmente quand il est en danger."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Vilaine morsure",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Météore",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Rocher dragon",
-            "effet": "Largue des blocs de roche sur l'ennemi à l'aide de son cristal. 190 | 190"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Énergie dragon",
-            "effet": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
-        }
+  "ID": "211",
+  "Nom": "Sire Dragon",
+  "Tribue": "Insaisissable",
+  "Rang": "S",
+  "PV": "436",
+  "Force": "194",
+  "Esprit": "194",
+  "Défense": "108",
+  "Vitesse": "138",
+  "Description": "Dracounet a acquis assez de dignité et peut donc prétendre au statut de « dragon ».",
+  "nourriture": "Cuisine chinoise",
+  "élément": "Terre",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Ses pouvoirs étant doublé Dracounet peut faire des tremblements de terre, faire tomber des météores et briser le sol en deux.",
+  "personnalité": "Dracounet est devenu très digne et peut enfin être appelé \"dragon\"",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/sire-dragon.png",
+  "numero": "199",
+  "nourriture_favorite": "Plats chinois",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Dragon tenace",
+      "effet": "Sa puissance augmente quand il est en danger."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Vilaine morsure",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Météore",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Rocher dragon",
+      "effet": "Largue des blocs de roche sur l'ennemi à l'aide de son cristal. 190 | 190"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Énergie dragon",
+      "effet": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Fantastique !",
+    "Mange de la nourriture insipide": "Hmm...",
+    "Mange de la mauvaise nourriture": "Fais un effort !",
+    "A la flemme": "Je me repose...",
+    "Est échangé": "Je veux voir ta force en combat... Nous allons nous entraider !",
+    "Devient ton ami": "Tu as une force inouïe en toi ! J'accepte ton amitié !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Dracounet",
+      "parent2": "Orbe de dragon",
+      "resultat": "Sire Dragon",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "龍神",
+  "nom_anglais": "Dragon Lord",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Fusion",
+      "Coteau fleuri - sentier bambouseraie- bambous (Jour)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Fantastique !",
-        "Mange de la nourriture insipide": "Hmm...",
-        "Mange de la mauvaise nourriture": "Fais un effort !",
-        "A la flemme": "Je me repose...",
-        "Est échangé": "Je veux voir ta force en combat... Nous allons nous entraider !",
-        "Devient ton ami": "Tu as une force inouïe en toi ! J'accepte ton amitié !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Dracounet",
-            "parent2": "Orbe de dragon",
-            "resultat": "Sire Dragon",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Fusion"
     ],
-    "image_locale": "",
-    "nom_original": "龍神",
-    "nom_anglais": "Dragon Lord",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Fusion",
-            "Coteau fleuri - sentier bambouseraie- bambous (Jour)"
-        ],
-        "yw2": [
-            "Fusion"
-        ],
-        "yw Blasters 1": [
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion"
-        ],
-        "yw Wibble Wobble": [
-            "Bingo-kai"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Vilaine morsure",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Météore",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Rocher dragon",
-                "puissance": "180|180",
-                "description": "Largue des blocs de roche sur l'ennemi à l'aide de son cristal."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie dragon",
-                "puissance": "N/A",
-                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Dragon tenace",
-                "description": "Sa puissance augmente quand il est en danger."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Vilaine morsure",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Météore",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Rocher dragon",
-                "puissance": "190|190",
-                "description": "Largue des blocs de roche sur l'ennemi à l'aide de son cristal."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie dragon",
-                "puissance": "N/A",
-                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Dragon tenace",
-                "description": "Sa puissance augmente quand il est en danger."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Rocher dragon",
-                "puissance": "80×5",
-                "description": "Des rochers infligent de gros dégâts aux ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Galet",
-                "puissance": "40",
-                "description": "Utilise un sort de terre. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Position offensive",
-                "puissance": "___",
-                "description": "Hausse de l'attaque temporaire."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Trembler",
-                "puissance": "50",
-                "description": "Un sort de terre puissant. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Dragon tenace",
-                "description": "Hausse de l'attaque en cas de danger."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Vilaine morsure",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Météore",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Rocher dragon",
-                "puissance": "___",
-                "description": "Des rochers s'abattent sur le plateau ennemi, bloquant certaines cases !"
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie dragon",
-                "puissance": "N/A",
-                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Dragon tenace",
-                "description": "↑ puissance ++ en situation de danger."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Dragon tenace",
-        "description": "Sa puissance augmente quand il est en danger."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/sire-dragon.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/sire-dragon.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/sire-dragon.wav",
-    "oldID": "210",
-    "medallium_ids": {
-        "yw1": "199",
-        "yw2": "301",
-        "yw3": "538"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "361",
-        "yw Blasters 2": "554",
-        "yw Wibble Wobble": "8053",
-        "yw World": "0170",
-        "yw Ukiukipedia": "yw2-043"
-    },
-    "battle_type": "",
-    "skill_name": "Dragon Force",
-    "skill_effect": "Dragon Power",
-    "disliked_food": "Ramen",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "407",
-                "STR": "154",
-                "SPR": "202",
-                "DEF": "145",
-                "SPD": "176"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "448",
-                "STR": "154",
-                "SPR": "202",
-                "DEF": "145",
-                "SPD": "176"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "448",
-                "STR": "202",
-                "SPR": "203",
-                "DEF": "117",
-                "SPD": "146"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "龍神"
-        ],
-        "Spanish": [
-            "Lord"
-        ],
-        "French": [
-            "Sire"
-        ],
-        "Italian": [
-            "Drago"
-        ],
-        "German": [
-            "Drachenfürst"
-        ],
-        "Korean": [
-            "신룡"
-        ],
-        "Russian": [
-            "Драконий",
-            "Drakoniy"
-        ],
-        "Arabic": [
-            "جارف",
-            "Jārif"
-        ],
-        "Portuguese (Brazilian)": [
-            "Lord"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "龍神 Ryūjin"
-        ],
-        "Spanish": [
-            "Lord Dragón"
-        ],
-        "French": [
-            "Sire Dragon"
-        ],
-        "Italian": [
-            "Drago Reale"
-        ],
-        "German": [
-            "Drachenfürst"
-        ],
-        "Korean": [
-            "신룡 Sinlyong"
-        ],
-        "Russian": [
-            "Драконий Повелитель"
-        ],
-        "Arabic": [
-            "جارف"
-        ],
-        "Portuguese (Brazilian)": [
-            "Lord Draco"
-        ]
-    },
-    "description_en": "Draggie has come into his own with dignity and might worthy of the title \"dragon.\"",
-    "nom_en": "Pandanoko",
-    "rang_yww": "S",
-    "tribue_yww": "Nyororon",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Cuisine chinoise",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 54,
-        "str": 30,
-        "spr": 30,
-        "def": 16,
-        "spd": 24
-    },
-    "stats_max_yww": {
-        "hp": 436,
-        "str": 194,
-        "spr": 194,
-        "def": 108,
-        "spd": 138
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw Blasters 1": [
+      "Fusion"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "かみちぎる",
-                "_en": "Kamichigiru",
-                "_fr": "Kamichigiru"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 打撃】 強力な一撃を加える",
-                "_en": "[Power: 70/Blow] Add a powerful blow",
-                "_fr": "[Puissance : 70/Coup] Ajoutez un coup puissant"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "いん石の術",
-                "_en": "Meteor no jutsu",
-                "_fr": "Météore pas de jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 土属性】 強力な土の妖術を使う。",
-                "_en": "[Power: 70 / Earth attribute] Uses powerful earth magic.",
-                "_fr": "[Puissance : 70 / Attribut Terre] Utilise une puissante magie terrestre."
-            }
-        }
+    "yw3": [
+      "Fusion"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "龍神ロック",
-                "_en": "Ryujin Rock",
-                "_fr": "Rocher Ryujin"
-            },
-            "pouvoir": "148",
-            "explication": {
-                "_jp": "敵全員にダメージを与える",
-                "_en": "Cause damage to all enemies",
-                "_fr": "Infliger des dégâts à tous les ennemis"
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "龍のちから",
-                "_en": "The power of the dragon",
-                "_fr": "Le pouvoir du dragon"
-            },
-            "explication": {
-                "_jp": "【ちからアップ】 龍のちからで ちからがアップ",
-                "_en": "[Power up] Power up with the power of the dragon",
-                "_fr": "[Power up] Mettez sous tension avec le pouvoir du dragon"
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "りゅーくんが 真の力を手に入れて 龍の名にふさわしい りっぱな姿になった。 大地の力で敵を打ち負かす。",
-            "_en": "Ryu-kun has gained true power and has become worthy of the name of dragon. Defeat your enemies with the power of the earth.",
-            "_fr": "Ryu-kun a acquis un véritable pouvoir et est devenu digne du nom de dragon. Battez vos ennemis avec la puissance de la terre."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Bingo-kai"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Vilaine morsure",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Météore",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Rocher dragon",
+        "puissance": "180|180",
+        "description": "Largue des blocs de roche sur l'ennemi à l'aide de son cristal."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie dragon",
+        "puissance": "N/A",
+        "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Dragon tenace",
+        "description": "Sa puissance augmente quand il est en danger."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Vilaine morsure",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Météore",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Rocher dragon",
+        "puissance": "190|190",
+        "description": "Largue des blocs de roche sur l'ennemi à l'aide de son cristal."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie dragon",
+        "puissance": "N/A",
+        "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Dragon tenace",
+        "description": "Sa puissance augmente quand il est en danger."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Rocher dragon",
+        "puissance": "80×5",
+        "description": "Des rochers infligent de gros dégâts aux ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Galet",
+        "puissance": "40",
+        "description": "Utilise un sort de terre. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Position offensive",
+        "puissance": "___",
+        "description": "Hausse de l'attaque temporaire."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Trembler",
+        "puissance": "50",
+        "description": "Un sort de terre puissant. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Dragon tenace",
+        "description": "Hausse de l'attaque en cas de danger."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Vilaine morsure",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Météore",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Rocher dragon",
+        "puissance": "___",
+        "description": "Des rochers s'abattent sur le plateau ennemi, bloquant certaines cases !"
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie dragon",
+        "puissance": "N/A",
+        "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Dragon tenace",
+        "description": "↑ puissance ++ en situation de danger."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Dragon tenace",
+    "description": "Sa puissance augmente quand il est en danger."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/sire-dragon.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/sire-dragon.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/sire-dragon.wav",
+  "oldID": "210",
+  "medallium_ids": {
+    "yw1": "199",
+    "yw2": "301",
+    "yw3": "538"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "361",
+    "yw Blasters 2": "554",
+    "yw Wibble Wobble": "8053",
+    "yw World": "0170",
+    "yw Ukiukipedia": "yw2-043"
+  },
+  "battle_type": "",
+  "skill_name": "Dragon Force",
+  "skill_effect": "Dragon Power",
+  "disliked_food": "Ramen",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "407",
+        "STR": "154",
+        "SPR": "202",
+        "DEF": "145",
+        "SPD": "176"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "448",
+        "STR": "154",
+        "SPR": "202",
+        "DEF": "145",
+        "SPD": "176"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "448",
+        "STR": "202",
+        "SPR": "203",
+        "DEF": "117",
+        "SPD": "146"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "龍神"
+    ],
+    "Spanish": [
+      "Lord"
+    ],
+    "French": [
+      "Sire"
+    ],
+    "Italian": [
+      "Drago"
+    ],
+    "German": [
+      "Drachenfürst"
+    ],
+    "Korean": [
+      "신룡"
+    ],
+    "Russian": [
+      "Драконий",
+      "Drakoniy"
+    ],
+    "Arabic": [
+      "جارف",
+      "Jārif"
+    ],
+    "Portuguese (Brazilian)": [
+      "Lord"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "龍神 Ryūjin"
+    ],
+    "Spanish": [
+      "Lord Dragón"
+    ],
+    "French": [
+      "Sire Dragon"
+    ],
+    "Italian": [
+      "Drago Reale"
+    ],
+    "German": [
+      "Drachenfürst"
+    ],
+    "Korean": [
+      "신룡 Sinlyong"
+    ],
+    "Russian": [
+      "Драконий Повелитель"
+    ],
+    "Arabic": [
+      "جارف"
+    ],
+    "Portuguese (Brazilian)": [
+      "Lord Draco"
+    ]
+  },
+  "description_en": "Draggie has come into his own with dignity and might worthy of the title \"dragon.\"",
+  "nom_en": "Pandanoko",
+  "rang_yww": "S",
+  "tribue_yww": "Nyororon",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "Cuisine chinoise",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 54,
+    "str": 30,
+    "spr": 30,
+    "def": 16,
+    "spd": 24
+  },
+  "stats_max_yww": {
+    "hp": 436,
+    "str": 194,
+    "spr": 194,
+    "def": 108,
+    "spd": 138
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "かみちぎる",
+        "_en": "Kamichigiru",
+        "_fr": "Kamichigiru"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 打撃】 強力な一撃を加える",
+        "_en": "[Power: 70/Blow] Add a powerful blow",
+        "_fr": "[Puissance : 70/Coup] Ajoutez un coup puissant"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "いん石の術",
+        "_en": "Meteor no jutsu",
+        "_fr": "Météore pas de jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 土属性】 強力な土の妖術を使う。",
+        "_en": "[Power: 70 / Earth attribute] Uses powerful earth magic.",
+        "_fr": "[Puissance : 70 / Attribut Terre] Utilise une puissante magie terrestre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "龍神ロック",
+        "_en": "Ryujin Rock",
+        "_fr": "Rocher Ryujin"
+      },
+      "pouvoir": "148",
+      "explication": {
+        "_jp": "敵全員にダメージを与える",
+        "_en": "Cause damage to all enemies",
+        "_fr": "Infliger des dégâts à tous les ennemis"
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "龍のちから",
+        "_en": "The power of the dragon",
+        "_fr": "Le pouvoir du dragon"
+      },
+      "explication": {
+        "_jp": "【ちからアップ】 龍のちからで ちからがアップ",
+        "_en": "[Power up] Power up with the power of the dragon",
+        "_fr": "[Power up] Mettez sous tension avec le pouvoir du dragon"
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "りゅーくんが 真の力を手に入れて 龍の名にふさわしい りっぱな姿になった。 大地の力で敵を打ち負かす。",
+      "_en": "Ryu-kun has gained true power and has become worthy of the name of dragon. Defeat your enemies with the power of the earth.",
+      "_fr": "Ryu-kun a acquis un véritable pouvoir et est devenu digne du nom de dragon. Battez vos ennemis avec la puissance de la terre."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "211",
+  "Name_yww": "龍神",
+  "description_jp_yww": "りゅーくんが 真の力を手に入れて 龍の名にふさわしい りっぱな姿になった。 大地の力で敵を打ち負かす。",
+  "BingoMessage_jp_yww": "われは　お前について行くことに決めたぞ！ 心しておけよ！",
+  "MonsterId_yww": "y214000",
+  "Height_yww": 14.0,
+  "CommondId_yww": "sp_214000",
+  "MinHp_yww": 54,
+  "MaxHp_yww": 436,
+  "MinAttack_yww": 30,
+  "MaxAttack_yww": 194,
+  "MinMagic_yww": 30,
+  "MaxMagic_yww": 194,
+  "MinDefense_yww": 16,
+  "MaxDefense_yww": 108,
+  "MinSpeed_yww": 24,
+  "MaxSpeed_yww": 138,
+  "AttackId_yww": 18,
+  "MagicId_yww": 12,
+  "HauntId_yww": 214000,
+  "SpSkillId_yww": 214000,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 9,
+  "DislikeFoodKind_yww": 7,
+  "ActionType_yww": 1,
+  "TribeType_yww": 8,
+  "MedallionImage_yww": "y209800.png",
+  "SpriteImage_yww": "img_y209800.png",
+  "Audio_yww": "sp_y209800.wav",
+  "Description_yww": "Ryū-kun a acquis son véritable pouvoir et est devenu une figure imposante, digne du nom de « dragon ». Il vainc ses ennemis grâce à la puissance de la terre.",
+  "BingoMessage_fr_yww": "J'ai décidé de te suivre ! Prépare-toi !"
 }

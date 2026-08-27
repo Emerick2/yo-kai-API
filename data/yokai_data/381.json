@@ -1,505 +1,536 @@
 {
-    "ID": "381",
-    "Nom": "Petit panja",
-    "Tribue": "Mignon",
-    "Rang": "D",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "Ce Panja évolué sait échapper à tous les regards ! Mais il ne sait pas se taire et se fait vite repérer.",
-    "description SITE": "Ce jeune citadin donne à ceux qu'il envoûte un zeste de charme et tout le chic de la ville.",
-    "nourriture": "Sushi",
-    "élément": "Glace",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Les personnes envoûtés par ce Yo-kai deviennent des citadins et ont beaucoup de connaissances sur la grande ville.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/petit-panja.png",
-    "numero": "374",
-    "nourriture_favorite": "Sushi",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Invisibilité",
-            "effet": "Ne sera pas la cible des attaques."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Frappe",
-            "effet": "10 | 45"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Grêle",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Panjaï !",
-            "effet": "Attaque un ennemi avec toute la force du panja. 90 | 198"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Force panja",
-            "effet": "Le Yo-kai fait appel à la Force panja pour augmenter sa VIT."
-        }
+  "ID": "381",
+  "Nom": "Petit panja",
+  "Tribue": "Mignon",
+  "Rang": "D",
+  "PV": 423,
+  "Force": 257,
+  "Esprit": 43,
+  "Défense": 130,
+  "Vitesse": 46,
+  "Description": "Ce Panja évolué sait échapper à tous les regards ! Mais il ne sait pas se taire et se fait vite repérer.",
+  "description SITE": "Ce jeune citadin donne à ceux qu'il envoûte un zeste de charme et tout le chic de la ville.",
+  "nourriture": "Sushi",
+  "élément": "Glace",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Les personnes envoûtés par ce Yo-kai deviennent des citadins et ont beaucoup de connaissances sur la grande ville.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/petit-panja.png",
+  "numero": "374",
+  "nourriture_favorite": "Sushi",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Invisibilité",
+      "effet": "Ne sera pas la cible des attaques."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Frappe",
+      "effet": "10 | 45"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Grêle",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Panjaï !",
+      "effet": "Attaque un ennemi avec toute la force du panja. 90 | 198"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Force panja",
+      "effet": "Le Yo-kai fait appel à la Force panja pour augmenter sa VIT."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est super !",
+    "Mange de la nourriture insipide": "Rien de spécial.",
+    "Mange de la mauvaise nourriture": "Vraiment pas bon.",
+    "A la flemme": "Ça m'amuse pas...",
+    "Est échangé": "Ça va être super ! Une toute nouvelle ville à explorer !",
+    "Devient ton ami": "T'as de l'énergie à revendre, toi ! J'aime ça !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Petit panja",
+      "parent2": "Lanterne du maître",
+      "resultat": "Panja-san",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "江戸っ子パンダ",
+  "nom_anglais": "Panja Pupil",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Kiyono Yasuno",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Petit Panja est disponible auBingo-kai, en utilisant laPièce levant."
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est super !",
-        "Mange de la nourriture insipide": "Rien de spécial.",
-        "Mange de la mauvaise nourriture": "Vraiment pas bon.",
-        "A la flemme": "Ça m'amuse pas...",
-        "Est échangé": "Ça va être super ! Une toute nouvelle ville à explorer !",
-        "Devient ton ami": "T'as de l'énergie à revendre, toi ! J'aime ça !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Petit panja",
-            "parent2": "Lanterne du maître",
-            "resultat": "Panja-san",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Petit Panja est disponible au Bingo-kai, en utilisant laPièce est."
     ],
-    "image_locale": "",
-    "nom_original": "江戸っ子パンダ",
-    "nom_anglais": "Panja Pupil",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Kiyono Yasuno",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Petit Panja est disponible auBingo-kai, en utilisant laPièce levant."
-        ],
-        "yw Blasters 1": [
-            "Petit Panja est disponible au Bingo-kai, en utilisant laPièce est."
-        ],
-        "yw3": [
-            "Il est possible de trouver Petit Panja dans leCentre-ville de Granval, à l'Aire de livraison."
-        ],
-        "yw Puni Puni": [
-            "Petit Panja est apparu pour la première fois dans l'événementNuit de Bon Odori de KJoù il était disponible dans le Stage Caché 1, déblocable en reliant 15 globules ou plus dans le Stage 10. Il revient dans l'événementBataille de Lance-Pierre au Clair de Lune, où il est de nouveau disponible dans le Stage Caché 1, déblocable en rentrant 2 fois en Ébullition ou plus dans le Stage 12. Il revient une nouvelle fois dans l'événementPortails de Komasan et Komajiro, où il est une fois de plus disponible dans le Stage Caché 1, déblocable en éclatant 200 globules ou plus dans le Stage 12."
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Frappe",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Grêle",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Panjaï !",
-                "puissance": "90|198",
-                "description": "Attaque un ennemi avec toute la force du panja."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Force panja",
-                "puissance": "N/A",
-                "description": "Le Yo-kai fait appel à la Force panja pour augmenter sa VIT."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Tourbillon",
-                "puissance": "N/A",
-                "description": "Un tourbillon s'abat sur les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Invisibilité",
-                "description": "Ne sera pas la cible des attaques."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Panjaï !",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "",
-                "puissance": "40",
-                "description": "Utilise un sort de glace. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Onde de choc",
-                "puissance": "120",
-                "description": "Saute et crée une onde de choc en retombant."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Cache-guérison",
-                "description": "PV restaurés peu à peu si invisible pour les ennemis."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Frappe",
-                "puissance": "20|70",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Grêle",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Panjaï !",
-                "puissance": "93|279",
-                "description": "Attaque la colonne devant lui avec toute la force du panja."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Force panja",
-                "puissance": "N/A",
-                "description": "Le Yo-kai fait appel à la force panja pour augmenter sa VIT."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Attaque trois fois. Le coup ultime est plus puissant."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Panjaï !",
-                "puissance": "400",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque l’ennemi avec une attaque féroce."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive des attaques par des déplacements rapides."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Invisibilité",
-                "description": "Ne sera pas la cible des attaques."
-            }
-        ]
-    },
-    "soul_effects": {
-        "yw2": "VIT+ 20",
-        "yw Blasters 1": "Augmente légèrement les dégâts sur les non-boss.",
-        "yw3": "Renvoie quelques dégâts à l’ennemi."
-    },
-    "drops": {
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Badge brillant"
-            },
-            {
-                "taux": "?%",
-                "objet": "Herbe médicinale"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Remède infect"
-            },
-            {
-                "taux": "?%",
-                "objet": "Sushi à l'omelette"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Invisibilité",
-        "description": "Ne sera pas la cible des attaques."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/petit-panja.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/petit-panja.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/petit-panja.wav",
-    "oldID": "387",
-    "medallium_ids": {
-        "yw2": "374",
-        "yw3": "236"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "173",
-        "yw Blasters 2": "241",
-        "yw Wibble Wobble": "4126",
-        "yw World": "0269",
-        "yw Ukiukipedia": "Pyw-113"
-    },
-    "battle_type": "Rare",
-    "skill_name": "Secrecy",
-    "skill_effect": "Panja Power",
-    "disliked_food": "Hamburgers",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "315",
-                "STR": "108",
-                "SPR": "54",
-                "DEF": "70",
-                "SPD": "112"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "121-208",
-                "STR": "158",
-                "SPR": "42",
-                "DEF": "103",
-                "SPD": "187"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "121-208"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "121-208"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "121-208"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "江戸っ子パンダ",
-            "Edokko"
-        ],
-        "Spanish": [
-            "Pupilo"
-        ],
-        "French": [
-            "Petit"
-        ],
-        "Italian": [
-            "Pupillo"
-        ],
-        "German": [
-            "Panja"
-        ],
-        "Russian": [
-            "Ученик",
-            "Uchenik"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "江戸っ子パンダ"
-        ],
-        "Spanish": [
-            "Pupilo Panja"
-        ],
-        "French": [
-            "Petit Panja"
-        ],
-        "Italian": [
-            "Pupillo Panja"
-        ],
-        "German": [
-            "Panja"
-        ],
-        "Russian": [
-            "Ученик Панжа"
-        ]
-    },
-    "description_en": "This evolved Panja can vanish into thin air! Sadly, his big mouth keeps giving away his position.",
-    "nom_en": "Groupus Khan",
-    "rang_yww": "D",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Sushis",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "stats_initiale_yww": {
-        "hp": 37,
-        "str": 19,
-        "spr": 5,
-        "def": 12,
-        "spd": 23
-    },
-    "stats_max_yww": {
-        "hp": 305,
-        "str": 153,
-        "spr": 37,
-        "def": 98,
-        "spd": 182
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "ご当地妖怪入手キャンペーン",
-            "_en": "Local Yokai acquisition campaign",
-            "_fr": "Campagne d'acquisition de Yokai locaux"
-        }
+    "yw3": [
+      "Il est possible de trouver Petit Panja dans leCentre-ville de Granval, à l'Aire de livraison."
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "たたく",
-                "_en": "knock",
-                "_fr": "frappe"
-            },
-            "explication": {
-                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "あられの術",
-                "_en": "Hail no jutsu",
-                "_fr": "Salut, pas de jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 氷属性】 氷の妖術を使う。",
-                "_en": "[Power: 30 / Ice attribute] Uses ice magic.",
-                "_fr": "[Puissance : 30 / Attribut Glace] Utilise la magie de la glace."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "こちとらパンダでぃ！",
-                "_en": "Kochitora Panda Di!",
-                "_fr": "Kochitora Panda Di!"
-            },
-            "pouvoir": "93",
-            "explication": {
-                "_jp": "江戸っ子のプライドを 前面に押し出して 正面の敵をこうげきする。",
-                "_en": "Pushing the pride of Edokko to the front, he defeats the enemy in front of him.",
-                "_fr": "Poussant la fierté d'Edokko au front, il vainc l'ennemi devant lui."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "江戸っ子の力",
-                "_en": "The power of Edokko",
-                "_fr": "Le pouvoir d'Edokko"
-            },
-            "explication": {
-                "_jp": "【すばやさアップ】 江戸っ子パワーで すばやさがアップ",
-                "_en": "[Increase your speed] Improve your speed with Edokko power",
-                "_fr": "[Augmentez votre vitesse] Améliorez votre vitesse avec la puissance Edokko"
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "江戸っ子パンダに とりつかれると どんな人も 江戸っ子になってしまう。 粋でいなせな性格で 頼れるともだちになるのだ。",
-            "_en": "Anyone who becomes obsessed with Edokko pandas becomes an Edokko. With his stylish and friendly personality, he will become a reliable friend.",
-            "_fr": "Quiconque devient obsédé par les pandas Edokko devient un Edokko. Avec sa personnalité élégante et amicale, il devient un ami fiable."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Puni Puni": [
+      "Petit Panja est apparu pour la première fois dans l'événementNuit de Bon Odori de KJoù il était disponible dans le Stage Caché 1, déblocable en reliant 15 globules ou plus dans le Stage 10. Il revient dans l'événementBataille de Lance-Pierre au Clair de Lune, où il est de nouveau disponible dans le Stage Caché 1, déblocable en rentrant 2 fois en Ébullition ou plus dans le Stage 12. Il revient une nouvelle fois dans l'événementPortails de Komasan et Komajiro, où il est une fois de plus disponible dans le Stage Caché 1, déblocable en éclatant 200 globules ou plus dans le Stage 12."
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Frappe",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Grêle",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Panjaï !",
+        "puissance": "90|198",
+        "description": "Attaque un ennemi avec toute la force du panja."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Force panja",
+        "puissance": "N/A",
+        "description": "Le Yo-kai fait appel à la Force panja pour augmenter sa VIT."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Tourbillon",
+        "puissance": "N/A",
+        "description": "Un tourbillon s'abat sur les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Invisibilité",
+        "description": "Ne sera pas la cible des attaques."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Panjaï !",
+        "puissance": "400",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "",
+        "puissance": "40",
+        "description": "Utilise un sort de glace. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Onde de choc",
+        "puissance": "120",
+        "description": "Saute et crée une onde de choc en retombant."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Cache-guérison",
+        "description": "PV restaurés peu à peu si invisible pour les ennemis."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Frappe",
+        "puissance": "20|70",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Grêle",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Panjaï !",
+        "puissance": "93|279",
+        "description": "Attaque la colonne devant lui avec toute la force du panja."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Force panja",
+        "puissance": "N/A",
+        "description": "Le Yo-kai fait appel à la force panja pour augmenter sa VIT."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Attaque trois fois. Le coup ultime est plus puissant."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Panjaï !",
+        "puissance": "400",
+        "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque l’ennemi avec une attaque féroce."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive des attaques par des déplacements rapides."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Invisibilité",
+        "description": "Ne sera pas la cible des attaques."
+      }
+    ]
+  },
+  "soul_effects": {
+    "yw2": "VIT+ 20",
+    "yw Blasters 1": "Augmente légèrement les dégâts sur les non-boss.",
+    "yw3": "Renvoie quelques dégâts à l’ennemi."
+  },
+  "drops": {
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Badge brillant"
+      },
+      {
+        "taux": "?%",
+        "objet": "Herbe médicinale"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Remède infect"
+      },
+      {
+        "taux": "?%",
+        "objet": "Sushi à l'omelette"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Invisibilité",
+    "description": "Ne sera pas la cible des attaques."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/petit-panja.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/petit-panja.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/petit-panja.wav",
+  "oldID": "387",
+  "medallium_ids": {
+    "yw2": "374",
+    "yw3": "236"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "173",
+    "yw Blasters 2": "241",
+    "yw Wibble Wobble": "4126",
+    "yw World": "0269",
+    "yw Ukiukipedia": "Pyw-113"
+  },
+  "battle_type": "Rare",
+  "skill_name": "Secrecy",
+  "skill_effect": "Panja Power",
+  "disliked_food": "Hamburgers",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "315",
+        "STR": "108",
+        "SPR": "54",
+        "DEF": "70",
+        "SPD": "112"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "121-208",
+        "STR": "158",
+        "SPR": "42",
+        "DEF": "103",
+        "SPD": "187"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "121-208"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "121-208"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "121-208"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "江戸っ子パンダ",
+      "Edokko"
+    ],
+    "Spanish": [
+      "Pupilo"
+    ],
+    "French": [
+      "Petit"
+    ],
+    "Italian": [
+      "Pupillo"
+    ],
+    "German": [
+      "Panja"
+    ],
+    "Russian": [
+      "Ученик",
+      "Uchenik"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "江戸っ子パンダ"
+    ],
+    "Spanish": [
+      "Pupilo Panja"
+    ],
+    "French": [
+      "Petit Panja"
+    ],
+    "Italian": [
+      "Pupillo Panja"
+    ],
+    "German": [
+      "Panja"
+    ],
+    "Russian": [
+      "Ученик Панжа"
+    ]
+  },
+  "description_en": "This evolved Panja can vanish into thin air! Sadly, his big mouth keeps giving away his position.",
+  "nom_en": "Groupus Khan",
+  "rang_yww": "D",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "Sushis",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "avantage_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "stats_initiale_yww": {
+    "hp": 37,
+    "str": 19,
+    "spr": 5,
+    "def": 12,
+    "spd": 23
+  },
+  "stats_max_yww": {
+    "hp": 305,
+    "str": 153,
+    "spr": 37,
+    "def": 98,
+    "spd": 182
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "ご当地妖怪入手キャンペーン",
+      "_en": "Local Yokai acquisition campaign",
+      "_fr": "Campagne d'acquisition de Yokai locaux"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "たたく",
+        "_en": "knock",
+        "_fr": "frappe"
+      },
+      "explication": {
+        "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "あられの術",
+        "_en": "Hail no jutsu",
+        "_fr": "Salut, pas de jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 氷属性】 氷の妖術を使う。",
+        "_en": "[Power: 30 / Ice attribute] Uses ice magic.",
+        "_fr": "[Puissance : 30 / Attribut Glace] Utilise la magie de la glace."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "こちとらパンダでぃ！",
+        "_en": "Kochitora Panda Di!",
+        "_fr": "Kochitora Panda Di!"
+      },
+      "pouvoir": "93",
+      "explication": {
+        "_jp": "江戸っ子のプライドを 前面に押し出して 正面の敵をこうげきする。",
+        "_en": "Pushing the pride of Edokko to the front, he defeats the enemy in front of him.",
+        "_fr": "Poussant la fierté d'Edokko au front, il vainc l'ennemi devant lui."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "江戸っ子の力",
+        "_en": "The power of Edokko",
+        "_fr": "Le pouvoir d'Edokko"
+      },
+      "explication": {
+        "_jp": "【すばやさアップ】 江戸っ子パワーで すばやさがアップ",
+        "_en": "[Increase your speed] Improve your speed with Edokko power",
+        "_fr": "[Augmentez votre vitesse] Améliorez votre vitesse avec la puissance Edokko"
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "江戸っ子パンダに とりつかれると どんな人も 江戸っ子になってしまう。 粋でいなせな性格で 頼れるともだちになるのだ。",
+      "_en": "Anyone who becomes obsessed with Edokko pandas becomes an Edokko. With his stylish and friendly personality, he will become a reliable friend.",
+      "_fr": "Quiconque devient obsédé par les pandas Edokko devient un Edokko. Avec sa personnalité élégante et amicale, il devient un ami fiable."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "388",
+  "Name_yww": "江戸っ子パンダ",
+  "description_jp_yww": "江戸っ子パンダに とりつかれると　どんな人も 江戸っ子になってしまう。 粋でいなせな性格で 頼れるともだちになるのだ。",
+  "BingoMessage_jp_yww": "オレとともだちになりてえのか？ てやんでえ！　なかよくしようぜ！",
+  "MonsterId_yww": "y403000",
+  "Height_yww": 3.6,
+  "CommondId_yww": "sp_403000",
+  "MinHp_yww": 67,
+  "MaxHp_yww": 423,
+  "MinAttack_yww": 55,
+  "MaxAttack_yww": 257,
+  "MinMagic_yww": 3,
+  "MaxMagic_yww": 43,
+  "MinDefense_yww": 10,
+  "MaxDefense_yww": 130,
+  "MinSpeed_yww": 4,
+  "MaxSpeed_yww": 46,
+  "AttackId_yww": 25,
+  "MagicId_yww": 1,
+  "HauntId_yww": 403000,
+  "SpSkillId_yww": 403000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 13,
+  "DislikeFoodKind_yww": 14,
+  "ActionType_yww": 3,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y398800.png",
+  "SpriteImage_yww": "img_y398800.png",
+  "Audio_yww": "sp_y398800.wav",
+  "Description_yww": "Si l'on se laisse séduire par le panda d'Édo, n'importe qui devient un vrai Édoïte. Avec son caractère chic et plein d'allure, il devient un ami sur lequel on peut compter.",
+  "BingoMessage_fr_yww": "Tu veux devenir mon pote ? Allez, viens ! On va bien s'entendre !"
 }

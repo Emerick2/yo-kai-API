@@ -1,474 +1,505 @@
 {
-    "ID": "266",
-    "Nom": "Charivari",
-    "Tribue": "Costaud",
-    "Rang": "B",
-    "PV": "400",
-    "Force": "204",
-    "Esprit": "53",
-    "Défense": "198",
-    "Vitesse": "111",
-    "Description": "Ce char se dirigeait vers l'ennemi, mais il s'est perdu. Au moins, on sait qu'il a un bon fond.",
-    "nourriture": "Riz",
-    "élément": "Terre",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Charivari peut donner à n’importe quel ennemi l’impression d’être perdu et confus. Dans l’anime, il peut faire en sorte que n’importe qui se distrait vers autre chose que ce qu’il essaie de faire.",
-    "personnalité": "Dans le dessin animé, il pense que c’est son « devoir » de distraire les autres.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/charivari.png",
-    "numero": "091",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Coup de canon",
-            "effet": "Change l'attaque normale en attaque de terre."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Feu à volonté",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Éboulement",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Charpie",
-            "effet": "Tire un grand coup de canon qui frappe un seul ennemi. 170 | 255"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tireur fou",
-            "effet": "Le Yo-kai est hors de contrôle et attaque ses alliés."
-        }
+  "ID": "266",
+  "Nom": "Charivari",
+  "Tribue": "Costaud",
+  "Rang": "B",
+  "PV": "400",
+  "Force": "204",
+  "Esprit": "53",
+  "Défense": "198",
+  "Vitesse": "111",
+  "Description": "Ce char se dirigeait vers l'ennemi, mais il s'est perdu. Au moins, on sait qu'il a un bon fond.",
+  "nourriture": "Riz",
+  "élément": "Terre",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Charivari peut donner à n’importe quel ennemi l’impression d’être perdu et confus. Dans l’anime, il peut faire en sorte que n’importe qui se distrait vers autre chose que ce qu’il essaie de faire.",
+  "personnalité": "Dans le dessin animé, il pense que c’est son « devoir » de distraire les autres.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/charivari.png",
+  "numero": "091",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Coup de canon",
+      "effet": "Change l'attaque normale en attaque de terre."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Feu à volonté",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Éboulement",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Charpie",
+      "effet": "Tire un grand coup de canon qui frappe un seul ennemi. 170 | 255"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tireur fou",
+      "effet": "Le Yo-kai est hors de contrôle et attaque ses alliés."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est super bon !",
+    "Mange de la nourriture insipide": "Ça passe.",
+    "Mange de la mauvaise nourriture": "Grrr !!!",
+    "A la flemme": "Je reviens vite...",
+    "Est échangé": "J'ai dû me tromper de route... Les canons font de mauvaises boussoles.",
+    "Devient ton ami": "Quelque chose me dit que si je te suis, je resterai sur le droit chemin."
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Égare-dare",
+      "parent2": "Bouldacier",
+      "resultat": "Charivari",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "迷い車",
+  "nom_anglais": "Mistank",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Frédéric Souterelle",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Exclusif à Esprits Farceurs",
+      "Fusion"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est super bon !",
-        "Mange de la nourriture insipide": "Ça passe.",
-        "Mange de la mauvaise nourriture": "Grrr !!!",
-        "A la flemme": "Je reviens vite...",
-        "Est échangé": "J'ai dû me tromper de route... Les canons font de mauvaises boussoles.",
-        "Devient ton ami": "Quelque chose me dit que si je te suis, je resterai sur le droit chemin."
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Égare-dare",
-            "parent2": "Bouldacier",
-            "resultat": "Charivari",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Exclusif au Peloton du chat rouge",
+      "Fusion"
     ],
-    "image_locale": "",
-    "nom_original": "迷い車",
-    "nom_anglais": "Mistank",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Frédéric Souterelle",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Exclusif à Esprits Farceurs",
-            "Fusion"
-        ],
-        "yw Blasters 1": [
-            "Exclusif au Peloton du chat rouge",
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "EF icone",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Feu à volonté",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Charpie",
-                "puissance": "170|255",
-                "description": "Tire un grand coup de canon et frappe un seul ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Tireur fou",
-                "puissance": "N/A",
-                "description": "Le Yo-kai est hors de contrôle et attaque ses alliés."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Coup de canon",
-                "description": "Change l'attaque normale en attaque de terre."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Charpie",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Déblindage",
-                "puissance": "80",
-                "description": "Baisse temporaire DÉF. des ennemis touchés."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Champ de force",
-                "puissance": "___",
-                "description": "Hausse temporaire de la protection des alliés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Délit de fuite",
-                "description": "Hausse VIT. si attaqué (cumulable), jusqu'à la fin des attaques."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Feu à volonté",
-                "puissance": "60|132",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Charpie",
-                "puissance": "140|280",
-                "description": "Se sert d'un canon pour attaquer pour attaquer les ennemis à portée, tout en flânant."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Tireur fou",
-                "puissance": "N/A",
-                "description": "Le Yo-kai est hors de contrôle et attaque parfois ses alliés."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Charpie",
-                "puissance": "400",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Déblindage",
-                "puissance": "80",
-                "description": "Fait chuter la DÉF. d’un ennemi pendant un instant."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi, attirant ainsi son attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Coup de canon",
-                "description": "Change l'attaque normale en attaque de terre."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Amulette armure"
-            },
-            {
-                "taux": "?%",
-                "objet": "Poupée de fer"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Secrets de l'âme"
-            },
-            {
-                "taux": "?%",
-                "objet": "Riz œufs saumon"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Coup de canon",
-        "description": "Change l'attaque normale en attaque de terre."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/charivari.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/charivari.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/charivari.wav",
-    "oldID": "269",
-    "medallium_ids": {
-        "yw3": "146"
-    },
-    "spinoff_ids": {
-        "yw Ukiukipedia": "yw7-012"
-    },
-    "battle_type": "",
-    "skill_name": "Earth Cannon",
-    "skill_effect": "Loose Cannon",
-    "disliked_food": "Bread",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "410",
-                "STR": "183",
-                "SPR": "81",
-                "DEF": "172",
-                "SPD": "189"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "410",
-                "STR": "209",
-                "SPR": "58",
-                "DEF": "203",
-                "SPD": "116"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "'だっせんしゃ",
-            "Dassensha"
-        ],
-        "Spanish": [
-            "Tanquivocado"
-        ],
-        "French": [
-            "Charivari"
-        ],
-        "Italian": [
-            "Persarmato"
-        ],
-        "German": [
-            "Patzpanzer"
-        ],
-        "Russian": [
-            "Бронеслужака",
-            "Bronesluzhaka"
-        ],
-        "Arabic": [
-            "دباب",
-            "Dabbāb"
-        ],
-        "Portuguese (European)": [
-            "Mistanque"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "'だっせんしゃ"
-        ],
-        "Spanish": [
-            "Tanquivocado"
-        ],
-        "French": [
-            "Charivari"
-        ],
-        "Italian": [
-            "Persarmato"
-        ],
-        "German": [
-            "Patzpanzer"
-        ],
-        "Russian": [
-            "Бронеслужака"
-        ],
-        "Arabic": [
-            "دباب"
-        ],
-        "Portuguese (European)": [
-            "Mistanque"
-        ]
-    },
-    "description_en": "A tank who trundled off toward the enemy but got badly lost. At least his heart's in the right place.",
-    "nom_en": "No-Go Kart",
-    "rang_yww": "E",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "Onigiri",
-    "nourriture_favorite": "Onigiri",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
-        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 47,
-        "str": 10,
-        "spr": 6,
-        "def": 20,
-        "spd": 15
-    },
-    "stats_max_yww": {
-        "hp": 390,
-        "str": 97,
-        "spr": 48,
-        "def": 194,
-        "spd": 101
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "あてみ",
-                "_en": "Atemi",
-                "_fr": "Atémi"
-            },
-            "explication": {
-                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "こいしの術",
-                "_en": "Koishi no jutsu",
-                "_fr": "Koishi pas de jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 土属性】 土の妖術を使う。",
-                "_en": "[Power: 30 / Earth attribute] Uses earth magic.",
-                "_fr": "[Puissance : 30 / Attribut Terre] Utilise la magie de la terre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "あっちこっち珍道中",
-                "_en": "A rare journey here and there",
-                "_fr": "Un voyage rare ici et là"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "道に迷わせる",
-                "_en": "lead astray",
-                "_fr": "égarer"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 とりつかれた妖怪は道に迷ってしまってたまに行動しなくなる。",
-                "_en": "[Osabori] Possessed monsters get lost and sometimes stop acting.",
-                "_fr": "[Osabori] Les monstres possédés se perdent et arrêtent parfois d'agir."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "極度の方向オンチな妖怪。 行きたいところに 乗せていってあげると 言ったそばから 道をそれて 迷子になってしまうらしい。",
-            "_en": "A monster with extreme direction. Apparently, when I said I would take her where she wanted to go, she veered off the path and got lost.",
-            "_fr": "Un monstre avec une direction extrême. Apparemment, quand je lui ai dit que je l'emmènerais là où elle voulait aller, elle a quitté la route et s'est perdue."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "EF icone",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Feu à volonté",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Éboulement",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Charpie",
+        "puissance": "170|255",
+        "description": "Tire un grand coup de canon et frappe un seul ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Tireur fou",
+        "puissance": "N/A",
+        "description": "Le Yo-kai est hors de contrôle et attaque ses alliés."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Coup de canon",
+        "description": "Change l'attaque normale en attaque de terre."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Charpie",
+        "puissance": "400",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Déblindage",
+        "puissance": "80",
+        "description": "Baisse temporaire DÉF. des ennemis touchés."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Champ de force",
+        "puissance": "___",
+        "description": "Hausse temporaire de la protection des alliés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Délit de fuite",
+        "description": "Hausse VIT. si attaqué (cumulable), jusqu'à la fin des attaques."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Feu à volonté",
+        "puissance": "60|132",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Éboulement",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Charpie",
+        "puissance": "140|280",
+        "description": "Se sert d'un canon pour attaquer pour attaquer les ennemis à portée, tout en flânant."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Tireur fou",
+        "puissance": "N/A",
+        "description": "Le Yo-kai est hors de contrôle et attaque parfois ses alliés."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Charpie",
+        "puissance": "400",
+        "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Déblindage",
+        "puissance": "80",
+        "description": "Fait chuter la DÉF. d’un ennemi pendant un instant."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi, attirant ainsi son attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Coup de canon",
+        "description": "Change l'attaque normale en attaque de terre."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Amulette armure"
+      },
+      {
+        "taux": "?%",
+        "objet": "Poupée de fer"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Secrets de l'âme"
+      },
+      {
+        "taux": "?%",
+        "objet": "Riz œufs saumon"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Coup de canon",
+    "description": "Change l'attaque normale en attaque de terre."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/charivari.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/charivari.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/charivari.wav",
+  "oldID": "269",
+  "medallium_ids": {
+    "yw3": "146"
+  },
+  "spinoff_ids": {
+    "yw Ukiukipedia": "yw7-012"
+  },
+  "battle_type": "",
+  "skill_name": "Earth Cannon",
+  "skill_effect": "Loose Cannon",
+  "disliked_food": "Bread",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "410",
+        "STR": "183",
+        "SPR": "81",
+        "DEF": "172",
+        "SPD": "189"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "410",
+        "STR": "209",
+        "SPR": "58",
+        "DEF": "203",
+        "SPD": "116"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "'だっせんしゃ",
+      "Dassensha"
+    ],
+    "Spanish": [
+      "Tanquivocado"
+    ],
+    "French": [
+      "Charivari"
+    ],
+    "Italian": [
+      "Persarmato"
+    ],
+    "German": [
+      "Patzpanzer"
+    ],
+    "Russian": [
+      "Бронеслужака",
+      "Bronesluzhaka"
+    ],
+    "Arabic": [
+      "دباب",
+      "Dabbāb"
+    ],
+    "Portuguese (European)": [
+      "Mistanque"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "'だっせんしゃ"
+    ],
+    "Spanish": [
+      "Tanquivocado"
+    ],
+    "French": [
+      "Charivari"
+    ],
+    "Italian": [
+      "Persarmato"
+    ],
+    "German": [
+      "Patzpanzer"
+    ],
+    "Russian": [
+      "Бронеслужака"
+    ],
+    "Arabic": [
+      "دباب"
+    ],
+    "Portuguese (European)": [
+      "Mistanque"
+    ]
+  },
+  "description_en": "A tank who trundled off toward the enemy but got badly lost. At least his heart's in the right place.",
+  "nom_en": "No-Go Kart",
+  "rang_yww": "E",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "Onigiri",
+  "nourriture_favorite": "Onigiri",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+    "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 47,
+    "str": 10,
+    "spr": 6,
+    "def": 20,
+    "spd": 15
+  },
+  "stats_max_yww": {
+    "hp": 390,
+    "str": 97,
+    "spr": 48,
+    "def": 194,
+    "spd": 101
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "あてみ",
+        "_en": "Atemi",
+        "_fr": "Atémi"
+      },
+      "explication": {
+        "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "こいしの術",
+        "_en": "Koishi no jutsu",
+        "_fr": "Koishi pas de jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 土属性】 土の妖術を使う。",
+        "_en": "[Power: 30 / Earth attribute] Uses earth magic.",
+        "_fr": "[Puissance : 30 / Attribut Terre] Utilise la magie de la terre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "あっちこっち珍道中",
+        "_en": "A rare journey here and there",
+        "_fr": "Un voyage rare ici et là"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "道に迷わせる",
+        "_en": "lead astray",
+        "_fr": "égarer"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 とりつかれた妖怪は道に迷ってしまってたまに行動しなくなる。",
+        "_en": "[Osabori] Possessed monsters get lost and sometimes stop acting.",
+        "_fr": "[Osabori] Les monstres possédés se perdent et arrêtent parfois d'agir."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "極度の方向オンチな妖怪。 行きたいところに 乗せていってあげると 言ったそばから 道をそれて 迷子になってしまうらしい。",
+      "_en": "A monster with extreme direction. Apparently, when I said I would take her where she wanted to go, she veered off the path and got lost.",
+      "_fr": "Un monstre avec une direction extrême. Apparemment, quand je lui ai dit que je l'emmènerais là où elle voulait aller, elle a quitté la route et s'est perdue."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "266",
+  "Name_yww": "迷い車",
+  "description_jp_yww": "極度の方向オンチな妖怪。 行きたいところに 乗せていってあげると 言ったそばから　道をそれて 迷子になってしまうらしい。",
+  "BingoMessage_jp_yww": "迷ってたら　閉じ込められました… 出してくれて　ありがとうございます～",
+  "MonsterId_yww": "y258000",
+  "Height_yww": 15.27,
+  "CommondId_yww": "sp_258000",
+  "MinHp_yww": 47,
+  "MaxHp_yww": 390,
+  "MinAttack_yww": 10,
+  "MaxAttack_yww": 97,
+  "MinMagic_yww": 6,
+  "MaxMagic_yww": 48,
+  "MinDefense_yww": 20,
+  "MaxDefense_yww": 194,
+  "MinSpeed_yww": 15,
+  "MaxSpeed_yww": 101,
+  "AttackId_yww": 25,
+  "MagicId_yww": 10,
+  "HauntId_yww": 258000,
+  "SpSkillId_yww": 258000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 1,
+  "DislikeFoodKind_yww": 2,
+  "ActionType_yww": 16,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y253800.png",
+  "SpriteImage_yww": "img_y253800.png",
+  "Audio_yww": "sp_y253800.wav",
+  "Description_yww": "Un yōkai qui n'a vraiment aucun sens de l'orientation. À peine lui a-t-on dit qu'on allait l'emmener là où il voulait aller qu'il s'égare déjà et se retrouve perdu.",
+  "BingoMessage_fr_yww": "Je me suis perdue et je me suis retrouvée enfermée… Merci de m'avoir libérée~"
 }

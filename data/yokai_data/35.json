@@ -1,585 +1,616 @@
 {
-    "ID": "35",
-    "Nom": "Chaipô",
-    "Tribue": "Mystérieu",
-    "Rang": "E",
-    "PV": "192",
-    "Force": "58",
-    "Esprit": "114",
-    "Défense": "63",
-    "Vitesse": "225",
-    "Description": "Il se fixe sur ta tête pour dévorer tes souvenirs. Il peut être utile pour effacer les mauvais... ou porter un chapeau.",
-    "nourriture": "Bonbons",
-    "élément": "Vent",
-    "Rôle": "Ranger",
-    "Biographie": "Chaipô était autrefois un chapeau normal, il était le chapeau préféré de son ancien propriétaire jusqu'à ce qu'elle cesse de le porter et le jette dans le placard, oublié. À la suite de cette action, le chapeau est devenu le Yo-kai Chaipô.",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Il a le pouvoir de \"manger\" la mémoire de n'importe qui, ce qui le fait devenir amnésique. Il le fait en mordant ou en s'asseyant sur leur tête. Quand il le fait, une brume bleu très clair provient de ses yeux. Il peut supprimer des souvenirs de manière sélective, mais parfois il peut le faire par accident lorsque son intention est pure.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/chaipo.png",
-    "numero": "030",
-    "nourriture_favorite": "Sucrerie",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Sans garde",
-            "effet": "Aucun Yo-kai ne se mettra en garde."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Morsure",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tourbillon",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Mange-mémoire",
-            "effet": "Annule les bons effets sur les ennemis en avalant leurs souvenirs."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Mémoriphage",
-            "effet": "Rend un ennemi assez étourdi pour attaquer ses alliés !"
-        }
+  "ID": "35",
+  "Nom": "Chaipô",
+  "Tribue": "Mystérieu",
+  "Rang": "E",
+  "PV": "192",
+  "Force": "58",
+  "Esprit": "114",
+  "Défense": "63",
+  "Vitesse": "225",
+  "Description": "Il se fixe sur ta tête pour dévorer tes souvenirs. Il peut être utile pour effacer les mauvais... ou porter un chapeau.",
+  "nourriture": "Bonbons",
+  "élément": "Vent",
+  "Rôle": "Ranger",
+  "Biographie": "Chaipô était autrefois un chapeau normal, il était le chapeau préféré de son ancien propriétaire jusqu'à ce qu'elle cesse de le porter et le jette dans le placard, oublié. À la suite de cette action, le chapeau est devenu le Yo-kai Chaipô.",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Il a le pouvoir de \"manger\" la mémoire de n'importe qui, ce qui le fait devenir amnésique. Il le fait en mordant ou en s'asseyant sur leur tête. Quand il le fait, une brume bleu très clair provient de ses yeux. Il peut supprimer des souvenirs de manière sélective, mais parfois il peut le faire par accident lorsque son intention est pure.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/chaipo.png",
+  "numero": "030",
+  "nourriture_favorite": "Sucrerie",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Sans garde",
+      "effet": "Aucun Yo-kai ne se mettra en garde."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Morsure",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tourbillon",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Mange-mémoire",
+      "effet": "Annule les bons effets sur les ennemis en avalant leurs souvenirs."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Mémoriphage",
+      "effet": "Rend un ennemi assez étourdi pour attaquer ses alliés !"
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Inoubliable !",
+    "Mange de la nourriture insipide": "Pas mal !",
+    "Mange de la mauvaise nourriture": "... ?! Beurk !",
+    "A la flemme": "*bâille*",
+    "Est échangé": "Chaipô est content d'être ton ami, mais oubliera jamais... c'était quoi son nom ?",
+    "Devient ton ami": "Sois ami avec Chaipô ! Toi et moi déjà amis, non ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "yw2",
+      "de": "Chaipô",
+      "vers": "Mémogre",
+      "critere": "Niveau 20"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "わすれん帽",
+  "nom_anglais": "Wazzat",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Naoki Bando",
+    "francaise": "Adrien Solis (Saison 1,Saison 2)",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Chaipô se lie automatiquement d'amitié à traversl'histoire principale; il apparaît également sur les arbres partout dans lecentre-ville de Granvalpendant la journée. Il apparaît dans la tour de commerce pour changer les surnoms de Yo-kai."
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Inoubliable !",
-        "Mange de la nourriture insipide": "Pas mal !",
-        "Mange de la mauvaise nourriture": "... ?! Beurk !",
-        "A la flemme": "*bâille*",
-        "Est échangé": "Chaipô est content d'être ton ami, mais oubliera jamais... c'était quoi son nom ?",
-        "Devient ton ami": "Sois ami avec Chaipô ! Toi et moi déjà amis, non ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "yw2",
-            "de": "Chaipô",
-            "vers": "Mémogre",
-            "critere": "Niveau 20"
-        }
+    "yw2": [
+      "Chaipô apparaît la nuit sur les arbres partout dans laCornicheet dans les arbres du Centre-ville de Granval. Une autre façon de trouver Chaipô est dans lesPortails mystères. Il peut être utilisé sur unTabloblabladans laTour Excellencepour changer les surnoms des Yo-kai. Il se trouve aussi dans le tunnel sans fin."
     ],
-    "image_locale": "",
-    "nom_original": "わすれん帽",
-    "nom_anglais": "Wazzat",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Naoki Bando",
-        "francaise": "Adrien Solis (Saison 1,Saison 2)",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Chaipô se lie automatiquement d'amitié à traversl'histoire principale; il apparaît également sur les arbres partout dans lecentre-ville de Granvalpendant la journée. Il apparaît dans la tour de commerce pour changer les surnoms de Yo-kai."
-        ],
-        "yw2": [
-            "Chaipô apparaît la nuit sur les arbres partout dans laCornicheet dans les arbres du Centre-ville de Granval. Une autre façon de trouver Chaipô est dans lesPortails mystères. Il peut être utilisé sur unTabloblabladans laTour Excellencepour changer les surnoms des Yo-kai. Il se trouve aussi dans le tunnel sans fin."
-        ],
-        "yw3": [
-            "Chaipô se trouve dans le Centre-ville de Granval, auCoteau fleuriet sur leMont Sylvestre. Il peut être utilisé sur un Tabloblabla àVerteplainespour changer les surnoms des Yo-kai."
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "Tsukumono",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Morsure",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Mange-mémoire",
-                "puissance": "",
-                "description": "Annule les bons effets sur les ennemis en avalant leurs souvenirs."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Mémoriphage",
-                "puissance": "N/A",
-                "description": "Rend un ennemi assez étourdi pour attaquer ses alliés !"
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Sans garde",
-                "description": "Aucun Yo-kai ne se mettra en garde."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Morsure",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Mange-mémoire",
-                "puissance": "",
-                "description": "Annule les bons effets sur les ennemis en avalant leurs souvenirs."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Mémoriphage",
-                "puissance": "N/A",
-                "description": "Rend un ennemi assez étourdi pour attaquer ses alliés !"
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Tornade",
-                "puissance": "N/A",
-                "description": "Un sort de vent balaie les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Sans garde",
-                "description": "Aucun Yo-kai ne se mettra en garde."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Mange-mémoire",
-                "puissance": "___",
-                "description": "Forte baisse temporaire de la défense ennemie."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Tourbillon",
-                "puissance": "40",
-                "description": "Utilise un sort de vent. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Baisse défensive",
-                "puissance": "___",
-                "description": "Baisse DÉF. ennemie. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Baisse de vitesse",
-                "puissance": "___",
-                "description": "Baisse VIT. ennemie. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Mal au pouce",
-                "description": "Attire l'attention des ennemis."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Morsure",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Mange-mémoire",
-                "puissance": "",
-                "description": "Annule les effets positifs de tous les ennemis en avalant leurs souvenirs."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Mémoriphage",
-                "puissance": "N/A",
-                "description": "L'ennemi ne se souvient plus qui sont ses alliés, et les attaque !"
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Mange-mémoire",
-                "puissance": "___",
-                "description": "Réduction ++ temporaire de la DÉF. de l'ennemi."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Baisse défensive",
-                "puissance": "___",
-                "description": "Réduit + DÉF. ennemie. Plus de portée si chargé."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Détection de pièges",
-                "puissance": "___",
-                "description": "Génère une zone qui détecte les pièges cachés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Sans garde",
-                "description": "Aucun Yo-kai ne se mettra en garde."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Remède amer"
-            },
-            {
-                "taux": "?%",
-                "objet": "Poupée de fuite"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Dico-tech"
-            },
-            {
-                "taux": "?%",
-                "objet": "Poupée de fuite"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Étoile dansante"
-            },
-            {
-                "taux": "?%",
-                "objet": "Chewing-gum"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Sans garde",
-        "description": "Aucun Yo-kai ne se mettra en garde."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/chaipo.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/chaipo.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/chaipo.wav",
-    "oldID": "36",
-    "medallium_ids": {
-        "yw1": "030",
-        "yw2": "047",
-        "yw3": "077",
-        "yw4": "61 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "056",
-        "yw Blasters 2": "077",
-        "yw Wibble Wobble": "2003",
-        "yw World": "0024",
-        "yw Ukiukipedia": "yw1-006/YD3-007"
-    },
-    "battle_type": "",
-    "skill_name": "Forgot to Guard",
-    "skill_effect": "Memory Eater",
-    "disliked_food": "Vegetables",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "252",
-                "STR": "76",
-                "SPR": "150",
-                "DEF": "87",
-                "SPD": "192"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "202",
-                "STR": "76",
-                "SPR": "150",
-                "DEF": "87",
-                "SPD": "192"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "172",
-                "STR": "39",
-                "SPR": "33",
-                "DEF": "68",
-                "SPD": "230"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "167-292",
-                "STR": "39",
-                "SPR": "33"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "167-292"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "167-292"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "167-292"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "わすれん帽",
-            "Wasurenbō"
-        ],
-        "Spanish": [
-            "Komemo"
-        ],
-        "French": [
-            "Chaipô"
-        ],
-        "Italian": [
-            "Dimenticap"
-        ],
-        "German": [
-            "Amnesimon"
-        ],
-        "Dutch": [
-            "Wazzat"
-        ],
-        "Korean": [
-            "아차모",
-            "Achamo"
-        ],
-        "Russian": [
-            "Забышляп",
-            "Zabyshlyap"
-        ],
-        "Arabic": [
-            "ناسي",
-            "Nāsī"
-        ],
-        "Chinese (Cantonese)": [
-            "健忘帽",
-            "gin6"
-        ],
-        "Chinese (Mandarin)": [
-            "忘記帽",
-            "Wàngjìmào"
-        ],
-        "Portuguese (Brazilian)": [
-            "Aminola"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "わすれん帽"
-        ],
-        "Spanish": [
-            "Komemo"
-        ],
-        "French": [
-            "Chaipô"
-        ],
-        "Italian": [
-            "Dimenticap"
-        ],
-        "German": [
-            "Amnesimon"
-        ],
-        "Dutch": [
-            "Wazzat"
-        ],
-        "Korean": [
-            "아차모"
-        ],
-        "Russian": [
-            "Забышляп"
-        ],
-        "Arabic": [
-            "ناسي"
-        ],
-        "Chinese (Cantonese)": [
-            "健忘帽"
-        ],
-        "Chinese (Mandarin)": [
-            "忘記帽"
-        ],
-        "Portuguese (Brazilian)": [
-            "Aminola"
-        ]
-    },
-    "description_en": "He fits snugly on your head then devours your memories. It can be nice to forget the bad ones... or to just wear a hat.",
-    "nom_en": "Infour",
-    "rang_yww": "E",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "Dashi",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {
-        "hp": 27,
-        "str": 3,
-        "spr": 14,
-        "def": 5,
-        "spd": 34
-    },
-    "stats_max_yww": {
-        "hp": 192,
-        "str": 58,
-        "spr": 114,
-        "def": 63,
-        "spd": 225
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "かみつく",
-                "_en": "bite",
-                "_fr": "mordre"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "つむじ風の術",
-                "_en": "Whirlwind technique",
-                "_fr": "Technique du tourbillon"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 風属性】 風の妖術を使う。",
-                "_en": "[Power: 40 / Wind attribute] Uses wind magic.",
-                "_fr": "[Puissance : 40 / Attribut Vent] Utilise la magie du vent."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "スグワスレ～ル",
-                "_en": "Suguwasreru",
-                "_fr": "Suguwasreru"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "記憶を食べる",
-                "_en": "eat memory",
-                "_fr": "manger de la mémoire"
-            },
-            "explication": {
-                "_jp": "【混乱】 とりつかれた妖怪は味方がだれだか忘れてしまい味方をすぐにこうげきする。",
-                "_en": "[Confusion] A possessed monster forgets who its allies are and immediately attacks them.",
-                "_fr": "[Confusion] Un monstre possédé oublie qui sont ses alliés et les attaque immédiatement."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "人の頭にスッポリとハマって その人の記憶を むしゃむしゃと食べてしまう。 いやなことを 忘れさせてくれることもある。",
-            "_en": "It slips into a person's head and devours that person's memories. Sometimes it makes me forget about bad things.",
-            "_fr": "Il se glisse dans la tête d'une personne et dévore ses souvenirs. Parfois, cela me fait oublier les mauvaises choses."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Chaipô se trouve dans le Centre-ville de Granval, auCoteau fleuriet sur leMont Sylvestre. Il peut être utilisé sur un Tabloblabla àVerteplainespour changer les surnoms des Yo-kai."
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "Tsukumono",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Morsure",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tourbillon",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Mange-mémoire",
+        "puissance": "",
+        "description": "Annule les bons effets sur les ennemis en avalant leurs souvenirs."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Mémoriphage",
+        "puissance": "N/A",
+        "description": "Rend un ennemi assez étourdi pour attaquer ses alliés !"
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Sans garde",
+        "description": "Aucun Yo-kai ne se mettra en garde."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Morsure",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tourbillon",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Mange-mémoire",
+        "puissance": "",
+        "description": "Annule les bons effets sur les ennemis en avalant leurs souvenirs."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Mémoriphage",
+        "puissance": "N/A",
+        "description": "Rend un ennemi assez étourdi pour attaquer ses alliés !"
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Tornade",
+        "puissance": "N/A",
+        "description": "Un sort de vent balaie les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Sans garde",
+        "description": "Aucun Yo-kai ne se mettra en garde."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Mange-mémoire",
+        "puissance": "___",
+        "description": "Forte baisse temporaire de la défense ennemie."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Tourbillon",
+        "puissance": "40",
+        "description": "Utilise un sort de vent. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Baisse défensive",
+        "puissance": "___",
+        "description": "Baisse DÉF. ennemie. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Baisse de vitesse",
+        "puissance": "___",
+        "description": "Baisse VIT. ennemie. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Mal au pouce",
+        "description": "Attire l'attention des ennemis."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Morsure",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tourbillon",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Mange-mémoire",
+        "puissance": "",
+        "description": "Annule les effets positifs de tous les ennemis en avalant leurs souvenirs."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Mémoriphage",
+        "puissance": "N/A",
+        "description": "L'ennemi ne se souvient plus qui sont ses alliés, et les attaque !"
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Mange-mémoire",
+        "puissance": "___",
+        "description": "Réduction ++ temporaire de la DÉF. de l'ennemi."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Baisse défensive",
+        "puissance": "___",
+        "description": "Réduit + DÉF. ennemie. Plus de portée si chargé."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Détection de pièges",
+        "puissance": "___",
+        "description": "Génère une zone qui détecte les pièges cachés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Sans garde",
+        "description": "Aucun Yo-kai ne se mettra en garde."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Remède amer"
+      },
+      {
+        "taux": "?%",
+        "objet": "Poupée de fuite"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Dico-tech"
+      },
+      {
+        "taux": "?%",
+        "objet": "Poupée de fuite"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Étoile dansante"
+      },
+      {
+        "taux": "?%",
+        "objet": "Chewing-gum"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Sans garde",
+    "description": "Aucun Yo-kai ne se mettra en garde."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/chaipo.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/chaipo.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/chaipo.wav",
+  "oldID": "36",
+  "medallium_ids": {
+    "yw1": "030",
+    "yw2": "047",
+    "yw3": "077",
+    "yw4": "61 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "056",
+    "yw Blasters 2": "077",
+    "yw Wibble Wobble": "2003",
+    "yw World": "0024",
+    "yw Ukiukipedia": "yw1-006/YD3-007"
+  },
+  "battle_type": "",
+  "skill_name": "Forgot to Guard",
+  "skill_effect": "Memory Eater",
+  "disliked_food": "Vegetables",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "252",
+        "STR": "76",
+        "SPR": "150",
+        "DEF": "87",
+        "SPD": "192"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "202",
+        "STR": "76",
+        "SPR": "150",
+        "DEF": "87",
+        "SPD": "192"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "172",
+        "STR": "39",
+        "SPR": "33",
+        "DEF": "68",
+        "SPD": "230"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "167-292",
+        "STR": "39",
+        "SPR": "33"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "167-292"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "167-292"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "167-292"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "わすれん帽",
+      "Wasurenbō"
+    ],
+    "Spanish": [
+      "Komemo"
+    ],
+    "French": [
+      "Chaipô"
+    ],
+    "Italian": [
+      "Dimenticap"
+    ],
+    "German": [
+      "Amnesimon"
+    ],
+    "Dutch": [
+      "Wazzat"
+    ],
+    "Korean": [
+      "아차모",
+      "Achamo"
+    ],
+    "Russian": [
+      "Забышляп",
+      "Zabyshlyap"
+    ],
+    "Arabic": [
+      "ناسي",
+      "Nāsī"
+    ],
+    "Chinese (Cantonese)": [
+      "健忘帽",
+      "gin6"
+    ],
+    "Chinese (Mandarin)": [
+      "忘記帽",
+      "Wàngjìmào"
+    ],
+    "Portuguese (Brazilian)": [
+      "Aminola"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "わすれん帽"
+    ],
+    "Spanish": [
+      "Komemo"
+    ],
+    "French": [
+      "Chaipô"
+    ],
+    "Italian": [
+      "Dimenticap"
+    ],
+    "German": [
+      "Amnesimon"
+    ],
+    "Dutch": [
+      "Wazzat"
+    ],
+    "Korean": [
+      "아차모"
+    ],
+    "Russian": [
+      "Забышляп"
+    ],
+    "Arabic": [
+      "ناسي"
+    ],
+    "Chinese (Cantonese)": [
+      "健忘帽"
+    ],
+    "Chinese (Mandarin)": [
+      "忘記帽"
+    ],
+    "Portuguese (Brazilian)": [
+      "Aminola"
+    ]
+  },
+  "description_en": "He fits snugly on your head then devours your memories. It can be nice to forget the bad ones... or to just wear a hat.",
+  "nom_en": "Infour",
+  "rang_yww": "E",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "Dashi",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {
+    "hp": 27,
+    "str": 3,
+    "spr": 14,
+    "def": 5,
+    "spd": 34
+  },
+  "stats_max_yww": {
+    "hp": 192,
+    "str": 58,
+    "spr": 114,
+    "def": 63,
+    "spd": 225
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "かみつく",
+        "_en": "bite",
+        "_fr": "mordre"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "つむじ風の術",
+        "_en": "Whirlwind technique",
+        "_fr": "Technique du tourbillon"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 風属性】 風の妖術を使う。",
+        "_en": "[Power: 40 / Wind attribute] Uses wind magic.",
+        "_fr": "[Puissance : 40 / Attribut Vent] Utilise la magie du vent."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "スグワスレ～ル",
+        "_en": "Suguwasreru",
+        "_fr": "Suguwasreru"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "記憶を食べる",
+        "_en": "eat memory",
+        "_fr": "manger de la mémoire"
+      },
+      "explication": {
+        "_jp": "【混乱】 とりつかれた妖怪は味方がだれだか忘れてしまい味方をすぐにこうげきする。",
+        "_en": "[Confusion] A possessed monster forgets who its allies are and immediately attacks them.",
+        "_fr": "[Confusion] Un monstre possédé oublie qui sont ses alliés et les attaque immédiatement."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "人の頭にスッポリとハマって その人の記憶を むしゃむしゃと食べてしまう。 いやなことを 忘れさせてくれることもある。",
+      "_en": "It slips into a person's head and devours that person's memories. Sometimes it makes me forget about bad things.",
+      "_fr": "Il se glisse dans la tête d'une personne et dévore ses souvenirs. Parfois, cela me fait oublier les mauvaises choses."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "35",
+  "Name_yww": "わすれん帽",
+  "description_jp_yww": "人の頭にスッポリとハマって その人の記憶を むしゃむしゃと食べてしまう。 いやなことを 忘れさせてくれることもある。",
+  "BingoMessage_jp_yww": "オホホホ！　ようやく外に出られました 感謝いたしますよ～",
+  "MonsterId_yww": "y120000",
+  "Height_yww": 5.0,
+  "CommondId_yww": "sp_120000",
+  "MinHp_yww": 27,
+  "MaxHp_yww": 192,
+  "MinAttack_yww": 3,
+  "MaxAttack_yww": 58,
+  "MinMagic_yww": 14,
+  "MaxMagic_yww": 114,
+  "MinDefense_yww": 5,
+  "MaxDefense_yww": 63,
+  "MinSpeed_yww": 34,
+  "MaxSpeed_yww": 225,
+  "AttackId_yww": 16,
+  "MagicId_yww": 16,
+  "HauntId_yww": 120000,
+  "SpSkillId_yww": 120000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 3,
+  "DislikeFoodKind_yww": 10,
+  "ActionType_yww": 22,
+  "TribeType_yww": 2,
+  "MedallionImage_yww": "y115800.png",
+  "SpriteImage_yww": "img_y115800.png",
+  "Audio_yww": "sp_y115800.wav",
+  "Description_yww": "Il s'enfonce parfaitement dans la tête d'une personne et dévore ses souvenirs. Il lui arrive parfois de lui faire oublier les choses désagréables.",
+  "BingoMessage_fr_yww": "Oh oh oh oh ! J'ai enfin pu sortir Je vous en suis très reconnaissante ~"
 }

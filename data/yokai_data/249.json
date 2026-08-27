@@ -1,500 +1,531 @@
 {
-    "ID": "249",
-    "Nom": "Trodésolé",
-    "Tribue": "Mystérieu",
-    "Rang": "D",
-    "PV": "330",
-    "Force": "40",
-    "Esprit": "202",
-    "Défense": "122",
-    "Vitesse": "141",
-    "Description": "Il a beau s'excuser pour tout, il n'en pense pas un mot et décline gaiement toute responsabilité.",
-    "nourriture": "Curry",
-    "élément": "Foudre",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Tous ceux qu’il envoûte s’excusent à demi-mot en disant : « Désolé, désolé, trop désolé ! ».",
-    "personnalité": "Trodésolé est un Yo-kai très énervant, car il cause beaucoup d’ennuis à ceux qu’il envoûte. Il a l'habitude de s'excuser sans en penser un mot. Cependant, il peut devenir agité et offensé lorsque d’autres s’excusent de manière moqueuse avec les mêmes motifs, ce qui agace ou met en colère quelqu’un.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/trodesole.png",
-    "numero": "059",
-    "nourriture_favorite": "Curry",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Plates excuses",
-            "effet": "Rend des PV aux alliés quand le Yo-kai flâne."
-        }
+  "ID": "249",
+  "Nom": "Trodésolé",
+  "Tribue": "Mystérieu",
+  "Rang": "D",
+  "PV": "330",
+  "Force": "40",
+  "Esprit": "202",
+  "Défense": "122",
+  "Vitesse": "141",
+  "Description": "Il a beau s'excuser pour tout, il n'en pense pas un mot et décline gaiement toute responsabilité.",
+  "nourriture": "Curry",
+  "élément": "Foudre",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Tous ceux qu’il envoûte s’excusent à demi-mot en disant : « Désolé, désolé, trop désolé ! ».",
+  "personnalité": "Trodésolé est un Yo-kai très énervant, car il cause beaucoup d’ennuis à ceux qu’il envoûte. Il a l'habitude de s'excuser sans en penser un mot. Cependant, il peut devenir agité et offensé lorsque d’autres s’excusent de manière moqueuse avec les mêmes motifs, ce qui agace ou met en colère quelqu’un.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/trodesole.png",
+  "numero": "059",
+  "nourriture_favorite": "Curry",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Plates excuses",
+      "effet": "Rend des PV aux alliés quand le Yo-kai flâne."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est super bon !",
+    "Mange de la nourriture insipide": "Merci, je suppose.",
+    "Mange de la mauvaise nourriture": "Euuh... BEURK !",
+    "A la flemme": "Une petite sieste.",
+    "Est échangé": "Vraiment désolé de m'imposer de la sorte. Désolé, mais je dois rester. OK ?",
+    "Devient ton ami": "Désolé, désolé ! Vraiment désolé ! Je m'excuse. Désolé !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "yw2",
+      "de": "Trodésolé",
+      "vers": "Pardomino",
+      "critere": "Niveau 30"
+    },
+    {
+      "type": "Évolution",
+      "contexte": "yw Blasters 1",
+      "de": "Trodésolé",
+      "vers": "Pardomino",
+      "critere": "Niveau 27"
+    },
+    {
+      "type": "Évolution",
+      "contexte": "yw3",
+      "de": "Trodésolé",
+      "vers": "Pardomino",
+      "critere": "Niveau 33"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "一旦ゴメン",
+  "nom_anglais": "So-Sorree",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Grégory Laisné",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Bingo-kai-Pièce frisson (oiseau)",
+      "Bingo-kai-Pièce frisson (lune)",
+      "Bingo-kai-Pièce frisson (vent)",
+      "Bingo-kai-Pièce frisson (fleur)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est super bon !",
-        "Mange de la nourriture insipide": "Merci, je suppose.",
-        "Mange de la mauvaise nourriture": "Euuh... BEURK !",
-        "A la flemme": "Une petite sieste.",
-        "Est échangé": "Vraiment désolé de m'imposer de la sorte. Désolé, mais je dois rester. OK ?",
-        "Devient ton ami": "Désolé, désolé ! Vraiment désolé ! Je m'excuse. Désolé !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "yw2",
-            "de": "Trodésolé",
-            "vers": "Pardomino",
-            "critere": "Niveau 30"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "yw Blasters 1",
-            "de": "Trodésolé",
-            "vers": "Pardomino",
-            "critere": "Niveau 27"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "yw3",
-            "de": "Trodésolé",
-            "vers": "Pardomino",
-            "critere": "Niveau 33"
-        }
+    "yw Blasters 1": [
+      "Bingo-kai- Pièce fleur - 2e prix"
     ],
-    "image_locale": "",
-    "nom_original": "一旦ゴメン",
-    "nom_anglais": "So-Sorree",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Grégory Laisné",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Bingo-kai-Pièce frisson (oiseau)",
-            "Bingo-kai-Pièce frisson (lune)",
-            "Bingo-kai-Pièce frisson (vent)",
-            "Bingo-kai-Pièce frisson (fleur)"
-        ],
-        "yw Blasters 1": [
-            "Bingo-kai- Pièce fleur - 2e prix"
-        ],
-        "yw3": [
-            "Centre-ville de Granval- arbres",
-            "Tour Excellence- arbres",
-            "Électropolis- arbres",
-            "Bingo-kai-Pièce jaune- 3e prix (Granval)"
-        ],
-        "yw Puni Puni": [
-            "Événements :",
-            "Événement - Yo-kai Watch vs. GeGeGe no Kitaro- première apparition",
-            "Événement - Sixième Collaboration avec Hololive- Stand d'échange"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Mea culpa",
-                "puissance": "40|40",
-                "description": "S'excuse platement tout en purifiant les alliés et en leur redonnant des PV."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Souffre-douleur",
-                "puissance": "N/A",
-                "description": "Le Yo-kai devient prétentieux et est la cible de tous les ennemis."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Décharge",
-                "puissance": "N/A",
-                "description": "Électrocute les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Plates excuses",
-                "description": "Rend des PV aux alliés quand le Yo-kai flâne."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Mea culpa",
-                "puissance": "400",
-                "description": "Alliés retrouvent beaucoup de PV. Envoûtements annulés."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Décharge",
-                "puissance": "40",
-                "description": "Utilise un sort de foudre. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Piège",
-                "puissance": "___",
-                "description": "Peut engourdir un ennemi s'il marche dessus."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Provoquer",
-                "puissance": "___",
-                "description": "Attire l'attention des ennemis proches."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Tirer sa révérence",
-                "description": "Invisibilité temporaire en cas de danger."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Mea culpa",
-                "puissance": "30|30",
-                "description": "Soigne tous les alliés et les purifie pour s'excuser."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Souffre-douleur",
-                "puissance": "N/A",
-                "description": "Le Yo-kai envoûté devient hautain et se tourne les pouces."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Mea culpa",
-                "puissance": "400",
-                "description": "Rend PV ++ aux alliés, annule les malédictions."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Décharge",
-                "puissance": "40",
-                "description": "Technique de foudre+. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Piège",
-                "puissance": "___",
-                "description": "Pose un piège qui paralyse l’ennemi qui le déclenche."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Plates excuses",
-                "description": "Restaure des PV à un allié, quand le Yo-kai flâne."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Billet de loterie"
-            },
-            {
-                "taux": "?%",
-                "objet": "Poupée de fuite"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Dico-tech"
-            },
-            {
-                "taux": "?%",
-                "objet": "Curry de poulet"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Plates excuses",
-        "description": "Rend des PV aux alliés quand le Yo-kai flâne."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/trodesole.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/trodesole.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/trodesole.wav",
-    "oldID": "251",
-    "medallium_ids": {
-        "yw2": "059",
-        "yw3": "098"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "069",
-        "yw Blasters 2": "098",
-        "yw Wibble Wobble": "2085",
-        "yw World": "0789",
-        "yw Ukiukipedia": "yw5-004"
-    },
-    "battle_type": "",
-    "skill_name": "Make Amends",
-    "skill_effect": "Not So Sorry",
-    "disliked_food": "Chinese Food",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "340",
-                "STR": "93",
-                "SPR": "172",
-                "DEF": "75",
-                "SPD": "148"
-            },
-            "elements": {
-                "attribute": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "一旦ゴメン",
-            "Ittangomen"
-        ],
-        "Spanish": [
-            "Losiento"
-        ],
-        "French": [
-            "Trodésolé"
-        ],
-        "Italian": [
-            "Falskus"
-        ],
-        "German": [
-            "Tschulligung"
-        ],
-        "Korean": [
-            "일단미안",
-            "Ildanmian"
-        ],
-        "Russian": [
-            "Извинято",
-            "Izvinyato"
-        ],
-        "Arabic": [
-            "متنصل",
-            "Mutanaṣṣil"
-        ],
-        "Chinese (Cantonese)": [
-            "梳理Law"
-        ],
-        "Portuguese (Brazilian)": [
-            "Foi"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "一旦ゴメン"
-        ],
-        "Spanish": [
-            "Losiento"
-        ],
-        "French": [
-            "Trodésolé"
-        ],
-        "Italian": [
-            "Falskus"
-        ],
-        "German": [
-            "Tschulligung"
-        ],
-        "Korean": [
-            "일단미안"
-        ],
-        "Russian": [
-            "Извинято"
-        ],
-        "Arabic": [
-            "متنصل"
-        ],
-        "Chinese (Cantonese)": [
-            "梳理Law"
-        ],
-        "Portuguese (Brazilian)": [
-            "Foi Mal"
-        ]
-    },
-    "description_en": "He may apologize for everything, but the truth is he doesn't mean a word of it and cheerfully avoids any real responsibility.",
-    "nom_en": "Brokenbrella",
-    "rang_yww": "D",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "curry",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 38,
-        "str": 5,
-        "spr": 26,
-        "def": 13,
-        "spd": 22
-    },
-    "stats_max_yww": {
-        "hp": 330,
-        "str": 40,
-        "spr": 202,
-        "def": 122,
-        "spd": 141
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はたく",
-                "_en": "flutter",
-                "_fr": "battement"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "電流の術",
-                "_en": "electric current technique",
-                "_fr": "technique du courant électrique"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 雷属性】 雷の妖術を使う。",
-                "_en": "[Power: 40 / Lightning attribute] Uses lightning magic.",
-                "_fr": "[Puissance : 40 / Attribut Foudre] Utilise la magie de la foudre."
-            }
-        }
+    "yw3": [
+      "Centre-ville de Granval- arbres",
+      "Tour Excellence- arbres",
+      "Électropolis- arbres",
+      "Bingo-kai-Pièce jaune- 3e prix (Granval)"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "その場しのぎの術",
-                "_en": "makeshift technique",
-                "_fr": "technique de fortune"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ナメた態度にする",
-                "_en": "behave in a disrespectful manner",
-                "_fr": "se comporter de manière irrespectueuse"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 とりつかれた妖怪はナメた態度になってたまに行動しなくなる。",
-                "_en": "[Osabori] A possessed monster becomes lazy and sometimes stops acting.",
-                "_fr": "[Osabori] Un monstre possédé devient paresseux et arrête parfois d'agir."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "どんな問題をおこしても その場しのぎの謝罪で どんな批判も ヒラリヒラリと かわしてしまう。 何があっても反省しない。",
-            "_en": "No matter what problem he causes, he easily deflects any criticism with a makeshift apology. No matter what happens, I won't regret it.",
-            "_fr": "Quel que soit le problème qu’il cause, il détourne facilement toute critique en présentant des excuses improvisées. Quoi qu’il arrive, je ne le regretterai pas."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Puni Puni": [
+      "Événements :",
+      "Événement - Yo-kai Watch vs. GeGeGe no Kitaro- première apparition",
+      "Événement - Sixième Collaboration avec Hololive- Stand d'échange"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Décharge",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Mea culpa",
+        "puissance": "40|40",
+        "description": "S'excuse platement tout en purifiant les alliés et en leur redonnant des PV."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Souffre-douleur",
+        "puissance": "N/A",
+        "description": "Le Yo-kai devient prétentieux et est la cible de tous les ennemis."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Décharge",
+        "puissance": "N/A",
+        "description": "Électrocute les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Plates excuses",
+        "description": "Rend des PV aux alliés quand le Yo-kai flâne."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Mea culpa",
+        "puissance": "400",
+        "description": "Alliés retrouvent beaucoup de PV. Envoûtements annulés."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Décharge",
+        "puissance": "40",
+        "description": "Utilise un sort de foudre. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Piège",
+        "puissance": "___",
+        "description": "Peut engourdir un ennemi s'il marche dessus."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Provoquer",
+        "puissance": "___",
+        "description": "Attire l'attention des ennemis proches."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Tirer sa révérence",
+        "description": "Invisibilité temporaire en cas de danger."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Décharge",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Mea culpa",
+        "puissance": "30|30",
+        "description": "Soigne tous les alliés et les purifie pour s'excuser."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Souffre-douleur",
+        "puissance": "N/A",
+        "description": "Le Yo-kai envoûté devient hautain et se tourne les pouces."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Mea culpa",
+        "puissance": "400",
+        "description": "Rend PV ++ aux alliés, annule les malédictions."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Décharge",
+        "puissance": "40",
+        "description": "Technique de foudre+. Plus de dégâts si chargée."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Piège",
+        "puissance": "___",
+        "description": "Pose un piège qui paralyse l’ennemi qui le déclenche."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Plates excuses",
+        "description": "Restaure des PV à un allié, quand le Yo-kai flâne."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Billet de loterie"
+      },
+      {
+        "taux": "?%",
+        "objet": "Poupée de fuite"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Dico-tech"
+      },
+      {
+        "taux": "?%",
+        "objet": "Curry de poulet"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Plates excuses",
+    "description": "Rend des PV aux alliés quand le Yo-kai flâne."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/trodesole.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/trodesole.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/trodesole.wav",
+  "oldID": "251",
+  "medallium_ids": {
+    "yw2": "059",
+    "yw3": "098"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "069",
+    "yw Blasters 2": "098",
+    "yw Wibble Wobble": "2085",
+    "yw World": "0789",
+    "yw Ukiukipedia": "yw5-004"
+  },
+  "battle_type": "",
+  "skill_name": "Make Amends",
+  "skill_effect": "Not So Sorry",
+  "disliked_food": "Chinese Food",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "340",
+        "STR": "93",
+        "SPR": "172",
+        "DEF": "75",
+        "SPD": "148"
+      },
+      "elements": {
+        "attribute": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "一旦ゴメン",
+      "Ittangomen"
+    ],
+    "Spanish": [
+      "Losiento"
+    ],
+    "French": [
+      "Trodésolé"
+    ],
+    "Italian": [
+      "Falskus"
+    ],
+    "German": [
+      "Tschulligung"
+    ],
+    "Korean": [
+      "일단미안",
+      "Ildanmian"
+    ],
+    "Russian": [
+      "Извинято",
+      "Izvinyato"
+    ],
+    "Arabic": [
+      "متنصل",
+      "Mutanaṣṣil"
+    ],
+    "Chinese (Cantonese)": [
+      "梳理Law"
+    ],
+    "Portuguese (Brazilian)": [
+      "Foi"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "一旦ゴメン"
+    ],
+    "Spanish": [
+      "Losiento"
+    ],
+    "French": [
+      "Trodésolé"
+    ],
+    "Italian": [
+      "Falskus"
+    ],
+    "German": [
+      "Tschulligung"
+    ],
+    "Korean": [
+      "일단미안"
+    ],
+    "Russian": [
+      "Извинято"
+    ],
+    "Arabic": [
+      "متنصل"
+    ],
+    "Chinese (Cantonese)": [
+      "梳理Law"
+    ],
+    "Portuguese (Brazilian)": [
+      "Foi Mal"
+    ]
+  },
+  "description_en": "He may apologize for everything, but the truth is he doesn't mean a word of it and cheerfully avoids any real responsibility.",
+  "nom_en": "Brokenbrella",
+  "rang_yww": "D",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "curry",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 38,
+    "str": 5,
+    "spr": 26,
+    "def": 13,
+    "spd": 22
+  },
+  "stats_max_yww": {
+    "hp": 330,
+    "str": 40,
+    "spr": 202,
+    "def": 122,
+    "spd": 141
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "はたく",
+        "_en": "flutter",
+        "_fr": "battement"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "電流の術",
+        "_en": "electric current technique",
+        "_fr": "technique du courant électrique"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 雷属性】 雷の妖術を使う。",
+        "_en": "[Power: 40 / Lightning attribute] Uses lightning magic.",
+        "_fr": "[Puissance : 40 / Attribut Foudre] Utilise la magie de la foudre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "その場しのぎの術",
+        "_en": "makeshift technique",
+        "_fr": "technique de fortune"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ナメた態度にする",
+        "_en": "behave in a disrespectful manner",
+        "_fr": "se comporter de manière irrespectueuse"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 とりつかれた妖怪はナメた態度になってたまに行動しなくなる。",
+        "_en": "[Osabori] A possessed monster becomes lazy and sometimes stops acting.",
+        "_fr": "[Osabori] Un monstre possédé devient paresseux et arrête parfois d'agir."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "どんな問題をおこしても その場しのぎの謝罪で どんな批判も ヒラリヒラリと かわしてしまう。 何があっても反省しない。",
+      "_en": "No matter what problem he causes, he easily deflects any criticism with a makeshift apology. No matter what happens, I won't regret it.",
+      "_fr": "Quel que soit le problème qu’il cause, il détourne facilement toute critique en présentant des excuses improvisées. Quoi qu’il arrive, je ne le regretterai pas."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "251",
+  "Name_yww": "一旦ゴメン",
+  "description_jp_yww": "どんな問題をおこしても その場しのぎの謝罪で どんな批判も　ヒラリヒラリと かわしてしまう。 何があっても反省しない。",
+  "BingoMessage_jp_yww": "当てられてゴメン！　いったんゴメン！ あやまるから　ともだちになりましょうよ～",
+  "MonsterId_yww": "y245000",
+  "Height_yww": 19.05,
+  "CommondId_yww": "sp_245000",
+  "MinHp_yww": 38,
+  "MaxHp_yww": 330,
+  "MinAttack_yww": 5,
+  "MaxAttack_yww": 40,
+  "MinMagic_yww": 26,
+  "MaxMagic_yww": 202,
+  "MinDefense_yww": 13,
+  "MaxDefense_yww": 122,
+  "MinSpeed_yww": 22,
+  "MaxSpeed_yww": 141,
+  "AttackId_yww": 10,
+  "MagicId_yww": 7,
+  "HauntId_yww": 245000,
+  "SpSkillId_yww": 245000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 13,
+  "DislikeFoodKind_yww": 9,
+  "ActionType_yww": 9,
+  "TribeType_yww": 2,
+  "MedallionImage_yww": "y240800.png",
+  "SpriteImage_yww": "img_y240800.png",
+  "Audio_yww": "sp_y240800.wav",
+  "Description_yww": "Quels que soient les problèmes qu’ils causent, ils se contentent d’excuses de circonstance et esquivent habilement toutes les critiques. Quoi qu’il arrive, ils ne font jamais preuve de remords.",
+  "BingoMessage_fr_yww": "Désolé de t'avoir touché ! Désolé pour tout ça ! Je m'excuse, alors on pourrait devenir amis ?"
 }

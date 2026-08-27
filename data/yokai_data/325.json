@@ -1,443 +1,474 @@
 {
-    "ID": "325",
-    "Nom": "Yvantouse",
-    "Tribue": "Insaisissable",
-    "Rang": "D",
-    "PV": "402",
-    "Force": "41",
-    "Esprit": "210",
-    "Défense": "173",
-    "Vitesse": "60",
-    "Description": "Sa ventouse lui permet de débloquer les souvenirs et de faire la lumière dans les esprits.",
-    "nourriture": "Soba",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Yvantouse a le pouvoir de raviver certains souvenirs de ceux qu'il envoûte.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/yvantouse.png",
-    "numero": "296",
-    "nourriture_favorite": "Soba",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Para-vent",
-            "effet": "Bloque les dégâts des attaques de vent."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Plaquage absolu",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Guérison",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Débouche trouble",
-            "effet": "Purifie tous les alliés en aspirant les mauvais esprits qui les hantent."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Euphorie",
-            "effet": "Le Yo-kai se rappelle un bon souvenir, ce qui augmente sa VIT."
-        }
+  "ID": "325",
+  "Nom": "Yvantouse",
+  "Tribue": "Insaisissable",
+  "Rang": "D",
+  "PV": "402",
+  "Force": "41",
+  "Esprit": "210",
+  "Défense": "173",
+  "Vitesse": "60",
+  "Description": "Sa ventouse lui permet de débloquer les souvenirs et de faire la lumière dans les esprits.",
+  "nourriture": "Soba",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Yvantouse a le pouvoir de raviver certains souvenirs de ceux qu'il envoûte.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/yvantouse.png",
+  "numero": "296",
+  "nourriture_favorite": "Soba",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Para-vent",
+      "effet": "Bloque les dégâts des attaques de vent."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Plaquage absolu",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Guérison",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Débouche trouble",
+      "effet": "Purifie tous les alliés en aspirant les mauvais esprits qui les hantent."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Euphorie",
+      "effet": "Le Yo-kai se rappelle un bon souvenir, ce qui augmente sa VIT."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Quelle nostalgie...",
+    "Mange de la nourriture insipide": "Rien de spécial.",
+    "Mange de la mauvaise nourriture": "Je te le rends...",
+    "A la flemme": "On arrête ?",
+    "Est échangé": "Oh ! Je me souviens de toi ! Mais oui ! On vient juste de se rencontrer !",
+    "Devient ton ami": "Je me souviens, maintenant ! Je voulais être ton ami !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Yvantouse",
+      "parent2": "Amnéspirateur",
+      "resultat": "Ed Mémoire",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "おもいだスッポン",
+  "nom_anglais": "Flushback",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Yann Pichon",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "San Fantastico-Grotte du littoral",
+      "San Fantastico- L'Atelier dérobé",
+      "Bingo-kai-Pièce bleu ciel"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Quelle nostalgie...",
-        "Mange de la nourriture insipide": "Rien de spécial.",
-        "Mange de la mauvaise nourriture": "Je te le rends...",
-        "A la flemme": "On arrête ?",
-        "Est échangé": "Oh ! Je me souviens de toi ! Mais oui ! On vient juste de se rencontrer !",
-        "Devient ton ami": "Je me souviens, maintenant ! Je voulais être ton ami !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Yvantouse",
-            "parent2": "Amnéspirateur",
-            "resultat": "Ed Mémoire",
-            "critere": "➨"
-        }
-    ],
-    "image_locale": "",
-    "nom_original": "おもいだスッポン",
-    "nom_anglais": "Flushback",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Yann Pichon",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "San Fantastico-Grotte du littoral",
-            "San Fantastico- L'Atelier dérobé",
-            "Bingo-kai-Pièce bleu ciel"
-        ],
-        "yw3": [
-            "Mont Sylvestre- étang"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Guérison",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Débouche trouble",
-                "puissance": "___",
-                "description": "Purifie tous les alliés en aspirant les mauvais esprits qui les hantent."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Euphorie",
-                "puissance": "N/A",
-                "description": "Le Yo-kai se rappelle un bon souvenir, ce qui augmente sa VIT."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Para-vent",
-                "description": "Bloque les dégâts des techniques de vent."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Débouche trouble",
-                "puissance": "400",
-                "description": "Alliés retrouvent beaucoup de PV. Envoûtements annulés."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Boost de vitesse",
-                "puissance": "___",
-                "description": "Hausse VIT. des alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Purification !",
-                "puissance": "50",
-                "description": "Annule Envoûtement et guérit. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Super ventouse",
-                "description": "Chargement rapide de la jauge d'âme."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "20|70",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Débouche trouble",
-                "puissance": "___",
-                "description": "Se sert de sa carapace pour chasser les mauvais esprits et purifier ses alliés."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Euphorie",
-                "puissance": "N/A",
-                "description": "Le Yo-kai se rappelle un bon souvenir, ce qui augmente sa VIT."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Para-vent",
-                "description": "Bloque les dégâts des techniques de vent."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Para-vent",
-        "description": "Bloque les dégâts des techniques de vent."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/yvantouse.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/yvantouse.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/yvantouse.wav",
-    "oldID": "342",
-    "medallium_ids": {
-        "yw2": "296",
-        "yw3": "533"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "356",
-        "yw Wibble Wobble": "8019",
-        "yw Ukiukipedia": "yw7-034"
-    },
-    "battle_type": "",
-    "skill_name": "Windbreaker",
-    "skill_effect": "Happy Daze",
-    "disliked_food": "Seafood",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "412",
-                "STR": "70",
-                "SPR": "152",
-                "DEF": "143",
-                "SPD": "118"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "153-266",
-                "STR": "46",
-                "SPR": "215",
-                "DEF": "178",
-                "SPD": "65"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "153-266"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "153-266"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "153-266"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "おもいだスッポン"
-        ],
-        "Spanish": [
-            "Desolvidador"
-        ],
-        "French": [
-            "Yvantouse"
-        ],
-        "Italian": [
-            "Tartacordo"
-        ],
-        "German": [
-            "Pümpel"
-        ],
-        "Russian": [
-            "Памятечист",
-            "Pamyatechist"
-        ],
-        "Arabic": [
-            "شيب",
-            "Shayb"
-        ],
-        "Portuguese (Brazilian)": [
-            "Limpa-Mente"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "おもいだスッポン Omoidasuppon"
-        ],
-        "Spanish": [
-            "Desolvidador"
-        ],
-        "French": [
-            "Yvantouse"
-        ],
-        "Italian": [
-            "Tartacordo"
-        ],
-        "German": [
-            "Pümpel"
-        ],
-        "Russian": [
-            "Памятечист"
-        ],
-        "Arabic": [
-            "شيب"
-        ],
-        "Portuguese (Brazilian)": [
-            "Limpa-Mente"
-        ]
-    },
-    "description_en": "Uses a plunger to unblock people's memories and bring clarity to muddled minds.",
-    "nom_en": "Cricky",
-    "rang_yww": "D",
-    "tribue_yww": "Nyororon",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "sarrasin",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 53,
-        "str": 5,
-        "spr": 26,
-        "def": 22,
-        "spd": 6
-    },
-    "stats_max_yww": {
-        "hp": 402,
-        "str": 41,
-        "spr": 210,
-        "def": 173,
-        "spd": 60
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "あてみ",
-                "_en": "Atemi",
-                "_fr": "Atémi"
-            },
-            "explication": {
-                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "いやしの術",
-                "_en": "Healing techniques",
-                "_fr": "Techniques de guérison"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "悪霊スッポンぽん！",
-                "_en": "Evil soft-shelled turtle!",
-                "_fr": "Maléfique tortue à carapace molle !"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "調査中。",
-                "_fr": "調査中。"
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "思い出させる",
-                "_en": "remind",
-                "_fr": "rappeler"
-            },
-            "explication": {
-                "_jp": "【すばやさアップ】 とりつかれた妖怪はいいことを思い出して すばやさが大アップする。",
-                "_en": "[Increased speed] Possessed monsters remember good things and their speed increases greatly.",
-                "_fr": "[Vitesse accrue] Les monstres possédés se souviennent des bonnes choses et leur vitesse augmente considérablement."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "背中に背負った スッポンを頭にはめて 「スッポン！」と引き抜けば 忘れていたことを思い出せる。 頭のモヤモヤもスッキリ。",
-            "_en": "背中に背負った スッポンを頭にはめて 「スッポン！」と引き抜けば 忘れていたことを思い出せる。 頭のモヤモヤもスッキリ。",
-            "_fr": "背中に背負った スッポンを頭にはめて 「スッポン！」と引き抜けば 忘れていたことを思い出せる。 頭のモヤモヤもスッキリ。"
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Mont Sylvestre- étang"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage absolu",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Guérison",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Débouche trouble",
+        "puissance": "___",
+        "description": "Purifie tous les alliés en aspirant les mauvais esprits qui les hantent."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Euphorie",
+        "puissance": "N/A",
+        "description": "Le Yo-kai se rappelle un bon souvenir, ce qui augmente sa VIT."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Para-vent",
+        "description": "Bloque les dégâts des techniques de vent."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Débouche trouble",
+        "puissance": "400",
+        "description": "Alliés retrouvent beaucoup de PV. Envoûtements annulés."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Boost de vitesse",
+        "puissance": "___",
+        "description": "Hausse VIT. des alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Purification !",
+        "puissance": "50",
+        "description": "Annule Envoûtement et guérit. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Super ventouse",
+        "description": "Chargement rapide de la jauge d'âme."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage absolu",
+        "puissance": "20|70",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Débouche trouble",
+        "puissance": "___",
+        "description": "Se sert de sa carapace pour chasser les mauvais esprits et purifier ses alliés."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Euphorie",
+        "puissance": "N/A",
+        "description": "Le Yo-kai se rappelle un bon souvenir, ce qui augmente sa VIT."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Para-vent",
+        "description": "Bloque les dégâts des techniques de vent."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Para-vent",
+    "description": "Bloque les dégâts des techniques de vent."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/yvantouse.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/yvantouse.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/yvantouse.wav",
+  "oldID": "342",
+  "medallium_ids": {
+    "yw2": "296",
+    "yw3": "533"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "356",
+    "yw Wibble Wobble": "8019",
+    "yw Ukiukipedia": "yw7-034"
+  },
+  "battle_type": "",
+  "skill_name": "Windbreaker",
+  "skill_effect": "Happy Daze",
+  "disliked_food": "Seafood",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "412",
+        "STR": "70",
+        "SPR": "152",
+        "DEF": "143",
+        "SPD": "118"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "153-266",
+        "STR": "46",
+        "SPR": "215",
+        "DEF": "178",
+        "SPD": "65"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "153-266"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "153-266"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "153-266"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "おもいだスッポン"
+    ],
+    "Spanish": [
+      "Desolvidador"
+    ],
+    "French": [
+      "Yvantouse"
+    ],
+    "Italian": [
+      "Tartacordo"
+    ],
+    "German": [
+      "Pümpel"
+    ],
+    "Russian": [
+      "Памятечист",
+      "Pamyatechist"
+    ],
+    "Arabic": [
+      "شيب",
+      "Shayb"
+    ],
+    "Portuguese (Brazilian)": [
+      "Limpa-Mente"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "おもいだスッポン Omoidasuppon"
+    ],
+    "Spanish": [
+      "Desolvidador"
+    ],
+    "French": [
+      "Yvantouse"
+    ],
+    "Italian": [
+      "Tartacordo"
+    ],
+    "German": [
+      "Pümpel"
+    ],
+    "Russian": [
+      "Памятечист"
+    ],
+    "Arabic": [
+      "شيب"
+    ],
+    "Portuguese (Brazilian)": [
+      "Limpa-Mente"
+    ]
+  },
+  "description_en": "Uses a plunger to unblock people's memories and bring clarity to muddled minds.",
+  "nom_en": "Cricky",
+  "rang_yww": "D",
+  "tribue_yww": "Nyororon",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "sarrasin",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 53,
+    "str": 5,
+    "spr": 26,
+    "def": 22,
+    "spd": 6
+  },
+  "stats_max_yww": {
+    "hp": 402,
+    "str": 41,
+    "spr": 210,
+    "def": 173,
+    "spd": 60
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "あてみ",
+        "_en": "Atemi",
+        "_fr": "Atémi"
+      },
+      "explication": {
+        "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "いやしの術",
+        "_en": "Healing techniques",
+        "_fr": "Techniques de guérison"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "悪霊スッポンぽん！",
+        "_en": "Evil soft-shelled turtle!",
+        "_fr": "Maléfique tortue à carapace molle !"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "調査中。",
+        "_fr": "調査中。"
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "思い出させる",
+        "_en": "remind",
+        "_fr": "rappeler"
+      },
+      "explication": {
+        "_jp": "【すばやさアップ】 とりつかれた妖怪はいいことを思い出して すばやさが大アップする。",
+        "_en": "[Increased speed] Possessed monsters remember good things and their speed increases greatly.",
+        "_fr": "[Vitesse accrue] Les monstres possédés se souviennent des bonnes choses et leur vitesse augmente considérablement."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "背中に背負った スッポンを頭にはめて 「スッポン！」と引き抜けば 忘れていたことを思い出せる。 頭のモヤモヤもスッキリ。",
+      "_en": "背中に背負った スッポンを頭にはめて 「スッポン！」と引き抜けば 忘れていたことを思い出せる。 頭のモヤモヤもスッキリ。",
+      "_fr": "背中に背負った スッポンを頭にはめて 「スッポン！」と引き抜けば 忘れていたことを思い出せる。 頭のモヤモヤもスッキリ。"
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "335",
+  "Name_yww": "おもいだスッポン",
+  "description_jp_yww": "背中に背負った スッポンを頭にはめて 「スッポン！」と引き抜けば 忘れていたことを思い出せる。 頭のモヤモヤもスッキリ。",
+  "BingoMessage_jp_yww": "おお　思い出したわい！ お前　ワシをガシャで当てたのじゃな！",
+  "MonsterId_yww": "y317000",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_317000",
+  "MinHp_yww": 33,
+  "MaxHp_yww": 275,
+  "MinAttack_yww": 15,
+  "MaxAttack_yww": 145,
+  "MinMagic_yww": 6,
+  "MaxMagic_yww": 66,
+  "MinDefense_yww": 5,
+  "MaxDefense_yww": 52,
+  "MinSpeed_yww": 24,
+  "MaxSpeed_yww": 188,
+  "AttackId_yww": 46,
+  "MagicId_yww": 13,
+  "HauntId_yww": 317000,
+  "SpSkillId_yww": 317000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 13,
+  "DislikeFoodKind_yww": 15,
+  "ActionType_yww": 21,
+  "TribeType_yww": 7,
+  "MedallionImage_yww": "y312800.png",
+  "SpriteImage_yww": "img_y312800.png",
+  "Audio_yww": "sp_y312800.wav",
+  "Description_yww": "On porte une tortue d'eau douce sur le dos, on la place sur sa tête, et en tirant d'un coup en criant « Tortue d'eau douce ! », on se souvient de ce qu'on avait oublié. Le brouillard dans la tête se dissipe aussi.",
+  "BingoMessage_fr_yww": "Oh, je m'en souviens maintenant ! C'est toi qui m'as tiré au sort dans la machine à figurines, n'est-ce pas !"
 }

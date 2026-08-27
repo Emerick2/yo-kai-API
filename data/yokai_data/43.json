@@ -1,694 +1,725 @@
 {
-    "ID": "43",
-    "Nom": "Nonjuan",
-    "Tribue": "Mystérieu",
-    "Rang": "A",
-    "PV": "393",
-    "Force": "60",
-    "Esprit": "223",
-    "Défense": "149",
-    "Vitesse": "164",
-    "Description": "L'opposé de Donjouant. Il n'a aucun succès et te rendra aussi impopulaire. Il vaut mieux ne pas s'approcher de lui.",
-    "nourriture": "Pain",
-    "élément": "Feu",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Donjouant peut rendre toute personne qu'il envoûte extrêmement impopulaire.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/nonjuan.png",
-    "numero": "042",
-    "nourriture_favorite": "Pain",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Antipathie",
-            "effet": "Les ennemis voudront moins devenir tes amis."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Salve de tirs",
-            "effet": "15x3 | 33x3"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Incendie",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Amour brûlant",
-            "effet": "Utilise la frustration due à son impopularité pour griller ses ennemis. 130 | 195"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Impopularité",
-            "effet": "Rend un allié tellement impopulaire que tous les ennemis l'ignorent."
-        }
+  "ID": "43",
+  "Nom": "Nonjuan",
+  "Tribue": "Mystérieu",
+  "Rang": "A",
+  "PV": "393",
+  "Force": "60",
+  "Esprit": "223",
+  "Défense": "149",
+  "Vitesse": "164",
+  "Description": "L'opposé de Donjouant. Il n'a aucun succès et te rendra aussi impopulaire. Il vaut mieux ne pas s'approcher de lui.",
+  "nourriture": "Pain",
+  "élément": "Feu",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Donjouant peut rendre toute personne qu'il envoûte extrêmement impopulaire.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/nonjuan.png",
+  "numero": "042",
+  "nourriture_favorite": "Pain",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Antipathie",
+      "effet": "Les ennemis voudront moins devenir tes amis."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Salve de tirs",
+      "effet": "15x3 | 33x3"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Incendie",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Amour brûlant",
+      "effet": "Utilise la frustration due à son impopularité pour griller ses ennemis. 130 | 195"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Impopularité",
+      "effet": "Rend un allié tellement impopulaire que tous les ennemis l'ignorent."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Très bon !",
+    "Mange de la nourriture insipide": "Bof bof.",
+    "Mange de la mauvaise nourriture": "Pas cool du tout !",
+    "A la flemme": "*soupire*",
+    "Est échangé": "Je me suis encore fait rejeter. J'espère que tu auras plus de compassion.",
+    "Devient ton ami": "Je ne m'attends pas à ce que tu acceptes mais... Je peux être ton ami ?"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "モテヌス",
+  "nom_anglais": "Casanono",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Centre-ville - Quartier d'affaires- sous les distributeurs et les voitures (nuit)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Très bon !",
-        "Mange de la nourriture insipide": "Bof bof.",
-        "Mange de la mauvaise nourriture": "Pas cool du tout !",
-        "A la flemme": "*soupire*",
-        "Est échangé": "Je me suis encore fait rejeter. J'espère que tu auras plus de compassion.",
-        "Devient ton ami": "Je ne m'attends pas à ce que tu acceptes mais... Je peux être ton ami ?"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "モテヌス",
-    "nom_anglais": "Casanono",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Centre-ville - Quartier d'affaires- sous les distributeurs et les voitures (nuit)"
-        ],
-        "yw2": [
-            "La Corniche- herbe",
-            "Bingo-kai-Pièce jaune",
-            "Tunnel sans fin"
-        ],
-        "yw Blasters 1": [
-            "Exclusif à l'Escadron du chien blancPatrouille - La Corniche"
-        ],
-        "yw3": [
-            "Électropolis- sous les voitures"
-        ]
-    },
-    "rarite": "L'Escadron du chien blanc",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Salve de tirs",
-                "puissance": "15×3|33×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Amour brûlant",
-                "puissance": "130|195",
-                "description": "Utilise la frustration due à son impopularité pour griller ses ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Impopularité",
-                "puissance": "N/A",
-                "description": "Rend un allié tellement impopulaire que tous les ennemis l'ignorent."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Antipathie",
-                "description": "Les ennemis voudront moins devenir tes amis."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Salve de tirs",
-                "puissance": "15×3|33×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Amour brûlant",
-                "puissance": "130|195",
-                "description": "Utilise la frustration due à son impopularité pour griller ses ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Impopularité",
-                "puissance": "N/A",
-                "description": "Rend un allié tellement impopulaire que tous les ennemis l'ignorent."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Incendie",
-                "puissance": "N/A",
-                "description": "Un sort de feu brûle les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Antipathie",
-                "description": "Les ennemis voudront moins devenir tes amis."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Flèche de Cupidon",
-                "puissance": "25",
-                "description": "Attaque longue portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Amour brûlant",
-                "puissance": "100×4",
-                "description": "Brûle les ennemis, gros dégâts infligés."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Incendie",
-                "puissance": "50",
-                "description": "Un sort de feu puissant. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Attaque de repli",
-                "puissance": "70",
-                "description": "Pendant l'attaque, recule et évite les coups ennemis."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Acte de disparition",
-                "puissance": "___",
-                "description": "Invisibilité temporaire."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Temps nuageux",
-                "description": "Tous les alliés immunisés contre les coups critiques."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Salve de tirs",
-                "puissance": "12×3|26×3",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Amour brûlant",
-                "puissance": "148|222",
-                "description": "Grille les ennemis à portée avec la frustation née de de son impopularité !"
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Impopularité",
-                "puissance": "N/A",
-                "description": "Le Yo-kai envoûté devient impopulaire. Son ESP. chute."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Flèche de Cupidon",
-                "puissance": "25",
-                "description": "Attaque un ennemi éloigné."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Amour brûlant",
-                "puissance": "100×4",
-                "description": "Feu intense infligeant des dégâts ++ aux ennemis."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Incendie",
-                "puissance": "50",
-                "description": "Technique de feu++. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive des attaques par des déplacements rapides."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Temps nuageux",
-                "description": "Ne subit pas de dégâts critiques."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Rubis"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman d'esprit"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Amulette armure"
-            },
-            {
-                "taux": "?%",
-                "objet": "Sushi crevette"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Techniques tip-top"
-            },
-            {
-                "taux": "?%",
-                "objet": "Crêpes nappées"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Antipathie",
-        "description": "Les ennemis voudront moins devenir tes amis."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/nonjuan.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/nonjuan.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/nonjuan.wav",
-    "oldID": "43",
-    "medallium_ids": {
-        "yw1": "042",
-        "yw2": "058",
-        "yw3": "097"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "068",
-        "yw Blasters 2": "097",
-        "yw Wibble Wobble": "2006",
-        "yw World": "0036",
-        "Y-Gakuen": "110",
-        "yw Ukiukipedia": "yw11-003"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Unpopularity yw yw2 Cloud Cover ywB yw3",
-    "skill_effect": "Unpopularize",
-    "disliked_food": "Rice Balls",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "378",
-                "STR": "121",
-                "SPR": "221",
-                "DEF": "119",
-                "SPD": "183"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "403",
-                "STR": "121",
-                "SPR": "221",
-                "DEF": "119",
-                "SPD": "183"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "390",
-                "STR": "128",
-                "SPR": "233",
-                "DEF": "189",
-                "SPD": "169"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "339-598",
-                "STR": "128",
-                "SPR": "233",
-                "DEF": "189"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "339-598"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "339-598"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "モテヌス",
-            "Motenusu"
-        ],
-        "Spanish": [
-            "Casanono"
-        ],
-        "French": [
-            "Nonjuant"
-        ],
-        "Italian": [
-            "Casanono"
-        ],
-        "German": [
-            "Casalusa"
-        ],
-        "Korean": [
-            "인기없스",
-            "In'gieopseu"
-        ],
-        "Russian": [
-            "Дон",
-            "Don"
-        ],
-        "Arabic": [
-            "مطرود",
-            "Maṭrūd"
-        ],
-        "Chinese (Mandarin)": [
-            "過氣妖男",
-            "Guòqìyāonán"
-        ],
-        "Portuguese (Brazilian)": [
-            "Don"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "モテヌス"
-        ],
-        "Spanish": [
-            "Casanono"
-        ],
-        "French": [
-            "Nonjuant"
-        ],
-        "Italian": [
-            "Casanono"
-        ],
-        "German": [
-            "Casalusa"
-        ],
-        "Korean": [
-            "인기없스"
-        ],
-        "Russian": [
-            "Дон Ботан"
-        ],
-        "Arabic": [
-            "مطرود"
-        ],
-        "Chinese (Mandarin)": [
-            "過氣妖男"
-        ],
-        "Portuguese (Brazilian)": [
-            "Don Solidão"
-        ]
-    },
-    "description_en": "Casanuva's opposite. He just can't get a date no matter what! He'll make you unpopular too. Best to give him some space.",
-    "nom_en": "Cupistol",
-    "rang_yww": "A",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "bonbons",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 50,
-        "str": 10,
-        "spr": 33,
-        "def": 20,
-        "spd": 26
-    },
-    "stats_max_yww": {
-        "hp": 393,
-        "str": 60,
-        "spr": 223,
-        "def": 149,
-        "spd": 164
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "5つ星コイン",
-            "_en": "5 star coin",
-            "_fr": "Pièce de 5 étoiles"
-        },
-        {
-            "_jp": "黄色コイン",
-            "_en": "yellow coin",
-            "_fr": "pièce jaune"
-        },
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw2": [
+      "La Corniche- herbe",
+      "Bingo-kai-Pièce jaune",
+      "Tunnel sans fin"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "うちまくり",
-                "_en": "Roll up inside",
-                "_fr": "Roulez à l'intérieur"
-            },
-            "explication": {
-                "_jp": "【威力:12×3 / 打撃】 3回攻撃を行う",
-                "_en": "[Power: 12×3/Blow] Attacks 3 times",
-                "_fr": "[Puissance : 12×3/Coup] Attaque 3 fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "火炎の術",
-                "_en": "flame technique",
-                "_fr": "technique de la flamme"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
-                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
-                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
-            }
-        }
+    "yw Blasters 1": [
+      "Exclusif à l'Escadron du chien blancPatrouille - La Corniche"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "恋こがれファイヤー",
-                "_en": "love fire",
-                "_fr": "aimer le feu"
-            },
-            "pouvoir": "148",
-            "explication": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "モテなくする",
-                "_en": "make you unpopular",
-                "_fr": "te rend impopulaire"
-            },
-            "explication": {
-                "_jp": "【ようりょくダウン】 とりつかれた妖怪はモテなくなった悲しさで ようりょくがダウンする。",
-                "_en": "[Yoryoku Down] The possessed monster's Yoryoku goes down due to the sadness of not being popular anymore.",
-                "_fr": "[Yoryoku Down] Le Yoryoku du monstre possédé diminue à cause de la tristesse de ne plus être populaire."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "モテマクールとは対照的に 何をやってもモテない 悲しい妖怪。 こいつに とりつかれると モテない人になってしまう。",
-            "_en": "In contrast to Motemakuru, she is a sad monster who is never popular no matter what she does. If you become obsessed with this person, you will become an unpopular person.",
-            "_fr": "Contrairement à Motemakuru, c'est un monstre triste qui n'est jamais populaire quoi qu'elle fasse. Si vous devenez obsédé par cette personne, vous deviendrez une personne impopulaire."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Électropolis- sous les voitures"
     ]
+  },
+  "rarite": "L'Escadron du chien blanc",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Salve de tirs",
+        "puissance": "15×3|33×3",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Incendie",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Amour brûlant",
+        "puissance": "130|195",
+        "description": "Utilise la frustration due à son impopularité pour griller ses ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Impopularité",
+        "puissance": "N/A",
+        "description": "Rend un allié tellement impopulaire que tous les ennemis l'ignorent."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Antipathie",
+        "description": "Les ennemis voudront moins devenir tes amis."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Salve de tirs",
+        "puissance": "15×3|33×3",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Incendie",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Amour brûlant",
+        "puissance": "130|195",
+        "description": "Utilise la frustration due à son impopularité pour griller ses ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Impopularité",
+        "puissance": "N/A",
+        "description": "Rend un allié tellement impopulaire que tous les ennemis l'ignorent."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Incendie",
+        "puissance": "N/A",
+        "description": "Un sort de feu brûle les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Antipathie",
+        "description": "Les ennemis voudront moins devenir tes amis."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Flèche de Cupidon",
+        "puissance": "25",
+        "description": "Attaque longue portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Amour brûlant",
+        "puissance": "100×4",
+        "description": "Brûle les ennemis, gros dégâts infligés."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Incendie",
+        "puissance": "50",
+        "description": "Un sort de feu puissant. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Attaque de repli",
+        "puissance": "70",
+        "description": "Pendant l'attaque, recule et évite les coups ennemis."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Acte de disparition",
+        "puissance": "___",
+        "description": "Invisibilité temporaire."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Temps nuageux",
+        "description": "Tous les alliés immunisés contre les coups critiques."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Salve de tirs",
+        "puissance": "12×3|26×3",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Incendie",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Amour brûlant",
+        "puissance": "148|222",
+        "description": "Grille les ennemis à portée avec la frustation née de de son impopularité !"
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Impopularité",
+        "puissance": "N/A",
+        "description": "Le Yo-kai envoûté devient impopulaire. Son ESP. chute."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Flèche de Cupidon",
+        "puissance": "25",
+        "description": "Attaque un ennemi éloigné."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Amour brûlant",
+        "puissance": "100×4",
+        "description": "Feu intense infligeant des dégâts ++ aux ennemis."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Incendie",
+        "puissance": "50",
+        "description": "Technique de feu++. Plus de dégâts si chargée."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive des attaques par des déplacements rapides."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Temps nuageux",
+        "description": "Ne subit pas de dégâts critiques."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Rubis"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman d'esprit"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Amulette armure"
+      },
+      {
+        "taux": "?%",
+        "objet": "Sushi crevette"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Techniques tip-top"
+      },
+      {
+        "taux": "?%",
+        "objet": "Crêpes nappées"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Antipathie",
+    "description": "Les ennemis voudront moins devenir tes amis."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/nonjuan.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/nonjuan.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/nonjuan.wav",
+  "oldID": "43",
+  "medallium_ids": {
+    "yw1": "042",
+    "yw2": "058",
+    "yw3": "097"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "068",
+    "yw Blasters 2": "097",
+    "yw Wibble Wobble": "2006",
+    "yw World": "0036",
+    "Y-Gakuen": "110",
+    "yw Ukiukipedia": "yw11-003"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Unpopularity yw yw2 Cloud Cover ywB yw3",
+  "skill_effect": "Unpopularize",
+  "disliked_food": "Rice Balls",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "378",
+        "STR": "121",
+        "SPR": "221",
+        "DEF": "119",
+        "SPD": "183"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "403",
+        "STR": "121",
+        "SPR": "221",
+        "DEF": "119",
+        "SPD": "183"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "390",
+        "STR": "128",
+        "SPR": "233",
+        "DEF": "189",
+        "SPD": "169"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "339-598",
+        "STR": "128",
+        "SPR": "233",
+        "DEF": "189"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "339-598"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "339-598"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "モテヌス",
+      "Motenusu"
+    ],
+    "Spanish": [
+      "Casanono"
+    ],
+    "French": [
+      "Nonjuant"
+    ],
+    "Italian": [
+      "Casanono"
+    ],
+    "German": [
+      "Casalusa"
+    ],
+    "Korean": [
+      "인기없스",
+      "In'gieopseu"
+    ],
+    "Russian": [
+      "Дон",
+      "Don"
+    ],
+    "Arabic": [
+      "مطرود",
+      "Maṭrūd"
+    ],
+    "Chinese (Mandarin)": [
+      "過氣妖男",
+      "Guòqìyāonán"
+    ],
+    "Portuguese (Brazilian)": [
+      "Don"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "モテヌス"
+    ],
+    "Spanish": [
+      "Casanono"
+    ],
+    "French": [
+      "Nonjuant"
+    ],
+    "Italian": [
+      "Casanono"
+    ],
+    "German": [
+      "Casalusa"
+    ],
+    "Korean": [
+      "인기없스"
+    ],
+    "Russian": [
+      "Дон Ботан"
+    ],
+    "Arabic": [
+      "مطرود"
+    ],
+    "Chinese (Mandarin)": [
+      "過氣妖男"
+    ],
+    "Portuguese (Brazilian)": [
+      "Don Solidão"
+    ]
+  },
+  "description_en": "Casanuva's opposite. He just can't get a date no matter what! He'll make you unpopular too. Best to give him some space.",
+  "nom_en": "Cupistol",
+  "rang_yww": "A",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "bonbons",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 50,
+    "str": 10,
+    "spr": 33,
+    "def": 20,
+    "spd": 26
+  },
+  "stats_max_yww": {
+    "hp": 393,
+    "str": 60,
+    "spr": 223,
+    "def": 149,
+    "spd": 164
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "5つ星コイン",
+      "_en": "5 star coin",
+      "_fr": "Pièce de 5 étoiles"
+    },
+    {
+      "_jp": "黄色コイン",
+      "_en": "yellow coin",
+      "_fr": "pièce jaune"
+    },
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "うちまくり",
+        "_en": "Roll up inside",
+        "_fr": "Roulez à l'intérieur"
+      },
+      "explication": {
+        "_jp": "【威力:12×3 / 打撃】 3回攻撃を行う",
+        "_en": "[Power: 12×3/Blow] Attacks 3 times",
+        "_fr": "[Puissance : 12×3/Coup] Attaque 3 fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "火炎の術",
+        "_en": "flame technique",
+        "_fr": "technique de la flamme"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
+        "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
+        "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "恋こがれファイヤー",
+        "_en": "love fire",
+        "_fr": "aimer le feu"
+      },
+      "pouvoir": "148",
+      "explication": {
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "モテなくする",
+        "_en": "make you unpopular",
+        "_fr": "te rend impopulaire"
+      },
+      "explication": {
+        "_jp": "【ようりょくダウン】 とりつかれた妖怪はモテなくなった悲しさで ようりょくがダウンする。",
+        "_en": "[Yoryoku Down] The possessed monster's Yoryoku goes down due to the sadness of not being popular anymore.",
+        "_fr": "[Yoryoku Down] Le Yoryoku du monstre possédé diminue à cause de la tristesse de ne plus être populaire."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "モテマクールとは対照的に 何をやってもモテない 悲しい妖怪。 こいつに とりつかれると モテない人になってしまう。",
+      "_en": "In contrast to Motemakuru, she is a sad monster who is never popular no matter what she does. If you become obsessed with this person, you will become an unpopular person.",
+      "_fr": "Contrairement à Motemakuru, c'est un monstre triste qui n'est jamais populaire quoi qu'elle fasse. Si vous devenez obsédé par cette personne, vous deviendrez une personne impopulaire."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "43",
+  "Name_yww": "モテヌス",
+  "description_jp_yww": "モテマクールとは対照的に 何をやってもモテない 悲しい妖怪。 こいつに　とりつかれると モテない人になってしまう。",
+  "BingoMessage_jp_yww": "だれも引き当ててくれないと思ってたよ… ありがとう　感謝してる…",
+  "MonsterId_yww": "y124010",
+  "Height_yww": 20.0,
+  "CommondId_yww": "sp_124010",
+  "MinHp_yww": 50,
+  "MaxHp_yww": 393,
+  "MinAttack_yww": 10,
+  "MaxAttack_yww": 60,
+  "MinMagic_yww": 33,
+  "MaxMagic_yww": 223,
+  "MinDefense_yww": 20,
+  "MaxDefense_yww": 149,
+  "MinSpeed_yww": 26,
+  "MaxSpeed_yww": 164,
+  "AttackId_yww": 38,
+  "MagicId_yww": 2,
+  "HauntId_yww": 124010,
+  "SpSkillId_yww": 124010,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 14,
+  "DislikeFoodKind_yww": 1,
+  "ActionType_yww": 9,
+  "TribeType_yww": 2,
+  "MedallionImage_yww": "y119810.png",
+  "SpriteImage_yww": "img_y119810.png",
+  "Audio_yww": "sp_y119810.wav",
+  "Description_yww": "À l'opposé du Motemakuru, c'est un yōkai triste qui, quoi qu'il fasse, n'arrive pas à séduire. Si ce yōkai s'empare de vous, vous deviendrez quelqu'un qui n'arrive pas à séduire.",
+  "BingoMessage_fr_yww": "Je pensais que personne ne me choisirait… Merci, je t'en suis reconnaissant…"
 }

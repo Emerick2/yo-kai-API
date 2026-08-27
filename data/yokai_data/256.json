@@ -1,505 +1,536 @@
 {
-    "ID": "256",
-    "Nom": "Triptic-tac",
-    "Tribue": "Mystérieu",
-    "Rang": "A",
-    "PV": "428",
-    "Force": "52",
-    "Esprit": "262",
-    "Défense": "214",
-    "Vitesse": "57",
-    "Description": "Trois fois plus gros et trois fois plus fort que Télémir, Triptic-tac permet de voyager dans le temps et l'espace.",
-    "nourriture": "Cuisine chinoise",
-    "élément": "Absorption",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Triptic-tac vient de triptique (un miroir à trois faces) et de tic-tac (bruit que font les aiguilles des horloges, ce qui est une référence à son pouvoir de voyage temporel).",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Triptic-tac a le pouvoir de faire voyager quiconque traversera son miroir à travers le temps et l'espace. Grâce à lui, on peut voyager dans le passé et dans le futur. Triptic-tac peut aussi faire voyager à travers le temps et l'espace comme lors de l'Événement Première Collaboration avec Moi, quand je me réincarne en Slime, où c'est lui qui amèneJibanyanetWhisperdans le monde du manga.",
-    "personnalité": "Il est très amical.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/triptic-tac.png",
-    "numero": "070",
-    "nourriture_favorite": "Plats chinois",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Effet miroir",
-            "effet": "Renvoie à l'ennemi 1/2 des dégâts qu'il inflige."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Plaquage",
-            "effet": "60 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Récolte",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Esprit miroir",
-            "effet": "Invoque au hasard un esprit du monde des miroirs pour attaquer."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Énergie du miroir",
-            "effet": "Augmente l'ESP. d'un allié avec le pouvoir d'un mystérieux miroir."
-        }
+  "ID": "256",
+  "Nom": "Triptic-tac",
+  "Tribue": "Mystérieu",
+  "Rang": "A",
+  "PV": "428",
+  "Force": "52",
+  "Esprit": "262",
+  "Défense": "214",
+  "Vitesse": "57",
+  "Description": "Trois fois plus gros et trois fois plus fort que Télémir, Triptic-tac permet de voyager dans le temps et l'espace.",
+  "nourriture": "Cuisine chinoise",
+  "élément": "Absorption",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Triptic-tac vient de triptique (un miroir à trois faces) et de tic-tac (bruit que font les aiguilles des horloges, ce qui est une référence à son pouvoir de voyage temporel).",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Triptic-tac a le pouvoir de faire voyager quiconque traversera son miroir à travers le temps et l'espace. Grâce à lui, on peut voyager dans le passé et dans le futur. Triptic-tac peut aussi faire voyager à travers le temps et l'espace comme lors de l'Événement Première Collaboration avec Moi, quand je me réincarne en Slime, où c'est lui qui amèneJibanyanetWhisperdans le monde du manga.",
+  "personnalité": "Il est très amical.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/triptic-tac.png",
+  "numero": "070",
+  "nourriture_favorite": "Plats chinois",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Effet miroir",
+      "effet": "Renvoie à l'ennemi 1/2 des dégâts qu'il inflige."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Plaquage",
+      "effet": "60 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Récolte",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Esprit miroir",
+      "effet": "Invoque au hasard un esprit du monde des miroirs pour attaquer."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Énergie du miroir",
+      "effet": "Augmente l'ESP. d'un allié avec le pouvoir d'un mystérieux miroir."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est excellent !",
+    "Mange de la nourriture insipide": "Acceptable.",
+    "Mange de la mauvaise nourriture": "Jette ça.",
+    "A la flemme": "Keh keh keh...",
+    "Est échangé": "On vient juste de se rencontrer, mais si tu t'ouvres à moi, je m'ouvrirai à toi.",
+    "Devient ton ami": "Prends d'abord le temps de réfléchir à tes actes, on deviendra amis ensuite !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Télémir",
+      "parent2": "Espi",
+      "resultat": "Triptic-tac",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "うんがい三面鏡",
+  "nom_anglais": "Miradox",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Histoire",
+      "Fusion"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est excellent !",
-        "Mange de la nourriture insipide": "Acceptable.",
-        "Mange de la mauvaise nourriture": "Jette ça.",
-        "A la flemme": "Keh keh keh...",
-        "Est échangé": "On vient juste de se rencontrer, mais si tu t'ouvres à moi, je m'ouvrirai à toi.",
-        "Devient ton ami": "Prends d'abord le temps de réfléchir à tes actes, on deviendra amis ensuite !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Télémir",
-            "parent2": "Espi",
-            "resultat": "Triptic-tac",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Histoire",
+      "Fusion"
     ],
-    "image_locale": "",
-    "nom_original": "うんがい三面鏡",
-    "nom_anglais": "Miradox",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Histoire",
-            "Fusion"
-        ],
-        "yw Blasters 1": [
-            "Histoire",
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Récolte",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Esprit miroir",
-                "puissance": "___",
-                "description": "Invoque au hasard un esprit du monde des miroirs pour attaquer."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie du miroir",
-                "puissance": "N/A",
-                "description": "Augmente l'ESP. d'un allié avec le pouvoir d'un mystérieux miroir."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Vortex",
-                "puissance": "N/A",
-                "description": "Te fait absorber les PV de l'ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Effet miroir",
-                "description": "Renvoie à l'ennemi 1/2 des dégâts qu'il inflige."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Esprit miroir",
-                "puissance": "33×6",
-                "description": "Dégâts proportionnels aux âmes invoquées."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Vortex",
-                "puissance": "30",
-                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Armure miroir",
-                "puissance": "___",
-                "description": "Réduit et renvoie dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Effet miroir",
-                "description": "Dégâts des attaques ennemies partiellement renvoyés."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage",
-                "puissance": "35|77",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Récolte",
-                "puissance": "55|88",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Esprit miroir",
-                "puissance": "___",
-                "description": "Invoque au hasard un esprit du monde des miroirs pour attaquer."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie du miroir",
-                "puissance": "N/A",
-                "description": "Augmente l'ESP. d'un allié avec le pouvoir d'un mystérieux miroir."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Esprit miroir",
-                "puissance": "33×6",
-                "description": "↑ dégâts en fonction du nombre d'esprits invoqués."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Vortex",
-                "puissance": "30",
-                "description": "Draine + les PV ennemis. Plus de PV volés si chargé."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Effet miroir",
-                "description": "Renvoie les dégâts d'une technique à l'ennemi."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Amulette de chance"
-            },
-            {
-                "taux": "?%",
-                "objet": "Dico-tech"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Grand EXPorbe"
-            },
-            {
-                "taux": "?%",
-                "objet": "Omelette au crabe"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Effet miroir",
-        "description": "Renvoie à l'ennemi 1/2 des dégâts qu'il inflige."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/triptic-tac.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/triptic-tac.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/triptic-tac.wav",
-    "oldID": "259",
-    "medallium_ids": {
-        "yw2": "070",
-        "yw3": "119"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "080",
-        "Three Kingdoms": "076",
-        "yw Wibble Wobble": "2025",
-        "yw Ukiukipedia": "yw9-006"
-    },
-    "battle_type": "",
-    "skill_name": "Mirror Body",
-    "skill_effect": "Mirror Power",
-    "disliked_food": "Ramen",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "438",
-                "STR": "120",
-                "SPR": "197",
-                "DEF": "193",
-                "SPD": "135"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "346-630",
-                "STR": "57",
-                "SPR": "267",
-                "DEF": "219",
-                "SPD": "62"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "Attribute tolerance": {
-            "stats": {
-                "HP": "346-630"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "346-630"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "346-630"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "346-630"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Spanish": [
-            "Trielespejo"
-        ],
-        "French": [
-            "Triptic-tac"
-        ],
-        "Italian": [
-            "Trispecchio"
-        ],
-        "German": [
-            "Temportalex"
-        ],
-        "Russian": [
-            "Зеркалдокс",
-            "Zerkaldoks"
-        ],
-        "Arabic": [
-            "عاكس",
-            "ʕākis"
-        ],
-        "Chinese (Mandarin)": [
-            "雲外三面鏡"
-        ],
-        "Portuguese (Brazilian)": [
-            "Paradoxal"
-        ]
-    },
-    "localized_soultimates": {
-        "Spanish": [
-            "Trielespejo"
-        ],
-        "French": [
-            "Triptic-tac"
-        ],
-        "Italian": [
-            "Trispecchio"
-        ],
-        "German": [
-            "Temportalex"
-        ],
-        "Russian": [
-            "Зеркалдокс"
-        ],
-        "Arabic": [
-            "عاكس"
-        ],
-        "Chinese (Mandarin)": [
-            "雲外三面鏡"
-        ],
-        "Portuguese (Brazilian)": [
-            "Paradoxal"
-        ]
-    },
-    "description_en": "Triple the size and triple the power of Mirapo. Miradox makes it possible to travel through time as well as space.",
-    "nom_en": "Nagmella",
-    "rang_yww": "A",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "Cuisine chinoise",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 58,
-        "str": 5,
-        "spr": 46,
-        "def": 29,
-        "spd": 6
-    },
-    "stats_max_yww": {
-        "hp": 428,
-        "str": 52,
-        "spr": 262,
-        "def": 214,
-        "spd": 57
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "タックル",
-                "_en": "tackle",
-                "_fr": "tacle"
-            },
-            "explication": {
-                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 35/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "死神の術",
-                "_en": "Shinigami no Jutsu",
-                "_fr": "Shinigami no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:55 / 吸収】 敵のHPを大きく吸い取る。",
-                "_en": "[Power: 55 / Absorption] Absorbs a large amount of enemy's HP.",
-                "_fr": "[Puissance : 55 / Absorption] Absorbe une grande quantité de HP de l'ennemi."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "あわせ鏡のむこうがわ",
-                "_en": "The other side of the mirror",
-                "_fr": "L'autre côté du miroir"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "鏡の力",
-                "_en": "power of mirror",
-                "_fr": "pouvoir du miroir"
-            },
-            "explication": {
-                "_jp": "【ようりょくアップ】 とりつかれた妖怪はふしぎな鏡の力で ようりょくがアップする。",
-                "_en": "[Yoryoku Up] The possessed monster's health increases with the power of a mysterious mirror.",
-                "_fr": "[Yoryoku Up] La santé du monstre possédé augmente avec la puissance d'un miroir mystérieux."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "うんがい鏡が三面になって 妖力も三倍強くなった。 場所だけでなく 時間をも越えることができる。 タイムパラドックスを勉強中。",
-            "_en": "The mirror became three-sided, and its magical power became three times stronger. It can transcend not only place but also time. Studying time paradox.",
-            "_fr": "Le miroir est devenu à trois faces et son pouvoir magique est devenu trois fois plus fort. Cela peut transcender non seulement le lieu mais aussi le temps. Étudier le paradoxe du temps."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Récolte",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Esprit miroir",
+        "puissance": "___",
+        "description": "Invoque au hasard un esprit du monde des miroirs pour attaquer."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie du miroir",
+        "puissance": "N/A",
+        "description": "Augmente l'ESP. d'un allié avec le pouvoir d'un mystérieux miroir."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Vortex",
+        "puissance": "N/A",
+        "description": "Te fait absorber les PV de l'ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Effet miroir",
+        "description": "Renvoie à l'ennemi 1/2 des dégâts qu'il inflige."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Esprit miroir",
+        "puissance": "33×6",
+        "description": "Dégâts proportionnels aux âmes invoquées."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Vortex",
+        "puissance": "30",
+        "description": "Absorbe les PV ennemis. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Armure miroir",
+        "puissance": "___",
+        "description": "Réduit et renvoie dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Effet miroir",
+        "description": "Dégâts des attaques ennemies partiellement renvoyés."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage",
+        "puissance": "35|77",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Récolte",
+        "puissance": "55|88",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Esprit miroir",
+        "puissance": "___",
+        "description": "Invoque au hasard un esprit du monde des miroirs pour attaquer."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie du miroir",
+        "puissance": "N/A",
+        "description": "Augmente l'ESP. d'un allié avec le pouvoir d'un mystérieux miroir."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Esprit miroir",
+        "puissance": "33×6",
+        "description": "↑ dégâts en fonction du nombre d'esprits invoqués."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Vortex",
+        "puissance": "30",
+        "description": "Draine + les PV ennemis. Plus de PV volés si chargé."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Effet miroir",
+        "description": "Renvoie les dégâts d'une technique à l'ennemi."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Amulette de chance"
+      },
+      {
+        "taux": "?%",
+        "objet": "Dico-tech"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Grand EXPorbe"
+      },
+      {
+        "taux": "?%",
+        "objet": "Omelette au crabe"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Effet miroir",
+    "description": "Renvoie à l'ennemi 1/2 des dégâts qu'il inflige."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/triptic-tac.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/triptic-tac.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/triptic-tac.wav",
+  "oldID": "259",
+  "medallium_ids": {
+    "yw2": "070",
+    "yw3": "119"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "080",
+    "Three Kingdoms": "076",
+    "yw Wibble Wobble": "2025",
+    "yw Ukiukipedia": "yw9-006"
+  },
+  "battle_type": "",
+  "skill_name": "Mirror Body",
+  "skill_effect": "Mirror Power",
+  "disliked_food": "Ramen",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "438",
+        "STR": "120",
+        "SPR": "197",
+        "DEF": "193",
+        "SPD": "135"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "346-630",
+        "STR": "57",
+        "SPR": "267",
+        "DEF": "219",
+        "SPD": "62"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "Attribute tolerance": {
+      "stats": {
+        "HP": "346-630"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "346-630"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "346-630"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "346-630"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Spanish": [
+      "Trielespejo"
+    ],
+    "French": [
+      "Triptic-tac"
+    ],
+    "Italian": [
+      "Trispecchio"
+    ],
+    "German": [
+      "Temportalex"
+    ],
+    "Russian": [
+      "Зеркалдокс",
+      "Zerkaldoks"
+    ],
+    "Arabic": [
+      "عاكس",
+      "ʕākis"
+    ],
+    "Chinese (Mandarin)": [
+      "雲外三面鏡"
+    ],
+    "Portuguese (Brazilian)": [
+      "Paradoxal"
+    ]
+  },
+  "localized_soultimates": {
+    "Spanish": [
+      "Trielespejo"
+    ],
+    "French": [
+      "Triptic-tac"
+    ],
+    "Italian": [
+      "Trispecchio"
+    ],
+    "German": [
+      "Temportalex"
+    ],
+    "Russian": [
+      "Зеркалдокс"
+    ],
+    "Arabic": [
+      "عاكس"
+    ],
+    "Chinese (Mandarin)": [
+      "雲外三面鏡"
+    ],
+    "Portuguese (Brazilian)": [
+      "Paradoxal"
+    ]
+  },
+  "description_en": "Triple the size and triple the power of Mirapo. Miradox makes it possible to travel through time as well as space.",
+  "nom_en": "Nagmella",
+  "rang_yww": "A",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "Cuisine chinoise",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 58,
+    "str": 5,
+    "spr": 46,
+    "def": 29,
+    "spd": 6
+  },
+  "stats_max_yww": {
+    "hp": 428,
+    "str": 52,
+    "spr": 262,
+    "def": 214,
+    "spd": 57
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "タックル",
+        "_en": "tackle",
+        "_fr": "tacle"
+      },
+      "explication": {
+        "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 35/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "死神の術",
+        "_en": "Shinigami no Jutsu",
+        "_fr": "Shinigami no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:55 / 吸収】 敵のHPを大きく吸い取る。",
+        "_en": "[Power: 55 / Absorption] Absorbs a large amount of enemy's HP.",
+        "_fr": "[Puissance : 55 / Absorption] Absorbe une grande quantité de HP de l'ennemi."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "あわせ鏡のむこうがわ",
+        "_en": "The other side of the mirror",
+        "_fr": "L'autre côté du miroir"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "鏡の力",
+        "_en": "power of mirror",
+        "_fr": "pouvoir du miroir"
+      },
+      "explication": {
+        "_jp": "【ようりょくアップ】 とりつかれた妖怪はふしぎな鏡の力で ようりょくがアップする。",
+        "_en": "[Yoryoku Up] The possessed monster's health increases with the power of a mysterious mirror.",
+        "_fr": "[Yoryoku Up] La santé du monstre possédé augmente avec la puissance d'un miroir mystérieux."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "うんがい鏡が三面になって 妖力も三倍強くなった。 場所だけでなく 時間をも越えることができる。 タイムパラドックスを勉強中。",
+      "_en": "The mirror became three-sided, and its magical power became three times stronger. It can transcend not only place but also time. Studying time paradox.",
+      "_fr": "Le miroir est devenu à trois faces et son pouvoir magique est devenu trois fois plus fort. Cela peut transcender non seulement le lieu mais aussi le temps. Étudier le paradoxe du temps."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "259",
+  "Name_yww": "うんがい三面鏡",
+  "description_jp_yww": "うんがい鏡が三面になって 妖力も三倍強くなった。 場所だけでなく 時間をも超えることができる。 タイムパラドックスを勉強中。",
+  "BingoMessage_jp_yww": "やっと出れたよー　ありがとう 未来までおともするよ～",
+  "MonsterId_yww": "y252000",
+  "Height_yww": 15.44,
+  "CommondId_yww": "sp_252000",
+  "MinHp_yww": 58,
+  "MaxHp_yww": 428,
+  "MinAttack_yww": 5,
+  "MaxAttack_yww": 52,
+  "MinMagic_yww": 46,
+  "MaxMagic_yww": 262,
+  "MinDefense_yww": 29,
+  "MaxDefense_yww": 214,
+  "MinSpeed_yww": 6,
+  "MaxSpeed_yww": 57,
+  "AttackId_yww": 26,
+  "MagicId_yww": 21,
+  "HauntId_yww": 252000,
+  "SpSkillId_yww": 252000,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 9,
+  "DislikeFoodKind_yww": 7,
+  "ActionType_yww": 8,
+  "TribeType_yww": 2,
+  "MedallionImage_yww": "y247800.png",
+  "SpriteImage_yww": "img_y247800.png",
+  "Audio_yww": "sp_y247800.wav",
+  "Description_yww": "Le miroir de divination est désormais composé de trois faces, et son pouvoir surnaturel a triplé. Il permet non seulement de transcender l’espace, mais aussi le temps. Je me penche actuellement sur les paradoxes temporels.",
+  "BingoMessage_fr_yww": "J'ai enfin pu sortir ! Merci. Je t'accompagnerai jusqu'à l'avenir~"
 }

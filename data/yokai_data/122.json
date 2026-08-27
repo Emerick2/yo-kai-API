@@ -1,561 +1,592 @@
 {
-    "ID": "122",
-    "Nom": "Persévéfant",
-    "Tribue": "Costaud",
-    "Rang": "C",
-    "PV": "421",
-    "Force": "53",
-    "Esprit": "109",
-    "Défense": "242",
-    "Vitesse": "114",
-    "Description-": "Tout ce qu'il fait est déterminé par le résultat de ses yeux en dés. Ils changent également sa personnalité.",
-    "Description": "Persévéfant peut tout supporter, même lorsque l'effort le fait trembler. Il peut aussi t'aider à être persévérant.",
-    "nourriture": "Riz",
-    "élément": "Eau",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Persévéfantvient de persévérer et d'éléphant.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Ceux qui sont envoûtés par Persévéfant deviennent plus persévérants.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/persevefant.png",
-    "numero": "065",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Endurance",
-            "effet": "Gardera 1 PV après un coup fatal."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tour complet",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Rapides",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Trompe-la-mort",
-            "effet": "Baffe un adversaire avec son nez. Peut annuler les Âmultimes. 160 | 160"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tremblements",
-            "effet": "Fait trembler l'ennemi tel un bébé faon."
-        }
+  "ID": "122",
+  "Nom": "Persévéfant",
+  "Tribue": "Costaud",
+  "Rang": "C",
+  "PV": "421",
+  "Force": "53",
+  "Esprit": "109",
+  "Défense": "242",
+  "Vitesse": "114",
+  "Description-": "Tout ce qu'il fait est déterminé par le résultat de ses yeux en dés. Ils changent également sa personnalité.",
+  "Description": "Persévéfant peut tout supporter, même lorsque l'effort le fait trembler. Il peut aussi t'aider à être persévérant.",
+  "nourriture": "Riz",
+  "élément": "Eau",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Persévéfantvient de persévérer et d'éléphant.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Ceux qui sont envoûtés par Persévéfant deviennent plus persévérants.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/persevefant.png",
+  "numero": "065",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Endurance",
+      "effet": "Gardera 1 PV après un coup fatal."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tour complet",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Rapides",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Trompe-la-mort",
+      "effet": "Baffe un adversaire avec son nez. Peut annuler les Âmultimes. 160 | 160"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tremblements",
+      "effet": "Fait trembler l'ennemi tel un bébé faon."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Délicieux !",
+    "Mange de la nourriture insipide": "*mâche*",
+    "Mange de la mauvaise nourriture": "C-C'est horrible.",
+    "A la flemme": "Je tremble trop...",
+    "Est échangé": "Tous ces voyages et cet exercice me donnent une envie pressante...",
+    "Devient ton ami": "Dépêche-toi de m'accepter comme ami, l'attente est insoutenable !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Persévéfant",
+      "parent2": "Pachycoul",
+      "resultat": "Pachypipi",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "プルファント",
+  "nom_anglais": "Touphant",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "École élémentaire de Granval- extérieur - buissons (Nuit)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Délicieux !",
-        "Mange de la nourriture insipide": "*mâche*",
-        "Mange de la mauvaise nourriture": "C-C'est horrible.",
-        "A la flemme": "Je tremble trop...",
-        "Est échangé": "Tous ces voyages et cet exercice me donnent une envie pressante...",
-        "Devient ton ami": "Dépêche-toi de m'accepter comme ami, l'attente est insoutenable !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Persévéfant",
-            "parent2": "Pachycoul",
-            "resultat": "Pachypipi",
-            "critere": "➨"
-        }
+    "yw2": [
+      "San Fantastico",
+      "Bingo-kai-Pièce orange"
     ],
-    "image_locale": "",
-    "nom_original": "プルファント",
-    "nom_anglais": "Touphant",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "École élémentaire de Granval- extérieur - buissons (Nuit)"
-        ],
-        "yw2": [
-            "San Fantastico",
-            "Bingo-kai-Pièce orange"
-        ],
-        "yw3": [
-            "Cawet- arbres"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Tour complet",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Rapides",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Trompe-la-mort",
-                "puissance": "60|157",
-                "description": "Baffe un adversaire avec son nez. Âmultimes annulables."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Tremblements",
-                "puissance": "N/A",
-                "description": "Fait trembler l'ennemi tel un bébé faon."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Endurance",
-                "description": "Gardera 1 PV après un coup fatal."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Tour complet",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Rapides",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Trompe-la-mort",
-                "puissance": "160|160",
-                "description": "Baffe un adversaire avec son nez. Peut annuler les Âmultimes."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Tremblements",
-                "puissance": "N/A",
-                "description": "Fait trembler l'ennemi tel un bébé faon."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Torrent",
-                "puissance": "N/A",
-                "description": "Un jet d'eau attaque les ennemis éloignés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Endurance",
-                "description": "Gardera 1 PV après un coup fatal."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Trompe-la-mort",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Armure de fer",
-                "puissance": "___",
-                "description": "Forte réduction des dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Position défensive",
-                "puissance": "___",
-                "description": "Hausse de la défense temporaire"
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Endurance",
-                "description": "Quand PV à 0, 1PV sera restauré une seule fois."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Tour complet",
-                "puissance": "60|132",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Rapides",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Trompe-la-mort",
-                "puissance": "100|200",
-                "description": "Gifle un ennemi avec son long nez, tout en tremblant."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Tremblements",
-                "puissance": "N/A",
-                "description": "Le Yo-kai envoûté tremble tellement qu'il agit moins."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Trompe-la-mort",
-                "puissance": "400",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi, attirant ainsi son attention."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Endurance",
-                "description": "Gardera 1 PV après un coup fatal. (une fois)"
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Bœuf persillé"
-            },
-            {
-                "taux": "?%",
-                "objet": "La défense de A à Z"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Amulette antique"
-            },
-            {
-                "taux": "?%",
-                "objet": "Tout sur la défense"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Riz dans une feuille"
-            },
-            {
-                "taux": "?%",
-                "objet": "Étoile dansante"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Endurance",
-        "description": "Gardera 1 PV après un coup fatal."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/persevefant.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/persevefant.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/persevefant.wav",
-    "oldID": "122",
-    "medallium_ids": {
-        "yw1": "065",
-        "yw2": "103",
-        "yw3": "171"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "117",
-        "yw Blasters 2": "175",
-        "yw Wibble Wobble": "3011",
-        "yw World": "0056",
-        "yw Ukiukipedia": "yw1-018"
-    },
-    "battle_type": "",
-    "skill_name": "Endurance",
-    "skill_effect": "Shaking",
-    "disliked_food": "Bread",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "322",
-                "STR": "111",
-                "SPR": "169",
-                "DEF": "173",
-                "SPD": "114"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "431",
-                "STR": "111",
-                "SPR": "169",
-                "DEF": "173",
-                "SPD": "114"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "140-245",
-                "STR": "58",
-                "SPR": "114",
-                "DEF": "247",
-                "SPD": "119"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "140-245"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "140-245"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "140-245"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "プルファント",
-            "Purufanto"
-        ],
-        "Spanish": [
-            "Perselefante"
-        ],
-        "French": [
-            "Persévéfant"
-        ],
-        "Italian": [
-            "Duroboscide"
-        ],
-        "German": [
-            "Zitterfant"
-        ],
-        "Russian": [
-            "Стойкослон",
-            "Stoykoslon"
-        ],
-        "Arabic": [
-            "جلد",
-            "Jald"
-        ],
-        "Chinese (Mandarin)": [
-            "忍耐象",
-            "Rěnnàixiàng"
-        ],
-        "Portuguese (Brazilian)": [
-            "Helifante"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "プルファント"
-        ],
-        "Spanish": [
-            "Perselefante"
-        ],
-        "French": [
-            "Persévéfant"
-        ],
-        "Italian": [
-            "Duroboscide"
-        ],
-        "German": [
-            "Zitterfant"
-        ],
-        "Russian": [
-            "Стойкослон"
-        ],
-        "Arabic": [
-            "جلد"
-        ],
-        "Chinese (Mandarin)": [
-            "忍耐象"
-        ],
-        "Portuguese (Brazilian)": [
-            "Helifante"
-        ]
-    },
-    "description_en": "Touphant can endure anything...with a certain amount of body-shaking effort. He can help you persevere as well.",
-    "nom_en": "Swelterrier",
-    "rang_yww": "C",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "Onigiri",
-    "nourriture_favorite": "Onigiri",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
-        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 53,
-        "str": 7,
-        "spr": 13,
-        "def": 29,
-        "spd": 16
-    },
-    "stats_max_yww": {
-        "hp": 421,
-        "str": 53,
-        "spr": 109,
-        "def": 242,
-        "spd": 114
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "フルスイング",
-                "_en": "full swing",
-                "_fr": "bat son plein"
-            },
-            "explication": {
-                "_jp": "【威力:60 / 打撃】 外れやすい",
-                "_en": "[Power: 60/Blow] Easy to miss",
-                "_fr": "[Puissance : 60/Coup] Facile à rater"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "水流の術",
-                "_en": "Water flow technique",
-                "_fr": "Technique d'écoulement de l'eau"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 水属性】 強力な水の妖術を使う。",
-                "_en": "[Power: 50 / Water attribute] Uses powerful water magic.",
-                "_fr": "[Puissance : 50 / Attribut Eau] Utilise une puissante magie de l'eau."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ぷるぷるビンタ",
-                "_en": "Jiggly slap",
-                "_fr": "Gifle jiggly"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "プルプルさせる",
-                "_en": "make it jiggle",
-                "_fr": "fais-le trembler"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 とりつかれた妖怪はプルプルしてしまいたまに行動しなくなる。",
-                "_en": "[Osabori] Possessed monsters become twitchy and sometimes stop acting.",
-                "_fr": "[Osabori] Les monstres possédés deviennent nerveux et arrêtent parfois d'agir."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "どんなに辛いことも プルプルふるえながら 我慢してしまう妖怪。 とりつかれると とても忍耐強くなれるぞ。",
-            "_en": "No matter how painful things get, you're a monster who endures them while trembling. When you're obsessed with it, you become very patient.",
-            "_fr": "Peu importe à quel point les choses deviennent douloureuses, vous êtes un monstre qui les endure en tremblant. Quand cela vous obsède, vous devenez très patient."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Cawet- arbres"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Tour complet",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Rapides",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Trompe-la-mort",
+        "puissance": "60|157",
+        "description": "Baffe un adversaire avec son nez. Âmultimes annulables."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Tremblements",
+        "puissance": "N/A",
+        "description": "Fait trembler l'ennemi tel un bébé faon."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Endurance",
+        "description": "Gardera 1 PV après un coup fatal."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Tour complet",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Rapides",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Trompe-la-mort",
+        "puissance": "160|160",
+        "description": "Baffe un adversaire avec son nez. Peut annuler les Âmultimes."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Tremblements",
+        "puissance": "N/A",
+        "description": "Fait trembler l'ennemi tel un bébé faon."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Torrent",
+        "puissance": "N/A",
+        "description": "Un jet d'eau attaque les ennemis éloignés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Endurance",
+        "description": "Gardera 1 PV après un coup fatal."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Trompe-la-mort",
+        "puissance": "400",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Armure de fer",
+        "puissance": "___",
+        "description": "Forte réduction des dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Position défensive",
+        "puissance": "___",
+        "description": "Hausse de la défense temporaire"
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Endurance",
+        "description": "Quand PV à 0, 1PV sera restauré une seule fois."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Tour complet",
+        "puissance": "60|132",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Rapides",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Trompe-la-mort",
+        "puissance": "100|200",
+        "description": "Gifle un ennemi avec son long nez, tout en tremblant."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Tremblements",
+        "puissance": "N/A",
+        "description": "Le Yo-kai envoûté tremble tellement qu'il agit moins."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Trompe-la-mort",
+        "puissance": "400",
+        "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi, attirant ainsi son attention."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Endurance",
+        "description": "Gardera 1 PV après un coup fatal. (une fois)"
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Bœuf persillé"
+      },
+      {
+        "taux": "?%",
+        "objet": "La défense de A à Z"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Amulette antique"
+      },
+      {
+        "taux": "?%",
+        "objet": "Tout sur la défense"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Riz dans une feuille"
+      },
+      {
+        "taux": "?%",
+        "objet": "Étoile dansante"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Endurance",
+    "description": "Gardera 1 PV après un coup fatal."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/persevefant.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/persevefant.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/persevefant.wav",
+  "oldID": "122",
+  "medallium_ids": {
+    "yw1": "065",
+    "yw2": "103",
+    "yw3": "171"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "117",
+    "yw Blasters 2": "175",
+    "yw Wibble Wobble": "3011",
+    "yw World": "0056",
+    "yw Ukiukipedia": "yw1-018"
+  },
+  "battle_type": "",
+  "skill_name": "Endurance",
+  "skill_effect": "Shaking",
+  "disliked_food": "Bread",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "322",
+        "STR": "111",
+        "SPR": "169",
+        "DEF": "173",
+        "SPD": "114"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "431",
+        "STR": "111",
+        "SPR": "169",
+        "DEF": "173",
+        "SPD": "114"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "140-245",
+        "STR": "58",
+        "SPR": "114",
+        "DEF": "247",
+        "SPD": "119"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "140-245"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "140-245"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "140-245"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "プルファント",
+      "Purufanto"
+    ],
+    "Spanish": [
+      "Perselefante"
+    ],
+    "French": [
+      "Persévéfant"
+    ],
+    "Italian": [
+      "Duroboscide"
+    ],
+    "German": [
+      "Zitterfant"
+    ],
+    "Russian": [
+      "Стойкослон",
+      "Stoykoslon"
+    ],
+    "Arabic": [
+      "جلد",
+      "Jald"
+    ],
+    "Chinese (Mandarin)": [
+      "忍耐象",
+      "Rěnnàixiàng"
+    ],
+    "Portuguese (Brazilian)": [
+      "Helifante"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "プルファント"
+    ],
+    "Spanish": [
+      "Perselefante"
+    ],
+    "French": [
+      "Persévéfant"
+    ],
+    "Italian": [
+      "Duroboscide"
+    ],
+    "German": [
+      "Zitterfant"
+    ],
+    "Russian": [
+      "Стойкослон"
+    ],
+    "Arabic": [
+      "جلد"
+    ],
+    "Chinese (Mandarin)": [
+      "忍耐象"
+    ],
+    "Portuguese (Brazilian)": [
+      "Helifante"
+    ]
+  },
+  "description_en": "Touphant can endure anything...with a certain amount of body-shaking effort. He can help you persevere as well.",
+  "nom_en": "Swelterrier",
+  "rang_yww": "C",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "Onigiri",
+  "nourriture_favorite": "Onigiri",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+    "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 53,
+    "str": 7,
+    "spr": 13,
+    "def": 29,
+    "spd": 16
+  },
+  "stats_max_yww": {
+    "hp": 421,
+    "str": 53,
+    "spr": 109,
+    "def": 242,
+    "spd": 114
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "フルスイング",
+        "_en": "full swing",
+        "_fr": "bat son plein"
+      },
+      "explication": {
+        "_jp": "【威力:60 / 打撃】 外れやすい",
+        "_en": "[Power: 60/Blow] Easy to miss",
+        "_fr": "[Puissance : 60/Coup] Facile à rater"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "水流の術",
+        "_en": "Water flow technique",
+        "_fr": "Technique d'écoulement de l'eau"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 水属性】 強力な水の妖術を使う。",
+        "_en": "[Power: 50 / Water attribute] Uses powerful water magic.",
+        "_fr": "[Puissance : 50 / Attribut Eau] Utilise une puissante magie de l'eau."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ぷるぷるビンタ",
+        "_en": "Jiggly slap",
+        "_fr": "Gifle jiggly"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "プルプルさせる",
+        "_en": "make it jiggle",
+        "_fr": "fais-le trembler"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 とりつかれた妖怪はプルプルしてしまいたまに行動しなくなる。",
+        "_en": "[Osabori] Possessed monsters become twitchy and sometimes stop acting.",
+        "_fr": "[Osabori] Les monstres possédés deviennent nerveux et arrêtent parfois d'agir."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "どんなに辛いことも プルプルふるえながら 我慢してしまう妖怪。 とりつかれると とても忍耐強くなれるぞ。",
+      "_en": "No matter how painful things get, you're a monster who endures them while trembling. When you're obsessed with it, you become very patient.",
+      "_fr": "Peu importe à quel point les choses deviennent douloureuses, vous êtes un monstre qui les endure en tremblant. Quand cela vous obsède, vous devenez très patient."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "122",
+  "Name_yww": "プルファント",
+  "description_jp_yww": "どんなに辛いことも プルプルふるえながら 我慢してしまう妖怪。 とりつかれると とても忍耐強くなれるぞ。",
+  "BingoMessage_jp_yww": "プルプル…　早くしないと もれちゃうから　ともだちになって！",
+  "MonsterId_yww": "y164010",
+  "Height_yww": 7.0,
+  "CommondId_yww": "sp_164010",
+  "MinHp_yww": 53,
+  "MaxHp_yww": 421,
+  "MinAttack_yww": 7,
+  "MaxAttack_yww": 53,
+  "MinMagic_yww": 13,
+  "MaxMagic_yww": 109,
+  "MinDefense_yww": 29,
+  "MaxDefense_yww": 242,
+  "MinSpeed_yww": 16,
+  "MaxSpeed_yww": 114,
+  "AttackId_yww": 35,
+  "MagicId_yww": 5,
+  "HauntId_yww": 164010,
+  "SpSkillId_yww": 164010,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 1,
+  "DislikeFoodKind_yww": 2,
+  "ActionType_yww": 17,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y159810.png",
+  "SpriteImage_yww": "img_y159810.png",
+  "Audio_yww": "sp_y159810.wav",
+  "Description_yww": "Même face aux épreuves les plus difficiles, tout en tremblant de tous ses membres, ce yōkai parvient à tenir bon. Si tu te laisses posséder par lui, tu deviendras d'une patience à toute épreuve.",
+  "BingoMessage_fr_yww": "Ça tremble… Il faut faire vite, sinon ça va couler. Deviens mon ami !"
 }

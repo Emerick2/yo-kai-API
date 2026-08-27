@@ -1,369 +1,400 @@
 {
-    "ID": "207",
-    "Nom": "Noko",
-    "Tribue": "Insaisissable",
-    "Rang": "E",
-    "PV": "277",
-    "Force": "34",
-    "Esprit": "128",
-    "Défense": "58",
-    "Vitesse": "212",
-    "Description": "Ce Yo-kai serpent plutôt chanceux a peur d'être vu par les humains, ce qui arrive souvent car il n'est pas doué pour se cacher.",
-    "nourriture": "Hamburger",
-    "élément": "Terre",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "Noko est inspiré du tsuchinoko(???), dont le nom signifie littéralement « enfant de marteau », est un cryptide légendaire du Japon qui ressemble à un serpent.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Noko apporte la chance partout où il passe, dans l'anime il est dit qu'il peut également faire d'incroyables bonds.",
-    "personnalité": "Noko est très chanceux mais il est terrifié à l'idée d'être vu par les humains.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/noko.png",
-    "numero": "189",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Gros lot",
-            "effet": "Reçoit plus d'argent à la fin d'un combat."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Morsure",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Éboulement",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Sourire de Noko",
-            "effet": "Restaure les PV de ses alliés avec son sourire de Noko apaisant. 100 | 100"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Bonne fortune",
-            "effet": "La chance de Noko offre un petit bonus de statistique à un allié.Noko avec un nœud papillon dans Yo-kai Wacth 2Médaillon de Noko"
-        }
+  "ID": "207",
+  "Nom": "Noko",
+  "Tribue": "Insaisissable",
+  "Rang": "E",
+  "PV": "277",
+  "Force": "34",
+  "Esprit": "128",
+  "Défense": "58",
+  "Vitesse": "212",
+  "Description": "Ce Yo-kai serpent plutôt chanceux a peur d'être vu par les humains, ce qui arrive souvent car il n'est pas doué pour se cacher.",
+  "nourriture": "Hamburger",
+  "élément": "Terre",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "Noko est inspiré du tsuchinoko(???), dont le nom signifie littéralement « enfant de marteau », est un cryptide légendaire du Japon qui ressemble à un serpent.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Noko apporte la chance partout où il passe, dans l'anime il est dit qu'il peut également faire d'incroyables bonds.",
+  "personnalité": "Noko est très chanceux mais il est terrifié à l'idée d'être vu par les humains.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/noko.png",
+  "numero": "189",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Gros lot",
+      "effet": "Reçoit plus d'argent à la fin d'un combat."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Morsure",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Éboulement",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Sourire de Noko",
+      "effet": "Restaure les PV de ses alliés avec son sourire de Noko apaisant. 100 | 100"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Bonne fortune",
+      "effet": "La chance de Noko offre un petit bonus de statistique à un allié.Noko avec un nœud papillon dans Yo-kai Wacth 2Médaillon de Noko"
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Miam ! Youpiii !",
+    "Mange de la nourriture insipide": "Ça allait.",
+    "Mange de la mauvaise nourriture": "Non merci...",
+    "A la flemme": "Trop content...",
+    "Est échangé": "Ça doit être le destin,",
+    "Devient ton ami": "Tu as l'air cool ! Tu as l'air d'être une bonne personne à côtoyer !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "yw2",
+      "de": "Noko",
+      "vers": "Nénunoko",
+      "critere": "Niveau 25"
+    },
+    {
+      "type": "Évolution",
+      "contexte": "yw Blasters 1",
+      "de": "Noko",
+      "vers": "Nénunoko",
+      "critere": "Niveau 31"
+    },
+    {
+      "type": "Évolution",
+      "contexte": "yw3",
+      "de": "Noko",
+      "vers": "Nénunoko",
+      "critere": "Niveau 28"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ツチノコ",
+  "nom_anglais": "Noko",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Yuko Sasamoto",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Mont Sylvestre–Tunnel abandonné– ouest",
+      "Yo-kai World– Mont. du menteur",
+      "Coteau fleuri– Chemin secret"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Miam ! Youpiii !",
-        "Mange de la nourriture insipide": "Ça allait.",
-        "Mange de la mauvaise nourriture": "Non merci...",
-        "A la flemme": "Trop content...",
-        "Est échangé": "Ça doit être le destin,",
-        "Devient ton ami": "Tu as l'air cool ! Tu as l'air d'être une bonne personne à côtoyer !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "yw2",
-            "de": "Noko",
-            "vers": "Nénunoko",
-            "critere": "Niveau 25"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "yw Blasters 1",
-            "de": "Noko",
-            "vers": "Nénunoko",
-            "critere": "Niveau 31"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "yw3",
-            "de": "Noko",
-            "vers": "Nénunoko",
-            "critere": "Niveau 28"
-        }
+    "yw2": [
+      "Mont Sylvestre–Bingo-kai– Super pile ou passe"
     ],
-    "image_locale": "",
-    "nom_original": "ツチノコ",
-    "nom_anglais": "Noko",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Yuko Sasamoto",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Mont Sylvestre–Tunnel abandonné– ouest",
-            "Yo-kai World– Mont. du menteur",
-            "Coteau fleuri– Chemin secret"
-        ],
-        "yw2": [
-            "Mont Sylvestre–Bingo-kai– Super pile ou passe"
-        ],
-        "yw Blasters 1": [
-            "Patrouille : Hauts de Granval",
-            "Patrouille : Coteau fleuri",
-            "Patrouille : la Corniche",
-            "Patrouille : Ourcival",
-            "Patrouille : vieux Granval",
-            "Bingo-kai",
-            "Patrouille VIP"
-        ],
-        "yw3": [
-            "Mont Sylvestre"
-        ],
-        "yw Wibble Wobble": [
-            "Apparaît aléatoirement dans les niveaux."
-        ],
-        "yw4": [
-            "Coteau fleuri",
-            "Et il est également trouvable dans les combats deGrolosetBogosdans leTournoi Enma - Arène Oniet dans les diverses missions du mode Blasters. Il est très rare mais donne plus d'exp."
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "Nœud papillon",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "5%",
-                "objet": "Goutte de joie"
-            },
-            {
-                "taux": "30%",
-                "objet": "Secours mag #7"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "5%",
-                "objet": "Amul. de chance"
-            },
-            {
-                "taux": "35%",
-                "objet": "Secours mag #7"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "3%",
-                "objet": "Billet de loterie"
-            },
-            {
-                "taux": "12%",
-                "objet": "Hamburger"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Gros lot",
-        "description": "Reçoit plus d'argent à la fin d'un combat."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/noko.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/noko.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/noko.wav",
-    "name_romaji_jp": "Tsuchinoko",
-    "oldID": "206",
-    "medallium_ids": {
-        "yw1": "189",
-        "yw2": "285",
-        "yw3": "516",
-        "yw4": "27 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "Kunitori": ""
-    },
-    "battle_type": "Rare",
-    "skill_name": "Good Fortune",
-    "skill_effect": "Fortunate",
-    "disliked_food": "Meat",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "287",
-                "STR": "57",
-                "SPR": "156",
-                "DEF": "60",
-                "SPD": "196"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "157",
-                "STR": "69",
-                "SPR": "84",
-                "DEF": "63",
-                "SPD": "217"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "111-194",
-                "STR": "69",
-                "SPR": "84"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "111-194"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "111-194"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "Y School Heroes: Bustlin' School Life": {
-            "stats": {
-                "HP": "111-194"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "111-194"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ツチノコ",
-            "Tsuchinoko"
-        ],
-        "Spanish": [
-            "Noko"
-        ],
-        "French": [
-            "Noko"
-        ],
-        "Italian": [
-            "Noko"
-        ],
-        "German": [
-            "Noko"
-        ],
-        "Dutch": [
-            "Noko"
-        ],
-        "Korean": [
-            "럭키",
-            "Reokki"
-        ],
-        "Russian": [
-            "Ноко"
-        ],
-        "Arabic": [
-            "نوكو",
-            "Nūkū"
-        ],
-        "Chinese (Cantonese)": [
-            "支樂哥"
-        ],
-        "Chinese (Mandarin)": [
-            "小土龍",
-            "Xiǎo"
-        ],
-        "Portuguese (European)": [
-            "Noko"
-        ],
-        "Portuguese (Brazilian)": [
-            "Noko"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ツチノコ"
-        ],
-        "Spanish": [
-            "Noko"
-        ],
-        "French": [
-            "Noko"
-        ],
-        "Italian": [
-            "Noko"
-        ],
-        "German": [
-            "Noko"
-        ],
-        "Dutch": [
-            "Noko"
-        ],
-        "Korean": [
-            "럭키 스네이크"
-        ],
-        "Russian": [
-            "Ноко Noko"
-        ],
-        "Arabic": [
-            "نوكو"
-        ],
-        "Chinese (Cantonese)": [
-            "支樂哥"
-        ],
-        "Chinese (Mandarin)": [
-            "小土龍"
-        ],
-        "Portuguese (European)": [
-            "Noko"
-        ],
-        "Portuguese (Brazilian)": [
-            "Noko"
-        ]
-    },
-    "description_en": "This Yo-kai is one lucky snake! He's really scared of being seen by humans, which happens a lot since he's terrible at hiding.",
-    "nom_en": "Count Cavity",
-    "rang_yww": "E",
-    "tribue_yww": null,
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": null,
-    "nourriture_favorite": "hamburger",
-    "attitude_spécifique_yww": null,
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {},
-    "stats_max_yww": {},
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [],
-    "mouvement_spécial_yww": [],
-    "posséder_yww": [],
-    "explication_yww": [],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Blasters 1": [
+      "Patrouille : Hauts de Granval",
+      "Patrouille : Coteau fleuri",
+      "Patrouille : la Corniche",
+      "Patrouille : Ourcival",
+      "Patrouille : vieux Granval",
+      "Bingo-kai",
+      "Patrouille VIP"
+    ],
+    "yw3": [
+      "Mont Sylvestre"
+    ],
+    "yw Wibble Wobble": [
+      "Apparaît aléatoirement dans les niveaux."
+    ],
+    "yw4": [
+      "Coteau fleuri",
+      "Et il est également trouvable dans les combats deGrolosetBogosdans leTournoi Enma - Arène Oniet dans les diverses missions du mode Blasters. Il est très rare mais donne plus d'exp."
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "Nœud papillon",
+  "attaques_par_jeu": {},
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "5%",
+        "objet": "Goutte de joie"
+      },
+      {
+        "taux": "30%",
+        "objet": "Secours mag #7"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "5%",
+        "objet": "Amul. de chance"
+      },
+      {
+        "taux": "35%",
+        "objet": "Secours mag #7"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "3%",
+        "objet": "Billet de loterie"
+      },
+      {
+        "taux": "12%",
+        "objet": "Hamburger"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Gros lot",
+    "description": "Reçoit plus d'argent à la fin d'un combat."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/noko.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/noko.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/noko.wav",
+  "name_romaji_jp": "Tsuchinoko",
+  "oldID": "206",
+  "medallium_ids": {
+    "yw1": "189",
+    "yw2": "285",
+    "yw3": "516",
+    "yw4": "27 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "Kunitori": ""
+  },
+  "battle_type": "Rare",
+  "skill_name": "Good Fortune",
+  "skill_effect": "Fortunate",
+  "disliked_food": "Meat",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "287",
+        "STR": "57",
+        "SPR": "156",
+        "DEF": "60",
+        "SPD": "196"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "157",
+        "STR": "69",
+        "SPR": "84",
+        "DEF": "63",
+        "SPD": "217"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "111-194",
+        "STR": "69",
+        "SPR": "84"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "111-194"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "111-194"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "Y School Heroes: Bustlin' School Life": {
+      "stats": {
+        "HP": "111-194"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "111-194"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ツチノコ",
+      "Tsuchinoko"
+    ],
+    "Spanish": [
+      "Noko"
+    ],
+    "French": [
+      "Noko"
+    ],
+    "Italian": [
+      "Noko"
+    ],
+    "German": [
+      "Noko"
+    ],
+    "Dutch": [
+      "Noko"
+    ],
+    "Korean": [
+      "럭키",
+      "Reokki"
+    ],
+    "Russian": [
+      "Ноко"
+    ],
+    "Arabic": [
+      "نوكو",
+      "Nūkū"
+    ],
+    "Chinese (Cantonese)": [
+      "支樂哥"
+    ],
+    "Chinese (Mandarin)": [
+      "小土龍",
+      "Xiǎo"
+    ],
+    "Portuguese (European)": [
+      "Noko"
+    ],
+    "Portuguese (Brazilian)": [
+      "Noko"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ツチノコ"
+    ],
+    "Spanish": [
+      "Noko"
+    ],
+    "French": [
+      "Noko"
+    ],
+    "Italian": [
+      "Noko"
+    ],
+    "German": [
+      "Noko"
+    ],
+    "Dutch": [
+      "Noko"
+    ],
+    "Korean": [
+      "럭키 스네이크"
+    ],
+    "Russian": [
+      "Ноко Noko"
+    ],
+    "Arabic": [
+      "نوكو"
+    ],
+    "Chinese (Cantonese)": [
+      "支樂哥"
+    ],
+    "Chinese (Mandarin)": [
+      "小土龍"
+    ],
+    "Portuguese (European)": [
+      "Noko"
+    ],
+    "Portuguese (Brazilian)": [
+      "Noko"
+    ]
+  },
+  "description_en": "This Yo-kai is one lucky snake! He's really scared of being seen by humans, which happens a lot since he's terrible at hiding.",
+  "nom_en": "Count Cavity",
+  "rang_yww": "E",
+  "tribue_yww": null,
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": null,
+  "nourriture_favorite": "hamburger",
+  "attitude_spécifique_yww": null,
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {},
+  "stats_max_yww": {},
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [],
+  "mouvement_spécial_yww": [],
+  "posséder_yww": [],
+  "explication_yww": [],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "207",
+  "Name_yww": "ツチノコ",
+  "description_jp_yww": "幸運を呼びよせる めでたいヘビの妖怪。 姿を隠すのが苦手で よく人に見つかってしまうのが 悩みのタネ。",
+  "BingoMessage_jp_yww": "あっ　見つかっちゃった！ きみ幸運だね！",
+  "MonsterId_yww": "y211000",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_211000",
+  "MinHp_yww": 23,
+  "MaxHp_yww": 277,
+  "MinAttack_yww": 2,
+  "MaxAttack_yww": 34,
+  "MinMagic_yww": 10,
+  "MaxMagic_yww": 128,
+  "MinDefense_yww": 4,
+  "MaxDefense_yww": 58,
+  "MinSpeed_yww": 39,
+  "MaxSpeed_yww": 212,
+  "AttackId_yww": 16,
+  "MagicId_yww": 11,
+  "HauntId_yww": 211000,
+  "SpSkillId_yww": 211000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 6,
+  "DislikeFoodKind_yww": 11,
+  "ActionType_yww": 10,
+  "TribeType_yww": 8,
+  "MedallionImage_yww": "y206800.png",
+  "SpriteImage_yww": "img_y206800.png",
+  "Audio_yww": "sp_y206800.wav",
+  "Description_yww": "Il attire la chance. Un yōkai serpent de bon augure. Il a du mal à se cacher et se fait souvent repérer par les gens, ce qui est pour lui une source de souci.",
+  "BingoMessage_fr_yww": "Oh, on m'a repéré ! Tu as de la chance !"
 }

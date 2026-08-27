@@ -1,456 +1,487 @@
 {
-    "ID": "297",
-    "Nom": "Tauracle",
-    "Tribue": "Bienveillant",
-    "Rang": "S",
-    "PV": "416",
-    "Force": "250",
-    "Esprit": "216",
-    "Défense": "108",
-    "Vitesse": "136",
-    "Description": "Il a terminé sa formation de voyant et connaît désormais l'avenir.",
-    "nourriture": "Sushi",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "Le tout premier Tauracle vivait à l'époque duShogun Kogito. Il est surnommé \"le Légendaire Tauracle\" et sa légende est connue de tous les métaureaulog. Il a créé l'eau d'outre-monde à partir d'eau claire et deVoltXtrême.",
-    "étimologie": "Tauracle vient de Taureau et d'Oracle.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "Il est très gentil et très bienveillant. Il peut être sévère mais est toujours prêt à aider quiconque.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/tauracle.png",
-    "numero": "186",
-    "nourriture_favorite": "Sushi",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Clairveauyance",
-            "effet": "Améliore l'aptitude à esquiver les attaques."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Broie-os",
-            "effet": "100 | 150"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paradis",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Matamor",
-            "effet": "Un seul ennemi est frappé par la force d'un taureau furieux. 180 | 270"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Cœur de bœuf",
-            "effet": "La FOR. du Yo-kai augmente, et il charge comme un taureau."
-        }
+  "ID": "297",
+  "Nom": "Tauracle",
+  "Tribue": "Bienveillant",
+  "Rang": "S",
+  "PV": "416",
+  "Force": "250",
+  "Esprit": "216",
+  "Défense": "108",
+  "Vitesse": "136",
+  "Description": "Il a terminé sa formation de voyant et connaît désormais l'avenir.",
+  "nourriture": "Sushi",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "Le tout premier Tauracle vivait à l'époque duShogun Kogito. Il est surnommé \"le Légendaire Tauracle\" et sa légende est connue de tous les métaureaulog. Il a créé l'eau d'outre-monde à partir d'eau claire et deVoltXtrême.",
+  "étimologie": "Tauracle vient de Taureau et d'Oracle.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "Il est très gentil et très bienveillant. Il peut être sévère mais est toujours prêt à aider quiconque.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/tauracle.png",
+  "numero": "186",
+  "nourriture_favorite": "Sushi",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Clairveauyance",
+      "effet": "Améliore l'aptitude à esquiver les attaques."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Broie-os",
+      "effet": "100 | 150"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paradis",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Matamor",
+      "effet": "Un seul ennemi est frappé par la force d'un taureau furieux. 180 | 270"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Cœur de bœuf",
+      "effet": "La FOR. du Yo-kai augmente, et il charge comme un taureau."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Voilà, c'est ça !",
+    "Mange de la nourriture insipide": "Bof.",
+    "Mange de la mauvaise nourriture": "Je n'aimeuh pas.",
+    "A la flemme": "Pause ? Meuh !",
+    "Est échangé": "J'ai réussi, comme prédit ! Ha ha ! Bien fait pour ceux qui n'y croyaient pas...",
+    "Devient ton ami": "Notre amitié est écrite dans les étoiles ! Tout porte à le croire !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Métaureaulog",
+      "parent2": "Eau d'outre-monde",
+      "resultat": "Tauracle",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "大くだん",
+  "nom_anglais": "Smashibull",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Fusion"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Voilà, c'est ça !",
-        "Mange de la nourriture insipide": "Bof.",
-        "Mange de la mauvaise nourriture": "Je n'aimeuh pas.",
-        "A la flemme": "Pause ? Meuh !",
-        "Est échangé": "J'ai réussi, comme prédit ! Ha ha ! Bien fait pour ceux qui n'y croyaient pas...",
-        "Devient ton ami": "Notre amitié est écrite dans les étoiles ! Tout porte à le croire !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Métaureaulog",
-            "parent2": "Eau d'outre-monde",
-            "resultat": "Tauracle",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Fusion"
     ],
-    "image_locale": "",
-    "nom_original": "大くだん",
-    "nom_anglais": "Smashibull",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Fusion"
-        ],
-        "yw Blasters 1": [
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion"
-        ],
-        "yw Wibble Wobble": [
-            "Événement Festival de l'automne- Bingo-kai"
-        ]
-    },
-    "rarite": "Classic icon",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Broie-os",
-                "puissance": "100|150",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Matamor",
-                "puissance": "180|270",
-                "description": "Un seul ennemi est frappé par la force d'un taureau radieux."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cœur de bœuf",
-                "puissance": "N/A",
-                "description": "La FOR. du Yo-kai augmente, et il charge comme un taureau."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Clairveauyance",
-                "description": "Améliore l'aptitude à esquiver les attaques."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Matamor",
-                "puissance": "450",
-                "description": "Attaque de face, gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Paradis",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Boost d'attaque +",
-                "puissance": "___",
-                "description": "Forte hausse ATT. alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Cercle guérisseur",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Bon pied, bon œil",
-                "description": "Hausse de la DÉF. quand les PV sont au max."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Broie-os",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Matamor",
-                "puissance": "190|285",
-                "description": "Frappe la colonne en face de lui avec la force d'un taureau radieux."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cœur de bœuf",
-                "puissance": "N/A",
-                "description": "La FOR. du Yo-kai augmente, et il charge comme un taureau."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Clairveauyance",
-                "description": "Améliore l'aptitude à esquiver les attaques."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Clairveauyance",
-        "description": "Améliore l'aptitude à esquiver les attaques."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/tauracle.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/tauracle.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/tauracle.wav",
-    "oldID": "307",
-    "medallium_ids": {
-        "yw2": "186",
-        "yw3": "343"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "230",
-        "yw Blasters 2": "351",
-        "yw Wibble Wobble": "5039",
-        "yw World": "0528",
-        "yw Ukiukipedia": "yw9-020"
-    },
-    "battle_type": "Classic",
-    "skill_name": "Clairvoidance",
-    "skill_effect": "Raging Bull",
-    "disliked_food": "Milk",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "426",
-                "STR": "203",
-                "SPR": "176",
-                "DEF": "151",
-                "SPD": "159"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "426",
-                "STR": "255",
-                "SPR": "221",
-                "DEF": "113",
-                "SPD": "141"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "411",
-                "STR": "192",
-                "SPR": "219",
-                "DEF": "158"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "254-445",
-                "STR": "192",
-                "SPR": "219",
-                "DEF": "158"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "254-445"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "大くだん"
-        ],
-        "Spanish": [
-            "Torivino"
-        ],
-        "French": [
-            "Tauracle"
-        ],
-        "Italian": [
-            "Toroveggente"
-        ],
-        "German": [
-            "Nostierdamus"
-        ],
-        "Russian": [
-            "Разгромбык",
-            "Razgrombyk"
-        ],
-        "Arabic": [
-            "أقرن",
-            "Aqran"
-        ],
-        "Chinese (Mandarin)": [
-            "大人面牛",
-            "Dàrénmiànniù"
-        ],
-        "Portuguese (Brazilian)": [
-            "Boidivinho"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "大くだん Daikudan"
-        ],
-        "Spanish": [
-            "Torivino"
-        ],
-        "French": [
-            "Tauracle"
-        ],
-        "Italian": [
-            "Toroveggente"
-        ],
-        "German": [
-            "Nostierdamus"
-        ],
-        "Russian": [
-            "Разгромбык"
-        ],
-        "Arabic": [
-            "أقرن"
-        ],
-        "Chinese (Mandarin)": [
-            "大人面牛"
-        ],
-        "Portuguese (Brazilian)": [
-            "Boidivinho"
-        ]
-    },
-    "description_en": "He's completed his training as a fortune- teller and now knows exactly what's going to happen next.",
-    "nom_en": "Scarasol",
-    "rang_yww": "S",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "Sushis",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 52,
-        "str": 31,
-        "spr": 34,
-        "def": 16,
-        "spd": 19
-    },
-    "stats_max_yww": {
-        "hp": 416,
-        "str": 250,
-        "spr": 216,
-        "def": 108,
-        "spd": 136
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "神出鬼没妖怪捜索イベントで出現",
-            "_en": "Appears in the Elusive Ghost Search Event",
-            "_fr": "Apparaît dans l'événement de recherche de fantômes insaisissables"
-        }
+    "yw3": [
+      "Fusion"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "骨くだき",
-                "_en": "broken bones",
-                "_fr": "os cassés"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 50/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 50/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "極楽の術",
-                "_en": "The art of paradise",
-                "_fr": "L'art du paradis"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "猪突モー進撃！",
-                "_en": "Inotsukimo attack!",
-                "_fr": "Attaque Inotsukimo !"
-            },
-            "pouvoir": "190",
-            "explication": {
-                "_jp": "猛牛の力を解放し敵に強烈なタックルこうげきをおみまいする。",
-                "_en": "Unleash the power of the fierce bull and deal a powerful tackle to the enemy.",
-                "_fr": "Libérez la puissance du taureau féroce et infligez un puissant tacle à l'ennemi."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "牛の力",
-                "_en": "power of the cow",
-                "_fr": "le pouvoir de la vache"
-            },
-            "explication": {
-                "_jp": "【ちからアップ】 とりつかれた妖怪は牛のごとき突進力で ちからがアップする。",
-                "_en": "[Power Up] The possessed monster's power increases with the rushing power of a cow.",
-                "_fr": "[Power Up] La puissance du monstre possédé augmente avec la puissance précipitée d'une vache."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "厳しい修行を乗りこえ 予知能力を開花させた。 どんなことでも 予知できるが 悪いことには 絶対に使わない。",
-            "_en": "He overcame severe training and developed his precognitive abilities. It can predict anything, but it will never be used for bad things.",
-            "_fr": "Après avoir surmonté un entraînement intensif, il a développé ses capacités précognitives. Il peut tout prédire, mais il ne sera jamais utilisé pour de mauvaises choses."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Événement Festival de l'automne- Bingo-kai"
     ]
+  },
+  "rarite": "Classic icon",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Broie-os",
+        "puissance": "100|150",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Matamor",
+        "puissance": "180|270",
+        "description": "Un seul ennemi est frappé par la force d'un taureau radieux."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cœur de bœuf",
+        "puissance": "N/A",
+        "description": "La FOR. du Yo-kai augmente, et il charge comme un taureau."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Clairveauyance",
+        "description": "Améliore l'aptitude à esquiver les attaques."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Matamor",
+        "puissance": "450",
+        "description": "Attaque de face, gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Paradis",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Boost d'attaque +",
+        "puissance": "___",
+        "description": "Forte hausse ATT. alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Cercle guérisseur",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Bon pied, bon œil",
+        "description": "Hausse de la DÉF. quand les PV sont au max."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Broie-os",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Matamor",
+        "puissance": "190|285",
+        "description": "Frappe la colonne en face de lui avec la force d'un taureau radieux."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cœur de bœuf",
+        "puissance": "N/A",
+        "description": "La FOR. du Yo-kai augmente, et il charge comme un taureau."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Clairveauyance",
+        "description": "Améliore l'aptitude à esquiver les attaques."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Clairveauyance",
+    "description": "Améliore l'aptitude à esquiver les attaques."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/tauracle.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/tauracle.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/tauracle.wav",
+  "oldID": "307",
+  "medallium_ids": {
+    "yw2": "186",
+    "yw3": "343"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "230",
+    "yw Blasters 2": "351",
+    "yw Wibble Wobble": "5039",
+    "yw World": "0528",
+    "yw Ukiukipedia": "yw9-020"
+  },
+  "battle_type": "Classic",
+  "skill_name": "Clairvoidance",
+  "skill_effect": "Raging Bull",
+  "disliked_food": "Milk",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "426",
+        "STR": "203",
+        "SPR": "176",
+        "DEF": "151",
+        "SPD": "159"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "426",
+        "STR": "255",
+        "SPR": "221",
+        "DEF": "113",
+        "SPD": "141"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "411",
+        "STR": "192",
+        "SPR": "219",
+        "DEF": "158"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "254-445",
+        "STR": "192",
+        "SPR": "219",
+        "DEF": "158"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "254-445"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "大くだん"
+    ],
+    "Spanish": [
+      "Torivino"
+    ],
+    "French": [
+      "Tauracle"
+    ],
+    "Italian": [
+      "Toroveggente"
+    ],
+    "German": [
+      "Nostierdamus"
+    ],
+    "Russian": [
+      "Разгромбык",
+      "Razgrombyk"
+    ],
+    "Arabic": [
+      "أقرن",
+      "Aqran"
+    ],
+    "Chinese (Mandarin)": [
+      "大人面牛",
+      "Dàrénmiànniù"
+    ],
+    "Portuguese (Brazilian)": [
+      "Boidivinho"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "大くだん Daikudan"
+    ],
+    "Spanish": [
+      "Torivino"
+    ],
+    "French": [
+      "Tauracle"
+    ],
+    "Italian": [
+      "Toroveggente"
+    ],
+    "German": [
+      "Nostierdamus"
+    ],
+    "Russian": [
+      "Разгромбык"
+    ],
+    "Arabic": [
+      "أقرن"
+    ],
+    "Chinese (Mandarin)": [
+      "大人面牛"
+    ],
+    "Portuguese (Brazilian)": [
+      "Boidivinho"
+    ]
+  },
+  "description_en": "He's completed his training as a fortune- teller and now knows exactly what's going to happen next.",
+  "nom_en": "Scarasol",
+  "rang_yww": "S",
+  "tribue_yww": "Pokapoka",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "Sushis",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 52,
+    "str": 31,
+    "spr": 34,
+    "def": 16,
+    "spd": 19
+  },
+  "stats_max_yww": {
+    "hp": 416,
+    "str": 250,
+    "spr": 216,
+    "def": 108,
+    "spd": 136
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "神出鬼没妖怪捜索イベントで出現",
+      "_en": "Appears in the Elusive Ghost Search Event",
+      "_fr": "Apparaît dans l'événement de recherche de fantômes insaisissables"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "骨くだき",
+        "_en": "broken bones",
+        "_fr": "os cassés"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 50/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 50/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "極楽の術",
+        "_en": "The art of paradise",
+        "_fr": "L'art du paradis"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "猪突モー進撃！",
+        "_en": "Inotsukimo attack!",
+        "_fr": "Attaque Inotsukimo !"
+      },
+      "pouvoir": "190",
+      "explication": {
+        "_jp": "猛牛の力を解放し敵に強烈なタックルこうげきをおみまいする。",
+        "_en": "Unleash the power of the fierce bull and deal a powerful tackle to the enemy.",
+        "_fr": "Libérez la puissance du taureau féroce et infligez un puissant tacle à l'ennemi."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "牛の力",
+        "_en": "power of the cow",
+        "_fr": "le pouvoir de la vache"
+      },
+      "explication": {
+        "_jp": "【ちからアップ】 とりつかれた妖怪は牛のごとき突進力で ちからがアップする。",
+        "_en": "[Power Up] The possessed monster's power increases with the rushing power of a cow.",
+        "_fr": "[Power Up] La puissance du monstre possédé augmente avec la puissance précipitée d'une vache."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "厳しい修行を乗りこえ 予知能力を開花させた。 どんなことでも 予知できるが 悪いことには 絶対に使わない。",
+      "_en": "He overcame severe training and developed his precognitive abilities. It can predict anything, but it will never be used for bad things.",
+      "_fr": "Après avoir surmonté un entraînement intensif, il a développé ses capacités précognitives. Il peut tout prédire, mais il ne sera jamais utilisé pour de mauvaises choses."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "303",
+  "Name_yww": "大くだん",
+  "description_jp_yww": "厳しい修行を乗りこえ 予知能力を開花させた。 どんなことでも　予知できるが 悪いことには 絶対に使わない。",
+  "BingoMessage_jp_yww": "きみに会えることは予言していた！ オレときみはともだちだ！",
+  "MonsterId_yww": "y288000",
+  "Height_yww": 13.24,
+  "CommondId_yww": "sp_288000",
+  "MinHp_yww": 53,
+  "MaxHp_yww": 393,
+  "MinAttack_yww": 18,
+  "MaxAttack_yww": 146,
+  "MinMagic_yww": 25,
+  "MaxMagic_yww": 180,
+  "MinDefense_yww": 18,
+  "MaxDefense_yww": 113,
+  "MinSpeed_yww": 28,
+  "MaxSpeed_yww": 233,
+  "AttackId_yww": 8,
+  "MagicId_yww": 18,
+  "HauntId_yww": 288000,
+  "SpSkillId_yww": 288000,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 4,
+  "DislikeFoodKind_yww": 8,
+  "ActionType_yww": 9,
+  "TribeType_yww": 5,
+  "MedallionImage_yww": "y283800.png",
+  "SpriteImage_yww": "img_y283800.png",
+  "Audio_yww": "sp_y283800.wav",
+  "Description_yww": "Après avoir surmonté un entraînement rigoureux, il a développé son don de voyance. Il est capable de prédire n'importe quoi, mais il ne s'en sert jamais à des fins malveillantes.",
+  "BingoMessage_fr_yww": "J'avais prédit que je te rencontrerais ! Toi et moi, on est amis !"
 }

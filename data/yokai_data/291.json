@@ -1,414 +1,445 @@
 {
-    "ID": "291",
-    "Nom": "Algacarena",
-    "Tribue": "Bienveillant",
-    "Rang": "C",
-    "PV": "384",
-    "Force": "160",
-    "Esprit": "177",
-    "Défense": "67",
-    "Vitesse": "130",
-    "Description": "Cette véritable star du monde des algues danse devant des fans en délire partout où il va.",
-    "nourriture": "Ramen",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/algacarena.png",
-    "numero": "164",
-    "nourriture_favorite": "Ramen",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Salsa vivifiante",
-            "effet": "Augmente la FOR. de tous les Yo-kai voisins."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Volée",
-            "effet": "20x2 | 44x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paradis",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Carnavalgue",
-            "effet": "Cette danse sophistiquée restaure graduellement les PV des alliés."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Sambada",
-            "effet": "Les stats du Yo-kai sont augmentées grâce au rythme de la samba."
-        }
+  "ID": "291",
+  "Nom": "Algacarena",
+  "Tribue": "Bienveillant",
+  "Rang": "C",
+  "PV": "384",
+  "Force": "160",
+  "Esprit": "177",
+  "Défense": "67",
+  "Vitesse": "130",
+  "Description": "Cette véritable star du monde des algues danse devant des fans en délire partout où il va.",
+  "nourriture": "Ramen",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/algacarena.png",
+  "numero": "164",
+  "nourriture_favorite": "Ramen",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Salsa vivifiante",
+      "effet": "Augmente la FOR. de tous les Yo-kai voisins."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Volée",
+      "effet": "20x2 | 44x2"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paradis",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Carnavalgue",
+      "effet": "Cette danse sophistiquée restaure graduellement les PV des alliés."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Sambada",
+      "effet": "Les stats du Yo-kai sont augmentées grâce au rythme de la samba."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Youhou !",
+    "Mange de la nourriture insipide": "Merci !",
+    "Mange de la mauvaise nourriture": "C'est insultant.",
+    "A la flemme": "Je me détends !",
+    "Est échangé": "Dis, tu vas faire de moi une star selon",
+    "Devient ton ami": "Hé ! Tu as vraiment brillé ! Formons un groupe et visons les étoiles !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "yw2",
+      "de": "Noripop",
+      "vers": "Algacarena",
+      "critere": "Niveau 17"
+    },
+    {
+      "type": "Évolution",
+      "contexte": "yw3",
+      "de": "Noripop",
+      "vers": "Algacarena",
+      "critere": "Niveau 15"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ワカメ☆スター",
+  "nom_anglais": "Kelpacabana",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Évolution",
+      "Bingo-kai-Pièce verte(Passé)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Youhou !",
-        "Mange de la nourriture insipide": "Merci !",
-        "Mange de la mauvaise nourriture": "C'est insultant.",
-        "A la flemme": "Je me détends !",
-        "Est échangé": "Dis, tu vas faire de moi une star selon",
-        "Devient ton ami": "Hé ! Tu as vraiment brillé ! Formons un groupe et visons les étoiles !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "yw2",
-            "de": "Noripop",
-            "vers": "Algacarena",
-            "critere": "Niveau 17"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "yw3",
-            "de": "Noripop",
-            "vers": "Algacarena",
-            "critere": "Niveau 15"
-        }
+    "yw Blasters 1": [
+      "Évolution",
+      "Patrouille -Centre-ville"
     ],
-    "image_locale": "",
-    "nom_original": "ワカメ☆スター",
-    "nom_anglais": "Kelpacabana",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Évolution",
-            "Bingo-kai-Pièce verte(Passé)"
-        ],
-        "yw Blasters 1": [
-            "Évolution",
-            "Patrouille -Centre-ville"
-        ],
-        "yw3": [
-            "Évolution"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Volée",
-                "puissance": "20×2|44×5",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Carnavalgue",
-                "puissance": "___",
-                "description": "Cette danse sohistiquée restaure graduellement les PV des alliés."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Sambada",
-                "puissance": "N/A",
-                "description": "Les stats du Yo-kai sont augmentées grâce au rythme de la samba."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Salsa vivifiante",
-                "description": "Augmente la FOR. de tous les Yo-kai voisins."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Carnavalgue",
-                "puissance": "___",
-                "description": "Restauration lente des PV des alliés proches."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Cercle parfait",
-                "puissance": "___",
-                "description": "Crée un champ où les stats des alliés augmenteront."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : En avant la danse",
-                "description": "Hausse de la VIT. pour tous les alliés."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Volée",
-                "puissance": "25×2|55×5",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Carnavalgue",
-                "puissance": "___",
-                "description": "Motive les alliés avec sa danse et restaure peu à peu leurs PV."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Sambada",
-                "puissance": "N/A",
-                "description": "Les stats du Yo-kai augmentent au rythme de la samba."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Salsa vivifiante",
-                "description": "Booste un peu la FOR. des Yo-kai reliés."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Salsa vivifiante",
-        "description": "Augmente la FOR. de tous les Yo-kai voisins."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/algacarena.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/algacarena.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/algacarena.wav",
-    "oldID": "301",
-    "medallium_ids": {
-        "yw2": "164",
-        "yw3": "312"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "205",
-        "yw Blasters 2": "318",
-        "yw Wibble Wobble": "5052 (Friend)/10103 (Boss)",
-        "yw World": "0221",
-        "yw Ukiukipedia": "yw4-023"
-    },
-    "battle_type": "",
-    "skill_name": "Seaweed Samba",
-    "skill_effect": "Dance Party",
-    "disliked_food": "Seafood",
-    "global_stats": {
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "185-320"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "185-320"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "185-320"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "Wakame☆Sutā"
-        ],
-        "Spanish": [
-            "Algacabana"
-        ],
-        "French": [
-            "Algacarena"
-        ],
-        "Italian": [
-            "Algacabana"
-        ],
-        "German": [
-            "Samba"
-        ],
-        "Russian": [
-            "Кельпакабана",
-            "Kel'pakabana"
-        ],
-        "Arabic": [
-            "محبوب",
-            "Maḥbūb"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "Wakame☆Sutā"
-        ],
-        "Spanish": [
-            "Algacabana"
-        ],
-        "French": [
-            "Algacarena"
-        ],
-        "Italian": [
-            "Algacabana"
-        ],
-        "German": [
-            "Samba"
-        ],
-        "Russian": [
-            "Кельпакабана"
-        ],
-        "Arabic": [
-            "محبوب"
-        ]
-    },
-    "description_en": "The biggest star the world of seaweed has ever seen! He dances for screaming fans wherever he goes.",
-    "nom_en": "Gnomey",
-    "rang_yww": "C",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "ramen",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 48,
-        "str": 22,
-        "spr": 25,
-        "def": 9,
-        "spd": 16
-    },
-    "stats_max_yww": {
-        "hp": 384,
-        "str": 160,
-        "spr": 177,
-        "def": 67,
-        "spd": 130
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はりたおす",
-                "_en": "Haritaosu",
-                "_fr": "Haritaosu"
-            },
-            "explication": {
-                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 25×2/Blow] Attack twice",
-                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "極楽の術",
-                "_en": "The art of paradise",
-                "_fr": "L'art du paradis"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "魅惑の海藻カーニバル",
-                "_en": "Fascinating seaweed carnival",
-                "_fr": "Fascinant carnaval d'algues"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "プロの世界で鍛えたダンスでみんなを勇気づけ味方全員のHPをだんだん回復させる。",
-                "_en": "With the dance skills she trained in the professional world, she encourages everyone and gradually recovers the HP of all her allies.",
-                "_fr": "Grâce aux compétences en danse qu'elle a formées dans le monde professionnel, elle encourage tout le monde et récupère progressivement les HP de tous ses alliés."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "サンバのリズム",
-                "_en": "samba rhythm",
-                "_fr": "rythme de samba"
-            },
-            "explication": {
-                "_jp": "【全ステアップ】 とりつかれた妖怪はサンバのリズムが伝わり全ステータスがアップする。",
-                "_en": "[All Stairs Up] A possessed monster will be able to hear the rhythm of the samba and all stats will increase.",
-                "_fr": "[Tous les escaliers] Un monstre possédé pourra entendre le rythme de la samba et toutes les statistiques augmenteront."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "海藻界のトップダンサーに のし上がったワカメくん。 自分のダンスの力のみで 日本中のライブ会場を ファンでいっぱいにする。",
-            "_en": "Wakame-kun has risen to become a top dancer in the seaweed world. Using only the power of my dancing, I can fill live venues all over Japan with fans.",
-            "_fr": "Wakame-kun est devenu l'un des meilleurs danseurs du monde des algues. En utilisant uniquement la puissance de ma danse, je peux remplir de fans les salles de concert de tout le Japon."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Évolution"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Volée",
+        "puissance": "20×2|44×5",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Carnavalgue",
+        "puissance": "___",
+        "description": "Cette danse sohistiquée restaure graduellement les PV des alliés."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Sambada",
+        "puissance": "N/A",
+        "description": "Les stats du Yo-kai sont augmentées grâce au rythme de la samba."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Salsa vivifiante",
+        "description": "Augmente la FOR. de tous les Yo-kai voisins."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Carnavalgue",
+        "puissance": "___",
+        "description": "Restauration lente des PV des alliés proches."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Cercle parfait",
+        "puissance": "___",
+        "description": "Crée un champ où les stats des alliés augmenteront."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : En avant la danse",
+        "description": "Hausse de la VIT. pour tous les alliés."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Volée",
+        "puissance": "25×2|55×5",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Carnavalgue",
+        "puissance": "___",
+        "description": "Motive les alliés avec sa danse et restaure peu à peu leurs PV."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Sambada",
+        "puissance": "N/A",
+        "description": "Les stats du Yo-kai augmentent au rythme de la samba."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Salsa vivifiante",
+        "description": "Booste un peu la FOR. des Yo-kai reliés."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Salsa vivifiante",
+    "description": "Augmente la FOR. de tous les Yo-kai voisins."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/algacarena.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/algacarena.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/algacarena.wav",
+  "oldID": "301",
+  "medallium_ids": {
+    "yw2": "164",
+    "yw3": "312"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "205",
+    "yw Blasters 2": "318",
+    "yw Wibble Wobble": "5052 (Friend)/10103 (Boss)",
+    "yw World": "0221",
+    "yw Ukiukipedia": "yw4-023"
+  },
+  "battle_type": "",
+  "skill_name": "Seaweed Samba",
+  "skill_effect": "Dance Party",
+  "disliked_food": "Seafood",
+  "global_stats": {
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "185-320"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "185-320"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "185-320"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "Wakame☆Sutā"
+    ],
+    "Spanish": [
+      "Algacabana"
+    ],
+    "French": [
+      "Algacarena"
+    ],
+    "Italian": [
+      "Algacabana"
+    ],
+    "German": [
+      "Samba"
+    ],
+    "Russian": [
+      "Кельпакабана",
+      "Kel'pakabana"
+    ],
+    "Arabic": [
+      "محبوب",
+      "Maḥbūb"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "Wakame☆Sutā"
+    ],
+    "Spanish": [
+      "Algacabana"
+    ],
+    "French": [
+      "Algacarena"
+    ],
+    "Italian": [
+      "Algacabana"
+    ],
+    "German": [
+      "Samba"
+    ],
+    "Russian": [
+      "Кельпакабана"
+    ],
+    "Arabic": [
+      "محبوب"
+    ]
+  },
+  "description_en": "The biggest star the world of seaweed has ever seen! He dances for screaming fans wherever he goes.",
+  "nom_en": "Gnomey",
+  "rang_yww": "C",
+  "tribue_yww": "Pokapoka",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "ramen",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 48,
+    "str": 22,
+    "spr": 25,
+    "def": 9,
+    "spd": 16
+  },
+  "stats_max_yww": {
+    "hp": 384,
+    "str": 160,
+    "spr": 177,
+    "def": 67,
+    "spd": 130
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "はりたおす",
+        "_en": "Haritaosu",
+        "_fr": "Haritaosu"
+      },
+      "explication": {
+        "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+        "_en": "[Power: 25×2/Blow] Attack twice",
+        "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "極楽の術",
+        "_en": "The art of paradise",
+        "_fr": "L'art du paradis"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "魅惑の海藻カーニバル",
+        "_en": "Fascinating seaweed carnival",
+        "_fr": "Fascinant carnaval d'algues"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "プロの世界で鍛えたダンスでみんなを勇気づけ味方全員のHPをだんだん回復させる。",
+        "_en": "With the dance skills she trained in the professional world, she encourages everyone and gradually recovers the HP of all her allies.",
+        "_fr": "Grâce aux compétences en danse qu'elle a formées dans le monde professionnel, elle encourage tout le monde et récupère progressivement les HP de tous ses alliés."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "サンバのリズム",
+        "_en": "samba rhythm",
+        "_fr": "rythme de samba"
+      },
+      "explication": {
+        "_jp": "【全ステアップ】 とりつかれた妖怪はサンバのリズムが伝わり全ステータスがアップする。",
+        "_en": "[All Stairs Up] A possessed monster will be able to hear the rhythm of the samba and all stats will increase.",
+        "_fr": "[Tous les escaliers] Un monstre possédé pourra entendre le rythme de la samba et toutes les statistiques augmenteront."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "海藻界のトップダンサーに のし上がったワカメくん。 自分のダンスの力のみで 日本中のライブ会場を ファンでいっぱいにする。",
+      "_en": "Wakame-kun has risen to become a top dancer in the seaweed world. Using only the power of my dancing, I can fill live venues all over Japan with fans.",
+      "_fr": "Wakame-kun est devenu l'un des meilleurs danseurs du monde des algues. En utilisant uniquement la puissance de ma danse, je peux remplir de fans les salles de concert de tout le Japon."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "297",
+  "Name_yww": "ワカメ☆スター",
+  "description_jp_yww": "海藻界のトップダンサーに のし上がったワカメくん。 自分のダンスの力のみで 日本中のライブ会場を ファンでいっぱいにする。",
+  "BingoMessage_jp_yww": "スターのお出ましさ！ きみも一緒に！　レッツダンシング！",
+  "MonsterId_yww": "y282000",
+  "Height_yww": 14.43,
+  "CommondId_yww": "sp_282000",
+  "MinHp_yww": 49,
+  "MaxHp_yww": 366,
+  "MinAttack_yww": 7,
+  "MaxAttack_yww": 49,
+  "MinMagic_yww": 25,
+  "MaxMagic_yww": 202,
+  "MinDefense_yww": 14,
+  "MaxDefense_yww": 101,
+  "MinSpeed_yww": 20,
+  "MaxSpeed_yww": 172,
+  "AttackId_yww": 8,
+  "MagicId_yww": 2,
+  "HauntId_yww": 282000,
+  "SpSkillId_yww": 282000,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 14,
+  "DislikeFoodKind_yww": 16,
+  "ActionType_yww": 10,
+  "TribeType_yww": 5,
+  "MedallionImage_yww": "y277800.png",
+  "SpriteImage_yww": "img_y277800.png",
+  "Audio_yww": "sp_y277800.wav",
+  "Description_yww": "Wakame-kun, qui s'est hissé au rang de danseur numéro un du monde des algues. Grâce à son seul talent de danseur, il remplit de fans les salles de concert de tout le Japon.",
+  "BingoMessage_fr_yww": "Une star fait son apparition ! Viens avec nous ! C'est parti pour la danse !"
 }

@@ -1,694 +1,725 @@
 {
-    "ID": "167",
-    "Nom": "Racaïd",
-    "Tribue": "Costaud",
-    "Rang": "B",
-    "PV": "423",
-    "Force": "186",
-    "Esprit": "55",
-    "Défense": "218",
-    "Vitesse": "93",
-    "Description": "Ce chef de gang entre en territoire ennemi armé de sa terrible batte cloutée. C'est sa manière de montrer qu'il règne.",
-    "description SITE": "Ce chef de gang entre en territoire ennemi armé de sa batte cloutée. C'est sa manière de monter qu'il règne.",
-    "nourriture": "Ramen",
-    "élément": "Terre",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Racaïd est un mot-valise entre racaille et caïd.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Comme son prédécesseur, Racaïd transforme ses victimes en délinquants. Il utilise également sa batte comme arme principale.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/racaid.png",
-    "numero": "071",
-    "nourriture_favorite": "Ramen",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Revanche",
-            "effet": "Renvoie à l'ennemi une partie de ses dégâts."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Casse-tête",
-            "effet": "130 | 195"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Éboulement",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Air de gangster",
-            "effet": "Regarde ses ennemis pour les mettre mal à l'aise. Réduit la VIT. 100 | 100"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Âme de rebelle",
-            "effet": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
-        }
+  "ID": "167",
+  "Nom": "Racaïd",
+  "Tribue": "Costaud",
+  "Rang": "B",
+  "PV": "423",
+  "Force": "186",
+  "Esprit": "55",
+  "Défense": "218",
+  "Vitesse": "93",
+  "Description": "Ce chef de gang entre en territoire ennemi armé de sa terrible batte cloutée. C'est sa manière de montrer qu'il règne.",
+  "description SITE": "Ce chef de gang entre en territoire ennemi armé de sa batte cloutée. C'est sa manière de monter qu'il règne.",
+  "nourriture": "Ramen",
+  "élément": "Terre",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Racaïd est un mot-valise entre racaille et caïd.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Comme son prédécesseur, Racaïd transforme ses victimes en délinquants. Il utilise également sa batte comme arme principale.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/racaid.png",
+  "numero": "071",
+  "nourriture_favorite": "Ramen",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Revanche",
+      "effet": "Renvoie à l'ennemi une partie de ses dégâts."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Casse-tête",
+      "effet": "130 | 195"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Éboulement",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Air de gangster",
+      "effet": "Regarde ses ennemis pour les mettre mal à l'aise. Réduit la VIT. 100 | 100"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Âme de rebelle",
+      "effet": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
+    }
+  ],
+  "phrases_nourriture": {},
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "Général",
+      "de": "Loubarbare",
+      "vers": "Racaïd",
+      "critere": "Niveau 25"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ゴクドー",
+  "nom_anglais": "Badude",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Évolution",
+      "La Corniche-Musée lac des Coloquintes(Nuit)"
     ],
-    "phrases_nourriture": {},
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "Général",
-            "de": "Loubarbare",
-            "vers": "Racaïd",
-            "critere": "Niveau 25"
-        }
+    "yw2": [
+      "Évolution"
     ],
-    "image_locale": "",
-    "nom_original": "ゴクドー",
-    "nom_anglais": "Badude",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Évolution",
-            "La Corniche-Musée lac des Coloquintes(Nuit)"
-        ],
-        "yw2": [
-            "Évolution"
-        ],
-        "yw Blasters 1": [
-            "Évolution",
-            "Patrouille -Hauts de Granval"
-        ],
-        "yw3": [
-            "Évolution"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Casse-tête",
-                "puissance": "130|195",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Galet",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Air de gangster",
-                "puissance": "100|100",
-                "description": "Effraie ses ennemis et réduit leur VIT."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Âme de rebelle",
-                "puissance": "N/A",
-                "description": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Revanche",
-                "description": "Renvoie à l'ennemi une partie de ses dégâts."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Casse-tête",
-                "puissance": "130|195",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Air de gangster",
-                "puissance": "100|100",
-                "description": "Regarde ses ennemis pour les mettre mal à l'aise. Réduit la VIT."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Âme de rebelle",
-                "puissance": "N/A",
-                "description": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque à bloc",
-                "puissance": "N/A",
-                "description": "Déclenche une forte attaque à courte portée."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Revanche",
-                "description": "Renvoie à l'ennemi une partie de ses dégâts."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Air de gangster",
-                "puissance": "250",
-                "description": "Baisse temporaire de la VIT. des ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Attaque chargée",
-                "puissance": "80",
-                "description": "Attaque courte portée. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Galet",
-                "puissance": "40",
-                "description": "Utilise un sort de terre. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Position défensive",
-                "puissance": "___",
-                "description": "Hausse de la défense temporaire."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Finisseur",
-                "description": "Augmente dégâts sur tous les ennemis en danger."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Casse-tête",
-                "puissance": "85|136",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Air de gangster",
-                "puissance": "70|70",
-                "description": "Lance un regard terrible sur la colonne devant lui. Baisse fortement la VIT."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Âme de rebelle",
-                "puissance": "N/A",
-                "description": "Fait ressortir les tendances autodestructives de l'ennemi et baisse sa DÉF."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Air de gangster",
-                "puissance": "250",
-                "description": "Attaque et réduit un instant la VIT. de l'ennemi."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque chargée",
-                "puissance": "80",
-                "description": "Attaque un ennemi proche. Plus de dégâts si chargé."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Position défensive",
-                "puissance": "___",
-                "description": "Booste temporairement la DÉF."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Banane",
-                "description": "Esquivera les coups de tête ennemis."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Batte cloutée"
-            },
-            {
-                "taux": "?%",
-                "objet": "Double burger"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Batte cloutée"
-            },
-            {
-                "taux": "?%",
-                "objet": "Cheeseburger"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Batte cloutée"
-            },
-            {
-                "taux": "?%",
-                "objet": "Ramen deluxe"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Revanche",
-        "description": "Renvoie à l'ennemi une partie de ses dégâts."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/racaid.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/racaid.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/racaid.wav",
-    "oldID": "167",
-    "medallium_ids": {
-        "yw1": "071",
-        "yw2": "096",
-        "yw3": "153"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "106",
-        "yw Blasters 2": "157",
-        "yw Wibble Wobble": "3013",
-        "yw World": "0062",
-        "yw Ukiukipedia": "yw1-021/YD5-014"
-    },
-    "battle_type": "",
-    "skill_name": "Revenge",
-    "skill_effect": "Rebel Soul",
-    "disliked_food": "Milk",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "389",
-                "STR": "188",
-                "SPR": "94",
-                "DEF": "171",
-                "SPD": "136"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "433",
-                "STR": "188",
-                "SPR": "94",
-                "DEF": "171",
-                "SPD": "136"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "188-332",
-                "STR": "191",
-                "SPR": "60",
-                "DEF": "223",
-                "SPD": "98"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "188-332"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "188-332"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "188-332"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Spanish": [
-            "Caporrista"
-        ],
-        "French": [
-            "Racaïd"
-        ],
-        "Italian": [
-            "Bandido"
-        ],
-        "German": [
-            "Bandido"
-        ],
-        "Russian": [
-            "Бандалон",
-            "Bandalon"
-        ],
-        "Arabic": [
-            "قرضاب",
-            "Qirḍāb"
-        ],
-        "Chinese (Mandarin)": [
-            "極道妖"
-        ],
-        "Portuguese (Brazilian)": [
-            "Bambam"
-        ]
-    },
-    "localized_soultimates": {
-        "Spanish": [
-            "Caporrista"
-        ],
-        "French": [
-            "Racaïd"
-        ],
-        "Italian": [
-            "Bandido"
-        ],
-        "German": [
-            "Bandido"
-        ],
-        "Russian": [
-            "Бандалон"
-        ],
-        "Arabic": [
-            "قرضاب"
-        ],
-        "Chinese (Mandarin)": [
-            "極道妖"
-        ],
-        "Portuguese (Brazilian)": [
-            "Bambam"
-        ]
-    },
-    "description_en": "This gang leader runs into enemy territory wielding his brutal nail bat. That's his way of taking care of his gang.",
-    "nom_en": "Chatalie",
-    "rang_yww": "B",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "ramen",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 56,
-        "str": 25,
-        "spr": 6,
-        "def": 28,
-        "spd": 16
-    },
-    "stats_max_yww": {
-        "hp": 423,
-        "str": 186,
-        "spr": 55,
-        "def": 218,
-        "spd": 93
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "オレンジコイン",
-            "_en": "orange coin",
-            "_fr": "pièce de monnaie orange"
-        },
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw Blasters 1": [
+      "Évolution",
+      "Patrouille -Hauts de Granval"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "脳天かちわり",
-                "_en": "Brain temperature change",
-                "_fr": "Changement de température cérébrale"
-            },
-            "explication": {
-                "_jp": "【威力:65 / 打撃】 強力な一撃を加える",
-                "_en": "[Power: 65 / Strike] Adds a powerful blow",
-                "_fr": "[Puissance : 65 / Frappe] Ajoute un coup puissant"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "落石の術",
-                "_en": "falling rock jutsu",
-                "_fr": "jutsu qui tombe des pierres"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
-                "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
-                "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "極道にらみ",
-                "_en": "Yakuza glare",
-                "_fr": "Éblouissement Yakuza"
-            },
-            "pouvoir": "70",
-            "explication": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ツッパリ精神",
-                "_en": "strong spirit",
-                "_fr": "esprit fort"
-            },
-            "explication": {
-                "_jp": "【まもりダウン】 とりつかれた妖怪はツッパリの精神が裏目にでて まもりがダウンする。",
-                "_en": "[Mamori Down] The spirit of the possessed monster backfires and the protection goes down.",
-                "_fr": "[Mamori Down] L'esprit du monstre possédé se retourne contre lui et la protection disparaît."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "愛用の『釘バット』で 荒々しく敵につっこむ 妖怪特攻隊長。 こう見えて 後輩たちの めんどうみはいい。",
-            "_en": "A Yokai special attack team leader who brutally attacks his enemies with his favorite nail bat. Even if you look at it like this, the trouble your juniors are having is good.",
-            "_fr": "Un chef d'équipe d'attaque spéciale Yokai qui attaque brutalement ses ennemis avec sa batte à ongles préférée. Même si vous regardez les choses ainsi, les problèmes rencontrés par vos juniors sont bons."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Évolution"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Casse-tête",
+        "puissance": "130|195",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Galet",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Air de gangster",
+        "puissance": "100|100",
+        "description": "Effraie ses ennemis et réduit leur VIT."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Âme de rebelle",
+        "puissance": "N/A",
+        "description": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Revanche",
+        "description": "Renvoie à l'ennemi une partie de ses dégâts."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Casse-tête",
+        "puissance": "130|195",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Éboulement",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Air de gangster",
+        "puissance": "100|100",
+        "description": "Regarde ses ennemis pour les mettre mal à l'aise. Réduit la VIT."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Âme de rebelle",
+        "puissance": "N/A",
+        "description": "Essaie de rendre un ennemi rebelle mais échoue. DÉF. diminuée."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Attaque à bloc",
+        "puissance": "N/A",
+        "description": "Déclenche une forte attaque à courte portée."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Revanche",
+        "description": "Renvoie à l'ennemi une partie de ses dégâts."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Air de gangster",
+        "puissance": "250",
+        "description": "Baisse temporaire de la VIT. des ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Attaque chargée",
+        "puissance": "80",
+        "description": "Attaque courte portée. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Galet",
+        "puissance": "40",
+        "description": "Utilise un sort de terre. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Position défensive",
+        "puissance": "___",
+        "description": "Hausse de la défense temporaire."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Finisseur",
+        "description": "Augmente dégâts sur tous les ennemis en danger."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Casse-tête",
+        "puissance": "85|136",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Éboulement",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Air de gangster",
+        "puissance": "70|70",
+        "description": "Lance un regard terrible sur la colonne devant lui. Baisse fortement la VIT."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Âme de rebelle",
+        "puissance": "N/A",
+        "description": "Fait ressortir les tendances autodestructives de l'ennemi et baisse sa DÉF."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Air de gangster",
+        "puissance": "250",
+        "description": "Attaque et réduit un instant la VIT. de l'ennemi."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Attaque chargée",
+        "puissance": "80",
+        "description": "Attaque un ennemi proche. Plus de dégâts si chargé."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Position défensive",
+        "puissance": "___",
+        "description": "Booste temporairement la DÉF."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Banane",
+        "description": "Esquivera les coups de tête ennemis."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Batte cloutée"
+      },
+      {
+        "taux": "?%",
+        "objet": "Double burger"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Batte cloutée"
+      },
+      {
+        "taux": "?%",
+        "objet": "Cheeseburger"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Batte cloutée"
+      },
+      {
+        "taux": "?%",
+        "objet": "Ramen deluxe"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Revanche",
+    "description": "Renvoie à l'ennemi une partie de ses dégâts."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/racaid.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/racaid.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/racaid.wav",
+  "oldID": "167",
+  "medallium_ids": {
+    "yw1": "071",
+    "yw2": "096",
+    "yw3": "153"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "106",
+    "yw Blasters 2": "157",
+    "yw Wibble Wobble": "3013",
+    "yw World": "0062",
+    "yw Ukiukipedia": "yw1-021/YD5-014"
+  },
+  "battle_type": "",
+  "skill_name": "Revenge",
+  "skill_effect": "Rebel Soul",
+  "disliked_food": "Milk",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "389",
+        "STR": "188",
+        "SPR": "94",
+        "DEF": "171",
+        "SPD": "136"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "433",
+        "STR": "188",
+        "SPR": "94",
+        "DEF": "171",
+        "SPD": "136"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "188-332",
+        "STR": "191",
+        "SPR": "60",
+        "DEF": "223",
+        "SPD": "98"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "188-332"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "188-332"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "188-332"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Spanish": [
+      "Caporrista"
+    ],
+    "French": [
+      "Racaïd"
+    ],
+    "Italian": [
+      "Bandido"
+    ],
+    "German": [
+      "Bandido"
+    ],
+    "Russian": [
+      "Бандалон",
+      "Bandalon"
+    ],
+    "Arabic": [
+      "قرضاب",
+      "Qirḍāb"
+    ],
+    "Chinese (Mandarin)": [
+      "極道妖"
+    ],
+    "Portuguese (Brazilian)": [
+      "Bambam"
+    ]
+  },
+  "localized_soultimates": {
+    "Spanish": [
+      "Caporrista"
+    ],
+    "French": [
+      "Racaïd"
+    ],
+    "Italian": [
+      "Bandido"
+    ],
+    "German": [
+      "Bandido"
+    ],
+    "Russian": [
+      "Бандалон"
+    ],
+    "Arabic": [
+      "قرضاب"
+    ],
+    "Chinese (Mandarin)": [
+      "極道妖"
+    ],
+    "Portuguese (Brazilian)": [
+      "Bambam"
+    ]
+  },
+  "description_en": "This gang leader runs into enemy territory wielding his brutal nail bat. That's his way of taking care of his gang.",
+  "nom_en": "Chatalie",
+  "rang_yww": "B",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "ramen",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 56,
+    "str": 25,
+    "spr": 6,
+    "def": 28,
+    "spd": 16
+  },
+  "stats_max_yww": {
+    "hp": 423,
+    "str": 186,
+    "spr": 55,
+    "def": 218,
+    "spd": 93
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "オレンジコイン",
+      "_en": "orange coin",
+      "_fr": "pièce de monnaie orange"
+    },
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "ホワイトデー妖怪ガシャ",
+      "_en": "White Day Yokai Gasha",
+      "_fr": "Jour blanc Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    },
+    {
+      "_jp": "春一番妖怪ガシャ",
+      "_en": "Spring Ichiban Yokai Gasha",
+      "_fr": "Printemps Ichiban Yokai Gasha"
+    },
+    {
+      "_jp": "桜花ランラン妖怪ガシャ",
+      "_en": "Sakura Ranran Yokai Gasha",
+      "_fr": "Sakura Ranran Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "電車でお出かけ妖怪ガシャ",
+      "_en": "Going out by train Yokai Gasha",
+      "_fr": "Sortir en train Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "GW妖怪バトルリーグガシャ",
+      "_en": "GW Yokai Battle League Gasha",
+      "_fr": "GW Yokai Battle League Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "脳天かちわり",
+        "_en": "Brain temperature change",
+        "_fr": "Changement de température cérébrale"
+      },
+      "explication": {
+        "_jp": "【威力:65 / 打撃】 強力な一撃を加える",
+        "_en": "[Power: 65 / Strike] Adds a powerful blow",
+        "_fr": "[Puissance : 65 / Frappe] Ajoute un coup puissant"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "落石の術",
+        "_en": "falling rock jutsu",
+        "_fr": "jutsu qui tombe des pierres"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
+        "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
+        "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "極道にらみ",
+        "_en": "Yakuza glare",
+        "_fr": "Éblouissement Yakuza"
+      },
+      "pouvoir": "70",
+      "explication": {
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ツッパリ精神",
+        "_en": "strong spirit",
+        "_fr": "esprit fort"
+      },
+      "explication": {
+        "_jp": "【まもりダウン】 とりつかれた妖怪はツッパリの精神が裏目にでて まもりがダウンする。",
+        "_en": "[Mamori Down] The spirit of the possessed monster backfires and the protection goes down.",
+        "_fr": "[Mamori Down] L'esprit du monstre possédé se retourne contre lui et la protection disparaît."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "愛用の『釘バット』で 荒々しく敵につっこむ 妖怪特攻隊長。 こう見えて 後輩たちの めんどうみはいい。",
+      "_en": "A Yokai special attack team leader who brutally attacks his enemies with his favorite nail bat. Even if you look at it like this, the trouble your juniors are having is good.",
+      "_fr": "Un chef d'équipe d'attaque spéciale Yokai qui attaque brutalement ses ennemis avec sa batte à ongles préférée. Même si vous regardez les choses ainsi, les problèmes rencontrés par vos juniors sont bons."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "168",
+  "Name_yww": "ゴクドー",
+  "description_jp_yww": "愛用の『釘バット』で 荒々しく敵につっこむ 妖怪特攻隊長。　 こう見えて　後輩たちの めんどうみはいい。",
+  "BingoMessage_jp_yww": "久しぶりのシャバの空気　手間かけたな この恩　俺は一生かけて返していくぜ！",
+  "MonsterId_yww": "y190000",
+  "Height_yww": 14.0,
+  "CommondId_yww": "sp_190000",
+  "MinHp_yww": 56,
+  "MaxHp_yww": 423,
+  "MinAttack_yww": 25,
+  "MaxAttack_yww": 186,
+  "MinMagic_yww": 6,
+  "MaxMagic_yww": 55,
+  "MinDefense_yww": 28,
+  "MaxDefense_yww": 218,
+  "MinSpeed_yww": 16,
+  "MaxSpeed_yww": 93,
+  "AttackId_yww": 36,
+  "MagicId_yww": 11,
+  "HauntId_yww": 190000,
+  "SpSkillId_yww": 190000,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 7,
+  "DislikeFoodKind_yww": 4,
+  "ActionType_yww": 16,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y185800.png",
+  "SpriteImage_yww": "img_y185800.png",
+  "Audio_yww": "sp_y185800.wav",
+  "Description_yww": "Avec sa « batte à clous » préférée, il fonce avec fougue sur ses adversaires : c'est le chef de l'escouade d'assaut des yōkai. Malgré les apparences, il s'occupe bien de ses cadets.",
+  "BingoMessage_fr_yww": "L'air du monde extérieur, ça fait un bail… Tu t'es donné du mal. Je te rendrai cette faveur toute ma vie !"
 }

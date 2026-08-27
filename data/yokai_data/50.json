@@ -1,695 +1,726 @@
 {
-    "ID": "50",
-    "Nom": "Émettor",
-    "Tribue": "Mystérieu",
-    "Rang": "A",
-    "PV": "466",
-    "Force": "84",
-    "Esprit": "245",
-    "Défense": "173",
-    "Vitesse": "79",
-    "Description-": "Un Yo-kai malicieux qui se nourrit d'ondes radio. Tu perdras quelques barres de réseaux s'il est dans les parages.",
-    "Description": "Émettor est presque une divinité pour ceux qui ont grandement besoin de réseaux. Si besoin, il peut t'aider avec la réception.",
-    "nourriture": "Riz",
-    "élément": "Foudre",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Émettor a le pouvoir de charger des appareils électriques avec ses pouvoirs de foudre.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/emettor.png",
-    "nom_original": "でんじん",
-    "nom_anglais": "Signiton",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Fusion",
-            "Bingo-kai-pièce jaune",
-            "Limbes éternelles"
-        ],
-        "yw2": [
-            "Fusion",
-            "Bingo-kai(présent) -pièce jaune"
-        ],
-        "yw Blasters 1": [
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusionner Padrézo avec une Orbe GHZ trouvable à la loterie ou en mode blasters T"
-        ],
-        "yw4": [
-            "Émettor est exclusif au modePura Pura Busters.\nIl est trouvable dans la mission histoire deCrochoet dans la seconde chasse à l'orbe Oni et le combat de boss dePorcinator."
-        ]
-    },
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Padrézo",
-            "parent2": "Orbe GHz",
-            "resultat": "Émettor",
-            "critere": "➨"
-        }
+  "ID": "50",
+  "Nom": "Émettor",
+  "Tribue": "Mystérieu",
+  "Rang": "A",
+  "PV": "466",
+  "Force": "84",
+  "Esprit": "245",
+  "Défense": "173",
+  "Vitesse": "79",
+  "Description-": "Un Yo-kai malicieux qui se nourrit d'ondes radio. Tu perdras quelques barres de réseaux s'il est dans les parages.",
+  "Description": "Émettor est presque une divinité pour ceux qui ont grandement besoin de réseaux. Si besoin, il peut t'aider avec la réception.",
+  "nourriture": "Riz",
+  "élément": "Foudre",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Émettor a le pouvoir de charger des appareils électriques avec ses pouvoirs de foudre.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/emettor.png",
+  "nom_original": "でんじん",
+  "nom_anglais": "Signiton",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Fusion",
+      "Bingo-kai-pièce jaune",
+      "Limbes éternelles"
     ],
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "15×2|33×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Foudr'invocation",
-                "puissance": "120|180",
-                "description": "Tape sur son ventre pour faire tomber la foudre sur l'ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Paralysie",
-                "puissance": "N/A",
-                "description": "Ralentit un ennemi grâce à un choc électrique."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Jeu de foudre",
-                "description": "Augmente les dégâts des attaques de foudre."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "15×2|33×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Foudr'invocation",
-                "puissance": "120|180",
-                "description": "Tape sur son ventre pour faire tomber la foudre sur l'ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Paralysie",
-                "puissance": "N/A",
-                "description": "Ralentit un ennemi grâce à un choc électrique."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Foudre",
-                "puissance": "N/A",
-                "description": "Foudroie les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Jeu de foudre",
-                "description": "Augmente les dégâts de ses attaques de foudre."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Foudr'invocation",
-                "puissance": "80×5",
-                "description": "La foudre inflige de gros dégâts aux ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Décharge",
-                "puissance": "40",
-                "description": "Utilise un sort électrique. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Attaque chargée",
-                "puissance": "80",
-                "description": "Attaque courte portée. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Foudre",
-                "puissance": "50",
-                "description": "Un sort électrique puissant. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Foudre !",
-                "description": "Ajoute de la foudre aux attaques."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "25×2|55×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Foudr'invocation",
-                "puissance": "148|222",
-                "description": "Tape sur son ventre pour faire tomber la foudre sur l'ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Paralysie",
-                "puissance": "N/A",
-                "description": "Ralentit un ennemi grâce à un choc électrique."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Foudr'invocation",
-                "puissance": "80×5",
-                "description": "Déluge de foudre qui inflige des dégâts élevés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Foudre",
-                "puissance": "50",
-                "description": "Technique de foudre++. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Attaque chargée",
-                "puissance": "80",
-                "description": "Attaque un ennemi proche. Plus de dégâts si chargé."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Jeu de foudre",
-                "description": "Augmente les dégâts de ses attaques de foudre."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Orbe GHz"
-            },
-            {
-                "taux": "?%",
-                "objet": "Ramen au poulet"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Badge de foudre"
-            },
-            {
-                "taux": "?%",
-                "objet": "Ramen au poulet"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Étoile dansante"
-            },
-            {
-                "taux": "?%",
-                "objet": "Brochettes de bœuf"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Jeu de foudre",
-        "description": "Augmente les dégâts des attaques de foudre."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/emettor.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/emettor.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/emettor.wav",
-    "oldID": "50",
-    "medallium_ids": {
-        "yw1": "044",
-        "yw2": "064",
-        "yw3": "103",
-        "yw4": "41 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "074",
-        "yw Blasters 2": "104",
-        "yw Wibble Wobble": "2011",
-        "yw World": "0038",
-        "yw Ukiukipedia": "yw1-013"
-    },
-    "battle_type": "",
-    "skill_name": "Lightning Play",
-    "skill_effect": "Paralyze",
-    "disliked_food": "Snacks",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "380",
-                "STR": "178",
-                "SPR": "186",
-                "DEF": "158",
-                "SPD": "110"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "476",
-                "STR": "178",
-                "SPR": "186",
-                "DEF": "158",
-                "SPD": "110"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "154",
-                "STR": "43",
-                "SPR": "47",
-                "DEF": "178",
-                "SPD": "84"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "353-612",
-                "STR": "43",
-                "SPR": "47"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "353-612"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "353-612"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "353-612"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "でんじん",
-            "Denjin"
-        ],
-        "Spanish": [
-            "Coberturo"
-        ],
-        "French": [
-            "Émettor"
-        ],
-        "Italian": [
-            "Amplicamp"
-        ],
-        "German": [
-            "Signalabim"
-        ],
-        "Korean": [
-            "전파신",
-            "Jeonpasin"
-        ],
-        "Russian": [
-            "Сетерасширяк",
-            "Seteraschiryak"
-        ],
-        "Arabic": [
-            "إرسال",
-            "Irsāl"
-        ],
-        "Chinese (Mandarin)": [
-            "電波神"
-        ],
-        "Portuguese (Brazilian)": [
-            "Senhor"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "でんじん"
-        ],
-        "Spanish": [
-            "Coberturo"
-        ],
-        "French": [
-            "Émettor"
-        ],
-        "Italian": [
-            "Amplicamp"
-        ],
-        "German": [
-            "Signalabim"
-        ],
-        "Korean": [
-            "전파신"
-        ],
-        "Russian": [
-            "Сетерасширяк"
-        ],
-        "Arabic": [
-            "إرسال"
-        ],
-        "Chinese (Mandarin)": [
-            "電波神"
-        ],
-        "Portuguese (Brazilian)": [
-            "Senhor Wi-fi"
-        ]
-    },
-    "description_en": "Signiton is almost a deity for those in desperate need of a wireless signal. He can boost your reception if you ask.",
-    "nom_en": "Whapir",
-    "rang_yww": "A",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "collation",
-    "nourriture_favorite": "collation",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 58,
-        "str": 10,
-        "spr": 42,
-        "def": 25,
-        "spd": 7
-    },
-    "stats_max_yww": {
-        "hp": 466,
-        "str": 84,
-        "spr": 245,
-        "def": 173,
-        "spd": 79
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "黄色コイン",
-            "_en": "yellow coin",
-            "_fr": "pièce jaune"
-        },
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw2": [
+      "Fusion",
+      "Bingo-kai(présent) -pièce jaune"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ワンツーパンチ",
-                "_en": "one two punch",
-                "_fr": "un deux coups de poing"
-            },
-            "explication": {
-                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 25×2/Blow] Attack twice",
-                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "雷神の術",
-                "_en": "Raijin no Jutsu",
-                "_fr": "Raijin no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
-                "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
-                "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
-            }
-        }
+    "yw Blasters 1": [
+      "Fusion"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "でんじんサンダー",
-                "_en": "Denjin Thunder",
-                "_fr": "Denjin Tonnerre"
-            },
-            "pouvoir": "148",
-            "explication": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
-            }
-        }
+    "yw3": [
+      "Fusionner Padrézo avec une Orbe GHZ trouvable à la loterie ou en mode blasters T"
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "しびれさせる",
-                "_en": "numb",
-                "_fr": "engourdi"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 バチバチしびれて たまに行動しなくなる",
-                "_en": "[Lazy] I feel numb and sometimes stop acting.",
-                "_fr": "[Paresseux] Je me sens engourdi et parfois j'arrête d'agir."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "電波をつかさどる 神様のような妖怪。 携帯電話が広まったことで でんじんの ありがたみが 増しているようだ。",
-            "_en": "A god-like monster that controls radio waves. The popularity of denjin seems to have increased with the spread of mobile phones.",
-            "_fr": "Un monstre divin qui contrôle les ondes radio. La popularité du denjin semble avoir augmenté avec la diffusion des téléphones portables."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw4": [
+      "Émettor est exclusif au modePura Pura Busters.\nIl est trouvable dans la mission histoire deCrochoet dans la seconde chasse à l'orbe Oni et le combat de boss dePorcinator."
     ]
+  },
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Padrézo",
+      "parent2": "Orbe GHz",
+      "resultat": "Émettor",
+      "critere": "➨"
+    }
+  ],
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Poing un-deux",
+        "puissance": "15×2|33×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Haute tension",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Foudr'invocation",
+        "puissance": "120|180",
+        "description": "Tape sur son ventre pour faire tomber la foudre sur l'ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Paralysie",
+        "puissance": "N/A",
+        "description": "Ralentit un ennemi grâce à un choc électrique."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Jeu de foudre",
+        "description": "Augmente les dégâts des attaques de foudre."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Poing un-deux",
+        "puissance": "15×2|33×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Haute tension",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Foudr'invocation",
+        "puissance": "120|180",
+        "description": "Tape sur son ventre pour faire tomber la foudre sur l'ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Paralysie",
+        "puissance": "N/A",
+        "description": "Ralentit un ennemi grâce à un choc électrique."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Foudre",
+        "puissance": "N/A",
+        "description": "Foudroie les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Jeu de foudre",
+        "description": "Augmente les dégâts de ses attaques de foudre."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Foudr'invocation",
+        "puissance": "80×5",
+        "description": "La foudre inflige de gros dégâts aux ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Décharge",
+        "puissance": "40",
+        "description": "Utilise un sort électrique. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Attaque chargée",
+        "puissance": "80",
+        "description": "Attaque courte portée. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Foudre",
+        "puissance": "50",
+        "description": "Un sort électrique puissant. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Foudre !",
+        "description": "Ajoute de la foudre aux attaques."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Poing un-deux",
+        "puissance": "25×2|55×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Haute tension",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Foudr'invocation",
+        "puissance": "148|222",
+        "description": "Tape sur son ventre pour faire tomber la foudre sur l'ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Paralysie",
+        "puissance": "N/A",
+        "description": "Ralentit un ennemi grâce à un choc électrique."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Foudr'invocation",
+        "puissance": "80×5",
+        "description": "Déluge de foudre qui inflige des dégâts élevés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Foudre",
+        "puissance": "50",
+        "description": "Technique de foudre++. Plus de dégâts si chargée."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Attaque chargée",
+        "puissance": "80",
+        "description": "Attaque un ennemi proche. Plus de dégâts si chargé."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Jeu de foudre",
+        "description": "Augmente les dégâts de ses attaques de foudre."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Orbe GHz"
+      },
+      {
+        "taux": "?%",
+        "objet": "Ramen au poulet"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Badge de foudre"
+      },
+      {
+        "taux": "?%",
+        "objet": "Ramen au poulet"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Étoile dansante"
+      },
+      {
+        "taux": "?%",
+        "objet": "Brochettes de bœuf"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Jeu de foudre",
+    "description": "Augmente les dégâts des attaques de foudre."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/emettor.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/emettor.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/emettor.wav",
+  "oldID": "50",
+  "medallium_ids": {
+    "yw1": "044",
+    "yw2": "064",
+    "yw3": "103",
+    "yw4": "41 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "074",
+    "yw Blasters 2": "104",
+    "yw Wibble Wobble": "2011",
+    "yw World": "0038",
+    "yw Ukiukipedia": "yw1-013"
+  },
+  "battle_type": "",
+  "skill_name": "Lightning Play",
+  "skill_effect": "Paralyze",
+  "disliked_food": "Snacks",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "380",
+        "STR": "178",
+        "SPR": "186",
+        "DEF": "158",
+        "SPD": "110"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "476",
+        "STR": "178",
+        "SPR": "186",
+        "DEF": "158",
+        "SPD": "110"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "154",
+        "STR": "43",
+        "SPR": "47",
+        "DEF": "178",
+        "SPD": "84"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "353-612",
+        "STR": "43",
+        "SPR": "47"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "353-612"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "353-612"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "353-612"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "でんじん",
+      "Denjin"
+    ],
+    "Spanish": [
+      "Coberturo"
+    ],
+    "French": [
+      "Émettor"
+    ],
+    "Italian": [
+      "Amplicamp"
+    ],
+    "German": [
+      "Signalabim"
+    ],
+    "Korean": [
+      "전파신",
+      "Jeonpasin"
+    ],
+    "Russian": [
+      "Сетерасширяк",
+      "Seteraschiryak"
+    ],
+    "Arabic": [
+      "إرسال",
+      "Irsāl"
+    ],
+    "Chinese (Mandarin)": [
+      "電波神"
+    ],
+    "Portuguese (Brazilian)": [
+      "Senhor"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "でんじん"
+    ],
+    "Spanish": [
+      "Coberturo"
+    ],
+    "French": [
+      "Émettor"
+    ],
+    "Italian": [
+      "Amplicamp"
+    ],
+    "German": [
+      "Signalabim"
+    ],
+    "Korean": [
+      "전파신"
+    ],
+    "Russian": [
+      "Сетерасширяк"
+    ],
+    "Arabic": [
+      "إرسال"
+    ],
+    "Chinese (Mandarin)": [
+      "電波神"
+    ],
+    "Portuguese (Brazilian)": [
+      "Senhor Wi-fi"
+    ]
+  },
+  "description_en": "Signiton is almost a deity for those in desperate need of a wireless signal. He can boost your reception if you ask.",
+  "nom_en": "Whapir",
+  "rang_yww": "A",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "collation",
+  "nourriture_favorite": "collation",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 58,
+    "str": 10,
+    "spr": 42,
+    "def": 25,
+    "spd": 7
+  },
+  "stats_max_yww": {
+    "hp": 466,
+    "str": 84,
+    "spr": 245,
+    "def": 173,
+    "spd": 79
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "黄色コイン",
+      "_en": "yellow coin",
+      "_fr": "pièce jaune"
+    },
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "ホワイトデー妖怪ガシャ",
+      "_en": "White Day Yokai Gasha",
+      "_fr": "Jour blanc Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    },
+    {
+      "_jp": "春一番妖怪ガシャ",
+      "_en": "Spring Ichiban Yokai Gasha",
+      "_fr": "Printemps Ichiban Yokai Gasha"
+    },
+    {
+      "_jp": "桜花ランラン妖怪ガシャ",
+      "_en": "Sakura Ranran Yokai Gasha",
+      "_fr": "Sakura Ranran Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "電車でお出かけ妖怪ガシャ",
+      "_en": "Going out by train Yokai Gasha",
+      "_fr": "Sortir en train Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "GW妖怪バトルリーグガシャ",
+      "_en": "GW Yokai Battle League Gasha",
+      "_fr": "GW Yokai Battle League Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ワンツーパンチ",
+        "_en": "one two punch",
+        "_fr": "un deux coups de poing"
+      },
+      "explication": {
+        "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+        "_en": "[Power: 25×2/Blow] Attack twice",
+        "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "雷神の術",
+        "_en": "Raijin no Jutsu",
+        "_fr": "Raijin no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
+        "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
+        "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "でんじんサンダー",
+        "_en": "Denjin Thunder",
+        "_fr": "Denjin Tonnerre"
+      },
+      "pouvoir": "148",
+      "explication": {
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "しびれさせる",
+        "_en": "numb",
+        "_fr": "engourdi"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 バチバチしびれて たまに行動しなくなる",
+        "_en": "[Lazy] I feel numb and sometimes stop acting.",
+        "_fr": "[Paresseux] Je me sens engourdi et parfois j'arrête d'agir."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "電波をつかさどる 神様のような妖怪。 携帯電話が広まったことで でんじんの ありがたみが 増しているようだ。",
+      "_en": "A god-like monster that controls radio waves. The popularity of denjin seems to have increased with the spread of mobile phones.",
+      "_fr": "Un monstre divin qui contrôle les ondes radio. La popularité du denjin semble avoir augmenté avec la diffusion des téléphones portables."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "50",
+  "Name_yww": "でんじん",
+  "description_jp_yww": "電波をつかさどる 神様のような妖怪。 携帯電話が広まったことで でんじんの　ありがたみが 増しているようだ。",
+  "BingoMessage_jp_yww": "きみからいい電波が出てる　その電波で ボクを引き当てた！　これからよろしく！",
+  "MonsterId_yww": "y129000",
+  "Height_yww": 13.0,
+  "CommondId_yww": "sp_129000",
+  "MinHp_yww": 58,
+  "MaxHp_yww": 466,
+  "MinAttack_yww": 10,
+  "MaxAttack_yww": 84,
+  "MinMagic_yww": 42,
+  "MaxMagic_yww": 245,
+  "MinDefense_yww": 25,
+  "MaxDefense_yww": 173,
+  "MinSpeed_yww": 7,
+  "MaxSpeed_yww": 79,
+  "AttackId_yww": 5,
+  "MagicId_yww": 9,
+  "HauntId_yww": 129000,
+  "SpSkillId_yww": 129000,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 15,
+  "DislikeFoodKind_yww": 17,
+  "ActionType_yww": 8,
+  "TribeType_yww": 2,
+  "MedallionImage_yww": "y124800.png",
+  "SpriteImage_yww": "img_y124800.png",
+  "Audio_yww": "sp_y124800.wav",
+  "Description_yww": "Un yōkai semblable à un dieu qui règne sur les ondes. Avec la généralisation des téléphones portables, on dirait que l'on apprécie de plus en plus les bienfaits de Denjin.",
+  "BingoMessage_fr_yww": "Tu dégage une bonne énergie. C'est grâce à cette énergie que tu m'as attiré ! Au plaisir de te connaître !"
 }

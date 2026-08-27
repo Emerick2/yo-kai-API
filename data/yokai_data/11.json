@@ -1,615 +1,646 @@
 {
-    "ID": "11",
-    "Nom": "Toumou",
-    "Tribue": "Vaillant",
-    "Rang": "E",
-    "PV": "305",
-    "Force": "212",
-    "Esprit": "30",
-    "Défense": "117",
-    "Vitesse": "125",
-    "Description": "Un Yo-kai katana fainéant qui peut absorber toute ta motivation. Pour un être aussi paresseux, il est étonnamment intelligent.",
-    "nourriture": "Jus",
-    "élément": "Vent",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Toumou vient de Tout Mou.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Les personnes qu'il envoûte deviennent aussi flemmardes que lui et peuvent même se mettre à fondre si elle ne bougent pas durant un certain temps. En inversant le volant noir autour de sa lame, on peut changer le degré de flemmardise.",
-    "personnalité": "Il est tout le temps fainéant et ne lèverait même pas le petit doigt, même pour quelque chose d'important mais si on le force, il peut s'énerver.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/toumou.png",
-    "numero": "004",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Double tranchant",
-            "effet": "Qui s'y frotte, s'y pique"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Double coupure",
-            "effet": "18x2 | 39x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tourbillon",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Attaque blasée",
-            "effet": "Entaille ses adversaires tout en se prélassant. 20x5 | 20x5"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Sans but",
-            "effet": "Les Yo-kai perdent de la motivation et flânent davantage."
-        }
+  "ID": "11",
+  "Nom": "Toumou",
+  "Tribue": "Vaillant",
+  "Rang": "E",
+  "PV": "305",
+  "Force": "212",
+  "Esprit": "30",
+  "Défense": "117",
+  "Vitesse": "125",
+  "Description": "Un Yo-kai katana fainéant qui peut absorber toute ta motivation. Pour un être aussi paresseux, il est étonnamment intelligent.",
+  "nourriture": "Jus",
+  "élément": "Vent",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Toumou vient de Tout Mou.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Les personnes qu'il envoûte deviennent aussi flemmardes que lui et peuvent même se mettre à fondre si elle ne bougent pas durant un certain temps. En inversant le volant noir autour de sa lame, on peut changer le degré de flemmardise.",
+  "personnalité": "Il est tout le temps fainéant et ne lèverait même pas le petit doigt, même pour quelque chose d'important mais si on le force, il peut s'énerver.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/toumou.png",
+  "numero": "004",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Double tranchant",
+      "effet": "Qui s'y frotte, s'y pique"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Double coupure",
+      "effet": "18x2 | 39x2"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tourbillon",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Attaque blasée",
+      "effet": "Entaille ses adversaires tout en se prélassant. 20x5 | 20x5"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Sans but",
+      "effet": "Les Yo-kai perdent de la motivation et flânent davantage."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Que c'est bon !",
+    "Mange de la nourriture insipide": "*avale*... Merci.",
+    "Mange de la mauvaise nourriture": "C'est infect...",
+    "A la flemme": "Quel ennui...",
+    "Est échangé": "Mais oui, on peut devenir amis. Par contre, je veux ne rien avoir à faire.",
+    "Devient ton ami": "Hé bien, tu te débrouilles bien ! On pourrait sûrement être amis ! Ça te dit ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "Général",
+      "de": "Toumou",
+      "vers": "Lamlam'mou",
+      "critere": "Niveau 20"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ダラケ刀",
+  "nom_anglais": "Cutta-nah",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Mont Sylvestre–Tunnel abandonné"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Que c'est bon !",
-        "Mange de la nourriture insipide": "*avale*... Merci.",
-        "Mange de la mauvaise nourriture": "C'est infect...",
-        "A la flemme": "Quel ennui...",
-        "Est échangé": "Mais oui, on peut devenir amis. Par contre, je veux ne rien avoir à faire.",
-        "Devient ton ami": "Hé bien, tu te débrouilles bien ! On pourrait sûrement être amis ! Ça te dit ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "Général",
-            "de": "Toumou",
-            "vers": "Lamlam'mou",
-            "critere": "Niveau 20"
-        }
+    "yw2": [
+      "Mont Sylvestre – Tunnel abandonné",
+      "Mont Sylvestre – Bambous",
+      "Mont Sylvestre – Buissons",
+      "Mont Sylvestre – Méga Toboggan – Buissons",
+      "Coteau fleuri– Bambous",
+      "Quartier des boutiques– Buissons & Fleurs",
+      "Tunnel sans fin",
+      "Voie du mystère - Route des bouffis - sortie"
     ],
-    "image_locale": "",
-    "nom_original": "ダラケ刀",
-    "nom_anglais": "Cutta-nah",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Mont Sylvestre–Tunnel abandonné"
-        ],
-        "yw2": [
-            "Mont Sylvestre – Tunnel abandonné",
-            "Mont Sylvestre – Bambous",
-            "Mont Sylvestre – Buissons",
-            "Mont Sylvestre – Méga Toboggan – Buissons",
-            "Coteau fleuri– Bambous",
-            "Quartier des boutiques– Buissons & Fleurs",
-            "Tunnel sans fin",
-            "Voie du mystère - Route des bouffis - sortie"
-        ],
-        "yw3": [
-            "La Corniche- jardins"
-        ],
-        "yw Puni Puni": [
-            "ShadowSide Strange Notebook - Apparaît rarement sur la carte."
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Double coupure",
-                "puissance": "18×2|39×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Attaque blasée",
-                "puissance": "15×5|15×5",
-                "description": "Entaille ses adversaires, tout en se prélassant."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Sans but",
-                "puissance": "N/A",
-                "description": "Les Yo-kai perdent de la motivation et flânent davantage."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Double tranchant",
-                "description": "Qui s'y frotte, s'y pique."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Double coupure",
-                "puissance": "18×2|39×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Attaque blasée",
-                "puissance": "20×5|20×5",
-                "description": "Entaille ses adversaires, tout en se prélassant."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Sans but",
-                "puissance": "N/A",
-                "description": "Les Yo-kai perdent de la motivation et flânent davantage."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque à bloc",
-                "puissance": "N/A",
-                "description": "Déclenche une forte attaque à courte portée."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Double tranchant",
-                "description": "Qui s'y frotte, s'y pique."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Attaque blasée",
-                "puissance": "480",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Riz",
-                "puissance": "70",
-                "description": "Restaure tes PV."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Tourbillon",
-                "puissance": "40",
-                "description": "Utilise un sort de vent. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Double tranchant",
-                "description": "Dégâts des attaques ennemies partiellement renvoyés."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Double coupure",
-                "puissance": "25×2|55×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Attaque blasée",
-                "puissance": "100|300",
-                "description": "Entaille ses adversaires, tout en se prélassant."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Sans but",
-                "puissance": "N/A",
-                "description": "Le Yo-kai perd sa motivation et ne fait plus grand-chose."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Attaque blasée",
-                "puissance": "480",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque l’ennemi avec une attaque féroce."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Riz",
-                "puissance": "70",
-                "description": "Rend des PV au lanceur."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Double tranchant",
-                "description": "Les ennemis qui l'attaquent subissent des dégâts."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "La vie en tête"
-            },
-            {
-                "taux": "?%",
-                "objet": "Poupée de fuite"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Petit EXPorbe"
-            },
-            {
-                "taux": "?%",
-                "objet": "Poupée de fuite"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Bracelet usé"
-            },
-            {
-                "taux": "?%",
-                "objet": "Thé de l'âme"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Double tranchant",
-        "description": "Qui s'y frotte, s'y pique."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/toumou.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/toumou.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/toumou.wav",
-    "medallium_ids": {
-        "yw1": "004",
-        "yw2": "004",
-        "yw3": "006"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "004",
-        "yw Blasters 2": "006",
-        "yw Wibble Wobble": "1104",
-        "yw World": "0004",
-        "yw Ukiukipedia": "yw6-002"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Bladed Body",
-    "skill_effect": "Aimless",
-    "disliked_food": "Vegetables",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "297",
-                "STR": "155",
-                "SPR": "79",
-                "DEF": "111",
-                "SPD": "101"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "315",
-                "STR": "155",
-                "SPR": "79",
-                "DEF": "111",
-                "SPD": "101"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "337",
-                "STR": "190",
-                "SPR": "89",
-                "DEF": "151",
-                "SPD": "130"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "337",
-                "STR": "187",
-                "SPR": "84",
-                "DEF": "148"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "99-172",
-                "STR": "187",
-                "SPR": "84",
-                "DEF": "148"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "99-172"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "99-172"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ダラケ刀",
-            "Daraketō"
-        ],
-        "Spanish": [
-            "Katano"
-        ],
-        "French": [
-            "Toumou"
-        ],
-        "Italian": [
-            "Katanoh"
-        ],
-        "German": [
-            "Faulheld"
-        ],
-        "Dutch": [
-            "Cutta-nah"
-        ],
-        "Korean": [
-            "해이칼",
-            "Haeikal"
-        ],
-        "Russian": [
-            "Зеворез",
-            "Zevorez"
-        ],
-        "Arabic": [
-            "كهام",
-            "Kahhām"
-        ],
-        "Chinese (Cantonese)": [
-            "大懶刀",
-            "daai⁶"
-        ],
-        "Chinese (Mandarin)": [
-            "懶懶刀",
-            "Lǎnlǎndāo"
-        ],
-        "Portuguese (Brazilian)": [
-            "Fleumatador"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ダラケ刀"
-        ],
-        "Spanish": [
-            "Katano"
-        ],
-        "French": [
-            "Toumou"
-        ],
-        "Italian": [
-            "Katanoh"
-        ],
-        "German": [
-            "Faulheld"
-        ],
-        "Dutch": [
-            "Cutta-nah"
-        ],
-        "Korean": [
-            "해이칼"
-        ],
-        "Russian": [
-            "Зеворез"
-        ],
-        "Arabic": [
-            "كهام"
-        ],
-        "Chinese (Cantonese)": [
-            "大懶刀"
-        ],
-        "Chinese (Mandarin)": [
-            "懶懶刀"
-        ],
-        "Portuguese (Brazilian)": [
-            "Fleumatador"
-        ]
-    },
-    "description_en": "A lazy katana Yo-kai who can drain all of your motivation. He's strangely sharp for being so lazy.",
-    "nom_en": "Minochi",
-    "rang_yww": "E",
-    "tribue_yww": "Isamashi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "jus",
-    "nourriture_favorite": "jus",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {
-        "hp": 48,
-        "str": 28,
-        "spr": 3,
-        "def": 10,
-        "spd": 13
-    },
-    "stats_max_yww": {
-        "hp": 305,
-        "str": 212,
-        "spr": 30,
-        "def": 117,
-        "spd": 125
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "1つ星コイン",
-            "_en": "1 star coin",
-            "_fr": "Pièce d'une étoile"
-        }
+    "yw3": [
+      "La Corniche- jardins"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "つばめがえし",
-                "_en": "Swallow replacement",
-                "_fr": "Remplacement de l'hirondelle"
-            },
-            "explication": {
-                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 25×2/Blow] Attack twice",
-                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "つむじ風の術",
-                "_en": "Whirlwind technique",
-                "_fr": "Technique du tourbillon"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 風属性】 風の妖術を使う。",
-                "_en": "[Power: 40 / Wind attribute] Uses wind magic.",
-                "_fr": "[Puissance : 40 / Attribut Vent] Utilise la magie du vent."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "だらけチョップ",
-                "_en": "Darake Chop",
-                "_fr": "Côtelette Darake"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ふまじめにする",
-                "_en": "be serious",
-                "_fr": "sois sérieux"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 とりつかれた妖怪はまじめに戦う気がなくなりたまに行動しなくなる。",
-                "_en": "[Osabori] A possessed monster loses the will to fight seriously and sometimes stops acting.",
-                "_fr": "[Osabori] Un monstre possédé perd la volonté de se battre sérieusement et arrête parfois d'agir."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "西のほうからダラダラと やってきた だらけるのが 大好きな刀の妖怪。 やる気をうばう困ったやつだが 切れ味はなかなか。",
-            "_en": "A sword-wielding monster that likes to wander around from the west. It's a troublesome thing that takes away motivation, but it's quite sharp.",
-            "_fr": "Un monstre brandissant une épée qui adore traîner et venir paresseusement de l'ouest. C'est une chose gênante qui enlève la motivation, mais c'est assez aigu."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Puni Puni": [
+      "ShadowSide Strange Notebook - Apparaît rarement sur la carte."
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Double coupure",
+        "puissance": "18×2|39×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tourbillon",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Attaque blasée",
+        "puissance": "15×5|15×5",
+        "description": "Entaille ses adversaires, tout en se prélassant."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Sans but",
+        "puissance": "N/A",
+        "description": "Les Yo-kai perdent de la motivation et flânent davantage."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Double tranchant",
+        "description": "Qui s'y frotte, s'y pique."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Double coupure",
+        "puissance": "18×2|39×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tourbillon",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Attaque blasée",
+        "puissance": "20×5|20×5",
+        "description": "Entaille ses adversaires, tout en se prélassant."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Sans but",
+        "puissance": "N/A",
+        "description": "Les Yo-kai perdent de la motivation et flânent davantage."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Attaque à bloc",
+        "puissance": "N/A",
+        "description": "Déclenche une forte attaque à courte portée."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Double tranchant",
+        "description": "Qui s'y frotte, s'y pique."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Attaque blasée",
+        "puissance": "480",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Riz",
+        "puissance": "70",
+        "description": "Restaure tes PV."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Tourbillon",
+        "puissance": "40",
+        "description": "Utilise un sort de vent. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Double tranchant",
+        "description": "Dégâts des attaques ennemies partiellement renvoyés."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Double coupure",
+        "puissance": "25×2|55×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tourbillon",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Attaque blasée",
+        "puissance": "100|300",
+        "description": "Entaille ses adversaires, tout en se prélassant."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Sans but",
+        "puissance": "N/A",
+        "description": "Le Yo-kai perd sa motivation et ne fait plus grand-chose."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Attaque blasée",
+        "puissance": "480",
+        "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque l’ennemi avec une attaque féroce."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Riz",
+        "puissance": "70",
+        "description": "Rend des PV au lanceur."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Double tranchant",
+        "description": "Les ennemis qui l'attaquent subissent des dégâts."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "La vie en tête"
+      },
+      {
+        "taux": "?%",
+        "objet": "Poupée de fuite"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Petit EXPorbe"
+      },
+      {
+        "taux": "?%",
+        "objet": "Poupée de fuite"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Bracelet usé"
+      },
+      {
+        "taux": "?%",
+        "objet": "Thé de l'âme"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Double tranchant",
+    "description": "Qui s'y frotte, s'y pique."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/toumou.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/toumou.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/toumou.wav",
+  "medallium_ids": {
+    "yw1": "004",
+    "yw2": "004",
+    "yw3": "006"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "004",
+    "yw Blasters 2": "006",
+    "yw Wibble Wobble": "1104",
+    "yw World": "0004",
+    "yw Ukiukipedia": "yw6-002"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Bladed Body",
+  "skill_effect": "Aimless",
+  "disliked_food": "Vegetables",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "297",
+        "STR": "155",
+        "SPR": "79",
+        "DEF": "111",
+        "SPD": "101"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "315",
+        "STR": "155",
+        "SPR": "79",
+        "DEF": "111",
+        "SPD": "101"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "337",
+        "STR": "190",
+        "SPR": "89",
+        "DEF": "151",
+        "SPD": "130"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "337",
+        "STR": "187",
+        "SPR": "84",
+        "DEF": "148"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "99-172",
+        "STR": "187",
+        "SPR": "84",
+        "DEF": "148"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "99-172"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "99-172"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ダラケ刀",
+      "Daraketō"
+    ],
+    "Spanish": [
+      "Katano"
+    ],
+    "French": [
+      "Toumou"
+    ],
+    "Italian": [
+      "Katanoh"
+    ],
+    "German": [
+      "Faulheld"
+    ],
+    "Dutch": [
+      "Cutta-nah"
+    ],
+    "Korean": [
+      "해이칼",
+      "Haeikal"
+    ],
+    "Russian": [
+      "Зеворез",
+      "Zevorez"
+    ],
+    "Arabic": [
+      "كهام",
+      "Kahhām"
+    ],
+    "Chinese (Cantonese)": [
+      "大懶刀",
+      "daai⁶"
+    ],
+    "Chinese (Mandarin)": [
+      "懶懶刀",
+      "Lǎnlǎndāo"
+    ],
+    "Portuguese (Brazilian)": [
+      "Fleumatador"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ダラケ刀"
+    ],
+    "Spanish": [
+      "Katano"
+    ],
+    "French": [
+      "Toumou"
+    ],
+    "Italian": [
+      "Katanoh"
+    ],
+    "German": [
+      "Faulheld"
+    ],
+    "Dutch": [
+      "Cutta-nah"
+    ],
+    "Korean": [
+      "해이칼"
+    ],
+    "Russian": [
+      "Зеворез"
+    ],
+    "Arabic": [
+      "كهام"
+    ],
+    "Chinese (Cantonese)": [
+      "大懶刀"
+    ],
+    "Chinese (Mandarin)": [
+      "懶懶刀"
+    ],
+    "Portuguese (Brazilian)": [
+      "Fleumatador"
+    ]
+  },
+  "description_en": "A lazy katana Yo-kai who can drain all of your motivation. He's strangely sharp for being so lazy.",
+  "nom_en": "Minochi",
+  "rang_yww": "E",
+  "tribue_yww": "Isamashi",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "jus",
+  "nourriture_favorite": "jus",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {
+    "hp": 48,
+    "str": 28,
+    "spr": 3,
+    "def": 10,
+    "spd": 13
+  },
+  "stats_max_yww": {
+    "hp": 305,
+    "str": 212,
+    "spr": 30,
+    "def": 117,
+    "spd": 125
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "1つ星コイン",
+      "_en": "1 star coin",
+      "_fr": "Pièce d'une étoile"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "つばめがえし",
+        "_en": "Swallow replacement",
+        "_fr": "Remplacement de l'hirondelle"
+      },
+      "explication": {
+        "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+        "_en": "[Power: 25×2/Blow] Attack twice",
+        "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "つむじ風の術",
+        "_en": "Whirlwind technique",
+        "_fr": "Technique du tourbillon"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 風属性】 風の妖術を使う。",
+        "_en": "[Power: 40 / Wind attribute] Uses wind magic.",
+        "_fr": "[Puissance : 40 / Attribut Vent] Utilise la magie du vent."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "だらけチョップ",
+        "_en": "Darake Chop",
+        "_fr": "Côtelette Darake"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ふまじめにする",
+        "_en": "be serious",
+        "_fr": "sois sérieux"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 とりつかれた妖怪はまじめに戦う気がなくなりたまに行動しなくなる。",
+        "_en": "[Osabori] A possessed monster loses the will to fight seriously and sometimes stops acting.",
+        "_fr": "[Osabori] Un monstre possédé perd la volonté de se battre sérieusement et arrête parfois d'agir."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "西のほうからダラダラと やってきた だらけるのが 大好きな刀の妖怪。 やる気をうばう困ったやつだが 切れ味はなかなか。",
+      "_en": "A sword-wielding monster that likes to wander around from the west. It's a troublesome thing that takes away motivation, but it's quite sharp.",
+      "_fr": "Un monstre brandissant une épée qui adore traîner et venir paresseusement de l'ouest. C'est une chose gênante qui enlève la motivation, mais c'est assez aigu."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "11",
+  "Name_yww": "ダラケ刀",
+  "description_jp_yww": "西のほうからダラダラと やってきた　ダラけるのが なにより好きな　刀の妖怪。 人のやる気を奪う　困り者だが 切れ味は　なかなかである。",
+  "BingoMessage_jp_yww": "お前が　起こしてくれたとね？ お礼にともだちに　なってやるけん～",
+  "MonsterId_yww": "y106000",
+  "Height_yww": 5.0,
+  "CommondId_yww": "sp_106000",
+  "MinHp_yww": 48,
+  "MaxHp_yww": 305,
+  "MinAttack_yww": 28,
+  "MaxAttack_yww": 212,
+  "MinMagic_yww": 3,
+  "MaxMagic_yww": 30,
+  "MinDefense_yww": 10,
+  "MaxDefense_yww": 117,
+  "MinSpeed_yww": 13,
+  "MaxSpeed_yww": 125,
+  "AttackId_yww": 44,
+  "MagicId_yww": 16,
+  "HauntId_yww": 106000,
+  "SpSkillId_yww": 106000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 5,
+  "DislikeFoodKind_yww": 10,
+  "ActionType_yww": 4,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y101800.png",
+  "SpriteImage_yww": "img_y101800.png",
+  "Audio_yww": "sp_y101800.wav",
+  "Description_yww": "Un yōkai en forme de sabre qui est arrivé nonchalamment de l'ouest et qui adore par-dessus tout se prélasser. C'est un véritable casse-pieds qui sape la motivation des gens, mais son tranchant est tout de même remarquable.",
+  "BingoMessage_fr_yww": "C'est toi qui m'as réveillé, c'est ça ? Pour te remercier, je vais devenir ton ami~"
 }

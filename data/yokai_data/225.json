@@ -1,704 +1,735 @@
 {
-    "ID": "225",
-    "Nom": "Octorgone",
-    "Tribue": "Insaisissable",
-    "Rang": "S",
-    "PV": "378",
-    "Force": "207",
-    "Esprit": "52",
-    "Défense": "110",
-    "Vitesse": "230",
-    "Description": "Ce Yo-kai d'élite se bat avec une écharpe dragon et possède des capacités de haut niveau.",
-    "nourriture": "Fruits de Mer",
-    "élément": "Foudre",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Octorgone vient de Octo (huit) et de Gorgone (créature fabuleuse de type plutôt féminin parfois extrêmement puissante).",
-    "origine": "Voir Yamata no Orochi",
-    "histoire": "",
-    "pouvoir": "Armé de son écharpe et de ses poings, ses pouvoirs sont surpuissants ! Il a déjà réussi à battre Jiganyan et Komak, deux légendes vivantes.",
-    "personnalité": "Il est extrêmement rancunier et ne supporte pas plus d'une seconde une quelconque plaisanterie.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/octorgone.png",
-    "numero": "212",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Octocharge",
-            "effet": "La jauge d'âme se recharge plus vite."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Vilaine morsure",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Haute tension",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Octoreptile",
-            "effet": "Mord plusieurs fois ses ennemis avec son écharpe dragon. 25x10 | 25x10"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Aide d'Octorgone",
-            "effet": "Augmente la VIT. d'un allié sous la protection d'Octorgone."
-        }
+  "ID": "225",
+  "Nom": "Octorgone",
+  "Tribue": "Insaisissable",
+  "Rang": "S",
+  "PV": "378",
+  "Force": "207",
+  "Esprit": "52",
+  "Défense": "110",
+  "Vitesse": "230",
+  "Description": "Ce Yo-kai d'élite se bat avec une écharpe dragon et possède des capacités de haut niveau.",
+  "nourriture": "Fruits de Mer",
+  "élément": "Foudre",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Octorgone vient de Octo (huit) et de Gorgone (créature fabuleuse de type plutôt féminin parfois extrêmement puissante).",
+  "origine": "Voir Yamata no Orochi",
+  "histoire": "",
+  "pouvoir": "Armé de son écharpe et de ses poings, ses pouvoirs sont surpuissants ! Il a déjà réussi à battre Jiganyan et Komak, deux légendes vivantes.",
+  "personnalité": "Il est extrêmement rancunier et ne supporte pas plus d'une seconde une quelconque plaisanterie.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/octorgone.png",
+  "numero": "212",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Octocharge",
+      "effet": "La jauge d'âme se recharge plus vite."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Vilaine morsure",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Haute tension",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Octoreptile",
+      "effet": "Mord plusieurs fois ses ennemis avec son écharpe dragon. 25x10 | 25x10"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Aide d'Octorgone",
+      "effet": "Augmente la VIT. d'un allié sous la protection d'Octorgone."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Merci beaucoup...",
+    "Mange de la nourriture insipide": "...",
+    "Mange de la mauvaise nourriture": "Très mauvais.",
+    "A la flemme": "Nan.",
+    "Est échangé": "Pfff. J'imagine que cette ville fera l'affaire.",
+    "Devient ton ami": "Pfff... Allez, devenons amis."
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Octorgone",
+      "parent2": "Kyubi",
+      "resultat": "Oubi",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "オロチ",
+  "nom_anglais": "Venoct",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Yuko Sasamoto",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Au cours de l'histoire"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Merci beaucoup...",
-        "Mange de la nourriture insipide": "...",
-        "Mange de la mauvaise nourriture": "Très mauvais.",
-        "A la flemme": "Nan.",
-        "Est échangé": "Pfff. J'imagine que cette ville fera l'affaire.",
-        "Devient ton ami": "Pfff... Allez, devenons amis."
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Octorgone",
-            "parent2": "Kyubi",
-            "resultat": "Oubi",
-            "critere": "➨"
-        }
+    "yw2 - Esprits Farceurs": [
+      "Quête : Enma et le Serpent (déblocable dans la librairie après avoir fini le jeu et le yo-kai world)"
     ],
-    "image_locale": "",
-    "nom_original": "オロチ",
-    "nom_anglais": "Venoct",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Yuko Sasamoto",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Au cours de l'histoire"
-        ],
-        "yw2 - Esprits Farceurs": [
-            "Quête : Enma et le Serpent (déblocable dans la librairie après avoir fini le jeu et le yo-kai world)"
-        ],
-        "yw Blasters 1": [
-            "Mission - La Brigade de l'ombre",
-            "Bingo-kai- Pièce Octorgone"
-        ],
-        "yw3": [
-            "Quête : Adversaires de taille"
-        ],
-        "yw Wibble Wobble": [
-            "Bingo-kai"
-        ],
-        "yw4": [
-            "Histoire - Chapitre 10 : quête clé",
-            "Il est également trouvable dans le combat deBogosduTournoi Enma - Arène Oniet aussi dans la mission deBushinyan (Shadowside)dans le mode Blasters."
-        ]
-    },
-    "rarite": "EF icone",
-    "tribu_yw4": "Goriki",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Vilaine morsure",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Octoreptile",
-                "puissance": "20×10|20×10",
-                "description": "Mord plusieurs fois ses ennemis avec son écharpe dragon."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Aide d'Octorgone",
-                "puissance": "N/A",
-                "description": "Augmente la VIT. d'un allié sous la protection d'Octorgone."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Octocharge",
-                "description": "La jauge d'âme charge plus vite."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Vilaine morsure",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Octoreptile",
-                "puissance": "25×10|25×10",
-                "description": "Mord plusieurs fois ses ennemis avec son écharpe dragon."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Aide d'Octorgone",
-                "puissance": "N/A",
-                "description": "Augmente la VIT. d'un allié sous la protection d'Octorgone."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Octocharge",
-                "description": "La jauge d'âme se recharge plus vite."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Octoreptile",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Attaque précipitée",
-                "puissance": "80",
-                "description": "Attaque en faisant face à l'ennemi et fonce dessus."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Attaque de repli",
-                "puissance": "70",
-                "description": "Pendant l'attaque, recule et évite les coups ennemis."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Acte de disparition",
-                "puissance": "___",
-                "description": "Invisibilité temporaire."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Frappe puissante",
-                "description": "Toutes les attaques sont critiques si invisible pour les ennemis."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Vilaine morsure",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Octoreptile",
-                "puissance": "15×10|15×10",
-                "description": "Mord plusieurs fois les ennemis à portée avec son écharpe dragon."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Aide d'Octorgone",
-                "puissance": "N/A",
-                "description": "Augmente la VIT. d'un allié sous la protection d'Octorgone."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Octocharge",
-                "description": "La jauge d'âme se charge plus vite."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Octocharge",
-        "description": "La jauge d'âme charge plus vite."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/octorgone.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/octorgone.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/octorgone.wav",
-    "name_romaji_jp": "Orochi",
-    "oldID": "224",
-    "medallium_ids": {
-        "yw1": "212",
-        "yw2": "320",
-        "yw3": "570",
-        "yw4": "20 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "381",
-        "yw Blasters 2": "590",
-        "yw Wibble Wobble": "8035",
-        "Kunitori": "7033",
-        "yw World": "0181",
-        "Y-Gakuen": "081",
-        "yw Ukiukipedia": "yw3-029/YD1-048"
-    },
-    "battle_type": "",
-    "skill_name": "Venocharge",
-    "skill_effect": "Venoct's Blessing",
-    "disliked_food": "Juice",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "389",
-                "STR": "202",
-                "SPR": "172",
-                "DEF": "130",
-                "SPD": "214"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "388",
-                "STR": "202",
-                "SPR": "172",
-                "DEF": "130",
-                "SPD": "214"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "344",
-                "STR": "157",
-                "SPR": "116",
-                "DEF": "115",
-                "SPD": "235"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "343-602",
-                "STR": "157",
-                "SPR": "116"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "343-602"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "343-602"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "Y School Heroes: Bustlin' School Life": {
-            "stats": {
-                "HP": "343-602"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "343-602"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "オロチ",
-            "Orochi"
-        ],
-        "Spanish": [
-            "Venocto"
-        ],
-        "French": [
-            "Octorgone"
-        ],
-        "Italian": [
-            "Velenotto"
-        ],
-        "German": [
-            "Viptor"
-        ],
-        "Dutch": [
-            "Venoct"
-        ],
-        "Korean": [
-            "이무기",
-            "Imugi"
-        ],
-        "Russian": [
-            "Восьмияд",
-            "Vos'miyad"
-        ],
-        "Arabic": [
-            "هجام",
-            "Hajjām"
-        ],
-        "Chinese (Cantonese)": [
-            "大蛇"
-        ],
-        "Chinese (Mandarin)": [
-            "大蛇"
-        ],
-        "Portuguese (Brazilian)": [
-            "Venocto"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "オロチ"
-        ],
-        "Spanish": [
-            "Venocto"
-        ],
-        "French": [
-            "Octorgone"
-        ],
-        "Italian": [
-            "Velenotto"
-        ],
-        "German": [
-            "Viptor"
-        ],
-        "Dutch": [
-            "Venoct"
-        ],
-        "Korean": [
-            "이무기"
-        ],
-        "Russian": [
-            "Восьмияд"
-        ],
-        "Arabic": [
-            "هجام"
-        ],
-        "Chinese (Cantonese)": [
-            "大蛇"
-        ],
-        "Chinese (Mandarin)": [
-            "大蛇"
-        ],
-        "Portuguese (Brazilian)": [
-            "Venocto"
-        ]
-    },
-    "description_en": "An elite Yo-kai who fights with his dragon scarf. All of his abilities are truly first class.",
-    "nom_en": "Copperled",
-    "rang_yww": "S",
-    "tribue_yww": "Nyororon",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "fruit de mer",
-    "nourriture_favorite": "fruit de mer",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 49,
-        "str": 31,
-        "spr": 9,
-        "def": 16,
-        "spd": 37
-    },
-    "stats_max_yww": {
-        "hp": 378,
-        "str": 207,
-        "spr": 52,
-        "def": 110,
-        "spd": 230
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "お祭りコイン",
-            "_en": "festival coins",
-            "_fr": "pièces de monnaie du festival"
-        },
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw Blasters 1": [
+      "Mission - La Brigade de l'ombre",
+      "Bingo-kai- Pièce Octorgone"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "かみちぎる",
-                "_en": "Kamichigiru",
-                "_fr": "Kamichigiru"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 打撃】 強力な一撃を加える",
-                "_en": "[Power: 70/Blow] Add a powerful blow",
-                "_fr": "[Puissance : 70/Coup] Ajoutez un coup puissant"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "雷神の術",
-                "_en": "Raijin no Jutsu",
-                "_fr": "Raijin no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
-                "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
-                "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
-            }
-        }
+    "yw3": [
+      "Quête : Adversaires de taille"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "やまたのおろち",
-                "_en": "Yamata no Orochi",
-                "_fr": "Yamata no Orochi"
-            },
-            "pouvoir": "15×1",
-            "explication": {
-                "_jp": "敵全体をこうげきする",
-                "_en": "Kill all enemies",
-                "_fr": "Tuez tous les ennemis"
-            }
-        }
+    "yw Wibble Wobble": [
+      "Bingo-kai"
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "オロチの加護",
-                "_en": "Orochi's protection",
-                "_fr": "La protection d'Orochi"
-            },
-            "explication": {
-                "_jp": "【すばやさアップ】 オロチの加護で すばやさがアップ",
-                "_en": "[Increased speed] Increased speed with Orochi's protection",
-                "_fr": "[Vitesse augmentée] Vitesse augmentée avec la protection d'Orochi"
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "自分のオーラで作り出した 龍のマフラーを使って戦う 妖怪ワールドのエリート妖怪。 その実力は すべてにおいて トップクラス。",
-            "_en": "An elite Yokai from Yokai World who fights using a dragon muffler created with his own aura. His ability is top class in all aspects.",
-            "_fr": "Un Yokai d'élite de Yokai World qui se bat en utilisant un silencieux de dragon créé avec sa propre aura. Ses capacités sont de première classe à tous égards."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw4": [
+      "Histoire - Chapitre 10 : quête clé",
+      "Il est également trouvable dans le combat deBogosduTournoi Enma - Arène Oniet aussi dans la mission deBushinyan (Shadowside)dans le mode Blasters."
     ]
+  },
+  "rarite": "EF icone",
+  "tribu_yw4": "Goriki",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Vilaine morsure",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Haute tension",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Octoreptile",
+        "puissance": "20×10|20×10",
+        "description": "Mord plusieurs fois ses ennemis avec son écharpe dragon."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Aide d'Octorgone",
+        "puissance": "N/A",
+        "description": "Augmente la VIT. d'un allié sous la protection d'Octorgone."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Octocharge",
+        "description": "La jauge d'âme charge plus vite."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Vilaine morsure",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Haute tension",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Octoreptile",
+        "puissance": "25×10|25×10",
+        "description": "Mord plusieurs fois ses ennemis avec son écharpe dragon."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Aide d'Octorgone",
+        "puissance": "N/A",
+        "description": "Augmente la VIT. d'un allié sous la protection d'Octorgone."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Octocharge",
+        "description": "La jauge d'âme se recharge plus vite."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Octoreptile",
+        "puissance": "40×10",
+        "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Attaque précipitée",
+        "puissance": "80",
+        "description": "Attaque en faisant face à l'ennemi et fonce dessus."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Attaque de repli",
+        "puissance": "70",
+        "description": "Pendant l'attaque, recule et évite les coups ennemis."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Acte de disparition",
+        "puissance": "___",
+        "description": "Invisibilité temporaire."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Frappe puissante",
+        "description": "Toutes les attaques sont critiques si invisible pour les ennemis."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Vilaine morsure",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Haute tension",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Octoreptile",
+        "puissance": "15×10|15×10",
+        "description": "Mord plusieurs fois les ennemis à portée avec son écharpe dragon."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Aide d'Octorgone",
+        "puissance": "N/A",
+        "description": "Augmente la VIT. d'un allié sous la protection d'Octorgone."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Octocharge",
+        "description": "La jauge d'âme se charge plus vite."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Octocharge",
+    "description": "La jauge d'âme charge plus vite."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/octorgone.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/octorgone.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/octorgone.wav",
+  "name_romaji_jp": "Orochi",
+  "oldID": "224",
+  "medallium_ids": {
+    "yw1": "212",
+    "yw2": "320",
+    "yw3": "570",
+    "yw4": "20 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "381",
+    "yw Blasters 2": "590",
+    "yw Wibble Wobble": "8035",
+    "Kunitori": "7033",
+    "yw World": "0181",
+    "Y-Gakuen": "081",
+    "yw Ukiukipedia": "yw3-029/YD1-048"
+  },
+  "battle_type": "",
+  "skill_name": "Venocharge",
+  "skill_effect": "Venoct's Blessing",
+  "disliked_food": "Juice",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "389",
+        "STR": "202",
+        "SPR": "172",
+        "DEF": "130",
+        "SPD": "214"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "388",
+        "STR": "202",
+        "SPR": "172",
+        "DEF": "130",
+        "SPD": "214"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "344",
+        "STR": "157",
+        "SPR": "116",
+        "DEF": "115",
+        "SPD": "235"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "343-602",
+        "STR": "157",
+        "SPR": "116"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "343-602"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "343-602"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "Y School Heroes: Bustlin' School Life": {
+      "stats": {
+        "HP": "343-602"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "343-602"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "オロチ",
+      "Orochi"
+    ],
+    "Spanish": [
+      "Venocto"
+    ],
+    "French": [
+      "Octorgone"
+    ],
+    "Italian": [
+      "Velenotto"
+    ],
+    "German": [
+      "Viptor"
+    ],
+    "Dutch": [
+      "Venoct"
+    ],
+    "Korean": [
+      "이무기",
+      "Imugi"
+    ],
+    "Russian": [
+      "Восьмияд",
+      "Vos'miyad"
+    ],
+    "Arabic": [
+      "هجام",
+      "Hajjām"
+    ],
+    "Chinese (Cantonese)": [
+      "大蛇"
+    ],
+    "Chinese (Mandarin)": [
+      "大蛇"
+    ],
+    "Portuguese (Brazilian)": [
+      "Venocto"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "オロチ"
+    ],
+    "Spanish": [
+      "Venocto"
+    ],
+    "French": [
+      "Octorgone"
+    ],
+    "Italian": [
+      "Velenotto"
+    ],
+    "German": [
+      "Viptor"
+    ],
+    "Dutch": [
+      "Venoct"
+    ],
+    "Korean": [
+      "이무기"
+    ],
+    "Russian": [
+      "Восьмияд"
+    ],
+    "Arabic": [
+      "هجام"
+    ],
+    "Chinese (Cantonese)": [
+      "大蛇"
+    ],
+    "Chinese (Mandarin)": [
+      "大蛇"
+    ],
+    "Portuguese (Brazilian)": [
+      "Venocto"
+    ]
+  },
+  "description_en": "An elite Yo-kai who fights with his dragon scarf. All of his abilities are truly first class.",
+  "nom_en": "Copperled",
+  "rang_yww": "S",
+  "tribue_yww": "Nyororon",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "fruit de mer",
+  "nourriture_favorite": "fruit de mer",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 49,
+    "str": 31,
+    "spr": 9,
+    "def": 16,
+    "spd": 37
+  },
+  "stats_max_yww": {
+    "hp": 378,
+    "str": 207,
+    "spr": 52,
+    "def": 110,
+    "spd": 230
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "お祭りコイン",
+      "_en": "festival coins",
+      "_fr": "pièces de monnaie du festival"
+    },
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "ホワイトデー妖怪ガシャ",
+      "_en": "White Day Yokai Gasha",
+      "_fr": "Jour blanc Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    },
+    {
+      "_jp": "春一番妖怪ガシャ",
+      "_en": "Spring Ichiban Yokai Gasha",
+      "_fr": "Printemps Ichiban Yokai Gasha"
+    },
+    {
+      "_jp": "桜花ランラン妖怪ガシャ",
+      "_en": "Sakura Ranran Yokai Gasha",
+      "_fr": "Sakura Ranran Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "電車でお出かけ妖怪ガシャ",
+      "_en": "Going out by train Yokai Gasha",
+      "_fr": "Sortir en train Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "GW妖怪バトルリーグガシャ",
+      "_en": "GW Yokai Battle League Gasha",
+      "_fr": "GW Yokai Battle League Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "かみちぎる",
+        "_en": "Kamichigiru",
+        "_fr": "Kamichigiru"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 打撃】 強力な一撃を加える",
+        "_en": "[Power: 70/Blow] Add a powerful blow",
+        "_fr": "[Puissance : 70/Coup] Ajoutez un coup puissant"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "雷神の術",
+        "_en": "Raijin no Jutsu",
+        "_fr": "Raijin no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
+        "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
+        "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "やまたのおろち",
+        "_en": "Yamata no Orochi",
+        "_fr": "Yamata no Orochi"
+      },
+      "pouvoir": "15×1",
+      "explication": {
+        "_jp": "敵全体をこうげきする",
+        "_en": "Kill all enemies",
+        "_fr": "Tuez tous les ennemis"
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "オロチの加護",
+        "_en": "Orochi's protection",
+        "_fr": "La protection d'Orochi"
+      },
+      "explication": {
+        "_jp": "【すばやさアップ】 オロチの加護で すばやさがアップ",
+        "_en": "[Increased speed] Increased speed with Orochi's protection",
+        "_fr": "[Vitesse augmentée] Vitesse augmentée avec la protection d'Orochi"
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "自分のオーラで作り出した 龍のマフラーを使って戦う 妖怪ワールドのエリート妖怪。 その実力は すべてにおいて トップクラス。",
+      "_en": "An elite Yokai from Yokai World who fights using a dragon muffler created with his own aura. His ability is top class in all aspects.",
+      "_fr": "Un Yokai d'élite de Yokai World qui se bat en utilisant un silencieux de dragon créé avec sa propre aura. Ses capacités sont de première classe à tous égards."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "225",
+  "Name_yww": "オロチ",
+  "description_jp_yww": "自分のオーラで作り出した 龍のマフラーを使って戦う 妖怪ワールドのエリート妖怪。 その実力は　すべてにおいて トップクラス。",
+  "BingoMessage_jp_yww": "私が　こんなやつに救われるなんてな… お前を認めよう…",
+  "MonsterId_yww": "y221000",
+  "Height_yww": 15.0,
+  "CommondId_yww": "sp_221000",
+  "MinHp_yww": 49,
+  "MaxHp_yww": 378,
+  "MinAttack_yww": 31,
+  "MaxAttack_yww": 207,
+  "MinMagic_yww": 9,
+  "MaxMagic_yww": 52,
+  "MinDefense_yww": 16,
+  "MaxDefense_yww": 110,
+  "MinSpeed_yww": 37,
+  "MaxSpeed_yww": 230,
+  "AttackId_yww": 18,
+  "MagicId_yww": 9,
+  "HauntId_yww": 221000,
+  "SpSkillId_yww": 221000,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 12,
+  "DislikeFoodKind_yww": 5,
+  "ActionType_yww": 5,
+  "TribeType_yww": 8,
+  "MedallionImage_yww": "y216800.png",
+  "SpriteImage_yww": "img_y216800.png",
+  "Audio_yww": "sp_y216800.wav",
+  "Description_yww": "Un yōkai d'élite du monde des yōkai qui combat à l'aide d'une écharpe en forme de dragon qu'il a créée grâce à son aura. Ses capacités sont de premier ordre dans tous les domaines.",
+  "BingoMessage_fr_yww": "Je n'aurais jamais cru qu'un type comme ça me sauverait… Je vais te reconnaître…"
 }

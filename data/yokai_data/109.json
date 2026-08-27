@@ -1,613 +1,644 @@
 {
-    "ID": "109",
-    "Nom": "Komasan",
-    "Tribue": "Mignon",
-    "Rang": "D",
-    "PV": "343",
-    "Force": "40",
-    "Esprit": "190",
-    "Défense": "102",
-    "Vitesse": "160",
-    "Description": "Komasan est un gardien chien-lion qui s'est lassé du temple qu'il protégeait. Il en cherche un nouveau maintenant.",
-    "description SITE": "Komasan est un gardien chien-lion qui s’est lassé du temple qu’il protégeait. Il en cherche un nouveau maintenant.",
-    "nourriture": "Lait",
-    "élément": "Feu",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Komasanvient deKomainu, une paire de chien-lion qui garde l'entrée des temples japonais et de San, suffixe japonais.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Komasan peut invoquer des feux follets pour attaquer ses adversaires et grâce à une feuille de Tanuki, il peut devenir un humain.",
-    "personnalité": "Komasan est un Yo-kai timide mais curieux qui aime découvrir de nouvelles choses. Il a été gardien d'un sanctuaire pendant des siècles, jusqu'à sa démolition, le laissant errer dans la ville et s'habituer à la vie moderne. Dans certains des jeux vidéo, il est décrit comme étant initialement timide et lâche, un point qui lui vaut la moquerie du gardien deGranval,Kyubi.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/komasan.png",
-    "numero": "099",
-    "nourriture_favorite": "Glace",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Alpha",
-            "effet": "L'ESP. augmente à côté d'un Yo-kai oméga."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coup de poing",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Incendie",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Valse des esprits",
-            "effet": "Invoque des feux follets pour attaquer l'ennemi. 100 | 100"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Brûlure",
-            "effet": "Harasse l'ennemi à coup de flammes et aspire graduellement ses PV."
-        }
+  "ID": "109",
+  "Nom": "Komasan",
+  "Tribue": "Mignon",
+  "Rang": "D",
+  "PV": "343",
+  "Force": "40",
+  "Esprit": "190",
+  "Défense": "102",
+  "Vitesse": "160",
+  "Description": "Komasan est un gardien chien-lion qui s'est lassé du temple qu'il protégeait. Il en cherche un nouveau maintenant.",
+  "description SITE": "Komasan est un gardien chien-lion qui s’est lassé du temple qu’il protégeait. Il en cherche un nouveau maintenant.",
+  "nourriture": "Lait",
+  "élément": "Feu",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Komasanvient deKomainu, une paire de chien-lion qui garde l'entrée des temples japonais et de San, suffixe japonais.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Komasan peut invoquer des feux follets pour attaquer ses adversaires et grâce à une feuille de Tanuki, il peut devenir un humain.",
+  "personnalité": "Komasan est un Yo-kai timide mais curieux qui aime découvrir de nouvelles choses. Il a été gardien d'un sanctuaire pendant des siècles, jusqu'à sa démolition, le laissant errer dans la ville et s'habituer à la vie moderne. Dans certains des jeux vidéo, il est décrit comme étant initialement timide et lâche, un point qui lui vaut la moquerie du gardien deGranval,Kyubi.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/komasan.png",
+  "numero": "099",
+  "nourriture_favorite": "Glace",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Alpha",
+      "effet": "L'ESP. augmente à côté d'un Yo-kai oméga."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coup de poing",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Incendie",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Valse des esprits",
+      "effet": "Invoque des feux follets pour attaquer l'ennemi. 100 | 100"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Brûlure",
+      "effet": "Harasse l'ennemi à coup de flammes et aspire graduellement ses PV."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est tourneboulant !",
+    "Mange de la nourriture insipide": "J'ai connu mieux.",
+    "Mange de la mauvaise nourriture": "Dégoûtant !",
+    "A la flemme": "J'ai peur...",
+    "Est échangé": "Dis, tu m'hébergerais quelques temps ? J'habitais chez",
+    "Devient ton ami": "Quelle force... Je veux faire partie de ton équipe !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "yw1",
+      "de": "Komasan",
+      "vers": "Komaous",
+      "critere": "Niveau 35"
+    },
+    {
+      "type": "Évolution",
+      "contexte": "yw2",
+      "de": "Komasan",
+      "vers": "Komaous",
+      "critere": "Niveau 25"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "コマさん",
+  "nom_anglais": "Komasan",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Aya Endou",
+    "francaise": "Fanny Bloc",
+    "anglaise": "English VA Melissa Hutchinson"
+  },
+  "localisations": {
+    "yw1": [
+      "Histoire -Chapitre 7",
+      "Limbes éternelles– 1er cercle",
+      "Limbes éternelles – 2e cercle"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est tourneboulant !",
-        "Mange de la nourriture insipide": "J'ai connu mieux.",
-        "Mange de la mauvaise nourriture": "Dégoûtant !",
-        "A la flemme": "J'ai peur...",
-        "Est échangé": "Dis, tu m'hébergerais quelques temps ? J'habitais chez",
-        "Devient ton ami": "Quelle force... Je veux faire partie de ton équipe !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "yw1",
-            "de": "Komasan",
-            "vers": "Komaous",
-            "critere": "Niveau 35"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "yw2",
-            "de": "Komasan",
-            "vers": "Komaous",
-            "critere": "Niveau 25"
-        }
+    "yw2": [
+      "Bingo-kai–Super pile ou passe"
     ],
-    "image_locale": "",
-    "nom_original": "コマさん",
-    "nom_anglais": "Komasan",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Aya Endou",
-        "francaise": "Fanny Bloc",
-        "anglaise": "English VA Melissa Hutchinson"
-    },
-    "localisations": {
-        "yw1": [
-            "Histoire -Chapitre 7",
-            "Limbes éternelles– 1er cercle",
-            "Limbes éternelles – 2e cercle"
-        ],
-        "yw2": [
-            "Bingo-kai–Super pile ou passe"
-        ],
-        "yw Blasters 1": [
-            "Histoire",
-            "Bingo-kai-Pièce Komasan"
-        ],
-        "yw3": [
-            "Histoire - Chapitre 6"
-        ],
-        "yw Wibble Wobble": [
-            "Faubourg de Granval - Stage Caché 1 (Finir le stage 9 avecJibanyanpour le débloquer)"
-        ],
-        "yw4": [
-            "Histoire - Chapitre 5 (quête clé)"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "Omamori",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de poing",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Valse des esprits",
-                "puissance": "90|90",
-                "description": "Invoque des feux follets pour attaquer l'ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Brûlure",
-                "puissance": "N/A",
-                "description": "Brûle un ennemi d'un feu déchaîné qui réduit régulièrement ses PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Alpha",
-                "description": "L'ESP. augmente à côté d'un Yo-kai oméga."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de poing",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Valse des esprits",
-                "puissance": "100|100",
-                "description": "Invoque des feux follets pour attaquer l'ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Brûlure",
-                "puissance": "N/A",
-                "description": "Brûle un ennemi d'un feu déchaîné qui réduit graduellement ses PV."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Incendie",
-                "puissance": "N/A",
-                "description": "Un sort de feu brûle les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Alpha",
-                "description": "L'ESP. augmente à côté d'un Yo-kai oméga."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Valse des esprits",
-                "puissance": "67×6",
-                "description": "Une flamme bleue qui inflige de gros dégâts."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Feu",
-                "puissance": "40",
-                "description": "Utilise un sort de feu. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Incendie",
-                "puissance": "50",
-                "description": "Un sort de feu puissant. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Tourneboulant!",
-                "description": "Toutes les stats renforcées en cas de danger."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de poing",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Valse des esprits",
-                "puissance": "100|300",
-                "description": "Invoque des feux follets pour attaquer les ennemis à portée."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Brûlure",
-                "puissance": "N/A",
-                "description": "Attaque l'ennemi à coup de flammes pour diminuer ses PV."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Attaque trois fois. Le coup ultime est plus puissant."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Valse des esprits",
-                "puissance": "66×6",
-                "description": "Flammes bleues brûlant les ennemis. Dégâts élevés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Feu",
-                "puissance": "40",
-                "description": "Technique de feu+. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. PV rendus + si chargé."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Alpha",
-                "description": "Augmente l'ESP. quand relié au talent «Oméga»."
-            }
-        ]
-    },
-    "soul_effects": {
-        "yw2": "VIT+ 20",
-        "yw Blasters 1": "Faible hausse de toutes les stats en cas de danger.",
-        "yw3": "La jauge d'âme du lanceur se charge plus vite."
-    },
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Amulette antifeu"
-            },
-            {
-                "taux": "?%",
-                "objet": "Thé de l'âme"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Badge mignon"
-            },
-            {
-                "taux": "?%",
-                "objet": "Thé de l'âme"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Glace (nourriture)"
-            },
-            {
-                "taux": "?%",
-                "objet": "Lait"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Alpha",
-        "description": "L'ESP. augmente à côté d'un Yo-kai oméga."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/komasan.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/komasan.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/komasan.wav",
-    "name_romaji_jp": "Komasan",
-    "oldID": "109",
-    "medallium_ids": {
-        "yw1": "099",
-        "yw2": "142",
-        "yw3": "251",
-        "yw4": "34 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "179",
-        "yw Blasters 2": "256",
-        "yw Wibble Wobble": "4016",
-        "Kunitori": "3049",
-        "yw World": "0084",
-        "Y-Gakuen": "085",
-        "yw Ukiukipedia": "yw1-028/YD1-022"
-    },
-    "battle_type": "Rare",
-    "skill_name": "Alpha",
-    "skill_effect": "Burn",
-    "disliked_food": "Juice",
-    "global_stats": {
-        "yw3": {
-            "stats": {
-                "HP": "153",
-                "STR": "49",
-                "SPR": "66",
-                "DEF": "107",
-                "SPD": "165"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "200-380",
-                "STR": "49",
-                "SPR": "66"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "200-380"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "Y School Heroes: Bustlin' School Life": {
-            "stats": {
-                "HP": "200-380"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "コマさん",
-            "Koma-san"
-        ],
-        "Spanish": [
-            "Komasán"
-        ],
-        "French": [
-            "Komasan"
-        ],
-        "Italian": [
-            "Komasan"
-        ],
-        "German": [
-            "Komasan"
-        ],
-        "Dutch": [
-            "Komasan"
-        ],
-        "Korean": [
-            "백멍이",
-            "Baengmeongi"
-        ],
-        "Russian": [
-            "Комасан",
-            "Komasan"
-        ],
-        "Arabic": [
-            "كوماسان",
-            "Kūmāsān"
-        ],
-        "Chinese (Cantonese)": [
-            "哥瑪先生",
-            "Gēmǎ"
-        ],
-        "Chinese (Mandarin)": [
-            "小石獅",
-            "Xiǎoshíshī",
-            "小狛",
-            "Xiǎobó"
-        ],
-        "Portuguese (European)": [
-            "Komasan"
-        ],
-        "Portuguese (Brazilian)": [
-            "Komasan"
-        ],
-        "Thai": [
-            "โคมะซัง",
-            "Koo-má-sang"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "コマさん"
-        ],
-        "Spanish": [
-            "Komasán"
-        ],
-        "French": [
-            "Komasan"
-        ],
-        "Italian": [
-            "Komasan"
-        ],
-        "German": [
-            "Komasan"
-        ],
-        "Dutch": [
-            "Komasan"
-        ],
-        "Korean": [
-            "백멍이"
-        ],
-        "Russian": [
-            "Комасан"
-        ],
-        "Arabic": [
-            "كوماسان"
-        ],
-        "Chinese (Cantonese)": [
-            "哥瑪先生"
-        ],
-        "Chinese (Mandarin)": [
-            "小石獅小狛"
-        ],
-        "Portuguese (European)": [
-            "Komasan"
-        ],
-        "Portuguese (Brazilian)": [
-            "Komasan"
-        ],
-        "Thai": [
-            "โคมะซัง"
-        ]
-    },
-    "description_en": "Komasan is a guardian lion-dog who got bored with guarding his shrine. Now he's looking for a new one.",
-    "nom_en": "Appak",
-    "rang_yww": "D",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "crème douce",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 41,
-        "str": 4,
-        "spr": 26,
-        "def": 9,
-        "spd": 21
-    },
-    "stats_max_yww": {
-        "hp": 343,
-        "str": 40,
-        "spr": 190,
-        "def": 102,
-        "spd": 160
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "スプリングコイン",
-            "_en": "spring coin",
-            "_fr": "pièce de printemps"
-        }
+    "yw Blasters 1": [
+      "Histoire",
+      "Bingo-kai-Pièce Komasan"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "パンチ",
-                "_en": "punch",
-                "_fr": "punch"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "火炎の術",
-                "_en": "flame technique",
-                "_fr": "technique de la flamme"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
-                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
-                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
-            }
-        }
+    "yw3": [
+      "Histoire - Chapitre 6"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ひとだま乱舞",
-                "_en": "Hitodama Ranbu",
-                "_fr": "Hitodama Ranbu"
-            },
-            "pouvoir": "100",
-            "explication": {
-                "_jp": "呼び寄せたひとだまを飛び交わせ敵全員にダメージを与える",
-                "_en": "Fly the summoned balls and deal damage to all enemies.",
-                "_fr": "Faites voler les balles invoquées et infligez des dégâts à tous les ennemis."
-            }
-        }
+    "yw Wibble Wobble": [
+      "Faubourg de Granval - Stage Caché 1 (Finir le stage 9 avecJibanyanpour le débloquer)"
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "やけどさせる",
-                "_en": "burn",
-                "_fr": "brûler"
-            },
-            "explication": {
-                "_jp": "【HP減少】 やけどしてHPをが少しずつ減っていく",
-                "_en": "[HP decrease] HP gradually decreases due to burns",
-                "_fr": "[Diminution des HP] Les HP diminuent progressivement à cause des brûlures"
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "田舎の神社を出て さくらニュータウンに やってきたコマイヌの妖怪。 都会のすごさに いつも 「もんげ～！」と驚いている。",
-            "_en": "A Komainu monster leaves a shrine in the countryside and comes to Sakura New Town. I'm always amazed at how amazing the city is.",
-            "_fr": "Un monstre Komainu quitte un sanctuaire dans la campagne et arrive dans la nouvelle ville de Sakura. Je suis toujours étonné de voir à quel point la ville est incroyable."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw4": [
+      "Histoire - Chapitre 5 (quête clé)"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "Omamori",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de poing",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Incendie",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Valse des esprits",
+        "puissance": "90|90",
+        "description": "Invoque des feux follets pour attaquer l'ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Brûlure",
+        "puissance": "N/A",
+        "description": "Brûle un ennemi d'un feu déchaîné qui réduit régulièrement ses PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Alpha",
+        "description": "L'ESP. augmente à côté d'un Yo-kai oméga."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de poing",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Incendie",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Valse des esprits",
+        "puissance": "100|100",
+        "description": "Invoque des feux follets pour attaquer l'ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Brûlure",
+        "puissance": "N/A",
+        "description": "Brûle un ennemi d'un feu déchaîné qui réduit graduellement ses PV."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Incendie",
+        "puissance": "N/A",
+        "description": "Un sort de feu brûle les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Alpha",
+        "description": "L'ESP. augmente à côté d'un Yo-kai oméga."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Valse des esprits",
+        "puissance": "67×6",
+        "description": "Une flamme bleue qui inflige de gros dégâts."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Feu",
+        "puissance": "40",
+        "description": "Utilise un sort de feu. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Incendie",
+        "puissance": "50",
+        "description": "Un sort de feu puissant. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Tourneboulant!",
+        "description": "Toutes les stats renforcées en cas de danger."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de poing",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Incendie",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Valse des esprits",
+        "puissance": "100|300",
+        "description": "Invoque des feux follets pour attaquer les ennemis à portée."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Brûlure",
+        "puissance": "N/A",
+        "description": "Attaque l'ennemi à coup de flammes pour diminuer ses PV."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Attaque trois fois. Le coup ultime est plus puissant."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Valse des esprits",
+        "puissance": "66×6",
+        "description": "Flammes bleues brûlant les ennemis. Dégâts élevés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Feu",
+        "puissance": "40",
+        "description": "Technique de feu+. Plus de dégâts si chargée."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. PV rendus + si chargé."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Alpha",
+        "description": "Augmente l'ESP. quand relié au talent «Oméga»."
+      }
+    ]
+  },
+  "soul_effects": {
+    "yw2": "VIT+ 20",
+    "yw Blasters 1": "Faible hausse de toutes les stats en cas de danger.",
+    "yw3": "La jauge d'âme du lanceur se charge plus vite."
+  },
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Amulette antifeu"
+      },
+      {
+        "taux": "?%",
+        "objet": "Thé de l'âme"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Badge mignon"
+      },
+      {
+        "taux": "?%",
+        "objet": "Thé de l'âme"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Glace (nourriture)"
+      },
+      {
+        "taux": "?%",
+        "objet": "Lait"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Alpha",
+    "description": "L'ESP. augmente à côté d'un Yo-kai oméga."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/komasan.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/komasan.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/komasan.wav",
+  "name_romaji_jp": "Komasan",
+  "oldID": "109",
+  "medallium_ids": {
+    "yw1": "099",
+    "yw2": "142",
+    "yw3": "251",
+    "yw4": "34 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "179",
+    "yw Blasters 2": "256",
+    "yw Wibble Wobble": "4016",
+    "Kunitori": "3049",
+    "yw World": "0084",
+    "Y-Gakuen": "085",
+    "yw Ukiukipedia": "yw1-028/YD1-022"
+  },
+  "battle_type": "Rare",
+  "skill_name": "Alpha",
+  "skill_effect": "Burn",
+  "disliked_food": "Juice",
+  "global_stats": {
+    "yw3": {
+      "stats": {
+        "HP": "153",
+        "STR": "49",
+        "SPR": "66",
+        "DEF": "107",
+        "SPD": "165"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "200-380",
+        "STR": "49",
+        "SPR": "66"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "200-380"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "Y School Heroes: Bustlin' School Life": {
+      "stats": {
+        "HP": "200-380"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "コマさん",
+      "Koma-san"
+    ],
+    "Spanish": [
+      "Komasán"
+    ],
+    "French": [
+      "Komasan"
+    ],
+    "Italian": [
+      "Komasan"
+    ],
+    "German": [
+      "Komasan"
+    ],
+    "Dutch": [
+      "Komasan"
+    ],
+    "Korean": [
+      "백멍이",
+      "Baengmeongi"
+    ],
+    "Russian": [
+      "Комасан",
+      "Komasan"
+    ],
+    "Arabic": [
+      "كوماسان",
+      "Kūmāsān"
+    ],
+    "Chinese (Cantonese)": [
+      "哥瑪先生",
+      "Gēmǎ"
+    ],
+    "Chinese (Mandarin)": [
+      "小石獅",
+      "Xiǎoshíshī",
+      "小狛",
+      "Xiǎobó"
+    ],
+    "Portuguese (European)": [
+      "Komasan"
+    ],
+    "Portuguese (Brazilian)": [
+      "Komasan"
+    ],
+    "Thai": [
+      "โคมะซัง",
+      "Koo-má-sang"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "コマさん"
+    ],
+    "Spanish": [
+      "Komasán"
+    ],
+    "French": [
+      "Komasan"
+    ],
+    "Italian": [
+      "Komasan"
+    ],
+    "German": [
+      "Komasan"
+    ],
+    "Dutch": [
+      "Komasan"
+    ],
+    "Korean": [
+      "백멍이"
+    ],
+    "Russian": [
+      "Комасан"
+    ],
+    "Arabic": [
+      "كوماسان"
+    ],
+    "Chinese (Cantonese)": [
+      "哥瑪先生"
+    ],
+    "Chinese (Mandarin)": [
+      "小石獅小狛"
+    ],
+    "Portuguese (European)": [
+      "Komasan"
+    ],
+    "Portuguese (Brazilian)": [
+      "Komasan"
+    ],
+    "Thai": [
+      "โคมะซัง"
+    ]
+  },
+  "description_en": "Komasan is a guardian lion-dog who got bored with guarding his shrine. Now he's looking for a new one.",
+  "nom_en": "Appak",
+  "rang_yww": "D",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "crème douce",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 41,
+    "str": 4,
+    "spr": 26,
+    "def": 9,
+    "spd": 21
+  },
+  "stats_max_yww": {
+    "hp": 343,
+    "str": 40,
+    "spr": 190,
+    "def": 102,
+    "spd": 160
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "スプリングコイン",
+      "_en": "spring coin",
+      "_fr": "pièce de printemps"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "パンチ",
+        "_en": "punch",
+        "_fr": "punch"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "火炎の術",
+        "_en": "flame technique",
+        "_fr": "technique de la flamme"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
+        "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
+        "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ひとだま乱舞",
+        "_en": "Hitodama Ranbu",
+        "_fr": "Hitodama Ranbu"
+      },
+      "pouvoir": "100",
+      "explication": {
+        "_jp": "呼び寄せたひとだまを飛び交わせ敵全員にダメージを与える",
+        "_en": "Fly the summoned balls and deal damage to all enemies.",
+        "_fr": "Faites voler les balles invoquées et infligez des dégâts à tous les ennemis."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "やけどさせる",
+        "_en": "burn",
+        "_fr": "brûler"
+      },
+      "explication": {
+        "_jp": "【HP減少】 やけどしてHPをが少しずつ減っていく",
+        "_en": "[HP decrease] HP gradually decreases due to burns",
+        "_fr": "[Diminution des HP] Les HP diminuent progressivement à cause des brûlures"
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "田舎の神社を出て さくらニュータウンに やってきたコマイヌの妖怪。 都会のすごさに いつも 「もんげ～！」と驚いている。",
+      "_en": "A Komainu monster leaves a shrine in the countryside and comes to Sakura New Town. I'm always amazed at how amazing the city is.",
+      "_fr": "Un monstre Komainu quitte un sanctuaire dans la campagne et arrive dans la nouvelle ville de Sakura. Je suis toujours étonné de voir à quel point la ville est incroyable."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "109",
+  "Name_yww": "コマさん",
+  "description_jp_yww": "田舎の神社を出て さくらニュータウンに やってきたコマイヌの妖怪。 都会のすごさに　いつも 「もんげ～！」と驚いている。",
+  "BingoMessage_jp_yww": "もんげぇーーーーっ！ 助かったズラ！",
+  "MonsterId_yww": "y159000",
+  "Height_yww": 7.0,
+  "CommondId_yww": "sp_159000",
+  "MinHp_yww": 41,
+  "MaxHp_yww": 343,
+  "MinAttack_yww": 4,
+  "MaxAttack_yww": 40,
+  "MinMagic_yww": 26,
+  "MaxMagic_yww": 190,
+  "MinDefense_yww": 9,
+  "MaxDefense_yww": 102,
+  "MinSpeed_yww": 21,
+  "MaxSpeed_yww": 160,
+  "AttackId_yww": 1,
+  "MagicId_yww": 2,
+  "HauntId_yww": 159000,
+  "SpSkillId_yww": 159000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 19,
+  "DislikeFoodKind_yww": 5,
+  "ActionType_yww": 9,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y154800.png",
+  "SpriteImage_yww": "img_y154800.png",
+  "Audio_yww": "sp_y154800.wav",
+  "Description_yww": "En sortant d'un sanctuaire de campagne, le yōkai Komainu est arrivé à Sakura New Town. Face à l'ampleur de la ville, il s'exclame toujours « Monge~ ! » avec étonnement.",
+  "BingoMessage_fr_yww": "Putain de merde ! Je m'en suis sorti !"
 }

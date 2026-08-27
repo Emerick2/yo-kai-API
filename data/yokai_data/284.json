@@ -1,449 +1,480 @@
 {
-    "ID": "284",
-    "Nom": "Papilla",
-    "Tribue": "Bienveillant",
-    "Rang": "E",
-    "PV": "291",
-    "Force": "45",
-    "Esprit": "171",
-    "Défense": "83",
-    "Vitesse": "176",
-    "Description": "Elle guérit d'un coup de langue toutes les blessures. Elle peut même rapprocher les gens !",
-    "nourriture": "Légume",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Papilla a le pouvoir de soigner les gens avec sa langue.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/papilla.png",
-    "numero": "170",
-    "nourriture_favorite": "Légume",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Pure lèche",
-            "effet": "Le Yo-kai sera purifié s'il soigne des alliés."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Slurp",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Guérison",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Langue d'amour",
-            "effet": "Lèche ses alliés de haut en bas pour leur rendre leurs PV. 50 | 131"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Langue vivante",
-            "effet": "Les blessures du Yo-kai sont léchées, ses PV sont lentement régénérés."
-        }
+  "ID": "284",
+  "Nom": "Papilla",
+  "Tribue": "Bienveillant",
+  "Rang": "E",
+  "PV": "291",
+  "Force": "45",
+  "Esprit": "171",
+  "Défense": "83",
+  "Vitesse": "176",
+  "Description": "Elle guérit d'un coup de langue toutes les blessures. Elle peut même rapprocher les gens !",
+  "nourriture": "Légume",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Papilla a le pouvoir de soigner les gens avec sa langue.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/papilla.png",
+  "numero": "170",
+  "nourriture_favorite": "Légume",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Pure lèche",
+      "effet": "Le Yo-kai sera purifié s'il soigne des alliés."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Slurp",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Guérison",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Langue d'amour",
+      "effet": "Lèche ses alliés de haut en bas pour leur rendre leurs PV. 50 | 131"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Langue vivante",
+      "effet": "Les blessures du Yo-kai sont léchées, ses PV sont lentement régénérés."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Miam !",
+    "Mange de la nourriture insipide": "Merci, je suppose.",
+    "Mange de la mauvaise nourriture": "Y en a trop !",
+    "A la flemme": "*BÂILLE !*",
+    "Est échangé": "Je suis ton amie ! Que notre lien soit fort et thérapeutique !",
+    "Devient ton ami": "Oh, tu as une blessure. Laisse-moi t'aider ! Il le faut, entre amis !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Papilla",
+      "parent2": "Pitou",
+      "resultat": "Mme Papilla",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "キズナメコ",
+  "nom_anglais": "Tongus",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Au cours de l'histoire",
+      "Yo-kai World- Montagne du menteur"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Miam !",
-        "Mange de la nourriture insipide": "Merci, je suppose.",
-        "Mange de la mauvaise nourriture": "Y en a trop !",
-        "A la flemme": "*BÂILLE !*",
-        "Est échangé": "Je suis ton amie ! Que notre lien soit fort et thérapeutique !",
-        "Devient ton ami": "Oh, tu as une blessure. Laisse-moi t'aider ! Il le faut, entre amis !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Papilla",
-            "parent2": "Pitou",
-            "resultat": "Mme Papilla",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Patrouille -Ourcival"
     ],
-    "image_locale": "",
-    "nom_original": "キズナメコ",
-    "nom_anglais": "Tongus",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Au cours de l'histoire",
-            "Yo-kai World- Montagne du menteur"
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Ourcival"
-        ],
-        "yw3": [
-            "Mont Sylvestre- dans l'herbe",
-            "Mont Sylvestre - Sentier de randonnée",
-            "Tunnel abandonné- est"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Slurp",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Guérison",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Langue d'amour",
-                "puissance": "50|131",
-                "description": "Lèche ses alliés de haut en bas pour leur rendre leurs PV."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Langue vivante",
-                "puissance": "N/A",
-                "description": "Les blessures du Yo-kai sont léchées, ses PV sont lentement régénérées."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Pure lèche",
-                "description": "Le Yo-kai sera purifié s'il soigne des alliés."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Langue d'amour",
-                "puissance": "400",
-                "description": "Alliés retrouvent beaucoup de PV."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Boost de défense",
-                "puissance": "___",
-                "description": "Hausse DÉF. des alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Purification !",
-                "puissance": "50",
-                "description": "Annule Envoûtement et guérit. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Récupération rapide",
-                "description": "Restaure l'allié plus vite."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Slurp",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Langue d'amour",
-                "puissance": "60|180",
-                "description": "Lèche ses alliés avec sa petite langue mignonne, restaurant leurs PV."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Langue vivante",
-                "puissance": "N/A",
-                "description": "Les blessures du Yo-kai sont léchées, ses PV se restaurent lentement."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Pure lèche",
-                "description": "Le Yo-kai sera purifié s'il soigne des alliés."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Pure lèche",
-        "description": "Le Yo-kai sera purifié s'il soigne des alliés."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/papilla.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/papilla.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/papilla.wav",
-    "oldID": "291",
-    "medallium_ids": {
-        "yw2": "170",
-        "yw3": "320"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "212",
-        "yw Blasters 2": "327",
-        "yw Wibble Wobble": "5014"
-    },
-    "battle_type": "",
-    "skill_name": "Lick It Clean",
-    "skill_effect": "Lick Your Wounds",
-    "disliked_food": "Curry",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "301",
-                "STR": "63",
-                "SPR": "158",
-                "DEF": "68",
-                "SPD": "153"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "125-219",
-                "STR": "50",
-                "SPR": "176",
-                "DEF": "88",
-                "SPD": "181"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "Attribute tolerance": {
-            "stats": {
-                "HP": "125-219"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "125-219"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "125-219"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "125-219"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "キズナメコ",
-            "Kizunaeko"
-        ],
-        "Spanish": [
-            "Niscala"
-        ],
-        "French": [
-            "Papilla"
-        ],
-        "Italian": [
-            "Curaling"
-        ],
-        "German": [
-            "Zungus"
-        ],
-        "Russian": [
-            "Лизакус",
-            "Lizakus"
-        ],
-        "Arabic": [
-            "بلسمة",
-            "Balsama"
-        ],
-        "Portuguese (Brazilian)": [
-            "Lambilda"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "キズナメコ"
-        ],
-        "Spanish": [
-            "Niscala"
-        ],
-        "French": [
-            "Papilla"
-        ],
-        "Italian": [
-            "Curaling"
-        ],
-        "German": [
-            "Zungus"
-        ],
-        "Russian": [
-            "Лизакус"
-        ],
-        "Arabic": [
-            "بلسمة"
-        ],
-        "Portuguese (Brazilian)": [
-            "Lambilda"
-        ]
-    },
-    "description_en": "Her healing tongue can cure any wound and even serve to strengthen the bonds between people!",
-    "nom_en": "Kappeasy",
-    "rang_yww": "E",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "légumes",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 34,
-        "str": 4,
-        "spr": 22,
-        "def": 5,
-        "spd": 23
-    },
-    "stats_max_yww": {
-        "hp": 291,
-        "str": 45,
-        "spr": 171,
-        "def": 83,
-        "spd": 176
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "舌でなめる",
-                "_en": "lick with tongue",
-                "_fr": "lécher avec la langue"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 舌でなめて敵1体を攻撃する。",
-                "_en": "[Power: 50/Blow] Attacks one enemy by licking it with your tongue.",
-                "_fr": "[Puissance : 50/Coup] Attaque un ennemi en le léchant avec votre langue."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "いやしの術",
-                "_en": "Healing techniques",
-                "_fr": "Techniques de guérison"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "なめときゃ治りんこ",
-                "_en": "Lick it and heal it Rinko",
-                "_fr": "Lèche-le et guéris-le Rinko"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "かわいい舌でペロペロとなめまくり味方全員のHPを回復する。",
-                "_en": "Recovers the HP of all allies by licking them with their cute tongue.",
-                "_fr": "Récupère les HP de tous les alliés en les léchant avec leur jolie langue."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "傷をなめる",
-                "_en": "lick the wound",
-                "_fr": "lécher la blessure"
-            },
-            "explication": {
-                "_jp": "【回復】 とりつかれた妖怪は傷をペロペロとなめられHPが少しずつ回復する。",
-                "_en": "[Recovery] The possessed monster will lick its wounds and its HP will recover little by little.",
-                "_fr": "[Récupération] Le monstre possédé pansera ses blessures et ses PV récupéreront petit à petit."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "キズナメコの舌には 消毒作用があり どんな傷でも ペロペロと治してしまう。 傷だけでなく 人と人の絆も 修復できるらしい。",
-            "_en": "The nameko's tongue has antiseptic properties and can quickly heal any wound. Apparently it can repair not only wounds but also bonds between people.",
-            "_fr": "La langue du nameko a des propriétés antiseptiques et peut guérir rapidement n'importe quelle blessure. Apparemment, cela peut réparer non seulement les blessures mais aussi les liens entre les gens."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Mont Sylvestre- dans l'herbe",
+      "Mont Sylvestre - Sentier de randonnée",
+      "Tunnel abandonné- est"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Slurp",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Guérison",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Langue d'amour",
+        "puissance": "50|131",
+        "description": "Lèche ses alliés de haut en bas pour leur rendre leurs PV."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Langue vivante",
+        "puissance": "N/A",
+        "description": "Les blessures du Yo-kai sont léchées, ses PV sont lentement régénérées."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Pure lèche",
+        "description": "Le Yo-kai sera purifié s'il soigne des alliés."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Langue d'amour",
+        "puissance": "400",
+        "description": "Alliés retrouvent beaucoup de PV."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Boost de défense",
+        "puissance": "___",
+        "description": "Hausse DÉF. des alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Purification !",
+        "puissance": "50",
+        "description": "Annule Envoûtement et guérit. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Récupération rapide",
+        "description": "Restaure l'allié plus vite."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Slurp",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Langue d'amour",
+        "puissance": "60|180",
+        "description": "Lèche ses alliés avec sa petite langue mignonne, restaurant leurs PV."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Langue vivante",
+        "puissance": "N/A",
+        "description": "Les blessures du Yo-kai sont léchées, ses PV se restaurent lentement."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Pure lèche",
+        "description": "Le Yo-kai sera purifié s'il soigne des alliés."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Pure lèche",
+    "description": "Le Yo-kai sera purifié s'il soigne des alliés."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/papilla.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/papilla.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/papilla.wav",
+  "oldID": "291",
+  "medallium_ids": {
+    "yw2": "170",
+    "yw3": "320"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "212",
+    "yw Blasters 2": "327",
+    "yw Wibble Wobble": "5014"
+  },
+  "battle_type": "",
+  "skill_name": "Lick It Clean",
+  "skill_effect": "Lick Your Wounds",
+  "disliked_food": "Curry",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "301",
+        "STR": "63",
+        "SPR": "158",
+        "DEF": "68",
+        "SPD": "153"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "125-219",
+        "STR": "50",
+        "SPR": "176",
+        "DEF": "88",
+        "SPD": "181"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "Attribute tolerance": {
+      "stats": {
+        "HP": "125-219"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "125-219"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "125-219"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "125-219"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "キズナメコ",
+      "Kizunaeko"
+    ],
+    "Spanish": [
+      "Niscala"
+    ],
+    "French": [
+      "Papilla"
+    ],
+    "Italian": [
+      "Curaling"
+    ],
+    "German": [
+      "Zungus"
+    ],
+    "Russian": [
+      "Лизакус",
+      "Lizakus"
+    ],
+    "Arabic": [
+      "بلسمة",
+      "Balsama"
+    ],
+    "Portuguese (Brazilian)": [
+      "Lambilda"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "キズナメコ"
+    ],
+    "Spanish": [
+      "Niscala"
+    ],
+    "French": [
+      "Papilla"
+    ],
+    "Italian": [
+      "Curaling"
+    ],
+    "German": [
+      "Zungus"
+    ],
+    "Russian": [
+      "Лизакус"
+    ],
+    "Arabic": [
+      "بلسمة"
+    ],
+    "Portuguese (Brazilian)": [
+      "Lambilda"
+    ]
+  },
+  "description_en": "Her healing tongue can cure any wound and even serve to strengthen the bonds between people!",
+  "nom_en": "Kappeasy",
+  "rang_yww": "E",
+  "tribue_yww": "Pokapoka",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "légumes",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 34,
+    "str": 4,
+    "spr": 22,
+    "def": 5,
+    "spd": 23
+  },
+  "stats_max_yww": {
+    "hp": 291,
+    "str": 45,
+    "spr": 171,
+    "def": 83,
+    "spd": 176
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "舌でなめる",
+        "_en": "lick with tongue",
+        "_fr": "lécher avec la langue"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 舌でなめて敵1体を攻撃する。",
+        "_en": "[Power: 50/Blow] Attacks one enemy by licking it with your tongue.",
+        "_fr": "[Puissance : 50/Coup] Attaque un ennemi en le léchant avec votre langue."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "いやしの術",
+        "_en": "Healing techniques",
+        "_fr": "Techniques de guérison"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "なめときゃ治りんこ",
+        "_en": "Lick it and heal it Rinko",
+        "_fr": "Lèche-le et guéris-le Rinko"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "かわいい舌でペロペロとなめまくり味方全員のHPを回復する。",
+        "_en": "Recovers the HP of all allies by licking them with their cute tongue.",
+        "_fr": "Récupère les HP de tous les alliés en les léchant avec leur jolie langue."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "傷をなめる",
+        "_en": "lick the wound",
+        "_fr": "lécher la blessure"
+      },
+      "explication": {
+        "_jp": "【回復】 とりつかれた妖怪は傷をペロペロとなめられHPが少しずつ回復する。",
+        "_en": "[Recovery] The possessed monster will lick its wounds and its HP will recover little by little.",
+        "_fr": "[Récupération] Le monstre possédé pansera ses blessures et ses PV récupéreront petit à petit."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "キズナメコの舌には 消毒作用があり どんな傷でも ペロペロと治してしまう。 傷だけでなく 人と人の絆も 修復できるらしい。",
+      "_en": "The nameko's tongue has antiseptic properties and can quickly heal any wound. Apparently it can repair not only wounds but also bonds between people.",
+      "_fr": "La langue du nameko a des propriétés antiseptiques et peut guérir rapidement n'importe quelle blessure. Apparemment, cela peut réparer non seulement les blessures mais aussi les liens entre les gens."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "288",
+  "Name_yww": "キズナメコ",
+  "description_jp_yww": "キズナメコの舌には 消毒作用があり　どんな傷でも ペロペロと治してしまう。 傷だけでなく　人と人の絆も 修復できるらしい。",
+  "BingoMessage_jp_yww": "わたしを出してくれてありがとう！ 二人のキズナ　生まれたね！",
+  "MonsterId_yww": "y276000",
+  "Height_yww": 7.39,
+  "CommondId_yww": "sp_276000",
+  "MinHp_yww": 34,
+  "MaxHp_yww": 291,
+  "MinAttack_yww": 4,
+  "MaxAttack_yww": 45,
+  "MinMagic_yww": 22,
+  "MaxMagic_yww": 171,
+  "MinDefense_yww": 5,
+  "MaxDefense_yww": 83,
+  "MinSpeed_yww": 23,
+  "MaxSpeed_yww": 176,
+  "AttackId_yww": 55,
+  "MagicId_yww": 22,
+  "HauntId_yww": 276000,
+  "SpSkillId_yww": 276000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 10,
+  "DislikeFoodKind_yww": 13,
+  "ActionType_yww": 15,
+  "TribeType_yww": 5,
+  "MedallionImage_yww": "y271800.png",
+  "SpriteImage_yww": "img_y271800.png",
+  "Audio_yww": "sp_y271800.wav",
+  "Description_yww": "La langue du kizunameko possède des propriétés antiseptiques et soigne n'importe quelle blessure d'un simple coup de langue. Il semblerait qu'elle puisse non seulement soigner les blessures, mais aussi réparer les liens entre les gens.",
+  "BingoMessage_fr_yww": "Merci de m'avoir fait venir ! Un lien s'est créé entre nous deux !"
 }

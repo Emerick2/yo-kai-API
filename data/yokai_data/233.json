@@ -1,528 +1,559 @@
 {
-    "ID": "233",
-    "Nom": "Roupilion",
-    "Tribue": "Vaillant",
-    "Rang": "E",
-    "PV": "288",
-    "Force": "183",
-    "Esprit": "44",
-    "Défense": "110",
-    "Vitesse": "119",
-    "Description": "Ce lion détendu veut devenir un puissant guerrier, mais il privilégie la sieste à l'entraînement.",
-    "nourriture": "Cuisine chinoise",
-    "élément": "Glace",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Roupilion vient de Roupiller (faire la sieste) et de Lion.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Quand il envoûte quelqu'un, cette personne préférera dormir que de s'occuper de faire quoi que ce soit.",
-    "personnalité": "Roupilion est très fainéant. Bien qu'il veuille devenir un grand guerrier, il préfère dormir que combattre.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/roupilion.png",
-    "numero": "009",
-    "nourriture_favorite": "Plats chinois",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Dévouement",
-            "effet": "Reçoit plus de points d'expérience"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coup de poing",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Grêle",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coup de griffe",
-            "effet": "Inflige de bons coups de pattes à ses ennemis. 16x5 | 16x5"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Lionisation",
-            "effet": "La force du lion réveille le Yo-kai, ce qui augmente sa FOR."
-        }
+  "ID": "233",
+  "Nom": "Roupilion",
+  "Tribue": "Vaillant",
+  "Rang": "E",
+  "PV": "288",
+  "Force": "183",
+  "Esprit": "44",
+  "Défense": "110",
+  "Vitesse": "119",
+  "Description": "Ce lion détendu veut devenir un puissant guerrier, mais il privilégie la sieste à l'entraînement.",
+  "nourriture": "Cuisine chinoise",
+  "élément": "Glace",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Roupilion vient de Roupiller (faire la sieste) et de Lion.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Quand il envoûte quelqu'un, cette personne préférera dormir que de s'occuper de faire quoi que ce soit.",
+  "personnalité": "Roupilion est très fainéant. Bien qu'il veuille devenir un grand guerrier, il préfère dormir que combattre.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/roupilion.png",
+  "numero": "009",
+  "nourriture_favorite": "Plats chinois",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Dévouement",
+      "effet": "Reçoit plus de points d'expérience"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coup de poing",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Grêle",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coup de griffe",
+      "effet": "Inflige de bons coups de pattes à ses ennemis. 16x5 | 16x5"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Lionisation",
+      "effet": "La force du lion réveille le Yo-kai, ce qui augmente sa FOR."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Délicieux !",
+    "Mange de la nourriture insipide": "Ça va.",
+    "Mange de la mauvaise nourriture": "Ha ! Dégoûtant !",
+    "A la flemme": "Pfff.",
+    "Est échangé": "Je serai heureux de me battre à tes côtés ! Euh... juste après une sieste.",
+    "Devient ton ami": "Quelle force. Et si on devenait amis ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "Général",
+      "de": "Roupilion",
+      "vers": "Rugis",
+      "critere": "Niveau 28"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "獅子まる",
+  "nom_anglais": "Lie-in",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Kiyono Yasuno",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Coteau fleuri– Terrain vague",
+      "Voie du mystère – Petite route",
+      "Bingo-kai–Pièce rouge(Passé)",
+      "yw2 : Esprit farceurs :Quête - Entraînons Roupilion"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Délicieux !",
-        "Mange de la nourriture insipide": "Ça va.",
-        "Mange de la mauvaise nourriture": "Ha ! Dégoûtant !",
-        "A la flemme": "Pfff.",
-        "Est échangé": "Je serai heureux de me battre à tes côtés ! Euh... juste après une sieste.",
-        "Devient ton ami": "Quelle force. Et si on devenait amis ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "Général",
-            "de": "Roupilion",
-            "vers": "Rugis",
-            "critere": "Niveau 28"
-        }
+    "yw Blasters 1": [
+      "Patrouille -Coteau fleuri"
     ],
-    "image_locale": "",
-    "nom_original": "獅子まる",
-    "nom_anglais": "Lie-in",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Kiyono Yasuno",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Coteau fleuri– Terrain vague",
-            "Voie du mystère – Petite route",
-            "Bingo-kai–Pièce rouge(Passé)",
-            "yw2 : Esprit farceurs :Quête - Entraînons Roupilion"
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Coteau fleuri"
-        ],
-        "yw3": [
-            "Mont Sylvestre- Méga toboggan et dans les bambous"
-        ],
-        "yw Wibble Wobble": [
-            "Pack de démarrage",
-            "Stage 27"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de poing",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Grêle",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Coup de griffe",
-                "puissance": "16×5|16×5",
-                "description": "Inflige de bons coups de patte à ses ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Lionisation",
-                "puissance": "N/A",
-                "description": "La force du lion réveille le Yo-kai, ce qui augmente sa FOR."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Tourbillon",
-                "puissance": "N/A",
-                "description": "Un tourbillon s'abat sur les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Dévouement",
-                "description": "Reçoit plus de points d'expérience."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Coup de griffe",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Grêle",
-                "puissance": "40",
-                "description": "Utilise un sort de glace. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Attaque puissante",
-                "puissance": "400",
-                "description": "Rassemble ta force en une seule attaque."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Démarrage lent",
-                "description": "Stats renforcées 3 minutes après le début de la mission."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de poing",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Grêle",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Coup de griffe",
-                "puissance": "15×5|45×5",
-                "description": "Inflige de bons coups de pattes aux ennemis à portée."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Lionisation",
-                "puissance": "N/A",
-                "description": "La force du lion réveille le Yo-kai, ce qui augmente sa FOR."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Coup de griffe",
-                "puissance": "40×10",
-                "description": "Enchaîne les coups, inflige des dégâts élevés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque l’ennemi avec une attaque féroce."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Grêle",
-                "puissance": "40",
-                "description": "Technique de glace+. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Dévouement",
-                "description": "Reçoit plus de points d'expérience."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Bracelet usé"
-            },
-            {
-                "taux": "?%",
-                "objet": "Lait"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Bracelet usé"
-            },
-            {
-                "taux": "?%",
-                "objet": "Raviolis chinois"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Dévouement",
-        "description": "Reçoit plus de points d'expérience."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/roupilion.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/roupilion.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/roupilion.wav",
-    "oldID": "232",
-    "medallium_ids": {
-        "yw2": "009",
-        "yw3": "011"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "009",
-        "yw Blasters 2": "011",
-        "Three Kingdoms": "009",
-        "yw Wibble Wobble": "1015",
-        "yw Ukiukipedia": "yw4-001/Cyw-022/Cyw-032/Pyw-047/Pyw-143/Pyw-153/Pyw-249 (Pajama)/Syw-023/Tyw-046/Zyw-052 (Pajama)/Zyw-089/YD1-001/YDU-001 (Pajama)"
-    },
-    "battle_type": "",
-    "skill_name": "Hard Worker yw2 yw3 Slow Starter ywB",
-    "skill_effect": "Lionize",
-    "disliked_food": "Oden",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "298",
-                "STR": "144",
-                "SPR": "93",
-                "DEF": "78",
-                "SPD": "162"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "357",
-                "STR": "194",
-                "SPR": "103",
-                "DEF": "118",
-                "SPD": "124"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "92-165",
-                "STR": "194",
-                "SPR": "99",
-                "DEF": "119"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "92-165"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "獅子まる",
-            "Shishimaru"
-        ],
-        "Spanish": [
-            "Dormileón"
-        ],
-        "French": [
-            "Roupilion"
-        ],
-        "Italian": [
-            "Leopigro"
-        ],
-        "German": [
-            "Leonidös"
-        ],
-        "Dutch": [
-            "Lieiin"
-        ],
-        "Korean": [
-            "태사자",
-            "Taesaja"
-        ],
-        "Russian": [
-            "Задремлев",
-            "Zadremlev"
-        ],
-        "Arabic": [
-            "سنور",
-            "Sinnawr"
-        ],
-        "Chinese (Mandarin)": [
-            "獅子丸"
-        ],
-        "Portuguese (Brazilian)": [
-            "Sossego"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "獅子まる"
-        ],
-        "Spanish": [
-            "Dormileón"
-        ],
-        "French": [
-            "Roupilion"
-        ],
-        "Italian": [
-            "Leopigro"
-        ],
-        "German": [
-            "Leonidös"
-        ],
-        "Dutch": [
-            "Lieiin"
-        ],
-        "Korean": [
-            "태사자"
-        ],
-        "Russian": [
-            "Задремлев"
-        ],
-        "Arabic": [
-            "سنور"
-        ],
-        "Chinese (Mandarin)": [
-            "獅子丸"
-        ],
-        "Portuguese (Brazilian)": [
-            "Sossego"
-        ]
-    },
-    "description_en": "A laid-back lion who wants to be a mighty warrior but tends to prioritize nap time over sword practice.",
-    "nom_en": "Dandoodle",
-    "rang_yww": "E",
-    "tribue_yww": "Isamashi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Cuisine chinoise",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "stats_initiale_yww": {
-        "hp": 40,
-        "str": 25,
-        "spr": 5,
-        "def": 11,
-        "spd": 13
-    },
-    "stats_max_yww": {
-        "hp": 288,
-        "str": 183,
-        "spr": 44,
-        "def": 110,
-        "spd": 119
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "パンチ",
-                "_en": "punch",
-                "_fr": "punch"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "あられの術",
-                "_en": "Hail no jutsu",
-                "_fr": "Salut, pas de jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 氷属性】 氷の妖術を使う。",
-                "_en": "[Power: 30 / Ice attribute] Uses ice magic.",
-                "_fr": "[Puissance : 30 / Attribut Glace] Utilise la magie de la glace."
-            }
-        }
+    "yw3": [
+      "Mont Sylvestre- Méga toboggan et dans les bambous"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "刀はまだ早い拳！",
-                "_en": "The sword is still an early fist!",
-                "_fr": "L'épée est encore un premier poing !"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "獅子の力",
-                "_en": "power of the lion",
-                "_fr": "pouvoir du lion"
-            },
-            "explication": {
-                "_jp": "【ちからアップ】 とりつかれた妖怪は獅子の力がめざめ ちからがアップする。",
-                "_en": "[Power up] The power of the lion awakens in the possessed monster, and the power increases.",
-                "_fr": "[Power up] Le pouvoir du lion s'éveille chez le monstre possédé et le pouvoir augmente."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "おっとりとした性格の獅子。 りっぱな武士をめざしているが 修行も ゆっくりなため まだまだ 実力もひよっ子。 気が付くと昼寝をしている。",
-            "_en": "A lion with a gentle personality. Although he aims to become a great samurai, his training is slow and his abilities are still limited. Before I knew it, I was taking a nap.",
-            "_fr": "Un lion avec une personnalité douce. Bien qu’il ambitionne de devenir un grand samouraï, sa formation est lente et ses capacités encore limitées. Avant de m’en rendre compte, je faisais une sieste."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Pack de démarrage",
+      "Stage 27"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de poing",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Grêle",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Coup de griffe",
+        "puissance": "16×5|16×5",
+        "description": "Inflige de bons coups de patte à ses ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Lionisation",
+        "puissance": "N/A",
+        "description": "La force du lion réveille le Yo-kai, ce qui augmente sa FOR."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Tourbillon",
+        "puissance": "N/A",
+        "description": "Un tourbillon s'abat sur les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Dévouement",
+        "description": "Reçoit plus de points d'expérience."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Coup de griffe",
+        "puissance": "40×10",
+        "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Grêle",
+        "puissance": "40",
+        "description": "Utilise un sort de glace. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Attaque puissante",
+        "puissance": "400",
+        "description": "Rassemble ta force en une seule attaque."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Démarrage lent",
+        "description": "Stats renforcées 3 minutes après le début de la mission."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de poing",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Grêle",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Coup de griffe",
+        "puissance": "15×5|45×5",
+        "description": "Inflige de bons coups de pattes aux ennemis à portée."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Lionisation",
+        "puissance": "N/A",
+        "description": "La force du lion réveille le Yo-kai, ce qui augmente sa FOR."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Coup de griffe",
+        "puissance": "40×10",
+        "description": "Enchaîne les coups, inflige des dégâts élevés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque l’ennemi avec une attaque féroce."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Grêle",
+        "puissance": "40",
+        "description": "Technique de glace+. Plus de dégâts si chargée."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Dévouement",
+        "description": "Reçoit plus de points d'expérience."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Bracelet usé"
+      },
+      {
+        "taux": "?%",
+        "objet": "Lait"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Bracelet usé"
+      },
+      {
+        "taux": "?%",
+        "objet": "Raviolis chinois"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Dévouement",
+    "description": "Reçoit plus de points d'expérience."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/roupilion.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/roupilion.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/roupilion.wav",
+  "oldID": "232",
+  "medallium_ids": {
+    "yw2": "009",
+    "yw3": "011"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "009",
+    "yw Blasters 2": "011",
+    "Three Kingdoms": "009",
+    "yw Wibble Wobble": "1015",
+    "yw Ukiukipedia": "yw4-001/Cyw-022/Cyw-032/Pyw-047/Pyw-143/Pyw-153/Pyw-249 (Pajama)/Syw-023/Tyw-046/Zyw-052 (Pajama)/Zyw-089/YD1-001/YDU-001 (Pajama)"
+  },
+  "battle_type": "",
+  "skill_name": "Hard Worker yw2 yw3 Slow Starter ywB",
+  "skill_effect": "Lionize",
+  "disliked_food": "Oden",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "298",
+        "STR": "144",
+        "SPR": "93",
+        "DEF": "78",
+        "SPD": "162"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "357",
+        "STR": "194",
+        "SPR": "103",
+        "DEF": "118",
+        "SPD": "124"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "92-165",
+        "STR": "194",
+        "SPR": "99",
+        "DEF": "119"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "92-165"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "獅子まる",
+      "Shishimaru"
+    ],
+    "Spanish": [
+      "Dormileón"
+    ],
+    "French": [
+      "Roupilion"
+    ],
+    "Italian": [
+      "Leopigro"
+    ],
+    "German": [
+      "Leonidös"
+    ],
+    "Dutch": [
+      "Lieiin"
+    ],
+    "Korean": [
+      "태사자",
+      "Taesaja"
+    ],
+    "Russian": [
+      "Задремлев",
+      "Zadremlev"
+    ],
+    "Arabic": [
+      "سنور",
+      "Sinnawr"
+    ],
+    "Chinese (Mandarin)": [
+      "獅子丸"
+    ],
+    "Portuguese (Brazilian)": [
+      "Sossego"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "獅子まる"
+    ],
+    "Spanish": [
+      "Dormileón"
+    ],
+    "French": [
+      "Roupilion"
+    ],
+    "Italian": [
+      "Leopigro"
+    ],
+    "German": [
+      "Leonidös"
+    ],
+    "Dutch": [
+      "Lieiin"
+    ],
+    "Korean": [
+      "태사자"
+    ],
+    "Russian": [
+      "Задремлев"
+    ],
+    "Arabic": [
+      "سنور"
+    ],
+    "Chinese (Mandarin)": [
+      "獅子丸"
+    ],
+    "Portuguese (Brazilian)": [
+      "Sossego"
+    ]
+  },
+  "description_en": "A laid-back lion who wants to be a mighty warrior but tends to prioritize nap time over sword practice.",
+  "nom_en": "Dandoodle",
+  "rang_yww": "E",
+  "tribue_yww": "Isamashi",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "Cuisine chinoise",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "avantage_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "stats_initiale_yww": {
+    "hp": 40,
+    "str": 25,
+    "spr": 5,
+    "def": 11,
+    "spd": 13
+  },
+  "stats_max_yww": {
+    "hp": 288,
+    "str": 183,
+    "spr": 44,
+    "def": 110,
+    "spd": 119
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "パンチ",
+        "_en": "punch",
+        "_fr": "punch"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "あられの術",
+        "_en": "Hail no jutsu",
+        "_fr": "Salut, pas de jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 氷属性】 氷の妖術を使う。",
+        "_en": "[Power: 30 / Ice attribute] Uses ice magic.",
+        "_fr": "[Puissance : 30 / Attribut Glace] Utilise la magie de la glace."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "刀はまだ早い拳！",
+        "_en": "The sword is still an early fist!",
+        "_fr": "L'épée est encore un premier poing !"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "獅子の力",
+        "_en": "power of the lion",
+        "_fr": "pouvoir du lion"
+      },
+      "explication": {
+        "_jp": "【ちからアップ】 とりつかれた妖怪は獅子の力がめざめ ちからがアップする。",
+        "_en": "[Power up] The power of the lion awakens in the possessed monster, and the power increases.",
+        "_fr": "[Power up] Le pouvoir du lion s'éveille chez le monstre possédé et le pouvoir augmente."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "おっとりとした性格の獅子。 りっぱな武士をめざしているが 修行も ゆっくりなため まだまだ 実力もひよっ子。 気が付くと昼寝をしている。",
+      "_en": "A lion with a gentle personality. Although he aims to become a great samurai, his training is slow and his abilities are still limited. Before I knew it, I was taking a nap.",
+      "_fr": "Un lion avec une personnalité douce. Bien qu’il ambitionne de devenir un grand samouraï, sa formation est lente et ses capacités encore limitées. Avant de m’en rendre compte, je faisais une sieste."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "233",
+  "Name_yww": "獅子まる",
+  "description_jp_yww": "おっとりとした性格の獅子。 りっぱな武士をめざしているが 修行も　ゆっくりなため まだまだ　実力もひよっ子。 気が付くと昼寝をしている。",
+  "BingoMessage_jp_yww": "ううう…　せまかったです… これからはキミと一緒がいいです！",
+  "MonsterId_yww": "y231000",
+  "Height_yww": 8.14,
+  "CommondId_yww": "sp_231000",
+  "MinHp_yww": 40,
+  "MaxHp_yww": 288,
+  "MinAttack_yww": 25,
+  "MaxAttack_yww": 183,
+  "MinMagic_yww": 5,
+  "MaxMagic_yww": 44,
+  "MinDefense_yww": 11,
+  "MaxDefense_yww": 110,
+  "MinSpeed_yww": 13,
+  "MaxSpeed_yww": 119,
+  "AttackId_yww": 1,
+  "MagicId_yww": 13,
+  "HauntId_yww": 231000,
+  "SpSkillId_yww": 231000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 9,
+  "DislikeFoodKind_yww": 15,
+  "ActionType_yww": 5,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y226800.png",
+  "SpriteImage_yww": "img_y226800.png",
+  "Audio_yww": "sp_y226800.wav",
+  "Description_yww": "Un lion au caractère paisible. Il aspire à devenir un fier samouraï, mais comme il s'entraîne à son rythme, ses compétences sont encore celles d'un débutant. On le surprend souvent en train de faire la sieste.",
+  "BingoMessage_fr_yww": "Ouh… C’était un peu serré… À partir de maintenant, je préfère être avec toi !"
 }

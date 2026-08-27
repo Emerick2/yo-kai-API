@@ -1,573 +1,604 @@
 {
-    "ID": "49",
-    "Nom": "Padrézo",
-    "Tribue": "Mystérieu",
-    "Rang": "D",
-    "PV": "321",
-    "Force": "48",
-    "Esprit": "200",
-    "Défense": "121",
-    "Vitesse": "133",
-    "Description-": "Un Baku blanc rare. Une légende dit que si elle vous envoûte, vous allez bien dormir !",
-    "Description": "Un Yo-kai malicieux qui se nourrit d'ondes radio. Tu perdras quelques barres de réseaux s'il est dans les parages.",
-    "nourriture": "Riz",
-    "élément": "Foudre",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Padrézo peut manger les ondes radio, les signaux Wi-Fi et l'autonomie de la batterie en mangeant les éclairs qui l'entourent.",
-    "personnalité": "Padrézo est un Yo-kai très espiègle, qui préfère s'amuser en gâchant la soirée pyjama deNathanà plusieurs reprises en manipulant la télévision.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/padrezo.png",
-    "numero": "043",
-    "nourriture_favorite": "En-cas",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Jeu de foudre",
-            "effet": "Augmente les dégâts de ses attaques de foudre."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing un-deux",
-            "effet": "15x2 | 33x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Foudre",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Choc électrique",
-            "effet": "Libère les charges électriques accumulées sur ses ennemis. 55 | 144"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paralysie",
-            "effet": "Ralentit un ennemi grâce à un choc électrique."
-        }
+  "ID": "49",
+  "Nom": "Padrézo",
+  "Tribue": "Mystérieu",
+  "Rang": "D",
+  "PV": "321",
+  "Force": "48",
+  "Esprit": "200",
+  "Défense": "121",
+  "Vitesse": "133",
+  "Description-": "Un Baku blanc rare. Une légende dit que si elle vous envoûte, vous allez bien dormir !",
+  "Description": "Un Yo-kai malicieux qui se nourrit d'ondes radio. Tu perdras quelques barres de réseaux s'il est dans les parages.",
+  "nourriture": "Riz",
+  "élément": "Foudre",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Padrézo peut manger les ondes radio, les signaux Wi-Fi et l'autonomie de la batterie en mangeant les éclairs qui l'entourent.",
+  "personnalité": "Padrézo est un Yo-kai très espiègle, qui préfère s'amuser en gâchant la soirée pyjama deNathanà plusieurs reprises en manipulant la télévision.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/padrezo.png",
+  "numero": "043",
+  "nourriture_favorite": "En-cas",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Jeu de foudre",
+      "effet": "Augmente les dégâts de ses attaques de foudre."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing un-deux",
+      "effet": "15x2 | 33x2"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Foudre",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Choc électrique",
+      "effet": "Libère les charges électriques accumulées sur ses ennemis. 55 | 144"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paralysie",
+      "effet": "Ralentit un ennemi grâce à un choc électrique."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Ouaaais !",
+    "Mange de la nourriture insipide": "Merci !",
+    "Mange de la mauvaise nourriture": "C'était quoi, ça ?",
+    "A la flemme": "Plus de batterie !",
+    "Est échangé": "Mes ondes électromagnétiques positives m'ont fait devenir ton ami !",
+    "Devient ton ami": "Je sens que le courant passe bien entre nous !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Padrézo",
+      "parent2": "Orbe GHz",
+      "resultat": "Émettor",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "でんぱく小僧",
+  "nom_anglais": "Signibble",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Padrézo apparaît sur des poteaux électriques partout auCoteau fleuriet dans leQuartier des boutiques.",
+      "Il peut également être libéré duBingo-Kaiavec unePièce jaune."
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Ouaaais !",
-        "Mange de la nourriture insipide": "Merci !",
-        "Mange de la mauvaise nourriture": "C'était quoi, ça ?",
-        "A la flemme": "Plus de batterie !",
-        "Est échangé": "Mes ondes électromagnétiques positives m'ont fait devenir ton ami !",
-        "Devient ton ami": "Je sens que le courant passe bien entre nous !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Padrézo",
-            "parent2": "Orbe GHz",
-            "resultat": "Émettor",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Padrézo se trouve dans letunnel abandonné."
     ],
-    "image_locale": "",
-    "nom_original": "でんぱく小僧",
-    "nom_anglais": "Signibble",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Padrézo apparaît sur des poteaux électriques partout auCoteau fleuriet dans leQuartier des boutiques.",
-            "Il peut également être libéré duBingo-Kaiavec unePièce jaune."
-        ],
-        "yw2": [
-            "Padrézo se trouve dans letunnel abandonné."
-        ],
-        "yw3": [
-            "Padrézo se trouve sur les poteaux électriques duCoteau fleuriet de la gare deÉlectropolis."
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "15x2|33x2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Foudre",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Choc électrique",
-                "puissance": "60|157",
-                "description": "Libère les charges électriques accumulées sur ses ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Paralysie",
-                "puissance": "N/A",
-                "description": "Ralentit un ennemi grâce à un choc électrique."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Jeu de foudre",
-                "description": "Augmente les dégâts des attaques de foudre."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "15x2|33x2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Foudre",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Choc électrique",
-                "puissance": "55|144",
-                "description": "Libère les charges électriques accumulées sur ses ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Paralysie",
-                "puissance": "N/A",
-                "description": "Ralentit un ennemi grâce à un choc électrique."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Foudre",
-                "puissance": "N/A",
-                "description": "Foudroie les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Jeu de foudre",
-                "description": "Augmente les dégâts de ses attaques de foudre."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Choc électrique",
-                "puissance": "80×5",
-                "description": "La foudre inflige de gros dégâts aux ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Décharge",
-                "puissance": "40",
-                "description": "Utilise un sort électrique. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Foudre",
-                "puissance": "50",
-                "description": "Un sort électrique puissant. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Foudre !",
-                "description": "Ajoute de la foudre aux attaques."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Poing un-deux",
-                "puissance": "25×2|55×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Foudre",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Choc électrique",
-                "puissance": "73|219",
-                "description": "Libère les charges électriques accumulées sur les ennemis à portée."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Paralysie",
-                "puissance": "N/A",
-                "description": "Immobilise un ennemi grâce à un choc électrique !"
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Choc électrique",
-                "puissance": "80×5",
-                "description": "Déluge de foudre qui inflige des dégâts élevés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Décharge",
-                "puissance": "40",
-                "description": "Technique de foudre+. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive des attaques par des déplacements rapides."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Jeu de foudre",
-                "description": "Booste les dégâts de foudre de tous les Yo-kai."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Amulette parafoudre"
-            },
-            {
-                "taux": "?%",
-                "objet": "Y-Cola"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Badge mignon"
-            },
-            {
-                "taux": "?%",
-                "objet": "Y-Cola"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Étoile dansante"
-            },
-            {
-                "taux": "?%",
-                "objet": "Chips"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Jeu de foudre",
-        "description": "Augmente les dégâts des attaques de foudre."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/padrezo.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/padrezo.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/padrezo.wav",
-    "oldID": "49",
-    "medallium_ids": {
-        "yw1": "043",
-        "yw2": "063",
-        "yw3": "102"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "073",
-        "yw Blasters 2": "103",
-        "yw Wibble Wobble": "2010",
-        "yw World": "0037",
-        "yw Ukiukipedia": "yw1-007"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Lightning Play",
-    "skill_effect": "Paralyze",
-    "disliked_food": "Oden",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "305",
-                "STR": "119",
-                "SPR": "143",
-                "DEF": "108",
-                "SPD": "155"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "331",
-                "STR": "119",
-                "SPR": "143",
-                "DEF": "108",
-                "SPD": "155"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "117-204",
-                "STR": "53",
-                "SPR": "205",
-                "DEF": "126",
-                "SPD": "138"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "117-204"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "117-204"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "117-204"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "でんぱく小僧",
-            "Denpaku-kozō"
-        ],
-        "Spanish": [
-            "Ondívoro"
-        ],
-        "French": [
-            "Padrézo"
-        ],
-        "Italian": [
-            "Segnam"
-        ],
-        "German": [
-            "Spannsel"
-        ],
-        "Korean": [
-            "냠냠동자",
-            "Nyamnyamdongja"
-        ],
-        "Russian": [
-            "Радиогрыз",
-            "Radiogryz"
-        ],
-        "Arabic": [
-            "هرتوز",
-            "Hartūz"
-        ],
-        "Chinese (Cantonese)": [
-            "電波小僧"
-        ],
-        "Chinese (Mandarin)": [
-            "電波小鬼"
-        ],
-        "Portuguese (Brazilian)": [
-            "Interferêncio"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "でんぱく小僧"
-        ],
-        "Spanish": [
-            "Ondívoro"
-        ],
-        "French": [
-            "Padrézo"
-        ],
-        "Italian": [
-            "Segnam"
-        ],
-        "German": [
-            "Spannsel"
-        ],
-        "Korean": [
-            "냠냠동자"
-        ],
-        "Russian": [
-            "Радиогрыз"
-        ],
-        "Arabic": [
-            "هرتوز"
-        ],
-        "Chinese (Cantonese)": [
-            "電波小僧"
-        ],
-        "Chinese (Mandarin)": [
-            "電波小鬼"
-        ],
-        "Portuguese (Brazilian)": [
-            "Interferêncio"
-        ]
-    },
-    "description_en": "A mischievous Yo-kai that snacks on radio waves in the air. You'll lose a few bars on your phone when he's around.",
-    "nom_en": "Baku",
-    "rang_yww": "D",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "collation",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的",
-        "_en": "(Attack role) Reisei, Zunou target",
-        "_fr": "(Rôle d'attaque) Reisei, cible de Zunou"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 43,
-        "str": 6,
-        "spr": 28,
-        "def": 12,
-        "spd": 16
-    },
-    "stats_max_yww": {
-        "hp": 321,
-        "str": 48,
-        "spr": 200,
-        "def": 121,
-        "spd": 133
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ワンツーパンチ",
-                "_en": "one two punch",
-                "_fr": "un deux coups de poing"
-            },
-            "explication": {
-                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 25×2/Blow] Attack twice",
-                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "いかずちの術",
-                "_en": "Ikazuchi no Jutsu",
-                "_fr": "Ikazuchi no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 雷属性】 強力な雷の妖術を使う。",
-                "_en": "[Power: 50 / Lightning attribute] Uses powerful lightning magic.",
-                "_fr": "[Puissance : 50 / Attribut Foudre] Utilise une puissante magie de foudre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "デンデンショック",
-                "_en": "den den shock",
-                "_fr": "den den choc"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "しびれさせる",
-                "_en": "numb",
-                "_fr": "engourdi"
-            },
-            "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "空中にただよう電波を ぱくぱくと食べてしまう わんぱくな妖怪。 こいつがいると 携帯電話が 通じなくなってしまう。",
-            "_en": "A naughty monster that eats radio waves floating in the air. If this guy is here, my cell phone won't work.",
-            "_fr": "Un vilain monstre qui mange les ondes radio flottant dans les airs. Si ce type est là, mon portable ne fonctionnera pas."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Padrézo se trouve sur les poteaux électriques duCoteau fleuriet de la gare deÉlectropolis."
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Poing un-deux",
+        "puissance": "15x2|33x2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Foudre",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Choc électrique",
+        "puissance": "60|157",
+        "description": "Libère les charges électriques accumulées sur ses ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Paralysie",
+        "puissance": "N/A",
+        "description": "Ralentit un ennemi grâce à un choc électrique."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Jeu de foudre",
+        "description": "Augmente les dégâts des attaques de foudre."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Poing un-deux",
+        "puissance": "15x2|33x2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Foudre",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Choc électrique",
+        "puissance": "55|144",
+        "description": "Libère les charges électriques accumulées sur ses ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Paralysie",
+        "puissance": "N/A",
+        "description": "Ralentit un ennemi grâce à un choc électrique."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Foudre",
+        "puissance": "N/A",
+        "description": "Foudroie les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Jeu de foudre",
+        "description": "Augmente les dégâts de ses attaques de foudre."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Choc électrique",
+        "puissance": "80×5",
+        "description": "La foudre inflige de gros dégâts aux ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Décharge",
+        "puissance": "40",
+        "description": "Utilise un sort électrique. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Foudre",
+        "puissance": "50",
+        "description": "Un sort électrique puissant. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Foudre !",
+        "description": "Ajoute de la foudre aux attaques."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Poing un-deux",
+        "puissance": "25×2|55×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Foudre",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Choc électrique",
+        "puissance": "73|219",
+        "description": "Libère les charges électriques accumulées sur les ennemis à portée."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Paralysie",
+        "puissance": "N/A",
+        "description": "Immobilise un ennemi grâce à un choc électrique !"
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Choc électrique",
+        "puissance": "80×5",
+        "description": "Déluge de foudre qui inflige des dégâts élevés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Décharge",
+        "puissance": "40",
+        "description": "Technique de foudre+. Plus de dégâts si chargée."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive des attaques par des déplacements rapides."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Jeu de foudre",
+        "description": "Booste les dégâts de foudre de tous les Yo-kai."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Amulette parafoudre"
+      },
+      {
+        "taux": "?%",
+        "objet": "Y-Cola"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Badge mignon"
+      },
+      {
+        "taux": "?%",
+        "objet": "Y-Cola"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Étoile dansante"
+      },
+      {
+        "taux": "?%",
+        "objet": "Chips"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Jeu de foudre",
+    "description": "Augmente les dégâts des attaques de foudre."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/padrezo.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/padrezo.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/padrezo.wav",
+  "oldID": "49",
+  "medallium_ids": {
+    "yw1": "043",
+    "yw2": "063",
+    "yw3": "102"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "073",
+    "yw Blasters 2": "103",
+    "yw Wibble Wobble": "2010",
+    "yw World": "0037",
+    "yw Ukiukipedia": "yw1-007"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Lightning Play",
+  "skill_effect": "Paralyze",
+  "disliked_food": "Oden",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "305",
+        "STR": "119",
+        "SPR": "143",
+        "DEF": "108",
+        "SPD": "155"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "331",
+        "STR": "119",
+        "SPR": "143",
+        "DEF": "108",
+        "SPD": "155"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "117-204",
+        "STR": "53",
+        "SPR": "205",
+        "DEF": "126",
+        "SPD": "138"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "117-204"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "117-204"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "117-204"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "でんぱく小僧",
+      "Denpaku-kozō"
+    ],
+    "Spanish": [
+      "Ondívoro"
+    ],
+    "French": [
+      "Padrézo"
+    ],
+    "Italian": [
+      "Segnam"
+    ],
+    "German": [
+      "Spannsel"
+    ],
+    "Korean": [
+      "냠냠동자",
+      "Nyamnyamdongja"
+    ],
+    "Russian": [
+      "Радиогрыз",
+      "Radiogryz"
+    ],
+    "Arabic": [
+      "هرتوز",
+      "Hartūz"
+    ],
+    "Chinese (Cantonese)": [
+      "電波小僧"
+    ],
+    "Chinese (Mandarin)": [
+      "電波小鬼"
+    ],
+    "Portuguese (Brazilian)": [
+      "Interferêncio"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "でんぱく小僧"
+    ],
+    "Spanish": [
+      "Ondívoro"
+    ],
+    "French": [
+      "Padrézo"
+    ],
+    "Italian": [
+      "Segnam"
+    ],
+    "German": [
+      "Spannsel"
+    ],
+    "Korean": [
+      "냠냠동자"
+    ],
+    "Russian": [
+      "Радиогрыз"
+    ],
+    "Arabic": [
+      "هرتوز"
+    ],
+    "Chinese (Cantonese)": [
+      "電波小僧"
+    ],
+    "Chinese (Mandarin)": [
+      "電波小鬼"
+    ],
+    "Portuguese (Brazilian)": [
+      "Interferêncio"
+    ]
+  },
+  "description_en": "A mischievous Yo-kai that snacks on radio waves in the air. You'll lose a few bars on your phone when he's around.",
+  "nom_en": "Baku",
+  "rang_yww": "D",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "collation",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的",
+    "_en": "(Attack role) Reisei, Zunou target",
+    "_fr": "(Rôle d'attaque) Reisei, cible de Zunou"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 43,
+    "str": 6,
+    "spr": 28,
+    "def": 12,
+    "spd": 16
+  },
+  "stats_max_yww": {
+    "hp": 321,
+    "str": 48,
+    "spr": 200,
+    "def": 121,
+    "spd": 133
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ワンツーパンチ",
+        "_en": "one two punch",
+        "_fr": "un deux coups de poing"
+      },
+      "explication": {
+        "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+        "_en": "[Power: 25×2/Blow] Attack twice",
+        "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "いかずちの術",
+        "_en": "Ikazuchi no Jutsu",
+        "_fr": "Ikazuchi no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 雷属性】 強力な雷の妖術を使う。",
+        "_en": "[Power: 50 / Lightning attribute] Uses powerful lightning magic.",
+        "_fr": "[Puissance : 50 / Attribut Foudre] Utilise une puissante magie de foudre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "デンデンショック",
+        "_en": "den den shock",
+        "_fr": "den den choc"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "しびれさせる",
+        "_en": "numb",
+        "_fr": "engourdi"
+      },
+      "explication": {
+        "_jp": "【–】 –",
+        "_en": null,
+        "_fr": null
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "空中にただよう電波を ぱくぱくと食べてしまう わんぱくな妖怪。 こいつがいると 携帯電話が 通じなくなってしまう。",
+      "_en": "A naughty monster that eats radio waves floating in the air. If this guy is here, my cell phone won't work.",
+      "_fr": "Un vilain monstre qui mange les ondes radio flottant dans les airs. Si ce type est là, mon portable ne fonctionnera pas."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "49",
+  "Name_yww": "でんぱく小僧",
+  "description_jp_yww": "空中にただよう電波を ぱくぱくと食べてしまう わんぱくな妖怪。 こいつがいると　携帯電話が 通じなくなってしまう。",
+  "BingoMessage_jp_yww": "いえーい！　外だぜ！　お前！ ありがとなーっ！　ともだちなろーぜえ！！",
+  "MonsterId_yww": "y128000",
+  "Height_yww": 7.0,
+  "CommondId_yww": "sp_128000",
+  "MinHp_yww": 43,
+  "MaxHp_yww": 321,
+  "MinAttack_yww": 6,
+  "MaxAttack_yww": 48,
+  "MinMagic_yww": 28,
+  "MaxMagic_yww": 200,
+  "MinDefense_yww": 12,
+  "MaxDefense_yww": 121,
+  "MinSpeed_yww": 16,
+  "MaxSpeed_yww": 133,
+  "AttackId_yww": 5,
+  "MagicId_yww": 8,
+  "HauntId_yww": 128000,
+  "SpSkillId_yww": 128000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 17,
+  "DislikeFoodKind_yww": 15,
+  "ActionType_yww": 9,
+  "TribeType_yww": 2,
+  "MedallionImage_yww": "y123800.png",
+  "SpriteImage_yww": "img_y123800.png",
+  "Audio_yww": "sp_y123800.wav",
+  "Description_yww": "Un yōkai espiègle qui avale goulûment les ondes qui flottent dans les airs. Quand il est dans les parages, les téléphones portables ne fonctionnent plus.",
+  "BingoMessage_fr_yww": "Youpi ! On est dehors ! T'es là, toi ! Merci beaucoup ! On va devenir potes, hein !!"
 }

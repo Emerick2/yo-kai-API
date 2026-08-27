@@ -1,117 +1,45 @@
 {
-    "Nom": "Erubi",
-    "Tribue": "Mystérieu",
-    "Rang": "S",
-    "nom_original": "USAピョンサンタ",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "",
-    "nourriture": "Donut",
-    "nourriture_favorite": "Donut",
-    "élément": "",
-    "Rôle": "attaquant",
-    "rang_yww": "B",
-    "tribue_yww": "Usurakage",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Donut",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "stats_initiale_yww": {
-        "hp": 54,
-        "str": 31,
-        "spr": 5,
-        "def": 17,
-        "spd": 21
-    },
-    "stats_max_yww": {},
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ショット",
-                "_en": "shot",
-                "_fr": "tir"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 50/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 50/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "あられの術",
-                "_en": "Hail no jutsu",
-                "_fr": "Salut, pas de jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 氷属性】 氷の妖術を使う。",
-                "_en": "[Power: 30 / Ice attribute] Uses ice magic.",
-                "_fr": "[Puissance : 30 / Attribut Glace] Utilise la magie de la glace."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "メリクリ特大ビーム",
-                "_en": "Merikuri extra large beam",
-                "_fr": "Poutre extra large Merikuri"
-            },
-            "pouvoir": "28×5",
-            "explication": {
-                "_jp": "サンタスーツの不思議な力で 極太ビームを放ち 正面の敵に ダメージを与える",
-                "_en": "Using the mysterious power of Santa's suit, it emits an extremely thick beam that damages the enemy in front of it.",
-                "_fr": "Utilisant le pouvoir mystérieux du costume du Père Noël, il émet un faisceau extrêmement épais qui endommage l'ennemi devant lui."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ぶちまけプレゼント",
-                "_en": "A surprise present",
-                "_fr": "Un cadeau surprise"
-            },
-            "explication": {
-                "_jp": "【まもりダウン】 プレゼントをぶちまけてしまい まもりがダウン",
-                "_en": "[Mamori down] I threw away the present and my mamori went down.",
-                "_fr": "[Mamori à terre] J'ai jeté le cadeau et mon Mamori est tombé."
-            }
-        }
-    ],
-    "explication_yww": [],
-    "oldID": "1154",
-    "ID": "1152",
-    "nom_en": "Hijiri Inugami",
-    "premiere_apparition": "yww",
-    "jeu_present": [
-        "yww"
-    ]
+  "Nom": "チョコほしガルル",
+  "nom_original": "チョコほしガルル",
+  "Rang": 6,
+  "PV": 409,
+  "Force": 280,
+  "Esprit": 66,
+  "Défense": 132,
+  "Vitesse": 163,
+  "Description": "À la Saint-Valentin, en quête d'un amour passionné, Atsu Garuru réclame des chocolats. Mais à cause de son corps brûlant, même si quelqu'un lui en apporte, ils finissent par fondre et elle ne peut pas les manger.",
+  "nourriture": 18,
+  "nourriture_favorite": 18,
+  "disliked_food": 10,
+  "id_yww": "832",
+  "Name_yww": "チョコほしガルル",
+  "description_jp_yww": "バレンタインに情熱の愛を求め チョコを欲しがる　あつガルル。 しかし　そのアツい体のせいで 誰かが　チョコを持ってきても 溶けてしまって　食べられない。",
+  "BingoMessage_jp_yww": "オレの心を　熱くしてくれる… そんなチョコが　食べたいぜ！！",
+  "MonsterId_yww": "y5001020",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_5001020",
+  "MinHp_yww": 54,
+  "MaxHp_yww": 409,
+  "MinAttack_yww": 31,
+  "MaxAttack_yww": 280,
+  "MinMagic_yww": 9,
+  "MaxMagic_yww": 66,
+  "MinDefense_yww": 16,
+  "MaxDefense_yww": 132,
+  "MinSpeed_yww": 19,
+  "MaxSpeed_yww": 163,
+  "AttackId_yww": 41,
+  "MagicId_yww": 2,
+  "HauntId_yww": 5001020,
+  "SpSkillId_yww": 5001020,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 18,
+  "DislikeFoodKind_yww": 10,
+  "ActionType_yww": 4,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y4996820.png",
+  "SpriteImage_yww": "img_y4996820.png",
+  "Audio_yww": "sp_y4996820.wav",
+  "Description_yww": "À la Saint-Valentin, en quête d'un amour passionné, Atsu Garuru réclame des chocolats. Mais à cause de son corps brûlant, même si quelqu'un lui en apporte, ils finissent par fondre et elle ne peut pas les manger.",
+  "BingoMessage_fr_yww": "Qui me réchauffe le cœur… C'est exactement le genre de chocolat que j'ai envie de manger !!"
 }

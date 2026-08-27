@@ -1,484 +1,515 @@
 {
-    "ID": "274",
-    "Nom": "Ovide",
-    "Tribue": "Mystérieu",
-    "Rang": "D",
-    "PV": "330",
-    "Force": "57",
-    "Esprit": "185",
-    "Défense": "119",
-    "Vitesse": "122",
-    "Description": "Ce Yo-kai Classique donne à ceux qu'il envoûte une expression absente.",
-    "nourriture": "Oden",
-    "élément": "Eau",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Ovide vient du prénom Ovide et de Vide faisant référence à son visage inexistant.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/ovide.png",
-    "numero": "050",
-    "nourriture_favorite": "Oden",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Farçade",
-            "effet": "Augmente la DÉF. de tous les Esprits farceurs."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coup de boule",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Torrent",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Charge neutre",
-            "effet": "Aucune affiliation élémentaire et efficace contre tout type d'ennemi. 65 | 170"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Pâle figure",
-            "effet": "Le visage du Yo-kai devient vide, ce qui baisse sa DÉF."
-        }
+  "ID": "274",
+  "Nom": "Ovide",
+  "Tribue": "Mystérieu",
+  "Rang": "D",
+  "PV": "330",
+  "Force": "57",
+  "Esprit": "185",
+  "Défense": "119",
+  "Vitesse": "122",
+  "Description": "Ce Yo-kai Classique donne à ceux qu'il envoûte une expression absente.",
+  "nourriture": "Oden",
+  "élément": "Eau",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Ovide vient du prénom Ovide et de Vide faisant référence à son visage inexistant.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/ovide.png",
+  "numero": "050",
+  "nourriture_favorite": "Oden",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Farçade",
+      "effet": "Augmente la DÉF. de tous les Esprits farceurs."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coup de boule",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Torrent",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Charge neutre",
+      "effet": "Aucune affiliation élémentaire et efficace contre tout type d'ennemi. 65 | 170"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Pâle figure",
+      "effet": "Le visage du Yo-kai devient vide, ce qui baisse sa DÉF."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est trop bon !",
+    "Mange de la nourriture insipide": "Ça allait.",
+    "Mange de la mauvaise nourriture": "Ce sera non.",
+    "A la flemme": "Huh.",
+    "Est échangé": "On ne se serait pas déjà vus ? J'ai comme un vide...",
+    "Devient ton ami": "Ton visage est très expressif... J'aimerais bien qu'on soit amis !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "のっぺら坊",
+  "nom_anglais": "Faysoff",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Kiyono Yasuno",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2 - Esprits Farceurs": [
+      "Trouvé auVieux Granval."
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est trop bon !",
-        "Mange de la nourriture insipide": "Ça allait.",
-        "Mange de la mauvaise nourriture": "Ce sera non.",
-        "A la flemme": "Huh.",
-        "Est échangé": "On ne se serait pas déjà vus ? J'ai comme un vide...",
-        "Devient ton ami": "Ton visage est très expressif... J'aimerais bien qu'on soit amis !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "のっぺら坊",
-    "nom_anglais": "Faysoff",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Kiyono Yasuno",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2 - Esprits Farceurs": [
-            "Trouvé auVieux Granval."
-        ],
-        "yw3": [
-            "Hauts de Granval- sous les voitures",
-            "Bingo-kai-Pièce jaune- 3e prix (Granval)"
-        ]
-    },
-    "rarite": "Classic icon",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de boule",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Torrent",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Charge neutre",
-                "puissance": "65|170",
-                "description": "Aucune affiliation élémentaire et efficace contre tout type d'ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Pâle figure",
-                "puissance": "N/A",
-                "description": "Le visage du Yo-kai devient vide, ce qui baisse sa DÉF."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Torrent",
-                "puissance": "N/A",
-                "description": "Un jet d'eau attaque les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Farçade",
-                "description": "Augmente la DÉF. de tous les Esprits farceurs."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Charge neutre",
-                "puissance": "67×6",
-                "description": "Une flamme bleue qui inflige de gros dégâts."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Torrent",
-                "puissance": "40",
-                "description": "Utilise un sort d'eau. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Position offensive",
-                "puissance": "___",
-                "description": "Hausse de l'attaque temporaire."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Peau brillante",
-                "description": "Immunité contre les coups critiques."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de boule",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Torrent",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Charge neutre",
-                "puissance": "100|300",
-                "description": "Invoque des esprits sans élément pour attaquer les ennemis à portée."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Pâle figure",
-                "puissance": "N/A",
-                "description": "Le visage du Yo-kai devient vide, ce qui baisse sa DÉF."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Triple attaque",
-                "puissance": "30",
-                "description": "Attaque trois fois. Le coup ultime est plus puissant."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Charge neutre",
-                "puissance": "66×6",
-                "description": "Flammes bleues brûlant les ennemis. Dégâts élevés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Torrent",
-                "puissance": "40",
-                "description": "Technique d'eau+. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque l’ennemi avec une attaque féroce."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Peau brillante",
-                "description": "Ne subit pas de dégâts critiques."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Bracelet de farceur"
-            },
-            {
-                "taux": "?%",
-                "objet": "Maki concombre"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Billet de loterie"
-            },
-            {
-                "taux": "?%",
-                "objet": "Œuf à la coque"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Farçade",
-        "description": "Augmente la DÉF. de tous les Esprits farceurs."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/ovide.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/ovide.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/ovide.wav",
-    "oldID": "278",
-    "medallium_ids": {
-        "yw2": "050",
-        "yw3": "084"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "059",
-        "yw Blasters 2": "084",
-        "Three Kingdoms": "055",
-        "yw Ukiukipedia": "yw5-005/YD6-008"
-    },
-    "battle_type": "Classic",
-    "skill_name": "Bony Bond yw2 Glossy Skin yw3",
-    "skill_effect": "Blank Slate yw2 Losing Face yw3",
-    "disliked_food": "Sweets",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "340",
-                "STR": "92",
-                "SPR": "164",
-                "DEF": "108",
-                "SPD": "154"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "340",
-                "STR": "62",
-                "SPR": "190",
-                "DEF": "124",
-                "SPD": "127"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "のっぺら坊",
-            "Noppera-bō"
-        ],
-        "Spanish": [
-            "Sincara"
-        ],
-        "French": [
-            "Ovide"
-        ],
-        "Italian": [
-            "Voltovuoto"
-        ],
-        "German": [
-            "Untlitz"
-        ],
-        "Dutch": [
-            "Faysoff"
-        ],
-        "Korean": [
-            "없구리",
-            "Eopguri"
-        ],
-        "Russian": [
-            "Постнолик",
-            "Postnolik"
-        ],
-        "Arabic": [
-            "عتيق",
-            "ʕatīq"
-        ],
-        "Portuguese (Brazilian)": [
-            "Semcara"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "のっぺら坊"
-        ],
-        "Spanish": [
-            "Sincara"
-        ],
-        "French": [
-            "Ovide"
-        ],
-        "Italian": [
-            "Voltovuoto"
-        ],
-        "German": [
-            "Untlitz"
-        ],
-        "Dutch": [
-            "Faysoff"
-        ],
-        "Korean": [
-            "없구리"
-        ],
-        "Russian": [
-            "Постнолик"
-        ],
-        "Arabic": [
-            "عتيق"
-        ],
-        "Portuguese (Brazilian)": [
-            "Semcara"
-        ]
-    },
-    "description_en": "This most classic of Classic Yo-kai can give anyone he Inspirits a completely blank expression.",
-    "nom_en": "Enduriphant",
-    "rang_yww": "D",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Oden",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 40,
-        "str": 4,
-        "spr": 30,
-        "def": 13,
-        "spd": 19
-    },
-    "stats_max_yww": {
-        "hp": 330,
-        "str": 57,
-        "spr": 185,
-        "def": 119,
-        "spd": 122
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "ドキドキ妖怪きもだめしイベントで出現",
-            "_en": "Appearing in the exciting monster Kimodameshi event",
-            "_fr": "Apparaissant dans l'événement passionnant du monstre Kimodameshi"
-        }
-    ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ずつき",
-                "_en": "Zutsuki",
-                "_fr": "Zutsuki"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体に攻撃する。",
-                "_en": "[Power: 30/Blow] Attacks one enemy.",
-                "_fr": "[Puissance : 30/Coup] Attaque un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "放水の術",
-                "_en": "Water release technique",
-                "_fr": "Technique de libération d'eau"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 水属性】 水の妖術を使う。",
-                "_en": "[Power: 40 / Water attribute] Uses water magic.",
-                "_fr": "[Puissance : 40 / Attribut Eau] Utilise la magie de l'eau."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ザ・無表情",
-                "_en": "The expressionless",
-                "_fr": "L'inexpressif"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "のっぺりさせる",
-                "_en": "make it flat",
-                "_fr": "rends-le plat"
-            },
-            "explication": {
-                "_jp": "【まもりダウン】 とりつかれた妖怪は顔がのっぺりしてしまい まもりがダウンする。",
-                "_en": "[Mamori Down] A possessed monster's face becomes flat and its protection goes down.",
-                "_fr": "[Mamori Down] Le visage d'un monstre possédé devient plat et sa protection diminue."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "古典中の古典として 古くから親しまれている妖怪。 とりついた人を 無表情にしてしまう力は あまり知られていないようだ。",
-            "_en": "A monster that has been popular since ancient times as a classic among classics. It seems that not many people are aware of its power to turn those it possesses into expressionless.",
-            "_fr": "Un monstre populaire depuis l'Antiquité comme un classique parmi les classiques. Il semble que peu de gens soient conscients de son pouvoir de rendre inexpressifs ceux qu’il possède."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Hauts de Granval- sous les voitures",
+      "Bingo-kai-Pièce jaune- 3e prix (Granval)"
     ]
+  },
+  "rarite": "Classic icon",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de boule",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Torrent",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Charge neutre",
+        "puissance": "65|170",
+        "description": "Aucune affiliation élémentaire et efficace contre tout type d'ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Pâle figure",
+        "puissance": "N/A",
+        "description": "Le visage du Yo-kai devient vide, ce qui baisse sa DÉF."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Torrent",
+        "puissance": "N/A",
+        "description": "Un jet d'eau attaque les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Farçade",
+        "description": "Augmente la DÉF. de tous les Esprits farceurs."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Jusqu'à 3 attaques consécutives. Dernière attaque plus forte."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Charge neutre",
+        "puissance": "67×6",
+        "description": "Une flamme bleue qui inflige de gros dégâts."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Torrent",
+        "puissance": "40",
+        "description": "Utilise un sort d'eau. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Position offensive",
+        "puissance": "___",
+        "description": "Hausse de l'attaque temporaire."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Peau brillante",
+        "description": "Immunité contre les coups critiques."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de boule",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Torrent",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Charge neutre",
+        "puissance": "100|300",
+        "description": "Invoque des esprits sans élément pour attaquer les ennemis à portée."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Pâle figure",
+        "puissance": "N/A",
+        "description": "Le visage du Yo-kai devient vide, ce qui baisse sa DÉF."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Triple attaque",
+        "puissance": "30",
+        "description": "Attaque trois fois. Le coup ultime est plus puissant."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Charge neutre",
+        "puissance": "66×6",
+        "description": "Flammes bleues brûlant les ennemis. Dégâts élevés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Torrent",
+        "puissance": "40",
+        "description": "Technique d'eau+. Plus de dégâts si chargée."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque l’ennemi avec une attaque féroce."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Peau brillante",
+        "description": "Ne subit pas de dégâts critiques."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Bracelet de farceur"
+      },
+      {
+        "taux": "?%",
+        "objet": "Maki concombre"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Billet de loterie"
+      },
+      {
+        "taux": "?%",
+        "objet": "Œuf à la coque"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Farçade",
+    "description": "Augmente la DÉF. de tous les Esprits farceurs."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/ovide.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/ovide.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/ovide.wav",
+  "oldID": "278",
+  "medallium_ids": {
+    "yw2": "050",
+    "yw3": "084"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "059",
+    "yw Blasters 2": "084",
+    "Three Kingdoms": "055",
+    "yw Ukiukipedia": "yw5-005/YD6-008"
+  },
+  "battle_type": "Classic",
+  "skill_name": "Bony Bond yw2 Glossy Skin yw3",
+  "skill_effect": "Blank Slate yw2 Losing Face yw3",
+  "disliked_food": "Sweets",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "340",
+        "STR": "92",
+        "SPR": "164",
+        "DEF": "108",
+        "SPD": "154"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "340",
+        "STR": "62",
+        "SPR": "190",
+        "DEF": "124",
+        "SPD": "127"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "のっぺら坊",
+      "Noppera-bō"
+    ],
+    "Spanish": [
+      "Sincara"
+    ],
+    "French": [
+      "Ovide"
+    ],
+    "Italian": [
+      "Voltovuoto"
+    ],
+    "German": [
+      "Untlitz"
+    ],
+    "Dutch": [
+      "Faysoff"
+    ],
+    "Korean": [
+      "없구리",
+      "Eopguri"
+    ],
+    "Russian": [
+      "Постнолик",
+      "Postnolik"
+    ],
+    "Arabic": [
+      "عتيق",
+      "ʕatīq"
+    ],
+    "Portuguese (Brazilian)": [
+      "Semcara"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "のっぺら坊"
+    ],
+    "Spanish": [
+      "Sincara"
+    ],
+    "French": [
+      "Ovide"
+    ],
+    "Italian": [
+      "Voltovuoto"
+    ],
+    "German": [
+      "Untlitz"
+    ],
+    "Dutch": [
+      "Faysoff"
+    ],
+    "Korean": [
+      "없구리"
+    ],
+    "Russian": [
+      "Постнолик"
+    ],
+    "Arabic": [
+      "عتيق"
+    ],
+    "Portuguese (Brazilian)": [
+      "Semcara"
+    ]
+  },
+  "description_en": "This most classic of Classic Yo-kai can give anyone he Inspirits a completely blank expression.",
+  "nom_en": "Enduriphant",
+  "rang_yww": "D",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "Oden",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 40,
+    "str": 4,
+    "spr": 30,
+    "def": 13,
+    "spd": 19
+  },
+  "stats_max_yww": {
+    "hp": 330,
+    "str": 57,
+    "spr": 185,
+    "def": 119,
+    "spd": 122
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "ドキドキ妖怪きもだめしイベントで出現",
+      "_en": "Appearing in the exciting monster Kimodameshi event",
+      "_fr": "Apparaissant dans l'événement passionnant du monstre Kimodameshi"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ずつき",
+        "_en": "Zutsuki",
+        "_fr": "Zutsuki"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体に攻撃する。",
+        "_en": "[Power: 30/Blow] Attacks one enemy.",
+        "_fr": "[Puissance : 30/Coup] Attaque un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "放水の術",
+        "_en": "Water release technique",
+        "_fr": "Technique de libération d'eau"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 水属性】 水の妖術を使う。",
+        "_en": "[Power: 40 / Water attribute] Uses water magic.",
+        "_fr": "[Puissance : 40 / Attribut Eau] Utilise la magie de l'eau."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ザ・無表情",
+        "_en": "The expressionless",
+        "_fr": "L'inexpressif"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "のっぺりさせる",
+        "_en": "make it flat",
+        "_fr": "rends-le plat"
+      },
+      "explication": {
+        "_jp": "【まもりダウン】 とりつかれた妖怪は顔がのっぺりしてしまい まもりがダウンする。",
+        "_en": "[Mamori Down] A possessed monster's face becomes flat and its protection goes down.",
+        "_fr": "[Mamori Down] Le visage d'un monstre possédé devient plat et sa protection diminue."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "古典中の古典として 古くから親しまれている妖怪。 とりついた人を 無表情にしてしまう力は あまり知られていないようだ。",
+      "_en": "A monster that has been popular since ancient times as a classic among classics. It seems that not many people are aware of its power to turn those it possesses into expressionless.",
+      "_fr": "Un monstre populaire depuis l'Antiquité comme un classique parmi les classiques. Il semble que peu de gens soient conscients de son pouvoir de rendre inexpressifs ceux qu’il possède."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "277",
+  "Name_yww": "のっぺら坊",
+  "description_jp_yww": "古典中の古典として 古くから親しまれている妖怪。 とりついた人を 無表情にしてしまう力は あまり知られていないようだ。",
+  "BingoMessage_jp_yww": "おいら無表情だけど　感謝してるよ～ おともだちに　してくれるよね？",
+  "MonsterId_yww": "y267000",
+  "Height_yww": 8.52,
+  "CommondId_yww": "sp_267000",
+  "MinHp_yww": 40,
+  "MaxHp_yww": 330,
+  "MinAttack_yww": 4,
+  "MaxAttack_yww": 57,
+  "MinMagic_yww": 30,
+  "MaxMagic_yww": 185,
+  "MinDefense_yww": 13,
+  "MaxDefense_yww": 119,
+  "MinSpeed_yww": 19,
+  "MaxSpeed_yww": 122,
+  "AttackId_yww": 22,
+  "MagicId_yww": 4,
+  "HauntId_yww": 267000,
+  "SpSkillId_yww": 267000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 15,
+  "DislikeFoodKind_yww": 14,
+  "ActionType_yww": 9,
+  "TribeType_yww": 2,
+  "MedallionImage_yww": "y262800.png",
+  "SpriteImage_yww": "img_y262800.png",
+  "Audio_yww": "sp_y262800.wav",
+  "Description_yww": "Considéré comme un grand classique parmi les classiques, c'est un yōkai apprécié depuis très longtemps. Son pouvoir, qui rend la personne qu'il possède impassible, semble toutefois peu connu.",
+  "BingoMessage_fr_yww": "J'ai l'air impassible, mais je te suis reconnaissant, tu sais~ Tu veux bien être mon ami, hein ?"
 }

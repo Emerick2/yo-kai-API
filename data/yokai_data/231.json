@@ -1,488 +1,519 @@
 {
-    "ID": "231",
-    "Nom": "Camaïeul",
-    "Tribue": "Bienveillant",
-    "Rang": "S",
-    "PV": "370",
-    "Force": "102",
-    "Esprit": "299",
-    "Défense": "115",
-    "Vitesse": "172",
-    "Description": "Ce légendaire Granpapéti aurait inondé une ville de fleurs de cerisier revigorantes.",
-    "nourriture": "Riz",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "Camaïeul vient de Camaïeu et Aïeul.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/camaieul.png",
-    "numero": "216",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Traitement",
-            "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coup de boule",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paradis",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Floraison",
-            "effet": "Ranime ses alliés et restaure leurs PV avec des fleurs de cerisier."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Floraison miracle",
-            "effet": "Augmente fortement la VIT. d'un allié grâce aux fleurs de cerisiers."
-        }
+  "ID": "231",
+  "Nom": "Camaïeul",
+  "Tribue": "Bienveillant",
+  "Rang": "S",
+  "PV": "370",
+  "Force": "102",
+  "Esprit": "299",
+  "Défense": "115",
+  "Vitesse": "172",
+  "Description": "Ce légendaire Granpapéti aurait inondé une ville de fleurs de cerisier revigorantes.",
+  "nourriture": "Riz",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "Camaïeul vient de Camaïeu et Aïeul.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/camaieul.png",
+  "numero": "216",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Traitement",
+      "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coup de boule",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paradis",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Floraison",
+      "effet": "Ranime ses alliés et restaure leurs PV avec des fleurs de cerisier."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Floraison miracle",
+      "effet": "Augmente fortement la VIT. d'un allié grâce aux fleurs de cerisiers."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Délicieux !",
+    "Mange de la nourriture insipide": "Euh...",
+    "Mange de la mauvaise nourriture": "Beurk...",
+    "A la flemme": "Pfiou...",
+    "Est échangé": "Il en faut plus ! Plus de fleurs ! Je vais remplir la terre de fleurs et de pétales !",
+    "Devient ton ami": "Embarquons-nous dans une amitié fleurissante à travers la ville !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "花さか爺",
+  "nom_anglais": "Elder Bloom",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Adrien Solis",
+    "anglaise": ""
+  },
+  "localisations": {
+    "Général": [
+      "Il faut réunir ces huit Yo-kai pour obtenir Camaïeul :"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Délicieux !",
-        "Mange de la nourriture insipide": "Euh...",
-        "Mange de la mauvaise nourriture": "Beurk...",
-        "A la flemme": "Pfiou...",
-        "Est échangé": "Il en faut plus ! Plus de fleurs ! Je vais remplir la terre de fleurs et de pétales !",
-        "Devient ton ami": "Embarquons-nous dans une amitié fleurissante à travers la ville !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "花さか爺",
-    "nom_anglais": "Elder Bloom",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Adrien Solis",
-        "anglaise": ""
-    },
-    "localisations": {
-        "Général": [
-            "Il faut réunir ces huit Yo-kai pour obtenir Camaïeul :"
-        ],
-        "yw1": [],
-        "yw2": [],
-        "yw Blasters 1": [],
-        "yw3": [],
-        "yw Wibble Wobble": [],
-        "yw Blasters 2": []
-    },
-    "rarite": "Légende Icon",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de boule",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Floraison",
-                "puissance": "___",
-                "description": "Ranime ses alliés et restaure leurs PV avec des fleurs de cerisier."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Floraison miracle",
-                "puissance": "N/A",
-                "description": "Augmente la VIT. d'un allié grâce aux fleurs de cerisier."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Redonne des PV au Yo-kai voisin."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de boule",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Floraison",
-                "puissance": "___",
-                "description": "Ranime ses alliés et restaure leurs PV avec des fleurs de cerisier."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Floraison miracle",
-                "puissance": "N/A",
-                "description": "Augmente fortement la VIT. d'un allié grâce aux fleurs de cerisier."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Redonne peu à peu des PV aux Yo-kai voisins."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Floraison",
-                "puissance": "400",
-                "description": "Alliés retrouvent beaucoup de PV. Alliés K.-O réanimés."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Paradis",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Cercle guérisseur",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Boost de vitesse +",
-                "puissance": "___",
-                "description": "Forte hausse VIT. alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Floraison",
-                "description": "Restaure l'allié plus vite et récupère ses PV."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de boule",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Floraison",
-                "puissance": "___",
-                "description": "Ranime tous ses alliés et restaure leurs PV avec des fleurs de cerisier."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Floraison miracle",
-                "puissance": "N/A",
-                "description": "Augmente la VIT. d'un allié grâce aux fleurs de cerisier."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Rend peu à peu des PV à tous les alliés reliés."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Traitement",
+    "yw1": [],
+    "yw2": [],
+    "yw Blasters 1": [],
+    "yw3": [],
+    "yw Wibble Wobble": [],
+    "yw Blasters 2": []
+  },
+  "rarite": "Légende Icon",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de boule",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Floraison",
+        "puissance": "___",
+        "description": "Ranime ses alliés et restaure leurs PV avec des fleurs de cerisier."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Floraison miracle",
+        "puissance": "N/A",
+        "description": "Augmente la VIT. d'un allié grâce aux fleurs de cerisier."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
         "description": "Redonne des PV au Yo-kai voisin."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/camaieul.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/camaieul.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/camaieul.wav",
-    "oldID": "230",
-    "medallium_ids": {
-        "yw1": "216",
-        "yw2": "326",
-        "yw3": "612"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "387",
-        "yw Wibble Wobble": "5013",
-        "yw Ukiukipedia": "yw2-028/YD1-037"
-    },
-    "battle_type": "Legendary",
-    "skill_name": "Caring",
-    "skill_effect": "Miracle Blossom",
-    "disliked_food": "Bread",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "363",
-                "STR": "138",
-                "SPR": "236",
-                "DEF": "153",
-                "SPD": "233"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "380",
-                "STR": "138",
-                "SPR": "236",
-                "DEF": "153",
-                "SPD": "233"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "410-695",
-                "STR": "107",
-                "SPR": "304",
-                "DEF": "120",
-                "SPD": "177"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "Attribute tolerance": {
-            "stats": {
-                "HP": "410-695"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "410-695"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "410-695"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "410-695"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "花さか爺",
-            "Hanasaka-jii"
-        ],
-        "Spanish": [
-            "Abuflorido"
-        ],
-        "French": [
-            "Camaïeul"
-        ],
-        "Italian": [
-            "Senilfior"
-        ],
-        "German": [
-            "Vati"
-        ],
-        "Korean": [
-            "꽃감",
-            "Kkochgam"
-        ],
-        "Russian": [
-            "Староцвет",
-            "Starotsvet"
-        ],
-        "Arabic": [
-            "عبق",
-            "Eabaq"
-        ],
-        "Portuguese (Brazilian)": [
-            "Vovetusto"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "花さか爺"
-        ],
-        "Spanish": [
-            "Abuflorido"
-        ],
-        "French": [
-            "Camaïeul"
-        ],
-        "Italian": [
-            "Senilfior"
-        ],
-        "German": [
-            "Vati Blum"
-        ],
-        "Korean": [
-            "꽃감"
-        ],
-        "Russian": [
-            "Староцвет"
-        ],
-        "Arabic": [
-            "عبق"
-        ],
-        "Portuguese (Brazilian)": [
-            "Vovetusto"
-        ]
-    },
-    "description_en": "This legendary Hungramps supposedly once filled a city with spirit-invigorating cherry blossoms.",
-    "nom_en": "Shogunyan",
-    "rang_yww": "S",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "Onigiri",
-    "nourriture_favorite": "Onigiri",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 36,
-        "str": 15,
-        "spr": 54,
-        "def": 18,
-        "spd": 30
-    },
-    "stats_max_yww": {
-        "hp": 370,
-        "str": 102,
-        "spr": 299,
-        "def": 115,
-        "spd": 172
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "レジェンド解放",
-            "_en": "Legend release",
-            "_fr": "Sortie de légende"
-        }
+      }
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ずつき",
-                "_en": "Zutsuki",
-                "_fr": "Zutsuki"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体に攻撃する。",
-                "_en": "[Power: 30/Blow] Attacks one enemy.",
-                "_fr": "[Puissance : 30/Coup] Attaque un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "極楽の術",
-                "_en": "The art of paradise",
-                "_fr": "L'art du paradis"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
-            }
-        }
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de boule",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Floraison",
+        "puissance": "___",
+        "description": "Ranime ses alliés et restaure leurs PV avec des fleurs de cerisier."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Floraison miracle",
+        "puissance": "N/A",
+        "description": "Augmente fortement la VIT. d'un allié grâce aux fleurs de cerisier."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+      }
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "満開サクラサク",
-                "_en": "Cherry blossoms in full bloom",
-                "_fr": "Fleurs de cerisier en pleine floraison"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "奇跡の桜パワーで 味方全員を復活させ HPも回復する",
-                "_en": "Revive all allies and recover HP with miraculous cherry blossom power",
-                "_fr": "Ravivez tous les alliés et récupérez des PV grâce au pouvoir miraculeux des fleurs de cerisier."
-            }
-        }
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Floraison",
+        "puissance": "400",
+        "description": "Alliés retrouvent beaucoup de PV. Alliés K.-O réanimés."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Paradis",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Cercle guérisseur",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Boost de vitesse +",
+        "puissance": "___",
+        "description": "Forte hausse VIT. alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Floraison",
+        "description": "Restaure l'allié plus vite et récupère ses PV."
+      }
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "奇跡の桜",
-                "_en": "miraculous cherry blossoms",
-                "_fr": "fleurs de cerisier miraculeuses"
-            },
-            "explication": {
-                "_jp": "【すばやさアップ】 桜満開 すばやさがアップ",
-                "_en": "[Speed ​​up] Cherry blossoms in full bloom Speed ​​up",
-                "_fr": "[Accélérer] Fleurs de cerisier en pleine floraison Accélérer"
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "その昔 町中を 桜の花でいっぱいにしたという 伝説のひも爺。 その花には 魂を復活させる 力があるらしい。",
-            "_en": "A long time ago, there was a legendary man named Himo who filled the town with cherry blossoms. It seems that the flower has the power to revive the soul.",
-            "_fr": "Il y a bien longtemps, il y avait un homme légendaire nommé Himo qui remplissait la ville de fleurs de cerisier. Il semblerait que la fleur ait le pouvoir de raviver l’âme."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de boule",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Floraison",
+        "puissance": "___",
+        "description": "Ranime tous ses alliés et restaure leurs PV avec des fleurs de cerisier."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Floraison miracle",
+        "puissance": "N/A",
+        "description": "Augmente la VIT. d'un allié grâce aux fleurs de cerisier."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Rend peu à peu des PV à tous les alliés reliés."
+      }
     ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Traitement",
+    "description": "Redonne des PV au Yo-kai voisin."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/camaieul.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/camaieul.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/camaieul.wav",
+  "oldID": "230",
+  "medallium_ids": {
+    "yw1": "216",
+    "yw2": "326",
+    "yw3": "612"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "387",
+    "yw Wibble Wobble": "5013",
+    "yw Ukiukipedia": "yw2-028/YD1-037"
+  },
+  "battle_type": "Legendary",
+  "skill_name": "Caring",
+  "skill_effect": "Miracle Blossom",
+  "disliked_food": "Bread",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "363",
+        "STR": "138",
+        "SPR": "236",
+        "DEF": "153",
+        "SPD": "233"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "380",
+        "STR": "138",
+        "SPR": "236",
+        "DEF": "153",
+        "SPD": "233"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "410-695",
+        "STR": "107",
+        "SPR": "304",
+        "DEF": "120",
+        "SPD": "177"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "Attribute tolerance": {
+      "stats": {
+        "HP": "410-695"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "410-695"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "410-695"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "410-695"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "花さか爺",
+      "Hanasaka-jii"
+    ],
+    "Spanish": [
+      "Abuflorido"
+    ],
+    "French": [
+      "Camaïeul"
+    ],
+    "Italian": [
+      "Senilfior"
+    ],
+    "German": [
+      "Vati"
+    ],
+    "Korean": [
+      "꽃감",
+      "Kkochgam"
+    ],
+    "Russian": [
+      "Староцвет",
+      "Starotsvet"
+    ],
+    "Arabic": [
+      "عبق",
+      "Eabaq"
+    ],
+    "Portuguese (Brazilian)": [
+      "Vovetusto"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "花さか爺"
+    ],
+    "Spanish": [
+      "Abuflorido"
+    ],
+    "French": [
+      "Camaïeul"
+    ],
+    "Italian": [
+      "Senilfior"
+    ],
+    "German": [
+      "Vati Blum"
+    ],
+    "Korean": [
+      "꽃감"
+    ],
+    "Russian": [
+      "Староцвет"
+    ],
+    "Arabic": [
+      "عبق"
+    ],
+    "Portuguese (Brazilian)": [
+      "Vovetusto"
+    ]
+  },
+  "description_en": "This legendary Hungramps supposedly once filled a city with spirit-invigorating cherry blossoms.",
+  "nom_en": "Shogunyan",
+  "rang_yww": "S",
+  "tribue_yww": "Pokapoka",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "Onigiri",
+  "nourriture_favorite": "Onigiri",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 36,
+    "str": 15,
+    "spr": 54,
+    "def": 18,
+    "spd": 30
+  },
+  "stats_max_yww": {
+    "hp": 370,
+    "str": 102,
+    "spr": 299,
+    "def": 115,
+    "spd": 172
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "レジェンド解放",
+      "_en": "Legend release",
+      "_fr": "Sortie de légende"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ずつき",
+        "_en": "Zutsuki",
+        "_fr": "Zutsuki"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体に攻撃する。",
+        "_en": "[Power: 30/Blow] Attacks one enemy.",
+        "_fr": "[Puissance : 30/Coup] Attaque un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "極楽の術",
+        "_en": "The art of paradise",
+        "_fr": "L'art du paradis"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "満開サクラサク",
+        "_en": "Cherry blossoms in full bloom",
+        "_fr": "Fleurs de cerisier en pleine floraison"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "奇跡の桜パワーで 味方全員を復活させ HPも回復する",
+        "_en": "Revive all allies and recover HP with miraculous cherry blossom power",
+        "_fr": "Ravivez tous les alliés et récupérez des PV grâce au pouvoir miraculeux des fleurs de cerisier."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "奇跡の桜",
+        "_en": "miraculous cherry blossoms",
+        "_fr": "fleurs de cerisier miraculeuses"
+      },
+      "explication": {
+        "_jp": "【すばやさアップ】 桜満開 すばやさがアップ",
+        "_en": "[Speed ​​up] Cherry blossoms in full bloom Speed ​​up",
+        "_fr": "[Accélérer] Fleurs de cerisier en pleine floraison Accélérer"
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "その昔 町中を 桜の花でいっぱいにしたという 伝説のひも爺。 その花には 魂を復活させる 力があるらしい。",
+      "_en": "A long time ago, there was a legendary man named Himo who filled the town with cherry blossoms. It seems that the flower has the power to revive the soul.",
+      "_fr": "Il y a bien longtemps, il y avait un homme légendaire nommé Himo qui remplissait la ville de fleurs de cerisier. Il semblerait que la fleur ait le pouvoir de raviver l’âme."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "231",
+  "Name_yww": "花さか爺",
+  "description_jp_yww": "その昔　町中を 桜の花でいっぱいにしたという 伝説のひも爺。 その花には　魂を復活させる 力があるらしい。",
+  "BingoMessage_jp_yww": "花は好きかのぅ？ ワシと一緒に　ひと花咲かせんか？",
+  "MonsterId_yww": "y225000",
+  "Height_yww": 7.0,
+  "CommondId_yww": "sp_225000",
+  "MinHp_yww": 36,
+  "MaxHp_yww": 370,
+  "MinAttack_yww": 15,
+  "MaxAttack_yww": 102,
+  "MinMagic_yww": 54,
+  "MaxMagic_yww": 299,
+  "MinDefense_yww": 18,
+  "MaxDefense_yww": 115,
+  "MinSpeed_yww": 30,
+  "MaxSpeed_yww": 172,
+  "AttackId_yww": 22,
+  "MagicId_yww": 24,
+  "HauntId_yww": 225000,
+  "SpSkillId_yww": 225000,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 1,
+  "DislikeFoodKind_yww": 2,
+  "ActionType_yww": 15,
+  "TribeType_yww": 5,
+  "MedallionImage_yww": "y220800.png",
+  "SpriteImage_yww": "img_y220800.png",
+  "Audio_yww": "sp_y220800.wav",
+  "Description_yww": "Il y a bien longtemps, le légendaire « Himo-jii » aurait rempli toute la ville de fleurs de cerisier. Ces fleurs auraient apparemment le pouvoir de faire renaître les âmes.",
+  "BingoMessage_fr_yww": "Tu aimes les fleurs, peut-être ? Et si on faisait fleurir une fleur ensemble ?"
 }

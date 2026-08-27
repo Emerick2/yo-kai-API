@@ -1,582 +1,613 @@
 {
-    "ID": "77",
-    "Nom": "Hauber",
-    "Tribue": "Costaud",
-    "Rang": "D",
-    "PV": "443",
-    "Force": "101",
-    "Esprit": "67",
-    "Défense": "231",
-    "Vitesse": "85",
-    "Description": "Même sans sa tête, il se donne à 110 pour cent. Il rêve de retrouver sa tête. On ne sait pas comment il fait mais oui... il rêve bien.",
-    "nourriture": "Légume",
-    "élément": "Glace",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Hauber vient du haubert, une chemise de mailles portées par les hommes d'armes au Moyen-âge.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/hauber.png",
-    "numero": "063",
-    "nourriture_favorite": "Légume",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Esprit gardien",
-            "effet": "En défense, pas de dégâts élémentaires."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing puissant",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Grêle",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Moral d'acier",
-            "effet": "Donne un ordre qui augmente le moral et la DÉF. des alliés."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Défense d'acier",
-            "effet": "Renforce la DÉF. d'un allié grâce à la protection d'Hauber."
-        }
+  "ID": "77",
+  "Nom": "Hauber",
+  "Tribue": "Costaud",
+  "Rang": "D",
+  "PV": "443",
+  "Force": "101",
+  "Esprit": "67",
+  "Défense": "231",
+  "Vitesse": "85",
+  "Description": "Même sans sa tête, il se donne à 110 pour cent. Il rêve de retrouver sa tête. On ne sait pas comment il fait mais oui... il rêve bien.",
+  "nourriture": "Légume",
+  "élément": "Glace",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Hauber vient du haubert, une chemise de mailles portées par les hommes d'armes au Moyen-âge.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/hauber.png",
+  "numero": "063",
+  "nourriture_favorite": "Légume",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Esprit gardien",
+      "effet": "En défense, pas de dégâts élémentaires."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing puissant",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Grêle",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Moral d'acier",
+      "effet": "Donne un ordre qui augmente le moral et la DÉF. des alliés."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Défense d'acier",
+      "effet": "Renforce la DÉF. d'un allié grâce à la protection d'Hauber."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Enfin un truc bon !",
+    "Mange de la nourriture insipide": "Ça peut aller.",
+    "Mange de la mauvaise nourriture": "Je ne crois pas...",
+    "A la flemme": "Je suis perdu...",
+    "Est échangé": "Heaumer ? Oh, ta tête a son propre corps. Dommage.",
+    "Devient ton ami": "J'ai l'impression que mes aventures m'ont guidé vers notre rencontre."
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Hauber",
+      "parent2": "Heaumer",
+      "resultat": "Bushidos",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ヨロイさん",
+  "nom_anglais": "Armsman",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Vieux manoir- demeure"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Enfin un truc bon !",
-        "Mange de la nourriture insipide": "Ça peut aller.",
-        "Mange de la mauvaise nourriture": "Je ne crois pas...",
-        "A la flemme": "Je suis perdu...",
-        "Est échangé": "Heaumer ? Oh, ta tête a son propre corps. Dommage.",
-        "Devient ton ami": "J'ai l'impression que mes aventures m'ont guidé vers notre rencontre."
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Hauber",
-            "parent2": "Heaumer",
-            "resultat": "Bushidos",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Musée lac des Coloquintes - rdc"
     ],
-    "image_locale": "",
-    "nom_original": "ヨロイさん",
-    "nom_anglais": "Armsman",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Vieux manoir- demeure"
-        ],
-        "yw2": [
-            "Musée lac des Coloquintes - rdc"
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Coteau fleuri"
-        ],
-        "yw3": [
-            "Galerie du couchant- nuit"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Poing puissant",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Grêle",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Moral d'acier",
-                "puissance": "___",
-                "description": "Donne un ordre qui augmente le moral et la DÉF. des alliés."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Défense d'acier",
-                "puissance": "N/A",
-                "description": "Renforce la DÉF. d'un allié grâce à la protection d'Hauber."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "En défense, pas de dégâts élémentaires."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Poing puissant",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Grêle",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Moral d'acier",
-                "puissance": "___",
-                "description": "Donne un ordre qui augmente le moral et la DÉF. des alliés."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Défense d'acier",
-                "puissance": "N/A",
-                "description": "Renforce la DÉF. d'un allié grâce à la protection d'Hauber."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "En défense, pas de dégâts élémentaires."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Moral d'acier",
-                "puissance": "___",
-                "description": "Augmentation temporaire de la DÉF. des alliés à proximité."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Armure de fer",
-                "puissance": "___",
-                "description": "Forte réduction des dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "Ta jauge d'âme augmente si attaque ennemie gardée."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Poing puissant",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Grêle",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Moral d'acier",
-                "puissance": "___",
-                "description": "Remonte le moral à tous les alliés, augmentant fortement leur DÉF."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Défense d'acier",
-                "puissance": "N/A",
-                "description": "Renforce la DÉF. d'un allié grâce à la protection d'Hauber."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Moral d'acier",
-                "puissance": "___",
-                "description": "Booste +++ la DÉF. des alliés proches un instant."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque l’ennemi avec une attaque féroce."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "La garde permet d'éviter les dégâts liés à l'élément faible."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Tout sur la défense"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman de défense"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Tout sur la défense"
-            },
-            {
-                "taux": "?%",
-                "objet": "Poupée de fer"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Billet de loterie"
-            },
-            {
-                "taux": "?%",
-                "objet": "Carotte"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Esprit gardien",
-        "description": "En défense, pas de dégâts élémentaires."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/hauber.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/hauber.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/hauber.wav",
-    "oldID": "77",
-    "medallium_ids": {
-        "yw1": "063",
-        "yw2": "098",
-        "yw3": "160"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "108",
-        "yw Blasters 2": "163",
-        "yw Wibble Wobble": "3096",
-        "yw World": "0054"
-    },
-    "battle_type": "",
-    "skill_name": "Spirit Guard",
-    "skill_effect": "Armor Defense",
-    "disliked_food": "Hamburgers",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "381",
-                "STR": "133",
-                "SPR": "78",
-                "DEF": "152",
-                "SPD": "84"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "453",
-                "STR": "133",
-                "SPR": "78",
-                "DEF": "152",
-                "SPD": "84"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "406",
-                "STR": "140",
-                "SPR": "96",
-                "DEF": "218",
-                "SPD": "90"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "406",
-                "STR": "142",
-                "SPR": "91",
-                "DEF": "215"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "118-205"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "118-205",
-                "STR": "142",
-                "SPR": "91",
-                "DEF": "215"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "118-205"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ヨロイさん",
-            "Yoroi-san"
-        ],
-        "Spanish": [
-            "Lorigón"
-        ],
-        "French": [
-            "Hauber"
-        ],
-        "Italian": [
-            "Korpo"
-        ],
-        "German": [
-            "Panza"
-        ],
-        "Russian": [
-            "Броняг",
-            "Bronyag"
-        ],
-        "Arabic": [
-            "مدرع",
-            "Mudarraʿ"
-        ],
-        "Portuguese (Brazilian)": [
-            "Blindado"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ヨロイさん"
-        ],
-        "Spanish": [
-            "Lorigón"
-        ],
-        "French": [
-            "Hauber"
-        ],
-        "Italian": [
-            "Korpo"
-        ],
-        "German": [
-            "Panza"
-        ],
-        "Russian": [
-            "Броняг"
-        ],
-        "Arabic": [
-            "مدرع"
-        ],
-        "Portuguese (Brazilian)": [
-            "Blindado"
-        ]
-    },
-    "description_en": "Even headless, he gives 110 percent. He dreams of reuniting with his head someday... Not sure how he dreams—he just does.",
-    "nom_en": "Blowkade",
-    "rang_yww": "D",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "légumes",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "stats_initiale_yww": {
-        "hp": 57,
-        "str": 13,
-        "spr": 7,
-        "def": 26,
-        "spd": 10
-    },
-    "stats_max_yww": {
-        "hp": 443,
-        "str": 101,
-        "spr": 67,
-        "def": 231,
-        "spd": 85
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ぶんなぐる",
-                "_en": "wallop",
-                "_fr": "coup"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
-                "_en": "[Power: 50/Blow] Deal a big blow",
-                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "あられの術",
-                "_en": "Hail no jutsu",
-                "_fr": "Salut, pas de jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 氷属性】 氷の妖術を使う。",
-                "_en": "[Power: 30 / Ice attribute] Uses ice magic.",
-                "_fr": "[Puissance : 30 / Attribut Glace] Utilise la magie de la glace."
-            }
-        }
+    "yw Blasters 1": [
+      "Patrouille -Coteau fleuri"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "鋼鉄ヨロイがため",
-                "_en": "steel armoury",
-                "_fr": "armurerie en acier"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ヨロイの守り",
-                "_en": "Armor protection",
-                "_fr": "Protection blindée"
-            },
-            "explication": {
-                "_jp": "【まもりアップ】 とりつかれた妖怪はヨロイさんの加護でまもりがアップする。",
-                "_en": "[Protection Increase] The possessed monster's protection increases with the protection of the armor.",
-                "_fr": "[Augmentation de la protection] La protection du monstre possédé augmente avec la protection de l'armure."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "片割れのカブトと 再会する日を夢みて いっしょうけんめい 今日も元気に生きる けなげなやつ。",
-            "_en": "Dreaming of the day when he will be reunited with his other half, Kabuto, he works hard and lives happily today as well.",
-            "_fr": "Rêvant du jour où il retrouvera sa moitié, Kabuto, il travaille dur et vit heureux aujourd'hui également."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Galerie du couchant- nuit"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Poing puissant",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Grêle",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Moral d'acier",
+        "puissance": "___",
+        "description": "Donne un ordre qui augmente le moral et la DÉF. des alliés."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Défense d'acier",
+        "puissance": "N/A",
+        "description": "Renforce la DÉF. d'un allié grâce à la protection d'Hauber."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit gardien",
+        "description": "En défense, pas de dégâts élémentaires."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Poing puissant",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Grêle",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Moral d'acier",
+        "puissance": "___",
+        "description": "Donne un ordre qui augmente le moral et la DÉF. des alliés."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Défense d'acier",
+        "puissance": "N/A",
+        "description": "Renforce la DÉF. d'un allié grâce à la protection d'Hauber."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit gardien",
+        "description": "En défense, pas de dégâts élémentaires."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Moral d'acier",
+        "puissance": "___",
+        "description": "Augmentation temporaire de la DÉF. des alliés à proximité."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Armure de fer",
+        "puissance": "___",
+        "description": "Forte réduction des dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit gardien",
+        "description": "Ta jauge d'âme augmente si attaque ennemie gardée."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Poing puissant",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Grêle",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Moral d'acier",
+        "puissance": "___",
+        "description": "Remonte le moral à tous les alliés, augmentant fortement leur DÉF."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Défense d'acier",
+        "puissance": "N/A",
+        "description": "Renforce la DÉF. d'un allié grâce à la protection d'Hauber."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Moral d'acier",
+        "puissance": "___",
+        "description": "Booste +++ la DÉF. des alliés proches un instant."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque l’ennemi avec une attaque féroce."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit gardien",
+        "description": "La garde permet d'éviter les dégâts liés à l'élément faible."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Tout sur la défense"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman de défense"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Tout sur la défense"
+      },
+      {
+        "taux": "?%",
+        "objet": "Poupée de fer"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Billet de loterie"
+      },
+      {
+        "taux": "?%",
+        "objet": "Carotte"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Esprit gardien",
+    "description": "En défense, pas de dégâts élémentaires."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/hauber.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/hauber.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/hauber.wav",
+  "oldID": "77",
+  "medallium_ids": {
+    "yw1": "063",
+    "yw2": "098",
+    "yw3": "160"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "108",
+    "yw Blasters 2": "163",
+    "yw Wibble Wobble": "3096",
+    "yw World": "0054"
+  },
+  "battle_type": "",
+  "skill_name": "Spirit Guard",
+  "skill_effect": "Armor Defense",
+  "disliked_food": "Hamburgers",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "381",
+        "STR": "133",
+        "SPR": "78",
+        "DEF": "152",
+        "SPD": "84"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "453",
+        "STR": "133",
+        "SPR": "78",
+        "DEF": "152",
+        "SPD": "84"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "406",
+        "STR": "140",
+        "SPR": "96",
+        "DEF": "218",
+        "SPD": "90"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "406",
+        "STR": "142",
+        "SPR": "91",
+        "DEF": "215"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "118-205"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "118-205",
+        "STR": "142",
+        "SPR": "91",
+        "DEF": "215"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "118-205"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ヨロイさん",
+      "Yoroi-san"
+    ],
+    "Spanish": [
+      "Lorigón"
+    ],
+    "French": [
+      "Hauber"
+    ],
+    "Italian": [
+      "Korpo"
+    ],
+    "German": [
+      "Panza"
+    ],
+    "Russian": [
+      "Броняг",
+      "Bronyag"
+    ],
+    "Arabic": [
+      "مدرع",
+      "Mudarraʿ"
+    ],
+    "Portuguese (Brazilian)": [
+      "Blindado"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ヨロイさん"
+    ],
+    "Spanish": [
+      "Lorigón"
+    ],
+    "French": [
+      "Hauber"
+    ],
+    "Italian": [
+      "Korpo"
+    ],
+    "German": [
+      "Panza"
+    ],
+    "Russian": [
+      "Броняг"
+    ],
+    "Arabic": [
+      "مدرع"
+    ],
+    "Portuguese (Brazilian)": [
+      "Blindado"
+    ]
+  },
+  "description_en": "Even headless, he gives 110 percent. He dreams of reuniting with his head someday... Not sure how he dreams—he just does.",
+  "nom_en": "Blowkade",
+  "rang_yww": "D",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "légumes",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "avantage_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "stats_initiale_yww": {
+    "hp": 57,
+    "str": 13,
+    "spr": 7,
+    "def": 26,
+    "spd": 10
+  },
+  "stats_max_yww": {
+    "hp": 443,
+    "str": 101,
+    "spr": 67,
+    "def": 231,
+    "spd": 85
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ぶんなぐる",
+        "_en": "wallop",
+        "_fr": "coup"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+        "_en": "[Power: 50/Blow] Deal a big blow",
+        "_fr": "[Puissance : 50/Coup] Portez un gros coup"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "あられの術",
+        "_en": "Hail no jutsu",
+        "_fr": "Salut, pas de jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 氷属性】 氷の妖術を使う。",
+        "_en": "[Power: 30 / Ice attribute] Uses ice magic.",
+        "_fr": "[Puissance : 30 / Attribut Glace] Utilise la magie de la glace."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "鋼鉄ヨロイがため",
+        "_en": "steel armoury",
+        "_fr": "armurerie en acier"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ヨロイの守り",
+        "_en": "Armor protection",
+        "_fr": "Protection blindée"
+      },
+      "explication": {
+        "_jp": "【まもりアップ】 とりつかれた妖怪はヨロイさんの加護でまもりがアップする。",
+        "_en": "[Protection Increase] The possessed monster's protection increases with the protection of the armor.",
+        "_fr": "[Augmentation de la protection] La protection du monstre possédé augmente avec la protection de l'armure."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "片割れのカブトと 再会する日を夢みて いっしょうけんめい 今日も元気に生きる けなげなやつ。",
+      "_en": "Dreaming of the day when he will be reunited with his other half, Kabuto, he works hard and lives happily today as well.",
+      "_fr": "Rêvant du jour où il retrouvera sa moitié, Kabuto, il travaille dur et vit heureux aujourd'hui également."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "77",
+  "Name_yww": "ヨロイさん",
+  "description_jp_yww": "片割れのカブトと 再会する日を夢みて いっしょうけんめい 今日も元気に生きる けなげなやつ。",
+  "BingoMessage_jp_yww": "きみが　ボクを見つけてくれたのか！ いっしょに　探し物を手伝ってくれ！",
+  "MonsterId_yww": "y143000",
+  "Height_yww": 10.0,
+  "CommondId_yww": "sp_143000",
+  "MinHp_yww": 57,
+  "MaxHp_yww": 443,
+  "MinAttack_yww": 13,
+  "MaxAttack_yww": 101,
+  "MinMagic_yww": 7,
+  "MaxMagic_yww": 67,
+  "MinDefense_yww": 26,
+  "MaxDefense_yww": 231,
+  "MinSpeed_yww": 10,
+  "MaxSpeed_yww": 85,
+  "AttackId_yww": 2,
+  "MagicId_yww": 13,
+  "HauntId_yww": 143000,
+  "SpSkillId_yww": 143000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 10,
+  "DislikeFoodKind_yww": 6,
+  "ActionType_yww": 20,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y138800.png",
+  "SpriteImage_yww": "img_y138800.png",
+  "Audio_yww": "sp_y138800.wav",
+  "Description_yww": "En rêvant du jour où il retrouvera sa moitié, le scarabée, il vit avec ardeur et pleine d'énergie, aujourd'hui encore. Quel petit bonhomme courageux.",
+  "BingoMessage_fr_yww": "C'est toi qui m'as trouvé, alors ? Aide-moi à chercher ça avec moi !"
 }

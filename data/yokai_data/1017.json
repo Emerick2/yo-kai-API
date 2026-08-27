@@ -1,123 +1,45 @@
 {
-    "Nom": "Automnia",
-    "Tribue": "Mignon",
-    "Rang": "S",
-    "nom_original": "アキババァーン",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "",
-    "nourriture": "ramen",
-    "nourriture_favorite": "ramen",
-    "élément": "",
-    "Rôle": "attaquant",
-    "rang_yww": "B",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "ramen",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zuno, (Attaque sur les alliés) Coopératif, type Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 42,
-        "str": 12,
-        "spr": 35,
-        "def": 18,
-        "spd": 19
-    },
-    "stats_max_yww": {},
-    "moyens_obtention_yww": [
-        {
-            "_jp": "秋の妖怪大出現イベントで出現",
-            "_en": "Appears in the autumn monster appearance event",
-            "_fr": "Apparaît lors de l'événement d'apparition des monstres d'automne"
-        }
-    ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ぶったたく",
-                "_en": "hit",
-                "_fr": "frapper"
-            },
-            "explication": {
-                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
-                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "極楽の術",
-                "_en": "The art of paradise",
-                "_fr": "L'art du paradis"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "大炎上ババァーン！",
-                "_en": "Great flaming Babaan!",
-                "_fr": "Grand Babaan enflammé !"
-            },
-            "pouvoir": "100",
-            "explication": {
-                "_jp": "最新のパソコンが壊れないよう 微妙な力加減で 放り投げた後 素手で正面の敵をビンタする",
-                "_en": "After throwing the latest computer with delicate force to avoid breaking it, I slap the enemy in front of me with my bare hands.",
-                "_fr": "Après avoir lancé le dernier ordinateur avec une force délicate pour éviter de le casser, je gifle l'ennemi devant moi à mains nues."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "クロックアップする",
-                "_en": "clock up",
-                "_fr": "horloge"
-            },
-            "explication": {
-                "_jp": "【すばやさアップ】 クロックアップして すばやさがアップ",
-                "_en": "[Increase speed] Increase speed by increasing the clock",
-                "_fr": "[Augmenter la vitesse] Augmentez la vitesse en augmentant l'horloge"
-            }
-        }
-    ],
-    "explication_yww": [],
-    "oldID": "1136",
-    "ID": "1134",
-    "nom_en": "Momiji-hime",
-    "premiere_apparition": "yww",
-    "jeu_present": [
-        "yww"
-    ]
+  "Nom": "ねぶたニャン",
+  "nom_original": "ねぶたニャン",
+  "Rang": 5,
+  "PV": 313,
+  "Force": 99,
+  "Esprit": 222,
+  "Défense": 33,
+  "Vitesse": 233,
+  "Description": "Un Jibanyan réalisé en papier washi par un célèbre maître du Nebuta. À la tombée de la nuit, la lumière chaleureuse qui s'en dégage plonge les passants dans une atmosphère réconfortante.",
+  "nourriture": 19,
+  "nourriture_favorite": 19,
+  "disliked_food": 12,
+  "id_yww": "798",
+  "Name_yww": "ねぶたニャン",
+  "description_jp_yww": "著名な　ねぶた師の手により 和紙で作られた　ジバニャン。 夜になると　その中に灯した あたたかい明かりが　見る人を ほんわかした気分にさせる。",
+  "BingoMessage_jp_yww": "おめが　出してくれたんニャン？ ならお礼に　ねぶた祭りを案内するニャン！",
+  "MonsterId_yww": "y5001420",
+  "Height_yww": 17.64,
+  "CommondId_yww": "sp_5001420",
+  "MinHp_yww": 42,
+  "MaxHp_yww": 313,
+  "MinAttack_yww": 13,
+  "MaxAttack_yww": 99,
+  "MinMagic_yww": 18,
+  "MaxMagic_yww": 222,
+  "MinDefense_yww": 2,
+  "MaxDefense_yww": 33,
+  "MinSpeed_yww": 36,
+  "MaxSpeed_yww": 233,
+  "AttackId_yww": 25,
+  "MagicId_yww": 20,
+  "HauntId_yww": 5001420,
+  "SpSkillId_yww": 5001420,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 19,
+  "DislikeFoodKind_yww": 12,
+  "ActionType_yww": 10,
+  "TribeType_yww": 8,
+  "MedallionImage_yww": "y4997220.png",
+  "SpriteImage_yww": "img_y4997220.png",
+  "Audio_yww": "sp_y4997220.wav",
+  "Description_yww": "Un Jibanyan réalisé en papier washi par un célèbre maître du Nebuta. À la tombée de la nuit, la lumière chaleureuse qui s'en dégage plonge les passants dans une atmosphère réconfortante.",
+  "BingoMessage_fr_yww": "C'est toi qui me l'as donné, miaou ? Dans ce cas, pour te remercier, je vais te faire découvrir le festival de Nebuta, miaou !"
 }

@@ -1,623 +1,654 @@
 {
-    "ID": "99",
-    "Nom": "Robonyan",
-    "Tribue": "Costaud",
-    "Rang": "A",
-    "PV": "465",
-    "Force": "128",
-    "Esprit": "71",
-    "Défense": "234",
-    "Vitesse": "143",
-    "Description": "Un robot qui se prend pour le vrai Jibanyan. À part la façon de bouger, ils se ressemblent vraiment. Miaou miaou.",
-    "description SITE": "Un robot qui se prend pour le vrai Jibanyan. À part la façon de bouger, ils se ressemblent vraiment. Miaou Miaou.",
-    "nourriture": "Fruits de Mer",
-    "élément": "Glace",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Robonyanest un mot-valise entreRobotetNyan.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Robonyan est un Yo-kai à la pointe de la technologie, il peut créer des barres de chocolat car il possède une usine à l'intérieur de son corps. Il peut se transformer en divers objets comme une voiture de course ou une cuisinière. En combat, il peut projeter ses poings sur l'ennemi.",
-    "personnalité": "Bien que prétendant être Jibanyan, Robonyan présente une personnalité différente de ce dernier. Robonyan est plus objectif dans ses prises de décisions, et souvent n'écoute pas les autres lorsqu'ils essayent de le raisonner. Il cherchera à éliminer tous ceux qu'il considère comme des intrus, comme quand il essaye d'éliminer Ariane et Usapyon dans la quête \"Amélioration Ultime\".",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/robonyan.png",
-    "numero": "080",
-    "nourriture_favorite": "Barre Chocolatée",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Rempart",
-            "effet": "Défend quand il est placé devant."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing rocket",
-            "effet": "100 | 150"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Gel",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Miaude défense",
-            "effet": "Augmente sa DÉF. et attire les attaques ennemies."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Force acier",
-            "effet": "Durcit la peau d'un allié comme du métal et augmente la DÉF."
-        }
+  "ID": "99",
+  "Nom": "Robonyan",
+  "Tribue": "Costaud",
+  "Rang": "A",
+  "PV": "465",
+  "Force": "128",
+  "Esprit": "71",
+  "Défense": "234",
+  "Vitesse": "143",
+  "Description": "Un robot qui se prend pour le vrai Jibanyan. À part la façon de bouger, ils se ressemblent vraiment. Miaou miaou.",
+  "description SITE": "Un robot qui se prend pour le vrai Jibanyan. À part la façon de bouger, ils se ressemblent vraiment. Miaou Miaou.",
+  "nourriture": "Fruits de Mer",
+  "élément": "Glace",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Robonyanest un mot-valise entreRobotetNyan.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Robonyan est un Yo-kai à la pointe de la technologie, il peut créer des barres de chocolat car il possède une usine à l'intérieur de son corps. Il peut se transformer en divers objets comme une voiture de course ou une cuisinière. En combat, il peut projeter ses poings sur l'ennemi.",
+  "personnalité": "Bien que prétendant être Jibanyan, Robonyan présente une personnalité différente de ce dernier. Robonyan est plus objectif dans ses prises de décisions, et souvent n'écoute pas les autres lorsqu'ils essayent de le raisonner. Il cherchera à éliminer tous ceux qu'il considère comme des intrus, comme quand il essaye d'éliminer Ariane et Usapyon dans la quête \"Amélioration Ultime\".",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/robonyan.png",
+  "numero": "080",
+  "nourriture_favorite": "Barre Chocolatée",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Rempart",
+      "effet": "Défend quand il est placé devant."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing rocket",
+      "effet": "100 | 150"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Gel",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Miaude défense",
+      "effet": "Augmente sa DÉF. et attire les attaques ennemies."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Force acier",
+      "effet": "Durcit la peau d'un allié comme du métal et augmente la DÉF."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Ah, ouais !",
+    "Mange de la nourriture insipide": "Pas mal.",
+    "Mange de la mauvaise nourriture": "Bip ! ENNUYEUX...",
+    "A la flemme": "Plus... de batterie.",
+    "Est échangé": "Nyon, ne t'inquiète pas ! Je suis ici pour t'aider, c'est tout.",
+    "Devient ton ami": "Notre rencontre vaut tous les voyages dans le temps du monde !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Robonyan",
+      "parent2": "Vermicelles colorés",
+      "resultat": "Superobonyan",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ロボニャン",
+  "nom_anglais": "Robonyan",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Naoki Bando",
+    "francaise": "Frédéric Souterelle",
+    "anglaise": "English VA Joey D'Auria Alicyn Packard (formerly) Rick Zieff (Games; Medal) Victor Lee (Anime, Hong Kong Dub)"
+  },
+  "localisations": {
+    "yw1": [
+      "Chantier(nuit)",
+      "Bingo-kai:Pièce 3DS"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Ah, ouais !",
-        "Mange de la nourriture insipide": "Pas mal.",
-        "Mange de la mauvaise nourriture": "Bip ! ENNUYEUX...",
-        "A la flemme": "Plus... de batterie.",
-        "Est échangé": "Nyon, ne t'inquiète pas ! Je suis ici pour t'aider, c'est tout.",
-        "Devient ton ami": "Notre rencontre vaut tous les voyages dans le temps du monde !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Robonyan",
-            "parent2": "Vermicelles colorés",
-            "resultat": "Superobonyan",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Quête - Tout droit sorti du futur !(FB - Disponible sur Spectre Psychique si partie Fantôme Bouffis importé.)",
+      "Quête - Regarder les cieux !",
+      "Bingo-kai oni"
     ],
-    "image_locale": "",
-    "nom_original": "ロボニャン",
-    "nom_anglais": "Robonyan",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Naoki Bando",
-        "francaise": "Frédéric Souterelle",
-        "anglaise": "English VA Joey D'Auria Alicyn Packard (formerly) Rick Zieff (Games; Medal) Victor Lee (Anime, Hong Kong Dub)"
-    },
-    "localisations": {
-        "yw1": [
-            "Chantier(nuit)",
-            "Bingo-kai:Pièce 3DS"
-        ],
-        "yw2": [
-            "Quête - Tout droit sorti du futur !(FB - Disponible sur Spectre Psychique si partie Fantôme Bouffis importé.)",
-            "Quête - Regarder les cieux !",
-            "Bingo-kai oni"
-        ],
-        "yw Blasters 1": [
-            "Bingo-kai"
-        ],
-        "yw3": [
-            "Roue Rêve"
-        ],
-        "yw Wibble Wobble": [
-            "Stage secret 13 -Tour Excellence"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "Robonyan",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Poing rocket",
-                "puissance": "100|150",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Gel",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Miaude défense",
-                "puissance": "___",
-                "description": "Augmente sa DÉF. et attire les attaques ennemies."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Force acier",
-                "puissance": "N/A",
-                "description": "Durcit la peau d'un allié comme du métal et augmente sa DÉF."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Rempart",
-                "description": "Défend quand il est placé devant."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Poing rocket",
-                "puissance": "100|150",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Gel",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Miaude défense",
-                "puissance": "___",
-                "description": "Augmente sa DÉF. et attire les attaques ennemies."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Force acier",
-                "puissance": "N/A",
-                "description": "Durcit la peau d'un allié comme du métal et augmente sa DÉF."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Rempart",
-                "description": "Défend quand il est placé devant."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Poing rocket",
-                "puissance": "70",
-                "description": "Attaque longue portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Miaude défense",
-                "puissance": "___",
-                "description": "Forte augmentation de la vitesse, attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Armure miroir",
-                "puissance": "___",
-                "description": "Réduit et renvoie dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Champ de force",
-                "puissance": "___",
-                "description": "Hausse temporaire de la protection des alliés."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Champ de force +",
-                "puissance": "___",
-                "description": "Invincibilité temporaire des alliés à proximité."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Chocolaterie",
-                "description": "Crée une barre de chocolat toutes les 30 secondes."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Poing rocket",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Gel",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Miaude défense",
-                "puissance": "___",
-                "description": "Un champ de force apparaît, augmentant fortement la DÉF."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Force acier",
-                "puissance": "N/A",
-                "description": "Rend la peau d'un allié dure comme du métal et augmente sa DÉF."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Poing rocket",
-                "puissance": "70",
-                "description": "Attaque un ennemi éloigné."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Miaude défense",
-                "puissance": "___",
-                "description": "Booste +++ la DÉF. Attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Armure miroir",
-                "puissance": "___",
-                "description": "Renvoie un peu de dégâts, attire l’attention ennemie."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Champ de force +",
-                "puissance": "___",
-                "description": "Alliés proches invincibles pendant un court instant."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Rempart",
-                "description": "En garde automatiquement après déplacement."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Poupée d'argent"
-            },
-            {
-                "taux": "?%",
-                "objet": "Staminum"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Robovitamine E"
-            },
-            {
-                "taux": "?%",
-                "objet": "Staminum"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Robovitamine E"
-            },
-            {
-                "taux": "?%",
-                "objet": "Barre de chocolat"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Rempart",
-        "description": "Défend quand il est placé devant."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/robonyan.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/robonyan.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/robonyan.wav",
-    "oldID": "99",
-    "medallium_ids": {
-        "yw1": "080",
-        "yw2": "117",
-        "yw3": "194",
-        "yw4": "52 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "131",
-        "yw Blasters 2": "198",
-        "yw Wibble Wobble": "3008",
-        "yw World": "0069",
-        "Y-Gakuen": "093",
-        "yw Ukiukipedia": "yw1-023"
-    },
-    "battle_type": "Rare",
-    "skill_name": "Blocker",
-    "skill_effect": "Steel Power",
-    "disliked_food": "Vegetables",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "406",
-                "STR": "161",
-                "SPR": "126",
-                "DEF": "189",
-                "SPD": "166"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "475",
-                "STR": "161",
-                "SPR": "126",
-                "DEF": "189",
-                "SPD": "166"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "138",
-                "STR": "38",
-                "SPR": "9",
-                "DEF": "239",
-                "SPD": "148"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "381-662",
-                "STR": "38",
-                "SPR": "9"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "381-662"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "381-662"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "381-662"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ロボニャン",
-            "Robonyan"
-        ],
-        "Spanish": [
-            "Robonyan"
-        ],
-        "French": [
-            "Robonyan"
-        ],
-        "Italian": [
-            "Robonyan"
-        ],
-        "German": [
-            "Robonyan"
-        ],
-        "Korean": [
-            "로보냥",
-            "Robonyang"
-        ],
-        "Russian": [
-            "Робоньян",
-            "Robon'yan"
-        ],
-        "Arabic": [
-            "روبونيان",
-            "Rūbūniyān"
-        ],
-        "Chinese (Cantonese)": [
-            "Robot喵",
-            "Robot"
-        ],
-        "Chinese (Mandarin)": [
-            "機器喵",
-            "Jīqìmiāo",
-            "(Taiwan)",
-            "机械猫",
-            "Jīxièmāo",
-            "(Mainland"
-        ],
-        "Portuguese (European)": [
-            "Robonjan"
-        ],
-        "Portuguese (Brazilian)": [
-            "Robônyan"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ロボニャン"
-        ],
-        "Spanish": [
-            "Robonyan"
-        ],
-        "French": [
-            "Robonyan"
-        ],
-        "Italian": [
-            "Robonyan"
-        ],
-        "German": [
-            "Robonyan"
-        ],
-        "Korean": [
-            "로보냥"
-        ],
-        "Russian": [
-            "Робоньян"
-        ],
-        "Arabic": [
-            "روبونيان"
-        ],
-        "Chinese (Cantonese)": [
-            "Robot喵"
-        ],
-        "Chinese (Mandarin)": [
-            "機器喵(Taiwan)机械猫(Mainland China)"
-        ],
-        "Portuguese (European)": [
-            "Robonjan"
-        ],
-        "Portuguese (Brazilian)": [
-            "Robônyan"
-        ]
-    },
-    "description_en": "A robot that thinks he's actually Jibanyan. Stiff movement aside, the resemblance is uncatty! Meow meow.",
-    "nom_en": "Thornyan",
-    "rang_yww": "A",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "Chocobo",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "stats_initiale_yww": {
-        "hp": 53,
-        "str": 36,
-        "spr": 5,
-        "def": 28,
-        "spd": 20
-    },
-    "stats_max_yww": {
-        "hp": 436,
-        "str": 216,
-        "spr": 43,
-        "def": 189,
-        "spd": 139
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "おひな様コイン",
-            "_en": "Hina-sama coin",
-            "_fr": "Pièce de monnaie Hina-sama"
-        },
-        {
-            "_jp": "おだいり様コイン",
-            "_en": "Odairi-sama coin",
-            "_fr": "Pièce Odairi-sama"
-        },
-        {
-            "_jp": "ウィスパーチャレンジ",
-            "_en": "whisper challenge",
-            "_fr": "défi de murmure"
-        }
+    "yw Blasters 1": [
+      "Bingo-kai"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ロケットパンチ",
-                "_en": "rocket punch",
-                "_fr": "coup de fusée"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 打撃】 遠くの敵に攻撃する",
-                "_en": "[Power: 70/Blow] Attacks distant enemies.",
-                "_fr": "[Puissance : 70/Coup] Attaque les ennemis éloignés."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "雷神の術",
-                "_en": "Raijin no Jutsu",
-                "_fr": "Raijin no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
-                "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
-                "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
-            }
-        }
+    "yw3": [
+      "Roue Rêve"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ボウギョモードニャン",
-                "_en": "Bow Gyo Mode Nyan",
-                "_fr": "Bow Gyo Mode Nyan"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "ボウギョモードに移行してシールドをはる。自分のまもりを超アップする。",
-                "_en": "Shift to Bow Gyo mode and put up a shield. Super-up your own protection.",
-                "_fr": "Passez en mode Bow Gyo et installez un bouclier. Renforcez votre propre protection."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "鋼鉄パワー",
-                "_en": "steel power",
-                "_fr": "puissance de l'acier"
-            },
-            "explication": {
-                "_jp": "【まもりアップ】 とりつかれた妖怪は鋼鉄のおはだを手に入れて まもりがアップする。",
-                "_en": "[Increased protection] The possessed monster gains a steel shield and its protection increases.",
-                "_fr": "[Protection accrue] Le monstre possédé gagne un bouclier d'acier et sa protection augmente."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "未来からやってきた ジバニャンのような 見た目のロボット。 体内にチョコボー工場がある。 アイル・ビー・バック！",
-            "_en": "A robot that looks like Jibanyan from the future. There is a chocobo factory inside the body. I'll be back!",
-            "_fr": "Un robot qui ressemble à Jibanyan du futur. Il y a une usine de chocobos à l’intérieur du corps. Je reviendrai!"
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Stage secret 13 -Tour Excellence"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "Robonyan",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Poing rocket",
+        "puissance": "100|150",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Gel",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Miaude défense",
+        "puissance": "___",
+        "description": "Augmente sa DÉF. et attire les attaques ennemies."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Force acier",
+        "puissance": "N/A",
+        "description": "Durcit la peau d'un allié comme du métal et augmente sa DÉF."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Rempart",
+        "description": "Défend quand il est placé devant."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Poing rocket",
+        "puissance": "100|150",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Gel",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Miaude défense",
+        "puissance": "___",
+        "description": "Augmente sa DÉF. et attire les attaques ennemies."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Force acier",
+        "puissance": "N/A",
+        "description": "Durcit la peau d'un allié comme du métal et augmente sa DÉF."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Rempart",
+        "description": "Défend quand il est placé devant."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Poing rocket",
+        "puissance": "70",
+        "description": "Attaque longue portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Miaude défense",
+        "puissance": "___",
+        "description": "Forte augmentation de la vitesse, attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Armure miroir",
+        "puissance": "___",
+        "description": "Réduit et renvoie dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Champ de force",
+        "puissance": "___",
+        "description": "Hausse temporaire de la protection des alliés."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Champ de force +",
+        "puissance": "___",
+        "description": "Invincibilité temporaire des alliés à proximité."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Chocolaterie",
+        "description": "Crée une barre de chocolat toutes les 30 secondes."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Poing rocket",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Gel",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Miaude défense",
+        "puissance": "___",
+        "description": "Un champ de force apparaît, augmentant fortement la DÉF."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Force acier",
+        "puissance": "N/A",
+        "description": "Rend la peau d'un allié dure comme du métal et augmente sa DÉF."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Poing rocket",
+        "puissance": "70",
+        "description": "Attaque un ennemi éloigné."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Miaude défense",
+        "puissance": "___",
+        "description": "Booste +++ la DÉF. Attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Armure miroir",
+        "puissance": "___",
+        "description": "Renvoie un peu de dégâts, attire l’attention ennemie."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Champ de force +",
+        "puissance": "___",
+        "description": "Alliés proches invincibles pendant un court instant."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Rempart",
+        "description": "En garde automatiquement après déplacement."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Poupée d'argent"
+      },
+      {
+        "taux": "?%",
+        "objet": "Staminum"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Robovitamine E"
+      },
+      {
+        "taux": "?%",
+        "objet": "Staminum"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Robovitamine E"
+      },
+      {
+        "taux": "?%",
+        "objet": "Barre de chocolat"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Rempart",
+    "description": "Défend quand il est placé devant."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/robonyan.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/robonyan.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/robonyan.wav",
+  "oldID": "99",
+  "medallium_ids": {
+    "yw1": "080",
+    "yw2": "117",
+    "yw3": "194",
+    "yw4": "52 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "131",
+    "yw Blasters 2": "198",
+    "yw Wibble Wobble": "3008",
+    "yw World": "0069",
+    "Y-Gakuen": "093",
+    "yw Ukiukipedia": "yw1-023"
+  },
+  "battle_type": "Rare",
+  "skill_name": "Blocker",
+  "skill_effect": "Steel Power",
+  "disliked_food": "Vegetables",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "406",
+        "STR": "161",
+        "SPR": "126",
+        "DEF": "189",
+        "SPD": "166"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "475",
+        "STR": "161",
+        "SPR": "126",
+        "DEF": "189",
+        "SPD": "166"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "138",
+        "STR": "38",
+        "SPR": "9",
+        "DEF": "239",
+        "SPD": "148"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "381-662",
+        "STR": "38",
+        "SPR": "9"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "381-662"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "381-662"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "381-662"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ロボニャン",
+      "Robonyan"
+    ],
+    "Spanish": [
+      "Robonyan"
+    ],
+    "French": [
+      "Robonyan"
+    ],
+    "Italian": [
+      "Robonyan"
+    ],
+    "German": [
+      "Robonyan"
+    ],
+    "Korean": [
+      "로보냥",
+      "Robonyang"
+    ],
+    "Russian": [
+      "Робоньян",
+      "Robon'yan"
+    ],
+    "Arabic": [
+      "روبونيان",
+      "Rūbūniyān"
+    ],
+    "Chinese (Cantonese)": [
+      "Robot喵",
+      "Robot"
+    ],
+    "Chinese (Mandarin)": [
+      "機器喵",
+      "Jīqìmiāo",
+      "(Taiwan)",
+      "机械猫",
+      "Jīxièmāo",
+      "(Mainland"
+    ],
+    "Portuguese (European)": [
+      "Robonjan"
+    ],
+    "Portuguese (Brazilian)": [
+      "Robônyan"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ロボニャン"
+    ],
+    "Spanish": [
+      "Robonyan"
+    ],
+    "French": [
+      "Robonyan"
+    ],
+    "Italian": [
+      "Robonyan"
+    ],
+    "German": [
+      "Robonyan"
+    ],
+    "Korean": [
+      "로보냥"
+    ],
+    "Russian": [
+      "Робоньян"
+    ],
+    "Arabic": [
+      "روبونيان"
+    ],
+    "Chinese (Cantonese)": [
+      "Robot喵"
+    ],
+    "Chinese (Mandarin)": [
+      "機器喵(Taiwan)机械猫(Mainland China)"
+    ],
+    "Portuguese (European)": [
+      "Robonjan"
+    ],
+    "Portuguese (Brazilian)": [
+      "Robônyan"
+    ]
+  },
+  "description_en": "A robot that thinks he's actually Jibanyan. Stiff movement aside, the resemblance is uncatty! Meow meow.",
+  "nom_en": "Thornyan",
+  "rang_yww": "A",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "Chocobo",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "avantage_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "stats_initiale_yww": {
+    "hp": 53,
+    "str": 36,
+    "spr": 5,
+    "def": 28,
+    "spd": 20
+  },
+  "stats_max_yww": {
+    "hp": 436,
+    "str": 216,
+    "spr": 43,
+    "def": 189,
+    "spd": 139
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "おひな様コイン",
+      "_en": "Hina-sama coin",
+      "_fr": "Pièce de monnaie Hina-sama"
+    },
+    {
+      "_jp": "おだいり様コイン",
+      "_en": "Odairi-sama coin",
+      "_fr": "Pièce Odairi-sama"
+    },
+    {
+      "_jp": "ウィスパーチャレンジ",
+      "_en": "whisper challenge",
+      "_fr": "défi de murmure"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ロケットパンチ",
+        "_en": "rocket punch",
+        "_fr": "coup de fusée"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 打撃】 遠くの敵に攻撃する",
+        "_en": "[Power: 70/Blow] Attacks distant enemies.",
+        "_fr": "[Puissance : 70/Coup] Attaque les ennemis éloignés."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "雷神の術",
+        "_en": "Raijin no Jutsu",
+        "_fr": "Raijin no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
+        "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
+        "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ボウギョモードニャン",
+        "_en": "Bow Gyo Mode Nyan",
+        "_fr": "Bow Gyo Mode Nyan"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "ボウギョモードに移行してシールドをはる。自分のまもりを超アップする。",
+        "_en": "Shift to Bow Gyo mode and put up a shield. Super-up your own protection.",
+        "_fr": "Passez en mode Bow Gyo et installez un bouclier. Renforcez votre propre protection."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "鋼鉄パワー",
+        "_en": "steel power",
+        "_fr": "puissance de l'acier"
+      },
+      "explication": {
+        "_jp": "【まもりアップ】 とりつかれた妖怪は鋼鉄のおはだを手に入れて まもりがアップする。",
+        "_en": "[Increased protection] The possessed monster gains a steel shield and its protection increases.",
+        "_fr": "[Protection accrue] Le monstre possédé gagne un bouclier d'acier et sa protection augmente."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "未来からやってきた ジバニャンのような 見た目のロボット。 体内にチョコボー工場がある。 アイル・ビー・バック！",
+      "_en": "A robot that looks like Jibanyan from the future. There is a chocobo factory inside the body. I'll be back!",
+      "_fr": "Un robot qui ressemble à Jibanyan du futur. Il y a une usine de chocobos à l’intérieur du corps. Je reviendrai!"
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "99",
+  "Name_yww": "ロボニャン",
+  "description_jp_yww": "未来からやってきた ジバニャンのような 見た目のロボット。 体内にチョコボー工場がある。 アイル・ビー・バック！",
+  "BingoMessage_jp_yww": "ワープすれば　いつでも出られたんだがな きみが来るのをまっていたのだ！",
+  "MonsterId_yww": "y155000",
+  "Height_yww": 8.0,
+  "CommondId_yww": "sp_155000",
+  "MinHp_yww": 62,
+  "MaxHp_yww": 465,
+  "MinAttack_yww": 21,
+  "MaxAttack_yww": 128,
+  "MinMagic_yww": 12,
+  "MaxMagic_yww": 71,
+  "MinDefense_yww": 37,
+  "MaxDefense_yww": 234,
+  "MinSpeed_yww": 14,
+  "MaxSpeed_yww": 143,
+  "AttackId_yww": 50,
+  "MagicId_yww": 14,
+  "HauntId_yww": 155000,
+  "SpSkillId_yww": 155000,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 18,
+  "DislikeFoodKind_yww": 10,
+  "ActionType_yww": 20,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y150800.png",
+  "SpriteImage_yww": "img_y150800.png",
+  "Audio_yww": "sp_y150800.wav",
+  "Description_yww": "Un robot venu du futur, qui ressemble à Jibanyan. Il abrite une usine de Chocobo à l'intérieur de son corps. Je reviens !",
+  "BingoMessage_fr_yww": "J'aurais pu partir à tout moment en utilisant le téléport, mais… J'attendais que tu viennes !"
 }

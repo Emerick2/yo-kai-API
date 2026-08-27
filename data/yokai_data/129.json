@@ -1,499 +1,530 @@
 {
-    "ID": "129",
-    "Nom": "Puissanfon",
-    "Tribue": "Bienveillant",
-    "Rang": "B",
-    "PV": "358",
-    "Force": "55",
-    "Esprit": "223",
-    "Défense": "127",
-    "Vitesse": "157",
-    "Description-": "Un caniche à tête humaine qui aime faire peur aux gens. Il espère un jour devenir un chef d'entreprise.",
-    "Description": "Ce terrible glouton mange tout ce qui est devant lui. Sa bouche est tel un trou noir dont même le riz ne peut s'échapper.",
-    "nourriture": "Riz",
-    "élément": "Absorption",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "Puissafon vient de puits sans fond.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Puissanfon pousse les gens à dévorer de la nourriture. S’il manque de nourriture, il dévorera les choses qui ne sont pas comestibles.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/puissanfon.png",
-    "numero": "117",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Fringale",
-            "effet": "Augmente les effets de la nourriture sur les alliés."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Mâchouille",
-            "effet": "45 | 99"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Vortex",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Plein la panse",
-            "effet": "Guérit ses alliés avec du riz qu'il produit grâce à la gourmandise. 90 | 198"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Faim",
-            "effet": "L'ennemi n'est jamais rassasié et sa FOR. chute énormément."
-        }
+  "ID": "129",
+  "Nom": "Puissanfon",
+  "Tribue": "Bienveillant",
+  "Rang": "B",
+  "PV": "358",
+  "Force": "55",
+  "Esprit": "223",
+  "Défense": "127",
+  "Vitesse": "157",
+  "Description-": "Un caniche à tête humaine qui aime faire peur aux gens. Il espère un jour devenir un chef d'entreprise.",
+  "Description": "Ce terrible glouton mange tout ce qui est devant lui. Sa bouche est tel un trou noir dont même le riz ne peut s'échapper.",
+  "nourriture": "Riz",
+  "élément": "Absorption",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "Puissafon vient de puits sans fond.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Puissanfon pousse les gens à dévorer de la nourriture. S’il manque de nourriture, il dévorera les choses qui ne sont pas comestibles.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/puissanfon.png",
+  "numero": "117",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Fringale",
+      "effet": "Augmente les effets de la nourriture sur les alliés."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Mâchouille",
+      "effet": "45 | 99"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Vortex",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Plein la panse",
+      "effet": "Guérit ses alliés avec du riz qu'il produit grâce à la gourmandise. 90 | 198"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Faim",
+      "effet": "L'ennemi n'est jamais rassasié et sa FOR. chute énormément."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Encooore !!!",
+    "Mange de la nourriture insipide": "Ça passe !",
+    "Mange de la mauvaise nourriture": "Pas pour moi !",
+    "A la flemme": "J'ai faim !",
+    "Est échangé": "Ooh, ta ville a l'air de regorger de délices ! Tu peux me passer le sel ?",
+    "Devient ton ami": "Je suis sûr que tu as un goût exquis. Hmm, peut-être que je vais te manger."
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "yw1",
+      "de": "Granpapéti",
+      "vers": "Puissanfon",
+      "critere": "Niveau 22"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "くいい爺",
+  "nom_anglais": "Hungorge",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Évolution",
+      "Les Hauts - Ruelle obscure- poubelles"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Encooore !!!",
-        "Mange de la nourriture insipide": "Ça passe !",
-        "Mange de la mauvaise nourriture": "Pas pour moi !",
-        "A la flemme": "J'ai faim !",
-        "Est échangé": "Ooh, ta ville a l'air de regorger de délices ! Tu peux me passer le sel ?",
-        "Devient ton ami": "Je suis sûr que tu as un goût exquis. Hmm, peut-être que je vais te manger."
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "yw1",
-            "de": "Granpapéti",
-            "vers": "Puissanfon",
-            "critere": "Niveau 22"
-        }
+    "yw2": [
+      "Fusion"
     ],
-    "image_locale": "",
-    "nom_original": "くいい爺",
-    "nom_anglais": "Hungorge",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Évolution",
-            "Les Hauts - Ruelle obscure- poubelles"
-        ],
-        "yw2": [
-            "Fusion"
-        ],
-        "yw Blasters 1": [
-            "Fusion",
-            "Patrouille - Hauts de Granval"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Fringale",
-        "description": "Double les effets de la nourriture sur les alliés."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/puissanfon.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/puissanfon.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/puissanfon.wav",
-    "oldID": "129",
-    "medallium_ids": {
-        "yw1": "117",
-        "yw2": "168",
-        "yw3": "317"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "209",
-        "yw Blasters 2": "323",
-        "yw Wibble Wobble": "5043",
-        "yw World": "0100",
-        "yw Ukiukipedia": "yw1-038/YD3-028"
-    },
-    "battle_type": "",
-    "skill_name": "Starver Bear Care yw2 BS",
-    "skill_effect": "Starve",
-    "disliked_food": "Bread",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "368",
-                "STR": "136",
-                "SPR": "184",
-                "DEF": "132",
-                "SPD": "155"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "1-1",
-                "STR": "60",
-                "SPR": "228",
-                "DEF": "132",
-                "SPD": "162"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "くいい爺",
-            "Kuījī"
-        ],
-        "Spanish": [
-            "Gargazampa"
-        ],
-        "French": [
-            "Puissanfon"
-        ],
-        "Italian": [
-            "Offam"
-        ],
-        "German": [
-            "Nimmersatt"
-        ],
-        "Russian": [
-            "Дед",
-            "Ded"
-        ],
-        "Arabic": [
-            "نهمان",
-            "Nahmān"
-        ],
-        "Portuguese (European)": [
-            "Glutôncio"
-        ],
-        "Portuguese (Brazilian)": [
-            "Glutônio"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "くいい爺"
-        ],
-        "Spanish": [
-            "Gargazampa"
-        ],
-        "French": [
-            "Puissanfon"
-        ],
-        "Italian": [
-            "Offam"
-        ],
-        "German": [
-            "Nimmersatt"
-        ],
-        "Russian": [
-            "Дед Проглот"
-        ],
-        "Arabic": [
-            "نهمان"
-        ],
-        "Portuguese (European)": [
-            "Glutôncio"
-        ],
-        "Portuguese (Brazilian)": [
-            "Glutônio"
-        ]
-    },
-    "description_en": "A terribly gluttonous Yo-kai that'll eat anything in front of him. His mouth is like a black hole—even rice can't escape it.",
-    "nom_en": "Hungramps",
-    "rang_yww": "B",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "Onigiri",
-    "nourriture_favorite": "Onigiri",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
-        "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 41,
-        "str": 7,
-        "spr": 34,
-        "def": 17,
-        "spd": 23
-    },
-    "stats_max_yww": {
-        "hp": 358,
-        "str": 55,
-        "spr": 223,
-        "def": 127,
-        "spd": 157
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "緑コイン",
-            "_en": "green coin",
-            "_fr": "pièce verte"
-        },
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw Blasters 1": [
+      "Fusion",
+      "Patrouille - Hauts de Granval"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "くらいつく",
-                "_en": "Approximately",
-                "_fr": "Environ"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
-                "_en": "[Power: 50/Blow] Deal a big blow",
-                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "吸収の術",
-                "_en": "absorption technique",
-                "_fr": "technique d'absorption"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
-                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
-                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "食い意地クレイジー",
-                "_en": "crazy greedy",
-                "_fr": "fou gourmand"
-            },
-            "pouvoir": "90",
-            "explication": {
-                "_jp": "きょういの食い意地で呼び寄せた大量のおにぎりで味方全員のHPを回復する。",
-                "_en": "Restores the HP of all allies with a large amount of rice balls summoned by Kyoi's greed.",
-                "_fr": "Restaure les PV de tous les alliés avec une grande quantité de boulettes de riz invoquées par la cupidité de Kyoi."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "おなかをすかせる",
-                "_en": "make you hungry",
-                "_fr": "te donner faim"
-            },
-            "explication": {
-                "_jp": "【ちからダウン】 とりつかれた妖怪はおなかがへってしまい ちからがダウンする。",
-                "_en": "[Power down] The possessed monster becomes hungry and its power goes down.",
-                "_fr": "[Mise hors tension] Le monstre possédé a faim et sa puissance diminue."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "目の前にあるものは 何でも食べつくすほどの 食い意地を持った妖怪。 まるで その口は ブラックホールのようだ。",
-            "_en": "A monster with a greedy appetite that will eat up anything in front of it. It's like that mouth is a black hole.",
-            "_fr": "Un monstre à l'appétit gourmand qui dévorera tout ce qui se trouve devant lui. C'est comme si cette bouche était un trou noir."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {},
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Fringale",
+    "description": "Double les effets de la nourriture sur les alliés."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/puissanfon.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/puissanfon.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/puissanfon.wav",
+  "oldID": "129",
+  "medallium_ids": {
+    "yw1": "117",
+    "yw2": "168",
+    "yw3": "317"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "209",
+    "yw Blasters 2": "323",
+    "yw Wibble Wobble": "5043",
+    "yw World": "0100",
+    "yw Ukiukipedia": "yw1-038/YD3-028"
+  },
+  "battle_type": "",
+  "skill_name": "Starver Bear Care yw2 BS",
+  "skill_effect": "Starve",
+  "disliked_food": "Bread",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "368",
+        "STR": "136",
+        "SPR": "184",
+        "DEF": "132",
+        "SPD": "155"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "1-1",
+        "STR": "60",
+        "SPR": "228",
+        "DEF": "132",
+        "SPD": "162"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "くいい爺",
+      "Kuījī"
+    ],
+    "Spanish": [
+      "Gargazampa"
+    ],
+    "French": [
+      "Puissanfon"
+    ],
+    "Italian": [
+      "Offam"
+    ],
+    "German": [
+      "Nimmersatt"
+    ],
+    "Russian": [
+      "Дед",
+      "Ded"
+    ],
+    "Arabic": [
+      "نهمان",
+      "Nahmān"
+    ],
+    "Portuguese (European)": [
+      "Glutôncio"
+    ],
+    "Portuguese (Brazilian)": [
+      "Glutônio"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "くいい爺"
+    ],
+    "Spanish": [
+      "Gargazampa"
+    ],
+    "French": [
+      "Puissanfon"
+    ],
+    "Italian": [
+      "Offam"
+    ],
+    "German": [
+      "Nimmersatt"
+    ],
+    "Russian": [
+      "Дед Проглот"
+    ],
+    "Arabic": [
+      "نهمان"
+    ],
+    "Portuguese (European)": [
+      "Glutôncio"
+    ],
+    "Portuguese (Brazilian)": [
+      "Glutônio"
+    ]
+  },
+  "description_en": "A terribly gluttonous Yo-kai that'll eat anything in front of him. His mouth is like a black hole—even rice can't escape it.",
+  "nom_en": "Hungramps",
+  "rang_yww": "B",
+  "tribue_yww": "Pokapoka",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "Onigiri",
+  "nourriture_favorite": "Onigiri",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
+    "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 41,
+    "str": 7,
+    "spr": 34,
+    "def": 17,
+    "spd": 23
+  },
+  "stats_max_yww": {
+    "hp": 358,
+    "str": 55,
+    "spr": 223,
+    "def": 127,
+    "spd": 157
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "緑コイン",
+      "_en": "green coin",
+      "_fr": "pièce verte"
+    },
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "ホワイトデー妖怪ガシャ",
+      "_en": "White Day Yokai Gasha",
+      "_fr": "Jour blanc Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    },
+    {
+      "_jp": "春一番妖怪ガシャ",
+      "_en": "Spring Ichiban Yokai Gasha",
+      "_fr": "Printemps Ichiban Yokai Gasha"
+    },
+    {
+      "_jp": "桜花ランラン妖怪ガシャ",
+      "_en": "Sakura Ranran Yokai Gasha",
+      "_fr": "Sakura Ranran Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "電車でお出かけ妖怪ガシャ",
+      "_en": "Going out by train Yokai Gasha",
+      "_fr": "Sortir en train Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "GW妖怪バトルリーグガシャ",
+      "_en": "GW Yokai Battle League Gasha",
+      "_fr": "GW Yokai Battle League Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "くらいつく",
+        "_en": "Approximately",
+        "_fr": "Environ"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+        "_en": "[Power: 50/Blow] Deal a big blow",
+        "_fr": "[Puissance : 50/Coup] Portez un gros coup"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "吸収の術",
+        "_en": "absorption technique",
+        "_fr": "technique d'absorption"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+        "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+        "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "食い意地クレイジー",
+        "_en": "crazy greedy",
+        "_fr": "fou gourmand"
+      },
+      "pouvoir": "90",
+      "explication": {
+        "_jp": "きょういの食い意地で呼び寄せた大量のおにぎりで味方全員のHPを回復する。",
+        "_en": "Restores the HP of all allies with a large amount of rice balls summoned by Kyoi's greed.",
+        "_fr": "Restaure les PV de tous les alliés avec une grande quantité de boulettes de riz invoquées par la cupidité de Kyoi."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "おなかをすかせる",
+        "_en": "make you hungry",
+        "_fr": "te donner faim"
+      },
+      "explication": {
+        "_jp": "【ちからダウン】 とりつかれた妖怪はおなかがへってしまい ちからがダウンする。",
+        "_en": "[Power down] The possessed monster becomes hungry and its power goes down.",
+        "_fr": "[Mise hors tension] Le monstre possédé a faim et sa puissance diminue."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "目の前にあるものは 何でも食べつくすほどの 食い意地を持った妖怪。 まるで その口は ブラックホールのようだ。",
+      "_en": "A monster with a greedy appetite that will eat up anything in front of it. It's like that mouth is a black hole.",
+      "_fr": "Un monstre à l'appétit gourmand qui dévorera tout ce qui se trouve devant lui. C'est comme si cette bouche était un trou noir."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "129",
+  "Name_yww": "くいい爺",
+  "description_jp_yww": "目の前にあるものは 何でも食べつくすほどの 食い意地を持った妖怪。 まるで　その口は ブラックホールのようだ。",
+  "BingoMessage_jp_yww": "米は好きかのう？　好きなら われらは　もうともだちじゃ！",
+  "MonsterId_yww": "y168000",
+  "Height_yww": 10.0,
+  "CommondId_yww": "sp_168000",
+  "MinHp_yww": 41,
+  "MaxHp_yww": 358,
+  "MinAttack_yww": 7,
+  "MaxAttack_yww": 55,
+  "MinMagic_yww": 34,
+  "MaxMagic_yww": 223,
+  "MinDefense_yww": 17,
+  "MaxDefense_yww": 127,
+  "MinSpeed_yww": 23,
+  "MaxSpeed_yww": 157,
+  "AttackId_yww": 17,
+  "MagicId_yww": 20,
+  "HauntId_yww": 168000,
+  "SpSkillId_yww": 168000,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 1,
+  "DislikeFoodKind_yww": 2,
+  "ActionType_yww": 9,
+  "TribeType_yww": 5,
+  "MedallionImage_yww": "y163800.png",
+  "SpriteImage_yww": "img_y163800.png",
+  "Audio_yww": "sp_y163800.wav",
+  "Description_yww": "Un yōkai doté d’un appétit si vorace qu’il dévore tout ce qui se trouve devant lui. On dirait que sa bouche est un véritable trou noir.",
+  "BingoMessage_fr_yww": "Tu aimes le riz ? Si oui, alors on est déjà amis !"
 }

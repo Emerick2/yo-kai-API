@@ -1,506 +1,537 @@
 {
-    "ID": "158",
-    "Nom": "Émousstik",
-    "Tribue": "Sombre",
-    "Rang": "C",
-    "PV": "354",
-    "Force": "74",
-    "Esprit": "176",
-    "Défense": "88",
-    "Vitesse": "195",
-    "Description": "Cet affreux Yo-kai peut t'entraîner au fond du désespoir. Aucune chance d'être heureux, avec lui dans le coin.",
-    "nourriture": "Jus",
-    "élément": "Absorption",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Ceux qui sont envoûtés par Émousstik sont plongés dans le désespoir.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/emousstik.png",
-    "numero": "142",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Vampirisation",
-            "effet": "Absorbe les PV avec des attaques normales."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Percée critique",
-            "effet": "30 | 66"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Vortex",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Pense à mal",
-            "effet": "Baisse la DÉF. de ses ennemis grâce à des ondes sonores. 80 | 80"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Négativité",
-            "effet": "L'ennemi devient très pessimiste et sa VIT. diminue."
-        }
+  "ID": "158",
+  "Nom": "Émousstik",
+  "Tribue": "Sombre",
+  "Rang": "C",
+  "PV": "354",
+  "Force": "74",
+  "Esprit": "176",
+  "Défense": "88",
+  "Vitesse": "195",
+  "Description": "Cet affreux Yo-kai peut t'entraîner au fond du désespoir. Aucune chance d'être heureux, avec lui dans le coin.",
+  "nourriture": "Jus",
+  "élément": "Absorption",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Ceux qui sont envoûtés par Émousstik sont plongés dans le désespoir.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/emousstik.png",
+  "numero": "142",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Vampirisation",
+      "effet": "Absorbe les PV avec des attaques normales."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Percée critique",
+      "effet": "30 | 66"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Vortex",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Pense à mal",
+      "effet": "Baisse la DÉF. de ses ennemis grâce à des ondes sonores. 80 | 80"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Négativité",
+      "effet": "L'ennemi devient très pessimiste et sa VIT. diminue."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Délizzzieux...",
+    "Mange de la nourriture insipide": "Merzzzi...",
+    "Mange de la mauvaise nourriture": "C'est fadazze !",
+    "A la flemme": "Bonne nuizzz...",
+    "Est échangé": "Échangé ? Moi ? Je n'ai plus aucune raizzzon de vivre...",
+    "Devient ton ami": "Oh mince, je ne peux pas te battre... On n'a plus qu'à devenir amizzz..."
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "yw1 & yw2",
+      "de": "Nihilistik",
+      "vers": "Émousstik",
+      "critere": "Niveau 17"
+    },
+    {
+      "type": "Évolution",
+      "contexte": "yw3",
+      "de": "Nihilistik",
+      "vers": "Émousstik",
+      "critere": "Niveau 23"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ジャネガブーン",
+  "nom_anglais": "Moskevil",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Hauts de Granval- arbres",
+      "Évolution",
+      "Chantier"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Délizzzieux...",
-        "Mange de la nourriture insipide": "Merzzzi...",
-        "Mange de la mauvaise nourriture": "C'est fadazze !",
-        "A la flemme": "Bonne nuizzz...",
-        "Est échangé": "Échangé ? Moi ? Je n'ai plus aucune raizzzon de vivre...",
-        "Devient ton ami": "Oh mince, je ne peux pas te battre... On n'a plus qu'à devenir amizzz..."
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "yw1 & yw2",
-            "de": "Nihilistik",
-            "vers": "Émousstik",
-            "critere": "Niveau 17"
-        },
-        {
-            "type": "Évolution",
-            "contexte": "yw3",
-            "de": "Nihilistik",
-            "vers": "Émousstik",
-            "critere": "Niveau 23"
-        }
+    "yw2": [
+      "Évolution"
     ],
-    "image_locale": "",
-    "nom_original": "ジャネガブーン",
-    "nom_anglais": "Moskevil",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Hauts de Granval- arbres",
-            "Évolution",
-            "Chantier"
-        ],
-        "yw2": [
-            "Évolution"
-        ],
-        "yw Blasters 1": [
-            "Évolution"
-        ],
-        "yw3": [
-            "Évolution"
-        ]
-    },
-    "rarite": "L'Escadron du chien blanc",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Percée critique",
-                "puissance": "30|66",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Pense à mal",
-                "puissance": "80|80",
-                "description": "Baisse la DÉF. de ses ennemis grâce à des ondes sonores."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Négativité",
-                "puissance": "N/A",
-                "description": "L'ennemi devient très pessimiste et sa VIT. diminue."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Vampirisation",
-                "description": "Absorbe les PV avec des attaques normales."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Percée critique",
-                "puissance": "30|66",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Pense à mal",
-                "puissance": "80|80",
-                "description": "Baisse la DÉF. de ses ennemis grâce à des ondes sonores."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Négativité",
-                "puissance": "N/A",
-                "description": "L'ennemi devient très pessimiste et sa VIT. diminue."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Vampirisation",
-                "description": "Absorbe les PV avec des attaques normales."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Pense à mal",
-                "puissance": "250",
-                "description": "Baisse temporaire DÉF. des ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Vortex",
-                "puissance": "30",
-                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Cercle de maladie",
-                "puissance": "___",
-                "description": "Crée un champ où PV ennemis baissent rapidement."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Baisse de vitesse",
-                "puissance": "___",
-                "description": "Baisse VIT. ennemie. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Vampirisation",
-                "description": "Absorbe une partie des PV lors d'attaques."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Percée critique",
-                "puissance": "10|35",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "40|88",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Pense à mal",
-                "puissance": "___",
-                "description": "Les ondes sonores du mal réduisent fortement la DÉF. des ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Négativité",
-                "puissance": "N/A",
-                "description": "L'ennemi devient très pessimiste et sa VIT. diminue fortement."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Vampirisation",
-                "description": "Absorbe les PV de l'ennemi à chaque attaque réussie."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Vampirisation",
-        "description": "Absorbe les PV avec des attaques normales."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/emousstik.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/emousstik.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/emousstik.wav",
-    "oldID": "158",
-    "medallium_ids": {
-        "yw1": "142",
-        "yw2": "212",
-        "yw3": "390"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "255",
-        "yw Blasters 2": "397",
-        "yw Wibble Wobble": "6126",
-        "yw World": "0121",
-        "yw Ukiukipedia": "yw1-045"
-    },
-    "battle_type": "",
-    "skill_name": "Vampiric",
-    "skill_effect": "Negativize",
-    "disliked_food": "Hamburgers",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "321",
-                "STR": "144",
-                "SPR": "142",
-                "DEF": "124",
-                "SPD": "161"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "364",
-                "STR": "144",
-                "SPR": "142",
-                "DEF": "124",
-                "SPD": "161"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "270-465",
-                "STR": "79",
-                "SPR": "181",
-                "DEF": "93",
-                "SPD": "200"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "270-465"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "270-465"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "270-465"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ジャネガブーン",
-            "Janegabuun"
-        ],
-        "Spanish": [
-            "Deprisquito"
-        ],
-        "French": [
-            "Emoustik"
-        ],
-        "Italian": [
-            "Malazanz"
-        ],
-        "German": [
-            "Schlimskito"
-        ],
-        "Korean": [
-            "흑네가티붕",
-            "Heungnegatibung"
-        ],
-        "Russian": [
-            "Злобосос",
-            "Zlobosos"
-        ],
-        "Arabic": [
-            "يأووس",
-            "Ya'wūs"
-        ],
-        "Portuguese (Brazilian)": [
-            "Mosquideprê"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ジャネガブーン"
-        ],
-        "Spanish": [
-            "Deprisquito"
-        ],
-        "French": [
-            "Emoustik"
-        ],
-        "Italian": [
-            "Malazanz"
-        ],
-        "German": [
-            "Schlimskito"
-        ],
-        "Korean": [
-            "흑네가티붕"
-        ],
-        "Russian": [
-            "Злобосос"
-        ],
-        "Arabic": [
-            "يأووس"
-        ],
-        "Portuguese (Brazilian)": [
-            "Mosquideprê"
-        ]
-    },
-    "description_en": "This nasty Yo-kai can drop you into the depths of despair. You cannot cheer up if he's nearby.",
-    "nom_en": "Payn",
-    "rang_yww": "C",
-    "tribue_yww": "Usurakage",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "jus",
-    "nourriture_favorite": "jus",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "氷属性",
-        "_fr": "氷属性"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {
-        "hp": 44,
-        "str": 6,
-        "spr": 23,
-        "def": 12,
-        "spd": 27
-    },
-    "stats_max_yww": {
-        "hp": 354,
-        "str": 74,
-        "spr": 176,
-        "def": 88,
-        "spd": 195
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "こうげき",
-                "_fr": "こうげき"
-            },
-            "nom": {
-                "_jp": "きゅうしょづき",
-                "_en": "きゅうしょづき",
-                "_fr": "きゅうしょづき"
-            },
-            "explication": {
-                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "吸収の術",
-                "_en": "absorption technique",
-                "_fr": "technique d'absorption"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
-                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
-                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
-            }
-        }
+    "yw Blasters 1": [
+      "Évolution"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ジャネガウェーブ",
-                "_en": "Janega Wave",
-                "_fr": "Janega Vague"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "邪悪な怪音波を敵全員におみまいし まもりを大ダウンさせる。",
-                "_en": "邪悪な怪音波を敵全員におみまいし まもりを大ダウンさせる。",
-                "_fr": "邪悪な怪音波を敵全員におみまいし まもりを大ダウンさせる。"
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ネガティブにする",
-                "_en": "make it negative",
-                "_fr": "rends-le négatif"
-            },
-            "explication": {
-                "_jp": "【すばやさダウン】 とりつかれた妖怪はネガティブになり すばやさが大ダウンする。",
-                "_en": "[Speed ​​reduction] A possessed monster becomes negative and its speed is greatly reduced.",
-                "_fr": "[Réduction de vitesse] Un monstre possédé devient négatif et sa vitesse est fortement réduite."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "とりついた人の心を どん底に落とす邪悪な妖怪。 いなくならないかぎり 自力で立ち直ることは不可能。 それほど危険な妖怪。",
-            "_en": "とりついた人の心を どん底に落とす邪悪な妖怪。 いなくならないかぎり 自力で立ち直ることは不可能。 それほど危険な妖怪。",
-            "_fr": "とりついた人の心を どん底に落とす邪悪な妖怪。 いなくならないかぎり 自力で立ち直ることは不可能。 それほど危険な妖怪。"
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Évolution"
     ]
+  },
+  "rarite": "L'Escadron du chien blanc",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Percée critique",
+        "puissance": "30|66",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Vortex",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Pense à mal",
+        "puissance": "80|80",
+        "description": "Baisse la DÉF. de ses ennemis grâce à des ondes sonores."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Négativité",
+        "puissance": "N/A",
+        "description": "L'ennemi devient très pessimiste et sa VIT. diminue."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Vampirisation",
+        "description": "Absorbe les PV avec des attaques normales."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Percée critique",
+        "puissance": "30|66",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Vortex",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Pense à mal",
+        "puissance": "80|80",
+        "description": "Baisse la DÉF. de ses ennemis grâce à des ondes sonores."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Négativité",
+        "puissance": "N/A",
+        "description": "L'ennemi devient très pessimiste et sa VIT. diminue."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Vampirisation",
+        "description": "Absorbe les PV avec des attaques normales."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Pense à mal",
+        "puissance": "250",
+        "description": "Baisse temporaire DÉF. des ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Vortex",
+        "puissance": "30",
+        "description": "Absorbe les PV ennemis. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Cercle de maladie",
+        "puissance": "___",
+        "description": "Crée un champ où PV ennemis baissent rapidement."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Baisse de vitesse",
+        "puissance": "___",
+        "description": "Baisse VIT. ennemie. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Vampirisation",
+        "description": "Absorbe une partie des PV lors d'attaques."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Percée critique",
+        "puissance": "10|35",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Vortex",
+        "puissance": "40|88",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Pense à mal",
+        "puissance": "___",
+        "description": "Les ondes sonores du mal réduisent fortement la DÉF. des ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Négativité",
+        "puissance": "N/A",
+        "description": "L'ennemi devient très pessimiste et sa VIT. diminue fortement."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Vampirisation",
+        "description": "Absorbe les PV de l'ennemi à chaque attaque réussie."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Vampirisation",
+    "description": "Absorbe les PV avec des attaques normales."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/emousstik.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/emousstik.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/emousstik.wav",
+  "oldID": "158",
+  "medallium_ids": {
+    "yw1": "142",
+    "yw2": "212",
+    "yw3": "390"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "255",
+    "yw Blasters 2": "397",
+    "yw Wibble Wobble": "6126",
+    "yw World": "0121",
+    "yw Ukiukipedia": "yw1-045"
+  },
+  "battle_type": "",
+  "skill_name": "Vampiric",
+  "skill_effect": "Negativize",
+  "disliked_food": "Hamburgers",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "321",
+        "STR": "144",
+        "SPR": "142",
+        "DEF": "124",
+        "SPD": "161"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "364",
+        "STR": "144",
+        "SPR": "142",
+        "DEF": "124",
+        "SPD": "161"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "270-465",
+        "STR": "79",
+        "SPR": "181",
+        "DEF": "93",
+        "SPD": "200"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "270-465"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "270-465"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "270-465"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ジャネガブーン",
+      "Janegabuun"
+    ],
+    "Spanish": [
+      "Deprisquito"
+    ],
+    "French": [
+      "Emoustik"
+    ],
+    "Italian": [
+      "Malazanz"
+    ],
+    "German": [
+      "Schlimskito"
+    ],
+    "Korean": [
+      "흑네가티붕",
+      "Heungnegatibung"
+    ],
+    "Russian": [
+      "Злобосос",
+      "Zlobosos"
+    ],
+    "Arabic": [
+      "يأووس",
+      "Ya'wūs"
+    ],
+    "Portuguese (Brazilian)": [
+      "Mosquideprê"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ジャネガブーン"
+    ],
+    "Spanish": [
+      "Deprisquito"
+    ],
+    "French": [
+      "Emoustik"
+    ],
+    "Italian": [
+      "Malazanz"
+    ],
+    "German": [
+      "Schlimskito"
+    ],
+    "Korean": [
+      "흑네가티붕"
+    ],
+    "Russian": [
+      "Злобосос"
+    ],
+    "Arabic": [
+      "يأووس"
+    ],
+    "Portuguese (Brazilian)": [
+      "Mosquideprê"
+    ]
+  },
+  "description_en": "This nasty Yo-kai can drop you into the depths of despair. You cannot cheer up if he's nearby.",
+  "nom_en": "Payn",
+  "rang_yww": "C",
+  "tribue_yww": "Usurakage",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "jus",
+  "nourriture_favorite": "jus",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "氷属性",
+    "_fr": "氷属性"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {
+    "hp": 44,
+    "str": 6,
+    "spr": 23,
+    "def": 12,
+    "spd": 27
+  },
+  "stats_max_yww": {
+    "hp": 354,
+    "str": 74,
+    "spr": 176,
+    "def": 88,
+    "spd": 195
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "こうげき",
+        "_fr": "こうげき"
+      },
+      "nom": {
+        "_jp": "きゅうしょづき",
+        "_en": "きゅうしょづき",
+        "_fr": "きゅうしょづき"
+      },
+      "explication": {
+        "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "吸収の術",
+        "_en": "absorption technique",
+        "_fr": "technique d'absorption"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+        "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+        "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ジャネガウェーブ",
+        "_en": "Janega Wave",
+        "_fr": "Janega Vague"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "邪悪な怪音波を敵全員におみまいし まもりを大ダウンさせる。",
+        "_en": "邪悪な怪音波を敵全員におみまいし まもりを大ダウンさせる。",
+        "_fr": "邪悪な怪音波を敵全員におみまいし まもりを大ダウンさせる。"
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ネガティブにする",
+        "_en": "make it negative",
+        "_fr": "rends-le négatif"
+      },
+      "explication": {
+        "_jp": "【すばやさダウン】 とりつかれた妖怪はネガティブになり すばやさが大ダウンする。",
+        "_en": "[Speed ​​reduction] A possessed monster becomes negative and its speed is greatly reduced.",
+        "_fr": "[Réduction de vitesse] Un monstre possédé devient négatif et sa vitesse est fortement réduite."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "とりついた人の心を どん底に落とす邪悪な妖怪。 いなくならないかぎり 自力で立ち直ることは不可能。 それほど危険な妖怪。",
+      "_en": "とりついた人の心を どん底に落とす邪悪な妖怪。 いなくならないかぎり 自力で立ち直ることは不可能。 それほど危険な妖怪。",
+      "_fr": "とりついた人の心を どん底に落とす邪悪な妖怪。 いなくならないかぎり 自力で立ち直ることは不可能。 それほど危険な妖怪。"
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "159",
+  "Name_yww": "ジャネガブーン",
+  "description_jp_yww": "とりついた人の心を どん底に落とす邪悪な妖怪。 いなくならないかぎり 自力で立ち直ることは不可能。 それほど危険な妖怪。",
+  "BingoMessage_jp_yww": "はぁーぁ　中にいても外に出てもゆううつ… あんたと　ともだちになるしかないブーン",
+  "MonsterId_yww": "y185000",
+  "Height_yww": 21.0,
+  "CommondId_yww": "sp_185000",
+  "MinHp_yww": 44,
+  "MaxHp_yww": 354,
+  "MinAttack_yww": 6,
+  "MaxAttack_yww": 74,
+  "MinMagic_yww": 23,
+  "MaxMagic_yww": 176,
+  "MinDefense_yww": 12,
+  "MaxDefense_yww": 88,
+  "MinSpeed_yww": 27,
+  "MaxSpeed_yww": 195,
+  "AttackId_yww": 32,
+  "MagicId_yww": 20,
+  "HauntId_yww": 185000,
+  "SpSkillId_yww": 185000,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 5,
+  "DislikeFoodKind_yww": 6,
+  "ActionType_yww": 22,
+  "TribeType_yww": 6,
+  "MedallionImage_yww": "y180800.png",
+  "SpriteImage_yww": "img_y180800.png",
+  "Audio_yww": "sp_y180800.wav",
+  "Description_yww": "Un yōkai maléfique qui plonge l'esprit de ceux qu'il possède dans les profondeurs de la désespérance. Tant qu'il n'est pas éliminé, il est impossible de s'en remettre par soi-même. C'est un yōkai d'une telle dangerosité.",
+  "BingoMessage_fr_yww": "Pfff… Que je reste à l'intérieur ou que je sorte, c'est déprimant… Je n'ai pas d'autre choix que de devenir ton ami, Boon."
 }

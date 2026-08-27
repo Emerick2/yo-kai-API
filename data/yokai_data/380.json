@@ -1,510 +1,541 @@
 {
-    "ID": "380",
-    "Nom": "Verrascible",
-    "Tribue": "Vaillant",
-    "Rang": "B",
-    "PV": "479",
-    "Force": "289",
-    "Esprit": "51",
-    "Défense": "146",
-    "Vitesse": "49",
-    "Description": "Ce jeune citadin donne à ceux qu'il envoûte un zeste de charme et tout le chic de la ville.",
-    "description SITE": "Quelqu'un a osé le réveiller et cette tête de lard n'est pas près de lui pardonner son erreur.",
-    "nourriture": "Cuisine chinoise",
-    "élément": "Feu",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/verrascible.png",
-    "numero": "373",
-    "nourriture_favorite": "Plats chinois",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Instant critique",
-            "effet": "Puissance des coups critiques élevée."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Double coupure",
-            "effet": "18x2 | 39x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Incendie",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Lard d'assaut",
-            "effet": "Une déferlante de coups frappe tous les ennemis. 30x5 | 30x5"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Bringue",
-            "effet": "La FOR. du Yo-kai augmente grâce à l'euphorie du festival."
-        }
+  "ID": "380",
+  "Nom": "Verrascible",
+  "Tribue": "Vaillant",
+  "Rang": "B",
+  "PV": "479",
+  "Force": "289",
+  "Esprit": "51",
+  "Défense": "146",
+  "Vitesse": "49",
+  "Description": "Ce jeune citadin donne à ceux qu'il envoûte un zeste de charme et tout le chic de la ville.",
+  "description SITE": "Quelqu'un a osé le réveiller et cette tête de lard n'est pas près de lui pardonner son erreur.",
+  "nourriture": "Cuisine chinoise",
+  "élément": "Feu",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/verrascible.png",
+  "numero": "373",
+  "nourriture_favorite": "Plats chinois",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Instant critique",
+      "effet": "Puissance des coups critiques élevée."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Double coupure",
+      "effet": "18x2 | 39x2"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Incendie",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Lard d'assaut",
+      "effet": "Une déferlante de coups frappe tous les ennemis. 30x5 | 30x5"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Bringue",
+      "effet": "La FOR. du Yo-kai augmente grâce à l'euphorie du festival."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est super !",
+    "Mange de la nourriture insipide": "Pas mal.",
+    "Mange de la mauvaise nourriture": "Ptou ! Pourquoi ?",
+    "A la flemme": "Ne pas déranger...",
+    "Est échangé": "C'est pour ça qu'on m'a réveillé ? Ah, maintenant que je suis là... amis ?",
+    "Devient ton ami": "Tu oses me réveiller ?! Maintenant que je suis debout, autant rester ensemble."
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Bon-huiii",
+      "parent2": "Lanterne carassin",
+      "resultat": "Verrascible",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ねぶた",
+  "nom_anglais": "Snortlehog",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Frédéric Souterelle",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Fusion"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est super !",
-        "Mange de la nourriture insipide": "Pas mal.",
-        "Mange de la mauvaise nourriture": "Ptou ! Pourquoi ?",
-        "A la flemme": "Ne pas déranger...",
-        "Est échangé": "C'est pour ça qu'on m'a réveillé ? Ah, maintenant que je suis là... amis ?",
-        "Devient ton ami": "Tu oses me réveiller ?! Maintenant que je suis debout, autant rester ensemble."
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Bon-huiii",
-            "parent2": "Lanterne carassin",
-            "resultat": "Verrascible",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Fusion"
     ],
-    "image_locale": "",
-    "nom_original": "ねぶた",
-    "nom_anglais": "Snortlehog",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Frédéric Souterelle",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Fusion"
-        ],
-        "yw Blasters 1": [
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Double coupure",
-                "puissance": "18×2|39×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Lard d'assaut",
-                "puissance": "30×5|30×5",
-                "description": "Une déferlante de coups frappe tous les ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Bringue",
-                "puissance": "N/A",
-                "description": "La FOR. du Yo-kai augmente grâce à l'euphorie du festival."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Explosion",
-                "puissance": "N/A",
-                "description": "Une bombe explose sur les ennemis et les alliés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Instant critique",
-                "description": "Booste les dégâts critiques."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Lard d'assaut",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Feu",
-                "puissance": "40",
-                "description": "Utilise un sort de feu. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Démolibombe",
-                "puissance": "500",
-                "description": "Une bombe explose sur les ennemis et les alliés."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Envoût. poison",
-                "puissance": "___",
-                "description": "Baisse lente PV ennemis. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Super guérison",
-                "description": "Guérit plus de ses propres PV."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Double coupure",
-                "puissance": "25×2|55×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Lard d'assaut",
-                "puissance": "24×5|48×5",
-                "description": "La furieuse déferlante de coups frappe tous les ennemis à portée."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Bringue",
-                "puissance": "N/A",
-                "description": "La FOR. du Yo-kai augmente grâce à l'euphorie du festival."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Lard d'assaut",
-                "puissance": "40×10",
-                "description": "Enchaîne les coups, inflige des dégâts élevés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Envoût. poison",
-                "puissance": "___",
-                "description": "PV ennemis réduits peu à peu. Portée + si chargé."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Démolibombe",
-                "puissance": "500",
-                "description": "Bombe à retardement + pouvant blesser les alliés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Instant critique",
-                "description": "Booste les dégâts critiques."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Bracelet majestueux"
-            },
-            {
-                "taux": "?%",
-                "objet": "Morceau de lard"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Grand EXPorbe"
-            },
-            {
-                "taux": "?%",
-                "objet": "Morceau de lard"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Instant critique",
-        "description": "Booste les dégâts critiques."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/verrascible.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/verrascible.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/verrascible.wav",
-    "oldID": "386",
-    "medallium_ids": {
-        "yw2": "373",
-        "yw3": "021"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "018",
-        "yw Blasters 2": "021",
-        "yw Wibble Wobble": "1075",
-        "yw Ukiukipedia": "Pyw-118"
-    },
-    "battle_type": "Rare",
-    "skill_name": "Extreme Critical yw2 yw3 Really Healy ywB",
-    "skill_effect": "Festival Power",
-    "disliked_food": "Sweets",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "489",
-                "STR": "118",
-                "SPR": "102",
-                "DEF": "12",
-                "SPD": "76"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "404",
-                "STR": "180",
-                "SPR": "111",
-                "DEF": "235",
-                "SPD": "54"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "398",
-                "STR": "177",
-                "SPR": "109",
-                "DEF": "232"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "269-467"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "269-467",
-                "STR": "177",
-                "SPR": "109",
-                "DEF": "232"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "269-467"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ねぶた",
-            "Nebuta"
-        ],
-        "Spanish": [
-            "Torreznio"
-        ],
-        "French": [
-            "Verrascible"
-        ],
-        "Italian": [
-            "Torporco"
-        ],
-        "German": [
-            "Wutwutz"
-        ],
-        "Russian": [
-            "Свинофырк",
-            "Svinofyrk"
-        ],
-        "Portuguese (Brazilian)": [
-            "Porcolérico"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ねぶた"
-        ],
-        "Spanish": [
-            "Torreznio"
-        ],
-        "French": [
-            "Verrascible"
-        ],
-        "Italian": [
-            "Torporco"
-        ],
-        "German": [
-            "Wutwutz"
-        ],
-        "Russian": [
-            "Свинофырк"
-        ],
-        "Portuguese (Brazilian)": [
-            "Porcolérico"
-        ]
-    },
-    "description_en": "This urban Yo-kai provides those he Inspirits with a dash of charm and big-city sophistication.",
-    "nom_en": "Grumpus Khan",
-    "rang_yww": "B",
-    "tribue_yww": "Isamashi",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "curry",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 67,
-        "str": 55,
-        "spr": 3,
-        "def": 10,
-        "spd": 4
-    },
-    "stats_max_yww": {
-        "hp": 479,
-        "str": 289,
-        "spr": 51,
-        "def": 146,
-        "spd": 49
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "つばめがえし",
-                "_en": "Swallow replacement",
-                "_fr": "Remplacement de l'hirondelle"
-            },
-            "explication": {
-                "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 25×2/Blow] Attack twice",
-                "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "火炎の術",
-                "_en": "flame technique",
-                "_fr": "technique de la flamme"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
-                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
-                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ねぶたでらっせ～ら～",
-                "_en": "Nebuta Festival",
-                "_fr": "Fête de Nebuta"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "祭りの力",
-                "_en": "power of festival",
-                "_fr": "pouvoir du festival"
-            },
-            "explication": {
-                "_jp": "【ちからアップ】 とりつかれた妖怪は北国の祭りパワーで ちからがアップする。",
-                "_en": "[Power up] The power of the possessed monster increases with the power of the northern festival.",
-                "_fr": "[Power up] La puissance du monstre possédé augmente avec la puissance de la fête du nord."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "むりやり起こされた寝ブタが 怒りの力で発光した姿。 激怒して街を練り歩く姿は いつのまにか北国で 伝統のお祭りになったらしい。",
-            "_en": "A sleeping pig that was forced to wake up and glowed with the power of anger. The sight of them parading through the streets in a rage seems to have become a traditional festival in northern countries.",
-            "_fr": "Un cochon endormi qui a été forcé de se réveiller et qui rayonnait du pouvoir de la colère. Les voir défiler dans les rues en colère semble être devenu une fête traditionnelle dans les pays du Nord."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Double coupure",
+        "puissance": "18×2|39×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Incendie",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Lard d'assaut",
+        "puissance": "30×5|30×5",
+        "description": "Une déferlante de coups frappe tous les ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Bringue",
+        "puissance": "N/A",
+        "description": "La FOR. du Yo-kai augmente grâce à l'euphorie du festival."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Explosion",
+        "puissance": "N/A",
+        "description": "Une bombe explose sur les ennemis et les alliés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Instant critique",
+        "description": "Booste les dégâts critiques."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Lard d'assaut",
+        "puissance": "40×10",
+        "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Feu",
+        "puissance": "40",
+        "description": "Utilise un sort de feu. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Démolibombe",
+        "puissance": "500",
+        "description": "Une bombe explose sur les ennemis et les alliés."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Envoût. poison",
+        "puissance": "___",
+        "description": "Baisse lente PV ennemis. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Super guérison",
+        "description": "Guérit plus de ses propres PV."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Double coupure",
+        "puissance": "25×2|55×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Incendie",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Lard d'assaut",
+        "puissance": "24×5|48×5",
+        "description": "La furieuse déferlante de coups frappe tous les ennemis à portée."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Bringue",
+        "puissance": "N/A",
+        "description": "La FOR. du Yo-kai augmente grâce à l'euphorie du festival."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Lard d'assaut",
+        "puissance": "40×10",
+        "description": "Enchaîne les coups, inflige des dégâts élevés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Envoût. poison",
+        "puissance": "___",
+        "description": "PV ennemis réduits peu à peu. Portée + si chargé."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Démolibombe",
+        "puissance": "500",
+        "description": "Bombe à retardement + pouvant blesser les alliés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Instant critique",
+        "description": "Booste les dégâts critiques."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Bracelet majestueux"
+      },
+      {
+        "taux": "?%",
+        "objet": "Morceau de lard"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Grand EXPorbe"
+      },
+      {
+        "taux": "?%",
+        "objet": "Morceau de lard"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Instant critique",
+    "description": "Booste les dégâts critiques."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/verrascible.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/verrascible.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/verrascible.wav",
+  "oldID": "386",
+  "medallium_ids": {
+    "yw2": "373",
+    "yw3": "021"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "018",
+    "yw Blasters 2": "021",
+    "yw Wibble Wobble": "1075",
+    "yw Ukiukipedia": "Pyw-118"
+  },
+  "battle_type": "Rare",
+  "skill_name": "Extreme Critical yw2 yw3 Really Healy ywB",
+  "skill_effect": "Festival Power",
+  "disliked_food": "Sweets",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "489",
+        "STR": "118",
+        "SPR": "102",
+        "DEF": "12",
+        "SPD": "76"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "404",
+        "STR": "180",
+        "SPR": "111",
+        "DEF": "235",
+        "SPD": "54"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "398",
+        "STR": "177",
+        "SPR": "109",
+        "DEF": "232"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "269-467"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "269-467",
+        "STR": "177",
+        "SPR": "109",
+        "DEF": "232"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "269-467"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ねぶた",
+      "Nebuta"
+    ],
+    "Spanish": [
+      "Torreznio"
+    ],
+    "French": [
+      "Verrascible"
+    ],
+    "Italian": [
+      "Torporco"
+    ],
+    "German": [
+      "Wutwutz"
+    ],
+    "Russian": [
+      "Свинофырк",
+      "Svinofyrk"
+    ],
+    "Portuguese (Brazilian)": [
+      "Porcolérico"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ねぶた"
+    ],
+    "Spanish": [
+      "Torreznio"
+    ],
+    "French": [
+      "Verrascible"
+    ],
+    "Italian": [
+      "Torporco"
+    ],
+    "German": [
+      "Wutwutz"
+    ],
+    "Russian": [
+      "Свинофырк"
+    ],
+    "Portuguese (Brazilian)": [
+      "Porcolérico"
+    ]
+  },
+  "description_en": "This urban Yo-kai provides those he Inspirits with a dash of charm and big-city sophistication.",
+  "nom_en": "Grumpus Khan",
+  "rang_yww": "B",
+  "tribue_yww": "Isamashi",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "curry",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 67,
+    "str": 55,
+    "spr": 3,
+    "def": 10,
+    "spd": 4
+  },
+  "stats_max_yww": {
+    "hp": 479,
+    "str": 289,
+    "spr": 51,
+    "def": 146,
+    "spd": 49
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "つばめがえし",
+        "_en": "Swallow replacement",
+        "_fr": "Remplacement de l'hirondelle"
+      },
+      "explication": {
+        "_jp": "【威力:25×2 / 打撃】 2回攻撃を行う",
+        "_en": "[Power: 25×2/Blow] Attack twice",
+        "_fr": "[Puissance : 25×2/Coup] Attaquez deux fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "火炎の術",
+        "_en": "flame technique",
+        "_fr": "technique de la flamme"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
+        "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
+        "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ねぶたでらっせ～ら～",
+        "_en": "Nebuta Festival",
+        "_fr": "Fête de Nebuta"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "祭りの力",
+        "_en": "power of festival",
+        "_fr": "pouvoir du festival"
+      },
+      "explication": {
+        "_jp": "【ちからアップ】 とりつかれた妖怪は北国の祭りパワーで ちからがアップする。",
+        "_en": "[Power up] The power of the possessed monster increases with the power of the northern festival.",
+        "_fr": "[Power up] La puissance du monstre possédé augmente avec la puissance de la fête du nord."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "むりやり起こされた寝ブタが 怒りの力で発光した姿。 激怒して街を練り歩く姿は いつのまにか北国で 伝統のお祭りになったらしい。",
+      "_en": "A sleeping pig that was forced to wake up and glowed with the power of anger. The sight of them parading through the streets in a rage seems to have become a traditional festival in northern countries.",
+      "_fr": "Un cochon endormi qui a été forcé de se réveiller et qui rayonnait du pouvoir de la colère. Les voir défiler dans les rues en colère semble être devenu une fête traditionnelle dans les pays du Nord."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "387",
+  "Name_yww": "ねぶた",
+  "description_jp_yww": "むりやり起こされた寝ブタが 怒りの力で発光した姿。 激怒して街を練り歩く姿は いつのまにか北国で 伝統のお祭りになったらしい。",
+  "BingoMessage_jp_yww": "わすの眠りを覚ますたのはおめーが！？ わがった！　一緒に祭りさすっぺな！",
+  "MonsterId_yww": "y402000",
+  "Height_yww": 10.0,
+  "CommondId_yww": "sp_402000",
+  "MinHp_yww": 50,
+  "MaxHp_yww": 406,
+  "MinAttack_yww": 30,
+  "MaxAttack_yww": 189,
+  "MinMagic_yww": 7,
+  "MaxMagic_yww": 48,
+  "MinDefense_yww": 21,
+  "MaxDefense_yww": 159,
+  "MinSpeed_yww": 22,
+  "MaxSpeed_yww": 161,
+  "AttackId_yww": 53,
+  "MagicId_yww": 17,
+  "HauntId_yww": 402000,
+  "SpSkillId_yww": 402000,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 11,
+  "DislikeFoodKind_yww": 4,
+  "ActionType_yww": 4,
+  "TribeType_yww": 6,
+  "MedallionImage_yww": "y397800.png",
+  "SpriteImage_yww": "img_y397800.png",
+  "Audio_yww": "sp_y397800.wav",
+  "Description_yww": "Voici à quoi ressemble un « cochon endormi » réveillé de force, luminant sous l'effet de sa colère. Son défilé furieux dans les rues serait, sans que l'on s'en rende compte, devenu une fête traditionnelle dans le nord du pays.",
+  "BingoMessage_fr_yww": "C'est toi qui m'as réveillé, hein ?! D'accord ! On va faire la fête ensemble !"
 }

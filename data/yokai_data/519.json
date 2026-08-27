@@ -1,253 +1,284 @@
 {
-    "ID": "519",
-    "Nom": "Charivariz",
-    "Tribue": "Bienveillant",
-    "Rang": "D",
-    "PV": "339",
-    "Force": "40",
-    "Esprit": "190",
-    "Défense": "150",
-    "Vitesse": "133",
-    "Description": "Laisse une trainée de riz derrière lui. N'essaie pas de lui dire de nettoyer ou tu risques de te prendre du riz en pleine tête !",
-    "description SITE": "Laisse une traînée de riz derrière lui. N'essaie pas de lui dire de nettoyer ou tu risques de te prendre du riz en pleine tête !",
-    "nourriture": "Riz",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Malgré tout le riz qu'il fait tomber, Charivariz en a toujours plus qui déborde de sa tête.",
-    "personnalité": "Charivariz est un Yo-kai avec le tournis. Il ne peut donc pas vraiment faire attention à son entourage.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/charivariz.png",
-    "nom_original": "テンテコ米",
-    "nom_anglais": "Cereal Spiller",
-    "premiere_apparition": "yw3",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw3": [
-            "Quartier des boutiques- Contre-allées rue commerçante",
-            "Clinique du Crépuscule"
-        ]
-    },
-    "fusions": [],
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Boule de riz",
-        "description": "Récupère des PV si sur le point d'être battu. (une fois)"
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/charivariz.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/charivariz.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/charivariz.wav",
-    "oldID": "526",
-    "medallium_ids": {
-        "yw3": "327"
-    },
-    "spinoff_ids": {
-        "yw Blasters 2": "334",
-        "yw Wibble Wobble": "5044",
-        "yw World": "0343"
-    },
-    "battle_type": "",
-    "skill_name": "Bear Care",
-    "skill_effect": "Spill Over",
-    "disliked_food": "Pizza",
-    "global_stats": {
-        "yw3": {
-            "stats": {
-                "HP": "118-206",
-                "STR": "45",
-                "SPR": "195",
-                "DEF": "155",
-                "SPD": "138"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "Attribute tolerance": {
-            "stats": {
-                "HP": "118-206"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "118-206"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "118-206"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "テンテコ米",
-            "Tentekomai"
-        ],
-        "Spanish": [
-            "Arrocet"
-        ],
-        "French": [
-            "Charivariz"
-        ],
-        "Italian": [
-            "Risperdo"
-        ],
-        "German": [
-            "Körnerkaot"
-        ],
-        "Thai": [
-            "เทนเตโคไม"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "テンテコ米"
-        ],
-        "Spanish": [
-            "Arrocet"
-        ],
-        "French": [
-            "Charivariz"
-        ],
-        "Italian": [
-            "Risperdo"
-        ],
-        "German": [
-            "Körnerkaot"
-        ],
-        "Thai": [
-            "เทนเตโคไม"
-        ]
-    },
-    "description_en": "Leaves a trail of spilled rice in his wake. Don't try to get him to clean it up! That's a quick way to end up with more spilled rice.",
-    "nom_en": "Bumblejack",
-    "rang_yww": "D",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "Onigiri",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い",
-        "_en": "(Recovery role) Kind and compassionate",
-        "_fr": "(Rôle de récupération) Gentil et compatissant"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 40,
-        "str": 8,
-        "spr": 24,
-        "def": 18,
-        "spd": 15
-    },
-    "stats_max_yww": {
-        "hp": 339,
-        "str": 40,
-        "spr": 190,
-        "def": 150,
-        "spd": 133
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ずつき",
-                "_en": "Zutsuki",
-                "_fr": "Zutsuki"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体に攻撃する。",
-                "_en": "[Power: 30/Blow] Attacks one enemy.",
-                "_fr": "[Puissance : 30/Coup] Attaque un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "いやしの術",
-                "_en": "Healing techniques",
-                "_fr": "Techniques de guérison"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "てんてこ舞の舞の舞",
-                "_en": "Tenteko Mai no Mai no Mai",
-                "_fr": "Tenteko Mai no Mai no Mai"
-            },
-            "pouvoir": "80",
-            "explication": {
-                "_jp": "忙しすぎて頭のお米をぶちまけ敵全体にダメージを与える。",
-                "_en": "He's so busy that he blows the rice on his head, damaging all enemies.",
-                "_fr": "Il est tellement occupé qu'il se souffle du riz sur la tête, endommageant tous les ennemis."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "てんてこまいにする",
-                "_en": "make a fuss",
-                "_fr": "faire des histoires"
-            },
-            "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "一升のマスに 一生懸命 お米を入れては こぼしちゃう てんてこ舞いな妖怪。 こぼしたお米を 拾おうと さらにこぼして てんてこ米。",
-            "_en": "A frantic monster who tries her best to fill a square with rice and then spills it. When I tried to pick up the spilled rice, I spilled it even more.",
-            "_fr": "Un monstre frénétique qui fait de son mieux pour remplir un carré de riz puis le renverse. Quand j’ai essayé de ramasser le riz renversé, j’en ai renversé encore plus."
-        }
-    ],
-    "nourriture_favorite": "Onigiri",
-    "jeu_present": [
-        "yw3"
+  "ID": "519",
+  "Nom": "Charivariz",
+  "Tribue": "Bienveillant",
+  "Rang": "D",
+  "PV": "339",
+  "Force": "40",
+  "Esprit": "190",
+  "Défense": "150",
+  "Vitesse": "133",
+  "Description": "Laisse une trainée de riz derrière lui. N'essaie pas de lui dire de nettoyer ou tu risques de te prendre du riz en pleine tête !",
+  "description SITE": "Laisse une traînée de riz derrière lui. N'essaie pas de lui dire de nettoyer ou tu risques de te prendre du riz en pleine tête !",
+  "nourriture": "Riz",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Malgré tout le riz qu'il fait tomber, Charivariz en a toujours plus qui déborde de sa tête.",
+  "personnalité": "Charivariz est un Yo-kai avec le tournis. Il ne peut donc pas vraiment faire attention à son entourage.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/charivariz.png",
+  "nom_original": "テンテコ米",
+  "nom_anglais": "Cereal Spiller",
+  "premiere_apparition": "yw3",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw3": [
+      "Quartier des boutiques- Contre-allées rue commerçante",
+      "Clinique du Crépuscule"
     ]
+  },
+  "fusions": [],
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {},
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Boule de riz",
+    "description": "Récupère des PV si sur le point d'être battu. (une fois)"
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/charivariz.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/charivariz.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/charivariz.wav",
+  "oldID": "526",
+  "medallium_ids": {
+    "yw3": "327"
+  },
+  "spinoff_ids": {
+    "yw Blasters 2": "334",
+    "yw Wibble Wobble": "5044",
+    "yw World": "0343"
+  },
+  "battle_type": "",
+  "skill_name": "Bear Care",
+  "skill_effect": "Spill Over",
+  "disliked_food": "Pizza",
+  "global_stats": {
+    "yw3": {
+      "stats": {
+        "HP": "118-206",
+        "STR": "45",
+        "SPR": "195",
+        "DEF": "155",
+        "SPD": "138"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "Attribute tolerance": {
+      "stats": {
+        "HP": "118-206"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "118-206"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "118-206"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "テンテコ米",
+      "Tentekomai"
+    ],
+    "Spanish": [
+      "Arrocet"
+    ],
+    "French": [
+      "Charivariz"
+    ],
+    "Italian": [
+      "Risperdo"
+    ],
+    "German": [
+      "Körnerkaot"
+    ],
+    "Thai": [
+      "เทนเตโคไม"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "テンテコ米"
+    ],
+    "Spanish": [
+      "Arrocet"
+    ],
+    "French": [
+      "Charivariz"
+    ],
+    "Italian": [
+      "Risperdo"
+    ],
+    "German": [
+      "Körnerkaot"
+    ],
+    "Thai": [
+      "เทนเตโคไม"
+    ]
+  },
+  "description_en": "Leaves a trail of spilled rice in his wake. Don't try to get him to clean it up! That's a quick way to end up with more spilled rice.",
+  "nom_en": "Bumblejack",
+  "rang_yww": "D",
+  "tribue_yww": "Pokapoka",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "Onigiri",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い",
+    "_en": "(Recovery role) Kind and compassionate",
+    "_fr": "(Rôle de récupération) Gentil et compatissant"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 40,
+    "str": 8,
+    "spr": 24,
+    "def": 18,
+    "spd": 15
+  },
+  "stats_max_yww": {
+    "hp": 339,
+    "str": 40,
+    "spr": 190,
+    "def": 150,
+    "spd": 133
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ずつき",
+        "_en": "Zutsuki",
+        "_fr": "Zutsuki"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体に攻撃する。",
+        "_en": "[Power: 30/Blow] Attacks one enemy.",
+        "_fr": "[Puissance : 30/Coup] Attaque un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "いやしの術",
+        "_en": "Healing techniques",
+        "_fr": "Techniques de guérison"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "てんてこ舞の舞の舞",
+        "_en": "Tenteko Mai no Mai no Mai",
+        "_fr": "Tenteko Mai no Mai no Mai"
+      },
+      "pouvoir": "80",
+      "explication": {
+        "_jp": "忙しすぎて頭のお米をぶちまけ敵全体にダメージを与える。",
+        "_en": "He's so busy that he blows the rice on his head, damaging all enemies.",
+        "_fr": "Il est tellement occupé qu'il se souffle du riz sur la tête, endommageant tous les ennemis."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "てんてこまいにする",
+        "_en": "make a fuss",
+        "_fr": "faire des histoires"
+      },
+      "explication": {
+        "_jp": "【–】 –",
+        "_en": null,
+        "_fr": null
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "一升のマスに 一生懸命 お米を入れては こぼしちゃう てんてこ舞いな妖怪。 こぼしたお米を 拾おうと さらにこぼして てんてこ米。",
+      "_en": "A frantic monster who tries her best to fill a square with rice and then spills it. When I tried to pick up the spilled rice, I spilled it even more.",
+      "_fr": "Un monstre frénétique qui fait de son mieux pour remplir un carré de riz puis le renverse. Quand j’ai essayé de ramasser le riz renversé, j’en ai renversé encore plus."
+    }
+  ],
+  "nourriture_favorite": "Onigiri",
+  "jeu_present": [
+    "yw3"
+  ],
+  "id_yww": "508",
+  "Name_yww": "テンテコ米",
+  "description_jp_yww": "一升のマスに　一生懸命 お米を入れては　こぼしちゃう てんてこ舞いな妖怪。 こぼしたお米を　拾おうと さらにこぼして　てんてこ米。",
+  "BingoMessage_jp_yww": "出してくれたお礼に　おいらがんばるよ！ …あっ　またお米が落ちた～！",
+  "MonsterId_yww": "y574000",
+  "Height_yww": 9.04,
+  "CommondId_yww": "sp_574000",
+  "MinHp_yww": 46,
+  "MaxHp_yww": 370,
+  "MinAttack_yww": 10,
+  "MaxAttack_yww": 94,
+  "MinMagic_yww": 14,
+  "MaxMagic_yww": 138,
+  "MinDefense_yww": 23,
+  "MaxDefense_yww": 181,
+  "MinSpeed_yww": 5,
+  "MaxSpeed_yww": 50,
+  "AttackId_yww": 35,
+  "MagicId_yww": 10,
+  "HauntId_yww": 574000,
+  "SpSkillId_yww": 574000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 1,
+  "DislikeFoodKind_yww": 19,
+  "ActionType_yww": 17,
+  "TribeType_yww": 5,
+  "MedallionImage_yww": "y569800.png",
+  "SpriteImage_yww": "img_y569800.png",
+  "Audio_yww": "sp_y569800.wav",
+  "Description_yww": "Dans un seau d'un shō, il s'efforce de mettre du riz, mais il en renverse sans cesse. Un yōkai complètement débordé. En essayant de ramasser le riz renversé, il en renverse encore plus : c'est le chaos total.",
+  "BingoMessage_fr_yww": "Pour te remercier de m'avoir donné à manger, je vais faire de mon mieux ! … Ah, encore du riz qui est tombé !"
 }

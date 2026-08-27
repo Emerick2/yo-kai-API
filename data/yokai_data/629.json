@@ -1,254 +1,285 @@
 {
-    "ID": "629",
-    "Nom": "Ailexagère",
-    "Tribue": "Bienveillant",
-    "Rang": "A",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "Ceux qui sont envoûtés par ce Yo-kai tape-à-l'œil exagèrent dans tout ce qu'ils font.",
-    "nourriture": "Encas",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "Ailexagère est un jeu de mots entre la phrase \"Elle exagère\" et Aile, en référence aux ailes de papillon.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Ceux qui sont envoûtés par ceux Yo-kai exagèreront tout ce qu'ils font.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/ailexagere.png",
-    "nom_original": "モルラ",
-    "nom_anglais": "Amplifly",
-    "premiere_apparition": "yw3",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Hyprapillon",
-            "parent2": "Vermicelles colorés",
-            "resultat": "Ailexagère",
-            "critere": "➨"
-        }
-    ],
-    "rarite": "Yo-kai Mericain",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Amailioration",
-        "description": "Booste sensiblement les stats des Yo-kai reliés."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/ailexagere.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/ailexagere.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/ailexagere.wav",
-    "oldID": "638",
-    "medallium_ids": {
-        "yw3": "641"
-    },
-    "spinoff_ids": {
-        "yw Blasters 2": "666",
-        "yw Wibble Wobble": "5042",
-        "yw World": "0769"
-    },
-    "battle_type": "'Merican",
-    "skill_name": "Amped Up",
-    "skill_effect": "Buzzin'",
-    "disliked_food": "Ramen",
-    "global_stats": {
-        "yw3": {
-            "stats": {
-                "HP": "1-1",
-                "STR": "77",
-                "SPR": "300",
-                "DEF": "131",
-                "SPD": "90"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "Attribute tolerance": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "モルラ",
-            "Morura"
-        ],
-        "Spanish": [
-            "Maripasada"
-        ],
-        "French": [
-            "Ailexagère"
-        ],
-        "Italian": [
-            "Amplifarfalla"
-        ],
-        "German": [
-            "Plustarfalta"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "モルラ"
-        ],
-        "Spanish": [
-            "Maripasada"
-        ],
-        "French": [
-            "Ailexagère"
-        ],
-        "Italian": [
-            "Amplifarfalla"
-        ],
-        "German": [
-            "Plustarfalta"
-        ]
-    },
-    "description_en": "Those Inspirited by this excessively gaudy Yo-kai go over the top and exaggerate everything they do.",
-    "nom_en": "Sweattuce",
-    "rang_yww": "A",
-    "tribue_yww": "ポカポカ族",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "スナック",
-    "nourriture_favorite": "スナック",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い",
-        "_en": "(Recovery role) Kind and compassionate",
-        "_fr": "(Rôle de récupération) Gentil et compatissant"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "風属性",
-        "_fr": "風属性"
-    },
-    "stats_initiale_yww": {
-        "hp": 45,
-        "str": 8,
-        "spr": 45,
-        "def": 19,
-        "spd": 8
-    },
-    "stats_max_yww": {
-        "hp": 451,
-        "str": 72,
-        "spr": 295,
-        "def": 126,
-        "spd": 85
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "こづく",
-                "_en": "poked you",
-                "_fr": "vous a Poké"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_fr": "【威力:30 / 打撃】 敵1体にダメージを与える"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "ようじゅつ",
-                "_fr": "ようじゅつ"
-            },
-            "nom": {
-                "_jp": "極楽の術",
-                "_en": "The art of paradise",
-                "_fr": "L'art du paradis"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "モルモル大盛況",
-                "_en": "Mole mole great success",
-                "_fr": "Taupe grand succès"
-            },
-            "pouvoir": "90",
-            "explication": {
-                "_jp": "みんなを元気にするモリモリなオーラで味方全員のHPを回復する。",
-                "_en": "みんなを元気にするモリモリなオーラで味方全員のHPを回復する。",
-                "_fr": "みんなを元気にするモリモリなオーラで味方全員のHPを回復する。"
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "盛らせる",
-                "_en": "serve",
-                "_fr": "servir"
-            },
-            "explication": {
-                "_jp": "【–】 –",
-                "_en": null,
-                "_fr": null
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "髪を盛りに盛った蛾の妖怪。 とりつかれると 事実を １００倍大げさに話してしまう。 …いや １００倍は さすがに”盛り”すぎたかな…。",
-            "_en": "A moth monster with thick hair. When he gets obsessed, he exaggerates the truth by 100 times. ...Well, I think 100 times was too \"high\"...",
-            "_fr": "Un monstre papillon aux cheveux épais. Lorsqu’il devient obsédé, il exagère la vérité 100 fois. ...Eh bien, je pense que 100 fois, c'était trop \"élevé\"..."
-        }
-    ],
-    "jeu_present": [
-        "yw3"
+  "ID": "629",
+  "Nom": "Ailexagère",
+  "Tribue": "Bienveillant",
+  "Rang": "A",
+  "PV": 311,
+  "Force": 59,
+  "Esprit": 220,
+  "Défense": 114,
+  "Vitesse": 143,
+  "Description": "Ceux qui sont envoûtés par ce Yo-kai tape-à-l'œil exagèrent dans tout ce qu'ils font.",
+  "nourriture": "Encas",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "Ailexagère est un jeu de mots entre la phrase \"Elle exagère\" et Aile, en référence aux ailes de papillon.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Ceux qui sont envoûtés par ceux Yo-kai exagèreront tout ce qu'ils font.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/ailexagere.png",
+  "nom_original": "モルラ",
+  "nom_anglais": "Amplifly",
+  "premiere_apparition": "yw3",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Hyprapillon",
+      "parent2": "Vermicelles colorés",
+      "resultat": "Ailexagère",
+      "critere": "➨"
+    }
+  ],
+  "rarite": "Yo-kai Mericain",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {},
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Amailioration",
+    "description": "Booste sensiblement les stats des Yo-kai reliés."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/ailexagere.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/ailexagere.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/ailexagere.wav",
+  "oldID": "638",
+  "medallium_ids": {
+    "yw3": "641"
+  },
+  "spinoff_ids": {
+    "yw Blasters 2": "666",
+    "yw Wibble Wobble": "5042",
+    "yw World": "0769"
+  },
+  "battle_type": "'Merican",
+  "skill_name": "Amped Up",
+  "skill_effect": "Buzzin'",
+  "disliked_food": "Ramen",
+  "global_stats": {
+    "yw3": {
+      "stats": {
+        "HP": "1-1",
+        "STR": "77",
+        "SPR": "300",
+        "DEF": "131",
+        "SPD": "90"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "Attribute tolerance": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "モルラ",
+      "Morura"
+    ],
+    "Spanish": [
+      "Maripasada"
+    ],
+    "French": [
+      "Ailexagère"
+    ],
+    "Italian": [
+      "Amplifarfalla"
+    ],
+    "German": [
+      "Plustarfalta"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "モルラ"
+    ],
+    "Spanish": [
+      "Maripasada"
+    ],
+    "French": [
+      "Ailexagère"
+    ],
+    "Italian": [
+      "Amplifarfalla"
+    ],
+    "German": [
+      "Plustarfalta"
+    ]
+  },
+  "description_en": "Those Inspirited by this excessively gaudy Yo-kai go over the top and exaggerate everything they do.",
+  "nom_en": "Sweattuce",
+  "rang_yww": "A",
+  "tribue_yww": "ポカポカ族",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "スナック",
+  "nourriture_favorite": "スナック",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い",
+    "_en": "(Recovery role) Kind and compassionate",
+    "_fr": "(Rôle de récupération) Gentil et compatissant"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "風属性",
+    "_fr": "風属性"
+  },
+  "stats_initiale_yww": {
+    "hp": 45,
+    "str": 8,
+    "spr": 45,
+    "def": 19,
+    "spd": 8
+  },
+  "stats_max_yww": {
+    "hp": 451,
+    "str": 72,
+    "spr": 295,
+    "def": 126,
+    "spd": 85
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "こづく",
+        "_en": "poked you",
+        "_fr": "vous a Poké"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_fr": "【威力:30 / 打撃】 敵1体にダメージを与える"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "ようじゅつ",
+        "_fr": "ようじゅつ"
+      },
+      "nom": {
+        "_jp": "極楽の術",
+        "_en": "The art of paradise",
+        "_fr": "L'art du paradis"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "モルモル大盛況",
+        "_en": "Mole mole great success",
+        "_fr": "Taupe grand succès"
+      },
+      "pouvoir": "90",
+      "explication": {
+        "_jp": "みんなを元気にするモリモリなオーラで味方全員のHPを回復する。",
+        "_en": "みんなを元気にするモリモリなオーラで味方全員のHPを回復する。",
+        "_fr": "みんなを元気にするモリモリなオーラで味方全員のHPを回復する。"
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "盛らせる",
+        "_en": "serve",
+        "_fr": "servir"
+      },
+      "explication": {
+        "_jp": "【–】 –",
+        "_en": null,
+        "_fr": null
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "髪を盛りに盛った蛾の妖怪。 とりつかれると 事実を １００倍大げさに話してしまう。 …いや １００倍は さすがに”盛り”すぎたかな…。",
+      "_en": "A moth monster with thick hair. When he gets obsessed, he exaggerates the truth by 100 times. ...Well, I think 100 times was too \"high\"...",
+      "_fr": "Un monstre papillon aux cheveux épais. Lorsqu’il devient obsédé, il exagère la vérité 100 fois. ...Eh bien, je pense que 100 fois, c'était trop \"élevé\"..."
+    }
+  ],
+  "jeu_present": [
+    "yw3"
+  ],
+  "id_yww": "616",
+  "Name_yww": "モルラ",
+  "description_jp_yww": "髪を盛りに盛った蛾の妖怪。 とりつかれると　事実を １００倍大げさに話してしまう。 …いや　１００倍は さすがに”盛り”すぎたかな…。",
+  "BingoMessage_jp_yww": "アタシを出すとか…　マジヤバくね！？ でもちょっとアンタ　盛り足りなくね！？",
+  "MonsterId_yww": "y689000",
+  "Height_yww": 11.04,
+  "CommondId_yww": "sp_689000",
+  "MinHp_yww": 41,
+  "MaxHp_yww": 311,
+  "MinAttack_yww": 8,
+  "MaxAttack_yww": 59,
+  "MinMagic_yww": 31,
+  "MaxMagic_yww": 220,
+  "MinDefense_yww": 15,
+  "MaxDefense_yww": 114,
+  "MinSpeed_yww": 21,
+  "MaxSpeed_yww": 143,
+  "AttackId_yww": 10,
+  "MagicId_yww": 23,
+  "HauntId_yww": 689000,
+  "SpSkillId_yww": 689000,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 10,
+  "DislikeFoodKind_yww": 11,
+  "ActionType_yww": 15,
+  "TribeType_yww": 5,
+  "MedallionImage_yww": "y684800.png",
+  "SpriteImage_yww": "img_y684800.png",
+  "Audio_yww": "sp_y684800.wav",
+  "Description_yww": "Un yōkai ressemblant à un papillon de nuit aux cheveux extrêmement volumineux. Lorsqu’il vous possède, vous racontez les faits en les exagérant 100 fois. … Non, 100 fois, c’est peut-être un peu trop « exagéré » quand même…",
+  "BingoMessage_fr_yww": "Me mettre en avant… C'est vraiment trop dingue, non ?! Mais dis donc, tu n'en fais pas un peu trop peu ?!"
 }

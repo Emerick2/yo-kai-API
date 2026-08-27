@@ -1,731 +1,762 @@
 {
-    "ID": "57",
-    "Nom": "Angélik",
-    "Tribue": "Mignon",
-    "Rang": "B",
-    "PV": "354",
-    "Force": "37",
-    "Esprit": "161",
-    "Défense": "119",
-    "Vitesse": "212",
-    "Description-": "Il parcourt le monde sans but. Quand les trois frères Hiblusion, Hibrouille et Hibourling se réunissent, c'est un vrai miracle.",
-    "Description": "Angélik a le pouvoir de tout geler, mais elle a toujours froid car elle ne maîtrise pas vraiment son pouvoir.",
-    "nourriture": "Bonbons",
-    "élément": "Glace",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Angélik vient du prénom Angélique et de Gèle",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Elle a le pouvoir d'utiliser la glace mais comme elle ne le contrôle pas vraiment elle gèle tout sur son passage.",
-    "personnalité": "Angélik est plutôt timide et réservée car elle ne contrôle pas bien ses pouvoirs.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/angelik.png",
-    "numero": "108",
-    "nourriture_favorite": "Sucrerie",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Jeu de glace",
-            "effet": "Augmente les dégâts de ses attaques de glace."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Gifle",
-            "effet": "10 | 45"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Blizzard",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Giboulée glacée",
-            "effet": "Assomme ses ennemis avec une pluie de stalactites gelées. 65 | 170"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paralygel",
-            "effet": "Paralyse de froid un ennemi et réduit sa FOR."
-        }
+  "ID": "57",
+  "Nom": "Angélik",
+  "Tribue": "Mignon",
+  "Rang": "B",
+  "PV": "354",
+  "Force": "37",
+  "Esprit": "161",
+  "Défense": "119",
+  "Vitesse": "212",
+  "Description-": "Il parcourt le monde sans but. Quand les trois frères Hiblusion, Hibrouille et Hibourling se réunissent, c'est un vrai miracle.",
+  "Description": "Angélik a le pouvoir de tout geler, mais elle a toujours froid car elle ne maîtrise pas vraiment son pouvoir.",
+  "nourriture": "Bonbons",
+  "élément": "Glace",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Angélik vient du prénom Angélique et de Gèle",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Elle a le pouvoir d'utiliser la glace mais comme elle ne le contrôle pas vraiment elle gèle tout sur son passage.",
+  "personnalité": "Angélik est plutôt timide et réservée car elle ne contrôle pas bien ses pouvoirs.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/angelik.png",
+  "numero": "108",
+  "nourriture_favorite": "Sucrerie",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Jeu de glace",
+      "effet": "Augmente les dégâts de ses attaques de glace."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Gifle",
+      "effet": "10 | 45"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Blizzard",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Giboulée glacée",
+      "effet": "Assomme ses ennemis avec une pluie de stalactites gelées. 65 | 170"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paralygel",
+      "effet": "Paralyse de froid un ennemi et réduit sa FOR."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Hi hi hi, délicieux !",
+    "Mange de la nourriture insipide": "*mâche* *avale*",
+    "Mange de la mauvaise nourriture": "Euh...",
+    "A la flemme": "Pfiou...",
+    "Est échangé": "Bonjour ! Tu connais ... ? Tu en as de la chance.",
+    "Devient ton ami": "Tu as tellement de force ! Je suis conquise !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Angélik",
+      "parent2": "Pince de glace",
+      "resultat": "Blizzaria",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ゆきおんな",
+  "nom_anglais": "Frostina",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Aya Endo",
+    "francaise": "Caroline Combes",
+    "anglaise": "English VA Alicyn Packard"
+  },
+  "localisations": {
+    "yw1": [
+      "École élémentaire de Granval(nuit)",
+      "Quête - Aidons Mme Glatz",
+      "Bingo-kai-Pièce 5 étoiles"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Hi hi hi, délicieux !",
-        "Mange de la nourriture insipide": "*mâche* *avale*",
-        "Mange de la mauvaise nourriture": "Euh...",
-        "A la flemme": "Pfiou...",
-        "Est échangé": "Bonjour ! Tu connais ... ? Tu en as de la chance.",
-        "Devient ton ami": "Tu as tellement de force ! Je suis conquise !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Angélik",
-            "parent2": "Pince de glace",
-            "resultat": "Blizzaria",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Les Hauts de Granval – arbres"
     ],
-    "image_locale": "",
-    "nom_original": "ゆきおんな",
-    "nom_anglais": "Frostina",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Aya Endo",
-        "francaise": "Caroline Combes",
-        "anglaise": "English VA Alicyn Packard"
-    },
-    "localisations": {
-        "yw1": [
-            "École élémentaire de Granval(nuit)",
-            "Quête - Aidons Mme Glatz",
-            "Bingo-kai-Pièce 5 étoiles"
-        ],
-        "yw2": [
-            "Les Hauts de Granval – arbres"
-        ],
-        "yw Blasters 1": [
-            "Patrouille : Hauts de Granval",
-            "Bingo-kai"
-        ],
-        "yw3": [
-            "Centre-ville de Granval– Arrière-cour du Vent d'hiver",
-            "Bingo-kai –Pièce rose"
-        ],
-        "yw4": [
-            "Yo-kai World - Failles",
-            "Yo-kai World - Portes Sésames",
-            "Yo-kai World - Bosquet Mystique",
-            "Angélik peux être aussi trouver dans la mission deHyakki-hime (Shadowside)dans le modePura Pura Busterset également auBingo-kaiavec unePièce Ancienneen 1er prix ou unePièce Gasha,Pièce 5 étoilesetPièce 1 étoileen tant que second prix.\nElle peux être aussi dans le combat contreBlingosdans leTournoi Enma - Arène Oni."
-        ],
-        "yw Wibble Wobble": [
-            "Niveau secret 5-9 (Égout E)",
-            "Niveau d'épreuve 43 (Épreuve d'Ogralos)",
-            "Échanges (Événement Boss Yo-kai)",
-            "Pièce rose G",
-            "Bingo-kai gagnant"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "Angélik",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Blizzard",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Giboulée glacée",
-                "puissance": "60|157",
-                "description": "Assomme ses ennemis avec une pluie de stalactites gelées."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Paralygel",
-                "puissance": "N/A",
-                "description": "Paralyse de froid un ennemi et réduit sa FOR."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Jeu de glace",
-                "description": "Augmente les dégâts des attaques de glace."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Blizzard",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Giboulée glacée",
-                "puissance": "65|170",
-                "description": "Assomme ses ennemis avec une pluie de stalactites gelées."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Paralygel",
-                "puissance": "N/A",
-                "description": "Paralyse de froid un ennemi et réduit sa FOR."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Grêle",
-                "puissance": "N/A",
-                "description": "Une grêle s'abat sur les ennemis éloignés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Gel",
-                "puissance": "N/A",
-                "description": "Un sort de glace gèle les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Jeu de glace",
-                "description": "Augmente les dégâts de ses attaques de glace."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Giboulée glacée",
-                "puissance": "200×2",
-                "description": "Un pilier de glace inflige de gros dégâts aux ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Grêle",
-                "puissance": "40",
-                "description": "Utilise un sort de glace. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Position de rapidité",
-                "puissance": "___",
-                "description": "Hausse de la vitesse temporaire."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Gel",
-                "puissance": "50",
-                "description": "Un sort de glace puissant. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Mode iceberg",
-                "description": "Ajoute de la glace aux attaques."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Blizzard",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Giboulée glacée",
-                "puissance": "150|300",
-                "description": "Assomme les ennemis à portée avec une pluie de stalactites gelées."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Paralygel",
-                "puissance": "N/A",
-                "description": "Paralyse de froid un ennemi et réduit sa FOR."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Jeu de glace",
-                "description": "Booste les dégâts de glace de tous les Yo-kai."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Jeu de glace",
-        "description": "Augmente les dégâts des attaques de glace."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/angelik.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/angelik.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/angelik.wav",
-    "oldID": "57",
-    "medallium_ids": {
-        "yw1": "108",
-        "yw2": "155",
-        "yw3": "275",
-        "yw4": "6 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "196",
-        "yw Blasters 2": "280",
-        "yw Wibble Wobble": "4003",
-        "yw World": "0091",
-        "yw Ukiukipedia": "yw3-013/YD1-031"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Snow Play",
-    "skill_effect": "Numbify",
-    "disliked_food": "Chinese Food",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "349",
-                "STR": "115",
-                "SPR": "181",
-                "DEF": "123",
-                "SPD": "168"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "364",
-                "STR": "115",
-                "SPR": "181",
-                "DEF": "123",
-                "SPD": "168"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "302",
-                "STR": "70",
-                "SPR": "149",
-                "DEF": "124",
-                "SPD": "217"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "387",
-                "STR": "125",
-                "SPR": "226",
-                "DEF": "152"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "377",
-                "STR": "124",
-                "SPR": "224",
-                "DEF": "149"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "168-294"
-            },
-            "elements": {},
-            "attacks": [
-                {
-                    "type": "Attack",
-                    "name": "Attack",
-                    "power": "50",
-                    "attribute": "Attack",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Hail",
-                    "power": "40, 100 (Charged)",
-                    "attribute": "Ice",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Dodge",
-                    "power": "N/A",
-                    "attribute": "Dodge",
-                    "range": "Self"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Speedy Stance",
-                    "power": "N/A",
-                    "attribute": "Speedy stance",
-                    "range": "Self"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Frost",
-                    "power": "50, 160 (Charged)",
-                    "attribute": "Frost",
-                    "range": "Single Enemy, Area (Charged)"
-                },
-                {
-                    "type": "Soultimate Move",
-                    "name": "Snow Sherbet",
-                    "power": "200x2",
-                    "attribute": "Ice",
-                    "range": "Area"
-                },
-                {
-                    "type": "Skill",
-                    "name": "Stay Frosty",
-                    "power": "N/A",
-                    "attribute": "None",
-                    "range": "Self"
-                }
-            ]
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "168-294",
-                "STR": "124",
-                "SPR": "224",
-                "DEF": "149"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "168-294"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ゆきおんな"
-        ],
-        "Spanish": [
-            "Fristina"
-        ],
-        "French": [
-            "Angélik"
-        ],
-        "Italian": [
-            "Gelina"
-        ],
-        "German": [
-            "Frostina"
-        ],
-        "Russian": [
-            "Ледовласка",
-            "Ledovlaska"
-        ],
-        "Arabic": [
-            "صقعة",
-            "Ṣaqea"
-        ],
-        "Chinese (Mandarin)": [
-            "雪女"
-        ],
-        "Portuguese (Brazilian)": [
-            "Frostina"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ゆきおんな"
-        ],
-        "Spanish": [
-            "Fristina"
-        ],
-        "French": [
-            "Angélik"
-        ],
-        "Italian": [
-            "Gelina"
-        ],
-        "German": [
-            "Frostina"
-        ],
-        "Russian": [
-            "Ледовласка"
-        ],
-        "Arabic": [
-            "صقعة"
-        ],
-        "Chinese (Mandarin)": [
-            "雪女"
-        ],
-        "Portuguese (Brazilian)": [
-            "Frostina"
-        ]
-    },
-    "description_en": "Frostina has the power to freeze anything, but that keeps her pretty chilly— that and bad circulation.",
-    "nom_en": "Elloo",
-    "rang_yww": "B",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Dashi",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "stats_initiale_yww": {
-        "hp": 43,
-        "str": 5,
-        "spr": 23,
-        "def": 16,
-        "spd": 31
-    },
-    "stats_max_yww": {
-        "hp": 354,
-        "str": 37,
-        "spr": 161,
-        "def": 119,
-        "spd": 212
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "5つ星コイン",
-            "_en": "5 star coin",
-            "_fr": "Pièce de 5 étoiles"
-        },
-        {
-            "_jp": "スペシャルコイン",
-            "_en": "special coin",
-            "_fr": "pièce spéciale"
-        },
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw Blasters 1": [
+      "Patrouille : Hauts de Granval",
+      "Bingo-kai"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はたく",
-                "_en": "はたく",
-                "_fr": "はたく"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "吹雪の術",
-                "_en": "Fubuki no Jutsu",
-                "_fr": "Fubuki no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 氷属性】 強力な氷の妖術を使う。",
-                "_en": "[Power: 70 / Ice attribute] Uses powerful ice magic.",
-                "_fr": "[Puissance : 70 / Attribut Glace] Utilise une puissante magie de glace."
-            }
-        }
+    "yw3": [
+      "Centre-ville de Granval– Arrière-cour du Vent d'hiver",
+      "Bingo-kai –Pièce rose"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ゆきんこシャーベット",
-                "_en": "ゆきんこシャーベット",
-                "_fr": "ゆきんこシャーベット"
-            },
-            "pouvoir": "150",
-            "explication": {
-                "_jp": "冷たい氷をたくさん呼び出しおみまいする。",
-                "_en": "I call up a lot of cold ice and serve it.",
-                "_fr": "J'appelle beaucoup de glace froide et je la sers."
-            }
-        }
+    "yw4": [
+      "Yo-kai World - Failles",
+      "Yo-kai World - Portes Sésames",
+      "Yo-kai World - Bosquet Mystique",
+      "Angélik peux être aussi trouver dans la mission deHyakki-hime (Shadowside)dans le modePura Pura Busterset également auBingo-kaiavec unePièce Ancienneen 1er prix ou unePièce Gasha,Pièce 5 étoilesetPièce 1 étoileen tant que second prix.\nElle peux être aussi dans le combat contreBlingosdans leTournoi Enma - Arène Oni."
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "かじかませる",
-                "_en": "sneer",
-                "_fr": "ricanement"
-            },
-            "explication": {
-                "_jp": "【ちからダウン】 寒さでかじかんでちからがダウン",
-                "_en": "[Power down] My power is down due to the cold.",
-                "_fr": "[Mise hors tension] Mon alimentation est coupée à cause du froid."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "ものすごい冷気を生み出して なんでも凍らせるという すごい力をもつ。 本人は 力をうまく操れないことと 冷え性に悩んでいる。",
-            "_en": "It has the amazing power to generate tremendous cold air and freeze anything. He is troubled by his inability to control his powers and his sensitivity to cold.",
-            "_fr": "Il a le pouvoir incroyable de générer un air extrêmement froid et de tout congeler. Il est troublé par son incapacité à contrôler ses pouvoirs et sa sensibilité au froid."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Niveau secret 5-9 (Égout E)",
+      "Niveau d'épreuve 43 (Épreuve d'Ogralos)",
+      "Échanges (Événement Boss Yo-kai)",
+      "Pièce rose G",
+      "Bingo-kai gagnant"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "Angélik",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Blizzard",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Giboulée glacée",
+        "puissance": "60|157",
+        "description": "Assomme ses ennemis avec une pluie de stalactites gelées."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Paralygel",
+        "puissance": "N/A",
+        "description": "Paralyse de froid un ennemi et réduit sa FOR."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Jeu de glace",
+        "description": "Augmente les dégâts des attaques de glace."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Blizzard",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Giboulée glacée",
+        "puissance": "65|170",
+        "description": "Assomme ses ennemis avec une pluie de stalactites gelées."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Paralygel",
+        "puissance": "N/A",
+        "description": "Paralyse de froid un ennemi et réduit sa FOR."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Grêle",
+        "puissance": "N/A",
+        "description": "Une grêle s'abat sur les ennemis éloignés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Gel",
+        "puissance": "N/A",
+        "description": "Un sort de glace gèle les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Jeu de glace",
+        "description": "Augmente les dégâts de ses attaques de glace."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Giboulée glacée",
+        "puissance": "200×2",
+        "description": "Un pilier de glace inflige de gros dégâts aux ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Grêle",
+        "puissance": "40",
+        "description": "Utilise un sort de glace. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Position de rapidité",
+        "puissance": "___",
+        "description": "Hausse de la vitesse temporaire."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Gel",
+        "puissance": "50",
+        "description": "Un sort de glace puissant. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Mode iceberg",
+        "description": "Ajoute de la glace aux attaques."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Blizzard",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Giboulée glacée",
+        "puissance": "150|300",
+        "description": "Assomme les ennemis à portée avec une pluie de stalactites gelées."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Paralygel",
+        "puissance": "N/A",
+        "description": "Paralyse de froid un ennemi et réduit sa FOR."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Jeu de glace",
+        "description": "Booste les dégâts de glace de tous les Yo-kai."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Jeu de glace",
+    "description": "Augmente les dégâts des attaques de glace."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/angelik.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/angelik.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/angelik.wav",
+  "oldID": "57",
+  "medallium_ids": {
+    "yw1": "108",
+    "yw2": "155",
+    "yw3": "275",
+    "yw4": "6 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "196",
+    "yw Blasters 2": "280",
+    "yw Wibble Wobble": "4003",
+    "yw World": "0091",
+    "yw Ukiukipedia": "yw3-013/YD1-031"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Snow Play",
+  "skill_effect": "Numbify",
+  "disliked_food": "Chinese Food",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "349",
+        "STR": "115",
+        "SPR": "181",
+        "DEF": "123",
+        "SPD": "168"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "364",
+        "STR": "115",
+        "SPR": "181",
+        "DEF": "123",
+        "SPD": "168"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "302",
+        "STR": "70",
+        "SPR": "149",
+        "DEF": "124",
+        "SPD": "217"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "387",
+        "STR": "125",
+        "SPR": "226",
+        "DEF": "152"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "377",
+        "STR": "124",
+        "SPR": "224",
+        "DEF": "149"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "168-294"
+      },
+      "elements": {},
+      "attacks": [
+        {
+          "type": "Attack",
+          "name": "Attack",
+          "power": "50",
+          "attribute": "Attack",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Hail",
+          "power": "40, 100 (Charged)",
+          "attribute": "Ice",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Dodge",
+          "power": "N/A",
+          "attribute": "Dodge",
+          "range": "Self"
+        },
+        {
+          "type": "Technique",
+          "name": "Speedy Stance",
+          "power": "N/A",
+          "attribute": "Speedy stance",
+          "range": "Self"
+        },
+        {
+          "type": "Technique",
+          "name": "Frost",
+          "power": "50, 160 (Charged)",
+          "attribute": "Frost",
+          "range": "Single Enemy, Area (Charged)"
+        },
+        {
+          "type": "Soultimate Move",
+          "name": "Snow Sherbet",
+          "power": "200x2",
+          "attribute": "Ice",
+          "range": "Area"
+        },
+        {
+          "type": "Skill",
+          "name": "Stay Frosty",
+          "power": "N/A",
+          "attribute": "None",
+          "range": "Self"
+        }
+      ]
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "168-294",
+        "STR": "124",
+        "SPR": "224",
+        "DEF": "149"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "168-294"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ゆきおんな"
+    ],
+    "Spanish": [
+      "Fristina"
+    ],
+    "French": [
+      "Angélik"
+    ],
+    "Italian": [
+      "Gelina"
+    ],
+    "German": [
+      "Frostina"
+    ],
+    "Russian": [
+      "Ледовласка",
+      "Ledovlaska"
+    ],
+    "Arabic": [
+      "صقعة",
+      "Ṣaqea"
+    ],
+    "Chinese (Mandarin)": [
+      "雪女"
+    ],
+    "Portuguese (Brazilian)": [
+      "Frostina"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ゆきおんな"
+    ],
+    "Spanish": [
+      "Fristina"
+    ],
+    "French": [
+      "Angélik"
+    ],
+    "Italian": [
+      "Gelina"
+    ],
+    "German": [
+      "Frostina"
+    ],
+    "Russian": [
+      "Ледовласка"
+    ],
+    "Arabic": [
+      "صقعة"
+    ],
+    "Chinese (Mandarin)": [
+      "雪女"
+    ],
+    "Portuguese (Brazilian)": [
+      "Frostina"
+    ]
+  },
+  "description_en": "Frostina has the power to freeze anything, but that keeps her pretty chilly— that and bad circulation.",
+  "nom_en": "Elloo",
+  "rang_yww": "B",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "Dashi",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "avantage_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "stats_initiale_yww": {
+    "hp": 43,
+    "str": 5,
+    "spr": 23,
+    "def": 16,
+    "spd": 31
+  },
+  "stats_max_yww": {
+    "hp": 354,
+    "str": 37,
+    "spr": 161,
+    "def": 119,
+    "spd": 212
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "5つ星コイン",
+      "_en": "5 star coin",
+      "_fr": "Pièce de 5 étoiles"
+    },
+    {
+      "_jp": "スペシャルコイン",
+      "_en": "special coin",
+      "_fr": "pièce spéciale"
+    },
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "はたく",
+        "_en": "はたく",
+        "_fr": "はたく"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "吹雪の術",
+        "_en": "Fubuki no Jutsu",
+        "_fr": "Fubuki no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 氷属性】 強力な氷の妖術を使う。",
+        "_en": "[Power: 70 / Ice attribute] Uses powerful ice magic.",
+        "_fr": "[Puissance : 70 / Attribut Glace] Utilise une puissante magie de glace."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ゆきんこシャーベット",
+        "_en": "ゆきんこシャーベット",
+        "_fr": "ゆきんこシャーベット"
+      },
+      "pouvoir": "150",
+      "explication": {
+        "_jp": "冷たい氷をたくさん呼び出しおみまいする。",
+        "_en": "I call up a lot of cold ice and serve it.",
+        "_fr": "J'appelle beaucoup de glace froide et je la sers."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "かじかませる",
+        "_en": "sneer",
+        "_fr": "ricanement"
+      },
+      "explication": {
+        "_jp": "【ちからダウン】 寒さでかじかんでちからがダウン",
+        "_en": "[Power down] My power is down due to the cold.",
+        "_fr": "[Mise hors tension] Mon alimentation est coupée à cause du froid."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "ものすごい冷気を生み出して なんでも凍らせるという すごい力をもつ。 本人は 力をうまく操れないことと 冷え性に悩んでいる。",
+      "_en": "It has the amazing power to generate tremendous cold air and freeze anything. He is troubled by his inability to control his powers and his sensitivity to cold.",
+      "_fr": "Il a le pouvoir incroyable de générer un air extrêmement froid et de tout congeler. Il est troublé par son incapacité à contrôler ses pouvoirs et sa sensibilité au froid."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "57",
+  "Name_yww": "ゆきおんな",
+  "description_jp_yww": "ものすごい冷気を生み出して なんでも凍らせるという すごい力をもつ。　本人は 力をうまく操れないことと 冷え性に悩んでいる。",
+  "BingoMessage_jp_yww": "ハァ　寒かった…　出してくれて どうもありがとう！　これからよろしくね",
+  "MonsterId_yww": "y132000",
+  "Height_yww": 7.0,
+  "CommondId_yww": "sp_132000",
+  "MinHp_yww": 43,
+  "MaxHp_yww": 354,
+  "MinAttack_yww": 5,
+  "MaxAttack_yww": 37,
+  "MinMagic_yww": 23,
+  "MaxMagic_yww": 161,
+  "MinDefense_yww": 16,
+  "MaxDefense_yww": 119,
+  "MinSpeed_yww": 31,
+  "MaxSpeed_yww": 212,
+  "AttackId_yww": 10,
+  "MagicId_yww": 15,
+  "HauntId_yww": 132000,
+  "SpSkillId_yww": 132000,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 3,
+  "DislikeFoodKind_yww": 9,
+  "ActionType_yww": 9,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y127800.png",
+  "SpriteImage_yww": "img_y127800.png",
+  "Audio_yww": "sp_y127800.wav",
+  "Description_yww": "Il possède un pouvoir extraordinaire qui lui permet de générer un froid intense et de tout geler. Lui-même souffre de ne pas pouvoir maîtriser son pouvoir et d'être très frileux.",
+  "BingoMessage_fr_yww": "Pfff, j'avais froid… Merci beaucoup de m'avoir fait sortir ! Au plaisir de te revoir"
 }

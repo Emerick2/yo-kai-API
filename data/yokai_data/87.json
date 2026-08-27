@@ -1,715 +1,746 @@
 {
-    "ID": "87",
-    "Nom": "Misterre",
-    "Tribue": "Costaud",
-    "Rang": "A",
-    "PV": "650",
-    "Force": "163",
-    "Esprit": "69",
-    "Défense": "232",
-    "Vitesse": "70",
-    "Description": "Les contes de fées racontent que l'énorme Misterre construirait des montagnes et creuserait des lacs.",
-    "nourriture": "Légume",
-    "élément": "Terre",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Misterrevient deMystèreet deTerre.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Il s'occupe de terraformer la terre en créant des lacs, des montagnes... Il s'amuse aussi à piéger des humains en créant des labyrinthes.",
-    "personnalité": "Il est énorme, fait très peur mais est en fait très gentil.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/misterre.png",
-    "numero": "082",
-    "nourriture_favorite": "Légume",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Parafoudre",
-            "effet": "Réduit les dégâts d'attaques de foudre subis."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Aplatissement",
-            "effet": "60 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Éboulement",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Destruction totale",
-            "effet": "Une explosion qui va blesser les ennemis comme les alliés. 300 | 300"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Soin terrestre",
-            "effet": "Restaure peu à peu les PV d'un allié à l'aide du pouvoir de la terre."
-        }
+  "ID": "87",
+  "Nom": "Misterre",
+  "Tribue": "Costaud",
+  "Rang": "A",
+  "PV": "650",
+  "Force": "163",
+  "Esprit": "69",
+  "Défense": "232",
+  "Vitesse": "70",
+  "Description": "Les contes de fées racontent que l'énorme Misterre construirait des montagnes et creuserait des lacs.",
+  "nourriture": "Légume",
+  "élément": "Terre",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Misterrevient deMystèreet deTerre.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Il s'occupe de terraformer la terre en créant des lacs, des montagnes... Il s'amuse aussi à piéger des humains en créant des labyrinthes.",
+  "personnalité": "Il est énorme, fait très peur mais est en fait très gentil.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/misterre.png",
+  "numero": "082",
+  "nourriture_favorite": "Légume",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Parafoudre",
+      "effet": "Réduit les dégâts d'attaques de foudre subis."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Aplatissement",
+      "effet": "60 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Éboulement",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Destruction totale",
+      "effet": "Une explosion qui va blesser les ennemis comme les alliés. 300 | 300"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Soin terrestre",
+      "effet": "Restaure peu à peu les PV d'un allié à l'aide du pouvoir de la terre."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Miam !",
+    "Mange de la nourriture insipide": "MMMOUAIS...",
+    "Mange de la mauvaise nourriture": "Non !",
+    "A la flemme": "GROARRR...",
+    "Est échangé": "Je suis charmé par les montagnes qui t'entourent. Qui les a faites ?",
+    "Devient ton ami": "Ton cœur est aussi gros qu'une montagne. Je suis à toi, pour toujours."
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "だいだらぼっち",
+  "nom_anglais": "Dromp",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Frédéric Souterelle",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Quête - Le sanctuaire en fleurs"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Miam !",
-        "Mange de la nourriture insipide": "MMMOUAIS...",
-        "Mange de la mauvaise nourriture": "Non !",
-        "A la flemme": "GROARRR...",
-        "Est échangé": "Je suis charmé par les montagnes qui t'entourent. Qui les a faites ?",
-        "Devient ton ami": "Ton cœur est aussi gros qu'une montagne. Je suis à toi, pour toujours."
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "だいだらぼっち",
-    "nom_anglais": "Dromp",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Frédéric Souterelle",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Quête - Le sanctuaire en fleurs"
-        ],
-        "yw2": [
-            "Quête - Chasseurs de Trésors 3",
-            "Bingo-kai-Pièce mystère (papillon)"
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Ourcival"
-        ],
-        "yw3": [
-            "Évènement aléatoire en grimpant au poteau devant l’école élémentaire de Granval. S‘il apparaît, se rendre sur le toit de l’école pour le rencontrer. (On peut reset, la cinématique est aléatoire)"
-        ],
-        "yw Wibble Wobble": [
-            "Voie du Mystère de Komak M- Stage 15, Stage 30 et Stage 50",
-            "Apparaît à certains événements auBingo-kai oni"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Aplatissement",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Destruction totale",
-                "puissance": "300|300",
-                "description": "Une explosion qui va blesser les ennemis comme les alliés."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Soin terrestre",
-                "puissance": "N/A",
-                "description": "Restaure peu à peu les PV d'un allié à l'aide du pouvoir de la terre."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Parafoudre",
-                "description": "Réduit les dégâts des attaques de foudre."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Aplatissement",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Destruction totale",
-                "puissance": "300|300",
-                "description": "Une explosion qui va blesser les ennemis comme les alliés."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Soin terrestre",
-                "puissance": "N/A",
-                "description": "Restaure peu à peu les PV d'un allié à l'aide du pouvoir de la terre."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Parafoudre",
-                "description": "Réduit les dégâts d'attaques de foudre subis."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Destruction totale",
-                "puissance": "800",
-                "description": "Attaque courte portée, gros dégâts sur tout le monde."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Champ de force",
-                "puissance": "___",
-                "description": "Hausse temporaire de la protection des alliés."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention"
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Armure de fer",
-                "puissance": "___",
-                "description": "Forte réduction des dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Parafoudre",
-                "description": "Réduit les dégâts de la foudre."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Aplatissement",
-                "puissance": "55|88",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Destruction totale",
-                "puissance": "270|405",
-                "description": "S'autodétruit en blessant tous les ennemis à portée."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Soin terrestre",
-                "puissance": "N/A",
-                "description": "Restaure peu à peu les PV d'un allié à l'aide du pouvoir de la terre."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Destruction totale",
-                "puissance": "800",
-                "description": "Dégâts +++ aux Yo-kai proches. Blesse le lanceur."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Champ de force",
-                "puissance": "___",
-                "description": "Booste +++ la DÉF. alliée à proximité lors d’un instant."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure fer",
-                "puissance": "___",
-                "description": "Dégâts reçus -- mais attire l’attention de l’ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Parafoudre",
-                "description": "Réduit les dégâts de foudre subis par tous les alliés."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Staminum alpha"
-            },
-            {
-                "taux": "?%",
-                "objet": "Y-Cola"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Amulette de terre"
-            },
-            {
-                "taux": "?%",
-                "objet": "Herbe amère"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Matsutake"
-            },
-            {
-                "taux": "?%",
-                "objet": "Pousse de bambou"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Parafoudre",
-        "description": "Réduit les dégâts des attaques de foudre."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/misterre.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/misterre.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/misterre.wav",
-    "oldID": "87",
-    "medallium_ids": {
-        "yw1": "082",
-        "yw2": "119",
-        "yw3": "198"
-    },
-    "spinoff_ids": {
-        "Wib Wob": ""
-    },
-    "battle_type": "",
-    "skill_name": "Insulator yw yw2 Endurance yw3",
-    "skill_effect": "Earth Healing",
-    "disliked_food": "Meat",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "426",
-                "STR": "178",
-                "SPR": "93",
-                "DEF": "228",
-                "SPD": "93"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "660",
-                "STR": "178",
-                "SPR": "93",
-                "DEF": "228",
-                "SPD": "93"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "424-705",
-                "STR": "168",
-                "SPR": "74",
-                "DEF": "237",
-                "SPD": "75"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "424-705"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "424-705"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "424-705"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "だいだらぼっち",
-            "Daidarabotchi"
-        ],
-        "Spanish": [
-            "Pom"
-        ],
-        "French": [
-            "Misterre"
-        ],
-        "Italian": [
-            "Terrio"
-        ],
-        "German": [
-            "Schtompf"
-        ],
-        "Korean": [
-            "얼룩덜룩",
-            "Eollukdeolluk"
-        ],
-        "Russian": [
-            "Дромп",
-            "Dromp"
-        ],
-        "Arabic": [
-            "جلمود",
-            "Julmūd"
-        ],
-        "Chinese (Mandarin)": [
-            "太大了法師"
-        ],
-        "Portuguese (Brazilian)": [
-            "Montogro"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "だいだらぼっち"
-        ],
-        "Spanish": [
-            "Pom"
-        ],
-        "French": [
-            "Misterre"
-        ],
-        "Italian": [
-            "Terrio"
-        ],
-        "German": [
-            "Schtompf"
-        ],
-        "Korean": [
-            "얼룩덜룩"
-        ],
-        "Russian": [
-            "Дромп"
-        ],
-        "Arabic": [
-            "جلمود"
-        ],
-        "Chinese (Mandarin)": [
-            "太大了法師"
-        ],
-        "Portuguese (Brazilian)": [
-            "Montogro"
-        ]
-    },
-    "description_en": "Fairy tales tell of the monstrous Dromp building mountains and digging ponds.",
-    "nom_en": "Castelius II",
-    "rang_yww": "A",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "légumes",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 88,
-        "str": 20,
-        "spr": 10,
-        "def": 31,
-        "spd": 10
-    },
-    "stats_max_yww": {
-        "hp": 650,
-        "str": 163,
-        "spr": 69,
-        "def": 232,
-        "spd": 70
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw2": [
+      "Quête - Chasseurs de Trésors 3",
+      "Bingo-kai-Pièce mystère (papillon)"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "こなごなつぶし",
-                "_en": "Konago Nutsushi",
-                "_fr": "Konago Nutsushi"
-            },
-            "explication": {
-                "_jp": "【威力:55 / 打撃】 大きな一撃を加える",
-                "_en": "[Power: 55/Blow] Deal a big blow",
-                "_fr": "[Puissance : 55/Coup] Portez un gros coup"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "落石の術",
-                "_en": "falling rock jutsu",
-                "_fr": "jutsu qui tombe des pierres"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
-                "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
-                "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
-            }
-        }
+    "yw Blasters 1": [
+      "Patrouille -Ourcival"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "天地崩壊",
-                "_en": "heaven and earth collapse",
-                "_fr": "le ciel et la terre s'effondrent"
-            },
-            "pouvoir": "270",
-            "explication": {
-                "_jp": "自爆して自分の体をぎせいにしつつ範囲内にダメージを与える。",
-                "_en": "Self-destructs, damaging your own body while dealing damage within the area.",
-                "_fr": "S'autodétruit, endommageant votre propre corps tout en infligeant des dégâts dans la zone."
-            }
-        }
+    "yw3": [
+      "Évènement aléatoire en grimpant au poteau devant l’école élémentaire de Granval. S‘il apparaît, se rendre sur le toit de l’école pour le rencontrer. (On peut reset, la cinématique est aléatoire)"
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "大地のいやし",
-                "_en": "earth healing",
-                "_fr": "guérison de la terre"
-            },
-            "explication": {
-                "_jp": "【回復】 とりつかれた妖怪は大地のいやしにつつまれ HPが少しずつ回復する。",
-                "_en": "[Recovery] The possessed monster is enveloped in the healing power of the earth, and its HP gradually recovers.",
-                "_fr": "[Récupération] Le monstre possédé est enveloppé dans le pouvoir de guérison de la terre, et ses HP récupèrent progressivement."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "おとぎ話にも出てくる 伝説の巨大妖怪。 妖怪ではなく 山や池を作った 神様ではないかとも 言われている。",
-            "_en": "A legendary giant monster that appears in fairy tales. It is said that he is not a monster, but a god who created mountains and ponds.",
-            "_fr": "Un monstre géant légendaire qui apparaît dans les contes de fées. On dit qu’il n’est pas un monstre, mais un dieu qui a créé les montagnes et les étangs."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Voie du Mystère de Komak M- Stage 15, Stage 30 et Stage 50",
+      "Apparaît à certains événements auBingo-kai oni"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Aplatissement",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Éboulement",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Destruction totale",
+        "puissance": "300|300",
+        "description": "Une explosion qui va blesser les ennemis comme les alliés."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Soin terrestre",
+        "puissance": "N/A",
+        "description": "Restaure peu à peu les PV d'un allié à l'aide du pouvoir de la terre."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Parafoudre",
+        "description": "Réduit les dégâts des attaques de foudre."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Aplatissement",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Éboulement",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Destruction totale",
+        "puissance": "300|300",
+        "description": "Une explosion qui va blesser les ennemis comme les alliés."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Soin terrestre",
+        "puissance": "N/A",
+        "description": "Restaure peu à peu les PV d'un allié à l'aide du pouvoir de la terre."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Parafoudre",
+        "description": "Réduit les dégâts d'attaques de foudre subis."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Destruction totale",
+        "puissance": "800",
+        "description": "Attaque courte portée, gros dégâts sur tout le monde."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Champ de force",
+        "puissance": "___",
+        "description": "Hausse temporaire de la protection des alliés."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention"
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Armure de fer",
+        "puissance": "___",
+        "description": "Forte réduction des dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Parafoudre",
+        "description": "Réduit les dégâts de la foudre."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Aplatissement",
+        "puissance": "55|88",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Éboulement",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Destruction totale",
+        "puissance": "270|405",
+        "description": "S'autodétruit en blessant tous les ennemis à portée."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Soin terrestre",
+        "puissance": "N/A",
+        "description": "Restaure peu à peu les PV d'un allié à l'aide du pouvoir de la terre."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Destruction totale",
+        "puissance": "800",
+        "description": "Dégâts +++ aux Yo-kai proches. Blesse le lanceur."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Champ de force",
+        "puissance": "___",
+        "description": "Booste +++ la DÉF. alliée à proximité lors d’un instant."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure fer",
+        "puissance": "___",
+        "description": "Dégâts reçus -- mais attire l’attention de l’ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Parafoudre",
+        "description": "Réduit les dégâts de foudre subis par tous les alliés."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Staminum alpha"
+      },
+      {
+        "taux": "?%",
+        "objet": "Y-Cola"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Amulette de terre"
+      },
+      {
+        "taux": "?%",
+        "objet": "Herbe amère"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Matsutake"
+      },
+      {
+        "taux": "?%",
+        "objet": "Pousse de bambou"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Parafoudre",
+    "description": "Réduit les dégâts des attaques de foudre."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/misterre.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/misterre.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/misterre.wav",
+  "oldID": "87",
+  "medallium_ids": {
+    "yw1": "082",
+    "yw2": "119",
+    "yw3": "198"
+  },
+  "spinoff_ids": {
+    "Wib Wob": ""
+  },
+  "battle_type": "",
+  "skill_name": "Insulator yw yw2 Endurance yw3",
+  "skill_effect": "Earth Healing",
+  "disliked_food": "Meat",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "426",
+        "STR": "178",
+        "SPR": "93",
+        "DEF": "228",
+        "SPD": "93"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "660",
+        "STR": "178",
+        "SPR": "93",
+        "DEF": "228",
+        "SPD": "93"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "424-705",
+        "STR": "168",
+        "SPR": "74",
+        "DEF": "237",
+        "SPD": "75"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "424-705"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "424-705"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "424-705"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "だいだらぼっち",
+      "Daidarabotchi"
+    ],
+    "Spanish": [
+      "Pom"
+    ],
+    "French": [
+      "Misterre"
+    ],
+    "Italian": [
+      "Terrio"
+    ],
+    "German": [
+      "Schtompf"
+    ],
+    "Korean": [
+      "얼룩덜룩",
+      "Eollukdeolluk"
+    ],
+    "Russian": [
+      "Дромп",
+      "Dromp"
+    ],
+    "Arabic": [
+      "جلمود",
+      "Julmūd"
+    ],
+    "Chinese (Mandarin)": [
+      "太大了法師"
+    ],
+    "Portuguese (Brazilian)": [
+      "Montogro"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "だいだらぼっち"
+    ],
+    "Spanish": [
+      "Pom"
+    ],
+    "French": [
+      "Misterre"
+    ],
+    "Italian": [
+      "Terrio"
+    ],
+    "German": [
+      "Schtompf"
+    ],
+    "Korean": [
+      "얼룩덜룩"
+    ],
+    "Russian": [
+      "Дромп"
+    ],
+    "Arabic": [
+      "جلمود"
+    ],
+    "Chinese (Mandarin)": [
+      "太大了法師"
+    ],
+    "Portuguese (Brazilian)": [
+      "Montogro"
+    ]
+  },
+  "description_en": "Fairy tales tell of the monstrous Dromp building mountains and digging ponds.",
+  "nom_en": "Castelius II",
+  "rang_yww": "A",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "légumes",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 88,
+    "str": 20,
+    "spr": 10,
+    "def": 31,
+    "spd": 10
+  },
+  "stats_max_yww": {
+    "hp": 650,
+    "str": 163,
+    "spr": 69,
+    "def": 232,
+    "spd": 70
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "ホワイトデー妖怪ガシャ",
+      "_en": "White Day Yokai Gasha",
+      "_fr": "Jour blanc Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    },
+    {
+      "_jp": "春一番妖怪ガシャ",
+      "_en": "Spring Ichiban Yokai Gasha",
+      "_fr": "Printemps Ichiban Yokai Gasha"
+    },
+    {
+      "_jp": "桜花ランラン妖怪ガシャ",
+      "_en": "Sakura Ranran Yokai Gasha",
+      "_fr": "Sakura Ranran Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "電車でお出かけ妖怪ガシャ",
+      "_en": "Going out by train Yokai Gasha",
+      "_fr": "Sortir en train Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "GW妖怪バトルリーグガシャ",
+      "_en": "GW Yokai Battle League Gasha",
+      "_fr": "GW Yokai Battle League Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "こなごなつぶし",
+        "_en": "Konago Nutsushi",
+        "_fr": "Konago Nutsushi"
+      },
+      "explication": {
+        "_jp": "【威力:55 / 打撃】 大きな一撃を加える",
+        "_en": "[Power: 55/Blow] Deal a big blow",
+        "_fr": "[Puissance : 55/Coup] Portez un gros coup"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "落石の術",
+        "_en": "falling rock jutsu",
+        "_fr": "jutsu qui tombe des pierres"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
+        "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
+        "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "天地崩壊",
+        "_en": "heaven and earth collapse",
+        "_fr": "le ciel et la terre s'effondrent"
+      },
+      "pouvoir": "270",
+      "explication": {
+        "_jp": "自爆して自分の体をぎせいにしつつ範囲内にダメージを与える。",
+        "_en": "Self-destructs, damaging your own body while dealing damage within the area.",
+        "_fr": "S'autodétruit, endommageant votre propre corps tout en infligeant des dégâts dans la zone."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "大地のいやし",
+        "_en": "earth healing",
+        "_fr": "guérison de la terre"
+      },
+      "explication": {
+        "_jp": "【回復】 とりつかれた妖怪は大地のいやしにつつまれ HPが少しずつ回復する。",
+        "_en": "[Recovery] The possessed monster is enveloped in the healing power of the earth, and its HP gradually recovers.",
+        "_fr": "[Récupération] Le monstre possédé est enveloppé dans le pouvoir de guérison de la terre, et ses HP récupèrent progressivement."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "おとぎ話にも出てくる 伝説の巨大妖怪。 妖怪ではなく 山や池を作った 神様ではないかとも 言われている。",
+      "_en": "A legendary giant monster that appears in fairy tales. It is said that he is not a monster, but a god who created mountains and ponds.",
+      "_fr": "Un monstre géant légendaire qui apparaît dans les contes de fées. On dit qu’il n’est pas un monstre, mais un dieu qui a créé les montagnes et les étangs."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "87",
+  "Name_yww": "だいだらぼっち",
+  "description_jp_yww": "おとぎ話にも出てくる 伝説の巨大妖怪。 妖怪ではなく　山や池を作った 神様ではないかとも 言われている。",
+  "BingoMessage_jp_yww": "ガシャ玉の中　意外と快適だったよぉ きみも一回入ってみれば？",
+  "MonsterId_yww": "y148000",
+  "Height_yww": 18.0,
+  "CommondId_yww": "sp_148000",
+  "MinHp_yww": 88,
+  "MaxHp_yww": 650,
+  "MinAttack_yww": 20,
+  "MaxAttack_yww": 163,
+  "MinMagic_yww": 10,
+  "MaxMagic_yww": 69,
+  "MinDefense_yww": 31,
+  "MaxDefense_yww": 232,
+  "MinSpeed_yww": 10,
+  "MaxSpeed_yww": 70,
+  "AttackId_yww": 21,
+  "MagicId_yww": 11,
+  "HauntId_yww": 148000,
+  "SpSkillId_yww": 148000,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 10,
+  "DislikeFoodKind_yww": 11,
+  "ActionType_yww": 16,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y143800.png",
+  "SpriteImage_yww": "img_y143800.png",
+  "Audio_yww": "sp_y143800.wav",
+  "Description_yww": "Un yōkai géant légendaire qui apparaît même dans les contes de fées. On dit aussi qu’il ne s’agit peut-être pas d’un yōkai, mais d’un dieu qui aurait créé les montagnes et les étangs.",
+  "BingoMessage_fr_yww": "À l'intérieur de la boule à ressort, c'était étonnamment agréable ! Tu devrais essayer d'y entrer une fois, toi aussi ?"
 }

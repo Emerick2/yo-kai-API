@@ -1,724 +1,755 @@
 {
-    "ID": "144",
-    "Nom": "Choubidou",
-    "Tribue": "Mignon",
-    "Rang": "B",
-    "PV": "392",
-    "Force": "86",
-    "Esprit": "208",
-    "Défense": "122",
-    "Vitesse": "146",
-    "Description-": "Sous son influence, même le plus gentil deviendrait un affreux manipulateur. Il représente le mauvais côté de Choubidou.",
-    "Description": "Il est connu pour être l'Aristocrate de l'Amour. Choubidou utilise son incroyable charme pour gagner des admirateurs.",
-    "nourriture": "Hamburger",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/choubidou.png",
-    "numero": "106",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Sympathie",
-            "effet": "Incite plus d'ennemis à devenir tes amis."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Méga frappe",
-            "effet": "40 | 88"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paradis",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Mon petit cœur",
-            "effet": "Fait battre les cœurs de ses alliés et restaure leurs PV. Adorable ! 120 | 180"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Cœur chaviré",
-            "effet": "Fait chavirer le cœur d'un allié et restaure graduellement ses PV."
-        }
+  "ID": "144",
+  "Nom": "Choubidou",
+  "Tribue": "Mignon",
+  "Rang": "B",
+  "PV": "392",
+  "Force": "86",
+  "Esprit": "208",
+  "Défense": "122",
+  "Vitesse": "146",
+  "Description-": "Sous son influence, même le plus gentil deviendrait un affreux manipulateur. Il représente le mauvais côté de Choubidou.",
+  "Description": "Il est connu pour être l'Aristocrate de l'Amour. Choubidou utilise son incroyable charme pour gagner des admirateurs.",
+  "nourriture": "Hamburger",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/choubidou.png",
+  "numero": "106",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Sympathie",
+      "effet": "Incite plus d'ennemis à devenir tes amis."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Méga frappe",
+      "effet": "40 | 88"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paradis",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Mon petit cœur",
+      "effet": "Fait battre les cœurs de ses alliés et restaure leurs PV. Adorable ! 120 | 180"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Cœur chaviré",
+      "effet": "Fait chavirer le cœur d'un allié et restaure graduellement ses PV."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Fantastique !",
+    "Mange de la nourriture insipide": "Hmm. Pas mal.",
+    "Mange de la mauvaise nourriture": "Va-t'en !",
+    "A la flemme": "Pfff...",
+    "Est échangé": "Hé hé ! Tu veux qu'on soit amis ?",
+    "Devient ton ami": "Choubidou ! Tu vas bien mon loup ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Pitou",
+      "parent2": "Sceptre d'amour",
+      "resultat": "Choubidou",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ズキュキュン太",
+  "nom_anglais": "Pinkipoo",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Fusion",
+      "Yo-kai World",
+      "Bingo-kai-Pièce rose",
+      "Bingo-kai -Pièce 5 étoiles"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Fantastique !",
-        "Mange de la nourriture insipide": "Hmm. Pas mal.",
-        "Mange de la mauvaise nourriture": "Va-t'en !",
-        "A la flemme": "Pfff...",
-        "Est échangé": "Hé hé ! Tu veux qu'on soit amis ?",
-        "Devient ton ami": "Choubidou ! Tu vas bien mon loup ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Pitou",
-            "parent2": "Sceptre d'amour",
-            "resultat": "Choubidou",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Fusion",
+      "Bingo-kai - Pièce rose (passé)"
     ],
-    "image_locale": "",
-    "nom_original": "ズキュキュン太",
-    "nom_anglais": "Pinkipoo",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Fusion",
-            "Yo-kai World",
-            "Bingo-kai-Pièce rose",
-            "Bingo-kai -Pièce 5 étoiles"
-        ],
-        "yw2": [
-            "Fusion",
-            "Bingo-kai - Pièce rose (passé)"
-        ],
-        "yw Blasters 1": [
-            "Fusion",
-            "Patrouille -Quartier des boutiques"
-        ],
-        "yw3": [
-            "Contrairement aux deux premiers jeux de la série. Le seul moyen d'avoir Choubidou est en faisant évoluer Pitou via la fusion. L'objet de fusion leSceptre d'amourest récupérable en parlant a Tata la Terreur sur le Ring Maritime aSan Fantastico"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Méga frappe",
-                "puissance": "40|88",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Mon petit cœur",
-                "puissance": "120|120",
-                "description": "Fait battre les cœurs de ses alliés et restaure leurs PV. Adorable !"
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cœur chaviré",
-                "puissance": "N/A",
-                "description": "Fait chavirer le cœur d'un allié et restaure ses PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Sympathie",
-                "description": "Incite plus d'ennemis à devenir tes amis."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Méga frappe",
-                "puissance": "40|88",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Mon petit cœur",
-                "puissance": "120|120",
-                "description": "Fait battre les cœurs de ses alliés et restaure leurs PV. Adorable !"
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cœur chaviré",
-                "puissance": "N/A",
-                "description": "Fait chavirer le cœur d'un allié et restaure graduellement ses PV."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Restauration",
-                "puissance": "N/A",
-                "description": "Rend des PV à un Yo-kai. Charge automatiquement."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Sympathie",
-                "description": "Incite plus d'ennemis à devenir tes amis."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Mon petit cœur",
-                "puissance": "___",
-                "description": "Restauration lente des PV des alliés proches."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Envoût guérisseur",
-                "puissance": "___",
-                "description": "Hausse lente des PV alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Cercle guérisseur",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Sympathie",
-                "description": "Amitié plus probable avec les ennemis."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Méga frappe",
-                "puissance": "35|77",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Mon petit cœur",
-                "puissance": "90|180",
-                "description": "Fait battre les cœurs de ses alliés et restaure leurs PV. Adorable !"
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cœur chaviré",
-                "puissance": "N/A",
-                "description": "Fait chavirer le cœur d'un allié et restaure peu à peu ses PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Sympathie",
-                "description": "Améliore les chances de devenir ami avec un ennemi."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Sympathie",
-        "description": "Incite plus d'ennemis à devenir tes amis."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/choubidou.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/choubidou.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/choubidou.wav",
-    "oldID": "144",
-    "medallium_ids": {
-        "yw1": "106",
-        "yw2": "152",
-        "yw3": "267"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "193",
-        "yw Blasters 2": "272",
-        "yw Wibble Wobble": "4122",
-        "yw World": "0089",
-        "yw Ukiukipedia": "yw4-019/YD3-018"
-    },
-    "battle_type": "",
-    "skill_name": "Popularity",
-    "skill_effect": "Skip a Beat",
-    "disliked_food": "Rice Balls",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "367",
-                "STR": "126",
-                "SPR": "189",
-                "DEF": "113",
-                "SPD": "174"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "402",
-                "STR": "126",
-                "SPR": "189",
-                "DEF": "113",
-                "SPD": "174"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "404",
-                "STR": "120",
-                "SPR": "225",
-                "DEF": "151",
-                "SPD": "151"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "400",
-                "STR": "118",
-                "SPR": "222",
-                "DEF": "152"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "197-341"
-            },
-            "elements": {},
-            "attacks": [
-                {
-                    "type": "Attack",
-                    "name": "Attack",
-                    "power": "50",
-                    "attribute": "Attack",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Restore",
-                    "power": "80, 130 (Charged)",
-                    "attribute": "Restoration",
-                    "range": "Single ally"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Healing Inspirit",
-                    "power": "-",
-                    "attribute": "Healing inspirit",
-                    "range": "Single ally, Area (Charged)"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Circle Restore",
-                    "power": "80, 70 (Charged)",
-                    "attribute": "Circle restore",
-                    "range": "Single ally, Area (Charged)"
-                },
-                {
-                    "type": "Soultimate Move",
-                    "name": "Heartmelt Love",
-                    "power": "-",
-                    "attribute": "Restoration",
-                    "range": "Area"
-                },
-                {
-                    "type": "Skill",
-                    "name": "Popularity",
-                    "power": "N/A",
-                    "attribute": "None",
-                    "range": "Self"
-                }
-            ]
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "197-341",
-                "STR": "118",
-                "SPR": "222",
-                "DEF": "152"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "197-341"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ズキュキュン太",
-            "Zukyukyunta"
-        ],
-        "Spanish": [
-            "Pufilindo"
-        ],
-        "French": [
-            "Choubidou"
-        ],
-        "Italian": [
-            "Amoroseo"
-        ],
-        "German": [
-            "Schnuckiputz"
-        ],
-        "Korean": [
-            "사랑개",
-            "Saranggae"
-        ],
-        "Russian": [
-            "Милашкин",
-            "Milashkin"
-        ],
-        "Arabic": [
-            "وديع",
-            "Wadīe"
-        ],
-        "Portuguese (Brazilian)": [
-            "Pinkiwi"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ズキュキュン太"
-        ],
-        "Spanish": [
-            "Pufilindo"
-        ],
-        "French": [
-            "Choubidou"
-        ],
-        "Italian": [
-            "Amoroseo"
-        ],
-        "German": [
-            "Schnuckiputz"
-        ],
-        "Korean": [
-            "사랑개"
-        ],
-        "Russian": [
-            "Милашкин"
-        ],
-        "Arabic": [
-            "وديع"
-        ],
-        "Portuguese (Brazilian)": [
-            "Pinkiwi"
-        ]
-    },
-    "description_en": "Known as the Aristocrat of Love, Pinkipoo uses his overpowering cuteness to win over new followers.",
-    "nom_en": "Rhyth",
-    "rang_yww": "B",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "hamburger",
-    "nourriture_favorite": "hamburger",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 51,
-        "str": 12,
-        "spr": 32,
-        "def": 15,
-        "spd": 21
-    },
-    "stats_max_yww": {
-        "hp": 392,
-        "str": 86,
-        "spr": 208,
-        "def": 122,
-        "spd": 146
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw Blasters 1": [
+      "Fusion",
+      "Patrouille -Quartier des boutiques"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ぶったたく",
-                "_en": "hit",
-                "_fr": "frapper"
-            },
-            "explication": {
-                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
-                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "極楽の術",
-                "_en": "The art of paradise",
-                "_fr": "L'art du paradis"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ズキュキュン・ラブ",
-                "_en": "Squealing love",
-                "_fr": "Amour criant"
-            },
-            "pouvoir": "90",
-            "explication": {
-                "_jp": "愛のポーズでみんなの心をキュンキュンさせ味方全員のHPを回復する。",
-                "_en": "Fill everyone's hearts with a pose of love and restore the HP of all allies.",
-                "_fr": "Remplissez le cœur de chacun d'une pose d'amour et restaurez les HP de tous les alliés."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "キュンキュンさせる",
-                "_en": "make me excited",
-                "_fr": "m'excite"
-            },
-            "explication": {
-                "_jp": "【回復】 心がキュンキュンしてHPがだんだん回復",
-                "_en": "[Recovery] My heart is pounding and my HP gradually recovers.",
-                "_fr": "[Récupération] Mon cœur bat la chamade et mes HP récupèrent progressivement."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "そのかわいさから あらゆる愛を受けて育ち 愛の貴族と呼ばれるように。 どんな相手もメロメロにして 家来のようにしてしまう。",
-            "_en": "Because of her cuteness, she grew up receiving all sorts of love, and was nicknamed the aristocrat of love. No matter who he is, he will fall in love with him and treat him like a servant.",
-            "_fr": "En raison de sa gentillesse, elle a grandi en recevant toutes sortes d’amour et a été surnommée l’aristocrate de l’amour. Peu importe qui il est, il tombera amoureux de lui et le traitera comme un serviteur."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Contrairement aux deux premiers jeux de la série. Le seul moyen d'avoir Choubidou est en faisant évoluer Pitou via la fusion. L'objet de fusion leSceptre d'amourest récupérable en parlant a Tata la Terreur sur le Ring Maritime aSan Fantastico"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Méga frappe",
+        "puissance": "40|88",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Mon petit cœur",
+        "puissance": "120|120",
+        "description": "Fait battre les cœurs de ses alliés et restaure leurs PV. Adorable !"
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cœur chaviré",
+        "puissance": "N/A",
+        "description": "Fait chavirer le cœur d'un allié et restaure ses PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Sympathie",
+        "description": "Incite plus d'ennemis à devenir tes amis."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Méga frappe",
+        "puissance": "40|88",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Mon petit cœur",
+        "puissance": "120|120",
+        "description": "Fait battre les cœurs de ses alliés et restaure leurs PV. Adorable !"
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cœur chaviré",
+        "puissance": "N/A",
+        "description": "Fait chavirer le cœur d'un allié et restaure graduellement ses PV."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Restauration",
+        "puissance": "N/A",
+        "description": "Rend des PV à un Yo-kai. Charge automatiquement."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Sympathie",
+        "description": "Incite plus d'ennemis à devenir tes amis."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Mon petit cœur",
+        "puissance": "___",
+        "description": "Restauration lente des PV des alliés proches."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Envoût guérisseur",
+        "puissance": "___",
+        "description": "Hausse lente des PV alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Cercle guérisseur",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Sympathie",
+        "description": "Amitié plus probable avec les ennemis."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Méga frappe",
+        "puissance": "35|77",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Mon petit cœur",
+        "puissance": "90|180",
+        "description": "Fait battre les cœurs de ses alliés et restaure leurs PV. Adorable !"
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cœur chaviré",
+        "puissance": "N/A",
+        "description": "Fait chavirer le cœur d'un allié et restaure peu à peu ses PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Sympathie",
+        "description": "Améliore les chances de devenir ami avec un ennemi."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Sympathie",
+    "description": "Incite plus d'ennemis à devenir tes amis."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/choubidou.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/choubidou.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/choubidou.wav",
+  "oldID": "144",
+  "medallium_ids": {
+    "yw1": "106",
+    "yw2": "152",
+    "yw3": "267"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "193",
+    "yw Blasters 2": "272",
+    "yw Wibble Wobble": "4122",
+    "yw World": "0089",
+    "yw Ukiukipedia": "yw4-019/YD3-018"
+  },
+  "battle_type": "",
+  "skill_name": "Popularity",
+  "skill_effect": "Skip a Beat",
+  "disliked_food": "Rice Balls",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "367",
+        "STR": "126",
+        "SPR": "189",
+        "DEF": "113",
+        "SPD": "174"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "402",
+        "STR": "126",
+        "SPR": "189",
+        "DEF": "113",
+        "SPD": "174"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "404",
+        "STR": "120",
+        "SPR": "225",
+        "DEF": "151",
+        "SPD": "151"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "400",
+        "STR": "118",
+        "SPR": "222",
+        "DEF": "152"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "197-341"
+      },
+      "elements": {},
+      "attacks": [
+        {
+          "type": "Attack",
+          "name": "Attack",
+          "power": "50",
+          "attribute": "Attack",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Restore",
+          "power": "80, 130 (Charged)",
+          "attribute": "Restoration",
+          "range": "Single ally"
+        },
+        {
+          "type": "Technique",
+          "name": "Healing Inspirit",
+          "power": "-",
+          "attribute": "Healing inspirit",
+          "range": "Single ally, Area (Charged)"
+        },
+        {
+          "type": "Technique",
+          "name": "Circle Restore",
+          "power": "80, 70 (Charged)",
+          "attribute": "Circle restore",
+          "range": "Single ally, Area (Charged)"
+        },
+        {
+          "type": "Soultimate Move",
+          "name": "Heartmelt Love",
+          "power": "-",
+          "attribute": "Restoration",
+          "range": "Area"
+        },
+        {
+          "type": "Skill",
+          "name": "Popularity",
+          "power": "N/A",
+          "attribute": "None",
+          "range": "Self"
+        }
+      ]
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "197-341",
+        "STR": "118",
+        "SPR": "222",
+        "DEF": "152"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "197-341"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ズキュキュン太",
+      "Zukyukyunta"
+    ],
+    "Spanish": [
+      "Pufilindo"
+    ],
+    "French": [
+      "Choubidou"
+    ],
+    "Italian": [
+      "Amoroseo"
+    ],
+    "German": [
+      "Schnuckiputz"
+    ],
+    "Korean": [
+      "사랑개",
+      "Saranggae"
+    ],
+    "Russian": [
+      "Милашкин",
+      "Milashkin"
+    ],
+    "Arabic": [
+      "وديع",
+      "Wadīe"
+    ],
+    "Portuguese (Brazilian)": [
+      "Pinkiwi"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ズキュキュン太"
+    ],
+    "Spanish": [
+      "Pufilindo"
+    ],
+    "French": [
+      "Choubidou"
+    ],
+    "Italian": [
+      "Amoroseo"
+    ],
+    "German": [
+      "Schnuckiputz"
+    ],
+    "Korean": [
+      "사랑개"
+    ],
+    "Russian": [
+      "Милашкин"
+    ],
+    "Arabic": [
+      "وديع"
+    ],
+    "Portuguese (Brazilian)": [
+      "Pinkiwi"
+    ]
+  },
+  "description_en": "Known as the Aristocrat of Love, Pinkipoo uses his overpowering cuteness to win over new followers.",
+  "nom_en": "Rhyth",
+  "rang_yww": "B",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "hamburger",
+  "nourriture_favorite": "hamburger",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 51,
+    "str": 12,
+    "spr": 32,
+    "def": 15,
+    "spd": 21
+  },
+  "stats_max_yww": {
+    "hp": 392,
+    "str": 86,
+    "spr": 208,
+    "def": 122,
+    "spd": 146
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "ホワイトデー妖怪ガシャ",
+      "_en": "White Day Yokai Gasha",
+      "_fr": "Jour blanc Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    },
+    {
+      "_jp": "春一番妖怪ガシャ",
+      "_en": "Spring Ichiban Yokai Gasha",
+      "_fr": "Printemps Ichiban Yokai Gasha"
+    },
+    {
+      "_jp": "桜花ランラン妖怪ガシャ",
+      "_en": "Sakura Ranran Yokai Gasha",
+      "_fr": "Sakura Ranran Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "電車でお出かけ妖怪ガシャ",
+      "_en": "Going out by train Yokai Gasha",
+      "_fr": "Sortir en train Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "GW妖怪バトルリーグガシャ",
+      "_en": "GW Yokai Battle League Gasha",
+      "_fr": "GW Yokai Battle League Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ぶったたく",
+        "_en": "hit",
+        "_fr": "frapper"
+      },
+      "explication": {
+        "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
+        "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "極楽の術",
+        "_en": "The art of paradise",
+        "_fr": "L'art du paradis"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ズキュキュン・ラブ",
+        "_en": "Squealing love",
+        "_fr": "Amour criant"
+      },
+      "pouvoir": "90",
+      "explication": {
+        "_jp": "愛のポーズでみんなの心をキュンキュンさせ味方全員のHPを回復する。",
+        "_en": "Fill everyone's hearts with a pose of love and restore the HP of all allies.",
+        "_fr": "Remplissez le cœur de chacun d'une pose d'amour et restaurez les HP de tous les alliés."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "キュンキュンさせる",
+        "_en": "make me excited",
+        "_fr": "m'excite"
+      },
+      "explication": {
+        "_jp": "【回復】 心がキュンキュンしてHPがだんだん回復",
+        "_en": "[Recovery] My heart is pounding and my HP gradually recovers.",
+        "_fr": "[Récupération] Mon cœur bat la chamade et mes HP récupèrent progressivement."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "そのかわいさから あらゆる愛を受けて育ち 愛の貴族と呼ばれるように。 どんな相手もメロメロにして 家来のようにしてしまう。",
+      "_en": "Because of her cuteness, she grew up receiving all sorts of love, and was nicknamed the aristocrat of love. No matter who he is, he will fall in love with him and treat him like a servant.",
+      "_fr": "En raison de sa gentillesse, elle a grandi en recevant toutes sortes d’amour et a été surnommée l’aristocrate de l’amour. Peu importe qui il est, il tombera amoureux de lui et le traitera comme un serviteur."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "144",
+  "Name_yww": "ズキュキュン太",
+  "description_jp_yww": "そのかわいさから あらゆる愛を受けて育ち 愛の貴族と呼ばれるように。 どんな相手もメロメロにして 家来のようにしてしまう。",
+  "BingoMessage_jp_yww": "ズキュキュキュン！　運命感じちゃった！ これからよろしくね！　ズキュキュキュン！",
+  "MonsterId_yww": "y176000",
+  "Height_yww": 9.0,
+  "CommondId_yww": "sp_176000",
+  "MinHp_yww": 51,
+  "MaxHp_yww": 392,
+  "MinAttack_yww": 12,
+  "MaxAttack_yww": 86,
+  "MinMagic_yww": 32,
+  "MaxMagic_yww": 208,
+  "MinDefense_yww": 15,
+  "MaxDefense_yww": 122,
+  "MinSpeed_yww": 21,
+  "MaxSpeed_yww": 146,
+  "AttackId_yww": 47,
+  "MagicId_yww": 24,
+  "HauntId_yww": 176000,
+  "SpSkillId_yww": 176000,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 6,
+  "DislikeFoodKind_yww": 1,
+  "ActionType_yww": 15,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y171800.png",
+  "SpriteImage_yww": "img_y171800.png",
+  "Audio_yww": "sp_y171800.wav",
+  "Description_yww": "Grâce à sa beauté, elle a grandi entourée d’amour au point d’être surnommée « la noble de l’amour ». Elle fait craquer n’importe qui et les transforme en serviteurs.",
+  "BingoMessage_fr_yww": "Boum, boum, boum ! J’ai senti que c’était le destin ! Au plaisir de te connaître ! Boum, boum, boum !"
 }

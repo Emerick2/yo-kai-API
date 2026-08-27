@@ -1,123 +1,45 @@
 {
-    "Nom": "Halloween Jibanyan",
-    "Tribue": "Mignon",
-    "Rang": "S",
-    "nom_original": "魔女フゥミン",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "",
-    "nourriture": "légumes",
-    "nourriture_favorite": "légumes",
-    "élément": "",
-    "Rôle": "ranger",
-    "rang_yww": "A",
-    "tribue_yww": "Bukimi",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "légumes",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "stats_initiale_yww": {
-        "hp": 50,
-        "str": 8,
-        "spr": 25,
-        "def": 11,
-        "spd": 40
-    },
-    "stats_max_yww": {},
-    "moyens_obtention_yww": [
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        }
-    ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はたく",
-                "_en": "flutter",
-                "_fr": "battement"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "吹雪の術",
-                "_en": "Fubuki no Jutsu",
-                "_fr": "Fubuki no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 氷属性】 強力な氷の妖術を使う。",
-                "_en": "[Power: 70 / Ice attribute] Uses powerful ice magic.",
-                "_fr": "[Puissance : 70 / Attribut Glace] Utilise une puissante magie de glace."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ハロウィン遊ばナイト",
-                "_en": "halloween play night",
-                "_fr": "soirée de jeu d'Halloween"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "イタズラなウィンクを投げつけ 敵全員の 全ステータスをダウンさせる",
-                "_en": "Throws a mischievous wink and lowers all stats of all enemies.",
-                "_fr": "Lance un clin d'œil malicieux et réduit toutes les statistiques de tous les ennemis."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "朝帰りでウトウト…",
-                "_en": "I dozed off on my way home in the morning...",
-                "_fr": "Je me suis assoupi en rentrant chez moi le matin..."
-            },
-            "explication": {
-                "_jp": "【HP減少】 朝帰りで HPがだんだん減っていく",
-                "_en": "[HP decrease] After returning home in the morning, HP gradually decreases.",
-                "_fr": "[Diminution des HP] Après le retour à la maison le matin, les HP diminuent progressivement."
-            }
-        }
-    ],
-    "explication_yww": [],
-    "oldID": "1142",
-    "ID": "1140",
-    "nom_en": "Halloween Jibanyan",
-    "premiere_apparition": "yww",
-    "jeu_present": [
-        "yww"
-    ]
+  "Nom": "フェスニャン",
+  "nom_original": "フェスニャン",
+  "Rang": 5,
+  "PV": 344,
+  "Force": 42,
+  "Esprit": 218,
+  "Défense": 167,
+  "Vitesse": 156,
+  "Description": "Jibanyan, qui soutient de toutes ses forces son groupe préféré, Nyaa KB48. Sa ceinture est remplie à ras bord de plusieurs bâtons lumineux et de Chocobo pour faire le plein d'énergie.",
+  "nourriture": 5,
+  "nourriture_favorite": 5,
+  "disliked_food": 15,
+  "id_yww": "808",
+  "Name_yww": "フェスニャン",
+  "description_jp_yww": "大好きな　ニャーＫＢ４８を 全力で応援する　ジバニャン。 腹巻には何本ものサイリウムと 栄養補給用のチョコボーが めいっぱい　つめこまれている。",
+  "BingoMessage_jp_yww": "この日のために　いっぱい練習したニャン！ さあ　オレっちのオタ芸　見てくれニャン！",
+  "MonsterId_yww": "y5001780",
+  "Height_yww": 12.22,
+  "CommondId_yww": "sp_5001780",
+  "MinHp_yww": 39,
+  "MaxHp_yww": 344,
+  "MinAttack_yww": 4,
+  "MaxAttack_yww": 42,
+  "MinMagic_yww": 29,
+  "MaxMagic_yww": 218,
+  "MinDefense_yww": 30,
+  "MaxDefense_yww": 167,
+  "MinSpeed_yww": 25,
+  "MaxSpeed_yww": 156,
+  "AttackId_yww": 10,
+  "MagicId_yww": 5,
+  "HauntId_yww": 5001780,
+  "SpSkillId_yww": 5001780,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 5,
+  "DislikeFoodKind_yww": 15,
+  "ActionType_yww": 10,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y4997580.png",
+  "SpriteImage_yww": "img_y4997580.png",
+  "Audio_yww": "sp_y4997580.wav",
+  "Description_yww": "Jibanyan, qui soutient de toutes ses forces son groupe préféré, Nyaa KB48. Sa ceinture est remplie à ras bord de plusieurs bâtons lumineux et de Chocobo pour faire le plein d'énergie.",
+  "BingoMessage_fr_yww": "J’ai beaucoup répété pour ce jour-là, miaou ! Allez, regardez mes chorégraphies de fan, miaou !"
 }

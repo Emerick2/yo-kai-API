@@ -1,568 +1,599 @@
 {
-    "ID": "79",
-    "Nom": "Etna Magma",
-    "Tribue": "Costaud",
-    "Rang": "B",
-    "PV": "445",
-    "Force": "105",
-    "Esprit": "87",
-    "Défense": "268",
-    "Vitesse": "77",
-    "Description": "Et en rouge, voici le seul lutteur qui peut rivaliser avec Lama Laya ! C'est le violent volcan bien sûr, voici ETNAA MAGMAAA !",
-    "nourriture": "Riz",
-    "élément": "Foudre",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Etna Magma vient du volcan de l'Etna et de magma.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/etna-magma.png",
-    "numero": "069",
-    "nourriture_favorite": "Sushi",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Volonté de fer",
-            "effet": "Gardera 1 PV après un coup fatal."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paume puissante",
-            "effet": "60 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Décharge",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Haka du soir",
-            "effet": "Augm. fortement la DÉF. et attire les attaques grâce à une danse défensive."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Béni du volcan",
-            "effet": "Restaure peu à peu les PV d'un allié grâce à la chaleur de l'eau volcanique."
-        }
+  "ID": "79",
+  "Nom": "Etna Magma",
+  "Tribue": "Costaud",
+  "Rang": "B",
+  "PV": "445",
+  "Force": "105",
+  "Esprit": "87",
+  "Défense": "268",
+  "Vitesse": "77",
+  "Description": "Et en rouge, voici le seul lutteur qui peut rivaliser avec Lama Laya ! C'est le violent volcan bien sûr, voici ETNAA MAGMAAA !",
+  "nourriture": "Riz",
+  "élément": "Foudre",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Etna Magma vient du volcan de l'Etna et de magma.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/etna-magma.png",
+  "numero": "069",
+  "nourriture_favorite": "Sushi",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Volonté de fer",
+      "effet": "Gardera 1 PV après un coup fatal."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paume puissante",
+      "effet": "60 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Décharge",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Haka du soir",
+      "effet": "Augm. fortement la DÉF. et attire les attaques grâce à une danse défensive."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Béni du volcan",
+      "effet": "Restaure peu à peu les PV d'un allié grâce à la chaleur de l'eau volcanique."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Explosif !",
+    "Mange de la nourriture insipide": "*mâchouille*",
+    "Mange de la mauvaise nourriture": "Jamais de la vie !",
+    "A la flemme": "Je reste dehors !",
+    "Est échangé": "Tes capacités sont impressionnantes. Que notre amitié soit officielle.",
+    "Devient ton ami": "Tu as bien plus de force que moi ! Laisse-moi te rejoindre !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "さくらのじま",
+  "nom_anglais": "Lava Lord",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "La Corniche-Musée lac des Coloquintes(Nuit)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Explosif !",
-        "Mange de la nourriture insipide": "*mâchouille*",
-        "Mange de la mauvaise nourriture": "Jamais de la vie !",
-        "A la flemme": "Je reste dehors !",
-        "Est échangé": "Tes capacités sont impressionnantes. Que notre amitié soit officielle.",
-        "Devient ton ami": "Tu as bien plus de force que moi ! Laisse-moi te rejoindre !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "さくらのじま",
-    "nom_anglais": "Lava Lord",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "La Corniche-Musée lac des Coloquintes(Nuit)"
-        ],
-        "yw2": [
-            "Tour Excellence- broussailles & fleurs et sous les voitures",
-            "Bingo-kai-pièce orange(passé)",
-            "Bingo-kai oni"
-        ],
-        "yw3": [
-            "Tour Excellence - Sous les voitures"
-        ],
-        "yw4": [
-            "Etna Magma est trouvable dans leTournoi Sumo Yo-kaiet dans le boutique deLulugubredu mode de jeu.\nÉgalement trouvable dans le combat deGrolosdans leTournoi Enma - Arène Oni."
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "Goriki",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Paume Puissante",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Haka du soir",
-                "puissance": "___",
-                "description": "Fait une danse rituelle pour augmenter sa DÉF. et contrer les attaques."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Béni du Volcan",
-                "puissance": "N/A",
-                "description": "Restaure les PV d'un allié grâce à la chaleur de l'eau volcanique."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Volonté de fer",
-                "description": "Gardera 1 PV après un coup fatal."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Paume Puissante",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Haka du soir",
-                "puissance": "___",
-                "description": "Augm. fortement la DÉF. et attire les attaques ennemies grâce à une danse défensive."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Béni du Volcan",
-                "puissance": "N/A",
-                "description": "Restaure peu à peu les PV d'un allié grâce à la chaleur de l'eau volcanique."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Volonté de fer",
-                "description": "Gardera 1 PV après un coup fatal."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Haka du soir",
-                "puissance": "___",
-                "description": "Forte augmentation de la vitesse, attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Champ de force",
-                "puissance": "___",
-                "description": "Hausse temporaire de la protection des alliés."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Armure de fer",
-                "puissance": "___",
-                "description": "Forte réduction des dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Cran",
-                "description": "Quand PV à 0, 1PV sera restauré une seule fois."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Paume Puissante",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Haka du soir",
-                "puissance": "___",
-                "description": "Se donne corps et âme pour ce haka, augmentant fortement la DÉF."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Béni du Volcan",
-                "puissance": "N/A",
-                "description": "Restaure peu à peu les PV d'un allié grâce à la chaleur de l'eau volcanique."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Haka du soir",
-                "puissance": "___",
-                "description": "Booste +++ la DÉF. Attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Champ de force",
-                "puissance": "___",
-                "description": "Booste +++ la DÉF. alliée à proximité lors d’un instant."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Volonté de fer",
-                "description": "Gardera 1 PV après un coup fatal. (une fois)"
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Pensez Karaté"
-            },
-            {
-                "taux": "?%",
-                "objet": "La défense de A à Z"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Bracelet de bouffi"
-            },
-            {
-                "taux": "?%",
-                "objet": "Riz à la crevette"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Amulette armure"
-            },
-            {
-                "taux": "?%",
-                "objet": "Sushi œufs saumon"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Volonté de fer",
-        "description": "Gardera 1 PV après un coup fatal."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/etna-magma.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/etna-magma.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/etna-magma.wav",
-    "oldID": "79",
-    "medallium_ids": {
-        "yw1": "069",
-        "yw2": "109",
-        "yw3": "183",
-        "yw4": "15 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "123",
-        "yw Blasters 2": "187",
-        "yw Wibble Wobble": "3006",
-        "yw World": "0060",
-        "yw Ukiukipedia": "yw5-010/YD3-016"
-    },
-    "battle_type": "",
-    "skill_name": "The Stand",
-    "skill_effect": "Volcanic Blessing",
-    "disliked_food": "Juice",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "407",
-                "STR": "143",
-                "SPR": "134",
-                "DEF": "147",
-                "SPD": "136"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "455",
-                "STR": "143",
-                "SPR": "134",
-                "DEF": "147",
-                "SPD": "136"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "1",
-                "STR": "292",
-                "SPR": "215",
-                "DEF": "273",
-                "SPD": "82"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "264-462",
-                "STR": "292",
-                "SPR": "215"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "264-462"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "264-462"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "264-462"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "Sakura"
-        ],
-        "Spanish": [
-            "Lord"
-        ],
-        "French": [
-            "Etna"
-        ],
-        "Italian": [
-            "Vulcando"
-        ],
-        "German": [
-            "Der"
-        ],
-        "Russian": [
-            "Повелитель",
-            "Povelitel'"
-        ],
-        "Arabic": [
-            "شديد",
-            "Shadīd"
-        ],
-        "Chinese (Mandarin)": [
-            "櫻島火山",
-            "Yīngdǎohuǒshān",
-            "(Taiwan)",
-            "樱火岛",
-            "Yīnghuǒdǎo",
-            "(Mainland"
-        ],
-        "Portuguese (Brazilian)": [
-            "Lorde"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "Sakura no Jima"
-        ],
-        "Spanish": [
-            "Lord Lava"
-        ],
-        "French": [
-            "Etna Magma"
-        ],
-        "Italian": [
-            "Vulcando"
-        ],
-        "German": [
-            "Der Vulkan"
-        ],
-        "Russian": [
-            "Повелитель Лавы"
-        ],
-        "Arabic": [
-            "شديد"
-        ],
-        "Chinese (Mandarin)": [
-            "櫻島火山(Taiwan)樱火岛(Mainland China)"
-        ],
-        "Portuguese (Brazilian)": [
-            "Lorde lava"
-        ]
-    },
-    "description_en": "And in red, we have the only wrestler to rival Mad Mountain! It's the violent volcano himself— LAAAVA LOOOOOOORD!",
-    "nom_en": "Armsman",
-    "rang_yww": "B",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "Sushis",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 63,
-        "str": 13,
-        "spr": 12,
-        "def": 37,
-        "spd": 11
-    },
-    "stats_max_yww": {
-        "hp": 445,
-        "str": 105,
-        "spr": 87,
-        "def": 268,
-        "spd": 77
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "つっぱり",
-                "_en": "Tension",
-                "_fr": "Tension"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 敵のガードの効果を下げる",
-                "_en": "[Power: 50/Blow] Reduces the effectiveness of enemy's guard.",
-                "_fr": "[Puissance : 50 / Hit] Réduit l'efficacité de la garde ennemie"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "電流の術",
-                "_en": "electric current technique",
-                "_fr": "technique du courant électrique"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 雷属性】 雷の妖術を使う。",
-                "_en": "[Power: 40 / Lightning attribute] Uses lightning magic.",
-                "_fr": "[Puissance : 40 / Attribut Foudre] Utilise la magie de la foudre."
-            }
-        }
+    "yw2": [
+      "Tour Excellence- broussailles & fleurs et sous les voitures",
+      "Bingo-kai-pièce orange(passé)",
+      "Bingo-kai oni"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "夜桜しこふみ",
-                "_en": "Yozakura Shikofumi",
-                "_fr": "Yozakura Shikofumi"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
+    "yw3": [
+      "Tour Excellence - Sous les voitures"
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "火山のめぐみ",
-                "_en": "Megumi of the volcano",
-                "_fr": "Megumi du volcan"
-            },
-            "explication": {
-                "_jp": "【回復】 とりつかれた妖怪は火山の温泉パワーであたたまりHPがだんだん回復する。",
-                "_en": "[Recovery] The possessed monster will be warmed by the power of the volcanic hot springs and its HP will gradually recover.",
-                "_fr": "[Récupération] Le monstre possédé sera réchauffé par la puissance de la source chaude volcanique et ses PV récupéreront progressivement."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "火山のように とんでもない 爆発力を秘めた力士妖怪。 ふじのやまとは 永遠のライバルで せいせきは９９勝９９敗。",
-            "_en": "A sumo wrestler monster with incredible explosive power like a volcano. Fujinoyama is an eternal rival, with a record of 99 wins and 99 losses.",
-            "_fr": "Un monstre lutteur de sumo doté d'une puissance explosive incroyable comme un volcan. Fujinoyama est un éternel rival, avec un bilan de 99 victoires et 99 défaites."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw4": [
+      "Etna Magma est trouvable dans leTournoi Sumo Yo-kaiet dans le boutique deLulugubredu mode de jeu.\nÉgalement trouvable dans le combat deGrolosdans leTournoi Enma - Arène Oni."
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "Goriki",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Paume Puissante",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Décharge",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Haka du soir",
+        "puissance": "___",
+        "description": "Fait une danse rituelle pour augmenter sa DÉF. et contrer les attaques."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Béni du Volcan",
+        "puissance": "N/A",
+        "description": "Restaure les PV d'un allié grâce à la chaleur de l'eau volcanique."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Volonté de fer",
+        "description": "Gardera 1 PV après un coup fatal."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Paume Puissante",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Décharge",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Haka du soir",
+        "puissance": "___",
+        "description": "Augm. fortement la DÉF. et attire les attaques ennemies grâce à une danse défensive."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Béni du Volcan",
+        "puissance": "N/A",
+        "description": "Restaure peu à peu les PV d'un allié grâce à la chaleur de l'eau volcanique."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Volonté de fer",
+        "description": "Gardera 1 PV après un coup fatal."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Haka du soir",
+        "puissance": "___",
+        "description": "Forte augmentation de la vitesse, attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Champ de force",
+        "puissance": "___",
+        "description": "Hausse temporaire de la protection des alliés."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Armure de fer",
+        "puissance": "___",
+        "description": "Forte réduction des dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Cran",
+        "description": "Quand PV à 0, 1PV sera restauré une seule fois."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Paume Puissante",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Décharge",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Haka du soir",
+        "puissance": "___",
+        "description": "Se donne corps et âme pour ce haka, augmentant fortement la DÉF."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Béni du Volcan",
+        "puissance": "N/A",
+        "description": "Restaure peu à peu les PV d'un allié grâce à la chaleur de l'eau volcanique."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Haka du soir",
+        "puissance": "___",
+        "description": "Booste +++ la DÉF. Attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Champ de force",
+        "puissance": "___",
+        "description": "Booste +++ la DÉF. alliée à proximité lors d’un instant."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Volonté de fer",
+        "description": "Gardera 1 PV après un coup fatal. (une fois)"
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Pensez Karaté"
+      },
+      {
+        "taux": "?%",
+        "objet": "La défense de A à Z"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Bracelet de bouffi"
+      },
+      {
+        "taux": "?%",
+        "objet": "Riz à la crevette"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Amulette armure"
+      },
+      {
+        "taux": "?%",
+        "objet": "Sushi œufs saumon"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Volonté de fer",
+    "description": "Gardera 1 PV après un coup fatal."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/etna-magma.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/etna-magma.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/etna-magma.wav",
+  "oldID": "79",
+  "medallium_ids": {
+    "yw1": "069",
+    "yw2": "109",
+    "yw3": "183",
+    "yw4": "15 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "123",
+    "yw Blasters 2": "187",
+    "yw Wibble Wobble": "3006",
+    "yw World": "0060",
+    "yw Ukiukipedia": "yw5-010/YD3-016"
+  },
+  "battle_type": "",
+  "skill_name": "The Stand",
+  "skill_effect": "Volcanic Blessing",
+  "disliked_food": "Juice",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "407",
+        "STR": "143",
+        "SPR": "134",
+        "DEF": "147",
+        "SPD": "136"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "455",
+        "STR": "143",
+        "SPR": "134",
+        "DEF": "147",
+        "SPD": "136"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "1",
+        "STR": "292",
+        "SPR": "215",
+        "DEF": "273",
+        "SPD": "82"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "264-462",
+        "STR": "292",
+        "SPR": "215"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "264-462"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "264-462"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "264-462"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "Sakura"
+    ],
+    "Spanish": [
+      "Lord"
+    ],
+    "French": [
+      "Etna"
+    ],
+    "Italian": [
+      "Vulcando"
+    ],
+    "German": [
+      "Der"
+    ],
+    "Russian": [
+      "Повелитель",
+      "Povelitel'"
+    ],
+    "Arabic": [
+      "شديد",
+      "Shadīd"
+    ],
+    "Chinese (Mandarin)": [
+      "櫻島火山",
+      "Yīngdǎohuǒshān",
+      "(Taiwan)",
+      "樱火岛",
+      "Yīnghuǒdǎo",
+      "(Mainland"
+    ],
+    "Portuguese (Brazilian)": [
+      "Lorde"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "Sakura no Jima"
+    ],
+    "Spanish": [
+      "Lord Lava"
+    ],
+    "French": [
+      "Etna Magma"
+    ],
+    "Italian": [
+      "Vulcando"
+    ],
+    "German": [
+      "Der Vulkan"
+    ],
+    "Russian": [
+      "Повелитель Лавы"
+    ],
+    "Arabic": [
+      "شديد"
+    ],
+    "Chinese (Mandarin)": [
+      "櫻島火山(Taiwan)樱火岛(Mainland China)"
+    ],
+    "Portuguese (Brazilian)": [
+      "Lorde lava"
+    ]
+  },
+  "description_en": "And in red, we have the only wrestler to rival Mad Mountain! It's the violent volcano himself— LAAAVA LOOOOOOORD!",
+  "nom_en": "Armsman",
+  "rang_yww": "B",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "Sushis",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 63,
+    "str": 13,
+    "spr": 12,
+    "def": 37,
+    "spd": 11
+  },
+  "stats_max_yww": {
+    "hp": 445,
+    "str": 105,
+    "spr": 87,
+    "def": 268,
+    "spd": 77
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "つっぱり",
+        "_en": "Tension",
+        "_fr": "Tension"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 敵のガードの効果を下げる",
+        "_en": "[Power: 50/Blow] Reduces the effectiveness of enemy's guard.",
+        "_fr": "[Puissance : 50 / Hit] Réduit l'efficacité de la garde ennemie"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "電流の術",
+        "_en": "electric current technique",
+        "_fr": "technique du courant électrique"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 雷属性】 雷の妖術を使う。",
+        "_en": "[Power: 40 / Lightning attribute] Uses lightning magic.",
+        "_fr": "[Puissance : 40 / Attribut Foudre] Utilise la magie de la foudre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "夜桜しこふみ",
+        "_en": "Yozakura Shikofumi",
+        "_fr": "Yozakura Shikofumi"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "火山のめぐみ",
+        "_en": "Megumi of the volcano",
+        "_fr": "Megumi du volcan"
+      },
+      "explication": {
+        "_jp": "【回復】 とりつかれた妖怪は火山の温泉パワーであたたまりHPがだんだん回復する。",
+        "_en": "[Recovery] The possessed monster will be warmed by the power of the volcanic hot springs and its HP will gradually recover.",
+        "_fr": "[Récupération] Le monstre possédé sera réchauffé par la puissance de la source chaude volcanique et ses PV récupéreront progressivement."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "火山のように とんでもない 爆発力を秘めた力士妖怪。 ふじのやまとは 永遠のライバルで せいせきは９９勝９９敗。",
+      "_en": "A sumo wrestler monster with incredible explosive power like a volcano. Fujinoyama is an eternal rival, with a record of 99 wins and 99 losses.",
+      "_fr": "Un monstre lutteur de sumo doté d'une puissance explosive incroyable comme un volcan. Fujinoyama est un éternel rival, avec un bilan de 99 victoires et 99 défaites."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "79",
+  "Name_yww": "さくらのじま",
+  "description_jp_yww": "火山のように　とんでもない 爆発力を秘めた力士妖怪。 ふじのやまとは 永遠のライバルで せいせきは９９勝９９敗。",
+  "BingoMessage_jp_yww": "お主のようなやつを待っておった！ 世界一強くなりたいのじゃ！　協力せい！",
+  "MonsterId_yww": "y144010",
+  "Height_yww": 10.0,
+  "CommondId_yww": "sp_144010",
+  "MinHp_yww": 63,
+  "MaxHp_yww": 445,
+  "MinAttack_yww": 13,
+  "MaxAttack_yww": 105,
+  "MinMagic_yww": 12,
+  "MaxMagic_yww": 87,
+  "MinDefense_yww": 37,
+  "MaxDefense_yww": 268,
+  "MinSpeed_yww": 11,
+  "MaxSpeed_yww": 77,
+  "AttackId_yww": 51,
+  "MagicId_yww": 7,
+  "HauntId_yww": 144010,
+  "SpSkillId_yww": 144010,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 8,
+  "DislikeFoodKind_yww": 5,
+  "ActionType_yww": 20,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y139810.png",
+  "SpriteImage_yww": "img_y139810.png",
+  "Audio_yww": "sp_y139810.wav",
+  "Description_yww": "Un sumo-yōkai doté d’une puissance explosive aussi démesurée qu’un volcan. Fujinoyama est son rival éternel, et leur bilan est de 99 victoires pour 99 défaites.",
+  "BingoMessage_fr_yww": "C'est justement un type comme toi que j'attendais ! Je veux devenir le plus fort du monde ! Aide-moi !"
 }

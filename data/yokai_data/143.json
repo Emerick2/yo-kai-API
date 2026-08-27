@@ -1,581 +1,612 @@
 {
-    "ID": "143",
-    "Nom": "Pitou",
-    "Tribue": "Mignon",
-    "Rang": "C",
-    "PV": "370",
-    "Force": "83",
-    "Esprit": "191",
-    "Défense": "114",
-    "Vitesse": "134",
-    "Description-": "Il est connu pour être l'Aristocrate de l'Amour. Choubidou utilise son incroyable charme pour gagner des admirateurs.",
-    "Description": "Ce Yo-kai est mignon au point de faire fondre le cœur des gens et il le sait ! Il peut jouer des tours, alors attention !",
-    "nourriture": "Hamburger",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/pitou.png",
-    "numero": "105",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Sympathie",
-            "effet": "Incite plus d'ennemis à devenir tes amis."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Morsure",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Restauration",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Corde sensible",
-            "effet": "Fait battre les cœurs de ses alliés et restaure leurs PV. Trop mignon ! 90 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Cœur chaviré",
-            "effet": "Fait chavirer le cœur d'un allié et restaure graduellement ses PV."
-        }
+  "ID": "143",
+  "Nom": "Pitou",
+  "Tribue": "Mignon",
+  "Rang": "C",
+  "PV": "370",
+  "Force": "83",
+  "Esprit": "191",
+  "Défense": "114",
+  "Vitesse": "134",
+  "Description-": "Il est connu pour être l'Aristocrate de l'Amour. Choubidou utilise son incroyable charme pour gagner des admirateurs.",
+  "Description": "Ce Yo-kai est mignon au point de faire fondre le cœur des gens et il le sait ! Il peut jouer des tours, alors attention !",
+  "nourriture": "Hamburger",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/pitou.png",
+  "numero": "105",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Sympathie",
+      "effet": "Incite plus d'ennemis à devenir tes amis."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Morsure",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Restauration",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Corde sensible",
+      "effet": "Fait battre les cœurs de ses alliés et restaure leurs PV. Trop mignon ! 90 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Cœur chaviré",
+      "effet": "Fait chavirer le cœur d'un allié et restaure graduellement ses PV."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est crop bon !",
+    "Mange de la nourriture insipide": "Merki !",
+    "Mange de la mauvaise nourriture": "Tu plaisantes ?!",
+    "A la flemme": "Euh...",
+    "Est échangé": "C'est la première fois que je te vois, mais tu as déjà gagné mon cœur.",
+    "Devient ton ami": "Devenons amis."
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "キュン太郎",
+  "nom_anglais": "Shmoopie",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Mont Sylvestre- buissons",
+      "Mont Sylvestre - bambous"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est crop bon !",
-        "Mange de la nourriture insipide": "Merki !",
-        "Mange de la mauvaise nourriture": "Tu plaisantes ?!",
-        "A la flemme": "Euh...",
-        "Est échangé": "C'est la première fois que je te vois, mais tu as déjà gagné mon cœur.",
-        "Devient ton ami": "Devenons amis."
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "キュン太郎",
-    "nom_anglais": "Shmoopie",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Mont Sylvestre- buissons",
-            "Mont Sylvestre - bambous"
-        ],
-        "yw2": [
-            "Centre-Ville de Granval- arbres",
-            "Tunnel sans fin",
-            "Sanctuaire divin"
-        ],
-        "yw3": [
-            "Quartier des boutiques- arbres",
-            "Clinique du Crépuscule"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "Pitou",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Morsure",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Corde sensible",
-                "puissance": "90|90",
-                "description": "Fait battre les cœurs de ses alliés et restaure leurs PV. Trop mignon !"
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cœur chaviré",
-                "puissance": "N/A",
-                "description": "Fait chavirer le cœur d'un allié et restaure graduellement ses PV."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Restauration",
-                "puissance": "N/A",
-                "description": "Rend des PV à un Yo-kai. Charge automatiquement."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Sympathie",
-                "description": "Incite plus d'ennemis à devenir tes amis."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Corde sensible",
-                "puissance": "___",
-                "description": "Restauration lente des PV des alliés proches."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Envoût guérisseur",
-                "puissance": "___",
-                "description": "Hausse lente des PV alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Cercle guérisseur",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Sympathie",
-                "description": "Amitié plus probable avec les ennemis."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Morsure",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Corde sensible",
-                "puissance": "90|180",
-                "description": "Fait battre les cœurs de ses alliés et restaure leurs PV. Trop mignon !"
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cœur chaviré",
-                "puissance": "N/A",
-                "description": "Fait chavirer le cœur d'un allié et restaure peu à peu ses PV."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Corde sensible",
-                "puissance": "___",
-                "description": "Rend rapidement des PV aux alliés proches."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. PV rendus + si chargé."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Envoût guérisseur",
-                "puissance": "___",
-                "description": "Rend des PV à un allié. PV rendus + si chargé."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Sympathie",
-                "description": "Améliore les chances de devenir ami avec un ennemi."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Sympathie",
-        "description": "Incite plus d'ennemis à devenir tes amis."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/pitou.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/pitou.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/pitou.wav",
-    "oldID": "143",
-    "medallium_ids": {
-        "yw1": "105",
-        "yw2": "151",
-        "yw3": "266",
-        "yw4": "52 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "192",
-        "yw Blasters 2": "271",
-        "yw Wibble Wobble": "4020",
-        "yw World": "0088",
-        "yw Ukiukipedia": "yw4-017/Cyw-026/Cyw-033/YD1-028"
-    },
-    "battle_type": "",
-    "skill_name": "Popularity",
-    "skill_effect": "Skip a Beat",
-    "disliked_food": "Rice Balls",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "344",
-                "STR": "106",
-                "SPR": "162",
-                "DEF": "109",
-                "SPD": "155"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "380",
-                "STR": "106",
-                "SPR": "162",
-                "DEF": "109",
-                "SPD": "155"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "1",
-                "STR": "124",
-                "SPR": "354",
-                "DEF": "119",
-                "SPD": "139"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "382",
-                "STR": "76",
-                "SPR": "206",
-                "DEF": "146"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "388",
-                "STR": "71",
-                "SPR": "204",
-                "DEF": "140"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "160-280"
-            },
-            "elements": {},
-            "attacks": [
-                {
-                    "type": "Attack",
-                    "name": "Attack",
-                    "power": "50",
-                    "attribute": "Attack",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Restore",
-                    "power": "80, 130 (Charged)",
-                    "attribute": "Restoration",
-                    "range": "Single ally"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Healing Inspirit",
-                    "power": "-",
-                    "attribute": "Healing inspirit",
-                    "range": "Single ally, Area (Charged)"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Circle Restore",
-                    "power": "80, 70 (Charged)",
-                    "attribute": "Circle restore",
-                    "range": "Single ally, Area (Charged)"
-                },
-                {
-                    "type": "Soultimate Move",
-                    "name": "Heartstring Tug",
-                    "power": "-",
-                    "attribute": "Restoration",
-                    "range": "Area"
-                },
-                {
-                    "type": "Skill",
-                    "name": "Popularity",
-                    "power": "N/A",
-                    "attribute": "None",
-                    "range": "Self"
-                }
-            ]
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "160-280",
-                "STR": "71",
-                "SPR": "204",
-                "DEF": "140"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "160-280"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "キュン太郎",
-            "Kyuntarō"
-        ],
-        "Spanish": [
-            "Pufipatitas"
-        ],
-        "French": [
-            "Pitou"
-        ],
-        "Italian": [
-            "Carnino"
-        ],
-        "German": [
-            "Knuffiwuffi"
-        ],
-        "Korean": [
-            "귀욤개",
-            "Gwiyomgae"
-        ],
-        "Russian": [
-            "Масипуськин",
-            "Masipus'kin"
-        ],
-        "Arabic": [
-            "حلس",
-            "Ḥalis"
-        ],
-        "Chinese (Mandarin)": [
-            "Q太郎"
-        ],
-        "Portuguese (Brazilian)": [
-            "Fofucho"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "キュン太郎"
-        ],
-        "Spanish": [
-            "Pufipatitas"
-        ],
-        "French": [
-            "Pitou"
-        ],
-        "Italian": [
-            "Carnino"
-        ],
-        "German": [
-            "Knuffiwuffi"
-        ],
-        "Korean": [
-            "귀욤개"
-        ],
-        "Russian": [
-            "Масипуськин"
-        ],
-        "Arabic": [
-            "حلس"
-        ],
-        "Chinese (Mandarin)": [
-            "Q太郎"
-        ],
-        "Portuguese (Brazilian)": [
-            "Fofucho"
-        ]
-    },
-    "description_en": "This Yo-kai is cute enough to melt anyone's heart...and he knows it! He can be quite the schemer, so look out!",
-    "nom_en": "Steppa",
-    "rang_yww": "C",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "hamburger",
-    "nourriture_favorite": "hamburger",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 46,
-        "str": 10,
-        "spr": 30,
-        "def": 13,
-        "spd": 17
-    },
-    "stats_max_yww": {
-        "hp": 370,
-        "str": 83,
-        "spr": 191,
-        "def": 114,
-        "spd": 134
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "桃コイン",
-            "_en": "peach coin",
-            "_fr": "pièce de pêche"
-        }
+    "yw2": [
+      "Centre-Ville de Granval- arbres",
+      "Tunnel sans fin",
+      "Sanctuaire divin"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "かみつく",
-                "_en": "bite",
-                "_fr": "mordre"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "回復の術",
-                "_en": "art of recovery",
-                "_fr": "l'art de la récupération"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ハートにキュン！",
-                "_en": "It makes my heart flutter!",
-                "_fr": "Cela me fait palpiter le cœur !"
-            },
-            "pouvoir": "90",
-            "explication": {
-                "_jp": "キュートな動きでみんなの心をキュンキュンさせ味方全員のHPを回復する。",
-                "_en": "It makes everyone's hearts flutter with its cute moves and restores the HP of all allies.",
-                "_fr": "Il fait battre le cœur de tout le monde avec ses mouvements mignons et restaure les HP de tous les alliés."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "キュンキュンさせる",
-                "_en": "make me excited",
-                "_fr": "m'excite"
-            },
-            "explication": {
-                "_jp": "【回復】 とりつかれた妖怪は心がキュンキュンしHPがだんだん回復する。",
-                "_en": "[Recovery] The possessed monster's heart becomes excited and its HP gradually recovers.",
-                "_fr": "[Récupération] Le cœur du monstre possédé s'excite et ses PV récupèrent progressivement."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "周りをキュンキュンさせるほど 超絶キュートな犬妖怪。 自分のかわいさに気づいていて うまく周りを利用する。 実はちょっと腹黒い。",
-            "_en": "A super cute dog monster that makes everyone around him excited. She is aware of her own cuteness and takes advantage of those around her. Actually, I'm a little black-hearted.",
-            "_fr": "Un chien monstre super mignon qui excite tout le monde autour de lui. Elle est consciente de sa propre gentillesse et profite de son entourage. En fait, j'ai un peu le cœur noir."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Quartier des boutiques- arbres",
+      "Clinique du Crépuscule"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "Pitou",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Morsure",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Corde sensible",
+        "puissance": "90|90",
+        "description": "Fait battre les cœurs de ses alliés et restaure leurs PV. Trop mignon !"
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cœur chaviré",
+        "puissance": "N/A",
+        "description": "Fait chavirer le cœur d'un allié et restaure graduellement ses PV."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Restauration",
+        "puissance": "N/A",
+        "description": "Rend des PV à un Yo-kai. Charge automatiquement."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Sympathie",
+        "description": "Incite plus d'ennemis à devenir tes amis."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Corde sensible",
+        "puissance": "___",
+        "description": "Restauration lente des PV des alliés proches."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Envoût guérisseur",
+        "puissance": "___",
+        "description": "Hausse lente des PV alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Cercle guérisseur",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Sympathie",
+        "description": "Amitié plus probable avec les ennemis."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Morsure",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Corde sensible",
+        "puissance": "90|180",
+        "description": "Fait battre les cœurs de ses alliés et restaure leurs PV. Trop mignon !"
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cœur chaviré",
+        "puissance": "N/A",
+        "description": "Fait chavirer le cœur d'un allié et restaure peu à peu ses PV."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Corde sensible",
+        "puissance": "___",
+        "description": "Rend rapidement des PV aux alliés proches."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. PV rendus + si chargé."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Envoût guérisseur",
+        "puissance": "___",
+        "description": "Rend des PV à un allié. PV rendus + si chargé."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Sympathie",
+        "description": "Améliore les chances de devenir ami avec un ennemi."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Sympathie",
+    "description": "Incite plus d'ennemis à devenir tes amis."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/pitou.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/pitou.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/pitou.wav",
+  "oldID": "143",
+  "medallium_ids": {
+    "yw1": "105",
+    "yw2": "151",
+    "yw3": "266",
+    "yw4": "52 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "192",
+    "yw Blasters 2": "271",
+    "yw Wibble Wobble": "4020",
+    "yw World": "0088",
+    "yw Ukiukipedia": "yw4-017/Cyw-026/Cyw-033/YD1-028"
+  },
+  "battle_type": "",
+  "skill_name": "Popularity",
+  "skill_effect": "Skip a Beat",
+  "disliked_food": "Rice Balls",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "344",
+        "STR": "106",
+        "SPR": "162",
+        "DEF": "109",
+        "SPD": "155"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "380",
+        "STR": "106",
+        "SPR": "162",
+        "DEF": "109",
+        "SPD": "155"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "1",
+        "STR": "124",
+        "SPR": "354",
+        "DEF": "119",
+        "SPD": "139"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "382",
+        "STR": "76",
+        "SPR": "206",
+        "DEF": "146"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "388",
+        "STR": "71",
+        "SPR": "204",
+        "DEF": "140"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "160-280"
+      },
+      "elements": {},
+      "attacks": [
+        {
+          "type": "Attack",
+          "name": "Attack",
+          "power": "50",
+          "attribute": "Attack",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Restore",
+          "power": "80, 130 (Charged)",
+          "attribute": "Restoration",
+          "range": "Single ally"
+        },
+        {
+          "type": "Technique",
+          "name": "Healing Inspirit",
+          "power": "-",
+          "attribute": "Healing inspirit",
+          "range": "Single ally, Area (Charged)"
+        },
+        {
+          "type": "Technique",
+          "name": "Circle Restore",
+          "power": "80, 70 (Charged)",
+          "attribute": "Circle restore",
+          "range": "Single ally, Area (Charged)"
+        },
+        {
+          "type": "Soultimate Move",
+          "name": "Heartstring Tug",
+          "power": "-",
+          "attribute": "Restoration",
+          "range": "Area"
+        },
+        {
+          "type": "Skill",
+          "name": "Popularity",
+          "power": "N/A",
+          "attribute": "None",
+          "range": "Self"
+        }
+      ]
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "160-280",
+        "STR": "71",
+        "SPR": "204",
+        "DEF": "140"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "160-280"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "キュン太郎",
+      "Kyuntarō"
+    ],
+    "Spanish": [
+      "Pufipatitas"
+    ],
+    "French": [
+      "Pitou"
+    ],
+    "Italian": [
+      "Carnino"
+    ],
+    "German": [
+      "Knuffiwuffi"
+    ],
+    "Korean": [
+      "귀욤개",
+      "Gwiyomgae"
+    ],
+    "Russian": [
+      "Масипуськин",
+      "Masipus'kin"
+    ],
+    "Arabic": [
+      "حلس",
+      "Ḥalis"
+    ],
+    "Chinese (Mandarin)": [
+      "Q太郎"
+    ],
+    "Portuguese (Brazilian)": [
+      "Fofucho"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "キュン太郎"
+    ],
+    "Spanish": [
+      "Pufipatitas"
+    ],
+    "French": [
+      "Pitou"
+    ],
+    "Italian": [
+      "Carnino"
+    ],
+    "German": [
+      "Knuffiwuffi"
+    ],
+    "Korean": [
+      "귀욤개"
+    ],
+    "Russian": [
+      "Масипуськин"
+    ],
+    "Arabic": [
+      "حلس"
+    ],
+    "Chinese (Mandarin)": [
+      "Q太郎"
+    ],
+    "Portuguese (Brazilian)": [
+      "Fofucho"
+    ]
+  },
+  "description_en": "This Yo-kai is cute enough to melt anyone's heart...and he knows it! He can be quite the schemer, so look out!",
+  "nom_en": "Steppa",
+  "rang_yww": "C",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "hamburger",
+  "nourriture_favorite": "hamburger",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 46,
+    "str": 10,
+    "spr": 30,
+    "def": 13,
+    "spd": 17
+  },
+  "stats_max_yww": {
+    "hp": 370,
+    "str": 83,
+    "spr": 191,
+    "def": 114,
+    "spd": 134
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "桃コイン",
+      "_en": "peach coin",
+      "_fr": "pièce de pêche"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "かみつく",
+        "_en": "bite",
+        "_fr": "mordre"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "回復の術",
+        "_en": "art of recovery",
+        "_fr": "l'art de la récupération"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ハートにキュン！",
+        "_en": "It makes my heart flutter!",
+        "_fr": "Cela me fait palpiter le cœur !"
+      },
+      "pouvoir": "90",
+      "explication": {
+        "_jp": "キュートな動きでみんなの心をキュンキュンさせ味方全員のHPを回復する。",
+        "_en": "It makes everyone's hearts flutter with its cute moves and restores the HP of all allies.",
+        "_fr": "Il fait battre le cœur de tout le monde avec ses mouvements mignons et restaure les HP de tous les alliés."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "キュンキュンさせる",
+        "_en": "make me excited",
+        "_fr": "m'excite"
+      },
+      "explication": {
+        "_jp": "【回復】 とりつかれた妖怪は心がキュンキュンしHPがだんだん回復する。",
+        "_en": "[Recovery] The possessed monster's heart becomes excited and its HP gradually recovers.",
+        "_fr": "[Récupération] Le cœur du monstre possédé s'excite et ses PV récupèrent progressivement."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "周りをキュンキュンさせるほど 超絶キュートな犬妖怪。 自分のかわいさに気づいていて うまく周りを利用する。 実はちょっと腹黒い。",
+      "_en": "A super cute dog monster that makes everyone around him excited. She is aware of her own cuteness and takes advantage of those around her. Actually, I'm a little black-hearted.",
+      "_fr": "Un chien monstre super mignon qui excite tout le monde autour de lui. Elle est consciente de sa propre gentillesse et profite de son entourage. En fait, j'ai un peu le cœur noir."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "143",
+  "Name_yww": "キュン太郎",
+  "description_jp_yww": "周りをキュンキュンさせるほど 超絶キュートな犬妖怪。 自分のかわいさに気づいていて うまく周りを利用する。 実はちょっと腹黒い。",
+  "BingoMessage_jp_yww": "開けてくれてキュンとしたよぉ～ きみのこともキュンとさせてあげるね",
+  "MonsterId_yww": "y175000",
+  "Height_yww": 11.0,
+  "CommondId_yww": "sp_175000",
+  "MinHp_yww": 46,
+  "MaxHp_yww": 370,
+  "MinAttack_yww": 10,
+  "MaxAttack_yww": 83,
+  "MinMagic_yww": 30,
+  "MaxMagic_yww": 191,
+  "MinDefense_yww": 13,
+  "MaxDefense_yww": 114,
+  "MinSpeed_yww": 17,
+  "MaxSpeed_yww": 134,
+  "AttackId_yww": 16,
+  "MagicId_yww": 23,
+  "HauntId_yww": 175000,
+  "SpSkillId_yww": 175000,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 6,
+  "DislikeFoodKind_yww": 1,
+  "ActionType_yww": 15,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y170800.png",
+  "SpriteImage_yww": "img_y170800.png",
+  "Audio_yww": "sp_y170800.wav",
+  "Description_yww": "Un yōkai canin d'une mignonnerie à faire fondre tout le monde. Il est conscient de sa propre mignonnerie et sait habilement en tirer parti. En réalité, il est un peu sournois.",
+  "BingoMessage_fr_yww": "Ça m'a fait fondre quand tu l'as ouvert~ Je vais faire fondre ton cœur à mon tour"
 }

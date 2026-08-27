@@ -1,129 +1,45 @@
 {
-    "Nom": "Chauvekisort",
-    "Tribue": "Sombre",
-    "Rang": "C",
-    "nom_original": "ハロウィンジバニャン",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": [
-        {
-            "_jp": "ハロウィン衣装に身を包んで さっそうと現れたジバニャン。 「トリック・オア・トリート！ チョコボーくれなきゃ イタズラするニャン！」",
-            "_en": "Jibanyan quickly appeared dressed in a Halloween costume. \"Trick or treat! If you don't give me a chocolate ball, I'll play a prank on you!\"",
-            "_fr": "Jibanyan est rapidement apparu vêtu d'un costume d'Halloween. \"Des bonbons ou un sort ! Si tu ne me donnes pas de boule de chocolat, je te ferai une farce !\""
-        }
-    ],
-    "nourriture": "Chocobo",
-    "nourriture_favorite": "Chocobo",
-    "élément": "",
-    "Rôle": "attaquant",
-    "rang_yww": "S",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Chocobo",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 86,
-        "str": 24,
-        "spr": 21,
-        "def": 12,
-        "spd": 31
-    },
-    "stats_max_yww": {},
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "たたく",
-                "_en": "knock",
-                "_fr": "frappe"
-            },
-            "explication": {
-                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "れんごくの術",
-                "_en": "Rengoku no Jutsu",
-                "_fr": "Rengoku no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 火属性】 強力な火の妖術を使う。",
-                "_en": "[Power: 70 / Fire attribute] Uses powerful fire magic.",
-                "_fr": "[Puissance : 70 / Attribut Feu] Utilise une puissante magie du feu."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "マジックひゃくれつ肉球",
-                "_en": "Magic Hyakuretsu Paw Ball",
-                "_fr": "Boule de patte magique Hyakuretsu"
-            },
-            "pouvoir": "15×5",
-            "explication": {
-                "_jp": "消えたり現れたりする 肉球で 敵全員を なぐりまくる",
-                "_en": "Hit all the enemies with a paw that disappears and reappears.",
-                "_fr": "Frappez tous les ennemis avec une patte qui disparaît et réapparaît."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ゆうわくのチョコボー",
-                "_en": "Yuwaku Chocobo",
-                "_fr": "Yuwaku Chocobo"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 もらったチョコボーに気を取られ なかなか行動しなくなる",
-                "_en": "[Osabori] I get distracted by the chocobo I received and don't take any action.",
-                "_fr": "[Osabori] Je suis distrait par le chocobo que j'ai reçu et je n'agis pas."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "ハロウィン衣装に身を包んで さっそうと現れたジバニャン。 「トリック・オア・トリート！ チョコボーくれなきゃ イタズラするニャン！」",
-            "_en": "Jibanyan quickly appeared dressed in a Halloween costume. \"Trick or treat! If you don't give me a chocolate ball, I'll play a prank on you!\"",
-            "_fr": "Jibanyan est rapidement apparu vêtu d'un costume d'Halloween. \"Des bonbons ou un sort ! Si tu ne me donnes pas de boule de chocolat, je te ferai une farce !\""
-        }
-    ],
-    "oldID": "1140",
-    "ID": "1138",
-    "nom_en": "Trick Hikikomori",
-    "premiere_apparition": "yww",
-    "jeu_present": [
-        "yww"
-    ]
+  "Nom": "茶葉ニャン",
+  "nom_original": "茶葉ニャン",
+  "Rang": 6,
+  "PV": 378,
+  "Force": 49,
+  "Esprit": 255,
+  "Défense": 130,
+  "Vitesse": 258,
+  "Description": "Au milieu d'une plantation de thé verdoyante à perte de vue, Jibanyan, le travailleur acharné, cueille avec application les feuilles de thé. « Le moment approche peu à peu, le 88e jour de la nuit, miaou miaou ♪ »",
+  "nourriture": 3,
+  "nourriture_favorite": 3,
+  "disliked_food": 9,
+  "id_yww": "811",
+  "Name_yww": "茶葉ニャン",
+  "description_jp_yww": "青々と一面に広がる茶畑で せっせと　お茶の葉っぱを 摘みとる働き者のジバニャン。 「ニャ～つ～も～近づ～く～ 八十八夜　ニャンニャン♪」",
+  "BingoMessage_jp_yww": "オレっちと　ともだちになりたいニャン？ まあ　まずはいれたてのお茶を飲むニャン！",
+  "MonsterId_yww": "y5001740",
+  "Height_yww": 17.0,
+  "CommondId_yww": "sp_5001740",
+  "MinHp_yww": 43,
+  "MaxHp_yww": 378,
+  "MinAttack_yww": 5,
+  "MaxAttack_yww": 49,
+  "MinMagic_yww": 30,
+  "MaxMagic_yww": 255,
+  "MinDefense_yww": 19,
+  "MaxDefense_yww": 130,
+  "MinSpeed_yww": 40,
+  "MaxSpeed_yww": 258,
+  "AttackId_yww": 11,
+  "MagicId_yww": 15,
+  "HauntId_yww": 5001740,
+  "SpSkillId_yww": 5001740,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 3,
+  "DislikeFoodKind_yww": 9,
+  "ActionType_yww": 9,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y4997540.png",
+  "SpriteImage_yww": "img_y4997540.png",
+  "Audio_yww": "sp_y4997540.wav",
+  "Description_yww": "Au milieu d'une plantation de thé verdoyante à perte de vue, Jibanyan, le travailleur acharné, cueille avec application les feuilles de thé. « Le moment approche peu à peu, le 88e jour de la nuit, miaou miaou ♪ »",
+  "BingoMessage_fr_yww": "Tu veux devenir mon pote, miaou ? Bon, on va d'abord boire un thé tout juste préparé, miaou !"
 }

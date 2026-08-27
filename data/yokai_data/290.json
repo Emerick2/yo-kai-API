@@ -1,438 +1,469 @@
 {
-    "ID": "290",
-    "Nom": "Sabrille",
-    "Tribue": "Bienveillant",
-    "Rang": "C",
-    "PV": "366",
-    "Force": "49",
-    "Esprit": "202",
-    "Défense": "101",
-    "Vitesse": "172",
-    "Description": "Ce jeune homme rayonnant apporte le soleil avec lui. Il essaie d'illuminer les journées de Sabruine.",
-    "description SITE": "Ce jeune homme rayonnant apporte le soleil avec lui. Il essaie d'illuminer les journées deSabruine.",
-    "nourriture": "Douceurs",
-    "élément": "Feu",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "… (à compléter)",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/sabrille.png",
-    "numero": "188",
-    "nourriture_favorite": "Sucrerie",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Coup de soleil",
-            "effet": "Tous les Yo-kai subissent plus de dégâts de feu."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coup retourné",
-            "effet": "60 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Incendie",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coup de chaud",
-            "effet": "Un brasier ardent enveloppe les ennemis. 80 | 176"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Luminothérapie",
-            "effet": "Le Yo-kai est radieux, ce qui augmente sa FOR."
-        }
+  "ID": "290",
+  "Nom": "Sabrille",
+  "Tribue": "Bienveillant",
+  "Rang": "C",
+  "PV": "366",
+  "Force": "49",
+  "Esprit": "202",
+  "Défense": "101",
+  "Vitesse": "172",
+  "Description": "Ce jeune homme rayonnant apporte le soleil avec lui. Il essaie d'illuminer les journées de Sabruine.",
+  "description SITE": "Ce jeune homme rayonnant apporte le soleil avec lui. Il essaie d'illuminer les journées deSabruine.",
+  "nourriture": "Douceurs",
+  "élément": "Feu",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "… (à compléter)",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/sabrille.png",
+  "numero": "188",
+  "nourriture_favorite": "Sucrerie",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Coup de soleil",
+      "effet": "Tous les Yo-kai subissent plus de dégâts de feu."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coup retourné",
+      "effet": "60 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Incendie",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coup de chaud",
+      "effet": "Un brasier ardent enveloppe les ennemis. 80 | 176"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Luminothérapie",
+      "effet": "Le Yo-kai est radieux, ce qui augmente sa FOR."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est brillant !",
+    "Mange de la nourriture insipide": "C'est bon...",
+    "Mange de la mauvaise nourriture": "C'est vexant.",
+    "A la flemme": "Ça se couvre...",
+    "Est échangé": "Hé, bonjour ! Le ciel est bleu et les oiseaux chantent !",
+    "Devient ton ami": "Tu es mon rayon de soleil ! Et si on était amis ?"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "晴れ男",
+  "nom_anglais": "Ray O'Light",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Bruno Méyère",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Ourcival- dans l'herbe (Jour ensoleillé)",
+      "Ourcival - tombes (Jour ensoleillé)",
+      "Bingo-kai-Pièce verte(Présent)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est brillant !",
-        "Mange de la nourriture insipide": "C'est bon...",
-        "Mange de la mauvaise nourriture": "C'est vexant.",
-        "A la flemme": "Ça se couvre...",
-        "Est échangé": "Hé, bonjour ! Le ciel est bleu et les oiseaux chantent !",
-        "Devient ton ami": "Tu es mon rayon de soleil ! Et si on était amis ?"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "晴れ男",
-    "nom_anglais": "Ray O'Light",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Bruno Méyère",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Ourcival- dans l'herbe (Jour ensoleillé)",
-            "Ourcival - tombes (Jour ensoleillé)",
-            "Bingo-kai-Pièce verte(Présent)"
-        ],
-        "yw Blasters 1": [
-            "Patrouilles -Ourcival"
-        ],
-        "yw3": [
-            "Dukeville- sous les carrioles (Jour ensoleillé)"
-        ],
-        "yw4": [
-            "Sabrille est exclusif au modePura Pura Busters.\nDans les missions de :Ogralos,Fudou Myouou-kaietCrocho(mission principale)."
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "Omamori",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Coup retourné",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Coup de chaud",
-                "puissance": "80|176",
-                "description": "Un brasier ardent enveloppe les ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Luminothérapie",
-                "puissance": "N/A",
-                "description": "Le Yo-kai est radieux, ce qui augmente sa FOR."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Coup de soleil",
-                "description": "Tous les Yo-kai subissent plus de dégâts de feu."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Coup de chaud",
-                "puissance": "100×4",
-                "description": "Brûle les ennemis, gros dégâts infligés."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Feu",
-                "puissance": "40",
-                "description": "Utilise un sort de feu. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Position offensive",
-                "puissance": "___",
-                "description": "Hausse de l'attaque temporaire."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Incendie",
-                "puissance": "50",
-                "description": "Un sort de feu puissant. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Adrénaline",
-                "description": "Hausse ATT. temporaire après défaite ennemie."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Coup retourné",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Incendie",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Coup de chaud",
-                "puissance": "110|220",
-                "description": "Frappe les ennemis à portée avec un puissant feu qui brûle tel le soleil."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Luminothérapie",
-                "puissance": "N/A",
-                "description": "Le Yo-kai est radieux, ce qui augmente fortement sa FOR."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Jeu de feu",
-                "description": "Booste les dégâts de feu de tous les Yo-kai."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Coup de soleil",
-        "description": "Tous les Yo-kai subissent plus de dégâts de feu."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/sabrille.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/sabrille.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/sabrille.wav",
-    "oldID": "300",
-    "medallium_ids": {
-        "yw2": "188",
-        "yw3": "345",
-        "yw4": "39 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "Wib Wob": ""
-    },
-    "battle_type": "",
-    "skill_name": "Sunburn",
-    "skill_effect": "Solar Power",
-    "disliked_food": "Soba",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "376",
-                "STR": "167",
-                "SPR": "148",
-                "DEF": "103",
-                "SPD": "150"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "1",
-                "STR": "378",
-                "SPR": "336",
-                "DEF": "106",
-                "SPD": "177"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "240-420",
-                "STR": "378",
-                "SPR": "336"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "240-420"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "240-420"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "240-420"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "晴れ男",
-            "Hare"
-        ],
-        "Spanish": [
-            "Rayito"
-        ],
-        "French": [
-            "Sabrille"
-        ],
-        "Italian": [
-            "Ray"
-        ],
-        "German": [
-            "Strahlemann"
-        ],
-        "Russian": [
-            "Сонцеликов",
-            "Sontselikov"
-        ],
-        "Arabic": [
-            "مشرق",
-            "Mushriq"
-        ],
-        "Portuguese (Brazilian)": [
-            "Lu"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "晴れ男"
-        ],
-        "Spanish": [
-            "Rayito"
-        ],
-        "French": [
-            "Sabrille"
-        ],
-        "Italian": [
-            "Ray Lux"
-        ],
-        "German": [
-            "Strahlemann"
-        ],
-        "Russian": [
-            "Сонцеликов"
-        ],
-        "Arabic": [
-            "مشرق"
-        ],
-        "Portuguese (Brazilian)": [
-            "Lu Minoso"
-        ]
-    },
-    "description_en": "A sunny fellow who brings fine weather wherever he goes. He's been trying to brighten up Drizzelda's view on life.",
-    "nom_en": "Unbelievabull",
-    "rang_yww": "C",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "bonbons",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
-        "_fr": "(Rôle d'attaque) Reisei, cible de Zunou, (Attaque contre les alliés) Coopératif, de type Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 49,
-        "str": 7,
-        "spr": 25,
-        "def": 14,
-        "spd": 20
-    },
-    "stats_max_yww": {
-        "hp": 366,
-        "str": 49,
-        "spr": 202,
-        "def": 101,
-        "spd": 172
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "あびせげり",
-                "_en": "Abisegeri",
-                "_fr": "Abisegeri"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
-                "_en": "[Power: 50/Blow] Deal a big blow",
-                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "火炎の術",
-                "_en": "flame technique",
-                "_fr": "technique de la flamme"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
-                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
-                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
-            }
-        }
+    "yw Blasters 1": [
+      "Patrouilles -Ourcival"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "晴れ晴れファイヤー",
-                "_en": "sunny fire",
-                "_fr": "feu ensoleillé"
-            },
-            "pouvoir": "110",
-            "explication": {
-                "_jp": "真っ赤な太陽を思わせる強力な炎を呼び出し敵全体にダメージを与える。",
-                "_en": "Summons powerful flames reminiscent of a bright red sun, damaging all enemies.",
-                "_fr": "Invoque de puissantes flammes rappelant un soleil rouge vif, endommageant tous les ennemis."
-            }
-        }
+    "yw3": [
+      "Dukeville- sous les carrioles (Jour ensoleillé)"
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "晴れ晴れさせる",
-                "_en": "brighten up",
-                "_fr": "égayer"
-            },
-            "explication": {
-                "_jp": "【ちからアップ】 とりつかれた妖怪は晴れ晴れとした気分になり ちからが大アップする。",
-                "_en": "[Power up] The possessed monster becomes cheerful and its power increases greatly.",
-                "_fr": "[Power up] Le monstre possédé devient joyeux et sa puissance augmente considérablement."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "晴れ男がいるところに 雨が降ることはない。 つねに性格もハイテンション。 雨女の心を晴れさせようと 猛烈アピール中。",
-            "_en": "It never rains where there is a sunny man. Her personality is always high tension. He is making a fierce appeal to clear up the hearts of rain women.",
-            "_fr": "Il ne pleut jamais là où il y a du soleil. Sa personnalité est toujours sous haute tension. Il lance un appel féroce pour éclaircir le cœur des femmes de la pluie."
-        }
-    ],
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw4": [
+      "Sabrille est exclusif au modePura Pura Busters.\nDans les missions de :Ogralos,Fudou Myouou-kaietCrocho(mission principale)."
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "Omamori",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Coup retourné",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Incendie",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Coup de chaud",
+        "puissance": "80|176",
+        "description": "Un brasier ardent enveloppe les ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Luminothérapie",
+        "puissance": "N/A",
+        "description": "Le Yo-kai est radieux, ce qui augmente sa FOR."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Coup de soleil",
+        "description": "Tous les Yo-kai subissent plus de dégâts de feu."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Coup de chaud",
+        "puissance": "100×4",
+        "description": "Brûle les ennemis, gros dégâts infligés."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Feu",
+        "puissance": "40",
+        "description": "Utilise un sort de feu. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Position offensive",
+        "puissance": "___",
+        "description": "Hausse de l'attaque temporaire."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Incendie",
+        "puissance": "50",
+        "description": "Un sort de feu puissant. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Adrénaline",
+        "description": "Hausse ATT. temporaire après défaite ennemie."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Coup retourné",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Incendie",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Coup de chaud",
+        "puissance": "110|220",
+        "description": "Frappe les ennemis à portée avec un puissant feu qui brûle tel le soleil."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Luminothérapie",
+        "puissance": "N/A",
+        "description": "Le Yo-kai est radieux, ce qui augmente fortement sa FOR."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Jeu de feu",
+        "description": "Booste les dégâts de feu de tous les Yo-kai."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Coup de soleil",
+    "description": "Tous les Yo-kai subissent plus de dégâts de feu."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/sabrille.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/sabrille.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/sabrille.wav",
+  "oldID": "300",
+  "medallium_ids": {
+    "yw2": "188",
+    "yw3": "345",
+    "yw4": "39 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "Wib Wob": ""
+  },
+  "battle_type": "",
+  "skill_name": "Sunburn",
+  "skill_effect": "Solar Power",
+  "disliked_food": "Soba",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "376",
+        "STR": "167",
+        "SPR": "148",
+        "DEF": "103",
+        "SPD": "150"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "1",
+        "STR": "378",
+        "SPR": "336",
+        "DEF": "106",
+        "SPD": "177"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "240-420",
+        "STR": "378",
+        "SPR": "336"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "240-420"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "240-420"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "240-420"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "晴れ男",
+      "Hare"
+    ],
+    "Spanish": [
+      "Rayito"
+    ],
+    "French": [
+      "Sabrille"
+    ],
+    "Italian": [
+      "Ray"
+    ],
+    "German": [
+      "Strahlemann"
+    ],
+    "Russian": [
+      "Сонцеликов",
+      "Sontselikov"
+    ],
+    "Arabic": [
+      "مشرق",
+      "Mushriq"
+    ],
+    "Portuguese (Brazilian)": [
+      "Lu"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "晴れ男"
+    ],
+    "Spanish": [
+      "Rayito"
+    ],
+    "French": [
+      "Sabrille"
+    ],
+    "Italian": [
+      "Ray Lux"
+    ],
+    "German": [
+      "Strahlemann"
+    ],
+    "Russian": [
+      "Сонцеликов"
+    ],
+    "Arabic": [
+      "مشرق"
+    ],
+    "Portuguese (Brazilian)": [
+      "Lu Minoso"
+    ]
+  },
+  "description_en": "A sunny fellow who brings fine weather wherever he goes. He's been trying to brighten up Drizzelda's view on life.",
+  "nom_en": "Unbelievabull",
+  "rang_yww": "C",
+  "tribue_yww": "Pokapoka",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "bonbons",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Attack role) Reisei, Zuno target, (Attack on allies) Cooperative, Kenshin type",
+    "_fr": "(Rôle d'attaque) Reisei, cible de Zunou, (Attaque contre les alliés) Coopératif, de type Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 49,
+    "str": 7,
+    "spr": 25,
+    "def": 14,
+    "spd": 20
+  },
+  "stats_max_yww": {
+    "hp": 366,
+    "str": 49,
+    "spr": 202,
+    "def": 101,
+    "spd": 172
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "あびせげり",
+        "_en": "Abisegeri",
+        "_fr": "Abisegeri"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+        "_en": "[Power: 50/Blow] Deal a big blow",
+        "_fr": "[Puissance : 50/Coup] Portez un gros coup"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "火炎の術",
+        "_en": "flame technique",
+        "_fr": "technique de la flamme"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
+        "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
+        "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "晴れ晴れファイヤー",
+        "_en": "sunny fire",
+        "_fr": "feu ensoleillé"
+      },
+      "pouvoir": "110",
+      "explication": {
+        "_jp": "真っ赤な太陽を思わせる強力な炎を呼び出し敵全体にダメージを与える。",
+        "_en": "Summons powerful flames reminiscent of a bright red sun, damaging all enemies.",
+        "_fr": "Invoque de puissantes flammes rappelant un soleil rouge vif, endommageant tous les ennemis."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "晴れ晴れさせる",
+        "_en": "brighten up",
+        "_fr": "égayer"
+      },
+      "explication": {
+        "_jp": "【ちからアップ】 とりつかれた妖怪は晴れ晴れとした気分になり ちからが大アップする。",
+        "_en": "[Power up] The possessed monster becomes cheerful and its power increases greatly.",
+        "_fr": "[Power up] Le monstre possédé devient joyeux et sa puissance augmente considérablement."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "晴れ男がいるところに 雨が降ることはない。 つねに性格もハイテンション。 雨女の心を晴れさせようと 猛烈アピール中。",
+      "_en": "It never rains where there is a sunny man. Her personality is always high tension. He is making a fierce appeal to clear up the hearts of rain women.",
+      "_fr": "Il ne pleut jamais là où il y a du soleil. Sa personnalité est toujours sous haute tension. Il lance un appel féroce pour éclaircir le cœur des femmes de la pluie."
+    }
+  ],
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "296",
+  "Name_yww": "晴れ男",
+  "description_jp_yww": "晴れ男がいるところに 雨が降ることはない。 つねに性格もハイテンション。 雨女の心を晴れさせようと 猛烈アピール中。",
+  "BingoMessage_jp_yww": "晴れ晴れとした気持ちだよ！ ともだちもできて　ハッピーさ！",
+  "MonsterId_yww": "y281500",
+  "Height_yww": 7.0,
+  "CommondId_yww": "sp_281500",
+  "MinHp_yww": 57,
+  "MaxHp_yww": 431,
+  "MinAttack_yww": 7,
+  "MaxAttack_yww": 57,
+  "MinMagic_yww": 30,
+  "MaxMagic_yww": 234,
+  "MinDefense_yww": 5,
+  "MaxDefense_yww": 66,
+  "MinSpeed_yww": 25,
+  "MaxSpeed_yww": 179,
+  "AttackId_yww": 46,
+  "MagicId_yww": 23,
+  "HauntId_yww": 281500,
+  "SpSkillId_yww": 281000,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 17,
+  "DislikeFoodKind_yww": 15,
+  "ActionType_yww": 14,
+  "TribeType_yww": 9,
+  "MedallionImage_yww": "y277300.png",
+  "SpriteImage_yww": "img_y277300.png",
+  "Audio_yww": "sp_y277300.wav",
+  "Description_yww": "Là où se trouve un homme qui apporte le beau temps, il ne pleut jamais. Il est toujours d'humeur très enjouée. Pour égayer le cœur d'une femme qui attire la pluie, il déploie actuellement des efforts acharnés.",
+  "BingoMessage_fr_yww": "Je me sens vraiment bien ! Je me suis fait des amis, je suis super content !"
 }

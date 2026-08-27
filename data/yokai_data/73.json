@@ -1,502 +1,533 @@
 {
-    "ID": "73",
-    "Nom": "Passpa",
-    "Tribue": "Costaud",
-    "Rang": "B",
-    "PV": "472",
-    "Force": "152",
-    "Esprit": "53",
-    "Défense": "270",
-    "Vitesse": "61",
-    "Description": "Avec lui tu ne passes pas. Pourquoi ?! Quel est son but ?! Quelle est son histoire ?! Personne ne sait...",
-    "nourriture": "Ramen",
-    "élément": "Terre",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Passpa vient de 'Passe pas !'",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "Comme Nanpart, Passpa refusera toujours les commandes. Cependant, contrairement à Nanpart, la psychologie inversée ne fonctionne pas sur Passpa.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/passpa.png",
-    "numero": "061",
-    "nourriture_favorite": "Ramen",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Rempart",
-            "effet": "Défend quand il est placé devant."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Plaquage",
-            "effet": "60 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Éboulement",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Muraille",
-            "effet": "Augm. fortement la DÉF. et attire les attaques grâce à une posture défensive."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Refus",
-            "effet": "L'ennemi refuse de faire quoi que ce soit... même de se battre."
-        }
+  "ID": "73",
+  "Nom": "Passpa",
+  "Tribue": "Costaud",
+  "Rang": "B",
+  "PV": "472",
+  "Force": "152",
+  "Esprit": "53",
+  "Défense": "270",
+  "Vitesse": "61",
+  "Description": "Avec lui tu ne passes pas. Pourquoi ?! Quel est son but ?! Quelle est son histoire ?! Personne ne sait...",
+  "nourriture": "Ramen",
+  "élément": "Terre",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Passpa vient de 'Passe pas !'",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "Comme Nanpart, Passpa refusera toujours les commandes. Cependant, contrairement à Nanpart, la psychologie inversée ne fonctionne pas sur Passpa.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/passpa.png",
+  "numero": "061",
+  "nourriture_favorite": "Ramen",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Rempart",
+      "effet": "Défend quand il est placé devant."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Plaquage",
+      "effet": "60 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Éboulement",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Muraille",
+      "effet": "Augm. fortement la DÉF. et attire les attaques grâce à une posture défensive."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Refus",
+      "effet": "L'ennemi refuse de faire quoi que ce soit... même de se battre."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est bon !",
+    "Mange de la nourriture insipide": "Ça se mange.",
+    "Mange de la mauvaise nourriture": "Vais être malade...",
+    "A la flemme": "Je refuse !",
+    "Est échangé": "Maintenant qu'on est amis, je ne laisserai personne t'atteindre !",
+    "Devient ton ami": "Impossible de te battre. Je suis dans l'impasse. Devenons amis !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "Général",
+      "de": "Nanpart",
+      "vers": "Passpa",
+      "critere": "Niveau 29"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "むりだ城",
+  "nom_anglais": "Impass",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Évolution",
+      "Yo-kai World(Blanc/Amitié impossible)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est bon !",
-        "Mange de la nourriture insipide": "Ça se mange.",
-        "Mange de la mauvaise nourriture": "Vais être malade...",
-        "A la flemme": "Je refuse !",
-        "Est échangé": "Maintenant qu'on est amis, je ne laisserai personne t'atteindre !",
-        "Devient ton ami": "Impossible de te battre. Je suis dans l'impasse. Devenons amis !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "Général",
-            "de": "Nanpart",
-            "vers": "Passpa",
-            "critere": "Niveau 29"
-        }
+    "yw2": [
+      "Évolution"
     ],
-    "image_locale": "",
-    "nom_original": "むりだ城",
-    "nom_anglais": "Impass",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Évolution",
-            "Yo-kai World(Blanc/Amitié impossible)"
-        ],
-        "yw2": [
-            "Évolution"
-        ],
-        "yw Blasters 1": [
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Amulette antiterre"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman de défense"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Bracelet de bouffi"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman de défense"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Amulette armure"
-            },
-            {
-                "taux": "?%",
-                "objet": "Ramen deluxe"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Rempart",
-        "description": "Défend quand il est placé devant."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/passpa.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/passpa.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/passpa.wav",
-    "oldID": "73",
-    "medallium_ids": {
-        "yw1": "061",
-        "yw2": "093",
-        "yw3": "150"
-    },
-    "spinoff_ids": {
-        "Wib Wob": ""
-    },
-    "battle_type": "",
-    "skill_name": "Blocker",
-    "skill_effect": "Refusal",
-    "disliked_food": "Hamburgers",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "419",
-                "STR": "169",
-                "SPR": "89",
-                "DEF": "217",
-                "SPD": "121"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "419",
-                "STR": "169",
-                "SPR": "89",
-                "DEF": "217",
-                "SPD": "121"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "482",
-                "STR": "157",
-                "SPR": "58",
-                "DEF": "275",
-                "SPD": "66"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "むりだ城"
-        ],
-        "Spanish": [
-            "Impás"
-        ],
-        "French": [
-            "Passpa"
-        ],
-        "Italian": [
-            "Imposs"
-        ],
-        "German": [
-            "Sperrich"
-        ],
-        "Russian": [
-            "Входанетто",
-            "Vkhodanetto"
-        ],
-        "Arabic": [
-            "مانع",
-            "Māniʿ"
-        ],
-        "Portuguese (Brazilian)": [
-            "Impedimento"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "むりだ城"
-        ],
-        "Spanish": [
-            "Impás"
-        ],
-        "French": [
-            "Passpa"
-        ],
-        "Italian": [
-            "Imposs"
-        ],
-        "German": [
-            "Sperrich"
-        ],
-        "Russian": [
-            "Входанетто"
-        ],
-        "Arabic": [
-            "مانع"
-        ],
-        "Portuguese (Brazilian)": [
-            "Impedimento"
-        ]
-    },
-    "description_en": "You...you just can't get by Impass. Why?! What's his motivation?! What's the story behind him?! Nobody knows...",
-    "nom_en": "Skelebella",
-    "rang_yww": "B",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "ramen",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
-        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 63,
-        "str": 14,
-        "spr": 7,
-        "def": 43,
-        "spd": 8
-    },
-    "stats_max_yww": {
-        "hp": 472,
-        "str": 152,
-        "spr": 53,
-        "def": 270,
-        "spd": 61
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw Blasters 1": [
+      "Fusion"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "タックル",
-                "_en": "tackle",
-                "_fr": "tacle"
-            },
-            "explication": {
-                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
-                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "落石の術",
-                "_en": "falling rock jutsu",
-                "_fr": "jutsu qui tombe des pierres"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
-                "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
-                "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "不落のむりだ城",
-                "_en": "Unfallen Murida Castle",
-                "_fr": "Château de Murida intact"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "きょひさせる",
-                "_en": "startle",
-                "_fr": "surprendre"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 とりつかれた妖怪はなんでもムリと言ってたまに行動しなくなる。",
-                "_en": "[Osabori] Possessed monsters sometimes stop acting, saying they can't do anything.",
-                "_fr": "[Osabori] Les monstres possédés arrêtent parfois d'agir, disant qu'ils ne peuvent rien faire."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "天高くそびえたち あらゆるものを拒絶する。 むりだ城を乗りこえた先には 何が見えるのか。 それはまだ だれも知らない。",
-            "_en": "Towering high in the sky, rejecting everything. What can we see beyond Murida Castle? No one knows that yet.",
-            "_fr": "S'élevant haut dans le ciel, rejetant tout. Que peut-on voir au-delà du château de Murida ? Personne ne le sait encore."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {},
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Amulette antiterre"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman de défense"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Bracelet de bouffi"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman de défense"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Amulette armure"
+      },
+      {
+        "taux": "?%",
+        "objet": "Ramen deluxe"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Rempart",
+    "description": "Défend quand il est placé devant."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/passpa.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/passpa.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/passpa.wav",
+  "oldID": "73",
+  "medallium_ids": {
+    "yw1": "061",
+    "yw2": "093",
+    "yw3": "150"
+  },
+  "spinoff_ids": {
+    "Wib Wob": ""
+  },
+  "battle_type": "",
+  "skill_name": "Blocker",
+  "skill_effect": "Refusal",
+  "disliked_food": "Hamburgers",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "419",
+        "STR": "169",
+        "SPR": "89",
+        "DEF": "217",
+        "SPD": "121"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "419",
+        "STR": "169",
+        "SPR": "89",
+        "DEF": "217",
+        "SPD": "121"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "482",
+        "STR": "157",
+        "SPR": "58",
+        "DEF": "275",
+        "SPD": "66"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "むりだ城"
+    ],
+    "Spanish": [
+      "Impás"
+    ],
+    "French": [
+      "Passpa"
+    ],
+    "Italian": [
+      "Imposs"
+    ],
+    "German": [
+      "Sperrich"
+    ],
+    "Russian": [
+      "Входанетто",
+      "Vkhodanetto"
+    ],
+    "Arabic": [
+      "مانع",
+      "Māniʿ"
+    ],
+    "Portuguese (Brazilian)": [
+      "Impedimento"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "むりだ城"
+    ],
+    "Spanish": [
+      "Impás"
+    ],
+    "French": [
+      "Passpa"
+    ],
+    "Italian": [
+      "Imposs"
+    ],
+    "German": [
+      "Sperrich"
+    ],
+    "Russian": [
+      "Входанетто"
+    ],
+    "Arabic": [
+      "مانع"
+    ],
+    "Portuguese (Brazilian)": [
+      "Impedimento"
+    ]
+  },
+  "description_en": "You...you just can't get by Impass. Why?! What's his motivation?! What's the story behind him?! Nobody knows...",
+  "nom_en": "Skelebella",
+  "rang_yww": "B",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "ramen",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+    "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 63,
+    "str": 14,
+    "spr": 7,
+    "def": 43,
+    "spd": 8
+  },
+  "stats_max_yww": {
+    "hp": 472,
+    "str": 152,
+    "spr": 53,
+    "def": 270,
+    "spd": 61
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "ホワイトデー妖怪ガシャ",
+      "_en": "White Day Yokai Gasha",
+      "_fr": "Jour blanc Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    },
+    {
+      "_jp": "春一番妖怪ガシャ",
+      "_en": "Spring Ichiban Yokai Gasha",
+      "_fr": "Printemps Ichiban Yokai Gasha"
+    },
+    {
+      "_jp": "桜花ランラン妖怪ガシャ",
+      "_en": "Sakura Ranran Yokai Gasha",
+      "_fr": "Sakura Ranran Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "電車でお出かけ妖怪ガシャ",
+      "_en": "Going out by train Yokai Gasha",
+      "_fr": "Sortir en train Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "GW妖怪バトルリーグガシャ",
+      "_en": "GW Yokai Battle League Gasha",
+      "_fr": "GW Yokai Battle League Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "タックル",
+        "_en": "tackle",
+        "_fr": "tacle"
+      },
+      "explication": {
+        "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
+        "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "落石の術",
+        "_en": "falling rock jutsu",
+        "_fr": "jutsu qui tombe des pierres"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
+        "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
+        "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "不落のむりだ城",
+        "_en": "Unfallen Murida Castle",
+        "_fr": "Château de Murida intact"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "きょひさせる",
+        "_en": "startle",
+        "_fr": "surprendre"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 とりつかれた妖怪はなんでもムリと言ってたまに行動しなくなる。",
+        "_en": "[Osabori] Possessed monsters sometimes stop acting, saying they can't do anything.",
+        "_fr": "[Osabori] Les monstres possédés arrêtent parfois d'agir, disant qu'ils ne peuvent rien faire."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "天高くそびえたち あらゆるものを拒絶する。 むりだ城を乗りこえた先には 何が見えるのか。 それはまだ だれも知らない。",
+      "_en": "Towering high in the sky, rejecting everything. What can we see beyond Murida Castle? No one knows that yet.",
+      "_fr": "S'élevant haut dans le ciel, rejetant tout. Que peut-on voir au-delà du château de Murida ? Personne ne le sait encore."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "73",
+  "Name_yww": "むりだ城",
+  "description_jp_yww": "天高くそびえたち あらゆるものを拒絶する。 むりだ城を乗りこえた先には 何が見えるのか。 それはまだ　だれも知らない。",
+  "BingoMessage_jp_yww": "ここから出るのはムリだと思ってたじょー！ 感謝するじょー！",
+  "MonsterId_yww": "y141000",
+  "Height_yww": 20.0,
+  "CommondId_yww": "sp_141000",
+  "MinHp_yww": 63,
+  "MaxHp_yww": 472,
+  "MinAttack_yww": 14,
+  "MaxAttack_yww": 152,
+  "MinMagic_yww": 7,
+  "MaxMagic_yww": 53,
+  "MinDefense_yww": 43,
+  "MaxDefense_yww": 270,
+  "MinSpeed_yww": 8,
+  "MaxSpeed_yww": 61,
+  "AttackId_yww": 26,
+  "MagicId_yww": 11,
+  "HauntId_yww": 141000,
+  "SpSkillId_yww": 141000,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 7,
+  "DislikeFoodKind_yww": 6,
+  "ActionType_yww": 16,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y136800.png",
+  "SpriteImage_yww": "img_y136800.png",
+  "Audio_yww": "sp_y136800.wav",
+  "Description_yww": "Il s'élève haut dans le ciel, rejetant tout sur son passage. Au-delà de ce château imprenable, que peut-on bien voir ? Personne ne le sait encore.",
+  "BingoMessage_fr_yww": "Je pensais que je n'arriverais jamais à sortir d'ici ! Je te remercie !"
 }

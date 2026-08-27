@@ -1,580 +1,611 @@
 {
-    "ID": "105",
-    "Nom": "Topanyan",
-    "Tribue": "Mignon",
-    "Rang": "A",
-    "PV": "390",
-    "Force": "150",
-    "Esprit": "70",
-    "Défense": "225",
-    "Vitesse": "156",
-    "Description": "Un Yo-kai serti de topazes. Te lier d'amitié avec lui signifie que tu as une chance innée.",
-    "nourriture": "Fruits de Mer",
-    "élément": "Foudre",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Topanyanvient dutopaze, une pierre précieuse de couleur orange et denyan, l'onomatopée japonaise pour le 'miaou' d'un chat.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/topanyan.png",
-    "numero": "222",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Lien spécial",
-            "effet": "Augmente stats d'un voisin avec le même talent."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Griffes acérées",
-            "effet": "10x2 | 45x2"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Haute tension",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Topapattes",
-            "effet": "Il attaque tous les ennemis avec ses pattes en topaze. 15x10 | 22x10"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Force topaze",
-            "effet": "Rend les stats d'un allié aussi brillantes que du topaze."
-        }
+  "ID": "105",
+  "Nom": "Topanyan",
+  "Tribue": "Mignon",
+  "Rang": "A",
+  "PV": "390",
+  "Force": "150",
+  "Esprit": "70",
+  "Défense": "225",
+  "Vitesse": "156",
+  "Description": "Un Yo-kai serti de topazes. Te lier d'amitié avec lui signifie que tu as une chance innée.",
+  "nourriture": "Fruits de Mer",
+  "élément": "Foudre",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Topanyanvient dutopaze, une pierre précieuse de couleur orange et denyan, l'onomatopée japonaise pour le 'miaou' d'un chat.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/topanyan.png",
+  "numero": "222",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Lien spécial",
+      "effet": "Augmente stats d'un voisin avec le même talent."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Griffes acérées",
+      "effet": "10x2 | 45x2"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Haute tension",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Topapattes",
+      "effet": "Il attaque tous les ennemis avec ses pattes en topaze. 15x10 | 22x10"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Force topaze",
+      "effet": "Rend les stats d'un allié aussi brillantes que du topaze."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Nyam nyam...",
+    "Mange de la nourriture insipide": "Pas mal...",
+    "Mange de la mauvaise nourriture": "Nyon merci !",
+    "A la flemme": "Pas maintenant.",
+    "Est échangé": "Quelle belle journée pour rencontrer de nyouveaux amis !",
+    "Devient ton ami": "J'ai le sentiment qu'on devrait déjà être bons amis !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "トパニャン",
+  "nom_anglais": "Topanyan",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Aya Endo",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Coteau fleuri(QR code)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Nyam nyam...",
-        "Mange de la nourriture insipide": "Pas mal...",
-        "Mange de la mauvaise nourriture": "Nyon merci !",
-        "A la flemme": "Pas maintenant.",
-        "Est échangé": "Quelle belle journée pour rencontrer de nyouveaux amis !",
-        "Devient ton ami": "J'ai le sentiment qu'on devrait déjà être bons amis !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "トパニャン",
-    "nom_anglais": "Topanyan",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Aya Endo",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Coteau fleuri(QR code)"
-        ],
-        "yw2": [
-            "Voie du mystère - Route des Bouffis- Bingo-kai -Pièce mystère (cerf)"
-        ],
-        "yw3": [
-            "Pavillon de l'ambroisie"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "10×2|45×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Topapattes",
-                "puissance": "20×10|30×10",
-                "description": "Il attaque tous les ennemis avec ses pattes en topaze."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Force topaze",
-                "puissance": "N/A",
-                "description": "Rend les stats d'un allié aussi brillantes que du topaze."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Lien spécial",
-                "description": "Augm. stats d'un voisin avec le même talent."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "10×2|45×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Topapattes",
-                "puissance": "15×10|15×10",
-                "description": "Il attaque tous les ennemis avec ses pattes en topaze."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Force topaze",
-                "puissance": "N/A",
-                "description": "Rend les stats d'un allié aussi brillantes que du topaze."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Foudre",
-                "puissance": "N/A",
-                "description": "Foudroie les ennemis éloignés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Lien spécial",
-                "description": "Augmente stats d'un voisin avec le même talent."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Topapattes",
-                "puissance": "40×10",
-                "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Découragement",
-                "puissance": "80",
-                "description": "Baisse temporaire ATT. des ennemis touchés."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Champ de force +",
-                "puissance": "___",
-                "description": "Invincibilité temporaire des alliés à proximité."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Diamant incrusté",
-                "description": "Immunité contre les effets d'envoûtement négatifs."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Griffes acérées",
-                "puissance": "15×2|52×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Haute tension",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Topapattes",
-                "puissance": "15×10|22×10",
-                "description": "Attaque les ennemis à portée, avec ses pattes en topaze radieuses."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Force topaze",
-                "puissance": "N/A",
-                "description": "Rend les stats d'un allié aussi brillantes que du topaze."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Lien spécial",
-                "description": "↑ stats si relié à un Yo-kai avec le même talent."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Lien spécial",
-        "description": "Augm. stats d'un voisin avec le même talent."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/topanyan.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/topanyan.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/topanyan.wav",
-    "oldID": "105",
-    "medallium_ids": {
-        "yw1": "222",
-        "yw2": "333",
-        "yw3": "287"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "164",
-        "yw Blasters 2": "292",
-        "yw Wibble Wobble": "4014",
-        "yw World": "0191",
-        "yw Ukiukipedia": "yw4-021/YD8-020"
-    },
-    "battle_type": "",
-    "skill_name": "Linked Together",
-    "skill_effect": "Topaz Power",
-    "disliked_food": "Vegetables",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "410",
-                "STR": "157",
-                "SPR": "101",
-                "DEF": "206",
-                "SPD": "141"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "400",
-                "STR": "157",
-                "SPR": "101",
-                "DEF": "206",
-                "SPD": "141"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "423",
-                "STR": "158",
-                "SPR": "80",
-                "DEF": "219",
-                "SPD": "166"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "Attribute tolerance": {
-            "stats": {
-                "HP": "417",
-                "STR": "158",
-                "SPR": "81",
-                "DEF": "214"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "417",
-                "STR": "158",
-                "SPR": "81",
-                "DEF": "214"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "212-373"
-            },
-            "elements": {},
-            "attacks": [
-                {
-                    "type": "Attack",
-                    "name": "Attack",
-                    "power": "50",
-                    "attribute": "Attack",
-                    "range": ""
-                },
-                {
-                    "type": "Technique",
-                    "name": "Disarmament",
-                    "power": "80",
-                    "attribute": "Disarmement",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Guard",
-                    "power": "-",
-                    "attribute": "Guard",
-                    "range": "Self"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Bring It On",
-                    "power": "80",
-                    "attribute": "Bring it on",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Ultra Forcefield",
-                    "power": "-",
-                    "attribute": "Ultra forcefield",
-                    "range": "Area"
-                },
-                {
-                    "type": "Soultimate Move",
-                    "name": "Glittering Paws",
-                    "power": "40x10",
-                    "attribute": "Attack",
-                    "range": "Area"
-                },
-                {
-                    "type": "Skill",
-                    "name": "Diamond Encrusted",
-                    "power": "N/A",
-                    "attribute": "None",
-                    "range": "Self"
-                }
-            ]
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "212-373",
-                "STR": "158",
-                "SPR": "81",
-                "DEF": "214"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "212-373"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "トパニャン",
-            "Topanyan"
-        ],
-        "Spanish": [
-            "Topanyan"
-        ],
-        "French": [
-            "Topanyan"
-        ],
-        "Italian": [
-            "Topanyan"
-        ],
-        "German": [
-            "Topanyan"
-        ],
-        "Dutch": [
-            "Topanyan"
-        ],
-        "Russian": [
-            "Топазоньян",
-            "Topazon'yan"
-        ],
-        "Arabic": [
-            "غالي",
-            "Ghāli"
-        ],
-        "Portuguese (Brazilian)": [
-            "Topanyan"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "トパニャン"
-        ],
-        "Spanish": [
-            "Topanyan"
-        ],
-        "French": [
-            "Topanyan"
-        ],
-        "Italian": [
-            "Topanyan"
-        ],
-        "German": [
-            "Topanyan"
-        ],
-        "Dutch": [
-            "Topanyan"
-        ],
-        "Russian": [
-            "Топазоньян"
-        ],
-        "Arabic": [
-            "غالي"
-        ],
-        "Portuguese (Brazilian)": [
-            "Topanyan"
-        ]
-    },
-    "description_en": "A Yo-kai made of topaz. Making friends with him means you have inherently good luck.",
-    "nom_en": "Emenyan",
-    "rang_yww": "A",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "Chocobo",
-    "nourriture_favorite": "Chocobo",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 56,
-        "str": 21,
-        "spr": 8,
-        "def": 33,
-        "spd": 25
-    },
-    "stats_max_yww": {
-        "hp": 390,
-        "str": 150,
-        "spr": 70,
-        "def": 225,
-        "spd": 156
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "するどいつめ",
-                "_en": "sharp claw",
-                "_fr": "griffe acérée"
-            },
-            "explication": {
-                "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 15×2/Blow] Attack twice",
-                "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "雷神の術",
-                "_en": "Raijin no Jutsu",
-                "_fr": "Raijin no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
-                "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
-                "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
-            }
-        }
+    "yw2": [
+      "Voie du mystère - Route des Bouffis- Bingo-kai -Pièce mystère (cerf)"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "つぶつぶオレンジ肉球",
-                "_en": "crushed orange paws",
-                "_fr": "pattes orange écrasées"
-            },
-            "pouvoir": "15×10",
-            "explication": {
-                "_jp": "トパーズの肉球で 敵全員を 一心不乱に なぐりまくる",
-                "_en": "Hit all the enemies with topaz's paws.",
-                "_fr": "Frappez tous les ennemis avec les pattes de topaze."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "トパーズパワー",
-                "_en": "topaz power",
-                "_fr": "puissance de la topaze"
-            },
-            "explication": {
-                "_jp": "【全ステアップ】 トパーズのかがやきで 全ステータスがアップ",
-                "_en": "[All status up] All statuses are increased with the glow of topaz",
-                "_fr": "[Tous les statuts en place] Tous les statuts sont augmentés avec la lueur de la topaze"
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "全身がトパーズで できたネコ妖怪。 トパニャンと 友達になれる人は かなりの幸運の持ち主。",
-            "_en": "A cat monster whose entire body is made of topaz. Those who can become friends with Topanyan are extremely lucky.",
-            "_fr": "Un monstre chat dont tout le corps est fait de topaze. Ceux qui peuvent devenir amis avec Topanyan sont extrêmement chanceux."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3"
+    "yw3": [
+      "Pavillon de l'ambroisie"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Griffes acérées",
+        "puissance": "10×2|45×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Haute tension",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Topapattes",
+        "puissance": "20×10|30×10",
+        "description": "Il attaque tous les ennemis avec ses pattes en topaze."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Force topaze",
+        "puissance": "N/A",
+        "description": "Rend les stats d'un allié aussi brillantes que du topaze."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Lien spécial",
+        "description": "Augm. stats d'un voisin avec le même talent."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Griffes acérées",
+        "puissance": "10×2|45×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Haute tension",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Topapattes",
+        "puissance": "15×10|15×10",
+        "description": "Il attaque tous les ennemis avec ses pattes en topaze."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Force topaze",
+        "puissance": "N/A",
+        "description": "Rend les stats d'un allié aussi brillantes que du topaze."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Foudre",
+        "puissance": "N/A",
+        "description": "Foudroie les ennemis éloignés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Lien spécial",
+        "description": "Augmente stats d'un voisin avec le même talent."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Topapattes",
+        "puissance": "40×10",
+        "description": "Ruée de coups, inflige de gros dégâts à l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Découragement",
+        "puissance": "80",
+        "description": "Baisse temporaire ATT. des ennemis touchés."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Champ de force +",
+        "puissance": "___",
+        "description": "Invincibilité temporaire des alliés à proximité."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Diamant incrusté",
+        "description": "Immunité contre les effets d'envoûtement négatifs."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Griffes acérées",
+        "puissance": "15×2|52×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Haute tension",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Topapattes",
+        "puissance": "15×10|22×10",
+        "description": "Attaque les ennemis à portée, avec ses pattes en topaze radieuses."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Force topaze",
+        "puissance": "N/A",
+        "description": "Rend les stats d'un allié aussi brillantes que du topaze."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Lien spécial",
+        "description": "↑ stats si relié à un Yo-kai avec le même talent."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Lien spécial",
+    "description": "Augm. stats d'un voisin avec le même talent."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/topanyan.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/topanyan.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/topanyan.wav",
+  "oldID": "105",
+  "medallium_ids": {
+    "yw1": "222",
+    "yw2": "333",
+    "yw3": "287"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "164",
+    "yw Blasters 2": "292",
+    "yw Wibble Wobble": "4014",
+    "yw World": "0191",
+    "yw Ukiukipedia": "yw4-021/YD8-020"
+  },
+  "battle_type": "",
+  "skill_name": "Linked Together",
+  "skill_effect": "Topaz Power",
+  "disliked_food": "Vegetables",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "410",
+        "STR": "157",
+        "SPR": "101",
+        "DEF": "206",
+        "SPD": "141"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "400",
+        "STR": "157",
+        "SPR": "101",
+        "DEF": "206",
+        "SPD": "141"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "423",
+        "STR": "158",
+        "SPR": "80",
+        "DEF": "219",
+        "SPD": "166"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "Attribute tolerance": {
+      "stats": {
+        "HP": "417",
+        "STR": "158",
+        "SPR": "81",
+        "DEF": "214"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "417",
+        "STR": "158",
+        "SPR": "81",
+        "DEF": "214"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "212-373"
+      },
+      "elements": {},
+      "attacks": [
+        {
+          "type": "Attack",
+          "name": "Attack",
+          "power": "50",
+          "attribute": "Attack",
+          "range": ""
+        },
+        {
+          "type": "Technique",
+          "name": "Disarmament",
+          "power": "80",
+          "attribute": "Disarmement",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Guard",
+          "power": "-",
+          "attribute": "Guard",
+          "range": "Self"
+        },
+        {
+          "type": "Technique",
+          "name": "Bring It On",
+          "power": "80",
+          "attribute": "Bring it on",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Ultra Forcefield",
+          "power": "-",
+          "attribute": "Ultra forcefield",
+          "range": "Area"
+        },
+        {
+          "type": "Soultimate Move",
+          "name": "Glittering Paws",
+          "power": "40x10",
+          "attribute": "Attack",
+          "range": "Area"
+        },
+        {
+          "type": "Skill",
+          "name": "Diamond Encrusted",
+          "power": "N/A",
+          "attribute": "None",
+          "range": "Self"
+        }
+      ]
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "212-373",
+        "STR": "158",
+        "SPR": "81",
+        "DEF": "214"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "212-373"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "トパニャン",
+      "Topanyan"
+    ],
+    "Spanish": [
+      "Topanyan"
+    ],
+    "French": [
+      "Topanyan"
+    ],
+    "Italian": [
+      "Topanyan"
+    ],
+    "German": [
+      "Topanyan"
+    ],
+    "Dutch": [
+      "Topanyan"
+    ],
+    "Russian": [
+      "Топазоньян",
+      "Topazon'yan"
+    ],
+    "Arabic": [
+      "غالي",
+      "Ghāli"
+    ],
+    "Portuguese (Brazilian)": [
+      "Topanyan"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "トパニャン"
+    ],
+    "Spanish": [
+      "Topanyan"
+    ],
+    "French": [
+      "Topanyan"
+    ],
+    "Italian": [
+      "Topanyan"
+    ],
+    "German": [
+      "Topanyan"
+    ],
+    "Dutch": [
+      "Topanyan"
+    ],
+    "Russian": [
+      "Топазоньян"
+    ],
+    "Arabic": [
+      "غالي"
+    ],
+    "Portuguese (Brazilian)": [
+      "Topanyan"
+    ]
+  },
+  "description_en": "A Yo-kai made of topaz. Making friends with him means you have inherently good luck.",
+  "nom_en": "Emenyan",
+  "rang_yww": "A",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "Chocobo",
+  "nourriture_favorite": "Chocobo",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 56,
+    "str": 21,
+    "spr": 8,
+    "def": 33,
+    "spd": 25
+  },
+  "stats_max_yww": {
+    "hp": 390,
+    "str": 150,
+    "spr": 70,
+    "def": 225,
+    "spd": 156
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "するどいつめ",
+        "_en": "sharp claw",
+        "_fr": "griffe acérée"
+      },
+      "explication": {
+        "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
+        "_en": "[Power: 15×2/Blow] Attack twice",
+        "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "雷神の術",
+        "_en": "Raijin no Jutsu",
+        "_fr": "Raijin no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 雷属性】 強力な雷の妖術を使う。",
+        "_en": "[Power: 70 / Lightning attribute] Uses powerful lightning magic.",
+        "_fr": "[Puissance : 70 / Attribut Foudre] Utilise une puissante magie de foudre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "つぶつぶオレンジ肉球",
+        "_en": "crushed orange paws",
+        "_fr": "pattes orange écrasées"
+      },
+      "pouvoir": "15×10",
+      "explication": {
+        "_jp": "トパーズの肉球で 敵全員を 一心不乱に なぐりまくる",
+        "_en": "Hit all the enemies with topaz's paws.",
+        "_fr": "Frappez tous les ennemis avec les pattes de topaze."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "トパーズパワー",
+        "_en": "topaz power",
+        "_fr": "puissance de la topaze"
+      },
+      "explication": {
+        "_jp": "【全ステアップ】 トパーズのかがやきで 全ステータスがアップ",
+        "_en": "[All status up] All statuses are increased with the glow of topaz",
+        "_fr": "[Tous les statuts en place] Tous les statuts sont augmentés avec la lueur de la topaze"
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "全身がトパーズで できたネコ妖怪。 トパニャンと 友達になれる人は かなりの幸運の持ち主。",
+      "_en": "A cat monster whose entire body is made of topaz. Those who can become friends with Topanyan are extremely lucky.",
+      "_fr": "Un monstre chat dont tout le corps est fait de topaze. Ceux qui peuvent devenir amis avec Topanyan sont extrêmement chanceux."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3"
+  ],
+  "id_yww": "105",
+  "Name_yww": "トパニャン",
+  "description_jp_yww": "全身がトパーズで できたネコ妖怪。 トパニャンと 友達になれる人は かなりの幸運の持ち主。",
+  "BingoMessage_jp_yww": "ニャァ～　気持ちよく寝てたのに… まぁ…　これからよろしくニャン",
+  "MonsterId_yww": "y156040",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_156040",
+  "MinHp_yww": 56,
+  "MaxHp_yww": 390,
+  "MinAttack_yww": 21,
+  "MaxAttack_yww": 150,
+  "MinMagic_yww": 8,
+  "MaxMagic_yww": 70,
+  "MinDefense_yww": 33,
+  "MaxDefense_yww": 225,
+  "MinSpeed_yww": 25,
+  "MaxSpeed_yww": 156,
+  "AttackId_yww": 41,
+  "MagicId_yww": 9,
+  "HauntId_yww": 156040,
+  "SpSkillId_yww": 156040,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 18,
+  "DislikeFoodKind_yww": 10,
+  "ActionType_yww": 16,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y151840.png",
+  "SpriteImage_yww": "img_y151840.png",
+  "Audio_yww": "sp_y151840.wav",
+  "Description_yww": "Un yōkai félin dont tout le corps est fait de topaze. Ceux qui parviennent à devenir amis avec Topanyan sont vraiment très chanceux.",
+  "BingoMessage_fr_yww": "Miaou~ Je dormais si bien… Bon… À bientôt, miaou"
 }

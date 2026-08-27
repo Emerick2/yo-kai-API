@@ -1,604 +1,635 @@
 {
-    "ID": "18",
-    "Nom": "Heaumer",
-    "Tribue": "Vaillant",
-    "Rang": "D",
-    "PV": "380",
-    "Force": "250",
-    "Esprit": "42",
-    "Défense": "153",
-    "Vitesse": "43",
-    "Description": "Un casque flottant qui a été porté par un célèbre commandant. Il passe son temps à chercher son corps.",
-    "nourriture": "Légume",
-    "élément": "Foudre",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Heaumer est un mot valise entre Heaume et Omer (prénom).",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Dans l'anime, il peut faire des disparaître des objets tels que des casques ou des lunettes.",
-    "personnalité": "Heaumerest constamment en train d'errer à la recherche de son corps. Il est jaloux de tout ce qui possède un corps.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/heaumer.png",
-    "numero": "009",
-    "nourriture_favorite": "Légume",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Esprit gardien",
-            "effet": "En défense, pas de dégâts élémentaires."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coup de tête",
-            "effet": "55 | 121"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Décharge",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Ultimatheaume",
-            "effet": "Donne un ordre qui augmente le moral et la DÉF. des alliés."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Défense casque",
-            "effet": "Renforce la DÉF. d'un allié... comme s'il portait un casque !"
-        }
+  "ID": "18",
+  "Nom": "Heaumer",
+  "Tribue": "Vaillant",
+  "Rang": "D",
+  "PV": "380",
+  "Force": "250",
+  "Esprit": "42",
+  "Défense": "153",
+  "Vitesse": "43",
+  "Description": "Un casque flottant qui a été porté par un célèbre commandant. Il passe son temps à chercher son corps.",
+  "nourriture": "Légume",
+  "élément": "Foudre",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Heaumer est un mot valise entre Heaume et Omer (prénom).",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Dans l'anime, il peut faire des disparaître des objets tels que des casques ou des lunettes.",
+  "personnalité": "Heaumerest constamment en train d'errer à la recherche de son corps. Il est jaloux de tout ce qui possède un corps.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/heaumer.png",
+  "numero": "009",
+  "nourriture_favorite": "Légume",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Esprit gardien",
+      "effet": "En défense, pas de dégâts élémentaires."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coup de tête",
+      "effet": "55 | 121"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Décharge",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Ultimatheaume",
+      "effet": "Donne un ordre qui augmente le moral et la DÉF. des alliés."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Défense casque",
+      "effet": "Renforce la DÉF. d'un allié... comme s'il portait un casque !"
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Fantastique !",
+    "Mange de la nourriture insipide": "Un peu fade...",
+    "Mange de la mauvaise nourriture": "Ho, hors de question.",
+    "A la flemme": "Mal au crâne...",
+    "Est échangé": "Hauber, est-ce... ?! Oh, j'ai dû me tromper. Qui es-tu, HEIN ?",
+    "Devient ton ami": "Quelle force ! Je veux bien te laisser aux commandes quelques temps."
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Heaumer",
+      "parent2": "Hauber",
+      "resultat": "Bushidos",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "カブトさん",
+  "nom_anglais": "Helmsman",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Coteau fleuri–Vieux manoir– grenier demeure",
+      "Coteau fleuri – sentier de la bambouseraie - arbres",
+      "Coteau fleuri – sentier de la bambouseraie - bambous",
+      "Limbes éternelles– 3e cercle",
+      "Limbes éternelles – 4e cercle"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Fantastique !",
-        "Mange de la nourriture insipide": "Un peu fade...",
-        "Mange de la mauvaise nourriture": "Ho, hors de question.",
-        "A la flemme": "Mal au crâne...",
-        "Est échangé": "Hauber, est-ce... ?! Oh, j'ai dû me tromper. Qui es-tu, HEIN ?",
-        "Devient ton ami": "Quelle force ! Je veux bien te laisser aux commandes quelques temps."
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Heaumer",
-            "parent2": "Hauber",
-            "resultat": "Bushidos",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Coteau fleuri – Vieux manoir – demeure",
+      "Château de Sawayama– village",
+      "Voie du mystère– route 1",
+      "Mont Sylvestre–Bingo-kai–Pièce rouge (Présent)"
     ],
-    "image_locale": "",
-    "nom_original": "カブトさん",
-    "nom_anglais": "Helmsman",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Coteau fleuri–Vieux manoir– grenier demeure",
-            "Coteau fleuri – sentier de la bambouseraie - arbres",
-            "Coteau fleuri – sentier de la bambouseraie - bambous",
-            "Limbes éternelles– 3e cercle",
-            "Limbes éternelles – 4e cercle"
-        ],
-        "yw2": [
-            "Coteau fleuri – Vieux manoir – demeure",
-            "Château de Sawayama– village",
-            "Voie du mystère– route 1",
-            "Mont Sylvestre–Bingo-kai–Pièce rouge (Présent)"
-        ],
-        "yw Blasters 1": [
-            "(Exclusif au Peloton du chat rouge)",
-            "Patrouille – Coteau fleuri"
-        ],
-        "yw3": [
-            "Vieux manoir – demeure"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de tête",
-                "puissance": "55|121",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Ultimatheaume",
-                "puissance": "___",
-                "description": "Donne un ordre qui augmente le moral et la DÉF. des alliés."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Défense casque",
-                "puissance": "N/A",
-                "description": "Renforce la DÉF. d'un allié... comme s'il portait un casque !"
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "En défense, pas de dégâts élémentaires."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de tête",
-                "puissance": "55|121",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Ultimatheaume",
-                "puissance": "___",
-                "description": "Donne un ordre qui augmente le moral et la DÉF. des alliés."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Défense casque",
-                "puissance": "N/A",
-                "description": "Renforce la DÉF. d'un allié... comme s'il portait un casque !"
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "En défense, pas de dégâts élémentaires."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Ultimatheaume",
-                "puissance": "___",
-                "description": "Forte augmentation vitesse, attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Déblindage",
-                "puissance": "80",
-                "description": "Baisse temporaire DÉF. des ennemis touchés."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit du gardien",
-                "description": "Ta jauge d'âme augmente si attaque ennemie gardée."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de tête",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Ultimatheaume",
-                "puissance": "___",
-                "description": "Remonte le moral à tous les alliés, augmentant fortement leur DÉF."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Défense casque",
-                "puissance": "N/A",
-                "description": "Renforce la DÉF. d'un allié... comme s'il portait un casque !"
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Ultimatheaume",
-                "puissance": "___",
-                "description": "Booste +++ la DÉF. Attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Déblindage",
-                "puissance": "80",
-                "description": "Fait chuter la DÉF. d’un ennemi pendant un instant."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "La garde permet d'éviter les dégâts liés à l'élément faible."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Les coups secrets"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman de force"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Bracelet de force"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman de force"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Bracelet usé"
-            },
-            {
-                "taux": "?%",
-                "objet": "Concombre"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Esprit gardien",
-        "description": "En défense, pas de dégâts élémentaires."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/heaumer.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/heaumer.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/heaumer.wav",
-    "oldID": "19",
-    "medallium_ids": {
-        "yw1": "009",
-        "yw2": "019",
-        "yw3": "026"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "023",
-        "yw Blasters 2": "026",
-        "yw Wibble Wobble": "1101",
-        "yw World": "0009",
-        "yw Ukiukipedia": "yw5-002/YD2-001"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Spirit Guard Guardian Spirit ywB",
-    "skill_effect": "Helmet Defense",
-    "disliked_food": "Hamburgers",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "358",
-                "STR": "160",
-                "SPR": "68",
-                "DEF": "148",
-                "SPD": "95"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "390",
-                "STR": "160",
-                "SPR": "68",
-                "DEF": "148",
-                "SPD": "95"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "388",
-                "STR": "166",
-                "SPR": "78",
-                "DEF": "213",
-                "SPD": "48"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "380",
-                "STR": "168",
-                "SPR": "79",
-                "DEF": "207"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "205-343"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "205-343",
-                "STR": "168",
-                "SPR": "79",
-                "DEF": "207"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "205-343"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "カブトさん",
-            "Kabuto-san"
-        ],
-        "Spanish": [
-            "Yelmandante"
-        ],
-        "French": [
-            "Heaumer"
-        ],
-        "Italian": [
-            "Adelmo"
-        ],
-        "German": [
-            "Helmchen"
-        ],
-        "Dutch": [
-            "Helmsman"
-        ],
-        "Korean": [
-            "투구",
-            "Tugu"
-        ],
-        "Russian": [
-            "Шлемерал",
-            "Shlemeral"
-        ],
-        "Arabic": [
-            "السيد",
-            "As-sayyid"
-        ],
-        "Portuguese (Brazilian)": [
-            "Telmo"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "カブトさん"
-        ],
-        "Spanish": [
-            "Yelmandante"
-        ],
-        "French": [
-            "Heaumer"
-        ],
-        "Italian": [
-            "Adelmo"
-        ],
-        "German": [
-            "Helmchen"
-        ],
-        "Dutch": [
-            "Helmsman"
-        ],
-        "Korean": [
-            "투구 귀신"
-        ],
-        "Russian": [
-            "Шлемерал"
-        ],
-        "Arabic": [
-            "السيد خوذة"
-        ],
-        "Portuguese (Brazilian)": [
-            "Telmo"
-        ]
-    },
-    "description_en": "A floating helmet that was worn by a famous military commander. He spends his days searching for his body—a good use of time.",
-    "nom_en": "Snee",
-    "rang_yww": "D",
-    "tribue_yww": "Isamashi",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "légumes",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 47,
-        "str": 34,
-        "spr": 4,
-        "def": 22,
-        "spd": 4
-    },
-    "stats_max_yww": {
-        "hp": 380,
-        "str": 250,
-        "spr": 42,
-        "def": 153,
-        "spd": 43
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ヘッドバット",
-                "_en": "head butt",
-                "_fr": "coup de tête"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 敵1体に攻撃する。",
-                "_en": "[Power: 50/Blow] Attacks one enemy.",
-                "_fr": "[Puissance : 50/Coup] Attaque un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "電流の術",
-                "_en": "electric current technique",
-                "_fr": "technique du courant électrique"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 雷属性】 雷の妖術を使う。",
-                "_en": "[Power: 40 / Lightning attribute] Uses lightning magic.",
-                "_fr": "[Puissance : 40 / Attribut Foudre] Utilise la magie de la foudre."
-            }
-        }
+    "yw Blasters 1": [
+      "(Exclusif au Peloton du chat rouge)",
+      "Patrouille – Coteau fleuri"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "かぶってカブト",
-                "_en": "wearing a helmet",
-                "_fr": "porter un casque"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "カブトの守り",
-                "_en": "Kabuto's protection",
-                "_fr": "La protection de Kabuto"
-            },
-            "explication": {
-                "_jp": "【まもりアップ】 とりつかれた妖怪はカブトをかぶっているがごとく まもりがアップする。",
-                "_en": "[Increased protection] The possessed monster's protection increases as if it were wearing a helmet.",
-                "_fr": "[Protection accrue] La protection du monstre possédé augmente comme s'il portait un casque."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "戦国時代に 名のある武将が つけていたというカブトが 妖怪になった。 片割れのヨロイをさがし求め さまよう姿は生首そのもの。",
-            "_en": "A helmet said to have been worn by a famous military commander during the Sengoku period has become a monster. The sight of him wandering around looking for his other half is exactly like a severed head.",
-            "_fr": "Un casque qui aurait été porté par un célèbre commandant militaire durant la période Sengoku est devenu un monstre. Le voir errer à la recherche de sa moitié est exactement comme une tête coupée."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Vieux manoir – demeure"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de tête",
+        "puissance": "55|121",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Décharge",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Ultimatheaume",
+        "puissance": "___",
+        "description": "Donne un ordre qui augmente le moral et la DÉF. des alliés."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Défense casque",
+        "puissance": "N/A",
+        "description": "Renforce la DÉF. d'un allié... comme s'il portait un casque !"
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit gardien",
+        "description": "En défense, pas de dégâts élémentaires."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de tête",
+        "puissance": "55|121",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Décharge",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Ultimatheaume",
+        "puissance": "___",
+        "description": "Donne un ordre qui augmente le moral et la DÉF. des alliés."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Défense casque",
+        "puissance": "N/A",
+        "description": "Renforce la DÉF. d'un allié... comme s'il portait un casque !"
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit gardien",
+        "description": "En défense, pas de dégâts élémentaires."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Ultimatheaume",
+        "puissance": "___",
+        "description": "Forte augmentation vitesse, attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Déblindage",
+        "puissance": "80",
+        "description": "Baisse temporaire DÉF. des ennemis touchés."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit du gardien",
+        "description": "Ta jauge d'âme augmente si attaque ennemie gardée."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de tête",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Décharge",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Ultimatheaume",
+        "puissance": "___",
+        "description": "Remonte le moral à tous les alliés, augmentant fortement leur DÉF."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Défense casque",
+        "puissance": "N/A",
+        "description": "Renforce la DÉF. d'un allié... comme s'il portait un casque !"
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Ultimatheaume",
+        "puissance": "___",
+        "description": "Booste +++ la DÉF. Attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Déblindage",
+        "puissance": "80",
+        "description": "Fait chuter la DÉF. d’un ennemi pendant un instant."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit gardien",
+        "description": "La garde permet d'éviter les dégâts liés à l'élément faible."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Les coups secrets"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman de force"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Bracelet de force"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman de force"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Bracelet usé"
+      },
+      {
+        "taux": "?%",
+        "objet": "Concombre"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Esprit gardien",
+    "description": "En défense, pas de dégâts élémentaires."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/heaumer.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/heaumer.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/heaumer.wav",
+  "oldID": "19",
+  "medallium_ids": {
+    "yw1": "009",
+    "yw2": "019",
+    "yw3": "026"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "023",
+    "yw Blasters 2": "026",
+    "yw Wibble Wobble": "1101",
+    "yw World": "0009",
+    "yw Ukiukipedia": "yw5-002/YD2-001"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Spirit Guard Guardian Spirit ywB",
+  "skill_effect": "Helmet Defense",
+  "disliked_food": "Hamburgers",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "358",
+        "STR": "160",
+        "SPR": "68",
+        "DEF": "148",
+        "SPD": "95"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "390",
+        "STR": "160",
+        "SPR": "68",
+        "DEF": "148",
+        "SPD": "95"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "388",
+        "STR": "166",
+        "SPR": "78",
+        "DEF": "213",
+        "SPD": "48"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "380",
+        "STR": "168",
+        "SPR": "79",
+        "DEF": "207"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "205-343"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "205-343",
+        "STR": "168",
+        "SPR": "79",
+        "DEF": "207"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "205-343"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "カブトさん",
+      "Kabuto-san"
+    ],
+    "Spanish": [
+      "Yelmandante"
+    ],
+    "French": [
+      "Heaumer"
+    ],
+    "Italian": [
+      "Adelmo"
+    ],
+    "German": [
+      "Helmchen"
+    ],
+    "Dutch": [
+      "Helmsman"
+    ],
+    "Korean": [
+      "투구",
+      "Tugu"
+    ],
+    "Russian": [
+      "Шлемерал",
+      "Shlemeral"
+    ],
+    "Arabic": [
+      "السيد",
+      "As-sayyid"
+    ],
+    "Portuguese (Brazilian)": [
+      "Telmo"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "カブトさん"
+    ],
+    "Spanish": [
+      "Yelmandante"
+    ],
+    "French": [
+      "Heaumer"
+    ],
+    "Italian": [
+      "Adelmo"
+    ],
+    "German": [
+      "Helmchen"
+    ],
+    "Dutch": [
+      "Helmsman"
+    ],
+    "Korean": [
+      "투구 귀신"
+    ],
+    "Russian": [
+      "Шлемерал"
+    ],
+    "Arabic": [
+      "السيد خوذة"
+    ],
+    "Portuguese (Brazilian)": [
+      "Telmo"
+    ]
+  },
+  "description_en": "A floating helmet that was worn by a famous military commander. He spends his days searching for his body—a good use of time.",
+  "nom_en": "Snee",
+  "rang_yww": "D",
+  "tribue_yww": "Isamashi",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "légumes",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 47,
+    "str": 34,
+    "spr": 4,
+    "def": 22,
+    "spd": 4
+  },
+  "stats_max_yww": {
+    "hp": 380,
+    "str": 250,
+    "spr": 42,
+    "def": 153,
+    "spd": 43
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ヘッドバット",
+        "_en": "head butt",
+        "_fr": "coup de tête"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 敵1体に攻撃する。",
+        "_en": "[Power: 50/Blow] Attacks one enemy.",
+        "_fr": "[Puissance : 50/Coup] Attaque un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "電流の術",
+        "_en": "electric current technique",
+        "_fr": "technique du courant électrique"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 雷属性】 雷の妖術を使う。",
+        "_en": "[Power: 40 / Lightning attribute] Uses lightning magic.",
+        "_fr": "[Puissance : 40 / Attribut Foudre] Utilise la magie de la foudre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "かぶってカブト",
+        "_en": "wearing a helmet",
+        "_fr": "porter un casque"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "カブトの守り",
+        "_en": "Kabuto's protection",
+        "_fr": "La protection de Kabuto"
+      },
+      "explication": {
+        "_jp": "【まもりアップ】 とりつかれた妖怪はカブトをかぶっているがごとく まもりがアップする。",
+        "_en": "[Increased protection] The possessed monster's protection increases as if it were wearing a helmet.",
+        "_fr": "[Protection accrue] La protection du monstre possédé augmente comme s'il portait un casque."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "戦国時代に 名のある武将が つけていたというカブトが 妖怪になった。 片割れのヨロイをさがし求め さまよう姿は生首そのもの。",
+      "_en": "A helmet said to have been worn by a famous military commander during the Sengoku period has become a monster. The sight of him wandering around looking for his other half is exactly like a severed head.",
+      "_fr": "Un casque qui aurait été porté par un célèbre commandant militaire durant la période Sengoku est devenu un monstre. Le voir errer à la recherche de sa moitié est exactement comme une tête coupée."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "18",
+  "Name_yww": "カブトさん",
+  "description_jp_yww": "戦国時代に　名のある武将が つけていたというカブトが 妖怪になった。 片割れのヨロイをさがし求め さまよう姿は生首そのもの。",
+  "BingoMessage_jp_yww": "むむ！？　首から下がない！？ 悪いが　ワシの体をさがしてくれんかの",
+  "MonsterId_yww": "y111000",
+  "Height_yww": 10.0,
+  "CommondId_yww": "sp_111000",
+  "MinHp_yww": 47,
+  "MaxHp_yww": 380,
+  "MinAttack_yww": 34,
+  "MaxAttack_yww": 250,
+  "MinMagic_yww": 4,
+  "MaxMagic_yww": 42,
+  "MinDefense_yww": 22,
+  "MaxDefense_yww": 153,
+  "MinSpeed_yww": 4,
+  "MaxSpeed_yww": 43,
+  "AttackId_yww": 23,
+  "MagicId_yww": 7,
+  "HauntId_yww": 111000,
+  "SpSkillId_yww": 111000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 10,
+  "DislikeFoodKind_yww": 6,
+  "ActionType_yww": 3,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y106800.png",
+  "SpriteImage_yww": "img_y106800.png",
+  "Audio_yww": "sp_y106800.wav",
+  "Description_yww": "Un casque que portait, dit-on, un célèbre chef de guerre de l’époque des Provinces en guerre serait devenu un yōkai. Errant à la recherche de la partie manquante de son armure, il ressemble à s’y méprendre à une tête coupée.",
+  "BingoMessage_fr_yww": "Hum !? Je n'ai plus rien en dessous du cou !? Excuse-moi, mais tu ne voudrais pas m'aider à retrouver mon corps ?"
 }

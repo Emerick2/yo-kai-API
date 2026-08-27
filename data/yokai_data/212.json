@@ -1,489 +1,520 @@
 {
-    "ID": "212",
-    "Nom": "Dragô",
-    "Tribue": "Insaisissable",
-    "Rang": "S",
-    "PV": "463",
-    "Force": "186",
-    "Esprit": "186",
-    "Défense": "87",
-    "Vitesse": "165",
-    "Description": "C'est une créature divine légendaire plus puissante que Sire Dragon et qui utilise la force de l'eau.",
-    "nourriture": "Cuisine chinoise",
-    "élément": "Eau",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Il contrôle parfaitement l'eau, dont il tire l'énergie de sa boule dorée de pouvoir. Il crache de la fumée mauve pour brouiller les pistes quand il est chassé.",
-    "personnalité": "Il est très puissant et aime enseigner son pouvoir aux débutants.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/drago.png",
-    "numero": "200",
-    "nourriture_favorite": "Plats chinois",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Dragon tenace",
-            "effet": "Sa puissance augmente quand il est en danger."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Vilaine morsure",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Cascade",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Averse du dragon",
-            "effet": "Produit une cascade géante qui engloutit l'ennemi. 200 | 200"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Énergie cobalt",
-            "effet": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente son ESP."
-        }
+  "ID": "212",
+  "Nom": "Dragô",
+  "Tribue": "Insaisissable",
+  "Rang": "S",
+  "PV": "463",
+  "Force": "186",
+  "Esprit": "186",
+  "Défense": "87",
+  "Vitesse": "165",
+  "Description": "C'est une créature divine légendaire plus puissante que Sire Dragon et qui utilise la force de l'eau.",
+  "nourriture": "Cuisine chinoise",
+  "élément": "Eau",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Il contrôle parfaitement l'eau, dont il tire l'énergie de sa boule dorée de pouvoir. Il crache de la fumée mauve pour brouiller les pistes quand il est chassé.",
+  "personnalité": "Il est très puissant et aime enseigner son pouvoir aux débutants.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/drago.png",
+  "numero": "200",
+  "nourriture_favorite": "Plats chinois",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Dragon tenace",
+      "effet": "Sa puissance augmente quand il est en danger."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Vilaine morsure",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Cascade",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Averse du dragon",
+      "effet": "Produit une cascade géante qui engloutit l'ennemi. 200 | 200"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Énergie cobalt",
+      "effet": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente son ESP."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est revigorant.",
+    "Mange de la nourriture insipide": "Pas mal.",
+    "Mange de la mauvaise nourriture": "Qu'est-ce que... ?!",
+    "A la flemme": "Je me repose...",
+    "Est échangé": "Je décèle un cœur fort en toi. Je veux qu'on devienne amis !",
+    "Devient ton ami": "Ouah. Et si on partageait la même destinée ?"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "青龍",
+  "nom_anglais": "Azure Dragon",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Limbes éternelles- Dragô apparaît très rarement dans le 4ème Cercle des Limbes éternelles."
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est revigorant.",
-        "Mange de la nourriture insipide": "Pas mal.",
-        "Mange de la mauvaise nourriture": "Qu'est-ce que... ?!",
-        "A la flemme": "Je me repose...",
-        "Est échangé": "Je décèle un cœur fort en toi. Je veux qu'on devienne amis !",
-        "Devient ton ami": "Ouah. Et si on partageait la même destinée ?"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "青龍",
-    "nom_anglais": "Azure Dragon",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Limbes éternelles- Dragô apparaît très rarement dans le 4ème Cercle des Limbes éternelles."
-        ],
-        "yw2": [
-            "Tour Excellence– Dragô apparaît très rarement dans le Point d'Observation de la Tour Excellence."
-        ],
-        "yw Blasters 1": [
-            "Il peut être trouvé rarement en patrouille àla Corniche, ou peut être obtenu en combattantDomniscian 2.0."
-        ],
-        "yw3": [
-            "Il peut être trouvé rarement sur le parcours de la vallée du rodéo enRadeau.",
-            "yw Busters 2 :\nIl peut être trouvé très rarement dans les donjons de la Terre Sainte de Bambaraya ou dans le Donjon deVampéric."
-        ],
-        "yw Wibble Wobble": [
-            "Festa Automnal Inferno- Bingo-kai Chanceux",
-            "Roue Yo-kai pendant certains événements"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Vilaine morsure",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Cascade",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Averse du dragon",
-                "puissance": "200|200",
-                "description": "Produit une cascade géante qui engloutit l'ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie cobalt",
-                "puissance": "N/A",
-                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente son ESP."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Dragon tenace",
-                "description": "Sa puissance augmente quand il est en danger."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Vilaine morsure",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Cascade",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Averse du dragon",
-                "puissance": "200|200",
-                "description": "Produit une cascade géante qui engloutit l'ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie cobalt",
-                "puissance": "N/A",
-                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente son ESP."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Dragon tenace",
-                "description": "Sa puissance augmente quand il est en danger."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Averse du dragon",
-                "puissance": "50×8",
-                "description": "Une cascade inflige de gros dégâts aux ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Torrent",
-                "puissance": "40",
-                "description": "Utilise un sort d'eau. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Position offensive",
-                "puissance": "___",
-                "description": "Hausse de l'attaque temporaire."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Rapides",
-                "puissance": "50",
-                "description": "Un sort d'eau puissant. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Dragon tenace",
-                "description": "Hausse de l'attaque en cas de danger."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Vilaine morsure",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Cascade",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Averse du dragon",
-                "puissance": "148|222",
-                "description": "Produit une cascade géante qui engloutit les ennemis à portée."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie cobalt",
-                "puissance": "N/A",
-                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente son ESP."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Dragon tenace",
-                "description": "↑ puissance ++ en situation de danger."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Dragon tenace",
-        "description": "Sa puissance augmente quand il est en danger."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/drago.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/drago.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/drago.wav",
-    "name_romaji_jp": "Seiryū",
-    "oldID": "211",
-    "medallium_ids": {
-        "yw1": "200",
-        "yw2": "302",
-        "yw3": "539"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "362",
-        "yw Blasters 2": "555",
-        "yw Wibble Wobble": "8047",
-        "yw World": "0171",
-        "yw Ukiukipedia": "yw2-042"
-    },
-    "battle_type": "",
-    "skill_name": "Dragon Force",
-    "skill_effect": "Cobalt Power",
-    "disliked_food": "Ramen",
-    "global_stats": {
-        "Japanese version": {
-            "stats": {
-                "HP": "433",
-                "STR": "193",
-                "SPR": "173",
-                "DEF": "143",
-                "SPD": "166"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "International versions": {
-            "stats": {
-                "HP": "433",
-                "STR": "193",
-                "SPR": "173",
-                "DEF": "143",
-                "SPD": "166"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw1": {
-            "stats": {
-                "HP": "433",
-                "STR": "193",
-                "SPR": "173",
-                "DEF": "143",
-                "SPD": "166"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "473",
-                "STR": "193",
-                "SPR": "173",
-                "DEF": "143",
-                "SPD": "166"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "473",
-                "STR": "191",
-                "SPR": "191",
-                "DEF": "92",
-                "SPD": "170"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "青龍",
-            "Seiryuu"
-        ],
-        "Spanish": [
-            "Dragón"
-        ],
-        "French": [
-            "Dragô"
-        ],
-        "Italian": [
-            "Dragazzurro"
-        ],
-        "German": [
-            "Azurdrache"
-        ],
-        "Russian": [
-            "Лазурный",
-            "Lazurnyy"
-        ],
-        "Arabic": [
-            "جسور",
-            "Jasūr"
-        ],
-        "Portuguese (Brazilian)": [
-            "Dracazul"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "青龍"
-        ],
-        "Spanish": [
-            "Dragón Azur"
-        ],
-        "French": [
-            "Dragô"
-        ],
-        "Italian": [
-            "Dragazzurro"
-        ],
-        "German": [
-            "Azurdrache"
-        ],
-        "Russian": [
-            "Лазурный Дракон"
-        ],
-        "Arabic": [
-            "جسور"
-        ],
-        "Portuguese (Brazilian)": [
-            "Dracazul"
-        ]
-    },
-    "description_en": "A legendary, divine beast. He holds domain over water, surpassing even the power of Dragon Lord.",
-    "nom_en": "Bloominoko",
-    "rang_yww": "S",
-    "tribue_yww": "Nyororon",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Cuisine chinoise",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 58,
-        "str": 28,
-        "spr": 28,
-        "def": 14,
-        "spd": 28
-    },
-    "stats_max_yww": {
-        "hp": 463,
-        "str": 186,
-        "spr": 186,
-        "def": 87,
-        "spd": 165
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "かみちぎる",
-                "_en": "Kamichigiru",
-                "_fr": "Kamichigiru"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 打撃】 強力な一撃を加える",
-                "_en": "[Power: 70/Blow] Add a powerful blow",
-                "_fr": "[Puissance : 70/Coup] Ajoutez un coup puissant"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "大滝の術",
-                "_en": "Otaki no Jutsu",
-                "_fr": "Otaki no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 水属性】 強力な水の妖術を使う。",
-                "_en": "[Power: 70 / Water attribute] Uses powerful water magic.",
-                "_fr": "[Puissance : 70 / Attribut Eau] Utilise une puissante magie de l'eau."
-            }
-        }
+    "yw2": [
+      "Tour Excellence– Dragô apparaît très rarement dans le Point d'Observation de la Tour Excellence."
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "水神の大滝",
-                "_en": "Waterfall of Water God",
-                "_fr": "Cascade du Dieu de l'Eau"
-            },
-            "pouvoir": "148",
-            "explication": {
-                "_jp": "大きな滝を作り出し敵全体にダメージを与える。",
-                "_en": "Creates a large waterfall that damages all enemies.",
-                "_fr": "Crée une grande cascade qui endommage tous les ennemis."
-            }
-        }
+    "yw Blasters 1": [
+      "Il peut être trouvé rarement en patrouille àla Corniche, ou peut être obtenu en combattantDomniscian 2.0."
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "青龍のちから",
-                "_en": "The power of the blue dragon",
-                "_fr": "Le pouvoir du dragon bleu"
-            },
-            "explication": {
-                "_jp": "【ようりょくアップ】 とりつかれた妖怪は龍の血統のパワーで ようりょくがアップする。",
-                "_en": "[Increase your health] The possessed monster's health increases with the power of the dragon's bloodline.",
-                "_fr": "[Augmentez votre santé] La santé du monstre possédé augmente avec la puissance de la lignée du dragon."
-            }
-        }
+    "yw3": [
+      "Il peut être trouvé rarement sur le parcours de la vallée du rodéo enRadeau.",
+      "yw Busters 2 :\nIl peut être trouvé très rarement dans les donjons de la Terre Sainte de Bambaraya ou dans le Donjon deVampéric."
     ],
-    "explication_yww": [
-        {
-            "_jp": "伝説の神獣。 水の力をつかさどり 美しい滝や川を守っている。 その力は 龍神の力をも こえると言われている。",
-            "_en": "A legendary divine beast. It controls the power of water and protects beautiful waterfalls and rivers. Its power is said to exceed that of the Dragon God.",
-            "_fr": "Une bête divine légendaire. Il contrôle la puissance de l’eau et protège les belles cascades et rivières. On dit que sa puissance dépasse celle du Dieu Dragon."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Festa Automnal Inferno- Bingo-kai Chanceux",
+      "Roue Yo-kai pendant certains événements"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Vilaine morsure",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Cascade",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Averse du dragon",
+        "puissance": "200|200",
+        "description": "Produit une cascade géante qui engloutit l'ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie cobalt",
+        "puissance": "N/A",
+        "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente son ESP."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Dragon tenace",
+        "description": "Sa puissance augmente quand il est en danger."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Vilaine morsure",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Cascade",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Averse du dragon",
+        "puissance": "200|200",
+        "description": "Produit une cascade géante qui engloutit l'ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie cobalt",
+        "puissance": "N/A",
+        "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente son ESP."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Dragon tenace",
+        "description": "Sa puissance augmente quand il est en danger."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Averse du dragon",
+        "puissance": "50×8",
+        "description": "Une cascade inflige de gros dégâts aux ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Torrent",
+        "puissance": "40",
+        "description": "Utilise un sort d'eau. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Position offensive",
+        "puissance": "___",
+        "description": "Hausse de l'attaque temporaire."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Rapides",
+        "puissance": "50",
+        "description": "Un sort d'eau puissant. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Dragon tenace",
+        "description": "Hausse de l'attaque en cas de danger."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Vilaine morsure",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Cascade",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Averse du dragon",
+        "puissance": "148|222",
+        "description": "Produit une cascade géante qui engloutit les ennemis à portée."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie cobalt",
+        "puissance": "N/A",
+        "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente son ESP."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Dragon tenace",
+        "description": "↑ puissance ++ en situation de danger."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Dragon tenace",
+    "description": "Sa puissance augmente quand il est en danger."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/drago.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/drago.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/drago.wav",
+  "name_romaji_jp": "Seiryū",
+  "oldID": "211",
+  "medallium_ids": {
+    "yw1": "200",
+    "yw2": "302",
+    "yw3": "539"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "362",
+    "yw Blasters 2": "555",
+    "yw Wibble Wobble": "8047",
+    "yw World": "0171",
+    "yw Ukiukipedia": "yw2-042"
+  },
+  "battle_type": "",
+  "skill_name": "Dragon Force",
+  "skill_effect": "Cobalt Power",
+  "disliked_food": "Ramen",
+  "global_stats": {
+    "Japanese version": {
+      "stats": {
+        "HP": "433",
+        "STR": "193",
+        "SPR": "173",
+        "DEF": "143",
+        "SPD": "166"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "International versions": {
+      "stats": {
+        "HP": "433",
+        "STR": "193",
+        "SPR": "173",
+        "DEF": "143",
+        "SPD": "166"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw1": {
+      "stats": {
+        "HP": "433",
+        "STR": "193",
+        "SPR": "173",
+        "DEF": "143",
+        "SPD": "166"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "473",
+        "STR": "193",
+        "SPR": "173",
+        "DEF": "143",
+        "SPD": "166"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "473",
+        "STR": "191",
+        "SPR": "191",
+        "DEF": "92",
+        "SPD": "170"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "青龍",
+      "Seiryuu"
+    ],
+    "Spanish": [
+      "Dragón"
+    ],
+    "French": [
+      "Dragô"
+    ],
+    "Italian": [
+      "Dragazzurro"
+    ],
+    "German": [
+      "Azurdrache"
+    ],
+    "Russian": [
+      "Лазурный",
+      "Lazurnyy"
+    ],
+    "Arabic": [
+      "جسور",
+      "Jasūr"
+    ],
+    "Portuguese (Brazilian)": [
+      "Dracazul"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "青龍"
+    ],
+    "Spanish": [
+      "Dragón Azur"
+    ],
+    "French": [
+      "Dragô"
+    ],
+    "Italian": [
+      "Dragazzurro"
+    ],
+    "German": [
+      "Azurdrache"
+    ],
+    "Russian": [
+      "Лазурный Дракон"
+    ],
+    "Arabic": [
+      "جسور"
+    ],
+    "Portuguese (Brazilian)": [
+      "Dracazul"
+    ]
+  },
+  "description_en": "A legendary, divine beast. He holds domain over water, surpassing even the power of Dragon Lord.",
+  "nom_en": "Bloominoko",
+  "rang_yww": "S",
+  "tribue_yww": "Nyororon",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "Cuisine chinoise",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 58,
+    "str": 28,
+    "spr": 28,
+    "def": 14,
+    "spd": 28
+  },
+  "stats_max_yww": {
+    "hp": 463,
+    "str": 186,
+    "spr": 186,
+    "def": 87,
+    "spd": 165
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "かみちぎる",
+        "_en": "Kamichigiru",
+        "_fr": "Kamichigiru"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 打撃】 強力な一撃を加える",
+        "_en": "[Power: 70/Blow] Add a powerful blow",
+        "_fr": "[Puissance : 70/Coup] Ajoutez un coup puissant"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "大滝の術",
+        "_en": "Otaki no Jutsu",
+        "_fr": "Otaki no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 水属性】 強力な水の妖術を使う。",
+        "_en": "[Power: 70 / Water attribute] Uses powerful water magic.",
+        "_fr": "[Puissance : 70 / Attribut Eau] Utilise une puissante magie de l'eau."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "水神の大滝",
+        "_en": "Waterfall of Water God",
+        "_fr": "Cascade du Dieu de l'Eau"
+      },
+      "pouvoir": "148",
+      "explication": {
+        "_jp": "大きな滝を作り出し敵全体にダメージを与える。",
+        "_en": "Creates a large waterfall that damages all enemies.",
+        "_fr": "Crée une grande cascade qui endommage tous les ennemis."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "青龍のちから",
+        "_en": "The power of the blue dragon",
+        "_fr": "Le pouvoir du dragon bleu"
+      },
+      "explication": {
+        "_jp": "【ようりょくアップ】 とりつかれた妖怪は龍の血統のパワーで ようりょくがアップする。",
+        "_en": "[Increase your health] The possessed monster's health increases with the power of the dragon's bloodline.",
+        "_fr": "[Augmentez votre santé] La santé du monstre possédé augmente avec la puissance de la lignée du dragon."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "伝説の神獣。 水の力をつかさどり 美しい滝や川を守っている。 その力は 龍神の力をも こえると言われている。",
+      "_en": "A legendary divine beast. It controls the power of water and protects beautiful waterfalls and rivers. Its power is said to exceed that of the Dragon God.",
+      "_fr": "Une bête divine légendaire. Il contrôle la puissance de l’eau et protège les belles cascades et rivières. On dit que sa puissance dépasse celle du Dieu Dragon."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "1513",
+  "Name_yww": "青龍",
+  "description_jp_yww": "伝説の神獣。 水の力をつかさどり 美しい滝や川を守っている。 その力は　龍神の力をも こえると言われている。",
+  "BingoMessage_jp_yww": "そなたの清らかな心が引き当てたのじゃな！ よろしい　仲間になろう",
+  "MonsterId_yww": "y8000230",
+  "Height_yww": 9.0,
+  "CommondId_yww": "sp_8000230",
+  "MinHp_yww": 53,
+  "MaxHp_yww": 403,
+  "MinAttack_yww": 13,
+  "MaxAttack_yww": 94,
+  "MinMagic_yww": 25,
+  "MaxMagic_yww": 220,
+  "MinDefense_yww": 14,
+  "MaxDefense_yww": 111,
+  "MinSpeed_yww": 25,
+  "MaxSpeed_yww": 222,
+  "AttackId_yww": 2,
+  "MagicId_yww": 9,
+  "HauntId_yww": 8000230,
+  "SpSkillId_yww": 8000230,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 16,
+  "DislikeFoodKind_yww": 6,
+  "ActionType_yww": 10,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y7996030.png",
+  "SpriteImage_yww": "img_y7996030.png",
+  "Audio_yww": "sp_y7996030.wav",
+  "Description_yww": "Une bête divine légendaire. Elle maîtrise les pouvoirs de l'eau et protège les magnifiques cascades et rivières. On dit que sa puissance dépasse même celle du dieu-dragon.",
+  "BingoMessage_fr_yww": "C'est ton cœur pur qui t'a permis de le trouver, n'est-ce pas ! Très bien, devenons compagnons."
 }

@@ -1,605 +1,636 @@
 {
-    "ID": "75",
-    "Nom": "Boulapic",
-    "Tribue": "Costaud",
-    "Rang": "D",
-    "PV": "463",
-    "Force": "130",
-    "Esprit": "42",
-    "Défense": "240",
-    "Vitesse": "53",
-    "Description": "Boulapic est un Yo-kai étrange. Personne ne sait vraiment pourquoi il se démène à bloquer le passage des gens.",
-    "nourriture": "Lait",
-    "élément": "Eau",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Boulapic bloque toujours le passage des pauvres passants mais personne ne sait pourquoi.",
-    "personnalité": "Boulapic est un Yo-kai anormal, il se décarcasse à empêcher les gens de passer pour une raison très mystérieuse.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/boulapic.png",
-    "numero": "066",
-    "nourriture_favorite": "Lait",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Volonté de fer",
-            "effet": "Gardera 1 PV après un coup fatal."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paume puissante",
-            "effet": "60 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Torrent",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Blocus",
-            "effet": "Augmente la DÉF. et attire les attaques ennemies. Une défense efficace."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Pique épine",
-            "effet": "Pique l'ennemi avec une épine et réduit peu à peu son nombre de PV."
-        }
+  "ID": "75",
+  "Nom": "Boulapic",
+  "Tribue": "Costaud",
+  "Rang": "D",
+  "PV": "463",
+  "Force": "130",
+  "Esprit": "42",
+  "Défense": "240",
+  "Vitesse": "53",
+  "Description": "Boulapic est un Yo-kai étrange. Personne ne sait vraiment pourquoi il se démène à bloquer le passage des gens.",
+  "nourriture": "Lait",
+  "élément": "Eau",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Boulapic bloque toujours le passage des pauvres passants mais personne ne sait pourquoi.",
+  "personnalité": "Boulapic est un Yo-kai anormal, il se décarcasse à empêcher les gens de passer pour une raison très mystérieuse.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/boulapic.png",
+  "numero": "066",
+  "nourriture_favorite": "Lait",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Volonté de fer",
+      "effet": "Gardera 1 PV après un coup fatal."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paume puissante",
+      "effet": "60 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Torrent",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Blocus",
+      "effet": "Augmente la DÉF. et attire les attaques ennemies. Une défense efficace."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Pique épine",
+      "effet": "Pique l'ennemi avec une épine et réduit peu à peu son nombre de PV."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est bon, ça.",
+    "Mange de la nourriture insipide": "*mâchouille*",
+    "Mange de la mauvaise nourriture": "Nooon !",
+    "A la flemme": "Euh...",
+    "Est échangé": "Maintenant qu'on est amis, rien ne se dressera sur ton chemin ! Sauf moi.",
+    "Devient ton ami": "Deviens mon ami, ou je ne te laisse pas partir !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "トオセンボン",
+  "nom_anglais": "Blowkade",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Centre-ville de Granval-Chantier"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est bon, ça.",
-        "Mange de la nourriture insipide": "*mâchouille*",
-        "Mange de la mauvaise nourriture": "Nooon !",
-        "A la flemme": "Euh...",
-        "Est échangé": "Maintenant qu'on est amis, rien ne se dressera sur ton chemin ! Sauf moi.",
-        "Devient ton ami": "Deviens mon ami, ou je ne te laisse pas partir !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "トオセンボン",
-    "nom_anglais": "Blowkade",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Centre-ville de Granval-Chantier"
-        ],
-        "yw2": [
-            "Hauts de Granval-École élémentaire - 2èmeÉtage"
-        ],
-        "yw Blasters 1": [
-            "Patrouille - Les Hauts"
-        ],
-        "yw3": [
-            "Hauts de Granval - Passage des Matous",
-            "Hauts de Granval - Allée sinistre",
-            "Hauts de Granval - École élémentaire (nuit)",
-            "Chemin brumeux- 14000 Mètres"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Paume puissante",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Torrent",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Blocus",
-                "puissance": "___",
-                "description": "Augmente la DÉF, attire les attaques ennemies. Une défense efficace."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Pique épine",
-                "puissance": "N/A",
-                "description": "Pique l'ennemi avec une épine et réduit son nombre de PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Volonté de fer",
-                "description": "Gardera 1 PV après un coup fatal."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Paume puissante",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Torrent",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Blocus",
-                "puissance": "___",
-                "description": "Augmente la DÉF. et attire les attaques ennemies. Une défense efficace."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Pique épine",
-                "puissance": "N/A",
-                "description": "Pique l'ennemi avec une épine et réduit peu à peu son nombre de PV."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Volonté de fer",
-                "description": "Gardera 1 PV après un coup fatal."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Blocus",
-                "puissance": "___",
-                "description": "Forte augmentation de la vitesse, attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Armure miroir",
-                "puissance": "___",
-                "description": "Réduit et renvoie les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Ça pique",
-                "description": "N'est plus bousculé par les attaques ennemies."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Paume puissante",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Torrent",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Blocus",
-                "puissance": "___",
-                "description": "Augmente fortement sa DÉF. et sert de barrière face à l'ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Obstacle gonflable",
-                "puissance": "N/A",
-                "description": "Boulapic empêche l'ennemi de bouger."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Blocus",
-                "puissance": "___",
-                "description": "Booste +++ la DÉF. Attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque l’ennemi avec une attaque féroce."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure miroir",
-                "puissance": "___",
-                "description": "Renvoie un peu de dégâts, attire l’attention ennemie."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Volonté de fer",
-                "description": "Gardera un PV après un coup fatal. (une fois)"
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Staminum alpha"
-            },
-            {
-                "taux": "?%",
-                "objet": "Staminum"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Amulette runique"
-            },
-            {
-                "taux": "?%",
-                "objet": "Staminum"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Tout sur la défense"
-            },
-            {
-                "taux": "?%",
-                "objet": "Lait"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Volonté de fer",
-        "description": "Gardera 1 PV après un coup fatal."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/boulapic.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/boulapic.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/boulapic.wav",
-    "oldID": "75",
-    "medallium_ids": {
-        "yw1": "066",
-        "yw2": "100",
-        "yw3": "164"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "110",
-        "yw Blasters 2": "168",
-        "yw Wibble Wobble": "3072",
-        "yw World": "0057",
-        "yw Ukiukipedia": "yw3-008"
-    },
-    "battle_type": "",
-    "skill_name": "The Stand",
-    "skill_effect": "Needle Poke",
-    "disliked_food": "Seafood",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "367",
-                "STR": "127",
-                "SPR": "69",
-                "DEF": "150",
-                "SPD": "106"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "473",
-                "STR": "127",
-                "SPR": "69",
-                "DEF": "150",
-                "SPD": "106"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "225-387",
-                "STR": "135",
-                "SPR": "47",
-                "DEF": "245",
-                "SPD": "58"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "225-387"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "225-387"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "225-387"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "トオセンボン",
-            "Tōsenbon"
-        ],
-        "Spanish": [
-            "Globqueo"
-        ],
-        "French": [
-            "Boulapic"
-        ],
-        "Italian": [
-            "Bloccospino"
-        ],
-        "German": [
-            "Barricardo"
-        ],
-        "Russian": [
-            "Шарошип",
-            "Sharoship"
-        ],
-        "Arabic": [
-            "قاطع",
-            "Qāṭie"
-        ],
-        "Portuguese (Brazilian)": [
-            "Baiacu"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "トオセンボン"
-        ],
-        "Spanish": [
-            "Globqueo"
-        ],
-        "French": [
-            "Boulapic"
-        ],
-        "Italian": [
-            "Bloccospino"
-        ],
-        "German": [
-            "Barricardo"
-        ],
-        "Russian": [
-            "Шарошип"
-        ],
-        "Arabic": [
-            "قاطع"
-        ],
-        "Portuguese (Brazilian)": [
-            "Baiacu"
-        ]
-    },
-    "description_en": "Blowkade is one weird Yo-kai. Nobody knows why he puts his all into blocking people's paths.",
-    "nom_en": "Impass",
-    "rang_yww": "D",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "lait",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
-        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 58,
-        "str": 17,
-        "spr": 5,
-        "def": 27,
-        "spd": 7
-    },
-    "stats_max_yww": {
-        "hp": 463,
-        "str": 130,
-        "spr": 42,
-        "def": 240,
-        "spd": 53
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "1つ星コイン",
-            "_en": "1 star coin",
-            "_fr": "Pièce d'une étoile"
-        },
-        {
-            "_jp": "お祭りコイン",
-            "_en": "festival coins",
-            "_fr": "pièces de monnaie du festival"
-        },
-        {
-            "_jp": "ファミマコイン",
-            "_en": "Family Mart Coin",
-            "_fr": "Pièce de monnaie du marché familial"
-        },
-        {
-            "_jp": "ドコモコイン1",
-            "_en": "docomo coin 1",
-            "_fr": "pièce docomo 1"
-        },
-        {
-            "_jp": "十五夜コイン",
-            "_en": "jugoya coin",
-            "_fr": "pièce de monnaie jugoya"
-        },
-        {
-            "_jp": "ドコモコイン2",
-            "_en": "docomo coin 2",
-            "_fr": "pièce docomo 2"
-        },
-        {
-            "_jp": "ハロウィンコイン",
-            "_en": "halloween coin",
-            "_fr": "pièce de monnaie d'Halloween"
-        },
-        {
-            "_jp": "ミルクチョココイン",
-            "_en": "milk chocolate coin",
-            "_fr": "pièce de chocolat au lait"
-        },
-        {
-            "_jp": "ビターチョココイン",
-            "_en": "bitter chocolate coin",
-            "_fr": "pièce de chocolat amer"
-        },
-        {
-            "_jp": "バレンタインコイン",
-            "_en": "valentine coin",
-            "_fr": "pièce de monnaie de la Saint-Valentin"
-        },
-        {
-            "_jp": "WDイベントコイン",
-            "_en": "WD event coin",
-            "_fr": "Pièce d'événement WD"
-        }
+    "yw2": [
+      "Hauts de Granval-École élémentaire - 2èmeÉtage"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "つっぱり",
-                "_en": "Tension",
-                "_fr": "Tension"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 敵のガードの効果を下げる",
-                "_en": "[Power: 50/Blow] Reduces the effectiveness of enemy's guard.",
-                "_fr": "[Puissance : 50/Coup] Réduit l'efficacité de la garde ennemie."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "放水の術",
-                "_en": "Water release technique",
-                "_fr": "Technique de libération d'eau"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 水属性】 水の妖術を使う。",
-                "_en": "[Power: 40 / Water attribute] Uses water magic.",
-                "_fr": "[Puissance : 40 / Attribut Eau] Utilise la magie de l'eau."
-            }
-        }
+    "yw Blasters 1": [
+      "Patrouille - Les Hauts"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "とおせんブロック",
-                "_en": "Tosen block",
-                "_fr": "Bloc Tosen"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "とおせんぼで敵をブロックまもりをアップしつつ敵の攻撃を一身に集める",
-                "_en": "Block enemies with Tosenbo and collect enemy attacks while increasing your protection.",
-                "_fr": "Bloquez les ennemis avec Tosenbo et collectez les attaques ennemies tout en augmentant votre protection."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "とおせんぼうする",
-                "_en": "to celebrate",
-                "_fr": "célébrer"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 とおせんぼうされてたまに行動しなくなる",
-                "_en": "[Lazy] Sometimes I don't act because I'm being lazy.",
-                "_fr": "[Paresseux] Parfois, je n'agis pas parce que je suis paresseux."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "道行く人を とおせんぼすることに 情熱を注ぐ変な妖怪。 彼をかきたてるのは何か それはわからない。",
-            "_en": "A strange youkai who is passionate about attacking passers-by. I don't know what it is that stirs him up.",
-            "_fr": "Un étrange yôkai passionné par l'attaque des passants. Je ne sais pas ce qui l'émeut."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Hauts de Granval - Passage des Matous",
+      "Hauts de Granval - Allée sinistre",
+      "Hauts de Granval - École élémentaire (nuit)",
+      "Chemin brumeux- 14000 Mètres"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Paume puissante",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Torrent",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Blocus",
+        "puissance": "___",
+        "description": "Augmente la DÉF, attire les attaques ennemies. Une défense efficace."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Pique épine",
+        "puissance": "N/A",
+        "description": "Pique l'ennemi avec une épine et réduit son nombre de PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Volonté de fer",
+        "description": "Gardera 1 PV après un coup fatal."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Paume puissante",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Torrent",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Blocus",
+        "puissance": "___",
+        "description": "Augmente la DÉF. et attire les attaques ennemies. Une défense efficace."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Pique épine",
+        "puissance": "N/A",
+        "description": "Pique l'ennemi avec une épine et réduit peu à peu son nombre de PV."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Volonté de fer",
+        "description": "Gardera 1 PV après un coup fatal."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Blocus",
+        "puissance": "___",
+        "description": "Forte augmentation de la vitesse, attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Armure miroir",
+        "puissance": "___",
+        "description": "Réduit et renvoie les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Ça pique",
+        "description": "N'est plus bousculé par les attaques ennemies."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Paume puissante",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Torrent",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Blocus",
+        "puissance": "___",
+        "description": "Augmente fortement sa DÉF. et sert de barrière face à l'ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Obstacle gonflable",
+        "puissance": "N/A",
+        "description": "Boulapic empêche l'ennemi de bouger."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Blocus",
+        "puissance": "___",
+        "description": "Booste +++ la DÉF. Attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque l’ennemi avec une attaque féroce."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure miroir",
+        "puissance": "___",
+        "description": "Renvoie un peu de dégâts, attire l’attention ennemie."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Volonté de fer",
+        "description": "Gardera un PV après un coup fatal. (une fois)"
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Staminum alpha"
+      },
+      {
+        "taux": "?%",
+        "objet": "Staminum"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Amulette runique"
+      },
+      {
+        "taux": "?%",
+        "objet": "Staminum"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Tout sur la défense"
+      },
+      {
+        "taux": "?%",
+        "objet": "Lait"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Volonté de fer",
+    "description": "Gardera 1 PV après un coup fatal."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/boulapic.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/boulapic.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/boulapic.wav",
+  "oldID": "75",
+  "medallium_ids": {
+    "yw1": "066",
+    "yw2": "100",
+    "yw3": "164"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "110",
+    "yw Blasters 2": "168",
+    "yw Wibble Wobble": "3072",
+    "yw World": "0057",
+    "yw Ukiukipedia": "yw3-008"
+  },
+  "battle_type": "",
+  "skill_name": "The Stand",
+  "skill_effect": "Needle Poke",
+  "disliked_food": "Seafood",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "367",
+        "STR": "127",
+        "SPR": "69",
+        "DEF": "150",
+        "SPD": "106"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "473",
+        "STR": "127",
+        "SPR": "69",
+        "DEF": "150",
+        "SPD": "106"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "225-387",
+        "STR": "135",
+        "SPR": "47",
+        "DEF": "245",
+        "SPD": "58"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "225-387"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "225-387"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "225-387"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "トオセンボン",
+      "Tōsenbon"
+    ],
+    "Spanish": [
+      "Globqueo"
+    ],
+    "French": [
+      "Boulapic"
+    ],
+    "Italian": [
+      "Bloccospino"
+    ],
+    "German": [
+      "Barricardo"
+    ],
+    "Russian": [
+      "Шарошип",
+      "Sharoship"
+    ],
+    "Arabic": [
+      "قاطع",
+      "Qāṭie"
+    ],
+    "Portuguese (Brazilian)": [
+      "Baiacu"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "トオセンボン"
+    ],
+    "Spanish": [
+      "Globqueo"
+    ],
+    "French": [
+      "Boulapic"
+    ],
+    "Italian": [
+      "Bloccospino"
+    ],
+    "German": [
+      "Barricardo"
+    ],
+    "Russian": [
+      "Шарошип"
+    ],
+    "Arabic": [
+      "قاطع"
+    ],
+    "Portuguese (Brazilian)": [
+      "Baiacu"
+    ]
+  },
+  "description_en": "Blowkade is one weird Yo-kai. Nobody knows why he puts his all into blocking people's paths.",
+  "nom_en": "Impass",
+  "rang_yww": "D",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "lait",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+    "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 58,
+    "str": 17,
+    "spr": 5,
+    "def": 27,
+    "spd": 7
+  },
+  "stats_max_yww": {
+    "hp": 463,
+    "str": 130,
+    "spr": 42,
+    "def": 240,
+    "spd": 53
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "1つ星コイン",
+      "_en": "1 star coin",
+      "_fr": "Pièce d'une étoile"
+    },
+    {
+      "_jp": "お祭りコイン",
+      "_en": "festival coins",
+      "_fr": "pièces de monnaie du festival"
+    },
+    {
+      "_jp": "ファミマコイン",
+      "_en": "Family Mart Coin",
+      "_fr": "Pièce de monnaie du marché familial"
+    },
+    {
+      "_jp": "ドコモコイン1",
+      "_en": "docomo coin 1",
+      "_fr": "pièce docomo 1"
+    },
+    {
+      "_jp": "十五夜コイン",
+      "_en": "jugoya coin",
+      "_fr": "pièce de monnaie jugoya"
+    },
+    {
+      "_jp": "ドコモコイン2",
+      "_en": "docomo coin 2",
+      "_fr": "pièce docomo 2"
+    },
+    {
+      "_jp": "ハロウィンコイン",
+      "_en": "halloween coin",
+      "_fr": "pièce de monnaie d'Halloween"
+    },
+    {
+      "_jp": "ミルクチョココイン",
+      "_en": "milk chocolate coin",
+      "_fr": "pièce de chocolat au lait"
+    },
+    {
+      "_jp": "ビターチョココイン",
+      "_en": "bitter chocolate coin",
+      "_fr": "pièce de chocolat amer"
+    },
+    {
+      "_jp": "バレンタインコイン",
+      "_en": "valentine coin",
+      "_fr": "pièce de monnaie de la Saint-Valentin"
+    },
+    {
+      "_jp": "WDイベントコイン",
+      "_en": "WD event coin",
+      "_fr": "Pièce d'événement WD"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "つっぱり",
+        "_en": "Tension",
+        "_fr": "Tension"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 敵のガードの効果を下げる",
+        "_en": "[Power: 50/Blow] Reduces the effectiveness of enemy's guard.",
+        "_fr": "[Puissance : 50/Coup] Réduit l'efficacité de la garde ennemie."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "放水の術",
+        "_en": "Water release technique",
+        "_fr": "Technique de libération d'eau"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 水属性】 水の妖術を使う。",
+        "_en": "[Power: 40 / Water attribute] Uses water magic.",
+        "_fr": "[Puissance : 40 / Attribut Eau] Utilise la magie de l'eau."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "とおせんブロック",
+        "_en": "Tosen block",
+        "_fr": "Bloc Tosen"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "とおせんぼで敵をブロックまもりをアップしつつ敵の攻撃を一身に集める",
+        "_en": "Block enemies with Tosenbo and collect enemy attacks while increasing your protection.",
+        "_fr": "Bloquez les ennemis avec Tosenbo et collectez les attaques ennemies tout en augmentant votre protection."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "とおせんぼうする",
+        "_en": "to celebrate",
+        "_fr": "célébrer"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 とおせんぼうされてたまに行動しなくなる",
+        "_en": "[Lazy] Sometimes I don't act because I'm being lazy.",
+        "_fr": "[Paresseux] Parfois, je n'agis pas parce que je suis paresseux."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "道行く人を とおせんぼすることに 情熱を注ぐ変な妖怪。 彼をかきたてるのは何か それはわからない。",
+      "_en": "A strange youkai who is passionate about attacking passers-by. I don't know what it is that stirs him up.",
+      "_fr": "Un étrange yôkai passionné par l'attaque des passants. Je ne sais pas ce qui l'émeut."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "75",
+  "Name_yww": "トオセンボン",
+  "description_jp_yww": "道行く人を とおせんぼすることに 情熱を注ぐ変な妖怪。 彼をかきたてるのは何か それはわからない。",
+  "BingoMessage_jp_yww": "ともだちになってくれるまでここを通さん！ もう一度言う！　通しはせんぞ！",
+  "MonsterId_yww": "y142000",
+  "Height_yww": 12.0,
+  "CommondId_yww": "sp_142000",
+  "MinHp_yww": 58,
+  "MaxHp_yww": 463,
+  "MinAttack_yww": 17,
+  "MaxAttack_yww": 130,
+  "MinMagic_yww": 5,
+  "MaxMagic_yww": 42,
+  "MinDefense_yww": 27,
+  "MaxDefense_yww": 240,
+  "MinSpeed_yww": 7,
+  "MaxSpeed_yww": 53,
+  "AttackId_yww": 51,
+  "MagicId_yww": 4,
+  "HauntId_yww": 142000,
+  "SpSkillId_yww": 142000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 4,
+  "DislikeFoodKind_yww": 12,
+  "ActionType_yww": 16,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y137800.png",
+  "SpriteImage_yww": "img_y137800.png",
+  "Audio_yww": "sp_y137800.wav",
+  "Description_yww": "Un yōkai bizarre qui se consacre corps et âme à barrer la route aux passants. Qu'est-ce qui le motive ? Je n'en ai aucune idée.",
+  "BingoMessage_fr_yww": "Je ne te laisserai pas passer par là tant que tu ne seras pas devenu mon ami ! Je te le répète ! Je ne te laisserai pas passer !"
 }

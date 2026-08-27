@@ -1,368 +1,400 @@
 {
-    "ID": "309",
-    "Nom": "Noctambill",
-    "Tribue": "Sombre",
-    "Rang": "B",
-    "PV": "392",
-    "Force": "67",
-    "Esprit": "183",
-    "Défense": "102",
-    "Vitesse": "199",
-    "Description": "À force de jouer aux jeux vidéo toute la nuit, ses yeux sont cernés de fatigue. Les gens commencent à se faire du souci à son sujet...",
-    "description SITE": "Les cernes sous ses yeux à force de jouer aux jeux vidéos toute la nuit suffisent à s'inquiéter pour sa santé.",
-    "nourriture": "Hamburger",
-    "élément": "Foudre",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/noctambill.png",
-    "numero": "208",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Noctambule",
-            "effet": "Toutes les statistiques sont augmentées la nuit."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coup de poing",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Foudre",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Surmenage",
-            "effet": "Le manque de sommeil affaiblit énormément la DÉF. de l'ennemi."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Nuit blanche",
-            "effet": "Le Yo-kai fait une nuit blanche, ce qui baisse sa DÉF. énormément."
-        }
+  "ID": "309",
+  "Nom": "Noctambill",
+  "Tribue": "Sombre",
+  "Rang": "B",
+  "PV": "392",
+  "Force": "67",
+  "Esprit": "183",
+  "Défense": "102",
+  "Vitesse": "199",
+  "Description": "À force de jouer aux jeux vidéo toute la nuit, ses yeux sont cernés de fatigue. Les gens commencent à se faire du souci à son sujet...",
+  "description SITE": "Les cernes sous ses yeux à force de jouer aux jeux vidéos toute la nuit suffisent à s'inquiéter pour sa santé.",
+  "nourriture": "Hamburger",
+  "élément": "Foudre",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/noctambill.png",
+  "numero": "208",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Noctambule",
+      "effet": "Toutes les statistiques sont augmentées la nuit."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coup de poing",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Foudre",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Surmenage",
+      "effet": "Le manque de sommeil affaiblit énormément la DÉF. de l'ennemi."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Nuit blanche",
+      "effet": "Le Yo-kai fait une nuit blanche, ce qui baisse sa DÉF. énormément."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Je suis rassasié !",
+    "Mange de la nourriture insipide": "Ça peut aller...",
+    "Mange de la mauvaise nourriture": "Ça fatigue...",
+    "A la flemme": "Je veux du café !",
+    "Est échangé": "Dormir ? DORMIR ? Pas besoin ! HA HA ! Ha... je vais bien.",
+    "Devient ton ami": "Merci de m'avoir gardé éveillé. Tu as besoin d'un ami insomniaque ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "yw2",
+      "parent1": "Couchtar",
+      "parent2": "Chauvekipeut",
+      "resultat": "Noctambill",
+      "critere": "➨"
+    },
+    {
+      "type": "Fusion",
+      "contexte": "yw Blasters & 3",
+      "parent1": "Couchtar",
+      "parent2": "Tengubre",
+      "resultat": "Noctambill",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ＫＡＮＴＥＴＳＵ",
+  "nom_anglais": "Allnyta",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "Fusion"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Je suis rassasié !",
-        "Mange de la nourriture insipide": "Ça peut aller...",
-        "Mange de la mauvaise nourriture": "Ça fatigue...",
-        "A la flemme": "Je veux du café !",
-        "Est échangé": "Dormir ? DORMIR ? Pas besoin ! HA HA ! Ha... je vais bien.",
-        "Devient ton ami": "Merci de m'avoir gardé éveillé. Tu as besoin d'un ami insomniaque ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "yw2",
-            "parent1": "Couchtar",
-            "parent2": "Chauvekipeut",
-            "resultat": "Noctambill",
-            "critere": "➨"
-        },
-        {
-            "type": "Fusion",
-            "contexte": "yw Blasters & 3",
-            "parent1": "Couchtar",
-            "parent2": "Tengubre",
-            "resultat": "Noctambill",
-            "critere": "➨"
-        }
+    "yw Blasters 1": [
+      "Exclusif à l'Escadron du chien blanc",
+      "Fusion",
+      "Patrouille -Centre-ville"
     ],
-    "image_locale": "",
-    "nom_original": "ＫＡＮＴＥＴＳＵ",
-    "nom_anglais": "Allnyta",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "Fusion"
-        ],
-        "yw Blasters 1": [
-            "Exclusif à l'Escadron du chien blanc",
-            "Fusion",
-            "Patrouille -Centre-ville"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "FB icone",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de poing",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Foudre",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Surmenage",
-                "puissance": "___",
-                "description": "Le manque de sommeil affaiblit énormément la DÉF. de l'ennemi."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Nuit blanche",
-                "puissance": "N/A",
-                "description": "Le Yo-kai fait une nuit blanche, ce qui baisse sa DÉF. énormément."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Noctambule",
-                "description": "Toutes les statistiques sont augmentées la nuit."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Surmenage",
-                "puissance": "____",
-                "description": "Forte baisse temporaire de la défense ennemie."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Décharge",
-                "puissance": "40",
-                "description": "Utilise un sort de foudre. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Piège",
-                "puissance": "___",
-                "description": "Peut engourdir un ennemi s'il marche dessus."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Baisse de défensive +",
-                "puissance": "___",
-                "description": "Forte baisse DÉF. ennemie. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Noctambule",
-                "description": "Hausse de l'attaque lors dès missions nocturnes."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de poing",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Foudre",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Surmenage",
-                "puissance": "___",
-                "description": "La DÉF. de tous les ennemis baisse fortement dû à trop de nuits blanches."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Nuit agitée",
-                "puissance": "N/A",
-                "description": "Le Yo-kai fait une nuit blanche, ce qui baisse sa DÉF."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Noctambule",
-                "description": "Augmente sensiblement toutes les stats la nuit."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Noctambule",
-        "description": "Toutes les statistiques sont augmentées la nuit."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/noctambill.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/noctambill.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/noctambill.wav",
-    "oldID": "321",
-    "medallium_ids": {
-        "yw2": "208",
-        "yw3": "386"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "251",
-        "yw Blasters 2": "394",
-        "yw Wibble Wobble": "6107",
-        "yw World": "0231",
-        "yw Ukiukipedia": "yw7-029"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Night Life",
-    "skill_effect": "Sleepless Night",
-    "disliked_food": "Vegetables",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "402",
-                "STR": "72",
-                "SPR": "188",
-                "DEF": "107",
-                "SPD": "204"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "402",
-                "STR": "72",
-                "SPR": "188",
-                "DEF": "107",
-                "SPD": "204"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "402",
-                "STR": "72",
-                "SPR": "188",
-                "DEF": "107"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "320-554",
-                "STR": "72",
-                "SPR": "188",
-                "DEF": "107"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "320-554"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ＫＡＮＴＥＴＳＵ"
-        ],
-        "Spanish": [
-            "Cafeíno"
-        ],
-        "French": [
-            "Noctambill"
-        ],
-        "Italian": [
-            "Dormai"
-        ],
-        "German": [
-            "Durchmacha"
-        ],
-        "Korean": [
-            "끝장"
-        ],
-        "Russian": [
-            "Ночегеймер",
-            "Nochegeymer"
-        ],
-        "Arabic": [
-            "سهر",
-            "Sahir"
-        ],
-        "Chinese (Cantonese)": [
-            "夜未眠"
-        ],
-        "Thai": [
-            "คันเท็ตสึ"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ＫＡＮＴＥＴＳＵ"
-        ],
-        "Spanish": [
-            "Cafeíno"
-        ],
-        "French": [
-            "Noctambill"
-        ],
-        "Italian": [
-            "Dormai"
-        ],
-        "German": [
-            "Durchmacha"
-        ],
-        "Korean": [
-            "끝장 KEUTJANG"
-        ],
-        "Russian": [
-            "Ночегеймер"
-        ],
-        "Arabic": [
-            "سهر"
-        ],
-        "Chinese (Cantonese)": [
-            "夜未眠 Yè wèi mián"
-        ],
-        "Thai": [
-            "คันเท็ตสึ"
-        ]
-    },
-    "description_en": "The bags under his eyes from playing video games all night are enough to make anyone worry for this Yo-kai's health.",
-    "nom_en": "Slimamander",
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "FB icone",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de poing",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Foudre",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Surmenage",
+        "puissance": "___",
+        "description": "Le manque de sommeil affaiblit énormément la DÉF. de l'ennemi."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Nuit blanche",
+        "puissance": "N/A",
+        "description": "Le Yo-kai fait une nuit blanche, ce qui baisse sa DÉF. énormément."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Noctambule",
+        "description": "Toutes les statistiques sont augmentées la nuit."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Surmenage",
+        "puissance": "____",
+        "description": "Forte baisse temporaire de la défense ennemie."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Décharge",
+        "puissance": "40",
+        "description": "Utilise un sort de foudre. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Piège",
+        "puissance": "___",
+        "description": "Peut engourdir un ennemi s'il marche dessus."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Baisse de défensive +",
+        "puissance": "___",
+        "description": "Forte baisse DÉF. ennemie. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Noctambule",
+        "description": "Hausse de l'attaque lors dès missions nocturnes."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de poing",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Foudre",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Surmenage",
+        "puissance": "___",
+        "description": "La DÉF. de tous les ennemis baisse fortement dû à trop de nuits blanches."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Nuit agitée",
+        "puissance": "N/A",
+        "description": "Le Yo-kai fait une nuit blanche, ce qui baisse sa DÉF."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Noctambule",
+        "description": "Augmente sensiblement toutes les stats la nuit."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Noctambule",
+    "description": "Toutes les statistiques sont augmentées la nuit."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/noctambill.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/noctambill.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/noctambill.wav",
+  "oldID": "321",
+  "medallium_ids": {
+    "yw2": "208",
+    "yw3": "386"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "251",
+    "yw Blasters 2": "394",
+    "yw Wibble Wobble": "6107",
+    "yw World": "0231",
+    "yw Ukiukipedia": "yw7-029"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Night Life",
+  "skill_effect": "Sleepless Night",
+  "disliked_food": "Vegetables",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "402",
+        "STR": "72",
+        "SPR": "188",
+        "DEF": "107",
+        "SPD": "204"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "402",
+        "STR": "72",
+        "SPR": "188",
+        "DEF": "107",
+        "SPD": "204"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "402",
+        "STR": "72",
+        "SPR": "188",
+        "DEF": "107"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "320-554",
+        "STR": "72",
+        "SPR": "188",
+        "DEF": "107"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "320-554"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ＫＡＮＴＥＴＳＵ"
+    ],
+    "Spanish": [
+      "Cafeíno"
+    ],
+    "French": [
+      "Noctambill"
+    ],
+    "Italian": [
+      "Dormai"
+    ],
+    "German": [
+      "Durchmacha"
+    ],
+    "Korean": [
+      "끝장"
+    ],
+    "Russian": [
+      "Ночегеймер",
+      "Nochegeymer"
+    ],
+    "Arabic": [
+      "سهر",
+      "Sahir"
+    ],
+    "Chinese (Cantonese)": [
+      "夜未眠"
+    ],
+    "Thai": [
+      "คันเท็ตสึ"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ＫＡＮＴＥＴＳＵ"
+    ],
+    "Spanish": [
+      "Cafeíno"
+    ],
+    "French": [
+      "Noctambill"
+    ],
+    "Italian": [
+      "Dormai"
+    ],
+    "German": [
+      "Durchmacha"
+    ],
+    "Korean": [
+      "끝장 KEUTJANG"
+    ],
+    "Russian": [
+      "Ночегеймер"
+    ],
+    "Arabic": [
+      "سهر"
+    ],
+    "Chinese (Cantonese)": [
+      "夜未眠 Yè wèi mián"
+    ],
+    "Thai": [
+      "คันเท็ตสึ"
+    ]
+  },
+  "description_en": "The bags under his eyes from playing video games all night are enough to make anyone worry for this Yo-kai's health.",
+  "nom_en": "Slimamander",
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "nourriture_favorite": 18,
+  "id_yww": "316",
+  "Name_yww": "ＫＡＮＴＥＴＳＵ",
+  "description_jp_yww": "一睡もせず ゲームをし続ける妖怪。 目のクマは　不健康を超えた スゴみを感じさせるほどで 見た人を不安にさせる。",
+  "BingoMessage_jp_yww": "フフ…　私を目覚めさせたからには 安らかに眠れることは無いと覚悟しておけ",
+  "MonsterId_yww": "y300000",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_300000",
+  "MinHp_yww": 45,
+  "MaxHp_yww": 369,
+  "MinAttack_yww": 6,
+  "MaxAttack_yww": 60,
+  "MinMagic_yww": 26,
+  "MaxMagic_yww": 178,
+  "MinDefense_yww": 14,
+  "MaxDefense_yww": 106,
+  "MinSpeed_yww": 32,
+  "MaxSpeed_yww": 209,
+  "AttackId_yww": 18,
+  "MagicId_yww": 21,
+  "HauntId_yww": 300000,
+  "SpSkillId_yww": 300000,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 18,
+  "DislikeFoodKind_yww": 10,
+  "ActionType_yww": 9,
+  "TribeType_yww": 6,
+  "MedallionImage_yww": "y295800.png",
+  "SpriteImage_yww": "img_y295800.png",
+  "Audio_yww": "sp_y295800.wav",
+  "Description_yww": "Un yōkai qui joue sans cesse aux jeux vidéo, sans fermer l'œil une seule fois. Ses cernes vont bien au-delà d'un simple signe de mauvaise santé : ils dégagent une aura si impressionnante qu'ils inquiètent tous ceux qui le regardent.",
+  "BingoMessage_fr_yww": "Huhuhu… Puisque tu m'as réveillée, prépare-toi à ne plus jamais dormir tranquille."
 }

@@ -1,522 +1,553 @@
 {
-    "ID": "210",
-    "Nom": "Dracounet",
-    "Tribue": "Insaisissable",
-    "Rang": "D",
-    "PV": "321",
-    "Force": "155",
-    "Esprit": "155",
-    "Défense": "85",
-    "Vitesse": "112",
-    "Description": "C'est un bébé dragon capable de voir les forces cachées d'autres Yo-kai grâce à la boule qu'il a sur la tête.",
-    "nourriture": "Cuisine chinoise",
-    "élément": "Terre",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "Dracounet vient de Dragonet une terminaison mignonne que l'on donnerait à un animal.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/dracounet.png",
-    "numero": "198",
-    "nourriture_favorite": "Plats chinois",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Dévouement",
-            "effet": "Reçoit plus de points d'expérience."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coup de boule",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Éboulement",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Cristal sismique",
-            "effet": "Fait trembler le sol sous les pieds de l'ennemi grâce à un cristal sacré. 100 | 100"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Énergie dragon",
-            "effet": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
-        }
+  "ID": "210",
+  "Nom": "Dracounet",
+  "Tribue": "Insaisissable",
+  "Rang": "D",
+  "PV": "321",
+  "Force": "155",
+  "Esprit": "155",
+  "Défense": "85",
+  "Vitesse": "112",
+  "Description": "C'est un bébé dragon capable de voir les forces cachées d'autres Yo-kai grâce à la boule qu'il a sur la tête.",
+  "nourriture": "Cuisine chinoise",
+  "élément": "Terre",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "Dracounet vient de Dragonet une terminaison mignonne que l'on donnerait à un animal.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/dracounet.png",
+  "numero": "198",
+  "nourriture_favorite": "Plats chinois",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Dévouement",
+      "effet": "Reçoit plus de points d'expérience."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coup de boule",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Éboulement",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Cristal sismique",
+      "effet": "Fait trembler le sol sous les pieds de l'ennemi grâce à un cristal sacré. 100 | 100"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Énergie dragon",
+      "effet": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Crop bon !",
+    "Mange de la nourriture insipide": "Merci, je suppose.",
+    "Mange de la mauvaise nourriture": "C'est pas bon !",
+    "A la flemme": "Enfin une sieste !",
+    "Est échangé": "Me voilà fraîchement arrivé de chez",
+    "Devient ton ami": "Toi ! Je t'aime bien ! Devenons amis !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Dracounet",
+      "parent2": "Orbe de dragon",
+      "resultat": "Sire Dragon",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "りゅーくん",
+  "nom_anglais": "Draggie",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Au cours de l'histoire.",
+      "Dracounet peut aussi être trouvé aux 3e et 4e cercles desLimbes éternelles."
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Crop bon !",
-        "Mange de la nourriture insipide": "Merci, je suppose.",
-        "Mange de la mauvaise nourriture": "C'est pas bon !",
-        "A la flemme": "Enfin une sieste !",
-        "Est échangé": "Me voilà fraîchement arrivé de chez",
-        "Devient ton ami": "Toi ! Je t'aime bien ! Devenons amis !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Dracounet",
-            "parent2": "Orbe de dragon",
-            "resultat": "Sire Dragon",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Vous pourrez le trouver à l'est du Tunnel abandonné. Pour y accéder, il faudra vous lier d'amitié avecDraconfus."
     ],
-    "image_locale": "",
-    "nom_original": "りゅーくん",
-    "nom_anglais": "Draggie",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Au cours de l'histoire.",
-            "Dracounet peut aussi être trouvé aux 3e et 4e cercles desLimbes éternelles."
-        ],
-        "yw2": [
-            "Vous pourrez le trouver à l'est du Tunnel abandonné. Pour y accéder, il faudra vous lier d'amitié avecDraconfus."
-        ],
-        "yw Blasters 1": [
-            "Patrouille :La Corniche"
-        ],
-        "yw3": [
-            "La Corniche - Matériaux de Construction & Fleurs",
-            "Mode Blasters T- Pièce suspecte"
-        ],
-        "yw Wibble Wobble": [
-            "Mont Sylvestre - Stage 23",
-            "Limbes éternelles - 2èmeCercle - Stage 10-23",
-            "Paradis divin - 3èmeÉtage - Stage 20-13",
-            "Paradis divin - 4èmeÉtage - Stage 21-24",
-            "Paradis divin - 5èmeÉtage - Stage 22-44",
-            "Épreuve de Gargaros - Stage 13, 26, 32",
-            "Épreuve d'Ogralos - Stage 13",
-            "Épreuve d'Orqanos - Stage 13, 26, 32",
-            "Événement des Spectres Psychiques - Stage 29"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de boule",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Cristal sismique",
-                "puissance": "90|90",
-                "description": "Fait trembler le sol sous les pieds de l'ennemi grâce à un cristal sacré."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie dragon",
-                "puissance": "N/A",
-                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Dévouement",
-                "description": "Reçoit plus de points d'expérience."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de boule",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Cristal sismique",
-                "puissance": "100|100",
-                "description": "Fait trembler le sol sous les pieds de l'ennemi grâce au cristal sacré."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie dragon",
-                "puissance": "N/A",
-                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Dévouement",
-                "description": "Reçoit plus de points d'expérience."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Cristal sismique",
-                "puissance": "80×5",
-                "description": "Des rochers infligent de gros dégâts aux ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Galet",
-                "puissance": "40",
-                "description": "Utilise un sort de terre. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive rapidement l'attaque ennemie."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Trembler",
-                "puissance": "50",
-                "description": "Un sort de terre puissant. Charger renforce l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Dragon tenace",
-                "description": "Hausse de l'attaque en cas de danger."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de boule",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Éboulement",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Cristal sismique",
-                "puissance": "100|300",
-                "description": "Fait trembler le sol sous les ennemis à portée, grâce à un cristal sacré."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie dragon",
-                "puissance": "N/A",
-                "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Dévouement",
-                "description": "Reçoit plus de points d'expérience."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Dévouement",
-        "description": "Reçoit plus de points d'expérience."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/dracounet.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/dracounet.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/dracounet.wav",
-    "oldID": "209",
-    "medallium_ids": {
-        "yw1": "198",
-        "yw2": "300",
-        "yw3": "537"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "360",
-        "yw Blasters 2": "553",
-        "yw Wibble Wobble": "8007",
-        "yw World": "0169",
-        "yw Ukiukipedia": "yw1-056/YD1-046"
-    },
-    "battle_type": "",
-    "skill_name": "Hard Worker",
-    "skill_effect": "Dragon Power",
-    "disliked_food": "Ramen",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "315",
-                "STR": "102",
-                "SPR": "148",
-                "DEF": "117",
-                "SPD": "139"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "331",
-                "STR": "102",
-                "SPR": "148",
-                "DEF": "117",
-                "SPD": "139"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "114-201",
-                "STR": "160",
-                "SPR": "160",
-                "DEF": "90",
-                "SPD": "117"
-            },
-            "elements": {
-                "attribute": "Earth",
-                "weakness": "Wind"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "114-201"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "114-201"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "114-201"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "りゅーくん",
-            "Ryū-kun"
-        ],
-        "Spanish": [
-            "Draquí"
-        ],
-        "French": [
-            "Dracounet"
-        ],
-        "Italian": [
-            "Draghetto"
-        ],
-        "German": [
-            "Dracki"
-        ],
-        "Russian": [
-            "Дракоша",
-            "Drakosha"
-        ],
-        "Arabic": [
-            "فطيم",
-            "Faṭīm"
-        ],
-        "Chinese (Cantonese)": [
-            "龍仔"
-        ],
-        "Chinese (Mandarin)": [
-            "龍寶"
-        ],
-        "Portuguese (Brazilian)": [
-            "Dragôncio"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "りゅーくん"
-        ],
-        "Spanish": [
-            "Draquí"
-        ],
-        "French": [
-            "Dracounet"
-        ],
-        "Italian": [
-            "Draghetto"
-        ],
-        "German": [
-            "Dracki"
-        ],
-        "Russian": [
-            "Дракоша"
-        ],
-        "Arabic": [
-            "فطيم"
-        ],
-        "Chinese (Cantonese)": [
-            "龍仔"
-        ],
-        "Chinese (Mandarin)": [
-            "龍寶"
-        ],
-        "Portuguese (Brazilian)": [
-            "Dragôncio"
-        ]
-    },
-    "description_en": "A dragon kid who wants attention. He can see the hidden strengths of others with the ball on his head.",
-    "nom_en": "Noko",
-    "rang_yww": "D",
-    "tribue_yww": "Nyororon",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Cuisine chinoise",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 40,
-        "str": 18,
-        "spr": 18,
-        "def": 12,
-        "spd": 17
-    },
-    "stats_max_yww": {
-        "hp": 321,
-        "str": 155,
-        "spr": 155,
-        "def": 85,
-        "spd": 112
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ずつき",
-                "_en": "Zutsuki",
-                "_fr": "Zutsuki"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体に攻撃する。",
-                "_en": "[Power: 30/Blow] Attacks one enemy.",
-                "_fr": "[Puissance : 30/Coup] Attaque un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "落石の術",
-                "_en": "falling rock jutsu",
-                "_fr": "jutsu qui tombe des pierres"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
-                "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
-                "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
-            }
-        }
+    "yw Blasters 1": [
+      "Patrouille :La Corniche"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "りゅーくんストーン",
-                "_en": "Ryu-kun Stone",
-                "_fr": "Pierre Ryu-kun"
-            },
-            "pouvoir": "100",
-            "explication": {
-                "_jp": "聖なる水晶玉の力で大地をゆらし範囲内にダメージを与える。",
-                "_en": "Use the power of a holy crystal ball to shake the earth and deal damage within range.",
-                "_fr": "Utilisez le pouvoir d'une boule de cristal sacrée pour secouer la terre et infliger des dégâts à portée."
-            }
-        }
+    "yw3": [
+      "La Corniche - Matériaux de Construction & Fleurs",
+      "Mode Blasters T- Pièce suspecte"
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "龍のちから",
-                "_en": "The power of the dragon",
-                "_fr": "Le pouvoir du dragon"
-            },
-            "explication": {
-                "_jp": "【ちからアップ】 とりつかれた妖怪は龍の血統のパワーでちからがアップする。",
-                "_en": "[Power Up] The possessed monster's power increases with the power of the dragon's bloodline.",
-                "_fr": "[Power Up] La puissance du monstre possédé augmente avec la puissance de la lignée du dragon."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "甘えんぼうな 龍の子ども。 頭に乗せた水晶玉で 他人のひめられた力を 見抜くことができる。 自分自身の力は見抜けない。",
-            "_en": "A spoiled dragon child. With the crystal ball he carries on his head, he can see through the hidden powers of others. You can't see your own power.",
-            "_fr": "Un enfant dragon gâté. Grâce à la boule de cristal qu'il porte sur sa tête, il peut voir à travers les pouvoirs cachés des autres. Vous ne pouvez pas voir votre propre pouvoir."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Mont Sylvestre - Stage 23",
+      "Limbes éternelles - 2èmeCercle - Stage 10-23",
+      "Paradis divin - 3èmeÉtage - Stage 20-13",
+      "Paradis divin - 4èmeÉtage - Stage 21-24",
+      "Paradis divin - 5èmeÉtage - Stage 22-44",
+      "Épreuve de Gargaros - Stage 13, 26, 32",
+      "Épreuve d'Ogralos - Stage 13",
+      "Épreuve d'Orqanos - Stage 13, 26, 32",
+      "Événement des Spectres Psychiques - Stage 29"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de boule",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Éboulement",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Cristal sismique",
+        "puissance": "90|90",
+        "description": "Fait trembler le sol sous les pieds de l'ennemi grâce à un cristal sacré."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie dragon",
+        "puissance": "N/A",
+        "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Dévouement",
+        "description": "Reçoit plus de points d'expérience."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de boule",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Éboulement",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Cristal sismique",
+        "puissance": "100|100",
+        "description": "Fait trembler le sol sous les pieds de l'ennemi grâce au cristal sacré."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie dragon",
+        "puissance": "N/A",
+        "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Dévouement",
+        "description": "Reçoit plus de points d'expérience."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Cristal sismique",
+        "puissance": "80×5",
+        "description": "Des rochers infligent de gros dégâts aux ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Galet",
+        "puissance": "40",
+        "description": "Utilise un sort de terre. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive rapidement l'attaque ennemie."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Trembler",
+        "puissance": "50",
+        "description": "Un sort de terre puissant. Charger renforce l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Dragon tenace",
+        "description": "Hausse de l'attaque en cas de danger."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de boule",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Éboulement",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Cristal sismique",
+        "puissance": "100|300",
+        "description": "Fait trembler le sol sous les ennemis à portée, grâce à un cristal sacré."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie dragon",
+        "puissance": "N/A",
+        "description": "Insuffle le pouvoir d'un dragon à un allié, ce qui augmente sa FOR."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Dévouement",
+        "description": "Reçoit plus de points d'expérience."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Dévouement",
+    "description": "Reçoit plus de points d'expérience."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/dracounet.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/dracounet.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/dracounet.wav",
+  "oldID": "209",
+  "medallium_ids": {
+    "yw1": "198",
+    "yw2": "300",
+    "yw3": "537"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "360",
+    "yw Blasters 2": "553",
+    "yw Wibble Wobble": "8007",
+    "yw World": "0169",
+    "yw Ukiukipedia": "yw1-056/YD1-046"
+  },
+  "battle_type": "",
+  "skill_name": "Hard Worker",
+  "skill_effect": "Dragon Power",
+  "disliked_food": "Ramen",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "315",
+        "STR": "102",
+        "SPR": "148",
+        "DEF": "117",
+        "SPD": "139"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "331",
+        "STR": "102",
+        "SPR": "148",
+        "DEF": "117",
+        "SPD": "139"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "114-201",
+        "STR": "160",
+        "SPR": "160",
+        "DEF": "90",
+        "SPD": "117"
+      },
+      "elements": {
+        "attribute": "Earth",
+        "weakness": "Wind"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "114-201"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "114-201"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "114-201"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "りゅーくん",
+      "Ryū-kun"
+    ],
+    "Spanish": [
+      "Draquí"
+    ],
+    "French": [
+      "Dracounet"
+    ],
+    "Italian": [
+      "Draghetto"
+    ],
+    "German": [
+      "Dracki"
+    ],
+    "Russian": [
+      "Дракоша",
+      "Drakosha"
+    ],
+    "Arabic": [
+      "فطيم",
+      "Faṭīm"
+    ],
+    "Chinese (Cantonese)": [
+      "龍仔"
+    ],
+    "Chinese (Mandarin)": [
+      "龍寶"
+    ],
+    "Portuguese (Brazilian)": [
+      "Dragôncio"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "りゅーくん"
+    ],
+    "Spanish": [
+      "Draquí"
+    ],
+    "French": [
+      "Dracounet"
+    ],
+    "Italian": [
+      "Draghetto"
+    ],
+    "German": [
+      "Dracki"
+    ],
+    "Russian": [
+      "Дракоша"
+    ],
+    "Arabic": [
+      "فطيم"
+    ],
+    "Chinese (Cantonese)": [
+      "龍仔"
+    ],
+    "Chinese (Mandarin)": [
+      "龍寶"
+    ],
+    "Portuguese (Brazilian)": [
+      "Dragôncio"
+    ]
+  },
+  "description_en": "A dragon kid who wants attention. He can see the hidden strengths of others with the ball on his head.",
+  "nom_en": "Noko",
+  "rang_yww": "D",
+  "tribue_yww": "Nyororon",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "Cuisine chinoise",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 40,
+    "str": 18,
+    "spr": 18,
+    "def": 12,
+    "spd": 17
+  },
+  "stats_max_yww": {
+    "hp": 321,
+    "str": 155,
+    "spr": 155,
+    "def": 85,
+    "spd": 112
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ずつき",
+        "_en": "Zutsuki",
+        "_fr": "Zutsuki"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体に攻撃する。",
+        "_en": "[Power: 30/Blow] Attacks one enemy.",
+        "_fr": "[Puissance : 30/Coup] Attaque un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "落石の術",
+        "_en": "falling rock jutsu",
+        "_fr": "jutsu qui tombe des pierres"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 土属性】 強力な土の妖術を使う。",
+        "_en": "[Power: 50 / Earth attribute] Uses powerful earth magic.",
+        "_fr": "[Puissance : 50 / Attribut Terre] Utilise une puissante magie terrestre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "りゅーくんストーン",
+        "_en": "Ryu-kun Stone",
+        "_fr": "Pierre Ryu-kun"
+      },
+      "pouvoir": "100",
+      "explication": {
+        "_jp": "聖なる水晶玉の力で大地をゆらし範囲内にダメージを与える。",
+        "_en": "Use the power of a holy crystal ball to shake the earth and deal damage within range.",
+        "_fr": "Utilisez le pouvoir d'une boule de cristal sacrée pour secouer la terre et infliger des dégâts à portée."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "龍のちから",
+        "_en": "The power of the dragon",
+        "_fr": "Le pouvoir du dragon"
+      },
+      "explication": {
+        "_jp": "【ちからアップ】 とりつかれた妖怪は龍の血統のパワーでちからがアップする。",
+        "_en": "[Power Up] The possessed monster's power increases with the power of the dragon's bloodline.",
+        "_fr": "[Power Up] La puissance du monstre possédé augmente avec la puissance de la lignée du dragon."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "甘えんぼうな 龍の子ども。 頭に乗せた水晶玉で 他人のひめられた力を 見抜くことができる。 自分自身の力は見抜けない。",
+      "_en": "A spoiled dragon child. With the crystal ball he carries on his head, he can see through the hidden powers of others. You can't see your own power.",
+      "_fr": "Un enfant dragon gâté. Grâce à la boule de cristal qu'il porte sur sa tête, il peut voir à travers les pouvoirs cachés des autres. Vous ne pouvez pas voir votre propre pouvoir."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "210",
+  "Name_yww": "りゅーくん",
+  "description_jp_yww": "甘えんぼうな　龍の子ども。 頭に乗せた水晶玉で 他人のひめられた力を 見抜くことができる。 自分自身の力は見抜けない。",
+  "BingoMessage_jp_yww": "お前が出してくれたのか！？ ありがとうなのだ　よろしくなのだ",
+  "MonsterId_yww": "y213000",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_213000",
+  "MinHp_yww": 40,
+  "MaxHp_yww": 321,
+  "MinAttack_yww": 18,
+  "MaxAttack_yww": 155,
+  "MinMagic_yww": 18,
+  "MaxMagic_yww": 155,
+  "MinDefense_yww": 12,
+  "MaxDefense_yww": 85,
+  "MinSpeed_yww": 17,
+  "MaxSpeed_yww": 112,
+  "AttackId_yww": 22,
+  "MagicId_yww": 11,
+  "HauntId_yww": 213000,
+  "SpSkillId_yww": 213000,
+  "Rank_yww": 2,
+  "FavoriteFoodKind_yww": 9,
+  "DislikeFoodKind_yww": 7,
+  "ActionType_yww": 1,
+  "TribeType_yww": 8,
+  "MedallionImage_yww": "y208800.png",
+  "SpriteImage_yww": "img_y208800.png",
+  "Audio_yww": "sp_y208800.wav",
+  "Description_yww": "Un petit dragon très câlin. Grâce à la boule de cristal posée sur sa tête, il est capable de percevoir les pouvoirs cachés des autres. Il ne peut toutefois pas percevoir ses propres pouvoirs.",
+  "BingoMessage_fr_yww": "C'est toi qui me l'as donné ?! Merci beaucoup. Au plaisir."
 }

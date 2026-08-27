@@ -1,123 +1,45 @@
 {
-    "Nom": "Pommenyan",
-    "Tribue": "Mignon",
-    "Rang": "A",
-    "nom_original": "パジャマジバ",
-    "PV": "",
-    "Force": "",
-    "Esprit": "",
-    "Défense": "",
-    "Vitesse": "",
-    "Description": "Un yokai chat fait à 100 % de jus de pomme. Avec sa peau éclatante et sa posture parfaite, il jouit d'un corps sain qui ne tombe jamais malade. Il se porte au secours des malades et les réconforte. Si gentil...",
-    "nourriture": "Chocobo",
-    "nourriture_favorite": "Chocobo",
-    "élément": "",
-    "Rôle": "attaquant",
-    "rang_yww": "S",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Chocobo",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 58,
-        "str": 25,
-        "spr": 7,
-        "def": 22,
-        "spd": 43
-    },
-    "stats_max_yww": {},
-    "moyens_obtention_yww": [
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        }
-    ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "するどいつめ",
-                "_en": "sharp claw",
-                "_fr": "griffe acérée"
-            },
-            "explication": {
-                "_jp": "【威力:15×2 / 打撃】 2回攻撃を行う",
-                "_en": "[Power: 15×2/Blow] Attack twice",
-                "_fr": "[Puissance : 15×2/Coup] Attaquez deux fois"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "火炎の術",
-                "_en": "flame technique",
-                "_fr": "technique de la flamme"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 火属性】 強力な火の妖術を使う。",
-                "_en": "[Power: 50 / Fire attribute] Uses powerful fire magic.",
-                "_fr": "[Puissance : 50 / Attribut Feu] Utilise une puissante magie du feu."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ぬむけ覚まし肉球",
-                "_en": "Slimy wake up paws",
-                "_fr": "Pattes de réveil visqueuses"
-            },
-            "pouvoir": "15×5",
-            "explication": {
-                "_jp": "眠気が一気に覚めるほどの すごい速さで肉球を繰り出し 敵全員をなぐりまくる",
-                "_en": "It whips out its paws at such a speed that it instantly wakes you up from sleep, hitting all the enemies.",
-                "_fr": "Il sort ses pattes à une telle vitesse qu'il vous réveille instantanément du sommeil, frappant tous les ennemis."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "おやすみタイム",
-                "_en": "good night time",
-                "_fr": "bonne nuit"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 眠くなって たまに行動しなくなる",
-                "_en": "[Lazy] I get sleepy and sometimes don't act.",
-                "_fr": "[Paresseux] J'ai sommeil et parfois je n'agis pas."
-            }
-        }
-    ],
-    "explication_yww": [],
-    "oldID": "1148",
-    "ID": "1146",
-    "nom_en": "Ringonyan",
-    "premiere_apparition": "yww",
-    "jeu_present": [
-        "yww"
-    ]
+  "Nom": "ジバ利家",
+  "nom_original": "ジバ利家",
+  "Rang": 5,
+  "PV": 370,
+  "Force": 243,
+  "Esprit": 118,
+  "Défense": 87,
+  "Vitesse": 157,
+  "Description": "Jibanyan, qui incarne Maeda Toshiie, l'un des cinq grands conseillers du régime Toyotomi. Grâce à sa lance, dont il est très fier et qui dépasse sa taille, il attrape en un clin d'œil les objets situés en hauteur.",
+  "nourriture": 1,
+  "nourriture_favorite": 1,
+  "disliked_food": 2,
+  "id_yww": "816",
+  "Name_yww": "ジバ利家",
+  "description_jp_yww": "豊臣政権の五大老の一人である 前田利家（まえだとしいえ）に なりきっている　ジバニャン。 身の丈以上もある自慢の槍で 高い所の物も　ささっとゲット。",
+  "BingoMessage_jp_yww": "オレっちは槍の又佐　ジバ利家ニャン！ 目の前の敵は　ふっ飛ばしてやるニャン！",
+  "MonsterId_yww": "y5001770",
+  "Height_yww": 7.76,
+  "CommondId_yww": "sp_5001770",
+  "MinHp_yww": 47,
+  "MaxHp_yww": 370,
+  "MinAttack_yww": 35,
+  "MaxAttack_yww": 243,
+  "MinMagic_yww": 10,
+  "MaxMagic_yww": 118,
+  "MinDefense_yww": 5,
+  "MaxDefense_yww": 87,
+  "MinSpeed_yww": 12,
+  "MaxSpeed_yww": 157,
+  "AttackId_yww": 44,
+  "MagicId_yww": 22,
+  "HauntId_yww": 5001770,
+  "SpSkillId_yww": 5001770,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 1,
+  "DislikeFoodKind_yww": 2,
+  "ActionType_yww": 2,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y4997570.png",
+  "SpriteImage_yww": "img_y4997570.png",
+  "Audio_yww": "sp_y4997570.wav",
+  "Description_yww": "Jibanyan, qui incarne Maeda Toshiie, l'un des cinq grands conseillers du régime Toyotomi. Grâce à sa lance, dont il est très fier et qui dépasse sa taille, il attrape en un clin d'œil les objets situés en hauteur.",
+  "BingoMessage_fr_yww": "Je suis Yari no Matasa, Jiba Toshie, miaou ! Je vais envoyer valdinguer l'ennemi qui se trouve devant moi, miaou !"
 }

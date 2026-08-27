@@ -1,601 +1,632 @@
 {
-    "ID": "20",
-    "Nom": "Âmiral",
-    "Tribue": "Vaillant",
-    "Rang": "A",
-    "PV": "499",
-    "Force": "347",
-    "Esprit": "64",
-    "Défense": "196",
-    "Vitesse": "105",
-    "Description": "Un meneur populaire de son vivant, Âmiral mène une armée d'esprits même après la mort. Mais quel charisme !",
-    "nourriture": "Légume",
-    "élément": "Absorption",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Âmiral vient d'Âme et d'Amiral",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Il peut utiliser un pouvoir venu des enfers. Il est aussi capable de maîtriser la lance.",
-    "personnalité": "Âmiral a les qualités et le charisme d'un leader né.",
-    "talent": "Esprit gardien",
-    "Technique": "Absorption",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/amiral.png",
-    "numero": "011",
-    "nourriture_favorite": "Legume",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Esprit gardien",
-            "effet": "En défense, pas de dégâts élémentaires."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Rafale de coups",
-            "effet": "10x5 | 22x5"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Vortex",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Droit en enfer",
-            "effet": "Coupe ses ennemis. Chance d'infliger un coup critique ou d'échouer. 135 | 202"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Sort du Styx",
-            "effet": "Affaiblit l'ESP. ennemi avec un pouvoir étrange des ténèbres."
-        }
+  "ID": "20",
+  "Nom": "Âmiral",
+  "Tribue": "Vaillant",
+  "Rang": "A",
+  "PV": "499",
+  "Force": "347",
+  "Esprit": "64",
+  "Défense": "196",
+  "Vitesse": "105",
+  "Description": "Un meneur populaire de son vivant, Âmiral mène une armée d'esprits même après la mort. Mais quel charisme !",
+  "nourriture": "Légume",
+  "élément": "Absorption",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Âmiral vient d'Âme et d'Amiral",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Il peut utiliser un pouvoir venu des enfers. Il est aussi capable de maîtriser la lance.",
+  "personnalité": "Âmiral a les qualités et le charisme d'un leader né.",
+  "talent": "Esprit gardien",
+  "Technique": "Absorption",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/amiral.png",
+  "numero": "011",
+  "nourriture_favorite": "Legume",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Esprit gardien",
+      "effet": "En défense, pas de dégâts élémentaires."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Rafale de coups",
+      "effet": "10x5 | 22x5"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Vortex",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Droit en enfer",
+      "effet": "Coupe ses ennemis. Chance d'infliger un coup critique ou d'échouer. 135 | 202"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Sort du Styx",
+      "effet": "Affaiblit l'ESP. ennemi avec un pouvoir étrange des ténèbres."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Remarquable !",
+    "Mange de la nourriture insipide": "C'était mangeable.",
+    "Mange de la mauvaise nourriture": "C'est écœurant !",
+    "A la flemme": "P'tite pause !",
+    "Est échangé": "Tu sembles être d'une lignée noble et puissante. Oui, je t'accompagnerai.",
+    "Devient ton ami": "Tu es véritablement le soldat qui m'a fait revenir dans le monde des vivants."
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "黄泉ゲンスイ",
+  "nom_anglais": "Corptain",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Parlez à un homme au 1er étage dumusée lac des Coloquintesqui vous parlera d'une rumeur sur un trésor caché au vieux manoir. Âmiral sera ensuite trouvable dans ladépendance du vieux manoir, derrière un verrou deRang Set un passage secret."
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Remarquable !",
-        "Mange de la nourriture insipide": "C'était mangeable.",
-        "Mange de la mauvaise nourriture": "C'est écœurant !",
-        "A la flemme": "P'tite pause !",
-        "Est échangé": "Tu sembles être d'une lignée noble et puissante. Oui, je t'accompagnerai.",
-        "Devient ton ami": "Tu es véritablement le soldat qui m'a fait revenir dans le monde des vivants."
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "黄泉ゲンスイ",
-    "nom_anglais": "Corptain",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Parlez à un homme au 1er étage dumusée lac des Coloquintesqui vous parlera d'une rumeur sur un trésor caché au vieux manoir. Âmiral sera ensuite trouvable dans ladépendance du vieux manoir, derrière un verrou deRang Set un passage secret."
-        ],
-        "yw2": [
-            "Quête – Vision du cauchemar",
-            "Faisable après la fin du jeu et avoir obtenu lerang S. Après l'avoir finie, il peut être battu auYo-kai Worlddevant la Grande Porte.."
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Plaines Plinpot"
-        ],
-        "yw3": [
-            "Âmiral peut apparaître à laTour Morleone."
-        ],
-        "yw4": [
-            "Yo-kai World (Passé)",
-            "Il est également trouvable dans le combat deBogosdans leTournoi Enma - Arène Oniainsi que dans les missions deKenshin AmaterasuetPorcinatoret la seconde chasse à l'orbe Oni dans le mode Blasters."
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "Âmiral",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "10×5|22×5",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Absorption",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Droit en enfer",
-                "puissance": "160|240",
-                "description": "Coupe ses ennemis. Chance d'infliger un coup critique ou d'échouer."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Sort du Styx",
-                "puissance": "N/A",
-                "description": "Affaiblit l'ESP. ennemi avec un pouvoir étrange des ténèbres."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "En défense, pas de dégâts élémentaires."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "10×5|22×5",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Droit en enfer",
-                "puissance": "135|202",
-                "description": "Coupe ses ennemis. Chance d'infliger un coup critique ou d'échouer."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Sort du Styx",
-                "puissance": "N/A",
-                "description": "Affaiblit l'ESP. ennemi avec un pouvoir étrange des ténèbres."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque à bloc",
-                "puissance": "N/A",
-                "description": "Déclenche une forte attaque à courte portée."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "En défense, pas de dégâts élémentaires."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Droit en enfer",
-                "puissance": "480",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Découragement +",
-                "puissance": "80",
-                "description": "Baisse temporaire ATT. des ennemis touchés."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Rėduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit du gardien",
-                "description": "Ta jauge d'âme augmente si attaque ennemie gardée."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "8×5|17×5",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "40|88",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Droit en enfer",
-                "puissance": "200|300",
-                "description": "Sort son épée de son fourreau et atteint les ennemis à portée."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Sort du Styx",
-                "puissance": "N/A",
-                "description": "Affaiblit l'ESP. ennemi avec un pouvoir étrange des ténèbres."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Droit en enfer",
-                "puissance": "480",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Découragement +",
-                "puissance": "80",
-                "description": "Réduit ++ l’attaque ennemie un court instant."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "La garde permet d'éviter les dégâts liés à l'élément faible."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Secrets de l'âme"
-            },
-            {
-                "taux": "?%",
-                "objet": "Poupée de fuite"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Secrets de l'âme"
-            },
-            {
-                "taux": "?%",
-                "objet": "Poupée de fuite"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Méga EXPorbe"
-            },
-            {
-                "taux": "?%",
-                "objet": "Matsutake"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Esprit gardien",
-        "description": "En défense, pas de dégâts élémentaires."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/amiral.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/amiral.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/amiral.wav",
-    "oldID": "21",
-    "medallium_ids": {
-        "yw1": "011",
-        "yw2": "021",
-        "yw3": "028",
-        "yw4": "36 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "025",
-        "yw Blasters 2": "028",
-        "yw Wibble Wobble": "1063",
-        "yw World": "0669",
-        "Y-Gakuen": "108",
-        "yw Ukiukipedia": "yw8-003"
-    },
-    "battle_type": "Rare",
-    "skill_name": "Spirit Guard",
-    "skill_effect": "Stygian Curse",
-    "disliked_food": "Hamburgers",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "438",
-                "STR": "227",
-                "SPR": "88",
-                "DEF": "205",
-                "SPD": "126"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "519",
-                "STR": "227",
-                "SPR": "88",
-                "DEF": "205",
-                "SPD": "126"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "519",
-                "STR": "420",
-                "SPR": "72",
-                "DEF": "201",
-                "SPD": "74"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "411",
-                "STR": "247",
-                "SPR": "118",
-                "DEF": "235"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "409",
-                "STR": "246",
-                "SPR": "119",
-                "DEF": "230"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "457-799",
-                "STR": "246",
-                "SPR": "119",
-                "DEF": "230"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "457-799"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "457-799"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "黄泉ゲンスイ",
-            "Yomi"
-        ],
-        "Spanish": [
-            "Genedáver"
-        ],
-        "French": [
-            "Âmiral"
-        ],
-        "Italian": [
-            "Capitavere"
-        ],
-        "German": [
-            "Corptain"
-        ],
-        "Dutch": [
-            "Corptain"
-        ],
-        "Korean": [
-            "황천대장군",
-            "Hwangcheon"
-        ],
-        "Russian": [
-            "Некроводец",
-            "Nekrovodets"
-        ],
-        "Arabic": [
-            "فارس",
-            "Fāris"
-        ],
-        "Portuguese (Brazilian)": [
-            "Chefespectro"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "黄泉ゲンスイ"
-        ],
-        "Spanish": [
-            "Genedáver"
-        ],
-        "French": [
-            "Âmiral"
-        ],
-        "Italian": [
-            "Capitavere"
-        ],
-        "German": [
-            "Corptain"
-        ],
-        "Dutch": [
-            "Corptain"
-        ],
-        "Korean": [
-            "황천대장군"
-        ],
-        "Russian": [
-            "Некроводец"
-        ],
-        "Arabic": [
-            "فارس"
-        ],
-        "Portuguese (Brazilian)": [
-            "Chefespectro"
-        ]
-    },
-    "description_en": "A popular leader when he was alive, Corptain leads an army of souls even after death. Now that's charisma!",
-    "nom_en": "Reuknight",
-    "rang_yww": "S",
-    "tribue_yww": "Isamashi",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "légumes",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
-        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 68,
-        "str": 46,
-        "spr": 7,
-        "def": 32,
-        "spd": 8
-    },
-    "stats_max_yww": {
-        "hp": 499,
-        "str": 347,
-        "spr": 64,
-        "def": 196,
-        "spd": 105
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "疾風づき",
-                "_en": "Gale",
-                "_fr": "Coup de vent"
-            },
-            "explication": {
-                "_jp": "【威力:8×5 / 打撃】 連続攻撃を行う",
-                "_en": "[Power: 8×5/Blow] Performs continuous attacks",
-                "_fr": "[Puissance : 8×5/Coup] Effectue des attaques continues"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "吸収の術",
-                "_en": "absorption technique",
-                "_fr": "technique d'absorption"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
-                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
-                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
-            }
-        }
+    "yw2": [
+      "Quête – Vision du cauchemar",
+      "Faisable après la fin du jeu et avoir obtenu lerang S. Après l'avoir finie, il peut être battu auYo-kai Worlddevant la Grande Porte.."
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "黄泉おくり",
-                "_en": "Gift from Yomi",
-                "_fr": "Cadeau de Yomi"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
+    "yw Blasters 1": [
+      "Patrouille -Plaines Plinpot"
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "黄泉の呪い",
-                "_en": "curse of hell",
-                "_fr": "malédiction de l'enfer"
-            },
-            "explication": {
-                "_jp": "【ようりょくダウン】 とりつかれた妖怪は恐ろしい黄泉の力で ようりょくがダウンする。",
-                "_en": "[Yoryoku Down] The possessed monster will be knocked down by the terrifying power of the underworld.",
-                "_fr": "[Yoryoku Down] Le monstre possédé sera renversé par le pouvoir terrifiant des enfers."
-            }
-        }
+    "yw3": [
+      "Âmiral peut apparaître à laTour Morleone."
     ],
-    "explication_yww": [
-        {
-            "_jp": "その昔 圧倒的なカリスマ性で 多くの武将をたばねていた 黄泉ゲンスイ。 死んだあとも 地獄で 亡霊の大軍をひきいている。",
-            "_en": "Long ago, Yomi Gensui was a man who attracted many military commanders with his overwhelming charisma. Even after he dies, he leads a large army of ghosts in hell.",
-            "_fr": "Il y a bien longtemps, Yomi Gensui était un homme qui attirait de nombreux commandants militaires grâce à son charisme écrasant. Même après sa mort, il mène une grande armée de fantômes en enfer."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw4": [
+      "Yo-kai World (Passé)",
+      "Il est également trouvable dans le combat deBogosdans leTournoi Enma - Arène Oniainsi que dans les missions deKenshin AmaterasuetPorcinatoret la seconde chasse à l'orbe Oni dans le mode Blasters."
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "Âmiral",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Rafale de coups",
+        "puissance": "10×5|22×5",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Absorption",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Droit en enfer",
+        "puissance": "160|240",
+        "description": "Coupe ses ennemis. Chance d'infliger un coup critique ou d'échouer."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Sort du Styx",
+        "puissance": "N/A",
+        "description": "Affaiblit l'ESP. ennemi avec un pouvoir étrange des ténèbres."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit gardien",
+        "description": "En défense, pas de dégâts élémentaires."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Rafale de coups",
+        "puissance": "10×5|22×5",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Vortex",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Droit en enfer",
+        "puissance": "135|202",
+        "description": "Coupe ses ennemis. Chance d'infliger un coup critique ou d'échouer."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Sort du Styx",
+        "puissance": "N/A",
+        "description": "Affaiblit l'ESP. ennemi avec un pouvoir étrange des ténèbres."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Attaque à bloc",
+        "puissance": "N/A",
+        "description": "Déclenche une forte attaque à courte portée."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit gardien",
+        "description": "En défense, pas de dégâts élémentaires."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Droit en enfer",
+        "puissance": "480",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Découragement +",
+        "puissance": "80",
+        "description": "Baisse temporaire ATT. des ennemis touchés."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Rėduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit du gardien",
+        "description": "Ta jauge d'âme augmente si attaque ennemie gardée."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Rafale de coups",
+        "puissance": "8×5|17×5",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Vortex",
+        "puissance": "40|88",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Droit en enfer",
+        "puissance": "200|300",
+        "description": "Sort son épée de son fourreau et atteint les ennemis à portée."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Sort du Styx",
+        "puissance": "N/A",
+        "description": "Affaiblit l'ESP. ennemi avec un pouvoir étrange des ténèbres."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Droit en enfer",
+        "puissance": "480",
+        "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Découragement +",
+        "puissance": "80",
+        "description": "Réduit ++ l’attaque ennemie un court instant."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit gardien",
+        "description": "La garde permet d'éviter les dégâts liés à l'élément faible."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Secrets de l'âme"
+      },
+      {
+        "taux": "?%",
+        "objet": "Poupée de fuite"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Secrets de l'âme"
+      },
+      {
+        "taux": "?%",
+        "objet": "Poupée de fuite"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Méga EXPorbe"
+      },
+      {
+        "taux": "?%",
+        "objet": "Matsutake"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Esprit gardien",
+    "description": "En défense, pas de dégâts élémentaires."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/amiral.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/amiral.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/amiral.wav",
+  "oldID": "21",
+  "medallium_ids": {
+    "yw1": "011",
+    "yw2": "021",
+    "yw3": "028",
+    "yw4": "36 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "025",
+    "yw Blasters 2": "028",
+    "yw Wibble Wobble": "1063",
+    "yw World": "0669",
+    "Y-Gakuen": "108",
+    "yw Ukiukipedia": "yw8-003"
+  },
+  "battle_type": "Rare",
+  "skill_name": "Spirit Guard",
+  "skill_effect": "Stygian Curse",
+  "disliked_food": "Hamburgers",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "438",
+        "STR": "227",
+        "SPR": "88",
+        "DEF": "205",
+        "SPD": "126"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "519",
+        "STR": "227",
+        "SPR": "88",
+        "DEF": "205",
+        "SPD": "126"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "519",
+        "STR": "420",
+        "SPR": "72",
+        "DEF": "201",
+        "SPD": "74"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "411",
+        "STR": "247",
+        "SPR": "118",
+        "DEF": "235"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "409",
+        "STR": "246",
+        "SPR": "119",
+        "DEF": "230"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "457-799",
+        "STR": "246",
+        "SPR": "119",
+        "DEF": "230"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "457-799"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "457-799"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "黄泉ゲンスイ",
+      "Yomi"
+    ],
+    "Spanish": [
+      "Genedáver"
+    ],
+    "French": [
+      "Âmiral"
+    ],
+    "Italian": [
+      "Capitavere"
+    ],
+    "German": [
+      "Corptain"
+    ],
+    "Dutch": [
+      "Corptain"
+    ],
+    "Korean": [
+      "황천대장군",
+      "Hwangcheon"
+    ],
+    "Russian": [
+      "Некроводец",
+      "Nekrovodets"
+    ],
+    "Arabic": [
+      "فارس",
+      "Fāris"
+    ],
+    "Portuguese (Brazilian)": [
+      "Chefespectro"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "黄泉ゲンスイ"
+    ],
+    "Spanish": [
+      "Genedáver"
+    ],
+    "French": [
+      "Âmiral"
+    ],
+    "Italian": [
+      "Capitavere"
+    ],
+    "German": [
+      "Corptain"
+    ],
+    "Dutch": [
+      "Corptain"
+    ],
+    "Korean": [
+      "황천대장군"
+    ],
+    "Russian": [
+      "Некроводец"
+    ],
+    "Arabic": [
+      "فارس"
+    ],
+    "Portuguese (Brazilian)": [
+      "Chefespectro"
+    ]
+  },
+  "description_en": "A popular leader when he was alive, Corptain leads an army of souls even after death. Now that's charisma!",
+  "nom_en": "Reuknight",
+  "rang_yww": "S",
+  "tribue_yww": "Isamashi",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "légumes",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+    "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 68,
+    "str": 46,
+    "spr": 7,
+    "def": 32,
+    "spd": 8
+  },
+  "stats_max_yww": {
+    "hp": 499,
+    "str": 347,
+    "spr": 64,
+    "def": 196,
+    "spd": 105
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "疾風づき",
+        "_en": "Gale",
+        "_fr": "Coup de vent"
+      },
+      "explication": {
+        "_jp": "【威力:8×5 / 打撃】 連続攻撃を行う",
+        "_en": "[Power: 8×5/Blow] Performs continuous attacks",
+        "_fr": "[Puissance : 8×5/Coup] Effectue des attaques continues"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "吸収の術",
+        "_en": "absorption technique",
+        "_fr": "technique d'absorption"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+        "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+        "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "黄泉おくり",
+        "_en": "Gift from Yomi",
+        "_fr": "Cadeau de Yomi"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "黄泉の呪い",
+        "_en": "curse of hell",
+        "_fr": "malédiction de l'enfer"
+      },
+      "explication": {
+        "_jp": "【ようりょくダウン】 とりつかれた妖怪は恐ろしい黄泉の力で ようりょくがダウンする。",
+        "_en": "[Yoryoku Down] The possessed monster will be knocked down by the terrifying power of the underworld.",
+        "_fr": "[Yoryoku Down] Le monstre possédé sera renversé par le pouvoir terrifiant des enfers."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "その昔 圧倒的なカリスマ性で 多くの武将をたばねていた 黄泉ゲンスイ。 死んだあとも 地獄で 亡霊の大軍をひきいている。",
+      "_en": "Long ago, Yomi Gensui was a man who attracted many military commanders with his overwhelming charisma. Even after he dies, he leads a large army of ghosts in hell.",
+      "_fr": "Il y a bien longtemps, Yomi Gensui était un homme qui attirait de nombreux commandants militaires grâce à son charisme écrasant. Même après sa mort, il mène une grande armée de fantômes en enfer."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "20",
+  "Name_yww": "黄泉ゲンスイ",
+  "description_jp_yww": "その昔　圧倒的なカリスマ性で 多くの武将をたばねていた 黄泉ゲンスイ。 死んだあとも　地獄で 亡霊の大軍をひきいている。",
+  "BingoMessage_jp_yww": "この出会い…　黄泉から参ったかいが あったというものじゃ！",
+  "MonsterId_yww": "y112010",
+  "Height_yww": 15.0,
+  "CommondId_yww": "sp_112010",
+  "MinHp_yww": 68,
+  "MaxHp_yww": 499,
+  "MinAttack_yww": 46,
+  "MaxAttack_yww": 347,
+  "MinMagic_yww": 7,
+  "MaxMagic_yww": 64,
+  "MinDefense_yww": 32,
+  "MaxDefense_yww": 196,
+  "MinSpeed_yww": 8,
+  "MaxSpeed_yww": 105,
+  "AttackId_yww": 15,
+  "MagicId_yww": 20,
+  "HauntId_yww": 112010,
+  "SpSkillId_yww": 112010,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 10,
+  "DislikeFoodKind_yww": 6,
+  "ActionType_yww": 3,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y107810.png",
+  "SpriteImage_yww": "img_y107810.png",
+  "Audio_yww": "sp_y107810.wav",
+  "Description_yww": "Il y a bien longtemps, grâce à son charisme irrésistible, Gensui Yomi rassemblait de nombreux chefs de guerre. Même après sa mort, en enfer, il continue de diriger une immense armée de fantômes.",
+  "BingoMessage_fr_yww": "Cette rencontre… Ça valait vraiment la peine de venir tout droit des Enfers !"
 }

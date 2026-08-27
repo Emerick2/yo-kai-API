@@ -1,562 +1,593 @@
 {
-    "ID": "76",
-    "Nom": "Bouldacier",
-    "Tribue": "Costaud",
-    "Rang": "C",
-    "PV": "470",
-    "Force": "148",
-    "Esprit": "53",
-    "Défense": "253",
-    "Vitesse": "47",
-    "Description": "Un camion benne ne pourrait bouger le corps lourd de Bouldacier. Pas de chance s'il se trouve sur ta route !",
-    "nourriture": "Lait",
-    "élément": "Eau",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/bouldacier.png",
-    "numero": "067",
-    "nourriture_favorite": "Lait",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Volonté de fer",
-            "effet": "Gardera 1 PV après un coup fatal."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paume puissante",
-            "effet": "60 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Torrent",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Gifle de fer",
-            "effet": "Gifle un ennemi. Peut annuler les Âmultimes adverses. 130 | 130"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Grosse épine",
-            "effet": "Pique l'ennemi avec une épine et réduit peu à peu son nombre de PV."
-        }
+  "ID": "76",
+  "Nom": "Bouldacier",
+  "Tribue": "Costaud",
+  "Rang": "C",
+  "PV": "470",
+  "Force": "148",
+  "Esprit": "53",
+  "Défense": "253",
+  "Vitesse": "47",
+  "Description": "Un camion benne ne pourrait bouger le corps lourd de Bouldacier. Pas de chance s'il se trouve sur ta route !",
+  "nourriture": "Lait",
+  "élément": "Eau",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/bouldacier.png",
+  "numero": "067",
+  "nourriture_favorite": "Lait",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Volonté de fer",
+      "effet": "Gardera 1 PV après un coup fatal."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paume puissante",
+      "effet": "60 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Torrent",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Gifle de fer",
+      "effet": "Gifle un ennemi. Peut annuler les Âmultimes adverses. 130 | 130"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Grosse épine",
+      "effet": "Pique l'ennemi avec une épine et réduit peu à peu son nombre de PV."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est super bon !",
+    "Mange de la nourriture insipide": "Je suis repu.",
+    "Mange de la mauvaise nourriture": "Pas bon !",
+    "A la flemme": "Me sens lourd...",
+    "Est échangé": "Ma lourde carrure est à ton service, à partir d'aujourd'hui !",
+    "Devient ton ami": "Ouah. C'était rapide ! Laisse-moi t'accompagner !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Égare-dare",
+      "parent2": "Bouldacier",
+      "resultat": "Charivari",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "くろがねセンボン",
+  "nom_anglais": "Ledballoon",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Égouts de Granval, plus généralement dans le canal qui se situe à l'est des Hauts de Granval, près du canal."
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est super bon !",
-        "Mange de la nourriture insipide": "Je suis repu.",
-        "Mange de la mauvaise nourriture": "Pas bon !",
-        "A la flemme": "Me sens lourd...",
-        "Est échangé": "Ma lourde carrure est à ton service, à partir d'aujourd'hui !",
-        "Devient ton ami": "Ouah. C'était rapide ! Laisse-moi t'accompagner !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Égare-dare",
-            "parent2": "Bouldacier",
-            "resultat": "Charivari",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Musée du Lac des Coloquintes-Salle des portails - Zone de passages piétons",
+      "Bingo-kai- pièce orange (passé)"
     ],
-    "image_locale": "",
-    "nom_original": "くろがねセンボン",
-    "nom_anglais": "Ledballoon",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Égouts de Granval, plus généralement dans le canal qui se situe à l'est des Hauts de Granval, près du canal."
-        ],
-        "yw2": [
-            "Musée du Lac des Coloquintes-Salle des portails - Zone de passages piétons",
-            "Bingo-kai- pièce orange (passé)"
-        ],
-        "yw Blasters 1": [
-            "Exclusif au Peloton du Chat Rouge : Patrouille - La Corniche"
-        ],
-        "yw3": [
-            "Manoir des Cardamom - Sous-sol"
-        ]
-    },
-    "rarite": "Peloton du chat rouge",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Paume puissante",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Torrent",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Gifle de fer",
-                "puissance": "80|176",
-                "description": "Gifle un ennemi. Peut annuler les Âmultimes adverses."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Grosse épine",
-                "puissance": "N/A",
-                "description": "Pique l'ennemi avec une épine et réduit son nombre de PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Volonté de fer",
-                "description": "Gardera 1 PV après un coup fatal."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Paume puissante",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Torrent",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Gifle de fer",
-                "puissance": "130|130",
-                "description": "Gifle un ennemi. Peut annuler les Âmultimes adverses."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Grosse épine",
-                "puissance": "N/A",
-                "description": "Pique l'ennemi avec une épine et réduit peu à peu son nombre de PV."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Torrent",
-                "puissance": "N/A",
-                "description": "Un jet d'eau attaque les ennemis éloignés."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Volonté de fer",
-                "description": "Gardera 1 PV après un coup fatal."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Gifle de fer",
-                "puissance": "400",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Position offensive",
-                "puissance": "___",
-                "description": "Hausse de l'attaque temporaire."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Armure miroir",
-                "puissance": "___",
-                "description": "Réduit et renvoie dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Ça pique",
-                "description": "N'est plus bousculé par les attaques ennemies."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Paume puissante",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Torrent",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Gifle de fer",
-                "puissance": "100|200",
-                "description": "Gifle un ennemi avec une main dure comme le fer."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Grosse épine",
-                "puissance": "N/A",
-                "description": "Pique l'ennemi avec une épine et réduit petit à petit ses PV."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Gifle de fer",
-                "puissance": "400",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Position offensive",
-                "puissance": "___",
-                "description": "Booste temporairement l’attaque."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure miroir",
-                "puissance": "___",
-                "description": "Renvoie un peu de dégâts, attire l’attention ennemie."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Volonté de fer",
-                "description": "Gardera 1 PV après un coup fatal. (une fois)"
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Poupée de bronze"
-            },
-            {
-                "taux": "?%",
-                "objet": "Café au lait"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Tout sur la défense"
-            },
-            {
-                "taux": "?%",
-                "objet": "Poupée de bronze"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Amulette protectrice"
-            },
-            {
-                "taux": "?%",
-                "objet": "Café au lait"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Volonté de fer",
-        "description": "Gardera 1 PV après un coup fatal."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/bouldacier.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/bouldacier.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/bouldacier.wav",
-    "oldID": "76",
-    "medallium_ids": {
-        "yw1": "067",
-        "yw2": "101",
-        "yw3": "165"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "111",
-        "yw Blasters 2": "169",
-        "yw World": "0058",
-        "yw Ukiukipedia": "yw3-007"
-    },
-    "battle_type": "",
-    "skill_name": "The Stand",
-    "skill_effect": "Big Needle Poke",
-    "disliked_food": "Seafood",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "381",
-                "STR": "155",
-                "SPR": "77",
-                "DEF": "174",
-                "SPD": "97"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "480",
-                "STR": "155",
-                "SPR": "77",
-                "DEF": "174",
-                "SPD": "97"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "480",
-                "STR": "153",
-                "SPR": "58",
-                "DEF": "258",
-                "SPD": "52"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "くろがねセンボン",
-            "Kurogane"
-        ],
-        "Spanish": [
-            "Globtundente"
-        ],
-        "French": [
-            "Bouldacier"
-        ],
-        "Italian": [
-            "Pesospino"
-        ],
-        "German": [
-            "Haltan"
-        ],
-        "Korean": [
-            "무쇠못가복",
-            "Musoemotgabok"
-        ],
-        "Russian": [
-            "Меднотаз",
-            "Mednotaz"
-        ],
-        "Arabic": [
-            "حاجز",
-            "Ḥājiz"
-        ],
-        "Portuguese (Brazilian)": [
-            "Estorvo"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "くろがねセンボン"
-        ],
-        "Spanish": [
-            "Globtundente"
-        ],
-        "French": [
-            "Bouldacier"
-        ],
-        "Italian": [
-            "Pesospino"
-        ],
-        "German": [
-            "Haltan"
-        ],
-        "Korean": [
-            "무쇠못가복"
-        ],
-        "Russian": [
-            "Меднотаз"
-        ],
-        "Arabic": [
-            "حاجز"
-        ],
-        "Portuguese (Brazilian)": [
-            "Estorvo"
-        ]
-    },
-    "description_en": "A dump truck couldn't move Ledballoon's heavy body...which is bad news if he gets in your way.",
-    "nom_en": "Walldin",
-    "rang_yww": "D",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "lait",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
-        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "stats_initiale_yww": {
-        "hp": 60,
-        "str": 21,
-        "spr": 6,
-        "def": 33,
-        "spd": 5
-    },
-    "stats_max_yww": {
-        "hp": 470,
-        "str": 148,
-        "spr": 53,
-        "def": 253,
-        "spd": 47
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "1つ星コイン",
-            "_en": "1 star coin",
-            "_fr": "Pièce d'une étoile"
-        },
-        {
-            "_jp": "5つ星コイン",
-            "_en": "5 star coin",
-            "_fr": "Pièce de 5 étoiles"
-        },
-        {
-            "_jp": "お祭りコイン",
-            "_en": "festival coins",
-            "_fr": "pièces de monnaie du festival"
-        },
-        {
-            "_jp": "オレンジコイン",
-            "_en": "orange coin",
-            "_fr": "pièce de monnaie orange"
-        }
+    "yw Blasters 1": [
+      "Exclusif au Peloton du Chat Rouge : Patrouille - La Corniche"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "つっぱり",
-                "_en": "Tension",
-                "_fr": "Tension"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 敵のガードの効果を下げる",
-                "_en": "[Power: 50 / Hit] Reduces the effectiveness of enemy's guard",
-                "_fr": "[Puissance : 50 / Hit] Réduit l'efficacité de la garde ennemie"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "放水の術",
-                "_en": "Water release technique",
-                "_fr": "Technique de libération d'eau"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 水属性】 水の妖術を使う。",
-                "_en": "[Power: 40 / Water attribute] Uses water magic.",
-                "_fr": "[Puissance : 40 / Attribut Eau] Utilise la magie de l'eau."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "くろがねビンタ",
-                "_en": "Kurogane slap",
-                "_fr": "Gifle de Kurogane"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "太い針を刺す",
-                "_en": "insert a thick needle",
-                "_fr": "insérer une aiguille épaisse"
-            },
-            "explication": {
-                "_jp": "【HP減少】 とりつかれた妖怪はくろがねセンボンの針がささりHPが少しずつ減ってしまう。",
-                "_en": "[HP Decrease] The possessed monster is hit by Kurogane Senbon's needle, and its HP gradually decreases.",
-                "_fr": "[Diminution des PV] Le monstre possédé est touché par l'aiguille de Kurogane Senbon, et ses PV diminuent progressivement."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "くろがねでできた どっしりと重い体をもつ。 くろがねセンボンが 立ちふさがると ダンプカーでもどかせない。",
-            "_en": "It has a heavy body made of black clay. If Kurogane Senbon gets in your way, you won't be able to get him back with a dump truck.",
-            "_fr": "Il a un corps lourd en argile noire. Si Kurogane Senbon se met en travers de votre chemin, vous ne pourrez pas le récupérer avec un camion-benne."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Manoir des Cardamom - Sous-sol"
     ]
+  },
+  "rarite": "Peloton du chat rouge",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Paume puissante",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Torrent",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Gifle de fer",
+        "puissance": "80|176",
+        "description": "Gifle un ennemi. Peut annuler les Âmultimes adverses."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Grosse épine",
+        "puissance": "N/A",
+        "description": "Pique l'ennemi avec une épine et réduit son nombre de PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Volonté de fer",
+        "description": "Gardera 1 PV après un coup fatal."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Paume puissante",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Torrent",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Gifle de fer",
+        "puissance": "130|130",
+        "description": "Gifle un ennemi. Peut annuler les Âmultimes adverses."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Grosse épine",
+        "puissance": "N/A",
+        "description": "Pique l'ennemi avec une épine et réduit peu à peu son nombre de PV."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Torrent",
+        "puissance": "N/A",
+        "description": "Un jet d'eau attaque les ennemis éloignés."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Volonté de fer",
+        "description": "Gardera 1 PV après un coup fatal."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Gifle de fer",
+        "puissance": "400",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Position offensive",
+        "puissance": "___",
+        "description": "Hausse de l'attaque temporaire."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Armure miroir",
+        "puissance": "___",
+        "description": "Réduit et renvoie dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Ça pique",
+        "description": "N'est plus bousculé par les attaques ennemies."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Paume puissante",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Torrent",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Gifle de fer",
+        "puissance": "100|200",
+        "description": "Gifle un ennemi avec une main dure comme le fer."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Grosse épine",
+        "puissance": "N/A",
+        "description": "Pique l'ennemi avec une épine et réduit petit à petit ses PV."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Gifle de fer",
+        "puissance": "400",
+        "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Position offensive",
+        "puissance": "___",
+        "description": "Booste temporairement l’attaque."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure miroir",
+        "puissance": "___",
+        "description": "Renvoie un peu de dégâts, attire l’attention ennemie."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Volonté de fer",
+        "description": "Gardera 1 PV après un coup fatal. (une fois)"
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Poupée de bronze"
+      },
+      {
+        "taux": "?%",
+        "objet": "Café au lait"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Tout sur la défense"
+      },
+      {
+        "taux": "?%",
+        "objet": "Poupée de bronze"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Amulette protectrice"
+      },
+      {
+        "taux": "?%",
+        "objet": "Café au lait"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Volonté de fer",
+    "description": "Gardera 1 PV après un coup fatal."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/bouldacier.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/bouldacier.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/bouldacier.wav",
+  "oldID": "76",
+  "medallium_ids": {
+    "yw1": "067",
+    "yw2": "101",
+    "yw3": "165"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "111",
+    "yw Blasters 2": "169",
+    "yw World": "0058",
+    "yw Ukiukipedia": "yw3-007"
+  },
+  "battle_type": "",
+  "skill_name": "The Stand",
+  "skill_effect": "Big Needle Poke",
+  "disliked_food": "Seafood",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "381",
+        "STR": "155",
+        "SPR": "77",
+        "DEF": "174",
+        "SPD": "97"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "480",
+        "STR": "155",
+        "SPR": "77",
+        "DEF": "174",
+        "SPD": "97"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "480",
+        "STR": "153",
+        "SPR": "58",
+        "DEF": "258",
+        "SPD": "52"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "くろがねセンボン",
+      "Kurogane"
+    ],
+    "Spanish": [
+      "Globtundente"
+    ],
+    "French": [
+      "Bouldacier"
+    ],
+    "Italian": [
+      "Pesospino"
+    ],
+    "German": [
+      "Haltan"
+    ],
+    "Korean": [
+      "무쇠못가복",
+      "Musoemotgabok"
+    ],
+    "Russian": [
+      "Меднотаз",
+      "Mednotaz"
+    ],
+    "Arabic": [
+      "حاجز",
+      "Ḥājiz"
+    ],
+    "Portuguese (Brazilian)": [
+      "Estorvo"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "くろがねセンボン"
+    ],
+    "Spanish": [
+      "Globtundente"
+    ],
+    "French": [
+      "Bouldacier"
+    ],
+    "Italian": [
+      "Pesospino"
+    ],
+    "German": [
+      "Haltan"
+    ],
+    "Korean": [
+      "무쇠못가복"
+    ],
+    "Russian": [
+      "Меднотаз"
+    ],
+    "Arabic": [
+      "حاجز"
+    ],
+    "Portuguese (Brazilian)": [
+      "Estorvo"
+    ]
+  },
+  "description_en": "A dump truck couldn't move Ledballoon's heavy body...which is bad news if he gets in your way.",
+  "nom_en": "Walldin",
+  "rang_yww": "D",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "lait",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+    "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "stats_initiale_yww": {
+    "hp": 60,
+    "str": 21,
+    "spr": 6,
+    "def": 33,
+    "spd": 5
+  },
+  "stats_max_yww": {
+    "hp": 470,
+    "str": 148,
+    "spr": 53,
+    "def": 253,
+    "spd": 47
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "1つ星コイン",
+      "_en": "1 star coin",
+      "_fr": "Pièce d'une étoile"
+    },
+    {
+      "_jp": "5つ星コイン",
+      "_en": "5 star coin",
+      "_fr": "Pièce de 5 étoiles"
+    },
+    {
+      "_jp": "お祭りコイン",
+      "_en": "festival coins",
+      "_fr": "pièces de monnaie du festival"
+    },
+    {
+      "_jp": "オレンジコイン",
+      "_en": "orange coin",
+      "_fr": "pièce de monnaie orange"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "つっぱり",
+        "_en": "Tension",
+        "_fr": "Tension"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 敵のガードの効果を下げる",
+        "_en": "[Power: 50 / Hit] Reduces the effectiveness of enemy's guard",
+        "_fr": "[Puissance : 50 / Hit] Réduit l'efficacité de la garde ennemie"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "放水の術",
+        "_en": "Water release technique",
+        "_fr": "Technique de libération d'eau"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 水属性】 水の妖術を使う。",
+        "_en": "[Power: 40 / Water attribute] Uses water magic.",
+        "_fr": "[Puissance : 40 / Attribut Eau] Utilise la magie de l'eau."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "くろがねビンタ",
+        "_en": "Kurogane slap",
+        "_fr": "Gifle de Kurogane"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "太い針を刺す",
+        "_en": "insert a thick needle",
+        "_fr": "insérer une aiguille épaisse"
+      },
+      "explication": {
+        "_jp": "【HP減少】 とりつかれた妖怪はくろがねセンボンの針がささりHPが少しずつ減ってしまう。",
+        "_en": "[HP Decrease] The possessed monster is hit by Kurogane Senbon's needle, and its HP gradually decreases.",
+        "_fr": "[Diminution des PV] Le monstre possédé est touché par l'aiguille de Kurogane Senbon, et ses PV diminuent progressivement."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "くろがねでできた どっしりと重い体をもつ。 くろがねセンボンが 立ちふさがると ダンプカーでもどかせない。",
+      "_en": "It has a heavy body made of black clay. If Kurogane Senbon gets in your way, you won't be able to get him back with a dump truck.",
+      "_fr": "Il a un corps lourd en argile noire. Si Kurogane Senbon se met en travers de votre chemin, vous ne pourrez pas le récupérer avec un camion-benne."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "76",
+  "Name_yww": "くろがねセンボン",
+  "description_jp_yww": "くろがねでできた どっしりと重い体をもつ。 くろがねセンボンが 立ちふさがると ダンプカーでもどかせない。",
+  "BingoMessage_jp_yww": "おれは　お前とともだちになるんだ！ ともだちになってくれるまで絶対に通さん！",
+  "MonsterId_yww": "y142010",
+  "Height_yww": 12.0,
+  "CommondId_yww": "sp_142010",
+  "MinHp_yww": 60,
+  "MaxHp_yww": 470,
+  "MinAttack_yww": 21,
+  "MaxAttack_yww": 148,
+  "MinMagic_yww": 6,
+  "MaxMagic_yww": 53,
+  "MinDefense_yww": 33,
+  "MaxDefense_yww": 253,
+  "MinSpeed_yww": 5,
+  "MaxSpeed_yww": 47,
+  "AttackId_yww": 51,
+  "MagicId_yww": 4,
+  "HauntId_yww": 142010,
+  "SpSkillId_yww": 142010,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 4,
+  "DislikeFoodKind_yww": 12,
+  "ActionType_yww": 16,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y137810.png",
+  "SpriteImage_yww": "img_y137810.png",
+  "Audio_yww": "sp_y137810.wav",
+  "Description_yww": "Il est fait de fer noir et possède un corps massif et lourd. Lorsque le « Senbon de fer noir » se dresse sur le chemin, même un camion-benne ne peut le déplacer.",
+  "BingoMessage_fr_yww": "Je vais devenir ton ami ! Je ne te laisserai pas passer tant que tu n'auras pas accepté d'être mon ami !"
 }

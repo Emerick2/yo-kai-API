@@ -1,549 +1,580 @@
 {
-    "ID": "7",
-    "Nom": "Ralbouc",
-    "Tribue": "Mystérieu",
-    "Rang": "C",
-    "PV": "307",
-    "Force": "100",
-    "Esprit": "182",
-    "Défense": "84",
-    "Vitesse": "179",
-    "Description": "Ralbouc s'ennuie vite. Ses superbes sourcils et sa barbe auraient poussé car il trouvait que c'était rasoir de s'en occuper.",
-    "nourriture": "Hamburger",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "Ralbouc est paresseux et soupire constamment, il s'ennuie aussi très facilement.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/ralbouc.png",
-    "numero": "033",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Rythme apaisant",
-            "effet": "Tous les ennemis auront plus tendance à flâner."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Méga frappe",
-            "effet": "40 | 88"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Restauration",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Bâille bâille",
-            "effet": "Entrave les ennemis avec une vague de sorts. 100 | 100"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Plein de soupirs",
-            "effet": "Baisse énormément la FOR. de l'adversaire et le fait constamment soupirer."
-        }
+  "ID": "7",
+  "Nom": "Ralbouc",
+  "Tribue": "Mystérieu",
+  "Rang": "C",
+  "PV": "307",
+  "Force": "100",
+  "Esprit": "182",
+  "Défense": "84",
+  "Vitesse": "179",
+  "Description": "Ralbouc s'ennuie vite. Ses superbes sourcils et sa barbe auraient poussé car il trouvait que c'était rasoir de s'en occuper.",
+  "nourriture": "Hamburger",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "Ralbouc est paresseux et soupire constamment, il s'ennuie aussi très facilement.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/ralbouc.png",
+  "numero": "033",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Rythme apaisant",
+      "effet": "Tous les ennemis auront plus tendance à flâner."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Méga frappe",
+      "effet": "40 | 88"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Restauration",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Bâille bâille",
+      "effet": "Entrave les ennemis avec une vague de sorts. 100 | 100"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Plein de soupirs",
+      "effet": "Baisse énormément la FOR. de l'adversaire et le fait constamment soupirer."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Je n'oublierai pas.",
+    "Mange de la nourriture insipide": "Un peu fade...",
+    "Mange de la mauvaise nourriture": "J'en peux plus...",
+    "A la flemme": "J'en peux plus...",
+    "Est échangé": "Je ne supportais plus",
+    "Devient ton ami": "Me connaissant, je vais te lâcher assez rapidement. Mais on peut être amis ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "Général",
+      "de": "Papa Ress",
+      "vers": "Ralbouc",
+      "critere": "Niveau 15"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "やめたい師",
+  "nom_anglais": "N'more",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Évolution",
+      "Coteau fleuri- herbe",
+      "Coteau fleuri - tombes",
+      "Quartier des boutiques-Résidence Sérénité- B-201"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Je n'oublierai pas.",
-        "Mange de la nourriture insipide": "Un peu fade...",
-        "Mange de la mauvaise nourriture": "J'en peux plus...",
-        "A la flemme": "J'en peux plus...",
-        "Est échangé": "Je ne supportais plus",
-        "Devient ton ami": "Me connaissant, je vais te lâcher assez rapidement. Mais on peut être amis ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "Général",
-            "de": "Papa Ress",
-            "vers": "Ralbouc",
-            "critere": "Niveau 15"
-        }
+    "yw2": [
+      "Évolution"
     ],
-    "image_locale": "",
-    "nom_original": "やめたい師",
-    "nom_anglais": "N'more",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Évolution",
-            "Coteau fleuri- herbe",
-            "Coteau fleuri - tombes",
-            "Quartier des boutiques-Résidence Sérénité- B-201"
-        ],
-        "yw2": [
-            "Évolution"
-        ],
-        "yw Blasters 1": [
-            "Exclusif à l'Escadron du chien blanc",
-            "Évolution",
-            "Patrouille -Coteau fleuri"
-        ],
-        "yw3": [
-            "Évolution"
-        ]
-    },
-    "rarite": "L'Escadron du chien blanc",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Méga frappe",
-                "puissance": "40|88",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Bâille bâille",
-                "puissance": "100|100",
-                "description": "Dérange les ennemis avec une vague de sorts."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Plein de soupirs",
-                "puissance": "N/A",
-                "description": "Baisse la FOR. de l'adversaire et le fait constamment soupirer."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Rythme apaisant",
-                "description": "Tous les ennemis flâneront."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Méga frappe",
-                "puissance": "40|88",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Bâille bâille",
-                "puissance": "100|100",
-                "description": "Entrave les ennemis avec une vague de sorts."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Plein de soupirs",
-                "puissance": "N/A",
-                "description": "Baisse énormément la FOR. de l'adversaire et le fait constamment soupirer."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Restauration",
-                "puissance": "N/A",
-                "description": "Rend des PV à un Yo-kai. Charge automatiquement."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Rythme apaisant",
-                "description": "Tous les ennemis auront plus tendance à flâner."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Bâille bâille",
-                "puissance": "250",
-                "description": "Baisse temporaire de la vitesse des ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Galet",
-                "puissance": "40",
-                "description": "Utilise un sort de terre. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Cercle guérisseur",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Acte de disparition",
-                "puissance": "___",
-                "description": "Invisibilité temporaire."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Partage",
-                "description": "Effets d'objets partagés avec les alliés à proximité."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Méga frappe",
-                "puissance": "35|77",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Bâille bâille",
-                "puissance": "___",
-                "description": "Une malédiction s'abat sur tous les ennemis. Ceux touchés n'agissent plus."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Plein de soupirs",
-                "puissance": "N/A",
-                "description": "Baisse fortement la FOR. de l'ennemi et le fait soupirer sans arrêt."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Bâille bâille",
-                "puissance": "250",
-                "description": "Attaque et réduit un instant la VIT. de l'ennemi."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Galet",
-                "puissance": "40",
-                "description": "Technique de terre+. Plus de dégâts si chargée."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. PV rendus + si chargé."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Rythme apaisant",
-                "description": "Tous les ennemis auront plus tendance à flâner."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Techni-clopédie"
-            },
-            {
-                "taux": "?%",
-                "objet": "Remède infect"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Techni-clopédie"
-            },
-            {
-                "taux": "?%",
-                "objet": "Bracelet en toc"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Techni-clopédie"
-            },
-            {
-                "taux": "?%",
-                "objet": "Cheeseburger"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Rythme apaisant",
-        "description": "Tous les ennemis flâneront."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/ralbouc.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/ralbouc.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/ralbouc.wav",
-    "medallium_ids": {
-        "yw1": "033",
-        "yw2": "045",
-        "yw3": "075"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "054",
-        "yw Blasters 2": "075",
-        "yw World": "0027",
-        "yw Ukiukipedia": "yw8-006"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Soothing Rhythm",
-    "skill_effect": "Full of Sighs",
-    "disliked_food": "Vegetables",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "349",
-                "STR": "106",
-                "SPR": "173",
-                "DEF": "116",
-                "SPD": "145"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "317",
-                "STR": "106",
-                "SPR": "173",
-                "DEF": "116",
-                "SPD": "145"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "317",
-                "STR": "105",
-                "SPR": "187",
-                "DEF": "89",
-                "SPD": "184"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "やめたい師",
-            "Yametaishi"
-        ],
-        "Spanish": [
-            "Puf"
-        ],
-        "French": [
-            "Ralbouc"
-        ],
-        "Italian": [
-            "Basbast"
-        ],
-        "German": [
-            "Genuk"
-        ],
-        "Dutch": [
-            "N'more"
-        ],
-        "Korean": [
-            "하기싫승",
-            "Hagisilseung"
-        ],
-        "Russian": [
-            "Сменяхват",
-            "Smenyakhvat"
-        ],
-        "Arabic": [
-            "أعصم",
-            "Aeṣam"
-        ],
-        "Portuguese (Brazilian)": [
-            "Sonim"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "やめたい師"
-        ],
-        "Spanish": [
-            "Puf"
-        ],
-        "French": [
-            "Ralbouc"
-        ],
-        "Italian": [
-            "Basbast"
-        ],
-        "German": [
-            "Genuk"
-        ],
-        "Dutch": [
-            "N'more"
-        ],
-        "Korean": [
-            "하기싫승"
-        ],
-        "Russian": [
-            "Сменяхват"
-        ],
-        "Arabic": [
-            "أعصم"
-        ],
-        "Portuguese (Brazilian)": [
-            "Sonim"
-        ]
-    },
-    "description_en": "N'more gets bored of things quickly. Some say his cool brows and beard grew from his boredom with shaving.",
-    "nom_en": "D'wanna",
-    "rang_yww": "C",
-    "tribue_yww": "Fushigi",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "hamburger",
-    "nourriture_favorite": "hamburger",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
-        "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 39,
-        "str": 8,
-        "spr": 21,
-        "def": 9,
-        "spd": 33
-    },
-    "stats_max_yww": {
-        "hp": 307,
-        "str": 100,
-        "spr": 182,
-        "def": 84,
-        "spd": 179
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ぶったたく",
-                "_en": "hit",
-                "_fr": "frapper"
-            },
-            "explication": {
-                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
-                "_fr": "[Puissance : 35/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "回復の術",
-                "_en": "art of recovery",
-                "_fr": "l'art de la récupération"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
-            }
-        }
+    "yw Blasters 1": [
+      "Exclusif à l'Escadron du chien blanc",
+      "Évolution",
+      "Patrouille -Coteau fleuri"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "やめはめ波",
-                "_en": "Yamehameha",
-                "_fr": "Yamehameha"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ため息をつかせる",
-                "_en": "sigh",
-                "_fr": "soupir"
-            },
-            "explication": {
-                "_jp": "【ちからダウン】 とりつかれた妖怪はため息ばかりついて ちからが大ダウンする。",
-                "_en": "[Power down] The possessed youkai just sighs and its power goes down.",
-                "_fr": "[Power Down] Le yôkai possédé soupire et sa puissance diminue."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "なんでもすぐに あきてしまう和尚。 立派なマユゲとヒゲだが 実は 単にめんどくさくて 伸び放題なだけというウワサ。",
-            "_en": "A monk who gets tired of everything quickly. Although the eyebrows and beard are splendid, there are rumors that they are just a pain in the ass and can grow out at will.",
-            "_fr": "Un moine qui se lasse vite de tout. Bien que les sourcils et la barbe soient splendides, des rumeurs courent selon lesquelles ils ne sont qu'un emmerdeur et peuvent pousser à volonté."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Évolution"
     ]
+  },
+  "rarite": "L'Escadron du chien blanc",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Méga frappe",
+        "puissance": "40|88",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Bâille bâille",
+        "puissance": "100|100",
+        "description": "Dérange les ennemis avec une vague de sorts."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Plein de soupirs",
+        "puissance": "N/A",
+        "description": "Baisse la FOR. de l'adversaire et le fait constamment soupirer."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Rythme apaisant",
+        "description": "Tous les ennemis flâneront."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Méga frappe",
+        "puissance": "40|88",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Bâille bâille",
+        "puissance": "100|100",
+        "description": "Entrave les ennemis avec une vague de sorts."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Plein de soupirs",
+        "puissance": "N/A",
+        "description": "Baisse énormément la FOR. de l'adversaire et le fait constamment soupirer."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Restauration",
+        "puissance": "N/A",
+        "description": "Rend des PV à un Yo-kai. Charge automatiquement."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Rythme apaisant",
+        "description": "Tous les ennemis auront plus tendance à flâner."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Bâille bâille",
+        "puissance": "250",
+        "description": "Baisse temporaire de la vitesse des ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Galet",
+        "puissance": "40",
+        "description": "Utilise un sort de terre. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Cercle guérisseur",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Acte de disparition",
+        "puissance": "___",
+        "description": "Invisibilité temporaire."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Partage",
+        "description": "Effets d'objets partagés avec les alliés à proximité."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Méga frappe",
+        "puissance": "35|77",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Bâille bâille",
+        "puissance": "___",
+        "description": "Une malédiction s'abat sur tous les ennemis. Ceux touchés n'agissent plus."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Plein de soupirs",
+        "puissance": "N/A",
+        "description": "Baisse fortement la FOR. de l'ennemi et le fait soupirer sans arrêt."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Bâille bâille",
+        "puissance": "250",
+        "description": "Attaque et réduit un instant la VIT. de l'ennemi."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Galet",
+        "puissance": "40",
+        "description": "Technique de terre+. Plus de dégâts si chargée."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. PV rendus + si chargé."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Rythme apaisant",
+        "description": "Tous les ennemis auront plus tendance à flâner."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Techni-clopédie"
+      },
+      {
+        "taux": "?%",
+        "objet": "Remède infect"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Techni-clopédie"
+      },
+      {
+        "taux": "?%",
+        "objet": "Bracelet en toc"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Techni-clopédie"
+      },
+      {
+        "taux": "?%",
+        "objet": "Cheeseburger"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Rythme apaisant",
+    "description": "Tous les ennemis flâneront."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/ralbouc.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/ralbouc.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/ralbouc.wav",
+  "medallium_ids": {
+    "yw1": "033",
+    "yw2": "045",
+    "yw3": "075"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "054",
+    "yw Blasters 2": "075",
+    "yw World": "0027",
+    "yw Ukiukipedia": "yw8-006"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Soothing Rhythm",
+  "skill_effect": "Full of Sighs",
+  "disliked_food": "Vegetables",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "349",
+        "STR": "106",
+        "SPR": "173",
+        "DEF": "116",
+        "SPD": "145"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "317",
+        "STR": "106",
+        "SPR": "173",
+        "DEF": "116",
+        "SPD": "145"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "317",
+        "STR": "105",
+        "SPR": "187",
+        "DEF": "89",
+        "SPD": "184"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "やめたい師",
+      "Yametaishi"
+    ],
+    "Spanish": [
+      "Puf"
+    ],
+    "French": [
+      "Ralbouc"
+    ],
+    "Italian": [
+      "Basbast"
+    ],
+    "German": [
+      "Genuk"
+    ],
+    "Dutch": [
+      "N'more"
+    ],
+    "Korean": [
+      "하기싫승",
+      "Hagisilseung"
+    ],
+    "Russian": [
+      "Сменяхват",
+      "Smenyakhvat"
+    ],
+    "Arabic": [
+      "أعصم",
+      "Aeṣam"
+    ],
+    "Portuguese (Brazilian)": [
+      "Sonim"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "やめたい師"
+    ],
+    "Spanish": [
+      "Puf"
+    ],
+    "French": [
+      "Ralbouc"
+    ],
+    "Italian": [
+      "Basbast"
+    ],
+    "German": [
+      "Genuk"
+    ],
+    "Dutch": [
+      "N'more"
+    ],
+    "Korean": [
+      "하기싫승"
+    ],
+    "Russian": [
+      "Сменяхват"
+    ],
+    "Arabic": [
+      "أعصم"
+    ],
+    "Portuguese (Brazilian)": [
+      "Sonim"
+    ]
+  },
+  "description_en": "N'more gets bored of things quickly. Some say his cool brows and beard grew from his boredom with shaving.",
+  "nom_en": "D'wanna",
+  "rang_yww": "C",
+  "tribue_yww": "Fushigi",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "hamburger",
+  "nourriture_favorite": "hamburger",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
+    "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 39,
+    "str": 8,
+    "spr": 21,
+    "def": 9,
+    "spd": 33
+  },
+  "stats_max_yww": {
+    "hp": 307,
+    "str": 100,
+    "spr": 182,
+    "def": 84,
+    "spd": 179
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ぶったたく",
+        "_en": "hit",
+        "_fr": "frapper"
+      },
+      "explication": {
+        "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 35 / Hit] Deals damage to one enemy.",
+        "_fr": "[Puissance : 35/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "回復の術",
+        "_en": "art of recovery",
+        "_fr": "l'art de la récupération"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "やめはめ波",
+        "_en": "Yamehameha",
+        "_fr": "Yamehameha"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ため息をつかせる",
+        "_en": "sigh",
+        "_fr": "soupir"
+      },
+      "explication": {
+        "_jp": "【ちからダウン】 とりつかれた妖怪はため息ばかりついて ちからが大ダウンする。",
+        "_en": "[Power down] The possessed youkai just sighs and its power goes down.",
+        "_fr": "[Power Down] Le yôkai possédé soupire et sa puissance diminue."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "なんでもすぐに あきてしまう和尚。 立派なマユゲとヒゲだが 実は 単にめんどくさくて 伸び放題なだけというウワサ。",
+      "_en": "A monk who gets tired of everything quickly. Although the eyebrows and beard are splendid, there are rumors that they are just a pain in the ass and can grow out at will.",
+      "_fr": "Un moine qui se lasse vite de tout. Bien que les sourcils et la barbe soient splendides, des rumeurs courent selon lesquelles ils ne sont qu'un emmerdeur et peuvent pousser à volonté."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "7",
+  "Name_yww": "やめたい師",
+  "description_jp_yww": "なんでもすぐに あきてしまう和尚。 立派なマユゲとヒゲだが 実は　単にめんどくさくて 伸び放題なだけというウワサ。",
+  "BingoMessage_jp_yww": "そろそろ　このせまい空間は やめたかったのじゃ…　お主に感謝するぞ",
+  "MonsterId_yww": "y104000",
+  "Height_yww": 7.0,
+  "CommondId_yww": "sp_104000",
+  "MinHp_yww": 39,
+  "MaxHp_yww": 307,
+  "MinAttack_yww": 8,
+  "MaxAttack_yww": 100,
+  "MinMagic_yww": 21,
+  "MaxMagic_yww": 182,
+  "MinDefense_yww": 9,
+  "MaxDefense_yww": 84,
+  "MinSpeed_yww": 33,
+  "MaxSpeed_yww": 179,
+  "AttackId_yww": 47,
+  "MagicId_yww": 23,
+  "HauntId_yww": 104000,
+  "SpSkillId_yww": 104000,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 6,
+  "DislikeFoodKind_yww": 10,
+  "ActionType_yww": 23,
+  "TribeType_yww": 2,
+  "MedallionImage_yww": "y099800.png",
+  "SpriteImage_yww": "img_y099800.png",
+  "Audio_yww": "sp_y099800.wav",
+  "Description_yww": "Un moine qui se lasse vite de tout. Il a certes de beaux sourcils et une belle barbe, mais la rumeur dit qu’en réalité, c’est simplement par paresse qu’il les laisse pousser à l’envi.",
+  "BingoMessage_fr_yww": "Il était grand temps que je quitte cet espace exigu… Je t'en suis reconnaissant."
 }

@@ -1,561 +1,592 @@
 {
-    "ID": "189",
-    "Nom": "Jojojoyeux",
-    "Tribue": "Bienveillant",
-    "Rang": "C",
-    "PV": "394",
-    "Force": "210",
-    "Esprit": "46",
-    "Défense": "125",
-    "Vitesse": "130",
-    "Description": "La tendresse de Jojojoyeux crée une aura qui apaise même les atmosphères les plus tendues. Il peut redonner le sourire à n'importe qui.",
-    "nourriture": "Pain",
-    "élément": "Foudre",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "Jojojoyeux est un mot-valise entre le prénom Jojo et joyeux.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/jojojoyeux.png",
-    "numero": "125",
-    "nourriture_favorite": "Pain",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Traitement",
-            "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Plaquage absolu",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Restauration",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Ondes jojoviales",
-            "effet": "Restaure peu à peu les PV des alliés avec sa formidable aura."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Gaîté",
-            "effet": "Remplit de courage le cœur d'un allié et restaure graduellement ses PV."
-        }
+  "ID": "189",
+  "Nom": "Jojojoyeux",
+  "Tribue": "Bienveillant",
+  "Rang": "C",
+  "PV": "394",
+  "Force": "210",
+  "Esprit": "46",
+  "Défense": "125",
+  "Vitesse": "130",
+  "Description": "La tendresse de Jojojoyeux crée une aura qui apaise même les atmosphères les plus tendues. Il peut redonner le sourire à n'importe qui.",
+  "nourriture": "Pain",
+  "élément": "Foudre",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "Jojojoyeux est un mot-valise entre le prénom Jojo et joyeux.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/jojojoyeux.png",
+  "numero": "125",
+  "nourriture_favorite": "Pain",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Traitement",
+      "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Plaquage absolu",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Restauration",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Ondes jojoviales",
+      "effet": "Restaure peu à peu les PV des alliés avec sa formidable aura."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Gaîté",
+      "effet": "Remplit de courage le cœur d'un allié et restaure graduellement ses PV."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est bon !",
+    "Mange de la nourriture insipide": "C'était sympa !",
+    "Mange de la mauvaise nourriture": "Oh là là... Affreux.",
+    "A la flemme": "Mais non...",
+    "Est échangé": "On est amis ? Suis trop content !",
+    "Devient ton ami": "Tu as gagné la bataille, et mon cœur... Merci, nous sommes maintenant amis."
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Jojojoyeux",
+      "parent2": "Lulugubre",
+      "resultat": "Paradoxa",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ホノボーノ",
+  "nom_anglais": "Happierre",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Masahito Yabe",
+    "francaise": "Nathalie Bienaimé",
+    "anglaise": "English VA Paul Greenberg"
+  },
+  "localisations": {
+    "yw1": [
+      "Centre–ville de Granval– arbres",
+      "Bingo-kai–pièce verte"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est bon !",
-        "Mange de la nourriture insipide": "C'était sympa !",
-        "Mange de la mauvaise nourriture": "Oh là là... Affreux.",
-        "A la flemme": "Mais non...",
-        "Est échangé": "On est amis ? Suis trop content !",
-        "Devient ton ami": "Tu as gagné la bataille, et mon cœur... Merci, nous sommes maintenant amis."
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Jojojoyeux",
-            "parent2": "Lulugubre",
-            "resultat": "Paradoxa",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Coteau fleuri - Arbres",
+      "Tour Excellence- arbres et point d'observation",
+      "Vieux Granval- arbres et poteaux téléphoniques",
+      "Sanctuaire divin-rdc et 1er",
+      "Bingo-kai - pièce verte (présent)",
+      "Tunnel sans fin"
     ],
-    "image_locale": "",
-    "nom_original": "ホノボーノ",
-    "nom_anglais": "Happierre",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Masahito Yabe",
-        "francaise": "Nathalie Bienaimé",
-        "anglaise": "English VA Paul Greenberg"
-    },
-    "localisations": {
-        "yw1": [
-            "Centre–ville de Granval– arbres",
-            "Bingo-kai–pièce verte"
-        ],
-        "yw2": [
-            "Coteau fleuri - Arbres",
-            "Tour Excellence- arbres et point d'observation",
-            "Vieux Granval- arbres et poteaux téléphoniques",
-            "Sanctuaire divin-rdc et 1er",
-            "Bingo-kai - pièce verte (présent)",
-            "Tunnel sans fin"
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Coteau fleuri"
-        ],
-        "yw3": [
-            "Les Hauts de Granval- arbres"
-        ],
-        "yw Wibble Wobble": [
-            "Stage 38, 53 (Le Coteau fleuri)",
-            "Stage 98 (Quartier des boutiques)",
-            "Stage 125, 130 (La Corniche)",
-            "Stag 136, 148 (La Tour Excellence)",
-            "Stage 235 (Les plaines Plinplot)",
-            "Stage 261 (Granval-sur-Mer)",
-            "Stage secret 5-2 (Égout E)",
-            "Stage secret 6-5 (Égout F)",
-            "Stage secret 8-6 (Route des vandales)",
-            "Stage secret 13-61 (Limbes éternelles - 5e Cercle)",
-            "Stage secret 16-103 (Limbes éternelles - 8e Cercle)",
-            "Stage secret 18-9 (Paradis divin - 1er), Niveau secret 23-64 (Paradis divin - 6e)",
-            "Niveau d'épreuve 19 (Voie du mystère)",
-            "Niveau d'épreuve 39 (Épreuve d'Orqanos)",
-            "Niveau d'épreuve 18, 31 (Événement des Spectres psychiques)",
-            "Niveau d'épreuve 7, 49 (Festa Automnal Inferno)",
-            "Bingo-kai - Pièce joyeuse",
-            "Bingo-kai - Pièce mystère",
-            "Bingo-kai - Pièce verte",
-            "Bingo-kai - Pièce verte G",
-            "Bingo-kai - Pièce de fête (Domniscian)"
-        ],
-        "yw4": [
-            "L'âme de Jojojoyeux peut être récupérée dans leTournoi de Sumo Yo-kaiet également dans les récompenses.\nIl est trouvable aussi dans le combat deGrolosdans leTournoi Enma - Arène Oni."
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Ondes jojoviales",
-                "puissance": "___",
-                "description": "Restaure petit à petit les PV des alliés avec sa formidable aura."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Gaîté",
-                "puissance": "N/A",
-                "description": "Remplit de courage le cœur d'un allié et restaure ses PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Redonne des PV au Yo-kai voisin."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Ondes jojoviales",
-                "puissance": "___",
-                "description": "Restaure peu à peu les PV des alliés avec sa formidable aura."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Gaîté",
-                "puissance": "N/A",
-                "description": "Remplit de courage le cœur d'un allié et restaure graduellement ses PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Redonne peu à peu des PV aux Yo-kai voisins."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Ondes jojoviales",
-                "puissance": "___",
-                "description": "Restauration lente des PV des alliés proches."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Cercle de guérison",
-                "puissance": "___",
-                "description": "Crée un champ où les alliés peuvent se restaurer."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Les PV des alliés sont restaurés graduellement."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "20|70",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Ondes jojoviales",
-                "puissance": "___",
-                "description": "Restaure peu à peu les PV des alliés, grâce à son aura réconfortante."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Gaîté",
-                "puissance": "N/A",
-                "description": "Remplit de courage le cœur d'un allié et restaure lentement ses PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Rend peu à peu des PV à tous les alliés reliés."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Traitement",
-        "description": "Redonne des PV au Yo-kai voisin."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/jojojoyeux.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/jojojoyeux.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/jojojoyeux.wav",
-    "oldID": "16",
-    "medallium_ids": {
-        "yw1": "125",
-        "yw2": "189",
-        "yw3": "355",
-        "yw4": "32 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "232",
-        "yw Blasters 2": "363",
-        "yw Wibble Wobble": "5010",
-        "Kunitori": "4028",
-        "yw World": "0108",
-        "yw Ukiukipedia": "yw1-037/YD2-032"
-    },
-    "battle_type": "Regular",
-    "skill_name": "Caring",
-    "skill_effect": "Cheerfulness",
-    "disliked_food": "Ramen",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "332",
-                "STR": "119",
-                "SPR": "164",
-                "DEF": "116",
-                "SPD": "147"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "374",
-                "STR": "119",
-                "SPR": "164",
-                "DEF": "116",
-                "SPD": "147"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "1",
-                "STR": "125",
-                "SPR": "355",
-                "DEF": "181",
-                "SPD": "121"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "240-420",
-                "STR": "125",
-                "SPR": "355"
-            },
-            "elements": {
-                "attribute": "Light",
-                "weakness": "Drain"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "240-420"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "240-420"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "240-420"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ホノボーノ",
-            "Honobono"
-        ],
-        "Spanish": [
-            "Felisonte"
-        ],
-        "French": [
-            "Jojojoyeux"
-        ],
-        "Italian": [
-            "Felicio"
-        ],
-        "German": [
-            "Frohland"
-        ],
-        "Korean": [
-            "보노보노",
-            "Bonobono"
-        ],
-        "Russian": [
-            "Благодушник",
-            "Blagodushnik"
-        ],
-        "Arabic": [
-            "بشوش",
-            "Bashūsh"
-        ],
-        "Chinese (Cantonese)": [
-            "可喏啵喏",
-            "ho2"
-        ],
-        "Chinese (Mandarin)": [
-            "暖暖妖",
-            "Nuǎn",
-            "暖波诺",
-            "nuǎn"
-        ],
-        "Portuguese (Brazilian)": [
-            "Joviallan"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ホノボーノ"
-        ],
-        "Spanish": [
-            "Felisonte"
-        ],
-        "French": [
-            "Jojojoyeux"
-        ],
-        "Italian": [
-            "Felicio"
-        ],
-        "German": [
-            "Frohland"
-        ],
-        "Korean": [
-            "보노보노"
-        ],
-        "Russian": [
-            "Благодушник"
-        ],
-        "Arabic": [
-            "بشوش"
-        ],
-        "Chinese (Cantonese)": [
-            "可喏啵喏"
-        ],
-        "Chinese (Mandarin)": [
-            "暖暖妖暖波诺"
-        ],
-        "Portuguese (Brazilian)": [
-            "Joviallan"
-        ]
-    },
-    "nom_en": "Bodyguards",
-    "rang_yww": "C",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "pain",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 48,
-        "str": 6,
-        "spr": 26,
-        "def": 21,
-        "spd": 16
-    },
-    "stats_max_yww": {
-        "hp": 364,
-        "str": 51,
-        "spr": 193,
-        "def": 176,
-        "spd": 116
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "お祭りコイン",
-            "_en": "festival coins",
-            "_fr": "pièces de monnaie du festival"
-        },
-        {
-            "_jp": "緑コイン",
-            "_en": "green coin",
-            "_fr": "pièce verte"
-        }
+    "yw Blasters 1": [
+      "Patrouille -Coteau fleuri"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "あてみ",
-                "_en": "Atemi",
-                "_fr": "Atémi"
-            },
-            "explication": {
-                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "回復の術",
-                "_en": "art of recovery",
-                "_fr": "l'art de la récupération"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
-            }
-        }
+    "yw3": [
+      "Les Hauts de Granval- arbres"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ほのぼのフィールド",
-                "_en": "heartwarming field",
-                "_fr": "champ réconfortant"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "かもしだすほのぼのとしたオーラで味方全員のHPがだんだん回復する。",
-                "_en": "The warm aura it emits gradually recovers the HP of all allies.",
-                "_fr": "L'aura chaleureuse qu'il dégage récupère progressivement les PV de tous les alliés."
-            }
-        }
+    "yw Wibble Wobble": [
+      "Stage 38, 53 (Le Coteau fleuri)",
+      "Stage 98 (Quartier des boutiques)",
+      "Stage 125, 130 (La Corniche)",
+      "Stag 136, 148 (La Tour Excellence)",
+      "Stage 235 (Les plaines Plinplot)",
+      "Stage 261 (Granval-sur-Mer)",
+      "Stage secret 5-2 (Égout E)",
+      "Stage secret 6-5 (Égout F)",
+      "Stage secret 8-6 (Route des vandales)",
+      "Stage secret 13-61 (Limbes éternelles - 5e Cercle)",
+      "Stage secret 16-103 (Limbes éternelles - 8e Cercle)",
+      "Stage secret 18-9 (Paradis divin - 1er), Niveau secret 23-64 (Paradis divin - 6e)",
+      "Niveau d'épreuve 19 (Voie du mystère)",
+      "Niveau d'épreuve 39 (Épreuve d'Orqanos)",
+      "Niveau d'épreuve 18, 31 (Événement des Spectres psychiques)",
+      "Niveau d'épreuve 7, 49 (Festa Automnal Inferno)",
+      "Bingo-kai - Pièce joyeuse",
+      "Bingo-kai - Pièce mystère",
+      "Bingo-kai - Pièce verte",
+      "Bingo-kai - Pièce verte G",
+      "Bingo-kai - Pièce de fête (Domniscian)"
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ほのぼのさせる",
-                "_en": "heartwarming",
-                "_fr": "réconfortant"
-            },
-            "explication": {
-                "_jp": "【回復】 HPが少しづつ回復していく",
-                "_en": "[Recovery] HP gradually recovers",
-                "_fr": "[Récupération] HP récupère progressivement"
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "場の空気をなごませる ほのぼのした妖怪。 どんなに怒っている人も ホノボーノがいると 優しい気持ちになるぞ。",
-            "_en": "A heartwarming monster that calms the atmosphere. No matter how angry someone is, when Honobono is around, they will feel kinder.",
-            "_fr": "Un monstre réconfortant qui calme l’atmosphère. Peu importe à quel point quelqu'un est en colère, quand Honobono est là, il se sentira plus gentil."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw4": [
+      "L'âme de Jojojoyeux peut être récupérée dans leTournoi de Sumo Yo-kaiet également dans les récompenses.\nIl est trouvable aussi dans le combat deGrolosdans leTournoi Enma - Arène Oni."
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage absolu",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Ondes jojoviales",
+        "puissance": "___",
+        "description": "Restaure petit à petit les PV des alliés avec sa formidable aura."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Gaîté",
+        "puissance": "N/A",
+        "description": "Remplit de courage le cœur d'un allié et restaure ses PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Redonne des PV au Yo-kai voisin."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage absolu",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Ondes jojoviales",
+        "puissance": "___",
+        "description": "Restaure peu à peu les PV des alliés avec sa formidable aura."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Gaîté",
+        "puissance": "N/A",
+        "description": "Remplit de courage le cœur d'un allié et restaure graduellement ses PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Ondes jojoviales",
+        "puissance": "___",
+        "description": "Restauration lente des PV des alliés proches."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Cercle de guérison",
+        "puissance": "___",
+        "description": "Crée un champ où les alliés peuvent se restaurer."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Les PV des alliés sont restaurés graduellement."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage absolu",
+        "puissance": "20|70",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Ondes jojoviales",
+        "puissance": "___",
+        "description": "Restaure peu à peu les PV des alliés, grâce à son aura réconfortante."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Gaîté",
+        "puissance": "N/A",
+        "description": "Remplit de courage le cœur d'un allié et restaure lentement ses PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Rend peu à peu des PV à tous les alliés reliés."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Traitement",
+    "description": "Redonne des PV au Yo-kai voisin."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/jojojoyeux.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/jojojoyeux.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/jojojoyeux.wav",
+  "oldID": "16",
+  "medallium_ids": {
+    "yw1": "125",
+    "yw2": "189",
+    "yw3": "355",
+    "yw4": "32 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "232",
+    "yw Blasters 2": "363",
+    "yw Wibble Wobble": "5010",
+    "Kunitori": "4028",
+    "yw World": "0108",
+    "yw Ukiukipedia": "yw1-037/YD2-032"
+  },
+  "battle_type": "Regular",
+  "skill_name": "Caring",
+  "skill_effect": "Cheerfulness",
+  "disliked_food": "Ramen",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "332",
+        "STR": "119",
+        "SPR": "164",
+        "DEF": "116",
+        "SPD": "147"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "374",
+        "STR": "119",
+        "SPR": "164",
+        "DEF": "116",
+        "SPD": "147"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "1",
+        "STR": "125",
+        "SPR": "355",
+        "DEF": "181",
+        "SPD": "121"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "240-420",
+        "STR": "125",
+        "SPR": "355"
+      },
+      "elements": {
+        "attribute": "Light",
+        "weakness": "Drain"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "240-420"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "240-420"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "240-420"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ホノボーノ",
+      "Honobono"
+    ],
+    "Spanish": [
+      "Felisonte"
+    ],
+    "French": [
+      "Jojojoyeux"
+    ],
+    "Italian": [
+      "Felicio"
+    ],
+    "German": [
+      "Frohland"
+    ],
+    "Korean": [
+      "보노보노",
+      "Bonobono"
+    ],
+    "Russian": [
+      "Благодушник",
+      "Blagodushnik"
+    ],
+    "Arabic": [
+      "بشوش",
+      "Bashūsh"
+    ],
+    "Chinese (Cantonese)": [
+      "可喏啵喏",
+      "ho2"
+    ],
+    "Chinese (Mandarin)": [
+      "暖暖妖",
+      "Nuǎn",
+      "暖波诺",
+      "nuǎn"
+    ],
+    "Portuguese (Brazilian)": [
+      "Joviallan"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ホノボーノ"
+    ],
+    "Spanish": [
+      "Felisonte"
+    ],
+    "French": [
+      "Jojojoyeux"
+    ],
+    "Italian": [
+      "Felicio"
+    ],
+    "German": [
+      "Frohland"
+    ],
+    "Korean": [
+      "보노보노"
+    ],
+    "Russian": [
+      "Благодушник"
+    ],
+    "Arabic": [
+      "بشوش"
+    ],
+    "Chinese (Cantonese)": [
+      "可喏啵喏"
+    ],
+    "Chinese (Mandarin)": [
+      "暖暖妖暖波诺"
+    ],
+    "Portuguese (Brazilian)": [
+      "Joviallan"
+    ]
+  },
+  "nom_en": "Bodyguards",
+  "rang_yww": "C",
+  "tribue_yww": "Pokapoka",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "pain",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 48,
+    "str": 6,
+    "spr": 26,
+    "def": 21,
+    "spd": 16
+  },
+  "stats_max_yww": {
+    "hp": 364,
+    "str": 51,
+    "spr": 193,
+    "def": 176,
+    "spd": 116
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "お祭りコイン",
+      "_en": "festival coins",
+      "_fr": "pièces de monnaie du festival"
+    },
+    {
+      "_jp": "緑コイン",
+      "_en": "green coin",
+      "_fr": "pièce verte"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "あてみ",
+        "_en": "Atemi",
+        "_fr": "Atémi"
+      },
+      "explication": {
+        "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "回復の術",
+        "_en": "art of recovery",
+        "_fr": "l'art de la récupération"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 50 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 50 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ほのぼのフィールド",
+        "_en": "heartwarming field",
+        "_fr": "champ réconfortant"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "かもしだすほのぼのとしたオーラで味方全員のHPがだんだん回復する。",
+        "_en": "The warm aura it emits gradually recovers the HP of all allies.",
+        "_fr": "L'aura chaleureuse qu'il dégage récupère progressivement les PV de tous les alliés."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ほのぼのさせる",
+        "_en": "heartwarming",
+        "_fr": "réconfortant"
+      },
+      "explication": {
+        "_jp": "【回復】 HPが少しづつ回復していく",
+        "_en": "[Recovery] HP gradually recovers",
+        "_fr": "[Récupération] HP récupère progressivement"
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "場の空気をなごませる ほのぼのした妖怪。 どんなに怒っている人も ホノボーノがいると 優しい気持ちになるぞ。",
+      "_en": "A heartwarming monster that calms the atmosphere. No matter how angry someone is, when Honobono is around, they will feel kinder.",
+      "_fr": "Un monstre réconfortant qui calme l’atmosphère. Peu importe à quel point quelqu'un est en colère, quand Honobono est là, il se sentira plus gentil."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "146",
+  "Name_yww": "ホノボーノ",
+  "description_jp_yww": "場の空気をなごませる ほのぼのした妖怪。 どんなに怒っている人も ホノボーノがいると 優しい気持ちになるぞ。",
+  "BingoMessage_jp_yww": "ハ～　やさしい時間だったボーノ！ これからはきみと旅するボーノ！",
+  "MonsterId_yww": "y177000",
+  "Height_yww": 17.0,
+  "CommondId_yww": "sp_177000",
+  "MinHp_yww": 48,
+  "MaxHp_yww": 364,
+  "MinAttack_yww": 6,
+  "MaxAttack_yww": 51,
+  "MinMagic_yww": 26,
+  "MaxMagic_yww": 193,
+  "MinDefense_yww": 21,
+  "MaxDefense_yww": 176,
+  "MinSpeed_yww": 16,
+  "MaxSpeed_yww": 116,
+  "AttackId_yww": 25,
+  "MagicId_yww": 23,
+  "HauntId_yww": 177000,
+  "SpSkillId_yww": 177000,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 2,
+  "DislikeFoodKind_yww": 7,
+  "ActionType_yww": 13,
+  "TribeType_yww": 5,
+  "MedallionImage_yww": "y172800.png",
+  "SpriteImage_yww": "img_y172800.png",
+  "Audio_yww": "sp_y172800.wav",
+  "Description_yww": "Un yōkai qui met tout le monde à l'aise et qui réchauffe les cœurs. Même les personnes les plus en colère se sentent attendries en présence de Honobono.",
+  "BingoMessage_fr_yww": "Ah… C'était un moment si doux, Bono ! À partir de maintenant, je voyagerai avec toi, Bono !"
 }

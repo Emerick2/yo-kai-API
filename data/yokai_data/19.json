@@ -1,780 +1,811 @@
 {
-    "ID": "19",
-    "Nom": "Bushidos",
-    "Tribue": "Vaillant",
-    "Rang": "A",
-    "PV": "488",
-    "Force": "317",
-    "Esprit": "54",
-    "Défense": "183",
-    "Vitesse": "100",
-    "Description": "Hauber et Heaumer enfin réunis. Il cherche à faire ce qu'il n'a pu réussir de son vivant. Unifier le pays.",
-    "nourriture": "Légume",
-    "élément": "Foudre",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/bushidos.png",
-    "numero": "010",
-    "nourriture_favorite": "Légume",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Esprit gardien",
-            "effet": "En défense, pas de dégâts élémentaires."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Rafale de coups",
-            "effet": "10x5 | 22x5"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Foudre",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Entaille du Bushi",
-            "effet": "Sort son épée de son fourreau et atteint tous ses ennemis d'un coup. 130 | 195"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Sort du chevalier",
-            "effet": "Affaiblit l'ESP. ennemi avec le pouvoir d'un guerrier ressuscité."
-        }
+  "ID": "19",
+  "Nom": "Bushidos",
+  "Tribue": "Vaillant",
+  "Rang": "A",
+  "PV": "488",
+  "Force": "317",
+  "Esprit": "54",
+  "Défense": "183",
+  "Vitesse": "100",
+  "Description": "Hauber et Heaumer enfin réunis. Il cherche à faire ce qu'il n'a pu réussir de son vivant. Unifier le pays.",
+  "nourriture": "Légume",
+  "élément": "Foudre",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/bushidos.png",
+  "numero": "010",
+  "nourriture_favorite": "Légume",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Esprit gardien",
+      "effet": "En défense, pas de dégâts élémentaires."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Rafale de coups",
+      "effet": "10x5 | 22x5"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Foudre",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Entaille du Bushi",
+      "effet": "Sort son épée de son fourreau et atteint tous ses ennemis d'un coup. 130 | 195"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Sort du chevalier",
+      "effet": "Affaiblit l'ESP. ennemi avec le pouvoir d'un guerrier ressuscité."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Tout ce que j'aime.",
+    "Mange de la nourriture insipide": "*mâche*",
+    "Mange de la mauvaise nourriture": "Non ! Pas ça !",
+    "A la flemme": "Une pause vitale !",
+    "Est échangé": "Ah, tu es donc la personne qui est en charge, maintenant. Très bien !",
+    "Devient ton ami": "Quelle fougue ! Allez, deviens mon laquais... D'accord... devenons amis."
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Heaumer",
+      "parent2": "Hauber",
+      "resultat": "Bushidos",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ゲンマ将軍",
+  "nom_anglais": "Reuknight",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Fusion",
+      "Bushidos apparaît également dans laRoute des Vandales au Yo-kai World."
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Tout ce que j'aime.",
-        "Mange de la nourriture insipide": "*mâche*",
-        "Mange de la mauvaise nourriture": "Non ! Pas ça !",
-        "A la flemme": "Une pause vitale !",
-        "Est échangé": "Ah, tu es donc la personne qui est en charge, maintenant. Très bien !",
-        "Devient ton ami": "Quelle fougue ! Allez, deviens mon laquais... D'accord... devenons amis."
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Heaumer",
-            "parent2": "Hauber",
-            "resultat": "Bushidos",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Fusion",
+      "Bushidos peut également être obtenu auBingo-kaidu passé avec unePièce rouge."
     ],
-    "image_locale": "",
-    "nom_original": "ゲンマ将軍",
-    "nom_anglais": "Reuknight",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Fusion",
-            "Bushidos apparaît également dans laRoute des Vandales au Yo-kai World."
-        ],
-        "yw2": [
-            "Fusion",
-            "Bushidos peut également être obtenu auBingo-kaidu passé avec unePièce rouge."
-        ],
-        "yw3": [
-            "Fusion",
-            "Blasters T"
-        ],
-        "yw4": [
-            "Le Palais d'Emma (Futur)",
-            "Coteau fleuri",
-            "Sakura Motomachi (Passé)",
-            "Bingo-kai(passé):Pièce Ancienneen tant que premier prix etPièce Gasha,Pièce 5 étoilesetPièce 1 étoileen tant que second prix.",
-            "Il est également trouvable dans le combat deGrolosetBogosdans leTournoi Enma - Arène Oniainsi que dans les missions deRugisetKenshin Amaterasudans le mode Blasters."
-        ],
-        "yw Blasters 1": [
-            "Fusion"
-        ]
-    },
-    "rarite": "Peloton du chat rouge",
-    "tribu_yw4": "Bushidos",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "10×5|22×5",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Entaille du Bushi",
-                "puissance": "150|225",
-                "description": "Sort son épée de son fourreau et atteint tous ses ennemis d'un coup."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Sort du chevalier",
-                "puissance": "N/A",
-                "description": "Affaiblit l'ESP. ennemi avec le pouvoir d'un guerrier ressuscité."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "En défense, pas de dégâts élémentaires."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "10×5|22×5",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Foudre",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Entaille du Bushi",
-                "puissance": "130|195",
-                "description": "Sort son épée de son fourreau et atteint tous ses ennemis d'un coup."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Sort du chevalier",
-                "puissance": "N/A",
-                "description": "Affaiblit l'ESP. ennemi avec le pouvoir d'un guerrier ressuscité."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "En défense, pas de dégâts élémentaires."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Entaille du Bushi",
-                "puissance": "480",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Déblindage +",
-                "puissance": "80",
-                "description": "Baisse temporaire DÉF. des ennemis touchés."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "___",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Armure de fer",
-                "puissance": "",
-                "description": "Forte  réduction des dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit du gardien",
-                "description": "Ta jauge d'âme augmente si attaque ennemie gardée."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Rafale de coups",
-                "puissance": "8×5|17×5",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Foudre",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Entaille du Bushi",
-                "puissance": "200|300",
-                "description": "Sort son épée de son fourreau et atteint les ennemis à portée."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Sort du chevalier",
-                "puissance": "N/A",
-                "description": "Affaiblit l'ESP. ennemi avec le pouvoir d'un guerrier ressuscité."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Entaille du Bushi",
-                "puissance": "480",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Déblindage +",
-                "puissance": "80",
-                "description": "Réduit ++ la DÉF. ennemie un court instant."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Esprit gardien",
-                "description": "La garde permet d'éviter les dégâts liés à l'élément faible."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Les coups secrets"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman de force"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Les coups secrets"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman de force"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Grand EXPorbe"
-            },
-            {
-                "taux": "?%",
-                "objet": "Pousse de bambou"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Esprit gardien",
-        "description": "En défense, pas de dégâts élémentaires."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/bushidos.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/bushidos.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/bushidos.wav",
-    "oldID": "20",
-    "medallium_ids": {
-        "yw1": "010",
-        "yw2": "020",
-        "yw3": "027",
-        "yw4": "35 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "024",
-        "yw Blasters 2": "027",
-        "yw Wibble Wobble": "1051",
-        "yw World": "0010",
-        "Y-Gakuen": "107",
-        "yw Ukiukipedia": "yw5-003"
-    },
-    "battle_type": "",
-    "skill_name": "Spirit Guard Guardian Spirit ywB",
-    "skill_effect": "Knight's Curse",
-    "disliked_food": "Hamburgers",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "402",
-                "STR": "203",
-                "SPR": "84",
-                "DEF": "193",
-                "SPD": "143"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "498",
-                "STR": "203",
-                "SPR": "84",
-                "DEF": "193",
-                "SPD": "143"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "263",
-                "STR": "90",
-                "SPR": "62",
-                "DEF": "188",
-                "SPD": "105"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "445",
-                "STR": "208",
-                "SPR": "94",
-                "DEF": "233"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "435",
-                "STR": "207",
-                "SPR": "93",
-                "DEF": "232"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "488"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "331-590",
-                "STR": "207",
-                "SPR": "93",
-                "DEF": "232"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "488",
-                "STR": "317",
-                "SPR": "54",
-                "DEF": "183",
-                "SPD": "100"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw World": {
-            "stats": {
-                "HP": "488",
-                "STR": "317",
-                "SPR": "54",
-                "DEF": "183",
-                "SPD": "100"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ゲンマ将軍",
-            "Genma"
-        ],
-        "Spanish": [
-            "Juntollero"
-        ],
-        "French": [
-            "Bushidos"
-        ],
-        "Italian": [
-            "Uniguerriero"
-        ],
-        "German": [
-            "Hybritter"
-        ],
-        "Dutch": [
-            "Reuknight"
-        ],
-        "Korean": [
-            "환마장군",
-            "Hwanmajanggun"
-        ],
-        "Russian": [
-            "Полновождь",
-            "Polnovozhd'"
-        ],
-        "Arabic": [
-            "عواد",
-            "ʕawwād"
-        ],
-        "Portuguese (Brazilian)": [
-            "Bravelmo"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ゲンマ将軍"
-        ],
-        "Spanish": [
-            "Juntollero"
-        ],
-        "French": [
-            "Bushidos"
-        ],
-        "Italian": [
-            "Uniguerriero"
-        ],
-        "German": [
-            "Hybritter"
-        ],
-        "Dutch": [
-            "Reuknight"
-        ],
-        "Korean": [
-            "환마장군"
-        ],
-        "Russian": [
-            "Полновождь"
-        ],
-        "Arabic": [
-            "عواد"
-        ],
-        "Portuguese (Brazilian)": [
-            "Bravelmo"
-        ]
-    },
-    "description_en": "Helmsman and Armsman reunited. He now aspires to do what he couldn't do when he was alive— unify the country.",
-    "nom_en": "Helmsman",
-    "rang_yww": "A",
-    "tribue_yww": "Isamashi",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "légumes",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
-        "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 65,
-        "str": 42,
-        "spr": 6,
-        "def": 30,
-        "spd": 7
-    },
-    "stats_max_yww": {
-        "hp": 488,
-        "str": 317,
-        "spr": 54,
-        "def": 183,
-        "spd": 100
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw3": [
+      "Fusion",
+      "Blasters T"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "疾風づき",
-                "_en": "Gale",
-                "_fr": "Coup de vent"
-            },
-            "explication": {
-                "_jp": "【威力:8×5 / 打撃】 連続攻撃を行う",
-                "_en": "[Power: 8×5/Blow] Performs continuous attacks",
-                "_fr": "[Puissance : 8×5/Coup] Effectue des attaques continues"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "いかずちの術",
-                "_en": "Ikazuchi no Jutsu",
-                "_fr": "Ikazuchi no Jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 雷属性】 強力な雷の妖術を使う。",
-                "_en": "[Power: 50 / Lightning attribute] Uses powerful lightning magic.",
-                "_fr": "[Puissance : 50 / Attribut Foudre] Utilise une puissante magie de foudre."
-            }
-        }
+    "yw4": [
+      "Le Palais d'Emma (Futur)",
+      "Coteau fleuri",
+      "Sakura Motomachi (Passé)",
+      "Bingo-kai(passé):Pièce Ancienneen tant que premier prix etPièce Gasha,Pièce 5 étoilesetPièce 1 étoileen tant que second prix.",
+      "Il est également trouvable dans le combat deGrolosetBogosdans leTournoi Enma - Arène Oniainsi que dans les missions deRugisetKenshin Amaterasudans le mode Blasters."
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ゲンマ斬",
-                "_en": "Genma Zan",
-                "_fr": "Genma Zan"
-            },
-            "pouvoir": "150",
-            "explication": {
-                "_jp": "–",
-                "_en": null,
-                "_fr": null
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ゲンマの呪い",
-                "_en": "Genma's curse",
-                "_fr": "La malédiction de Genma"
-            },
-            "explication": {
-                "_jp": "【ようりょくダウン】 とりつかれた妖怪はふしぎなゲンマの力で ようりょくがダウンする。",
-                "_en": "[Yoryoku Down] The possessed monster will be knocked down by the mysterious Genma power.",
-                "_fr": "[Yoryoku Down] Le monstre possédé sera renversé par le mystérieux pouvoir Genma."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "離れ離れだった カブトとヨロイがひとつになり 現代によみがえった武将の霊。 果たせなかった天下統一を めざしている。",
-            "_en": "The spirit of a warlord has been revived in modern times by combining Kabuto and Armor, who were separated. They aim to unify the country, which they were unable to achieve.",
-            "_fr": "L'esprit d'un seigneur de guerre a été ravivé dans les temps modernes en combinant Kabuto et Armor, qui étaient séparés. Ils visent à unifier le pays, ce qu’ils n’ont pas réussi à réaliser."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Blasters 1": [
+      "Fusion"
     ]
+  },
+  "rarite": "Peloton du chat rouge",
+  "tribu_yw4": "Bushidos",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Rafale de coups",
+        "puissance": "10×5|22×5",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Décharge",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Entaille du Bushi",
+        "puissance": "150|225",
+        "description": "Sort son épée de son fourreau et atteint tous ses ennemis d'un coup."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Sort du chevalier",
+        "puissance": "N/A",
+        "description": "Affaiblit l'ESP. ennemi avec le pouvoir d'un guerrier ressuscité."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit gardien",
+        "description": "En défense, pas de dégâts élémentaires."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Rafale de coups",
+        "puissance": "10×5|22×5",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Foudre",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Entaille du Bushi",
+        "puissance": "130|195",
+        "description": "Sort son épée de son fourreau et atteint tous ses ennemis d'un coup."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Sort du chevalier",
+        "puissance": "N/A",
+        "description": "Affaiblit l'ESP. ennemi avec le pouvoir d'un guerrier ressuscité."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit gardien",
+        "description": "En défense, pas de dégâts élémentaires."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Entaille du Bushi",
+        "puissance": "480",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Déblindage +",
+        "puissance": "80",
+        "description": "Baisse temporaire DÉF. des ennemis touchés."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Encore !",
+        "puissance": "___",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Armure de fer",
+        "puissance": "",
+        "description": "Forte  réduction des dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit du gardien",
+        "description": "Ta jauge d'âme augmente si attaque ennemie gardée."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Rafale de coups",
+        "puissance": "8×5|17×5",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Foudre",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Entaille du Bushi",
+        "puissance": "200|300",
+        "description": "Sort son épée de son fourreau et atteint les ennemis à portée."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Sort du chevalier",
+        "puissance": "N/A",
+        "description": "Affaiblit l'ESP. ennemi avec le pouvoir d'un guerrier ressuscité."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Entaille du Bushi",
+        "puissance": "480",
+        "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Déblindage +",
+        "puissance": "80",
+        "description": "Réduit ++ la DÉF. ennemie un court instant."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Esprit gardien",
+        "description": "La garde permet d'éviter les dégâts liés à l'élément faible."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Les coups secrets"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman de force"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Les coups secrets"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman de force"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Grand EXPorbe"
+      },
+      {
+        "taux": "?%",
+        "objet": "Pousse de bambou"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Esprit gardien",
+    "description": "En défense, pas de dégâts élémentaires."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/bushidos.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/bushidos.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/bushidos.wav",
+  "oldID": "20",
+  "medallium_ids": {
+    "yw1": "010",
+    "yw2": "020",
+    "yw3": "027",
+    "yw4": "35 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "024",
+    "yw Blasters 2": "027",
+    "yw Wibble Wobble": "1051",
+    "yw World": "0010",
+    "Y-Gakuen": "107",
+    "yw Ukiukipedia": "yw5-003"
+  },
+  "battle_type": "",
+  "skill_name": "Spirit Guard Guardian Spirit ywB",
+  "skill_effect": "Knight's Curse",
+  "disliked_food": "Hamburgers",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "402",
+        "STR": "203",
+        "SPR": "84",
+        "DEF": "193",
+        "SPD": "143"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "498",
+        "STR": "203",
+        "SPR": "84",
+        "DEF": "193",
+        "SPD": "143"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "263",
+        "STR": "90",
+        "SPR": "62",
+        "DEF": "188",
+        "SPD": "105"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "445",
+        "STR": "208",
+        "SPR": "94",
+        "DEF": "233"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "435",
+        "STR": "207",
+        "SPR": "93",
+        "DEF": "232"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "488"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "331-590",
+        "STR": "207",
+        "SPR": "93",
+        "DEF": "232"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "488",
+        "STR": "317",
+        "SPR": "54",
+        "DEF": "183",
+        "SPD": "100"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw World": {
+      "stats": {
+        "HP": "488",
+        "STR": "317",
+        "SPR": "54",
+        "DEF": "183",
+        "SPD": "100"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ゲンマ将軍",
+      "Genma"
+    ],
+    "Spanish": [
+      "Juntollero"
+    ],
+    "French": [
+      "Bushidos"
+    ],
+    "Italian": [
+      "Uniguerriero"
+    ],
+    "German": [
+      "Hybritter"
+    ],
+    "Dutch": [
+      "Reuknight"
+    ],
+    "Korean": [
+      "환마장군",
+      "Hwanmajanggun"
+    ],
+    "Russian": [
+      "Полновождь",
+      "Polnovozhd'"
+    ],
+    "Arabic": [
+      "عواد",
+      "ʕawwād"
+    ],
+    "Portuguese (Brazilian)": [
+      "Bravelmo"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ゲンマ将軍"
+    ],
+    "Spanish": [
+      "Juntollero"
+    ],
+    "French": [
+      "Bushidos"
+    ],
+    "Italian": [
+      "Uniguerriero"
+    ],
+    "German": [
+      "Hybritter"
+    ],
+    "Dutch": [
+      "Reuknight"
+    ],
+    "Korean": [
+      "환마장군"
+    ],
+    "Russian": [
+      "Полновождь"
+    ],
+    "Arabic": [
+      "عواد"
+    ],
+    "Portuguese (Brazilian)": [
+      "Bravelmo"
+    ]
+  },
+  "description_en": "Helmsman and Armsman reunited. He now aspires to do what he couldn't do when he was alive— unify the country.",
+  "nom_en": "Helmsman",
+  "rang_yww": "A",
+  "tribue_yww": "Isamashi",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "légumes",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(敵とりつき) いやらしい、非道",
+    "_en": "(Shield role) Shincho, unfazed, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle de bouclier) Shincho, imperturbable, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 65,
+    "str": 42,
+    "spr": 6,
+    "def": 30,
+    "spd": 7
+  },
+  "stats_max_yww": {
+    "hp": 488,
+    "str": 317,
+    "spr": 54,
+    "def": 183,
+    "spd": 100
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "ホワイトデー妖怪ガシャ",
+      "_en": "White Day Yokai Gasha",
+      "_fr": "Jour blanc Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    },
+    {
+      "_jp": "春一番妖怪ガシャ",
+      "_en": "Spring Ichiban Yokai Gasha",
+      "_fr": "Printemps Ichiban Yokai Gasha"
+    },
+    {
+      "_jp": "桜花ランラン妖怪ガシャ",
+      "_en": "Sakura Ranran Yokai Gasha",
+      "_fr": "Sakura Ranran Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "電車でお出かけ妖怪ガシャ",
+      "_en": "Going out by train Yokai Gasha",
+      "_fr": "Sortir en train Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "GW妖怪バトルリーグガシャ",
+      "_en": "GW Yokai Battle League Gasha",
+      "_fr": "GW Yokai Battle League Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "疾風づき",
+        "_en": "Gale",
+        "_fr": "Coup de vent"
+      },
+      "explication": {
+        "_jp": "【威力:8×5 / 打撃】 連続攻撃を行う",
+        "_en": "[Power: 8×5/Blow] Performs continuous attacks",
+        "_fr": "[Puissance : 8×5/Coup] Effectue des attaques continues"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "いかずちの術",
+        "_en": "Ikazuchi no Jutsu",
+        "_fr": "Ikazuchi no Jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 雷属性】 強力な雷の妖術を使う。",
+        "_en": "[Power: 50 / Lightning attribute] Uses powerful lightning magic.",
+        "_fr": "[Puissance : 50 / Attribut Foudre] Utilise une puissante magie de foudre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ゲンマ斬",
+        "_en": "Genma Zan",
+        "_fr": "Genma Zan"
+      },
+      "pouvoir": "150",
+      "explication": {
+        "_jp": "–",
+        "_en": null,
+        "_fr": null
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ゲンマの呪い",
+        "_en": "Genma's curse",
+        "_fr": "La malédiction de Genma"
+      },
+      "explication": {
+        "_jp": "【ようりょくダウン】 とりつかれた妖怪はふしぎなゲンマの力で ようりょくがダウンする。",
+        "_en": "[Yoryoku Down] The possessed monster will be knocked down by the mysterious Genma power.",
+        "_fr": "[Yoryoku Down] Le monstre possédé sera renversé par le mystérieux pouvoir Genma."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "離れ離れだった カブトとヨロイがひとつになり 現代によみがえった武将の霊。 果たせなかった天下統一を めざしている。",
+      "_en": "The spirit of a warlord has been revived in modern times by combining Kabuto and Armor, who were separated. They aim to unify the country, which they were unable to achieve.",
+      "_fr": "L'esprit d'un seigneur de guerre a été ravivé dans les temps modernes en combinant Kabuto et Armor, qui étaient séparés. Ils visent à unifier le pays, ce qu’ils n’ont pas réussi à réaliser."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "19",
+  "Name_yww": "ゲンマ将軍",
+  "description_jp_yww": "離れ離れだった カブトとヨロイがひとつになり 現代によみがえった武将の霊。 果たせなかった天下統一を めざしている。",
+  "BingoMessage_jp_yww": "なんじゃ　家来志願者じゃないのか… まぁよかろう！　さっさと旅に出るぞ！",
+  "MonsterId_yww": "y112000",
+  "Height_yww": 15.0,
+  "CommondId_yww": "sp_112000",
+  "MinHp_yww": 65,
+  "MaxHp_yww": 488,
+  "MinAttack_yww": 42,
+  "MaxAttack_yww": 317,
+  "MinMagic_yww": 6,
+  "MaxMagic_yww": 54,
+  "MinDefense_yww": 30,
+  "MaxDefense_yww": 183,
+  "MinSpeed_yww": 7,
+  "MaxSpeed_yww": 100,
+  "AttackId_yww": 15,
+  "MagicId_yww": 8,
+  "HauntId_yww": 112000,
+  "SpSkillId_yww": 112000,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 10,
+  "DislikeFoodKind_yww": 6,
+  "ActionType_yww": 3,
+  "TribeType_yww": 1,
+  "MedallionImage_yww": "y107800.png",
+  "SpriteImage_yww": "img_y107800.png",
+  "Audio_yww": "sp_y107800.wav",
+  "Description_yww": "Après avoir été séparés, le casque et l'armure ne font plus qu'un, et l'esprit du guerrier a ressuscité à notre époque. Il cherche désormais à accomplir la unification du pays qu'il n'a pas pu mener à bien.",
+  "BingoMessage_fr_yww": "Quoi ? Tu ne veux pas devenir mon serviteur… Bon, tant pis ! On part en voyage sans plus attendre !"
 }

@@ -1,599 +1,630 @@
 {
-    "ID": "78",
-    "Nom": "Lama Laya",
-    "Tribue": "Costaud",
-    "Rang": "C",
-    "PV": "438",
-    "Force": "104",
-    "Esprit": "66",
-    "Défense": "259",
-    "Vitesse": "70",
-    "Description": "Originaire des contrées gelées, c'est le lutteur avec des jambes solides et un cœur de glace : LAMA LAYA !",
-    "nourriture": "Riz",
-    "élément": "Glace",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Lama Laya vient de l'Himalaya. Fuji no Yamaest inspiré du Mont Fuji.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/lama-laya.png",
-    "numero": "068",
-    "nourriture_favorite": "Sushi",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Volonté de fer",
-            "effet": "Gardera 1 PV après un coup fatal."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paume puissante",
-            "effet": "60 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Grêle",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Ultra haka",
-            "effet": "Augm. la DÉF. et attire les attaques ennemies grâce à une danse défensive."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Persévérance",
-            "effet": "Renforce la DÉF. et la ténacité d'un allié."
-        }
+  "ID": "78",
+  "Nom": "Lama Laya",
+  "Tribue": "Costaud",
+  "Rang": "C",
+  "PV": "438",
+  "Force": "104",
+  "Esprit": "66",
+  "Défense": "259",
+  "Vitesse": "70",
+  "Description": "Originaire des contrées gelées, c'est le lutteur avec des jambes solides et un cœur de glace : LAMA LAYA !",
+  "nourriture": "Riz",
+  "élément": "Glace",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Lama Laya vient de l'Himalaya. Fuji no Yamaest inspiré du Mont Fuji.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/lama-laya.png",
+  "numero": "068",
+  "nourriture_favorite": "Sushi",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Volonté de fer",
+      "effet": "Gardera 1 PV après un coup fatal."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paume puissante",
+      "effet": "60 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Grêle",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Ultra haka",
+      "effet": "Augm. la DÉF. et attire les attaques ennemies grâce à une danse défensive."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Persévérance",
+      "effet": "Renforce la DÉF. et la ténacité d'un allié."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Oooh, c'est bon !",
+    "Mange de la nourriture insipide": "C'est pas mauvais.",
+    "Mange de la mauvaise nourriture": "Aucune chance.",
+    "A la flemme": "Je ne suis pas là.",
+    "Est échangé": "Est-ce mon nouveau terrain d'entraînement ?",
+    "Devient ton ami": "Laisse-moi rejoindre ton équipe pour qu'on s'entraîne tout le temps ! ALLEZ !"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Lama Laya",
+      "parent2": "Parasolal",
+      "resultat": "Scarasol",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ふじのやま",
+  "nom_anglais": "Mad Mountain",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Tunnel abandonné",
+      "Bingo-kai-Pièce orange"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Oooh, c'est bon !",
-        "Mange de la nourriture insipide": "C'est pas mauvais.",
-        "Mange de la mauvaise nourriture": "Aucune chance.",
-        "A la flemme": "Je ne suis pas là.",
-        "Est échangé": "Est-ce mon nouveau terrain d'entraînement ?",
-        "Devient ton ami": "Laisse-moi rejoindre ton équipe pour qu'on s'entraîne tout le temps ! ALLEZ !"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Lama Laya",
-            "parent2": "Parasolal",
-            "resultat": "Scarasol",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Ourcival-Canyon de la cigale",
+      "Château de Sawayama - village"
     ],
-    "image_locale": "",
-    "nom_original": "ふじのやま",
-    "nom_anglais": "Mad Mountain",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Tunnel abandonné",
-            "Bingo-kai-Pièce orange"
-        ],
-        "yw2": [
-            "Ourcival-Canyon de la cigale",
-            "Château de Sawayama - village"
-        ],
-        "yw Blasters 1": [
-            "Patrouille -Ourcival"
-        ],
-        "yw3": [
-            "Clinique du Crépuscule"
-        ],
-        "yw4": [
-            "Lama Laya est exclusif auTounoi de Sumo Yo-kaiet est disponible dans la boutique deLulugubredans le mode de jeu."
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Paume puissante",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Grêle",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Ultra haka",
-                "puissance": "___",
-                "description": "Fait une danse rituelle pour augmenter sa DÉF. et contrer les attaques."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Persévérance",
-                "puissance": "N/A",
-                "description": "Renforce la DÉF. et la ténacité d'un allié."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Volonté de fer",
-                "description": "Gardera 1 PV après un coup fatal. (une fois)"
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Paume puissante",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Grêle",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Ultra haka",
-                "puissance": "___",
-                "description": "Augm. la DÉF et attire les attaques ennemies grâce à une danse défensive."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Persévérance",
-                "puissance": "N/A",
-                "description": "Renforce la DÉF. et la ténacité d'un allié."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Volonté de fer",
-                "description": "Gardera 1 PV après un coup fatal. (une fois)"
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Ultra haka",
-                "puissance": "___",
-                "description": "Forte augmentation de la vitesse, attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Champ de force",
-                "puissance": "___",
-                "description": "Hausse temporaire de la protection des alliés."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Armure de fer",
-                "puissance": "___",
-                "description": "Forte réduction des dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Cran",
-                "description": "Quand PV à 0, 1PV sera restauré une seule fois."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Paume puissante",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Grêle",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Ultra haka",
-                "puissance": "___",
-                "description": "Se donne corps et âme pour ce haka, augmentant fortement la DÉF."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Persévérance",
-                "puissance": "N/A",
-                "description": "Augmente fortement la DÉF. et la ténacité d'un allié."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Ultra haka",
-                "puissance": "___",
-                "description": "Booste +++ la DÉF. Attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Champ de force",
-                "puissance": "___",
-                "description": "Booste +++ la DÉF. alliée à proximité lors d’un instant."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Volonté de fer",
-                "description": "Gardera 1 PV après un coup fatal."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Tout sur la défense"
-            },
-            {
-                "taux": "?%",
-                "objet": "Riz à la prune"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Bracelet de farceur"
-            },
-            {
-                "taux": "?%",
-                "objet": "Riz œufs saumon"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Sushi crevette"
-            },
-            {
-                "taux": "?%",
-                "objet": "Carte cadeau musique"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Volonté de fer",
-        "description": "Gardera 1 PV après un coup fatal. (une fois)"
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/lama-laya.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/lama-laya.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/lama-laya.wav",
-    "oldID": "78",
-    "medallium_ids": {
-        "yw1": "068",
-        "yw2": "108",
-        "yw3": "182",
-        "yw4": "14 - Yo-kai"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "122",
-        "yw Blasters 2": "186",
-        "yw Wibble Wobble": "3005",
-        "yw World": "0059",
-        "yw Ukiukipedia": "yw4-012"
-    },
-    "battle_type": "Regular",
-    "skill_name": "The Stand",
-    "skill_effect": "Perseverance",
-    "disliked_food": "Juice",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "387",
-                "STR": "153",
-                "SPR": "88",
-                "DEF": "149",
-                "SPD": "114"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "448",
-                "STR": "153",
-                "SPR": "88",
-                "DEF": "149",
-                "SPD": "114"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "205",
-                "STR": "58",
-                "SPR": "22",
-                "DEF": "264",
-                "SPD": "75"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw4": {
-            "stats": {
-                "HP": "220-385",
-                "STR": "58",
-                "SPR": "22"
-            },
-            "elements": {
-                "attribute": "Ice",
-                "weakness": "Fire"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "220-385"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "220-385"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "220-385"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ふじのやま",
-            "Fuji"
-        ],
-        "Spanish": [
-            "Montaña"
-        ],
-        "French": [
-            "Lama"
-        ],
-        "Italian": [
-            "Ghelo"
-        ],
-        "German": [
-            "Der"
-        ],
-        "Korean": [
-            "설산씨름꾼",
-            "Seolsanssireumkkun"
-        ],
-        "Russian": [
-            "Бешегор",
-            "Beshegor"
-        ],
-        "Arabic": [
-            "مصارع",
-            "Muṣārie"
-        ],
-        "Chinese (Cantonese)": [
-            "富士山"
-        ],
-        "Chinese (Mandarin)": [
-            "富士雪山(Taiwan)",
-            "富咚山(Mainland"
-        ],
-        "Portuguese (Brazilian)": [
-            "O"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ふじのやま"
-        ],
-        "Spanish": [
-            "Montaña Loca"
-        ],
-        "French": [
-            "Lama Laya"
-        ],
-        "Italian": [
-            "Ghelo"
-        ],
-        "German": [
-            "Der Brocken"
-        ],
-        "Korean": [
-            "설산씨름꾼"
-        ],
-        "Russian": [
-            "Бешегор"
-        ],
-        "Arabic": [
-            "مصارع"
-        ],
-        "Chinese (Cantonese)": [
-            "富士山"
-        ],
-        "Chinese (Mandarin)": [
-            "富士雪山(Taiwan)富咚山(Mainland China)"
-        ],
-        "Portuguese (Brazilian)": [
-            "O Montanha"
-        ]
-    },
-    "description_en": "Hailing from the land of frost, he's the wrestler with legs as thick as glaciers and a heart of ice: MAD MOUNTAIN!",
-    "nom_en": "Ledballoon",
-    "rang_yww": "C",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "Sushis",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "stats_initiale_yww": {
-        "hp": 66,
-        "str": 12,
-        "spr": 5,
-        "def": 34,
-        "spd": 10
-    },
-    "stats_max_yww": {
-        "hp": 438,
-        "str": 104,
-        "spr": 66,
-        "def": 259,
-        "spd": 70
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "オレンジコイン",
-            "_en": "orange coin",
-            "_fr": "pièce de monnaie orange"
-        }
+    "yw Blasters 1": [
+      "Patrouille -Ourcival"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "つっぱり",
-                "_en": "Tension",
-                "_fr": "Tension"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 敵のガードの効果を下げる",
-                "_en": "[Power: 50/Blow] Reduces the effectiveness of enemy's guard.",
-                "_fr": "[Puissance : 50 / Hit] Réduit l'efficacité de la garde ennemie"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "あられの術",
-                "_en": "Hail no jutsu",
-                "_fr": "Salut, pas de jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 氷属性】 氷の妖術を使う。",
-                "_en": "[Power: 30 / Ice attribute] Uses ice magic.",
-                "_fr": "[Puissance : 30 / Attribut Glace] Utilise la magie de la glace."
-            }
-        }
+    "yw3": [
+      "Clinique du Crépuscule"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ウルトラしこふみ",
-                "_en": "Ultra Shikofumi",
-                "_fr": "Ultra Shikofumi"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ねばり強くする",
-                "_en": "make tough",
-                "_fr": "rendre difficile"
-            },
-            "explication": {
-                "_jp": "【まもりアップ】 とりつかれた妖怪はどひょうぎわのねばりがでて まもりが大アップする。",
-                "_en": "[Increased protection] A possessed monster becomes sticky and its protection increases greatly.",
-                "_fr": "[Protection accrue] Un monstre possédé devient collant et sa protection augmente considérablement."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "雪国からやってきた 相撲が大好きな妖怪。 氷の上できたえた足腰で どんなときでも 驚くべき ねばりを見せる。",
-            "_en": "A monster who loves sumo wrestling from a snowy country. With his legs built on the ice, he shows amazing tenacity no matter what.",
-            "_fr": "Un monstre qui aime le sumo et vient d'un pays enneigé. Avec ses jambes bâties sur la glace, il fait preuve d’une ténacité étonnante quoi qu’il arrive."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw4": [
+      "Lama Laya est exclusif auTounoi de Sumo Yo-kaiet est disponible dans la boutique deLulugubredans le mode de jeu."
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Paume puissante",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Grêle",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Ultra haka",
+        "puissance": "___",
+        "description": "Fait une danse rituelle pour augmenter sa DÉF. et contrer les attaques."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Persévérance",
+        "puissance": "N/A",
+        "description": "Renforce la DÉF. et la ténacité d'un allié."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Volonté de fer",
+        "description": "Gardera 1 PV après un coup fatal. (une fois)"
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Paume puissante",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Grêle",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Ultra haka",
+        "puissance": "___",
+        "description": "Augm. la DÉF et attire les attaques ennemies grâce à une danse défensive."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Persévérance",
+        "puissance": "N/A",
+        "description": "Renforce la DÉF. et la ténacité d'un allié."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Volonté de fer",
+        "description": "Gardera 1 PV après un coup fatal. (une fois)"
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Ultra haka",
+        "puissance": "___",
+        "description": "Forte augmentation de la vitesse, attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Champ de force",
+        "puissance": "___",
+        "description": "Hausse temporaire de la protection des alliés."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Armure de fer",
+        "puissance": "___",
+        "description": "Forte réduction des dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Cran",
+        "description": "Quand PV à 0, 1PV sera restauré une seule fois."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Paume puissante",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Grêle",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Ultra haka",
+        "puissance": "___",
+        "description": "Se donne corps et âme pour ce haka, augmentant fortement la DÉF."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Persévérance",
+        "puissance": "N/A",
+        "description": "Augmente fortement la DÉF. et la ténacité d'un allié."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Ultra haka",
+        "puissance": "___",
+        "description": "Booste +++ la DÉF. Attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Champ de force",
+        "puissance": "___",
+        "description": "Booste +++ la DÉF. alliée à proximité lors d’un instant."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Volonté de fer",
+        "description": "Gardera 1 PV après un coup fatal."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Tout sur la défense"
+      },
+      {
+        "taux": "?%",
+        "objet": "Riz à la prune"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Bracelet de farceur"
+      },
+      {
+        "taux": "?%",
+        "objet": "Riz œufs saumon"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Sushi crevette"
+      },
+      {
+        "taux": "?%",
+        "objet": "Carte cadeau musique"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Volonté de fer",
+    "description": "Gardera 1 PV après un coup fatal. (une fois)"
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/lama-laya.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/lama-laya.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/lama-laya.wav",
+  "oldID": "78",
+  "medallium_ids": {
+    "yw1": "068",
+    "yw2": "108",
+    "yw3": "182",
+    "yw4": "14 - Yo-kai"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "122",
+    "yw Blasters 2": "186",
+    "yw Wibble Wobble": "3005",
+    "yw World": "0059",
+    "yw Ukiukipedia": "yw4-012"
+  },
+  "battle_type": "Regular",
+  "skill_name": "The Stand",
+  "skill_effect": "Perseverance",
+  "disliked_food": "Juice",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "387",
+        "STR": "153",
+        "SPR": "88",
+        "DEF": "149",
+        "SPD": "114"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "448",
+        "STR": "153",
+        "SPR": "88",
+        "DEF": "149",
+        "SPD": "114"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "205",
+        "STR": "58",
+        "SPR": "22",
+        "DEF": "264",
+        "SPD": "75"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw4": {
+      "stats": {
+        "HP": "220-385",
+        "STR": "58",
+        "SPR": "22"
+      },
+      "elements": {
+        "attribute": "Ice",
+        "weakness": "Fire"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "220-385"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "220-385"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "220-385"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ふじのやま",
+      "Fuji"
+    ],
+    "Spanish": [
+      "Montaña"
+    ],
+    "French": [
+      "Lama"
+    ],
+    "Italian": [
+      "Ghelo"
+    ],
+    "German": [
+      "Der"
+    ],
+    "Korean": [
+      "설산씨름꾼",
+      "Seolsanssireumkkun"
+    ],
+    "Russian": [
+      "Бешегор",
+      "Beshegor"
+    ],
+    "Arabic": [
+      "مصارع",
+      "Muṣārie"
+    ],
+    "Chinese (Cantonese)": [
+      "富士山"
+    ],
+    "Chinese (Mandarin)": [
+      "富士雪山(Taiwan)",
+      "富咚山(Mainland"
+    ],
+    "Portuguese (Brazilian)": [
+      "O"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ふじのやま"
+    ],
+    "Spanish": [
+      "Montaña Loca"
+    ],
+    "French": [
+      "Lama Laya"
+    ],
+    "Italian": [
+      "Ghelo"
+    ],
+    "German": [
+      "Der Brocken"
+    ],
+    "Korean": [
+      "설산씨름꾼"
+    ],
+    "Russian": [
+      "Бешегор"
+    ],
+    "Arabic": [
+      "مصارع"
+    ],
+    "Chinese (Cantonese)": [
+      "富士山"
+    ],
+    "Chinese (Mandarin)": [
+      "富士雪山(Taiwan)富咚山(Mainland China)"
+    ],
+    "Portuguese (Brazilian)": [
+      "O Montanha"
+    ]
+  },
+  "description_en": "Hailing from the land of frost, he's the wrestler with legs as thick as glaciers and a heart of ice: MAD MOUNTAIN!",
+  "nom_en": "Ledballoon",
+  "rang_yww": "C",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "Sushis",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "avantage_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "stats_initiale_yww": {
+    "hp": 66,
+    "str": 12,
+    "spr": 5,
+    "def": 34,
+    "spd": 10
+  },
+  "stats_max_yww": {
+    "hp": 438,
+    "str": 104,
+    "spr": 66,
+    "def": 259,
+    "spd": 70
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "オレンジコイン",
+      "_en": "orange coin",
+      "_fr": "pièce de monnaie orange"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "つっぱり",
+        "_en": "Tension",
+        "_fr": "Tension"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 敵のガードの効果を下げる",
+        "_en": "[Power: 50/Blow] Reduces the effectiveness of enemy's guard.",
+        "_fr": "[Puissance : 50 / Hit] Réduit l'efficacité de la garde ennemie"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "あられの術",
+        "_en": "Hail no jutsu",
+        "_fr": "Salut, pas de jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 氷属性】 氷の妖術を使う。",
+        "_en": "[Power: 30 / Ice attribute] Uses ice magic.",
+        "_fr": "[Puissance : 30 / Attribut Glace] Utilise la magie de la glace."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ウルトラしこふみ",
+        "_en": "Ultra Shikofumi",
+        "_fr": "Ultra Shikofumi"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ねばり強くする",
+        "_en": "make tough",
+        "_fr": "rendre difficile"
+      },
+      "explication": {
+        "_jp": "【まもりアップ】 とりつかれた妖怪はどひょうぎわのねばりがでて まもりが大アップする。",
+        "_en": "[Increased protection] A possessed monster becomes sticky and its protection increases greatly.",
+        "_fr": "[Protection accrue] Un monstre possédé devient collant et sa protection augmente considérablement."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "雪国からやってきた 相撲が大好きな妖怪。 氷の上できたえた足腰で どんなときでも 驚くべき ねばりを見せる。",
+      "_en": "A monster who loves sumo wrestling from a snowy country. With his legs built on the ice, he shows amazing tenacity no matter what.",
+      "_fr": "Un monstre qui aime le sumo et vient d'un pays enneigé. Avec ses jambes bâties sur la glace, il fait preuve d’une ténacité étonnante quoi qu’il arrive."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "78",
+  "Name_yww": "ふじのやま",
+  "description_jp_yww": "雪国からやってきた 相撲が大好きな妖怪。 氷の上できたえた足腰で どんなときでも 驚くべき　ねばりを見せる。",
+  "BingoMessage_jp_yww": "ややっ　けいこ中に　ガシャが当たるとは… お主も一緒に　けいこするでごわす！",
+  "MonsterId_yww": "y144000",
+  "Height_yww": 10.0,
+  "CommondId_yww": "sp_144000",
+  "MinHp_yww": 66,
+  "MaxHp_yww": 438,
+  "MinAttack_yww": 12,
+  "MaxAttack_yww": 104,
+  "MinMagic_yww": 5,
+  "MaxMagic_yww": 66,
+  "MinDefense_yww": 34,
+  "MaxDefense_yww": 259,
+  "MinSpeed_yww": 10,
+  "MaxSpeed_yww": 70,
+  "AttackId_yww": 51,
+  "MagicId_yww": 13,
+  "HauntId_yww": 144000,
+  "SpSkillId_yww": 144000,
+  "Rank_yww": 3,
+  "FavoriteFoodKind_yww": 8,
+  "DislikeFoodKind_yww": 5,
+  "ActionType_yww": 20,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y139800.png",
+  "SpriteImage_yww": "img_y139800.png",
+  "Audio_yww": "sp_y139800.wav",
+  "Description_yww": "Venu d'une région enneigée, c'est un yōkai passionné de sumo. Grâce à ses jambes et à son bas-ventre endurcis sur la glace, il fait preuve, en toutes circonstances, d'une ténacité étonnante.",
+  "BingoMessage_fr_yww": "Eh bien, je ne m'attendais pas à gagner au gacha pendant l'entraînement… Viens t'entraîner avec moi, alors !"
 }

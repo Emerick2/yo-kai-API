@@ -1,603 +1,634 @@
 {
-    "ID": "117",
-    "Nom": "Tourneboul",
-    "Tribue": "Insaisissable",
-    "Rang": "B",
-    "PV": "371",
-    "Force": "79",
-    "Esprit": "180",
-    "Défense": "43",
-    "Vitesse": "223",
-    "Description-": "Il a toujours froid. Ceux qu'il envoûte portent plusieurs couches de vêtements en été.",
-    "Description": "Tourneboul te fait marmonner et bafouiller. Le pire est quand tu dois parler à voix haute en classe !",
-    "nourriture": "Bonbons",
-    "élément": "Absorption",
-    "Rôle": "Combattant",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/tourneboul.png",
-    "numero": "202",
-    "nourriture_favorite": "Sucrerie",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Âmunisé",
-            "effet": "Les Âmultimes seront esquivées."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Plaquage absolu",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Vortex",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tourneboulement",
-            "effet": "Envoie une sombre aura à ses ennemis pour les étourdir. 100 | 100"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Cœur incertain",
-            "effet": "Affaiblit un ennemi et réduit ses stats."
-        }
+  "ID": "117",
+  "Nom": "Tourneboul",
+  "Tribue": "Insaisissable",
+  "Rang": "B",
+  "PV": "371",
+  "Force": "79",
+  "Esprit": "180",
+  "Défense": "43",
+  "Vitesse": "223",
+  "Description-": "Il a toujours froid. Ceux qu'il envoûte portent plusieurs couches de vêtements en été.",
+  "Description": "Tourneboul te fait marmonner et bafouiller. Le pire est quand tu dois parler à voix haute en classe !",
+  "nourriture": "Bonbons",
+  "élément": "Absorption",
+  "Rôle": "Combattant",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/tourneboul.png",
+  "numero": "202",
+  "nourriture_favorite": "Sucrerie",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Âmunisé",
+      "effet": "Les Âmultimes seront esquivées."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Plaquage absolu",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Vortex",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tourneboulement",
+      "effet": "Envoie une sombre aura à ses ennemis pour les étourdir. 100 | 100"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Cœur incertain",
+      "effet": "Affaiblit un ennemi et réduit ses stats."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Délicieux...",
+    "Mange de la nourriture insipide": "O-k...",
+    "Mange de la mauvaise nourriture": "Argh.",
+    "A la flemme": "Euh... Hmm...",
+    "Est échangé": "Je... suis, euh... ravi de... je sais plus. On disait quoi ?",
+    "Devient ton ami": "Est-ce qu'on peut être... amis ? C'est comme ça qu'on dit, non ?"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "しどろもどろ",
+  "nom_anglais": "Confuze",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Quartier des boutiques - Rue Frondaisons- buissons (Nuit)",
+      "Bingo-kai-Pièce euphorie"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Délicieux...",
-        "Mange de la nourriture insipide": "O-k...",
-        "Mange de la mauvaise nourriture": "Argh.",
-        "A la flemme": "Euh... Hmm...",
-        "Est échangé": "Je... suis, euh... ravi de... je sais plus. On disait quoi ?",
-        "Devient ton ami": "Est-ce qu'on peut être... amis ? C'est comme ça qu'on dit, non ?"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "しどろもどろ",
-    "nom_anglais": "Confuze",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Quartier des boutiques - Rue Frondaisons- buissons (Nuit)",
-            "Bingo-kai-Pièce euphorie"
-        ],
-        "yw2": [
-            "Égouts de Granval",
-            "Voie du mystère - Route 4",
-            "Bingo-kai Oni"
-        ],
-        "yw3": [
-            "Port de Pacane- arbres"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Tourneboulement",
-                "puissance": "100|100",
-                "description": "Envoie une sombre aura à ses ennemis pour les étoudir."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cœur incertain",
-                "puissance": "N/A",
-                "description": "Affaiblit un ennemi et réduit ses stats."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Âmunisé",
-                "description": "Ne sera pas affecté par les Âmultimes."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Tourneboulement",
-                "puissance": "100|100",
-                "description": "Envoie une sombre aura à ses ennemis pour les étoudir."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cœur incertain",
-                "puissance": "N/A",
-                "description": "Affaiblit un ennemi et réduit ses stats."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Âmunisé",
-                "description": "Les Âmultimes seront esquivées."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Tourneboulement",
-                "puissance": "250",
-                "description": "Baisse temporaire de la VIT. des ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Vortex",
-                "puissance": "30",
-                "description": "Absorbe les PV ennemis. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Contre",
-                "puissance": "___",
-                "description": "Repousse les attaques et contre-attaque."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Riz",
-                "puissance": "70",
-                "description": "Restaure tes PV."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Pas touche",
-                "description": "Hausse de la VIT. quand les PV sont au max."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage absolu",
-                "puissance": "20|70",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Vortex",
-                "puissance": "40|88",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Tourneboulement",
-                "puissance": "___",
-                "description": "Assaille les ennemis d'une aura de confusion. Ceux touchés agissent moins."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Cœur incertain",
-                "puissance": "N/A",
-                "description": "Affaiblit un ennemi et réduit ses stats."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Âmunisé",
-                "description": "Les Âmultimes seront esquivées."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Âmunisé",
-        "description": "Ne sera pas affecté par les Âmultimes."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/tourneboul.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/tourneboul.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/tourneboul.wav",
-    "oldID": "117",
-    "medallium_ids": {
-        "yw1": "202",
-        "yw2": "308",
-        "yw3": "553"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "369",
-        "yw Blasters 2": "572",
-        "yw Wibble Wobble": "8033",
-        "yw World": "0172"
-    },
-    "battle_type": "",
-    "skill_name": "Dodge",
-    "skill_effect": "Faltering Heart",
-    "disliked_food": "Rice Balls",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "331",
-                "STR": "141",
-                "SPR": "186",
-                "DEF": "124",
-                "SPD": "172"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "381",
-                "STR": "141",
-                "SPR": "186",
-                "DEF": "124",
-                "SPD": "172"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "381",
-                "STR": "84",
-                "SPR": "185",
-                "DEF": "48",
-                "SPD": "228"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "しどろもどろ"
-        ],
-        "Spanish": [
-            "Turdido"
-        ],
-        "French": [
-            "Tourneboul"
-        ],
-        "Italian": [
-            "Kunfuxi"
-        ],
-        "German": [
-            "Wirrtropf"
-        ],
-        "Korean": [
-            "어물어물"
-        ],
-        "Russian": [
-            "Скромнодух",
-            "Skromnodukh"
-        ],
-        "Arabic": [
-            "ربيكة",
-            "Rabīka"
-        ],
-        "Portuguese (Brazilian)": [
-            "Zonzão"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "しどろもどろ Shidoromodoro"
-        ],
-        "Spanish": [
-            "Turdido"
-        ],
-        "French": [
-            "Tourneboul"
-        ],
-        "Italian": [
-            "Kunfuxi"
-        ],
-        "German": [
-            "Wirrtropf"
-        ],
-        "Korean": [
-            "어물어물 Eomul-eomul"
-        ],
-        "Russian": [
-            "Скромнодух"
-        ],
-        "Arabic": [
-            "ربيكة"
-        ],
-        "Portuguese (Brazilian)": [
-            "Zonzão"
-        ]
-    },
-    "description_en": "Confuze will make you babble and mumble. He's the worst when you have to read aloud in class!",
-    "nom_en": "Komiger",
-    "rang_yww": "B",
-    "tribue_yww": "Nyororon",
-    "rôle_yww": "attaquant",
-    "plat_préféré_yww": "Dashi",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "–",
-        "_en": null,
-        "_fr": null
-    },
-    "avantage_yww": {
-        "_jp": "–",
-        "_en": null,
-        "_fr": null
-    },
-    "stats_initiale_yww": {
-        "hp": 44,
-        "str": 11,
-        "spr": 20,
-        "def": 9,
-        "spd": 35
-    },
-    "stats_max_yww": {
-        "hp": 371,
-        "str": 79,
-        "spr": 180,
-        "def": 43,
-        "spd": 223
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "仲良くひなまつり妖怪ガシャ",
-            "_en": "Friendship Hinamatsuri Yokai Gasha",
-            "_fr": "Amitié Hinamatsuri Yokai Gasha"
-        },
-        {
-            "_jp": "麗しのおひめさま妖怪ガシャ",
-            "_en": "Beautiful Princess Yokai Gasha",
-            "_fr": "Belle princesse Yokai Gasha"
-        },
-        {
-            "_jp": "ホワイトデー妖怪ガシャ",
-            "_en": "White Day Yokai Gasha",
-            "_fr": "Jour blanc Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
-        },
-        {
-            "_jp": "ホワイトデーのお返し妖怪ガシャ",
-            "_en": "White Day Return Yokai Gasha",
-            "_fr": "Jour Blanc Retour Yokai Gasha"
-        },
-        {
-            "_jp": "春一番妖怪ガシャ",
-            "_en": "Spring Ichiban Yokai Gasha",
-            "_fr": "Printemps Ichiban Yokai Gasha"
-        },
-        {
-            "_jp": "桜花ランラン妖怪ガシャ",
-            "_en": "Sakura Ranran Yokai Gasha",
-            "_fr": "Sakura Ranran Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
-            "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
-            "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
-        },
-        {
-            "_jp": "電車でお出かけ妖怪ガシャ",
-            "_en": "Going out by train Yokai Gasha",
-            "_fr": "Sortir en train Yokai Gasha"
-        },
-        {
-            "_jp": "春の鉄道妖怪ガシャ",
-            "_en": "Spring Railway Yokai Gasha",
-            "_fr": "Chemin de fer du printemps Yokai Gasha"
-        },
-        {
-            "_jp": "GW妖怪バトルリーグガシャ",
-            "_en": "GW Yokai Battle League Gasha",
-            "_fr": "GW Yokai Battle League Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
+    "yw2": [
+      "Égouts de Granval",
+      "Voie du mystère - Route 4",
+      "Bingo-kai Oni"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "あてみ",
-                "_en": "Atemi",
-                "_fr": "Atémi"
-            },
-            "explication": {
-                "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 20/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "吸収の術",
-                "_en": "absorption technique",
-                "_fr": "technique d'absorption"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
-                "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
-                "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "あのえっとちょっと",
-                "_en": "Um, a little bit",
-                "_fr": "Euh, un peu"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "敵全員にしどろもどろな妖気をあびせ当たった妖怪はなかなか行動しなくなる",
-                "_en": "The monsters that hit all the enemies will have a hard time taking action.",
-                "_fr": "Les monstres qui frapperont tous les ennemis auront du mal à passer à l'action."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "しどろもどろにする",
-                "_en": "be confused",
-                "_fr": "être confus"
-            },
-            "explication": {
-                "_jp": "【全ステダウン】 しどろもどろになって全ステータスがダウン",
-                "_en": "[All status down] All status goes down due to hesitation.",
-                "_fr": "[Tous les statuts baissés] Tous les statuts diminuent en raison d'une hésitation."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "こいつに とりつかれると 言葉がうまく出てこなくなり 何を言っているのか 自分でもわからなくなる。 音読をするときは危険。",
-            "_en": "When I get obsessed with this guy, I have a hard time coming out with words, and I don't even know what I'm saying. Dangerous when reading out loud.",
-            "_fr": "Quand je suis obsédé par ce type, j'ai du mal à prononcer des mots et je ne sais même pas ce que je dis. Dangereux lors de la lecture à haute voix."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Port de Pacane- arbres"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage absolu",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Vortex",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Tourneboulement",
+        "puissance": "100|100",
+        "description": "Envoie une sombre aura à ses ennemis pour les étoudir."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cœur incertain",
+        "puissance": "N/A",
+        "description": "Affaiblit un ennemi et réduit ses stats."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Âmunisé",
+        "description": "Ne sera pas affecté par les Âmultimes."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage absolu",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Vortex",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Tourneboulement",
+        "puissance": "100|100",
+        "description": "Envoie une sombre aura à ses ennemis pour les étoudir."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cœur incertain",
+        "puissance": "N/A",
+        "description": "Affaiblit un ennemi et réduit ses stats."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Âmunisé",
+        "description": "Les Âmultimes seront esquivées."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Tourneboulement",
+        "puissance": "250",
+        "description": "Baisse temporaire de la VIT. des ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Vortex",
+        "puissance": "30",
+        "description": "Absorbe les PV ennemis. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Contre",
+        "puissance": "___",
+        "description": "Repousse les attaques et contre-attaque."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Riz",
+        "puissance": "70",
+        "description": "Restaure tes PV."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Pas touche",
+        "description": "Hausse de la VIT. quand les PV sont au max."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage absolu",
+        "puissance": "20|70",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Vortex",
+        "puissance": "40|88",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Tourneboulement",
+        "puissance": "___",
+        "description": "Assaille les ennemis d'une aura de confusion. Ceux touchés agissent moins."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Cœur incertain",
+        "puissance": "N/A",
+        "description": "Affaiblit un ennemi et réduit ses stats."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Âmunisé",
+        "description": "Les Âmultimes seront esquivées."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Âmunisé",
+    "description": "Ne sera pas affecté par les Âmultimes."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/tourneboul.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/tourneboul.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/tourneboul.wav",
+  "oldID": "117",
+  "medallium_ids": {
+    "yw1": "202",
+    "yw2": "308",
+    "yw3": "553"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "369",
+    "yw Blasters 2": "572",
+    "yw Wibble Wobble": "8033",
+    "yw World": "0172"
+  },
+  "battle_type": "",
+  "skill_name": "Dodge",
+  "skill_effect": "Faltering Heart",
+  "disliked_food": "Rice Balls",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "331",
+        "STR": "141",
+        "SPR": "186",
+        "DEF": "124",
+        "SPD": "172"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "381",
+        "STR": "141",
+        "SPR": "186",
+        "DEF": "124",
+        "SPD": "172"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "381",
+        "STR": "84",
+        "SPR": "185",
+        "DEF": "48",
+        "SPD": "228"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "しどろもどろ"
+    ],
+    "Spanish": [
+      "Turdido"
+    ],
+    "French": [
+      "Tourneboul"
+    ],
+    "Italian": [
+      "Kunfuxi"
+    ],
+    "German": [
+      "Wirrtropf"
+    ],
+    "Korean": [
+      "어물어물"
+    ],
+    "Russian": [
+      "Скромнодух",
+      "Skromnodukh"
+    ],
+    "Arabic": [
+      "ربيكة",
+      "Rabīka"
+    ],
+    "Portuguese (Brazilian)": [
+      "Zonzão"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "しどろもどろ Shidoromodoro"
+    ],
+    "Spanish": [
+      "Turdido"
+    ],
+    "French": [
+      "Tourneboul"
+    ],
+    "Italian": [
+      "Kunfuxi"
+    ],
+    "German": [
+      "Wirrtropf"
+    ],
+    "Korean": [
+      "어물어물 Eomul-eomul"
+    ],
+    "Russian": [
+      "Скромнодух"
+    ],
+    "Arabic": [
+      "ربيكة"
+    ],
+    "Portuguese (Brazilian)": [
+      "Zonzão"
+    ]
+  },
+  "description_en": "Confuze will make you babble and mumble. He's the worst when you have to read aloud in class!",
+  "nom_en": "Komiger",
+  "rang_yww": "B",
+  "tribue_yww": "Nyororon",
+  "rôle_yww": "attaquant",
+  "plat_préféré_yww": "Dashi",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) れいせい、ずのう的、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Reisei, Zunou target, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Reisei, cible Zunou, (Attaque sur l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "–",
+    "_en": null,
+    "_fr": null
+  },
+  "avantage_yww": {
+    "_jp": "–",
+    "_en": null,
+    "_fr": null
+  },
+  "stats_initiale_yww": {
+    "hp": 44,
+    "str": 11,
+    "spr": 20,
+    "def": 9,
+    "spd": 35
+  },
+  "stats_max_yww": {
+    "hp": 371,
+    "str": 79,
+    "spr": 180,
+    "def": 43,
+    "spd": 223
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "仲良くひなまつり妖怪ガシャ",
+      "_en": "Friendship Hinamatsuri Yokai Gasha",
+      "_fr": "Amitié Hinamatsuri Yokai Gasha"
+    },
+    {
+      "_jp": "麗しのおひめさま妖怪ガシャ",
+      "_en": "Beautiful Princess Yokai Gasha",
+      "_fr": "Belle princesse Yokai Gasha"
+    },
+    {
+      "_jp": "ホワイトデー妖怪ガシャ",
+      "_en": "White Day Yokai Gasha",
+      "_fr": "Jour blanc Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヤミキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Yamikyubi Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Yamikyubi)"
+    },
+    {
+      "_jp": "ホワイトデーのお返し妖怪ガシャ",
+      "_en": "White Day Return Yokai Gasha",
+      "_fr": "Jour Blanc Retour Yokai Gasha"
+    },
+    {
+      "_jp": "春一番妖怪ガシャ",
+      "_en": "Spring Ichiban Yokai Gasha",
+      "_fr": "Printemps Ichiban Yokai Gasha"
+    },
+    {
+      "_jp": "桜花ランラン妖怪ガシャ",
+      "_en": "Sakura Ranran Yokai Gasha",
+      "_fr": "Sakura Ranran Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(メカキュウビピックアップ)",
+      "_en": "Super Pickup Gasha (Mechakyubi Pickup)",
+      "_fr": "Super Pickup Gasha (Mechakyubi Pickup)"
+    },
+    {
+      "_jp": "電車でお出かけ妖怪ガシャ",
+      "_en": "Going out by train Yokai Gasha",
+      "_fr": "Sortir en train Yokai Gasha"
+    },
+    {
+      "_jp": "春の鉄道妖怪ガシャ",
+      "_en": "Spring Railway Yokai Gasha",
+      "_fr": "Chemin de fer du printemps Yokai Gasha"
+    },
+    {
+      "_jp": "GW妖怪バトルリーグガシャ",
+      "_en": "GW Yokai Battle League Gasha",
+      "_fr": "GW Yokai Battle League Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "あてみ",
+        "_en": "Atemi",
+        "_fr": "Atémi"
+      },
+      "explication": {
+        "_jp": "【威力:20 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 20/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 20/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "吸収の術",
+        "_en": "absorption technique",
+        "_fr": "technique d'absorption"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 吸収】 敵のHPを吸い取る。",
+        "_en": "[Power: 40 / Absorption] Absorbs the enemy's HP.",
+        "_fr": "[Puissance : 40 / Absorption] Absorbe les PV de l'ennemi."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "あのえっとちょっと",
+        "_en": "Um, a little bit",
+        "_fr": "Euh, un peu"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "敵全員にしどろもどろな妖気をあびせ当たった妖怪はなかなか行動しなくなる",
+        "_en": "The monsters that hit all the enemies will have a hard time taking action.",
+        "_fr": "Les monstres qui frapperont tous les ennemis auront du mal à passer à l'action."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "しどろもどろにする",
+        "_en": "be confused",
+        "_fr": "être confus"
+      },
+      "explication": {
+        "_jp": "【全ステダウン】 しどろもどろになって全ステータスがダウン",
+        "_en": "[All status down] All status goes down due to hesitation.",
+        "_fr": "[Tous les statuts baissés] Tous les statuts diminuent en raison d'une hésitation."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "こいつに とりつかれると 言葉がうまく出てこなくなり 何を言っているのか 自分でもわからなくなる。 音読をするときは危険。",
+      "_en": "When I get obsessed with this guy, I have a hard time coming out with words, and I don't even know what I'm saying. Dangerous when reading out loud.",
+      "_fr": "Quand je suis obsédé par ce type, j'ai du mal à prononcer des mots et je ne sais même pas ce que je dis. Dangereux lors de la lecture à haute voix."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "117",
+  "Name_yww": "しどろもどろ",
+  "description_jp_yww": "こいつに　とりつかれると 言葉がうまく出てこなくなり 何を言っているのか 自分でもわからなくなる。 音読をするときは危険。",
+  "BingoMessage_jp_yww": "えっと…　その　あの…　ありがと… もう　ともだち…？　だよね？",
+  "MonsterId_yww": "y161010",
+  "Height_yww": 17.0,
+  "CommondId_yww": "sp_161010",
+  "MinHp_yww": 44,
+  "MaxHp_yww": 371,
+  "MinAttack_yww": 11,
+  "MaxAttack_yww": 79,
+  "MinMagic_yww": 20,
+  "MaxMagic_yww": 180,
+  "MinDefense_yww": 9,
+  "MaxDefense_yww": 43,
+  "MinSpeed_yww": 35,
+  "MaxSpeed_yww": 223,
+  "AttackId_yww": 25,
+  "MagicId_yww": 20,
+  "HauntId_yww": 161010,
+  "SpSkillId_yww": 161010,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 3,
+  "DislikeFoodKind_yww": 1,
+  "ActionType_yww": 22,
+  "TribeType_yww": 8,
+  "MedallionImage_yww": "y156810.png",
+  "SpriteImage_yww": "img_y156810.png",
+  "Audio_yww": "sp_y156810.wav",
+  "Description_yww": "Quand je suis possédé par ce truc, les mots ne me viennent plus facilement et je ne comprends même plus moi-même ce que je suis en train de dire. C'est dangereux quand je lis à voix haute.",
+  "BingoMessage_fr_yww": "Euh… Bon, euh… Merci… On est déjà amis… ? C'est ça, non ?"
 }

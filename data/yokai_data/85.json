@@ -1,557 +1,588 @@
 {
-    "ID": "85",
-    "Nom": "Castelius II",
-    "Tribue": "Costaud",
-    "Rang": "B",
-    "PV": "466",
-    "Force": "128",
-    "Esprit": "84",
-    "Défense": "252",
-    "Vitesse": "70",
-    "Description": "Castelius II te bloquera toujours en deuxième place. Pas si mal, mais peut-être que tu aurais pu faire un peu mieux ?",
-    "description SITE": "Castelius II te bloquera toujours en deuxième place. Pas si mal, mais est-ce que tu aurais pu faire un peu mieux ?",
-    "nourriture": "Lait",
-    "élément": "Glace",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Castelius II a le pouvoir de faire arriver les gens à la deuxième place dans tout.",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/castelius-ii.png",
-    "numero": "077",
-    "nourriture_favorite": "Lait",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Armure argent",
-            "effet": "Réduit les dégâts de feu et de glace subis."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Plaquage",
-            "effet": "60 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Gel",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Garde raffinée",
-            "effet": "Augm. fortement la DÉF. et attire les attaques grâce à une pose défensive."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Énergie argent",
-            "effet": "Recouvre un allié d'argent et augmente sa DÉF."
-        }
+  "ID": "85",
+  "Nom": "Castelius II",
+  "Tribue": "Costaud",
+  "Rang": "B",
+  "PV": "466",
+  "Force": "128",
+  "Esprit": "84",
+  "Défense": "252",
+  "Vitesse": "70",
+  "Description": "Castelius II te bloquera toujours en deuxième place. Pas si mal, mais peut-être que tu aurais pu faire un peu mieux ?",
+  "description SITE": "Castelius II te bloquera toujours en deuxième place. Pas si mal, mais est-ce que tu aurais pu faire un peu mieux ?",
+  "nourriture": "Lait",
+  "élément": "Glace",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Castelius II a le pouvoir de faire arriver les gens à la deuxième place dans tout.",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/castelius-ii.png",
+  "numero": "077",
+  "nourriture_favorite": "Lait",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Armure argent",
+      "effet": "Réduit les dégâts de feu et de glace subis."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Plaquage",
+      "effet": "60 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Gel",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Garde raffinée",
+      "effet": "Augm. fortement la DÉF. et attire les attaques grâce à une pose défensive."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Énergie argent",
+      "effet": "Recouvre un allié d'argent et augmente sa DÉF."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Ooh, c'est exquis !",
+    "Mange de la nourriture insipide": "C'était pas mal.",
+    "Mange de la mauvaise nourriture": "Grrr...",
+    "A la flemme": "C'en est fini.",
+    "Est échangé": "Oh oh oh ! Grâce à moi, la seconde place t'est assurée.",
+    "Devient ton ami": "Quelle maîtrise ! Ça te dirait de tenir compagnie à un vieil homme ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Castelius III",
+      "parent2": "Castelius III",
+      "resultat": "Castelius II",
+      "critere": "➨"
+    },
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Castelius II",
+      "parent2": "Castelius II",
+      "resultat": "Castelius I",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "ギンカク",
+  "nom_anglais": "Castelius II",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Fusion",
+      "Musée lac des Coloquintes"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Ooh, c'est exquis !",
-        "Mange de la nourriture insipide": "C'était pas mal.",
-        "Mange de la mauvaise nourriture": "Grrr...",
-        "A la flemme": "C'en est fini.",
-        "Est échangé": "Oh oh oh ! Grâce à moi, la seconde place t'est assurée.",
-        "Devient ton ami": "Quelle maîtrise ! Ça te dirait de tenir compagnie à un vieil homme ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Castelius III",
-            "parent2": "Castelius III",
-            "resultat": "Castelius II",
-            "critere": "➨"
-        },
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Castelius II",
-            "parent2": "Castelius II",
-            "resultat": "Castelius I",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Fusion",
+      "Voie du mystère - Carrefour fou (ligne principale)",
+      "Bingo-kai-Pièce orange(présent)",
+      "Bingo-kai oni"
     ],
-    "image_locale": "",
-    "nom_original": "ギンカク",
-    "nom_anglais": "Castelius II",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Fusion",
-            "Musée lac des Coloquintes"
-        ],
-        "yw2": [
-            "Fusion",
-            "Voie du mystère - Carrefour fou (ligne principale)",
-            "Bingo-kai-Pièce orange(présent)",
-            "Bingo-kai oni"
-        ],
-        "yw Blasters 1": [
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Gel",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Garde raffinée",
-                "puissance": "___",
-                "description": "Augmente sa DÉF. et attire les attaques ennemies."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie argent",
-                "puissance": "N/A",
-                "description": "Recouvre un allié d'argent et augmente sa DÉF."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Armure argent",
-                "description": "Réduit les dégâts de feu et de glace."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage",
-                "puissance": "60|90",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Gel",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Garde raffinée",
-                "puissance": "___",
-                "description": "Augm. fortement la DÉF. et attire les attaques grâce à une pose défensive."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie argent",
-                "puissance": "N/A",
-                "description": "Recouvre un allié d'argent et augmente sa DÉF."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Armure argent",
-                "description": "Réduit les dégâts de feu et de glace subis."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Garde raffinée",
-                "puissance": "___",
-                "description": "Forte augmentation de la vitesse, attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Déblindage",
-                "puissance": "80",
-                "description": "Baisse temporaire DÉF. des ennemis touchés."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Champ de force +",
-                "puissance": "___",
-                "description": "Invincibilité temporaire des alliés à proximité."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Armure d'argent",
-                "description": "Réduit les dégâts du feu et de la glace."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Plaquage",
-                "puissance": "35|77",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Gel",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Garde raffinée",
-                "puissance": "___",
-                "description": "Fait preuve de raffinement dans sa défense. Accroît fortement la DÉF."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Énergie argent",
-                "puissance": "N/A",
-                "description": "Recouvre un allié d'argent et augmente sa DÉF."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Garde raffinée",
-                "puissance": "___",
-                "description": "Booste +++ la DÉF. Attire l'attention de l'ennemi."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Déblindage",
-                "puissance": "80",
-                "description": "Fait chuter la DÉF. d’un ennemi pendant un instant."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi, attirant ainsi son attention."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Armure argent",
-                "description": "Réduit un peu les dégâts de feu et de glace subis."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Poupée d'Argent"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman de défense"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Poupée d'Argent"
-            },
-            {
-                "taux": "?%",
-                "objet": "EXPorbe moyen"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Poupée d'argent"
-            },
-            {
-                "taux": "?%",
-                "objet": "Café au lait"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Armure argent",
-        "description": "Réduit les dégâts de feu et de glace."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/castelius-ii.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/castelius-ii.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/castelius-ii.wav",
-    "oldID": "85",
-    "medallium_ids": {
-        "yw1": "077",
-        "yw2": "111",
-        "yw3": "185"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "125",
-        "yw Blasters 2": "189",
-        "yw World": "0067",
-        "yw Ukiukipedia": "yw1-020"
-    },
-    "battle_type": "",
-    "skill_name": "Silver Guard",
-    "skill_effect": "Silver Power",
-    "disliked_food": "Candy",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "368",
-                "STR": "145",
-                "SPR": "109",
-                "DEF": "181",
-                "SPD": "128"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "476",
-                "STR": "145",
-                "SPR": "109",
-                "DEF": "181",
-                "SPD": "128"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "476",
-                "STR": "133",
-                "SPR": "89",
-                "DEF": "257",
-                "SPD": "75"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ギンカク",
-            "Ginkaku"
-        ],
-        "Spanish": [
-            "Castelius"
-        ],
-        "French": [
-            "Castelius"
-        ],
-        "Italian": [
-            "Castelius"
-        ],
-        "German": [
-            "Kastellan"
-        ],
-        "Russian": [
-            "Фортификатус",
-            "Fortifikatus"
-        ],
-        "Arabic": [
-            "وصيف",
-            "Waṣīf"
-        ],
-        "Portuguese (Brazilian)": [
-            "Castelus"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ギンカク"
-        ],
-        "Spanish": [
-            "Castelius II"
-        ],
-        "French": [
-            "Castelius II"
-        ],
-        "Italian": [
-            "Castelius II"
-        ],
-        "German": [
-            "Kastellan II"
-        ],
-        "Russian": [
-            "Фортификатус II"
-        ],
-        "Arabic": [
-            "وصيف"
-        ],
-        "Portuguese (Brazilian)": [
-            "Castelus II"
-        ]
-    },
-    "description_en": "Castelius II will always lock you in second place. Not bad, but could you have done a bit better...?",
-    "nom_en": "Castelius I",
-    "rang_yww": "B",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "lait",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "avantage_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "stats_initiale_yww": {
-        "hp": 63,
-        "str": 14,
-        "spr": 11,
-        "def": 35,
-        "spd": 11
-    },
-    "stats_max_yww": {
-        "hp": 466,
-        "str": 128,
-        "spr": 84,
-        "def": 252,
-        "spd": 70
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "おひな様コイン",
-            "_en": "Hina-sama coin",
-            "_fr": "Pièce de monnaie Hina-sama"
-        },
-        {
-            "_jp": "おだいり様コイン",
-            "_en": "Odairi-sama coin",
-            "_fr": "Pièce Odairi-sama"
-        }
+    "yw Blasters 1": [
+      "Fusion"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "タックル",
-                "_en": "tackle",
-                "_fr": "tacle"
-            },
-            "explication": {
-                "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 35/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "氷結の術",
-                "_en": "Freezing technique",
-                "_fr": "Technique de congélation"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 氷属性】 強力な氷の妖術を使う。",
-                "_en": "[Power: 50 / Ice attribute] Uses powerful ice magic.",
-                "_fr": "[Puissance : 50 / Attribut Glace] Utilise une puissante magie de glace."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "いぶし銀ガード",
-                "_en": "Ibushi silver guard",
-                "_fr": "Garde d'argent Ibushi"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "調査中。",
-                "_en": "Under investigation.",
-                "_fr": "Sous enquête."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "銀の力",
-                "_en": "power of silver",
-                "_fr": "pouvoir de l'argent"
-            },
-            "explication": {
-                "_jp": "【まもりアップ】 とりつかれた妖怪は銀の守りにつつまれ まもりがアップする。",
-                "_en": "[Protection Increase] The possessed monster is surrounded by silver protection, and its protection increases.",
-                "_fr": "[Augmentation de la protection] Le monstre possédé est entouré d'une protection argentée et sa protection augmente."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "ギンカクにとりつかれた人は 何をやっても二番手になる。 悪くないような気もするが ここで満足していては 良くないのだ。",
-            "_en": "People who are obsessed with Ginkaku will come second no matter what they do. I feel like it's not bad, but it's not good to be satisfied here.",
-            "_fr": "Les gens obsédés par le Ginkaku arriveront en deuxième position, quoi qu’ils fassent. J'ai l'impression que ce n'est pas mal, mais ce n'est pas bien d'être satisfait ici."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Gel",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Garde raffinée",
+        "puissance": "___",
+        "description": "Augmente sa DÉF. et attire les attaques ennemies."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie argent",
+        "puissance": "N/A",
+        "description": "Recouvre un allié d'argent et augmente sa DÉF."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Armure argent",
+        "description": "Réduit les dégâts de feu et de glace."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage",
+        "puissance": "60|90",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Gel",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Garde raffinée",
+        "puissance": "___",
+        "description": "Augm. fortement la DÉF. et attire les attaques grâce à une pose défensive."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie argent",
+        "puissance": "N/A",
+        "description": "Recouvre un allié d'argent et augmente sa DÉF."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Armure argent",
+        "description": "Réduit les dégâts de feu et de glace subis."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Garde raffinée",
+        "puissance": "___",
+        "description": "Forte augmentation de la vitesse, attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Déblindage",
+        "puissance": "80",
+        "description": "Baisse temporaire DÉF. des ennemis touchés."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Champ de force +",
+        "puissance": "___",
+        "description": "Invincibilité temporaire des alliés à proximité."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Armure d'argent",
+        "description": "Réduit les dégâts du feu et de la glace."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Plaquage",
+        "puissance": "35|77",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Gel",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Garde raffinée",
+        "puissance": "___",
+        "description": "Fait preuve de raffinement dans sa défense. Accroît fortement la DÉF."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Énergie argent",
+        "puissance": "N/A",
+        "description": "Recouvre un allié d'argent et augmente sa DÉF."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Garde raffinée",
+        "puissance": "___",
+        "description": "Booste +++ la DÉF. Attire l'attention de l'ennemi."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Déblindage",
+        "puissance": "80",
+        "description": "Fait chuter la DÉF. d’un ennemi pendant un instant."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi, attirant ainsi son attention."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Armure argent",
+        "description": "Réduit un peu les dégâts de feu et de glace subis."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Poupée d'Argent"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman de défense"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Poupée d'Argent"
+      },
+      {
+        "taux": "?%",
+        "objet": "EXPorbe moyen"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Poupée d'argent"
+      },
+      {
+        "taux": "?%",
+        "objet": "Café au lait"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Armure argent",
+    "description": "Réduit les dégâts de feu et de glace."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/castelius-ii.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/castelius-ii.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/castelius-ii.wav",
+  "oldID": "85",
+  "medallium_ids": {
+    "yw1": "077",
+    "yw2": "111",
+    "yw3": "185"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "125",
+    "yw Blasters 2": "189",
+    "yw World": "0067",
+    "yw Ukiukipedia": "yw1-020"
+  },
+  "battle_type": "",
+  "skill_name": "Silver Guard",
+  "skill_effect": "Silver Power",
+  "disliked_food": "Candy",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "368",
+        "STR": "145",
+        "SPR": "109",
+        "DEF": "181",
+        "SPD": "128"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "476",
+        "STR": "145",
+        "SPR": "109",
+        "DEF": "181",
+        "SPD": "128"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "476",
+        "STR": "133",
+        "SPR": "89",
+        "DEF": "257",
+        "SPD": "75"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ギンカク",
+      "Ginkaku"
+    ],
+    "Spanish": [
+      "Castelius"
+    ],
+    "French": [
+      "Castelius"
+    ],
+    "Italian": [
+      "Castelius"
+    ],
+    "German": [
+      "Kastellan"
+    ],
+    "Russian": [
+      "Фортификатус",
+      "Fortifikatus"
+    ],
+    "Arabic": [
+      "وصيف",
+      "Waṣīf"
+    ],
+    "Portuguese (Brazilian)": [
+      "Castelus"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ギンカク"
+    ],
+    "Spanish": [
+      "Castelius II"
+    ],
+    "French": [
+      "Castelius II"
+    ],
+    "Italian": [
+      "Castelius II"
+    ],
+    "German": [
+      "Kastellan II"
+    ],
+    "Russian": [
+      "Фортификатус II"
+    ],
+    "Arabic": [
+      "وصيف"
+    ],
+    "Portuguese (Brazilian)": [
+      "Castelus II"
+    ]
+  },
+  "description_en": "Castelius II will always lock you in second place. Not bad, but could you have done a bit better...?",
+  "nom_en": "Castelius I",
+  "rang_yww": "B",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "lait",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "avantage_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "stats_initiale_yww": {
+    "hp": 63,
+    "str": 14,
+    "spr": 11,
+    "def": 35,
+    "spd": 11
+  },
+  "stats_max_yww": {
+    "hp": 466,
+    "str": 128,
+    "spr": 84,
+    "def": 252,
+    "spd": 70
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "おひな様コイン",
+      "_en": "Hina-sama coin",
+      "_fr": "Pièce de monnaie Hina-sama"
+    },
+    {
+      "_jp": "おだいり様コイン",
+      "_en": "Odairi-sama coin",
+      "_fr": "Pièce Odairi-sama"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "タックル",
+        "_en": "tackle",
+        "_fr": "tacle"
+      },
+      "explication": {
+        "_jp": "【威力:35 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 35/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 35 / Hit] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "氷結の術",
+        "_en": "Freezing technique",
+        "_fr": "Technique de congélation"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 氷属性】 強力な氷の妖術を使う。",
+        "_en": "[Power: 50 / Ice attribute] Uses powerful ice magic.",
+        "_fr": "[Puissance : 50 / Attribut Glace] Utilise une puissante magie de glace."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "いぶし銀ガード",
+        "_en": "Ibushi silver guard",
+        "_fr": "Garde d'argent Ibushi"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "調査中。",
+        "_en": "Under investigation.",
+        "_fr": "Sous enquête."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "銀の力",
+        "_en": "power of silver",
+        "_fr": "pouvoir de l'argent"
+      },
+      "explication": {
+        "_jp": "【まもりアップ】 とりつかれた妖怪は銀の守りにつつまれ まもりがアップする。",
+        "_en": "[Protection Increase] The possessed monster is surrounded by silver protection, and its protection increases.",
+        "_fr": "[Augmentation de la protection] Le monstre possédé est entouré d'une protection argentée et sa protection augmente."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "ギンカクにとりつかれた人は 何をやっても二番手になる。 悪くないような気もするが ここで満足していては 良くないのだ。",
+      "_en": "People who are obsessed with Ginkaku will come second no matter what they do. I feel like it's not bad, but it's not good to be satisfied here.",
+      "_fr": "Les gens obsédés par le Ginkaku arriveront en deuxième position, quoi qu’ils fassent. J'ai l'impression que ce n'est pas mal, mais ce n'est pas bien d'être satisfait ici."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "85",
+  "Name_yww": "ギンカク",
+  "description_jp_yww": "ギンカクにとりつかれた人は 何をやっても二番手になる。 悪くないような気もするが ここで満足していては 良くないのだ。",
+  "BingoMessage_jp_yww": "ワシを手に入れた程度で　満足するなかれ！ 銀の輝きの　さらにその上を目指すのじゃ！",
+  "MonsterId_yww": "y147020",
+  "Height_yww": 10.0,
+  "CommondId_yww": "sp_147020",
+  "MinHp_yww": 63,
+  "MaxHp_yww": 466,
+  "MinAttack_yww": 14,
+  "MaxAttack_yww": 128,
+  "MinMagic_yww": 11,
+  "MaxMagic_yww": 84,
+  "MinDefense_yww": 35,
+  "MaxDefense_yww": 252,
+  "MinSpeed_yww": 11,
+  "MaxSpeed_yww": 70,
+  "AttackId_yww": 26,
+  "MagicId_yww": 14,
+  "HauntId_yww": 147020,
+  "SpSkillId_yww": 147020,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 4,
+  "DislikeFoodKind_yww": 3,
+  "ActionType_yww": 20,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y142820.png",
+  "SpriteImage_yww": "img_y142820.png",
+  "Audio_yww": "sp_y142820.wav",
+  "Description_yww": "Celui qui est obsédé par la deuxième place finit toujours par arriver deuxième, quoi qu'il fasse. On pourrait penser que ce n'est pas si mal, mais il ne faut pas se contenter de cela. Ce n'est pas une bonne chose.",
+  "BingoMessage_fr_yww": "Ne te contente pas de m'avoir conquis ! Vise bien plus haut que l'éclat de l'argent !"
 }

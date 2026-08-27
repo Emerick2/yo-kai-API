@@ -1,606 +1,637 @@
 {
-    "ID": "89",
-    "Nom": "Cigalopin",
-    "Tribue": "Mignon",
-    "Rang": "E",
-    "PV": "242",
-    "Force": "143",
-    "Esprit": "35",
-    "Défense": "100",
-    "Vitesse": "178",
-    "Description": "Il dit pratiquer le « ninjutsu cigale » mais ça n'existe pas vraiment. Sauf s'il s'agit d'une maîtrise de la fuite.",
-    "description SITE": "Il dit pratiquer le « ninjutsu cigale » mais ça n’existe pas vraiment. Sauf s’il s’agit d’une maîtrise de la fuite.",
-    "nourriture": "Jus",
-    "élément": "Vent",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "Cigalopinvient deCigaleet degalopin.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Il peut taillader les ennemis avec son petit katana.",
-    "personnalité": "Cigalopin est quelqu'un d'assez lâche et n'hésite pas à s'enfuir devant de puissants ennemis. Comme les cigales, il aime beaucoup chanter mais c'est un vrai paresseux il ne fait que dormir de ses semaines.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/cigalopin.png",
-    "numero": "087",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Modestie",
-            "effet": "Faibles chances d'être attaqué."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coupe-part",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Tourbillon",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coupe de cigale",
-            "effet": "Coupe nerveusement tous ses ennemis. 18x5 | 18x5"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Ninjutsu cigale",
-            "effet": "Augmente la VIT. d'un Yo-kai grâce au ninjutsu cigale."
-        }
+  "ID": "89",
+  "Nom": "Cigalopin",
+  "Tribue": "Mignon",
+  "Rang": "E",
+  "PV": "242",
+  "Force": "143",
+  "Esprit": "35",
+  "Défense": "100",
+  "Vitesse": "178",
+  "Description": "Il dit pratiquer le « ninjutsu cigale » mais ça n'existe pas vraiment. Sauf s'il s'agit d'une maîtrise de la fuite.",
+  "description SITE": "Il dit pratiquer le « ninjutsu cigale » mais ça n’existe pas vraiment. Sauf s’il s’agit d’une maîtrise de la fuite.",
+  "nourriture": "Jus",
+  "élément": "Vent",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "Cigalopinvient deCigaleet degalopin.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Il peut taillader les ennemis avec son petit katana.",
+  "personnalité": "Cigalopin est quelqu'un d'assez lâche et n'hésite pas à s'enfuir devant de puissants ennemis. Comme les cigales, il aime beaucoup chanter mais c'est un vrai paresseux il ne fait que dormir de ses semaines.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/cigalopin.png",
+  "numero": "087",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Modestie",
+      "effet": "Faibles chances d'être attaqué."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coupe-part",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Tourbillon",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coupe de cigale",
+      "effet": "Coupe nerveusement tous ses ennemis. 18x5 | 18x5"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Ninjutsu cigale",
+      "effet": "Augmente la VIT. d'un Yo-kai grâce au ninjutsu cigale."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Je suis revigoré !",
+    "Mange de la nourriture insipide": "Euh... OK.",
+    "Mange de la mauvaise nourriture": "C'est d'un infâme !",
+    "A la flemme": "Besoin de repos...",
+    "Est échangé": "Bonjour, toi ! Il semble que j'aie émergé de la terre juste pour finir échangé.",
+    "Devient ton ami": "Parbleu, quelle escarmouche de talent ! Nous devrions nous lier d'amitié, non ?"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Évolution",
+      "contexte": "Général",
+      "de": "Cigalopin",
+      "vers": "Cigaillard",
+      "critere": "Niveau 21"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "セミまる",
+  "nom_anglais": "Cadin",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Tōru Nara (Film 1)",
+    "francaise": "Nathalie Bienaimé (Saison 1)Caroline Combes (Saison 3)",
+    "anglaise": "English VA Melissa Hutchison (M01)"
+  },
+  "localisations": {
+    "yw1": [
+      "Histoire",
+      "Coteau fleuri- arbres"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Je suis revigoré !",
-        "Mange de la nourriture insipide": "Euh... OK.",
-        "Mange de la mauvaise nourriture": "C'est d'un infâme !",
-        "A la flemme": "Besoin de repos...",
-        "Est échangé": "Bonjour, toi ! Il semble que j'aie émergé de la terre juste pour finir échangé.",
-        "Devient ton ami": "Parbleu, quelle escarmouche de talent ! Nous devrions nous lier d'amitié, non ?"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Évolution",
-            "contexte": "Général",
-            "de": "Cigalopin",
-            "vers": "Cigaillard",
-            "critere": "Niveau 21"
-        }
+    "yw2": [
+      "Hauts de Granval- arbres",
+      "Coteau fleuri- arbres",
+      "Quartier des boutiques- arbres",
+      "Musée lac des Coloquintes-Salle des portails - Zone de quiz",
+      "Tunnel sans fin",
+      "Voie du mystère - Grand-route dorée - est",
+      "Bingo-kai-Pièce rose(présent)"
     ],
-    "image_locale": "",
-    "nom_original": "セミまる",
-    "nom_anglais": "Cadin",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Tōru Nara (Film 1)",
-        "francaise": "Nathalie Bienaimé (Saison 1)Caroline Combes (Saison 3)",
-        "anglaise": "English VA Melissa Hutchison (M01)"
-    },
-    "localisations": {
-        "yw1": [
-            "Histoire",
-            "Coteau fleuri- arbres"
-        ],
-        "yw2": [
-            "Hauts de Granval- arbres",
-            "Coteau fleuri- arbres",
-            "Quartier des boutiques- arbres",
-            "Musée lac des Coloquintes-Salle des portails - Zone de quiz",
-            "Tunnel sans fin",
-            "Voie du mystère - Grand-route dorée - est",
-            "Bingo-kai-Pièce rose(présent)"
-        ],
-        "yw Blasters 1": [
-            "Patrouille :Hauts de Granval",
-            "Bingo-kai - Pièce rose"
-        ],
-        "yw3": [
-            "La Corniche- arbres",
-            "Chemin brumeux"
-        ],
-        "yw Wibble Wobble": [
-            "Niveau 11 (Faubourg de Granval), Niveau 46 (Le Coteau fleuri)",
-            "Niveau 209 (Ourcival), Niveau 240 (Les plaines Plinplot)",
-            "Niveau secret 9-5 (Limbes éternelles - 1er Cercle), Niveau secret 11-35 (Limbes éternelles - 3e Cercle)",
-            "Niveau secret 17-2 (Paradis divin - RDC), Niveau secret 18-11 (Paradis divin - 1er), Niveau secret 22-41 (Paradis divin - 5e)",
-            "Niveau d'épreuve 2, 8, 17 (Voie du mystère)",
-            "Niveau d'épreuve 4 (Épreuve de Gargaros)",
-            "Bingo-kai -Pièce rose",
-            "Bingo-kai -Pièce joyeuse"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Coupe-part",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Coupe de cigale",
-                "puissance": "17×5|17×5",
-                "description": "Coupe nerveusement tous ses ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Ninjutsu cigale",
-                "puissance": "N/A",
-                "description": "Augmente la VIT. d'un Yo-kai grâce au ninjutsu cigale."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Modestie",
-                "description": "Faibles chances d'être attaqué."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Coupe-part",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Coupe de cigale",
-                "puissance": "18×5|18×5",
-                "description": "Entaille nerveusement tous ses ennemis."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Ninjutsu cigale",
-                "puissance": "N/A",
-                "description": "Augmente la VIT. d'un Yo-kai grâce au ninjutsu cigale."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Attaque ardente",
-                "puissance": "N/A",
-                "description": "Esquive toutes les attaques physiques."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Modestie",
-                "description": "Faibles chances d'être attaqué."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Coupe de cigale",
-                "puissance": "480",
-                "description": "Inflige de gros dégâts à courte portée."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque avec un super esprit du combattant."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Mine",
-                "puissance": "600",
-                "description": "Explose si un ennemi ou un allié s'en approche."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Envoûtement poison",
-                "puissance": "___",
-                "description": "Baisse lente PV ennemis. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Délit de fuite",
-                "description": "Hausse VIT. si attaqué (cumulable), jusqu'à la fin des attaques."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Coupe-part",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Tourbillon",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Coupe de cigale",
-                "puissance": "100|300",
-                "description": "Entaille nerveusement les ennemis à portée."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Ninjutsu cigale",
-                "puissance": "N/A",
-                "description": "Augmente la VIT. d'un Yo-kai grâce au ninjutsu cigale."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Coupe de cigale",
-                "puissance": "480",
-                "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Coup puissant",
-                "puissance": "100",
-                "description": "Attaque l’ennemi avec une attaque féroce."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Détection de trésor",
-                "puissance": "___",
-                "description": "Génère une zone qui détecte les trésors."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Coupe-vent",
-                "description": "Réduit les dégâts de vent subis par tous les alliés."
-            }
-        ]
-    },
-    "soul_effects": {
-        "yw2": "Augmente légèrement les chances d’esquiver les attaques.",
-        "yw Blasters 1": "Faible hausse de la VIT.",
-        "yw3": "Réduit un peu les dégâts de vent sur tous les alliés."
-    },
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Mélasse"
-            },
-            {
-                "taux": "?%",
-                "objet": "Talisman de vitesse"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Petit EXPorbe"
-            },
-            {
-                "taux": "?%",
-                "objet": "Mélasse"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Cigatana"
-            },
-            {
-                "taux": "?%",
-                "objet": "Thé de l'âme"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Modestie",
-        "description": "Faibles chances d'être attaqué."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/cigalopin.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/cigalopin.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/cigalopin.wav",
-    "oldID": "89",
-    "medallium_ids": {
-        "yw1": "087",
-        "yw2": "127",
-        "yw3": "216"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "145",
-        "yw Blasters 2": "221",
-        "yw Wibble Wobble": "4006",
-        "yw World": "0075",
-        "Y-Gakuen": "112",
-        "yw Ukiukipedia": "yw1-025"
-    },
-    "battle_type": "",
-    "skill_name": "Modest",
-    "skill_effect": "Cicada Ninjutsu",
-    "disliked_food": "Bread",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "289",
-                "STR": "135",
-                "SPR": "102",
-                "DEF": "90",
-                "SPD": "138"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "252",
-                "STR": "135",
-                "SPR": "102",
-                "DEF": "90",
-                "SPD": "138"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "92-165",
-                "STR": "148",
-                "SPR": "40",
-                "DEF": "105",
-                "SPD": "183"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "92-165"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "92-165"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "92-165"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "セミまる",
-            "Semimaru"
-        ],
-        "Spanish": [
-            "Ningarra"
-        ],
-        "French": [
-            "Cigalopin"
-        ],
-        "Italian": [
-            "Cicalama"
-        ],
-        "German": [
-            "Winzikado"
-        ],
-        "Korean": [
-            "무사맴",
-            "Musamaem"
-        ],
-        "Russian": [
-            "Комариндзя",
-            "Komarindzya"
-        ],
-        "Arabic": [
-            "برق",
-            "Barq"
-        ],
-        "Chinese (Cantonese)": [
-            "蟬丸",
-            "Chán"
-        ],
-        "Chinese (Mandarin)": [
-            "蟬丸"
-        ],
-        "Portuguese (European)": [
-            "Besourinja"
-        ],
-        "Portuguese (Brazilian)": [
-            "Besourinja",
-            "Cigarinja"
-        ],
-        "Thai": [
-            "เซมิมารุ"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "セミまる"
-        ],
-        "Spanish": [
-            "Ningarra"
-        ],
-        "French": [
-            "Cigalopin"
-        ],
-        "Italian": [
-            "Cicalama"
-        ],
-        "German": [
-            "Winzikado"
-        ],
-        "Korean": [
-            "무사맴"
-        ],
-        "Russian": [
-            "Комариндзя"
-        ],
-        "Arabic": [
-            "برق"
-        ],
-        "Chinese (Cantonese)": [
-            "蟬丸"
-        ],
-        "Chinese (Mandarin)": [
-            "蟬丸"
-        ],
-        "Portuguese (European)": [
-            "Besourinja"
-        ],
-        "Portuguese (Brazilian)": [
-            "Besourinja (Anime and Yo-kai Watch toys)Cigarinja (Wibble Wobble)"
-        ],
-        "Thai": [
-            "เซมิมารุ"
-        ]
-    },
-    "description_en": "He claims to practice \"cicada ninjutsu\"...but that's not really a thing. Unless it's a mastery of running away.",
-    "nom_en": "Dromp",
-    "rang_yww": "E",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "jus",
-    "nourriture_favorite": "jus",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {
-        "hp": 28,
-        "str": 18,
-        "spr": 4,
-        "def": 9,
-        "spd": 23
-    },
-    "stats_max_yww": {
-        "hp": 242,
-        "str": 143,
-        "spr": 35,
-        "def": 100,
-        "spd": 178
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "きりつける",
-                "_en": "punish",
-                "_fr": "punir"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "つむじ風の術",
-                "_en": "Whirlwind technique",
-                "_fr": "Technique du tourbillon"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 風属性】 風の妖術を使う。",
-                "_en": "[Power: 40 / Wind attribute] Uses wind magic.",
-                "_fr": "[Puissance : 40 / Attribut Vent] Utilise la magie du vent."
-            }
-        }
+    "yw Blasters 1": [
+      "Patrouille :Hauts de Granval",
+      "Bingo-kai - Pièce rose"
     ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "みんみん斬り",
-                "_en": "Minmin slash",
-                "_fr": "Barre oblique minmin"
-            },
-            "pouvoir": "110",
-            "explication": {
-                "_jp": "ビビりながらも斬りまくりダメージを与える。",
-                "_en": "Even though it's frightened, it continues to slash and deal damage.",
-                "_fr": "Même s'il est effrayé, il continue de trancher et d'infliger des dégâts."
-            }
-        }
+    "yw3": [
+      "La Corniche- arbres",
+      "Chemin brumeux"
     ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "セミ流忍術",
-                "_en": "Semi style ninjutsu",
-                "_fr": "Ninjutsu semi-style"
-            },
-            "explication": {
-                "_jp": "【すばやさアップ】 とりつかれた妖怪はセミ流忍術の力で すばやさがアップする。",
-                "_en": "[Increased speed] The speed of possessed monsters increases with the power of semi-style ninjutsu.",
-                "_fr": "[Vitesse augmentée] La vitesse des monstres possédés augmente avec la puissance du ninjutsu semi-style."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "セミ流忍術という だれも聞いたことがない 忍術の使い手らしい。 実力は たいしたことがなく 逃げ足だけが強み。",
-            "_en": "He seems to be a master of a ninjutsu called semi-ryu ninjutsu, which no one has ever heard of. He doesn't have much ability; his only strength is his ability to escape.",
-            "_fr": "Il semble être un maître d'un ninjutsu appelé ninjutsu semi-ryu, dont personne n'a jamais entendu parler. Il n'a pas beaucoup de capacités ; sa seule force est sa capacité à s'échapper."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw Wibble Wobble": [
+      "Niveau 11 (Faubourg de Granval), Niveau 46 (Le Coteau fleuri)",
+      "Niveau 209 (Ourcival), Niveau 240 (Les plaines Plinplot)",
+      "Niveau secret 9-5 (Limbes éternelles - 1er Cercle), Niveau secret 11-35 (Limbes éternelles - 3e Cercle)",
+      "Niveau secret 17-2 (Paradis divin - RDC), Niveau secret 18-11 (Paradis divin - 1er), Niveau secret 22-41 (Paradis divin - 5e)",
+      "Niveau d'épreuve 2, 8, 17 (Voie du mystère)",
+      "Niveau d'épreuve 4 (Épreuve de Gargaros)",
+      "Bingo-kai -Pièce rose",
+      "Bingo-kai -Pièce joyeuse"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Coupe-part",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tourbillon",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Coupe de cigale",
+        "puissance": "17×5|17×5",
+        "description": "Coupe nerveusement tous ses ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Ninjutsu cigale",
+        "puissance": "N/A",
+        "description": "Augmente la VIT. d'un Yo-kai grâce au ninjutsu cigale."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Modestie",
+        "description": "Faibles chances d'être attaqué."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Coupe-part",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tourbillon",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Coupe de cigale",
+        "puissance": "18×5|18×5",
+        "description": "Entaille nerveusement tous ses ennemis."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Ninjutsu cigale",
+        "puissance": "N/A",
+        "description": "Augmente la VIT. d'un Yo-kai grâce au ninjutsu cigale."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Attaque ardente",
+        "puissance": "N/A",
+        "description": "Esquive toutes les attaques physiques."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Modestie",
+        "description": "Faibles chances d'être attaqué."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Coupe de cigale",
+        "puissance": "480",
+        "description": "Inflige de gros dégâts à courte portée."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque avec un super esprit du combattant."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Mine",
+        "puissance": "600",
+        "description": "Explose si un ennemi ou un allié s'en approche."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Envoûtement poison",
+        "puissance": "___",
+        "description": "Baisse lente PV ennemis. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Délit de fuite",
+        "description": "Hausse VIT. si attaqué (cumulable), jusqu'à la fin des attaques."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Coupe-part",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Tourbillon",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Coupe de cigale",
+        "puissance": "100|300",
+        "description": "Entaille nerveusement les ennemis à portée."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Ninjutsu cigale",
+        "puissance": "N/A",
+        "description": "Augmente la VIT. d'un Yo-kai grâce au ninjutsu cigale."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Coupe de cigale",
+        "puissance": "480",
+        "description": "Attaque puissante sur un ennemi proche. Dégâts ++."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Coup puissant",
+        "puissance": "100",
+        "description": "Attaque l’ennemi avec une attaque féroce."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Détection de trésor",
+        "puissance": "___",
+        "description": "Génère une zone qui détecte les trésors."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Coupe-vent",
+        "description": "Réduit les dégâts de vent subis par tous les alliés."
+      }
+    ]
+  },
+  "soul_effects": {
+    "yw2": "Augmente légèrement les chances d’esquiver les attaques.",
+    "yw Blasters 1": "Faible hausse de la VIT.",
+    "yw3": "Réduit un peu les dégâts de vent sur tous les alliés."
+  },
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Mélasse"
+      },
+      {
+        "taux": "?%",
+        "objet": "Talisman de vitesse"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Petit EXPorbe"
+      },
+      {
+        "taux": "?%",
+        "objet": "Mélasse"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Cigatana"
+      },
+      {
+        "taux": "?%",
+        "objet": "Thé de l'âme"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Modestie",
+    "description": "Faibles chances d'être attaqué."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/cigalopin.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/cigalopin.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/cigalopin.wav",
+  "oldID": "89",
+  "medallium_ids": {
+    "yw1": "087",
+    "yw2": "127",
+    "yw3": "216"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "145",
+    "yw Blasters 2": "221",
+    "yw Wibble Wobble": "4006",
+    "yw World": "0075",
+    "Y-Gakuen": "112",
+    "yw Ukiukipedia": "yw1-025"
+  },
+  "battle_type": "",
+  "skill_name": "Modest",
+  "skill_effect": "Cicada Ninjutsu",
+  "disliked_food": "Bread",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "289",
+        "STR": "135",
+        "SPR": "102",
+        "DEF": "90",
+        "SPD": "138"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "252",
+        "STR": "135",
+        "SPR": "102",
+        "DEF": "90",
+        "SPD": "138"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "92-165",
+        "STR": "148",
+        "SPR": "40",
+        "DEF": "105",
+        "SPD": "183"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "92-165"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "92-165"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "92-165"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "セミまる",
+      "Semimaru"
+    ],
+    "Spanish": [
+      "Ningarra"
+    ],
+    "French": [
+      "Cigalopin"
+    ],
+    "Italian": [
+      "Cicalama"
+    ],
+    "German": [
+      "Winzikado"
+    ],
+    "Korean": [
+      "무사맴",
+      "Musamaem"
+    ],
+    "Russian": [
+      "Комариндзя",
+      "Komarindzya"
+    ],
+    "Arabic": [
+      "برق",
+      "Barq"
+    ],
+    "Chinese (Cantonese)": [
+      "蟬丸",
+      "Chán"
+    ],
+    "Chinese (Mandarin)": [
+      "蟬丸"
+    ],
+    "Portuguese (European)": [
+      "Besourinja"
+    ],
+    "Portuguese (Brazilian)": [
+      "Besourinja",
+      "Cigarinja"
+    ],
+    "Thai": [
+      "เซมิมารุ"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "セミまる"
+    ],
+    "Spanish": [
+      "Ningarra"
+    ],
+    "French": [
+      "Cigalopin"
+    ],
+    "Italian": [
+      "Cicalama"
+    ],
+    "German": [
+      "Winzikado"
+    ],
+    "Korean": [
+      "무사맴"
+    ],
+    "Russian": [
+      "Комариндзя"
+    ],
+    "Arabic": [
+      "برق"
+    ],
+    "Chinese (Cantonese)": [
+      "蟬丸"
+    ],
+    "Chinese (Mandarin)": [
+      "蟬丸"
+    ],
+    "Portuguese (European)": [
+      "Besourinja"
+    ],
+    "Portuguese (Brazilian)": [
+      "Besourinja (Anime and Yo-kai Watch toys)Cigarinja (Wibble Wobble)"
+    ],
+    "Thai": [
+      "เซมิมารุ"
+    ]
+  },
+  "description_en": "He claims to practice \"cicada ninjutsu\"...but that's not really a thing. Unless it's a mastery of running away.",
+  "nom_en": "Dromp",
+  "rang_yww": "E",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "jus",
+  "nourriture_favorite": "jus",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Attack role) Short-tempered, rough, (Attractive to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attrayant pour les alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {
+    "hp": 28,
+    "str": 18,
+    "spr": 4,
+    "def": 9,
+    "spd": 23
+  },
+  "stats_max_yww": {
+    "hp": 242,
+    "str": 143,
+    "spr": 35,
+    "def": 100,
+    "spd": 178
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "きりつける",
+        "_en": "punish",
+        "_fr": "punir"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "つむじ風の術",
+        "_en": "Whirlwind technique",
+        "_fr": "Technique du tourbillon"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 風属性】 風の妖術を使う。",
+        "_en": "[Power: 40 / Wind attribute] Uses wind magic.",
+        "_fr": "[Puissance : 40 / Attribut Vent] Utilise la magie du vent."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "みんみん斬り",
+        "_en": "Minmin slash",
+        "_fr": "Barre oblique minmin"
+      },
+      "pouvoir": "110",
+      "explication": {
+        "_jp": "ビビりながらも斬りまくりダメージを与える。",
+        "_en": "Even though it's frightened, it continues to slash and deal damage.",
+        "_fr": "Même s'il est effrayé, il continue de trancher et d'infliger des dégâts."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "セミ流忍術",
+        "_en": "Semi style ninjutsu",
+        "_fr": "Ninjutsu semi-style"
+      },
+      "explication": {
+        "_jp": "【すばやさアップ】 とりつかれた妖怪はセミ流忍術の力で すばやさがアップする。",
+        "_en": "[Increased speed] The speed of possessed monsters increases with the power of semi-style ninjutsu.",
+        "_fr": "[Vitesse augmentée] La vitesse des monstres possédés augmente avec la puissance du ninjutsu semi-style."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "セミ流忍術という だれも聞いたことがない 忍術の使い手らしい。 実力は たいしたことがなく 逃げ足だけが強み。",
+      "_en": "He seems to be a master of a ninjutsu called semi-ryu ninjutsu, which no one has ever heard of. He doesn't have much ability; his only strength is his ability to escape.",
+      "_fr": "Il semble être un maître d'un ninjutsu appelé ninjutsu semi-ryu, dont personne n'a jamais entendu parler. Il n'a pas beaucoup de capacités ; sa seule force est sa capacité à s'échapper."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "89",
+  "Name_yww": "セミまる",
+  "description_jp_yww": "セミ流忍術という だれも聞いたことがない 忍術の使い手らしい。 実力は　たいしたことがなく 逃げ足だけが強み。",
+  "BingoMessage_jp_yww": "お前　いいくじ運を持ってるミーン！ ともだちになろうミーン！",
+  "MonsterId_yww": "y149000",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_149000",
+  "MinHp_yww": 28,
+  "MaxHp_yww": 242,
+  "MinAttack_yww": 18,
+  "MaxAttack_yww": 143,
+  "MinMagic_yww": 4,
+  "MaxMagic_yww": 35,
+  "MinDefense_yww": 9,
+  "MaxDefense_yww": 100,
+  "MinSpeed_yww": 23,
+  "MaxSpeed_yww": 178,
+  "AttackId_yww": 43,
+  "MagicId_yww": 16,
+  "HauntId_yww": 149000,
+  "SpSkillId_yww": 149000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 5,
+  "DislikeFoodKind_yww": 2,
+  "ActionType_yww": 5,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y144800.png",
+  "SpriteImage_yww": "img_y144800.png",
+  "Audio_yww": "sp_y144800.wav",
+  "Description_yww": "Il s'agirait d'un maître du ninjutsu appelé « ninjutsu de la cigale », dont personne n'a jamais entendu parler. Ses capacités ne sont pas exceptionnelles, et sa seule force réside dans sa rapidité à prendre la fuite.",
+  "BingoMessage_fr_yww": "T'as vraiment de la chance aux tirages au sort, Miiin ! On va devenir amis, Miiin !"
 }

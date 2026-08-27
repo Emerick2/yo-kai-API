@@ -1,316 +1,348 @@
 {
-    "ID": "397",
-    "Nom": "Robopapéti",
-    "Tribue": "Bienveillant",
-    "Rang": "B",
-    "PV": "394",
-    "Force": "68",
-    "Esprit": "196",
-    "Défense": "156",
-    "Vitesse": "150",
-    "Description": "Ce robot Granpapéti vient du futur. Même sous cette forme, il a toujours un très grand appétit.",
-    "description SITE": "Ce robotGranpapétivient du futur. Même sous cette forme, il a toujours un très grand appétit.",
-    "nourriture": "Riz",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/robopapeti.png",
-    "numero": "343",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Polarité",
-            "effet": "Augm. la FOR. pendant que la jauge d'âme se remplit."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Coup de boule",
-            "effet": "15 | 67"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Restauration",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Mange !",
-            "effet": "Attaque un ennemi avec un rayon de voracité. 230 | 230"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Force acier",
-            "effet": "Le Yo-kai voit sa DÉF. fortement augmenter grâce à la force de l'acier."
-        }
+  "ID": "397",
+  "Nom": "Robopapéti",
+  "Tribue": "Bienveillant",
+  "Rang": "B",
+  "PV": "394",
+  "Force": "68",
+  "Esprit": "196",
+  "Défense": "156",
+  "Vitesse": "150",
+  "Description": "Ce robot Granpapéti vient du futur. Même sous cette forme, il a toujours un très grand appétit.",
+  "description SITE": "Ce robotGranpapétivient du futur. Même sous cette forme, il a toujours un très grand appétit.",
+  "nourriture": "Riz",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/robopapeti.png",
+  "numero": "343",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Polarité",
+      "effet": "Augm. la FOR. pendant que la jauge d'âme se remplit."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Coup de boule",
+      "effet": "15 | 67"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Restauration",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Mange !",
+      "effet": "Attaque un ennemi avec un rayon de voracité. 230 | 230"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Force acier",
+      "effet": "Le Yo-kai voit sa DÉF. fortement augmenter grâce à la force de l'acier."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Le riz c'est la vie !",
+    "Mange de la nourriture insipide": "C'est pas mal.",
+    "Mange de la mauvaise nourriture": "Je ne crois pas.",
+    "A la flemme": "Qui a du riz ?",
+    "Est échangé": "Tu savais qu'on se nourrit avec des pilules dans le futur ? J'ai FAIM !",
+    "Devient ton ami": "Si je reste avec toi, tu pourras me donner à manger ?"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "ロボＧ",
+  "nom_anglais": "Robogramps",
+  "premiere_apparition": "yw2",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw2": [
+      "QR code - Parc du temple (Gare)"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Le riz c'est la vie !",
-        "Mange de la nourriture insipide": "C'est pas mal.",
-        "Mange de la mauvaise nourriture": "Je ne crois pas.",
-        "A la flemme": "Qui a du riz ?",
-        "Est échangé": "Tu savais qu'on se nourrit avec des pilules dans le futur ? J'ai FAIM !",
-        "Devient ton ami": "Si je reste avec toi, tu pourras me donner à manger ?"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "ロボＧ",
-    "nom_anglais": "Robogramps",
-    "premiere_apparition": "yw2",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw2": [
-            "QR code - Parc du temple (Gare)"
-        ],
-        "yw3": [
-            "Bingo-kai"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de boule",
-                "puissance": "15|67",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Mange !",
-                "puissance": "230|230",
-                "description": "Attaque un ennemi avec un rayon de voracité."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Force acier",
-                "puissance": "N/A",
-                "description": "Le Yo-kai voit sa DÉF. fortement augmenter grâce à la force de l'acier."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Polarité",
-                "description": "Augm. la FOR. pendant que la jauge d'âme se remplit."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Mange !",
-                "puissance": "56×9",
-                "description": "Un rayon inflige de gros dégâts aux ennemis."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Boost de défense +",
-                "puissance": "___",
-                "description": "Forte hausse DÉF. alliés. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Cercle guérisseur",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger élargit l'effet."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Polarité",
-                "description": "Toutes stats renforcées quand jauge d'âme pleine."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Coup de boule",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Restauration",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Mange !",
-                "puissance": "140|280",
-                "description": "Attaque la colonne devant lui avec un rayon de voracité."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Force acier",
-                "puissance": "N/A",
-                "description": "Le Yo-kai voit sa DÉF. augmenter grâce à la force de l'acier."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Polarité",
-                "description": "Augmente la FOR. tandis que la jauge d'âme se remplit."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Polarité",
-        "description": "Augm. la FOR. pendant que la jauge d'âme se remplit."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/robopapeti.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/robopapeti.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/robopapeti.wav",
-    "oldID": "403",
-    "medallium_ids": {
-        "yw2": "343",
-        "yw3": "361"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "211",
-        "yw Blasters 2": "369",
-        "yw Wibble Wobble": "5027"
-    },
-    "battle_type": "Rare",
-    "skill_name": "Polarity",
-    "skill_effect": "Steel Power",
-    "disliked_food": "Bread",
-    "global_stats": {
-        "yw2": {
-            "stats": {
-                "HP": "404",
-                "STR": "99",
-                "SPR": "117",
-                "DEF": "108",
-                "SPD": "106"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "1-1",
-                "STR": "73",
-                "SPR": "201",
-                "DEF": "161",
-                "SPD": "155"
-            },
-            "elements": {
-                "attribute": "Water",
-                "weakness": "Lightning"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "1-1"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "ロボＧ",
-            "Robojī"
-        ],
-        "Spanish": [
-            "Roboabuzampa"
-        ],
-        "Italian": [
-            "Nonnobot"
-        ],
-        "German": [
-            "Robopa"
-        ],
-        "Korean": [
-            "로보영감",
-            "Roboyeonggam"
-        ],
-        "Russian": [
-            "Рободед",
-            "Roboded"
-        ],
-        "Arabic": [
-            "جوعان",
-            "Jawʕān"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "ロボＧ"
-        ],
-        "Spanish": [
-            "Roboabuzampa"
-        ],
-        "Italian": [
-            "Nonnobot"
-        ],
-        "German": [
-            "Robopa"
-        ],
-        "Korean": [
-            "로보영감"
-        ],
-        "Russian": [
-            "Рободед"
-        ],
-        "Arabic": [
-            "جوعان"
-        ]
-    },
-    "description_en": "A robotic Hungramps from the future. Even in robotic form, his appetite is as insatiable as ever.",
-    "nom_en": "Starrycane",
-    "jeu_present": [
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Bingo-kai"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de boule",
+        "puissance": "15|67",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Mange !",
+        "puissance": "230|230",
+        "description": "Attaque un ennemi avec un rayon de voracité."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Force acier",
+        "puissance": "N/A",
+        "description": "Le Yo-kai voit sa DÉF. fortement augmenter grâce à la force de l'acier."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Polarité",
+        "description": "Augm. la FOR. pendant que la jauge d'âme se remplit."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Mange !",
+        "puissance": "56×9",
+        "description": "Un rayon inflige de gros dégâts aux ennemis."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Boost de défense +",
+        "puissance": "___",
+        "description": "Forte hausse DÉF. alliés. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Cercle guérisseur",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger élargit l'effet."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Polarité",
+        "description": "Toutes stats renforcées quand jauge d'âme pleine."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Coup de boule",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Restauration",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Mange !",
+        "puissance": "140|280",
+        "description": "Attaque la colonne devant lui avec un rayon de voracité."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Force acier",
+        "puissance": "N/A",
+        "description": "Le Yo-kai voit sa DÉF. augmenter grâce à la force de l'acier."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Polarité",
+        "description": "Augmente la FOR. tandis que la jauge d'âme se remplit."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Polarité",
+    "description": "Augm. la FOR. pendant que la jauge d'âme se remplit."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/robopapeti.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/robopapeti.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/robopapeti.wav",
+  "oldID": "403",
+  "medallium_ids": {
+    "yw2": "343",
+    "yw3": "361"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "211",
+    "yw Blasters 2": "369",
+    "yw Wibble Wobble": "5027"
+  },
+  "battle_type": "Rare",
+  "skill_name": "Polarity",
+  "skill_effect": "Steel Power",
+  "disliked_food": "Bread",
+  "global_stats": {
+    "yw2": {
+      "stats": {
+        "HP": "404",
+        "STR": "99",
+        "SPR": "117",
+        "DEF": "108",
+        "SPD": "106"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "1-1",
+        "STR": "73",
+        "SPR": "201",
+        "DEF": "161",
+        "SPD": "155"
+      },
+      "elements": {
+        "attribute": "Water",
+        "weakness": "Lightning"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "1-1"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "ロボＧ",
+      "Robojī"
+    ],
+    "Spanish": [
+      "Roboabuzampa"
+    ],
+    "Italian": [
+      "Nonnobot"
+    ],
+    "German": [
+      "Robopa"
+    ],
+    "Korean": [
+      "로보영감",
+      "Roboyeonggam"
+    ],
+    "Russian": [
+      "Рободед",
+      "Roboded"
+    ],
+    "Arabic": [
+      "جوعان",
+      "Jawʕān"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "ロボＧ"
+    ],
+    "Spanish": [
+      "Roboabuzampa"
+    ],
+    "Italian": [
+      "Nonnobot"
+    ],
+    "German": [
+      "Robopa"
+    ],
+    "Korean": [
+      "로보영감"
+    ],
+    "Russian": [
+      "Рободед"
+    ],
+    "Arabic": [
+      "جوعان"
+    ]
+  },
+  "description_en": "A robotic Hungramps from the future. Even in robotic form, his appetite is as insatiable as ever.",
+  "nom_en": "Starrycane",
+  "jeu_present": [
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "nourriture_favorite": 8,
+  "id_yww": "374",
+  "Name_yww": "ロボＧ",
+  "description_jp_yww": "未来からやってきた ひも爺のロボット。 ロボットになっても つねにエネルギー不足で ひもじい思いをしている。",
+  "BingoMessage_jp_yww": "アァ…　トウトウ オムカエガ　キタヨウジャ…",
+  "MonsterId_yww": "y371000",
+  "Height_yww": 6.0,
+  "CommondId_yww": "sp_371000",
+  "MinHp_yww": 48,
+  "MaxHp_yww": 371,
+  "MinAttack_yww": 8,
+  "MaxAttack_yww": 59,
+  "MinMagic_yww": 32,
+  "MaxMagic_yww": 213,
+  "MinDefense_yww": 25,
+  "MaxDefense_yww": 172,
+  "MinSpeed_yww": 26,
+  "MaxSpeed_yww": 163,
+  "AttackId_yww": 1,
+  "MagicId_yww": 5,
+  "HauntId_yww": 371000,
+  "SpSkillId_yww": 371000,
+  "Rank_yww": 5,
+  "FavoriteFoodKind_yww": 8,
+  "DislikeFoodKind_yww": 6,
+  "ActionType_yww": 8,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y366800.png",
+  "SpriteImage_yww": "img_y366800.png",
+  "Audio_yww": "sp_y366800.wav",
+  "Description_yww": "Un robot venant du futur, le « papy-corde ». Même devenu robot, il manque toujours d'énergie et souffre de la faim.",
+  "BingoMessage_fr_yww": "Ah… Ça y est, la réponse est enfin arrivée…"
 }

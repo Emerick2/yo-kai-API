@@ -1,508 +1,539 @@
 {
-    "ID": "151",
-    "Nom": "Tata Câlin",
-    "Tribue": "Bienveillant",
-    "Rang": "S",
-    "PV": "380",
-    "Force": "92",
-    "Esprit": "276",
-    "Défense": "138",
-    "Vitesse": "128",
-    "Description": "Peu importe l'état d'un Yo-kai, il sera guéri si Tata Câlin le prend dans ses bras. La gentillesse dans toute sa splendeur !",
-    "nourriture": "Légume",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "Tata Câlin vient de tata (tante), et de câlin.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/tata-calin.png",
-    "numero": "135",
-    "nourriture_favorite": "Légume",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Bénédiction",
-            "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Gifle",
-            "effet": "10 | 45"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Paradis",
-            "effet": "80 | 120"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Gentille tata",
-            "effet": "Ranime et guérit ses alliés avec tout son amour."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Un amour de tata",
-            "effet": "Entoure d'amour un allié, ce qui renforce sa DÉF."
-        }
+  "ID": "151",
+  "Nom": "Tata Câlin",
+  "Tribue": "Bienveillant",
+  "Rang": "S",
+  "PV": "380",
+  "Force": "92",
+  "Esprit": "276",
+  "Défense": "138",
+  "Vitesse": "128",
+  "Description": "Peu importe l'état d'un Yo-kai, il sera guéri si Tata Câlin le prend dans ses bras. La gentillesse dans toute sa splendeur !",
+  "nourriture": "Légume",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "Tata Câlin vient de tata (tante), et de câlin.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/tata-calin.png",
+  "numero": "135",
+  "nourriture_favorite": "Légume",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Bénédiction",
+      "effet": "Redonne peu à peu des PV aux Yo-kai voisins."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Gifle",
+      "effet": "10 | 45"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Paradis",
+      "effet": "80 | 120"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Gentille tata",
+      "effet": "Ranime et guérit ses alliés avec tout son amour."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Un amour de tata",
+      "effet": "Entoure d'amour un allié, ce qui renforce sa DÉF."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "Ho ho ho ! Miam !",
+    "Mange de la nourriture insipide": "Voyons voir...",
+    "Mange de la mauvaise nourriture": "Euh...",
+    "A la flemme": "*soupire*",
+    "Est échangé": "Comme tu es adorable ! Je vais te gâter ! Mouah !",
+    "Devient ton ami": "Mouah ! Mon trésor... J'ai toujours voulu un autre bout d'chou à dorloter !"
+  },
+  "evolutions": [],
+  "fusions": [],
+  "image_locale": "",
+  "nom_original": "心オバア",
+  "nom_anglais": "Auntie Heart",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Bingo-kai-Pièce verte",
+      "Bingo-kai -Pièce 5 étoiles",
+      "Bingo-kai -Pièce spéciale"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "Ho ho ho ! Miam !",
-        "Mange de la nourriture insipide": "Voyons voir...",
-        "Mange de la mauvaise nourriture": "Euh...",
-        "A la flemme": "*soupire*",
-        "Est échangé": "Comme tu es adorable ! Je vais te gâter ! Mouah !",
-        "Devient ton ami": "Mouah ! Mon trésor... J'ai toujours voulu un autre bout d'chou à dorloter !"
-    },
-    "evolutions": [],
-    "fusions": [],
-    "image_locale": "",
-    "nom_original": "心オバア",
-    "nom_anglais": "Auntie Heart",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Bingo-kai-Pièce verte",
-            "Bingo-kai -Pièce 5 étoiles",
-            "Bingo-kai -Pièce spéciale"
-        ],
-        "yw2": [
-            "Bingo-kai - Pièce verte",
-            "Bingo-kai - Pièce 5 étoiles",
-            "Bingo-kai - Pièce spéciale",
-            "Bingo-kai gagnant",
-            "Tunnel sans fin"
-        ],
-        "yw3": [
-            "Bingo-kai"
-        ]
-    },
-    "rarite": "Rare",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Volée",
-                "puissance": "20×2|44×2",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Gentille tata",
-                "puissance": "100|150",
-                "description": "Ranime et guérit ses alliés avec tout son amour."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Un amour de tata",
-                "puissance": "N/A",
-                "description": "Entoure d'amour un allié, ce qui renforce sa DÉF."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Bénédiction",
-                "description": "Redonne des PV au Yo-kai voisin."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "10|45",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "80|120",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Gentille tata",
-                "puissance": "___",
-                "description": "Ranime et guérit ses alliés avec tout son amour."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Un amour de tata",
-                "puissance": "N/A",
-                "description": "Entoure d'amour un allié, ce qui renforce sa DÉF."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Bénédiction",
-                "description": "Redonne peu à peu des PV aux Yo-kai voisins."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Gentille tata",
-                "puissance": "400",
-                "description": "Alliés retrouvent beaucoup de PV. Alliés K.-O réanimés."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Restauration",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger renforce l'effet."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Cercle guérisseur",
-                "puissance": "80",
-                "description": "Rend des PV à un allié. Charger élargit l'effet."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Cercle de guérison",
-                "puissance": "___",
-                "description": "Crée un champ où les alliés peuvent se restaurer."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Traitement",
-                "description": "Les PV des alliés sont restaurés graduellement."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Paradis",
-                "puissance": "70|112",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Gentille tata",
-                "puissance": "___",
-                "description": "Ranime et guérit ses alliés avec tout son amour."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Un amour de tata",
-                "puissance": "N/A",
-                "description": "Entoure d'amour un allié, ce qui renforce sa DÉF."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Bénédiction",
-                "description": "Rend peu à peu des PV à tous les alliés reliés."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {},
-    "special_talent": {
-        "nom": "Bénédiction",
-        "description": "Redonne des PV au Yo-kai voisin."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/tata-calin.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/tata-calin.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/tata-calin.wav",
-    "oldID": "151",
-    "medallium_ids": {
-        "yw1": "135",
-        "yw2": "199",
-        "yw3": "370"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "242",
-        "yw Blasters 2": "377",
-        "yw Wibble Wobble": "5012",
-        "yw World": "0116"
-    },
-    "battle_type": "",
-    "skill_name": "Prayer",
-    "skill_effect": "Auntie's Love",
-    "disliked_food": "Meat",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "401",
-                "STR": "159",
-                "SPR": "207",
-                "DEF": "134",
-                "SPD": "200"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "390",
-                "STR": "159",
-                "SPR": "207",
-                "DEF": "134",
-                "SPD": "200"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "305-538",
-                "STR": "97",
-                "SPR": "281",
-                "DEF": "143",
-                "SPD": "133"
-            },
-            "elements": {
-                "attribute": "Wind",
-                "weakness": "Ice"
-            },
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "305-538"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "305-538"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "305-538"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "心オバア",
-            "Shin"
-        ],
-        "Spanish": [
-            "Tita"
-        ],
-        "French": [
-            "Tata"
-        ],
-        "Italian": [
-            "Zia"
-        ],
-        "German": [
-            "Tante"
-        ],
-        "Russian": [
-            "Тётушка",
-            "Tyotushka"
-        ],
-        "Arabic": [
-            "بلسم",
-            "Balsam"
-        ],
-        "Chinese (Mandarin)": [
-            "心奶奶",
-            "Xīn"
-        ],
-        "Portuguese (Brazilian)": [
-            "Tia",
-            "Vó"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "心オバア"
-        ],
-        "Spanish": [
-            "Tita Corazón"
-        ],
-        "French": [
-            "Tata Câlin"
-        ],
-        "Italian": [
-            "Zia Cora"
-        ],
-        "German": [
-            "Tante Herzi"
-        ],
-        "Russian": [
-            "Тётушка Обнимашкина"
-        ],
-        "Arabic": [
-            "بلسم"
-        ],
-        "Chinese (Mandarin)": [
-            "心奶奶"
-        ],
-        "Portuguese (Brazilian)": [
-            "Tia MariaVó Maria (Wibble Wobble)"
-        ]
-    },
-    "description_en": "Regardless of how bad a Yo-kai is, Auntie Heart's healing hug will make it pure again. That is some true kindness!",
-    "nom_en": "Ol' Saint Trick",
-    "rang_yww": "S",
-    "tribue_yww": "Pokapoka",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "légumes",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "氷属性",
-        "_en": "ice attribute",
-        "_fr": "attribut de glace"
-    },
-    "avantage_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "stats_initiale_yww": {
-        "hp": 42,
-        "str": 11,
-        "spr": 48,
-        "def": 23,
-        "spd": 22
-    },
-    "stats_max_yww": {
-        "hp": 380,
-        "str": 92,
-        "spr": 276,
-        "def": 138,
-        "spd": 128
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "5つ星コイン",
-            "_en": "5 star coin",
-            "_fr": "Pièce de 5 étoiles"
-        },
-        {
-            "_jp": "スペシャルコイン",
-            "_en": "special coin",
-            "_fr": "pièce spéciale"
-        },
-        {
-            "_jp": "緑コイン",
-            "_en": "green coin",
-            "_fr": "pièce verte"
-        }
+    "yw2": [
+      "Bingo-kai - Pièce verte",
+      "Bingo-kai - Pièce 5 étoiles",
+      "Bingo-kai - Pièce spéciale",
+      "Bingo-kai gagnant",
+      "Tunnel sans fin"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はたく",
-                "_en": "flutter",
-                "_fr": "battement"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "極楽の術",
-                "_en": "The art of paradise",
-                "_fr": "L'art du paradis"
-            },
-            "explication": {
-                "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ポカポカばーちゃん",
-                "_en": "Warm Baba",
-                "_fr": "Chaud Baba"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "ばーちゃんの最強のいやしパワーで味方全員を復活させHPも回復する。",
-                "_en": "Bachan's strongest healing power revives all allies and restores their HP.",
-                "_fr": "Le pouvoir de guérison le plus puissant de Bachan ravive tous les alliés et restaure leurs PV."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "オバアのやさしさ",
-                "_en": "Grandma's kindness",
-                "_fr": "La gentillesse de grand-mère"
-            },
-            "explication": {
-                "_jp": "【まもりアップ】 おばあの優しさでまもりがアップする",
-                "_en": "[Protection up] Your grandmother's kindness will increase your protection.",
-                "_fr": "[Protection augmentée] La gentillesse de votre grand-mère augmentera votre protection."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "はるかなるやさしさで すべてをいやす。 どんなに悪い妖怪も 心オバアに抱きしめられると 美しい心を取り戻す。",
-            "_en": "Heals everything with far greater kindness. No matter how evil a monster may be, if it is embraced by the Heart Obaaa, it will regain its beautiful heart.",
-            "_fr": "Guérit tout avec une bien plus grande gentillesse. Peu importe à quel point un monstre peut être maléfique, s'il est embrassé par le Cœur Obaaa, il retrouvera son beau cœur."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Bingo-kai"
     ]
+  },
+  "rarite": "Rare",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Volée",
+        "puissance": "20×2|44×2",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Gentille tata",
+        "puissance": "100|150",
+        "description": "Ranime et guérit ses alliés avec tout son amour."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Un amour de tata",
+        "puissance": "N/A",
+        "description": "Entoure d'amour un allié, ce qui renforce sa DÉF."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Bénédiction",
+        "description": "Redonne des PV au Yo-kai voisin."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "10|45",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "80|120",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Gentille tata",
+        "puissance": "___",
+        "description": "Ranime et guérit ses alliés avec tout son amour."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Un amour de tata",
+        "puissance": "N/A",
+        "description": "Entoure d'amour un allié, ce qui renforce sa DÉF."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Bénédiction",
+        "description": "Redonne peu à peu des PV aux Yo-kai voisins."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Gentille tata",
+        "puissance": "400",
+        "description": "Alliés retrouvent beaucoup de PV. Alliés K.-O réanimés."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Restauration",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger renforce l'effet."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Cercle guérisseur",
+        "puissance": "80",
+        "description": "Rend des PV à un allié. Charger élargit l'effet."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Cercle de guérison",
+        "puissance": "___",
+        "description": "Crée un champ où les alliés peuvent se restaurer."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Traitement",
+        "description": "Les PV des alliés sont restaurés graduellement."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Paradis",
+        "puissance": "70|112",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Gentille tata",
+        "puissance": "___",
+        "description": "Ranime et guérit ses alliés avec tout son amour."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Un amour de tata",
+        "puissance": "N/A",
+        "description": "Entoure d'amour un allié, ce qui renforce sa DÉF."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Bénédiction",
+        "description": "Rend peu à peu des PV à tous les alliés reliés."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {},
+  "special_talent": {
+    "nom": "Bénédiction",
+    "description": "Redonne des PV au Yo-kai voisin."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/tata-calin.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/tata-calin.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/tata-calin.wav",
+  "oldID": "151",
+  "medallium_ids": {
+    "yw1": "135",
+    "yw2": "199",
+    "yw3": "370"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "242",
+    "yw Blasters 2": "377",
+    "yw Wibble Wobble": "5012",
+    "yw World": "0116"
+  },
+  "battle_type": "",
+  "skill_name": "Prayer",
+  "skill_effect": "Auntie's Love",
+  "disliked_food": "Meat",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "401",
+        "STR": "159",
+        "SPR": "207",
+        "DEF": "134",
+        "SPD": "200"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "390",
+        "STR": "159",
+        "SPR": "207",
+        "DEF": "134",
+        "SPD": "200"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "305-538",
+        "STR": "97",
+        "SPR": "281",
+        "DEF": "143",
+        "SPD": "133"
+      },
+      "elements": {
+        "attribute": "Wind",
+        "weakness": "Ice"
+      },
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "305-538"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "305-538"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "305-538"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "心オバア",
+      "Shin"
+    ],
+    "Spanish": [
+      "Tita"
+    ],
+    "French": [
+      "Tata"
+    ],
+    "Italian": [
+      "Zia"
+    ],
+    "German": [
+      "Tante"
+    ],
+    "Russian": [
+      "Тётушка",
+      "Tyotushka"
+    ],
+    "Arabic": [
+      "بلسم",
+      "Balsam"
+    ],
+    "Chinese (Mandarin)": [
+      "心奶奶",
+      "Xīn"
+    ],
+    "Portuguese (Brazilian)": [
+      "Tia",
+      "Vó"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "心オバア"
+    ],
+    "Spanish": [
+      "Tita Corazón"
+    ],
+    "French": [
+      "Tata Câlin"
+    ],
+    "Italian": [
+      "Zia Cora"
+    ],
+    "German": [
+      "Tante Herzi"
+    ],
+    "Russian": [
+      "Тётушка Обнимашкина"
+    ],
+    "Arabic": [
+      "بلسم"
+    ],
+    "Chinese (Mandarin)": [
+      "心奶奶"
+    ],
+    "Portuguese (Brazilian)": [
+      "Tia MariaVó Maria (Wibble Wobble)"
+    ]
+  },
+  "description_en": "Regardless of how bad a Yo-kai is, Auntie Heart's healing hug will make it pure again. That is some true kindness!",
+  "nom_en": "Ol' Saint Trick",
+  "rang_yww": "S",
+  "tribue_yww": "Pokapoka",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "légumes",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Recovery role) Kind, compassionate, (Attack to allies) Cooperative, Kenshin",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Attaque des alliés) Coopératif, Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "氷属性",
+    "_en": "ice attribute",
+    "_fr": "attribut de glace"
+  },
+  "avantage_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "stats_initiale_yww": {
+    "hp": 42,
+    "str": 11,
+    "spr": 48,
+    "def": 23,
+    "spd": 22
+  },
+  "stats_max_yww": {
+    "hp": 380,
+    "str": 92,
+    "spr": 276,
+    "def": 138,
+    "spd": 128
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "5つ星コイン",
+      "_en": "5 star coin",
+      "_fr": "Pièce de 5 étoiles"
+    },
+    {
+      "_jp": "スペシャルコイン",
+      "_en": "special coin",
+      "_fr": "pièce spéciale"
+    },
+    {
+      "_jp": "緑コイン",
+      "_en": "green coin",
+      "_fr": "pièce verte"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "はたく",
+        "_en": "flutter",
+        "_fr": "battement"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "極楽の術",
+        "_en": "The art of paradise",
+        "_fr": "L'art du paradis"
+      },
+      "explication": {
+        "_jp": "【威力:70 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 70 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 70 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ポカポカばーちゃん",
+        "_en": "Warm Baba",
+        "_fr": "Chaud Baba"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "ばーちゃんの最強のいやしパワーで味方全員を復活させHPも回復する。",
+        "_en": "Bachan's strongest healing power revives all allies and restores their HP.",
+        "_fr": "Le pouvoir de guérison le plus puissant de Bachan ravive tous les alliés et restaure leurs PV."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "オバアのやさしさ",
+        "_en": "Grandma's kindness",
+        "_fr": "La gentillesse de grand-mère"
+      },
+      "explication": {
+        "_jp": "【まもりアップ】 おばあの優しさでまもりがアップする",
+        "_en": "[Protection up] Your grandmother's kindness will increase your protection.",
+        "_fr": "[Protection augmentée] La gentillesse de votre grand-mère augmentera votre protection."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "はるかなるやさしさで すべてをいやす。 どんなに悪い妖怪も 心オバアに抱きしめられると 美しい心を取り戻す。",
+      "_en": "Heals everything with far greater kindness. No matter how evil a monster may be, if it is embraced by the Heart Obaaa, it will regain its beautiful heart.",
+      "_fr": "Guérit tout avec une bien plus grande gentillesse. Peu importe à quel point un monstre peut être maléfique, s'il est embrassé par le Cœur Obaaa, il retrouvera son beau cœur."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "152",
+  "Name_yww": "心オバア",
+  "description_jp_yww": "はるかなるやさしさで すべてをいやす。 どんなに悪い妖怪も 心オバアに抱きしめられると 美しい心を取り戻す。",
+  "BingoMessage_jp_yww": "ふぉっふぉっふぉ…　ありがとうねぇ わしの孫にならんか？",
+  "MonsterId_yww": "y180010",
+  "Height_yww": 17.0,
+  "CommondId_yww": "sp_180010",
+  "MinHp_yww": 42,
+  "MaxHp_yww": 380,
+  "MinAttack_yww": 11,
+  "MaxAttack_yww": 92,
+  "MinMagic_yww": 48,
+  "MaxMagic_yww": 276,
+  "MinDefense_yww": 23,
+  "MaxDefense_yww": 138,
+  "MinSpeed_yww": 22,
+  "MaxSpeed_yww": 128,
+  "AttackId_yww": 10,
+  "MagicId_yww": 24,
+  "HauntId_yww": 180010,
+  "SpSkillId_yww": 180010,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 10,
+  "DislikeFoodKind_yww": 11,
+  "ActionType_yww": 15,
+  "TribeType_yww": 5,
+  "MedallionImage_yww": "y175810.png",
+  "SpriteImage_yww": "img_y175810.png",
+  "Audio_yww": "sp_y175810.wav",
+  "Description_yww": "Avec une tendresse infinie, elle guérit tout. Même les yōkai les plus méchants, lorsqu’ils sont pris dans les bras de la grand-mère, retrouvent un cœur pur.",
+  "BingoMessage_fr_yww": "Ho ho ho… Merci beaucoup ! Tu veux bien devenir mon petit-fils ?"
 }

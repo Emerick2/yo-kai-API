@@ -1,662 +1,693 @@
 {
-    "ID": "65",
-    "Nom": "Darumastar",
-    "Tribue": "Costaud",
-    "Rang": "B",
-    "PV": "437",
-    "Force": "166",
-    "Esprit": "70",
-    "Défense": "231",
-    "Vitesse": "86",
-    "Description": "Désormais un vrai Yo-kai macho, il s'est entrainé durement dans les montagnes pour chasser son côté faiblard.",
-    "nourriture": "Pain",
-    "élément": "Terre",
-    "Rôle": "Tank",
-    "Biographie": "",
-    "étimologie": "Darumastar vient de Daruma et de star.",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "Les personnes sous l'envoûtement de Darumastar deviennent macho. Darumastar possède une très bonne force physique.",
-    "personnalité": "Darumastar s'est entrainé dans la forêt afin de gagner en force et en confiance en soi. Il est très fier de sa puissance. Dansyw3, Darumastar est devenu un disciple duKarmagisterainsi que le premier boss de laTour du Karmagister.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/darumastar.png",
-    "numero": "058",
-    "nourriture_favorite": "Curry",
-    "attaques": [
-        {
-            "type": "Attaque",
-            "nom": "Peau brillante",
-            "effet": "Ne subit pas de dégâts critiques."
-        },
-        {
-            "type": "Attaque",
-            "nom": "Poing puissant",
-            "effet": "50 | 110"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Galet",
-            "effet": "20 | 90"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Surcharge",
-            "effet": "Saute et charge un ennemi, mais se blesse à cause de l'effort. 170 | 255"
-        },
-        {
-            "type": "Attaque",
-            "nom": "Macho",
-            "effet": "Rends un allié macho et augmente sa FOR."
-        }
+  "ID": "65",
+  "Nom": "Darumastar",
+  "Tribue": "Costaud",
+  "Rang": "B",
+  "PV": "437",
+  "Force": "166",
+  "Esprit": "70",
+  "Défense": "231",
+  "Vitesse": "86",
+  "Description": "Désormais un vrai Yo-kai macho, il s'est entrainé durement dans les montagnes pour chasser son côté faiblard.",
+  "nourriture": "Pain",
+  "élément": "Terre",
+  "Rôle": "Tank",
+  "Biographie": "",
+  "étimologie": "Darumastar vient de Daruma et de star.",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "Les personnes sous l'envoûtement de Darumastar deviennent macho. Darumastar possède une très bonne force physique.",
+  "personnalité": "Darumastar s'est entrainé dans la forêt afin de gagner en force et en confiance en soi. Il est très fier de sa puissance. Dansyw3, Darumastar est devenu un disciple duKarmagisterainsi que le premier boss de laTour du Karmagister.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/darumastar.png",
+  "numero": "058",
+  "nourriture_favorite": "Curry",
+  "attaques": [
+    {
+      "type": "Attaque",
+      "nom": "Peau brillante",
+      "effet": "Ne subit pas de dégâts critiques."
+    },
+    {
+      "type": "Attaque",
+      "nom": "Poing puissant",
+      "effet": "50 | 110"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Galet",
+      "effet": "20 | 90"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Surcharge",
+      "effet": "Saute et charge un ennemi, mais se blesse à cause de l'effort. 170 | 255"
+    },
+    {
+      "type": "Attaque",
+      "nom": "Macho",
+      "effet": "Rends un allié macho et augmente sa FOR."
+    }
+  ],
+  "phrases_nourriture": {
+    "Mange de la bonne nourriture": "C'est super bon !",
+    "Mange de la nourriture insipide": "J'ai plus faim !",
+    "Mange de la mauvaise nourriture": "Argh...",
+    "A la flemme": "Muscle froissé !",
+    "Est échangé": "Regarde-toi ! Je vais m'occuper de ton entraînement !",
+    "Devient ton ami": "C'était limite ! Devenons amis ! D'accord ?!"
+  },
+  "evolutions": [],
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "Général",
+      "parent1": "Darabajoie",
+      "parent2": "Sumochi",
+      "resultat": "Darumastar",
+      "critere": "➨"
+    }
+  ],
+  "image_locale": "",
+  "nom_original": "だるまっちょ",
+  "nom_anglais": "Darumacho",
+  "premiere_apparition": "yw1",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw1": [
+      "Coteau fleuri- Gare du soleil - sous les distributeurs",
+      "Fusion"
     ],
-    "phrases_nourriture": {
-        "Mange de la bonne nourriture": "C'est super bon !",
-        "Mange de la nourriture insipide": "J'ai plus faim !",
-        "Mange de la mauvaise nourriture": "Argh...",
-        "A la flemme": "Muscle froissé !",
-        "Est échangé": "Regarde-toi ! Je vais m'occuper de ton entraînement !",
-        "Devient ton ami": "C'était limite ! Devenons amis ! D'accord ?!"
-    },
-    "evolutions": [],
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "Général",
-            "parent1": "Darabajoie",
-            "parent2": "Sumochi",
-            "resultat": "Darumastar",
-            "critere": "➨"
-        }
+    "yw2": [
+      "Fusion"
     ],
-    "image_locale": "",
-    "nom_original": "だるまっちょ",
-    "nom_anglais": "Darumacho",
-    "premiere_apparition": "yw1",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw1": [
-            "Coteau fleuri- Gare du soleil - sous les distributeurs",
-            "Fusion"
-        ],
-        "yw2": [
-            "Fusion"
-        ],
-        "yw3": [
-            "Fusion",
-            "Tour du Karmagister- 1er étage"
-        ]
-    },
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw1": [
-            {
-                "type": "Attaque",
-                "nom": "Poing puissant",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Galet",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Surcharge",
-                "puissance": "160|240",
-                "description": "Saute et charge un ennemi, mais se blesse à cause de l'effort."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Macho",
-                "puissance": "N/A",
-                "description": "Rend un allié macho et augmente sa FOR."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Peau brillante",
-                "description": "Ne subit pas de dégâts critiques."
-            }
-        ],
-        "yw2": [
-            {
-                "type": "Attaque",
-                "nom": "Poing puissant",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Galet",
-                "puissance": "20|90",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Surcharge",
-                "puissance": "170|225",
-                "description": "Saute et charge un ennemi, mais se blesse à cause de l'effort."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Macho",
-                "puissance": "N/A",
-                "description": "Rend un allié macho et augmente sa FOR."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "N/A",
-                "description": "Déclenche une attaque à courte portée."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Garder",
-                "puissance": "N/A",
-                "description": "Tu peux te défendre avec le bouton x."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Peau brillante",
-                "description": "Ne subit pas de dégâts critiques."
-            }
-        ],
-        "yw Blasters 1": [
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque courte portée."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Surcharge",
-                "puissance": "550",
-                "description": "Descente en piqué, dégâts pour l'ennemi et soi-même."
-            },
-            {
-                "type": "Technique 1",
-                "nom": "Déblindage",
-                "puissance": "80",
-                "description": "Baisse temporaire DÉF. des ennemis touchés."
-            },
-            {
-                "type": "Technique 2",
-                "nom": "Encore !",
-                "puissance": "80",
-                "description": "Attaque un ennemi pour attirer son attention."
-            },
-            {
-                "type": "Technique à acquérir 1",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Réduit les dégâts infligés. Attire l'attention."
-            },
-            {
-                "type": "Technique à acquérir 2",
-                "nom": "Découragement",
-                "puissance": "80",
-                "description": "Baisse temporaire ATT. des ennemis touchés."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Peau brillante",
-                "description": "Immunité contre les coups critiques."
-            }
-        ],
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Poing puissant",
-                "puissance": "50|110",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Galet",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Surcharge",
-                "puissance": "140|280",
-                "description": "Saute et se rue sur la colonne devant lui, la tête la première."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Macho",
-                "puissance": "N/A",
-                "description": "Rend un allié macho et augmente sa FOR."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Surcharge",
-                "puissance": "550",
-                "description": "Saut causant des dégâts élevés. Blesse l'utilisateur."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Découragement",
-                "puissance": "80",
-                "description": "Fait chuter l’attaque d’un ennemi pendant un instant."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Armure",
-                "puissance": "___",
-                "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Peau brillante",
-                "description": "Ne subira pas de dégâts critiques."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw1": [
-            {
-                "taux": "?%",
-                "objet": "Amulette antiterre"
-            },
-            {
-                "taux": "?%",
-                "objet": "Bracelet usé"
-            }
-        ],
-        "yw2": [
-            {
-                "taux": "?%",
-                "objet": "Tout sur la défense"
-            },
-            {
-                "taux": "?%",
-                "objet": "Morceau de lard"
-            }
-        ],
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Grand EXPorbe"
-            },
-            {
-                "taux": "?%",
-                "objet": "Curry d'agneau"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Peau brillante",
-        "description": "Ne subit pas de dégâts critiques."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/darumastar.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/darumastar.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/darumastar.wav",
-    "oldID": "65",
-    "medallium_ids": {
-        "yw1": "058",
-        "yw2": "086",
-        "yw3": "141"
-    },
-    "spinoff_ids": {
-        "yw Blasters 1": "096",
-        "yw Blasters 2": "143",
-        "yw Wibble Wobble": "3002",
-        "yw World": "0049"
-    },
-    "battle_type": "",
-    "skill_name": "Glossy Skin",
-    "skill_effect": "Machismo",
-    "disliked_food": "Sweets",
-    "global_stats": {
-        "yw1": {
-            "stats": {
-                "HP": "392",
-                "STR": "174",
-                "SPR": "97",
-                "DEF": "185",
-                "SPD": "104"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw2": {
-            "stats": {
-                "HP": "447",
-                "STR": "174",
-                "SPR": "97",
-                "DEF": "185",
-                "SPD": "104"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw3": {
-            "stats": {
-                "HP": "168-294",
-                "STR": "171",
-                "SPR": "75",
-                "DEF": "236",
-                "SPD": "91"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 1": {
-            "stats": {
-                "HP": "168-294"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "168-294"
-            },
-            "elements": {},
-            "attacks": []
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "168-294"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "だるまっちょ",
-            "Darumatcho"
-        ],
-        "Spanish": [
-            "Tentemacho"
-        ],
-        "French": [
-            "Darumastar"
-        ],
-        "Italian": [
-            "Muchomacho"
-        ],
-        "German": [
-            "Darumacho"
-        ],
-        "Korean": [
-            "마초뚜기",
-            "Machottugi"
-        ],
-        "Russian": [
-            "Могукан",
-            "Mogukan"
-        ],
-        "Arabic": [
-            "الرقيب",
-            "Ar-raqīb"
-        ],
-        "Chinese (Mandarin)": [
-            "肌肉不倒翁"
-        ],
-        "Portuguese (Brazilian)": [
-            "Darumachão"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "だるまっちょ"
-        ],
-        "Spanish": [
-            "Tentemacho"
-        ],
-        "French": [
-            "Darumastar"
-        ],
-        "Italian": [
-            "Muchomacho"
-        ],
-        "German": [
-            "Darumacho"
-        ],
-        "Korean": [
-            "마초뚜기"
-        ],
-        "Russian": [
-            "Могукан"
-        ],
-        "Arabic": [
-            "الرقيب مفتول"
-        ],
-        "Chinese (Mandarin)": [
-            "肌肉不倒翁"
-        ],
-        "Portuguese (Brazilian)": [
-            "Darumachão"
-        ]
-    },
-    "description_en": "Now a truly macho Yo-kai, this one worked tirelessly in a mountain retreat to train away his dullness.",
-    "nom_en": "Darkyubi",
-    "rang_yww": "B",
-    "tribue_yww": "Goketsu",
-    "rôle_yww": "réservoir",
-    "plat_préféré_yww": "curry",
-    "attitude_spécifique_yww": {
-        "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
-        "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
-        "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
-    },
-    "faiblesse_yww": {
-        "_jp": "風属性",
-        "_en": "wind attribute",
-        "_fr": "attribut du vent"
-    },
-    "avantage_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "stats_initiale_yww": {
-        "hp": 57,
-        "str": 26,
-        "spr": 8,
-        "def": 31,
-        "spd": 12
-    },
-    "stats_max_yww": {
-        "hp": 437,
-        "str": 166,
-        "spr": 70,
-        "def": 231,
-        "spd": 86
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "オレンジコイン",
-            "_en": "orange coin",
-            "_fr": "pièce de monnaie orange"
-        },
-        {
-            "_jp": "クリスマスコイン",
-            "_en": "christmas coins",
-            "_fr": "pièces de Noël"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
-            "_en": "Super Pickup Gasha (Enma the Great Pickup)",
-            "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
-            "_en": "Super Pickup Gasha (Hinogami Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hinogami)"
-        },
-        {
-            "_jp": "燃える妖魂！！ガシャ",
-            "_en": "Burning demon soul! ! Gasha",
-            "_fr": "Âme démoniaque brûlante ! ! Gasha"
-        },
-        {
-            "_jp": "ハロウィンパーティー妖怪ガシャ",
-            "_en": "halloween party monster gasha",
-            "_fr": "fête d'Halloween monstre Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
-            "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
-            "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
-        },
-        {
-            "_jp": "フシギの旅妖怪ガシャ",
-            "_en": "Fushigi's Journey Yokai Gasha",
-            "_fr": "Le voyage de Fushigi Yokai Gasha"
-        },
-        {
-            "_jp": "寝間着でゆったり妖怪ガシャ",
-            "_en": "Relaxing Yokai Gasha in nightwear",
-            "_fr": "Yokai Gasha relaxant en tenue de nuit"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
-            "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
-            "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
-        },
-        {
-            "_jp": "魅惑のクリスマス妖怪ガシャ",
-            "_en": "Enchanted Christmas monster Gasha",
-            "_fr": "Gasha, le monstre de Noël enchanté"
-        },
-        {
-            "_jp": "映画公開記念ガシャ",
-            "_en": "Movie release commemorative gasha",
-            "_fr": "Gasha commémoratif de sortie du film"
-        },
-        {
-            "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
-            "_en": "First half of Yokai Gasha",
-            "_fr": "Première moitié de Yokai Gasha"
-        },
-        {
-            "_jp": "幻の雪山の宿妖怪ガシャ",
-            "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
-            "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
-            "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
-            "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
-        },
-        {
-            "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
-            "_en": "I'm so excited! Valentine Yokai Gasha",
-            "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "チョコっとバレンタイン妖怪ガシャ",
-            "_en": "Chocolate Valentine Yokai Gasha",
-            "_fr": "Chocolat Saint-Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "モテモテ！バレンタイン妖怪ガシャ",
-            "_en": "Popular! Valentine Yokai Gasha",
-            "_fr": "Populaire! Valentin Yokai Gasha"
-        },
-        {
-            "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
-            "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
-            "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
-        }
-    ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "ぶんなぐる",
-                "_en": "wallop",
-                "_fr": "coup"
-            },
-            "explication": {
-                "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
-                "_en": "[Power: 50/Blow] Deal a big blow",
-                "_fr": "[Puissance : 50/Coup] Portez un gros coup"
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "こいしの術",
-                "_en": "Koishi no jutsu",
-                "_fr": "Koishi pas de jutsu"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 土属性】 土の妖術を使う。",
-                "_en": "[Power: 30 / Earth attribute] Uses earth magic.",
-                "_fr": "[Puissance : 30 / Attribut Terre] Utilise la magie de la terre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "かっとびバスター",
-                "_en": "Kattobi Buster",
-                "_fr": "Kattobi Buster"
-            },
-            "pouvoir": "140",
-            "explication": {
-                "_jp": "勢いよく飛び上がり、上空から正面の敵に頭突きをおみまいする",
-                "_en": "Jump up with great force and headbutt the enemy in front of you from above.",
-                "_fr": "Sautez avec une grande force et donnez un coup de tête à l'ennemi devant vous depuis le haut."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "マッチョにする",
-                "_en": "make it macho",
-                "_fr": "fais-en un macho"
-            },
-            "explication": {
-                "_jp": "【ちからアップ】 とりつかれた妖怪はマッチョになって ちからがアップする。",
-                "_en": "[Power Up] The possessed monster becomes macho and its power increases.",
-                "_fr": "[Power Up] Le monstre possédé devient macho et sa puissance augmente."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "山で修行をしたことで だるさに打ち勝って マッチョになった。 額のキズは 修行アピールの ボディーペイント。",
-            "_en": "By training in the mountains, he overcame his sluggishness and became muscular. The scratch on his forehead is body paint to show off his training.",
-            "_fr": "En s'entraînant en montagne, il a vaincu sa lenteur et est devenu musclé. L'égratignure sur son front est de la peinture corporelle pour montrer son entraînement."
-        }
-    ],
-    "jeu_present": [
-        "yw1",
-        "yw2",
-        "yw3",
-        "ywb1",
-        "ywb2"
+    "yw3": [
+      "Fusion",
+      "Tour du Karmagister- 1er étage"
     ]
+  },
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw1": [
+      {
+        "type": "Attaque",
+        "nom": "Poing puissant",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Galet",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Surcharge",
+        "puissance": "160|240",
+        "description": "Saute et charge un ennemi, mais se blesse à cause de l'effort."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Macho",
+        "puissance": "N/A",
+        "description": "Rend un allié macho et augmente sa FOR."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Peau brillante",
+        "description": "Ne subit pas de dégâts critiques."
+      }
+    ],
+    "yw2": [
+      {
+        "type": "Attaque",
+        "nom": "Poing puissant",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Galet",
+        "puissance": "20|90",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Surcharge",
+        "puissance": "170|225",
+        "description": "Saute et charge un ennemi, mais se blesse à cause de l'effort."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Macho",
+        "puissance": "N/A",
+        "description": "Rend un allié macho et augmente sa FOR."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "N/A",
+        "description": "Déclenche une attaque à courte portée."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Garder",
+        "puissance": "N/A",
+        "description": "Tu peux te défendre avec le bouton x."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Peau brillante",
+        "description": "Ne subit pas de dégâts critiques."
+      }
+    ],
+    "yw Blasters 1": [
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque courte portée."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Surcharge",
+        "puissance": "550",
+        "description": "Descente en piqué, dégâts pour l'ennemi et soi-même."
+      },
+      {
+        "type": "Technique 1",
+        "nom": "Déblindage",
+        "puissance": "80",
+        "description": "Baisse temporaire DÉF. des ennemis touchés."
+      },
+      {
+        "type": "Technique 2",
+        "nom": "Encore !",
+        "puissance": "80",
+        "description": "Attaque un ennemi pour attirer son attention."
+      },
+      {
+        "type": "Technique à acquérir 1",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Réduit les dégâts infligés. Attire l'attention."
+      },
+      {
+        "type": "Technique à acquérir 2",
+        "nom": "Découragement",
+        "puissance": "80",
+        "description": "Baisse temporaire ATT. des ennemis touchés."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Peau brillante",
+        "description": "Immunité contre les coups critiques."
+      }
+    ],
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Poing puissant",
+        "puissance": "50|110",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Galet",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Surcharge",
+        "puissance": "140|280",
+        "description": "Saute et se rue sur la colonne devant lui, la tête la première."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Macho",
+        "puissance": "N/A",
+        "description": "Rend un allié macho et augmente sa FOR."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Surcharge",
+        "puissance": "550",
+        "description": "Saut causant des dégâts élevés. Blesse l'utilisateur."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Découragement",
+        "puissance": "80",
+        "description": "Fait chuter l’attaque d’un ennemi pendant un instant."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Armure",
+        "puissance": "___",
+        "description": "Dégâts reçus - mais attire l’attention de l’ennemi."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Peau brillante",
+        "description": "Ne subira pas de dégâts critiques."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw1": [
+      {
+        "taux": "?%",
+        "objet": "Amulette antiterre"
+      },
+      {
+        "taux": "?%",
+        "objet": "Bracelet usé"
+      }
+    ],
+    "yw2": [
+      {
+        "taux": "?%",
+        "objet": "Tout sur la défense"
+      },
+      {
+        "taux": "?%",
+        "objet": "Morceau de lard"
+      }
+    ],
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Grand EXPorbe"
+      },
+      {
+        "taux": "?%",
+        "objet": "Curry d'agneau"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Peau brillante",
+    "description": "Ne subit pas de dégâts critiques."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/darumastar.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/darumastar.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/darumastar.wav",
+  "oldID": "65",
+  "medallium_ids": {
+    "yw1": "058",
+    "yw2": "086",
+    "yw3": "141"
+  },
+  "spinoff_ids": {
+    "yw Blasters 1": "096",
+    "yw Blasters 2": "143",
+    "yw Wibble Wobble": "3002",
+    "yw World": "0049"
+  },
+  "battle_type": "",
+  "skill_name": "Glossy Skin",
+  "skill_effect": "Machismo",
+  "disliked_food": "Sweets",
+  "global_stats": {
+    "yw1": {
+      "stats": {
+        "HP": "392",
+        "STR": "174",
+        "SPR": "97",
+        "DEF": "185",
+        "SPD": "104"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw2": {
+      "stats": {
+        "HP": "447",
+        "STR": "174",
+        "SPR": "97",
+        "DEF": "185",
+        "SPD": "104"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw3": {
+      "stats": {
+        "HP": "168-294",
+        "STR": "171",
+        "SPR": "75",
+        "DEF": "236",
+        "SPD": "91"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 1": {
+      "stats": {
+        "HP": "168-294"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "168-294"
+      },
+      "elements": {},
+      "attacks": []
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "168-294"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "だるまっちょ",
+      "Darumatcho"
+    ],
+    "Spanish": [
+      "Tentemacho"
+    ],
+    "French": [
+      "Darumastar"
+    ],
+    "Italian": [
+      "Muchomacho"
+    ],
+    "German": [
+      "Darumacho"
+    ],
+    "Korean": [
+      "마초뚜기",
+      "Machottugi"
+    ],
+    "Russian": [
+      "Могукан",
+      "Mogukan"
+    ],
+    "Arabic": [
+      "الرقيب",
+      "Ar-raqīb"
+    ],
+    "Chinese (Mandarin)": [
+      "肌肉不倒翁"
+    ],
+    "Portuguese (Brazilian)": [
+      "Darumachão"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "だるまっちょ"
+    ],
+    "Spanish": [
+      "Tentemacho"
+    ],
+    "French": [
+      "Darumastar"
+    ],
+    "Italian": [
+      "Muchomacho"
+    ],
+    "German": [
+      "Darumacho"
+    ],
+    "Korean": [
+      "마초뚜기"
+    ],
+    "Russian": [
+      "Могукан"
+    ],
+    "Arabic": [
+      "الرقيب مفتول"
+    ],
+    "Chinese (Mandarin)": [
+      "肌肉不倒翁"
+    ],
+    "Portuguese (Brazilian)": [
+      "Darumachão"
+    ]
+  },
+  "description_en": "Now a truly macho Yo-kai, this one worked tirelessly in a mountain retreat to train away his dullness.",
+  "nom_en": "Darkyubi",
+  "rang_yww": "B",
+  "tribue_yww": "Goketsu",
+  "rôle_yww": "réservoir",
+  "plat_préféré_yww": "curry",
+  "attitude_spécifique_yww": {
+    "_jp": "(盾役) しんちょう、動じない、(味方とりつき) 協力的、けんしん的",
+    "_en": "(Shield role) Reliable, unfazed, (Attack to allies) Cooperative, Kenshin-like",
+    "_fr": "(Rôle de bouclier) Fiable, imperturbable, (Attaque contre les alliés) Coopératif, semblable à Kenshin"
+  },
+  "faiblesse_yww": {
+    "_jp": "風属性",
+    "_en": "wind attribute",
+    "_fr": "attribut du vent"
+  },
+  "avantage_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "stats_initiale_yww": {
+    "hp": 57,
+    "str": 26,
+    "spr": 8,
+    "def": 31,
+    "spd": 12
+  },
+  "stats_max_yww": {
+    "hp": 437,
+    "str": 166,
+    "spr": 70,
+    "def": 231,
+    "spd": 86
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "オレンジコイン",
+      "_en": "orange coin",
+      "_fr": "pièce de monnaie orange"
+    },
+    {
+      "_jp": "クリスマスコイン",
+      "_en": "christmas coins",
+      "_fr": "pièces de Noël"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(エンマ大王ピックアップ)",
+      "_en": "Super Pickup Gasha (Enma the Great Pickup)",
+      "_fr": "Super Pickup Gasha (Enma le Grand Pickup)"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(日ノ神ピックアップ)",
+      "_en": "Super Pickup Gasha (Hinogami Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hinogami)"
+    },
+    {
+      "_jp": "燃える妖魂！！ガシャ",
+      "_en": "Burning demon soul! ! Gasha",
+      "_fr": "Âme démoniaque brûlante ! ! Gasha"
+    },
+    {
+      "_jp": "ハロウィンパーティー妖怪ガシャ",
+      "_en": "halloween party monster gasha",
+      "_fr": "fête d'Halloween monstre Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ラストブシニャンピックアップ)",
+      "_en": "Super Pickup Gasha (Last Bushinyan Pickup)",
+      "_fr": "Super Pickup Gasha (dernier pick-up Bushinyan)"
+    },
+    {
+      "_jp": "フシギの旅妖怪ガシャ",
+      "_en": "Fushigi's Journey Yokai Gasha",
+      "_fr": "Le voyage de Fushigi Yokai Gasha"
+    },
+    {
+      "_jp": "寝間着でゆったり妖怪ガシャ",
+      "_en": "Relaxing Yokai Gasha in nightwear",
+      "_fr": "Yokai Gasha relaxant en tenue de nuit"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ヒカリオロチピックアップ)",
+      "_en": "Super Pickup Gasha (Hikari Orochi Pickup)",
+      "_fr": "Super pick-up Gasha (pick-up Hikari Orochi)"
+    },
+    {
+      "_jp": "魅惑のクリスマス妖怪ガシャ",
+      "_en": "Enchanted Christmas monster Gasha",
+      "_fr": "Gasha, le monstre de Noël enchanté"
+    },
+    {
+      "_jp": "映画公開記念ガシャ",
+      "_en": "Movie release commemorative gasha",
+      "_fr": "Gasha commémoratif de sortie du film"
+    },
+    {
+      "_jp": "ゆく年くる年晴れ着妖怪ガシャ前半",
+      "_en": "First half of Yokai Gasha",
+      "_fr": "Première moitié de Yokai Gasha"
+    },
+    {
+      "_jp": "幻の雪山の宿妖怪ガシャ",
+      "_en": "Phantom Snowy Mountain Inn Yokai Gasha",
+      "_fr": "Auberge Phantom Snowy Mountain Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(クレクレパトラピックアップ)",
+      "_en": "Super Pickup Gasha (Kureclepatra Pickup)",
+      "_fr": "Super Pickup Gasha (ramassage Kureclepatra)"
+    },
+    {
+      "_jp": "ドキドキ！バレンタイン妖怪ガシャ",
+      "_en": "I'm so excited! Valentine Yokai Gasha",
+      "_fr": "Je suis vraiment enthousiaste! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "チョコっとバレンタイン妖怪ガシャ",
+      "_en": "Chocolate Valentine Yokai Gasha",
+      "_fr": "Chocolat Saint-Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "モテモテ！バレンタイン妖怪ガシャ",
+      "_en": "Popular! Valentine Yokai Gasha",
+      "_fr": "Populaire! Valentin Yokai Gasha"
+    },
+    {
+      "_jp": "スーパーピックアップガシャ(ブルジョワGピックアップ)",
+      "_en": "Super Pickup Gasha (Bourgeois G Pickup)",
+      "_fr": "Super Pickup Gasha (Camion Bourgeois G)"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "ぶんなぐる",
+        "_en": "wallop",
+        "_fr": "coup"
+      },
+      "explication": {
+        "_jp": "【威力:50 / 打撃】 大きな一撃を加える",
+        "_en": "[Power: 50/Blow] Deal a big blow",
+        "_fr": "[Puissance : 50/Coup] Portez un gros coup"
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "こいしの術",
+        "_en": "Koishi no jutsu",
+        "_fr": "Koishi pas de jutsu"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 土属性】 土の妖術を使う。",
+        "_en": "[Power: 30 / Earth attribute] Uses earth magic.",
+        "_fr": "[Puissance : 30 / Attribut Terre] Utilise la magie de la terre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "かっとびバスター",
+        "_en": "Kattobi Buster",
+        "_fr": "Kattobi Buster"
+      },
+      "pouvoir": "140",
+      "explication": {
+        "_jp": "勢いよく飛び上がり、上空から正面の敵に頭突きをおみまいする",
+        "_en": "Jump up with great force and headbutt the enemy in front of you from above.",
+        "_fr": "Sautez avec une grande force et donnez un coup de tête à l'ennemi devant vous depuis le haut."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "マッチョにする",
+        "_en": "make it macho",
+        "_fr": "fais-en un macho"
+      },
+      "explication": {
+        "_jp": "【ちからアップ】 とりつかれた妖怪はマッチョになって ちからがアップする。",
+        "_en": "[Power Up] The possessed monster becomes macho and its power increases.",
+        "_fr": "[Power Up] Le monstre possédé devient macho et sa puissance augmente."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "山で修行をしたことで だるさに打ち勝って マッチョになった。 額のキズは 修行アピールの ボディーペイント。",
+      "_en": "By training in the mountains, he overcame his sluggishness and became muscular. The scratch on his forehead is body paint to show off his training.",
+      "_fr": "En s'entraînant en montagne, il a vaincu sa lenteur et est devenu musclé. L'égratignure sur son front est de la peinture corporelle pour montrer son entraînement."
+    }
+  ],
+  "jeu_present": [
+    "yw1",
+    "yw2",
+    "yw3",
+    "ywb1",
+    "ywb2"
+  ],
+  "id_yww": "65",
+  "Name_yww": "だるまっちょ",
+  "description_jp_yww": "山で修行をしたことで だるさに打ち勝って マッチョになった。 額のキズは　修行アピールの ボディーペイント。",
+  "BingoMessage_jp_yww": "トレーニング中に何の用だ？　おお　旅か！ 新しい修行としちゃあ　悪くないな！",
+  "MonsterId_yww": "y136000",
+  "Height_yww": 13.0,
+  "CommondId_yww": "sp_136000",
+  "MinHp_yww": 57,
+  "MaxHp_yww": 437,
+  "MinAttack_yww": 26,
+  "MaxAttack_yww": 166,
+  "MinMagic_yww": 8,
+  "MaxMagic_yww": 70,
+  "MinDefense_yww": 31,
+  "MaxDefense_yww": 231,
+  "MinSpeed_yww": 12,
+  "MaxSpeed_yww": 86,
+  "AttackId_yww": 2,
+  "MagicId_yww": 10,
+  "HauntId_yww": 136000,
+  "SpSkillId_yww": 136000,
+  "Rank_yww": 4,
+  "FavoriteFoodKind_yww": 13,
+  "DislikeFoodKind_yww": 14,
+  "ActionType_yww": 16,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y131800.png",
+  "SpriteImage_yww": "img_y131800.png",
+  "Audio_yww": "sp_y131800.wav",
+  "Description_yww": "Grâce à mon entraînement en montagne, j'ai surmonté ma fatigue et je suis devenu musclé. La cicatrice sur mon front est un tatouage corporel qui symbolise mon entraînement.",
+  "BingoMessage_fr_yww": "Qu'est-ce que tu fais là pendant l'entraînement ? Oh, un voyage ! Comme nouvelle épreuve, ça ne semble pas mal du tout !"
 }

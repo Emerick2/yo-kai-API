@@ -1,382 +1,413 @@
 {
-    "ID": "494",
-    "Nom": "Vertipiou",
-    "Tribue": "Mignon",
-    "Rang": "E",
-    "PV": "279",
-    "Force": "135",
-    "Esprit": "42",
-    "Défense": "99",
-    "Vitesse": "172",
-    "Description": "Quand tu te cognes la tête, ce Yo-kai est toujours dans le coin. Il titubera avec toi. Sympa, non ?",
-    "nourriture": "Jus",
-    "élément": "Foudre",
-    "Rôle": "Ranger",
-    "Biographie": "",
-    "étimologie": "Vertipiou vient de Vertige et de \"Piou\" (onomatopée pour le cri d'un poussin).",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "",
-    "personnalité": "",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/vertipiou.png",
-    "nom_original": "ピヨピヨコ",
-    "nom_anglais": "Twirly Pie",
-    "premiere_apparition": "yw3",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw3": [
-            "Cajoun- dans l'herbe",
-            "Dimension mystère- magasin mystère",
-            "Roue rêve:Pièce rose- 3e prix",
-            "Pièce rose- 3e prix"
-        ],
-        "yw Wibble Wobble": [
-            "Événements",
-            "Événement - Puni Puni 100 histoires, Passionnant festival de Hula- Stand d'échange"
-        ]
-    },
-    "fusions": [],
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {
-        "yw3": [
-            {
-                "type": "Attaque",
-                "nom": "Gifle",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Technique",
-                "nom": "Décharge",
-                "puissance": "30|105",
-                "description": ""
-            },
-            {
-                "type": "Amultime",
-                "nom": "Culbute cui-cui",
-                "puissance": "___",
-                "description": "Ses yeux donnent le tournis aux ennemis et sèment la confusion."
-            },
-            {
-                "type": "Envoûtement",
-                "nom": "Désorientation",
-                "puissance": "N/A",
-                "description": "L'ennemi a la tête qui tourne et attaque ses alliés par mégarde."
-            },
-            {
-                "type": "Attaque A",
-                "nom": "Attaque",
-                "puissance": "50",
-                "description": "Attaque un ennemi proche."
-            },
-            {
-                "type": "Âmultime",
-                "nom": "Culbute cui-cui",
-                "puissance": "___",
-                "description": "Réduction ++ temporaire de l'attaque de l'ennemi."
-            },
-            {
-                "type": "Attaque X",
-                "nom": "Baisse de vitesse",
-                "puissance": "___",
-                "description": "Réduit + VIT. ennemie. Plus de portée si chargé."
-            },
-            {
-                "type": "Attaque Y",
-                "nom": "Âmunisé",
-                "puissance": "___",
-                "description": "Esquive des attaques par des déplacements rapides."
-            },
-            {
-                "type": "Talent",
-                "nom": "Talent : Cha-cha-cha",
-                "description": "Esquive toutes les attaques si envoûté par un ennemi."
-            }
-        ]
-    },
-    "soul_effects": null,
-    "drops": {
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Y-Cola"
-            },
-            {
-                "taux": "?%",
-                "objet": "Étoile dansante"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Cha-cha-cha",
-        "description": "Esquive toutes les attaques si envoûté par un ennemi."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/vertipiou.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/vertipiou.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/vertipiou.wav",
-    "oldID": "503",
-    "medallium_ids": {
-        "yw3": "210"
-    },
-    "spinoff_ids": {
-        "yw Blasters 2": "215",
-        "yw Wibble Wobble": "4142",
-        "yw World": "0321"
-    },
-    "battle_type": "",
-    "skill_name": "Keep on Movin'",
-    "skill_effect": "Befuddle",
-    "disliked_food": "Curry",
-    "global_stats": {
-        "yw3": {
-            "stats": {
-                "HP": "336",
-                "STR": "204",
-                "SPR": "79",
-                "DEF": "104",
-                "SPD": "177"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "188-323",
-                "STR": "204",
-                "SPR": "79",
-                "DEF": "104"
-            },
-            "elements": {
-                "attribute": "Lightning",
-                "weakness": "Earth"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "188-323"
-            },
-            "elements": {},
-            "attacks": [
-                {
-                    "type": "Attack",
-                    "name": "Attack",
-                    "power": "50",
-                    "attribute": "Attack",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Speed Drop",
-                    "power": "-",
-                    "attribute": "Speed drop",
-                    "range": "Single Enemy, Area (Charged)"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Dodge",
-                    "power": "N/A",
-                    "attribute": "Dodge",
-                    "range": "Self"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Defense Drop",
-                    "power": "-",
-                    "attribute": "Defense drop",
-                    "range": "Single Enemy, Area (Charged)"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Trap",
-                    "power": "-",
-                    "attribute": "Signibble trap",
-                    "range": "Area"
-                },
-                {
-                    "type": "Soultimate Move",
-                    "name": "Tweety Tumble",
-                    "power": "-",
-                    "attribute": "Attack drop",
-                    "range": "Area"
-                },
-                {
-                    "type": "Skill",
-                    "name": "Dodge",
-                    "power": "N/A",
-                    "attribute": "Dodge",
-                    "range": "Self"
-                }
-            ]
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "188-323"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Spanish": [
-            "Sincopollo"
-        ],
-        "French": [
-            "Vertipiou"
-        ],
-        "Italian": [
-            "Stordo"
-        ],
-        "German": [
-            "Flaumtaumler"
-        ]
-    },
-    "localized_soultimates": {
-        "Spanish": [
-            "Sincopollo"
-        ],
-        "French": [
-            "Vertipiou"
-        ],
-        "Italian": [
-            "Stordo"
-        ],
-        "German": [
-            "Flaumtaumler"
-        ]
-    },
-    "description_en": "This Yo-kai always seems to be around when you've taken a hit to the noggin. It'll join you in twirling around uncontrollably.",
-    "nom_en": "Jawsome Kid",
-    "rang_yww": "E",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "ranger",
-    "plat_préféré_yww": "jus",
-    "nourriture_favorite": "jus",
-    "attitude_spécifique_yww": {
-        "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
-        "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
-        "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "土属性",
-        "_en": "earth attribute",
-        "_fr": "attribut terre"
-    },
-    "avantage_yww": {
-        "_jp": "雷属性",
-        "_en": "Lightning attribute",
-        "_fr": "Attribut de foudre"
-    },
-    "stats_initiale_yww": {
-        "hp": 32,
-        "str": 15,
-        "spr": 4,
-        "def": 9,
-        "spd": 24
-    },
-    "stats_max_yww": {
-        "hp": 279,
-        "str": 135,
-        "spr": 42,
-        "def": 99,
-        "spd": 172
-    },
-    "moyens_obtention_yww": [
-        {
-            "_jp": "お祭りコイン",
-            "_en": "festival coins",
-            "_fr": "pièces de monnaie du festival"
-        },
-        {
-            "_jp": "桃コイン",
-            "_en": "peach coin",
-            "_fr": "pièce de pêche"
-        }
+  "ID": "494",
+  "Nom": "Vertipiou",
+  "Tribue": "Mignon",
+  "Rang": "E",
+  "PV": "279",
+  "Force": "135",
+  "Esprit": "42",
+  "Défense": "99",
+  "Vitesse": "172",
+  "Description": "Quand tu te cognes la tête, ce Yo-kai est toujours dans le coin. Il titubera avec toi. Sympa, non ?",
+  "nourriture": "Jus",
+  "élément": "Foudre",
+  "Rôle": "Ranger",
+  "Biographie": "",
+  "étimologie": "Vertipiou vient de Vertige et de \"Piou\" (onomatopée pour le cri d'un poussin).",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "",
+  "personnalité": "",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/vertipiou.png",
+  "nom_original": "ピヨピヨコ",
+  "nom_anglais": "Twirly Pie",
+  "premiere_apparition": "yw3",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw3": [
+      "Cajoun- dans l'herbe",
+      "Dimension mystère- magasin mystère",
+      "Roue rêve:Pièce rose- 3e prix",
+      "Pièce rose- 3e prix"
     ],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はたく",
-                "_en": "flutter",
-                "_fr": "battement"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "電流の術",
-                "_en": "electric current technique",
-                "_fr": "technique du courant électrique"
-            },
-            "explication": {
-                "_jp": "【威力:40 / 雷属性】 雷の妖術を使う。",
-                "_en": "[Power: 40 / Lightning attribute] Uses lightning magic.",
-                "_fr": "[Puissance : 40 / Attribut Foudre] Utilise la magie de la foudre."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "ぴよぴよノックアウト",
-                "_en": "Piyo Piyo Knockout",
-                "_fr": "Piyo Piyo KO"
-            },
-            "pouvoir": "–",
-            "explication": {
-                "_jp": "目が回るオーラで敵全員を混乱させる。混乱した敵は味方をすぐにこうげきする。",
-                "_en": "Confuse all enemies with a dizzying aura. Confused enemies will quickly attack their allies.",
-                "_fr": "Confondez tous les ennemis avec une aura vertigineuse. Les ennemis confus attaqueront rapidement leurs alliés."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "ピヨらせる",
-                "_en": "make you froze",
-                "_fr": "te geler"
-            },
-            "explication": {
-                "_jp": "【混乱】 とりつかれた妖怪は目が回ってピヨり状態になり味方をすぐにこうげきする。",
-                "_en": "[Confusion] A possessed monster becomes dizzy and dazed, and immediately attacks its allies.",
-                "_fr": "[Confusion] Un monstre possédé devient étourdi et étourdi et attaque immédiatement ses alliés."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "強烈な一発にやられて 目が回るとき いっしょに ピヨピヨと回ってくれる妖怪。 なぜいっしょに回るのか 本人もピヨっててわからない。",
-            "_en": "A monster that spins around with you when you get dizzy from a powerful blow. I don't know why they're going around together because he's also freaking out.",
-            "_fr": "Un monstre qui tourne autour de vous lorsque vous êtes étourdi par un coup puissant. Je ne sais pas pourquoi ils sortent ensemble parce qu'il flippe aussi."
-        }
-    ],
-    "jeu_present": [
-        "yw3"
+    "yw Wibble Wobble": [
+      "Événements",
+      "Événement - Puni Puni 100 histoires, Passionnant festival de Hula- Stand d'échange"
     ]
+  },
+  "fusions": [],
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {
+    "yw3": [
+      {
+        "type": "Attaque",
+        "nom": "Gifle",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Technique",
+        "nom": "Décharge",
+        "puissance": "30|105",
+        "description": ""
+      },
+      {
+        "type": "Amultime",
+        "nom": "Culbute cui-cui",
+        "puissance": "___",
+        "description": "Ses yeux donnent le tournis aux ennemis et sèment la confusion."
+      },
+      {
+        "type": "Envoûtement",
+        "nom": "Désorientation",
+        "puissance": "N/A",
+        "description": "L'ennemi a la tête qui tourne et attaque ses alliés par mégarde."
+      },
+      {
+        "type": "Attaque A",
+        "nom": "Attaque",
+        "puissance": "50",
+        "description": "Attaque un ennemi proche."
+      },
+      {
+        "type": "Âmultime",
+        "nom": "Culbute cui-cui",
+        "puissance": "___",
+        "description": "Réduction ++ temporaire de l'attaque de l'ennemi."
+      },
+      {
+        "type": "Attaque X",
+        "nom": "Baisse de vitesse",
+        "puissance": "___",
+        "description": "Réduit + VIT. ennemie. Plus de portée si chargé."
+      },
+      {
+        "type": "Attaque Y",
+        "nom": "Âmunisé",
+        "puissance": "___",
+        "description": "Esquive des attaques par des déplacements rapides."
+      },
+      {
+        "type": "Talent",
+        "nom": "Talent : Cha-cha-cha",
+        "description": "Esquive toutes les attaques si envoûté par un ennemi."
+      }
+    ]
+  },
+  "soul_effects": null,
+  "drops": {
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Y-Cola"
+      },
+      {
+        "taux": "?%",
+        "objet": "Étoile dansante"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Cha-cha-cha",
+    "description": "Esquive toutes les attaques si envoûté par un ennemi."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/vertipiou.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/vertipiou.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/vertipiou.wav",
+  "oldID": "503",
+  "medallium_ids": {
+    "yw3": "210"
+  },
+  "spinoff_ids": {
+    "yw Blasters 2": "215",
+    "yw Wibble Wobble": "4142",
+    "yw World": "0321"
+  },
+  "battle_type": "",
+  "skill_name": "Keep on Movin'",
+  "skill_effect": "Befuddle",
+  "disliked_food": "Curry",
+  "global_stats": {
+    "yw3": {
+      "stats": {
+        "HP": "336",
+        "STR": "204",
+        "SPR": "79",
+        "DEF": "104",
+        "SPD": "177"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "188-323",
+        "STR": "204",
+        "SPR": "79",
+        "DEF": "104"
+      },
+      "elements": {
+        "attribute": "Lightning",
+        "weakness": "Earth"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "188-323"
+      },
+      "elements": {},
+      "attacks": [
+        {
+          "type": "Attack",
+          "name": "Attack",
+          "power": "50",
+          "attribute": "Attack",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Speed Drop",
+          "power": "-",
+          "attribute": "Speed drop",
+          "range": "Single Enemy, Area (Charged)"
+        },
+        {
+          "type": "Technique",
+          "name": "Dodge",
+          "power": "N/A",
+          "attribute": "Dodge",
+          "range": "Self"
+        },
+        {
+          "type": "Technique",
+          "name": "Defense Drop",
+          "power": "-",
+          "attribute": "Defense drop",
+          "range": "Single Enemy, Area (Charged)"
+        },
+        {
+          "type": "Technique",
+          "name": "Trap",
+          "power": "-",
+          "attribute": "Signibble trap",
+          "range": "Area"
+        },
+        {
+          "type": "Soultimate Move",
+          "name": "Tweety Tumble",
+          "power": "-",
+          "attribute": "Attack drop",
+          "range": "Area"
+        },
+        {
+          "type": "Skill",
+          "name": "Dodge",
+          "power": "N/A",
+          "attribute": "Dodge",
+          "range": "Self"
+        }
+      ]
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "188-323"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Spanish": [
+      "Sincopollo"
+    ],
+    "French": [
+      "Vertipiou"
+    ],
+    "Italian": [
+      "Stordo"
+    ],
+    "German": [
+      "Flaumtaumler"
+    ]
+  },
+  "localized_soultimates": {
+    "Spanish": [
+      "Sincopollo"
+    ],
+    "French": [
+      "Vertipiou"
+    ],
+    "Italian": [
+      "Stordo"
+    ],
+    "German": [
+      "Flaumtaumler"
+    ]
+  },
+  "description_en": "This Yo-kai always seems to be around when you've taken a hit to the noggin. It'll join you in twirling around uncontrollably.",
+  "nom_en": "Jawsome Kid",
+  "rang_yww": "E",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "ranger",
+  "plat_préféré_yww": "jus",
+  "nourriture_favorite": "jus",
+  "attitude_spécifique_yww": {
+    "_jp": "(攻撃役) 短気、荒くれ、(敵とりつき) いやらしい、非道",
+    "_en": "(Attack role) Short-tempered, rough, (Attack on enemy) Obscene, outrageous",
+    "_fr": "(Rôle d'attaque) Colérique, brutal, (Attaque contre l'ennemi) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "土属性",
+    "_en": "earth attribute",
+    "_fr": "attribut terre"
+  },
+  "avantage_yww": {
+    "_jp": "雷属性",
+    "_en": "Lightning attribute",
+    "_fr": "Attribut de foudre"
+  },
+  "stats_initiale_yww": {
+    "hp": 32,
+    "str": 15,
+    "spr": 4,
+    "def": 9,
+    "spd": 24
+  },
+  "stats_max_yww": {
+    "hp": 279,
+    "str": 135,
+    "spr": 42,
+    "def": 99,
+    "spd": 172
+  },
+  "moyens_obtention_yww": [
+    {
+      "_jp": "お祭りコイン",
+      "_en": "festival coins",
+      "_fr": "pièces de monnaie du festival"
+    },
+    {
+      "_jp": "桃コイン",
+      "_en": "peach coin",
+      "_fr": "pièce de pêche"
+    }
+  ],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "はたく",
+        "_en": "flutter",
+        "_fr": "battement"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "電流の術",
+        "_en": "electric current technique",
+        "_fr": "technique du courant électrique"
+      },
+      "explication": {
+        "_jp": "【威力:40 / 雷属性】 雷の妖術を使う。",
+        "_en": "[Power: 40 / Lightning attribute] Uses lightning magic.",
+        "_fr": "[Puissance : 40 / Attribut Foudre] Utilise la magie de la foudre."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "ぴよぴよノックアウト",
+        "_en": "Piyo Piyo Knockout",
+        "_fr": "Piyo Piyo KO"
+      },
+      "pouvoir": "–",
+      "explication": {
+        "_jp": "目が回るオーラで敵全員を混乱させる。混乱した敵は味方をすぐにこうげきする。",
+        "_en": "Confuse all enemies with a dizzying aura. Confused enemies will quickly attack their allies.",
+        "_fr": "Confondez tous les ennemis avec une aura vertigineuse. Les ennemis confus attaqueront rapidement leurs alliés."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "ピヨらせる",
+        "_en": "make you froze",
+        "_fr": "te geler"
+      },
+      "explication": {
+        "_jp": "【混乱】 とりつかれた妖怪は目が回ってピヨり状態になり味方をすぐにこうげきする。",
+        "_en": "[Confusion] A possessed monster becomes dizzy and dazed, and immediately attacks its allies.",
+        "_fr": "[Confusion] Un monstre possédé devient étourdi et étourdi et attaque immédiatement ses alliés."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "強烈な一発にやられて 目が回るとき いっしょに ピヨピヨと回ってくれる妖怪。 なぜいっしょに回るのか 本人もピヨっててわからない。",
+      "_en": "A monster that spins around with you when you get dizzy from a powerful blow. I don't know why they're going around together because he's also freaking out.",
+      "_fr": "Un monstre qui tourne autour de vous lorsque vous êtes étourdi par un coup puissant. Je ne sais pas pourquoi ils sortent ensemble parce qu'il flippe aussi."
+    }
+  ],
+  "jeu_present": [
+    "yw3"
+  ],
+  "id_yww": "485",
+  "Name_yww": "ピヨピヨコ",
+  "description_jp_yww": "強烈な一発にやられて 目が回るとき　いっしょに ピヨピヨと回ってくれる妖怪。 なぜいっしょに回るのか 本人もピヨっててわからない。",
+  "BingoMessage_jp_yww": "ピヨピヨ～！ （ガシャ玉の中は目が回る～！）",
+  "MonsterId_yww": "y554000",
+  "Height_yww": 15.92,
+  "CommondId_yww": "sp_554000",
+  "MinHp_yww": 73,
+  "MaxHp_yww": 642,
+  "MinAttack_yww": 35,
+  "MaxAttack_yww": 196,
+  "MinMagic_yww": 7,
+  "MaxMagic_yww": 78,
+  "MinDefense_yww": 41,
+  "MaxDefense_yww": 251,
+  "MinSpeed_yww": 6,
+  "MaxSpeed_yww": 41,
+  "AttackId_yww": 9,
+  "MagicId_yww": 6,
+  "HauntId_yww": 554000,
+  "SpSkillId_yww": 554000,
+  "Rank_yww": 6,
+  "FavoriteFoodKind_yww": 22,
+  "DislikeFoodKind_yww": 1,
+  "ActionType_yww": 16,
+  "TribeType_yww": 3,
+  "MedallionImage_yww": "y549800.png",
+  "SpriteImage_yww": "img_y549800.png",
+  "Audio_yww": "sp_y549800.wav",
+  "Description_yww": "Un coup violent m'a assommé, et quand j'ai le vertige, ce yōkai tourne avec moi en faisant « piou piou ». Pourquoi tourne-t-il avec moi ? Il est lui-même en train de « piou piou » et ne le sait pas non plus.",
+  "BingoMessage_fr_yww": "Pio-pio ! (J'ai le vertige à l'intérieur de la capsule à jouets !)"
 }

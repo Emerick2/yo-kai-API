@@ -1,334 +1,365 @@
 {
-    "ID": "498",
-    "Nom": "Ficheline",
-    "Tribue": "Mignon",
-    "Rang": "D",
-    "PV": "352",
-    "Force": "54",
-    "Esprit": "182",
-    "Défense": "97",
-    "Vitesse": "156",
-    "Description": "Tu dois faire tout ce qu'il y a d'écrit sur les fiches de Ficheline. Elle a l'air timide, mais ses ordres sont pleins d'assurance !",
-    "description SITE": "Tu dois faire tout ce qu'il y a d'écrit sur les fiches de Ficheline. Elle a l'air timide, mais ses ordres sont plein d'assurance !",
-    "nourriture": "Pâtes",
-    "élément": "Restauration",
-    "Rôle": "Guérisseur",
-    "Biographie": "",
-    "étimologie": "",
-    "origine": "",
-    "histoire": "",
-    "pouvoir": "...(à compléter)",
-    "personnalité": "Même si elle a l'air d'être timide, lorsqu'elle donne des ordres elle a beaucoup d'assurance.",
-    "talent": "",
-    "Technique": "",
-    "Type": "",
-    "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/ficheline.png",
-    "nom_original": "カンペちゃん",
-    "nom_anglais": "Cue-Tee",
-    "premiere_apparition": "yw3",
-    "voix": {
-        "japonaise": "Inconnue",
-        "francaise": "Inconnue",
-        "anglaise": ""
-    },
-    "localisations": {
-        "yw3": [
-            "Quête : L'heure de la fusion",
-            "Cajoun- bouches d'incendie",
-            "Mont Sylvestre- dans l'herbe"
-        ]
-    },
-    "fusions": [
-        {
-            "type": "Fusion",
-            "contexte": "yw3",
-            "parent1": "Ficheline",
-            "parent2": "Maudieuse",
-            "resultat": "Kay Mandeuse",
-            "critere": "➨"
-        }
-    ],
-    "rarite": "Commun",
-    "tribu_yw4": "N/A",
-    "attaques_par_jeu": {},
-    "soul_effects": null,
-    "drops": {
-        "yw3": [
-            {
-                "taux": "?%",
-                "objet": "Pâtes bolognaise"
-            },
-            {
-                "taux": "?%",
-                "objet": "Étoile dansante"
-            }
-        ]
-    },
-    "special_talent": {
-        "nom": "Bénédiction",
-        "description": "Rend peu à peu des PV à tous les alliés reliés."
-    },
-    "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/ficheline.png",
-    "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/ficheline.png",
-    "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/ficheline.wav",
-    "oldID": "507",
-    "medallium_ids": {
-        "yw3": "238"
-    },
-    "spinoff_ids": {
-        "yw Blasters 2": "243",
-        "yw Wibble Wobble": "4107",
-        "yw World": "0329"
-    },
-    "battle_type": "",
-    "skill_name": "Prayer",
-    "skill_effect": "Cue-Tee's Choice",
-    "disliked_food": "Curry",
-    "global_stats": {
-        "yw3": {
-            "stats": {
-                "HP": "353",
-                "STR": "84",
-                "SPR": "195",
-                "DEF": "131",
-                "SPD": "161"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "yw Blasters 2": {
-            "stats": {
-                "HP": "223-390",
-                "STR": "84",
-                "SPR": "195",
-                "DEF": "131"
-            },
-            "elements": {
-                "attribute": "Fire",
-                "weakness": "Water"
-            },
-            "attacks": []
-        },
-        "Moveset": {
-            "stats": {
-                "HP": "223-390"
-            },
-            "elements": {},
-            "attacks": [
-                {
-                    "type": "Attack",
-                    "name": "Attack",
-                    "power": "50",
-                    "attribute": "Attack",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Restore",
-                    "power": "80, 130 (Charged)",
-                    "attribute": "Restoration",
-                    "range": "Single ally"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Attack Boost",
-                    "power": "-",
-                    "attribute": "Attack boost",
-                    "range": "Single ally, Area (Charged)"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Circle Restore",
-                    "power": "80 (70 charged)",
-                    "attribute": "Circle restore",
-                    "range": "Single ally, Area (Charged)"
-                },
-                {
-                    "type": "Technique",
-                    "name": "Fire",
-                    "power": "40, 100 (Charged)",
-                    "attribute": "Fire",
-                    "range": "Single enemy"
-                },
-                {
-                    "type": "Soultimate Move",
-                    "name": "Be Gentle!",
-                    "power": "N/A",
-                    "attribute": "All stats down",
-                    "range": "Area"
-                },
-                {
-                    "type": "Skill",
-                    "name": "You First",
-                    "power": "N/A",
-                    "attribute": "None",
-                    "range": ""
-                }
-            ]
-        },
-        "yw Wibble Wobble": {
-            "stats": {
-                "HP": "223-390"
-            },
-            "elements": {},
-            "attacks": []
-        }
-    },
-    "localized_names": {
-        "Japanese": [
-            "カンペちゃん",
-            "Kanpe-chan"
-        ],
-        "Spanish": [
-            "Tomanota"
-        ],
-        "Italian": [
-            "Ordinia"
-        ],
-        "German": [
-            "Regiena"
-        ],
-        "Korean": [
-            "시키는걸",
-            "Sikineungeol"
-        ],
-        "Chinese (Mandarin)": [
-            "大字報女孩"
-        ]
-    },
-    "localized_soultimates": {
-        "Japanese": [
-            "カンペちゃん"
-        ],
-        "Spanish": [
-            "Tomanota"
-        ],
-        "Italian": [
-            "Ordinia"
-        ],
-        "German": [
-            "Regiena"
-        ],
-        "Korean": [
-            "시키는걸"
-        ],
-        "Chinese (Mandarin)": [
-            "大字報女孩"
-        ]
-    },
-    "description_en": "Cue-Tee's cue cards make you do whatever is written on them! She might look shy, but her orders can be pretty harsh!",
-    "nom_en": "Petty-Cake",
-    "rang_yww": "D",
-    "tribue_yww": "Pritchie",
-    "rôle_yww": "guérisseur",
-    "plat_préféré_yww": "pâtes",
-    "nourriture_favorite": "pâtes",
-    "attitude_spécifique_yww": {
-        "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
-        "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
-        "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
-    },
-    "faiblesse_yww": {
-        "_jp": "水属性",
-        "_en": "water attribute",
-        "_fr": "attribut de l'eau"
-    },
-    "avantage_yww": {
-        "_jp": "火属性",
-        "_en": "fire attribute",
-        "_fr": "attribut de feu"
-    },
-    "stats_initiale_yww": {
-        "hp": 40,
-        "str": 6,
-        "spr": 23,
-        "def": 9,
-        "spd": 23
-    },
-    "stats_max_yww": {
-        "hp": 352,
-        "str": 54,
-        "spr": 182,
-        "def": 97,
-        "spd": 156
-    },
-    "moyens_obtention_yww": [],
-    "attaque_magie_yww": [
-        {
-            "type": {
-                "_jp": "こうげき",
-                "_en": "Kougeki",
-                "_fr": "Kougeki"
-            },
-            "nom": {
-                "_jp": "はたく",
-                "_en": "flutter",
-                "_fr": "battement"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
-                "_en": "[Power: 30/Blow] Deals damage to one enemy.",
-                "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
-            }
-        },
-        {
-            "type": {
-                "_jp": "ようじゅつ",
-                "_en": "Yojutsu",
-                "_fr": "Yojutsu"
-            },
-            "nom": {
-                "_jp": "いやしの術",
-                "_en": "Healing techniques",
-                "_fr": "Techniques de guérison"
-            },
-            "explication": {
-                "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
-                "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
-                "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
-            }
-        }
-    ],
-    "mouvement_spécial_yww": [
-        {
-            "nom": {
-                "_jp": "お手柔らかに！",
-                "_en": "Be gentle!",
-                "_fr": "Soyez doux !"
-            },
-            "pouvoir": "0",
-            "explication": {
-                "_jp": "逆らうことのできないカンペで敵全体に手加減の指示を出し全ステータスをダウンさせる。",
-                "_en": "With a counterattack that cannot be resisted, he instructs all enemies to be gentle and lowers all their stats.",
-                "_fr": "Avec une contre-attaque à laquelle on ne peut résister, il demande à tous les ennemis d'être doux et réduit toutes leurs statistiques."
-            }
-        }
-    ],
-    "posséder_yww": [
-        {
-            "nom": {
-                "_jp": "カンペだよりにする",
-                "_en": "Make it a campaign newsletter",
-                "_fr": "Faites-en un bulletin de campagne"
-            },
-            "explication": {
-                "_jp": "【おさぼり】 とりつかれた妖怪は何でもカンペをたよってたまに行動しなくなる。",
-                "_en": "[Osabori] Possessed monsters do whatever they want and sometimes stop acting.",
-                "_fr": "[Osabori] Les monstres possédés font ce qu'ils veulent et arrêtent parfois d'agir."
-            }
-        }
-    ],
-    "explication_yww": [
-        {
-            "_jp": "カンペちゃんにカンペで指示を 出された相手は その通りに しなければならない。ふだんは 無口で恥ずかしがりの妖怪だが カンペの内容はけっこうキツめ。",
-            "_en": "The person who receives instructions from Kanpe-chan must do as instructed. She's usually a quiet and shy monster, but her contests are pretty tough.",
-            "_fr": "La personne qui reçoit les instructions de Kanpe-chan doit faire ce qui lui est demandé. C'est généralement un monstre calme et timide, mais ses concours sont assez difficiles."
-        }
-    ],
-    "jeu_present": [
-        "yw3"
+  "ID": "498",
+  "Nom": "Ficheline",
+  "Tribue": "Mignon",
+  "Rang": "D",
+  "PV": "352",
+  "Force": "54",
+  "Esprit": "182",
+  "Défense": "97",
+  "Vitesse": "156",
+  "Description": "Tu dois faire tout ce qu'il y a d'écrit sur les fiches de Ficheline. Elle a l'air timide, mais ses ordres sont pleins d'assurance !",
+  "description SITE": "Tu dois faire tout ce qu'il y a d'écrit sur les fiches de Ficheline. Elle a l'air timide, mais ses ordres sont plein d'assurance !",
+  "nourriture": "Pâtes",
+  "élément": "Restauration",
+  "Rôle": "Guérisseur",
+  "Biographie": "",
+  "étimologie": "",
+  "origine": "",
+  "histoire": "",
+  "pouvoir": "...(à compléter)",
+  "personnalité": "Même si elle a l'air d'être timide, lorsqu'elle donne des ordres elle a beaucoup d'assurance.",
+  "talent": "",
+  "Technique": "",
+  "Type": "",
+  "image_url": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/picture/ficheline.png",
+  "nom_original": "カンペちゃん",
+  "nom_anglais": "Cue-Tee",
+  "premiere_apparition": "yw3",
+  "voix": {
+    "japonaise": "Inconnue",
+    "francaise": "Inconnue",
+    "anglaise": ""
+  },
+  "localisations": {
+    "yw3": [
+      "Quête : L'heure de la fusion",
+      "Cajoun- bouches d'incendie",
+      "Mont Sylvestre- dans l'herbe"
     ]
+  },
+  "fusions": [
+    {
+      "type": "Fusion",
+      "contexte": "yw3",
+      "parent1": "Ficheline",
+      "parent2": "Maudieuse",
+      "resultat": "Kay Mandeuse",
+      "critere": "➨"
+    }
+  ],
+  "rarite": "Commun",
+  "tribu_yw4": "N/A",
+  "attaques_par_jeu": {},
+  "soul_effects": null,
+  "drops": {
+    "yw3": [
+      {
+        "taux": "?%",
+        "objet": "Pâtes bolognaise"
+      },
+      {
+        "taux": "?%",
+        "objet": "Étoile dansante"
+      }
+    ]
+  },
+  "special_talent": {
+    "nom": "Bénédiction",
+    "description": "Rend peu à peu des PV à tous les alliés reliés."
+  },
+  "medals": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/medals/ficheline.png",
+  "face": "https://emerick2.github.io/yo-kai-API/img/yo-kai_img/face/ficheline.png",
+  "song": "https://emerick2.github.io/yo-kai-API/song/yo-kai-song/ficheline.wav",
+  "oldID": "507",
+  "medallium_ids": {
+    "yw3": "238"
+  },
+  "spinoff_ids": {
+    "yw Blasters 2": "243",
+    "yw Wibble Wobble": "4107",
+    "yw World": "0329"
+  },
+  "battle_type": "",
+  "skill_name": "Prayer",
+  "skill_effect": "Cue-Tee's Choice",
+  "disliked_food": "Curry",
+  "global_stats": {
+    "yw3": {
+      "stats": {
+        "HP": "353",
+        "STR": "84",
+        "SPR": "195",
+        "DEF": "131",
+        "SPD": "161"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "yw Blasters 2": {
+      "stats": {
+        "HP": "223-390",
+        "STR": "84",
+        "SPR": "195",
+        "DEF": "131"
+      },
+      "elements": {
+        "attribute": "Fire",
+        "weakness": "Water"
+      },
+      "attacks": []
+    },
+    "Moveset": {
+      "stats": {
+        "HP": "223-390"
+      },
+      "elements": {},
+      "attacks": [
+        {
+          "type": "Attack",
+          "name": "Attack",
+          "power": "50",
+          "attribute": "Attack",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Technique",
+          "name": "Restore",
+          "power": "80, 130 (Charged)",
+          "attribute": "Restoration",
+          "range": "Single ally"
+        },
+        {
+          "type": "Technique",
+          "name": "Attack Boost",
+          "power": "-",
+          "attribute": "Attack boost",
+          "range": "Single ally, Area (Charged)"
+        },
+        {
+          "type": "Technique",
+          "name": "Circle Restore",
+          "power": "80 (70 charged)",
+          "attribute": "Circle restore",
+          "range": "Single ally, Area (Charged)"
+        },
+        {
+          "type": "Technique",
+          "name": "Fire",
+          "power": "40, 100 (Charged)",
+          "attribute": "Fire",
+          "range": "Single enemy"
+        },
+        {
+          "type": "Soultimate Move",
+          "name": "Be Gentle!",
+          "power": "N/A",
+          "attribute": "All stats down",
+          "range": "Area"
+        },
+        {
+          "type": "Skill",
+          "name": "You First",
+          "power": "N/A",
+          "attribute": "None",
+          "range": ""
+        }
+      ]
+    },
+    "yw Wibble Wobble": {
+      "stats": {
+        "HP": "223-390"
+      },
+      "elements": {},
+      "attacks": []
+    }
+  },
+  "localized_names": {
+    "Japanese": [
+      "カンペちゃん",
+      "Kanpe-chan"
+    ],
+    "Spanish": [
+      "Tomanota"
+    ],
+    "Italian": [
+      "Ordinia"
+    ],
+    "German": [
+      "Regiena"
+    ],
+    "Korean": [
+      "시키는걸",
+      "Sikineungeol"
+    ],
+    "Chinese (Mandarin)": [
+      "大字報女孩"
+    ]
+  },
+  "localized_soultimates": {
+    "Japanese": [
+      "カンペちゃん"
+    ],
+    "Spanish": [
+      "Tomanota"
+    ],
+    "Italian": [
+      "Ordinia"
+    ],
+    "German": [
+      "Regiena"
+    ],
+    "Korean": [
+      "시키는걸"
+    ],
+    "Chinese (Mandarin)": [
+      "大字報女孩"
+    ]
+  },
+  "description_en": "Cue-Tee's cue cards make you do whatever is written on them! She might look shy, but her orders can be pretty harsh!",
+  "nom_en": "Petty-Cake",
+  "rang_yww": "D",
+  "tribue_yww": "Pritchie",
+  "rôle_yww": "guérisseur",
+  "plat_préféré_yww": "pâtes",
+  "nourriture_favorite": "pâtes",
+  "attitude_spécifique_yww": {
+    "_jp": "(回復役) やさしい、情け深い、(敵とりつき) いやらしい、非道",
+    "_en": "(Recovery role) Kind, compassionate, (Enemy grip) Obscene, outrageous",
+    "_fr": "(Rôle de récupération) Gentil, compatissant, (Poignée ennemie) Obscène, scandaleux"
+  },
+  "faiblesse_yww": {
+    "_jp": "水属性",
+    "_en": "water attribute",
+    "_fr": "attribut de l'eau"
+  },
+  "avantage_yww": {
+    "_jp": "火属性",
+    "_en": "fire attribute",
+    "_fr": "attribut de feu"
+  },
+  "stats_initiale_yww": {
+    "hp": 40,
+    "str": 6,
+    "spr": 23,
+    "def": 9,
+    "spd": 23
+  },
+  "stats_max_yww": {
+    "hp": 352,
+    "str": 54,
+    "spr": 182,
+    "def": 97,
+    "spd": 156
+  },
+  "moyens_obtention_yww": [],
+  "attaque_magie_yww": [
+    {
+      "type": {
+        "_jp": "こうげき",
+        "_en": "Kougeki",
+        "_fr": "Kougeki"
+      },
+      "nom": {
+        "_jp": "はたく",
+        "_en": "flutter",
+        "_fr": "battement"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 打撃】 敵1体にダメージを与える",
+        "_en": "[Power: 30/Blow] Deals damage to one enemy.",
+        "_fr": "[Puissance : 30/Coup] Inflige des dégâts à un ennemi."
+      }
+    },
+    {
+      "type": {
+        "_jp": "ようじゅつ",
+        "_en": "Yojutsu",
+        "_fr": "Yojutsu"
+      },
+      "nom": {
+        "_jp": "いやしの術",
+        "_en": "Healing techniques",
+        "_fr": "Techniques de guérison"
+      },
+      "explication": {
+        "_jp": "【威力:30 / 回復】 味方のHPを回復する。",
+        "_en": "[Power: 30 / Recovery] Recovers allies' HP.",
+        "_fr": "[Puissance : 30 / Récupération] Récupère les PV des alliés."
+      }
+    }
+  ],
+  "mouvement_spécial_yww": [
+    {
+      "nom": {
+        "_jp": "お手柔らかに！",
+        "_en": "Be gentle!",
+        "_fr": "Soyez doux !"
+      },
+      "pouvoir": "0",
+      "explication": {
+        "_jp": "逆らうことのできないカンペで敵全体に手加減の指示を出し全ステータスをダウンさせる。",
+        "_en": "With a counterattack that cannot be resisted, he instructs all enemies to be gentle and lowers all their stats.",
+        "_fr": "Avec une contre-attaque à laquelle on ne peut résister, il demande à tous les ennemis d'être doux et réduit toutes leurs statistiques."
+      }
+    }
+  ],
+  "posséder_yww": [
+    {
+      "nom": {
+        "_jp": "カンペだよりにする",
+        "_en": "Make it a campaign newsletter",
+        "_fr": "Faites-en un bulletin de campagne"
+      },
+      "explication": {
+        "_jp": "【おさぼり】 とりつかれた妖怪は何でもカンペをたよってたまに行動しなくなる。",
+        "_en": "[Osabori] Possessed monsters do whatever they want and sometimes stop acting.",
+        "_fr": "[Osabori] Les monstres possédés font ce qu'ils veulent et arrêtent parfois d'agir."
+      }
+    }
+  ],
+  "explication_yww": [
+    {
+      "_jp": "カンペちゃんにカンペで指示を 出された相手は その通りに しなければならない。ふだんは 無口で恥ずかしがりの妖怪だが カンペの内容はけっこうキツめ。",
+      "_en": "The person who receives instructions from Kanpe-chan must do as instructed. She's usually a quiet and shy monster, but her contests are pretty tough.",
+      "_fr": "La personne qui reçoit les instructions de Kanpe-chan doit faire ce qui lui est demandé. C'est généralement un monstre calme et timide, mais ses concours sont assez difficiles."
+    }
+  ],
+  "jeu_present": [
+    "yw3"
+  ],
+  "id_yww": "489",
+  "Name_yww": "カンペちゃん",
+  "description_jp_yww": "カンペちゃんにカンペで指示を 出された相手は　その通りに しなければならない。ふだんは 無口で恥ずかしがりの妖怪だが カンペの内容はけっこうキツめ。",
+  "BingoMessage_jp_yww": "…… 『カンペ通りに動いてよね』",
+  "MonsterId_yww": "y557000",
+  "Height_yww": 6.89,
+  "CommondId_yww": "sp_557000",
+  "MinHp_yww": 37,
+  "MaxHp_yww": 311,
+  "MinAttack_yww": 6,
+  "MaxAttack_yww": 54,
+  "MinMagic_yww": 21,
+  "MaxMagic_yww": 183,
+  "MinDefense_yww": 10,
+  "MaxDefense_yww": 86,
+  "MinSpeed_yww": 15,
+  "MaxSpeed_yww": 138,
+  "AttackId_yww": 10,
+  "MagicId_yww": 22,
+  "HauntId_yww": 557000,
+  "SpSkillId_yww": 557000,
+  "Rank_yww": 1,
+  "FavoriteFoodKind_yww": 14,
+  "DislikeFoodKind_yww": 17,
+  "ActionType_yww": 15,
+  "TribeType_yww": 4,
+  "MedallionImage_yww": "y552800.png",
+  "SpriteImage_yww": "img_y552800.png",
+  "Audio_yww": "sp_y552800.wav",
+  "Description_yww": "La personne à qui Kame-chan donne des instructions à l'aide de ses fiches doit s'y conformer à la lettre. C'est un yōkai d'ordinaire taciturne et timide, mais le contenu de ses fiches est plutôt sévère.",
+  "BingoMessage_fr_yww": "…… « Fais bien attention à suivre le script, d'accord ? »"
 }
