@@ -5,18 +5,18 @@
     "purchasePrice": 0.0,
     "sellingPrice": 50.0,
     "description": "L'âme d'un général légendaire. Liée à un Yo-kai spécifique.",
-    "type":"Objet de fusion",
+    "type": "Objet de fusion",
     "nom_original": "大将の魂",
     "nom_anglais": "General's Soul",
-    "localisation" : {
-        "yw1" : [
+    "localisation": {
+        "yw1": [
             "Au Troc safari en échange de 2 petites biches★ et 3 marlins★ (une seule disponible)",
             "Terr'heure - coffres (disponible uniquement après avoir obtenu celle du Troc safari)"
         ],
-        "yw2" : [
+        "yw2": [
             "Au Troc safari contre 1800 ps"
         ],
-        "yw3" : [
+        "yw3": [
             "Troc safari - avoir attrapé 100 insectes",
             "Au Troc safari contre 2000 ps"
         ]
@@ -29,6 +29,28 @@
             "parent2": "Âme du général",
             "resultat": "Scarmouche",
             "critere": ""
+        }
+    ],
+    "englishName": "The General's Soul",
+    "originalName": "大将の魂",
+    "location": {
+        "yw1": [
+            "AuTroc safarien échange de 2petites biches★et 3marlins★(une seule disponible)",
+            "Terr'heure- coffres (disponible uniquement après avoir obtenu celle du Troc safari)"
+        ],
+        "yw3": [
+            "Troc safari - avoir attrapé 100 insectes",
+            "Au Troc safari contre 2000 ps"
+        ]
+    },
+    "fusion": [
+        {
+            "item1": "Scatcheur",
+            "quantity1": 1,
+            "item2": "Âme du général",
+            "quantity2": 1,
+            "item3": "Scarmouche",
+            "quantity3": 1
         }
     ]
 }
